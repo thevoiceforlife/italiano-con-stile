@@ -90,8 +90,45 @@ const QUESTIONS = [
       err: "Ci siamo quasi! 'Sempre dritto' — ricordalo, lo sentirai mille volte! / Almost there! 'Sempre dritto' — remember it, you'll hear it a thousand times!",
     },
   },
+  {
+    id: 4,
+    character: "mario",
+    intro: "Senti qua... / Listen up...",
+    introIT: "Senti qua, questa è importante.",
+    question: "Come si chiede 'quanto ci vuole a piedi?'",
+    questionEN: "How do you ask 'how long does it take on foot?'",
+    options: [
+      "Quanto tempo a piedi?",
+      "Quanto ci vuole a piedi?",
+      "Come si va a piedi?",
+      "È lontano a piedi?",
+    ],
+    correct: 1,
+    feedback: {
+      ok: "Perfetto! 'Quanto ci vuole a piedi?' è la forma più naturale e comune. / Perfect! 'Quanto ci vuole a piedi?' is the most natural and common form.",
+      err: "Quasi! La forma più italiana è 'Quanto ci vuole a piedi?' — 'ci vuole' significa 'it takes'. / Almost! The most Italian form is 'Quanto ci vuole a piedi?' — 'ci vuole' means 'it takes'.",
+    },
+  },
+  {
+    id: 5,
+    character: "mario",
+    intro: "Ultima domanda... / Last question...",
+    introIT: "Ultima domanda — e poi sei pronto!",
+    question: "Come si dice 'it's near here' in italiano?",
+    questionEN: "How do you say 'it's near here' in Italian?",
+    options: [
+      "È lontano da qui",
+      "È vicino a qui",
+      "È qui vicino",
+      "Sta vicino",
+    ],
+    correct: 2,
+    feedback: {
+      ok: "Esatto! 'È qui vicino' — letteralmente 'it's here near'. Naturale e usatissimo. / Exactly! 'È qui vicino' — literally 'it's here near'. Natural and very common.",
+      err: "Attenzione! Si dice 'è qui vicino' — non 'è vicino a qui'. L'ordine delle parole è diverso dall'inglese! / Watch out! You say 'è qui vicino' — not 'è vicino a qui'. Word order is different from English!",
+    },
+  },
 ];
-
 function playSound(type) {
   try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -156,7 +193,7 @@ export default function Lesson2() {
       playSound("correct");
       setAnimFeedback("ok");
     } else {
-      setLives((l) => l - 1);
+      setLives((l) => l - 0.5);
       playSound("wrong");
       setAnimFeedback("err");
     }

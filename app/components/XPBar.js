@@ -3,19 +3,43 @@ import { useState, useEffect } from "react";
 
 const MAX_XP = 100;
 
+function readProgress() {
+  try {
+    const saved = localStorage.getItem("ics_progress");
+    if (saved) {
+      const data = JSON.parse(saved);
+      return {
+        xp: data.xp ?? 0,
+        lives: data.lives ?? 5,
+        streak: data.streak ?? 0,
+      };
+    }
+  } catch (e) {}
+  return { xp: 0, lives: 5, streak: 0 };
+}
+
 export default function XPBar() {
   const [xp, setXp] = useState(0);
   const [lives, setLives] = useState(5);
   const [streak, setStreak] = useState(0);
 
+  function refresh() {
+    const d = readProgress();
+    setXp(d.xp);
+    setLives(d.lives);
+    setStreak(d.streak);
+  }
+
   useEffect(() => {
-    const saved = localStorage.getItem("ics_progress");
-    if (saved) {
-      const data = JSON.parse(saved);
-      setXp(data.xp ?? 0);
-      setLives(data.lives ?? 5);
-      setStreak(data.streak ?? 0);
-    }
+    refresh();
+    // aggiorna quando si torna sulla tab
+    window.addEventListener("focus", refresh);
+    // aggiorna quando localStorage cambia da un'altra tab
+    window.addEventListener("storage", refresh);
+    return () => {
+      window.removeEventListener("focus", refresh);
+      window.removeEventListener("storage", refresh);
+    };
   }, []);
 
   const percent = Math.min(Math.round((xp / MAX_XP) * 100), 100);

@@ -8,31 +8,34 @@ import CharacterBubble, {
 
 const VOCAB = [
   {
-    id: "caffe",
-    emoji: "☕",
-    it: "il caffè",
-    en: "espresso / coffee",
+    id: "peperone",
+    emoji: "🫑",
+    it: "il peperone",
+    en: "bell pepper",
     mario:
-      "Al bar si dice solo 'un caffè' — niente 'espresso'. / At the bar you just say 'un caffè' — not 'espresso'.",
-    marioIT: "Al bar si dice solo un caffè, niente espresso.",
+      "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo! / Watch out! Peperone is not pizza pepperoni. It's the green, red, yellow bell pepper!",
+    marioIT:
+      "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo!",
   },
   {
-    id: "cornetto",
-    emoji: "🥐",
-    it: "il cornetto",
-    en: "croissant / brioche",
+    id: "primo",
+    emoji: "🍝",
+    it: "il primo",
+    en: "first course (pasta/risotto)",
     mario:
-      "Non è un gelato! Il cornetto si mangia a colazione. / It's not ice cream! Cornetto is eaten at breakfast.",
-    marioIT: "Non è un gelato! Il cornetto si mangia a colazione.",
+      "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta! / In Italy you eat in order: starter, first course, main, dessert. No skipping!",
+    marioIT:
+      "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta!",
   },
   {
-    id: "te",
-    emoji: "🍵",
-    it: "il tè",
-    en: "tea",
+    id: "conto",
+    emoji: "🧾",
+    it: "il conto",
+    en: "the bill",
     mario:
-      "Al bar italiano il tè non è popolare — ma esiste! / Tea isn't popular at Italian bars — but it exists!",
-    marioIT: "Al bar italiano il tè non è popolare, ma esiste.",
+      "Per chiedere il conto si dice: 'Ci porta il conto, per favore?' — mai schioccare le dita! / To ask for the bill say: 'Ci porta il conto, per favore?' — never snap your fingers!",
+    marioIT:
+      "Per chiedere il conto si dice: Ci porta il conto, per favore? Mai schioccare le dita!",
   },
 ];
 
@@ -42,56 +45,57 @@ const QUESTIONS = [
     character: "mario",
     intro: "Senti qua... / Listen up...",
     introIT: "Senti qua...",
-    question: "Come si ordina un caffè al bar italiano?",
-    questionEN: "How do you order a coffee at an Italian bar?",
+    question: "Qual è l'ordine corretto dei piatti in Italia?",
+    questionEN: "What is the correct order of courses in Italy?",
     options: [
-      "Un caffè, per favore",
-      "One espresso please",
-      "Voglio un caffè",
-      "Dammi un caffè",
+      "Primo, secondo, antipasto, dolce",
+      "Antipasto, primo, secondo, dolce",
+      "Secondo, primo, dolce",
+      "Non c'è un ordine fisso",
     ],
-    correct: 0,
+    correct: 1,
     feedback: {
-      ok: "Esatto! Breve e diretto. Al bancone si dice così. / Exactly! Short and direct. That's how you say it at the counter.",
-      err: "Attenzione! 'Voglio' è troppo diretto. 'Per favore' fa tutta la differenza. / Watch out! 'Voglio' is too blunt. 'Per favore' makes all the difference.",
+      ok: "Esatto! L'ordine è sacro in Italia — antipasto, primo, secondo, dolce. Non si negozia. / Exactly! The order is sacred in Italy — starter, first, main, dessert. Non-negotiable.",
+      err: "Attenzione! In Italia l'ordine dei piatti è una tradizione seria. Antipasto prima di tutto! / Watch out! In Italy the order of courses is a serious tradition. Antipasto first!",
     },
   },
   {
     id: 2,
-    character: "mario",
-    intro: "Attenzione però... / Be careful though...",
-    introIT: "Attenzione però...",
-    question: "Cosa è il 'cornetto' in Italia?",
-    questionEN: "What is a 'cornetto' in Italy?",
+    character: "gino",
+    intro:
+      "Vedi, c'è una storia bellissima... / You see, there's a wonderful story...",
+    introIT: "Vedi, c'è una storia bellissima dietro questa parola...",
+    question: "In italiano, 'peperoni' sulla pizza significa...?",
+    questionEN: "In Italian, 'peperoni' on a pizza means...?",
     options: [
-      "Un gelato",
-      "Una brioche a colazione",
-      "Un cornet musicale",
-      "Una pasta sfoglia salata",
+      "Salame piccante (come in America)",
+      "Peperoni colorati — non il salame!",
+      "Una pizza speciale napoletana",
+      "Qualsiasi tipo di carne",
     ],
     correct: 1,
     feedback: {
-      ok: "Bravo! Il cornetto è la brioche della colazione italiana — non il gelato! / Well done! Cornetto is the breakfast brioche — not ice cream!",
-      err: "Sembra 'cornet' ma è una brioche! In Italia il cornetto si mangia a colazione. / Looks like 'cornet' but it's a brioche! Cornetto is eaten at breakfast.",
+      ok: "Bravo! 'Peperoni' in italiano sono i peperoni colorati. Il salame piccante americano si chiama 'salame piccante' — parola inglese! / Well done! 'Peperoni' in Italian are bell peppers. The American spicy salami is an English word!",
+      err: "Falso amico! Se ordini 'pizza ai peperoni' in Italia, arriva con i peperoni colorati — non il salame. / False friend! If you order 'pizza ai peperoni' in Italy, you get bell peppers — not salami.",
     },
   },
   {
     id: 3,
     character: "mario",
-    intro: "Sai come funziona il bar? / Do you know how a bar works?",
-    introIT: "Sai come funziona il bar?",
-    question: "In un bar italiano, dove si paga?",
-    questionEN: "At an Italian bar, where do you pay?",
+    intro: "E per finire... / And finally...",
+    introIT: "E per finire, una cosa importante al ristorante...",
+    question: "Come si chiede il conto al ristorante in Italia?",
+    questionEN: "How do you ask for the bill at a restaurant in Italy?",
     options: [
-      "Prima al bancone",
-      "Dopo aver bevuto",
-      "Prima alla cassa, poi al bancone",
-      "Non si paga",
+      "Schioccare le dita al cameriere",
+      "Ci porta il conto, per favore?",
+      "Check please!",
+      "Alzarsi e andare alla cassa",
     ],
-    correct: 2,
+    correct: 1,
     feedback: {
-      ok: "Perfetto! Prima paghi alla cassa, prendi lo scontrino, poi ordini al bancone. / Perfect! First pay at the till, get your receipt, then order at the counter.",
-      err: "Meglio tardi che mai! Prima cassa, poi bancone — sempre. / Better late than never! Till first, then counter — always.",
+      ok: "Perfetto! 'Ci porta il conto, per favore?' — educato, diretto, italiano al 100%. / Perfect! 'Ci porta il conto, per favore?' — polite, direct, 100% Italian.",
+      err: "Meglio tardi che mai! Schioccare le dita è molto maleducato in Italia. Sempre 'per favore'! / Better late than never! Snapping your fingers is very rude in Italy. Always 'per favore'!",
     },
   },
   {
@@ -99,38 +103,32 @@ const QUESTIONS = [
     character: "mario",
     intro: "Sembra X ma è Y... / Looks like X but it's Y...",
     introIT: "Sembra X ma è Y — te lo dico io.",
-    question: "Quando si beve il cappuccino in Italia?",
-    questionEN: "When do Italians drink cappuccino?",
+    question: "Cosa è il 'coperto' al ristorante?",
+    questionEN: "What is the 'coperto' at a restaurant?",
     options: [
-      "Solo a colazione — mai dopo pranzo",
-      "In qualsiasi momento della giornata",
-      "Solo la sera",
-      "Solo nei bar di lusso",
+      "Il coperchio della pentola",
+      "Una tassa sul tavolo per pane e servizio",
+      "Il menu del giorno",
+      "Il dolce incluso nel pasto",
     ],
-    correct: 0,
+    correct: 1,
     feedback: {
-      ok: "Esatto! Il cappuccino è bevanda da colazione. Ordinarlo dopo pranzo fa alzare un sopracciglio a ogni italiano. / Exactly! Cappuccino is a breakfast drink. Ordering it after lunch raises every Italian's eyebrow.",
-      err: "Attenzione! In Italia il cappuccino si beve solo a colazione. Dopo i pasti si ordina un caffè — mai un cappuccino! / Watch out! In Italy cappuccino is only for breakfast. After meals you order an espresso — never a cappuccino!",
+      ok: "Esatto! Il coperto è una piccola tassa per posto a tavola — include il pane e il servizio. Normale in Italia, non è una truffa! / Exactly! The coperto is a small cover charge — it includes bread and service. Normal in Italy, not a scam!",
+      err: "Attenzione! Il coperto non è il coperchio — è una piccola tassa per posto a tavola. Tra 1 e 3 euro a persona, normalissimo. / Watch out! Coperto isn't a lid — it's a small cover charge per person. Between 1 and 3 euros, perfectly normal.",
     },
   },
   {
     id: 5,
     character: "mario",
-    intro: "Meglio tardi che mai... / Better late than never...",
-    introIT: "Meglio tardi che mai — questa la devi sapere.",
-    question: "Al bar, stare al bancone costa come stare seduti?",
-    questionEN:
-      "At a bar, does standing at the counter cost the same as sitting down?",
-    options: [
-      "Sì, il prezzo è sempre uguale",
-      "No, seduti si paga di più",
-      "No, al bancone si paga di più",
-      "Dipende dalla città",
-    ],
+    intro: "Ultima cosa... / One last thing...",
+    introIT: "Ultima cosa, e poi sei pronto per qualsiasi ristorante italiano!",
+    question: "Dopo il pranzo, un italiano ordina spesso...?",
+    questionEN: "After lunch, an Italian often orders...?",
+    options: ["Un cappuccino", "Un caffè", "Una birra", "Un succo di frutta"],
     correct: 1,
     feedback: {
-      ok: "Bravo! Al bancone si paga meno — è la regola del bar italiano. I turisti seduti pagano il servizio al tavolo. / Well done! Standing at the counter costs less — that's the Italian bar rule. Tourists sitting down pay table service.",
-      err: "Sembra X ma è Y! Seduti si paga di più per il servizio al tavolo. Al bancone è sempre più economico. / Looks like X but it's Y! Sitting costs more for table service. At the counter it's always cheaper.",
+      ok: "Perfetto! Dopo i pasti si ordina sempre un caffè — mai un cappuccino. Il cappuccino è solo per la mattina! / Perfect! After meals you always order an espresso — never a cappuccino. Cappuccino is only for the morning!",
+      err: "Ricorda: il cappuccino è solo per la mattina! Dopo pranzo o cena, gli italiani ordinano sempre un caffè. / Remember: cappuccino is only for the morning! After lunch or dinner, Italians always order an espresso.",
     },
   },
 ];
@@ -160,7 +158,7 @@ function playSound(type) {
   } catch (e) {}
 }
 
-export default function Lesson1() {
+export default function Lesson3() {
   const router = useRouter();
   const [fase, setFase] = useState("intro");
   const [toccate, setToccate] = useState(new Set());
@@ -295,7 +293,7 @@ export default function Lesson1() {
           padding: "24px",
         }}
       >
-        <div style={{ fontSize: "64px", marginBottom: "16px" }}>🎉</div>
+        <div style={{ fontSize: "64px", marginBottom: "16px" }}>🍕</div>
         <h1
           style={{
             fontSize: "26px",
@@ -314,7 +312,8 @@ export default function Lesson1() {
             fontSize: "15px",
           }}
         >
-          Hai risposto a tutte le domande. / You answered all the questions.
+          Ora sai mangiare come un italiano. / Now you know how to eat like an
+          Italian.
         </p>
         <div style={{ display: "flex", gap: "16px", marginBottom: "32px" }}>
           <div
@@ -361,8 +360,8 @@ export default function Lesson1() {
         <div style={{ marginBottom: "32px", maxWidth: "320px" }}>
           <CharacterBubble
             character="mario"
-            text="Bravo! Ora conosci le parole del bar italiano. / Well done! Now you know the Italian bar words."
-            speakText="Bravo! Ora conosci le parole del bar italiano."
+            text="Bravissimo! Ora al ristorante italiano non farai più brutte figure. / Excellent! Now you won't embarrass yourself at an Italian restaurant."
+            speakText="Bravissimo! Ora al ristorante italiano non farai più brutte figure."
             autoSpeak={true}
           />
         </div>
@@ -412,8 +411,8 @@ export default function Lesson1() {
         >
           <CharacterBubble
             character="mario"
-            text="Oggi impariamo 3 parole del bar. Tocca ogni parola! / Today we learn 3 bar words. Tap each one!"
-            speakText="Oggi impariamo tre parole del bar. Tocca ogni parola per impararla."
+            text="Oggi parliamo di cibo — la cosa più seria in Italia! Tocca ogni parola! / Today we talk about food — the most serious thing in Italy! Tap each word!"
+            speakText="Oggi parliamo di cibo — la cosa più seria in Italia! Tocca ogni parola per impararla."
             autoSpeak={true}
           />
           <div
