@@ -8,31 +8,32 @@ import CharacterBubble, {
 
 const VOCAB = [
   {
-    id: "caffe",
-    emoji: "☕",
-    it: "il caffè",
-    en: "espresso / coffee",
+    id: "sinistra",
+    emoji: "⬅️",
+    it: "a sinistra",
+    en: "to the left",
     mario:
-      "Al bar si dice solo 'un caffè' — niente 'espresso'. / At the bar you just say 'un caffè' — not 'espresso'.",
-    marioIT: "Al bar si dice solo un caffè, niente espresso.",
+      "A sinistra, a destra — le prime parole per non perderti in Italia! / Left, right — the first words so you don't get lost in Italy!",
+    marioIT:
+      "A sinistra, a destra — le prime parole per non perderti in Italia!",
   },
   {
-    id: "cornetto",
-    emoji: "🥐",
-    it: "il cornetto",
-    en: "croissant / brioche",
+    id: "destra",
+    emoji: "➡️",
+    it: "a destra",
+    en: "to the right",
     mario:
-      "Non è un gelato! Il cornetto si mangia a colazione. / It's not ice cream! Cornetto is eaten at breakfast.",
-    marioIT: "Non è un gelato! Il cornetto si mangia a colazione.",
+      "Gira a destra al semaforo — ma quale semaforo? Beh... vedrai. / Turn right at the traffic light — but which one? Well... you'll see.",
+    marioIT: "Gira a destra al semaforo, ma quale semaforo? Beh, vedrai.",
   },
   {
-    id: "te",
-    emoji: "🍵",
-    it: "il tè",
-    en: "tea",
+    id: "dritto",
+    emoji: "⬆️",
+    it: "sempre dritto",
+    en: "straight ahead",
     mario:
-      "Al bar italiano il tè non è popolare — ma esiste! / Tea isn't popular at Italian bars — but it exists!",
-    marioIT: "Al bar italiano il tè non è popolare, ma esiste.",
+      "Sempre dritto è la risposta più comune — e la meno precisa! / Straight ahead is the most common answer — and the least precise!",
+    marioIT: "Sempre dritto è la risposta più comune, e la meno precisa!",
   },
 ];
 
@@ -42,18 +43,18 @@ const QUESTIONS = [
     character: "mario",
     intro: "Senti qua... / Listen up...",
     introIT: "Senti qua...",
-    question: "Come si ordina un caffè al bar italiano?",
-    questionEN: "How do you order a coffee at an Italian bar?",
+    question: "Come chiedi la strada senza sembrare un turista?",
+    questionEN: "How do you ask for directions without looking like a tourist?",
     options: [
-      "Un caffè, per favore",
-      "One espresso please",
-      "Voglio un caffè",
-      "Dammi un caffè",
+      "Scusi, dov'è la stazione?",
+      "Where is the station please?",
+      "Voglio sapere dov'è la stazione.",
+      "Station! Station! Dov'è?",
     ],
     correct: 0,
     feedback: {
-      ok: "Esatto! Breve e diretto. Al bancone si dice così. / Exactly! Short and direct. That's how you say it at the counter.",
-      err: "Attenzione! 'Voglio' è troppo diretto. 'Per favore' fa tutta la differenza. / Watch out! 'Voglio' is too blunt. 'Per favore' makes all the difference.",
+      ok: "Perfetto! 'Scusi' + 'dov'è' — educato e diretto. Gli italiani apprezzano. / Perfect! 'Scusi' + 'dov'è' — polite and direct. Italians appreciate it.",
+      err: "Attenzione! In italiano si usa 'Scusi' per fermare qualcuno educatamente. / Watch out! In Italian, 'Scusi' is how you politely stop someone.",
     },
   },
   {
@@ -61,37 +62,32 @@ const QUESTIONS = [
     character: "mario",
     intro: "Attenzione però... / Be careful though...",
     introIT: "Attenzione però...",
-    question: "Cosa è il 'cornetto' in Italia?",
-    questionEN: "What is a 'cornetto' in Italy?",
+    question: "Un italiano ti dice 'a 5 minuti'. Quanto è lontano davvero?",
+    questionEN: "An Italian tells you 'a 5 minuti'. How far is it really?",
     options: [
-      "Un gelato",
-      "Una brioche a colazione",
-      "Un cornet musicale",
-      "Una pasta sfoglia salata",
+      "Esattamente 5 minuti",
+      "Forse 5, forse 30 — dipende",
+      "Non lo sa",
+      "5 minuti in macchina",
     ],
     correct: 1,
     feedback: {
-      ok: "Bravo! Il cornetto è la brioche della colazione italiana — non il gelato! / Well done! Cornetto is the breakfast brioche — not ice cream!",
-      err: "Sembra 'cornet' ma è una brioche! In Italia il cornetto si mangia a colazione. / Looks like 'cornet' but it's a brioche! Cornetto is eaten at breakfast.",
+      ok: "Esatto! Il GPS italiano è ottimista. 'A 5 minuti' può significare qualsiasi cosa. / Exactly! The Italian GPS is optimistic. '5 minutes' can mean anything.",
+      err: "Meglio tardi che mai! In Italia, i minuti sono elastici. È cultura, non disonestà! / Better late than never! In Italy, minutes are elastic. It's culture, not dishonesty!",
     },
   },
   {
     id: 3,
     character: "mario",
-    intro: "Sai come funziona il bar? / Do you know how a bar works?",
-    introIT: "Sai come funziona il bar?",
-    question: "In un bar italiano, dove si paga?",
-    questionEN: "At an Italian bar, where do you pay?",
-    options: [
-      "Prima al bancone",
-      "Dopo aver bevuto",
-      "Prima alla cassa, poi al bancone",
-      "Non si paga",
-    ],
+    intro: "Sai come funziona? / Do you know how it works?",
+    introIT: "Sai come funziona?",
+    question: "Come si dice 'straight ahead' in italiano?",
+    questionEN: "How do you say 'straight ahead' in Italian?",
+    options: ["A sinistra", "A destra", "Sempre dritto", "Di fronte"],
     correct: 2,
     feedback: {
-      ok: "Perfetto! Prima paghi alla cassa, prendi lo scontrino, poi ordini al bancone. / Perfect! First pay at the till, get your receipt, then order at the counter.",
-      err: "Meglio tardi che mai! Prima cassa, poi bancone — sempre. / Better late than never! Till first, then counter — always.",
+      ok: "Bravo! 'Sempre dritto' — letteralmente 'always straight'. Semplice e utile! / Well done! 'Sempre dritto' — literally 'always straight'. Simple and useful!",
+      err: "Ci siamo quasi! 'Sempre dritto' — ricordalo, lo sentirai mille volte! / Almost there! 'Sempre dritto' — remember it, you'll hear it a thousand times!",
     },
   },
 ];
@@ -122,7 +118,7 @@ function playSound(type) {
   } catch (e) {}
 }
 
-export default function Lesson1() {
+export default function Lesson2() {
   const router = useRouter();
   const [fase, setFase] = useState("intro");
   const [toccate, setToccate] = useState(new Set());
@@ -257,7 +253,7 @@ export default function Lesson1() {
           padding: "24px",
         }}
       >
-        <div style={{ fontSize: "64px", marginBottom: "16px" }}>🎉</div>
+        <div style={{ fontSize: "64px", marginBottom: "16px" }}>🗺️</div>
         <h1
           style={{
             fontSize: "26px",
@@ -276,7 +272,8 @@ export default function Lesson1() {
             fontSize: "15px",
           }}
         >
-          Hai risposto a tutte le domande. / You answered all the questions.
+          Ora sai chiedere la strada in italiano. / Now you know how to ask for
+          directions in Italian.
         </p>
         <div style={{ display: "flex", gap: "16px", marginBottom: "32px" }}>
           <div
@@ -323,8 +320,8 @@ export default function Lesson1() {
         <div style={{ marginBottom: "32px", maxWidth: "320px" }}>
           <CharacterBubble
             character="mario"
-            text="Bravo! Ora conosci le parole del bar italiano. / Well done! Now you know the Italian bar words."
-            speakText="Bravo! Ora conosci le parole del bar italiano."
+            text="Sai già orientarti! La prossima volta non ti perdi più. / You already know your way around! Next time you won't get lost."
+            speakText="Sai già orientarti! La prossima volta non ti perdi più."
             autoSpeak={true}
           />
         </div>
@@ -374,8 +371,8 @@ export default function Lesson1() {
         >
           <CharacterBubble
             character="mario"
-            text="Oggi impariamo 3 parole del bar. Tocca ogni parola! / Today we learn 3 bar words. Tap each one!"
-            speakText="Oggi impariamo tre parole del bar. Tocca ogni parola per impararla."
+            text="Oggi impariamo le direzioni. Tocca ogni parola! / Today we learn directions. Tap each word!"
+            speakText="Oggi impariamo le direzioni. Tocca ogni parola per impararla."
             autoSpeak={true}
           />
           <div
