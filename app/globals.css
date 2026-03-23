@@ -1,26 +1,364 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  /* Sfondi */
+  --bg: #23313d;
+  --bg-lesson: #23313d;
+  --card: #2c3e4a;
+  --border: #38444d;
+  --line: #13444d;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Testo */
+  --text: #e5e5e5;
+  --text2: #afafaf;
+  --text3: #777e8b;
+
+  /* Bottoni azione */
+  --primary: #58cc02;
+  --primary-d: #46a302;
+  --secondary: #1cb0f6;
+  --secondary-d: #1899d6;
+  --special: #ff9600;
+  --special-d: #e68600;
+
+  /* Opzioni risposta */
+  --opt-bg: #2c3e4a;
+  --opt-border: #38444d;
+  --opt-text: #e5e5e5;
+  --opt-sel-bg: #13444d;
+  --opt-sel-b: #1cb0f6;
+  --opt-sel-text: #1cb0f6;
+
+  /* Feedback barra */
+  --ok-bar: #061f23;
+  --ok-text: #58cc02;
+  --err-bar: #2e0f11;
+  --err-text: #ff4b4b;
+  --err-btn: #ff4b4b;
+  --err-btn-d: #d33131;
+  --warn-bar: #2a2000;
+  --warn-text: #ffc800;
+  --warn-btn: #ffc800;
+
+  /* Indicatori top bar */
+  --streak: #ff9600;
+  --lives: #ff4b4b;
+  --xp: #58cc02;
+
+  /* Disabled */
+  --dis-bg: #38444d;
+  --dis-text: #bec2cc;
+
+  /* Personaggi */
+  --mario: #ff9b42;
+  --sofia: #c8a0e8;
+  --diego: #22c55e;
+  --gino: #fef3c7;
+  --matilde: #e0f2fe;
+
+  --r: 14px;
+  --dep: 4px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    color-scheme: dark;
   }
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+}
+button {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--r);
+  transition:
+    filter 0.1s,
+    transform 0.1s;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(2px);
+}
+/* ============================================
+   ANIMAZIONI PERSONAGGI E LEZIONI
+   ============================================ */
+
+@keyframes speaking-glow-mario {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #ff9b4200;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #ff9b42aa;
+  }
+}
+@keyframes speaking-glow-sofia {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #c8a0e800;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #c8a0e8aa;
+  }
+}
+@keyframes speaking-glow-diego {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #22c55e00;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #22c55eaa;
+  }
+}
+@keyframes speaking-glow-gino {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #e5b70000;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #e5b700aa;
+  }
+}
+@keyframes speaking-glow-matilde {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #1cb0f600;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #1cb0f6aa;
+  }
+}
+@keyframes pulse-ok {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes shake-err {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-8px);
+  }
+  40% {
+    transform: translateX(8px);
+  }
+  60% {
+    transform: translateX(-6px);
+  }
+  80% {
+    transform: translateX(6px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes card-flip {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes speaking-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0px 0px #ff9b4200;
+  }
+  50% {
+    box-shadow: 0 0 14px 6px #ff9b42aa;
+  }
+}
+@keyframes logo-shake {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  15% {
+    transform: translateY(-8px) rotate(-4deg);
+  }
+  30% {
+    transform: translateY(-4px) rotate(4deg);
+  }
+  45% {
+    transform: translateY(-10px) rotate(-3deg);
+  }
+  60% {
+    transform: translateY(-3px) rotate(3deg);
+  }
+  75% {
+    transform: translateY(-7px) rotate(-2deg);
+  }
+  90% {
+    transform: translateY(-2px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+@keyframes bubble-uk-hover {
+  0% {
+    transform: rotate(7deg) scale(1);
+  }
+  100% {
+    transform: rotate(12deg) scale(1.05);
+  }
+}
+@keyframes bubble-it-hover {
+  0% {
+    transform: rotate(-6deg) scale(1);
+  }
+  100% {
+    transform: rotate(-11deg) scale(1.05);
+  }
+}
+@keyframes logo-wave {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  15% {
+    transform: translateY(-10px) rotate(-3deg);
+  }
+  30% {
+    transform: translateY(-5px) rotate(3deg);
+  }
+  45% {
+    transform: translateY(-12px) rotate(-2deg);
+  }
+  60% {
+    transform: translateY(-4px) rotate(2deg);
+  }
+  75% {
+    transform: translateY(-8px) rotate(-1deg);
+  }
+  90% {
+    transform: translateY(-2px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+@keyframes bubble-uk-wave {
+  0%,
+  100% {
+    transform: rotate(7deg);
+  }
+  20% {
+    transform: rotate(14deg) scale(1.06);
+  }
+  40% {
+    transform: rotate(2deg) scale(0.97);
+  }
+  60% {
+    transform: rotate(12deg) scale(1.04);
+  }
+  80% {
+    transform: rotate(4deg) scale(0.99);
+  }
+}
+@keyframes bubble-it-wave {
+  0%,
+  100% {
+    transform: rotate(-6deg);
+  }
+  20% {
+    transform: rotate(-13deg) scale(1.06);
+  }
+  40% {
+    transform: rotate(-1deg) scale(0.97);
+  }
+  60% {
+    transform: rotate(-11deg) scale(1.04);
+  }
+  80% {
+    transform: rotate(-3deg) scale(0.99);
+  }
+}
+@keyframes bar-wave {
+  0% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1.4);
+  }
+}
+@keyframes logo-vibrate {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  20% {
+    transform: translate(-2px, 1px) rotate(-0.5deg);
+  }
+  40% {
+    transform: translate(2px, -1px) rotate(0.5deg);
+  }
+  60% {
+    transform: translate(-1px, 2px) rotate(-0.3deg);
+  }
+  80% {
+    transform: translate(1px, -2px) rotate(0.3deg);
+  }
+}
+@keyframes bell-pulse-icon {
+  0% {
+    box-shadow:
+      0 0 6px #58cc02,
+      0 0 12px #58cc0244;
+  }
+  100% {
+    box-shadow:
+      0 0 14px #58cc02,
+      0 0 28px #58cc0288,
+      0 0 40px #58cc0233;
+  }
 }
