@@ -42,26 +42,62 @@ export const CHARACTERS = {
     rate: 0.95,
     pitch: 1.0,
   },
+  // ── Sprint 4 ─────────────────────────────────────────────────────────────
+  vittoria: {
+    name: "Nonna Vittoria",
+    image: "/images/vittoria.png",
+    color: "#E5B700",
+    voice: "Grandma",
+    rate: 0.75,
+    pitch: 0.9,
+  },
 };
 
+// ─── Selezione voce con fallback graceful ─────────────────────────────────────
+// Strategia: voce esatta → voce italiana qualsiasi → voce di sistema
+function selezionaVoce(voci, config) {
+  // 1. Voce esatta richiesta (es. "Rocko" it-IT)
+  const esatta = voci.find(
+    (v) => v.name === config.voice && v.lang.startsWith("it")
+  );
+  if (esatta) return esatta;
+
+  // 2. Qualsiasi voce italiana disponibile sul dispositivo
+  const italiana = voci.find((v) => v.lang.startsWith("it"));
+  if (italiana) return italiana;
+
+  // 3. Fallback: null = browser usa voce di sistema
+  return null;
+}
+
 export function parla(testo, config, onStart, onEnd) {
+  if (!testo || !config) return;
   if (typeof window === "undefined" || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
+
   const u = new SpeechSynthesisUtterance(testo);
   u.lang = "it-IT";
   u.rate = config.rate ?? 0.88;
   u.pitch = config.pitch ?? 1.0;
+
   const trySpeak = () => {
     const voci = window.speechSynthesis.getVoices();
-    const voce = voci.find(
-      (v) => v.name === config.voice && v.lang === "it-IT",
-    );
+    const voce = selezionaVoce(voci, config);
+
     if (voce) u.voice = voce;
+
+    // Se è voce di fallback, normalizza rate/pitch per evitare effetti strani
+    if (voce && voce.name !== config.voice) {
+      u.rate  = Math.min(config.rate  ?? 0.88, 1.0);
+      u.pitch = Math.min(config.pitch ?? 1.0,  1.2);
+    }
+
     u.onstart = () => onStart?.();
-    u.onend = () => onEnd?.();
+    u.onend   = () => onEnd?.();
     u.onerror = () => onEnd?.();
     window.speechSynthesis.speak(u);
   };
+
   if (window.speechSynthesis.getVoices().length === 0) {
     window.speechSynthesis.onvoiceschanged = trySpeak;
   } else {
