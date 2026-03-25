@@ -138,17 +138,17 @@ export default function BossLevel() {
   function handleNext() {
     window.speechSynthesis?.cancel();
 
+    // Calcola il punteggio finale direttamente — non dipendere da scoreCorrect
+    // che potrebbe non essere ancora aggiornato da setScoreCorrect
+    const finalScore = scoreCorrect + (isCorrect ? 1 : 0);
+
     if (current + 1 >= questions.length) {
-      // Fine sfida — calcola energia e salva
-      const finalScore = isCorrect ? scoreCorrect : scoreCorrect; // già aggiornato
-      const nonnaData = getNonnaMsg(isCorrect ? scoreCorrect + 1 : scoreCorrect);
-      
       const r = salvaProgressi({
         tipo: "boss",
-        corrette: isCorrect ? scoreCorrect + 1 : scoreCorrect,
+        corrette: finalScore,
         totDomande: questions.length,
       });
-      setReward(r);
+      setReward({ ...r, corrette: finalScore });
       playVittoria();
       setDone(true);
     } else {
