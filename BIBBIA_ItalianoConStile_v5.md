@@ -457,6 +457,10 @@ public/
 | mar 2026 | **Word bank** — punteggiatura fissa nel box, maiuscola come hint | Niente tastiera mobile, niente errori di ortografia |
 | mar 2026 | **Opzioni solo in italiano** — niente traduzione EN nelle risposte | Evita aiuto involontario |
 | mar 2026 | **Decay energia per inattività** — -10%/giorno dopo 24h, minimo 5% | Solo se ha già fatto lezioni — non scoraggia i nuovi |
+| mar 2026 | **5 livelli colore energia** — verde/azzurro/arancione/rosso/rosso intenso | Più granularità visiva, urgenza progressiva |
+| mar 2026 | **Energia iniziale 30%** al primo accesso | Crea bisogno visivo immediato — l'utente vuole riempire la barra |
+| mar 2026 | **Viaggi bloccati sotto 25%** — eccetto Napoli sempre accessibile | Non puoi viaggiare se sei esausto — prima mangia |
+| mar 2026 | **Avviso giallo tra 25-35%** prima del blocco viaggi | Comunicare con anticipo, non muri secchi |
 | mar 2026 | **Rinumerazione lezioni** — parte da 1 (non 0) nel motore dinamico | Più naturale per l'utente |
 | mar 2026 | **Viaggia in Italia = popup dal biglietto** nella XPBar | Crediti → biglietti → destinazioni, tutto in un gesto |
 
@@ -862,5 +866,43 @@ if (giorniPassati > 0 && (prev.completed ?? []).length > 0) {
   // salva nuovaEnergia in localStorage
 }
 ```
+
+---
+
+---
+
+## 26. SISTEMA ENERGIA — COLORI E SOGLIE AVANZATE
+
+### 5 livelli colore barra energia
+
+| % | Colore | Hex | Stato | Conseguenze |
+|---|---|---|---|---|
+| 75-100% | Verde | #58CC02 | In forma | Tutto sbloccato |
+| 50-74% | Azzurro | #1CB0F6 | Buono | Tutto sbloccato |
+| 25-49% | Arancione | #FF9600 | Quasi scarico | Tutto sbloccato |
+| 10-24% | Rosso | #FF4B4B | Critico | Viaggi bloccati |
+| 0-9% | Rosso intenso | #CC0000 | Emergenza | Viaggi bloccati + popup urgente futuro |
+
+### Primo accesso
+- Energia iniziale: **30%** (fascia arancione — crea bisogno visivo immediato)
+- Vale solo al primo accesso assoluto (localStorage vuoto)
+- Chi ha già progressi non viene mai resettato a 30%
+
+### Assenza prolungata
+- Decay: -10%/giorno dopo 24h di inattività
+- Minimo assoluto: **5%** (rosso intenso — urgenza massima)
+- Solo se `completed.length > 0` — i nuovi utenti non vengono penalizzati
+
+### Blocco viaggi sotto 25%
+- Sotto 25% le destinazioni diverse da Napoli sono bloccate visivamente
+- Lucchetto rosso + messaggio: "Energia insufficiente — mangia qualcosa prima di partire! / Not enough energy — eat something before travelling!"
+- **Napoli rimane sempre accessibile** — è il bar di Mario, la casa base
+- Tra 25-35% appare avviso giallo: "Attenzione — ancora un po' e non potrai viaggiare"
+- I crediti accumulati non scadono — l'utente può spenderli appena recupera energia
+
+### Futuro (Sprint 5+)
+- Popup onboarding al primo accesso che spiega il sistema energia
+- Popup urgente quando energia < 10% con suggerimenti su come recuperarla rapidamente
+- Acquisto rapido energia tramite esercizi o mini-game suggeriti nel popup
 
 ---
