@@ -282,63 +282,6 @@ export default function Home() {
       </section>
 
       {/* ── RICARICA EXTRA (solo dopo aver completato almeno 1 lezione) ── */}
-      {showRipassoSection && (
-        <section style={{ marginBottom:"28px" }}>
-          <h2 style={{ fontSize:"13px",fontWeight:900,color:"var(--text3)",textTransform:"uppercase",letterSpacing:"1px",marginBottom:"4px" }}>
-            ⚡ Ricarica Extra / Bonus Recharge
-          </h2>
-          <p style={{ fontSize:"11px",color:"var(--text3)",marginBottom:"12px" }}>
-            Riprova le lezioni completate per guadagnare over-energy 🟡 / Redo completed lessons for over-energy
-          </p>
-          <div style={{ display:"flex",flexDirection:"column",gap:"8px" }}>
-            {[1,2,3,4,"boss"].filter(id=>isDone(id)).map(id=>{
-              const lesson = LESSONS.find(l=>l.id===id);
-              if (!lesson) return null;
-              return (
-                <div key={id} style={{ background:"var(--card)",borderRadius:"var(--r)",border:"1px solid var(--border)",padding:"12px 16px",display:"flex",alignItems:"center",justifyContent:"space-between",gap:12 }}>
-                  <div>
-                    <div style={{ fontSize:"13px",fontWeight:800,color:"var(--text)" }}>🔁 {lesson.title}</div>
-                    <div style={{ fontSize:"11px",color:"var(--text3)" }}>+over-energy · delta crediti</div>
-                  </div>
-                  <LessonButton lessonId={id} label="Riprova" />
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* ── LEGENDA CIBO ── */}
-      <section>
-        <h2 style={{ fontSize:"13px",fontWeight:900,color:"var(--text3)",textTransform:"uppercase",letterSpacing:"1px",marginBottom:"10px" }}>
-          Recupera energia / Restore energy
-        </h2>
-        <div style={{ background:"var(--card)",borderRadius:"var(--r)",border:"2px solid var(--border)",padding:"12px 16px",display:"grid",gridTemplateColumns:"1fr 1fr",gap:"8px 16px" }}>
-          {[
-            { icon:"☕",it:"Caffè",     pct:"+10%",  en:"Lezione 1" },
-            { icon:"🥐",it:"Cornetto",  pct:"+15%",  en:"Lezione 2" },
-            { icon:"🍸",it:"Aperitivo", pct:"+20%",  en:"Lezione 3" },
-            { icon:"🍕",it:"Pizza",     pct:"+15%",  en:"Lezione 4 (4 spicchi)" },
-            { icon:"🍦",it:"Gelato",    pct:"+1→10%",en:"Sfida la Nonna", special:true },
-          ].map(item=>(
-            <div key={item.icon} style={{ display:"flex",alignItems:"center",gap:"8px",
-              gridColumn:item.special?"1 / -1":undefined,
-              background:item.special?"#E5B70011":"transparent",
-              borderRadius:item.special?"8px":undefined,
-              padding:item.special?"6px 8px":undefined,
-              border:item.special?"1px solid #E5B70044":undefined,
-            }}>
-              <span style={{ fontSize:"20px" }}>{item.icon}</span>
-              <div>
-                <div style={{ fontSize:"12px",fontWeight:900,color:item.special?"#E5B700":"var(--text)" }}>
-                  {item.it} <span style={{ color:"#58CC02",fontWeight:900,fontSize:"11px" }}>{item.pct}</span>
-                </div>
-                <div style={{ fontSize:"11px",color:"var(--text3)",fontWeight:600 }}>{item.en}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
 
     </main>
   );
