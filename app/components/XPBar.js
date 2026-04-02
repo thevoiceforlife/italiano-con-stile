@@ -29,18 +29,15 @@ function getTravelAccess(pct) {
 }
 
 // ─── Streak ───────────────────────────────────────────────────────────────────
-const DAY_LABELS = ['Lun','Mar','Mer','Gio','Ven','Sab'];
-const DAY_KEYS   = ['lun','mar','mer','gio','ven','sab'];
+const DAY_LABELS = ['Lun/Mon','Mar/Tue','Mer/Wed','Gio/Thu','Ven/Fri','Sab/Sat','Dom/Sun'];
+const DAY_KEYS   = ['lun','mar','mer','gio','ven','sab','dom'];
 
 function StreakBar({ streak }) {
   if (!streak) return null;
   const { activeDays = [], totalDays = 7, weekStart } = streak;
-  const startDow = new Date((weekStart ?? new Date().toISOString().split('T')[0]) + 'T12:00:00').getDay();
-  const startIdx = startDow === 0 ? 6 : startDow - 1;
-  const days = Array.from({ length: Math.min(totalDays - 1, 6) }, (_, i) => {
-    const idx = (startIdx + i) % 6;
-    return { label: DAY_LABELS[idx], key: DAY_KEYS[idx] };
-  });
+  const days = Array.from({ length: 7 }, (_, i) => ({
+    label: DAY_LABELS[i], key: DAY_KEYS[i]
+  }));
   const active = activeDays.length;
   const t = totalDays ?? 7;
   const bonusTxt = active >= t ? '+50 cr ⚡'
@@ -51,10 +48,10 @@ function StreakBar({ streak }) {
     <div style={{ marginTop: 8, paddingTop: 10, borderTop: '1px solid var(--border)' }}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 6 }}>
         <span style={{ fontSize:11, fontWeight:700, color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.05em' }}>
-          🔥 Streak settimanale
+          🔥 Streak settimanale / Weekly streak
         </span>
         <span style={{ fontSize:11, fontWeight:700, color:'#E5B700' }}>
-          Dom: {bonusTxt}
+          Dom/Sun: {bonusTxt}
         </span>
       </div>
       <div style={{ display:'flex', gap:4 }}>
@@ -76,15 +73,7 @@ function StreakBar({ streak }) {
             </div>
           );
         })}
-        {/* Domenica — traguardo */}
-        <div style={{ textAlign:'center', flex:1 }}>
-          <div style={{
-            height:24, borderRadius:6,
-            background:'var(--bg)', border:'1.5px solid #E5B70066',
-            display:'flex', alignItems:'center', justifyContent:'center', fontSize:13,
-          }}>🔥</div>
-          <div style={{ fontSize:9, color:'#E5B700', marginTop:2, fontWeight:700 }}>Dom</div>
-        </div>
+
       </div>
       <div style={{ fontSize:10, color:'var(--text3)', marginTop:5, textAlign:'center' }}>
         {active} giorni attivi · giorno attivo = ≥2 lezioni / active day = ≥2 lessons

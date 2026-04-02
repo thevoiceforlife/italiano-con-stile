@@ -1,11 +1,10 @@
 {
   "id": 2,
-  "title": "Il Primo Caffè",
+  "title": "Il Primo Caffè / The First Coffee",
   "subtitle": "Ordina senza sembrare turista",
   "livello": "Turista",
   "livello_en": "Tourist",
   "unita": 1,
-
   "vocab": [
     {
       "id": "caffe",
@@ -36,7 +35,6 @@
       "mario": "Prima paghi alla cassa, poi vieni al banco con lo scontrino. Senza scontrino non ti servo! / First pay at the till, then come to the counter with the receipt. No receipt, no service!"
     }
   ],
-
   "questions": [
     {
       "personaggio": "mario",
@@ -44,16 +42,37 @@
       "fase": "riconoscimento",
       "intro": "Come vuoi ordinare il caffè? Dimmi quello più educato!",
       "intro_en": "How do you want to order coffee? Tell me the most polite way!",
-      "domanda": { "it": "Qual è il modo più educato di ordinare?", "en": "What is the most polite way to order?" },
+      "domanda": {
+        "it": "Qual è il modo più educato di ordinare?",
+        "en": "What is the most polite way to order?"
+      },
       "opzioni": [
-        { "it": "Vorrei un caffè, per favore.", "en": "I would like a coffee, please." },
-        { "it": "Voglio un caffè.", "en": "I want a coffee." },
-        { "it": "Dammi un caffè.", "en": "Give me a coffee." },
-        { "it": "Un caffè. Subito.", "en": "A coffee. Now." }
+        {
+          "it": "Vorrei un caffè, per favore.",
+          "en": "I would like a coffee, please."
+        },
+        {
+          "it": "Voglio un caffè.",
+          "en": "I want a coffee."
+        },
+        {
+          "it": "Dammi un caffè.",
+          "en": "Give me a coffee."
+        },
+        {
+          "it": "Un caffè. Subito.",
+          "en": "A coffee. Now."
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Perfetto! 'Vorrei' + 'per favore' = la formula magica del bar italiano.", "en": "Perfect! 'Vorrei' + 'per favore' = the magic formula of the Italian bar." },
-      "feedbackErr": { "it": "'Voglio' e 'dammi' suonano bruschi al bar italiano — usa sempre 'vorrei'.", "en": "'Voglio' and 'dammi' sound abrupt at an Italian bar — always use 'vorrei'." }
+      "feedbackOk": {
+        "it": "Perfetto! 'Vorrei' + 'per favore' = la formula magica del bar italiano.",
+        "en": "Perfect! 'Vorrei' + 'per favore' = the magic formula of the Italian bar."
+      },
+      "feedbackErr": {
+        "it": "'Voglio' e 'dammi' suonano bruschi al bar italiano — usa sempre 'vorrei'.",
+        "en": "'Voglio' and 'dammi' sound abrupt at an Italian bar — always use 'vorrei'."
+      }
     },
     {
       "personaggio": "diego",
@@ -61,18 +80,39 @@
       "fase": "riconoscimento",
       "intro": "Sai riconoscere questo gesto al bar?",
       "intro_en": "Can you recognize this bar gesture?",
-      "domanda": { "it": "Cosa significa questo gesto?", "en": "What does this gesture mean?" },
+      "domanda": {
+        "it": "Cosa significa questo gesto?",
+        "en": "What does this gesture mean?"
+      },
       "gesture": "☝️",
       "gesture_label": "Indice rotante sulla guancia / Index finger rotating on cheek",
       "opzioni": [
-        { "it": "Buonissimo! / Ottimo!", "en": "Delicious! / Excellent!" },
-        { "it": "Ma che vuoi?", "en": "What do you want?" },
-        { "it": "Attenzione!", "en": "Watch out!" },
-        { "it": "Non lo so.", "en": "I don't know." }
+        {
+          "it": "Buonissimo! / Ottimo!",
+          "en": "Delicious! / Excellent!"
+        },
+        {
+          "it": "Ma che vuoi?",
+          "en": "What do you want?"
+        },
+        {
+          "it": "Attenzione!",
+          "en": "Watch out!"
+        },
+        {
+          "it": "Non lo so.",
+          "en": "I don't know."
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Esatto! L'indice rotante sulla guancia = buonissimo. Un complimento gestuale!", "en": "Correct! Index rotating on cheek = delicious. A gestural compliment!" },
-      "feedbackErr": { "it": "No — l'indice sulla guancia ruotante esprime apprezzamento per qualcosa di buono.", "en": "No — the rotating index on the cheek expresses appreciation for something good." }
+      "feedbackOk": {
+        "it": "Esatto! L'indice rotante sulla guancia = buonissimo. Un complimento gestuale!",
+        "en": "Correct! Index rotating on cheek = delicious. A gestural compliment!"
+      },
+      "feedbackErr": {
+        "it": "No — l'indice sulla guancia ruotante esprime apprezzamento per qualcosa di buono.",
+        "en": "No — the rotating index on the cheek expresses appreciation for something good."
+      }
     },
     {
       "personaggio": "mario",
@@ -81,16 +121,37 @@
       "intro": "Ascolta quello che ordina il cliente — cosa prende?",
       "intro_en": "Listen to what the customer orders — what are they having?",
       "audio": "Vorrei un caffè, per favore.",
-      "domanda": { "it": "Cosa ha ordinato il cliente?", "en": "What did the customer order?" },
+      "domanda": {
+        "it": "Cosa ha ordinato il cliente?",
+        "en": "What did the customer order?"
+      },
       "opzioni": [
-        { "it": "Un caffè.", "en": "A coffee." },
-        { "it": "Un cappuccino.", "en": "A cappuccino." },
-        { "it": "Un caffè e un tè.", "en": "A coffee and a tea." },
-        { "it": "Due caffè.", "en": "Two coffees." }
+        {
+          "it": "Un caffè.",
+          "en": "A coffee."
+        },
+        {
+          "it": "Un cappuccino.",
+          "en": "A cappuccino."
+        },
+        {
+          "it": "Un caffè e un tè.",
+          "en": "A coffee and a tea."
+        },
+        {
+          "it": "Due caffè.",
+          "en": "Two coffees."
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Ottimo! Hai sentito 'caffè' — la parola chiave dell'ordine.", "en": "Great! You heard 'caffè' — the key word of the order." },
-      "feedbackErr": { "it": "Riprova con la tartaruga 🐢 — concentrati sulla parola dopo 'vorrei'.", "en": "Try again with the turtle 🐢 — focus on the word after 'vorrei'." }
+      "feedbackOk": {
+        "it": "Ottimo! Hai sentito 'caffè' — la parola chiave dell'ordine.",
+        "en": "Great! You heard 'caffè' — the key word of the order."
+      },
+      "feedbackErr": {
+        "it": "Riprova con la tartaruga 🐢 — concentrati sulla parola dopo 'vorrei'.",
+        "en": "Try again with the turtle 🐢 — focus on the word after 'vorrei'."
+      }
     },
     {
       "personaggio": "gino",
@@ -98,10 +159,19 @@
       "fase": "comprensione",
       "intro": "Hai capito il galateo del bar? Mettiti alla prova!",
       "intro_en": "Did you understand bar etiquette? Put yourself to the test!",
-      "domanda": { "it": "Al bar italiano si paga il caffè al banco dopo averlo bevuto.", "en": "At an Italian bar you pay for your coffee at the counter after drinking it." },
+      "domanda": {
+        "it": "Al bar italiano si paga il caffè al banco dopo averlo bevuto.",
+        "en": "At an Italian bar you pay for your coffee at the counter after drinking it."
+      },
       "correct": false,
-      "feedbackOk": { "it": "Giusto! Si paga PRIMA alla cassa, poi si porta lo scontrino al banco.", "en": "Correct! You pay FIRST at the till, then bring the receipt to the counter." },
-      "feedbackErr": { "it": "No — in Italia si paga PRIMA alla cassa. Senza scontrino il barista può non servirti!", "en": "No — in Italy you pay FIRST at the till. Without a receipt the barista may refuse!" }
+      "feedbackOk": {
+        "it": "Giusto! Si paga PRIMA alla cassa, poi si porta lo scontrino al banco.",
+        "en": "Correct! You pay FIRST at the till, then bring the receipt to the counter."
+      },
+      "feedbackErr": {
+        "it": "No — in Italia si paga PRIMA alla cassa. Senza scontrino il barista può non servirti!",
+        "en": "No — in Italy you pay FIRST at the till. Without a receipt the barista may refuse!"
+      }
     },
     {
       "personaggio": "sofia",
@@ -109,14 +179,40 @@
       "fase": "produzione",
       "intro": "Ordina un caffè come un vero italiano — dai!",
       "intro_en": "Order a coffee like a real Italian — come on!",
-      "domanda": { "it": "Componi la frase per ordinare un caffè.", "en": "Build the sentence to order a coffee." },
+      "domanda": {
+        "it": "Componi la frase per ordinare un caffè.",
+        "en": "Build the sentence to order a coffee."
+      },
       "hint_it": "Vorrei un caffè, per favore.",
       "hint_en": "I would like a coffee, please.",
-      "parole": ["Vorrei", "un", "caffè", "per", "favore"],
-      "distrattori": ["voglio", "il", "grazie", "ciao"],
-      "correct": ["Vorrei", "un", "caffè", "per", "favore"],
-      "feedbackOk": { "it": "Eccellente! Frase perfetta — sei già un habitué del bar!", "en": "Excellent! Perfect sentence — you're already a bar regular!" },
-      "feedbackErr": { "it": "Non corretto. Ricorda: 'Vorrei' + 'un' + 'caffè' + 'per favore'.", "en": "Not correct. Remember: 'Vorrei' + 'un' + 'caffè' + 'per favore'." }
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "voglio",
+        "il",
+        "grazie",
+        "ciao"
+      ],
+      "correct": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Eccellente! Frase perfetta — sei già un habitué del bar!",
+        "en": "Excellent! Perfect sentence — you're already a bar regular!"
+      },
+      "feedbackErr": {
+        "it": "Non corretto. Ricorda: 'Vorrei' + 'un' + 'caffè' + 'per favore'.",
+        "en": "Not correct. Remember: 'Vorrei' + 'un' + 'caffè' + 'per favore'."
+      }
     },
     {
       "personaggio": "matilde",
@@ -124,16 +220,37 @@
       "fase": "produzione",
       "intro": "Sei in un bar di lusso a Milano — come ordini?",
       "intro_en": "You're in a luxury bar in Milan — how do you order?",
-      "domanda": { "it": "Qual è il registro giusto per un bar elegante?", "en": "What is the right register for an elegant bar?" },
+      "domanda": {
+        "it": "Qual è il registro giusto per un bar elegante?",
+        "en": "What is the right register for an elegant bar?"
+      },
       "opzioni": [
-        { "it": "Buongiorno, vorrei un caffè, per favore.", "en": "Good morning, I would like a coffee, please." },
-        { "it": "Ciao, un caffè!", "en": "Hi, a coffee!" },
-        { "it": "Ehi, dammi un caffè.", "en": "Hey, give me a coffee." },
-        { "it": "Caffè. Grazie.", "en": "Coffee. Thanks." }
+        {
+          "it": "Buongiorno, vorrei un caffè, per favore.",
+          "en": "Good morning, I would like a coffee, please."
+        },
+        {
+          "it": "Ciao, un caffè!",
+          "en": "Hi, a coffee!"
+        },
+        {
+          "it": "Ehi, dammi un caffè.",
+          "en": "Hey, give me a coffee."
+        },
+        {
+          "it": "Caffè. Grazie.",
+          "en": "Coffee. Thanks."
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Perfetto! Buongiorno + vorrei + per favore = registro formale impeccabile.", "en": "Perfect! Buongiorno + vorrei + per favore = impeccable formal register." },
-      "feedbackErr": { "it": "In un contesto elegante serve il registro formale — 'buongiorno' + 'vorrei' + 'per favore'.", "en": "In an elegant context you need formal register — 'buongiorno' + 'vorrei' + 'per favore'." }
+      "feedbackOk": {
+        "it": "Perfetto! Buongiorno + vorrei + per favore = registro formale impeccabile.",
+        "en": "Perfect! Buongiorno + vorrei + per favore = impeccable formal register."
+      },
+      "feedbackErr": {
+        "it": "In un contesto elegante serve il registro formale — 'buongiorno' + 'vorrei' + 'per favore'.",
+        "en": "In an elegant context you need formal register — 'buongiorno' + 'vorrei' + 'per favore'."
+      }
     },
     {
       "personaggio": "gino",
@@ -141,18 +258,39 @@
       "fase": "produzione",
       "intro": "Attenzione — questo è un falso amico famoso!",
       "intro_en": "Watch out — this is a famous false friend!",
-      "domanda": { "it": "Cosa significa 'un espresso' in Italia?", "en": "What does 'un espresso' mean in Italy?" },
+      "domanda": {
+        "it": "Cosa significa 'un espresso' in Italia?",
+        "en": "What does 'un espresso' mean in Italy?"
+      },
       "contesto_it": "\"Al bar di Roma ordino sempre un espresso.\"",
       "contesto_en": "\"At the bar in Rome I always order un espresso.\"",
       "opzioni": [
-        { "it": "Un caffè veloce", "en": "A quick coffee" },
-        { "it": "Un caffè fatto con la macchina a pressione", "en": "A coffee made with a pressure machine" },
-        { "it": "Un caffè americano lungo", "en": "A long American coffee" },
-        { "it": "Un caffè freddo", "en": "An iced coffee" }
+        {
+          "it": "Un caffè veloce",
+          "en": "A quick coffee"
+        },
+        {
+          "it": "Un caffè fatto con la macchina a pressione",
+          "en": "A coffee made with a pressure machine"
+        },
+        {
+          "it": "Un caffè americano lungo",
+          "en": "A long American coffee"
+        },
+        {
+          "it": "Un caffè freddo",
+          "en": "An iced coffee"
+        }
       ],
       "correct": 1,
-      "feedbackOk": { "it": "Esatto! 'Espresso' = pressato. Viene dal latino 'expressus' = estratto sotto pressione.", "en": "Correct! 'Espresso' = pressed. From Latin 'expressus' = extracted under pressure." },
-      "feedbackErr": { "it": "'Espresso' non significa solo 'veloce' — viene dal latino 'expressus' = pressato fuori.", "en": "'Espresso' doesn't just mean 'fast' — it comes from Latin 'expressus' = pressed out." }
+      "feedbackOk": {
+        "it": "Esatto! 'Espresso' = pressato. Viene dal latino 'expressus' = estratto sotto pressione.",
+        "en": "Correct! 'Espresso' = pressed. From Latin 'expressus' = extracted under pressure."
+      },
+      "feedbackErr": {
+        "it": "'Espresso' non significa solo 'veloce' — viene dal latino 'expressus' = pressato fuori.",
+        "en": "'Espresso' doesn't just mean 'fast' — it comes from Latin 'expressus' = pressed out."
+      }
     },
     {
       "personaggio": "mario",
@@ -160,26 +298,66 @@
       "fase": "produzione",
       "intro": "Ti porto il caffè e dico 'Prego!' — cosa mi rispondi?",
       "intro_en": "I bring you the coffee and say 'Prego!' — what do you reply?",
-      "domanda": { "it": "Cosa rispondi quando il barista ti porge il caffè dicendo 'Prego!'?", "en": "What do you reply when the barista hands you the coffee saying 'Prego!'?" },
+      "domanda": {
+        "it": "Cosa rispondi quando il barista ti porge il caffè dicendo 'Prego!'?",
+        "en": "What do you reply when the barista hands you the coffee saying 'Prego!'?"
+      },
       "opzioni": [
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Prego!", "en": "You're welcome!" },
-        { "it": "Sì, grazie!", "en": "Yes, thank you!" },
-        { "it": "Ciao!", "en": "Hi/Bye!" }
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Prego!",
+          "en": "You're welcome!"
+        },
+        {
+          "it": "Sì, grazie!",
+          "en": "Yes, thank you!"
+        },
+        {
+          "it": "Ciao!",
+          "en": "Hi/Bye!"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Esatto! Io dico 'prego' = here you go. Tu rispondi 'grazie'. Loop perfetto!", "en": "Correct! I say 'prego' = here you go. You reply 'grazie'. Perfect loop!" },
-      "feedbackErr": { "it": "Quando ti servo qualcosa e dico 'prego', tu rispondi 'grazie' — non 'prego' di ritorno!", "en": "When I serve you something and say 'prego', you reply 'grazie' — not 'prego' back!" }
+      "feedbackOk": {
+        "it": "Esatto! Io dico 'prego' = here you go. Tu rispondi 'grazie'. Loop perfetto!",
+        "en": "Correct! I say 'prego' = here you go. You reply 'grazie'. Perfect loop!"
+      },
+      "feedbackErr": {
+        "it": "Quando ti servo qualcosa e dico 'prego', tu rispondi 'grazie' — non 'prego' di ritorno!",
+        "en": "When I serve you something and say 'prego', you reply 'grazie' — not 'prego' back!"
+      }
     }
   ],
-
   "reward": {
-    "cibo": "cornetto", "cibo_emoji": "🥐", "cibo_nome_it": "Cornetto", "cibo_nome_en": "Croissant",
+    "cibo": "cornetto",
+    "cibo_emoji": "🥐",
+    "cibo_nome_it": "Cornetto",
+    "cibo_nome_en": "Croissant",
     "energia_base": 15,
     "scala_errori": [
-      { "max_errori": 0, "moltiplicatore": 1.0 }, { "max_errori": 2, "moltiplicatore": 0.75 },
-      { "max_errori": 4, "moltiplicatore": 0.50 }, { "max_errori": 6, "moltiplicatore": 0.25 },
-      { "max_errori": 99, "moltiplicatore": 0.0 }
+      {
+        "max_errori": 0,
+        "moltiplicatore": 1
+      },
+      {
+        "max_errori": 2,
+        "moltiplicatore": 0.75
+      },
+      {
+        "max_errori": 4,
+        "moltiplicatore": 0.5
+      },
+      {
+        "max_errori": 6,
+        "moltiplicatore": 0.25
+      },
+      {
+        "max_errori": 99,
+        "moltiplicatore": 0
+      }
     ]
   }
 }
