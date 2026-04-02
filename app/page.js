@@ -56,11 +56,11 @@ const CHARACTERS = [
 ];
 
 const LESSONS = [
-  { id:1, title:"Le Prime Parole",        subtitle:"Ciao, Grazie, Prego, Sì — il giorno 1" },
-  { id:2, title:"Il Primo Caffè",          subtitle:"Ordina senza sembrare turista" },
-  { id:3, title:"Mario dà le Indicazioni", subtitle:"Preposizioni di luogo in contesto" },
-  { id:4, title:"La Cultura del Cibo",     subtitle:"L'ordine dei piatti — sacro e intoccabile" },
-  { id:"boss", title:"⚡ Sfida la Nonna",  subtitle:"5 domande — il gelato ti aspetta sempre 🍦", boss:true },
+  { id:1, title:"Le Prime Parole / The First Words",        subtitle:"Ciao, Grazie, Prego, Sì — il giorno 1 / day 1" },
+  { id:2, title:"Il Primo Caffè / The First Coffee",          subtitle:"Ordina senza sembrare turista / Order without looking like a tourist" },
+  { id:3, title:"Mario dà le Indicazioni / Mario Gives Directions", subtitle:"Preposizioni di luogo in contesto / Prepositions of place in context" },
+  { id:4, title:"La Cultura del Cibo / The Culture of Food",     subtitle:"L'ordine dei piatti — sacro e intoccabile / The order of courses — sacred and untouchable" },
+  { id:"boss", title:"⚡ Sfida la Nonna / Challenge the Grandma",  subtitle:"5 domande — il gelato ti aspetta sempre 🍦 / 5 questions — the gelato always awaits", boss:true },
 ];
 
 // ─── Suoni personaggi ─────────────────────────────────────────────────────────
