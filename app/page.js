@@ -281,8 +281,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── RICARICA EXTRA (solo dopo aver completato almeno 1 lezione) ── */}
-
     </main>
   );
 }
