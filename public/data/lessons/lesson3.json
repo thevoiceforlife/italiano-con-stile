@@ -12,113 +12,28 @@
       "emoji": "➡️",
       "it": "a destra",
       "en": "on the right",
-      "mario": "In italiano 'a destra' usa la preposizione 'a' — non 'in' come potreste pensare. 'Gira a destra' = turn right! / In Italian 'a destra' uses preposition 'a' — not 'in' as you might think.",
-      "annotazioni": [
-        {
-          "parola": "a",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · semplice · direzione",
-          "categoria_en": "preposition · simple · direction",
-          "en": "to / at / on",
-          "perche": "Con i punti cardinali e le direzioni si usa sempre 'a' in italiano — non 'in' o 'on' come in inglese.",
-          "perche_en": "With cardinal points and directions always use 'a' in Italian — not 'in' or 'on' as in English.",
-          "esempi": [
-            { "it": "a destra ✅",  "en": "on the right", "ok": true },
-            { "it": "a sinistra ✅","en": "on the left",  "ok": true },
-            { "it": "a nord ✅",    "en": "to the north", "ok": true }
-          ]
-        },
-        {
-          "parola": "destra",
-          "tipo": "sostantivo",
-          "categoria_it": "sostantivo · femminile · singolare",
-          "categoria_en": "noun · feminine · singular",
-          "en": "right (direction)",
-          "perche": "'Destra' è femminile — come 'mano destra' (right hand). In italiano le direzioni sono femminili: la destra, la sinistra.",
-          "perche_en": "'Destra' is feminine — like 'mano destra' (right hand). In Italian directions are feminine: la destra, la sinistra."
-        }
-      ]
+      "mario": "Con le direzioni si usa sempre 'a' in italiano — non 'in' o 'on' come in inglese! / With directions always use 'a' in Italian — not 'in' or 'on' as in English!"
     },
     {
       "id": "sempre-dritto",
       "emoji": "⬆️",
       "it": "sempre dritto",
       "en": "straight ahead",
-      "mario": "'Sempre dritto' letteralmente = 'always straight'. Gli italiani dicono 'sempre' anche per le indicazioni — è più enfatico di 'just'! / 'Sempre dritto' literally = 'always straight'. Italians use 'sempre' even for directions.",
-      "annotazioni": [
-        {
-          "parola": "sempre",
-          "tipo": "avverbio",
-          "categoria_it": "avverbio · frequenza",
-          "categoria_en": "adverb · frequency",
-          "en": "always / straight (in directions)",
-          "perche": "Nelle indicazioni 'sempre dritto' = keep going straight. 'Sempre' qui non significa 'always' ma 'keep' — il contesto cambia il significato.",
-          "perche_en": "In directions 'sempre dritto' = keep going straight. 'Sempre' here doesn't mean 'always' but 'keep' — context changes the meaning."
-        },
-        {
-          "parola": "dritto",
-          "tipo": "aggettivo",
-          "categoria_it": "aggettivo · maschile · usato come avverbio",
-          "categoria_en": "adjective · masculine · used as adverb",
-          "en": "straight",
-          "perche": "'Dritto' come avverbio di direzione non cambia genere — rimane sempre 'dritto' anche parlando a una donna.",
-          "perche_en": "'Dritto' as an adverb of direction doesn't change gender — it always stays 'dritto' even when speaking to a woman."
-        }
-      ]
+      "mario": "'Sempre dritto' letteralmente = 'always straight'. Per le indicazioni è perfetto! / 'Sempre dritto' literally = 'always straight'. Perfect for directions!"
     },
     {
       "id": "vicino",
       "emoji": "📍",
       "it": "vicino / lontano",
       "en": "near / far",
-      "mario": "'Vicino a' e 'lontano da' — in italiano la preposizione che segue è diversa! Vicino A qualcosa, lontano DA qualcosa. / 'Vicino a' and 'lontano da' — in Italian the following preposition is different!",
-      "annotazioni": [
-        {
-          "parola": "vicino",
-          "tipo": "aggettivo",
-          "categoria_it": "aggettivo · variabile · prossimità",
-          "categoria_en": "adjective · variable · proximity",
-          "en": "near / close",
-          "perche": "'Vicino' vuole la preposizione 'a' dopo: 'vicino al bar', 'vicino alla stazione'. Mai 'vicino di' o 'vicino in'.",
-          "perche_en": "'Vicino' requires preposition 'a' after: 'vicino al bar', 'vicino alla stazione'. Never 'vicino di' or 'vicino in'.",
-          "esempi": [
-            { "it": "vicino al bar ✅",      "en": "near the bar",     "ok": true },
-            { "it": "vicino della chiesa ❌", "en": "WRONG preposition","ok": false }
-          ]
-        }
-      ]
+      "mario": "Attenzione: 'vicino A' qualcosa, 'lontano DA' qualcosa — preposizioni diverse! / Watch out: 'vicino A' something, 'lontano DA' something — different prepositions!"
     },
     {
       "id": "alla-fine",
       "emoji": "🏁",
       "it": "alla fine della strada",
       "en": "at the end of the street",
-      "mario": "Una frase tipica delle indicazioni italiane — 'alla fine della strada, gira a destra'. La preposi- zione 'alla' = a + la. / Typical Italian directions phrase — 'alla fine della strada, gira a destra'.",
-      "annotazioni": [
-        {
-          "parola": "alla",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · articolata (a + la)",
-          "categoria_en": "preposition · contracted (a + la)",
-          "en": "at the / to the (feminine)",
-          "perche": "'Alla' = a + la. Si usa davanti a sostantivi femminili. 'Al' = a + il per i maschili. La fusione è obbligatoria in italiano.",
-          "perche_en": "'Alla' = a + la. Used before feminine nouns. 'Al' = a + il for masculine. The fusion is mandatory in Italian.",
-          "esempi": [
-            { "it": "alla fine ✅",     "en": "at the end",     "ok": true },
-            { "it": "alla stazione ✅", "en": "at the station",  "ok": true },
-            { "it": "al bar ✅",        "en": "at the bar",      "ok": true }
-          ]
-        },
-        {
-          "parola": "della",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · articolata (di + la)",
-          "categoria_en": "preposition · contracted (di + la)",
-          "en": "of the (feminine)",
-          "perche": "'Della' = di + la. Indica appartenenza o specificazione. 'La fine della strada' = the end of the street. 'Di la' non esiste!",
-          "perche_en": "'Della' = di + la. Indicates possession or specification. 'La fine della strada' = the end of the street. 'Di la' doesn't exist!"
-        }
-      ]
+      "mario": "'Alla' = a + la — in italiano 'a il' non esiste, si dice sempre 'al', 'alla', 'agli'! / 'Alla' = a + la — in Italian 'a il' doesn't exist, always say 'al', 'alla', 'agli'!"
     }
   ],
 
@@ -127,229 +42,132 @@
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "intro": "Un turista chiede a Mario dove si trova il Duomo. Mario risponde.",
-      "intro_en": "A tourist asks Mario where the Duomo is. Mario replies.",
-      "domanda": {
-        "it": "Mario dice: 'Vai sempre dritto, poi _____ a sinistra.' Quale preposizione manca?",
-        "en": "Mario says: 'Go straight, then _____ left.' Which preposition is missing?"
-      },
+      "intro": "Un turista mi chiede come arrivare al Duomo — cosa gli dico?",
+      "intro_en": "A tourist asks me how to get to the Duomo — what do I tell them?",
+      "domanda": { "it": "Mario dice: 'Vai sempre dritto, poi _____ a sinistra.' Cosa manca?", "en": "Mario says: 'Go straight, then _____ left.' What's missing?" },
       "opzioni": [
-        { "it": "gira",     "en": "turn" },
-        { "it": "a gira",   "en": "at turn" },
-        { "it": "in gira",  "en": "in turn" },
-        { "it": "di gira",  "en": "of turn" }
+        { "it": "gira", "en": "turn" },
+        { "it": "a gira", "en": "at turn" },
+        { "it": "in gira", "en": "in turn" },
+        { "it": "di gira", "en": "of turn" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Esatto! 'Gira a sinistra' — il verbo 'girare' non vuole preposizione prima.",
-        "en": "Correct! 'Gira a sinistra' — the verb 'girare' doesn't need a preposition before it."
-      },
-      "feedbackErr": {
-        "it": "'Gira' è il verbo — viene prima senza preposizione. 'Gira a sinistra' = turn left.",
-        "en": "'Gira' is the verb — it comes first without a preposition. 'Gira a sinistra' = turn left."
-      }
+      "feedbackOk": { "it": "Esatto! 'Gira a sinistra' — il verbo 'girare' non vuole preposizione prima.", "en": "Correct! 'Gira a sinistra' — the verb 'girare' doesn't need a preposition before it." },
+      "feedbackErr": { "it": "'Gira' è il verbo — viene prima senza preposizione. 'Gira a sinistra' = turn left.", "en": "'Gira' is the verb — it comes first without a preposition. 'Gira a sinistra' = turn left." }
     },
     {
       "personaggio": "diego",
       "tipo": "abbina_coppia",
       "fase": "riconoscimento",
-      "intro": "Diego ti sfida: abbina le direzioni alle traduzioni!",
-      "intro_en": "Diego challenges you: match directions to their translations!",
-      "domanda": {
-        "it": "Abbina direzione e significato!",
-        "en": "Match direction and meaning!"
-      },
+      "intro": "Abbina le direzioni — ci riesci al volo?",
+      "intro_en": "Match the directions — can you do it quickly?",
+      "domanda": { "it": "Abbina direzione e significato!", "en": "Match direction and meaning!" },
       "coppie": [
-        { "it": "a destra",      "en": "on the right" },
-        { "it": "a sinistra",    "en": "on the left" },
+        { "it": "a destra", "en": "on the right" },
+        { "it": "a sinistra", "en": "on the left" },
         { "it": "sempre dritto", "en": "straight ahead" },
-        { "it": "indietro",      "en": "go back" }
+        { "it": "indietro", "en": "go back" }
       ],
-      "feedbackOk": {
-        "it": "Bravo! Tutte le direzioni abbinate correttamente.",
-        "en": "Well done! All directions matched correctly."
-      },
-      "feedbackErr": {
-        "it": "Quasi! Controlla le coppie — ricorda che si usa 'a' per destra e sinistra.",
-        "en": "Almost! Check the pairs — remember you use 'a' for right and left."
-      }
+      "feedbackOk": { "it": "Bravo! Tutte le direzioni abbinate correttamente.", "en": "Well done! All directions matched correctly." },
+      "feedbackErr": { "it": "Quasi! Ricorda che si usa 'a' per destra e sinistra.", "en": "Almost! Remember you use 'a' for right and left." }
     },
     {
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "intro": "Ascolta Mario che dà indicazioni a un turista.",
-      "intro_en": "Listen to Mario giving directions to a tourist.",
+      "intro": "Senti che indicazioni do — dove deve girare il turista?",
+      "intro_en": "Listen to the directions I give — where does the tourist need to turn?",
       "audio": "Vai sempre dritto, poi gira a destra.",
-      "domanda": {
-        "it": "Dove deve girare il turista?",
-        "en": "Where does the tourist need to turn?"
-      },
+      "domanda": { "it": "Dove deve girare il turista?", "en": "Where does the tourist need to turn?" },
       "opzioni": [
-        { "it": "A destra.",         "en": "To the right." },
-        { "it": "A sinistra.",       "en": "To the left." },
-        { "it": "Sempre dritto.",    "en": "Straight ahead." },
-        { "it": "Indietro.",         "en": "Back." }
+        { "it": "A destra.", "en": "To the right." },
+        { "it": "A sinistra.", "en": "To the left." },
+        { "it": "Sempre dritto.", "en": "Straight ahead." },
+        { "it": "Indietro.", "en": "Back." }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Ottimo! Hai sentito 'a destra' — la direzione dopo 'poi'.",
-        "en": "Great! You heard 'a destra' — the direction after 'poi'."
-      },
-      "feedbackErr": {
-        "it": "Riprova con 🐢 — ascolta la parola dopo 'poi gira'.",
-        "en": "Try again with 🐢 — listen for the word after 'poi gira'."
-      }
+      "feedbackOk": { "it": "Ottimo! Hai sentito 'a destra' — la direzione dopo 'poi'.", "en": "Great! You heard 'a destra' — the direction after 'poi'." },
+      "feedbackErr": { "it": "Riprova con 🐢 — ascolta la parola dopo 'poi gira'.", "en": "Try again with 🐢 — listen for the word after 'poi gira'." }
     },
     {
       "personaggio": "gino",
       "tipo": "vero_falso",
       "fase": "comprensione",
-      "intro": "Gino vuole fare una domanda sulle preposizioni articolate.",
-      "intro_en": "Gino wants to ask about contracted prepositions.",
-      "domanda": {
-        "it": "In italiano si può dire 'a il bar' invece di 'al bar'.",
-        "en": "In Italian you can say 'a il bar' instead of 'al bar'."
-      },
+      "intro": "Le preposizioni articolate — le conosci bene?",
+      "intro_en": "Contracted prepositions — do you know them well?",
+      "domanda": { "it": "In italiano si può dire 'a il bar' invece di 'al bar'.", "en": "In Italian you can say 'a il bar' instead of 'al bar'." },
       "correct": false,
-      "feedbackOk": {
-        "it": "Giusto! 'A il' non esiste in italiano — diventa obbligatoriamente 'al'. La fusione è grammaticalmente obbligatoria.",
-        "en": "Correct! 'A il' doesn't exist in Italian — it must become 'al'. The fusion is grammatically mandatory."
-      },
-      "feedbackErr": {
-        "it": "No — 'a il' non esiste in italiano. 'A' + 'il' si fondono sempre in 'al'. È una regola senza eccezioni.",
-        "en": "No — 'a il' doesn't exist in Italian. 'A' + 'il' always merge into 'al'. It's a rule with no exceptions."
-      }
+      "feedbackOk": { "it": "Giusto! 'A il' non esiste — diventa obbligatoriamente 'al'. Nessuna eccezione.", "en": "Correct! 'A il' doesn't exist — it must become 'al'. No exceptions." },
+      "feedbackErr": { "it": "No — 'a il' non esiste in italiano. 'A' + 'il' si fondono sempre in 'al'.", "en": "No — 'a il' doesn't exist in Italian. 'A' + 'il' always merge into 'al'." }
     },
     {
       "personaggio": "sofia",
       "tipo": "word_bank",
       "fase": "produzione",
-      "intro": "Sofia ti sfida: dai indicazioni per girare a sinistra!",
-      "intro_en": "Sofia challenges you: give directions to turn left!",
-      "domanda": {
-        "it": "Componi le indicazioni.",
-        "en": "Build the directions."
-      },
+      "intro": "Dai indicazioni per girare a sinistra — componi la frase!",
+      "intro_en": "Give directions to turn left — build the sentence!",
+      "domanda": { "it": "Componi le indicazioni.", "en": "Build the directions." },
       "hint_it": "Gira a sinistra.",
       "hint_en": "Turn left.",
       "parole": ["Gira", "a", "sinistra"],
       "distrattori": ["destra", "in", "di", "sempre"],
       "correct": ["Gira", "a", "sinistra"],
-      "feedbackOk": {
-        "it": "Perfetto! 'Gira a sinistra' — preposizione 'a' per le direzioni.",
-        "en": "Perfect! 'Gira a sinistra' — preposition 'a' for directions."
-      },
-      "feedbackErr": {
-        "it": "Non corretto. Con le direzioni si usa 'a': gira A destra, gira A sinistra.",
-        "en": "Not correct. With directions use 'a': gira A destra, gira A sinistra."
-      },
-      "annotazioni_frase": [
-        {
-          "parola": "Gira",
-          "tipo": "verbo",
-          "categoria_it": "verbo · imperativo · 2ª persona sing.",
-          "categoria_en": "verb · imperative · 2nd person sing.",
-          "en": "turn",
-          "perche": "'Gira' è l'imperativo di 'girare' — usato per dare istruzioni e indicazioni.",
-          "perche_en": "'Gira' is the imperative of 'girare' — used to give instructions and directions."
-        },
-        {
-          "parola": "a",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · semplice · direzione",
-          "categoria_en": "preposition · simple · direction",
-          "en": "to / on",
-          "perche": "Con le direzioni si usa sempre 'a' in italiano.",
-          "perche_en": "With directions always use 'a' in Italian."
-        }
-      ]
+      "feedbackOk": { "it": "Perfetto! 'Gira a sinistra' — preposizione 'a' per le direzioni.", "en": "Perfect! 'Gira a sinistra' — preposition 'a' for directions." },
+      "feedbackErr": { "it": "Non corretto. Con le direzioni si usa 'a': gira A destra, gira A sinistra.", "en": "Not correct. With directions use 'a': gira A destra, gira A sinistra." }
     },
     {
       "personaggio": "gino",
       "tipo": "fill_blank",
       "fase": "produzione",
-      "intro": "Gino testa le preposizioni articolate.",
-      "intro_en": "Gino tests contracted prepositions.",
-      "domanda": {
-        "it": "Il bar è ___ fine della strada.",
-        "en": "The bar is ___ end of the street."
-      },
+      "intro": "Scegli la preposizione giusta — dipende dal genere!",
+      "intro_en": "Choose the right preposition — it depends on the gender!",
+      "domanda": { "it": "Il bar è ___ fine della strada.", "en": "The bar is ___ end of the street." },
       "opzioni": [
-        { "it": "alla",  "en": "at the (a + la)" },
-        { "it": "al",    "en": "at the (a + il)" },
+        { "it": "alla", "en": "at the (a + la)" },
+        { "it": "al", "en": "at the (a + il)" },
         { "it": "della", "en": "of the (di + la)" },
         { "it": "nella", "en": "in the (in + la)" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "'Alla' = a + la. 'Fine' è femminile — quindi 'alla fine', non 'al fine'.",
-        "en": "'Alla' = a + la. 'Fine' is feminine — so 'alla fine', not 'al fine'."
-      },
-      "feedbackErr": {
-        "it": "'Fine' è femminile (la fine) — si usa 'alla' (a + la), non 'al' (a + il).",
-        "en": "'Fine' is feminine (la fine) — use 'alla' (a + la), not 'al' (a + il)."
-      }
+      "feedbackOk": { "it": "'Alla' = a + la. 'Fine' è femminile — quindi 'alla fine', non 'al fine'.", "en": "'Alla' = a + la. 'Fine' is feminine — so 'alla fine', not 'al fine'." },
+      "feedbackErr": { "it": "'Fine' è femminile (la fine) — si usa 'alla' (a + la), non 'al' (a + il).", "en": "'Fine' is feminine (la fine) — use 'alla' (a + la), not 'al' (a + il)." }
     },
     {
       "personaggio": "matilde",
       "tipo": "multipla",
       "fase": "produzione",
-      "intro": "Matilde simula una situazione business: un cliente chiede dove si trova l'ufficio.",
-      "intro_en": "Matilde simulates a business situation: a client asks where the office is.",
-      "domanda": {
-        "it": "Come dici 'the office is near the station' in italiano?",
-        "en": "How do you say 'the office is near the station' in Italian?"
-      },
+      "intro": "Un cliente chiede dove si trova il nostro ufficio — come rispondo?",
+      "intro_en": "A client asks where our office is — how do I respond?",
+      "domanda": { "it": "Come si dice 'the office is near the station' in italiano?", "en": "How do you say 'the office is near the station' in Italian?" },
       "opzioni": [
-        { "it": "L'ufficio è vicino alla stazione.",  "en": "The office is near the station." },
-        { "it": "L'ufficio è vicino di stazione.",    "en": "WRONG preposition" },
-        { "it": "L'ufficio è vicino in stazione.",    "en": "WRONG preposition" },
-        { "it": "L'ufficio è vicino la stazione.",    "en": "Missing preposition" }
+        { "it": "L'ufficio è vicino alla stazione.", "en": "The office is near the station." },
+        { "it": "L'ufficio è vicino di stazione.", "en": "WRONG preposition" },
+        { "it": "L'ufficio è vicino in stazione.", "en": "WRONG preposition" },
+        { "it": "L'ufficio è vicino la stazione.", "en": "Missing preposition" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Perfetto! 'Vicino alla stazione' — 'vicino' vuole 'a' e poi l'articolo contratto.",
-        "en": "Perfect! 'Vicino alla stazione' — 'vicino' requires 'a' then the contracted article."
-      },
-      "feedbackErr": {
-        "it": "'Vicino' vuole sempre 'a' dopo: vicino AL bar, vicino ALLA stazione, vicino ALL'ufficio.",
-        "en": "'Vicino' always requires 'a' after: vicino AL bar, vicino ALLA stazione, vicino ALL'ufficio."
-      }
+      "feedbackOk": { "it": "Perfetto! 'Vicino alla stazione' — 'vicino' vuole 'a' e poi l'articolo contratto.", "en": "Perfect! 'Vicino alla stazione' — 'vicino' requires 'a' then the contracted article." },
+      "feedbackErr": { "it": "'Vicino' vuole sempre 'a' dopo: vicino AL bar, vicino ALLA stazione.", "en": "'Vicino' always requires 'a' after: vicino AL bar, vicino ALLA stazione." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "vero_falso",
       "fase": "produzione",
-      "intro": "Vittoria fa l'ultima domanda della lezione.",
-      "intro_en": "Vittoria asks the last question of the lesson.",
-      "domanda": {
-        "it": "'Lontano da' e 'vicino a' usano preposizioni diverse in italiano.",
-        "en": "'Lontano da' and 'vicino a' use different prepositions in Italian."
-      },
+      "intro": "Dimmi se hai capito la differenza tra 'vicino' e 'lontano'.",
+      "intro_en": "Tell me if you understood the difference between 'vicino' and 'lontano'.",
+      "domanda": { "it": "'Lontano da' e 'vicino a' usano preposizioni diverse in italiano.", "en": "'Lontano da' and 'vicino a' use different prepositions in Italian." },
       "correct": true,
-      "feedbackOk": {
-        "it": "Esatto! 'Vicino A' qualcosa, 'lontano DA' qualcosa. Due preposizioni diverse — in inglese si usa solo 'from' per entrambi!",
-        "en": "Correct! 'Vicino A' something, 'lontano DA' something. Two different prepositions — in English you use 'from' for both!"
-      },
-      "feedbackErr": {
-        "it": "No — sono diverse! 'Vicino A' (a+articolo), 'lontano DA' (da+articolo). È una delle differenze principali tra italiano e inglese.",
-        "en": "No — they're different! 'Vicino A' (a+article), 'lontano DA' (da+article). It's one of the key differences between Italian and English."
-      }
+      "feedbackOk": { "it": "Esatto! 'Vicino A', 'lontano DA' — in inglese si usa solo 'from' per entrambi!", "en": "Correct! 'Vicino A', 'lontano DA' — in English you use 'from' for both!" },
+      "feedbackErr": { "it": "No — sono diverse! 'Vicino A', 'lontano DA'. È una differenza chiave italiano-inglese.", "en": "No — they're different! 'Vicino A', 'lontano DA'. Key Italian-English difference." }
     }
   ],
 
   "reward": {
-    "cibo": "aperitivo",
-    "cibo_emoji": "🍸",
-    "cibo_nome_it": "Aperitivo",
-    "cibo_nome_en": "Aperitif",
+    "cibo": "aperitivo", "cibo_emoji": "🍸", "cibo_nome_it": "Aperitivo", "cibo_nome_en": "Aperitif",
     "energia_base": 20,
     "scala_errori": [
-      { "max_errori": 0,  "moltiplicatore": 1.0 },
-      { "max_errori": 2,  "moltiplicatore": 0.75 },
-      { "max_errori": 4,  "moltiplicatore": 0.50 },
-      { "max_errori": 6,  "moltiplicatore": 0.25 },
+      { "max_errori": 0, "moltiplicatore": 1.0 }, { "max_errori": 2, "moltiplicatore": 0.75 },
+      { "max_errori": 4, "moltiplicatore": 0.50 }, { "max_errori": 6, "moltiplicatore": 0.25 },
       { "max_errori": 99, "moltiplicatore": 0.0 }
     ]
   }

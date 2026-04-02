@@ -12,98 +12,28 @@
       "emoji": "🫒",
       "it": "l'antipasto",
       "en": "the starter / appetiser",
-      "mario": "'Antipasto' letteralmente = 'prima del pasto'. In italiano l'ordine del pranzo è sacro: antipasto → primo → secondo → dolce. Non si salta! / 'Antipasto' literally = 'before the meal'. The lunch order is sacred in Italy!",
-      "annotazioni": [
-        {
-          "parola": "l'antipasto",
-          "tipo": "sostantivo",
-          "categoria_it": "sostantivo · maschile · con articolo eliso",
-          "categoria_en": "noun · masculine · with elided article",
-          "en": "the starter / appetiser",
-          "perche": "L'articolo 'il' diventa 'l'' davanti a parole che iniziano per vocale: il antipasto → l'antipasto. L'elisione è obbligatoria.",
-          "perche_en": "The article 'il' becomes 'l'' before words starting with a vowel: il antipasto → l'antipasto. Elision is mandatory.",
-          "esempi": [
-            { "it": "l'antipasto ✅", "en": "the starter",    "ok": true },
-            { "it": "il antipasto ❌","en": "WRONG — elision required", "ok": false }
-          ]
-        }
-      ]
+      "mario": "L'antipasto apre il pasto — viene prima di tutto. Letteralmente 'prima del pasto'! / The antipasto opens the meal — it comes before everything. Literally 'before the meal'!"
     },
     {
       "id": "primo",
       "emoji": "🍝",
       "it": "il primo",
       "en": "the first course (pasta/risotto/soup)",
-      "mario": "Il 'primo' in Italia è quasi sempre pasta, risotto o zuppa. Non è un'insalata, non è pane — è il piatto principale di carboidrati. / The 'primo' in Italy is almost always pasta, risotto or soup.",
-      "annotazioni": [
-        {
-          "parola": "il",
-          "tipo": "articolo",
-          "categoria_it": "articolo · determinativo · maschile · singolare",
-          "categoria_en": "article · definite · masculine · singular",
-          "en": "the",
-          "perche": "'Il' è l'articolo determinativo maschile singolare. Davanti a vocale diventa 'l'', davanti a z/s+cons diventa 'lo'.",
-          "perche_en": "'Il' is the definite article masculine singular. Before a vowel it becomes 'l'', before z/s+consonant it becomes 'lo'.",
-          "esempi": [
-            { "it": "il primo ✅",   "en": "the first course", "ok": true },
-            { "it": "lo zucchero ✅","en": "the sugar",        "ok": true },
-            { "it": "l'antipasto ✅","en": "the starter",      "ok": true }
-          ]
-        },
-        {
-          "parola": "primo",
-          "tipo": "aggettivo",
-          "categoria_it": "aggettivo · ordinale · usato come sostantivo",
-          "categoria_en": "adjective · ordinal · used as noun",
-          "en": "first / first course",
-          "perche": "'Primo' (first) usato da solo con l'articolo diventa un sostantivo: 'il primo' = the first course. L'italiano ama usare gli aggettivi come sostantivi.",
-          "perche_en": "'Primo' (first) used alone with the article becomes a noun: 'il primo' = the first course. Italian loves using adjectives as nouns."
-        }
-      ]
+      "mario": "Il primo in Italia = pasta, risotto o zuppa. Non è un'insalata, non è pane — è carboidrati veri! / The primo in Italy = pasta, risotto or soup. Not a salad, not bread — real carbs!"
     },
     {
       "id": "secondo",
       "emoji": "🥩",
       "it": "il secondo",
       "en": "the second course (meat/fish)",
-      "mario": "Il 'secondo' è carne o pesce — sempre accompagnato da un 'contorno' (side dish). Non viene servito con il primo — sono piatti separati! / The 'secondo' is meat or fish — always with a 'contorno' (side dish).",
-      "annotazioni": [
-        {
-          "parola": "secondo",
-          "tipo": "aggettivo",
-          "categoria_it": "aggettivo · ordinale · usato come sostantivo",
-          "categoria_en": "adjective · ordinal · used as noun",
-          "en": "second / second course",
-          "perche": "Come 'primo', anche 'secondo' usato con l'articolo diventa un sostantivo gastronomico. Falso amico: 'secondo me' = in my opinion, non 'second course'!",
-          "perche_en": "Like 'primo', 'secondo' with the article becomes a gastronomic noun. False friend: 'secondo me' = in my opinion, not 'second course'!",
-          "esempi": [
-            { "it": "il secondo ✅",      "en": "the second course",  "ok": true },
-            { "it": "secondo me ✅",      "en": "in my opinion",      "ok": true }
-          ]
-        }
-      ]
+      "mario": "Il secondo = carne o pesce. Sempre con un contorno a parte — non viene con il primo! / The secondo = meat or fish. Always with a side dish — it doesn't come with the primo!"
     },
     {
       "id": "dolce",
       "emoji": "🍮",
       "it": "il dolce",
-      "en": "the dessert / the sweet",
-      "mario": "'Dolce' significa sia 'sweet' (aggettivo) che 'dessert' (sostantivo). 'Che dolce!' = how sweet! 'Prendo il dolce' = I'll have dessert. Stesso suono, due significati! / 'Dolce' means both 'sweet' and 'dessert'.",
-      "annotazioni": [
-        {
-          "parola": "dolce",
-          "tipo": "aggettivo",
-          "categoria_it": "aggettivo · variabile · usato anche come sostantivo",
-          "categoria_en": "adjective · variable · also used as noun",
-          "en": "sweet (adj) / dessert (noun)",
-          "perche": "'Dolce' come aggettivo = sweet. Come sostantivo con l'articolo = dessert. La stessa parola fa due lavori diversi in italiano.",
-          "perche_en": "'Dolce' as adjective = sweet. As a noun with the article = dessert. The same word does two different jobs in Italian.",
-          "esempi": [
-            { "it": "il dolce ✅",        "en": "the dessert",    "ok": true },
-            { "it": "un caffè dolce ✅",  "en": "a sweet coffee", "ok": true }
-          ]
-        }
-      ]
+      "en": "the dessert",
+      "mario": "'Dolce' significa sia 'sweet' che 'dessert'. 'Che dolce!' = how sweet! 'Prendo il dolce' = I'll have dessert! / 'Dolce' means both 'sweet' and 'dessert'!"
     }
   ],
 
@@ -112,12 +42,9 @@
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "intro": "Mario vuole sapere se conosci l'ordine del pranzo italiano.",
-      "intro_en": "Mario wants to know if you know the order of an Italian lunch.",
-      "domanda": {
-        "it": "Qual è l'ordine corretto di un pranzo italiano tradizionale?",
-        "en": "What is the correct order of a traditional Italian lunch?"
-      },
+      "intro": "Sai qual è l'ordine giusto di un pranzo italiano?",
+      "intro_en": "Do you know the right order of an Italian lunch?",
+      "domanda": { "it": "Qual è l'ordine corretto di un pranzo italiano tradizionale?", "en": "What is the correct order of a traditional Italian lunch?" },
       "opzioni": [
         { "it": "Antipasto → Primo → Secondo → Dolce", "en": "Starter → First → Second → Dessert" },
         { "it": "Primo → Antipasto → Dolce → Secondo", "en": "First → Starter → Dessert → Second" },
@@ -125,225 +52,124 @@
         { "it": "Dolce → Antipasto → Primo → Secondo", "en": "Dessert → Starter → First → Second" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Perfetto! Antipasto → Primo → Secondo → Dolce. Quest'ordine è sacro — non si discute!",
-        "en": "Perfect! Antipasto → Primo → Secondo → Dolce. This order is sacred — it's non-negotiable!"
-      },
-      "feedbackErr": {
-        "it": "L'ordine è fisso: antipasto → primo → secondo → dolce. Niente secondo prima del primo!",
-        "en": "The order is fixed: antipasto → primo → secondo → dolce. Never second before first!"
-      }
+      "feedbackOk": { "it": "Perfetto! Antipasto → Primo → Secondo → Dolce. Quest'ordine è sacro!", "en": "Perfect! Antipasto → Primo → Secondo → Dolce. This order is sacred!" },
+      "feedbackErr": { "it": "L'ordine è fisso: antipasto → primo → secondo → dolce. Niente secondo prima del primo!", "en": "The order is fixed: antipasto → primo → secondo → dolce. Never second before first!" }
     },
     {
       "personaggio": "gino",
       "tipo": "vero_falso",
       "fase": "riconoscimento",
-      "intro": "Gino ha una domanda culturale importante.",
-      "intro_en": "Gino has an important cultural question.",
-      "domanda": {
-        "it": "In Italia è normale chiedere la pasta come contorno del secondo piatto.",
-        "en": "In Italy it's normal to ask for pasta as a side dish with the second course."
-      },
+      "intro": "Ti faccio una domanda sulla pasta — stai attento!",
+      "intro_en": "I'm asking you about pasta — pay attention!",
+      "domanda": { "it": "In Italia è normale chiedere la pasta come contorno del secondo piatto.", "en": "In Italy it's normal to ask for pasta as a side dish with the second course." },
       "correct": false,
-      "feedbackOk": {
-        "it": "Giusto! La pasta è il 'primo' — mai un contorno. Chiedere 'pasta come contorno' in un ristorante italiano è un errore culturale grave.",
-        "en": "Correct! Pasta is the 'primo' — never a side dish. Asking for 'pasta as a side' at an Italian restaurant is a serious cultural mistake."
-      },
-      "feedbackErr": {
-        "it": "No! La pasta non è mai un contorno in Italia — è il primo piatto. Il contorno accompagna il secondo (verdure, insalata, patate).",
-        "en": "No! Pasta is never a side dish in Italy — it's the first course. Side dishes accompany the second (vegetables, salad, potatoes)."
-      }
+      "feedbackOk": { "it": "Giusto! La pasta è il 'primo' — mai un contorno. Chiedere 'pasta come contorno' è un errore grave.", "en": "Correct! Pasta is the 'primo' — never a side dish. Asking for 'pasta as a side' is a serious mistake." },
+      "feedbackErr": { "it": "No! La pasta non è mai un contorno — è il primo piatto. Il contorno accompagna il secondo.", "en": "No! Pasta is never a side dish — it's the first course. Side dishes accompany the second." }
     },
     {
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "intro": "Ascolta Mario al ristorante che spiega il menu.",
-      "intro_en": "Listen to Mario at the restaurant explaining the menu.",
+      "intro": "Senti cosa dico al tavolo — quale piatto sto descrivendo?",
+      "intro_en": "Listen to what I say at the table — which course am I describing?",
       "audio": "Come primo abbiamo la pasta al pomodoro.",
-      "domanda": {
-        "it": "Cosa ha detto Mario sul menu?",
-        "en": "What did Mario say about the menu?"
-      },
+      "domanda": { "it": "Quale piatto sta descrivendo Mario?", "en": "Which course is Mario describing?" },
       "opzioni": [
-        { "it": "Il primo è pasta al pomodoro.",     "en": "The first course is tomato pasta." },
-        { "it": "Il secondo è pasta al pomodoro.",   "en": "The second course is tomato pasta." },
-        { "it": "Il dolce è pasta al pomodoro.",     "en": "The dessert is tomato pasta." },
-        { "it": "L'antipasto è pasta al pomodoro.",  "en": "The starter is tomato pasta." }
+        { "it": "Il primo — pasta al pomodoro.", "en": "The first course — tomato pasta." },
+        { "it": "Il secondo — pasta al pomodoro.", "en": "The second course — tomato pasta." },
+        { "it": "Il dolce — pasta al pomodoro.", "en": "The dessert — tomato pasta." },
+        { "it": "L'antipasto — pasta al pomodoro.", "en": "The starter — tomato pasta." }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Ottimo! Hai sentito 'come primo' — la parola chiave che indica il tipo di piatto.",
-        "en": "Great! You heard 'come primo' — the key phrase indicating the type of dish."
-      },
-      "feedbackErr": {
-        "it": "Riprova con 🐢 — ascolta la parola dopo 'come': 'come PRIMO'.",
-        "en": "Try again with 🐢 — listen for the word after 'come': 'come PRIMO'."
-      }
+      "feedbackOk": { "it": "Ottimo! Hai sentito 'come primo' — la parola chiave che indica il tipo di piatto.", "en": "Great! You heard 'come primo' — the key phrase indicating the type of dish." },
+      "feedbackErr": { "it": "Riprova con 🐢 — ascolta la parola dopo 'come': 'come PRIMO'.", "en": "Try again with 🐢 — listen for the word after 'come': 'come PRIMO'." }
     },
     {
       "personaggio": "diego",
       "tipo": "abbina_coppia",
       "fase": "comprensione",
-      "intro": "Diego ti sfida: abbina ogni piatto alla sua descrizione!",
-      "intro_en": "Diego challenges you: match each dish to its description!",
-      "domanda": {
-        "it": "Abbina il piatto alla sua categoria!",
-        "en": "Match the dish to its category!"
-      },
+      "intro": "Abbina ogni piatto alla sua categoria — lo sai fare?",
+      "intro_en": "Match each dish to its category — can you do it?",
+      "domanda": { "it": "Abbina il piatto alla sua categoria!", "en": "Match the dish to its category!" },
       "coppie": [
-        { "it": "la bruschetta",  "en": "antipasto" },
+        { "it": "la bruschetta", "en": "antipasto" },
         { "it": "le tagliatelle", "en": "primo" },
-        { "it": "la bistecca",    "en": "secondo" },
-        { "it": "il tiramisù",    "en": "dolce" }
+        { "it": "la bistecca", "en": "secondo" },
+        { "it": "il tiramisù", "en": "dolce" }
       ],
-      "feedbackOk": {
-        "it": "Perfetto! Hai capito la struttura del pasto italiano.",
-        "en": "Perfect! You understood the structure of the Italian meal."
-      },
-      "feedbackErr": {
-        "it": "Quasi! Ricorda: pasta/risotto = primo, carne/pesce = secondo.",
-        "en": "Almost! Remember: pasta/risotto = primo, meat/fish = secondo."
-      }
+      "feedbackOk": { "it": "Perfetto! Hai capito la struttura del pasto italiano.", "en": "Perfect! You understood the structure of the Italian meal." },
+      "feedbackErr": { "it": "Quasi! Ricorda: pasta/risotto = primo, carne/pesce = secondo.", "en": "Almost! Remember: pasta/risotto = primo, meat/fish = secondo." }
     },
     {
       "personaggio": "sofia",
       "tipo": "word_bank",
       "fase": "produzione",
-      "intro": "Sofia ti sfida a ordinare il primo piatto al ristorante.",
-      "intro_en": "Sofia challenges you to order the first course at a restaurant.",
-      "domanda": {
-        "it": "Componi la frase per ordinare la pasta.",
-        "en": "Build the sentence to order pasta."
-      },
+      "intro": "Ordina il primo piatto al ristorante — componi la frase!",
+      "intro_en": "Order the first course at the restaurant — build the sentence!",
+      "domanda": { "it": "Componi la frase per ordinare la pasta.", "en": "Build the sentence to order pasta." },
       "hint_it": "Come primo vorrei la pasta.",
       "hint_en": "For the first course I would like the pasta.",
       "parole": ["Come", "primo", "vorrei", "la", "pasta"],
       "distrattori": ["secondo", "il", "voglio", "un"],
       "correct": ["Come", "primo", "vorrei", "la", "pasta"],
-      "feedbackOk": {
-        "it": "Eccellente! 'Come primo vorrei la pasta' — perfetto al ristorante.",
-        "en": "Excellent! 'Come primo vorrei la pasta' — perfect at the restaurant."
-      },
-      "feedbackErr": {
-        "it": "Non corretto. Struttura: 'Come primo' + 'vorrei' + 'la' + piatto.",
-        "en": "Not correct. Structure: 'Come primo' + 'vorrei' + 'la' + dish."
-      },
-      "annotazioni_frase": [
-        {
-          "parola": "Come",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · modo / funzione",
-          "categoria_en": "preposition · manner / function",
-          "en": "as / for (the role of)",
-          "perche": "'Come primo' = as the first course / for the first course. 'Come' qui indica funzione, non similitudine.",
-          "perche_en": "'Come primo' = as the first course / for the first course. 'Come' here indicates function, not similarity."
-        },
-        {
-          "parola": "la",
-          "tipo": "articolo",
-          "categoria_it": "articolo · determinativo · femminile · singolare",
-          "categoria_en": "article · definite · feminine · singular",
-          "en": "the (feminine)",
-          "perche": "'La pasta' — pasta è femminile in italiano. 'La' è l'articolo determinativo femminile singolare.",
-          "perche_en": "'La pasta' — pasta is feminine in Italian. 'La' is the definite article feminine singular."
-        }
-      ]
+      "feedbackOk": { "it": "Eccellente! 'Come primo vorrei la pasta' — perfetto al ristorante.", "en": "Excellent! 'Come primo vorrei la pasta' — perfect at the restaurant." },
+      "feedbackErr": { "it": "Non corretto. Struttura: 'Come primo' + 'vorrei' + 'la' + piatto.", "en": "Not correct. Structure: 'Come primo' + 'vorrei' + 'la' + dish." }
     },
     {
       "personaggio": "gino",
       "tipo": "falso_amico",
       "fase": "produzione",
-      "intro": "Gino vuole spiegare un falso amico gastronomico.",
-      "intro_en": "Gino wants to explain a gastronomic false friend.",
-      "domanda": {
-        "it": "Un italiano dice: 'Prendiamo i peperoni!' Cosa porta il cameriere?",
-        "en": "An Italian says: 'Let's get the peperoni!' What does the waiter bring?"
-      },
+      "intro": "Attenzione — 'peperoni' non è quello che pensi!",
+      "intro_en": "Watch out — 'peperoni' is not what you think!",
+      "domanda": { "it": "Un italiano dice: 'Prendiamo i peperoni!' Cosa porta il cameriere?", "en": "An Italian says: 'Let's get the peperoni!' What does the waiter bring?" },
       "contesto_it": "\"Cameriere, una pizza con i peperoni, per favore.\"",
       "contesto_en": "\"Waiter, a pizza with peperoni, please.\"",
       "opzioni": [
-        { "it": "Peperoni colorati (rossi/gialli/verdi)", "en": "Coloured peppers (red/yellow/green)" },
-        { "it": "Salame piccante (pepperoni)",            "en": "Spicy salami (pepperoni)" },
-        { "it": "Pepe macinato",                          "en": "Ground pepper" },
-        { "it": "Peperoncini piccanti",                   "en": "Hot chilli peppers" }
+        { "it": "Peperoni colorati (rossi/gialli/verdi)", "en": "Coloured bell peppers (red/yellow/green)" },
+        { "it": "Salame piccante (pepperoni)", "en": "Spicy salami (pepperoni)" },
+        { "it": "Pepe macinato", "en": "Ground pepper" },
+        { "it": "Peperoncini piccanti", "en": "Hot chilli peppers" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Esatto! 'Peperoni' in italiano = bell peppers (dolci, colorati). 'Pepperoni' in inglese = salame piccante. Falso amico classico!",
-        "en": "Correct! 'Peperoni' in Italian = bell peppers (sweet, coloured). 'Pepperoni' in English = spicy salami. Classic false friend!"
-      },
-      "feedbackErr": {
-        "it": "Trappola! 'Peperoni' ≠ pepperoni. In italiano = peperoni dolci colorati. Per il salame piccante dici 'salame piccante' o 'nduja'.",
-        "en": "Trap! 'Peperoni' ≠ pepperoni. In Italian = sweet coloured bell peppers. For spicy salami say 'salame piccante' or 'nduja'."
-      }
+      "feedbackOk": { "it": "Esatto! 'Peperoni' in italiano = bell peppers dolci. 'Pepperoni' in inglese = salame piccante.", "en": "Correct! 'Peperoni' in Italian = sweet bell peppers. 'Pepperoni' in English = spicy salami." },
+      "feedbackErr": { "it": "Trappola! 'Peperoni' ≠ pepperoni. In italiano = peperoni dolci colorati.", "en": "Trap! 'Peperoni' ≠ pepperoni. In Italian = sweet coloured bell peppers." }
     },
     {
       "personaggio": "matilde",
       "tipo": "scegli_registro",
       "fase": "produzione",
-      "intro": "Matilde simula un pranzo di lavoro — come ordini in modo formale?",
-      "intro_en": "Matilde simulates a business lunch — how do you order formally?",
-      "domanda": {
-        "it": "Sei a un pranzo di lavoro. Come chiedi il dolce?",
-        "en": "You're at a business lunch. How do you ask for dessert?"
-      },
+      "intro": "Siamo a un pranzo di lavoro — come chiedi il dolce?",
+      "intro_en": "We're at a business lunch — how do you ask for dessert?",
+      "domanda": { "it": "Sei a un pranzo di lavoro. Come chiedi il dolce?", "en": "You're at a business lunch. How do you ask for dessert?" },
       "opzioni": [
-        { "it": "Vorrei il dolce, per favore.",      "en": "I would like dessert, please." },
-        { "it": "Voglio qualcosa di dolce.",          "en": "I want something sweet." },
-        { "it": "Ehi, portami il dolce!",            "en": "Hey, bring me the dessert!" },
-        { "it": "C'è roba dolce?",                   "en": "Is there sweet stuff?" }
+        { "it": "Vorrei il dolce, per favore.", "en": "I would like dessert, please." },
+        { "it": "Voglio qualcosa di dolce.", "en": "I want something sweet." },
+        { "it": "Ehi, portami il dolce!", "en": "Hey, bring me the dessert!" },
+        { "it": "C'è roba dolce?", "en": "Is there sweet stuff?" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Perfetto! 'Vorrei il dolce, per favore' — formale, educato, impeccabile.",
-        "en": "Perfect! 'Vorrei il dolce, per favore' — formal, polite, impeccable."
-      },
-      "feedbackErr": {
-        "it": "In un contesto formale serve il condizionale 'vorrei' + 'per favore'.",
-        "en": "In a formal context you need the conditional 'vorrei' + 'per favore'."
-      }
+      "feedbackOk": { "it": "Perfetto! 'Vorrei il dolce, per favore' — formale, educato, impeccabile.", "en": "Perfect! 'Vorrei il dolce, per favore' — formal, polite, impeccable." },
+      "feedbackErr": { "it": "In un contesto formale serve 'vorrei' + 'per favore' — niente slang.", "en": "In a formal context you need 'vorrei' + 'per favore' — no slang." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "vero_falso",
       "fase": "produzione",
-      "intro": "Vittoria chiude la lezione con una domanda sulla pizza.",
-      "intro_en": "Vittoria closes the lesson with a question about pizza.",
-      "domanda": {
-        "it": "In Italia ordinare una pizza con ananas è considerato normale.",
-        "en": "In Italy ordering a pizza with pineapple is considered normal."
-      },
+      "intro": "Una domanda sulla pizza — spero tu conosca la risposta!",
+      "intro_en": "A question about pizza — I hope you know the answer!",
+      "domanda": { "it": "In Italia ordinare una pizza con ananas è considerato normale.", "en": "In Italy ordering a pizza with pineapple is considered normal." },
       "correct": false,
-      "feedbackOk": {
-        "it": "Giusto! La pizza con ananas (Hawaiian pizza) è considerata un'eresia in Italia. Vittoria vorrebbe dirti qualcosa... ma è educata.",
-        "en": "Correct! Pizza with pineapple (Hawaiian pizza) is considered heresy in Italy. Vittoria would like to say something... but she's polite."
-      },
-      "feedbackErr": {
-        "it": "No! La pizza con ananas è considerata una profanazione della cucina italiana. Ordinarla in Italia potrebbe causare reazioni... forti.",
-        "en": "No! Pizza with pineapple is considered a desecration of Italian cuisine. Ordering it in Italy might cause... strong reactions."
-      }
+      "feedbackOk": { "it": "Giusto! La pizza con ananas è considerata un'eresia. Vittoria approva la tua risposta.", "en": "Correct! Pizza with pineapple is considered heresy. Vittoria approves your answer." },
+      "feedbackErr": { "it": "No! La pizza con ananas è una profanazione della cucina italiana. Fidati di me.", "en": "No! Pizza with pineapple is a desecration of Italian cuisine. Trust me on this." }
     }
   ],
 
-  "pizza_spicchi": {
-    "note": "Lezione 4 — ogni 2 risposte corrette = 1 spicchio, max 4 spicchi",
-    "energia_per_spicchio": 3.75,
-    "max_spicchi": 4,
-    "energia_pizza_intera": 15
-  },
-
   "reward": {
-    "cibo": "pizza",
-    "cibo_emoji": "🍕",
-    "cibo_nome_it": "Pizza",
-    "cibo_nome_en": "Pizza",
+    "cibo": "pizza", "cibo_emoji": "🍕", "cibo_nome_it": "Pizza", "cibo_nome_en": "Pizza",
     "energia_base": 15,
     "scala_errori": [
-      { "max_errori": 0,  "moltiplicatore": 1.0 },
-      { "max_errori": 2,  "moltiplicatore": 0.75 },
-      { "max_errori": 4,  "moltiplicatore": 0.50 },
-      { "max_errori": 6,  "moltiplicatore": 0.25 },
+      { "max_errori": 0, "moltiplicatore": 1.0 }, { "max_errori": 2, "moltiplicatore": 0.75 },
+      { "max_errori": 4, "moltiplicatore": 0.50 }, { "max_errori": 6, "moltiplicatore": 0.25 },
       { "max_errori": 99, "moltiplicatore": 0.0 }
     ]
   }

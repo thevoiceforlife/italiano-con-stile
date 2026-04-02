@@ -7,227 +7,115 @@
   "unita": 1,
   "is_boss": true,
 
-  "intro_vittoria": {
-    "it": "Allora. Hai studiato. Vediamo se hai capito davvero — o se sai solo ripetere come un pappagallo.",
-    "en": "So. You've studied. Let's see if you truly understood — or if you just repeat like a parrot.",
-    "audio": "Allora. Hai studiato. Vediamo se hai capito davvero."
-  },
-
-  "note": "La Sfida la Nonna NON ha fase Scoperta — Vittoria non insegna, valuta. Struttura: 2 domande riconoscimento + 1 comprensione + 2 produzione = 5 domande totali.",
+  "vocab": [
+    {
+      "id": "intro-boss",
+      "emoji": "🍦",
+      "it": "Sfida la Nonna",
+      "en": "Challenge the Grandma",
+      "mario": "Allora. Hai studiato. Vediamo se hai capito davvero — o se sai solo ripetere come un pappagallo. / So. You've studied. Let's see if you truly understood — or if you just repeat like a parrot."
+    }
+  ],
 
   "questions": [
     {
       "personaggio": "vittoria",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "numero": 1,
-      "intro": "Prima domanda. Semplice — se non la sai, c'è un problema.",
-      "intro_en": "First question. Simple — if you don't know this, there's a problem.",
-      "domanda": {
-        "it": "Un turista ti dice 'Grazie mille!' Tu rispondi:",
-        "en": "A tourist says 'Grazie mille!' to you. You reply:"
-      },
+      "intro": "Prima domanda. Se non la sai, c'è un problema.",
+      "intro_en": "First question. If you don't know this, there's a problem.",
+      "domanda": { "it": "Un turista ti dice 'Grazie mille!' Tu rispondi:", "en": "A tourist says 'Grazie mille!' to you. You reply:" },
       "opzioni": [
-        { "it": "Prego!",          "en": "You're welcome!" },
-        { "it": "Grazie a te!",    "en": "Thank you too!" },
-        { "it": "Sì, certo.",      "en": "Yes, of course." },
-        { "it": "Ciao!",           "en": "Hi/Bye!" }
+        { "it": "Prego!", "en": "You're welcome!" },
+        { "it": "Grazie a te!", "en": "Thank you too!" },
+        { "it": "Sì, certo.", "en": "Yes, of course." },
+        { "it": "Ciao!", "en": "Hi/Bye!" }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Bene. 'Prego' è l'unica risposta corretta a 'grazie'. Almeno questo lo sai.",
-        "en": "Good. 'Prego' is the only correct response to 'grazie'. At least you know that."
-      },
-      "feedbackErr": {
-        "it": "No. A 'grazie' si risponde 'prego' — sempre. Non 'grazie a te', non 'ciao'. Prego.",
-        "en": "No. To 'grazie' you respond 'prego' — always. Not 'grazie a te', not 'ciao'. Prego."
-      },
-      "annotazioni_domanda": [
-        {
-          "parola": "Grazie",
-          "tipo": "avverbio",
-          "categoria_it": "avverbio · invariabile",
-          "categoria_en": "adverb · invariable",
-          "en": "thank you",
-          "perche": "'Grazie' non cambia mai forma — è sempre uguale, qualunque sia il genere o il numero.",
-          "perche_en": "'Grazie' never changes form — it's always the same, regardless of gender or number."
-        }
-      ]
+      "feedbackOk": { "it": "Bene. Almeno questo lo sai — 'prego' è l'unica risposta corretta a 'grazie'.", "en": "Good. At least you know this — 'prego' is the only correct response to 'grazie'." },
+      "feedbackErr": { "it": "No. A 'grazie' si risponde 'prego' — sempre. Non 'grazie a te', non 'ciao'. Prego.", "en": "No. To 'grazie' you respond 'prego' — always. Not 'grazie a te', not 'ciao'. Prego." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "vero_falso",
       "fase": "riconoscimento",
-      "numero": 2,
-      "intro": "Seconda domanda. Cultura italiana — spero tu abbia prestato attenzione.",
-      "intro_en": "Second question. Italian culture — I hope you were paying attention.",
-      "domanda": {
-        "it": "Al bar italiano, 'un caffè' significa sempre un espresso.",
-        "en": "At an Italian bar, 'un caffè' always means an espresso."
-      },
+      "intro": "Cultura italiana — spero tu abbia prestato attenzione.",
+      "intro_en": "Italian culture — I hope you were paying attention.",
+      "domanda": { "it": "Al bar italiano, 'un caffè' significa sempre un espresso.", "en": "At an Italian bar, 'un caffè' always means an espresso." },
       "correct": true,
-      "feedbackOk": {
-        "it": "Bene. In Italia 'caffè' = espresso, punto. Se vuoi altro, lo devi specificare.",
-        "en": "Good. In Italy 'caffè' = espresso, full stop. If you want something else, you must specify."
-      },
-      "feedbackErr": {
-        "it": "No. In Italia 'un caffè' = espresso. Sempre. Se vuoi un caffè americano, lo chiedi esplicitamente.",
-        "en": "No. In Italy 'un caffè' = espresso. Always. If you want an Americano, you ask for it explicitly."
-      }
+      "feedbackOk": { "it": "Bene. In Italia 'caffè' = espresso, punto. Se vuoi altro, lo devi specificare.", "en": "Good. In Italy 'caffè' = espresso, full stop. If you want something else, you must specify." },
+      "feedbackErr": { "it": "No. In Italia 'un caffè' = espresso. Sempre. Senza eccezioni.", "en": "No. In Italy 'un caffè' = espresso. Always. Without exceptions." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "numero": 3,
-      "intro": "Terza domanda. Ascolto. Concentrati.",
-      "intro_en": "Third question. Listening. Focus.",
+      "intro": "Ascolto. Concentrati — non ti do la tartaruga gratis.",
+      "intro_en": "Listening. Focus — I don't give you the turtle for free.",
       "audio": "Vorrei un caffè e un cornetto, per favore.",
-      "domanda": {
-        "it": "Cosa ha ordinato la persona?",
-        "en": "What did the person order?"
-      },
+      "domanda": { "it": "Cosa ha ordinato la persona?", "en": "What did the person order?" },
       "opzioni": [
-        { "it": "Un caffè e un cornetto.",          "en": "A coffee and a croissant." },
-        { "it": "Due caffè.",                        "en": "Two coffees." },
-        { "it": "Un cappuccino e un cornetto.",      "en": "A cappuccino and a croissant." },
-        { "it": "Un caffè e una pasta.",             "en": "A coffee and a pastry." }
+        { "it": "Un caffè e un cornetto.", "en": "A coffee and a croissant." },
+        { "it": "Due caffè.", "en": "Two coffees." },
+        { "it": "Un cappuccino e un cornetto.", "en": "A cappuccino and a croissant." },
+        { "it": "Un caffè e una pasta.", "en": "A coffee and a pastry." }
       ],
       "correct": 0,
-      "feedbackOk": {
-        "it": "Bene. Hai sentito entrambe le parole: caffè e cornetto.",
-        "en": "Good. You heard both words: caffè and cornetto."
-      },
-      "feedbackErr": {
-        "it": "Riascolta. Le due parole chiave sono 'caffè' e 'cornetto' — entrambe nella stessa frase.",
-        "en": "Listen again. The two key words are 'caffè' and 'cornetto' — both in the same sentence."
-      }
+      "feedbackOk": { "it": "Bene. Hai sentito entrambe le parole: caffè e cornetto.", "en": "Good. You heard both words: caffè and cornetto." },
+      "feedbackErr": { "it": "Riascolta. Le due parole chiave sono 'caffè' e 'cornetto' — entrambe nella stessa frase.", "en": "Listen again. The two key words are 'caffè' and 'cornetto' — both in the same sentence." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "word_bank",
       "fase": "produzione",
-      "numero": 4,
-      "intro": "Quarta domanda. Produzione. Mostrami che sai costruire una frase.",
-      "intro_en": "Fourth question. Production. Show me you can build a sentence.",
-      "domanda": {
-        "it": "Componi: 'Il bar è vicino alla stazione.'",
-        "en": "Build: 'The bar is near the station.'"
-      },
+      "intro": "Produzione. Mostrami che sai costruire una frase italiana.",
+      "intro_en": "Production. Show me you can build an Italian sentence.",
+      "domanda": { "it": "Componi: 'Il bar è vicino alla stazione.'", "en": "Build: 'The bar is near the station.'" },
       "hint_it": "Il bar è vicino alla stazione.",
       "hint_en": "The bar is near the station.",
       "parole": ["Il", "bar", "è", "vicino", "alla", "stazione"],
       "distrattori": ["al", "della", "un", "nella"],
       "correct": ["Il", "bar", "è", "vicino", "alla", "stazione"],
-      "feedbackOk": {
-        "it": "Bene. 'Vicino alla' — preposizione articolata femminile. Almeno le preposizioni le sai.",
-        "en": "Good. 'Vicino alla' — feminine contracted preposition. At least you know prepositions."
-      },
-      "feedbackErr": {
-        "it": "'Vicino' vuole 'a' + articolo. 'Stazione' è femminile → 'alla stazione'. Non 'al', non 'della'.",
-        "en": "'Vicino' needs 'a' + article. 'Stazione' is feminine → 'alla stazione'. Not 'al', not 'della'."
-      },
-      "annotazioni_frase": [
-        {
-          "parola": "alla",
-          "tipo": "preposizione",
-          "categoria_it": "preposizione · articolata (a + la)",
-          "categoria_en": "preposition · contracted (a + la)",
-          "en": "at the / to the (feminine)",
-          "perche": "'Alla' = a + la. 'Stazione' è femminile — quindi 'alla stazione', non 'al stazione'.",
-          "perche_en": "'Alla' = a + la. 'Stazione' is feminine — so 'alla stazione', not 'al stazione'."
-        }
-      ]
+      "feedbackOk": { "it": "Bene. 'Vicino alla' — preposizione articolata femminile. Almeno le preposizioni le sai.", "en": "Good. 'Vicino alla' — feminine contracted preposition. At least you know prepositions." },
+      "feedbackErr": { "it": "'Vicino' vuole 'a' + articolo. 'Stazione' è femminile → 'alla stazione'. Non 'al', non 'della'.", "en": "'Vicino' needs 'a' + article. 'Stazione' is feminine → 'alla stazione'. Not 'al', not 'della'." }
     },
     {
       "personaggio": "vittoria",
       "tipo": "falso_amico",
       "fase": "produzione",
-      "numero": 5,
-      "intro": "Ultima domanda. La più importante. Un falso amico che inganna tutti gli anglofoni.",
-      "intro_en": "Last question. The most important. A false friend that tricks all English speakers.",
-      "domanda": {
-        "it": "Cosa significa 'morbido' in italiano?",
-        "en": "What does 'morbido' mean in Italian?"
-      },
+      "intro": "Ultima domanda — il falso amico che inganna tutti gli anglofoni.",
+      "intro_en": "Last question — the false friend that tricks all English speakers.",
+      "domanda": { "it": "Cosa significa 'morbido' in italiano?", "en": "What does 'morbido' mean in Italian?" },
       "contesto_it": "\"Questo cornetto è molto morbido.\"",
       "contesto_en": "\"This croissant is very ______.\"",
       "opzioni": [
-        { "it": "Morbid (lugubre, macabro)",     "en": "Morbid (gloomy, dark)" },
-        { "it": "Soft (soffice, morbido al tatto)","en": "Soft (pleasant to touch)" },
-        { "it": "Hard (duro, rigido)",            "en": "Hard (rigid, tough)" },
-        { "it": "Stale (raffermo, vecchio)",      "en": "Stale (old, not fresh)" }
+        { "it": "Morbid (lugubre, macabro)", "en": "Morbid (gloomy, dark)" },
+        { "it": "Soft (soffice, morbido al tatto)", "en": "Soft (pleasant to touch)" },
+        { "it": "Hard (duro, rigido)", "en": "Hard (rigid, tough)" },
+        { "it": "Stale (raffermo, vecchio)", "en": "Stale (old, not fresh)" }
       ],
       "correct": 1,
-      "feedbackOk": {
-        "it": "Bene. 'Morbido' = soft, soffice. NON morbid. Un cornetto morbido è una cosa bella — non una cosa lugubre. Falso amico classico.",
-        "en": "Good. 'Morbido' = soft, pleasant to touch. NOT morbid. A 'cornetto morbido' is a good thing — not a gloomy one. Classic false friend."
-      },
-      "feedbackErr": {
-        "it": "No. 'Morbido' ≠ morbid. 'Morbido' = soft, soffice. 'Morbid' in italiano si dice 'morboso'. Due parole completamente diverse.",
-        "en": "No. 'Morbido' ≠ morbid. 'Morbido' = soft, pleasant. 'Morbid' in Italian is 'morboso'. Two completely different words."
-      }
+      "feedbackOk": { "it": "Bene. 'Morbido' = soft. NON morbid. Un cornetto morbido è una cosa bella, non lugubre.", "en": "Good. 'Morbido' = soft. NOT morbid. A 'cornetto morbido' is a good thing, not gloomy." },
+      "feedbackErr": { "it": "No. 'Morbido' ≠ morbid. 'Morbido' = soft, soffice. 'Morbid' in italiano si dice 'morboso'.", "en": "No. 'Morbido' ≠ morbid. 'Morbido' = soft. 'Morbid' in Italian is 'morboso'." }
     }
   ],
 
   "messaggi_vittoria": [
-    {
-      "corrette": 5,
-      "energia": 10,
-      "msg_it": "Sei al mio livello ormai. Ti do il gelato con due mani.",
-      "msg_en": "You're at my level now. I give you the gelato with both hands.",
-      "audio": "Sei al mio livello ormai. Ti do il gelato con due mani."
-    },
-    {
-      "corrette": 4,
-      "energia": 7,
-      "msg_it": "Quasi perfetto. Un errore si perdona — questa volta.",
-      "msg_en": "Almost perfect. One mistake is forgiven — this time.",
-      "audio": "Quasi perfetto. Un errore si perdona, questa volta."
-    },
-    {
-      "corrette": 3,
-      "energia": 5,
-      "msg_it": "Metà strada. Devi studiare di più. Il gelato lo prendi lo stesso.",
-      "msg_en": "Halfway there. You need to study more. You get the gelato anyway.",
-      "audio": "Metà strada. Devi studiare di più. Il gelato lo prendi lo stesso."
-    },
-    {
-      "corrette": 2,
-      "energia": 3,
-      "msg_it": "Solo due giuste. Hai la testa altrove. Tieni il gelato — ma la prossima volta impegnati.",
-      "msg_en": "Only two right. Your mind is elsewhere. Take the gelato — but next time, try harder.",
-      "audio": "Solo due. Hai la testa altrove. Tieni il gelato, ma la prossima volta impegnati."
-    },
-    {
-      "corrette": 1,
-      "energia": 1,
-      "msg_it": "Una sola. Mamma mia. Il gelato te lo do lo stesso — ma rileggi le lezioni.",
-      "msg_en": "Just one. Goodness gracious. I'll give you the gelato anyway — but re-read the lessons.",
-      "audio": "Una sola. Mamma mia. Il gelato te lo do lo stesso, ma rileggi le lezioni."
-    },
-    {
-      "corrette": 0,
-      "energia": 0,
-      "msg_it": "Zero. Nemmeno una. Va bene, ti do il gelato lo stesso. Perché sono una nonna. Ma la prossima volta, per favore.",
-      "msg_en": "Zero. Not even one. Fine, I'll give you the gelato anyway. Because I'm a grandmother. But next time, please.",
-      "audio": "Zero. Va bene, ti do il gelato lo stesso. Perché sono una nonna. Ma la prossima volta, per favore."
-    }
+    { "corrette": 5, "energia": 10, "msg_it": "Sei al mio livello. Ti do il gelato con due mani.", "msg_en": "You're at my level. I give you the gelato with both hands." },
+    { "corrette": 4, "energia": 7,  "msg_it": "Quasi perfetto. Un errore si perdona — questa volta.", "msg_en": "Almost perfect. One mistake is forgiven — this time." },
+    { "corrette": 3, "energia": 5,  "msg_it": "Metà strada. Devi studiare di più. Il gelato lo prendi lo stesso.", "msg_en": "Halfway there. You need to study more. You get the gelato anyway." },
+    { "corrette": 2, "energia": 3,  "msg_it": "Solo due giuste. Hai la testa altrove. Tieni il gelato — ma la prossima volta impegnati.", "msg_en": "Only two right. Your mind is elsewhere. Take the gelato — but next time, try harder." },
+    { "corrette": 1, "energia": 1,  "msg_it": "Una sola. Mamma mia. Il gelato te lo do lo stesso — ma rileggi le lezioni.", "msg_en": "Just one. Goodness gracious. I'll give you the gelato anyway — but re-read the lessons." },
+    { "corrette": 0, "energia": 0,  "msg_it": "Zero. Va bene, ti do il gelato lo stesso. Perché sono una nonna. Ma la prossima volta, per favore.", "msg_en": "Zero. Fine, I'll give you the gelato anyway. Because I'm a grandmother. But next time, please." }
   ],
 
   "reward": {
-    "cibo": "gelato",
-    "cibo_emoji": "🍦",
-    "cibo_nome_it": "Gelato",
-    "cibo_nome_en": "Gelato",
+    "cibo": "gelato", "cibo_emoji": "🍦", "cibo_nome_it": "Gelato", "cibo_nome_en": "Gelato",
     "crediti_fissi": 20,
     "scala_energia": [
-      { "corrette": 5, "energia": 10 },
-      { "corrette": 4, "energia": 7  },
-      { "corrette": 3, "energia": 5  },
-      { "corrette": 2, "energia": 3  },
-      { "corrette": 1, "energia": 1  },
-      { "corrette": 0, "energia": 0  }
+      { "corrette": 5, "energia": 10 }, { "corrette": 4, "energia": 7 },
+      { "corrette": 3, "energia": 5 },  { "corrette": 2, "energia": 3 },
+      { "corrette": 1, "energia": 1 },  { "corrette": 0, "energia": 0 }
     ]
   }
 }
