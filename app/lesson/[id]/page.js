@@ -1,12 +1,12 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter, useParams } from "next/navigation";
 import CharacterBubble, { parla, CHARACTERS } from "../../components/CharacterBubble";
 import LessonComplete from "../../components/LessonComplete";
 import { salvaProgressi } from "../../components/saveProgress";
+import { FraseAnnotata } from "../../components/WordPopup";
 
-// ─── Carica il JSON della lezione ─────────────────────────────────────────────
-// I JSON sono in /public/data/lessons/ per essere accessibili via fetch
+// ─── Carica JSON ──────────────────────────────────────────────────────────────
 async function loadLesson(id) {
   const res = await fetch(`/data/lessons/lesson${id}.json`);
   if (!res.ok) throw new Error(`Lezione ${id} non trovata`);
@@ -19,8 +19,7 @@ function playSound(type) {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
-    osc.connect(gain);
-    gain.connect(ctx.destination);
+    osc.connect(gain); gain.connect(ctx.destination);
     if (type === "correct") {
       osc.frequency.setValueAtTime(523, ctx.currentTime);
       osc.frequency.setValueAtTime(659, ctx.currentTime + 0.1);
@@ -38,237 +37,559 @@ function playSound(type) {
   } catch (e) {}
 }
 
-// ─── Fase INTRO — card vocabolario tap-to-reveal ──────────────────────────────
-function VocabIntro({ lesson, onComplete }) {
-  const [toccate, setToccate] = useState(new Set());
-  const [attiva, setAttiva] = useState(null);
+// ─── Colori per personaggio ───────────────────────────────────────────────────
+const CHAR_COLOR = {
+  mario:    "#FF9B42",
+  sofia:    "#C8A0E8",
+  diego:    "#22C55E",
+  gino:     "#E5B700",
+  matilde:  "#1CB0F6",
+  vittoria: "#E5B700",
+};
 
-  function handleTap(v) {
-    setAttiva(v.id);
-    setToccate((prev) => new Set([...prev, v.id]));
-    // Leggi il testo con la voce di Mario
-    const voice = CHARACTERS["mario"];
-    if (voice) parla(v.marioIT, voice);
-  }
-
-  const tutteVisitate = toccate.size >= lesson.vocab.length;
-
+// ─── Barra feedback ───────────────────────────────────────────────────────────
+function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
-      {/* TopBar */}
-      <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", display: "flex", alignItems: "center", gap: "12px" }}>
+    <div style={{
+      background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)",
+      borderTop: `2px solid ${isCorrect ? "var(--ok-text)" : "var(--err-text)"}`,
+      padding: "16px", animation: "slide-up 0.25s ease", flexShrink: 0,
+    }}>
+      <div style={{ maxWidth: "480px", margin: "0 auto", display: "flex", alignItems: "center", gap: "12px" }}>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: "11px", fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "4px" }}>
-            {lesson.title}
+          <div style={{ fontSize: "14px", fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: "3px" }}>
+            {isCorrect ? "✅ Esatto! / Correct!" : "❌ Sbagliato / Wrong"}
           </div>
-          <div style={{ height: "8px", background: "var(--border)", borderRadius: "99px", overflow: "hidden" }}>
-            <div style={{ width: `${Math.round((toccate.size / lesson.vocab.length) * 50)}%`, height: "100%", background: "var(--primary)", borderRadius: "99px", transition: "width 0.4s ease" }} />
+          <div style={{ fontSize: "13px", fontWeight: 700, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.9, lineHeight: 1.5 }}>
+            {isCorrect ? feedbackOk?.it : feedbackErr?.it}
+          </div>
+          <div style={{ fontSize: "11px", color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.65, marginTop: "3px", fontStyle: "italic" }}>
+            {isCorrect ? feedbackOk?.en : feedbackErr?.en}
           </div>
         </div>
+        <button onClick={onNext} style={{
+          background: isCorrect ? "var(--primary)" : "#CC0000",
+          color: "white", padding: "13px 18px", borderRadius: "var(--r)",
+          fontSize: "14px", fontWeight: 900, border: "none",
+          boxShadow: `0 4px 0 ${isCorrect ? "var(--primary-d)" : "#990000"}`,
+          textTransform: "uppercase", letterSpacing: "0.6px", cursor: "pointer", flexShrink: 0,
+          fontFamily: "inherit",
+        }}>
+          Avanti →
+        </button>
       </div>
-
-      <div style={{ flex: 1, padding: "24px 16px", display: "flex", flexDirection: "column", gap: "20px", maxWidth: "480px", margin: "0 auto", width: "100%" }}>
-
-        <CharacterBubble
-          character="mario"
-          text={`Benvenuto! Tocca ogni parola per impararla. / Welcome! Tap each word to learn it.`}
-          speakText="Benvenuto! Tocca ogni parola per impararla."
-          autoSpeak={true}
-        />
-
-        <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-          {lesson.vocab.map((v) => {
-            const toccata = toccate.has(v.id);
-            const isAttiva = attiva === v.id;
-            return (
-              <div
-                key={v.id}
-                onClick={() => handleTap(v)}
-                style={{
-                  background: toccata ? "var(--opt-sel-bg)" : "var(--card)",
-                  border: `2px solid ${toccata ? "var(--opt-sel-b)" : "var(--border)"}`,
-                  borderRadius: "var(--r)",
-                  padding: "16px 18px",
-                  cursor: "pointer",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "16px",
-                  boxShadow: toccata ? "0 4px 0 var(--opt-sel-b)" : "0 4px 0 var(--border)",
-                  animation: isAttiva ? "card-flip 0.3s ease" : "none",
-                  transition: "background 0.2s, border 0.2s",
-                }}
-              >
-                <div style={{ fontSize: "48px", lineHeight: 1, flexShrink: 0 }}>{v.emoji}</div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontWeight: 900, fontSize: "22px", color: toccata ? "var(--opt-sel-text)" : "var(--text)", marginBottom: "2px" }}>
-                    {v.it}
-                  </div>
-                  <div style={{ fontSize: "14px", color: "var(--text3)", fontWeight: 700 }}>{v.en}</div>
-                  {toccata && (
-                    <div style={{ fontSize: "12px", color: "var(--text2)", fontStyle: "italic", marginTop: "6px", lineHeight: 1.4 }}>
-                      {v.mario}
-                    </div>
-                  )}
-                </div>
-                {toccata && <span style={{ fontSize: "20px" }}>✅</span>}
-              </div>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Pulsante continua */}
-      <div style={{ padding: "16px", background: "var(--card)", borderTop: "2px solid var(--border)" }}>
-        <div style={{ maxWidth: "480px", margin: "0 auto" }}>
-          <button
-            onClick={tutteVisitate ? onComplete : undefined}
-            disabled={!tutteVisitate}
-            style={{
-              width: "100%", padding: "16px", borderRadius: "var(--r)",
-              fontSize: "15px", fontWeight: 900, letterSpacing: "0.6px",
-              border: "none", textTransform: "uppercase",
-              background: tutteVisitate ? "var(--primary)" : "var(--dis-bg)",
-              color: tutteVisitate ? "white" : "var(--dis-text)",
-              boxShadow: tutteVisitate ? "0 4px 0 var(--primary-d)" : "none",
-              cursor: tutteVisitate ? "pointer" : "not-allowed",
-            }}
-          >
-            {tutteVisitate
-              ? "Inizia il quiz / Start quiz →"
-              : `Tocca tutte le parole (${toccate.size}/${lesson.vocab.length})`}
-          </button>
-        </div>
-      </div>
-    </main>
+    </div>
   );
 }
 
-// ─── Domanda MULTIPLA ─────────────────────────────────────────────────────────
-function DomandaMultipla({ q, onAnswer, animFeedback }) {
+// ─── Barra check ─────────────────────────────────────────────────────────────
+function CheckBar({ disabled, onCheck, label = "Controlla / Check" }) {
+  return (
+    <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
+      <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+        <button onClick={disabled ? undefined : onCheck} disabled={disabled} style={{
+          width: "100%", padding: "15px", borderRadius: "var(--r)",
+          fontSize: "15px", fontWeight: 900, letterSpacing: "0.6px",
+          border: "none", textTransform: "uppercase", fontFamily: "inherit",
+          background: disabled ? "var(--dis-bg)" : "var(--primary)",
+          color: disabled ? "var(--dis-text)" : "white",
+          boxShadow: disabled ? "none" : "0 4px 0 var(--primary-d)",
+          cursor: disabled ? "not-allowed" : "pointer",
+        }}>
+          {label}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// ─── Bubble personaggio ───────────────────────────────────────────────────────
+function QBubble({ q }) {
+  const color = CHAR_COLOR[q.personaggio] || "#FF9B42";
+  useEffect(() => {
+    if (q.intro) {
+      const voice = CHARACTERS[q.personaggio];
+      if (voice) parla(q.intro, voice);
+    }
+  }, [q.personaggio]);
+  return (
+    <div style={{ display: "flex", gap: "10px", alignItems: "flex-start" }}>
+      <div style={{ width: 42, height: 42, borderRadius: "50%", border: `3px solid ${color}`, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, background: "var(--card)" }}>
+        {{ mario:"☕", sofia:"🎧", diego:"🧢", gino:"🎓", matilde:"💼", vittoria:"🍦" }[q.personaggio] || "☕"}
+      </div>
+      <div style={{ background: "var(--card)", border: `1.5px solid ${color}33`, borderRadius: `0 var(--r) var(--r) var(--r)`, padding: "10px 13px", flex: 1 }}>
+        <div style={{ fontSize: "13px", fontWeight: 700, color: "var(--text)", lineHeight: 1.5 }}>{q.intro}</div>
+        {q.intro_en && <div style={{ fontSize: "12px", color: "var(--text2)", fontStyle: "italic", marginTop: 3, lineHeight: 1.4 }}>{q.intro_en}</div>}
+      </div>
+    </div>
+  );
+}
+
+// ─── Box domanda ──────────────────────────────────────────────────────────────
+function QBox({ q }) {
+  return (
+    <div style={{ background: "var(--card)", borderRadius: "var(--r)", border: "2px solid var(--border)", padding: "13px 15px" }}>
+      <div style={{ fontSize: "15px", fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>
+        <FraseAnnotata testo={q.domanda.it} annotazioni={q.annotazioni_domanda || []} />
+      </div>
+      <div style={{ fontSize: "12px", color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
+    </div>
+  );
+}
+
+// ─── TIPO: Multipla / Gesti / Falso amico / Scegli registro ──────────────────
+function DomandaMultipla({ q, onAnswer }) {
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
 
-  const isCorrect = selected !== null && selected === q.correct;
-
-  function handleConfirm() {
-    if (selected === null || confirmed) return;
-    setConfirmed(true);
-    playSound(isCorrect ? "correct" : "wrong");
-  }
-
-  function handleNext() {
-    window.speechSynthesis?.cancel();
-    onAnswer(isCorrect);
-  }
+  // Le opzioni nel nuovo JSON sono {it, en} — fallback per vecchi JSON stringa
+  const getOptLabel = (opt) => typeof opt === "string" ? opt : `${opt.it}\n${opt.en || ""}`;
+  const getOptIt    = (opt) => typeof opt === "string" ? opt : opt.it;
+  const getOptEn    = (opt) => typeof opt === "object" ? opt.en : null;
 
   return (
     <>
-      <div style={{ flex: 1, padding: "24px 16px", display: "flex", flexDirection: "column", gap: "20px", maxWidth: "480px", margin: "0 auto", width: "100%" }}>
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%", overflowY: "auto" }}>
+        <QBubble q={q} />
 
-        {/* Personaggio */}
-        <CharacterBubble
-          character={q.personaggio}
-          text={q.intro}
-          speakText={q.introIT}
-          autoSpeak={true}
-          feedback={animFeedback}
-        />
+        {/* Emoji gesto */}
+        {q.gesture && (
+          <div style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: "var(--r)", padding: "20px", textAlign: "center" }}>
+            <span style={{ fontSize: 64, lineHeight: 1 }}>{q.gesture}</span>
+            {q.gesture_label && <div style={{ fontSize: 11, color: "var(--text3)", marginTop: 8, textTransform: "uppercase", letterSpacing: "0.05em" }}>{q.gesture_label}</div>}
+          </div>
+        )}
 
-        {/* Domanda */}
-        <div style={{ background: "var(--card)", borderRadius: "var(--r)", border: "2px solid var(--border)", padding: "14px 16px" }}>
-          <p style={{ fontWeight: 900, fontSize: "15px", color: "var(--text)", marginBottom: "4px", lineHeight: 1.5 }}>
-            {q.domanda.it}
-          </p>
-          <p style={{ fontSize: "12px", color: "var(--text3)", fontStyle: "italic", margin: 0, lineHeight: 1.4 }}>
-            {q.domanda.en}
-          </p>
-        </div>
+        {/* Contesto falso amico */}
+        {q.contesto_it && (
+          <div style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: "var(--r)", padding: "13px 15px" }}>
+            <div style={{ fontSize: 10, color: "var(--gino, #E5B700)", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico / False friend</div>
+            <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", marginBottom: 4 }}>{q.domanda.it}</div>
+            <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginBottom: 10 }}>{q.domanda.en}</div>
+            <div style={{ background: "var(--bg)", borderRadius: 8, padding: "8px 11px" }}>
+              <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
+              <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", marginTop: 3 }}>{q.contesto_en}</div>
+            </div>
+          </div>
+        )}
+
+        {/* Domanda normale (non falso amico) */}
+        {!q.contesto_it && !q.gesture && <QBox q={q} />}
 
         {/* Opzioni */}
-        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "9px" }}>
           {q.opzioni.map((opt, i) => {
-            let bg = "var(--opt-bg)", border = "var(--opt-border)", color = "var(--opt-text)", shadow = "0 4px 0 var(--border)", anim = "none";
+            let bg = "var(--opt-bg)", border = "var(--opt-border)", color = "var(--opt-text)", shadow = "0 4px 0 var(--border)";
             if (confirmed) {
               shadow = "none";
-              if (i === q.correct) {
-                bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)";
-                if (i === selected) anim = "pulse-ok 0.5s ease";
-              } else if (i === selected && !isCorrect) {
-                bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)";
-                anim = "shake-err 0.5s ease";
-              }
-            } else if (selected === i) {
-              bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; shadow = "0 4px 0 var(--opt-sel-b)";
-            }
+              if (i === q.correct) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
+              else if (i === selected) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
+            } else if (selected === i) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; shadow = "0 4px 0 var(--opt-sel-b)"; }
             return (
-              <button
-                key={i}
-                onClick={() => !confirmed && setSelected(i)}
-                style={{
-                  background: bg, border: `2px solid ${border}`, color,
-                  borderRadius: "var(--r)", padding: "14px 16px",
-                  textAlign: "left", fontSize: "14px", fontWeight: 800,
-                  textTransform: "none", letterSpacing: 0,
-                  cursor: confirmed ? "default" : "pointer",
-                  transition: "background 0.15s, border 0.15s",
-                  animation: anim, boxShadow: shadow,
-                }}
-              >
-                {opt}
+              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
+                background: bg, border: `2px solid ${border}`, color,
+                borderRadius: "var(--r)", padding: "12px 14px",
+                textAlign: "left", fontFamily: "inherit", width: "100%",
+                cursor: confirmed ? "default" : "pointer",
+                transition: "background 0.15s, border 0.15s", boxShadow: shadow,
+              }}>
+                <div style={{ fontSize: 14, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
+                {getOptEn(opt) && <div style={{ fontSize: 11, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
               </button>
             );
           })}
         </div>
       </div>
 
-      {/* Feedback bar / Confirm button */}
-      {confirmed ? (
-        <div style={{
-          background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)",
-          borderTop: `2px solid ${isCorrect ? "var(--ok-text)" : "var(--err-text)"}`,
-          padding: "20px 16px", animation: "slide-up 0.25s ease",
-        }}>
-          <div style={{ maxWidth: "480px", margin: "0 auto", display: "flex", alignItems: "center", gap: "12px" }}>
-            <div style={{ flex: 1 }}>
-              <div style={{ fontSize: "15px", fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: "4px" }}>
-                {isCorrect ? "✅ Esatto! / Correct!" : "❌ Sbagliato / Wrong"}
-              </div>
-              <div style={{ fontSize: "13px", fontWeight: 700, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.85, lineHeight: 1.5 }}>
-                {isCorrect ? q.feedbackOk.it : q.feedbackErr.it}
-              </div>
-              <div style={{ fontSize: "12px", color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.65, marginTop: "3px", fontStyle: "italic" }}>
-                {isCorrect ? q.feedbackOk.en : q.feedbackErr.en}
-              </div>
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : <CheckBar disabled={selected === null} onCheck={() => { setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); }} />
+      }
+    </>
+  );
+}
+
+// ─── TIPO: Vero / Falso ───────────────────────────────────────────────────────
+function DomandaVeroFalso({ q, onAnswer }) {
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
+
+  function handleSelect(val) {
+    if (confirmed) return;
+    setSelected(val);
+    setConfirmed(true);
+    playSound(val === q.correct ? "correct" : "wrong");
+  }
+
+  return (
+    <>
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%", overflowY: "auto" }}>
+        <QBubble q={q} />
+        <div style={{ background: "var(--card)", borderRadius: "var(--r)", border: "2px solid var(--border)", padding: "14px 15px" }}>
+          <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>{q.domanda.it}</div>
+          <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
+        </div>
+        <div style={{ display: "flex", gap: 10 }}>
+          {[true, false].map(val => {
+            let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
+            if (confirmed && selected === val) {
+              if (isCorrect) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
+              else { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
+            } else if (confirmed && val === q.correct) {
+              bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)";
+            }
+            return (
+              <button key={String(val)} onClick={() => handleSelect(val)} disabled={confirmed} style={{
+                flex: 1, padding: 14, borderRadius: "var(--r)",
+                border: `2px solid ${border}`, background: bg, color,
+                fontSize: 14, fontWeight: 900, cursor: confirmed ? "default" : "pointer",
+                fontFamily: "inherit", transition: "all 0.15s",
+              }}>
+                {val ? "✅ Vero / True" : "❌ Falso / False"}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {confirmed && (
+        <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+      )}
+    </>
+  );
+}
+
+// ─── TIPO: Ascolta e scegli ───────────────────────────────────────────────────
+function DomandaAscolta({ q, onAnswer }) {
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const [audioPlayed, setAudioPlayed] = useState(false);
+  const isCorrect = selected === q.correct;
+
+  function playAudio(slow = false) {
+    if (!q.audio) return;
+    window.speechSynthesis?.cancel();
+    const u = new SpeechSynthesisUtterance(q.audio);
+    u.lang = "it-IT"; u.rate = slow ? 0.4 : 0.9;
+    window.speechSynthesis.speak(u);
+    setAudioPlayed(true);
+  }
+
+  const getOptIt = (opt) => typeof opt === "string" ? opt : opt.it;
+  const getOptEn = (opt) => typeof opt === "object" ? opt.en : null;
+
+  return (
+    <>
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%", overflowY: "auto" }}>
+        <QBubble q={q} />
+
+        {/* Player audio */}
+        <div style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: "var(--r)", padding: "14px 15px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 4 }}>
+            <button onClick={() => playAudio(false)} style={{ background: "#FF9B42", border: "none", borderRadius: "99px", width: 40, height: 40, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: 16, flexShrink: 0 }}>🔊</button>
+            <button onClick={() => playAudio(true)} style={{ background: "#1CB0F622", border: "1.5px solid #1CB0F644", borderRadius: "99px", padding: "5px 12px", fontSize: 11, fontWeight: 700, color: "var(--secondary)", cursor: "pointer", fontFamily: "inherit" }}>🐢 Lento / Slow</button>
+            <span style={{ fontSize: 12, color: "var(--text2)", fontStyle: "italic", flex: 1 }}>
+              {audioPlayed ? `"${q.audio}"` : "Clicca 🔊 per ascoltare / Click 🔊 to listen"}
+            </span>
+          </div>
+        </div>
+
+        {/* Domanda */}
+        <QBox q={q} />
+
+        {/* Opzioni bilingue */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "9px" }}>
+          {q.opzioni.map((opt, i) => {
+            let bg = "var(--opt-bg)", border = "var(--opt-border)", color = "var(--opt-text)", shadow = "0 4px 0 var(--border)";
+            if (confirmed) {
+              shadow = "none";
+              if (i === q.correct) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
+              else if (i === selected) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
+            } else if (selected === i) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; shadow = "0 4px 0 var(--opt-sel-b)"; }
+            return (
+              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
+                background: bg, border: `2px solid ${border}`, color,
+                borderRadius: "var(--r)", padding: "12px 14px",
+                textAlign: "left", fontFamily: "inherit", width: "100%",
+                cursor: confirmed ? "default" : "pointer",
+                transition: "background 0.15s, border 0.15s", boxShadow: shadow,
+              }}>
+                <div style={{ fontSize: 14, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
+                {getOptEn(opt) && <div style={{ fontSize: 11, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : <CheckBar disabled={selected === null} onCheck={() => { setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); }} />
+      }
+    </>
+  );
+}
+
+// ─── TIPO: Word Bank ──────────────────────────────────────────────────────────
+function DomandaWordBank({ q, onAnswer }) {
+  const [shuffled] = useState(() => [...(q.parole || q.words || []), ...(q.distrattori || [])].sort(() => Math.random() - 0.5));
+  const [target, setTarget] = useState([]);
+  const [feedback, setFeedback] = useState(null); // null | 'ok' | 'err' | 'incomplete'
+  const [attempts, setAttempts] = useState(0);
+
+  const correct = q.correct || q.parole || q.words || [];
+  const pool = [...(q.parole || q.words || []), ...(q.distrattori || [])];
+
+  const usedCounts = {};
+  target.forEach(w => { usedCounts[w] = (usedCounts[w] || 0) + 1; });
+
+  function addWord(w) {
+    const avail = pool.filter(x => x === w).length;
+    const used = usedCounts[w] || 0;
+    if (used < avail) { setTarget(t => [...t, w]); setFeedback(null); }
+  }
+
+  function removeWord(i) {
+    setTarget(t => t.filter((_, idx) => idx !== i));
+    setFeedback(null);
+  }
+
+  function handleCheck() {
+    if (target.length === 0) return;
+    if (target.length < correct.length) {
+      setFeedback("incomplete"); return;
+    }
+    const ok = JSON.stringify(target) === JSON.stringify(correct);
+    if (ok) { setFeedback("ok"); playSound("correct"); }
+    else {
+      if (attempts === 0) setAttempts(1);
+      setFeedback("err"); playSound("wrong");
+    }
+  }
+
+  function handleNext() {
+    window.speechSynthesis?.cancel();
+    onAnswer(feedback === "ok");
+  }
+
+  function handleRetry() { setTarget([]); setFeedback(null); }
+
+  const fbColor = feedback === "ok" ? "var(--ok-text)" : feedback === "incomplete" ? "#E5B700" : "var(--err-text)";
+  const fbBg    = feedback === "ok" ? "var(--ok-bar)"  : feedback === "incomplete" ? "#1a1200"  : "var(--err-bar)";
+  const fbBorder= feedback === "ok" ? "var(--ok-text)" : feedback === "incomplete" ? "#E5B70088": "var(--err-text)";
+
+  return (
+    <>
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%", overflowY: "auto" }}>
+        <QBubble q={q} />
+
+        {/* Hint bilingue */}
+        {(q.hint_it || q.hintIt) && (
+          <div style={{ background: "var(--bg)", borderLeft: "3px solid var(--sofia, #C8A0E8)", borderRadius: "0 8px 8px 0", padding: "8px 11px" }}>
+            <div style={{ fontSize: 10, fontWeight: 700, color: "var(--sofia, #C8A0E8)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>💡 Suggerimento / Hint</div>
+            <div style={{ fontSize: 13, color: "var(--text2)", lineHeight: 1.5 }}>
+              <strong>IT:</strong> {q.hint_it || q.hintIt}<br />
+              <span style={{ fontStyle: "italic" }}><strong>EN:</strong> {q.hint_en || q.hintEn}</span>
             </div>
-            <button onClick={handleNext} style={{
-              background: isCorrect ? "var(--primary)" : "var(--err-btn)",
-              color: "white", padding: "14px 20px", borderRadius: "var(--r)",
-              fontSize: "14px", fontWeight: 900, border: "none",
-              boxShadow: `0 4px 0 ${isCorrect ? "var(--primary-d)" : "var(--err-btn-d)"}`,
-              textTransform: "uppercase", letterSpacing: "0.6px", cursor: "pointer", flexShrink: 0,
-            }}>
-              Avanti
+          </div>
+        )}
+
+        <div style={{ fontSize: 11, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+          Componi la frase / Build the sentence — tap per rimuovere / tap to remove:
+        </div>
+
+        {/* Target */}
+        <div style={{
+          background: "var(--bg)", border: `2px dashed ${feedback === "ok" ? "var(--ok-text)" : feedback === "err" ? "var(--err-text)" : "var(--border)"}`,
+          borderRadius: "var(--r)", padding: "10px 12px", minHeight: 50,
+          display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center",
+          transition: "border-color 0.2s",
+        }}>
+          {target.length === 0
+            ? <span style={{ color: "var(--text3)", fontSize: 12 }}>Tocca le parole qui sotto / Tap words below</span>
+            : target.map((w, i) => (
+                <button key={i} onClick={() => feedback !== "ok" && removeWord(i)} style={{
+                  background: "#C8A0E818", border: "2px solid var(--sofia, #C8A0E8)",
+                  borderRadius: 8, padding: "6px 12px", fontSize: 13, fontWeight: 800,
+                  color: "var(--sofia, #C8A0E8)", cursor: feedback === "ok" ? "default" : "pointer",
+                  fontFamily: "inherit",
+                }}>{w}</button>
+              ))
+          }
+        </div>
+
+        <div style={{ fontSize: 11, color: "var(--text3)", textAlign: "right" }}>{target.length}/{correct.length} parole / words</div>
+
+        {/* Source */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
+          {shuffled.map((w, i) => {
+            const avail = pool.filter(x => x === w).length;
+            const used = usedCounts[w] || 0;
+            const isUsed = used >= avail;
+            return (
+              <button key={i} onClick={() => !isUsed && feedback !== "ok" && addWord(w)} disabled={isUsed || feedback === "ok"} style={{
+                background: "var(--card)", border: "2px solid var(--border)",
+                borderRadius: 8, padding: "6px 12px", fontSize: 13, fontWeight: 800,
+                color: "var(--text)", cursor: isUsed ? "not-allowed" : "pointer",
+                opacity: isUsed ? 0.25 : 1, fontFamily: "inherit",
+                transition: "all 0.15s",
+              }}>{w}</button>
+            );
+          })}
+        </div>
+
+        {/* Feedback inline */}
+        {feedback && (
+          <div style={{ background: fbBg, border: `1.5px solid ${fbBorder}`, borderRadius: "var(--r)", padding: "11px 14px" }}>
+            <div style={{ fontSize: 13, fontWeight: 900, color: fbColor, marginBottom: 2 }}>
+              {feedback === "ok" ? "✅ Esatto! / Correct!" : feedback === "incomplete" ? "⚠️ Incompleta / Incomplete" : "❌ Non corretto / Wrong"}
+            </div>
+            <div style={{ fontSize: 12, fontWeight: 700, color: fbColor, lineHeight: 1.5 }}>
+              {feedback === "ok" ? q.feedbackOk?.it : feedback === "incomplete" ? "Aggiungi altre parole! / Add more words!" : q.feedbackErr?.it}
+            </div>
+            {feedback === "ok" && q.feedbackOk?.en && (
+              <div style={{ fontSize: 11, color: fbColor, opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{q.feedbackOk.en}</div>
+            )}
+            {feedback === "err" && q.feedbackErr?.en && (
+              <div style={{ fontSize: 11, color: fbColor, opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{q.feedbackErr.en}</div>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Bottom bar */}
+      {feedback === "ok" ? (
+        <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
+          <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+            <button onClick={handleNext} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "var(--secondary)", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0" }}>
+              Avanti / Next →
+            </button>
+          </div>
+        </div>
+      ) : feedback === "err" || feedback === "incomplete" ? (
+        <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
+          <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+            <button onClick={handleRetry} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "#E5B700", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #b8920b" }}>
+              🔁 Riprova / Try again
             </button>
           </div>
         </div>
       ) : (
-        <div style={{ padding: "16px", background: "var(--card)", borderTop: "2px solid var(--border)" }}>
+        <CheckBar disabled={target.length === 0} onCheck={handleCheck} />
+      )}
+    </>
+  );
+}
+
+// ─── TIPO: Abbina coppia ──────────────────────────────────────────────────────
+function DomandaAbbina({ q, onAnswer }) {
+  const [selIT, setSelIT] = useState(null);
+  const [selEN, setSelEN] = useState(null);
+  const [matched, setMatched] = useState({}); // {it: en}
+  const [wrong, setWrong]   = useState(null);
+  const [done, setDone]     = useState(false);
+
+  const shuffledIT = useRef([...q.coppie].sort(() => Math.random() - 0.5));
+  const shuffledEN = useRef([...q.coppie].sort(() => Math.random() - 0.5));
+
+  const allMatched = Object.keys(matched).length === q.coppie.length;
+
+  useEffect(() => {
+    if (allMatched && !done) {
+      setDone(true);
+      playSound("correct");
+    }
+  }, [matched]);
+
+  function handleSelectIT(it) {
+    if (matched[it] || done) return;
+    setSelIT(it); setWrong(null);
+    if (selEN !== null) checkPair(it, selEN);
+  }
+
+  function handleSelectEN(en) {
+    if (Object.values(matched).includes(en) || done) return;
+    setSelEN(en); setWrong(null);
+    if (selIT !== null) checkPair(selIT, en);
+  }
+
+  function checkPair(it, en) {
+    const correctPair = q.coppie.find(c => c.it === it);
+    if (correctPair && correctPair.en === en) {
+      setMatched(m => ({ ...m, [it]: en }));
+      setSelIT(null); setSelEN(null);
+    } else {
+      setWrong({ it, en });
+      setTimeout(() => { setSelIT(null); setSelEN(null); setWrong(null); }, 700);
+    }
+  }
+
+  return (
+    <>
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%", overflowY: "auto" }}>
+        <QBubble q={q} />
+        <QBox q={q} />
+
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            {shuffledIT.current.map(({ it }) => {
+              const isMatched = !!matched[it];
+              const isSel = selIT === it;
+              const isWrong = wrong?.it === it;
+              let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
+              if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
+              else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
+              else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
+              return (
+                <button key={it} onClick={() => !isMatched && handleSelectIT(it)} style={{
+                  background: bg, border: `2px solid ${border}`, color,
+                  borderRadius: "var(--r)", padding: "11px 12px", fontSize: 13, fontWeight: 800,
+                  cursor: isMatched ? "default" : "pointer", fontFamily: "inherit",
+                  transition: "all 0.15s", textAlign: "left",
+                }}>{it}</button>
+              );
+            })}
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            {shuffledEN.current.map(({ en }) => {
+              const isMatched = Object.values(matched).includes(en);
+              const isSel = selEN === en;
+              const isWrong = wrong?.en === en;
+              let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
+              if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
+              else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
+              else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
+              return (
+                <button key={en} onClick={() => !isMatched && handleSelectEN(en)} style={{
+                  background: bg, border: `2px solid ${border}`, color,
+                  borderRadius: "var(--r)", padding: "11px 12px", fontSize: 12, fontWeight: 700,
+                  cursor: isMatched ? "default" : "pointer", fontFamily: "inherit",
+                  transition: "all 0.15s", textAlign: "left", fontStyle: "italic",
+                }}>{en}</button>
+              );
+            })}
+          </div>
+        </div>
+
+        {allMatched && (
+          <div style={{ background: "var(--ok-bar)", border: "1.5px solid var(--ok-text)", borderRadius: "var(--r)", padding: "11px 14px" }}>
+            <div style={{ fontSize: 13, fontWeight: 900, color: "var(--ok-text)", marginBottom: 2 }}>✅ Esatto! / Correct!</div>
+            <div style={{ fontSize: 12, color: "var(--ok-text)", lineHeight: 1.5 }}>{q.feedbackOk?.it}</div>
+            <div style={{ fontSize: 11, color: "var(--ok-text)", opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{q.feedbackOk?.en}</div>
+          </div>
+        )}
+      </div>
+
+      {allMatched && (
+        <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
           <div style={{ maxWidth: "480px", margin: "0 auto" }}>
-            <button
-              onClick={handleConfirm}
-              disabled={selected === null}
-              style={{
-                width: "100%", padding: "16px", borderRadius: "var(--r)",
-                fontSize: "15px", fontWeight: 900, letterSpacing: "0.6px",
-                border: "none", textTransform: "uppercase",
-                background: selected === null ? "var(--dis-bg)" : "var(--primary)",
-                color: selected === null ? "var(--dis-text)" : "white",
-                boxShadow: selected === null ? "none" : "0 4px 0 var(--primary-d)",
-                cursor: selected === null ? "not-allowed" : "pointer",
-              }}
-            >
-              Controlla / Check
-            </button>
+            <button onClick={() => { window.speechSynthesis?.cancel(); onAnswer(true); }} style={{
+              width: "100%", padding: 15, borderRadius: "var(--r)", border: "none",
+              background: "var(--secondary)", color: "white", fontSize: 15, fontWeight: 900,
+              cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase",
+              letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0",
+            }}>Avanti / Next →</button>
           </div>
         </div>
       )}
@@ -276,136 +597,182 @@ function DomandaMultipla({ q, onAnswer, animFeedback }) {
   );
 }
 
-// ─── Fase QUIZ — gestisce tutte le domande in sequenza ────────────────────────
-function QuizFase({ lesson, onComplete }) {
-  const [current, setCurrent] = useState(0);
-  const [scoreCorrect, setScoreCorrect] = useState(0);
-  const [animFeedback, setAnimFeedback] = useState(null);
+// ─── Fase INTRO vocabolario ───────────────────────────────────────────────────
+function VocabIntro({ lesson, onComplete }) {
+  const [toccate, setToccate] = useState(new Set());
+  const tutteVisitate = toccate.size >= lesson.vocab.length;
 
-  const q = lesson.questions[current];
-  const progress = Math.round(((current + 1) / lesson.questions.length) * 100);
+  function handleTap(v) {
+    setToccate(prev => new Set([...prev, v.id]));
+    const voice = CHARACTERS["mario"];
+    if (voice && v.mario) parla(v.mario, voice);
+  }
+
+  return (
+    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
+      <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px" }}>
+        <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 4 }}>
+          {lesson.title} — Scoperta / Discovery
+        </div>
+        <div style={{ height: 8, background: "var(--border)", borderRadius: 99, overflow: "hidden" }}>
+          <div style={{ width: `${Math.round((toccate.size / lesson.vocab.length) * 25)}%`, height: "100%", background: "var(--primary)", borderRadius: 99, transition: "width 0.4s ease" }} />
+        </div>
+      </div>
+
+      <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: "14px", maxWidth: "480px", margin: "0 auto", width: "100%" }}>
+        <CharacterBubble character="mario" text="Benvenuto! Tocca ogni parola per impararla. / Welcome! Tap each word to learn it." speakText="Benvenuto! Tocca ogni parola per impararla." autoSpeak={true} />
+
+        {lesson.vocab.map(v => {
+          const toccata = toccate.has(v.id);
+          return (
+            <div key={v.id} onClick={() => handleTap(v)} style={{
+              background: toccata ? "var(--opt-sel-bg)" : "var(--card)",
+              border: `2px solid ${toccata ? "var(--opt-sel-b)" : "var(--border)"}`,
+              borderRadius: "var(--r)", padding: "15px 16px", cursor: "pointer",
+              display: "flex", alignItems: "center", gap: "14px",
+              boxShadow: toccata ? "0 4px 0 var(--opt-sel-b)" : "0 4px 0 var(--border)",
+              transition: "background 0.2s, border 0.2s",
+            }}>
+              <div style={{ fontSize: 44, lineHeight: 1, flexShrink: 0 }}>{v.emoji}</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontWeight: 900, fontSize: 20, color: toccata ? "var(--opt-sel-text)" : "var(--text)", marginBottom: 2 }}>{v.it}</div>
+                <div style={{ fontSize: 13, color: "var(--text3)", fontWeight: 700 }}>{v.en}</div>
+                {toccata && v.mario && (
+                  <div style={{ fontSize: 12, color: "var(--text2)", fontStyle: "italic", marginTop: 5, lineHeight: 1.4 }}>{v.mario}</div>
+                )}
+              </div>
+              {toccata && <span style={{ fontSize: 20 }}>✅</span>}
+            </div>
+          );
+        })}
+      </div>
+
+      <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)" }}>
+        <div style={{ maxWidth: "480px", margin: "0 auto" }}>
+          <button onClick={tutteVisitate ? onComplete : undefined} disabled={!tutteVisitate} style={{
+            width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 15, fontWeight: 900,
+            letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit",
+            background: tutteVisitate ? "var(--primary)" : "var(--dis-bg)",
+            color: tutteVisitate ? "white" : "var(--dis-text)",
+            boxShadow: tutteVisitate ? "0 4px 0 var(--primary-d)" : "none",
+            cursor: tutteVisitate ? "pointer" : "not-allowed",
+          }}>
+            {tutteVisitate ? "Inizia il Quiz / Start Quiz →" : `Tocca tutte le parole (${toccate.size}/${lesson.vocab.length})`}
+          </button>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+// ─── Router tipi di domanda ───────────────────────────────────────────────────
+function DomandaRouter({ q, onAnswer, animFeedback }) {
+  switch (q.tipo) {
+    case "vero_falso":                          return <DomandaVeroFalso    key={q.tipo + Math.random()} q={q} onAnswer={onAnswer} />;
+    case "ascolta_scegli":                      return <DomandaAscolta      key={q.tipo + Math.random()} q={q} onAnswer={onAnswer} />;
+    case "word_bank":                           return <DomandaWordBank     key={q.tipo + Math.random()} q={q} onAnswer={onAnswer} />;
+    case "abbina_coppia":                       return <DomandaAbbina       key={q.tipo + Math.random()} q={q} onAnswer={onAnswer} />;
+    case "multipla":
+    case "gesti":
+    case "falso_amico":
+    case "scegli_registro":
+    case "fill_blank":
+    default:                                    return <DomandaMultipla     key={q.tipo + Math.random()} q={q} onAnswer={onAnswer} animFeedback={animFeedback} />;
+  }
+}
+
+// ─── Fase QUIZ ────────────────────────────────────────────────────────────────
+function QuizFase({ lesson, onComplete }) {
+  const [current, setCurrent]       = useState(0);
+  const [scoreCorrect, setScore]    = useState(0);
+  const [animFeedback, setAnim]     = useState(null);
+
+  const q        = lesson.questions[current];
+  const total    = lesson.questions.length;
+  const progress = Math.round(((current + 1) / total) * 100);
+
+  // Fase corrente per topbar
+  const FASE_LABELS = ["Scoperta", "Riconoscimento / Recognition", "Comprensione / Comprehension", "Produzione / Production"];
+  const faseLabel = q?.fase ? ({ scoperta:"Scoperta", riconoscimento:"Riconoscimento / Recognition", comprensione:"Comprensione / Comprehension", produzione:"Produzione / Production" }[q.fase] || "") : "";
 
   function handleAnswer(isCorrect) {
-    if (isCorrect) setScoreCorrect((s) => s + 1);
-    setAnimFeedback(isCorrect ? "ok" : "err");
-    setTimeout(() => setAnimFeedback(null), 600);
-
-    if (current + 1 >= lesson.questions.length) {
-      const finalScore = isCorrect ? scoreCorrect + 1 : scoreCorrect;
-      onComplete(finalScore);
+    if (isCorrect) setScore(s => s + 1);
+    setAnim(isCorrect ? "ok" : "err");
+    setTimeout(() => setAnim(null), 600);
+    if (current + 1 >= total) {
+      const final = isCorrect ? scoreCorrect + 1 : scoreCorrect;
+      onComplete(final);
     } else {
-      setCurrent((c) => c + 1);
+      setCurrent(c => c + 1);
     }
   }
 
   return (
     <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
-      {/* TopBar */}
-      <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", display: "flex", alignItems: "center", gap: "12px" }}>
+      <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", display: "flex", alignItems: "center", gap: "12px", flexShrink: 0 }}>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: "11px", fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "4px" }}>
-            {lesson.title} — {current + 1}/{lesson.questions.length}
+          <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 2, display: "flex", justifyContent: "space-between" }}>
+            <span>{lesson.title} — {current + 1}/{total}</span>
+            <span style={{ color: "var(--text3)", fontWeight: 600 }}>{faseLabel}</span>
           </div>
-          <div style={{ height: "8px", background: "var(--border)", borderRadius: "99px", overflow: "hidden" }}>
-            <div style={{ width: `${progress}%`, height: "100%", background: "var(--primary)", borderRadius: "99px", transition: "width 0.4s ease" }} />
+          <div style={{ height: 8, background: "var(--border)", borderRadius: 99, overflow: "hidden" }}>
+            <div style={{ width: `${25 + Math.round((current / total) * 75)}%`, height: "100%", background: "var(--primary)", borderRadius: 99, transition: "width 0.4s ease" }} />
           </div>
         </div>
-        <span style={{ fontSize: "13px", fontWeight: 900, color: "var(--primary)" }}>
-          {scoreCorrect} ✅
-        </span>
+        <span style={{ fontSize: 13, fontWeight: 900, color: "var(--primary)" }}>{scoreCorrect} ✅</span>
       </div>
 
-      {/* Domanda — per ora solo multipla, altri tipi in Sprint 5 */}
-      {q.tipo === "multipla" || q.tipo === "gesti" ? (
-        <DomandaMultipla key={current} q={q} onAnswer={handleAnswer} animFeedback={animFeedback} />
-      ) : (
-        <DomandaMultipla key={current} q={q} onAnswer={handleAnswer} animFeedback={animFeedback} />
-      )}
+      <DomandaRouter key={current} q={q} onAnswer={handleAnswer} animFeedback={animFeedback} />
     </main>
   );
 }
 
 // ─── MOTORE PRINCIPALE ────────────────────────────────────────────────────────
 export default function LessonPage() {
-  const router = useRouter();
-  const params = useParams();
+  const router   = useRouter();
+  const params   = useParams();
   const lessonId = parseInt(params.id);
 
-  const [lesson, setLesson]   = useState(null);
+  const [lesson,  setLesson]  = useState(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError]     = useState(null);
-  const [fase, setFase]       = useState("intro"); // "intro" | "quiz" | "done"
-  const [reward, setReward]   = useState(null);
+  const [error,   setError]   = useState(null);
+  const [fase,    setFase]    = useState("intro");
+  const [reward,  setReward]  = useState(null);
 
-  // ── Carica il JSON al mount ──────────────────────────────────────────────────
   useEffect(() => {
     loadLesson(lessonId)
-      .then((data) => {
-        setLesson(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error(err);
-        setError(true);
-        setLoading(false);
-      });
+      .then(data => { setLesson(data); setLoading(false); })
+      .catch(() => { setError(true); setLoading(false); });
   }, [lessonId]);
 
-  // ── Schermata caricamento ────────────────────────────────────────────────────
-  if (loading) {
-    return (
-      <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <div style={{ textAlign: "center" }}>
-          <div style={{ fontSize: "48px", marginBottom: "12px" }}>☕</div>
-          <p style={{ fontSize: "14px", color: "var(--text3)" }}>Caricamento... / Loading...</p>
-        </div>
-      </main>
-    );
-  }
+  if (loading) return (
+    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ textAlign: "center" }}>
+        <div style={{ fontSize: 48, marginBottom: 12 }}>☕</div>
+        <p style={{ fontSize: 14, color: "var(--text3)" }}>Caricamento... / Loading...</p>
+      </div>
+    </main>
+  );
 
-  // ── Errore lezione non trovata ───────────────────────────────────────────────
-  if (error || !lesson) {
-    return (
-      <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center", padding: "24px" }}>
-        <div style={{ textAlign: "center" }}>
-          <div style={{ fontSize: "48px", marginBottom: "12px" }}>😅</div>
-          <p style={{ fontSize: "15px", fontWeight: 800, color: "var(--err-text)", marginBottom: "16px" }}>
-            Lezione non trovata / Lesson not found
-          </p>
-          <button onClick={() => router.push("/")} style={{ background: "var(--primary)", color: "white", padding: "12px 24px", borderRadius: "var(--r)", border: "none", fontWeight: 900, cursor: "pointer" }}>
-            ← Home
-          </button>
-        </div>
-      </main>
-    );
-  }
+  if (error || !lesson) return (
+    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
+      <div style={{ textAlign: "center" }}>
+        <div style={{ fontSize: 48, marginBottom: 12 }}>😅</div>
+        <p style={{ fontSize: 15, fontWeight: 800, color: "var(--err-text)", marginBottom: 16 }}>Lezione non trovata / Lesson not found</p>
+        <button onClick={() => router.push("/")} style={{ background: "var(--primary)", color: "white", padding: "12px 24px", borderRadius: "var(--r)", border: "none", fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>← Home</button>
+      </div>
+    </main>
+  );
 
-  // ── Completamento ────────────────────────────────────────────────────────────
-  if (fase === "done" && reward) {
-    return <LessonComplete reward={reward} onHome={() => router.push("/")} />;
-  }
+  if (fase === "done" && reward) return <LessonComplete reward={reward} onHome={() => router.push("/")} />;
 
-  // ── Intro vocabolario ────────────────────────────────────────────────────────
-  if (fase === "intro") {
-    return (
-      <VocabIntro
-        lesson={lesson}
-        onComplete={() => setFase("quiz")}
-      />
-    );
-  }
+  if (fase === "intro") return <VocabIntro lesson={lesson} onComplete={() => setFase("quiz")} />;
 
-  // ── Quiz ─────────────────────────────────────────────────────────────────────
   return (
     <QuizFase
       lesson={lesson}
-      onComplete={(corrette) => {
-        const r = salvaProgressi({
-          tipo: "lezione",
-          lessonId: lesson.id,
-          corrette,
-          totDomande: lesson.questions.length,
-        });
+      onComplete={corrette => {
+        const r = salvaProgressi({ tipo: "lezione", lessonId: lesson.id, corrette, totDomande: lesson.questions.length });
         setReward(r);
         setFase("done");
       }}
