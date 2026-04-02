@@ -189,8 +189,6 @@ export default function Home() {
 
   function isDone(id) { return completed.includes(id); }
 
-  const unlockedCount = [1,2,3,4,"boss"].filter(id => isDone(id)).length;
-
   return (
     <main style={{ minHeight:"100vh",background:"var(--bg)",padding:"24px 16px" }}>
 
