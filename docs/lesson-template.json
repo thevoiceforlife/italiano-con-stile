@@ -1,0 +1,290 @@
+{
+  "_ISTRUZIONI": "Copia questo file, rinomina in lessonN.json, sostituisci tutti i valori. NON modificare la struttura.",
+  "_REGOLE": [
+    "Tutto bilingue IT / EN — senza eccezioni",
+    "intro: prima persona diretta, pronunciato ad alta voce in IT",
+    "intro_en: traduzione EN, mostrata nella bubble ma NON pronunciata",
+    "opzioni: sempre oggetti {it, en} — mai stringhe semplici",
+    "correct: indice 0-based dell'opzione corretta",
+    "feedbackOk e feedbackErr: sempre bilingue {it, en}",
+    "fase: 'riconoscimento' | 'comprensione' | 'produzione'",
+    "Distribuzione: 3 riconoscimento + 2 comprensione + 3 produzione = 8 domande"
+  ],
+
+  "id": 5,
+  "title": "Titolo Lezione IT / Lesson Title EN",
+  "subtitle": "Sottotitolo descrittivo IT / Descriptive subtitle EN",
+  "livello": "Turista",
+  "livello_en": "Tourist",
+  "unita": 2,
+
+  "vocab": [
+    {
+      "id": "parola-1",
+      "emoji": "🎯",
+      "it": "la parola",
+      "en": "the word",
+      "mario": "Mario spiega in prima persona IT. / Mario explains in first person EN."
+    },
+    {
+      "id": "parola-2",
+      "emoji": "🎯",
+      "it": "la seconda parola",
+      "en": "the second word",
+      "mario": "Spiegazione IT. / Explanation EN."
+    },
+    {
+      "id": "parola-3",
+      "emoji": "🎯",
+      "it": "la terza parola",
+      "en": "the third word",
+      "mario": "Spiegazione IT. / Explanation EN."
+    },
+    {
+      "id": "parola-4",
+      "emoji": "🎯",
+      "it": "la quarta parola",
+      "en": "the fourth word",
+      "mario": "Spiegazione IT. / Explanation EN."
+    }
+  ],
+
+  "questions": [
+
+    {
+      "_FASE": "RICONOSCIMENTO — domanda 1 di 3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "intro": "Frase in prima persona IT — pronunciata da Mario",
+      "intro_en": "First person EN translation — shown only",
+      "domanda": {
+        "it": "Domanda in italiano?",
+        "en": "Question in English?"
+      },
+      "opzioni": [
+        { "it": "Risposta corretta IT", "en": "Correct answer EN" },
+        { "it": "Risposta sbagliata 1 IT", "en": "Wrong answer 1 EN" },
+        { "it": "Risposta sbagliata 2 IT", "en": "Wrong answer 2 EN" },
+        { "it": "Risposta sbagliata 3 IT", "en": "Wrong answer 3 EN" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Spiegazione perché è corretto in italiano.",
+        "en": "Explanation of why it's correct in English."
+      },
+      "feedbackErr": {
+        "it": "Spiegazione dell'errore in italiano.",
+        "en": "Explanation of the error in English."
+      }
+    },
+
+    {
+      "_FASE": "RICONOSCIMENTO — domanda 2 di 3",
+      "personaggio": "diego",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "intro": "Frase energica in prima persona IT",
+      "intro_en": "Energetic first person EN translation",
+      "domanda": {
+        "it": "Abbina le coppie!",
+        "en": "Match the pairs!"
+      },
+      "coppie": [
+        { "it": "parola IT 1", "en": "word EN 1" },
+        { "it": "parola IT 2", "en": "word EN 2" },
+        { "it": "parola IT 3", "en": "word EN 3" },
+        { "it": "parola IT 4", "en": "word EN 4" }
+      ],
+      "feedbackOk": {
+        "it": "Tutte le coppie corrette!",
+        "en": "All pairs correct!"
+      },
+      "feedbackErr": {
+        "it": "Quasi — controlla le coppie sbagliate.",
+        "en": "Almost — check the wrong pairs."
+      }
+    },
+
+    {
+      "_FASE": "RICONOSCIMENTO — domanda 3 di 3",
+      "personaggio": "diego",
+      "tipo": "gesto",
+      "fase": "riconoscimento",
+      "intro": "Sai riconoscere questo gesto?",
+      "intro_en": "Can you recognize this gesture?",
+      "domanda": {
+        "it": "Cosa significa questo gesto?",
+        "en": "What does this gesture mean?"
+      },
+      "gesture": "🤌",
+      "gesture_label": "Nome gesto IT / Gesture name EN",
+      "opzioni": [
+        { "it": "Significato corretto IT", "en": "Correct meaning EN" },
+        { "it": "Significato sbagliato 1 IT", "en": "Wrong meaning 1 EN" },
+        { "it": "Significato sbagliato 2 IT", "en": "Wrong meaning 2 EN" },
+        { "it": "Significato sbagliato 3 IT", "en": "Wrong meaning 3 EN" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Spiegazione del gesto in italiano.",
+        "en": "Correct! Gesture explanation in English."
+      },
+      "feedbackErr": {
+        "it": "No — spiegazione del significato corretto.",
+        "en": "No — explanation of the correct meaning."
+      }
+    },
+
+    {
+      "_FASE": "COMPRENSIONE — domanda 1 di 2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "intro": "Senti quello che dico — riesci a capirmi?",
+      "intro_en": "Listen to what I say — can you understand me?",
+      "audio": "Frase italiana da pronunciare ad alta voce",
+      "domanda": {
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
+      },
+      "opzioni": [
+        { "it": "Risposta corretta IT", "en": "Correct answer EN" },
+        { "it": "Risposta sbagliata 1 IT", "en": "Wrong answer 1 EN" },
+        { "it": "Risposta sbagliata 2 IT", "en": "Wrong answer 2 EN" },
+        { "it": "Risposta sbagliata 3 IT", "en": "Wrong answer 3 EN" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Ottimo! Hai riconosciuto la frase.",
+        "en": "Great! You recognized the phrase."
+      },
+      "feedbackErr": {
+        "it": "Riprova con la tartaruga 🐢 — ascolta più lentamente.",
+        "en": "Try again with the turtle 🐢 — listen more slowly."
+      }
+    },
+
+    {
+      "_FASE": "COMPRENSIONE — domanda 2 di 2",
+      "personaggio": "gino",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "Frase culturale in prima persona IT — Gino racconta",
+      "intro_en": "Cultural statement in first person EN",
+      "domanda": {
+        "it": "Affermazione culturale in italiano.",
+        "en": "Cultural statement in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Giusto! Spiegazione culturale in italiano.",
+        "en": "Correct! Cultural explanation in English."
+      },
+      "feedbackErr": {
+        "it": "No — spiegazione di perché è falso.",
+        "en": "No — explanation of why it's false."
+      }
+    },
+
+    {
+      "_FASE": "PRODUZIONE — domanda 1 di 3",
+      "personaggio": "sofia",
+      "tipo": "word_bank",
+      "fase": "produzione",
+      "intro": "Componi la frase giusta — dai!",
+      "intro_en": "Build the right sentence — come on!",
+      "domanda": {
+        "it": "Componi la frase.",
+        "en": "Build the sentence."
+      },
+      "hint_it": "Frase target completa in italiano.",
+      "hint_en": "Complete target sentence in English.",
+      "parole": ["Parola1", "parola2", "parola3", "parola4", "parola5"],
+      "distrattori": ["distrat1", "distrat2", "distrat3"],
+      "correct": ["Parola1", "parola2", "parola3", "parola4", "parola5"],
+      "feedbackOk": {
+        "it": "Eccellente! Frase perfetta.",
+        "en": "Excellent! Perfect sentence."
+      },
+      "feedbackErr": {
+        "it": "Non corretto. Guarda il suggerimento in inglese.",
+        "en": "Not correct. Check the English hint above."
+      }
+    },
+
+    {
+      "_FASE": "PRODUZIONE — domanda 2 di 3",
+      "personaggio": "gino",
+      "tipo": "falso_amico",
+      "fase": "produzione",
+      "intro": "Attenzione — questo è un falso amico!",
+      "intro_en": "Watch out — this is a false friend!",
+      "domanda": {
+        "it": "Cosa significa '[parola]' in italiano?",
+        "en": "What does '[word]' mean in Italian?"
+      },
+      "contesto_it": "\"Frase con la parola in contesto italiano.\"",
+      "contesto_en": "\"Sentence with the word in English context.\"",
+      "opzioni": [
+        { "it": "Significato falso (simile all'inglese)", "en": "False meaning (similar to English)" },
+        { "it": "Significato corretto IT", "en": "Correct meaning EN" },
+        { "it": "Significato sbagliato 2 IT", "en": "Wrong meaning 2 EN" },
+        { "it": "Significato sbagliato 3 IT", "en": "Wrong meaning 3 EN" }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! '[parola]' significa [significato corretto] — non [falso amico inglese].",
+        "en": "Correct! '[word]' means [correct meaning] — not [English false friend]."
+      },
+      "feedbackErr": {
+        "it": "Trappola! '[parola]' NON significa '[falso amico]' — significa '[significato corretto]'.",
+        "en": "Trap! '[word]' does NOT mean '[false friend]' — it means '[correct meaning]'."
+      }
+    },
+
+    {
+      "_FASE": "PRODUZIONE — domanda 3 di 3",
+      "personaggio": "matilde",
+      "tipo": "scegli_registro",
+      "fase": "produzione",
+      "intro": "Scenario professionale — quale registro usi?",
+      "intro_en": "Professional scenario — which register do you use?",
+      "domanda": {
+        "it": "Sei in un contesto [formale/informale]. Come dici [cosa]?",
+        "en": "You're in a [formal/informal] context. How do you say [what]?"
+      },
+      "opzioni": [
+        { "it": "Opzione formale corretta IT", "en": "Correct formal option EN" },
+        { "it": "Opzione informale sbagliata IT", "en": "Wrong informal option EN" },
+        { "it": "Opzione scorretta 2 IT", "en": "Wrong option 2 EN" },
+        { "it": "Opzione scorretta 3 IT", "en": "Wrong option 3 EN" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Registro formale impeccabile.",
+        "en": "Perfect! Impeccable formal register."
+      },
+      "feedbackErr": {
+        "it": "In questo contesto serve il registro formale.",
+        "en": "In this context you need the formal register."
+      }
+    }
+
+  ],
+
+  "reward": {
+    "cibo": "cornetto",
+    "cibo_emoji": "🥐",
+    "cibo_nome_it": "Cornetto",
+    "cibo_nome_en": "Croissant",
+    "energia_base": 15,
+    "scala_errori": [
+      { "max_errori": 0,  "moltiplicatore": 1.0 },
+      { "max_errori": 2,  "moltiplicatore": 0.75 },
+      { "max_errori": 4,  "moltiplicatore": 0.50 },
+      { "max_errori": 6,  "moltiplicatore": 0.25 },
+      { "max_errori": 99, "moltiplicatore": 0.0 }
+    ]
+  }
+}
