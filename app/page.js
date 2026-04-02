@@ -214,10 +214,10 @@ export default function Home() {
       {/* ── PERSONAGGI ── */}
       <section style={{ marginBottom:"28px" }}>
         <h2 style={{ fontSize:"13px",fontWeight:900,color:"var(--text3)",textTransform:"uppercase",letterSpacing:"1px",marginBottom:"4px" }}>
-          I tuoi compagni
+          I tuoi compagni / Your companions
         </h2>
         <p style={{ fontSize:"11px",color:"var(--text3)",marginBottom:"12px" }}>
-          Tap → mini-game (presto!) · Tieni premuto / Hold → bio
+          Tap → mini-game (presto! / coming soon!) · Tieni premuto / Hold → bio
         </p>
         <div style={{ display:"flex",gap:"6px",justifyContent:"space-between" }}>
           {CHARACTERS.map(c => (

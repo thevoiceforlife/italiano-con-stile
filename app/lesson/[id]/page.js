@@ -455,7 +455,7 @@ function DomandaAbbina({ q, onAnswer }) {
           feedback={allMatched ? "ok" : null}
         />
         <QBox q={q} />
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, width: "100%" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             {shuffIT.current.map(({ it }) => {
               const isMatched = !!matched[it], isSel = selIT === it, isWrong = wrong?.it === it;

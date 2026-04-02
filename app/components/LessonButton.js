@@ -20,7 +20,7 @@ export default function LessonButton({ lessonId }) {
         cursor: "pointer",
       }}
     >
-      VAI →
+      VAI → / GO →
     </button>
   );
 }
