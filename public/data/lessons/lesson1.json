@@ -3,297 +3,314 @@
   "title": "Le Prime Parole",
   "subtitle": "Ciao, Grazie, Prego, Sì — il giorno 1",
   "livello": "Turista",
+  "livello_en": "Tourist",
+  "unita": 1,
+
   "vocab": [
     {
       "id": "ciao",
       "emoji": "👋",
-      "it": "Ciao",
-      "en": "Hi / Bye",
-      "mario": "Ciao! — si usa per salutare sia quando arrivi che quando vai. / Ciao! — used both when you arrive and when you leave.",
-      "marioIT": "Ciao! Si usa per salutare sia quando arrivi che quando vai."
+      "it": "ciao",
+      "en": "hi / bye",
+      "mario": "In Italia 'ciao' si usa sia per salutare che per congedarsi — come 'aloha' in hawaiano! / In Italy 'ciao' works for both hello AND goodbye — like 'aloha' in Hawaiian!",
+      "annotazioni": [
+        {
+          "parola": "ciao",
+          "tipo": "culturale",
+          "categoria_it": "saluto · informale",
+          "categoria_en": "greeting · informal",
+          "en": "hi / bye",
+          "perche": "'Ciao' viene dal veneziano 's-ciào vostro' — 'sono vostro schiavo'. Un saluto di rispetto diventato informale.",
+          "perche_en": "'Ciao' comes from Venetian 's-ciào vostro' — 'I am your slave'. A formal greeting that became casual.",
+          "esempi": [
+            { "it": "Ciao Mario!", "en": "Hi Mario!", "ok": true },
+            { "it": "Ciao! A domani!", "en": "Bye! See you tomorrow!", "ok": true }
+          ]
+        }
+      ]
     },
     {
       "id": "grazie",
       "emoji": "🙏",
-      "it": "Grazie",
-      "en": "Thank you",
-      "mario": "Grazie — la parola più importante. Usala sempre. / Grazie — the most important word. Always use it.",
-      "marioIT": "Grazie — la parola più importante. Usala sempre."
+      "it": "grazie",
+      "en": "thank you",
+      "mario": "'Grazie' non cambia mai — non esiste 'grazio' o 'grazia' per ringraziare. È sempre grazie! / 'Grazie' never changes — there's no 'grazio' or 'grazia' for thanks. Always grazie!",
+      "annotazioni": [
+        {
+          "parola": "grazie",
+          "tipo": "avverbio",
+          "categoria_it": "avverbio · invariabile",
+          "categoria_en": "adverb · invariable",
+          "en": "thank you / thanks",
+          "perche": "'Grazie' è invariabile — non si coniuga e non ha genere. Viene dal plurale di 'grazia' (grace).",
+          "perche_en": "'Grazie' is invariable — it doesn't conjugate and has no gender. It comes from the plural of 'grazia' (grace)."
+        }
+      ]
     },
     {
       "id": "prego",
       "emoji": "😊",
-      "it": "Prego",
-      "en": "You're welcome",
-      "mario": "Prego — risposta automatica a 'grazie'. Anche 'di niente' va benissimo. / Prego — automatic reply to 'grazie'. 'Di niente' works too.",
-      "marioIT": "Prego — risposta automatica a grazie. Anche di niente va benissimo."
+      "it": "prego",
+      "en": "you're welcome / please / go ahead",
+      "mario": "'Prego' è una parola magica italiana — significa almeno 4 cose diverse! Contesto è tutto. / 'Prego' is an Italian magic word — it means at least 4 different things! Context is everything.",
+      "annotazioni": [
+        {
+          "parola": "prego",
+          "tipo": "culturale",
+          "categoria_it": "parola culturale · polivalente",
+          "categoria_en": "cultural word · multipurpose",
+          "en": "you're welcome / please / go ahead / here you go",
+          "perche": "Viene dal verbo 'pregare' (to pray/beg). Gli italiani preferiscono una parola fluida per tutto piuttosto che parole precise per ogni situazione.",
+          "perche_en": "From the verb 'pregare' (to pray/beg). Italians prefer one fluid word for everything rather than precise words for each situation.",
+          "esempi": [
+            { "it": "Grazie! — Prego!", "en": "Thanks! — You're welcome!", "ok": true },
+            { "it": "Prego, si accomodi.", "en": "Please, have a seat.", "ok": true },
+            { "it": "Prego? (non ho sentito)", "en": "Pardon? (I didn't catch that)", "ok": true }
+          ]
+        }
+      ]
     },
     {
-      "id": "buongiorno",
-      "emoji": "☀️",
-      "it": "Buongiorno",
-      "en": "Good morning / Good day",
-      "mario": "Buongiorno fino all'ora di pranzo — poi si dice 'buonasera'. / Buongiorno until lunchtime — then it's 'buonasera'.",
-      "marioIT": "Buongiorno fino all'ora di pranzo, poi si dice buonasera."
-    },
-    {
-      "id": "si_no",
+      "id": "si-no",
       "emoji": "✅",
-      "it": "Sì / No",
-      "en": "Yes / No",
-      "mario": "Sì e no — semplici ma potenti. La 'ì' di sì ha l'accento — non confonderla con 'si'! / Sì and no — simple but powerful. The 'ì' in sì has an accent — don't confuse it with 'si'!",
-      "marioIT": "Sì e no — semplici ma potenti. La i di sì ha l'accento."
+      "it": "sì / no",
+      "en": "yes / no",
+      "mario": "Attenzione: 'sì' con l'accento = yes. 'si' senza accento = pronome riflessivo (himself/herself). Due parole diverse! / Careful: 'sì' with accent = yes. 'si' without = reflexive pronoun. Two different words!",
+      "annotazioni": [
+        {
+          "parola": "sì",
+          "tipo": "avverbio",
+          "categoria_it": "avverbio · affermativo",
+          "categoria_en": "adverb · affirmative",
+          "en": "yes",
+          "perche": "'Sì' con l'accento = yes. Senza accento 'si' = pronome riflessivo. L'accento cambia tutto il significato!",
+          "perche_en": "'Sì' with accent = yes. Without accent 'si' = reflexive pronoun. The accent changes everything!"
+        }
+      ]
     }
   ],
+
   "questions": [
     {
-      "id": 1,
       "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Let's start simple! / Iniziamo semplice!",
-      "introIT": "Iniziamo semplice!",
+      "fase": "riconoscimento",
+      "intro": "Al bar di Mario entra un cliente. Come lo saluta Mario?",
+      "intro_en": "A customer walks into Mario's bar. How does Mario greet them?",
       "domanda": {
-        "it": "Which word means 'Thank you' in Italian?",
-        "en": "Quale parola significa 'grazie' in italiano?"
+        "it": "Come saluta Mario il cliente?",
+        "en": "How does Mario greet the customer?"
       },
       "opzioni": [
-        "Ciao",
-        "Prego",
-        "Grazie",
-        "Sì"
-      ],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Eccezionale! 'Grazie' — ricordatela per sempre.",
-        "en": "Excellent! 'Grazie' — remember it forever."
-      },
-      "feedbackErr": {
-        "it": "Non ancora! 'Grazie' significa thank you. 'Prego' significa you're welcome.",
-        "en": "Not quite! 'Grazie' means thank you. 'Prego' means you're welcome."
-      }
-    },
-    {
-      "id": 2,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "Easy one! / Facile facile!",
-      "introIT": "Facile facile!",
-      "domanda": {
-        "it": "An Italian greets you in the morning. What do they say?",
-        "en": "Un italiano ti saluta la mattina. Cosa dice?"
-      },
-      "opzioni": [
-        "Buonasera",
-        "Ciao",
-        "Buongiorno",
-        "Prego"
-      ],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Esatto! 'Buongiorno' la mattina, 'Buonasera' la sera.",
-        "en": "Correct! 'Buongiorno' in the morning, 'Buonasera' in the evening."
-      },
-      "feedbackErr": {
-        "it": "Quasi! 'Buongiorno' è per la mattina. 'Buonasera' è per la sera.",
-        "en": "Almost! 'Buongiorno' is for the morning. 'Buonasera' is for the evening."
-      }
-    },
-    {
-      "id": 3,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "You say 'grazie' — what does Mario reply? / Dici grazie — cosa risponde Mario?",
-      "introIT": "Dici grazie — cosa risponde Mario?",
-      "domanda": {
-        "it": "You say 'Grazie!' to Mario. What does he reply?",
-        "en": "Dici 'Grazie!' a Mario. Cosa risponde?"
-      },
-      "opzioni": [
-        "Ciao",
-        "Prego",
-        "Sì",
-        "Buongiorno"
-      ],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Ben fatto! 'Prego' è la risposta automatica a 'Grazie'.",
-        "en": "Well done! 'Prego' is the automatic reply to 'Grazie'."
-      },
-      "feedbackErr": {
-        "it": "Non ancora! Quando qualcuno dice 'Grazie', rispondi 'Prego' — come 'you're welcome'.",
-        "en": "Not quite! When someone says 'Grazie', you reply 'Prego' — like 'you're welcome'."
-      }
-    },
-    {
-      "id": 4,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "This one is important! / Questa è importante!",
-      "introIT": "Questa è importante!",
-      "domanda": {
-        "it": "'Ciao' in Italian means...?",
-        "en": "'Ciao' in italiano significa...?"
-      },
-      "opzioni": [
-        "Only hello",
-        "Only goodbye",
-        "Both hello AND goodbye",
-        "Good morning"
-      ],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Esatto! 'Ciao' va bene sia per arrivare che per andare — comodissimo!",
-        "en": "Exactly! 'Ciao' works for both hello and goodbye — very handy!"
-      },
-      "feedbackErr": {
-        "it": "Sorpresa! 'Ciao' significa SIA ciao quando arrivi CHE ciao quando vai.",
-        "en": "Surprise! 'Ciao' means BOTH hello and goodbye."
-      }
-    },
-    {
-      "id": 5,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "Last one — you've got this! / Ultima — ce la fai!",
-      "introIT": "Ultima — ce la fai!",
-      "domanda": {
-        "it": "Mario asks you something. You agree. What do you say?",
-        "en": "Mario ti chiede qualcosa. Sei d'accordo. Cosa dici?"
-      },
-      "opzioni": [
-        "No",
-        "Ciao",
-        "Prego",
-        "Sì"
-      ],
-      "correct": 3,
-      "feedbackOk": {
-        "it": "Complimenti! 'Sì' — yes. 'No' — no. Le due parole più potenti in qualsiasi lingua!",
-        "en": "Excellent! 'Sì' — yes. 'No' — no. The two most powerful words in any language!"
-      },
-      "feedbackErr": {
-        "it": "Quasi! 'Sì' significa yes. Non dimenticare l'accento — 'sì' non 'si'!",
-        "en": "Almost! 'Sì' means yes. Don't forget the accent — 'sì' not 'si'!"
-      }
-    },
-    {
-      "id": 6,
-      "personaggio": "diego",
-      "tipo": "multipla",
-      "intro": "SIII! Questa è facile! / YESS! This one's easy!",
-      "introIT": "Questa è facilissima!",
-      "domanda": {
-        "it": "Come si dice 'Good evening' in italiano?",
-        "en": "Come si dice 'buonasera' in inglese?"
-      },
-      "opzioni": [
-        "Buongiorno",
-        "Buonanotte",
-        "Buonasera",
-        "Ciao"
-      ],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Esatto! Buonasera — dal pomeriggio in poi!",
-        "en": "Correct! Buonasera — from the afternoon onwards!"
-      },
-      "feedbackErr": {
-        "it": "Quasi! Buonasera è il saluto della sera. Buonanotte solo prima di dormire.",
-        "en": "Almost! Buonasera is the evening greeting. Buonanotte only before sleeping."
-      }
-    },
-    {
-      "id": 7,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "intro": "Vedi, c'è una storia bellissima... / There's a wonderful story...",
-      "introIT": "Vedi, c'è una storia bellissima dietro questa parola.",
-      "domanda": {
-        "it": "'Prego' in italiano viene dalla parola 'pregare'. Cosa significa?",
-        "en": "'Prego' comes from the word 'pregare'. What does it mean?"
-      },
-      "opzioni": [
-        "To pray / to beg",
-        "To eat",
-        "To walk",
-        "To speak"
+        { "it": "Ciao! Buongiorno!", "en": "Hi! Good morning!" },
+        { "it": "Grazie, prego!", "en": "Thanks, you're welcome!" },
+        { "it": "Sì, no!", "en": "Yes, no!" },
+        { "it": "Arrivederci!", "en": "Goodbye!" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! 'Prego' viene da 'pregare' — originariamente significava 'vi prego di niente'. Nel tempo è diventato 'you're welcome'.",
-        "en": "Exactly! 'Prego' comes from 'pregare' — it originally meant 'I beg you think nothing of it'. Over time it became 'you're welcome'."
+        "it": "Esatto! 'Ciao' e 'buongiorno' sono saluti — si usano quando qualcuno arriva.",
+        "en": "Correct! 'Ciao' and 'buongiorno' are greetings — used when someone arrives."
       },
       "feedbackErr": {
-        "it": "'Prego' viene da 'pregare' — to pray / to beg. La lingua porta la storia dentro!",
-        "en": "'Prego' comes from 'pregare' — to pray / to beg. Language carries history within it!"
+        "it": "'Grazie' e 'prego' non sono saluti — si usano per ringraziare e rispondere.",
+        "en": "'Grazie' and 'prego' are not greetings — they're used for thanking and responding."
+      },
+      "annotazioni_domanda": []
+    },
+    {
+      "personaggio": "diego",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "intro": "Abbina ogni parola italiana alla sua traduzione inglese!",
+      "intro_en": "Match each Italian word to its English translation!",
+      "domanda": {
+        "it": "Abbina le coppie!",
+        "en": "Match the pairs!"
+      },
+      "coppie": [
+        { "it": "ciao",   "en": "hi / bye" },
+        { "it": "grazie", "en": "thank you" },
+        { "it": "prego",  "en": "you're welcome" },
+        { "it": "sì",     "en": "yes" }
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tutte le coppie corrette!",
+        "en": "Perfect! All pairs correct!"
+      },
+      "feedbackErr": {
+        "it": "Quasi! Controlla le coppie sbagliate.",
+        "en": "Almost! Check the wrong pairs."
       }
     },
     {
-      "id": 8,
       "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "Un'ultima cosa importante! / One last important thing!",
-      "introIT": "Un'ultima cosa importante prima di andare!",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "intro": "Ascolta Mario al bancone. Cosa dice?",
+      "intro_en": "Listen to Mario at the counter. What does he say?",
+      "audio": "Ciao! Grazie mille!",
       "domanda": {
-        "it": "Come si dice 'excuse me' per scusarsi in italiano?",
-        "en": "Come si dice 'excuse me' per scusarsi?"
+        "it": "Cosa ha detto Mario?",
+        "en": "What did Mario say?"
       },
       "opzioni": [
-        "Prego",
-        "Grazie",
-        "Scusa / Mi scusi",
-        "Ciao"
+        { "it": "Ciao! Grazie mille!",  "en": "Hi! Thank you so much!" },
+        { "it": "Prego! Arrivederci!",  "en": "You're welcome! Goodbye!" },
+        { "it": "Sì, sì! Certo!",       "en": "Yes, yes! Of course!" },
+        { "it": "No grazie, prego!",     "en": "No thanks, please!" }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Complimenti! 'Scusa' con amici, 'mi scusi' con sconosciuti e persone più grandi.",
-        "en": "Excellent! 'Scusa' with friends, 'mi scusi' with strangers and older people."
+        "it": "Ottimo ascolto! 'Grazie mille' = thank you a thousand — enfasi italiana!",
+        "en": "Great listening! 'Grazie mille' = thank you a thousand — Italian emphasis!"
       },
       "feedbackErr": {
-        "it": "Per scusarsi si dice 'scusa' (informale) o 'mi scusi' (formale). 'Prego' è per rispondere a 'grazie'!",
-        "en": "To apologise say 'scusa' (informal) or 'mi scusi' (formal). 'Prego' is for replying to 'grazie'!"
+        "it": "Riprova con la tartaruga 🐢 — ascolta più lentamente.",
+        "en": "Try again with the turtle 🐢 — listen more slowly."
+      }
+    },
+    {
+      "personaggio": "gino",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "Gino vuole fare una domanda culturale.",
+      "intro_en": "Gino has a cultural question.",
+      "domanda": {
+        "it": "'Ciao' si usa solo per salutare quando si arriva.",
+        "en": "'Ciao' is only used to greet someone when arriving."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Giusto! 'Ciao' si usa sia per arrivare che per andare via — è bidirezionale!",
+        "en": "Correct! 'Ciao' works both for arriving and leaving — it's bidirectional!"
+      },
+      "feedbackErr": {
+        "it": "No — 'ciao' funziona in entrambi i sensi. Come 'aloha' o 'shalom'.",
+        "en": "No — 'ciao' works both ways. Like 'aloha' or 'shalom'."
+      }
+    },
+    {
+      "personaggio": "sofia",
+      "tipo": "word_bank",
+      "fase": "produzione",
+      "intro": "Sofia ti sfida — come si risponde a 'Grazie!'?",
+      "intro_en": "Sofia challenges you — how do you respond to 'Grazie!'?",
+      "domanda": {
+        "it": "Componi la risposta corretta.",
+        "en": "Build the correct response."
+      },
+      "frase_target": ["Prego", "!"],
+      "hint_it": "Prego!",
+      "hint_en": "You're welcome!",
+      "parole": ["Prego"],
+      "distrattori": ["Grazie", "Ciao", "Sì", "No"],
+      "feedbackOk": {
+        "it": "Esatto! 'Prego' è la risposta perfetta a 'grazie'.",
+        "en": "Correct! 'Prego' is the perfect response to 'grazie'."
+      },
+      "feedbackErr": {
+        "it": "Non corretto. A 'grazie' si risponde sempre 'prego'!",
+        "en": "Not correct. To 'grazie' you always respond 'prego'!"
+      },
+      "annotazioni_frase": [
+        {
+          "parola": "Prego",
+          "tipo": "culturale",
+          "categoria_it": "parola culturale · risposta a grazie",
+          "categoria_en": "cultural word · response to grazie",
+          "en": "you're welcome",
+          "perche": "'Prego' come risposta a 'grazie' è obbligatorio nel galateo italiano — non rispondere è scortese.",
+          "perche_en": "'Prego' as a response to 'grazie' is mandatory in Italian etiquette — not responding is rude."
+        }
+      ]
+    },
+    {
+      "personaggio": "gino",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "intro": "Gino vuole sentire se hai capito gli accenti.",
+      "intro_en": "Gino wants to check if you understood accents.",
+      "domanda": {
+        "it": "Completa: '___,  vengo anch'io!'",
+        "en": "Complete: '___, I'm coming too!'"
+      },
+      "opzioni": [
+        { "it": "Sì",   "en": "Yes (with accent)" },
+        { "it": "Si",   "en": "Himself/herself (no accent)" },
+        { "it": "Sì!",  "en": "Yes! (emphatic)" },
+        { "it": "No",   "en": "No" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "'Sì' con l'accento = yes. Senza accento 'si' cambia significato completamente!",
+        "en": "'Sì' with accent = yes. Without accent 'si' completely changes meaning!"
+      },
+      "feedbackErr": {
+        "it": "Attenzione all'accento! 'Sì' = yes. 'Si' = himself/herself/itself.",
+        "en": "Watch the accent! 'Sì' = yes. 'Si' = himself/herself/itself."
+      }
+    },
+    {
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "intro": "Un turista ti dice 'Grazie mille!'. Cosa rispondi?",
+      "intro_en": "A tourist says 'Grazie mille!'. What do you reply?",
+      "domanda": {
+        "it": "Qual è la risposta giusta?",
+        "en": "What is the correct response?"
+      },
+      "opzioni": [
+        { "it": "Prego!",      "en": "You're welcome!" },
+        { "it": "Grazie!",     "en": "Thank you!" },
+        { "it": "Ciao!",       "en": "Hi!" },
+        { "it": "Sì, grazie!", "en": "Yes, thank you!" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Grazie → Prego. È la coppia perfetta del galateo italiano.",
+        "en": "Perfect! Grazie → Prego. The perfect pair of Italian etiquette."
+      },
+      "feedbackErr": {
+        "it": "A 'grazie' si risponde 'prego' — non 'grazie' di ritorno come in inglese!",
+        "en": "To 'grazie' you respond 'prego' — not 'grazie' back like in English!"
+      }
+    },
+    {
+      "personaggio": "vittoria",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "intro": "Vittoria vuole verificare una cosa importante.",
+      "intro_en": "Vittoria wants to verify something important.",
+      "domanda": {
+        "it": "'Prego' può significare sia 'you're welcome' che 'please' in italiano.",
+        "en": "'Prego' can mean both 'you're welcome' and 'please' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Bene! 'Prego' è polivalente — you're welcome, please, go ahead, here you go.",
+        "en": "Well done! 'Prego' is multipurpose — you're welcome, please, go ahead, here you go."
+      },
+      "feedbackErr": {
+        "it": "Invece sì! 'Prego' significa almeno 4 cose diverse — dipende dal contesto.",
+        "en": "Actually yes! 'Prego' means at least 4 different things — depends on context."
       }
     }
   ],
+
   "reward": {
+    "cibo": "caffe",
+    "cibo_emoji": "☕",
+    "cibo_nome_it": "Caffè",
+    "cibo_nome_en": "Coffee",
+    "energia_base": 10,
     "scala_errori": [
-      {
-        "max_errori": 0,
-        "energia": 25,
-        "crediti": 15,
-        "cibo": "cornetto+caffè"
-      },
-      {
-        "max_errori": 1,
-        "energia": 20,
-        "crediti": 12,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 2,
-        "energia": 15,
-        "crediti": 10,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 3,
-        "energia": 10,
-        "crediti": 8,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 4,
-        "energia": 5,
-        "crediti": 5,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 99,
-        "energia": 2,
-        "crediti": 2,
-        "cibo": "nessuno"
-      }
-    ],
-    "pizza_ogni_n_risposte": 6
+      { "max_errori": 0,  "moltiplicatore": 1.0 },
+      { "max_errori": 2,  "moltiplicatore": 0.75 },
+      { "max_errori": 4,  "moltiplicatore": 0.50 },
+      { "max_errori": 6,  "moltiplicatore": 0.25 },
+      { "max_errori": 99, "moltiplicatore": 0.0 }
+    ]
   }
 }
