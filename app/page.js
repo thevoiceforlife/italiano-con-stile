@@ -189,6 +189,8 @@ export default function Home() {
 
   function isDone(id) { return completed.includes(id); }
 
+  if (!mounted) return null;
+
   return (
     <main style={{ minHeight:"100vh",background:"var(--bg)",padding:"24px 16px" }}>
 
