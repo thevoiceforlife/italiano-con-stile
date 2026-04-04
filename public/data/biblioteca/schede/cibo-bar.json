@@ -1,0 +1,1477 @@
+{
+  "id": "cibo-bar",
+  "categoria": "vocabolario",
+  "emoji": "☕🍕",
+  "livello": "A1",
+  "titolo": {
+    "it": "Cibo e Bar",
+    "en": "Food and the Bar"
+  },
+  "mario": "Benvenuto al mio bar. Qui impari le parole più importanti della vita italiana: caffè, cornetto, pizza, pasta, conto. Queste non sono parole — sono sopravvivenza. E ti avverto: un 'cappuccino' dopo le undici di mattina ti fa guardare come un turista. Te lo dico io.",
+  "marioEn": "Welcome to my bar. Here you learn the most important words of Italian life: caffè, cornetto, pizza, pasta, conto. These aren't just words — they're survival. And I warn you: a 'cappuccino' after eleven in the morning will make you look like a tourist. I'm telling you.",
+  "perche": {
+    "it": "Il bar italiano non è un pub inglese. È il centro sociale della mattina: caffè espresso in piedi, cornetto, giornale. Le regole non scritte: il caffè si beve al banco (più economico), il cappuccino è solo la mattina, 'un caffè' significa sempre un espresso, 'caffè americano' esiste ma ti guarderanno strano. Imparare il vocabolario del bar è imparare la cultura italiana.",
+    "en": "The Italian bar is not an English pub. It's the social hub of the morning: espresso standing up, cornetto, newspaper. The unwritten rules: coffee is drunk at the counter (cheaper), cappuccino is only for the morning, 'un caffè' always means an espresso, 'caffè americano' exists but they'll look at you strangely. Learning bar vocabulary is learning Italian culture."
+  },
+  "spiegazione": {
+    "it": "Al bar: un caffè (espresso) · un cappuccino · un cornetto · un succo di frutta · un'acqua naturale/frizzante · un aperitivo. Al ristorante: il menù · l'antipasto · il primo (pasta/risotto) · il secondo (carne/pesce) · il contorno (verdure) · il dolce · il conto. Ordinare: 'Vorrei...' · 'Prendo...' · 'Mi porta...' · 'Il conto, per favore.'",
+    "en": "At the bar: un caffè (espresso) · un cappuccino · un cornetto · un succo di frutta · un'acqua naturale/frizzante · un aperitivo. At the restaurant: il menù · l'antipasto · il primo (pasta/risotto) · il secondo (carne/pesce) · il contorno (vegetables) · il dolce · il conto. Ordering: 'Vorrei...' · 'Prendo...' · 'Mi porta...' · 'Il conto, per favore.'"
+  },
+  "tabella": [
+    {
+      "italiano": "un caffè / un espresso",
+      "inglese": "an espresso",
+      "nota": "La base. Sempre in piedi al banco."
+    },
+    {
+      "italiano": "un cappuccino",
+      "inglese": "a cappuccino",
+      "nota": "Solo la mattina. Mai dopo pranzo."
+    },
+    {
+      "italiano": "un caffè macchiato",
+      "inglese": "espresso with a drop of milk",
+      "nota": "Meno latte del cappuccino."
+    },
+    {
+      "italiano": "un caffè americano",
+      "inglese": "an americano (long black)",
+      "nota": "Esiste, ma ti guarderanno."
+    },
+    {
+      "italiano": "un cornetto",
+      "inglese": "a croissant",
+      "nota": "Vuoto, alla crema, alla marmellata, al cioccolato."
+    },
+    {
+      "italiano": "il primo piatto",
+      "inglese": "the first course (pasta/risotto)",
+      "nota": "La pasta, non l'antipasto."
+    },
+    {
+      "italiano": "il secondo piatto",
+      "inglese": "the second course (meat/fish)",
+      "nota": "Arriva DOPO la pasta."
+    },
+    {
+      "italiano": "il conto",
+      "inglese": "the bill",
+      "nota": "'Il conto, per favore' — mai 'check'."
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Buongiorno! Vorrei un caffè e un cornetto alla crema.",
+      "en": "Good morning! I'd like a coffee and a cream croissant.",
+      "audio": "Buongiorno! Vorrei un caffè e un cornetto alla crema."
+    },
+    {
+      "it": "Il cappuccino lo prendo solo la mattina — dopo pranzo è strano.",
+      "en": "I only have cappuccino in the morning — after lunch it's strange.",
+      "audio": "Il cappuccino lo prendo solo la mattina."
+    },
+    {
+      "it": "Prendo le tagliatelle al ragù come primo e la bistecca come secondo.",
+      "en": "I'll have tagliatelle al ragù as a first course and steak as a second.",
+      "audio": "Prendo le tagliatelle al ragù come primo e la bistecca come secondo."
+    },
+    {
+      "it": "Scusi, ci porta il conto quando vuole?",
+      "en": "Excuse me, could you bring us the bill when you're ready?",
+      "audio": "Scusi, ci porta il conto quando vuole?"
+    },
+    {
+      "it": "L'acqua la vuole naturale o frizzante?",
+      "en": "Would you like still or sparkling water?",
+      "audio": "L'acqua la vuole naturale o frizzante?"
+    }
+  ],
+  "nota": {
+    "it": "💡 Le regole non scritte del bar italiano: 1) Al banco si paga meno che al tavolo. 2) 'Un caffè' = un espresso, sempre. 3) Cappuccino → solo la mattina. 4) Non si chiede 'latte' (ti portano un bicchiere di latte). Si chiede 'latte macchiato'. 5) Il conto non arriva automaticamente — devi chiederlo. 6) La mancia non è obbligatoria ma apprezzata.",
+    "en": "💡 The unwritten rules of the Italian bar: 1) At the counter you pay less than at a table. 2) 'Un caffè' = an espresso, always. 3) Cappuccino → mornings only. 4) Don't ask for 'latte' (they'll bring you a glass of milk). Ask for 'latte macchiato'. 5) The bill doesn't come automatically — you must ask for it. 6) Tips are not obligatory but appreciated."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "In Italia 'un caffè' al bar significa sempre…?",
+        "en": "In Italy 'un caffè' at the bar always means…?"
+      },
+      "opzioni": [
+        "Un caffè lungo",
+        "Un cappuccino",
+        "Un espresso",
+        "Un caffè americano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Un caffè' = un espresso. Se vuoi altro, devi specificare: caffè lungo, caffè americano, ecc.",
+        "en": "Correct! 'Un caffè' = an espresso. If you want something else, you must specify: caffè lungo, caffè americano, etc."
+      },
+      "feedbackErr": {
+        "it": "'Un caffè' = espresso sempre. Per altro si specifica: 'caffè lungo', 'caffè americano', 'cappuccino'.",
+        "en": "'Un caffè' = espresso always. For anything else you specify: 'caffè lungo', 'caffè americano', 'cappuccino'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché gli italiani guardano strano chi ordina un cappuccino dopo pranzo?",
+        "en": "Why do Italians look oddly at someone who orders a cappuccino after lunch?"
+      },
+      "opzioni": [
+        "È troppo caro",
+        "Il latte dopo un pasto pesante è considerato difficile da digerire",
+        "Il cappuccino è solo per i bambini",
+        "È una regola legale"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Gli italiani credono che il latte dopo un pasto pesante appesantisca la digestione. Il cappuccino è per la mattina a stomaco vuoto.",
+        "en": "Correct! Italians believe that milk after a heavy meal makes digestion harder. Cappuccino is for the morning on an empty stomach."
+      },
+      "feedbackErr": {
+        "it": "Per gli italiani il latte dopo pranzo appesantisce la digestione. Il cappuccino = mattina a stomaco vuoto.",
+        "en": "For Italians, milk after lunch makes digestion heavy. Cappuccino = morning on an empty stomach."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la struttura classica di un pranzo italiano al ristorante?",
+        "en": "What is the classic structure of an Italian restaurant lunch?"
+      },
+      "opzioni": [
+        "Antipasto → Secondo → Primo → Dolce",
+        "Primo → Secondo → Antipasto → Dolce",
+        "Antipasto → Primo → Secondo → Contorno → Dolce",
+        "Insalata → Primo → Dolce"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Antipasto → Primo (pasta/risotto) → Secondo (carne/pesce) → Contorno → Dolce. Non si salta l'ordine.",
+        "en": "Correct! Antipasto → Primo (pasta/risotto) → Secondo (meat/fish) → Contorno → Dolce. You don't skip the order."
+      },
+      "feedbackErr": {
+        "it": "Ordine classico: Antipasto → Primo → Secondo → Contorno → Dolce. La pasta viene prima della carne.",
+        "en": "Classic order: Antipasto → Primo → Secondo → Contorno → Dolce. Pasta comes before meat."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiede il conto al ristorante in modo educato?",
+        "en": "How do you ask for the bill at a restaurant politely?"
+      },
+      "opzioni": [
+        "Dai il conto!",
+        "Check, please!",
+        "Il conto, per favore.",
+        "Quanto devo pagare?"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Il conto, per favore' — formale e cortese. 'Ci porta il conto quando vuole?' è ancora più elegante.",
+        "en": "Correct! 'Il conto, per favore' — formal and polite. 'Ci porta il conto quando vuole?' is even more elegant."
+      },
+      "feedbackErr": {
+        "it": "'Il conto, per favore' = the bill please. Oppure: 'Ci porta il conto quando vuole?'",
+        "en": "'Il conto, per favore' = the bill please. Or: 'Ci porta il conto quando vuole?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Acqua naturale' significa…?",
+        "en": "'Acqua naturale' means…?"
+      },
+      "opzioni": [
+        "Spring water",
+        "Still water (non-sparkling)",
+        "Sparkling water",
+        "Tap water"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Naturale = still (non gassata). Frizzante = sparkling (gassata). 'L'acqua la vuole naturale o frizzante?'",
+        "en": "Correct! Naturale = still (non-sparkling). Frizzante = sparkling. 'L'acqua la vuole naturale o frizzante?'"
+      },
+      "feedbackErr": {
+        "it": "Naturale = still water. Frizzante = sparkling water. 'Acqua naturale o frizzante?'",
+        "en": "Naturale = still water. Frizzante = sparkling water. 'Acqua naturale o frizzante?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Il primo piatto' in un ristorante italiano è…?",
+        "en": "'Il primo piatto' in an Italian restaurant is…?"
+      },
+      "opzioni": [
+        "The starter / antipasto",
+        "Pasta, risotto or soup",
+        "The main course (meat/fish)",
+        "The dessert"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il primo = pasta, risotto o minestra. Viene DOPO l'antipasto e PRIMA del secondo.",
+        "en": "Correct! Il primo = pasta, risotto or soup. It comes AFTER the antipasto and BEFORE the secondo."
+      },
+      "feedbackErr": {
+        "it": "Primo piatto = pasta / risotto / minestra. Non l'antipasto (che è prima) né il secondo (carne/pesce).",
+        "en": "Primo piatto = pasta / risotto / soup. Not the antipasto (which comes first) nor the secondo (meat/fish)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si ordina al bar in modo corretto e cortese?",
+        "en": "How do you order at the bar correctly and politely?"
+      },
+      "opzioni": [
+        "Caffè!",
+        "Dammi un caffè.",
+        "Vorrei un caffè, per favore.",
+        "Un caffè adesso."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei un caffè, per favore' — condizionale di cortesia + per favore. Naturale e educato.",
+        "en": "Correct! 'Vorrei un caffè, per favore' — conditional of courtesy + please. Natural and polite."
+      },
+      "feedbackErr": {
+        "it": "'Vorrei un caffè, per favore' = il modo più corretto. Il condizionale 'vorrei' ammorbidisce la richiesta.",
+        "en": "'Vorrei un caffè, per favore' = the most correct way. The conditional 'vorrei' softens the request."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa si intende con 'il contorno'?",
+        "en": "What is meant by 'il contorno'?"
+      },
+      "opzioni": [
+        "The border of the plate",
+        "The side dish (vegetables/salad)",
+        "The garnish on the dessert",
+        "The second course"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il contorno = side dish (verdure, patate, insalata). Accompagna il secondo piatto ma non è incluso automaticamente.",
+        "en": "Correct! Il contorno = side dish (vegetables, potatoes, salad). It accompanies the secondo but is not automatically included."
+      },
+      "feedbackErr": {
+        "it": "Contorno = side dish. Accompagna il secondo: verdure, insalata, patate. Di solito si ordina a parte.",
+        "en": "Contorno = side dish. Accompanies the secondo: vegetables, salad, potatoes. Usually ordered separately."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Latte macchiato' significa…?",
+        "en": "'Latte macchiato' means…?"
+      },
+      "opzioni": [
+        "Milk with a drop of coffee (mostly milk)",
+        "Espresso with a drop of milk",
+        "Cappuccino senza schiuma",
+        "Caffè con molto latte freddo"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Latte macchiato = mostly milk 'stained' with a drop of coffee. L'opposto del caffè macchiato (che è caffè con una goccia di latte).",
+        "en": "Correct! Latte macchiato = mostly milk 'stained' with a drop of coffee. The opposite of caffè macchiato (which is coffee with a drop of milk)."
+      },
+      "feedbackErr": {
+        "it": "Latte macchiato = mostly milk + goccia di caffè. Caffè macchiato = mostly coffee + goccia di latte.",
+        "en": "Latte macchiato = mostly milk + drop of coffee. Caffè macchiato = mostly coffee + drop of milk."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Un cornetto' al bar italiano è…?",
+        "en": "'Un cornetto' at the Italian bar is…?"
+      },
+      "opzioni": [
+        "A horn (musical instrument)",
+        "A croissant-style pastry",
+        "A type of gelato cone",
+        "An ice cream brand"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il cornetto = una pasta sfoglia simile al croissant. Può essere vuoto, alla crema, alla marmellata, al cioccolato.",
+        "en": "Correct! Il cornetto = a puff pastry similar to a croissant. Can be plain, with cream, jam, or chocolate."
+      },
+      "feedbackErr": {
+        "it": "Cornetto al bar = pastry tipo croissant. Vuoto / alla crema / alla marmellata / al cioccolato.",
+        "en": "Cornetto at the bar = croissant-style pastry. Plain / with cream / with jam / with chocolate."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "In Italia il conto al ristorante…?",
+        "en": "In Italy the restaurant bill…?"
+      },
+      "opzioni": [
+        "Arriva automaticamente quando hai finito",
+        "Devi chiederlo — non arriva da solo",
+        "Ti viene portato dopo il dolce sempre",
+        "Si paga in anticipo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il conto non arriva automaticamente — devi chiederlo: 'Il conto, per favore.' È un'abitudine culturale diversa dall'anglofonia.",
+        "en": "Correct! The bill doesn't come automatically — you must ask for it: 'Il conto, per favore.' This is a cultural habit different from English-speaking countries."
+      },
+      "feedbackErr": {
+        "it": "In Italia il conto non arriva da solo — devi chiederlo: 'Il conto, per favore!' Diverso dall'anglofonia.",
+        "en": "In Italy the bill doesn't come on its own — you must ask for it: 'Il conto, per favore!' Different from English-speaking countries."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Prendere qualcosa' al bar significa…?",
+        "en": "'Prendere qualcosa' at the bar means…?"
+      },
+      "opzioni": [
+        "To take something physically",
+        "To order/have something (to drink or eat)",
+        "To pay for something",
+        "To steal something"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Prendo un caffè' = I'll have a coffee. 'Cosa prendi?' = What are you having? 'Prendere' al bar = ordinare/consumare.",
+        "en": "Correct! 'Prendo un caffè' = I'll have a coffee. 'Cosa prendi?' = What are you having? 'Prendere' at the bar = to order/have."
+      },
+      "feedbackErr": {
+        "it": "'Prendo un caffè' = I'll have a coffee. 'Cosa prendi?' = What are you having? Prendere al bar = ordinare.",
+        "en": "'Prendo un caffè' = I'll have a coffee. 'Cosa prendi?' = What are you having? Prendere at the bar = to order."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Al banco' vs 'al tavolo' al bar — qual è la differenza?",
+        "en": "'Al banco' vs 'al tavolo' at the bar — what's the difference?"
+      },
+      "opzioni": [
+        "Nessuna differenza",
+        "Al banco si paga meno, al tavolo si paga di più",
+        "Al banco non puoi sederti, al tavolo sì",
+        "Solo il tipo di bevanda cambia"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Al banco (standing at the counter) si paga meno. Al tavolo si paga un sovrapprezzo (coperto/servizio). Regola tipicamente italiana.",
+        "en": "Correct! Al banco (standing at the counter) you pay less. Al tavolo you pay a surcharge (coperto/servizio). Typically Italian rule."
+      },
+      "feedbackErr": {
+        "it": "Al banco = meno caro. Al tavolo = più caro (c'è il servizio). Tipicamente italiano.",
+        "en": "Al banco = cheaper. Al tavolo = more expensive (service charge). Typically Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Il coperto' al ristorante è…?",
+        "en": "'Il coperto' at a restaurant is…?"
+      },
+      "opzioni": [
+        "The table setting (cover charge)",
+        "The menu",
+        "The tablecloth",
+        "The first course"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il coperto = cover charge — una tassa per sedersi al tavolo (pane, tovagliolo, posate). Legale in Italia.",
+        "en": "Correct! Il coperto = cover charge — a fee for sitting at the table (bread, napkin, cutlery). Legal in Italy."
+      },
+      "feedbackErr": {
+        "it": "Coperto = cover charge (per sedersi al tavolo). Include pane, tovagliolo, posate. Normale in Italia.",
+        "en": "Coperto = cover charge (for sitting at the table). Includes bread, napkin, cutlery. Normal in Italy."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'sparkling water' in italiano?",
+        "en": "How do you say 'sparkling water' in Italian?"
+      },
+      "opzioni": [
+        "Acqua gassata o frizzante",
+        "Acqua naturale",
+        "Acqua minerale",
+        "Acqua viva"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Acqua gassata o acqua frizzante = sparkling water. Acqua naturale o acqua piatta = still water.",
+        "en": "Correct! Acqua gassata or acqua frizzante = sparkling water. Acqua naturale or acqua piatta = still water."
+      },
+      "feedbackErr": {
+        "it": "Frizzante/gassata = sparkling. Naturale/piatta = still. 'Acqua frizzante o naturale?'",
+        "en": "Frizzante/gassata = sparkling. Naturale/piatta = still. 'Acqua frizzante o naturale?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'L'antipasto' in un pasto italiano è…?",
+        "en": "'L'antipasto' in an Italian meal is…?"
+      },
+      "opzioni": [
+        "The main course",
+        "The starter / first bite",
+        "The pasta course",
+        "Against the pasta"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Anti + pasto = before the meal. L'antipasto è il primo servizio: affettati, bruschette, formaggi, ecc.",
+        "en": "Correct! Anti + pasto = before the meal. L'antipasto is the first service: cold cuts, bruschette, cheeses, etc."
+      },
+      "feedbackErr": {
+        "it": "Anti-pasto = prima del pasto. L'antipasto è lo starter: affettati, bruschetta, olive, formaggi.",
+        "en": "Anti-pasto = before the meal. L'antipasto is the starter: cold cuts, bruschette, olives, cheeses."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Se chiedi 'un latte' al bar italiano, cosa ti portano?",
+        "en": "If you ask for 'un latte' at an Italian bar, what do they bring you?"
+      },
+      "opzioni": [
+        "A latte (espresso with milk like in Starbucks)",
+        "A glass of warm or cold milk",
+        "A cappuccino",
+        "A caffè macchiato"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Un latte' = un bicchiere di latte (caldo o freddo). Per quello che in inglese si chiama 'latte', chiedi 'latte macchiato' o specifica.",
+        "en": "Correct! 'Un latte' = a glass of milk (warm or cold). For what English speakers call 'latte', ask for 'latte macchiato' or specify."
+      },
+      "feedbackErr": {
+        "it": "'Un latte' al bar = un bicchiere di latte! Per il caffè con latte: 'latte macchiato' o 'cappuccino'.",
+        "en": "'Un latte' at the bar = a glass of milk! For coffee with milk: 'latte macchiato' or 'cappuccino'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Vorrei' vs 'voglio' per ordinare al bar — quale è più appropriato?",
+        "en": "'Vorrei' vs 'voglio' when ordering at the bar — which is more appropriate?"
+      },
+      "opzioni": [
+        "Voglio — più diretto ed efficiente",
+        "Vorrei — più cortese e naturale",
+        "Sono equivalenti",
+        "Dipende dalla regione"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei' (condizionale di cortesia) è più educato. 'Voglio' suona brusco. 'Vorrei un caffè' = I would like a coffee.",
+        "en": "Correct! 'Vorrei' (conditional of courtesy) is more polite. 'Voglio' sounds abrupt. 'Vorrei un caffè' = I would like a coffee."
+      },
+      "feedbackErr": {
+        "it": "'Vorrei' = più cortese (condizionale). 'Voglio' = più brusco. In Italia si preferisce 'vorrei'.",
+        "en": "'Vorrei' = more polite (conditional). 'Voglio' = more abrupt. In Italy 'vorrei' is preferred."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Il dolce' in un pasto italiano è…?",
+        "en": "'Il dolce' in an Italian meal is…?"
+      },
+      "opzioni": [
+        "The second course",
+        "The side dish",
+        "The dessert",
+        "A sweet wine"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il dolce = dessert. Viene alla fine: tiramisù, panna cotta, gelato, torta, ecc.",
+        "en": "Correct! Il dolce = dessert. It comes at the end: tiramisù, panna cotta, gelato, cake, etc."
+      },
+      "feedbackErr": {
+        "it": "Il dolce = dessert. Viene dopo il secondo piatto. Tiramisù, panna cotta, gelato...",
+        "en": "Il dolce = dessert. Comes after the secondo. Tiramisù, panna cotta, gelato..."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the menu' in italiano?",
+        "en": "How do you say 'the menu' in Italian?"
+      },
+      "opzioni": [
+        "La lista",
+        "Il menù / la carta",
+        "Il programma",
+        "Il listino"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il menù o la carta. 'Posso vedere il menù?' o 'Ci porta la carta?' — entrambe corrette.",
+        "en": "Correct! Il menù or la carta. 'Posso vedere il menù?' or 'Ci porta la carta?' — both correct."
+      },
+      "feedbackErr": {
+        "it": "Menù o carta. 'Posso vedere il menù?' / 'Ci porta la carta?'",
+        "en": "Menù or carta. 'Posso vedere il menù?' / 'Ci porta la carta?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia 'un caffè' al bar significa sempre un espresso.",
+        "en": "In Italy 'un caffè' at the bar always means an espresso."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Un caffè' = espresso. Per altro si specifica: 'caffè lungo', 'caffè americano', 'cappuccino'.",
+        "en": "Correct! 'Un caffè' = espresso. For anything else you specify: 'caffè lungo', 'caffè americano', 'cappuccino'."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Un caffè' = sempre espresso in Italia. Per altro si deve specificare.",
+        "en": "True! 'Un caffè' = always espresso in Italy. For anything else you must specify."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "È normale ordinare un cappuccino dopo pranzo in Italia.",
+        "en": "It is normal to order a cappuccino after lunch in Italy."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il cappuccino si beve la mattina — il latte dopo un pasto pesante è considerato non ideale per la digestione dagli italiani.",
+        "en": "Correct! Cappuccino is a morning drink — milk after a heavy meal is considered not ideal for digestion by Italians."
+      },
+      "feedbackErr": {
+        "it": "FALSO! In Italia il cappuccino è solo per la mattina. Dopo pranzo si prende un espresso.",
+        "en": "FALSE! In Italy cappuccino is only for the morning. After lunch you have an espresso."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Al banco del bar si paga meno che al tavolo.",
+        "en": "At the bar counter you pay less than at a table."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Al banco (in piedi) prezzi più bassi. Al tavolo c'è il servizio (sovrapprezzo). Tipicamente italiano.",
+        "en": "Correct! At the counter (standing) lower prices. At the table there's the service charge. Typically Italian."
+      },
+      "feedbackErr": {
+        "it": "Vero! Al banco = meno costoso. Al tavolo = più costoso (servizio incluso). Regola tipica italiana.",
+        "en": "True! At the counter = less expensive. At the table = more expensive (service included). Typical Italian rule."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia il conto al ristorante arriva automaticamente quando hai finito di mangiare.",
+        "en": "In Italy the restaurant bill arrives automatically when you finish eating."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! In Italia il conto NON arriva da solo — devi chiederlo: 'Il conto, per favore.' Diverso dall'anglofonia.",
+        "en": "Correct! In Italy the bill does NOT come on its own — you must ask: 'Il conto, per favore.' Different from English-speaking countries."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Il conto non arriva automaticamente in Italia. Devi chiederlo: 'Il conto, per favore!'",
+        "en": "FALSE! The bill doesn't arrive automatically in Italy. You must ask: 'Il conto, per favore!'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Acqua frizzante' e 'acqua gassata' significano la stessa cosa.",
+        "en": "'Acqua frizzante' and 'acqua gassata' mean the same thing."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Frizzante = gassata = sparkling water. Naturale = piatta = still water.",
+        "en": "Correct! Frizzante = gassata = sparkling water. Naturale = piatta = still water."
+      },
+      "feedbackErr": {
+        "it": "Vero! Frizzante = gassata = sparkling. Naturale = piatta = still. Sinonimi.",
+        "en": "True! Frizzante = gassata = sparkling. Naturale = piatta = still. Synonyms."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorrei' è più cortese di 'voglio' per ordinare al bar.",
+        "en": "'Vorrei' is more polite than 'voglio' for ordering at the bar."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei' = condizionale di cortesia = I would like. 'Voglio' suona brusco. In Italia si preferisce sempre 'vorrei'.",
+        "en": "Correct! 'Vorrei' = conditional of courtesy = I would like. 'Voglio' sounds abrupt. In Italy 'vorrei' is always preferred."
+      },
+      "feedbackErr": {
+        "it": "Vero! Vorrei (condizionale) = più cortese. Voglio = troppo diretto/brusco al bar.",
+        "en": "True! Vorrei (conditional) = more polite. Voglio = too direct/abrupt at the bar."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il 'primo piatto' in un ristorante italiano è la carne o il pesce.",
+        "en": "The 'primo piatto' in an Italian restaurant is the meat or fish."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il primo = pasta, risotto o minestra. La carne/pesce = il SECONDO piatto. Ordine: antipasto → primo → secondo → dolce.",
+        "en": "Correct! Il primo = pasta, risotto or soup. Meat/fish = the SECONDO. Order: antipasto → primo → secondo → dolce."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Primo = pasta/risotto. Secondo = carne/pesce. 'Primo' significa che viene prima del secondo.",
+        "en": "FALSE! Primo = pasta/risotto. Secondo = meat/fish. 'Primo' means it comes before the secondo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Un latte' al bar italiano significa un caffè con molto latte (come in Starbucks).",
+        "en": "'Un latte' at an Italian bar means a coffee with lots of milk (like at Starbucks)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Un latte' al bar = un bicchiere di latte (caldo o freddo). Per il caffè con latte: 'latte macchiato'.",
+        "en": "Correct! 'Un latte' at the bar = a glass of milk (warm or cold). For coffee with milk: 'latte macchiato'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Un latte' = un bicchiere di latte. Per il caffè con latte chiedere 'latte macchiato'.",
+        "en": "FALSE! 'Un latte' = a glass of milk. For coffee with milk ask for 'latte macchiato'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il 'coperto' è una tassa aggiuntiva per sedersi al tavolo in un ristorante italiano.",
+        "en": "The 'coperto' is an additional charge for sitting at the table in an Italian restaurant."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il coperto = cover charge (pane, posate, tovagliolo). È legale in Italia. Di solito 1-3 euro a persona.",
+        "en": "Correct! Il coperto = cover charge (bread, cutlery, napkin). It is legal in Italy. Usually 1-3 euros per person."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il coperto = tassa per sedersi al tavolo. Legale in Italia. Include pane, posate, tovagliolo.",
+        "en": "True! Il coperto = charge for sitting at the table. Legal in Italy. Includes bread, cutlery, napkin."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il 'contorno' è incluso automaticamente nel prezzo del secondo piatto.",
+        "en": "The 'contorno' is automatically included in the price of the secondo."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il contorno si ordina e si paga SEPARATAMENTE. 'Prendo anche un'insalata come contorno.'",
+        "en": "Correct! The contorno is ordered and paid SEPARATELY. 'Prendo anche un'insalata come contorno.'"
+      },
+      "feedbackErr": {
+        "it": "FALSO! Il contorno si ordina e paga separatamente. 'Vorrei un'insalata come contorno, per favore.'",
+        "en": "FALSE! The contorno is ordered and paid separately. 'Vorrei un'insalata come contorno, per favore.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La mancia (tip) è obbligatoria nei ristoranti italiani.",
+        "en": "The tip (mancia) is obligatory in Italian restaurants."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! La mancia in Italia non è obbligatoria (diverso dagli USA). È apprezzata ma non dovuta. Lasciare qualche euro è un segno di apprezzamento.",
+        "en": "Correct! The tip in Italy is not obligatory (different from the USA). It is appreciated but not expected. Leaving a few euros is a sign of appreciation."
+      },
+      "feedbackErr": {
+        "it": "FALSO! La mancia non è obbligatoria in Italia. È apprezzata ma non dovuta come negli USA.",
+        "en": "FALSE! The tip is not obligatory in Italy. It is appreciated but not expected as in the USA."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Caffè macchiato' è un espresso con una goccia di latte.",
+        "en": "'Caffè macchiato' is an espresso with a drop of milk."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Caffè macchiato = espresso macchiato (stained) con una piccola quantità di latte. L'opposto del latte macchiato.",
+        "en": "Correct! Caffè macchiato = espresso 'stained' with a small amount of milk. The opposite of latte macchiato."
+      },
+      "feedbackErr": {
+        "it": "Vero! Caffè macchiato = espresso + goccia di latte. Latte macchiato = latte + goccia di caffè. Opposti.",
+        "en": "True! Caffè macchiato = espresso + drop of milk. Latte macchiato = milk + drop of coffee. Opposites."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In un bar italiano il 'barista' è chi prepara i cocktail.",
+        "en": "In an Italian bar the 'barista' is the person who makes cocktails."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto — sfumatura! Il barista italiano prepara tutto: caffè, cappuccini, aperitivi e a volte cocktail. Non è specializzato solo in cocktail come in molti bar anglosassoni.",
+        "en": "Correct — nuance! The Italian barista prepares everything: coffees, cappuccinos, aperitivos and sometimes cocktails. Not specialised only in cocktails as in many English-speaking bars."
+      },
+      "feedbackErr": {
+        "it": "Il barista italiano prepara caffè, cappuccini, aperitivi, succhi — tutto. Non solo cocktail.",
+        "en": "The Italian barista prepares coffees, cappuccinos, aperitivos, juices — everything. Not just cocktails."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Prendere un aperitivo' in Italia significa bere solo alcolici.",
+        "en": "'Prendere un aperitivo' in Italy means drinking only alcohol."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! L'aperitivo è una bevanda pre-pasto (alcolica O analcolica) spesso con stuzzichini. Spritz, Campari, ma anche succhi di frutta e acqua tonica.",
+        "en": "Correct! The aperitivo is a pre-meal drink (alcoholic OR non-alcoholic) often with snacks. Spritz, Campari, but also fruit juices and tonic water."
+      },
+      "feedbackErr": {
+        "it": "FALSO! L'aperitivo può essere alcolico o analcolico. È un momento sociale pre-pasto con stuzzichini.",
+        "en": "FALSE! The aperitivo can be alcoholic or non-alcoholic. It's a pre-meal social moment with snacks."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Buon appetito' si dice prima di mangiare in Italia.",
+        "en": "'Buon appetito' is said before eating in Italy."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Buon appetito' si dice quando si inizia a mangiare — sia al ristorante che a casa. È l'equivalente italiano di 'enjoy your meal'.",
+        "en": "Correct! 'Buon appetito' is said when you start eating — both at restaurants and at home. It's the Italian equivalent of 'enjoy your meal'."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Buon appetito' si dice all'inizio del pasto. Risposta: 'Grazie, altrettanto!'",
+        "en": "True! 'Buon appetito' is said at the start of the meal. Response: 'Grazie, altrettanto!'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia si può chiedere un 'doggy bag' per portare gli avanzi a casa.",
+        "en": "In Italy you can ask for a 'doggy bag' to take leftovers home."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Anche se meno comune che negli USA, oggi in Italia si può chiedere di portare via gli avanzi. Si dice 'Può fare un pacchetto?' o 'Posso portare via quello che è rimasto?'",
+        "en": "Correct! Although less common than in the USA, today in Italy you can ask to take leftovers home. You say 'Può fare un pacchetto?' or 'Posso portare via quello che è rimasto?'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Oggi si può chiedere il doggy bag in Italia. 'Può fare un pacchetto?' Sempre più accettato.",
+        "en": "True! Today you can ask for a doggy bag in Italy. 'Può fare un pacchetto?' Increasingly accepted."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Digestivo' si beve dopo il pasto per favorire la digestione.",
+        "en": "'Digestivo' is drunk after the meal to aid digestion."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il digestivo (amaro, grappa, limoncello) si beve dopo il dolce. La tradizione italiana vuole che aiuti la digestione.",
+        "en": "Correct! The digestivo (amaro, grappa, limoncello) is drunk after the dessert. Italian tradition holds that it aids digestion."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il digestivo (grappa, amaro, limoncello) viene dopo il dolce. Tradizione italiana.",
+        "en": "True! The digestivo (grappa, amaro, limoncello) comes after the dessert. Italian tradition."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Un caffè lungo' è più corto di un espresso normale.",
+        "en": "'Un caffè lungo' is shorter than a normal espresso."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Caffè lungo = più acqua dell'espresso normale → più lungo (più diluito). Caffè ristretto = meno acqua → più corto e concentrato.",
+        "en": "Correct! Caffè lungo = more water than normal espresso → longer (more diluted). Caffè ristretto = less water → shorter and more concentrated."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Lungo = più acqua (più lungo). Ristretto = meno acqua (più corto e concentrato).",
+        "en": "FALSE! Lungo = more water (longer). Ristretto = less water (shorter and more concentrated)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La pizza napoletana tradizionale ha un bordo alto (cornicione) e una base morbida.",
+        "en": "Traditional Neapolitan pizza has a high crust (cornicione) and a soft base."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La pizza napoletana = cornicione alto e soffice, base morbida al centro. Diversa dalla pizza romana (sottile e croccante).",
+        "en": "Correct! Neapolitan pizza = high and fluffy crust, soft centre. Different from Roman pizza (thin and crispy)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Pizza napoletana = cornicione alto, base morbida. Pizza romana = sottile e croccante.",
+        "en": "True! Neapolitan pizza = high crust, soft base. Roman pizza = thin and crispy."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Al bar italiano si può stare seduti al tavolo senza consumare nulla.",
+        "en": "At the Italian bar you can sit at the table without ordering anything."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! In quasi tutti i bar italiani ci si aspetta di consumare qualcosa se si siede al tavolo. Non è come un caffè americano dove puoi sederti con il laptop per ore senza ordinare.",
+        "en": "Correct! In almost all Italian bars it is expected that you order something if you sit at a table. It's not like an American coffee shop where you can sit with your laptop for hours without ordering."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Al bar italiano ci si aspetta di consumare se si siede. Non è un posto per sedersi senza ordinare.",
+        "en": "FALSE! At the Italian bar it is expected that you order something if you sit. It's not a place to sit without ordering."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ordina un caffè al bar (cortese): ___ un caffè, per favore.",
+        "en": "Order a coffee at the bar (politely): ___ a coffee, please."
+      },
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Voglio",
+        "dammi",
+        "prendo"
+      ],
+      "correct": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Vorrei un caffè, per favore' — condizionale di cortesia.",
+        "en": "Perfect! 'Vorrei un caffè, per favore' — conditional of courtesy."
+      },
+      "feedbackErr": {
+        "it": "Ordine cortese: Vorrei + cosa + per favore. 'Vorrei un caffè, per favore.'",
+        "en": "Polite order: Vorrei + what + per favore. 'Vorrei un caffè, per favore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi il conto: ___, per favore.",
+        "en": "Ask for the bill: ___, please."
+      },
+      "parole": [
+        "Il",
+        "conto"
+      ],
+      "distrattori": [
+        "La",
+        "carta",
+        "menu",
+        "check"
+      ],
+      "correct": [
+        "Il",
+        "conto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Il conto, per favore' — la frase più utile al ristorante.",
+        "en": "Perfect! 'Il conto, per favore' — the most useful phrase at a restaurant."
+      },
+      "feedbackErr": {
+        "it": "The bill = il conto. 'Il conto, per favore!'",
+        "en": "The bill = il conto. 'Il conto, per favore!'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi acqua frizzante: Vorrei ___ ___, per favore.",
+        "en": "Ask for sparkling water: I'd like ___ ___, please."
+      },
+      "parole": [
+        "acqua",
+        "frizzante"
+      ],
+      "distrattori": [
+        "naturale",
+        "gassata",
+        "minerale"
+      ],
+      "correct": [
+        "acqua",
+        "frizzante"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Acqua frizzante = sparkling water. Acqua naturale = still water.",
+        "en": "Perfect! Acqua frizzante = sparkling water. Acqua naturale = still water."
+      },
+      "feedbackErr": {
+        "it": "Sparkling water = acqua frizzante (o acqua gassata). 'Vorrei acqua frizzante, per favore.'",
+        "en": "Sparkling water = acqua frizzante (or acqua gassata). 'Vorrei acqua frizzante, per favore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ordina: un espresso e un cornetto alla crema. Dì: Prendo ___.",
+        "en": "Order: an espresso and a cream cornetto. Say: I'll have ___."
+      },
+      "parole": [
+        "un",
+        "caffè",
+        "e",
+        "un",
+        "cornetto",
+        "alla",
+        "crema"
+      ],
+      "distrattori": [
+        "espresso",
+        "croissant",
+        "cappuccino"
+      ],
+      "correct": [
+        "un",
+        "caffè",
+        "e",
+        "un",
+        "cornetto",
+        "alla",
+        "crema"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Prendo un caffè e un cornetto alla crema.' Prendere al bar = ordinare.",
+        "en": "Perfect! 'Prendo un caffè e un cornetto alla crema.' Prendere at the bar = to order."
+      },
+      "feedbackErr": {
+        "it": "'Prendo un caffè e un cornetto alla crema.' Prendere = ordinare al bar.",
+        "en": "'Prendo un caffè e un cornetto alla crema.' Prendere = to order at the bar."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi il menù: Posso ___ il menù?",
+        "en": "Ask for the menu: Can I ___ the menu?"
+      },
+      "parole": [
+        "vedere",
+        "il",
+        "menù"
+      ],
+      "distrattori": [
+        "avere",
+        "prendere",
+        "la",
+        "carta"
+      ],
+      "correct": [
+        "vedere",
+        "il",
+        "menù"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Posso vedere il menù?' = Can I see the menu?",
+        "en": "Perfect! 'Posso vedere il menù?' = Can I see the menu?"
+      },
+      "feedbackErr": {
+        "it": "'Posso vedere il menù?' = Can I see the menu? Oppure 'Ci porta la carta?'",
+        "en": "'Posso vedere il menù?' = Can I see the menu? Or 'Ci porta la carta?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Prima piatto che vuoi (tagliatelle al ragù): Come primo prendo ___.",
+        "en": "First course you want (tagliatelle al ragù): As a primo I'll have ___."
+      },
+      "parole": [
+        "le",
+        "tagliatelle",
+        "al",
+        "ragù"
+      ],
+      "distrattori": [
+        "bistecca",
+        "insalata",
+        "risotto"
+      ],
+      "correct": [
+        "le",
+        "tagliatelle",
+        "al",
+        "ragù"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Come primo prendo le tagliatelle al ragù.'",
+        "en": "Perfect! 'Come primo prendo le tagliatelle al ragù.'"
+      },
+      "feedbackErr": {
+        "it": "'Come primo prendo le tagliatelle al ragù.' Primo = pasta/risotto.",
+        "en": "'Come primo prendo le tagliatelle al ragù.' Primo = pasta/risotto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi acqua ancora (al cameriere): ___ un'altra acqua, per favore?",
+        "en": "Ask for more water (to the waiter): ___ another water, please?"
+      },
+      "parole": [
+        "Ci",
+        "porta"
+      ],
+      "distrattori": [
+        "Dai",
+        "Vuoi",
+        "Vorrei",
+        "Porta"
+      ],
+      "correct": [
+        "Ci",
+        "porta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Ci porta un'altra acqua, per favore?' = Can you bring us another water?",
+        "en": "Perfect! 'Ci porta un'altra acqua, per favore?' = Can you bring us another water?"
+      },
+      "feedbackErr": {
+        "it": "'Ci porta' = can you bring us. 'Ci porta un'altra acqua, per favore?'",
+        "en": "'Ci porta' = can you bring us. 'Ci porta un'altra acqua, per favore?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ordine pasto completo, primo: Come ___ prendo la pasta al pomodoro.",
+        "en": "Full meal order, first course: As a ___ I'll have pasta al pomodoro."
+      },
+      "parole": [
+        "primo"
+      ],
+      "distrattori": [
+        "secondo",
+        "antipasto",
+        "dolce"
+      ],
+      "correct": [
+        "primo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Come primo prendo la pasta al pomodoro.' Primo = pasta/risotto.",
+        "en": "Perfect! 'Come primo prendo la pasta al pomodoro.' Primo = pasta/risotto."
+      },
+      "feedbackErr": {
+        "it": "La pasta = primo piatto. 'Come primo prendo la pasta al pomodoro.'",
+        "en": "Pasta = primo piatto. 'Come primo prendo la pasta al pomodoro.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Saluta e inizia a mangiare: ___ ___!",
+        "en": "Greet and start eating: ___ ___!"
+      },
+      "parole": [
+        "Buon",
+        "appetito"
+      ],
+      "distrattori": [
+        "Buona",
+        "cena",
+        "pranzo",
+        "fortuna"
+      ],
+      "correct": [
+        "Buon",
+        "appetito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Buon appetito!' — si dice all'inizio del pasto.",
+        "en": "Perfect! 'Buon appetito!' — said at the start of the meal."
+      },
+      "feedbackErr": {
+        "it": "Enjoy your meal = Buon appetito! Si dice quando si inizia a mangiare.",
+        "en": "Enjoy your meal = Buon appetito! Said when you start eating."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi al cameriere di portarvi la pizza: ___ la pizza quando è pronta?",
+        "en": "Ask the waiter to bring you the pizza: ___ the pizza when it's ready?"
+      },
+      "parole": [
+        "Ci",
+        "porta"
+      ],
+      "distrattori": [
+        "Vuole",
+        "Dai",
+        "Porta",
+        "porta"
+      ],
+      "correct": [
+        "Ci",
+        "porta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Ci porta la pizza quando è pronta?' = Can you bring us the pizza when it's ready?",
+        "en": "Perfect! 'Ci porta la pizza quando è pronta?' = Can you bring us the pizza when it's ready?"
+      },
+      "feedbackErr": {
+        "it": "'Ci porta' + cosa = can you bring us. 'Ci porta la pizza quando è pronta?'",
+        "en": "'Ci porta' + what = can you bring us. 'Ci porta la pizza quando è pronta?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi se c'è servizio incluso: ___ il servizio?",
+        "en": "Ask if service is included: ___ the service charge?"
+      },
+      "parole": [
+        "È",
+        "incluso"
+      ],
+      "distrattori": [
+        "C'è",
+        "il",
+        "servizio",
+        "compreso"
+      ],
+      "correct": [
+        "È",
+        "incluso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È incluso il servizio?' = Is service included?",
+        "en": "Perfect! 'È incluso il servizio?' = Is service included?"
+      },
+      "feedbackErr": {
+        "it": "'È incluso il servizio?' = Is service included? Importante al ristorante.",
+        "en": "'È incluso il servizio?' = Is service included? Important at a restaurant."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cornetto al cioccolato: Vorrei ___ cornetto ___ cioccolato.",
+        "en": "Chocolate cornetto: I'd like a ___ cornetto ___ chocolate."
+      },
+      "parole": [
+        "un",
+        "cornetto",
+        "al",
+        "cioccolato"
+      ],
+      "distrattori": [
+        "una",
+        "con",
+        "di",
+        "crema"
+      ],
+      "correct": [
+        "un",
+        "cornetto",
+        "al",
+        "cioccolato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Vorrei un cornetto al cioccolato.' Al + gusto = with that flavour.",
+        "en": "Perfect! 'Vorrei un cornetto al cioccolato.' Al + flavour = with that flavour."
+      },
+      "feedbackErr": {
+        "it": "Cornetto al cioccolato. 'Al' + gusto indica il ripieno/sapore.",
+        "en": "Cornetto al cioccolato. 'Al' + flavour indicates the filling/taste."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi un caffè macchiato: Vorrei ___ ___ ___, per favore.",
+        "en": "Ask for a caffè macchiato: I'd like a ___ ___ ___, please."
+      },
+      "parole": [
+        "un",
+        "caffè",
+        "macchiato"
+      ],
+      "distrattori": [
+        "cappuccino",
+        "latte",
+        "lungo",
+        "americano"
+      ],
+      "correct": [
+        "un",
+        "caffè",
+        "macchiato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Vorrei un caffè macchiato' = espresso con una goccia di latte.",
+        "en": "Perfect! 'Vorrei un caffè macchiato' = espresso with a drop of milk."
+      },
+      "feedbackErr": {
+        "it": "Caffè macchiato = espresso + goccia di latte. 'Vorrei un caffè macchiato.'",
+        "en": "Caffè macchiato = espresso + drop of milk. 'Vorrei un caffè macchiato.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vuoi mangiare qualcosa: Hai ___ da mangiare?",
+        "en": "You want something to eat: Do you have ___ to eat?"
+      },
+      "parole": [
+        "qualcosa"
+      ],
+      "distrattori": [
+        "niente",
+        "cosa",
+        "tutto",
+        "qualcuno"
+      ],
+      "correct": [
+        "qualcosa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Avete qualcosa da mangiare?' = Do you have something to eat?",
+        "en": "Perfect! 'Avete qualcosa da mangiare?' = Do you have something to eat?"
+      },
+      "feedbackErr": {
+        "it": "Something = qualcosa. 'Avete qualcosa da mangiare?'",
+        "en": "Something = qualcosa. 'Avete qualcosa da mangiare?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi se c'è glutine: ___ glutine in questo piatto?",
+        "en": "Ask if there's gluten: ___ gluten in this dish?"
+      },
+      "parole": [
+        "C'è",
+        "glutine",
+        "in",
+        "questo",
+        "piatto"
+      ],
+      "distrattori": [
+        "Ci",
+        "sono",
+        "latticini",
+        "grano"
+      ],
+      "correct": [
+        "C'è",
+        "glutine",
+        "in",
+        "questo",
+        "piatto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'C'è glutine in questo piatto?' = Is there gluten in this dish?",
+        "en": "Perfect! 'C'è glutine in questo piatto?' = Is there gluten in this dish?"
+      },
+      "feedbackErr": {
+        "it": "'C'è glutine in questo piatto?' = Is there gluten in this dish?",
+        "en": "'C'è glutine in questo piatto?' = Is there gluten in this dish?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi il dolce del giorno: ___ è il dolce del giorno?",
+        "en": "Ask for today's dessert: ___ is today's dessert?"
+      },
+      "parole": [
+        "Qual",
+        "è",
+        "il",
+        "dolce",
+        "del",
+        "giorno"
+      ],
+      "distrattori": [
+        "Cosa",
+        "che",
+        "dessert",
+        "oggi"
+      ],
+      "correct": [
+        "Qual",
+        "è",
+        "il",
+        "dolce",
+        "del",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Qual è il dolce del giorno?' = What is today's dessert?",
+        "en": "Perfect! 'Qual è il dolce del giorno?' = What is today's dessert?"
+      },
+      "feedbackErr": {
+        "it": "'Qual è il dolce del giorno?' = What is today's dessert?",
+        "en": "'Qual è il dolce del giorno?' = What is today's dessert?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi se possono fare un piatto vegetariano: ___ fare un piatto vegetariano?",
+        "en": "Ask if they can make a vegetarian dish: ___ make a vegetarian dish?"
+      },
+      "parole": [
+        "Potete",
+        "fare",
+        "un",
+        "piatto",
+        "vegetariano"
+      ],
+      "distrattori": [
+        "Volete",
+        "Sapete",
+        "vegano",
+        "senza"
+      ],
+      "correct": [
+        "Potete",
+        "fare",
+        "un",
+        "piatto",
+        "vegetariano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Potete fare un piatto vegetariano?' = Can you make a vegetarian dish?",
+        "en": "Perfect! 'Potete fare un piatto vegetariano?' = Can you make a vegetarian dish?"
+      },
+      "feedbackErr": {
+        "it": "'Potete fare un piatto vegetariano?' = Can you make a vegetarian dish?",
+        "en": "'Potete fare un piatto vegetariano?' = Can you make a vegetarian dish?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vuoi pagare separatamente: Possiamo pagare ___?",
+        "en": "You want to pay separately: Can we pay ___?"
+      },
+      "parole": [
+        "separatamente"
+      ],
+      "distrattori": [
+        "insieme",
+        "diviso",
+        "metà",
+        "ognuno"
+      ],
+      "correct": [
+        "separatamente"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Possiamo pagare separatamente?' = Can we pay separately?",
+        "en": "Perfect! 'Possiamo pagare separatamente?' = Can we pay separately?"
+      },
+      "feedbackErr": {
+        "it": "Separately = separatamente. 'Possiamo pagare separatamente?'",
+        "en": "Separately = separatamente. 'Possiamo pagare separatamente?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che ti è piaciuto il pasto: ___ tutto ottimo, grazie!",
+        "en": "Say you enjoyed the meal: ___ everything excellent, thanks!"
+      },
+      "parole": [
+        "Era",
+        "tutto",
+        "ottimo",
+        "grazie"
+      ],
+      "distrattori": [
+        "Stato",
+        "È",
+        "buono",
+        "tutto"
+      ],
+      "correct": [
+        "Era",
+        "tutto",
+        "ottimo",
+        "grazie"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Era tutto ottimo, grazie!' = Everything was excellent, thank you!",
+        "en": "Perfect! 'Era tutto ottimo, grazie!' = Everything was excellent, thank you!"
+      },
+      "feedbackErr": {
+        "it": "'Era tutto ottimo, grazie!' = Everything was excellent, thanks!",
+        "en": "'Era tutto ottimo, grazie!' = Everything was excellent, thanks!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vuoi pagare con carta: Posso pagare con la ___?",
+        "en": "You want to pay by card: Can I pay by ___?"
+      },
+      "parole": [
+        "carta",
+        "di",
+        "credito"
+      ],
+      "distrattori": [
+        "bancomat",
+        "contanti",
+        "assegno"
+      ],
+      "correct": [
+        "carta",
+        "di",
+        "credito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Posso pagare con la carta di credito?' = Can I pay by credit card?",
+        "en": "Perfect! 'Posso pagare con la carta di credito?' = Can I pay by credit card?"
+      },
+      "feedbackErr": {
+        "it": "Credit card = carta di credito. 'Posso pagare con la carta di credito?'",
+        "en": "Credit card = carta di credito. 'Posso pagare con la carta di credito?'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1393 @@
+{
+  "id": "famiglia",
+  "categoria": "vocabolario",
+  "emoji": "👨‍👩‍👧‍👦",
+  "livello": "A1",
+  "titolo": {
+    "it": "La Famiglia",
+    "en": "The Family"
+  },
+  "mario": "In Italia la famiglia è tutto. Mia nonna direbbe che senza famiglia non sei nessuno. Io dico che è un po' esagerato — ma i termini di parentela in italiano sono molti, precisi, e spesso diversi dall'inglese. 'Cugino' include sia i cugini di primo che di secondo grado. 'Nonno' è sia il nonno paterno che materno. Nessuna distinzione — tutti sono nonno.",
+  "marioEn": "In Italy family is everything. My grandmother would say that without family you are nobody. I say it's a bit exaggerated — but the kinship terms in Italian are many, precise, and often different from English. 'Cugino' includes both first and second cousins. 'Nonno' is both the paternal and maternal grandfather. No distinction — they are all nonno.",
+  "perche": {
+    "it": "In inglese 'uncle' è sia lo zio materno che paterno. Stesso per 'aunt', 'cousin', 'grandparent'. In italiano uguale — non si distingue il lato materno da quello paterno nel termine base. Ma si può specificare: 'il nonno paterno' o 'il nonno materno'. Le differenze principali con l'inglese: 'suocero/a' (father/mother-in-law), 'cognato/a' (brother/sister-in-law), 'genero' (son-in-law), 'nuora' (daughter-in-law) — parole che in inglese richiedono 'in-law'.",
+    "en": "In English 'uncle' covers both maternal and paternal uncle. Same for 'aunt', 'cousin', 'grandparent'. In Italian the same — you don't distinguish maternal from paternal side in the base term. But you can specify: 'il nonno paterno' or 'il nonno materno'. The main differences from English: 'suocero/a' (father/mother-in-law), 'cognato/a' (brother/sister-in-law), 'genero' (son-in-law), 'nuora' (daughter-in-law) — words that in English require 'in-law'."
+  },
+  "spiegazione": {
+    "it": "Nucleo: padre/madre · fratello/sorella · figlio/figlia. Estesa: nonno/nonna · zio/zia · cugino/cugina · nipote (nephew/niece AND grandchild). Per matrimonio: marito/moglie · suocero/suocera · cognato/cognata · genero/nuora. Attenzione: 'nipote' = sia nipote (nephew/niece) che nipotino (grandchild) — il contesto chiarisce. 'Figlio unico' = only child.",
+    "en": "Nuclear: padre/madre · fratello/sorella · figlio/figlia. Extended: nonno/nonna · zio/zia · cugino/cugina · nipote (nephew/niece AND grandchild). By marriage: marito/moglie · suocero/suocera · cognato/cognata · genero/nuora. Note: 'nipote' = both nipote (nephew/niece) AND nipotino (grandchild) — context clarifies. 'Figlio unico' = only child."
+  },
+  "tabella": [
+    {
+      "italiano": "il padre / la madre",
+      "inglese": "father / mother",
+      "plurale": "i genitori (parents)"
+    },
+    {
+      "italiano": "il fratello / la sorella",
+      "inglese": "brother / sister",
+      "plurale": "i fratelli (siblings)"
+    },
+    {
+      "italiano": "il figlio / la figlia",
+      "inglese": "son / daughter",
+      "plurale": "i figli (children)"
+    },
+    {
+      "italiano": "il nonno / la nonna",
+      "inglese": "grandfather / grandmother",
+      "plurale": "i nonni (grandparents)"
+    },
+    {
+      "italiano": "lo zio / la zia",
+      "inglese": "uncle / aunt",
+      "plurale": "gli zii (aunts and uncles)"
+    },
+    {
+      "italiano": "il cugino / la cugina",
+      "inglese": "cousin (m/f)",
+      "plurale": "i cugini (cousins)"
+    },
+    {
+      "italiano": "il nipote / la nipote",
+      "inglese": "nephew/niece OR grandchild",
+      "plurale": "i nipoti"
+    },
+    {
+      "italiano": "il marito / la moglie",
+      "inglese": "husband / wife",
+      "plurale": "i coniugi (spouses)"
+    },
+    {
+      "italiano": "il suocero / la suocera",
+      "inglese": "father-in-law / mother-in-law",
+      "plurale": "i suoceri"
+    },
+    {
+      "italiano": "il cognato / la cognata",
+      "inglese": "brother-in-law / sister-in-law",
+      "plurale": "i cognati"
+    },
+    {
+      "italiano": "il genero / la nuora",
+      "inglese": "son-in-law / daughter-in-law",
+      "plurale": "—"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Ho due fratelli e una sorella — siamo in quattro.",
+      "en": "I have two brothers and one sister — there are four of us.",
+      "audio": "Ho due fratelli e una sorella — siamo in quattro."
+    },
+    {
+      "it": "Mia nonna fa la pizza migliore del mondo — lo dice anche Mario.",
+      "en": "My grandmother makes the best pizza in the world — even Mario says so.",
+      "audio": "Mia nonna fa la pizza migliore del mondo."
+    },
+    {
+      "it": "Mio suocero è napoletano, quindi andiamo a Napoli ogni estate.",
+      "en": "My father-in-law is Neapolitan, so we go to Naples every summer.",
+      "audio": "Mio suocero è napoletano, quindi andiamo a Napoli ogni estate."
+    },
+    {
+      "it": "I miei nipoti hanno sei e otto anni.",
+      "en": "My grandchildren are six and eight years old.",
+      "audio": "I miei nipoti hanno sei e otto anni."
+    },
+    {
+      "it": "Sono figlio unico — niente fratelli, niente sorelle.",
+      "en": "I'm an only child — no brothers, no sisters.",
+      "audio": "Sono figlio unico — niente fratelli, niente sorelle."
+    }
+  ],
+  "nota": {
+    "it": "💡 'Nipote' è una parola ambigua — può significare 'grandchild' (il nipote del nonno) oppure 'nephew/niece' (il nipote di mio fratello). Il contesto chiarisce quasi sempre. Per evitare ambiguità si può dire 'nipotino/a' per i nipotini piccoli. Stesso problema con 'fratelli' — può significare 'brothers' o 'siblings' (brothers and sisters insieme).",
+    "en": "💡 'Nipote' is an ambiguous word — it can mean 'grandchild' (il nipote del nonno) or 'nephew/niece' (il nipote di mio fratello). Context almost always clarifies. To avoid ambiguity you can say 'nipotino/a' for young grandchildren. Same issue with 'fratelli' — it can mean 'brothers' or 'siblings' (brothers and sisters together)."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'father-in-law' in italiano?",
+        "en": "How do you say 'father-in-law' in Italian?"
+      },
+      "opzioni": [
+        "cognato",
+        "genero",
+        "suocero",
+        "patrigno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Suocero = father-in-law. Suocera = mother-in-law. I suoceri = in-laws (parents of spouse).",
+        "en": "Correct! Suocero = father-in-law. Suocera = mother-in-law. I suoceri = in-laws (parents of spouse)."
+      },
+      "feedbackErr": {
+        "it": "Suocero = father-in-law. Cognato = brother-in-law. Genero = son-in-law.",
+        "en": "Suocero = father-in-law. Cognato = brother-in-law. Genero = son-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Nipote' può significare…?",
+        "en": "'Nipote' can mean…?"
+      },
+      "opzioni": [
+        "Solo nephew/niece",
+        "Solo grandchild",
+        "Sia nephew/niece che grandchild",
+        "Solo i bambini piccoli"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Nipote' è ambiguo: il nipote del nonno = grandchild. Il nipote di mio fratello = nephew. Il contesto chiarisce.",
+        "en": "Correct! 'Nipote' is ambiguous: il nipote del nonno = grandchild. Il nipote di mio fratello = nephew. Context clarifies."
+      },
+      "feedbackErr": {
+        "it": "'Nipote' = grandchild O nephew/niece. Il contesto chiarisce sempre: nipote DEL NONNO = grandchild.",
+        "en": "'Nipote' = grandchild OR nephew/niece. Context always clarifies: nipote DEL NONNO = grandchild."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'brother-in-law' in italiano?",
+        "en": "How do you say 'brother-in-law' in Italian?"
+      },
+      "opzioni": [
+        "suocero",
+        "genero",
+        "cognato",
+        "patrigno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Cognato = brother-in-law. Cognata = sister-in-law. I cognati = brothers and sisters-in-law.",
+        "en": "Correct! Cognato = brother-in-law. Cognata = sister-in-law. I cognati = brothers and sisters-in-law."
+      },
+      "feedbackErr": {
+        "it": "Cognato = brother-in-law. Suocero = father-in-law. Genero = son-in-law.",
+        "en": "Cognato = brother-in-law. Suocero = father-in-law. Genero = son-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'I genitori' significa…?",
+        "en": "'I genitori' means…?"
+      },
+      "opzioni": [
+        "The grandparents",
+        "The parents",
+        "The children",
+        "The relatives"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! I genitori = the parents (padre e madre insieme). I nonni = grandparents. I figli = children.",
+        "en": "Correct! I genitori = the parents (father and mother together). I nonni = grandparents. I figli = children."
+      },
+      "feedbackErr": {
+        "it": "I genitori = parents. I nonni = grandparents. I figli = children.",
+        "en": "I genitori = parents. I nonni = grandparents. I figli = children."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'son-in-law' in italiano?",
+        "en": "How do you say 'son-in-law' in Italian?"
+      },
+      "opzioni": [
+        "suocero",
+        "cognato",
+        "nipote",
+        "genero"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Genero = son-in-law. Nuora = daughter-in-law.",
+        "en": "Correct! Genero = son-in-law. Nuora = daughter-in-law."
+      },
+      "feedbackErr": {
+        "it": "Genero = son-in-law. Nuora = daughter-in-law. Suocero = father-in-law.",
+        "en": "Genero = son-in-law. Nuora = daughter-in-law. Suocero = father-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Figlio unico' significa…?",
+        "en": "'Figlio unico' means…?"
+      },
+      "opzioni": [
+        "Only child",
+        "Youngest child",
+        "First born",
+        "The favourite child"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Figlio unico = only child (niente fratelli né sorelle). 'Sono figlio unico.'",
+        "en": "Correct! Figlio unico = only child (no brothers or sisters). 'Sono figlio unico.'"
+      },
+      "feedbackErr": {
+        "it": "Figlio unico = only child. 'Sono figlio unico' = I'm an only child.",
+        "en": "Figlio unico = only child. 'Sono figlio unico' = I'm an only child."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'I fratelli' può significare…?",
+        "en": "'I fratelli' can mean…?"
+      },
+      "opzioni": [
+        "Solo brothers",
+        "Solo sisters",
+        "Sia brothers that brothers and sisters together (siblings)",
+        "I bambini maschi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'I fratelli' = brothers OR siblings (brothers and sisters). 'Ho due fratelli' può includere sorelle. Per chiarire: 'Ho due fratelli maschi' o 'fratelli e sorelle'.",
+        "en": "Correct! 'I fratelli' = brothers OR siblings. 'Ho due fratelli' can include sisters. To clarify: 'Ho due fratelli maschi' or 'fratelli e sorelle'."
+      },
+      "feedbackErr": {
+        "it": "'I fratelli' = brothers o siblings. Ambiguo come 'nipote'. Contesto o aggiunta di 'maschi' chiarisce.",
+        "en": "'I fratelli' = brothers or siblings. Ambiguous like 'nipote'. Context or adding 'maschi' clarifies."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'La nonna' si riferisce…?",
+        "en": "'La nonna' refers to…?"
+      },
+      "opzioni": [
+        "Solo alla nonna materna",
+        "Solo alla nonna paterna",
+        "A qualsiasi nonna (materna o paterna)",
+        "Solo alle nonne anziane"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Nonna' = qualsiasi nonna. Per distinguere: 'nonna materna' o 'nonna paterna'. Ma normalmente si dice solo 'nonna'.",
+        "en": "Correct! 'Nonna' = any grandmother. To distinguish: 'nonna materna' or 'nonna paterna'. But normally you just say 'nonna'."
+      },
+      "feedbackErr": {
+        "it": "'Nonna' si riferisce a qualsiasi nonna. Per specificare: nonna materna / nonna paterna.",
+        "en": "'Nonna' refers to any grandmother. To specify: nonna materna / nonna paterna."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'daughter-in-law' in italiano?",
+        "en": "How do you say 'daughter-in-law' in Italian?"
+      },
+      "opzioni": [
+        "cognata",
+        "suocera",
+        "nuora",
+        "figliastra"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Nuora = daughter-in-law. Genero = son-in-law.",
+        "en": "Correct! Nuora = daughter-in-law. Genero = son-in-law."
+      },
+      "feedbackErr": {
+        "it": "Nuora = daughter-in-law. Genero = son-in-law. Cognata = sister-in-law.",
+        "en": "Nuora = daughter-in-law. Genero = son-in-law. Cognata = sister-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Mio cugino' in inglese corrisponde a…?",
+        "en": "'Mio cugino' in English corresponds to…?"
+      },
+      "opzioni": [
+        "My cousin (only first cousin)",
+        "My cousin (first or second cousin)",
+        "My nephew",
+        "My brother"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Cugino' include tutti i cugini — sia di primo che di secondo grado — senza distinzione lessicale.",
+        "en": "Correct! 'Cugino' includes all cousins — first and second — without lexical distinction."
+      },
+      "feedbackErr": {
+        "it": "'Cugino' = cousin, sia primo che lontano. Non si distingue lessicalmente in italiano.",
+        "en": "'Cugino' = cousin, both first and distant. No lexical distinction in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Patrigno' e 'matrigna' significano…?",
+        "en": "'Patrigno' and 'matrigna' mean…?"
+      },
+      "opzioni": [
+        "Biological father and mother",
+        "Stepfather and stepmother",
+        "Godfather and godmother",
+        "Father-in-law and mother-in-law"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Patrigno = stepfather. Matrigna = stepmother. Figliastro/a = stepson/stepdaughter.",
+        "en": "Correct! Patrigno = stepfather. Matrigna = stepmother. Figliastro/a = stepson/stepdaughter."
+      },
+      "feedbackErr": {
+        "it": "Patrigno = stepfather. Matrigna = stepmother. Suocero/a = father/mother-in-law.",
+        "en": "Patrigno = stepfather. Matrigna = stepmother. Suocero/a = father/mother-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiama il marito di tua sorella?",
+        "en": "What is your sister's husband called?"
+      },
+      "opzioni": [
+        "suocero",
+        "genero",
+        "cognato",
+        "nipote"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il marito di tua sorella = tuo cognato. La moglie di tuo fratello = tua cognata.",
+        "en": "Correct! Your sister's husband = your cognato. Your brother's wife = your cognata."
+      },
+      "feedbackErr": {
+        "it": "Il marito di tua sorella = cognato. La moglie di tuo fratello = cognata.",
+        "en": "Your sister's husband = cognato. Your brother's wife = cognata."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'I parenti' significa…?",
+        "en": "'I parenti' means…?"
+      },
+      "opzioni": [
+        "I parents (i genitori)",
+        "The relatives / family members",
+        "The parents only",
+        "The in-laws"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! I parenti = relatives / family members. Attenzione: NON significa 'parents' — quello è 'i genitori'! Falso amico!",
+        "en": "Correct! I parenti = relatives / family members. Note: it does NOT mean 'parents' — that's 'i genitori'! False friend!"
+      },
+      "feedbackErr": {
+        "it": "ATTENZIONE! I parenti = relatives (NOT parents). Parents = i GENITORI. Classico falso amico!",
+        "en": "CAREFUL! I parenti = relatives (NOT parents). Parents = i GENITORI. Classic false friend!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Il padrino' e 'la madrina' sono…?",
+        "en": "'Il padrino' and 'la madrina' are…?"
+      },
+      "opzioni": [
+        "Stepfather and stepmother",
+        "Godfather and godmother",
+        "Father-in-law and mother-in-law",
+        "Great-grandparents"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Padrino = godfather. Madrina = godmother. Figlioccio/a = godson/goddaughter.",
+        "en": "Correct! Padrino = godfather. Madrina = godmother. Figlioccio/a = godson/goddaughter."
+      },
+      "feedbackErr": {
+        "it": "Padrino = godfather. Madrina = godmother. Patrigno = stepfather. Suocero = father-in-law.",
+        "en": "Padrino = godfather. Madrina = godmother. Patrigno = stepfather. Suocero = father-in-law."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Bisnonna' significa…?",
+        "en": "'Bisnonna' means…?"
+      },
+      "opzioni": [
+        "Godmother",
+        "Stepmother",
+        "Great-grandmother",
+        "Grandmother-in-law"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Bisnonna = great-grandmother. Bisnonno = great-grandfather. Bis- = great (generation above).",
+        "en": "Correct! Bisnonna = great-grandmother. Bisnonno = great-grandfather. Bis- = great (generation above)."
+      },
+      "feedbackErr": {
+        "it": "Bisnonna = great-grandmother. Bisnonno = great-grandfather. Bis- indica la generazione in più.",
+        "en": "Bisnonna = great-grandmother. Bisnonno = great-grandfather. Bis- indicates one more generation."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'only child' in italiano?",
+        "en": "How do you say 'only child' in Italian?"
+      },
+      "opzioni": [
+        "bambino solo",
+        "figlio unico",
+        "figlioletto",
+        "monofiglio"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Figlio unico (m.) / Figlia unica (f.) = only child.",
+        "en": "Correct! Figlio unico (m.) / Figlia unica (f.) = only child."
+      },
+      "feedbackErr": {
+        "it": "Figlio unico (m.) / Figlia unica (f.) = only child. 'Sono figlio unico.'",
+        "en": "Figlio unico (m.) / Figlia unica (f.) = only child. 'Sono figlio unico.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'I suoceri' si riferisce a…?",
+        "en": "'I suoceri' refers to…?"
+      },
+      "opzioni": [
+        "Solo al suocero (father-in-law)",
+        "Solo alla suocera (mother-in-law)",
+        "A entrambi i genitori del/della coniuge",
+        "Ai nonni del coniuge"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! I suoceri = both parents-in-law (father and mother-in-law together).",
+        "en": "Correct! I suoceri = both parents-in-law (father and mother-in-law together)."
+      },
+      "feedbackErr": {
+        "it": "I suoceri = entrambi i genitori del coniuge. Come 'i genitori' = padre e madre.",
+        "en": "I suoceri = both in-laws (father and mother-in-law together). Like 'i genitori' = father and mother."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'half-brother' in italiano?",
+        "en": "How do you say 'half-brother' in Italian?"
+      },
+      "opzioni": [
+        "fratellino",
+        "fratellastro",
+        "mezzo fratello",
+        "fratello unico"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Fratellastro = half-brother (o stepbrother). Sorellastra = half-sister (o stepsister).",
+        "en": "Correct! Fratellastro = half-brother (or stepbrother). Sorellastra = half-sister (or stepsister)."
+      },
+      "feedbackErr": {
+        "it": "Fratellastro = half-brother / stepbrother. Sorellastra = half-sister / stepsister.",
+        "en": "Fratellastro = half-brother / stepbrother. Sorellastra = half-sister / stepsister."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Gli zii' può significare…?",
+        "en": "'Gli zii' can mean…?"
+      },
+      "opzioni": [
+        "Solo gli zii (uncles)",
+        "Solo le zie (aunts)",
+        "Sia gli zii che le zie (aunts and uncles)",
+        "I genitori dei cugini"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Gli zii' = aunts and uncles together. Come 'i fratelli' = brothers and sisters, 'i nonni' = grandparents.",
+        "en": "Correct! 'Gli zii' = aunts and uncles together. Like 'i fratelli' = brothers and sisters, 'i nonni' = grandparents."
+      },
+      "feedbackErr": {
+        "it": "Gli zii = zii e zie insieme. Schema italiano: il maschile plurale include entrambi i sessi.",
+        "en": "Gli zii = uncles and aunts together. Italian pattern: masculine plural includes both genders."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'My parents are from Naples' in italiano?",
+        "en": "How do you say 'My parents are from Naples' in Italian?"
+      },
+      "opzioni": [
+        "I miei parenti sono di Napoli.",
+        "I miei genitori sono di Napoli.",
+        "I miei padri sono di Napoli.",
+        "I miei familiari sono di Napoli."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Genitori = parents. 'I miei parenti' = my relatives — non i parents!",
+        "en": "Correct! Genitori = parents. 'I miei parenti' = my relatives — not parents!"
+      },
+      "feedbackErr": {
+        "it": "Genitori = parents. Parenti = relatives. 'I miei GENITORI sono di Napoli.' Non 'parenti'!",
+        "en": "Genitori = parents. Parenti = relatives. 'I miei GENITORI sono di Napoli.' Not 'parenti'!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'I parenti' è la traduzione corretta di 'parents'.",
+        "en": "'I parenti' is the correct translation of 'parents'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! I parenti = relatives. Parents = I GENITORI. Errore classicissimo per gli anglofoni.",
+        "en": "Correct! FALSE FRIEND! I parenti = relatives. Parents = I GENITORI. Very classic error for English speakers."
+      },
+      "feedbackErr": {
+        "it": "FALSO! ATTENZIONE: I parenti = relatives (NOT parents). Parents = i GENITORI. Falso amico!",
+        "en": "FALSE! CAREFUL: I parenti = relatives (NOT parents). Parents = i GENITORI. False friend!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Nipote' può riferirsi sia ai nipoti (grandchildren) che ai nipoti (nephews/nieces).",
+        "en": "'Nipote' can refer to both grandchildren and nephews/nieces."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Nipote' è ambiguo. Il contesto chiarisce: il nipote del nonno = grandchild. Il nipote di mio fratello = nephew.",
+        "en": "Correct! 'Nipote' is ambiguous. Context clarifies: il nipote del nonno = grandchild. Il nipote di mio fratello = nephew."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nipote = grandchild O nephew/niece. Sempre il contesto a chiarire.",
+        "en": "True! Nipote = grandchild OR nephew/niece. Always context to clarify."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Suocero' significa 'stepfather' (patrigno).",
+        "en": "'Suocero' means 'stepfather' (patrigno)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Suocero = father-in-law (il padre del/della coniuge). Stepfather = patrigno.",
+        "en": "Correct! Suocero = father-in-law (the spouse's father). Stepfather = patrigno."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Suocero = father-in-law. Patrigno = stepfather. Sono due relazioni diverse.",
+        "en": "FALSE! Suocero = father-in-law. Patrigno = stepfather. They are two different relationships."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Cognato' è il marito di tua sorella oppure il fratello di tuo marito/moglie.",
+        "en": "'Cognato' is your sister's husband or your husband/wife's brother."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Cognato copre entrambi i casi: il marito di tua sorella E il fratello del tuo coniuge.",
+        "en": "Correct! Cognato covers both cases: your sister's husband AND your spouse's brother."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cognato = sia il marito di tua sorella che il fratello del tuo coniuge.",
+        "en": "True! Cognato = both your sister's husband and your spouse's brother."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Genero' è il figlio del suocero.",
+        "en": "'Genero' is the suocero's son."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Genero = son-in-law (il marito di tua figlia). Non è il figlio del suocero.",
+        "en": "Correct! Genero = son-in-law (your daughter's husband). He is not the suocero's son."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Genero = son-in-law = il marito di tua figlia. Nuora = daughter-in-law = la moglie di tuo figlio.",
+        "en": "FALSE! Genero = son-in-law = your daughter's husband. Nuora = daughter-in-law = your son's wife."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano non si fa distinzione lessicale tra i nonni materni e paterni.",
+        "en": "In Italian there is no lexical distinction between maternal and paternal grandparents."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nonno/nonna = any grandparent. Per specificare si aggiunge: nonno materno / nonno paterno.",
+        "en": "Correct! Nonno/nonna = any grandparent. To specify you add: nonno materno / nonno paterno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nonno = both. Per specificare: nonno materno / paterno. Stessa cosa per zio, cugino.",
+        "en": "True! Nonno = both. To specify: nonno materno / paterno. Same for zio, cugino."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'I fratelli' nella frase 'ho tre fratelli' include sempre e solo maschi.",
+        "en": "'I fratelli' in the sentence 'ho tre fratelli' always means only males."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Ho tre fratelli' può significare tre brothers O siblings (brothers and sisters misti). Per chiarire: 'ho tre fratelli maschi' o 'ho due fratelli e una sorella'.",
+        "en": "Correct! 'Ho tre fratelli' can mean three brothers OR siblings (mixed). To clarify: 'ho tre fratelli maschi' or 'ho due fratelli e una sorella'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Ho tre fratelli' può includere sorelle. Per chiarire: 'tre fratelli maschi' o 'due fratelli e una sorella'.",
+        "en": "FALSE! 'Ho tre fratelli' can include sisters. To clarify: 'tre fratelli maschi' or 'due fratelli e una sorella'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Padrino' significa 'godfather' — non 'stepfather'.",
+        "en": "'Padrino' means 'godfather' — not 'stepfather'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Padrino = godfather. Patrigno = stepfather. Due parole diverse per due relazioni diverse.",
+        "en": "Correct! Padrino = godfather. Patrigno = stepfather. Two different words for two different relationships."
+      },
+      "feedbackErr": {
+        "it": "Vero! Padrino = godfather. Patrigno = stepfather. Non confonderli.",
+        "en": "True! Padrino = godfather. Patrigno = stepfather. Don't confuse them."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Bisnonno' significa 'great-grandfather'.",
+        "en": "'Bisnonno' means 'great-grandfather'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Bisnonno = great-grandfather. Bisnonna = great-grandmother. Bis- = one generation further back.",
+        "en": "Correct! Bisnonno = great-grandfather. Bisnonna = great-grandmother. Bis- = one generation further back."
+      },
+      "feedbackErr": {
+        "it": "Vero! Bisnonno = great-grandfather. Bisnonna = great-grandmother.",
+        "en": "True! Bisnonno = great-grandfather. Bisnonna = great-grandmother."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mio marito' e 'mia moglie' si usano per indicare il coniuge (spouse).",
+        "en": "'Mio marito' and 'mia moglie' are used to indicate the spouse."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Marito = husband. Moglie = wife. 'Mio marito si chiama Mario.'",
+        "en": "Correct! Marito = husband. Moglie = wife. 'Mio marito si chiama Mario.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Marito = husband. Moglie = wife. 'Mio marito' / 'mia moglie'.",
+        "en": "True! Marito = husband. Moglie = wife. 'Mio marito' / 'mia moglie'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Fratellastro' significa sempre 'stepbrother' — non 'half-brother'.",
+        "en": "'Fratellastro' always means 'stepbrother' — never 'half-brother'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Fratellastro' può indicare sia half-brother (fratello con un solo genitore in comune) che stepbrother (fratello per via di un nuovo matrimonio). Il contesto chiarisce.",
+        "en": "Correct! 'Fratellastro' can indicate both half-brother (one parent in common) and stepbrother (via a new marriage). Context clarifies."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Fratellastro' = half-brother O stepbrother. Il contesto chiarisce.",
+        "en": "FALSE! 'Fratellastro' = half-brother OR stepbrother. Context clarifies."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Gli zii' include sia gli zii (uncles) che le zie (aunts).",
+        "en": "'Gli zii' includes both uncles and aunts."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Come in italiano il maschile plurale include entrambi i generi: gli zii = zii e zie. I nonni = nonni e nonne.",
+        "en": "Correct! As in Italian the masculine plural includes both genders: gli zii = uncles and aunts. I nonni = grandfathers and grandmothers."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gli zii = zii e zie. I nonni = nonni e nonne. I fratelli = fratelli e sorelle (siblings).",
+        "en": "True! Gli zii = uncles and aunts. I nonni = grandparents. I fratelli = siblings."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si usa l'articolo con i nomi di famiglia: 'il papà', 'la mamma'.",
+        "en": "In Italian the article is used with family names: 'il papà', 'la mamma'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto — parzialmente! Si dice 'il papà', 'la mamma' CON l'articolo quando è seguito da nome o aggettivo ('la mia mamma'). Ma 'mio padre', 'mia madre' senza articolo con il possessivo singolare.",
+        "en": "Correct — partly! You say 'il papà', 'la mamma' WITH the article but 'mio padre', 'mia madre' WITHOUT the article with the singular possessive."
+      },
+      "feedbackErr": {
+        "it": "Con i possessivi singolari: MIO padre, MIA madre — senza articolo! Eccezione: mio papà, mia mamma (accettato con o senza articolo).",
+        "en": "With singular possessives: MIO padre, MIA madre — no article! Exception: mio papà, mia mamma (accepted with or without article)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Nuora' è la moglie del figlio — daughter-in-law.",
+        "en": "'Nuora' is the son's wife — daughter-in-law."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nuora = daughter-in-law (la moglie di tuo figlio). Genero = son-in-law (il marito di tua figlia).",
+        "en": "Correct! Nuora = daughter-in-law (your son's wife). Genero = son-in-law (your daughter's husband)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nuora = daughter-in-law. Genero = son-in-law.",
+        "en": "True! Nuora = daughter-in-law. Genero = son-in-law."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'La famiglia allargata' in italiano si riferisce alla famiglia estesa (extended family).",
+        "en": "'La famiglia allargata' in Italian refers to the extended family."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto — sfumatura! 'Famiglia allargata' in italiano contemporaneo = blended family (famiglie con figli da relazioni precedenti). Famiglia estesa = extended family = famiglia allargata in senso classico. Le due espressioni si sovrappongono.",
+        "en": "Correct — nuance! 'Famiglia allargata' in contemporary Italian = blended family (families with children from previous relationships). Extended family = famiglia estesa/allargata in the classic sense. The two expressions overlap."
+      },
+      "feedbackErr": {
+        "it": "Sfumatura! 'Famiglia allargata' oggi = spesso blended family. 'Famiglia estesa' = extended family. Le due espressioni si sovrappongono nell'uso.",
+        "en": "Nuance! 'Famiglia allargata' today = often blended family. 'Famiglia estesa' = extended family. The two expressions overlap in usage."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con il possessivo singolare i nomi di famiglia non prendono l'articolo: 'mio fratello', 'mia sorella'.",
+        "en": "With the singular possessive, family nouns don't take the article: 'mio fratello', 'mia sorella'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mio padre, mia madre, mio fratello, mia sorella, mio figlio — senza articolo. Eccezione: i diminutivi (il mio papà, la mia mamma) e il plurale (i miei fratelli).",
+        "en": "Correct! Mio padre, mia madre, mio fratello, mia sorella, mio figlio — no article. Exception: diminutives (il mio papà, la mia mamma) and plural (i miei fratelli)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mio fratello (senza articolo). Eccezioni: plurale (i miei fratelli) e diminutivi (il mio papà).",
+        "en": "True! Mio fratello (no article). Exceptions: plural (i miei fratelli) and diminutives (il mio papà)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Cugino di primo grado' e 'cugino di secondo grado' sono la stessa parola in italiano.",
+        "en": "'First cousin' and 'second cousin' are the same word in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In italiano 'cugino' copre tutti i gradi. Per specificare si aggiunge 'di primo/secondo grado'. Nel parlato quotidiano si dice solo 'cugino'.",
+        "en": "Correct! In Italian 'cugino' covers all degrees. To specify you add 'di primo/secondo grado'. In everyday speech you just say 'cugino'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cugino = all cousins. Per specificare: cugino di primo grado / di secondo grado.",
+        "en": "True! Cugino = all cousins. To specify: cugino di primo grado / di secondo grado."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mio marito' richiede l'articolo: 'il mio marito'.",
+        "en": "'Mio marito' requires the article: 'il mio marito'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Marito' e 'moglie' seguono la regola dei nomi di famiglia: senza articolo al singolare con possessivo. 'Mio marito', 'mia moglie' — non 'il mio marito' standard.",
+        "en": "Correct! 'Marito' and 'moglie' follow the family noun rule: no article in the singular with possessive. 'Mio marito', 'mia moglie' — not 'il mio marito' standard."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Mio marito (senza articolo). Come mio padre, mia sorella. Regola dei nomi di parentela al singolare.",
+        "en": "FALSE! Mio marito (no article). Like mio padre, mia sorella. Rule of kinship nouns in the singular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Figlioccio' è il godson — il figlio del padrino.",
+        "en": "'Figlioccio' is the godson — the padrino's godson."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto — parzialmente! Figlioccio è il godson, ma non è il figlio del padrino. Il figlioccio è il bambino per cui sei padrino/madrina.",
+        "en": "Correct — partly! Figlioccio is the godson, but not the padrino's son. The figlioccio is the child for whom you are godfather/godmother."
+      },
+      "feedbackErr": {
+        "it": "Figlioccio = godson (il bambino per cui sei padrino). Non è il figlio del padrino — quello è solo 'figlio'.",
+        "en": "Figlioccio = godson (the child for whom you are godfather). He is not the padrino's son — that's just 'figlio'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'La famiglia nucleare' = padre, madre e figli.",
+        "en": "'La famiglia nucleare' = father, mother and children."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Famiglia nucleare = nuclear family = padre, madre e figli. Famiglia estesa = grandparents, zii, cugini ecc.",
+        "en": "Correct! Famiglia nucleare = nuclear family = father, mother and children. Famiglia estesa = grandparents, aunts, uncles, cousins etc."
+      },
+      "feedbackErr": {
+        "it": "Vero! Famiglia nucleare = padre + madre + figli. Famiglia estesa include nonni, zii, cugini.",
+        "en": "True! Famiglia nucleare = father + mother + children. Famiglia estesa includes grandparents, aunts, uncles, cousins."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Come si chiama il padre di tuo marito?: È mio ___.",
+        "en": "What is your husband's father called?: He is my ___."
+      },
+      "parole": [
+        "suocero"
+      ],
+      "distrattori": [
+        "cognato",
+        "genero",
+        "patrigno"
+      ],
+      "correct": [
+        "suocero"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il padre del coniuge = suocero (father-in-law).",
+        "en": "Perfect! The spouse's father = suocero (father-in-law)."
+      },
+      "feedbackErr": {
+        "it": "Father-in-law = suocero. Il padre di tuo marito/moglie.",
+        "en": "Father-in-law = suocero. Your husband's/wife's father."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Parents (genitori) — Attenzione al falso amico: I miei ___ sono di Napoli.",
+        "en": "Parents (genitori) — False friend alert: My ___ are from Naples."
+      },
+      "parole": [
+        "genitori"
+      ],
+      "distrattori": [
+        "parenti",
+        "familiari",
+        "padri"
+      ],
+      "correct": [
+        "genitori"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Genitori = parents. Parenti = relatives (falso amico!). 'I miei genitori sono di Napoli.'",
+        "en": "Perfect! Genitori = parents. Parenti = relatives (false friend!). 'I miei genitori sono di Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Parents = GENITORI (non parenti!). 'I miei genitori sono di Napoli.'",
+        "en": "Parents = GENITORI (not parenti!). 'I miei genitori sono di Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tuo fratello si è sposato — sua moglie è tua…: È mia ___.",
+        "en": "Your brother got married — his wife is your…: She is my ___."
+      },
+      "parole": [
+        "cognata"
+      ],
+      "distrattori": [
+        "suocera",
+        "nuora",
+        "sorella"
+      ],
+      "correct": [
+        "cognata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La moglie di tuo fratello = tua cognata (sister-in-law).",
+        "en": "Perfect! Your brother's wife = your cognata (sister-in-law)."
+      },
+      "feedbackErr": {
+        "it": "La moglie di tuo fratello = cognata (sister-in-law).",
+        "en": "Your brother's wife = cognata (sister-in-law)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tua figlia si è sposata — suo marito è tuo…: È mio ___.",
+        "en": "Your daughter got married — her husband is your…: He is my ___."
+      },
+      "parole": [
+        "genero"
+      ],
+      "distrattori": [
+        "cognato",
+        "suocero",
+        "nipote"
+      ],
+      "correct": [
+        "genero"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il marito di tua figlia = tuo genero (son-in-law).",
+        "en": "Perfect! Your daughter's husband = your genero (son-in-law)."
+      },
+      "feedbackErr": {
+        "it": "Il marito di tua figlia = genero (son-in-law).",
+        "en": "Your daughter's husband = genero (son-in-law)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho nessun fratello o sorella: Sono ___ ___.",
+        "en": "I have no brothers or sisters: I am an ___ ___."
+      },
+      "parole": [
+        "figlio",
+        "unico"
+      ],
+      "distrattori": [
+        "solo",
+        "bambino",
+        "senza",
+        "fratelli"
+      ],
+      "correct": [
+        "figlio",
+        "unico"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Figlio unico = only child. Figlia unica per una donna.",
+        "en": "Perfect! Figlio unico = only child. Figlia unica for a woman."
+      },
+      "feedbackErr": {
+        "it": "Only child = figlio unico (m.) / figlia unica (f.).",
+        "en": "Only child = figlio unico (m.) / figlia unica (f.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il figlio di tuo figlio: È mio ___.",
+        "en": "Your son's son: He is my ___."
+      },
+      "parole": [
+        "nipote"
+      ],
+      "distrattori": [
+        "figlio",
+        "cugino",
+        "pronipote"
+      ],
+      "correct": [
+        "nipote"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il figlio di tuo figlio = tuo nipote (grandchild/grandson).",
+        "en": "Perfect! Your son's son = your nipote (grandchild/grandson)."
+      },
+      "feedbackErr": {
+        "it": "Il figlio di tuo figlio = nipote (grandchild). 'Il nipote del nonno.'",
+        "en": "Your son's son = nipote (grandchild). 'Il nipote del nonno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il nonno del nonno: È il mio ___.",
+        "en": "Your grandfather's father: He is my ___."
+      },
+      "parole": [
+        "bisnonno"
+      ],
+      "distrattori": [
+        "nonno",
+        "prozio",
+        "antenato"
+      ],
+      "correct": [
+        "bisnonno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bisnonno = great-grandfather. Bis- indica una generazione in più.",
+        "en": "Perfect! Bisnonno = great-grandfather. Bis- indicates one more generation."
+      },
+      "feedbackErr": {
+        "it": "Great-grandfather = bisnonno. Bis- = one generation further.",
+        "en": "Great-grandfather = bisnonno. Bis- = one generation further."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il fratello di tua madre: È mio ___.",
+        "en": "Your mother's brother: He is my ___."
+      },
+      "parole": [
+        "zio"
+      ],
+      "distrattori": [
+        "nonno",
+        "cugino",
+        "cognato"
+      ],
+      "correct": [
+        "zio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il fratello di tua madre (o padre) = tuo zio (uncle).",
+        "en": "Perfect! Your mother's (or father's) brother = your zio (uncle)."
+      },
+      "feedbackErr": {
+        "it": "Il fratello di tua madre = tuo zio (uncle).",
+        "en": "Your mother's brother = your zio (uncle)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "La figlia di tuo zio: È mia ___.",
+        "en": "Your uncle's daughter: She is my ___."
+      },
+      "parole": [
+        "cugina"
+      ],
+      "distrattori": [
+        "nipote",
+        "sorella",
+        "cognata"
+      ],
+      "correct": [
+        "cugina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La figlia di tuo zio = tua cugina (cousin, f.).",
+        "en": "Perfect! Your uncle's daughter = your cugina (cousin, f.)."
+      },
+      "feedbackErr": {
+        "it": "La figlia di tuo zio/zia = cugina (cousin, feminine).",
+        "en": "Your uncle's/aunt's daughter = cugina (cousin, feminine)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "La moglie di tuo figlio: È mia ___.",
+        "en": "Your son's wife: She is my ___."
+      },
+      "parole": [
+        "nuora"
+      ],
+      "distrattori": [
+        "cognata",
+        "suocera",
+        "figlia"
+      ],
+      "correct": [
+        "nuora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La moglie di tuo figlio = tua nuora (daughter-in-law).",
+        "en": "Perfect! Your son's wife = your nuora (daughter-in-law)."
+      },
+      "feedbackErr": {
+        "it": "La moglie di tuo figlio = nuora (daughter-in-law).",
+        "en": "Your son's wife = nuora (daughter-in-law)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il secondo marito di tua madre rispetto a te: È mio ___.",
+        "en": "Your mother's second husband relative to you: He is my ___."
+      },
+      "parole": [
+        "patrigno"
+      ],
+      "distrattori": [
+        "suocero",
+        "padrino",
+        "padre"
+      ],
+      "correct": [
+        "patrigno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il secondo marito di tua madre = tuo patrigno (stepfather).",
+        "en": "Perfect! Your mother's second husband = your patrigno (stepfather)."
+      },
+      "feedbackErr": {
+        "it": "Stepfather = patrigno. Stepmother = matrigna.",
+        "en": "Stepfather = patrigno. Stepmother = matrigna."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tutti i parenti insieme: Domenica viene tutta la ___.",
+        "en": "All relatives together: On Sunday the whole ___ is coming."
+      },
+      "parole": [
+        "famiglia"
+      ],
+      "distrattori": [
+        "parentela",
+        "gente",
+        "tribù"
+      ],
+      "correct": [
+        "famiglia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Tutta la famiglia' = the whole family. Classica domenica italiana.",
+        "en": "Perfect! 'Tutta la famiglia' = the whole family. Classic Italian Sunday."
+      },
+      "feedbackErr": {
+        "it": "The whole family = tutta la famiglia. 'Domenica viene tutta la famiglia.'",
+        "en": "The whole family = tutta la famiglia. 'Domenica viene tutta la famiglia.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il tuo padrino ti chiama così: Sei il mio ___.",
+        "en": "Your godfather calls you this: You are my ___."
+      },
+      "parole": [
+        "figlioccio"
+      ],
+      "distrattori": [
+        "nipote",
+        "figlio",
+        "protetto"
+      ],
+      "correct": [
+        "figlioccio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Figlioccio (m.) / Figlioccia (f.) = godson / goddaughter.",
+        "en": "Perfect! Figlioccio (m.) / Figlioccia (f.) = godson / goddaughter."
+      },
+      "feedbackErr": {
+        "it": "Godson = figlioccio. Goddaughter = figlioccia.",
+        "en": "Godson = figlioccio. Goddaughter = figlioccia."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "La sorella di tuo marito rispetto a te: È mia ___.",
+        "en": "Your husband's sister relative to you: She is my ___."
+      },
+      "parole": [
+        "cognata"
+      ],
+      "distrattori": [
+        "suocera",
+        "nuora",
+        "sorella"
+      ],
+      "correct": [
+        "cognata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La sorella del coniuge = cognata (sister-in-law).",
+        "en": "Perfect! The spouse's sister = cognata (sister-in-law)."
+      },
+      "feedbackErr": {
+        "it": "La sorella di tuo marito/moglie = cognata (sister-in-law).",
+        "en": "Your husband's/wife's sister = cognata (sister-in-law)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tua nonna e tuo nonno insieme: I miei ___ vengono a cena.",
+        "en": "Your grandmother and grandfather together: My ___ are coming to dinner."
+      },
+      "parole": [
+        "nonni"
+      ],
+      "distrattori": [
+        "genitori",
+        "bisnonni",
+        "zii"
+      ],
+      "correct": [
+        "nonni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! I nonni = grandparents (nonno e nonna insieme).",
+        "en": "Perfect! I nonni = grandparents (grandfather and grandmother together)."
+      },
+      "feedbackErr": {
+        "it": "Nonno + nonna = i nonni (grandparents). 'I miei nonni vengono a cena.'",
+        "en": "Nonno + nonna = i nonni (grandparents). 'I miei nonni vengono a cena.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Hai un fratello con un solo genitore in comune: È mio ___.",
+        "en": "You have a brother with only one parent in common: He is my ___."
+      },
+      "parole": [
+        "fratellastro"
+      ],
+      "distrattori": [
+        "fratello",
+        "cognato",
+        "patrigno"
+      ],
+      "correct": [
+        "fratellastro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fratellastro = half-brother o stepbrother. Sorellastra = half-sister o stepsister.",
+        "en": "Perfect! Fratellastro = half-brother or stepbrother. Sorellastra = half-sister or stepsister."
+      },
+      "feedbackErr": {
+        "it": "Half-brother/stepbrother = fratellastro. Half-sister/stepsister = sorellastra.",
+        "en": "Half-brother/stepbrother = fratellastro. Half-sister/stepsister = sorellastra."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tuo padre e tua madre insieme: I miei ___ abitano a Napoli.",
+        "en": "Your father and mother together: My ___ live in Naples."
+      },
+      "parole": [
+        "genitori"
+      ],
+      "distrattori": [
+        "parenti",
+        "nonni",
+        "familiari"
+      ],
+      "correct": [
+        "genitori"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! I genitori = parents. Non 'parenti' (= relatives)! Falso amico.",
+        "en": "Perfect! I genitori = parents. Not 'parenti' (= relatives)! False friend."
+      },
+      "feedbackErr": {
+        "it": "Genitori = parents. Parenti = relatives. 'I miei genitori abitano a Napoli.'",
+        "en": "Genitori = parents. Parenti = relatives. 'I miei genitori abitano a Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "La sorella di tua madre rispetto a te: È mia ___.",
+        "en": "Your mother's sister relative to you: She is my ___."
+      },
+      "parole": [
+        "zia"
+      ],
+      "distrattori": [
+        "cugina",
+        "nonna",
+        "madrina"
+      ],
+      "correct": [
+        "zia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La sorella di tua madre o padre = tua zia (aunt).",
+        "en": "Perfect! Your mother's or father's sister = your zia (aunt)."
+      },
+      "feedbackErr": {
+        "it": "La sorella di tua madre/padre = zia (aunt).",
+        "en": "Your mother's/father's sister = zia (aunt)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tuo padre e tua madre ti chiamano così: Sei il nostro ___.",
+        "en": "Your father and mother call you this: You are our ___."
+      },
+      "parole": [
+        "figlio"
+      ],
+      "distrattori": [
+        "nipote",
+        "fratello",
+        "figlioccio"
+      ],
+      "correct": [
+        "figlio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il bambino per i genitori = figlio (son) / figlia (daughter).",
+        "en": "Perfect! The child for the parents = figlio (son) / figlia (daughter)."
+      },
+      "feedbackErr": {
+        "it": "Son = figlio. Daughter = figlia. 'Sei il nostro figlio.'",
+        "en": "Son = figlio. Daughter = figlia. 'Sei il nostro figlio.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tuo nonno ti chiama così: Sei il mio ___ preferito.",
+        "en": "Your grandfather calls you this: You are my favourite ___."
+      },
+      "parole": [
+        "nipote"
+      ],
+      "distrattori": [
+        "figlio",
+        "cugino",
+        "pronipote"
+      ],
+      "correct": [
+        "nipote"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il nonno chiama i nipotini: nipote. 'Sei il mio nipote preferito!'",
+        "en": "Perfect! Grandfather calls the grandchildren: nipote. 'Sei il mio nipote preferito!'"
+      },
+      "feedbackErr": {
+        "it": "Grandchild (per il nonno) = nipote. 'Il mio nipote preferito.'",
+        "en": "Grandchild (for the grandfather) = nipote. 'Il mio nipote preferito.'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "id": "articoli-determinativi",
+  "categoria": "grammatica",
+  "emoji": "📌",
+  "livello": "A1",
+  "titolo": {
+    "it": "Articoli Determinativi",
+    "en": "Definite Articles"
+  },
+  "mario": "Sai perché dici 'il caffè' ma 'la pizza'? Non è un capriccio — è il DNA della parola. Ascoltami cinque minuti.",
+  "marioEn": "You know why you say 'il caffè' but 'la pizza'? It's not a whim — it's the word's DNA. Give me five minutes.",
+  "perche": {
+    "it": "In inglese esiste solo 'the' — funziona per tutto. In italiano no. L'articolo cambia in base al genere della parola (maschile o femminile), al numero (singolare o plurale) e alla lettera con cui inizia la parola che segue. Sembra complicato. Non lo è — c'è una regola precisa per ogni caso.",
+    "en": "In English there's only 'the' — it works for everything. In Italian it doesn't. The article changes based on the word's gender (masculine or feminine), number (singular or plural) and the first letter of the following word. It sounds complicated. It's not — there's a precise rule for each case."
+  },
+  "spiegazione": {
+    "it": "Ci sono 7 forme. La scelta dipende da tre cose: 1) il genere del nome, 2) il numero, 3) la prima lettera del nome.",
+    "en": "There are 7 forms. The choice depends on three things: 1) the noun's gender, 2) the number, 3) the first letter of the noun."
+  },
+  "tabella": {
+    "headers": [
+      "Quando / When",
+      "Maschile sing.",
+      "Femminile sing.",
+      "Maschile pl.",
+      "Femminile pl."
+    ],
+    "rows": [
+      [
+        "Caso normale",
+        "il (il libro)",
+        "la (la pizza)",
+        "i (i libri)",
+        "le (le pizze)"
+      ],
+      [
+        "Prima di vocale / Before vowel",
+        "l' (l'amico)",
+        "l' (l'amica)",
+        "gli (gli amici)",
+        "le (le amiche)"
+      ],
+      [
+        "Prima di z, s+cons., gn, ps...",
+        "lo (lo zaino)",
+        "la (la strada)",
+        "gli (gli zaini)",
+        "le (le strade)"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Il caffè è pronto.",
+      "en": "The coffee is ready.",
+      "audio": "Il caffè è pronto."
+    },
+    {
+      "it": "La pizza è buona.",
+      "en": "The pizza is good.",
+      "audio": "La pizza è buona."
+    },
+    {
+      "it": "L'amico di Mario è simpatico.",
+      "en": "Mario's friend is nice.",
+      "audio": "L'amico di Mario è simpatico."
+    },
+    {
+      "it": "Lo zaino è pesante.",
+      "en": "The backpack is heavy.",
+      "audio": "Lo zaino è pesante."
+    },
+    {
+      "it": "Gli spaghetti sono pronti.",
+      "en": "The spaghetti is ready.",
+      "audio": "Gli spaghetti sono pronti."
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 A Napoli senti 'o caffè e 'a pizza — è il dialetto napoletano. Bellissimo, ma in italiano standard usiamo il/la.",
+    "en": "🇳🇦 In Naples you hear 'o caffè and 'a pizza — that's Neapolitan dialect. Beautiful, but in standard Italian we use il/la."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'libro' (maschile, inizia con l)?",
+        "en": "What is the correct article for 'libro' (masculine, starts with l)?"
+      },
+      "opzioni": [
+        "lo",
+        "il",
+        "la",
+        "l'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Libro' è maschile e inizia con consonante normale → il libro.",
+        "en": "Correct! 'Libro' is masculine and starts with a normal consonant → il libro."
+      },
+      "feedbackErr": {
+        "it": "'Lo' si usa solo prima di z, s+consonante, gn, ps. 'Libro' inizia con l normale → il libro.",
+        "en": "'Lo' is only used before z, s+consonant, gn, ps. 'Libro' starts with normal l → il libro."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'amica' (femminile, inizia con vocale)?",
+        "en": "What is the correct article for 'amica' (feminine, starts with vowel)?"
+      },
+      "opzioni": [
+        "la",
+        "le",
+        "l'",
+        "una"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Femminile + vocale iniziale → l'amica. La 'a' di 'la' cade davanti alla vocale.",
+        "en": "Correct! Feminine + initial vowel → l'amica. The 'a' of 'la' drops before the vowel."
+      },
+      "feedbackErr": {
+        "it": "Quando una parola inizia con vocale, 'la' diventa 'l''. Quindi: l'amica.",
+        "en": "When a word starts with a vowel, 'la' becomes 'l''. So: l'amica."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the students' (maschile plurale, inizia con s)?",
+        "en": "How do you say 'the students' (masculine plural, starts with s)?"
+      },
+      "opzioni": [
+        "i studenti",
+        "gli studenti",
+        "le studenti",
+        "lo studenti"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Maschile plurale prima di s+consonante → gli studenti.",
+        "en": "Correct! Masculine plural before s+consonant → gli studenti."
+      },
+      "feedbackErr": {
+        "it": "'Studenti' inizia con s+consonante → plurale maschile usa 'gli', non 'i'.",
+        "en": "'Studenti' starts with s+consonant → masculine plural uses 'gli', not 'i'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'zio' (maschile, inizia con z)?",
+        "en": "What is the correct article for 'zio' (masculine, starts with z)?"
+      },
+      "opzioni": [
+        "il",
+        "lo",
+        "l'",
+        "la"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Prima di z si usa sempre 'lo' → lo zio.",
+        "en": "Correct! Before z you always use 'lo' → lo zio."
+      },
+      "feedbackErr": {
+        "it": "Prima di z si usa 'lo', non 'il'. Quindi: lo zio, lo zaino, lo zero.",
+        "en": "Before z you use 'lo', not 'il'. So: lo zio, lo zaino, lo zero."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the pizzas' in italiano?",
+        "en": "How do you say 'the pizzas' in Italian?"
+      },
+      "opzioni": [
+        "i pizze",
+        "la pizze",
+        "le pizze",
+        "gli pizze"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Pizza' è femminile → plurale femminile usa 'le' → le pizze.",
+        "en": "Correct! 'Pizza' is feminine → feminine plural uses 'le' → le pizze."
+      },
+      "feedbackErr": {
+        "it": "'Pizza' è femminile → plurale femminile è 'le pizze', non 'i pizze'.",
+        "en": "'Pizza' is feminine → feminine plural is 'le pizze', not 'i pizze'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'gnomo' (maschile, inizia con gn)?",
+        "en": "What is the correct article for 'gnomo' (masculine, starts with gn)?"
+      },
+      "opzioni": [
+        "il",
+        "i",
+        "lo",
+        "la"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Gn' è un suono speciale → si usa 'lo' → lo gnomo.",
+        "en": "Correct! 'Gn' is a special sound → you use 'lo' → lo gnomo."
+      },
+      "feedbackErr": {
+        "it": "Prima di gn si usa 'lo', non 'il'. Stesso gruppo di z e s+consonante.",
+        "en": "Before gn you use 'lo', not 'il'. Same group as z and s+consonant."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the friends' (maschile plurale, inizia con vocale)?",
+        "en": "How do you say 'the friends' (masculine plural, starts with vowel)?"
+      },
+      "opzioni": [
+        "i amici",
+        "gli amici",
+        "le amici",
+        "l'amici"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Maschile plurale prima di vocale → gli amici.",
+        "en": "Correct! Masculine plural before vowel → gli amici."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale prima di vocale usa 'gli', non 'i'. → gli amici.",
+        "en": "Masculine plural before vowel uses 'gli', not 'i'. → gli amici."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'psicologia' (femminile, inizia con ps)?",
+        "en": "What is the correct article for 'psicologia' (feminine, starts with ps)?"
+      },
+      "opzioni": [
+        "l'",
+        "lo",
+        "la",
+        "le"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Psicologia' è femminile — 'ps' è speciale solo per il maschile. Femminile → la psicologia.",
+        "en": "Correct! 'Psicologia' is feminine — 'ps' is special only for masculine. Feminine → la psicologia."
+      },
+      "feedbackErr": {
+        "it": "'Ps' speciale vale per il maschile (lo psicologo). Femminile usa 'la' → la psicologia.",
+        "en": "'Ps' special rule applies to masculine (lo psicologo). Feminine uses 'la' → la psicologia."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the espresso' in italiano?",
+        "en": "How do you say 'the espresso' in Italian?"
+      },
+      "opzioni": [
+        "lo espresso",
+        "il espresso",
+        "l'espresso",
+        "la espresso"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Espresso' è maschile e inizia con vocale → l'espresso.",
+        "en": "Correct! 'Espresso' is masculine and starts with a vowel → l'espresso."
+      },
+      "feedbackErr": {
+        "it": "'Espresso' inizia con vocale → 'il' diventa 'l''. Quindi: l'espresso.",
+        "en": "'Espresso' starts with a vowel → 'il' becomes 'l''. So: l'espresso."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'ragazze' (femminile plurale)?",
+        "en": "What is the correct article for 'ragazze' (feminine plural)?"
+      },
+      "opzioni": [
+        "gli",
+        "i",
+        "le",
+        "la"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Femminile plurale → sempre 'le' → le ragazze.",
+        "en": "Correct! Feminine plural → always 'le' → le ragazze."
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale usa sempre 'le' → le ragazze, le pizze, le amiche.",
+        "en": "Feminine plural always uses 'le' → le ragazze, le pizze, le amiche."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the streets' in italiano?",
+        "en": "How do you say 'the streets' in Italian?"
+      },
+      "opzioni": [
+        "gli strade",
+        "i strade",
+        "le strade",
+        "la strade"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Strada' è femminile → plurale 'le strade'.",
+        "en": "Correct! 'Strada' is feminine → plural 'le strade'."
+      },
+      "feedbackErr": {
+        "it": "'Strada' è femminile → plurale femminile è 'le' → le strade.",
+        "en": "'Strada' is feminine → feminine plural is 'le' → le strade."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'psicologo' (maschile, inizia con ps)?",
+        "en": "What is the correct article for 'psicologo' (masculine, starts with ps)?"
+      },
+      "opzioni": [
+        "il",
+        "lo",
+        "l'",
+        "i"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Ps' è un gruppo consonantico speciale → si usa 'lo' → lo psicologo.",
+        "en": "Correct! 'Ps' is a special consonant cluster → you use 'lo' → lo psicologo."
+      },
+      "feedbackErr": {
+        "it": "Prima di ps si usa 'lo' come per z e s+consonante → lo psicologo.",
+        "en": "Before ps you use 'lo' like for z and s+consonant → lo psicologo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the sea' in italiano? (mare = maschile)",
+        "en": "How do you say 'the sea' in Italian? (mare = masculine)"
+      },
+      "opzioni": [
+        "la mare",
+        "lo mare",
+        "il mare",
+        "l'mare"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Mare' è maschile e inizia con m normale → il mare.",
+        "en": "Correct! 'Mare' is masculine and starts with normal m → il mare."
+      },
+      "feedbackErr": {
+        "it": "'Mare' è maschile, inizia con consonante normale → il mare.",
+        "en": "'Mare' is masculine, starts with normal consonant → il mare."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'occhi' (maschile plurale, inizia con vocale)?",
+        "en": "What is the correct article for 'occhi' (masculine plural, starts with vowel)?"
+      },
+      "opzioni": [
+        "i",
+        "gli",
+        "le",
+        "l'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Maschile plurale prima di vocale → gli occhi.",
+        "en": "Correct! Masculine plural before vowel → gli occhi."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale prima di vocale → 'gli', non 'i' → gli occhi.",
+        "en": "Masculine plural before vowel → 'gli', not 'i' → gli occhi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the water' in italiano? (acqua = femminile)",
+        "en": "How do you say 'the water' in Italian? (acqua = feminine)"
+      },
+      "opzioni": [
+        "il acqua",
+        "lo acqua",
+        "l'acqua",
+        "gli acqua"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Acqua' è femminile e inizia con vocale → l'acqua.",
+        "en": "Correct! 'Acqua' is feminine and starts with a vowel → l'acqua."
+      },
+      "feedbackErr": {
+        "it": "'Acqua' inizia con vocale → 'la' diventa 'l'' → l'acqua.",
+        "en": "'Acqua' starts with a vowel → 'la' becomes 'l'' → l'acqua."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'sport' (maschile, inizia con s+cons.)?",
+        "en": "What is the correct article for 'sport' (masculine, starts with s+cons.)?"
+      },
+      "opzioni": [
+        "il",
+        "lo",
+        "la",
+        "l'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sport' inizia con s+p (consonante) → lo sport.",
+        "en": "Correct! 'Sport' starts with s+p (consonant) → lo sport."
+      },
+      "feedbackErr": {
+        "it": "'Sport' inizia con s seguita da p (consonante) → si usa 'lo' → lo sport.",
+        "en": "'Sport' starts with s followed by p (consonant) → use 'lo' → lo sport."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the Italian language' in italiano? (lingua = femminile)",
+        "en": "How do you say 'the Italian language' in Italian? (lingua = feminine)"
+      },
+      "opzioni": [
+        "il lingua italiana",
+        "lo lingua italiana",
+        "la lingua italiana",
+        "l'lingua italiana"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Lingua' è femminile, inizia con l normale → la lingua italiana.",
+        "en": "Correct! 'Lingua' is feminine, starts with normal l → la lingua italiana."
+      },
+      "feedbackErr": {
+        "it": "'Lingua' è femminile → 'la lingua'. Semplice!",
+        "en": "'Lingua' is feminine → 'la lingua'. Simple!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'uomo' (maschile, inizia con u)?",
+        "en": "What is the correct article for 'uomo' (masculine, starts with u)?"
+      },
+      "opzioni": [
+        "il",
+        "lo",
+        "l'",
+        "la"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Uomo' è maschile e inizia con vocale → l'uomo.",
+        "en": "Correct! 'Uomo' is masculine and starts with a vowel → l'uomo."
+      },
+      "feedbackErr": {
+        "it": "'Uomo' inizia con vocale → 'il' diventa 'l'' → l'uomo.",
+        "en": "'Uomo' starts with a vowel → 'il' becomes 'l'' → l'uomo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the boys' in italiano? (ragazzo = maschile)",
+        "en": "How do you say 'the boys' in Italian? (ragazzo = masculine)"
+      },
+      "opzioni": [
+        "le ragazzi",
+        "gli ragazzi",
+        "i ragazzi",
+        "lo ragazzi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Ragazzi' è maschile plurale, inizia con r normale → i ragazzi.",
+        "en": "Correct! 'Ragazzi' is masculine plural, starts with normal r → i ragazzi."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale con consonante normale → 'i' → i ragazzi.",
+        "en": "Masculine plural with normal consonant → 'i' → i ragazzi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo corretto per 'estate' (femminile, inizia con e)?",
+        "en": "What is the correct article for 'estate' (feminine, starts with e)?"
+      },
+      "opzioni": [
+        "la",
+        "lo",
+        "l'",
+        "le"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Estate' è femminile e inizia con vocale → l'estate.",
+        "en": "Correct! 'Estate' is feminine and starts with a vowel → l'estate."
+      },
+      "feedbackErr": {
+        "it": "'Estate' inizia con vocale → 'la' diventa 'l'' → l'estate.",
+        "en": "'Estate' starts with a vowel → 'la' becomes 'l'' → l'estate."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo 'gli' si usa per il maschile plurale prima di vocale.",
+        "en": "The article 'gli' is used for masculine plural before a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Sì! Gli amici, gli zaini, gli studenti — 'gli' per maschile plurale speciale.",
+        "en": "Yes! Gli amici, gli zaini, gli studenti — 'gli' for special masculine plural."
+      },
+      "feedbackErr": {
+        "it": "È vero! 'Gli' si usa per maschile plurale prima di vocale, z, s+consonante, gn, ps.",
+        "en": "It's true! 'Gli' is used for masculine plural before vowel, z, s+consonant, gn, ps."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano, 'the' si traduce sempre con 'il'.",
+        "en": "In Italian, 'the' always translates as 'il'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! 'The' può essere il, lo, la, l', i, gli, le — dipende dal genere, numero e lettera iniziale.",
+        "en": "Correct! 'The' can be il, lo, la, l', i, gli, le — depends on gender, number and first letter."
+      },
+      "feedbackErr": {
+        "it": "Falso! In italiano ci sono 7 forme di 'the': il, lo, la, l', i, gli, le.",
+        "en": "False! In Italian there are 7 forms of 'the': il, lo, la, l', i, gli, le."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'il zaino' perché zaino è maschile.",
+        "en": "You say 'il zaino' because zaino is masculine."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! È falso — si dice 'lo zaino'. Prima di z si usa sempre 'lo', non 'il'.",
+        "en": "Correct! It's false — you say 'lo zaino'. Before z you always use 'lo', not 'il'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Anche se 'zaino' è maschile, prima di z si usa 'lo' → lo zaino.",
+        "en": "False! Even though 'zaino' is masculine, before z you use 'lo' → lo zaino."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo femminile plurale è sempre 'le', senza eccezioni.",
+        "en": "The feminine plural article is always 'le', with no exceptions."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Le' è l'unico articolo femminile plurale — le pizze, le amiche, le strade.",
+        "en": "Correct! 'Le' is the only feminine plural article — le pizze, le amiche, le strade."
+      },
+      "feedbackErr": {
+        "it": "È vero! Il femminile plurale usa sempre 'le' — nessuna eccezione.",
+        "en": "It's true! Feminine plural always uses 'le' — no exceptions."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'l'amico' e 'l'amica' — l' funziona sia per maschile che femminile.",
+        "en": "You say 'l'amico' and 'l'amica' — l' works for both masculine and feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Prima di vocale, sia 'il' che 'la' diventano 'l'' — l'amico (M), l'amica (F).",
+        "en": "Correct! Before a vowel, both 'il' and 'la' become 'l'' — l'amico (M), l'amica (F)."
+      },
+      "feedbackErr": {
+        "it": "È vero! 'L'' si usa prima di vocale per entrambi i generi.",
+        "en": "It's true! 'L'' is used before a vowel for both genders."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'i studenti' perché 'studenti' è maschile plurale.",
+        "en": "You say 'i studenti' because 'studenti' is masculine plural."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Studenti' inizia con s+consonante → si usa 'gli' → gli studenti.",
+        "en": "False! 'Studenti' starts with s+consonant → you use 'gli' → gli studenti."
+      },
+      "feedbackErr": {
+        "it": "Falso! Prima di s+consonante il maschile plurale usa 'gli', non 'i' → gli studenti.",
+        "en": "False! Before s+consonant masculine plural uses 'gli', not 'i' → gli studenti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo 'lo' si usa solo al singolare maschile.",
+        "en": "The article 'lo' is used only in masculine singular."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Lo' è solo singolare maschile. Il suo plurale è 'gli' → lo zaino / gli zaini.",
+        "en": "Correct! 'Lo' is only masculine singular. Its plural is 'gli' → lo zaino / gli zaini."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Lo' è singolare maschile — plurale diventa 'gli' → lo studente / gli studenti.",
+        "en": "True! 'Lo' is masculine singular — plural becomes 'gli' → lo studente / gli studenti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'la sport' perché sport è una parola straniera.",
+        "en": "You say 'la sport' because sport is a foreign word."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Sport' è maschile e inizia con s+p → lo sport. Le parole straniere seguono le stesse regole.",
+        "en": "False! 'Sport' is masculine and starts with s+p → lo sport. Foreign words follow the same rules."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Sport' è maschile (lo sport). Le parole straniere non sono un'eccezione.",
+        "en": "False! 'Sport' is masculine (lo sport). Foreign words are not an exception."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Prima di 'gnocchi' si usa l'articolo 'gli'.",
+        "en": "Before 'gnocchi' you use the article 'gli'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Gnocchi' inizia con gn → maschile plurale speciale → gli gnocchi.",
+        "en": "Correct! 'Gnocchi' starts with gn → special masculine plural → gli gnocchi."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Gn' è un suono speciale → gli gnocchi (plurale di lo gnocco).",
+        "en": "True! 'Gn' is a special sound → gli gnocchi (plural of lo gnocco)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La parola 'mano' è femminile — si dice 'la mano'.",
+        "en": "The word 'mano' is feminine — you say 'la mano'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mano' è femminile — la mano, le mani. Sì, finisce in -o ma è femminile. Benvenuto in italiano!",
+        "en": "Correct! 'Mano' is feminine — la mano, le mani. Yes, it ends in -o but it's feminine. Welcome to Italian!"
+      },
+      "feedbackErr": {
+        "it": "È vero! 'Mano' finisce in -o ma è femminile: la mano. Non tutto segue la regola -o = maschile.",
+        "en": "It's true! 'Mano' ends in -o but it's feminine: la mano. Not everything follows the -o = masculine rule."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'gli occhi' perché 'occhi' è maschile plurale e inizia con vocale.",
+        "en": "You say 'gli occhi' because 'occhi' is masculine plural and starts with a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maschile plurale + vocale iniziale → gli occhi.",
+        "en": "Correct! Masculine plural + initial vowel → gli occhi."
+      },
+      "feedbackErr": {
+        "it": "Vero! Maschile plurale prima di vocale → 'gli' → gli occhi.",
+        "en": "True! Masculine plural before vowel → 'gli' → gli occhi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Le' si usa solo per parole femminili che iniziano con consonante.",
+        "en": "'Le' is only used for feminine words that start with a consonant."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Le' si usa per TUTTE le parole femminili plurali — le amiche, le pizze, le strade.",
+        "en": "False! 'Le' is used for ALL feminine plural words — le amiche, le pizze, le strade."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Le' è l'articolo femminile plurale universale — sia con vocale che consonante.",
+        "en": "False! 'Le' is the universal feminine plural article — both before vowel and consonant."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'l'amico' è 'gli amici'.",
+        "en": "The plural of 'l'amico' is 'gli amici'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! L'amico → gli amici. Maschile plurale prima di vocale → 'gli'.",
+        "en": "Correct! L'amico → gli amici. Masculine plural before vowel → 'gli'."
+      },
+      "feedbackErr": {
+        "it": "Vero! L'amico (singolare) → gli amici (plurale). Prima di vocale, maschile plurale usa 'gli'.",
+        "en": "True! L'amico (singular) → gli amici (plural). Before vowel, masculine plural uses 'gli'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'il psicologo' perché inizia con p.",
+        "en": "You say 'il psicologo' because it starts with p."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Psicologo' inizia con ps (gruppo speciale) → lo psicologo.",
+        "en": "False! 'Psicologo' starts with ps (special group) → lo psicologo."
+      },
+      "feedbackErr": {
+        "it": "Falso! Non è la p da sola, è ps insieme → lo psicologo, lo pneumatico.",
+        "en": "False! It's not p alone, it's ps together → lo psicologo, lo pneumatico."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano, il genere di un nome cambia l'articolo ma non il significato.",
+        "en": "In Italian, the gender of a noun changes the article but not the meaning."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il genere determina l'articolo ma la parola significa la stessa cosa.",
+        "en": "Correct! Gender determines the article but the word means the same thing."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il genere cambia solo l'articolo e le desinenze — non il significato.",
+        "en": "True! Gender only changes the article and endings — not the meaning."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'lo yoga' perché yoga inizia con y.",
+        "en": "You say 'lo yoga' because yoga starts with y."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Y' in italiano si comporta come una semivocale speciale → lo yoga.",
+        "en": "Correct! 'Y' in Italian behaves like a special semivowel → lo yoga."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Yoga' inizia con y (semivocale) → lo yoga. Stessa regola per lo yogurt.",
+        "en": "True! 'Yoga' starts with y (semivowel) → lo yoga. Same rule for lo yogurt."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'lo zaino' è 'i zaini'.",
+        "en": "The plural of 'lo zaino' is 'i zaini'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il plurale di 'lo zaino' è 'gli zaini' — prima di z rimane 'gli'.",
+        "en": "False! The plural of 'lo zaino' is 'gli zaini' — before z it stays 'gli'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Lo zaino → gli zaini (non 'i zaini'). La regola speciale vale anche al plurale.",
+        "en": "False! Lo zaino → gli zaini (not 'i zaini'). The special rule applies in the plural too."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'l'università' perché università è femminile e inizia con vocale.",
+        "en": "You say 'l'università' because università is feminine and starts with a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Femminile + vocale iniziale → l'università.",
+        "en": "Correct! Feminine + initial vowel → l'università."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Università' è femminile e inizia con u → la → l'università.",
+        "en": "True! 'Università' is feminine and starts with u → la → l'università."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Tutti i nomi che finiscono in -a sono femminili in italiano.",
+        "en": "All nouns ending in -a are feminine in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Il problema', 'il tema', 'il cinema' finiscono in -a ma sono maschili.",
+        "en": "False! 'Il problema', 'il tema', 'il cinema' end in -a but are masculine."
+      },
+      "feedbackErr": {
+        "it": "Falso! Ci sono eccezioni: il problema, il tema, il cinema, il poeta — finiscono in -a ma sono maschili.",
+        "en": "False! There are exceptions: il problema, il tema, il cinema, il poeta — end in -a but are masculine."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'gli spaghetti' perché spaghetti inizia con sp (s+consonante).",
+        "en": "You say 'gli spaghetti' because spaghetti starts with sp (s+consonant)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Sp' è s+consonante → maschile plurale usa 'gli' → gli spaghetti.",
+        "en": "Correct! 'Sp' is s+consonant → masculine plural uses 'gli' → gli spaghetti."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Spaghetti' inizia con sp → regola speciale → gli spaghetti.",
+        "en": "True! 'Spaghetti' starts with sp → special rule → gli spaghetti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ caffè di Mario è ottimo.",
+        "en": "Build: ___ coffee by Mario is excellent."
+      },
+      "parole": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "distrattori": [
+        "Lo",
+        "La",
+        "Gli"
+      ],
+      "correct": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Caffè' è maschile, inizia con c normale → il caffè.",
+        "en": "Perfect! 'Caffè' is masculine, starts with normal c → il caffè."
+      },
+      "feedbackErr": {
+        "it": "'Caffè' è maschile con consonante normale → il caffè.",
+        "en": "'Caffè' is masculine with normal consonant → il caffè."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ amici di Sofia sono simpatici.",
+        "en": "Build: ___ friends of Sofia are nice."
+      },
+      "parole": [
+        "Gli",
+        "amici",
+        "di",
+        "Sofia",
+        "sono",
+        "simpatici"
+      ],
+      "distrattori": [
+        "I",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Gli",
+        "amici",
+        "di",
+        "Sofia",
+        "sono",
+        "simpatici"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Amici' è maschile plurale e inizia con vocale → gli amici.",
+        "en": "Perfect! 'Amici' is masculine plural and starts with a vowel → gli amici."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale + vocale iniziale → 'gli' → gli amici.",
+        "en": "Masculine plural + initial vowel → 'gli' → gli amici."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ studente è bravo.",
+        "en": "Build: ___ student is good."
+      },
+      "parole": [
+        "Lo",
+        "studente",
+        "è",
+        "bravo"
+      ],
+      "distrattori": [
+        "Il",
+        "La",
+        "I"
+      ],
+      "correct": [
+        "Lo",
+        "studente",
+        "è",
+        "bravo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Studente' inizia con st (s+consonante) → lo studente.",
+        "en": "Perfect! 'Studente' starts with st (s+consonant) → lo studente."
+      },
+      "feedbackErr": {
+        "it": "'Studente' inizia con s+consonante → si usa 'lo', non 'il'.",
+        "en": "'Studente' starts with s+consonant → use 'lo', not 'il'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ ragazze napoletane sono belle.",
+        "en": "Build: ___ Neapolitan girls are beautiful."
+      },
+      "parole": [
+        "Le",
+        "ragazze",
+        "napoletane",
+        "sono",
+        "belle"
+      ],
+      "distrattori": [
+        "Gli",
+        "I",
+        "La"
+      ],
+      "correct": [
+        "Le",
+        "ragazze",
+        "napoletane",
+        "sono",
+        "belle"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Ragazze' è femminile plurale → le ragazze.",
+        "en": "Perfect! 'Ragazze' is feminine plural → le ragazze."
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale → sempre 'le' → le ragazze.",
+        "en": "Feminine plural → always 'le' → le ragazze."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ università è vicina.",
+        "en": "Build: ___ university is nearby."
+      },
+      "parole": [
+        "L'",
+        "università",
+        "è",
+        "vicina"
+      ],
+      "distrattori": [
+        "La",
+        "Lo",
+        "Il"
+      ],
+      "correct": [
+        "L'",
+        "università",
+        "è",
+        "vicina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Università' è femminile e inizia con u → l'università.",
+        "en": "Perfect! 'Università' is feminine and starts with u → l'università."
+      },
+      "feedbackErr": {
+        "it": "'Università' inizia con vocale → 'la' diventa 'l'' → l'università.",
+        "en": "'Università' starts with a vowel → 'la' becomes 'l'' → l'università."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ sport preferito è il calcio.",
+        "en": "Build: ___ favourite sport is football."
+      },
+      "parole": [
+        "Lo",
+        "sport",
+        "preferito",
+        "è",
+        "il",
+        "calcio"
+      ],
+      "distrattori": [
+        "Il",
+        "La",
+        "Gli"
+      ],
+      "correct": [
+        "Lo",
+        "sport",
+        "preferito",
+        "è",
+        "il",
+        "calcio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Sport' inizia con sp → lo sport.",
+        "en": "Perfect! 'Sport' starts with sp → lo sport."
+      },
+      "feedbackErr": {
+        "it": "'Sport' inizia con s+p → si usa 'lo' → lo sport.",
+        "en": "'Sport' starts with s+p → use 'lo' → lo sport."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ libri sono sul tavolo.",
+        "en": "Build: ___ books are on the table."
+      },
+      "parole": [
+        "I",
+        "libri",
+        "sono",
+        "sul",
+        "tavolo"
+      ],
+      "distrattori": [
+        "Gli",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "I",
+        "libri",
+        "sono",
+        "sul",
+        "tavolo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Libri' è maschile plurale con consonante normale → i libri.",
+        "en": "Perfect! 'Libri' is masculine plural with normal consonant → i libri."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale + consonante normale → 'i' → i libri.",
+        "en": "Masculine plural + normal consonant → 'i' → i libri."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ uomo al bar si chiama Mario.",
+        "en": "Build: ___ man at the bar is called Mario."
+      },
+      "parole": [
+        "L'",
+        "uomo",
+        "al",
+        "bar",
+        "si",
+        "chiama",
+        "Mario"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "La"
+      ],
+      "correct": [
+        "L'",
+        "uomo",
+        "al",
+        "bar",
+        "si",
+        "chiama",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Uomo' è maschile e inizia con u → l'uomo.",
+        "en": "Perfect! 'Uomo' is masculine and starts with u → l'uomo."
+      },
+      "feedbackErr": {
+        "it": "'Uomo' inizia con vocale → 'il' diventa 'l'' → l'uomo.",
+        "en": "'Uomo' starts with a vowel → 'il' becomes 'l'' → l'uomo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ gnocchi sono pronti.",
+        "en": "Build: ___ gnocchi are ready."
+      },
+      "parole": [
+        "Gli",
+        "gnocchi",
+        "sono",
+        "pronti"
+      ],
+      "distrattori": [
+        "I",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Gli",
+        "gnocchi",
+        "sono",
+        "pronti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Gnocchi' inizia con gn → maschile plurale speciale → gli gnocchi.",
+        "en": "Perfect! 'Gnocchi' starts with gn → special masculine plural → gli gnocchi."
+      },
+      "feedbackErr": {
+        "it": "'Gn' è speciale → maschile plurale usa 'gli' → gli gnocchi.",
+        "en": "'Gn' is special → masculine plural uses 'gli' → gli gnocchi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ estate a Napoli è bellissima.",
+        "en": "Build: ___ summer in Naples is gorgeous."
+      },
+      "parole": [
+        "L'",
+        "estate",
+        "a",
+        "Napoli",
+        "è",
+        "bellissima"
+      ],
+      "distrattori": [
+        "La",
+        "Lo",
+        "Il"
+      ],
+      "correct": [
+        "L'",
+        "estate",
+        "a",
+        "Napoli",
+        "è",
+        "bellissima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Estate' è femminile e inizia con e → l'estate.",
+        "en": "Perfect! 'Estate' is feminine and starts with e → l'estate."
+      },
+      "feedbackErr": {
+        "it": "'Estate' è femminile + vocale iniziale → 'la' diventa 'l'' → l'estate.",
+        "en": "'Estate' is feminine + initial vowel → 'la' becomes 'l'' → l'estate."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ zaini degli studenti sono pesanti.",
+        "en": "Build: ___ students' backpacks are heavy."
+      },
+      "parole": [
+        "Gli",
+        "zaini",
+        "degli",
+        "studenti",
+        "sono",
+        "pesanti"
+      ],
+      "distrattori": [
+        "I",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Gli",
+        "zaini",
+        "degli",
+        "studenti",
+        "sono",
+        "pesanti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Zaini' inizia con z → maschile plurale speciale → gli zaini.",
+        "en": "Perfect! 'Zaini' starts with z → special masculine plural → gli zaini."
+      },
+      "feedbackErr": {
+        "it": "'Zaini' inizia con z → 'gli' anche al plurale → gli zaini.",
+        "en": "'Zaini' starts with z → 'gli' in the plural too → gli zaini."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ acqua di Napoli è buona.",
+        "en": "Build: ___ water in Naples is good."
+      },
+      "parole": [
+        "L'",
+        "acqua",
+        "di",
+        "Napoli",
+        "è",
+        "buona"
+      ],
+      "distrattori": [
+        "La",
+        "Il",
+        "Lo"
+      ],
+      "correct": [
+        "L'",
+        "acqua",
+        "di",
+        "Napoli",
+        "è",
+        "buona"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Acqua' è femminile e inizia con a → l'acqua.",
+        "en": "Perfect! 'Acqua' is feminine and starts with a → l'acqua."
+      },
+      "feedbackErr": {
+        "it": "'Acqua' è femminile + vocale → 'la' diventa 'l'' → l'acqua.",
+        "en": "'Acqua' is feminine + vowel → 'la' becomes 'l'' → l'acqua."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ mano destra di Mario.",
+        "en": "Build: ___ right hand of Mario."
+      },
+      "parole": [
+        "La",
+        "mano",
+        "destra",
+        "di",
+        "Mario"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "L'"
+      ],
+      "correct": [
+        "La",
+        "mano",
+        "destra",
+        "di",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mano' finisce in -o ma è femminile → la mano.",
+        "en": "Perfect! 'Mano' ends in -o but it's feminine → la mano."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! 'Mano' finisce in -o ma è femminile → la mano, le mani.",
+        "en": "Watch out! 'Mano' ends in -o but it's feminine → la mano, le mani."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ psicologa è brava.",
+        "en": "Build: ___ psychologist is good."
+      },
+      "parole": [
+        "La",
+        "psicologa",
+        "è",
+        "brava"
+      ],
+      "distrattori": [
+        "Lo",
+        "Il",
+        "L'"
+      ],
+      "correct": [
+        "La",
+        "psicologa",
+        "è",
+        "brava"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Psicologa' è femminile → la psicologa (non lo — quello è per il maschile).",
+        "en": "Perfect! 'Psicologa' is feminine → la psicologa (not lo — that's for masculine)."
+      },
+      "feedbackErr": {
+        "it": "'Psicologa' è femminile → 'la', non 'lo'. 'Lo' è solo per il maschile.",
+        "en": "'Psicologa' is feminine → 'la', not 'lo'. 'Lo' is only for masculine."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ occhi di Diego sono verdi.",
+        "en": "Build: ___ eyes of Diego are green."
+      },
+      "parole": [
+        "Gli",
+        "occhi",
+        "di",
+        "Diego",
+        "sono",
+        "verdi"
+      ],
+      "distrattori": [
+        "I",
+        "Le",
+        "L'"
+      ],
+      "correct": [
+        "Gli",
+        "occhi",
+        "di",
+        "Diego",
+        "sono",
+        "verdi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Occhi' è maschile plurale e inizia con o → gli occhi.",
+        "en": "Perfect! 'Occhi' is masculine plural and starts with o → gli occhi."
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale + vocale → 'gli' → gli occhi.",
+        "en": "Masculine plural + vowel → 'gli' → gli occhi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ lingua italiana è bella.",
+        "en": "Build: ___ Italian language is beautiful."
+      },
+      "parole": [
+        "La",
+        "lingua",
+        "italiana",
+        "è",
+        "bella"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "Le"
+      ],
+      "correct": [
+        "La",
+        "lingua",
+        "italiana",
+        "è",
+        "bella"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Lingua' è femminile, inizia con l normale → la lingua.",
+        "en": "Perfect! 'Lingua' is feminine, starts with normal l → la lingua."
+      },
+      "feedbackErr": {
+        "it": "'Lingua' è femminile → 'la lingua'. Semplice!",
+        "en": "'Lingua' is feminine → 'la lingua'. Simple!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ spaghetti al pomodoro sono pronti.",
+        "en": "Build: ___ spaghetti with tomato sauce are ready."
+      },
+      "parole": [
+        "Gli",
+        "spaghetti",
+        "al",
+        "pomodoro",
+        "sono",
+        "pronti"
+      ],
+      "distrattori": [
+        "I",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Gli",
+        "spaghetti",
+        "al",
+        "pomodoro",
+        "sono",
+        "pronti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Spaghetti' inizia con sp → gli spaghetti.",
+        "en": "Perfect! 'Spaghetti' starts with sp → gli spaghetti."
+      },
+      "feedbackErr": {
+        "it": "'Spaghetti' inizia con s+p → regola speciale → gli spaghetti.",
+        "en": "'Spaghetti' starts with s+p → special rule → gli spaghetti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ yoga fa bene alla salute.",
+        "en": "Build: ___ yoga is good for your health."
+      },
+      "parole": [
+        "Lo",
+        "yoga",
+        "fa",
+        "bene",
+        "alla",
+        "salute"
+      ],
+      "distrattori": [
+        "Il",
+        "La",
+        "Gli"
+      ],
+      "correct": [
+        "Lo",
+        "yoga",
+        "fa",
+        "bene",
+        "alla",
+        "salute"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Yoga' inizia con y (semivocale) → lo yoga.",
+        "en": "Perfect! 'Yoga' starts with y (semivowel) → lo yoga."
+      },
+      "feedbackErr": {
+        "it": "'Yoga' inizia con y → si usa 'lo' → lo yoga, lo yogurt.",
+        "en": "'Yoga' starts with y → use 'lo' → lo yoga, lo yogurt."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ mare di Napoli è bellissimo.",
+        "en": "Build: ___ sea of Naples is stunning."
+      },
+      "parole": [
+        "Il",
+        "mare",
+        "di",
+        "Napoli",
+        "è",
+        "bellissimo"
+      ],
+      "distrattori": [
+        "La",
+        "Lo",
+        "Gli"
+      ],
+      "correct": [
+        "Il",
+        "mare",
+        "di",
+        "Napoli",
+        "è",
+        "bellissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mare' è maschile, inizia con m normale → il mare.",
+        "en": "Perfect! 'Mare' is masculine, starts with normal m → il mare."
+      },
+      "feedbackErr": {
+        "it": "'Mare' è maschile + consonante normale → il mare.",
+        "en": "'Mare' is masculine + normal consonant → il mare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ zaino di Marco è pesantissimo.",
+        "en": "Build: ___ Marco's backpack is very heavy."
+      },
+      "parole": [
+        "Lo",
+        "zaino",
+        "di",
+        "Marco",
+        "è",
+        "pesantissimo"
+      ],
+      "distrattori": [
+        "Il",
+        "La",
+        "L'"
+      ],
+      "correct": [
+        "Lo",
+        "zaino",
+        "di",
+        "Marco",
+        "è",
+        "pesantissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Zaino' inizia con z → lo (non il). Lo zaino.",
+        "en": "Perfect! 'Zaino' starts with z → lo (not il). Lo zaino."
+      },
+      "feedbackErr": {
+        "it": "Prima di z → 'lo', non 'il'. Lo zaino di Marco.",
+        "en": "Before z → 'lo', not 'il'. Lo zaino di Marco."
+      }
+    }
+  ]
+}

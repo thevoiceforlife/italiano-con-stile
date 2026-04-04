@@ -1,0 +1,1533 @@
+{
+  "id": "aggettivi",
+  "categoria": "grammatica",
+  "emoji": "🎨",
+  "livello": "A2",
+  "titolo": {
+    "it": "Aggettivi",
+    "en": "Adjectives"
+  },
+  "mario": "L'aggettivo in italiano segue il nome — quasi sempre. E cambia forma per genere e numero. Non è difficile, ma bisogna saperlo.",
+  "marioEn": "The adjective in Italian follows the noun — almost always. And it changes form for gender and number. It's not hard, but you need to know it.",
+  "perche": {
+    "it": "In inglese l'aggettivo non cambia mai: 'a beautiful house', 'beautiful houses' — beautiful rimane identico. In italiano no: bello cambia in bella, belli, belle a seconda del nome che accompagna. Questo si chiama concordanza. Il motivo storico è il latino, dove tutti i nomi avevano desinenze che cambiavano con il caso. In italiano moderno resta solo il genere e il numero — ma rimane obbligatorio.",
+    "en": "In English the adjective never changes: 'a beautiful house', 'beautiful houses' — beautiful stays identical. In Italian no: bello changes to bella, belli, belle depending on the noun it accompanies. This is called agreement. The historical reason is Latin, where all nouns had endings that changed with case. In modern Italian only gender and number remain — but they are still compulsory."
+  },
+  "spiegazione": {
+    "it": "Gli aggettivi in -o hanno 4 forme: -o (M sing.), -a (F sing.), -i (M pl.), -e (F pl.). Gli aggettivi in -e hanno 2 forme: -e (sing. M e F), -i (pl. M e F).",
+    "en": "Adjectives in -o have 4 forms: -o (M sing.), -a (F sing.), -i (M pl.), -e (F pl.). Adjectives in -e have 2 forms: -e (sing. M and F), -i (pl. M and F)."
+  },
+  "tabella": {
+    "headers": [
+      "Tipo",
+      "M sing.",
+      "F sing.",
+      "M pl.",
+      "F pl.",
+      "Esempio"
+    ],
+    "rows": [
+      [
+        "Aggettivi in -o",
+        "bello",
+        "bella",
+        "belli",
+        "belle",
+        "un ragazzo bello / una ragazza bella"
+      ],
+      [
+        "Aggettivi in -e",
+        "grande",
+        "grande",
+        "grandi",
+        "grandi",
+        "un uomo grande / una donna grande"
+      ],
+      [
+        "Posizione normale",
+        "dopo il nome",
+        "dopo il nome",
+        "—",
+        "—",
+        "una pizza buona"
+      ],
+      [
+        "Posizione enfatica",
+        "prima del nome",
+        "prima del nome",
+        "—",
+        "—",
+        "una buona pizza"
+      ],
+      [
+        "Bello davanti",
+        "bel/bell'/bello",
+        "bella/bell'",
+        "bei/begli",
+        "belle",
+        "bel ragazzo, bell'uomo, begli occhi"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Mario è un ragazzo simpatico.",
+      "en": "Mario is a nice guy.",
+      "audio": "Mario è un ragazzo simpatico."
+    },
+    {
+      "it": "La pizza napoletana è buonissima!",
+      "en": "Neapolitan pizza is absolutely delicious!",
+      "audio": "La pizza napoletana è buonissima!"
+    },
+    {
+      "it": "Ho due amici italiani.",
+      "en": "I have two Italian friends.",
+      "audio": "Ho due amici italiani."
+    },
+    {
+      "it": "Le strade di Napoli sono bellissime.",
+      "en": "The streets of Naples are gorgeous.",
+      "audio": "Le strade di Napoli sono bellissime."
+    },
+    {
+      "it": "È un bel posto.",
+      "en": "It's a beautiful place.",
+      "audio": "È un bel posto."
+    }
+  ],
+  "nota": {
+    "it": "💡 'Bello' davanti al nome si comporta come l'articolo: bel (il), bell' (l'), bello (lo), bella (la), bei (i), begli (gli), belle (le). Bel ragazzo, bell'amico, bello zaino, bei libri, begli occhi.",
+    "en": "💡 'Bello' before a noun behaves like the article: bel (il), bell' (l'), bello (lo), bella (la), bei (i), begli (gli), belle (le). Bel ragazzo, bell'amico, bello zaino, bei libri, begli occhi."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'bello' per 'ragazza'?",
+        "en": "What is the correct form of 'bello' for 'ragazza'?"
+      },
+      "opzioni": [
+        "bello",
+        "belli",
+        "belle",
+        "bella"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Ragazza è femminile singolare → bella.",
+        "en": "Correct! Ragazza is feminine singular → bella."
+      },
+      "feedbackErr": {
+        "it": "Femminile singolare → bella. Bello (M sing.), bella (F sing.), belli (M pl.), belle (F pl.).",
+        "en": "Feminine singular → bella. Bello (M sing.), bella (F sing.), belli (M pl.), belle (F pl.)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'italiano' per 'ragazze'?",
+        "en": "What is the correct form of 'italiano' for 'ragazze'?"
+      },
+      "opzioni": [
+        "italiano",
+        "italiana",
+        "italiani",
+        "italiane"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Ragazze è femminile plurale → italiane.",
+        "en": "Correct! Ragazze is feminine plural → italiane."
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale → -e: italiane.",
+        "en": "Feminine plural → -e: italiane."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'grande' per 'uomo'?",
+        "en": "What is the correct form of 'grande' for 'uomo'?"
+      },
+      "opzioni": [
+        "granda",
+        "grandi",
+        "grande",
+        "grandes"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Grande' è un aggettivo in -e → non cambia al singolare: grande (M e F).",
+        "en": "Correct! 'Grande' is an -e adjective → doesn't change in singular: grande (M and F)."
+      },
+      "feedbackErr": {
+        "it": "Aggettivi in -e: una forma al singolare (grande), una al plurale (grandi).",
+        "en": "Adjectives in -e: one form in singular (grande), one in plural (grandi)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'beautiful man' in italiano?",
+        "en": "How do you say 'beautiful man' in Italian?"
+      },
+      "opzioni": [
+        "un uomo bello",
+        "un bel uomo",
+        "un bell'uomo",
+        "un bello uomo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Bello davanti a vocale maschile → bell': un bell'uomo.",
+        "en": "Correct! Bello before masculine vowel → bell': un bell'uomo."
+      },
+      "feedbackErr": {
+        "it": "Bello davanti a vocale → bell': bell'uomo, bell'amico.",
+        "en": "Bello before vowel → bell': bell'uomo, bell'amico."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'beautiful eyes' in italiano?",
+        "en": "How do you say 'beautiful eyes' in Italian?"
+      },
+      "opzioni": [
+        "bei occhi",
+        "belli occhi",
+        "bel occhi",
+        "bello occhi"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Occhi è maschile plurale con vocale → bei (come 'gli' → 'bei'... aspetta: occhi inizia con o → begli occhi! Ma 'bei' si usa prima di consonante normale. Occhi inizia con o → begli occhi.",
+        "en": "Wait — occhi starts with a vowel → begli occhi is actually correct! Bei is for normal consonants."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! Occhi inizia con vocale → begli occhi (non bei occhi). Bei si usa prima di consonante normale.",
+        "en": "Watch out! Occhi starts with a vowel → begli occhi (not bei occhi). Bei is used before normal consonants."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove va normalmente l'aggettivo in italiano?",
+        "en": "Where does the adjective normally go in Italian?"
+      },
+      "opzioni": [
+        "Prima del nome",
+        "Dopo il nome",
+        "All'inizio della frase",
+        "Non ha posizione fissa"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! L'aggettivo va normalmente dopo il nome: una pizza buona, un ragazzo simpatico.",
+        "en": "Correct! The adjective normally goes after the noun: una pizza buona, un ragazzo simpatico."
+      },
+      "feedbackErr": {
+        "it": "Posizione normale: DOPO il nome. Prima solo per enfasi o con certi aggettivi fissi.",
+        "en": "Normal position: AFTER the noun. Before only for emphasis or with certain fixed adjectives."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'stanco' per 'donne'?",
+        "en": "What is the correct form of 'stanco' for 'donne'?"
+      },
+      "opzioni": [
+        "stanco",
+        "stanca",
+        "stanchi",
+        "stanche"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Donne = femminile plurale → stanche.",
+        "en": "Correct! Donne = feminine plural → stanche."
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale → -e: stanche.",
+        "en": "Feminine plural → -e: stanche."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'a nice place' in italiano?",
+        "en": "How do you say 'a nice place' in Italian?"
+      },
+      "opzioni": [
+        "un posto simpatico",
+        "un simpatico posto",
+        "una simpatica posto",
+        "un posto simpatica"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Posto è maschile → simpatico. Posizione normale: dopo il nome.",
+        "en": "Correct! Posto is masculine → simpatico. Normal position: after the noun."
+      },
+      "feedbackErr": {
+        "it": "Posto = maschile → simpatico. L'aggettivo concorda e va dopo il nome.",
+        "en": "Posto = masculine → simpatico. The adjective agrees and goes after the noun."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'interessante' per 'libri'?",
+        "en": "What is the correct form of 'interessante' for 'libri'?"
+      },
+      "opzioni": [
+        "interessante",
+        "interessanti",
+        "interessanta",
+        "interessantes"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Aggettivi in -e: plurale in -i → interessanti.",
+        "en": "Correct! Adjectives in -e: plural in -i → interessanti."
+      },
+      "feedbackErr": {
+        "it": "Aggettivi in -e → plurale -i: interessante → interessanti.",
+        "en": "Adjectives in -e → plural -i: interessante → interessanti."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'a beautiful book' in italiano?",
+        "en": "How do you say 'a beautiful book' in Italian?"
+      },
+      "opzioni": [
+        "un libro bello",
+        "un bel libro",
+        "un bello libro",
+        "un bell'libro"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Bello davanti a consonante normale maschile → bel: un bel libro.",
+        "en": "Correct! Bello before normal masculine consonant → bel: un bel libro."
+      },
+      "feedbackErr": {
+        "it": "Bello davanti a consonante normale → bel: bel libro, bel ragazzo.",
+        "en": "Bello before normal consonant → bel: bel libro, bel ragazzo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Italian wines' in italiano?",
+        "en": "How do you say 'Italian wines' in Italian?"
+      },
+      "opzioni": [
+        "vino italiani",
+        "vini italiana",
+        "vini italiani",
+        "vino italiano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Vini = maschile plurale → italiani.",
+        "en": "Correct! Vini = masculine plural → italiani."
+      },
+      "feedbackErr": {
+        "it": "Vini = maschile plurale → italiani.",
+        "en": "Vini = masculine plural → italiani."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'bello' davanti a 'zaino'?",
+        "en": "What is the correct form of 'bello' before 'zaino'?"
+      },
+      "opzioni": [
+        "bel zaino",
+        "bell'zaino",
+        "bello zaino",
+        "bei zaino"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Zaino inizia con z → bello zaino (come lo zaino → bello zaino).",
+        "en": "Correct! Zaino starts with z → bello zaino (like lo zaino → bello zaino)."
+      },
+      "feedbackErr": {
+        "it": "Prima di z → bello (come lo): bello zaino, bello studente.",
+        "en": "Before z → bello (like lo): bello zaino, bello studente."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il superlativo assoluto di 'buono'?",
+        "en": "How do you form the absolute superlative of 'buono'?"
+      },
+      "opzioni": [
+        "buonissimo",
+        "molto buono",
+        "buonissimo o molto buono",
+        "buonoso"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Entrambi corretti: buonissimo (superlativo sintetico) e molto buono (analitico).",
+        "en": "Correct! Both correct: buonissimo (synthetic superlative) and molto buono (analytic)."
+      },
+      "feedbackErr": {
+        "it": "Due modi: buonissimo (-issimo) oppure molto buono. Entrambi corretti.",
+        "en": "Two ways: buonissimo (-issimo) or molto buono. Both correct."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è corretta?",
+        "en": "Which sentence is correct?"
+      },
+      "opzioni": [
+        "Mario è un ragazzo simpatica.",
+        "Mario è un ragazzo simpatico.",
+        "Mario è una ragazzo simpatico.",
+        "Mario è un ragazza simpatico."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Mario = maschile → ragazzo simpatico. L'aggettivo concorda col nome.",
+        "en": "Correct! Mario = masculine → ragazzo simpatico. The adjective agrees with the noun."
+      },
+      "feedbackErr": {
+        "it": "Mario è M → ragazzo (M) + simpatico (M). Tutto maschile.",
+        "en": "Mario is M → ragazzo (M) + simpatico (M). All masculine."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the streets are long' in italiano?",
+        "en": "How do you say 'the streets are long' in Italian?"
+      },
+      "opzioni": [
+        "Le strade sono lungo.",
+        "Le strade sono lunga.",
+        "Le strade sono lunghi.",
+        "Le strade sono lunghe."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Strade = femminile plurale → lunghe.",
+        "en": "Correct! Strade = feminine plural → lunghe."
+      },
+      "feedbackErr": {
+        "it": "Strade = F pl. → lunghe (-e per femminile plurale).",
+        "en": "Strade = F pl. → lunghe (-e for feminine plural)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il comparativo di 'buono'?",
+        "en": "What is the comparative of 'buono'?"
+      },
+      "opzioni": [
+        "più buono / migliore",
+        "buonissimo",
+        "molto buono",
+        "buonevole"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Comparativo: più buono (regolare) o migliore (irregolare) — entrambi corretti.",
+        "en": "Correct! Comparative: più buono (regular) or migliore (irregular) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Comparativo: più buono o migliore. Migliore è più formale ed elegante.",
+        "en": "Comparative: più buono or migliore. Migliore is more formal and elegant."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'bello' davanti a 'studente'?",
+        "en": "What is the correct form of 'bello' before 'studente'?"
+      },
+      "opzioni": [
+        "bel studente",
+        "bei studente",
+        "bello studente",
+        "bell'studente"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Studente inizia con st (s+consonante) → bello studente (come lo studente).",
+        "en": "Correct! Studente starts with st (s+consonant) → bello studente (like lo studente)."
+      },
+      "feedbackErr": {
+        "it": "Prima di s+consonante → bello (come lo): bello studente, bello zaino.",
+        "en": "Before s+consonant → bello (like lo): bello studente, bello zaino."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'a very good pizza' in italiano?",
+        "en": "How do you say 'a very good pizza' in Italian?"
+      },
+      "opzioni": [
+        "una pizza buonissima",
+        "una pizza buonissimo",
+        "un pizza buonissima",
+        "una pizze buonissima"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Pizza = F sing. → buonissima (superlativo femminile).",
+        "en": "Correct! Pizza = F sing. → buonissima (feminine superlative)."
+      },
+      "feedbackErr": {
+        "it": "Pizza = F → buonissima. Il superlativo concorda come l'aggettivo normale.",
+        "en": "Pizza = F → buonissima. The superlative agrees like the normal adjective."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale aggettivo NON cambia al singolare tra M e F?",
+        "en": "Which adjective does NOT change in singular between M and F?"
+      },
+      "opzioni": [
+        "bello",
+        "simpatico",
+        "italiano",
+        "grande"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Grande' è in -e → uguale per M e F al singolare: un uomo grande, una donna grande.",
+        "en": "Correct! 'Grande' is in -e → same for M and F in singular: un uomo grande, una donna grande."
+      },
+      "feedbackErr": {
+        "it": "Aggettivi in -e (grande, interessante, intelligente) non cambiano al singolare.",
+        "en": "Adjectives in -e (grande, interessante, intelligente) don't change in singular."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'beautiful friends' (maschile plurale) in italiano?",
+        "en": "How do you say 'beautiful friends' (masculine plural) in Italian?"
+      },
+      "opzioni": [
+        "bel amici",
+        "begli amici",
+        "bei amici",
+        "belli amici"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Amici = M pl. + vocale iniziale → begli amici (come gli amici).",
+        "en": "Correct! Amici = M pl. + initial vowel → begli amici (like gli amici)."
+      },
+      "feedbackErr": {
+        "it": "M pl. + vocale → begli (come gli): begli amici, begli occhi.",
+        "en": "M pl. + vowel → begli (like gli): begli amici, begli occhi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano l'aggettivo deve concordare con il nome in genere e numero.",
+        "en": "In Italian the adjective must agree with the noun in gender and number."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La concordanza è obbligatoria: un ragazzo simpatico, una ragazza simpatica.",
+        "en": "Correct! Agreement is compulsory: un ragazzo simpatico, una ragazza simpatica."
+      },
+      "feedbackErr": {
+        "it": "Vero! L'aggettivo concorda sempre col nome — genere e numero.",
+        "en": "True! The adjective always agrees with the noun — gender and number."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In inglese l'aggettivo concorda col nome come in italiano.",
+        "en": "In English the adjective agrees with the noun like in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! In inglese l'aggettivo è invariabile: a beautiful house, beautiful houses — identico.",
+        "en": "False! In English the adjective is invariable: a beautiful house, beautiful houses — identical."
+      },
+      "feedbackErr": {
+        "it": "Falso! In inglese l'aggettivo non cambia mai. In italiano sì.",
+        "en": "False! In English the adjective never changes. In Italian it does."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Gli aggettivi in -e hanno due forme: singolare e plurale.",
+        "en": "Adjectives in -e have two forms: singular and plural."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Grande → grandi. Interessante → interessanti. Solo due forme, non quattro.",
+        "en": "Correct! Grande → grandi. Interessante → interessanti. Only two forms, not four."
+      },
+      "feedbackErr": {
+        "it": "Vero! Aggettivi in -e: grande (sing. M e F), grandi (pl. M e F).",
+        "en": "True! Adjectives in -e: grande (sing. M and F), grandi (pl. M and F)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un bello ragazzo' con 'bello' davanti a consonante normale.",
+        "en": "You say 'un bello ragazzo' with 'bello' before a normal consonant."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Davanti a consonante normale → bel: un bel ragazzo.",
+        "en": "False! Before normal consonant → bel: un bel ragazzo."
+      },
+      "feedbackErr": {
+        "it": "Falso! Consonante normale → bel (non bello): un bel ragazzo.",
+        "en": "False! Normal consonant → bel (not bello): un bel ragazzo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Una bella pizza' è la forma corretta.",
+        "en": "'Una bella pizza' is the correct form."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Pizza = F sing. + consonante iniziale → bella: una bella pizza.",
+        "en": "Correct! Pizza = F sing. + initial consonant → bella: una bella pizza."
+      },
+      "feedbackErr": {
+        "it": "Vero! Femminile singolare + consonante → bella.",
+        "en": "True! Feminine singular + consonant → bella."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'aggettivo in italiano va sempre prima del nome.",
+        "en": "The adjective in Italian always goes before the noun."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! La posizione normale è DOPO il nome. Prima va solo per enfasi o con certi aggettivi.",
+        "en": "False! The normal position is AFTER the noun. Before is only for emphasis or certain adjectives."
+      },
+      "feedbackErr": {
+        "it": "Falso! Posizione normale: dopo il nome. Una pizza buona, non una buona pizza (enfatico).",
+        "en": "False! Normal position: after the noun. Una pizza buona, not una buona pizza (emphatic)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il superlativo assoluto si forma con -issimo: buono → buonissimo.",
+        "en": "The absolute superlative is formed with -issimo: buono → buonissimo."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -issimo per il superlativo: buono→buonissimo, bello→bellissimo, grande→grandissimo.",
+        "en": "Correct! -issimo for superlative: buono→buonissimo, bello→bellissimo, grande→grandissimo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Superlativo assoluto: aggettivo + -issimo. Concorda sempre.",
+        "en": "True! Absolute superlative: adjective + -issimo. Always agrees."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'begli occhi' perché occhi inizia con vocale.",
+        "en": "You say 'begli occhi' because occhi starts with a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Bello davanti a M pl. + vocale → begli: begli occhi, begli amici.",
+        "en": "Correct! Bello before M pl. + vowel → begli: begli occhi, begli amici."
+      },
+      "feedbackErr": {
+        "it": "Vero! M pl. + vocale → begli (come gli): begli occhi.",
+        "en": "True! M pl. + vowel → begli (like gli): begli occhi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Intelligente' ha quattro forme: intelligente, intelligenta, intelligenti, intelligente.",
+        "en": "'Intelligente' has four forms: intelligente, intelligenta, intelligenti, intelligente."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Intelligente ha solo DUE forme: intelligente (sing.) e intelligenti (pl.).",
+        "en": "False! Intelligente has only TWO forms: intelligente (sing.) and intelligenti (pl.)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Aggettivi in -e: solo 2 forme — intelligente (sing. M/F) e intelligenti (pl. M/F).",
+        "en": "False! Adjectives in -e: only 2 forms — intelligente (sing. M/F) and intelligenti (pl. M/F)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'bei libri' per 'beautiful books'.",
+        "en": "You say 'bei libri' for 'beautiful books'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Libri = M pl. + consonante normale → bei: bei libri.",
+        "en": "Correct! Libri = M pl. + normal consonant → bei: bei libri."
+      },
+      "feedbackErr": {
+        "it": "Vero! M pl. + consonante normale → bei: bei libri, bei ragazzi.",
+        "en": "True! M pl. + normal consonant → bei: bei libri, bei ragazzi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il comparativo irregolare di 'buono' è 'migliore'.",
+        "en": "The irregular comparative of 'buono' is 'migliore'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Buono → migliore (comparativo irregolare). Come in inglese: good → better.",
+        "en": "Correct! Buono → migliore (irregular comparative). Like English: good → better."
+      },
+      "feedbackErr": {
+        "it": "Vero! Buono → migliore. Cattivo → peggiore. Grande → maggiore. Piccolo → minore.",
+        "en": "True! Buono → migliore. Cattivo → peggiore. Grande → maggiore. Piccolo → minore."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La pizza napoletana è buonissima — 'buonissima' concorda con 'pizza' (F).",
+        "en": "La pizza napoletana è buonissima — 'buonissima' agrees with 'pizza' (F)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Buonissima = superlativo femminile, concorda con pizza (F).",
+        "en": "Correct! Buonissima = feminine superlative, agrees with pizza (F)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Anche il superlativo concorda: buonissimo (M), buonissima (F).",
+        "en": "True! The superlative also agrees: buonissimo (M), buonissima (F)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un bell'amico' con l'apostrofo.",
+        "en": "You say 'un bell'amico' with an apostrophe."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Bello davanti a vocale M sing. → bell': bell'amico, bell'uomo.",
+        "en": "Correct! Bello before M sing. vowel → bell': bell'amico, bell'uomo."
+      },
+      "feedbackErr": {
+        "it": "Vero! M sing. + vocale → bell': bell'amico.",
+        "en": "True! M sing. + vowel → bell': bell'amico."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Gli aggettivi di nazionalità seguono le stesse regole degli altri aggettivi.",
+        "en": "Nationality adjectives follow the same rules as other adjectives."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Italiano (M sing.), italiana (F sing.), italiani (M pl.), italiane (F pl.).",
+        "en": "Correct! Italiano (M sing.), italiana (F sing.), italiani (M pl.), italiane (F pl.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Italiano/a/i/e, francese/francesi, inglese/inglesi — stesse regole.",
+        "en": "True! Italiano/a/i/e, francese/francesi, inglese/inglesi — same rules."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un bello zaino' perché zaino inizia con z.",
+        "en": "You say 'un bello zaino' because zaino starts with z."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Prima di z → bello (come lo): bello zaino, bello psicologo.",
+        "en": "Correct! Before z → bello (like lo): bello zaino, bello psicologo."
+      },
+      "feedbackErr": {
+        "it": "Vero! z → bello: bello zaino. Come lo zaino → bello zaino.",
+        "en": "True! z → bello: bello zaino. Like lo zaino → bello zaino."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si può dire sia 'una pizza buona' che 'una buona pizza'.",
+        "en": "In Italian you can say both 'una pizza buona' and 'una buona pizza'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambe corrette — 'buona pizza' è più enfatico/poetico.",
+        "en": "Correct! Both correct — 'buona pizza' is more emphatic/poetic."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dopo = neutro. Prima = enfatico. Entrambi grammaticalmente corretti.",
+        "en": "True! After = neutral. Before = emphatic. Both grammatically correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il comparativo di 'cattivo' è 'peggiosissimo'.",
+        "en": "The comparative of 'cattivo' is 'peggiosissimo'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il comparativo di 'cattivo' è 'peggiore'. 'Peggiosissimo' sarebbe un superlativo.",
+        "en": "False! The comparative of 'cattivo' is 'peggiore'. 'Peggiosissimo' would be a superlative."
+      },
+      "feedbackErr": {
+        "it": "Falso! Cattivo → peggiore (comparativo). Peggiore è l'irregolare come migliore.",
+        "en": "False! Cattivo → peggiore (comparative). Peggiore is the irregular like migliore."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Stanco' ha quattro forme: stanco, stanca, stanchi, stanche.",
+        "en": "'Stanco' has four forms: stanco, stanca, stanchi, stanche."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Aggettivi in -o: 4 forme. Stanco (M sing.), stanca (F sing.), stanchi (M pl.), stanche (F pl.).",
+        "en": "Correct! Adjectives in -o: 4 forms. Stanco (M sing.), stanca (F sing.), stanchi (M pl.), stanche (F pl.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Aggettivi in -o hanno sempre 4 forme.",
+        "en": "True! Adjectives in -o always have 4 forms."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'bei ragazzi' per 'beautiful boys'.",
+        "en": "You say 'bei ragazzi' for 'beautiful boys'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ragazzi = M pl. + consonante normale → bei.",
+        "en": "Correct! Ragazzi = M pl. + normal consonant → bei."
+      },
+      "feedbackErr": {
+        "it": "Vero! M pl. + consonante normale → bei: bei ragazzi.",
+        "en": "True! M pl. + normal consonant → bei: bei ragazzi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario è un ragazzo ___. (simpatico)",
+        "en": "Build: Mario is a ___ guy. (nice)"
+      },
+      "parole": [
+        "Mario",
+        "è",
+        "un",
+        "ragazzo",
+        "simpatico"
+      ],
+      "distrattori": [
+        "simpatica",
+        "simpatici",
+        "simpatiche"
+      ],
+      "correct": [
+        "Mario",
+        "è",
+        "un",
+        "ragazzo",
+        "simpatico"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ragazzo = M sing. → simpatico.",
+        "en": "Perfect! Ragazzo = M sing. → simpatico."
+      },
+      "feedbackErr": {
+        "it": "Ragazzo = M sing. → simpatico.",
+        "en": "Ragazzo = M sing. → simpatico."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La pizza napoletana è ___. (buonissima)",
+        "en": "Build: Neapolitan pizza is ___. (delicious)"
+      },
+      "parole": [
+        "La",
+        "pizza",
+        "napoletana",
+        "è",
+        "buonissima"
+      ],
+      "distrattori": [
+        "buonissimo",
+        "buonissimi",
+        "buonissime"
+      ],
+      "correct": [
+        "La",
+        "pizza",
+        "napoletana",
+        "è",
+        "buonissima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pizza = F sing. → buonissima.",
+        "en": "Perfect! Pizza = F sing. → buonissima."
+      },
+      "feedbackErr": {
+        "it": "Pizza = F → buonissima.",
+        "en": "Pizza = F → buonissima."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho due amici ___. (italiano)",
+        "en": "Build: I have two ___ friends. (Italian)"
+      },
+      "parole": [
+        "Ho",
+        "due",
+        "amici",
+        "italiani"
+      ],
+      "distrattori": [
+        "italiano",
+        "italiana",
+        "italiane"
+      ],
+      "correct": [
+        "Ho",
+        "due",
+        "amici",
+        "italiani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Amici = M pl. → italiani.",
+        "en": "Perfect! Amici = M pl. → italiani."
+      },
+      "feedbackErr": {
+        "it": "Amici = M pl. → italiani.",
+        "en": "Amici = M pl. → italiani."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Le strade di Napoli sono ___. (bellissimo)",
+        "en": "Build: The streets of Naples are ___. (gorgeous)"
+      },
+      "parole": [
+        "Le",
+        "strade",
+        "di",
+        "Napoli",
+        "sono",
+        "bellissime"
+      ],
+      "distrattori": [
+        "bellissimo",
+        "bellissima",
+        "bellissimi"
+      ],
+      "correct": [
+        "Le",
+        "strade",
+        "di",
+        "Napoli",
+        "sono",
+        "bellissime"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Strade = F pl. → bellissime.",
+        "en": "Perfect! Strade = F pl. → bellissime."
+      },
+      "feedbackErr": {
+        "it": "Strade = F pl. → bellissime.",
+        "en": "Strade = F pl. → bellissime."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È ___ posto! (bello, davanti a p)",
+        "en": "Build: It's a ___ place! (beautiful, before p)"
+      },
+      "parole": [
+        "È",
+        "un",
+        "bel",
+        "posto"
+      ],
+      "distrattori": [
+        "bello",
+        "bella",
+        "bell'"
+      ],
+      "correct": [
+        "È",
+        "un",
+        "bel",
+        "posto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Posto = M sing. + consonante normale → bel posto.",
+        "en": "Perfect! Posto = M sing. + normal consonant → bel posto."
+      },
+      "feedbackErr": {
+        "it": "M sing. + consonante normale → bel: bel posto.",
+        "en": "M sing. + normal consonant → bel: bel posto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È ___ amico! (bello, davanti a a)",
+        "en": "Build: He's a ___ friend! (beautiful, before a)"
+      },
+      "parole": [
+        "È",
+        "un",
+        "bell'",
+        "amico"
+      ],
+      "distrattori": [
+        "bel",
+        "bello",
+        "bei"
+      ],
+      "correct": [
+        "È",
+        "un",
+        "bell'",
+        "amico"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Amico = M sing. + vocale → bell': bell'amico.",
+        "en": "Perfect! Amico = M sing. + vowel → bell': bell'amico."
+      },
+      "feedbackErr": {
+        "it": "M sing. + vocale → bell': bell'amico.",
+        "en": "M sing. + vowel → bell': bell'amico."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sono ragazze molto ___. (intelligente)",
+        "en": "Build: They are very ___ girls. (intelligent)"
+      },
+      "parole": [
+        "Sono",
+        "ragazze",
+        "molto",
+        "intelligenti"
+      ],
+      "distrattori": [
+        "intelligente",
+        "intelligenta",
+        "intelligentes"
+      ],
+      "correct": [
+        "Sono",
+        "ragazze",
+        "molto",
+        "intelligenti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ragazze = F pl. Ma intelligente è in -e → pl. -i: intelligenti.",
+        "en": "Perfect! Ragazze = F pl. But intelligente is in -e → pl. -i: intelligenti."
+      },
+      "feedbackErr": {
+        "it": "Aggettivi in -e: pl. sempre -i → intelligenti (M e F pl.).",
+        "en": "Adjectives in -e: pl. always -i → intelligenti (M and F pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho visto ___ occhi. (bello, M pl. + vocale)",
+        "en": "Build: I saw ___ eyes. (beautiful, M pl. + vowel)"
+      },
+      "parole": [
+        "Ho",
+        "visto",
+        "begli",
+        "occhi"
+      ],
+      "distrattori": [
+        "belli",
+        "bei",
+        "belle"
+      ],
+      "correct": [
+        "Ho",
+        "visto",
+        "begli",
+        "occhi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Occhi = M pl. + vocale → begli.",
+        "en": "Perfect! Occhi = M pl. + vowel → begli."
+      },
+      "feedbackErr": {
+        "it": "M pl. + vocale → begli: begli occhi.",
+        "en": "M pl. + vowel → begli: begli occhi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La pasta è ___ del caffè. (buono — comparativo)",
+        "en": "Build: The pasta is ___ than the coffee. (good — comparative)"
+      },
+      "parole": [
+        "La",
+        "pasta",
+        "è",
+        "migliore",
+        "del",
+        "caffè"
+      ],
+      "distrattori": [
+        "più buona",
+        "buonissima",
+        "bona"
+      ],
+      "correct": [
+        "La",
+        "pasta",
+        "è",
+        "migliore",
+        "del",
+        "caffè"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Migliore = comparativo irregolare di buono.",
+        "en": "Perfect! Migliore = irregular comparative of buono."
+      },
+      "feedbackErr": {
+        "it": "Comparativo di buono: migliore (o più buona).",
+        "en": "Comparative of buono: migliore (or più buona)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario è ___ di Diego. (stanco — comparativo)",
+        "en": "Build: Mario is ___ than Diego. (tired — comparative)"
+      },
+      "parole": [
+        "Mario",
+        "è",
+        "più",
+        "stanco",
+        "di",
+        "Diego"
+      ],
+      "distrattori": [
+        "stanca",
+        "stanchi",
+        "stanchissimo"
+      ],
+      "correct": [
+        "Mario",
+        "è",
+        "più",
+        "stanco",
+        "di",
+        "Diego"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Più + aggettivo + di = comparativo. Mario M sing. → stanco.",
+        "en": "Perfect! Più + adjective + di = comparative. Mario M sing. → stanco."
+      },
+      "feedbackErr": {
+        "it": "Comparativo: più stanco di. Mario = M sing. → stanco.",
+        "en": "Comparative: più stanco di. Mario = M sing. → stanco."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho visto ___ film. (bello, M pl. + consonante normale)",
+        "en": "Build: I saw ___ films. (beautiful, M pl. + normal consonant)"
+      },
+      "parole": [
+        "Ho",
+        "visto",
+        "bei",
+        "film"
+      ],
+      "distrattori": [
+        "belli",
+        "begli",
+        "belle"
+      ],
+      "correct": [
+        "Ho",
+        "visto",
+        "bei",
+        "film"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Film = M pl. + consonante normale → bei.",
+        "en": "Perfect! Film = M pl. + normal consonant → bei."
+      },
+      "feedbackErr": {
+        "it": "M pl. + consonante normale → bei: bei film.",
+        "en": "M pl. + normal consonant → bei: bei film."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È ___ zaino! (bello, davanti a z)",
+        "en": "Build: It's a ___ backpack! (beautiful, before z)"
+      },
+      "parole": [
+        "È",
+        "un",
+        "bello",
+        "zaino"
+      ],
+      "distrattori": [
+        "bel",
+        "bell'",
+        "bei"
+      ],
+      "correct": [
+        "È",
+        "un",
+        "bello",
+        "zaino"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Zaino inizia con z → bello (come lo zaino).",
+        "en": "Perfect! Zaino starts with z → bello (like lo zaino)."
+      },
+      "feedbackErr": {
+        "it": "Prima di z → bello: bello zaino.",
+        "en": "Before z → bello: bello zaino."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia ha una voce ___. (bellissimo)",
+        "en": "Build: Sofia has a ___ voice. (beautiful)"
+      },
+      "parole": [
+        "Sofia",
+        "ha",
+        "una",
+        "voce",
+        "bellissima"
+      ],
+      "distrattori": [
+        "bellissimo",
+        "bellissimi",
+        "bellissime"
+      ],
+      "correct": [
+        "Sofia",
+        "ha",
+        "una",
+        "voce",
+        "bellissima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voce = F sing. → bellissima.",
+        "en": "Perfect! Voce = F sing. → bellissima."
+      },
+      "feedbackErr": {
+        "it": "Voce = F → bellissima.",
+        "en": "Voce = F → bellissima."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: I vini italiani sono ___. (ottimo)",
+        "en": "Build: Italian wines are ___. (excellent)"
+      },
+      "parole": [
+        "I",
+        "vini",
+        "italiani",
+        "sono",
+        "ottimi"
+      ],
+      "distrattori": [
+        "ottimo",
+        "ottima",
+        "ottime"
+      ],
+      "correct": [
+        "I",
+        "vini",
+        "italiani",
+        "sono",
+        "ottimi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vini = M pl. → ottimi.",
+        "en": "Perfect! Vini = M pl. → ottimi."
+      },
+      "feedbackErr": {
+        "it": "Vini = M pl. → ottimi.",
+        "en": "Vini = M pl. → ottimi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Napoli è una città ___. (grande)",
+        "en": "Build: Naples is a ___ city. (big)"
+      },
+      "parole": [
+        "Napoli",
+        "è",
+        "una",
+        "città",
+        "grande"
+      ],
+      "distrattori": [
+        "granda",
+        "grandi",
+        "grandes"
+      ],
+      "correct": [
+        "Napoli",
+        "è",
+        "una",
+        "città",
+        "grande"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Città = F sing. Ma grande è in -e → non cambia: grande.",
+        "en": "Perfect! Città = F sing. But grande is in -e → doesn't change: grande."
+      },
+      "feedbackErr": {
+        "it": "Grande = aggettivo in -e → uguale per M e F sing.: grande.",
+        "en": "Grande = adjective in -e → same for M and F sing.: grande."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sono ragazzi molto ___. (simpatico)",
+        "en": "Build: They are very ___ guys. (nice)"
+      },
+      "parole": [
+        "Sono",
+        "ragazzi",
+        "molto",
+        "simpatici"
+      ],
+      "distrattori": [
+        "simpatico",
+        "simpatica",
+        "simpatiche"
+      ],
+      "correct": [
+        "Sono",
+        "ragazzi",
+        "molto",
+        "simpatici"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ragazzi = M pl. → simpatici.",
+        "en": "Perfect! Ragazzi = M pl. → simpatici."
+      },
+      "feedbackErr": {
+        "it": "Ragazzi = M pl. → simpatici.",
+        "en": "Ragazzi = M pl. → simpatici."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho letto un libro ___. (interessante)",
+        "en": "Build: I read an ___ book. (interesting)"
+      },
+      "parole": [
+        "Ho",
+        "letto",
+        "un",
+        "libro",
+        "interessante"
+      ],
+      "distrattori": [
+        "interessanti",
+        "interessanta",
+        "interessantes"
+      ],
+      "correct": [
+        "Ho",
+        "letto",
+        "un",
+        "libro",
+        "interessante"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Libro = M sing. + aggettivo in -e → interessante (invariato).",
+        "en": "Perfect! Libro = M sing. + adjective in -e → interessante (unchanged)."
+      },
+      "feedbackErr": {
+        "it": "Aggettivo in -e al sing. → non cambia: interessante.",
+        "en": "Adjective in -e in singular → doesn't change: interessante."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La cosa ___ è studiare. (importante)",
+        "en": "Build: The ___ thing is to study. (important)"
+      },
+      "parole": [
+        "La",
+        "cosa",
+        "importante",
+        "è",
+        "studiare"
+      ],
+      "distrattori": [
+        "importanti",
+        "importanta",
+        "importantes"
+      ],
+      "correct": [
+        "La",
+        "cosa",
+        "importante",
+        "è",
+        "studiare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Cosa = F sing. + aggettivo in -e → importante (invariato).",
+        "en": "Perfect! Cosa = F sing. + adjective in -e → importante (unchanged)."
+      },
+      "feedbackErr": {
+        "it": "Aggettivo in -e: stessa forma per M e F sing. → importante.",
+        "en": "Adjective in -e: same form for M and F sing. → importante."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ha gli occhi ___. (verde)",
+        "en": "Build: Mario has ___ eyes. (green)"
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "gli",
+        "occhi",
+        "verdi"
+      ],
+      "distrattori": [
+        "verde",
+        "verda",
+        "verdes"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "gli",
+        "occhi",
+        "verdi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Occhi = M pl. + aggettivo in -e → verdi.",
+        "en": "Perfect! Occhi = M pl. + adjective in -e → verdi."
+      },
+      "feedbackErr": {
+        "it": "Occhi = M pl. + aggettivo in -e → pl. -i: verdi.",
+        "en": "Occhi = M pl. + adjective in -e → pl. -i: verdi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'belle ragazze' per 'beautiful girls'.",
+        "en": "You say 'belle ragazze' for 'beautiful girls'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ragazze = F pl. → belle (bello, bella, belli, belle).",
+        "en": "Correct! Ragazze = F pl. → belle (bello, bella, belli, belle)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Femminile plurale → belle.",
+        "en": "True! Feminine plural → belle."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È una ___ studentessa. (bravo)",
+        "en": "Build: She is a ___ student. (good)"
+      },
+      "parole": [
+        "È",
+        "una",
+        "brava",
+        "studentessa"
+      ],
+      "distrattori": [
+        "bravo",
+        "bravi",
+        "brave"
+      ],
+      "correct": [
+        "È",
+        "una",
+        "brava",
+        "studentessa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Studentessa = F sing. → brava.",
+        "en": "Perfect! Studentessa = F sing. → brava."
+      },
+      "feedbackErr": {
+        "it": "Studentessa = F sing. → brava.",
+        "en": "Studentessa = F sing. → brava."
+      }
+    }
+  ]
+}

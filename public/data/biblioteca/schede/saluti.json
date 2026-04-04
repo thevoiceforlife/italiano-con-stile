@@ -1,0 +1,1501 @@
+{
+  "id": "saluti",
+  "categoria": "vocabolario",
+  "emoji": "👋",
+  "livello": "A1",
+  "titolo": {
+    "it": "Saluti e Presentazioni",
+    "en": "Greetings & Introductions"
+  },
+  "mario": "Ciao funziona sempre? No. Dipende da chi hai davanti. Al bar lo impari subito — te lo spiego io.",
+  "marioEn": "Does ciao always work? No. It depends who you're talking to. At the bar you learn fast — let me explain.",
+  "perche": {
+    "it": "In inglese 'hi' funziona con chiunque. In italiano no — esiste una distinzione netta tra formale e informale. Usare 'ciao' con il tuo professore o con un cliente è scortese. Usare 'buongiorno' con un amico è strano. E poi c'è la questione dell'orario: buongiorno, buon pomeriggio, buonasera, buonanotte — ognuno al suo momento.",
+    "en": "In English 'hi' works with anyone. In Italian it doesn't — there's a clear distinction between formal and informal. Using 'ciao' with your professor or a client is rude. Using 'buongiorno' with a friend is weird. And then there's the time-of-day issue: buongiorno, buon pomeriggio, buonasera, buonanotte — each has its moment."
+  },
+  "spiegazione": {
+    "it": "Due registri: informale (amici, famiglia, coetanei) e formale (sconosciuti, persone più anziane, contesti professionali).",
+    "en": "Two registers: informal (friends, family, peers) and formal (strangers, older people, professional contexts)."
+  },
+  "tabella": {
+    "headers": [
+      "Momento / When",
+      "Informale / Informal",
+      "Formale / Formal",
+      "Significato / Meaning"
+    ],
+    "rows": [
+      [
+        "Qualsiasi / Any time",
+        "Ciao!",
+        "—",
+        "Hi / Bye (solo informale)"
+      ],
+      [
+        "Mattina / Morning",
+        "Ciao!",
+        "Buongiorno",
+        "Good morning"
+      ],
+      [
+        "Pomeriggio / Afternoon",
+        "Ciao!",
+        "Buon pomeriggio",
+        "Good afternoon (raro/rare)"
+      ],
+      [
+        "Sera / Evening",
+        "Ciao!",
+        "Buonasera",
+        "Good evening"
+      ],
+      [
+        "Prima di dormire / Before sleep",
+        "Buonanotte",
+        "Buonanotte",
+        "Good night"
+      ],
+      [
+        "Arrivederci / Goodbye",
+        "Ciao / A presto",
+        "Arrivederci",
+        "Goodbye (formale)"
+      ],
+      [
+        "Come stai? / How are you?",
+        "Come stai?",
+        "Come sta?",
+        "How are you?"
+      ],
+      [
+        "Piacere / Nice to meet you",
+        "Piacere!",
+        "Piacere, [nome]",
+        "Nice to meet you"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Buongiorno, un caffè per favore.",
+      "en": "Good morning, a coffee please.",
+      "audio": "Buongiorno, un caffè per favore."
+    },
+    {
+      "it": "Ciao Marco! Come stai?",
+      "en": "Hi Marco! How are you?",
+      "audio": "Ciao Marco! Come stai?"
+    },
+    {
+      "it": "Buonasera, ho una prenotazione.",
+      "en": "Good evening, I have a reservation.",
+      "audio": "Buonasera, ho una prenotazione."
+    },
+    {
+      "it": "Piacere, mi chiamo Anna.",
+      "en": "Nice to meet you, my name is Anna.",
+      "audio": "Piacere, mi chiamo Anna."
+    },
+    {
+      "it": "Arrivederci e grazie!",
+      "en": "Goodbye and thank you!",
+      "audio": "Arrivederci e grazie!"
+    }
+  ],
+  "nota": {
+    "it": "💡 'Salve' è un saluto neutro che funziona sia in contesti formali che semi-informali — utile quando non sai bene che tono usare.",
+    "en": "💡 'Salve' is a neutral greeting that works in both formal and semi-informal contexts — useful when you're not sure what tone to use."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come saluti un cliente in un negozio la mattina?",
+        "en": "How do you greet a customer in a shop in the morning?"
+      },
+      "opzioni": [
+        "Ciao!",
+        "Buongiorno!",
+        "Buonanotte!",
+        "Salve o buongiorno"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Sia 'Buongiorno' che 'Salve' sono perfetti in contesto formale.",
+        "en": "Correct! Both 'Buongiorno' and 'Salve' are perfect in a formal context."
+      },
+      "feedbackErr": {
+        "it": "Contesto formale mattina → Buongiorno o Salve.",
+        "en": "Formal morning context → Buongiorno or Salve."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come saluti il tuo migliore amico?",
+        "en": "How do you greet your best friend?"
+      },
+      "opzioni": [
+        "Buongiorno!",
+        "Buonasera!",
+        "Ciao!",
+        "Arrivederci!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Con gli amici si usa sempre 'ciao' — informale e versatile.",
+        "en": "Correct! With friends you always use 'ciao' — informal and versatile."
+      },
+      "feedbackErr": {
+        "it": "Con amici → ciao. Buongiorno/sera sono troppo formali tra amici.",
+        "en": "With friends → ciao. Buongiorno/sera are too formal between friends."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come ti presenti formalmente?",
+        "en": "How do you introduce yourself formally?"
+      },
+      "opzioni": [
+        "Sono Mario!",
+        "Mi chiamo Mario!",
+        "Ciao, Mario!",
+        "Piacere, mi chiamo Mario."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Piacere, mi chiamo Mario' è la presentazione formale classica.",
+        "en": "Correct! 'Piacere, mi chiamo Mario' is the classic formal introduction."
+      },
+      "feedbackErr": {
+        "it": "Presentazione formale: Piacere, mi chiamo [nome].",
+        "en": "Formal introduction: Piacere, mi chiamo [name]."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'Salve'?",
+        "en": "What does 'Salve' mean?"
+      },
+      "opzioni": [
+        "Solo buongiorno",
+        "Solo buonasera",
+        "Saluto neutro valido sempre",
+        "Arrivederci"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Salve' è neutro — funziona mattina, pomeriggio e sera.",
+        "en": "Correct! 'Salve' is neutral — works morning, afternoon and evening."
+      },
+      "feedbackErr": {
+        "it": "'Salve' è neutro e versatile — non dipende dall'orario.",
+        "en": "'Salve' is neutral and versatile — doesn't depend on time of day."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come rispondi a 'Come stai?' in modo informale?",
+        "en": "How do you respond to 'Come stai?' informally?"
+      },
+      "opzioni": [
+        "Buongiorno, grazie.",
+        "Bene, grazie! E tu?",
+        "Piacere!",
+        "Arrivederci."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Bene, grazie! E tu?' è la risposta informale standard.",
+        "en": "Correct! 'Bene, grazie! E tu?' is the standard informal response."
+      },
+      "feedbackErr": {
+        "it": "Risposta standard: Bene, grazie! E tu?",
+        "en": "Standard response: Bene, grazie! E tu?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la differenza tra 'Come stai?' e 'Come sta?'?",
+        "en": "What is the difference between 'Come stai?' and 'Come sta?'?"
+      },
+      "opzioni": [
+        "Nessuna differenza.",
+        "'Stai' = informale (tu), 'Sta' = formale (Lei).",
+        "'Stai' = formale, 'Sta' = informale.",
+        "Dipende dall'orario."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Come stai? = tu (informale). Come sta? = Lei (formale).",
+        "en": "Correct! Come stai? = tu (informal). Come sta? = Lei (formal)."
+      },
+      "feedbackErr": {
+        "it": "Stai = tu informale. Sta = Lei formale.",
+        "en": "Stai = tu informal. Sta = Lei formal."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quando si usa 'Buonasera'?",
+        "en": "When do you use 'Buonasera'?"
+      },
+      "opzioni": [
+        "Sempre",
+        "Solo la mattina",
+        "Dal pomeriggio tardi/sera in poi",
+        "Solo la notte"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Buonasera dal pomeriggio tardi/sera. Buongiorno per la mattina.",
+        "en": "Correct! Buonasera from late afternoon/evening. Buongiorno for morning."
+      },
+      "feedbackErr": {
+        "it": "Buonasera = pomeriggio tardi e sera. Buongiorno = mattina.",
+        "en": "Buonasera = late afternoon and evening. Buongiorno = morning."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il saluto più formale per congedarsi?",
+        "en": "What is the most formal farewell?"
+      },
+      "opzioni": [
+        "Ciao!",
+        "A presto!",
+        "Arrivederci!",
+        "Alla prossima!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Arrivederci = formale. Ciao = informale per entrambe le direzioni.",
+        "en": "Correct! Arrivederci = formal. Ciao = informal for both greetings and farewells."
+      },
+      "feedbackErr": {
+        "it": "Arrivederci è il commiato formale. Ciao funziona solo tra amici.",
+        "en": "Arrivederci is the formal farewell. Ciao only works between friends."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'nice to meet you' in italiano?",
+        "en": "How do you say 'nice to meet you' in Italian?"
+      },
+      "opzioni": [
+        "Benvenuto!",
+        "Grazie!",
+        "Piacere!",
+        "Salve!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Piacere! = nice to meet you.",
+        "en": "Correct! Piacere! = nice to meet you."
+      },
+      "feedbackErr": {
+        "it": "Nice to meet you = Piacere! Si usa quando ci si presenta.",
+        "en": "Nice to meet you = Piacere! Used when introducing yourself."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa risponde Mario quando gli chiedi 'Come stai?'",
+        "en": "What does Mario reply when you ask 'Come stai?'"
+      },
+      "opzioni": [
+        "Buongiorno!",
+        "Arrivederci!",
+        "Non c'è male, e tu?",
+        "Piacere!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Non c'è male' = not bad. Risposta comune e naturale.",
+        "en": "Correct! 'Non c'è male' = not bad. Common and natural response."
+      },
+      "feedbackErr": {
+        "it": "Non c'è male = not bad. Risposte comuni: bene, benissimo, non c'è male, così così.",
+        "en": "Non c'è male = not bad. Common responses: bene, benissimo, non c'è male, così così."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'Buonanotte'?",
+        "en": "What does 'Buonanotte' mean?"
+      },
+      "opzioni": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Good night"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Buonanotte = good night. Si usa prima di andare a dormire.",
+        "en": "Correct! Buonanotte = good night. Used before going to sleep."
+      },
+      "feedbackErr": {
+        "it": "Buonanotte = good night — si usa solo prima di dormire.",
+        "en": "Buonanotte = good night — only used before sleeping."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'see you soon' in italiano?",
+        "en": "How do you say 'see you soon' in Italian?"
+      },
+      "opzioni": [
+        "Buonanotte!",
+        "Arrivederci!",
+        "A presto!",
+        "Piacere!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! A presto = see you soon.",
+        "en": "Correct! A presto = see you soon."
+      },
+      "feedbackErr": {
+        "it": "A presto = see you soon. Informale e amichevole.",
+        "en": "A presto = see you soon. Informal and friendly."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come risponde un cameriere quando entri al ristorante la sera?",
+        "en": "How does a waiter respond when you enter the restaurant in the evening?"
+      },
+      "opzioni": [
+        "Ciao!",
+        "Buonanotte!",
+        "Buonasera! Prego, si accomodi.",
+        "Come stai?"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Buonasera + prego, si accomodi = accoglienza formale italiana.",
+        "en": "Correct! Buonasera + prego, si accomodi = classic Italian formal welcome."
+      },
+      "feedbackErr": {
+        "it": "Ristorante serale → Buonasera! Prego, si accomodi.",
+        "en": "Evening restaurant → Buonasera! Prego, si accomodi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'così così'?",
+        "en": "What does 'così così' mean?"
+      },
+      "opzioni": [
+        "Very well",
+        "So so / not great",
+        "Good morning",
+        "Goodbye"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Così così = so so — né bene né male.",
+        "en": "Correct! Così così = so so — neither good nor bad."
+      },
+      "feedbackErr": {
+        "it": "Così così = so so. Onesto e comune come risposta a 'come stai?'",
+        "en": "Così così = so so. Honest and common response to 'come stai?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come saluti il tuo professore all'inizio della lezione?",
+        "en": "How do you greet your professor at the start of the lesson?"
+      },
+      "opzioni": [
+        "Ciao!",
+        "Ehi!",
+        "Buongiorno, professore!",
+        "Salutami!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Con il professore → formale: Buongiorno, professore!",
+        "en": "Correct! With the professor → formal: Buongiorno, professore!"
+      },
+      "feedbackErr": {
+        "it": "Contesto formale → Buongiorno + titolo.",
+        "en": "Formal context → Buongiorno + title."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'Benvenuto'?",
+        "en": "What does 'Benvenuto' mean?"
+      },
+      "opzioni": [
+        "Goodbye",
+        "How are you?",
+        "Welcome",
+        "Good evening"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Benvenuto = welcome. Benvenuta (F), Benvenuti (plurale).",
+        "en": "Correct! Benvenuto = welcome. Benvenuta (F), Benvenuti (plural)."
+      },
+      "feedbackErr": {
+        "it": "Benvenuto = welcome. Cambia con il genere: benvenuta, benvenuti.",
+        "en": "Benvenuto = welcome. Changes with gender: benvenuta, benvenuti."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si saluta al telefono in modo formale?",
+        "en": "How do you greet someone on the phone formally?"
+      },
+      "opzioni": [
+        "Ciao!",
+        "Pronto, buongiorno!",
+        "Ehi!",
+        "Come stai?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Al telefono: Pronto + buongiorno/buonasera. 'Pronto' = hello solo al telefono.",
+        "en": "Correct! On the phone: Pronto + buongiorno/buonasera. 'Pronto' = hello phone only."
+      },
+      "feedbackErr": {
+        "it": "Al telefono → Pronto, buongiorno! 'Pronto' si usa solo al telefono.",
+        "en": "On the phone → Pronto, buongiorno! 'Pronto' is only used on the phone."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'How are you?' in italiano formale?",
+        "en": "How do you say 'How are you?' in formal Italian?"
+      },
+      "opzioni": [
+        "Come stai?",
+        "Come va?",
+        "Come sta?",
+        "Stai bene?"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Come sta? = formale (Lei). Come stai? = informale (tu).",
+        "en": "Correct! Come sta? = formal (Lei). Come stai? = informal (tu)."
+      },
+      "feedbackErr": {
+        "it": "Formale → Come sta? Informale → Come stai?",
+        "en": "Formal → Come sta? Informal → Come stai?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'A dopo'?",
+        "en": "What does 'A dopo' mean?"
+      },
+      "opzioni": [
+        "Good morning",
+        "See you later",
+        "Nice to meet you",
+        "Welcome"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! A dopo = see you later. A presto = see you soon. A domani = see you tomorrow.",
+        "en": "Correct! A dopo = see you later. A presto = see you soon. A domani = see you tomorrow."
+      },
+      "feedbackErr": {
+        "it": "A dopo = see you later.",
+        "en": "A dopo = see you later."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'good afternoon' in italiano?",
+        "en": "How do you say 'good afternoon' in Italian?"
+      },
+      "opzioni": [
+        "Buongiorno",
+        "Buonanotte",
+        "Buonasera",
+        "Buon pomeriggio"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Buon pomeriggio = good afternoon (raramente usato — di solito si usa già buonasera).",
+        "en": "Correct! Buon pomeriggio = good afternoon (rarely used — buonasera is usually used instead)."
+      },
+      "feedbackErr": {
+        "it": "Buon pomeriggio = good afternoon. Ma si usa poco — buonasera lo sostituisce.",
+        "en": "Buon pomeriggio = good afternoon. But rarely used — buonasera replaces it."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ciao' si può usare sia per salutare che per congedarsi.",
+        "en": "'Ciao' can be used both to greet and to say goodbye."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ciao = hi e bye — ma solo tra amici e in contesti informali.",
+        "en": "Correct! Ciao = hi and bye — but only between friends and in informal contexts."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ciao funziona in entrata e in uscita — solo informale.",
+        "en": "True! Ciao works coming and going — informal only."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ciao' si può usare con il proprio professore.",
+        "en": "'Ciao' can be used with your professor."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con il professore → formale: Buongiorno/sera, professore. Arrivederci.",
+        "en": "False! With the professor → formal: Buongiorno/sera, professore. Arrivederci."
+      },
+      "feedbackErr": {
+        "it": "Falso! Con il professore si usa il registro formale — mai 'ciao'.",
+        "en": "False! With the professor use the formal register — never 'ciao'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Piacere' si usa quando si incontra qualcuno per la prima volta.",
+        "en": "'Piacere' is used when meeting someone for the first time."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Piacere = nice to meet you. Si usa nella presentazione.",
+        "en": "Correct! Piacere = nice to meet you. Used when being introduced."
+      },
+      "feedbackErr": {
+        "it": "Vero! Piacere si usa nella prima presentazione.",
+        "en": "True! Piacere is used when meeting for the first time."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Buonasera' si usa la mattina.",
+        "en": "'Buonasera' is used in the morning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Buonasera = sera/pomeriggio tardi. Buongiorno = mattina.",
+        "en": "False! Buonasera = evening/late afternoon. Buongiorno = morning."
+      },
+      "feedbackErr": {
+        "it": "Falso! Buonasera è per la sera. La mattina → Buongiorno.",
+        "en": "False! Buonasera is for the evening. Morning → Buongiorno."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Salve' è un saluto neutro che funziona a qualsiasi ora.",
+        "en": "'Salve' is a neutral greeting that works at any time."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Salve è neutro — mattina, pomeriggio, sera.",
+        "en": "Correct! Salve is neutral — morning, afternoon, evening."
+      },
+      "feedbackErr": {
+        "it": "Vero! Salve è versatile — non dipende dall'orario.",
+        "en": "True! Salve is versatile — doesn't depend on time."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Come stai?' si usa con il professore.",
+        "en": "'Come stai?' is used with the professor."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con il professore → Come sta? (formale, Lei).",
+        "en": "False! With the professor → Come sta? (formal, Lei)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Come stai? = informale. Formale = Come sta?",
+        "en": "False! Come stai? = informal. Formal = Come sta?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Pronto' si usa solo al telefono, non come saluto normale.",
+        "en": "'Pronto' is only used on the phone, not as a regular greeting."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Pronto = hello solo al telefono. Di persona → Buongiorno/Ciao.",
+        "en": "Correct! Pronto = hello only on the phone. In person → Buongiorno/Ciao."
+      },
+      "feedbackErr": {
+        "it": "Vero! Pronto è esclusivo del telefono.",
+        "en": "True! Pronto is exclusive to the phone."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Arrivederci' è più formale di 'ciao' come commiato.",
+        "en": "'Arrivederci' is more formal than 'ciao' as a farewell."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Arrivederci = formale. Ciao = informale.",
+        "en": "Correct! Arrivederci = formal. Ciao = informal."
+      },
+      "feedbackErr": {
+        "it": "Vero! Arrivederci è il commiato formale standard.",
+        "en": "True! Arrivederci is the standard formal farewell."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Buonanotte' si usa quando si incontra qualcuno la notte.",
+        "en": "'Buonanotte' is used when meeting someone at night."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Buonanotte si usa solo per congedarsi prima di dormire.",
+        "en": "False! Buonanotte is only used to say farewell before sleeping."
+      },
+      "feedbackErr": {
+        "it": "Falso! Buonanotte è solo un commiato serale/notturno, non un saluto.",
+        "en": "False! Buonanotte is only an evening/night farewell, not a greeting."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non c'è male' è una risposta molto positiva a 'Come stai?'",
+        "en": "'Non c'è male' is a very positive response to 'Come stai?'"
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Non c'è male = not bad = così così. Neutro, non molto positivo.",
+        "en": "False! Non c'è male = not bad = so so. Neutral, not very positive."
+      },
+      "feedbackErr": {
+        "it": "Non c'è male = not bad. Né positivo né negativo — neutro.",
+        "en": "Non c'è male = not bad. Neither positive nor negative — neutral."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Benvenuto' cambia forma con il genere: benvenuto (M), benvenuta (F).",
+        "en": "'Benvenuto' changes form with gender: benvenuto (M), benvenuta (F)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Benvenuto (M), benvenuta (F), benvenuti (M pl.), benvenute (F pl.).",
+        "en": "Correct! Benvenuto (M), benvenuta (F), benvenuti (M pl.), benvenute (F pl.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Come un aggettivo: benvenuto/a/i/e.",
+        "en": "True! Like an adjective: benvenuto/a/i/e."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A domani' significa 'see you tomorrow'.",
+        "en": "'A domani' means 'see you tomorrow'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A domani = see you tomorrow.",
+        "en": "Correct! A domani = see you tomorrow."
+      },
+      "feedbackErr": {
+        "it": "Vero! A domani = see you tomorrow.",
+        "en": "True! A domani = see you tomorrow."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Buon pomeriggio' si usa spesso nell'italiano parlato.",
+        "en": "'Buon pomeriggio' is often used in spoken Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Si usa raramente — di solito si passa direttamente a Buonasera.",
+        "en": "False! Rarely used — usually you go straight to Buonasera."
+      },
+      "feedbackErr": {
+        "it": "Falso! Buon pomeriggio si usa poco. Si salta da Buongiorno a Buonasera.",
+        "en": "False! Buon pomeriggio is rarely used. Often you go from Buongiorno to Buonasera."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si può rispondere 'Benissimo, grazie!' a 'Come stai?'",
+        "en": "You can respond 'Benissimo, grazie!' to 'Come stai?'"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Benissimo = very well.",
+        "en": "Correct! Benissimo = very well."
+      },
+      "feedbackErr": {
+        "it": "Vero! Benissimo, grazie! = Very well, thank you!",
+        "en": "True! Benissimo, grazie! = Very well, thank you!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Piacere mio' è la risposta elegante a 'Piacere'.",
+        "en": "'Piacere mio' is the elegant response to 'Piacere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Piacere! → Piacere mio! (my pleasure). Molto elegante.",
+        "en": "Correct! Piacere! → Piacere mio! (my pleasure). Very elegant."
+      },
+      "feedbackErr": {
+        "it": "Vero! Piacere mio = my pleasure.",
+        "en": "True! Piacere mio = my pleasure."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In un bar a Napoli con uno sconosciuto è meglio 'Buongiorno' che 'Ciao'.",
+        "en": "In a Naples bar with a stranger 'Buongiorno' is better than 'Ciao'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Con sconosciuti, anche a Napoli, Buongiorno o Salve è più appropriato.",
+        "en": "Correct! With strangers, even in Naples, Buongiorno or Salve is more appropriate."
+      },
+      "feedbackErr": {
+        "it": "Vero! Con sconosciuti → Buongiorno o Salve, anche a Napoli.",
+        "en": "True! With strangers → Buongiorno or Salve, even in Naples."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A presto' è più informale di 'Arrivederci'.",
+        "en": "'A presto' is more informal than 'Arrivederci'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A presto = informale/semi-formale. Arrivederci = formale.",
+        "en": "Correct! A presto = informal/semi-formal. Arrivederci = formal."
+      },
+      "feedbackErr": {
+        "it": "Vero! Scala: ciao < a presto < arrivederci (dal meno al più formale).",
+        "en": "True! Scale: ciao < a presto < arrivederci (least to most formal)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il voi di cortesia è ancora comune nell'italiano moderno.",
+        "en": "The courtesy 'voi' is still common in modern Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il voi di cortesia è arcaico — oggi si usa Lei.",
+        "en": "False! The courtesy voi is archaic — today Lei is used."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il voi di rispetto è arcaico — oggi si usa 'Lei' formale.",
+        "en": "False! The respectful voi is archaic — today formal 'Lei' is used."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ci vediamo!' è un modo informale per dire arrivederci.",
+        "en": "'Ci vediamo!' is an informal way to say goodbye."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ci vediamo! = see you! Informale e amichevole.",
+        "en": "Correct! Ci vediamo! = see you! Informal and friendly."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ci vediamo = see you. Informale come ciao.",
+        "en": "True! Ci vediamo = see you. Informal like ciao."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, un caffè per favore. (formale, mattina)",
+        "en": "Build: ___, a coffee please. (formal, morning)"
+      },
+      "parole": [
+        "Buongiorno",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Buonasera",
+        "Salve"
+      ],
+      "correct": [
+        "Buongiorno",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Formale + mattina = Buongiorno.",
+        "en": "Perfect! Formal + morning = Buongiorno."
+      },
+      "feedbackErr": {
+        "it": "Mattina + formale → Buongiorno.",
+        "en": "Morning + formal → Buongiorno."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, mi chiamo Sofia.",
+        "en": "Build: ___, my name is Sofia."
+      },
+      "parole": [
+        "Piacere",
+        "mi",
+        "chiamo",
+        "Sofia"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Benvenuto",
+        "Salve"
+      ],
+      "correct": [
+        "Piacere",
+        "mi",
+        "chiamo",
+        "Sofia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Piacere, mi chiamo [nome] — presentazione classica.",
+        "en": "Perfect! Piacere, mi chiamo [name] — classic introduction."
+      },
+      "feedbackErr": {
+        "it": "Presentazione: Piacere, mi chiamo [nome].",
+        "en": "Introduction: Piacere, mi chiamo [name]."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, come sta, professore?",
+        "en": "Build: ___, how are you, professor?"
+      },
+      "parole": [
+        "Buongiorno",
+        "come",
+        "sta",
+        "professore"
+      ],
+      "distrattori": [
+        "Ciao",
+        "stai",
+        "Salve"
+      ],
+      "correct": [
+        "Buongiorno",
+        "come",
+        "sta",
+        "professore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Professore → formale: Buongiorno + Come sta?",
+        "en": "Perfect! Professor → formal: Buongiorno + Come sta?"
+      },
+      "feedbackErr": {
+        "it": "Formale: Buongiorno + Come sta?",
+        "en": "Formal: Buongiorno + Come sta?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, Mario! Come ___?",
+        "en": "Build: ___, Mario! How ___?"
+      },
+      "parole": [
+        "Ciao",
+        "Mario",
+        "Come",
+        "stai"
+      ],
+      "distrattori": [
+        "Buongiorno",
+        "sta",
+        "Arrivederci"
+      ],
+      "correct": [
+        "Ciao",
+        "Mario",
+        "Come",
+        "stai"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con un amico: Ciao + Come stai?",
+        "en": "Perfect! With a friend: Ciao + Come stai?"
+      },
+      "feedbackErr": {
+        "it": "Informale (amico): Ciao + Come stai?",
+        "en": "Informal (friend): Ciao + Come stai?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi risposta: ___, ___, e tu?",
+        "en": "Build response: ___, ___, and you?"
+      },
+      "parole": [
+        "Bene",
+        "grazie",
+        "e",
+        "tu"
+      ],
+      "distrattori": [
+        "Piacere",
+        "Ciao",
+        "Arrivederci"
+      ],
+      "correct": [
+        "Bene",
+        "grazie",
+        "e",
+        "tu"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bene, grazie! E tu? — risposta standard informale.",
+        "en": "Perfect! Bene, grazie! E tu? — standard informal response."
+      },
+      "feedbackErr": {
+        "it": "Risposta standard: Bene, grazie! E tu?",
+        "en": "Standard response: Bene, grazie! E tu?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, a domani!",
+        "en": "Build: ___, see you tomorrow!"
+      },
+      "parole": [
+        "Ciao",
+        "a",
+        "domani"
+      ],
+      "distrattori": [
+        "Buongiorno",
+        "piacere",
+        "salve"
+      ],
+      "correct": [
+        "Ciao",
+        "a",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ciao, a domani! = Bye, see you tomorrow!",
+        "en": "Perfect! Ciao, a domani! = Bye, see you tomorrow!"
+      },
+      "feedbackErr": {
+        "it": "Commiato informale: Ciao, a domani!",
+        "en": "Informal farewell: Ciao, a domani!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi al telefono: ___, buongiorno, sono Mario.",
+        "en": "Build on the phone: ___, good morning, this is Mario."
+      },
+      "parole": [
+        "Pronto",
+        "buongiorno",
+        "sono",
+        "Mario"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Salve",
+        "Ehi"
+      ],
+      "correct": [
+        "Pronto",
+        "buongiorno",
+        "sono",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Al telefono: Pronto + buongiorno + mi presento.",
+        "en": "Perfect! On the phone: Pronto + buongiorno + introduce myself."
+      },
+      "feedbackErr": {
+        "it": "Telefono formale: Pronto, buongiorno, sono [nome].",
+        "en": "Formal phone: Pronto, buongiorno, sono [name]."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, signora. Buona serata!",
+        "en": "Build: ___, madam. Have a good evening!"
+      },
+      "parole": [
+        "Arrivederci",
+        "signora",
+        "Buona",
+        "serata"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Piacere",
+        "Salve"
+      ],
+      "correct": [
+        "Arrivederci",
+        "signora",
+        "Buona",
+        "serata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Formale: Arrivederci + titolo + augurio.",
+        "en": "Perfect! Formal: Arrivederci + title + good wishes."
+      },
+      "feedbackErr": {
+        "it": "Formale: Arrivederci, signora. Buona serata!",
+        "en": "Formal: Arrivederci, signora. Buona serata!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___! Benvenuto a Napoli!",
+        "en": "Build: ___! Welcome to Naples!"
+      },
+      "parole": [
+        "Ciao",
+        "Benvenuto",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "Arrivederci",
+        "Piacere",
+        "Buonanotte"
+      ],
+      "correct": [
+        "Ciao",
+        "Benvenuto",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ciao + Benvenuto a Napoli — accoglienza amichevole.",
+        "en": "Perfect! Ciao + Benvenuto a Napoli — friendly welcome."
+      },
+      "feedbackErr": {
+        "it": "Accoglienza amichevole: Ciao! Benvenuto a Napoli!",
+        "en": "Friendly welcome: Ciao! Benvenuto a Napoli!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi risposta formale: Non c'è ___, e ___?",
+        "en": "Build formal response: Not bad, and ___?"
+      },
+      "parole": [
+        "Non",
+        "c'è",
+        "male",
+        "e",
+        "Lei"
+      ],
+      "distrattori": [
+        "bene",
+        "tu",
+        "stai"
+      ],
+      "correct": [
+        "Non",
+        "c'è",
+        "male",
+        "e",
+        "Lei"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Non c'è male + E Lei? — risposta formale neutra.",
+        "en": "Perfect! Non c'è male + E Lei? — neutral formal response."
+      },
+      "feedbackErr": {
+        "it": "Risposta formale neutra: Non c'è male, e Lei?",
+        "en": "Neutral formal response: Non c'è male, e Lei?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, a ___! (ci vediamo presto)",
+        "en": "Build: ___, see you ___! (soon)"
+      },
+      "parole": [
+        "Ciao",
+        "a",
+        "presto"
+      ],
+      "distrattori": [
+        "Arrivederci",
+        "dopo",
+        "domani"
+      ],
+      "correct": [
+        "Ciao",
+        "a",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ciao, a presto! = Bye, see you soon!",
+        "en": "Perfect! Ciao, a presto! = Bye, see you soon!"
+      },
+      "feedbackErr": {
+        "it": "See you soon = a presto.",
+        "en": "See you soon = a presto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, professore. Ci vediamo domani.",
+        "en": "Build: ___, professor. See you tomorrow."
+      },
+      "parole": [
+        "Arrivederci",
+        "professore",
+        "Ci",
+        "vediamo",
+        "domani"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Buonanotte",
+        "Piacere"
+      ],
+      "correct": [
+        "Arrivederci",
+        "professore",
+        "Ci",
+        "vediamo",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con il professore → Arrivederci (formale).",
+        "en": "Perfect! With the professor → Arrivederci (formal)."
+      },
+      "feedbackErr": {
+        "it": "Formale: Arrivederci, professore.",
+        "en": "Formal: Arrivederci, professore."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, dormite bene! (ai bambini)",
+        "en": "Build: ___, sleep well! (to children)"
+      },
+      "parole": [
+        "Buonanotte",
+        "dormite",
+        "bene"
+      ],
+      "distrattori": [
+        "Buonasera",
+        "Ciao",
+        "Arrivederci"
+      ],
+      "correct": [
+        "Buonanotte",
+        "dormite",
+        "bene"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Prima di dormire → Buonanotte.",
+        "en": "Perfect! Before sleeping → Buonanotte."
+      },
+      "feedbackErr": {
+        "it": "Prima di dormire → Buonanotte.",
+        "en": "Before sleeping → Buonanotte."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi risposta formale: ___, grazie, e ___?",
+        "en": "Build formal response: ___, thanks, and ___?"
+      },
+      "parole": [
+        "Bene",
+        "grazie",
+        "e",
+        "Lei"
+      ],
+      "distrattori": [
+        "tu",
+        "Piacere",
+        "Ciao"
+      ],
+      "correct": [
+        "Bene",
+        "grazie",
+        "e",
+        "Lei"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Risposta formale: Bene, grazie, e Lei?",
+        "en": "Perfect! Formal response: Bene, grazie, e Lei?"
+      },
+      "feedbackErr": {
+        "it": "Formale: Bene, grazie, e Lei? (non E tu?).",
+        "en": "Formal: Bene, grazie, e Lei? (not E tu?)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a Napoli, sei in paradiso!",
+        "en": "Build: ___ to Naples, you're in paradise!"
+      },
+      "parole": [
+        "Benvenuto",
+        "a",
+        "Napoli",
+        "sei",
+        "in",
+        "paradiso"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Piacere",
+        "Arrivederci"
+      ],
+      "correct": [
+        "Benvenuto",
+        "a",
+        "Napoli",
+        "sei",
+        "in",
+        "paradiso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Benvenuto a Napoli — Mario direbbe proprio così!",
+        "en": "Perfect! Benvenuto a Napoli — Mario would say exactly that!"
+      },
+      "feedbackErr": {
+        "it": "Benvenuto a Napoli!",
+        "en": "Benvenuto a Napoli!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, come va? (informale)",
+        "en": "Build: ___, how's it going? (informal)"
+      },
+      "parole": [
+        "Ciao",
+        "come",
+        "va"
+      ],
+      "distrattori": [
+        "Buongiorno",
+        "sta",
+        "Lei"
+      ],
+      "correct": [
+        "Ciao",
+        "come",
+        "va"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ciao, come va? = Hi, how's it going? Informale.",
+        "en": "Perfect! Ciao, come va? = Hi, how's it going? Informal."
+      },
+      "feedbackErr": {
+        "it": "Informale: Ciao, come va?",
+        "en": "Informal: Ciao, come va?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a tutti! (entrando in una stanza)",
+        "en": "Build: ___ everyone! (entering a room)"
+      },
+      "parole": [
+        "Ciao",
+        "a",
+        "tutti"
+      ],
+      "distrattori": [
+        "Arrivederci",
+        "Buonanotte",
+        "Piacere"
+      ],
+      "correct": [
+        "Ciao",
+        "a",
+        "tutti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ciao a tutti! = Hi everyone! Informale.",
+        "en": "Perfect! Ciao a tutti! = Hi everyone! Informal."
+      },
+      "feedbackErr": {
+        "it": "Saluto di gruppo informale: Ciao a tutti!",
+        "en": "Informal group greeting: Ciao a tutti!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___, buona giornata! (formale, congedandosi)",
+        "en": "Build: ___, have a good day! (formal, farewell)"
+      },
+      "parole": [
+        "Arrivederci",
+        "buona",
+        "giornata"
+      ],
+      "distrattori": [
+        "Ciao",
+        "Piacere",
+        "Pronto"
+      ],
+      "correct": [
+        "Arrivederci",
+        "buona",
+        "giornata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Commiato formale: Arrivederci + buona giornata.",
+        "en": "Perfect! Formal farewell: Arrivederci + buona giornata."
+      },
+      "feedbackErr": {
+        "it": "Formale: Arrivederci + buona giornata/serata.",
+        "en": "Formal: Arrivederci + buona giornata/serata."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Piacere ___! (risposta elegante)",
+        "en": "Build: ___ pleasure! (elegant response)"
+      },
+      "parole": [
+        "Piacere",
+        "mio"
+      ],
+      "distrattori": [
+        "tuo",
+        "suo",
+        "nostro"
+      ],
+      "correct": [
+        "Piacere",
+        "mio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Piacere mio! = my pleasure — risposta elegante a 'piacere'.",
+        "en": "Perfect! Piacere mio! = my pleasure — elegant response to 'piacere'."
+      },
+      "feedbackErr": {
+        "it": "Piacere → Piacere mio! La risposta elegante.",
+        "en": "Piacere → Piacere mio! The elegant response."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ci ___! (arrivederci informale)",
+        "en": "Build: See ___! (informal goodbye)"
+      },
+      "parole": [
+        "Ci",
+        "vediamo"
+      ],
+      "distrattori": [
+        "Arrivederci",
+        "saluto",
+        "ciao"
+      ],
+      "correct": [
+        "Ci",
+        "vediamo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ci vediamo! = see you! Informale e amichevole.",
+        "en": "Perfect! Ci vediamo! = see you! Informal and friendly."
+      },
+      "feedbackErr": {
+        "it": "Ci vediamo = see you. Informale.",
+        "en": "Ci vediamo = see you. Informal."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A presto' si può usare sia con amici che in contesti semi-formali.",
+        "en": "'A presto' can be used both with friends and in semi-formal contexts."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A presto è flessibile — meno formale di arrivederci, meno informale di ciao.",
+        "en": "Correct! A presto is flexible — less formal than arrivederci, less informal than ciao."
+      },
+      "feedbackErr": {
+        "it": "Vero! A presto funziona in molti contesti — è il saluto di mezzo.",
+        "en": "True! A presto works in many contexts — it's the middle-ground farewell."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1572 @@
+{
+  "id": "genere-numero",
+  "categoria": "grammatica",
+  "emoji": "⚖️",
+  "livello": "A1",
+  "titolo": {
+    "it": "Genere e Numero",
+    "en": "Gender and Number"
+  },
+  "mario": "Perché 'il tavolo' è maschio e 'la sedia' è femmina? Nessuno lo sa con certezza. Ma ci sono pattern che ti aiutano. Te li spiego io.",
+  "marioEn": "Why is 'il tavolo' masculine and 'la sedia' feminine? Nobody knows for sure. But there are patterns that help. Let me explain them.",
+  "perche": {
+    "it": "In inglese i nomi non hanno genere — 'the table', 'the chair', uguale per tutti. In italiano ogni nome è maschile o femminile, e questo cambia l'articolo, l'aggettivo e tutto il resto. Non esiste una logica biologica — è storia della lingua latina. Ma ci sono regole che coprono il 90% dei casi, e le eccezioni più importanti le impari a memoria.",
+    "en": "In English nouns have no gender — 'the table', 'the chair', same for everything. In Italian every noun is masculine or feminine, and this changes the article, adjective and everything else. There's no biological logic — it's the history of the Latin language. But there are rules that cover 90% of cases, and you learn the most important exceptions by heart."
+  },
+  "spiegazione": {
+    "it": "Regola base: -o finale = maschile, -a finale = femminile. -e finale = può essere entrambi. Poi ci sono le eccezioni — alcune importantissime.",
+    "en": "Basic rule: -o ending = masculine, -a ending = feminine. -e ending = can be either. Then there are exceptions — some very important ones."
+  },
+  "tabella": {
+    "headers": [
+      "Regola / Rule",
+      "Maschile / Masculine",
+      "Femminile / Feminine",
+      "Note / Notes"
+    ],
+    "rows": [
+      [
+        "-o finale",
+        "il libro, il tavolo, il vino",
+        "—",
+        "quasi sempre M / almost always M"
+      ],
+      [
+        "-a finale",
+        "—",
+        "la pizza, la casa, la porta",
+        "quasi sempre F / almost always F"
+      ],
+      [
+        "-e finale",
+        "il mare, il sole, il padre",
+        "la madre, la notte, la neve",
+        "impara a memoria / learn by heart"
+      ],
+      [
+        "Eccezioni -o",
+        "—",
+        "la mano, la radio, la foto",
+        "⚠️ femminili in -o / feminine in -o"
+      ],
+      [
+        "Eccezioni -a",
+        "il problema, il tema, il cinema",
+        "—",
+        "⚠️ maschili in -a / masculine in -a"
+      ],
+      [
+        "Plurale M",
+        "libro → libri, tavolo → tavoli",
+        "—",
+        "-o → -i"
+      ],
+      [
+        "Plurale F",
+        "—",
+        "pizza → pizze, casa → case",
+        "-a → -e"
+      ],
+      [
+        "Plurale -e",
+        "mare → mari, padre → padri",
+        "madre → madri, notte → notti",
+        "-e → -i sempre"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Il libro è sul tavolo.",
+      "en": "The book is on the table.",
+      "audio": "Il libro è sul tavolo."
+    },
+    {
+      "it": "La pizza è pronta.",
+      "en": "The pizza is ready.",
+      "audio": "La pizza è pronta."
+    },
+    {
+      "it": "Il mare è bellissimo.",
+      "en": "The sea is beautiful.",
+      "audio": "Il mare è bellissimo."
+    },
+    {
+      "it": "La mano è femminile — la mano, le mani.",
+      "en": "Mano is feminine — la mano, le mani.",
+      "audio": "La mano è femminile."
+    },
+    {
+      "it": "Il problema è maschile — il problema, i problemi.",
+      "en": "Problema is masculine — il problema, i problemi.",
+      "audio": "Il problema è maschile."
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 A Napoli 'o sole mio — 'o è l'articolo napoletano maschile. Sole è maschile: il sole. La canzone più famosa del mondo ha un articolo dialettale!",
+    "en": "🇳🇦 'O sole mio — 'o is the Neapolitan masculine article. Sole is masculine: il sole. The world's most famous song has a dialect article!"
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'tavolo'?",
+        "en": "What is the gender of 'tavolo'?"
+      },
+      "opzioni": [
+        "Femminile / Feminine",
+        "Maschile / Masculine",
+        "Neutro / Neutral",
+        "Dipende / Depends"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Tavolo' finisce in -o → maschile → il tavolo.",
+        "en": "Correct! 'Tavolo' ends in -o → masculine → il tavolo."
+      },
+      "feedbackErr": {
+        "it": "'Tavolo' finisce in -o → quasi sempre maschile → il tavolo.",
+        "en": "'Tavolo' ends in -o → almost always masculine → il tavolo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'pizza'?",
+        "en": "What is the gender of 'pizza'?"
+      },
+      "opzioni": [
+        "Maschile / Masculine",
+        "Femminile / Feminine",
+        "Neutro / Neutral",
+        "Entrambi / Both"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Pizza' finisce in -a → femminile → la pizza.",
+        "en": "Correct! 'Pizza' ends in -a → feminine → la pizza."
+      },
+      "feedbackErr": {
+        "it": "'Pizza' finisce in -a → quasi sempre femminile → la pizza.",
+        "en": "'Pizza' ends in -a → almost always feminine → la pizza."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'libro'?",
+        "en": "What is the plural of 'libro'?"
+      },
+      "opzioni": [
+        "libre",
+        "libra",
+        "libri",
+        "librie"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Maschile -o → plurale -i → libri.",
+        "en": "Correct! Masculine -o → plural -i → libri."
+      },
+      "feedbackErr": {
+        "it": "Maschile in -o → plurale in -i → libro → libri.",
+        "en": "Masculine in -o → plural in -i → libro → libri."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'pizza'?",
+        "en": "What is the plural of 'pizza'?"
+      },
+      "opzioni": [
+        "pizzi",
+        "pizze",
+        "pizzas",
+        "pizza"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Femminile -a → plurale -e → pizze.",
+        "en": "Correct! Feminine -a → plural -e → pizze."
+      },
+      "feedbackErr": {
+        "it": "Femminile in -a → plurale in -e → pizza → pizze.",
+        "en": "Feminine in -a → plural in -e → pizza → pizze."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'mano'?",
+        "en": "What is the gender of 'mano'?"
+      },
+      "opzioni": [
+        "Maschile / Masculine",
+        "Femminile / Feminine",
+        "Neutro / Neutral",
+        "Dipende / Depends"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mano' finisce in -o ma è femminile — eccezione importante: la mano.",
+        "en": "Correct! 'Mano' ends in -o but is feminine — important exception: la mano."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! 'Mano' finisce in -o ma è femminile: la mano, le mani. Eccezione da memorizzare.",
+        "en": "Watch out! 'Mano' ends in -o but is feminine: la mano, le mani. Exception to memorise."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'problema'?",
+        "en": "What is the gender of 'problema'?"
+      },
+      "opzioni": [
+        "Femminile / Feminine",
+        "Maschile / Masculine",
+        "Neutro / Neutral",
+        "Entrambi / Both"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Problema' finisce in -a ma è maschile: il problema, i problemi.",
+        "en": "Correct! 'Problema' ends in -a but is masculine: il problema, i problemi."
+      },
+      "feedbackErr": {
+        "it": "Sorpresa! 'Problema' finisce in -a ma è maschile. Viene dal greco. Il problema, i problemi.",
+        "en": "Surprise! 'Problema' ends in -a but is masculine. It comes from Greek. Il problema, i problemi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'mare' (maschile)?",
+        "en": "What is the plural of 'mare' (masculine)?"
+      },
+      "opzioni": [
+        "mare",
+        "mara",
+        "mari",
+        "mare"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Nomi in -e → plurale in -i, sia M che F → mari.",
+        "en": "Correct! Nouns in -e → plural in -i, both M and F → mari."
+      },
+      "feedbackErr": {
+        "it": "Nomi in -e (sia M che F) → plurale in -i → mare → mari.",
+        "en": "Nouns in -e (both M and F) → plural in -i → mare → mari."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'madre' (femminile)?",
+        "en": "What is the plural of 'madre' (feminine)?"
+      },
+      "opzioni": [
+        "madre",
+        "madra",
+        "madre",
+        "madri"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Femminile in -e → plurale in -i → madri.",
+        "en": "Correct! Feminine in -e → plural in -i → madri."
+      },
+      "feedbackErr": {
+        "it": "Femminile in -e → plurale in -i → madre → madri. Stessa regola del maschile.",
+        "en": "Feminine in -e → plural in -i → madre → madri. Same rule as masculine."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the problems' in italiano?",
+        "en": "How do you say 'the problems' in Italian?"
+      },
+      "opzioni": [
+        "le probleme",
+        "i problemi",
+        "le problemi",
+        "i probleme"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Problema' è maschile → plurale maschile: i problemi.",
+        "en": "Correct! 'Problema' is masculine → masculine plural: i problemi."
+      },
+      "feedbackErr": {
+        "it": "'Problema' è maschile (nonostante -a) → i problemi.",
+        "en": "'Problema' is masculine (despite -a) → i problemi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'sole'?",
+        "en": "What is the gender of 'sole'?"
+      },
+      "opzioni": [
+        "Femminile / Feminine",
+        "Maschile / Masculine",
+        "Dipende / Depends",
+        "Neutro / Neutral"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sole' è maschile: il sole. 'O sole mio — 'o è l'articolo napoletano maschile!",
+        "en": "Correct! 'Sole' is masculine: il sole. 'O sole mio — 'o is the Neapolitan masculine article!"
+      },
+      "feedbackErr": {
+        "it": "'Sole' è maschile: il sole. I nomi in -e vanno imparati uno per uno.",
+        "en": "'Sole' is masculine: il sole. Nouns in -e need to be learned one by one."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'mano'?",
+        "en": "What is the plural of 'mano'?"
+      },
+      "opzioni": [
+        "manos",
+        "mani",
+        "mane",
+        "mano"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mano' è femminile irregolare: la mano → le mani.",
+        "en": "Correct! 'Mano' is an irregular feminine: la mano → le mani."
+      },
+      "feedbackErr": {
+        "it": "La mano → le mani. Doppia irregolarità: finisce in -o ed è femminile, plurale in -i.",
+        "en": "La mano → le mani. Double irregularity: ends in -o and is feminine, plural in -i."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'notte'?",
+        "en": "What is the gender of 'notte'?"
+      },
+      "opzioni": [
+        "Maschile / Masculine",
+        "Femminile / Feminine",
+        "Neutro / Neutral",
+        "Dipende / Depends"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Notte' è femminile: la notte, le notti.",
+        "en": "Correct! 'Notte' is feminine: la notte, le notti."
+      },
+      "feedbackErr": {
+        "it": "'Notte' è femminile: la notte. I nomi in -e si imparano con l'articolo.",
+        "en": "'Notte' is feminine: la notte. Nouns in -e are learned with the article."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'cinema'?",
+        "en": "What is the gender of 'cinema'?"
+      },
+      "opzioni": [
+        "Femminile / Feminine",
+        "Maschile / Masculine",
+        "Neutro / Neutral",
+        "Entrambi / Both"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Cinema' finisce in -a ma è maschile: il cinema. Come 'problema' e 'tema'.",
+        "en": "Correct! 'Cinema' ends in -a but is masculine: il cinema. Like 'problema' and 'tema'."
+      },
+      "feedbackErr": {
+        "it": "'Cinema' è maschile nonostante -a: il cinema. Parole straniere spesso maschili in italiano.",
+        "en": "'Cinema' is masculine despite -a: il cinema. Foreign words are often masculine in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the hands' in italiano?",
+        "en": "How do you say 'the hands' in Italian?"
+      },
+      "opzioni": [
+        "i mani",
+        "le mano",
+        "le mani",
+        "i mano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Mano' è femminile → plurale femminile: le mani.",
+        "en": "Correct! 'Mano' is feminine → feminine plural: le mani."
+      },
+      "feedbackErr": {
+        "it": "'Mano' è femminile → le mani. Non 'i mani' — quello sarebbe maschile.",
+        "en": "'Mano' is feminine → le mani. Not 'i mani' — that would be masculine."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'città'?",
+        "en": "What is the plural of 'città'?"
+      },
+      "opzioni": [
+        "cittàe",
+        "città",
+        "cittài",
+        "cittàs"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Le parole con accento finale non cambiano al plurale: la città → le città.",
+        "en": "Correct! Words with a final accent don't change in the plural: la città → le città."
+      },
+      "feedbackErr": {
+        "it": "Le parole tronche (accento finale) non cambiano: la città → le città, il caffè → i caffè.",
+        "en": "Truncated words (final accent) don't change: la città → le città, il caffè → i caffè."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'padre'?",
+        "en": "What is the gender of 'padre'?"
+      },
+      "opzioni": [
+        "Femminile / Feminine",
+        "Maschile / Masculine",
+        "Neutro / Neutral",
+        "Dipende / Depends"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Padre' è maschile: il padre, i padri.",
+        "en": "Correct! 'Padre' is masculine: il padre, i padri."
+      },
+      "feedbackErr": {
+        "it": "'Padre' è maschile: il padre. Come 'madre' è femminile: la madre.",
+        "en": "'Padre' is masculine: il padre. Just as 'madre' is feminine: la madre."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il plurale di 'caffè'?",
+        "en": "What is the plural of 'caffè'?"
+      },
+      "opzioni": [
+        "caffèi",
+        "caffès",
+        "caffèe",
+        "caffè"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Le parole con accento finale non cambiano al plurale: il caffè → i caffè.",
+        "en": "Correct! Words with a final accent don't change in the plural: il caffè → i caffè."
+      },
+      "feedbackErr": {
+        "it": "Il caffè → i caffè. Parole con accento finale: invariabili al plurale.",
+        "en": "Il caffè → i caffè. Words with final accent: unchanged in plural."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'radio'?",
+        "en": "What is the gender of 'radio'?"
+      },
+      "opzioni": [
+        "Maschile / Masculine",
+        "Femminile / Feminine",
+        "Neutro / Neutral",
+        "Entrambi / Both"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Radio' finisce in -o ma è femminile: la radio. Come 'foto' e 'moto'.",
+        "en": "Correct! 'Radio' ends in -o but is feminine: la radio. Like 'foto' and 'moto'."
+      },
+      "feedbackErr": {
+        "it": "'Radio' è femminile nonostante -o: la radio. Anche 'foto' e 'moto' sono femminili.",
+        "en": "'Radio' is feminine despite -o: la radio. Also 'foto' and 'moto' are feminine."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the nights' in italiano?",
+        "en": "How do you say 'the nights' in Italian?"
+      },
+      "opzioni": [
+        "i notti",
+        "le notte",
+        "le notti",
+        "i notte"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Notte' è femminile in -e → plurale in -i → le notti.",
+        "en": "Correct! 'Notte' is feminine in -e → plural in -i → le notti."
+      },
+      "feedbackErr": {
+        "it": "'Notte' è femminile → le notti. Nomi in -e → plurale in -i.",
+        "en": "'Notte' is feminine → le notti. Nouns in -e → plural in -i."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il genere di 'neve'?",
+        "en": "What is the gender of 'neve'?"
+      },
+      "opzioni": [
+        "Maschile / Masculine",
+        "Femminile / Feminine",
+        "Neutro / Neutral",
+        "Dipende / Depends"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Neve' è femminile: la neve. A Napoli la neve è rara — ma sempre femminile!",
+        "en": "Correct! 'Neve' is feminine: la neve. In Naples snow is rare — but always feminine!"
+      },
+      "feedbackErr": {
+        "it": "'Neve' è femminile: la neve. I nomi in -e si imparano con l'articolo.",
+        "en": "'Neve' is feminine: la neve. Nouns in -e are learned with the article."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Tutti i nomi che finiscono in -o sono maschili in italiano.",
+        "en": "All nouns ending in -o are masculine in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! Falso — 'mano', 'radio', 'foto', 'moto' finiscono in -o ma sono femminili.",
+        "en": "Correct! False — 'mano', 'radio', 'foto', 'moto' end in -o but are feminine."
+      },
+      "feedbackErr": {
+        "it": "Falso! Eccezioni importanti: la mano, la radio, la foto, la moto.",
+        "en": "False! Important exceptions: la mano, la radio, la foto, la moto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'casa' è 'case'.",
+        "en": "The plural of 'casa' is 'case'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Femminile in -a → plurale in -e → casa → case.",
+        "en": "Correct! Feminine in -a → plural in -e → casa → case."
+      },
+      "feedbackErr": {
+        "it": "Vero! Femminile in -a → plurale in -e: casa → case, pizza → pizze.",
+        "en": "True! Feminine in -a → plural in -e: casa → case, pizza → pizze."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Problema' è femminile perché finisce in -a.",
+        "en": "'Problema' is feminine because it ends in -a."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! Falso — 'problema' è maschile. Viene dal greco. Il problema, i problemi.",
+        "en": "Correct! False — 'problema' is masculine. It comes from Greek. Il problema, i problemi."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Problema' è maschile nonostante -a. Come tema, cinema, dilemma.",
+        "en": "False! 'Problema' is masculine despite -a. Like tema, cinema, dilemma."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'città' è 'città' — non cambia.",
+        "en": "The plural of 'città' is 'città' — it doesn't change."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Parole con accento finale sono invariabili: la città → le città.",
+        "en": "Correct! Words with a final accent are invariable: la città → le città."
+      },
+      "feedbackErr": {
+        "it": "Vero! Parole tronche non cambiano al plurale: città, caffè, università.",
+        "en": "True! Truncated words don't change in plural: città, caffè, università."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I nomi in -e possono essere sia maschili che femminili.",
+        "en": "Nouns in -e can be either masculine or feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il mare (M), la madre (F), il sole (M), la notte (F) — tutti in -e.",
+        "en": "Correct! Il mare (M), la madre (F), il sole (M), la notte (F) — all ending in -e."
+      },
+      "feedbackErr": {
+        "it": "Vero! I nomi in -e non hanno un genere fisso — vanno imparati con l'articolo.",
+        "en": "True! Nouns in -e have no fixed gender — they need to be learned with the article."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di tutti i nomi in -e è -i.",
+        "en": "The plural of all nouns in -e is -i."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sia maschili che femminili in -e fanno il plurale in -i: mare→mari, madre→madri.",
+        "en": "Correct! Both masculine and feminine nouns in -e make the plural in -i: mare→mari, madre→madri."
+      },
+      "feedbackErr": {
+        "it": "Vero! Tutti i nomi in -e (M e F) → plurale in -i. È l'unica regola senza eccezioni.",
+        "en": "True! All nouns in -e (M and F) → plural in -i. It's the only rule with no exceptions."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Radio' è maschile perché finisce in -o.",
+        "en": "'Radio' is masculine because it ends in -o."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Radio' è femminile: la radio. Come foto e moto.",
+        "en": "False! 'Radio' is feminine: la radio. Like foto and moto."
+      },
+      "feedbackErr": {
+        "it": "Falso! La radio, la foto, la moto — tutte femminili nonostante -o.",
+        "en": "False! La radio, la foto, la moto — all feminine despite -o."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'libro' è 'libri'.",
+        "en": "The plural of 'libro' is 'libri'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maschile in -o → plurale in -i → libro → libri.",
+        "en": "Correct! Masculine in -o → plural in -i → libro → libri."
+      },
+      "feedbackErr": {
+        "it": "Vero! Maschile -o → plurale -i: libro→libri, tavolo→tavoli, amico→amici.",
+        "en": "True! Masculine -o → plural -i: libro→libri, tavolo→tavoli, amico→amici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano non esiste il genere neutro.",
+        "en": "In Italian the neuter gender does not exist."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In italiano tutto è maschile o femminile — il neutro latino è scomparso.",
+        "en": "Correct! In Italian everything is masculine or feminine — the Latin neuter has disappeared."
+      },
+      "feedbackErr": {
+        "it": "Vero! L'italiano ha perso il neutro latino. Tutto è M o F.",
+        "en": "True! Italian lost the Latin neuter. Everything is M or F."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'mano' è 'mani'.",
+        "en": "The plural of 'mano' is 'mani'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La mano → le mani. Femminile irregolare in -o, plurale in -i.",
+        "en": "Correct! La mano → le mani. Irregular feminine in -o, plural in -i."
+      },
+      "feedbackErr": {
+        "it": "Vero! La mano → le mani. Irregolare ma importantissimo da sapere.",
+        "en": "True! La mano → le mani. Irregular but very important to know."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Tutti i nomi stranieri in italiano sono maschili.",
+        "en": "All foreign nouns in Italian are masculine."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! La radio, la moto, la foto sono femminili. Non è una regola assoluta.",
+        "en": "False! La radio, la moto, la foto are feminine. It's not an absolute rule."
+      },
+      "feedbackErr": {
+        "it": "Falso! Molti stranierismi sono maschili (il computer, il bar) ma non tutti.",
+        "en": "False! Many foreign words are masculine (il computer, il bar) but not all."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'pizza' è 'pizzi'.",
+        "en": "The plural of 'pizza' is 'pizzi'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Femminile in -a → plurale in -e → pizze, non pizzi.",
+        "en": "False! Feminine in -a → plural in -e → pizze, not pizzi."
+      },
+      "feedbackErr": {
+        "it": "Falso! Pizza → pizze. -a finale femminile → -e al plurale. 'Pizzi' non esiste.",
+        "en": "False! Pizza → pizze. Feminine final -a → -e in plural. 'Pizzi' doesn't exist."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sole' e 'mare' sono entrambi maschili.",
+        "en": "'Sole' and 'mare' are both masculine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il sole, il mare — entrambi maschili in -e.",
+        "en": "Correct! Il sole, il mare — both masculine in -e."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il sole (M), il mare (M) — nomi in -e maschili.",
+        "en": "True! Il sole (M), il mare (M) — masculine nouns in -e."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il genere dei nomi in italiano viene sempre dalla logica.",
+        "en": "The gender of nouns in Italian always comes from logic."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il genere è storico, non logico. La sedia è femmina, il tavolo è maschio — nessuna logica!",
+        "en": "False! Gender is historical, not logical. La sedia is feminine, il tavolo masculine — no logic!"
+      },
+      "feedbackErr": {
+        "it": "Falso! Il genere viene dal latino — è storia, non biologia o logica.",
+        "en": "False! Gender comes from Latin — it's history, not biology or logic."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'padre' è 'padri'.",
+        "en": "The plural of 'padre' is 'padri'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maschile in -e → plurale in -i → padre → padri.",
+        "en": "Correct! Masculine in -e → plural in -i → padre → padri."
+      },
+      "feedbackErr": {
+        "it": "Vero! Padre → padri. Nomi in -e → plurale in -i, sempre.",
+        "en": "True! Padre → padri. Nouns in -e → plural in -i, always."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La parola 'film' non cambia al plurale in italiano.",
+        "en": "The word 'film' doesn't change in the plural in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Parole straniere che non finiscono in vocale sono invariabili: il film → i film.",
+        "en": "Correct! Foreign words not ending in a vowel are invariable: il film → i film."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il film → i film. Parole straniere con consonante finale non cambiano.",
+        "en": "True! Il film → i film. Foreign words with final consonant don't change."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Madre' e 'notte' sono entrambe femminili.",
+        "en": "'Madre' and 'notte' are both feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La madre (F), la notte (F) — entrambe femminili in -e.",
+        "en": "Correct! La madre (F), la notte (F) — both feminine in -e."
+      },
+      "feedbackErr": {
+        "it": "Vero! La madre, la notte — entrambe femminili. I nomi in -e vanno imparati.",
+        "en": "True! La madre, la notte — both feminine. Nouns in -e need to be learned."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'caffè' è 'caffei'.",
+        "en": "The plural of 'caffè' is 'caffei'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il caffè → i caffè. Parole con accento finale non cambiano mai al plurale.",
+        "en": "False! Il caffè → i caffè. Words with final accent never change in the plural."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il caffè → i caffè. Invariabile come città, università, virtù.",
+        "en": "False! Il caffè → i caffè. Invariable like città, università, virtù."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il genere grammaticale e il sesso biologico coincidono sempre.",
+        "en": "In Italian grammatical gender and biological sex always coincide."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'La guardia' può essere un uomo, 'il soprano' può essere una donna.",
+        "en": "False! 'La guardia' can be a man, 'il soprano' can be a woman."
+      },
+      "feedbackErr": {
+        "it": "Falso! La persona (F) può essere un uomo. Il genere è grammaticale, non biologico.",
+        "en": "False! La persona (F) can be a man. Gender is grammatical, not biological."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ tavolo è grande.",
+        "en": "Build: ___ table is big."
+      },
+      "parole": [
+        "Il",
+        "tavolo",
+        "è",
+        "grande"
+      ],
+      "distrattori": [
+        "La",
+        "Lo",
+        "Le"
+      ],
+      "correct": [
+        "Il",
+        "tavolo",
+        "è",
+        "grande"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Tavolo' finisce in -o → maschile → il tavolo.",
+        "en": "Perfect! 'Tavolo' ends in -o → masculine → il tavolo."
+      },
+      "feedbackErr": {
+        "it": "'Tavolo' finisce in -o → maschile → il tavolo.",
+        "en": "'Tavolo' ends in -o → masculine → il tavolo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ case di Napoli sono belle.",
+        "en": "Build: ___ houses in Naples are beautiful."
+      },
+      "parole": [
+        "Le",
+        "case",
+        "di",
+        "Napoli",
+        "sono",
+        "belle"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "La"
+      ],
+      "correct": [
+        "Le",
+        "case",
+        "di",
+        "Napoli",
+        "sono",
+        "belle"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Casa' è femminile → plurale 'case' → le case.",
+        "en": "Perfect! 'Casa' is feminine → plural 'case' → le case."
+      },
+      "feedbackErr": {
+        "it": "'Casa' è femminile → plurale 'case' → le case.",
+        "en": "'Casa' is feminine → plural 'case' → le case."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ mano di Diego è forte.",
+        "en": "Build: ___ hand of Diego is strong."
+      },
+      "parole": [
+        "La",
+        "mano",
+        "di",
+        "Diego",
+        "è",
+        "forte"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "I"
+      ],
+      "correct": [
+        "La",
+        "mano",
+        "di",
+        "Diego",
+        "è",
+        "forte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mano' finisce in -o ma è femminile → la mano.",
+        "en": "Perfect! 'Mano' ends in -o but is feminine → la mano."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! 'Mano' è femminile nonostante -o → la mano.",
+        "en": "Watch out! 'Mano' is feminine despite -o → la mano."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ problemi sono difficili.",
+        "en": "Build: ___ problems are difficult."
+      },
+      "parole": [
+        "I",
+        "problemi",
+        "sono",
+        "difficili"
+      ],
+      "distrattori": [
+        "Le",
+        "Gli",
+        "La"
+      ],
+      "correct": [
+        "I",
+        "problemi",
+        "sono",
+        "difficili"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Problema' è maschile → plurale 'problemi' → i problemi.",
+        "en": "Perfect! 'Problema' is masculine → plural 'problemi' → i problemi."
+      },
+      "feedbackErr": {
+        "it": "'Problema' è maschile (nonostante -a) → i problemi.",
+        "en": "'Problema' is masculine (despite -a) → i problemi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ sole di Napoli è bellissimo.",
+        "en": "Build: ___ sun of Naples is gorgeous."
+      },
+      "parole": [
+        "Il",
+        "sole",
+        "di",
+        "Napoli",
+        "è",
+        "bellissimo"
+      ],
+      "distrattori": [
+        "La",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Il",
+        "sole",
+        "di",
+        "Napoli",
+        "è",
+        "bellissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Sole' è maschile: il sole. 'O sole mio!",
+        "en": "Perfect! 'Sole' is masculine: il sole. 'O sole mio!"
+      },
+      "feedbackErr": {
+        "it": "'Sole' è maschile → il sole.",
+        "en": "'Sole' is masculine → il sole."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ notti di agosto sono calde.",
+        "en": "Build: ___ August nights are warm."
+      },
+      "parole": [
+        "Le",
+        "notti",
+        "di",
+        "agosto",
+        "sono",
+        "calde"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "Il"
+      ],
+      "correct": [
+        "Le",
+        "notti",
+        "di",
+        "agosto",
+        "sono",
+        "calde"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Notte' è femminile → plurale 'notti' → le notti.",
+        "en": "Perfect! 'Notte' is feminine → plural 'notti' → le notti."
+      },
+      "feedbackErr": {
+        "it": "'Notte' è femminile in -e → plurale -i → le notti.",
+        "en": "'Notte' is feminine in -e → plural -i → le notti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ foto di Mario sono belle.",
+        "en": "Build: ___ photos by Mario are beautiful."
+      },
+      "parole": [
+        "Le",
+        "foto",
+        "di",
+        "Mario",
+        "sono",
+        "belle"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "Il"
+      ],
+      "correct": [
+        "Le",
+        "foto",
+        "di",
+        "Mario",
+        "sono",
+        "belle"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Foto' è femminile → plurale invariabile → le foto.",
+        "en": "Perfect! 'Foto' is feminine → invariable plural → le foto."
+      },
+      "feedbackErr": {
+        "it": "'Foto' è femminile e invariabile al plurale → le foto.",
+        "en": "'Foto' is feminine and invariable in plural → le foto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ cinema di Napoli è vecchio.",
+        "en": "Build: ___ cinema in Naples is old."
+      },
+      "parole": [
+        "Il",
+        "cinema",
+        "di",
+        "Napoli",
+        "è",
+        "vecchio"
+      ],
+      "distrattori": [
+        "La",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Il",
+        "cinema",
+        "di",
+        "Napoli",
+        "è",
+        "vecchio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Cinema' finisce in -a ma è maschile → il cinema.",
+        "en": "Perfect! 'Cinema' ends in -a but is masculine → il cinema."
+      },
+      "feedbackErr": {
+        "it": "'Cinema' è maschile nonostante -a → il cinema.",
+        "en": "'Cinema' is masculine despite -a → il cinema."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ mari del sud sono azzurri.",
+        "en": "Build: ___ southern seas are blue."
+      },
+      "parole": [
+        "I",
+        "mari",
+        "del",
+        "sud",
+        "sono",
+        "azzurri"
+      ],
+      "distrattori": [
+        "Le",
+        "Gli",
+        "La"
+      ],
+      "correct": [
+        "I",
+        "mari",
+        "del",
+        "sud",
+        "sono",
+        "azzurri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mare' è maschile → plurale 'mari' → i mari.",
+        "en": "Perfect! 'Mare' is masculine → plural 'mari' → i mari."
+      },
+      "feedbackErr": {
+        "it": "'Mare' è maschile → plurale 'mari' → i mari.",
+        "en": "'Mare' is masculine → plural 'mari' → i mari."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ radio è accesa.",
+        "en": "Build: ___ radio is on."
+      },
+      "parole": [
+        "La",
+        "radio",
+        "è",
+        "accesa"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "I"
+      ],
+      "correct": [
+        "La",
+        "radio",
+        "è",
+        "accesa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Radio' finisce in -o ma è femminile → la radio.",
+        "en": "Perfect! 'Radio' ends in -o but is feminine → la radio."
+      },
+      "feedbackErr": {
+        "it": "'Radio' è femminile nonostante -o → la radio.",
+        "en": "'Radio' is feminine despite -o → la radio."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ madri italiane sono speciali.",
+        "en": "Build: ___ Italian mothers are special."
+      },
+      "parole": [
+        "Le",
+        "madri",
+        "italiane",
+        "sono",
+        "speciali"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "Il"
+      ],
+      "correct": [
+        "Le",
+        "madri",
+        "italiane",
+        "sono",
+        "speciali"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Madre' è femminile → plurale 'madri' → le madri.",
+        "en": "Perfect! 'Madre' is feminine → plural 'madri' → le madri."
+      },
+      "feedbackErr": {
+        "it": "'Madre' è femminile in -e → plurale -i → le madri.",
+        "en": "'Madre' is feminine in -e → plural -i → le madri."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ caffè di Mario è ottimo.",
+        "en": "Build: ___ coffee by Mario is excellent."
+      },
+      "parole": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "distrattori": [
+        "La",
+        "Le",
+        "Gli"
+      ],
+      "correct": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Caffè' è maschile e invariabile → il caffè.",
+        "en": "Perfect! 'Caffè' is masculine and invariable → il caffè."
+      },
+      "feedbackErr": {
+        "it": "'Caffè' è maschile → il caffè. E al plurale? I caffè — non cambia!",
+        "en": "'Caffè' is masculine → il caffè. And in plural? I caffè — doesn't change!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ mani di Sofia sono piccole.",
+        "en": "Build: ___ hands of Sofia are small."
+      },
+      "parole": [
+        "Le",
+        "mani",
+        "di",
+        "Sofia",
+        "sono",
+        "piccole"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "Il"
+      ],
+      "correct": [
+        "Le",
+        "mani",
+        "di",
+        "Sofia",
+        "sono",
+        "piccole"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mano' è femminile → plurale 'mani' → le mani.",
+        "en": "Perfect! 'Mano' is feminine → plural 'mani' → le mani."
+      },
+      "feedbackErr": {
+        "it": "'Mano' è femminile → le mani (non i mani).",
+        "en": "'Mano' is feminine → le mani (not i mani)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ neve a Napoli è rara.",
+        "en": "Build: ___ snow in Naples is rare."
+      },
+      "parole": [
+        "La",
+        "neve",
+        "a",
+        "Napoli",
+        "è",
+        "rara"
+      ],
+      "distrattori": [
+        "Il",
+        "Lo",
+        "I"
+      ],
+      "correct": [
+        "La",
+        "neve",
+        "a",
+        "Napoli",
+        "è",
+        "rara"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Neve' è femminile → la neve.",
+        "en": "Perfect! 'Neve' is feminine → la neve."
+      },
+      "feedbackErr": {
+        "it": "'Neve' è femminile → la neve.",
+        "en": "'Neve' is feminine → la neve."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ padri portano i bambini al mare.",
+        "en": "Build: ___ fathers take the children to the sea."
+      },
+      "parole": [
+        "I",
+        "padri",
+        "portano",
+        "i",
+        "bambini",
+        "al",
+        "mare"
+      ],
+      "distrattori": [
+        "Le",
+        "Gli",
+        "La"
+      ],
+      "correct": [
+        "I",
+        "padri",
+        "portano",
+        "i",
+        "bambini",
+        "al",
+        "mare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Padre' è maschile → plurale 'padri' → i padri.",
+        "en": "Perfect! 'Padre' is masculine → plural 'padri' → i padri."
+      },
+      "feedbackErr": {
+        "it": "'Padre' è maschile in -e → plurale -i → i padri.",
+        "en": "'Padre' is masculine in -e → plural -i → i padri."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ film di Sorrentino è bello.",
+        "en": "Build: ___ Sorrentino film is beautiful."
+      },
+      "parole": [
+        "Il",
+        "film",
+        "di",
+        "Sorrentino",
+        "è",
+        "bello"
+      ],
+      "distrattori": [
+        "La",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Il",
+        "film",
+        "di",
+        "Sorrentino",
+        "è",
+        "bello"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Film' è maschile e invariabile → il film, i film.",
+        "en": "Perfect! 'Film' is masculine and invariable → il film, i film."
+      },
+      "feedbackErr": {
+        "it": "'Film' è maschile → il film. Parola straniera invariabile.",
+        "en": "'Film' is masculine → il film. Invariable foreign word."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ città italiane sono bellissime.",
+        "en": "Build: ___ Italian cities are gorgeous."
+      },
+      "parole": [
+        "Le",
+        "città",
+        "italiane",
+        "sono",
+        "bellissime"
+      ],
+      "distrattori": [
+        "I",
+        "Gli",
+        "Il"
+      ],
+      "correct": [
+        "Le",
+        "città",
+        "italiane",
+        "sono",
+        "bellissime"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Città' è femminile e invariabile → le città.",
+        "en": "Perfect! 'Città' is feminine and invariable → le città."
+      },
+      "feedbackErr": {
+        "it": "'Città' è femminile e invariabile → le città (non 'le cittàe').",
+        "en": "'Città' is feminine and invariable → le città (not 'le cittàe')."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ tema della lezione è interessante.",
+        "en": "Build: ___ topic of the lesson is interesting."
+      },
+      "parole": [
+        "Il",
+        "tema",
+        "della",
+        "lezione",
+        "è",
+        "interessante"
+      ],
+      "distrattori": [
+        "La",
+        "Le",
+        "Lo"
+      ],
+      "correct": [
+        "Il",
+        "tema",
+        "della",
+        "lezione",
+        "è",
+        "interessante"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Tema' finisce in -a ma è maschile → il tema. Come problema e cinema.",
+        "en": "Perfect! 'Tema' ends in -a but is masculine → il tema. Like problema and cinema."
+      },
+      "feedbackErr": {
+        "it": "'Tema' è maschile nonostante -a → il tema, i temi.",
+        "en": "'Tema' is masculine despite -a → il tema, i temi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ libri di Mario sono sul tavolo.",
+        "en": "Build: ___ books by Mario are on the table."
+      },
+      "parole": [
+        "I",
+        "libri",
+        "di",
+        "Mario",
+        "sono",
+        "sul",
+        "tavolo"
+      ],
+      "distrattori": [
+        "Le",
+        "Gli",
+        "La"
+      ],
+      "correct": [
+        "I",
+        "libri",
+        "di",
+        "Mario",
+        "sono",
+        "sul",
+        "tavolo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Libro' è maschile → plurale 'libri' → i libri.",
+        "en": "Perfect! 'Libro' is masculine → plural 'libri' → i libri."
+      },
+      "feedbackErr": {
+        "it": "'Libro' è maschile → i libri.",
+        "en": "'Libro' is masculine → i libri."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I nomi che finiscono in -e possono essere sia maschili che femminili.",
+        "en": "Nouns ending in -e can be either masculine or feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -e è ambiguo: 'il fiore' (m.), 'la chiave' (f.), 'il nome' (m.), 'la notte' (f.) — bisogna imparare il genere.",
+        "en": "Correct! -e is ambiguous: 'il fiore' (m.), 'la chiave' (f.), 'il nome' (m.), 'la notte' (f.) — you need to learn the gender."
+      },
+      "feedbackErr": {
+        "it": "Vero! I nomi in -e non hanno un genere fisso — 'il fiore' è maschile, 'la chiave' è femminile.",
+        "en": "True! Nouns in -e don't have a fixed gender — 'il fiore' is masculine, 'la chiave' is feminine."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Forma plurale: 'il ragazzo' → ___.",
+        "en": "Plural form: 'il ragazzo' → ___."
+      },
+      "parole": [
+        "i",
+        "ragazzi"
+      ],
+      "distrattori": [
+        "le",
+        "ragazze",
+        "gli",
+        "ragazzo"
+      ],
+      "correct": [
+        "i",
+        "ragazzi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Maschile singolare -o → maschile plurale -i. il ragazzo → i ragazzi.",
+        "en": "Perfect! Masculine singular -o → masculine plural -i. il ragazzo → i ragazzi."
+      },
+      "feedbackErr": {
+        "it": "Maschile -o → plurale -i. il ragazzo → i ragazzi.",
+        "en": "Masculine -o → plural -i. il ragazzo → i ragazzi."
+      }
+    }
+  ]
+}

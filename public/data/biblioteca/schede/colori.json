@@ -1,0 +1,1401 @@
+{
+  "id": "colori",
+  "categoria": "vocabolario",
+  "emoji": "🎨",
+  "livello": "A1",
+  "titolo": {
+    "it": "I Colori",
+    "en": "Colours"
+  },
+  "mario": "I colori in italiano sembrano semplici — e in parte lo sono. Ma poi scopri che 'azzurro' non è 'blue', che 'viola' non si comporta come gli altri aggettivi, e che gli italiani usano i nomi dei frutti e dei fiori per descrivere le sfumature. Benvenuto nel mondo del colore italiano.",
+  "marioEn": "Colours in Italian seem simple — and partly they are. But then you discover that 'azzurro' is not just 'blue', that 'viola' doesn't behave like other adjectives, and that Italians use fruit and flower names to describe shades. Welcome to the world of Italian colour.",
+  "perche": {
+    "it": "In inglese gli aggettivi non cambiano mai: 'a red car', 'red cars', 'a red dress' — sempre 'red'. In italiano gli aggettivi concordano con il nome: una macchina rossa, due macchine rosse, un vestito rosso, due vestiti rossi. La maggior parte dei colori segue questa regola. Ma alcuni colori — viola, rosa, beige, blu, lilla — sono invariabili: non cambiano mai. E poi ci sono le sfumature: azzurro (light blue), turchese (turquoise), bordeaux (burgundy), ocra (ochre).",
+    "en": "In English adjectives never change: 'a red car', 'red cars', 'a red dress' — always 'red'. In Italian adjectives agree with the noun: una macchina rossa, due macchine rosse, un vestito rosso, due vestiti rossi. Most colours follow this rule. But some colours — viola, rosa, beige, blu, lilla — are invariable: they never change. And then there are the shades: azzurro (light blue), turchese (turquoise), bordeaux (burgundy), ocra (ochre)."
+  },
+  "spiegazione": {
+    "it": "Colori variabili (concordano): rosso/a/i/e · bianco/a/bianchi/bianche · nero/a/i/e · verde/i · giallo/a/i/e · arancione/i · marrone/i · grigio/a/i/e · blu (invariabile!) · azzurro/a/i/e. Colori INVARIABILI (non cambiano mai): blu · rosa · viola · beige · lilla · bordeaux · turchese · ocra · indaco. Regola: se il colore viene da un nome (fiore, frutto) → tendenzialmente invariabile.",
+    "en": "Variable colours (agree): rosso/a/i/e · bianco/a/bianchi/bianche · nero/a/i/e · verde/i · giallo/a/i/e · arancione/i · marrone/i · grigio/a/i/e · blu (invariable!) · azzurro/a/i/e. INVARIABLE colours (never change): blu · rosa · viola · beige · lilla · bordeaux · turchese · ocra · indaco. Rule: if the colour comes from a noun (flower, fruit) → tends to be invariable."
+  },
+  "tabella": [
+    {
+      "colore": "rosso/a/i/e",
+      "inglese": "red",
+      "esempio": "una mela rossa / due mele rosse"
+    },
+    {
+      "colore": "blu (inv.)",
+      "inglese": "blue (dark)",
+      "esempio": "una giacca blu / due giacche blu"
+    },
+    {
+      "colore": "azzurro/a/i/e",
+      "inglese": "light blue / sky blue",
+      "esempio": "un cielo azzurro / occhi azzurri"
+    },
+    {
+      "colore": "verde/i",
+      "inglese": "green",
+      "esempio": "un prato verde / alberi verdi"
+    },
+    {
+      "colore": "giallo/a/i/e",
+      "inglese": "yellow",
+      "esempio": "un limone giallo / rose gialle"
+    },
+    {
+      "colore": "arancione/i",
+      "inglese": "orange",
+      "esempio": "una carota arancione / frutti arancioni"
+    },
+    {
+      "colore": "bianco/a/bianchi/bianche",
+      "inglese": "white",
+      "esempio": "un foglio bianco / scarpe bianche"
+    },
+    {
+      "colore": "nero/a/i/e",
+      "inglese": "black",
+      "esempio": "un caffè nero / occhiali neri"
+    },
+    {
+      "colore": "grigio/a/i/e",
+      "inglese": "grey",
+      "esempio": "un cielo grigio / capelli grigi"
+    },
+    {
+      "colore": "marrone/i",
+      "inglese": "brown",
+      "esempio": "occhi marroni / scarpe marroni"
+    },
+    {
+      "colore": "rosa (inv.)",
+      "inglese": "pink",
+      "esempio": "una camicia rosa / fiori rosa"
+    },
+    {
+      "colore": "viola (inv.)",
+      "inglese": "purple / violet",
+      "esempio": "una giacca viola / fiori viola"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "La macchina di Mario è rossa — come la pizza col pomodoro.",
+      "en": "Mario's car is red — like pizza with tomato.",
+      "audio": "La macchina di Mario è rossa."
+    },
+    {
+      "it": "Gli azzurri sono la squadra nazionale italiana.",
+      "en": "Gli azzurri are the Italian national team.",
+      "audio": "Gli azzurri sono la squadra nazionale italiana."
+    },
+    {
+      "it": "Ho comprato due giacche blu e una viola.",
+      "en": "I bought two blue jackets and a purple one.",
+      "audio": "Ho comprato due giacche blu e una viola."
+    },
+    {
+      "it": "I suoi occhi sono verdi, i miei sono marroni.",
+      "en": "Her eyes are green, mine are brown.",
+      "audio": "I suoi occhi sono verdi, i miei sono marroni."
+    },
+    {
+      "it": "Vuoi il caffè nero o macchiato?",
+      "en": "Do you want black coffee or macchiato?",
+      "audio": "Vuoi il caffè nero o macchiato?"
+    }
+  ],
+  "nota": {
+    "it": "💡 'Azzurro' vs 'blu': in italiano la distinzione è importante. 'Blu' è il blu scuro (navy, dark blue). 'Azzurro' è il blu chiaro (light blue, sky blue). La Nazionale italiana è 'gli Azzurri' — non 'i Blu'. E 'occhi azzurri' non è la stessa cosa di 'occhi blu'. Sfumatura culturale importante.",
+    "en": "💡 'Azzurro' vs 'blu': in Italian the distinction matters. 'Blu' is dark blue (navy, dark blue). 'Azzurro' is light blue (sky blue). The Italian national team is 'gli Azzurri' — not 'i Blu'. And 'occhi azzurri' is not the same as 'occhi blu'. An important cultural nuance."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma femminile plurale di 'rosso'?",
+        "en": "What is the feminine plural form of 'rosso'?"
+      },
+      "opzioni": [
+        "rossi",
+        "rossa",
+        "rosse",
+        "rosso"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! rosso (m.sg.) → rossa (f.sg.) → rossi (m.pl.) → rosse (f.pl.). 'Due mele rosse.'",
+        "en": "Correct! rosso (m.sg.) → rossa (f.sg.) → rossi (m.pl.) → rosse (f.pl.). 'Due mele rosse.'"
+      },
+      "feedbackErr": {
+        "it": "Rosso → rossa → rossi → rosse. Femminile plurale → rosse.",
+        "en": "Rosso → rossa → rossi → rosse. Feminine plural → rosse."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale colore è INVARIABILE (non cambia mai)?",
+        "en": "Which colour is INVARIABLE (never changes)?"
+      },
+      "opzioni": [
+        "rosso",
+        "verde",
+        "viola",
+        "azzurro"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Viola' è invariabile: una giacca viola, due giacche viola, un fiore viola, due fiori viola.",
+        "en": "Correct! 'Viola' is invariable: una giacca viola, due giacche viola, un fiore viola, due fiori viola."
+      },
+      "feedbackErr": {
+        "it": "Viola è invariabile — non cambia. Una giacca viola / due giacche viola.",
+        "en": "Viola is invariable — it never changes. Una giacca viola / due giacche viola."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Blu' si comporta come…?",
+        "en": "'Blu' behaves like…?"
+      },
+      "opzioni": [
+        "Un aggettivo variabile (blu/blua/blui/blue)",
+        "Un colore invariabile (sempre blu)",
+        "Un sostantivo",
+        "Come 'azzurro' (con forme diverse)"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Blu' è invariabile: una giacca blu / due giacche blu / un cappello blu. Mai 'blua' o 'blui'.",
+        "en": "Correct! 'Blu' is invariable: una giacca blu / due giacche blu / un cappello blu. Never 'blua' or 'blui'."
+      },
+      "feedbackErr": {
+        "it": "Blu è invariabile: sempre 'blu' indipendentemente da genere e numero.",
+        "en": "Blu is invariable: always 'blu' regardless of gender and number."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la differenza tra 'blu' e 'azzurro'?",
+        "en": "What is the difference between 'blu' and 'azzurro'?"
+      },
+      "opzioni": [
+        "Nessuna — sono sinonimi",
+        "Blu = dark blue. Azzurro = light blue / sky blue",
+        "Azzurro = dark blue. Blu = light blue",
+        "Blu si usa solo per gli oggetti, azzurro per il cielo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Blu = dark/navy blue. Azzurro = light blue / sky blue. 'Gli Azzurri' = l'Italia — azzurro come il cielo.",
+        "en": "Correct! Blu = dark/navy blue. Azzurro = light blue / sky blue. 'Gli Azzurri' = Italy — azzurro like the sky."
+      },
+      "feedbackErr": {
+        "it": "Blu ≠ azzurro. Blu = scuro (dark blue). Azzurro = chiaro (light/sky blue). Distinzione importante in italiano.",
+        "en": "Blu ≠ azzurro. Blu = dark (dark blue). Azzurro = light (light/sky blue). Important distinction in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Ho comprato due scarpe ___.' (bianco)",
+        "en": "Complete: 'Ho comprato due scarpe ___.' (bianco)"
+      },
+      "opzioni": [
+        "bianco",
+        "bianchi",
+        "bianca",
+        "bianche"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Scarpe = femminile plurale → bianche. bianco/bianca/bianchi/bianche — attenzione a questa eccezione!",
+        "en": "Correct! Scarpe = feminine plural → bianche. bianco/bianca/bianchi/bianche — note this exception!"
+      },
+      "feedbackErr": {
+        "it": "Scarpe = f.pl. → bianche. Attenzione: bianco ha forme speciali al plurale: bianchi (m.pl.) e bianche (f.pl.).",
+        "en": "Scarpe = f.pl. → bianche. Note: bianco has special plural forms: bianchi (m.pl.) and bianche (f.pl.)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale colore corrisponde a 'light blue / sky blue'?",
+        "en": "Which colour corresponds to 'light blue / sky blue'?"
+      },
+      "opzioni": [
+        "blu",
+        "verde acqua",
+        "azzurro",
+        "celeste"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Azzurro = light blue / sky blue. Anche 'celeste' esiste ma azzurro è il termine principale.",
+        "en": "Correct! Azzurro = light blue / sky blue. 'Celeste' also exists but azzurro is the main term."
+      },
+      "feedbackErr": {
+        "it": "Azzurro = light blue / sky blue. Blu = dark blue. Celeste = anche light blue (sinonimo di azzurro).",
+        "en": "Azzurro = light blue / sky blue. Blu = dark blue. Celeste = also light blue (synonym of azzurro)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Rosa' come colore è…?",
+        "en": "'Rosa' as a colour is…?"
+      },
+      "opzioni": [
+        "Variabile: rosa/rosa/rosi/rose",
+        "Invariabile: sempre rosa",
+        "Variabile: rosa/rosea/rosai/rosee",
+        "Dipende dal contesto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Rosa è invariabile: una camicia rosa, due camicie rosa, un fiore rosa, due fiori rosa.",
+        "en": "Correct! Rosa is invariable: una camicia rosa, due camicie rosa, un fiore rosa, due fiori rosa."
+      },
+      "feedbackErr": {
+        "it": "Rosa è INVARIABILE: sempre 'rosa'. Una camicia rosa / due camicie rosa.",
+        "en": "Rosa is INVARIABLE: always 'rosa'. Una camicia rosa / due camicie rosa."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'I miei occhi sono ___.' (verde)",
+        "en": "Complete: 'My eyes are ___.' (verde)"
+      },
+      "opzioni": [
+        "verde",
+        "verdea",
+        "verdi",
+        "verdo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Occhi = maschile plurale. Verde → verdi (plurale, sia m. che f.). 'I miei occhi sono verdi.'",
+        "en": "Correct! Occhi = masculine plural. Verde → verdi (plural, both m. and f.). 'I miei occhi sono verdi.'"
+      },
+      "feedbackErr": {
+        "it": "Verde → plurale: verdi (uguale per m. e f.). 'I miei occhi sono verdi.'",
+        "en": "Verde → plural: verdi (same for m. and f.). 'I miei occhi sono verdi.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale colore viene dal nome di un fiore ed è invariabile?",
+        "en": "Which colour comes from the name of a flower and is invariable?"
+      },
+      "opzioni": [
+        "Rosso (dalla rosa)",
+        "Viola (dalla viola - fiore)",
+        "Verde (dall'erba)",
+        "Giallo (dal girasole)"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Viola viene dal fiore 'viola' (violet). Poiché è un nome diventato aggettivo, resta invariabile.",
+        "en": "Correct! Viola comes from the flower 'viola' (violet). Since it's a noun turned adjective, it stays invariable."
+      },
+      "feedbackErr": {
+        "it": "Viola (colore) = viola (fiore) → invariabile. La regola: colori da nomi → tendenzialmente invariabili.",
+        "en": "Viola (colour) = viola (flower) → invariable. The rule: colours from nouns → tend to be invariable."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Grigio' al femminile plurale diventa…?",
+        "en": "'Grigio' in the feminine plural becomes…?"
+      },
+      "opzioni": [
+        "grigie",
+        "grige",
+        "grigie",
+        "grigi"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! grigio/grigia/grigi/grigie. Femminile plurale → grigie. 'Le nuvole sono grigie.'",
+        "en": "Correct! grigio/grigia/grigi/grigie. Feminine plural → grigie. 'Le nuvole sono grigie.'"
+      },
+      "feedbackErr": {
+        "it": "Grigio → grigia → grigi → grigie. Femminile plurale: grigie.",
+        "en": "Grigio → grigia → grigi → grigie. Feminine plural: grigie."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Gli Azzurri' si riferisce a…?",
+        "en": "'Gli Azzurri' refers to…?"
+      },
+      "opzioni": [
+        "Il cielo italiano",
+        "La squadra nazionale italiana di calcio (e altri sport)",
+        "I carabinieri",
+        "Gli italiani dai capelli biondi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Gli Azzurri = la Nazionale italiana di calcio (e altri sport). Il colore ufficiale dell'Italia sportiva è l'azzurro.",
+        "en": "Correct! Gli Azzurri = the Italian national football team (and other sports). The official colour of Italian sport is azzurro."
+      },
+      "feedbackErr": {
+        "it": "Gli Azzurri = la Nazionale italiana. Il colore ufficiale sportivo dell'Italia è l'azzurro (non il tricolore).",
+        "en": "Gli Azzurri = the Italian national team. Italy's official sporting colour is azzurro (not the tricolour)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale tra questi colori è variabile (cambia con genere e numero)?",
+        "en": "Which of these colours is variable (changes with gender and number)?"
+      },
+      "opzioni": [
+        "blu",
+        "rosa",
+        "viola",
+        "marrone"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Marrone è variabile: un cappotto marrone / due cappotti marroni. Rosa e viola sono invariabili.",
+        "en": "Correct! Marrone is variable: un cappotto marrone / due cappotti marroni. Rosa and viola are invariable."
+      },
+      "feedbackErr": {
+        "it": "Marrone è variabile: marrone (sg.) → marroni (pl.). Blu/rosa/viola sono invariabili.",
+        "en": "Marrone is variable: marrone (sg.) → marroni (pl.). Blu/rosa/viola are invariable."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Arancione' al plurale diventa…?",
+        "en": "'Arancione' in the plural becomes…?"
+      },
+      "opzioni": [
+        "arancioni",
+        "arancione (invariabile)",
+        "arancioni o arancione (entrambi accettati)",
+        "arancionei"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Arancione è uno dei colori con doppio uso: arancione (invariabile) o arancioni (variabile). Entrambi accettati dall'uso.",
+        "en": "Correct! Arancione is one of the colours with double usage: arancione (invariable) or arancioni (variable). Both accepted in usage."
+      },
+      "feedbackErr": {
+        "it": "Arancione ammette entrambe le forme: arancione (inv.) e arancioni (pl.). Entrambe corrette nell'uso.",
+        "en": "Arancione admits both forms: arancione (inv.) and arancioni (pl.). Both correct in usage."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'dark green' in italiano?",
+        "en": "How do you say 'dark green' in Italian?"
+      },
+      "opzioni": [
+        "verde scuro",
+        "verde nero",
+        "nero-verde",
+        "verde buio"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Verde scuro = dark green. Verde chiaro = light green. Si aggiunge 'scuro' o 'chiaro' dopo il colore.",
+        "en": "Correct! Verde scuro = dark green. Verde chiaro = light green. You add 'scuro' or 'chiaro' after the colour."
+      },
+      "feedbackErr": {
+        "it": "Dark green = verde scuro. Light green = verde chiaro. Scuro = dark. Chiaro = light.",
+        "en": "Dark green = verde scuro. Light green = verde chiaro. Scuro = dark. Chiaro = light."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Bordeaux' in italiano è…?",
+        "en": "'Bordeaux' in Italian is…?"
+      },
+      "opzioni": [
+        "Variabile: bordeaux/bordeauxe",
+        "Un colore rosso scuro, invariabile",
+        "Un colore viola chiaro",
+        "Solo usato per il vino"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Bordeaux = deep wine red, invariabile. 'Una giacca bordeaux', 'due giacche bordeaux'. Viene dalla città di Bordeaux.",
+        "en": "Correct! Bordeaux = deep wine red, invariable. 'Una giacca bordeaux', 'due giacche bordeaux'. Comes from the city of Bordeaux."
+      },
+      "feedbackErr": {
+        "it": "Bordeaux = rosso scuro tipo vino, invariabile. 'Una giacca bordeaux / due giacche bordeaux.'",
+        "en": "Bordeaux = dark wine red, invariable. 'Una giacca bordeaux / due giacche bordeaux.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'La mia macchina è ___.' (nero)",
+        "en": "Complete: 'My car is ___.' (nero)"
+      },
+      "opzioni": [
+        "nero",
+        "nera",
+        "neri",
+        "nere"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Macchina = femminile singolare → nera. 'La mia macchina è nera.'",
+        "en": "Correct! Macchina = feminine singular → nera. 'La mia macchina è nera.'"
+      },
+      "feedbackErr": {
+        "it": "Macchina = f.sg. → nera. 'La mia macchina è nera.'",
+        "en": "Macchina = f.sg. → nera. 'La mia macchina è nera.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale coppia di colori forma il verde?",
+        "en": "Which pair of colours makes green?"
+      },
+      "opzioni": [
+        "Rosso + blu",
+        "Giallo + blu",
+        "Giallo + rosso",
+        "Bianco + nero"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Giallo + blu = verde. Rosso + blu = viola. Rosso + giallo = arancione.",
+        "en": "Correct! Giallo + blu = verde. Rosso + blu = viola. Rosso + giallo = arancione."
+      },
+      "feedbackErr": {
+        "it": "Giallo + blu = verde. Rosso + giallo = arancione. Rosso + blu = viola.",
+        "en": "Giallo + blu = verde. Rosso + giallo = arancione. Rosso + blu = viola."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'What colour is it?' in italiano?",
+        "en": "How do you say 'What colour is it?' in Italian?"
+      },
+      "opzioni": [
+        "Quale colore è?",
+        "Di che colore è?",
+        "Che colore ha?",
+        "Di che colore fa?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Di che colore è?' = What colour is it? Anche 'di che colore sono?' per il plurale.",
+        "en": "Correct! 'Di che colore è?' = What colour is it? Also 'di che colore sono?' for the plural."
+      },
+      "feedbackErr": {
+        "it": "'Di che colore è?' = What colour is it? 'Di che colore sono?' per il plurale.",
+        "en": "'Di che colore è?' = What colour is it? 'Di che colore sono?' for the plural."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Turchese' (turquoise) è…?",
+        "en": "'Turchese' (turquoise) is…?"
+      },
+      "opzioni": [
+        "Variabile come verde",
+        "Invariabile",
+        "Equivalente a azzurro",
+        "Solo usato per le pietre preziose"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Turchese è invariabile: una borsa turchese, due borse turchese. Come tutti i colori da nomi/sostantivi.",
+        "en": "Correct! Turchese is invariable: una borsa turchese, due borse turchese. Like all colours from nouns/substances."
+      },
+      "feedbackErr": {
+        "it": "Turchese = invariabile. Una borsa turchese / due borse turchese.",
+        "en": "Turchese = invariable. Una borsa turchese / due borse turchese."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Ho due gatti ___.' (bianco)",
+        "en": "Complete: 'I have two white cats.' (bianco)"
+      },
+      "opzioni": [
+        "bianco",
+        "bianca",
+        "bianche",
+        "bianchi"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Gatti = maschile plurale → bianchi. bianco/bianca/bianchi/bianche.",
+        "en": "Correct! Gatti = masculine plural → bianchi. bianco/bianca/bianchi/bianche."
+      },
+      "feedbackErr": {
+        "it": "Gatti = m.pl. → bianchi. 'Ho due gatti bianchi.'",
+        "en": "Gatti = m.pl. → bianchi. 'Ho due gatti bianchi.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Viola' è invariabile: si dice 'una giacca viola' e 'due giacche viola'.",
+        "en": "'Viola' is invariable: you say 'una giacca viola' and 'due giacche viola'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Viola non cambia mai: sg. = viola, pl. = viola. Una giacca viola / due giacche viola.",
+        "en": "Correct! Viola never changes: sg. = viola, pl. = viola. Una giacca viola / due giacche viola."
+      },
+      "feedbackErr": {
+        "it": "Vero! Viola è invariabile. Una giacca viola / due giacche viola / un fiore viola / due fiori viola.",
+        "en": "True! Viola is invariable. Una giacca viola / due giacche viola / un fiore viola / due fiori viola."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Blu' e 'azzurro' sono sinonimi perfetti e intercambiabili.",
+        "en": "'Blu' and 'azzurro' are perfect synonyms and interchangeable."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Sono diversi: blu = dark blue, azzurro = light/sky blue. 'Gli Azzurri' non potrebbero essere 'i Blu'.",
+        "en": "Correct! They are different: blu = dark blue, azzurro = light/sky blue. 'Gli Azzurri' could not be 'i Blu'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Blu = dark blue. Azzurro = light blue. Distinzione importante: occhi azzurri ≠ occhi blu.",
+        "en": "FALSE! Blu = dark blue. Azzurro = light blue. Important distinction: occhi azzurri ≠ occhi blu."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Rosa' è invariabile: si dice 'una camicia rosa' e 'due camicie rosa'.",
+        "en": "'Rosa' is invariable: you say 'una camicia rosa' and 'due camicie rosa'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Rosa è invariabile. Una camicia rosa / due camicie rosa / un fiore rosa / due fiori rosa.",
+        "en": "Correct! Rosa is invariable. Una camicia rosa / due camicie rosa / un fiore rosa / due fiori rosa."
+      },
+      "feedbackErr": {
+        "it": "Vero! Rosa è invariabile. Mai 'due camicie rose' (con la s) nel significato di colore.",
+        "en": "True! Rosa is invariable. Never 'due camicie rose' (with s) in the sense of colour."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Bianco' al maschile plurale diventa 'bianchi'.",
+        "en": "'Bianco' in the masculine plural becomes 'bianchi'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! bianco (m.sg.) → bianchi (m.pl.). bianca (f.sg.) → bianche (f.pl.). 'I capelli bianchi.'",
+        "en": "Correct! bianco (m.sg.) → bianchi (m.pl.). bianca (f.sg.) → bianche (f.pl.). 'I capelli bianchi.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Bianco → bianchi (m.pl.). Bianca → bianche (f.pl.). 'I capelli bianchi', 'le scarpe bianche'.",
+        "en": "True! Bianco → bianchi (m.pl.). Bianca → bianche (f.pl.). 'I capelli bianchi', 'le scarpe bianche'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano per dire 'dark red' si dice 'rosso scuro'.",
+        "en": "In Italian 'dark red' is said as 'rosso scuro'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Scuro = dark. Chiaro = light. rosso scuro = dark red, verde chiaro = light green.",
+        "en": "Correct! Scuro = dark. Chiaro = light. rosso scuro = dark red, verde chiaro = light green."
+      },
+      "feedbackErr": {
+        "it": "Vero! Scuro (dark) e chiaro (light) si aggiungono dopo il colore: rosso scuro, verde chiaro, blu scuro.",
+        "en": "True! Scuro (dark) and chiaro (light) are added after the colour: rosso scuro, verde chiaro, blu scuro."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Marrone' è invariabile come 'viola' e 'blu'.",
+        "en": "'Marrone' is invariable like 'viola' and 'blu'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Marrone è VARIABILE: marrone (sg.) → marroni (pl.). 'Occhi marroni', 'scarpe marroni'.",
+        "en": "Correct! Marrone IS variable: marrone (sg.) → marroni (pl.). 'Occhi marroni', 'scarpe marroni'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Marrone è variabile: marrone (sg.) → marroni (pl.). Diverso da blu/rosa/viola che sono invariabili.",
+        "en": "FALSE! Marrone is variable: marrone (sg.) → marroni (pl.). Different from blu/rosa/viola which are invariable."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I colori derivati da nomi di fiori o frutti tendono ad essere invariabili.",
+        "en": "Colours derived from names of flowers or fruits tend to be invariable."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Rosa (rosa = fiore) → invariabile. Viola (viola = fiore) → invariabile. Arancione (arancia = frutto) → tendenzialmente invariabile.",
+        "en": "Correct! Rosa (rosa = flower) → invariable. Viola (viola = flower) → invariable. Arancione (arancia = fruit) → tends to be invariable."
+      },
+      "feedbackErr": {
+        "it": "Vero! Colori da nomi → tendenzialmente invariabili. Rosa (fiore), viola (fiore), arancione (arancia).",
+        "en": "True! Colours from nouns → tend to be invariable. Rosa (flower), viola (flower), arancione (orange)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Verde' al plurale diventa 'verdi' sia per il maschile che per il femminile.",
+        "en": "'Verde' in the plural becomes 'verdi' for both masculine and feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Verde → verdi (m.pl. e f.pl.). 'I prati verdi', 'le foglie verdi'. Uguale per entrambi.",
+        "en": "Correct! Verde → verdi (m.pl. and f.pl.). 'I prati verdi', 'le foglie verdi'. Same for both."
+      },
+      "feedbackErr": {
+        "it": "Vero! Verde ha una sola forma plurale: verdi, per tutti i generi. 'I prati verdi' / 'le foglie verdi'.",
+        "en": "True! Verde has only one plural form: verdi, for all genders. 'I prati verdi' / 'le foglie verdi'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si può dire 'di che colore sono?' per chiedere il colore di oggetti plurali.",
+        "en": "You can say 'di che colore sono?' to ask the colour of plural objects."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Di che colore è?' (singolare) e 'di che colore sono?' (plurale) — entrambe corrette.",
+        "en": "Correct! 'Di che colore è?' (singular) and 'di che colore sono?' (plural) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Di che colore è la macchina?' / 'Di che colore sono le macchine?'",
+        "en": "True! 'Di che colore è la macchina?' / 'Di che colore sono le macchine?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Beige' in italiano è variabile: beige/beiga/beigi/beige.",
+        "en": "'Beige' in Italian is variable: beige/beiga/beigi/beige."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Beige è INVARIABILE in italiano. Una giacca beige / due giacche beige. Mai 'beiga' o 'beigi'.",
+        "en": "Correct! Beige is INVARIABLE in Italian. Una giacca beige / due giacche beige. Never 'beiga' or 'beigi'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Beige è invariabile: una giacca beige / due giacche beige. Come tutti i colori stranieri adottati dall'italiano.",
+        "en": "FALSE! Beige is invariable: una giacca beige / due giacche beige. Like all foreign colours adopted by Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Giallo' al femminile singolare diventa 'gialla'.",
+        "en": "'Giallo' in the feminine singular becomes 'gialla'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! giallo/gialla/gialli/gialle. 'Una banana gialla', 'due banane gialle'.",
+        "en": "Correct! giallo/gialla/gialli/gialle. 'Una banana gialla', 'due banane gialle'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Giallo → gialla (f.sg.). 'Una banana gialla', 'il sole giallo'.",
+        "en": "True! Giallo → gialla (f.sg.). 'Una banana gialla', 'il sole giallo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Lilla' è un colore invariabile, di sfumatura viola chiaro.",
+        "en": "'Lilla' is an invariable colour, of a light purple shade."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lilla (lilac) è invariabile. Una blusa lilla / due bluse lilla. È una sfumatura tra il viola e il rosa.",
+        "en": "Correct! Lilla (lilac) is invariable. Una blusa lilla / due bluse lilla. It's a shade between purple and pink."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lilla (lilac) è invariabile. Una blusa lilla / due bluse lilla. Sfumatura tra rosa e viola.",
+        "en": "True! Lilla (lilac) is invariable. Una blusa lilla / due bluse lilla. A shade between pink and purple."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'nero' è il colore associato all'eleganza formale (come in inglese).",
+        "en": "In Italian 'nero' is the colour associated with formal elegance (as in English)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Anche in italiano il nero è colore di eleganza. 'Vestito nero', 'cravatta nera', 'caffè nero' — quest'ultimo però è semplicemente espresso senza latte.",
+        "en": "Correct! In Italian too, black is a colour of elegance. 'Vestito nero', 'cravatta nera', 'caffè nero' — the last one is simply espresso without milk."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nero = eleganza anche in italiano. 'Tutto nero' = all black outfit. 'Caffè nero' = espresso senza latte.",
+        "en": "True! Nero = elegance also in Italian. 'Tutto nero' = all black outfit. 'Caffè nero' = espresso without milk."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Grigio' al femminile plurale diventa 'grigie' (non 'grige').",
+        "en": "'Grigio' in the feminine plural becomes 'grigie' (not 'grige')."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! grigio/grigia/grigi/grigie. 'Le nuvole grigie', 'le scarpe grigie'.",
+        "en": "Correct! grigio/grigia/grigi/grigie. 'Le nuvole grigie', 'le scarpe grigie'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Grigio → grigie (f.pl.). 'Le nuvole grigie.' Non 'grige'.",
+        "en": "True! Grigio → grigie (f.pl.). 'Le nuvole grigie.' Not 'grige'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Azzurro' è variabile: azzurro/azzurra/azzurri/azzurre.",
+        "en": "'Azzurro' is variable: azzurro/azzurra/azzurri/azzurre."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Azzurro è VARIABILE (diverso da blu che è invariabile). 'Un cielo azzurro', 'occhi azzurri', 'una camicia azzurra'.",
+        "en": "Correct! Azzurro IS variable (unlike blu which is invariable). 'Un cielo azzurro', 'occhi azzurri', 'una camicia azzurra'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Azzurro è variabile: azzurro/azzurra/azzurri/azzurre. 'Un cielo azzurro' / 'una camicia azzurra' / 'occhi azzurri'.",
+        "en": "True! Azzurro is variable: azzurro/azzurra/azzurri/azzurre. 'Un cielo azzurro' / 'una camicia azzurra' / 'occhi azzurri'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Rosso' in italiano può indicare anche il semaforo rosso (stop).",
+        "en": "'Rosso' in Italian can also indicate the red traffic light (stop)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Passare con il rosso' = to run a red light. Il rosso = red light (stop). Il verde = green light (go).",
+        "en": "Correct! 'Passare con il rosso' = to run a red light. Il rosso = red light (stop). Il verde = green light (go)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Passare con il rosso' = to run a red light. I colori si usano da soli per riferirsi ai semafori.",
+        "en": "True! 'Passare con il rosso' = to run a red light. Colours are used alone to refer to traffic lights."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ocra' è un colore invariabile di tonalità giallo-marrone.",
+        "en": "'Ocra' is an invariable colour of yellow-brown tone."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ocra (ochre) è invariabile. Una parete ocra / due pareti ocra. È un giallo-marrone terroso, tipico delle case italiane.",
+        "en": "Correct! Ocra (ochre) is invariable. Una parete ocra / due pareti ocra. It's an earthy yellow-brown, typical of Italian houses."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ocra (ochre) è invariabile. Colore giallo-marrone terroso. 'Una parete ocra.'",
+        "en": "True! Ocra (ochre) is invariable. Earthy yellow-brown colour. 'Una parete ocra.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Indaco' (indigo) è un colore variabile in italiano.",
+        "en": "'Indaco' (indigo) is a variable colour in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Indaco è invariabile. Una gonna indaco / due gonne indaco. Come tutti i colori che vengono da sostanze (l'indaco è una pianta tintoria).",
+        "en": "Correct! Indaco is invariable. Una gonna indaco / due gonne indaco. Like all colours from substances (indigo is a dye plant)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Indaco è invariabile: una gonna indaco / due gonne indaco. Colore blu-viola intenso, invariabile.",
+        "en": "FALSE! Indaco is invariable: una gonna indaco / due gonne indaco. Intense blue-violet colour, invariable."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Per intensificare un colore si aggiunge 'molto' davanti: 'molto rosso'.",
+        "en": "To intensify a colour you add 'molto' in front: 'molto rosso'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Per i colori si aggiunge 'intenso', 'vivace', 'acceso' dopo, oppure si usa 'rosso vivo', 'rosso acceso'. 'Molto rosso' esiste ma è meno elegante.",
+        "en": "Correct! For colours you add 'intenso', 'vivace', 'acceso' after, or use 'rosso vivo', 'rosso acceso'. 'Molto rosso' exists but is less elegant."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Per intensificare i colori si preferisce: rosso vivo/acceso/intenso, non 'molto rosso'.",
+        "en": "FALSE! To intensify colours it's preferred: rosso vivo/acceso/intenso, not 'molto rosso'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Arancione' può restare invariabile o diventare 'arancioni' al plurale — entrambi accettati.",
+        "en": "'Arancione' can stay invariable or become 'arancioni' in the plural — both accepted."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Arancione è uno dei colori con doppio comportamento: arancione (inv.) e arancioni (pl.) sono entrambi accettati.",
+        "en": "Correct! Arancione is one of the colours with double behaviour: arancione (inv.) and arancioni (pl.) are both accepted."
+      },
+      "feedbackErr": {
+        "it": "Vero! Arancione ammette entrambe le forme: arancione (invariabile) e arancioni (variabile). Entrambe corrette.",
+        "en": "True! Arancione admits both forms: arancione (invariable) and arancioni (variable). Both correct."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Descrivi la macchina di Mario (rosso, femminile sg.): La macchina di Mario è ___.",
+        "en": "Describe Mario's car (rosso, feminine sg.): Mario's car is ___."
+      },
+      "parole": [
+        "rossa"
+      ],
+      "distrattori": [
+        "rosso",
+        "rossi",
+        "rosse"
+      ],
+      "correct": [
+        "rossa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Macchina = f.sg. → rossa.",
+        "en": "Perfect! Macchina = f.sg. → rossa."
+      },
+      "feedbackErr": {
+        "it": "Macchina = femminile singolare → rossa.",
+        "en": "Macchina = feminine singular → rossa."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Due giacche (blu - invariabile): Ho comprato due giacche ___.",
+        "en": "Two jackets (blu - invariable): I bought two blue jackets ___."
+      },
+      "parole": [
+        "blu"
+      ],
+      "distrattori": [
+        "blua",
+        "blui",
+        "blue"
+      ],
+      "correct": [
+        "blu"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Blu è invariabile. Sempre 'blu' indipendentemente da genere e numero.",
+        "en": "Perfect! Blu is invariable. Always 'blu' regardless of gender and number."
+      },
+      "feedbackErr": {
+        "it": "Blu è INVARIABILE. Due giacche blu (non 'blui' o 'blue').",
+        "en": "Blu is INVARIABLE. Due giacche blu (not 'blui' or 'blue')."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Occhi (verde, plurale): I suoi occhi sono ___.",
+        "en": "Eyes (verde, plural): Her eyes are ___."
+      },
+      "parole": [
+        "verdi"
+      ],
+      "distrattori": [
+        "verde",
+        "verdea",
+        "verdo"
+      ],
+      "correct": [
+        "verdi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Occhi = m.pl. Verde → verdi al plurale.",
+        "en": "Perfect! Occhi = m.pl. Verde → verdi in the plural."
+      },
+      "feedbackErr": {
+        "it": "Occhi = maschile plurale. Verde → verdi. 'I suoi occhi sono verdi.'",
+        "en": "Occhi = masculine plural. Verde → verdi. 'I suoi occhi sono verdi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi il colore: ___ è la tua macchina?",
+        "en": "Ask the colour: ___ is your car?"
+      },
+      "parole": [
+        "Di",
+        "che",
+        "colore"
+      ],
+      "distrattori": [
+        "Che",
+        "colore",
+        "Quale",
+        "Come"
+      ],
+      "correct": [
+        "Di",
+        "che",
+        "colore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Di che colore è la tua macchina?' = What colour is your car?",
+        "en": "Perfect! 'Di che colore è la tua macchina?' = What colour is your car?"
+      },
+      "feedbackErr": {
+        "it": "What colour = di che colore. 'Di che colore è la tua macchina?'",
+        "en": "What colour = di che colore. 'Di che colore è la tua macchina?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Camicia (rosa - invariabile, f.sg.): Indossa una camicia ___.",
+        "en": "Shirt (rosa - invariable, f.sg.): She wears a pink shirt ___."
+      },
+      "parole": [
+        "rosa"
+      ],
+      "distrattori": [
+        "rose",
+        "rosea",
+        "rosacea"
+      ],
+      "correct": [
+        "rosa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Rosa è invariabile. Una camicia rosa. Mai 'rosea'.",
+        "en": "Perfect! Rosa is invariable. Una camicia rosa. Never 'rosea'."
+      },
+      "feedbackErr": {
+        "it": "Rosa è invariabile. Una camicia rosa / due camicie rosa.",
+        "en": "Rosa is invariable. Una camicia rosa / due camicie rosa."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Capelli (bianco, maschile plurale): Ha i capelli ___.",
+        "en": "Hair (bianco, masculine plural): He has ___ hair."
+      },
+      "parole": [
+        "bianchi"
+      ],
+      "distrattori": [
+        "bianco",
+        "bianca",
+        "bianche"
+      ],
+      "correct": [
+        "bianchi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Capelli = m.pl. → bianchi. 'Ha i capelli bianchi.'",
+        "en": "Perfect! Capelli = m.pl. → bianchi. 'Ha i capelli bianchi.'"
+      },
+      "feedbackErr": {
+        "it": "Capelli = maschile plurale → bianchi. 'Ha i capelli bianchi.'",
+        "en": "Capelli = masculine plural → bianchi. 'Ha i capelli bianchi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Due fiori (viola - invariabile): Ho comprato due fiori ___.",
+        "en": "Two flowers (viola - invariable): I bought two ___ flowers."
+      },
+      "parole": [
+        "viola"
+      ],
+      "distrattori": [
+        "viole",
+        "violetti",
+        "violeta"
+      ],
+      "correct": [
+        "viola"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Viola è invariabile. Due fiori viola. Mai 'viole' come colore.",
+        "en": "Perfect! Viola is invariable. Due fiori viola. Never 'viole' as a colour."
+      },
+      "feedbackErr": {
+        "it": "Viola è INVARIABILE. Due fiori viola (non 'viole').",
+        "en": "Viola is INVARIABLE. Due fiori viola (not 'viole')."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Scarpe (nero, femminile plurale): Porta le scarpe ___.",
+        "en": "Shoes (nero, feminine plural): She wears ___ shoes."
+      },
+      "parole": [
+        "nere"
+      ],
+      "distrattori": [
+        "nero",
+        "neri",
+        "nera"
+      ],
+      "correct": [
+        "nere"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Scarpe = f.pl. → nere. 'Porta le scarpe nere.'",
+        "en": "Perfect! Scarpe = f.pl. → nere. 'Porta le scarpe nere.'"
+      },
+      "feedbackErr": {
+        "it": "Scarpe = femminile plurale → nere. 'Porta le scarpe nere.'",
+        "en": "Scarpe = feminine plural → nere. 'Porta le scarpe nere.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il cielo è di un bel celeste: Il cielo è ___.",
+        "en": "The sky is a beautiful light blue: The sky is ___."
+      },
+      "parole": [
+        "azzurro"
+      ],
+      "distrattori": [
+        "blu",
+        "celeste",
+        "azzurra"
+      ],
+      "correct": [
+        "azzurro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Cielo = m.sg. → azzurro. Azzurro = light/sky blue.",
+        "en": "Perfect! Cielo = m.sg. → azzurro. Azzurro = light/sky blue."
+      },
+      "feedbackErr": {
+        "it": "Cielo = maschile singolare → azzurro. Azzurro = light blue (non blu scuro).",
+        "en": "Cielo = masculine singular → azzurro. Azzurro = light blue (not dark blue)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Occhi (marrone, plurale): Ha gli occhi ___.",
+        "en": "Eyes (marrone, plural): She has ___ eyes."
+      },
+      "parole": [
+        "marroni"
+      ],
+      "distrattori": [
+        "marrone",
+        "marrona",
+        "marronei"
+      ],
+      "correct": [
+        "marroni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Occhi = m.pl. Marrone → marroni. 'Ha gli occhi marroni.'",
+        "en": "Perfect! Occhi = m.pl. Marrone → marroni. 'Ha gli occhi marroni.'"
+      },
+      "feedbackErr": {
+        "it": "Occhi = maschile plurale. Marrone → marroni (variabile). 'Ha gli occhi marroni.'",
+        "en": "Occhi = masculine plural. Marrone → marroni (variable). 'Ha gli occhi marroni.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Nuvole (grigio, femminile plurale): Le nuvole sono ___.",
+        "en": "Clouds (grigio, feminine plural): The clouds are ___."
+      },
+      "parole": [
+        "grigie"
+      ],
+      "distrattori": [
+        "grigio",
+        "grige",
+        "grigi"
+      ],
+      "correct": [
+        "grigie"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Nuvole = f.pl. → grigie. 'Le nuvole sono grigie.'",
+        "en": "Perfect! Nuvole = f.pl. → grigie. 'Le nuvole sono grigie.'"
+      },
+      "feedbackErr": {
+        "it": "Nuvole = femminile plurale → grigie. 'Le nuvole sono grigie.'",
+        "en": "Nuvole = feminine plural → grigie. 'Le nuvole sono grigie.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Verde scuro: Preferisco il verde ___.",
+        "en": "Dark green: I prefer ___ green."
+      },
+      "parole": [
+        "scuro"
+      ],
+      "distrattori": [
+        "chiaro",
+        "vivo",
+        "intenso"
+      ],
+      "correct": [
+        "scuro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Verde scuro = dark green. Verde chiaro = light green.",
+        "en": "Perfect! Verde scuro = dark green. Verde chiaro = light green."
+      },
+      "feedbackErr": {
+        "it": "Dark = scuro. Verde scuro = dark green. Verde chiaro = light green.",
+        "en": "Dark = scuro. Verde scuro = dark green. Verde chiaro = light green."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Gli Azzurri (nazionale italiana): Forza ___!",
+        "en": "Gli Azzurri (Italian national team): Come on ___!"
+      },
+      "parole": [
+        "Azzurri"
+      ],
+      "distrattori": [
+        "Blu",
+        "Italiani",
+        "Verdi",
+        "Bianchi"
+      ],
+      "correct": [
+        "Azzurri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Forza Azzurri!' = Come on Italy! Il nome ufficiale della nazionale italiana di calcio.",
+        "en": "Perfect! 'Forza Azzurri!' = Come on Italy! The official name of the Italian national football team."
+      },
+      "feedbackErr": {
+        "it": "La nazionale italiana = gli Azzurri. 'Forza Azzurri!'",
+        "en": "The Italian national team = gli Azzurri. 'Forza Azzurri!'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Una giacca (bordeaux - invariabile): Indossa una giacca ___.",
+        "en": "A jacket (bordeaux - invariable): She wears a ___ jacket."
+      },
+      "parole": [
+        "bordeaux"
+      ],
+      "distrattori": [
+        "bordaux",
+        "bordò",
+        "bordeauxe"
+      ],
+      "correct": [
+        "bordeaux"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bordeaux è invariabile. Una giacca bordeaux / due giacche bordeaux.",
+        "en": "Perfect! Bordeaux is invariable. Una giacca bordeaux / due giacche bordeaux."
+      },
+      "feedbackErr": {
+        "it": "Bordeaux è invariabile. 'Una giacca bordeaux.' Non cambia mai.",
+        "en": "Bordeaux is invariable. 'Una giacca bordeaux.' It never changes."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Giallo, femminile singolare (rosa gialla): Una rosa ___.",
+        "en": "Giallo, feminine singular (yellow rose): A ___ rose."
+      },
+      "parole": [
+        "gialla"
+      ],
+      "distrattori": [
+        "giallo",
+        "gialli",
+        "gialle"
+      ],
+      "correct": [
+        "gialla"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Rosa = f.sg. → gialla. 'Una rosa gialla.'",
+        "en": "Perfect! Rosa = f.sg. → gialla. 'Una rosa gialla.'"
+      },
+      "feedbackErr": {
+        "it": "Rosa (fiore) = femminile singolare → gialla. 'Una rosa gialla.'",
+        "en": "Rosa (flower) = feminine singular → gialla. 'Una rosa gialla.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rosso + giallo = ?: Il rosso e il giallo insieme fanno il colore ___.",
+        "en": "Red + yellow = ?: Red and yellow together make the colour ___."
+      },
+      "parole": [
+        "arancione"
+      ],
+      "distrattori": [
+        "viola",
+        "verde",
+        "marrone"
+      ],
+      "correct": [
+        "arancione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Rosso + giallo = arancione. Come un'arancia!",
+        "en": "Perfect! Rosso + giallo = arancione. Like an orange!"
+      },
+      "feedbackErr": {
+        "it": "Rosso + giallo = arancione. Come il frutto da cui prende il nome.",
+        "en": "Rosso + giallo = arancione. Like the fruit it gets its name from."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Azzurro, femminile plurale (camice): Le camice degli infermieri sono ___.",
+        "en": "Azzurro, feminine plural (shirts): The nurses' shirts are ___."
+      },
+      "parole": [
+        "azzurre"
+      ],
+      "distrattori": [
+        "azzurro",
+        "azzurri",
+        "azzurra"
+      ],
+      "correct": [
+        "azzurre"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Camice = f.pl. Azzurro → azzurre. 'Le camice degli infermieri sono azzurre.'",
+        "en": "Perfect! Camice = f.pl. Azzurro → azzurre. 'Le nurses' shirts are azzurre.'"
+      },
+      "feedbackErr": {
+        "it": "Camice = femminile plurale. Azzurro → azzurre. 'Le camice sono azzurre.'",
+        "en": "Camice = feminine plural. Azzurro → azzurre. 'Le camice sono azzurre.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Una borsa (beige - invariabile): Ha una bella borsa ___.",
+        "en": "A bag (beige - invariable): She has a lovely ___ bag."
+      },
+      "parole": [
+        "beige"
+      ],
+      "distrattori": [
+        "beiga",
+        "beigi",
+        "beigea"
+      ],
+      "correct": [
+        "beige"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Beige è invariabile in italiano. Una borsa beige / due borse beige.",
+        "en": "Perfect! Beige is invariable in Italian. Una borsa beige / due borse beige."
+      },
+      "feedbackErr": {
+        "it": "Beige = invariabile. Una borsa beige. Mai 'beiga' o 'beigi'.",
+        "en": "Beige = invariable. Una borsa beige. Never 'beiga' or 'beigi'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Colore della bandiera italiana: La bandiera è verde, ___ e rossa.",
+        "en": "Colour of the Italian flag: The flag is green, ___ and red."
+      },
+      "parole": [
+        "bianca"
+      ],
+      "distrattori": [
+        "bianco",
+        "bianchi",
+        "bianche"
+      ],
+      "correct": [
+        "bianca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bandiera = f.sg. → bianca. Il tricolore: verde, bianco e rosso.",
+        "en": "Perfect! Bandiera = f.sg. → bianca. The tricolour: verde, bianco e rosso."
+      },
+      "feedbackErr": {
+        "it": "Bandiera = femminile singolare → bianca. Il tricolore italiano: verde, bianca e rossa.",
+        "en": "Bandiera = feminine singular → bianca. The Italian tricolour: verde, bianca e rossa."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Giallo + blu = ?: Il giallo e il blu insieme fanno il colore ___.",
+        "en": "Yellow + blue = ?: Yellow and blue together make the colour ___."
+      },
+      "parole": [
+        "verde"
+      ],
+      "distrattori": [
+        "arancione",
+        "viola",
+        "grigio"
+      ],
+      "correct": [
+        "verde"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Giallo + blu = verde. Come la natura!",
+        "en": "Perfect! Giallo + blu = verde. Like nature!"
+      },
+      "feedbackErr": {
+        "it": "Giallo + blu = verde. Rosso + blu = viola. Rosso + giallo = arancione.",
+        "en": "Giallo + blu = verde. Rosso + blu = viola. Rosso + giallo = arancione."
+      }
+    }
+  ]
+}

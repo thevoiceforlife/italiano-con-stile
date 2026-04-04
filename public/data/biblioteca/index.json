@@ -1,0 +1,384 @@
+{
+  "grammatica": [
+    {
+      "id": "articoli-determinativi",
+      "emoji": "📌",
+      "livello": "A1",
+      "sottocategoria": "Articoli",
+      "titolo": {
+        "it": "Articoli Determinativi",
+        "en": "Definite Articles"
+      },
+      "teaser": {
+        "it": "Perché 'il' ma anche 'lo' e 'l''? C'è una logica precisa.",
+        "en": "Why 'il' but also 'lo' and 'l''? There's a precise logic."
+      }
+    },
+    {
+      "id": "articoli-indeterminativi",
+      "emoji": "📎",
+      "livello": "A1",
+      "sottocategoria": "Articoli",
+      "titolo": {
+        "it": "Articoli Indeterminativi",
+        "en": "Indefinite Articles"
+      },
+      "teaser": {
+        "it": "Un, uno, una, un' — quando e perché cambiano.",
+        "en": "Un, uno, una, un' — when and why they change."
+      }
+    },
+    {
+      "id": "genere-numero",
+      "emoji": "⚖️",
+      "livello": "A1",
+      "sottocategoria": "Nomi",
+      "titolo": {
+        "it": "Genere e Numero",
+        "en": "Gender and Number"
+      },
+      "teaser": {
+        "it": "Perché la sedia è femmina e il tavolo è maschio? Risposta onesta.",
+        "en": "Why is the chair feminine and the table masculine? An honest answer."
+      }
+    },
+    {
+      "id": "aggettivi",
+      "emoji": "🎨",
+      "livello": "A1",
+      "sottocategoria": "Aggettivi",
+      "titolo": {
+        "it": "Aggettivi",
+        "en": "Adjectives"
+      },
+      "teaser": {
+        "it": "L'aggettivo insegue il nome. Sempre.",
+        "en": "The adjective follows the noun. Always."
+      }
+    },
+    {
+      "id": "pronomi-soggetto",
+      "emoji": "👤",
+      "livello": "A1",
+      "sottocategoria": "Pronomi",
+      "titolo": {
+        "it": "Pronomi Soggetto",
+        "en": "Subject Pronouns"
+      },
+      "teaser": {
+        "it": "Perché gli italiani non dicono quasi mai 'io'.",
+        "en": "Why Italians almost never say 'io'."
+      }
+    },
+    {
+      "id": "pronomi-diretti",
+      "emoji": "👥",
+      "livello": "A2",
+      "sottocategoria": "Pronomi",
+      "titolo": {
+        "it": "Pronomi Diretti",
+        "en": "Direct Object Pronouns"
+      },
+      "teaser": {
+        "it": "Lo, la, li, le — dove vanno e perché.",
+        "en": "Lo, la, li, le — where they go and why."
+      }
+    },
+    {
+      "id": "preposizioni",
+      "emoji": "📍",
+      "livello": "A1",
+      "sottocategoria": "Preposizioni",
+      "titolo": {
+        "it": "Preposizioni Semplici",
+        "en": "Simple Prepositions"
+      },
+      "teaser": {
+        "it": "A/in/da/di — quattro lettere che fanno impazzire tutti.",
+        "en": "A/in/da/di — four letters that drive everyone crazy."
+      }
+    },
+    {
+      "id": "ausiliari",
+      "emoji": "🔧",
+      "livello": "A2",
+      "sottocategoria": "Ausiliari",
+      "titolo": {
+        "it": "Essere vs Avere",
+        "en": "Essere vs Avere"
+      },
+      "teaser": {
+        "it": "La domanda più frequente: quando uso essere e quando avere?",
+        "en": "The most common question: when do I use essere vs avere?"
+      }
+    },
+    {
+      "id": "verbi-modali",
+      "emoji": "💪",
+      "livello": "A2",
+      "sottocategoria": "Verbi Modali",
+      "titolo": {
+        "it": "Verbi Modali",
+        "en": "Modal Verbs"
+      },
+      "teaser": {
+        "it": "Potere, volere, dovere — i tre moschettieri del verbo.",
+        "en": "Potere, volere, dovere — the three musketeers of the verb."
+      }
+    },
+    {
+      "id": "verbi-riflessivi",
+      "emoji": "🪞",
+      "livello": "A2",
+      "sottocategoria": "Verbi Riflessivi",
+      "titolo": {
+        "it": "Verbi Riflessivi",
+        "en": "Reflexive Verbs"
+      },
+      "teaser": {
+        "it": "Mi chiamo, ti chiami — l'azione torna su chi la fa.",
+        "en": "Mi chiamo, ti chiami — the action comes back to the doer."
+      }
+    },
+    {
+      "id": "presente-indicativo",
+      "emoji": "⏱️",
+      "livello": "A1",
+      "sottocategoria": "Tempi Verbali",
+      "titolo": {
+        "it": "Presente Indicativo",
+        "en": "Present Tense"
+      },
+      "teaser": {
+        "it": "I tre gruppi: -are, -ere, -ire. E poi le eccezioni famose.",
+        "en": "The three groups: -are, -ere, -ire. And then the famous exceptions."
+      }
+    },
+    {
+      "id": "passato-prossimo",
+      "emoji": "⏮️",
+      "livello": "A2",
+      "sottocategoria": "Tempi Verbali",
+      "titolo": {
+        "it": "Passato Prossimo",
+        "en": "Present Perfect"
+      },
+      "teaser": {
+        "it": "Ho mangiato vs sono andato — e qui entra in gioco essere/avere.",
+        "en": "Ho mangiato vs sono andato — this is where essere/avere comes in."
+      }
+    },
+    {
+      "id": "imperfetto",
+      "emoji": "🌀",
+      "livello": "A2",
+      "sottocategoria": "Tempi Verbali",
+      "titolo": {
+        "it": "Imperfetto",
+        "en": "Imperfect"
+      },
+      "teaser": {
+        "it": "Passato prossimo o imperfetto? La differenza che cambia il senso.",
+        "en": "Passato prossimo or imperfetto? The difference that changes the meaning."
+      }
+    },
+    {
+      "id": "futuro-semplice",
+      "emoji": "⏭️",
+      "livello": "A2",
+      "sottocategoria": "Tempi Verbali",
+      "titolo": {
+        "it": "Futuro Semplice",
+        "en": "Simple Future"
+      },
+      "teaser": {
+        "it": "Gli italiani usano il presente per il futuro. Ecco perché.",
+        "en": "Italians use the present for the future. Here's why."
+      }
+    },
+    {
+      "id": "condizionale",
+      "emoji": "🤔",
+      "livello": "B1",
+      "sottocategoria": "Tempi Verbali",
+      "titolo": {
+        "it": "Condizionale",
+        "en": "Conditional"
+      },
+      "teaser": {
+        "it": "Vorrei un caffè — non voglio, vorrei. La differenza è educazione.",
+        "en": "Vorrei un caffè — not voglio, vorrei. The difference is politeness."
+      }
+    },
+    {
+      "id": "congiuntivo-presente",
+      "emoji": "🌊",
+      "livello": "B1",
+      "sottocategoria": "Congiuntivo",
+      "titolo": {
+        "it": "Congiuntivo Presente",
+        "en": "Present Subjunctive"
+      },
+      "teaser": {
+        "it": "Il congiuntivo non è difficile. È solo che nessuno te lo ha mai spiegato bene.",
+        "en": "The subjunctive isn't hard. Nobody has ever explained it properly to you."
+      }
+    },
+    {
+      "id": "imperativo",
+      "emoji": "👉",
+      "livello": "A2",
+      "sottocategoria": "Modi Verbali",
+      "titolo": {
+        "it": "Imperativo",
+        "en": "Imperative"
+      },
+      "teaser": {
+        "it": "Vai, vada, andate — tre modi di dire la stessa cosa con rispetto diverso.",
+        "en": "Vai, vada, andate — three ways to say the same thing with different respect."
+      }
+    },
+    {
+      "id": "gerundio",
+      "emoji": "🏃",
+      "livello": "B1",
+      "sottocategoria": "Modi Verbali",
+      "titolo": {
+        "it": "Gerundio",
+        "en": "Gerund"
+      },
+      "teaser": {
+        "it": "Sto mangiando — l'azione in corso. Più semplice di quanto pensi.",
+        "en": "Sto mangiando — the ongoing action. Simpler than you think."
+      }
+    }
+  ],
+  "vocabolario": [
+    {
+      "id": "numeri",
+      "emoji": "🔢",
+      "livello": "A1",
+      "sottocategoria": "Numeri e Quantità",
+      "titolo": {
+        "it": "I Numeri",
+        "en": "Numbers"
+      },
+      "teaser": {
+        "it": "Da zero a un milione — con i pattern che nessuno ti spiega.",
+        "en": "From zero to a million — with the patterns nobody explains."
+      }
+    },
+    {
+      "id": "saluti",
+      "emoji": "👋",
+      "livello": "A1",
+      "sottocategoria": "Comunicazione Base",
+      "titolo": {
+        "it": "Saluti e Presentazioni",
+        "en": "Greetings & Introductions"
+      },
+      "teaser": {
+        "it": "Ciao vs Buongiorno — non è solo orario, è rispetto.",
+        "en": "Ciao vs Buongiorno — it's not just time of day, it's respect."
+      }
+    },
+    {
+      "id": "orari",
+      "emoji": "🕐",
+      "livello": "A1",
+      "sottocategoria": "Numeri e Quantità",
+      "titolo": {
+        "it": "Orari e Tempo",
+        "en": "Time"
+      },
+      "teaser": {
+        "it": "Che ore sono? — e perché l'Italia usa il 24h per tutto.",
+        "en": "Che ore sono? — and why Italy uses 24h for everything."
+      }
+    },
+    {
+      "id": "direzioni",
+      "emoji": "🗺️",
+      "livello": "A1",
+      "sottocategoria": "Comunicazione Base",
+      "titolo": {
+        "it": "Direzioni",
+        "en": "Directions"
+      },
+      "teaser": {
+        "it": "Gira a destra, va dritto — sopravvivere senza Google Maps.",
+        "en": "Gira a destra, va dritto — surviving without Google Maps."
+      }
+    },
+    {
+      "id": "colori",
+      "emoji": "🎨",
+      "livello": "A1",
+      "sottocategoria": "Descrizione",
+      "titolo": {
+        "it": "I Colori",
+        "en": "Colours"
+      },
+      "teaser": {
+        "it": "Rosso, verde, azzurro — e perché azzurro non è blu.",
+        "en": "Rosso, verde, azzurro — and why azzurro is not blu."
+      }
+    },
+    {
+      "id": "famiglia",
+      "emoji": "👨‍👩‍👧",
+      "livello": "A1",
+      "sottocategoria": "Persone",
+      "titolo": {
+        "it": "La Famiglia",
+        "en": "Family"
+      },
+      "teaser": {
+        "it": "Genitori non significa 'parents'. Questo è un falso amico.",
+        "en": "Genitori doesn't mean 'parents'. That's a false friend."
+      }
+    },
+    {
+      "id": "cibo-bar",
+      "emoji": "☕",
+      "livello": "A1",
+      "sottocategoria": "Cibo e Bevande",
+      "titolo": {
+        "it": "Al Bar",
+        "en": "At the Bar"
+      },
+      "teaser": {
+        "it": "Il bar italiano non è un pub. È molto di più.",
+        "en": "The Italian bar is not a pub. It's much more."
+      }
+    },
+    {
+      "id": "emozioni",
+      "emoji": "❤️",
+      "livello": "A2",
+      "sottocategoria": "Persone",
+      "titolo": {
+        "it": "Emozioni e Stati d'Animo",
+        "en": "Emotions"
+      },
+      "teaser": {
+        "it": "Come stai? — e come rispondere in modo vero.",
+        "en": "Come stai? — and how to answer honestly."
+      }
+    },
+    {
+      "id": "falsi-amici",
+      "emoji": "⚠️",
+      "livello": "A2",
+      "sottocategoria": "Trappole",
+      "titolo": {
+        "it": "Falsi Amici",
+        "en": "False Friends"
+      },
+      "teaser": {
+        "it": "Le parole che sembrano inglesi ma non lo sono. La lista definitiva.",
+        "en": "Words that look English but aren't. The definitive list."
+      }
+    }
+  ]
+}

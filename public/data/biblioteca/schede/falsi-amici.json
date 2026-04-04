@@ -1,0 +1,1412 @@
+{
+  "id": "falsi-amici",
+  "categoria": "vocabolario",
+  "emoji": "🪤",
+  "livello": "A2",
+  "titolo": {
+    "it": "Falsi Amici",
+    "en": "False Friends"
+  },
+  "mario": "Queste sono le parole che sembrano inglesi ma ti tradiscono. 'Attuale' non è actual. 'Eventuale' non è eventual. 'Sensibile' non è sensible. 'Morbido' non è morbid. Ho visto turisti ordinare cose sbagliate, fare brutta figura, dire cose imbarazzanti — tutto per colpa dei falsi amici. Ti salvo io.",
+  "marioEn": "These are the words that look like English but betray you. 'Attuale' is not actual. 'Eventuale' is not eventual. 'Sensibile' is not sensible. 'Morbido' is not morbid. I've seen tourists order wrong things, make bad impressions, say embarrassing things — all because of false friends. I'll save you.",
+  "perche": {
+    "it": "I falsi amici (false cognates) sono parole che sembrano uguali in due lingue ma hanno significati diversi. Tra italiano e inglese ce ne sono decine — alcune innocue, altre imbarazzanti. Nascono perché entrambe le lingue hanno preso la stessa parola latina o greca ma l'hanno sviluppata in direzioni diverse. Conoscerli non è solo utile — è fondamentale per non fare figuracce.",
+    "en": "False friends (false cognates) are words that look the same in two languages but have different meanings. Between Italian and English there are dozens — some harmless, some embarrassing. They arise because both languages took the same Latin or Greek word but developed it in different directions. Knowing them is not just useful — it's essential to avoid embarrassing yourself."
+  },
+  "spiegazione": {
+    "it": "Regola generale: se una parola italiana assomiglia a una parola inglese, non fidarti automaticamente. Verifica sempre. Le trappole più comuni: attuale (= current, not actual) · eventuale (= possible, not eventual) · sensibile (= sensitive, not sensible) · morbido (= soft, not morbid) · parenti (= relatives, not parents) · genitori (= parents, not generators) · annoiato (= bored, not annoyed) · libreria (= bookshop, not library) · camera (= room, not camera) · firma (= signature, not firm).",
+    "en": "General rule: if an Italian word looks like an English word, don't automatically trust it. Always verify. The most common traps: attuale (= current, not actual) · eventuale (= possible, not eventual) · sensibile (= sensitive, not sensible) · morbido (= soft, not morbid) · parenti (= relatives, not parents) · genitori (= parents, not generators) · annoiato (= bored, not annoyed) · libreria (= bookshop, not library) · camera (= room, not camera) · firma (= signature, not firm)."
+  },
+  "tabella": [
+    {
+      "italiano": "attuale",
+      "sembra": "actual",
+      "vero_significato_it": "current / present-day",
+      "vero_significato_en": "attuale = current. Actual = reale / effettivo"
+    },
+    {
+      "italiano": "eventuale",
+      "sembra": "eventual",
+      "vero_significato_it": "possible / potential",
+      "vero_significato_en": "eventuale = possible. Eventual = finale / definitivo"
+    },
+    {
+      "italiano": "sensibile",
+      "sembra": "sensible",
+      "vero_significato_it": "sensitive (emotionally)",
+      "vero_significato_en": "sensibile = sensitive. Sensible = ragionevole / sensato"
+    },
+    {
+      "italiano": "morbido",
+      "sembra": "morbid",
+      "vero_significato_it": "soft / smooth",
+      "vero_significato_en": "morbido = soft. Morbid = macabro / patologico"
+    },
+    {
+      "italiano": "parenti",
+      "sembra": "parents",
+      "vero_significato_it": "relatives",
+      "vero_significato_en": "parenti = relatives. Parents = genitori"
+    },
+    {
+      "italiano": "annoiato",
+      "sembra": "annoyed",
+      "vero_significato_it": "bored",
+      "vero_significato_en": "annoiato = bored. Annoyed = infastidito / irritato"
+    },
+    {
+      "italiano": "libreria",
+      "sembra": "library",
+      "vero_significato_it": "bookshop",
+      "vero_significato_en": "libreria = bookshop. Library = biblioteca"
+    },
+    {
+      "italiano": "camera",
+      "sembra": "camera (photograph)",
+      "vero_significato_it": "room (bedroom)",
+      "vero_significato_en": "camera = room. Camera (photo) = macchina fotografica / fotocamera"
+    },
+    {
+      "italiano": "firma",
+      "sembra": "firm (company)",
+      "vero_significato_it": "signature",
+      "vero_significato_en": "firma = signature. Firm = azienda / ditta"
+    },
+    {
+      "italiano": "pretendere",
+      "sembra": "to pretend",
+      "vero_significato_it": "to demand / to expect",
+      "vero_significato_en": "pretendere = to demand. To pretend = fingere"
+    },
+    {
+      "italiano": "consistere",
+      "sembra": "to consist",
+      "vero_significato_it": "to consist (correct!)",
+      "vero_significato_en": "✅ vero amico! Consistere = to consist"
+    },
+    {
+      "italiano": "argomento",
+      "sembra": "argument",
+      "vero_significato_it": "topic / subject",
+      "vero_significato_en": "argomento = topic. Argument = lite / discussione"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "La situazione attuale è complicata. (attuale = current, non actual)",
+      "en": "The current situation is complicated. (attuale = current, not actual)",
+      "audio": "La situazione attuale è complicata."
+    },
+    {
+      "it": "In caso di eventuali problemi, chiamami. (eventuale = possible, non eventual)",
+      "en": "In case of any possible problems, call me. (eventuale = possible, not eventual)",
+      "audio": "In caso di eventuali problemi, chiamami."
+    },
+    {
+      "it": "Sono molto sensibile alle critiche. (sensibile = sensitive, non sensible)",
+      "en": "I'm very sensitive to criticism. (sensibile = sensitive, not sensible)",
+      "audio": "Sono molto sensibile alle critiche."
+    },
+    {
+      "it": "Questo cuscino è morbidissimo! (morbido = soft, non morbid)",
+      "en": "This pillow is incredibly soft! (morbido = soft, not morbid)",
+      "audio": "Questo cuscino è morbidissimo!"
+    },
+    {
+      "it": "Vado in libreria a comprare un romanzo. (libreria = bookshop, non library)",
+      "en": "I'm going to the bookshop to buy a novel. (libreria = bookshop, not library)",
+      "audio": "Vado in libreria a comprare un romanzo."
+    }
+  ],
+  "nota": {
+    "it": "💡 Il test mentale: quando vedi una parola italiana che assomiglia a una parola inglese, chiediti: 'Sono sicuro al 100%?' Se non lo sei, cerca. I falsi amici più imbarazzanti in contesto: 'sono annoiato' (I'm bored, non I'm annoyed) — se lo dici a un italiano in risposta alla sua storia, sembra scortese. 'I miei parenti' (my relatives, non my parents) — sembra che tu non voglia parlare della famiglia.",
+    "en": "💡 The mental test: when you see an Italian word that looks like an English word, ask yourself: 'Am I 100% sure?' If not, look it up. The most embarrassing false friends in context: 'sono annoiato' (I'm bored, not I'm annoyed) — if you say it to an Italian in response to their story, it sounds rude. 'I miei parenti' (my relatives, not my parents) — it sounds like you don't want to talk about your family."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Attuale' in italiano significa…?",
+        "en": "'Attuale' in Italian means…?"
+      },
+      "opzioni": [
+        "actual / real",
+        "current / present-day",
+        "actual fact",
+        "truly"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Attuale = current / present-day. 'La situazione attuale' = the current situation. Actual = reale / effettivo.",
+        "en": "Correct! Attuale = current / present-day. 'La situazione attuale' = the current situation. Actual = reale / effettivo."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Attuale = current (non actual). 'La situazione attuale' = the current situation.",
+        "en": "FALSE FRIEND! Attuale = current (not actual). 'La situazione attuale' = the current situation."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Eventuale' in italiano significa…?",
+        "en": "'Eventuale' in Italian means…?"
+      },
+      "opzioni": [
+        "eventual (final/ultimate)",
+        "possible / potential",
+        "eventual outcome",
+        "eventful"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Eventuale = possible / potential. 'Eventuali problemi' = any possible problems. Eventual = finale / definitivo.",
+        "en": "Correct! Eventuale = possible / potential. 'Eventuali problemi' = any possible problems. Eventual = final / ultimate."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Eventuale = possible (non eventual). 'Eventuali problemi' = possible problems.",
+        "en": "FALSE FRIEND! Eventuale = possible (not eventual). 'Eventuali problemi' = possible problems."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sensibile' in italiano significa…?",
+        "en": "'Sensibile' in Italian means…?"
+      },
+      "opzioni": [
+        "sensible (reasonable)",
+        "sensitive (emotionally)",
+        "sensational",
+        "perceptible"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sensibile = sensitive (emotivo). 'È molto sensibile' = He's very sensitive. Sensible = ragionevole / sensato.",
+        "en": "Correct! Sensibile = sensitive (emotional). 'È molto sensibile' = He's very sensitive. Sensible = reasonable / sensible."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Sensibile = sensitive (non sensible). Sensible in italiano = ragionevole / sensato.",
+        "en": "FALSE FRIEND! Sensibile = sensitive (not sensible). Sensible in Italian = ragionevole / sensato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Morbido' in italiano significa…?",
+        "en": "'Morbido' in Italian means…?"
+      },
+      "opzioni": [
+        "morbid (macabre)",
+        "soft / smooth",
+        "mild",
+        "sickly"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Morbido = soft / smooth. 'Un cuscino morbido' = a soft pillow. Morbid = macabro / patologico.",
+        "en": "Correct! Morbido = soft / smooth. 'Un cuscino morbido' = a soft pillow. Morbid = macabre / pathological."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Morbido = soft (non morbid). 'La pelle morbida' = soft skin.",
+        "en": "FALSE FRIEND! Morbido = soft (not morbid). 'La pelle morbida' = soft skin."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Libreria' in italiano significa…?",
+        "en": "'Libreria' in Italian means…?"
+      },
+      "opzioni": [
+        "library (public)",
+        "bookshop / bookstore",
+        "bookcase",
+        "library card"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Libreria = bookshop (dove si COMPRANO i libri). Library = biblioteca (dove si PRENDONO IN PRESTITO i libri).",
+        "en": "Correct! Libreria = bookshop (where you BUY books). Library = biblioteca (where you BORROW books)."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Libreria = bookshop. Library = biblioteca. 'Vado in libreria' = I'm going to the bookshop.",
+        "en": "FALSE FRIEND! Libreria = bookshop. Library = biblioteca. 'Vado in libreria' = I'm going to the bookshop."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Annoiato' in italiano significa…?",
+        "en": "'Annoiato' in Italian means…?"
+      },
+      "opzioni": [
+        "annoyed (irritated)",
+        "bored",
+        "tired",
+        "angry"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Annoiato = bored. 'Sono annoiato' = I'm bored. Annoyed = infastidito / irritato / scocciato.",
+        "en": "Correct! Annoiato = bored. 'Sono annoiato' = I'm bored. Annoyed = infastidito / irritato / scocciato."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Annoiato = bored (non annoyed). Annoyed = infastidito / irritato. Confonderli è imbarazzante.",
+        "en": "FALSE FRIEND! Annoiato = bored (not annoyed). Annoyed = infastidito / irritato. Confusing them is embarrassing."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Camera' in italiano (contesto albergo) significa…?",
+        "en": "'Camera' in Italian (hotel context) means…?"
+      },
+      "opzioni": [
+        "camera (for photos)",
+        "room (bedroom)",
+        "chamber (formal)",
+        "hall"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Camera = room (bedroom). 'Una camera doppia' = a double room. Camera (foto) = macchina fotografica / fotocamera.",
+        "en": "Correct! Camera = room (bedroom). 'Una camera doppia' = a double room. Camera (photo) = macchina fotografica / fotocamera."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Camera = room (non camera fotografica). 'Camera singola/doppia' = single/double room.",
+        "en": "FALSE FRIEND! Camera = room (not photo camera). 'Camera singola/doppia' = single/double room."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Firma' in italiano significa…?",
+        "en": "'Firma' in Italian means…?"
+      },
+      "opzioni": [
+        "firm (company)",
+        "signature",
+        "brand",
+        "firm (adjective: solid)"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Firma = signature. 'Metti la firma qui' = sign here. Firm (company) = azienda / ditta / impresa.",
+        "en": "Correct! Firma = signature. 'Metti la firma qui' = sign here. Firm (company) = azienda / ditta / impresa."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Firma = signature (non firm). Firm = azienda / ditta. 'La tua firma' = your signature.",
+        "en": "FALSE FRIEND! Firma = signature (not firm). Firm = azienda / ditta. 'La tua firma' = your signature."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Pretendere' in italiano significa…?",
+        "en": "'Pretendere' in Italian means…?"
+      },
+      "opzioni": [
+        "to pretend (to fake)",
+        "to demand / to expect",
+        "to intend",
+        "to claim falsely"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Pretendere = to demand / to expect. 'Pretende troppo da me' = He demands too much from me. To pretend = fingere.",
+        "en": "Correct! Pretendere = to demand / to expect. 'Pretende troppo da me' = He demands too much from me. To pretend = fingere."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Pretendere = to demand (non to pretend). To pretend = fingere. 'Pretende troppo' = demands too much.",
+        "en": "FALSE FRIEND! Pretendere = to demand (not to pretend). To pretend = fingere. 'Pretende troppo' = demands too much."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Argomento' in italiano significa…?",
+        "en": "'Argomento' in Italian means…?"
+      },
+      "opzioni": [
+        "argument (fight/dispute)",
+        "topic / subject",
+        "argument (logic)",
+        "debate"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Argomento = topic / subject. 'Di che argomento parli?' = What topic are you talking about? Argument (fight) = lite / discussione.",
+        "en": "Correct! Argomento = topic / subject. 'Di che argomento parli?' = What topic are you talking about? Argument (fight) = lite / discussione."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Argomento = topic (non argument/fight). Argument = lite / discussione. 'L'argomento della lezione' = the topic of the lesson.",
+        "en": "FALSE FRIEND! Argomento = topic (not argument/fight). Argument = lite / discussione. 'L'argomento della lezione' = the topic of the lesson."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Genitori' in italiano significa…?",
+        "en": "'Genitori' in Italian means…?"
+      },
+      "opzioni": [
+        "generators",
+        "parents",
+        "gentry",
+        "ancestors"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Genitori = parents. 'I miei genitori' = my parents. Parenti = relatives (altro falso amico!).",
+        "en": "Correct! Genitori = parents. 'I miei genitori' = my parents. Parenti = relatives (another false friend!)."
+      },
+      "feedbackErr": {
+        "it": "Genitori = parents (non generators). 'I miei genitori' = my parents. Parenti = relatives.",
+        "en": "Genitori = parents (not generators). 'I miei genitori' = my parents. Parenti = relatives."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'actual' (= real, genuine) in italiano?",
+        "en": "How do you say 'actual' (= real, genuine) in Italian?"
+      },
+      "opzioni": [
+        "attuale",
+        "reale / effettivo / vero",
+        "attualizzato",
+        "concreto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Actual = reale / effettivo / vero. 'The actual problem' = il problema reale / effettivo. Attuale = current.",
+        "en": "Correct! Actual = reale / effettivo / vero. 'The actual problem' = il problema reale / effettivo. Attuale = current."
+      },
+      "feedbackErr": {
+        "it": "Actual (inglese) = reale / effettivo. Attuale (italiano) = current. Non confondere!",
+        "en": "Actual (English) = reale / effettivo. Attuale (Italian) = current. Don't confuse!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'library' in italiano?",
+        "en": "How do you say 'library' in Italian?"
+      },
+      "opzioni": [
+        "libreria",
+        "libroteca",
+        "biblioteca",
+        "librario"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Library = biblioteca. Libreria = bookshop. 'Vado in biblioteca a studiare' / 'Vado in libreria a comprare un libro'.",
+        "en": "Correct! Library = biblioteca. Libreria = bookshop. 'Vado in biblioteca a studiare' / 'Vado in libreria a comprare un libro'."
+      },
+      "feedbackErr": {
+        "it": "Library = BIBLIOTECA (non libreria). Libreria = bookshop. 'Vado in biblioteca a studiare.'",
+        "en": "Library = BIBLIOTECA (not libreria). Libreria = bookshop. 'Vado in biblioteca a studiare.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sensato' in italiano corrisponde a quale parola inglese?",
+        "en": "'Sensato' in Italian corresponds to which English word?"
+      },
+      "opzioni": [
+        "sensitive",
+        "sensible (reasonable)",
+        "sensational",
+        "sensory"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sensato = sensible / reasonable. 'Una decisione sensata' = a sensible decision. Sensible in italiano non esiste come parola italiana — si dice 'sensato'.",
+        "en": "Correct! Sensato = sensible / reasonable. 'Una decisione sensata' = a sensible decision. Sensible doesn't exist as an Italian word — you say 'sensato'."
+      },
+      "feedbackErr": {
+        "it": "Sensible (inglese) = sensato (italiano). Sensibile (italiano) = sensitive (inglese). Doppio falso amico!",
+        "en": "Sensible (English) = sensato (Italian). Sensibile (Italian) = sensitive (English). Double false friend!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'to pretend' in italiano?",
+        "en": "How do you say 'to pretend' in Italian?"
+      },
+      "opzioni": [
+        "pretendere",
+        "fingere / fare finta",
+        "intentare",
+        "simulare solo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! To pretend = fingere / fare finta. 'Sta fingendo di dormire' = He's pretending to sleep. Pretendere = to demand.",
+        "en": "Correct! To pretend = fingere / fare finta. 'Sta fingendo di dormire' = He's pretending to sleep. Pretendere = to demand."
+      },
+      "feedbackErr": {
+        "it": "To pretend = FINGERE / FARE FINTA. Pretendere = to demand. 'Sta fingendo di dormire' = He's pretending to sleep.",
+        "en": "To pretend = FINGERE / FARE FINTA. Pretendere = to demand. 'Sta fingendo di dormire' = He's pretending to sleep."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Morboso' in italiano (diverso da 'morbido') significa…?",
+        "en": "'Morboso' in Italian (different from 'morbido') means…?"
+      },
+      "opzioni": [
+        "soft",
+        "morbid / unhealthily obsessive",
+        "sickly sweet",
+        "soft-spoken"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Morboso = morbid / unhealthily obsessive. Morbido = soft. Due parole diverse! 'Un interesse morboso' = a morbid/unhealthy interest.",
+        "en": "Correct! Morboso = morbid / unhealthily obsessive. Morbido = soft. Two different words! 'Un interesse morboso' = a morbid/unhealthy interest."
+      },
+      "feedbackErr": {
+        "it": "Morboso = morbid (interesse malsano). Morbido = soft. Parole diverse! 'Un interesse morboso' = unhealthy fascination.",
+        "en": "Morboso = morbid (unhealthy interest). Morbido = soft. Different words! 'Un interesse morboso' = unhealthy fascination."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'annoyed' (= irritated) in italiano?",
+        "en": "How do you say 'annoyed' (= irritated) in Italian?"
+      },
+      "opzioni": [
+        "annoiato",
+        "infastidito / irritato / scocciato",
+        "arrabbiato solo",
+        "stanco"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Annoyed = infastidito / irritato / scocciato. Annoiato = bored. 'Sono infastidito dal rumore' = I'm annoyed by the noise.",
+        "en": "Correct! Annoyed = infastidito / irritato / scocciato. Annoiato = bored. 'Sono infastidito dal rumore' = I'm annoyed by the noise."
+      },
+      "feedbackErr": {
+        "it": "Annoyed = infastidito / irritato / scocciato. Annoiato = bored. 'Sono infastidito' (annoyed) ≠ 'sono annoiato' (bored).",
+        "en": "Annoyed = infastidito / irritato / scocciato. Annoiato = bored. 'Sono infastidito' (annoyed) ≠ 'sono annoiato' (bored)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Noioso' in italiano significa…?",
+        "en": "'Noioso' in Italian means…?"
+      },
+      "opzioni": [
+        "noisy",
+        "boring (causing boredom)",
+        "annoying",
+        "nauseous"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Noioso = boring (chi/cosa causa noia). 'Una lezione noiosa' = a boring lesson. Noisy = rumoroso.",
+        "en": "Correct! Noioso = boring (who/what causes boredom). 'Una lezione noiosa' = a boring lesson. Noisy = rumoroso."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Noioso = boring (non noisy). Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson.",
+        "en": "FALSE FRIEND! Noioso = boring (not noisy). Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Conveniente' in italiano significa…?",
+        "en": "'Conveniente' in Italian means…?"
+      },
+      "opzioni": [
+        "convenient (practical/handy)",
+        "good value / affordable / advantageous",
+        "convenient location",
+        "fitting"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Conveniente = good value / affordable / advantageous. 'Un prezzo conveniente' = a good price. Convenient = comodo / pratico.",
+        "en": "Correct! Conveniente = good value / affordable / advantageous. 'Un prezzo conveniente' = a good price. Convenient = comodo / pratico."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Conveniente = good value / affordable. Convenient = comodo / pratico. 'È conveniente' = it's good value.",
+        "en": "FALSE FRIEND! Conveniente = good value / affordable. Convenient = comodo / pratico. 'È conveniente' = it's good value."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Simpatico' in italiano significa…?",
+        "en": "'Simpatico' in Italian means…?"
+      },
+      "opzioni": [
+        "sympathetic (feeling sorry for)",
+        "nice / likeable / pleasant",
+        "sympathetic character",
+        "sympathiser"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Simpatico = nice / likeable. 'Mario è molto simpatico' = Mario is very nice/likeable. Sympathetic = comprensivo / empatico.",
+        "en": "Correct! Simpatico = nice / likeable. 'Mario è molto simpatico' = Mario is very nice/likeable. Sympathetic = comprensivo / empatico."
+      },
+      "feedbackErr": {
+        "it": "FALSO AMICO! Simpatico = nice/likeable (non sympathetic). Sympathetic = comprensivo / empatico. 'È molto simpatico' = he's very nice.",
+        "en": "FALSE FRIEND! Simpatico = nice/likeable (not sympathetic). Sympathetic = comprensivo / empatico. 'È molto simpatico' = he's very nice."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Attuale' in italiano significa 'actual' (= real, genuine).",
+        "en": "'Attuale' in Italian means 'actual' (= real, genuine)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Attuale = current / present-day. Actual = reale / effettivo. 'La situazione attuale' = the current situation.",
+        "en": "Correct! FALSE FRIEND! Attuale = current / present-day. Actual = reale / effettivo. 'La situazione attuale' = the current situation."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Attuale = current (non actual). Actual = reale / effettivo. Classico falso amico!",
+        "en": "FALSE! Attuale = current (not actual). Actual = reale / effettivo. Classic false friend!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Biblioteca' è il modo corretto per dire 'library' in italiano.",
+        "en": "'Biblioteca' is the correct way to say 'library' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Biblioteca = library (dove si prendono in prestito i libri). Libreria = bookshop (dove si comprano i libri).",
+        "en": "Correct! Biblioteca = library (where you borrow books). Libreria = bookshop (where you buy books)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Biblioteca = library. Libreria = bookshop. 'Vado in biblioteca a studiare.'",
+        "en": "True! Biblioteca = library. Libreria = bookshop. 'Vado in biblioteca a studiare.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sensibile' in italiano corrisponde a 'sensible' in inglese.",
+        "en": "'Sensibile' in Italian corresponds to 'sensible' in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Sensibile = sensitive. Sensible = ragionevole / sensato. 'È molto sensibile' = He's very sensitive (emotivo).",
+        "en": "Correct! FALSE FRIEND! Sensibile = sensitive. Sensible = ragionevole / sensato. 'È molto sensibile' = He's very sensitive (emotional)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Sensibile = sensitive. Sensible = sensato / ragionevole. Doppio falso amico tra le due lingue!",
+        "en": "FALSE! Sensibile = sensitive. Sensible = sensato / ragionevole. Double false friend between the two languages!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Morbido' in italiano significa 'morbid' in inglese.",
+        "en": "'Morbido' in Italian means 'morbid' in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Morbido = soft / smooth. Morbid = morboso / macabro. 'Un cuscino morbido' = a soft pillow.",
+        "en": "Correct! FALSE FRIEND! Morbido = soft / smooth. Morbid = morboso / macabro. 'Un cuscino morbido' = a soft pillow."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Morbido = soft (non morbid). Morbid = morboso. 'La sua pelle è morbida' = Her skin is soft.",
+        "en": "FALSE! Morbido = soft (not morbid). Morbid = morboso. 'La sua pelle è morbida' = Her skin is soft."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Annoiato' in italiano significa 'bored', non 'annoyed'.",
+        "en": "'Annoiato' in Italian means 'bored', not 'annoyed'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Annoiato = bored. Annoyed = infastidito / irritato / scocciato. Confonderli può essere molto imbarazzante!",
+        "en": "Correct! Annoiato = bored. Annoyed = infastidito / irritato / scocciato. Confusing them can be very embarrassing!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Annoiato = bored. Annoyed = infastidito. 'Sono annoiato' = I'm bored (NON I'm annoyed).",
+        "en": "True! Annoiato = bored. Annoyed = infastidito. 'Sono annoiato' = I'm bored (NOT I'm annoyed)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Pretendere' in italiano significa 'to pretend' (= fingere).",
+        "en": "'Pretendere' in Italian means 'to pretend' (= to fake)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Pretendere = to demand / to expect. To pretend = fingere. 'Pretende troppo' = He demands too much.",
+        "en": "Correct! FALSE FRIEND! Pretendere = to demand / to expect. To pretend = fingere. 'Pretende troppo' = He demands too much."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Pretendere = to demand (non to pretend). To pretend = fingere. 'Pretende molto' = demands a lot.",
+        "en": "FALSE! Pretendere = to demand (not to pretend). To pretend = fingere. 'Pretende molto' = demands a lot."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Camera' in italiano (in un albergo) significa 'room', non 'camera fotografica'.",
+        "en": "'Camera' in Italian (in a hotel) means 'room', not 'photo camera'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Camera = room (hotel). 'Vorrei una camera doppia' = I'd like a double room. Fotocamera = photo camera.",
+        "en": "Correct! Camera = room (hotel). 'Vorrei una camera doppia' = I'd like a double room. Fotocamera = photo camera."
+      },
+      "feedbackErr": {
+        "it": "Vero! Camera = stanza / room. Fotocamera / macchina fotografica = photo camera. 'Una camera singola' = a single room.",
+        "en": "True! Camera = room. Fotocamera / macchina fotografica = photo camera. 'Una camera singola' = a single room."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Simpatico' in italiano significa 'sympathetic' (= che prova compassione).",
+        "en": "'Simpatico' in Italian means 'sympathetic' (= feeling compassion)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Simpatico = nice / likeable. Sympathetic = comprensivo / empatico. 'Mario è simpatico' = Mario is nice.",
+        "en": "Correct! FALSE FRIEND! Simpatico = nice / likeable. Sympathetic = comprensivo / empatico. 'Mario è simpatico' = Mario is nice."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Simpatico = nice/likeable. Sympathetic = comprensivo / empatico. 'È molto simpatico' = he's very nice.",
+        "en": "FALSE! Simpatico = nice/likeable. Sympathetic = comprensivo / empatico. 'È molto simpatico' = he's very nice."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Argomento' in italiano significa 'argument' nel senso di lite o discussione accesa.",
+        "en": "'Argomento' in Italian means 'argument' in the sense of a fight or heated discussion."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Argomento = topic / subject. Argument (fight) = lite / discussione. 'L'argomento della lezione' = the topic of the lesson.",
+        "en": "Correct! FALSE FRIEND! Argomento = topic / subject. Argument (fight) = lite / discussione. 'L'argomento della lezione' = the topic of the lesson."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Argomento = topic. Argument (lite) = discussione / lite. 'Di che argomento parli?' = What topic are you talking about?",
+        "en": "FALSE! Argomento = topic. Argument (fight) = discussione / lite. 'Di che argomento parli?' = What topic are you talking about?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Conveniente' in italiano significa 'convenient' (= comodo, pratico).",
+        "en": "'Conveniente' in Italian means 'convenient' (= handy, practical)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Conveniente = affordable / good value. Convenient = comodo / pratico. 'È conveniente' = it's good value / affordable.",
+        "en": "Correct! FALSE FRIEND! Conveniente = affordable / good value. Convenient = comodo / pratico. 'È conveniente' = it's good value / affordable."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Conveniente = affordable/good value. Convenient = comodo/pratico. 'Un prezzo conveniente' = a good/affordable price.",
+        "en": "FALSE! Conveniente = affordable/good value. Convenient = comodo/pratico. 'Un prezzo conveniente' = a good/affordable price."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Noioso' in italiano significa 'noisy' (= rumoroso).",
+        "en": "'Noioso' in Italian means 'noisy' (= loud/noisy)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Noioso = boring. Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson. 'Una strada rumorosa' = a noisy street.",
+        "en": "Correct! FALSE FRIEND! Noioso = boring. Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson. 'Una strada rumorosa' = a noisy street."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Noioso = boring (non noisy). Noisy = rumoroso. 'È noioso' = it's boring. 'È rumoroso' = it's noisy.",
+        "en": "FALSE! Noioso = boring (not noisy). Noisy = rumoroso. 'È noioso' = it's boring. 'È rumoroso' = it's noisy."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Firma' in italiano significa 'signature', non 'firm' (azienda).",
+        "en": "'Firma' in Italian means 'signature', not 'firm' (company)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Firma = signature. Firm (company) = azienda / ditta / impresa. 'La tua firma qui, per favore' = your signature here please.",
+        "en": "Correct! Firma = signature. Firm (company) = azienda / ditta / impresa. 'La tua firma qui, per favore' = your signature here please."
+      },
+      "feedbackErr": {
+        "it": "Vero! Firma = signature. Firm (company) = azienda. 'Metti la firma' = sign / put your signature.",
+        "en": "True! Firma = signature. Firm (company) = azienda. 'Metti la firma' = sign / put your signature."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Consistere' in italiano è un vero amico — ha lo stesso significato di 'to consist' in inglese.",
+        "en": "'Consistere' in Italian is a true friend — it has the same meaning as 'to consist' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Consistere = to consist. Non tutti i simili sono falsi amici — consistere è un vero amico! 'In cosa consiste il lavoro?' = What does the job consist of?",
+        "en": "Correct! Consistere = to consist. Not all look-alikes are false friends — consistere is a true friend! 'In cosa consiste il lavoro?' = What does the job consist of?"
+      },
+      "feedbackErr": {
+        "it": "Vero! Consistere = to consist. È un vero amico, non falso. 'In cosa consiste?' = What does it consist of?",
+        "en": "True! Consistere = to consist. It's a true friend, not false. 'In cosa consiste?' = What does it consist of?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Eventuale' in italiano significa 'eventual' (= finale, definitivo).",
+        "en": "'Eventuale' in Italian means 'eventual' (= final, ultimate)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Eventuale = possible / potential. Eventual = finale / definitivo. 'Eventuali problemi' = any possible problems.",
+        "en": "Correct! FALSE FRIEND! Eventuale = possible / potential. Eventual = final / ultimate. 'Eventuali problemi' = any possible problems."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Eventuale = possible (non eventual). Eventual = finale. 'Eventuali domande?' = Any questions?",
+        "en": "FALSE! Eventuale = possible (not eventual). Eventual = final. 'Eventuali domande?' = Any questions?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Parenti' in italiano corrisponde a 'parents' in inglese.",
+        "en": "'Parenti' in Italian corresponds to 'parents' in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO CLASSICO! Parenti = relatives. Parents = genitori. 'I miei parenti' = my relatives. 'I miei genitori' = my parents.",
+        "en": "Correct! CLASSIC FALSE FRIEND! Parenti = relatives. Parents = genitori. 'I miei parenti' = my relatives. 'I miei genitori' = my parents."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Parenti = relatives. Parents = GENITORI. 'I miei parenti' = my relatives (non parents!).",
+        "en": "FALSE! Parenti = relatives. Parents = GENITORI. 'I miei parenti' = my relatives (not parents!)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Morboso' e 'morbido' sono sinonimi in italiano.",
+        "en": "'Morboso' and 'morbido' are synonyms in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Sono parole completamente diverse! Morbido = soft. Morboso = morbid / unhealthily obsessive. 'Un tessuto morbido' ≠ 'un interesse morboso'.",
+        "en": "Correct! They are completely different words! Morbido = soft. Morboso = morbid / unhealthily obsessive. 'Un tessuto morbido' ≠ 'un interesse morboso'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Morbido (soft) ≠ morboso (morbid/obsessive). Parole diverse con significati opposti.",
+        "en": "FALSE! Morbido (soft) ≠ morboso (morbid/obsessive). Different words with very different meanings."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sensato' in italiano corrisponde a 'sensible' (= ragionevole) in inglese.",
+        "en": "'Sensato' in Italian corresponds to 'sensible' (= reasonable) in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sensato = sensible / reasonable. 'Una scelta sensata' = a sensible choice. E sensibile = sensitive. Doppio sistema!",
+        "en": "Correct! Sensato = sensible / reasonable. 'Una scelta sensata' = a sensible choice. And sensibile = sensitive. Double system!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Sensato = sensible (ragionevole). Sensibile = sensitive. 'Una scelta sensata' = a sensible choice.",
+        "en": "True! Sensato = sensible (reasonable). Sensibile = sensitive. 'Una scelta sensata' = a sensible choice."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Comodo' in italiano corrisponde a 'commodious' (= spazioso) in inglese.",
+        "en": "'Comodo' in Italian corresponds to 'commodious' (= spacious) in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Comodo = comfortable / convenient / handy (non commodious). 'Una sedia comoda' = a comfortable chair. Commodious è arcaico in inglese.",
+        "en": "Correct! Comodo = comfortable / convenient / handy (not commodious). 'Una sedia comoda' = a comfortable chair. Commodious is archaic in English."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Comodo = comfortable / convenient. Non commodious (arcaico). 'Una sedia comoda' = a comfortable chair.",
+        "en": "FALSE! Comodo = comfortable / convenient. Not commodious (archaic). 'Una sedia comoda' = a comfortable chair."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I falsi amici tra italiano e inglese esistono perché entrambe le lingue hanno preso parole dal latino o dal greco antico.",
+        "en": "False friends between Italian and English exist because both languages took words from Latin or Ancient Greek."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambe le lingue hanno preso la stessa radice latina/greca ma l'hanno sviluppata in modo diverso nel tempo. Questo spiega i falsi amici.",
+        "en": "Correct! Both languages took the same Latin/Greek root but developed it differently over time. This explains false friends."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stessa origine latina/greca → sviluppo diverso → falsi amici. Esempio: 'sensibilis' latino → sensible (inglese) vs sensibile (italiano).",
+        "en": "True! Same Latin/Greek origin → different development → false friends. Example: Latin 'sensibilis' → sensible (English) vs sensibile (Italian)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Attualmente' in italiano significa 'actually' (= in realtà, effettivamente).",
+        "en": "'Attualmente' in Italian means 'actually' (= in reality, in fact)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! FALSO AMICO! Attualmente = currently / at present. Actually = in realtà / effettivamente / a dire il vero. 'Attualmente vivo a Roma' = I currently live in Rome.",
+        "en": "Correct! FALSE FRIEND! Attualmente = currently / at present. Actually = in realtà / effettivamente / a dire il vero. 'Attualmente vivo a Roma' = I currently live in Rome."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Attualmente = currently. Actually = in realtà / effettivamente. 'Attualmente vivo a Roma' = I currently live in Rome.",
+        "en": "FALSE! Attualmente = currently. Actually = in realtà / effettivamente. 'Attualmente vivo a Roma' = I currently live in Rome."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'The current situation': La situazione ___.",
+        "en": "'The current situation': La situazione ___."
+      },
+      "parole": [
+        "attuale"
+      ],
+      "distrattori": [
+        "reale",
+        "vera",
+        "effettiva"
+      ],
+      "correct": [
+        "attuale"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Attuale = current. 'La situazione attuale.' Non 'actual' — quello è reale/effettivo.",
+        "en": "Perfect! Attuale = current. 'La situazione attuale.' Not 'actual' — that's reale/effettivo."
+      },
+      "feedbackErr": {
+        "it": "Current = attuale. 'La situazione attuale.' Attuale ≠ actual.",
+        "en": "Current = attuale. 'La situazione attuale.' Attuale ≠ actual."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'Any possible problems': ___ eventuali.",
+        "en": "'Any possible problems': ___ eventuali."
+      },
+      "parole": [
+        "Problemi"
+      ],
+      "distrattori": [
+        "Eventuali",
+        "Possibili",
+        "Definitivi"
+      ],
+      "correct": [
+        "Problemi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Eventuali = possible (non eventual). 'Problemi eventuali' = any possible problems.",
+        "en": "Perfect! Eventuali = possible (not eventual). 'Problemi eventuali' = any possible problems."
+      },
+      "feedbackErr": {
+        "it": "Eventuale = possible. 'Problemi eventuali' = any possible problems. Eventuale ≠ eventual.",
+        "en": "Eventuale = possible. 'Problemi eventuali' = any possible problems. Eventuale ≠ eventual."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'I'm going to the bookshop': Vado in ___.",
+        "en": "'I'm going to the bookshop': Vado in ___."
+      },
+      "parole": [
+        "libreria"
+      ],
+      "distrattori": [
+        "biblioteca",
+        "libroteca",
+        "biblioteca"
+      ],
+      "correct": [
+        "libreria"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Libreria = bookshop. Biblioteca = library. 'Vado in libreria a comprare un libro.'",
+        "en": "Perfect! Libreria = bookshop. Biblioteca = library. 'Vado in libreria a comprare un libro.'"
+      },
+      "feedbackErr": {
+        "it": "Bookshop = libreria. Library = biblioteca. 'Vado in libreria a comprare un libro.'",
+        "en": "Bookshop = libreria. Library = biblioteca. 'Vado in libreria a comprare un libro.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'He's very sensitive': È molto ___.",
+        "en": "'He's very sensitive': È molto ___."
+      },
+      "parole": [
+        "sensibile"
+      ],
+      "distrattori": [
+        "sensato",
+        "sensible",
+        "ragionevole"
+      ],
+      "correct": [
+        "sensibile"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sensibile = sensitive. 'È molto sensibile alle critiche.'",
+        "en": "Perfect! Sensibile = sensitive. 'È molto sensibile alle critiche.'"
+      },
+      "feedbackErr": {
+        "it": "Sensitive = sensibile. Sensible = sensato. 'È molto sensibile' = he's very sensitive.",
+        "en": "Sensitive = sensibile. Sensible = sensato. 'È molto sensibile' = he's very sensitive."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'A soft pillow': Un cuscino ___.",
+        "en": "'A soft pillow': Un cuscino ___."
+      },
+      "parole": [
+        "morbido"
+      ],
+      "distrattori": [
+        "morboso",
+        "macabro",
+        "soffice"
+      ],
+      "correct": [
+        "morbido"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Morbido = soft. 'Un cuscino morbido.' Morboso = morbid (completamente diverso!).",
+        "en": "Perfect! Morbido = soft. 'Un cuscino morbido.' Morboso = morbid (completely different!)."
+      },
+      "feedbackErr": {
+        "it": "Soft = morbido. Morbid = morboso. 'Un cuscino morbido' = a soft pillow.",
+        "en": "Soft = morbido. Morbid = morboso. 'Un cuscino morbido' = a soft pillow."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'My relatives are coming': I miei ___ vengono.",
+        "en": "'My relatives are coming': I miei ___ vengono."
+      },
+      "parole": [
+        "parenti"
+      ],
+      "distrattori": [
+        "genitori",
+        "familiari",
+        "parents"
+      ],
+      "correct": [
+        "parenti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Parenti = relatives. Genitori = parents. 'I miei parenti vengono a cena.'",
+        "en": "Perfect! Parenti = relatives. Genitori = parents. 'I miei parenti vengono a cena.'"
+      },
+      "feedbackErr": {
+        "it": "Relatives = parenti. Parents = genitori. 'I miei parenti' = my relatives.",
+        "en": "Relatives = parenti. Parents = genitori. 'I miei parenti' = my relatives."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'I'm bored': Sono ___.",
+        "en": "'I'm bored': Sono ___."
+      },
+      "parole": [
+        "annoiato"
+      ],
+      "distrattori": [
+        "annoyed",
+        "infastidito",
+        "irritato"
+      ],
+      "correct": [
+        "annoiato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Annoiato = bored. Infastidito/irritato = annoyed. 'Sono annoiato' = I'm bored (non I'm annoyed!).",
+        "en": "Perfect! Annoiato = bored. Infastidito/irritato = annoyed. 'Sono annoiato' = I'm bored (not I'm annoyed!)."
+      },
+      "feedbackErr": {
+        "it": "Bored = annoiato. Annoyed = infastidito. 'Sono annoiato' = I'm bored.",
+        "en": "Bored = annoiato. Annoyed = infastidito. 'Sono annoiato' = I'm bored."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'He demands too much': ___ troppo.",
+        "en": "'He demands too much': ___ troppo."
+      },
+      "parole": [
+        "Pretende"
+      ],
+      "distrattori": [
+        "Finge",
+        "Pretende di",
+        "Vuole"
+      ],
+      "correct": [
+        "Pretende"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pretendere = to demand. 'Pretende troppo da me' = he demands too much from me.",
+        "en": "Perfect! Pretendere = to demand. 'Pretende troppo da me' = he demands too much from me."
+      },
+      "feedbackErr": {
+        "it": "To demand = pretendere. 'Pretende troppo.' To pretend = fingere.",
+        "en": "To demand = pretendere. 'Pretende troppo.' To pretend = fingere."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'She's pretending to sleep': Sta ___ di dormire.",
+        "en": "'She's pretending to sleep': Sta ___ di dormire."
+      },
+      "parole": [
+        "fingendo"
+      ],
+      "distrattori": [
+        "pretendendo",
+        "finta",
+        "simulando"
+      ],
+      "correct": [
+        "fingendo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! To pretend = fingere. 'Sta fingendo di dormire.' Pretendere = to demand.",
+        "en": "Perfect! To pretend = fingere. 'Sta fingendo di dormire.' Pretendere = to demand."
+      },
+      "feedbackErr": {
+        "it": "To pretend = fingere (non pretendere!). 'Sta fingendo di dormire' = she's pretending to sleep.",
+        "en": "To pretend = fingere (not pretendere!). 'Sta fingendo di dormire' = she's pretending to sleep."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'Your signature here': La tua ___ qui.",
+        "en": "'Your signature here': La tua ___ qui."
+      },
+      "parole": [
+        "firma"
+      ],
+      "distrattori": [
+        "azienda",
+        "ditta",
+        "impresa"
+      ],
+      "correct": [
+        "firma"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Firma = signature. Firm (company) = azienda / ditta. 'La tua firma qui, per favore.'",
+        "en": "Perfect! Firma = signature. Firm (company) = azienda / ditta. 'La tua firma qui, per favore.'"
+      },
+      "feedbackErr": {
+        "it": "Signature = firma. Firm (company) = azienda. 'La tua firma qui, per favore.'",
+        "en": "Signature = firma. Firm (company) = azienda. 'La tua firma qui, per favore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'Mario is very nice / likeable': Mario è molto ___.",
+        "en": "'Mario is very nice / likeable': Mario è molto ___."
+      },
+      "parole": [
+        "simpatico"
+      ],
+      "distrattori": [
+        "sympathetic",
+        "empatico",
+        "comprensivo"
+      ],
+      "correct": [
+        "simpatico"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Simpatico = nice/likeable. Sympathetic = comprensivo/empatico. 'Mario è molto simpatico.'",
+        "en": "Perfect! Simpatico = nice/likeable. Sympathetic = comprensivo/empatico. 'Mario è molto simpatico.'"
+      },
+      "feedbackErr": {
+        "it": "Nice/likeable = simpatico. Sympathetic = comprensivo. 'Mario è molto simpatico.'",
+        "en": "Nice/likeable = simpatico. Sympathetic = comprensivo. 'Mario è molto simpatico.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'The topic of the lesson': L' ___ della lezione.",
+        "en": "'The topic of the lesson': L' ___ della lezione."
+      },
+      "parole": [
+        "argomento"
+      ],
+      "distrattori": [
+        "argomento",
+        "discussione",
+        "lite",
+        "argomento"
+      ],
+      "correct": [
+        "argomento"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Argomento = topic. Argument (fight) = lite / discussione. 'L'argomento della lezione' = the topic of the lesson.",
+        "en": "Perfect! Argomento = topic. Argument (fight) = lite / discussione. 'L'argomento della lezione' = the topic of the lesson."
+      },
+      "feedbackErr": {
+        "it": "Topic = argomento. Argument (fight) = lite. 'L'argomento della lezione' = the lesson topic.",
+        "en": "Topic = argomento. Argument (fight) = lite. 'L'argomento della lezione' = the lesson topic."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'An affordable/good value price': Un prezzo ___.",
+        "en": "'An affordable/good value price': Un prezzo ___."
+      },
+      "parole": [
+        "conveniente"
+      ],
+      "distrattori": [
+        "comodo",
+        "pratico",
+        "conveniente"
+      ],
+      "correct": [
+        "conveniente"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Conveniente = affordable / good value. Convenient = comodo / pratico. 'Un prezzo conveniente.'",
+        "en": "Perfect! Conveniente = affordable / good value. Convenient = comodo / pratico. 'Un prezzo conveniente.'"
+      },
+      "feedbackErr": {
+        "it": "Affordable/good value = conveniente. Convenient = comodo. 'Un prezzo conveniente.'",
+        "en": "Affordable/good value = conveniente. Convenient = comodo. 'Un prezzo conveniente.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'A boring lesson': Una lezione ___.",
+        "en": "'A boring lesson': Una lezione ___."
+      },
+      "parole": [
+        "noiosa"
+      ],
+      "distrattori": [
+        "rumorosa",
+        "noisy",
+        "stancante"
+      ],
+      "correct": [
+        "noiosa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noioso/a = boring. Noisy = rumoroso. 'Una lezione noiosa.' (non rumorosa!).",
+        "en": "Perfect! Noioso/a = boring. Noisy = rumoroso. 'Una lezione noiosa.' (not rumorosa!)."
+      },
+      "feedbackErr": {
+        "it": "Boring = noioso/a. Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson.",
+        "en": "Boring = noioso/a. Noisy = rumoroso. 'Una lezione noiosa' = a boring lesson."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'A sensible decision': Una decisione ___.",
+        "en": "'A sensible decision': Una decisione ___."
+      },
+      "parole": [
+        "sensata"
+      ],
+      "distrattori": [
+        "sensibile",
+        "sensitive",
+        "logica"
+      ],
+      "correct": [
+        "sensata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sensible = sensato/a. Sensibile = sensitive. 'Una decisione sensata' = a sensible decision.",
+        "en": "Perfect! Sensible = sensato/a. Sensibile = sensitive. 'Una decisione sensata' = a sensible decision."
+      },
+      "feedbackErr": {
+        "it": "Sensible = sensato. Sensitive = sensibile. 'Una decisione sensata' = a sensible decision.",
+        "en": "Sensible = sensato. Sensitive = sensibile. 'Una decisione sensata' = a sensible decision."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'I'm going to the library to study': Vado in ___ a studiare.",
+        "en": "'I'm going to the library to study': Vado in ___ a studiare."
+      },
+      "parole": [
+        "biblioteca"
+      ],
+      "distrattori": [
+        "libreria",
+        "libroteca",
+        "studio"
+      ],
+      "correct": [
+        "biblioteca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Biblioteca = library. Libreria = bookshop. 'Vado in biblioteca a studiare.'",
+        "en": "Perfect! Biblioteca = library. Libreria = bookshop. 'Vado in biblioteca a studiare.'"
+      },
+      "feedbackErr": {
+        "it": "Library = biblioteca. Bookshop = libreria. 'Vado in biblioteca a studiare.'",
+        "en": "Library = biblioteca. Bookshop = libreria. 'Vado in biblioteca a studiare.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'I'm currently living in Rome': ___ vivo a Roma.",
+        "en": "'I'm currently living in Rome': ___ vivo a Roma."
+      },
+      "parole": [
+        "Attualmente"
+      ],
+      "distrattori": [
+        "Attualmente",
+        "In realtà",
+        "Effettivamente",
+        "Actually"
+      ],
+      "correct": [
+        "Attualmente"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Attualmente = currently. Actually = in realtà / effettivamente. 'Attualmente vivo a Roma.'",
+        "en": "Perfect! Attualmente = currently. Actually = in realtà / effettivamente. 'Attualmente vivo a Roma.'"
+      },
+      "feedbackErr": {
+        "it": "Currently = attualmente. Actually = in realtà. 'Attualmente vivo a Roma' = I currently live in Rome.",
+        "en": "Currently = attualmente. Actually = in realtà. 'Attualmente vivo a Roma' = I currently live in Rome."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'I'd like a double room': Vorrei una ___ doppia.",
+        "en": "'I'd like a double room': Vorrei una ___ doppia."
+      },
+      "parole": [
+        "camera"
+      ],
+      "distrattori": [
+        "fotocamera",
+        "stanza",
+        "macchina"
+      ],
+      "correct": [
+        "camera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Camera = room (hotel). 'Vorrei una camera doppia.' Fotocamera = photo camera.",
+        "en": "Perfect! Camera = room (hotel). 'Vorrei una camera doppia.' Fotocamera = photo camera."
+      },
+      "feedbackErr": {
+        "it": "Room (hotel) = camera. Photo camera = fotocamera. 'Vorrei una camera doppia.'",
+        "en": "Room (hotel) = camera. Photo camera = fotocamera. 'Vorrei una camera doppia.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'My parents are from Naples': I miei ___ sono di Napoli.",
+        "en": "'My parents are from Naples': I miei ___ sono di Napoli."
+      },
+      "parole": [
+        "genitori"
+      ],
+      "distrattori": [
+        "parenti",
+        "familiari",
+        "generators"
+      ],
+      "correct": [
+        "genitori"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Genitori = parents. Parenti = relatives. 'I miei genitori sono di Napoli.'",
+        "en": "Perfect! Genitori = parents. Parenti = relatives. 'I miei genitori sono di Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Parents = genitori. Relatives = parenti. 'I miei GENITORI sono di Napoli.'",
+        "en": "Parents = genitori. Relatives = parenti. 'I miei GENITORI sono di Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'What a shame / pity!': ___ ___!",
+        "en": "'What a shame / pity!': ___ ___!"
+      },
+      "parole": [
+        "Che",
+        "peccato"
+      ],
+      "distrattori": [
+        "Che",
+        "vergogna",
+        "male",
+        "sin"
+      ],
+      "correct": [
+        "Che",
+        "peccato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Che peccato!' = What a shame/pity! Non ha connotazione religiosa nel parlato quotidiano.",
+        "en": "Perfect! 'Che peccato!' = What a shame/pity! No religious connotation in everyday speech."
+      },
+      "feedbackErr": {
+        "it": "What a shame/pity = Che peccato! 'Che peccato!' non è religioso nel parlato comune.",
+        "en": "What a shame/pity = Che peccato! 'Che peccato!' is not religious in common speech."
+      }
+    }
+  ]
+}

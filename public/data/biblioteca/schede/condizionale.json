@@ -1,0 +1,1484 @@
+{
+  "id": "condizionale",
+  "categoria": "grammatica",
+  "emoji": "💭",
+  "livello": "B1",
+  "titolo": {
+    "it": "Condizionale",
+    "en": "Conditional"
+  },
+  "mario": "Il condizionale è il tempo della gentilezza e dei sogni. 'Voglio un caffè' suona brusco. 'Vorrei un caffè' — ecco, quello è italiano vero. E poi ci sono i sogni: 'Se avessi i soldi, aprerei un bar a Napoli.'",
+  "marioEn": "The conditional is the tense of politeness and dreams. 'Voglio un caffè' sounds abrupt. 'Vorrei un caffè' — now that's real Italian. And then there are dreams: 'Se avessi i soldi, aprerei un bar a Napoli.'",
+  "perche": {
+    "it": "In inglese usi 'would' per quasi tutto il condizionale. In italiano il condizionale presente corrisponde a 'would + infinitive': mangierei = I would eat. Si usa in tre contesti principali: 1) Cortesia — 'Vorrei un caffè' invece del brusco 'Voglio'. 2) Ipotesi irreale — 'Se potessi, vivrei a Napoli'. 3) Desideri/sogni — 'Mi piacerebbe viaggiare'. Il condizionale passato (avrei mangiato) corrisponde a 'would have + past participle'.",
+    "en": "In English you use 'would' for almost all the conditional. In Italian the present conditional corresponds to 'would + infinitive': mangierei = I would eat. It's used in three main contexts: 1) Politeness — 'Vorrei un caffè' instead of the abrupt 'Voglio'. 2) Unreal hypothesis — 'Se potessi, vivrei a Napoli'. 3) Wishes/dreams — 'Mi piacerebbe viaggiare'. The past conditional (avrei mangiato) corresponds to 'would have + past participle'."
+  },
+  "spiegazione": {
+    "it": "Formazione: stessa radice del futuro + desinenze -ei/-esti/-ebbe/-emmo/-este/-ebbero. mangiare→mangerei, essere→sarei, avere→avrei. Irregolari = stessi del futuro: andare→andrei, fare→farei, venire→verrei, potere→potrei, dovere→dovrei, volere→vorrei, sapere→saprei, vedere→vedrei.",
+    "en": "Formation: same stem as the future + endings -ei/-esti/-ebbe/-emmo/-este/-ebbero. mangiare→mangerei, essere→sarei, avere→avrei. Irregulars = same as the future: andare→andrei, fare→farei, venire→verrei, potere→potrei, dovere→dovrei, volere→vorrei, sapere→saprei, vedere→vedrei."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "mangiare": "mangerei",
+      "essere": "sarei",
+      "volere": "vorrei"
+    },
+    {
+      "soggetto": "tu",
+      "mangiare": "mangeresti",
+      "essere": "saresti",
+      "volere": "vorresti"
+    },
+    {
+      "soggetto": "lui/lei",
+      "mangiare": "mangerebbe",
+      "essere": "sarebbe",
+      "volere": "vorrebbe"
+    },
+    {
+      "soggetto": "noi",
+      "mangiare": "mangeremmo",
+      "essere": "saremmo",
+      "volere": "vorremmo"
+    },
+    {
+      "soggetto": "voi",
+      "mangiare": "mangereste",
+      "essere": "sareste",
+      "volere": "vorreste"
+    },
+    {
+      "soggetto": "loro",
+      "mangiare": "mangerebbero",
+      "essere": "sarebbero",
+      "volere": "vorrebbero"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Vorrei un caffè, per favore.",
+      "en": "I would like a coffee, please.",
+      "audio": "Vorrei un caffè, per favore."
+    },
+    {
+      "it": "Se potessi, vivrei a Napoli.",
+      "en": "If I could, I would live in Naples.",
+      "audio": "Se potessi, vivrei a Napoli."
+    },
+    {
+      "it": "Mi piacerebbe visitare il Giappone.",
+      "en": "I would like to visit Japan.",
+      "audio": "Mi piacerebbe visitare il Giappone."
+    },
+    {
+      "it": "Dovresti studiare di più.",
+      "en": "You should study more.",
+      "audio": "Dovresti studiare di più."
+    },
+    {
+      "it": "Al posto tuo, non lo farei.",
+      "en": "In your place, I wouldn't do it.",
+      "audio": "Al posto tuo, non lo farei."
+    }
+  ],
+  "nota": {
+    "it": "💡 'Vorrei' vs 'Voglio': la differenza non è solo grammaticale — è culturale. 'Voglio un caffè' al bar suona scortese. 'Vorrei un caffè' è educato. Gli italiani lo usano istintivamente. Tu invece probabilmente dici 'Voglio' perché in inglese 'I want' va bene. Cambia abitudine: passa a 'Vorrei'.",
+    "en": "💡 'Vorrei' vs 'Voglio': the difference is not just grammatical — it's cultural. 'Voglio un caffè' at the bar sounds rude. 'Vorrei un caffè' is polite. Italians use it instinctively. You probably say 'Voglio' because in English 'I want' is fine. Change the habit: switch to 'Vorrei'."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il condizionale di 'mangiare' alla prima persona?",
+        "en": "How is the conditional of 'mangiare' formed for the first person?"
+      },
+      "opzioni": [
+        "mangerei",
+        "mangievo",
+        "mangerò",
+        "mangiassi"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Condizionale: stessa radice del futuro + -ei. mangiare → manger+ei = mangerei.",
+        "en": "Correct! Conditional: same stem as future + -ei. mangiare → manger+ei = mangerei."
+      },
+      "feedbackErr": {
+        "it": "Condizionale: radice futuro + -ei. mangiare → mangerei.",
+        "en": "Conditional: future stem + -ei. mangiare → mangerei."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il condizionale di 'volere' alla prima persona? (il più utile in assoluto)",
+        "en": "What is the conditional of 'volere' for the first person? (the most useful of all)"
+      },
+      "opzioni": [
+        "volerò",
+        "vorrò",
+        "vorrei",
+        "volessei"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei' = I would like. Il condizionale più usato in italiano — per ordinare, chiedere, sognare.",
+        "en": "Correct! 'Vorrei' = I would like. The most used conditional in Italian — for ordering, asking, dreaming."
+      },
+      "feedbackErr": {
+        "it": "Volere → condizionale irregolare: vorrei. Il più importante da imparare subito!",
+        "en": "Volere → irregular conditional: vorrei. The most important one to learn right away!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è più educata al bar?",
+        "en": "Which sentence is more polite at the bar?"
+      },
+      "opzioni": [
+        "Voglio un caffè.",
+        "Vorrei un caffè.",
+        "Dammi un caffè.",
+        "Un caffè adesso."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei' è il condizionale di cortesia — suona educato e naturale. 'Voglio' è troppo diretto.",
+        "en": "Correct! 'Vorrei' is the conditional of courtesy — it sounds polite and natural. 'Voglio' is too direct."
+      },
+      "feedbackErr": {
+        "it": "'Vorrei un caffè' = condizionale di cortesia. 'Voglio' suona brusco in italiano.",
+        "en": "'Vorrei un caffè' = conditional of courtesy. 'Voglio' sounds abrupt in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa il periodo ipotetico: 'Se potessi, ___ a Napoli.'",
+        "en": "Complete the hypothetical: 'Se potessi, ___ to Naples.'"
+      },
+      "opzioni": [
+        "andrò",
+        "vado",
+        "andrei",
+        "sono andato"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Se + congiuntivo imperfetto → condizionale presente. 'Se potessi, andrei.'",
+        "en": "Correct! Se + imperfect subjunctive → present conditional. 'Se potessi, andrei.'"
+      },
+      "feedbackErr": {
+        "it": "Ipotesi irreale: se + congiuntivo imperfetto → condizionale: andrei.",
+        "en": "Unreal hypothesis: se + imperfect subjunctive → conditional: andrei."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il condizionale di 'essere' alla terza persona singolare?",
+        "en": "What is the conditional of 'essere' for the third person singular?"
+      },
+      "opzioni": [
+        "sarà",
+        "era",
+        "sarebbe",
+        "sia"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → condizionale irregolare: sarei, saresti, sarebbe, saremmo, sareste, sarebbero.",
+        "en": "Correct! Essere → irregular conditional: sarei, saresti, sarebbe, saremmo, sareste, sarebbero."
+      },
+      "feedbackErr": {
+        "it": "Essere → condizionale: sarebbe. Irregolare, come il futuro sarà.",
+        "en": "Essere → conditional: sarebbe. Irregular, like the future sarà."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'You should study more' in italiano?",
+        "en": "How do you say 'You should study more' in Italian?"
+      },
+      "opzioni": [
+        "Devi studiare di più.",
+        "Dovresti studiare di più.",
+        "Dovevi studiare di più.",
+        "Dovrai studiare di più."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Should' = dovere al condizionale: dovresti. Più morbido di 'devi' (must/have to).",
+        "en": "Correct! 'Should' = dovere in the conditional: dovresti. Softer than 'devi' (must/have to)."
+      },
+      "feedbackErr": {
+        "it": "'Should' → dovere al condizionale: dovresti. 'Devi' è più forte (obligation), 'dovresti' è consiglio.",
+        "en": "'Should' → dovere in the conditional: dovresti. 'Devi' is stronger (obligation), 'dovresti' is advice."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il condizionale di 'potere' alla prima persona?",
+        "en": "What is the conditional of 'potere' for the first person?"
+      },
+      "opzioni": [
+        "potrò",
+        "potevo",
+        "poterei",
+        "potrei"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Potere → condizionale irregolare: potrei. Radice pot- + -rei.",
+        "en": "Correct! Potere → irregular conditional: potrei. Stem pot- + -rei."
+      },
+      "feedbackErr": {
+        "it": "Potere → irregolare: potrei. Stessa radice del futuro potrò.",
+        "en": "Potere → irregular: potrei. Same stem as the future potrò."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si traduce 'I would like to visit Japan'?",
+        "en": "How do you translate 'I would like to visit Japan'?"
+      },
+      "opzioni": [
+        "Voglio visitare il Giappone.",
+        "Mi piacerebbe visitare il Giappone.",
+        "Visito il Giappone.",
+        "Visiterò il Giappone."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Would like to' = mi piacerebbe (piacere al condizionale). Esprime desiderio educato.",
+        "en": "Correct! 'Would like to' = mi piacerebbe (piacere in the conditional). Expresses polite desire."
+      },
+      "feedbackErr": {
+        "it": "'I would like to' = mi piacerebbe. Condizionale di piacere.",
+        "en": "'I would like to' = mi piacerebbe. Conditional of piacere."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale desinenza indica la terza persona plurale del condizionale?",
+        "en": "Which ending indicates the third person plural of the conditional?"
+      },
+      "opzioni": [
+        "-eranno",
+        "-ebbero",
+        "-erebbero",
+        "-erebbero"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Loro → -ebbero: mangerebbero, sarebbero, vorrebbero, farebbero.",
+        "en": "Correct! Loro → -ebbero: mangerebbero, sarebbero, vorrebbero, farebbero."
+      },
+      "feedbackErr": {
+        "it": "Loro → condizionale: -ebbero. mangerebbero, sarebbero, vorrebbero.",
+        "en": "Loro → conditional: -ebbero. mangerebbero, sarebbero, vorrebbero."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il condizionale di 'fare' alla prima persona?",
+        "en": "What is the conditional of 'fare' for the first person?"
+      },
+      "opzioni": [
+        "faccerei",
+        "farevo",
+        "farei",
+        "farò"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Fare → condizionale irregolare: farei. Stessa radice del futuro farò.",
+        "en": "Correct! Fare → irregular conditional: farei. Same stem as the future farò."
+      },
+      "feedbackErr": {
+        "it": "Fare → irregolare: farei. Radice far- + -ei.",
+        "en": "Fare → irregular: farei. Stem far- + -ei."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Al posto tuo, ___ (io, non fare) quella scelta.'",
+        "en": "Complete: 'In your place, ___ (I, not do) that choice.'"
+      },
+      "opzioni": [
+        "non faccio",
+        "non facevo",
+        "non farò",
+        "non farei"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Consiglio/ipotesi al posto di qualcuno → condizionale: non farei.",
+        "en": "Correct! Advice/hypothesis in someone's place → conditional: non farei."
+      },
+      "feedbackErr": {
+        "it": "'In your place' + consiglio → condizionale: non farei. 'Al posto tuo, non farei quella scelta.'",
+        "en": "'In your place' + advice → conditional: non farei. 'Al posto tuo, non farei quella scelta.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sapresti dirmi dov'è la stazione?' usa il condizionale per…?",
+        "en": "'Sapresti dirmi dov'è la stazione?' uses the conditional for…?"
+      },
+      "opzioni": [
+        "Un'ipotesi irreale",
+        "Una richiesta educata",
+        "Un ordine",
+        "Un'abitudine passata"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sapresti' = condizionale di cortesia. Più educato di 'sai dirmi?'. Tipico delle richieste di informazioni.",
+        "en": "Correct! 'Sapresti' = conditional of courtesy. More polite than 'sai dirmi?'. Typical for information requests."
+      },
+      "feedbackErr": {
+        "it": "'Sapresti dirmi' = richiesta cortese. Il condizionale ammorbidisce la domanda.",
+        "en": "'Sapresti dirmi' = polite request. The conditional softens the question."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il condizionale passato si forma con…?",
+        "en": "The past conditional is formed with…?"
+      },
+      "opzioni": [
+        "imperfetto + infinito",
+        "condizionale di avere/essere + participio passato",
+        "futuro + participio",
+        "condizionale + infinito"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Condizionale passato: avrei/sarei (condizionale) + participio passato. 'Avrei mangiato', 'sarei andato'.",
+        "en": "Correct! Past conditional: avrei/sarei (conditional) + past participle. 'Avrei mangiato', 'sarei andato'."
+      },
+      "feedbackErr": {
+        "it": "Condizionale passato = condizionale di avere/essere + participio. 'Avrei fatto', 'sarei venuto'.",
+        "en": "Past conditional = conditional of avere/essere + participle. 'Avrei fatto', 'sarei venuto'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase esprime un desiderio irrealizzabile?",
+        "en": "Which sentence expresses an unrealisable wish?"
+      },
+      "opzioni": [
+        "Domani vado al mare.",
+        "Ho comprato la pizza.",
+        "Vorrei avere più tempo libero.",
+        "Studio italiano da un anno."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei avere più tempo' = desiderio (forse irrealizzabile). Il condizionale esprime il wishful thinking.",
+        "en": "Correct! 'Vorrei avere più tempo' = wish (possibly unrealisable). The conditional expresses wishful thinking."
+      },
+      "feedbackErr": {
+        "it": "'Vorrei avere più tempo' = desiderio/sogno → condizionale. Non è reale, è un wish.",
+        "en": "'Vorrei avere più tempo' = wish/dream → conditional. It's not real, it's a wish."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Condizionale di 'venire' alla seconda persona singolare?",
+        "en": "Conditional of 'venire' for the second person singular?"
+      },
+      "opzioni": [
+        "veniresti",
+        "verresti",
+        "venerai",
+        "venivi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Venire → condizionale irregolare: verrei, verresti, verrebbe, verremmo, verreste, verrebbero.",
+        "en": "Correct! Venire → irregular conditional: verrei, verresti, verrebbe, verremmo, verreste, verrebbero."
+      },
+      "feedbackErr": {
+        "it": "Venire → irregolare: verresti. Stessa radice del futuro verrò.",
+        "en": "Venire → irregular: verresti. Same stem as the future verrò."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'We would go to Naples if we had time'?",
+        "en": "How do you say 'We would go to Naples if we had time'?"
+      },
+      "opzioni": [
+        "Andavamo a Napoli se avessimo tempo.",
+        "Andremo a Napoli se avremo tempo.",
+        "Andremmo a Napoli se avessimo tempo.",
+        "Siamo andati a Napoli se avevamo tempo."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Ipotesi irreale: se + congiuntivo imperfetto (avessimo) → condizionale (andremmo).",
+        "en": "Correct! Unreal hypothesis: se + imperfect subjunctive (avessimo) → conditional (andremmo)."
+      },
+      "feedbackErr": {
+        "it": "Ipotesi irreale: se + congiuntivo imperfetto → condizionale. 'Andremmo se avessimo tempo.'",
+        "en": "Unreal hypothesis: se + imperfect subjunctive → conditional. 'Andremmo se avessimo tempo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la desinenza della seconda persona plurale del condizionale?",
+        "en": "What is the second person plural ending of the conditional?"
+      },
+      "opzioni": [
+        "-ete",
+        "-este",
+        "-erete",
+        "-ereste"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Voi → -este: mangereste, sareste, vorreste, fareste.",
+        "en": "Correct! Voi → -este: mangereste, sareste, vorreste, fareste."
+      },
+      "feedbackErr": {
+        "it": "Voi → condizionale: -este. mangereste, sareste, vorreste.",
+        "en": "Voi → conditional: -este. mangereste, sareste, vorreste."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Avrei dovuto studiare di più' significa…?",
+        "en": "'Avrei dovuto studiare di più' means…?"
+      },
+      "opzioni": [
+        "I should study more",
+        "I had to study more",
+        "I should have studied more",
+        "I will study more"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Condizionale passato di dovere = should have. 'Avrei dovuto' = I should have.",
+        "en": "Correct! Past conditional of dovere = should have. 'Avrei dovuto' = I should have."
+      },
+      "feedbackErr": {
+        "it": "Condizionale passato di dovere = 'should have'. 'Avrei dovuto studiare di più' = I should have studied more.",
+        "en": "Past conditional of dovere = 'should have'. 'Avrei dovuto studiare di più' = I should have studied more."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Condizionale di 'avere' alla prima persona?",
+        "en": "Conditional of 'avere' for the first person?"
+      },
+      "opzioni": [
+        "avrò",
+        "avevo",
+        "avrei",
+        "averò"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Avere → condizionale irregolare: avrei. Stessa radice del futuro avrò.",
+        "en": "Correct! Avere → irregular conditional: avrei. Same stem as the future avrò."
+      },
+      "feedbackErr": {
+        "it": "Avere → irregolare: avrei. Radice avr- + -ei.",
+        "en": "Avere → irregular: avrei. Stem avr- + -ei."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale contesto NON richiede il condizionale?",
+        "en": "Which context does NOT require the conditional?"
+      },
+      "opzioni": [
+        "Richiesta educata al bar",
+        "Desiderio irrealizzabile",
+        "Ipotesi irreale con 'se'",
+        "Descrivere un'abitudine passata"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Le abitudini passate → imperfetto (mangiavo). Il condizionale è per cortesia, ipotesi irreali, desideri.",
+        "en": "Correct! Past habits → imperfect (mangiavo). The conditional is for courtesy, unreal hypotheses, wishes."
+      },
+      "feedbackErr": {
+        "it": "Abitudini passate → imperfetto: mangiavo. Il condizionale copre cortesia, ipotesi, desideri — non il passato abitudinario.",
+        "en": "Past habits → imperfect: mangiavo. The conditional covers courtesy, hypotheses, wishes — not habitual past."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale italiano corrisponde a 'would + infinitive' in inglese.",
+        "en": "The Italian conditional corresponds to 'would + infinitive' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! mangerei = I would eat, sarei = I would be, farei = I would do.",
+        "en": "Correct! mangerei = I would eat, sarei = I would be, farei = I would do."
+      },
+      "feedbackErr": {
+        "it": "Vero! Condizionale = would + infinito. mangerei = I would eat.",
+        "en": "True! Conditional = would + infinitive. mangerei = I would eat."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorrei' è il condizionale di 'volere' e significa 'I would like'.",
+        "en": "'Vorrei' is the conditional of 'volere' and means 'I would like'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Vorrei un caffè' = I would like a coffee. Il più utile tra tutti i condizionali.",
+        "en": "Correct! 'Vorrei un caffè' = I would like a coffee. The most useful of all conditionals."
+      },
+      "feedbackErr": {
+        "it": "Vero! Vorrei = condizionale di volere = I would like. Fondamentale per la cortesia.",
+        "en": "True! Vorrei = conditional of volere = I would like. Essential for politeness."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale si forma con una radice diversa dal futuro.",
+        "en": "The conditional is formed with a different stem from the future."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Stessa radice: futuro mangerò → condizionale mangerei. Solo le desinenze cambiano (-ò→-ei, -ai→-esti ecc.).",
+        "en": "Correct! Same stem: future mangerò → conditional mangerei. Only the endings change (-ò→-ei, -ai→-esti etc.)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Stessa radice del futuro, desinenze diverse. mangerò (futuro) → mangerei (condizionale).",
+        "en": "False! Same stem as the future, different endings. mangerò (future) → mangerei (conditional)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dovresti' è il condizionale di 'dovere' e corrisponde a 'you should'.",
+        "en": "'Dovresti' is the conditional of 'dovere' and corresponds to 'you should'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Dovresti = you should. 'Dovresti studiare di più.' Più morbido di 'devi'.",
+        "en": "Correct! Dovresti = you should. 'Dovresti studiare di più.' Softer than 'devi'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dovresti = should (consiglio). Dovere al condizionale.",
+        "en": "True! Dovresti = should (advice). Dovere in the conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nel periodo ipotetico irreale italiano si usa: se + condizionale → condizionale.",
+        "en": "In Italian unreal hypotheticals you use: se + conditional → conditional."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Schema corretto: se + congiuntivo imperfetto → condizionale. 'Se potessi (cong. imp.), andrei (cond.).'",
+        "en": "Correct! Correct pattern: se + imperfect subjunctive → conditional. 'Se potessi (imp. subj.), andrei (cond.).'"
+      },
+      "feedbackErr": {
+        "it": "Falso! Schema: se + congiuntivo imperfetto → condizionale. Non se + condizionale → condizionale.",
+        "en": "False! Pattern: se + imperfect subjunctive → conditional. Not se + conditional → conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mi piacerebbe' è il condizionale di 'piacere' e significa 'I would like'.",
+        "en": "'Mi piacerebbe' is the conditional of 'piacere' and means 'I would like'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi piacerebbe + infinito = I would like to. 'Mi piacerebbe visitare Roma.'",
+        "en": "Correct! Mi piacerebbe + infinito = I would like to. 'Mi piacerebbe visitare Roma.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Mi piacerebbe = condizionale di piacere = I would like. 'Mi piacerebbe viaggiare di più.'",
+        "en": "True! Mi piacerebbe = conditional of piacere = I would like. 'Mi piacerebbe viaggiare di più.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale passato si forma con il condizionale di avere/essere + il participio passato.",
+        "en": "The past conditional is formed with the conditional of avere/essere + the past participle."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! avrei mangiato, sarei andato, avrei fatto. Corrisponde a 'would have + past participle'.",
+        "en": "Correct! avrei mangiato, sarei andato, avrei fatto. Corresponds to 'would have + past participle'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cond. passato = avrei/sarei + participio. 'Avrei mangiato' = I would have eaten.",
+        "en": "True! Past cond. = avrei/sarei + participle. 'Avrei mangiato' = I would have eaten."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Verrei' è il condizionale irregolare di 'venire'.",
+        "en": "'Verrei' is the irregular conditional of 'venire'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venire → verrei, verresti, verrebbe, verremmo, verreste, verrebbero.",
+        "en": "Correct! Venire → verrei, verresti, verrebbe, verremmo, verreste, verrebbero."
+      },
+      "feedbackErr": {
+        "it": "Vero! Venire → condizionale irregolare: verrei.",
+        "en": "True! Venire → irregular conditional: verrei."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano è scortese dire 'Voglio un caffè' al bar invece di 'Vorrei un caffè'.",
+        "en": "In Italian it is rude to say 'Voglio un caffè' at the bar instead of 'Vorrei un caffè'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Voglio' suona brusco. Gli italiani usano 'vorrei' automaticamente al bar e nei negozi.",
+        "en": "Correct! 'Voglio' sounds abrupt. Italians automatically use 'vorrei' at bars and shops."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Voglio' = brusco/scortese. 'Vorrei' = educato e naturale in italiano.",
+        "en": "True! 'Voglio' = abrupt/rude. 'Vorrei' = polite and natural in Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Farei' è il condizionale regolare di 'fare'.",
+        "en": "'Farei' is the regular conditional of 'fare'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Fare è IRregolare al condizionale: farei (non 'facorei' o 'farerei'). Stessa radice del futuro farò.",
+        "en": "Correct! Fare IS irregular in the conditional: farei (not 'facorei' or 'farerei'). Same stem as the future farò."
+      },
+      "feedbackErr": {
+        "it": "Falso! Fare è irregolare: farei. Non è una forma regolare.",
+        "en": "False! Fare is irregular: farei. It's not a regular form."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La desinenza -ebbe indica la terza persona singolare del condizionale.",
+        "en": "The ending -ebbe indicates the third person singular of the conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lui/lei → -ebbe: mangerebbe, sarebbe, vorrebbe, farebbe.",
+        "en": "Correct! Lui/lei → -ebbe: mangerebbe, sarebbe, vorrebbe, farebbe."
+      },
+      "feedbackErr": {
+        "it": "Vero! Terza persona singolare → -ebbe: mangerebbe, sarebbe, vorrebbe.",
+        "en": "True! Third person singular → -ebbe: mangerebbe, sarebbe, vorrebbe."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrei dovuto' corrisponde all'inglese 'I should have'.",
+        "en": "'Avrei dovuto' corresponds to the English 'I should have'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Avrei dovuto studiare' = I should have studied. Esprime rimpianto per qualcosa non fatto.",
+        "en": "Correct! 'Avrei dovuto studiare' = I should have studied. Expresses regret for something not done."
+      },
+      "feedbackErr": {
+        "it": "Vero! Avrei dovuto = I should have. 'Avrei dovuto chiamarti' = I should have called you.",
+        "en": "True! Avrei dovuto = I should have. 'Avrei dovuto chiamarti' = I should have called you."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Potrei' è il condizionale di 'potere' e può significare 'could' in inglese.",
+        "en": "'Potrei' is the conditional of 'potere' and can mean 'could' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Potrei venire domani' = I could come tomorrow. Condizionale per richieste o possibilità.",
+        "en": "Correct! 'Potrei venire domani' = I could come tomorrow. Conditional for requests or possibilities."
+      },
+      "feedbackErr": {
+        "it": "Vero! Potrei = condizionale di potere = could/might. 'Potrei aiutarti' = I could help you.",
+        "en": "True! Potrei = conditional of potere = could/might. 'Potrei aiutarti' = I could help you."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale si usa anche per riportare indirettamente le parole di qualcuno (discorso indiretto).",
+        "en": "The conditional is also used to indirectly report someone's words (indirect speech)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ha detto che sarebbe venuto' = He said he would come. Il futuro diretto → condizionale nel discorso indiretto.",
+        "en": "Correct! 'Ha detto che sarebbe venuto' = He said he would come. Direct future → conditional in indirect speech."
+      },
+      "feedbackErr": {
+        "it": "Vero! Discorso indiretto: 'Verrò' (diretto) → 'Ha detto che sarebbe venuto' (indiretto).",
+        "en": "True! Indirect speech: 'Verrò' (direct) → 'Ha detto che sarebbe venuto' (indirect)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorreste' è la forma del condizionale di 'volere' per la seconda persona plurale.",
+        "en": "'Vorreste' is the conditional form of 'volere' for the second person plural."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Voi → vorreste. 'Cosa vorreste mangiare?' = What would you like to eat?",
+        "en": "Correct! Voi → vorreste. 'Cosa vorreste mangiare?' = What would you like to eat?"
+      },
+      "feedbackErr": {
+        "it": "Vero! Voi + condizionale di volere → vorreste. 'Cosa vorreste mangiare?'",
+        "en": "True! Voi + conditional of volere → vorreste. 'Cosa vorreste mangiare?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale presente si usa per esprimere certezza assoluta su un fatto futuro.",
+        "en": "The present conditional is used to express absolute certainty about a future fact."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il condizionale esprime possibilità, ipotesi, desideri, cortesia — non certezza. La certezza → futuro o presente.",
+        "en": "Correct! The conditional expresses possibility, hypothesis, wishes, courtesy — not certainty. Certainty → future or present."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il condizionale non esprime certezza — esprime ipotesi, desideri, cortesia. Certezza → futuro semplice.",
+        "en": "False! The conditional doesn't express certainty — it expresses hypothesis, wishes, courtesy. Certainty → simple future."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sapresti dirmi l'ora?' è un modo più educato di chiedere l'ora.",
+        "en": "'Sapresti dirmi l'ora?' is a more polite way of asking the time."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il condizionale ammorbidisce la richiesta: 'Sai l'ora?' → 'Sapresti dirmi l'ora?' (più educato).",
+        "en": "Correct! The conditional softens the request: 'Sai l'ora?' → 'Sapresti dirmi l'ora?' (more polite)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Condizionale di cortesia: 'Sapresti dirmi l'ora?' è più educato di 'Sai l'ora?'",
+        "en": "True! Conditional of courtesy: 'Sapresti dirmi l'ora?' is more polite than 'Sai l'ora?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Andremmo' è il condizionale di 'andare' alla prima persona plurale.",
+        "en": "'Andremmo' is the conditional of 'andare' for the first person plural."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andare → condizionale irregolare: andrei, andresti, andrebbe, andremmo, andreste, andrebbero.",
+        "en": "Correct! Andare → irregular conditional: andrei, andresti, andrebbe, andremmo, andreste, andrebbero."
+      },
+      "feedbackErr": {
+        "it": "Vero! Andare → irregolare: noi andremmo. 'Andremmo volentieri al mare.'",
+        "en": "True! Andare → irregular: noi andremmo. 'Andremmo volentieri al mare.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale di 'sapere' è 'saperai'.",
+        "en": "The conditional of 'sapere' is 'saperai'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Saperai' è il FUTURO. Il CONDIZIONALE è 'saprei'. Stessa radice, desinenze diverse.",
+        "en": "Correct! 'Saperai' is the FUTURE. The CONDITIONAL is 'saprei'. Same stem, different endings."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Saperai' = futuro. 'Saprei' = condizionale. Stessa radice sapr- ma desinenze diverse.",
+        "en": "False! 'Saperai' = future. 'Saprei' = conditional. Same stem sapr- but different endings."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorremmo un tavolo per due' è una frase tipica al ristorante.",
+        "en": "'Vorremmo un tavolo per due' is a typical phrase at a restaurant."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Vorremmo = condizionale di cortesia di volere (noi). Perfetto per prenotazioni e richieste al ristorante.",
+        "en": "Correct! Vorremmo = conditional of courtesy of volere (noi). Perfect for bookings and requests at a restaurant."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Vorremmo un tavolo per due' = condizionale di cortesia. Naturale al ristorante.",
+        "en": "True! 'Vorremmo un tavolo per due' = conditional of courtesy. Natural at a restaurant."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ordine educato al bar (io, volere caffè): ___ un caffè, per favore.",
+        "en": "Polite bar order (I, volere caffè): ___ a coffee, please."
+      },
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Voglio",
+        "Vorrò",
+        "Volevo"
+      ],
+      "correct": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Cortesia → condizionale: vorrei. 'Vorrei un caffè, per favore.'",
+        "en": "Perfect! Courtesy → conditional: vorrei. 'Vorrei un caffè, per favore.'"
+      },
+      "feedbackErr": {
+        "it": "Cortesia al bar → condizionale: vorrei. Non 'voglio' (troppo brusco).",
+        "en": "Courtesy at the bar → conditional: vorrei. Not 'voglio' (too abrupt)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Desiderio (mi piacere, viaggiare): ___ viaggiare di più.",
+        "en": "Wish (mi piacere, viaggiare): ___ travel more."
+      },
+      "parole": [
+        "Mi",
+        "piacerebbe",
+        "viaggiare",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "Mi piace",
+        "Mi piacerà",
+        "Mi piaceva"
+      ],
+      "correct": [
+        "Mi",
+        "piacerebbe",
+        "viaggiare",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Desiderio → condizionale: mi piacerebbe. 'Mi piacerebbe viaggiare di più.'",
+        "en": "Perfect! Wish → conditional: mi piacerebbe. 'Mi piacerebbe viaggiare di più.'"
+      },
+      "feedbackErr": {
+        "it": "Desiderio → condizionale di piacere: mi piacerebbe. 'Mi piacerebbe viaggiare di più.'",
+        "en": "Wish → conditional of piacere: mi piacerebbe. 'Mi piacerebbe viaggiare di più.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Consiglio (tu, dovere studiare): ___ studiare di più.",
+        "en": "Advice (you, dovere studiare): ___ study more."
+      },
+      "parole": [
+        "Dovresti",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "Devi",
+        "Dovevi",
+        "Dovrai"
+      ],
+      "correct": [
+        "Dovresti",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Consiglio → condizionale di dovere: dovresti. 'Dovresti studiare di più.'",
+        "en": "Perfect! Advice → conditional of dovere: dovresti. 'Dovresti studiare di più.'"
+      },
+      "feedbackErr": {
+        "it": "Consiglio gentile → condizionale: dovresti. Più morbido di 'devi'.",
+        "en": "Gentle advice → conditional: dovresti. Softer than 'devi'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ipotesi irreale (noi, andare al mare): Se avessimo tempo, ___ al mare.",
+        "en": "Unreal hypothesis (noi, andare al mare): If we had time, ___ to the sea."
+      },
+      "parole": [
+        "andremmo",
+        "al",
+        "mare"
+      ],
+      "distrattori": [
+        "andiamo",
+        "siamo andati",
+        "andavamo"
+      ],
+      "correct": [
+        "andremmo",
+        "al",
+        "mare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ipotesi irreale → condizionale: andremmo. 'Se avessimo tempo, andremmo al mare.'",
+        "en": "Perfect! Unreal hypothesis → conditional: andremmo. 'Se avessimo tempo, andremmo al mare.'"
+      },
+      "feedbackErr": {
+        "it": "Se + congiuntivo imperfetto → condizionale: andremmo.",
+        "en": "Se + imperfect subjunctive → conditional: andremmo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare fare (io, al posto tuo): Al posto tuo, non ___ così.",
+        "en": "Irregular fare (I, in your place): In your place, I wouldn't ___ that."
+      },
+      "parole": [
+        "farei",
+        "così"
+      ],
+      "distrattori": [
+        "faccio",
+        "facevo",
+        "farò"
+      ],
+      "correct": [
+        "farei",
+        "così"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → condizionale irregolare: farei. 'Al posto tuo, non farei così.'",
+        "en": "Perfect! Fare → irregular conditional: farei. 'Al posto tuo, non farei così.'"
+      },
+      "feedbackErr": {
+        "it": "Fare → irregolare: farei. 'Al posto tuo, non farei così.'",
+        "en": "Fare → irregular: farei. 'Al posto tuo, non farei così.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Richiesta educata (tu, potere aiutare): ___ aiutarmi, per favore?",
+        "en": "Polite request (you, potere aiutare): ___ help me, please?"
+      },
+      "parole": [
+        "Potresti",
+        "aiutarmi",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Puoi",
+        "Potevi",
+        "Potrai"
+      ],
+      "correct": [
+        "Potresti",
+        "aiutarmi",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Richiesta educata → condizionale: potresti. 'Potresti aiutarmi, per favore?'",
+        "en": "Perfect! Polite request → conditional: potresti. 'Potresti aiutarmi, per favore?'"
+      },
+      "feedbackErr": {
+        "it": "Potere al condizionale = richiesta educata: potresti. 'Potresti aiutarmi, per favore?'",
+        "en": "Potere in conditional = polite request: potresti. 'Potresti aiutarmi, per favore?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sogno (io, vivere a Napoli): Se potessi, ___ a Napoli.",
+        "en": "Dream (I, vivere a Napoli): If I could, ___ in Naples."
+      },
+      "parole": [
+        "vivrei",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "vivo",
+        "vivevo",
+        "vivrò"
+      ],
+      "correct": [
+        "vivrei",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sogno/ipotesi irreale → condizionale: vivrei.",
+        "en": "Perfect! Dream/unreal hypothesis → conditional: vivrei."
+      },
+      "feedbackErr": {
+        "it": "Sogno → condizionale: vivrei. 'Se potessi, vivrei a Napoli.'",
+        "en": "Dream → conditional: vivrei. 'Se potessi, vivrei a Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Prenotazione ristorante (noi, volere tavolo): ___ un tavolo per due.",
+        "en": "Restaurant booking (noi, volere tavolo): ___ a table for two."
+      },
+      "parole": [
+        "Vorremmo",
+        "un",
+        "tavolo",
+        "per",
+        "due"
+      ],
+      "distrattori": [
+        "Vogliamo",
+        "Vorremo",
+        "Volevamo"
+      ],
+      "correct": [
+        "Vorremmo",
+        "un",
+        "tavolo",
+        "per",
+        "due"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Cortesia formale → vorremmo. 'Vorremmo un tavolo per due.'",
+        "en": "Perfect! Formal courtesy → vorremmo. 'Vorremmo un tavolo per due.'"
+      },
+      "feedbackErr": {
+        "it": "Cortesia al ristorante → condizionale: vorremmo. 'Vorremmo un tavolo per due.'",
+        "en": "Courtesy at a restaurant → conditional: vorremmo. 'Vorremmo un tavolo per due.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Condizionale passato (io, dovere chiamare): ___ chiamarti prima.",
+        "en": "Past conditional (I, dovere chiamare): ___ called you earlier."
+      },
+      "parole": [
+        "Avrei",
+        "dovuto",
+        "chiamarti",
+        "prima"
+      ],
+      "distrattori": [
+        "Devo",
+        "Dovevo",
+        "Dovrò"
+      ],
+      "correct": [
+        "Avrei",
+        "dovuto",
+        "chiamarti",
+        "prima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Condizionale passato: avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'",
+        "en": "Perfect! Past conditional: avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'"
+      },
+      "feedbackErr": {
+        "it": "Cond. passato di dovere = avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'",
+        "en": "Past cond. of dovere = avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Probabilità sul presente (Mario, dove essere): Mario non risponde — ___ occupato.",
+        "en": "Probability about the present (Mario, dove essere): Mario isn't answering — ___ busy."
+      },
+      "parole": [
+        "sarà",
+        "occupato"
+      ],
+      "distrattori": [
+        "è",
+        "era",
+        "sarebbe"
+      ],
+      "correct": [
+        "sarà",
+        "occupato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Probabilità sul presente → futuro di probabilità: sarà occupato = he must be busy.",
+        "en": "Perfect! Probability about present → future of probability: sarà occupato = he must be busy."
+      },
+      "feedbackErr": {
+        "it": "Supposizione sul presente → futuro (non condizionale): sarà occupato = must be busy.",
+        "en": "Supposition about present → future (not conditional): sarà occupato = must be busy."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare venire (lui): Mario ha detto che ___ domani.",
+        "en": "Irregular venire (he): Mario said he ___ tomorrow."
+      },
+      "parole": [
+        "verrebbe",
+        "domani"
+      ],
+      "distrattori": [
+        "viene",
+        "veniva",
+        "verrà"
+      ],
+      "correct": [
+        "verrebbe",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Discorso indiretto: 'Verrò' → 'ha detto che verrebbe'. Condizionale nel discorso indiretto.",
+        "en": "Perfect! Indirect speech: 'Verrò' → 'ha detto che verrebbe'. Conditional in indirect speech."
+      },
+      "feedbackErr": {
+        "it": "Discorso indiretto: futuro diretto → condizionale indiretto. 'Ha detto che verrebbe domani.'",
+        "en": "Indirect speech: direct future → indirect conditional. 'Ha detto che verrebbe domani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cortesia (tu, sapere dove è la stazione): ___ dirmi dov'è la stazione?",
+        "en": "Courtesy (you, sapere dove è la stazione): ___ tell me where the station is?"
+      },
+      "parole": [
+        "Sapresti",
+        "dirmi",
+        "dov'è",
+        "la",
+        "stazione"
+      ],
+      "distrattori": [
+        "Sai",
+        "Sapevi",
+        "Saprai"
+      ],
+      "correct": [
+        "Sapresti",
+        "dirmi",
+        "dov'è",
+        "la",
+        "stazione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Richiesta cortese → condizionale: sapresti. 'Sapresti dirmi dov'è la stazione?'",
+        "en": "Perfect! Polite request → conditional: sapresti. 'Sapresti dirmi dov'è la stazione?'"
+      },
+      "feedbackErr": {
+        "it": "Richiesta educata → condizionale: sapresti. 'Sapresti dirmi dov'è la stazione?'",
+        "en": "Polite request → conditional: sapresti. 'Sapresti dirmi dov'è la stazione?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare essere (loro, in un mondo ideale): In un mondo ideale, tutti ___ felici.",
+        "en": "Irregular essere (they, in an ideal world): In an ideal world, everyone ___ happy."
+      },
+      "parole": [
+        "sarebbero",
+        "felici"
+      ],
+      "distrattori": [
+        "sono",
+        "erano",
+        "saranno"
+      ],
+      "correct": [
+        "sarebbero",
+        "felici"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ipotesi irreale → condizionale: sarebbero. 'In un mondo ideale, tutti sarebbero felici.'",
+        "en": "Perfect! Unreal hypothesis → conditional: sarebbero. 'In an ideal world, everyone would be happy.'"
+      },
+      "feedbackErr": {
+        "it": "Essere → condizionale: sarebbero. 'In un mondo ideale, tutti sarebbero felici.'",
+        "en": "Essere → conditional: sarebbero. 'In an ideal world, everyone would be happy.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare avere (io, desiderio): ___ più tempo per leggere.",
+        "en": "Irregular avere (I, wish): ___ more time to read."
+      },
+      "parole": [
+        "Vorrei",
+        "avere",
+        "più",
+        "tempo",
+        "per",
+        "leggere"
+      ],
+      "distrattori": [
+        "Voglio",
+        "Avrò",
+        "Avevo"
+      ],
+      "correct": [
+        "Vorrei",
+        "avere",
+        "più",
+        "tempo",
+        "per",
+        "leggere"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Desiderio → vorrei + infinito. 'Vorrei avere più tempo per leggere.'",
+        "en": "Perfect! Wish → vorrei + infinitive. 'Vorrei avere più tempo per leggere.'"
+      },
+      "feedbackErr": {
+        "it": "Desiderio → vorrei + infinito: 'Vorrei avere più tempo per leggere.'",
+        "en": "Wish → vorrei + infinitive: 'Vorrei avere più tempo per leggere.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare potere (io): ___ venire alla festa ma ho un impegno.",
+        "en": "Irregular potere (I): ___ come to the party but I have an engagement."
+      },
+      "parole": [
+        "Potrei",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "Posso",
+        "Potevo",
+        "Potrò"
+      ],
+      "correct": [
+        "Potrei",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Possibilità ipotetica → condizionale: potrei. 'Potrei venire alla festa ma...'",
+        "en": "Perfect! Hypothetical possibility → conditional: potrei. 'Potrei venire alla festa ma...'"
+      },
+      "feedbackErr": {
+        "it": "Possibilità ipotetica → condizionale: potrei. 'Potrei venire alla festa ma ho un impegno.'",
+        "en": "Hypothetical possibility → conditional: potrei. 'Potrei venire alla festa ma ho un impegno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Condizionale passato rimpianto (io, andare a Napoli): ___ a Napoli ma non avevo tempo.",
+        "en": "Past conditional regret (I, andare to Naples): ___ to Naples but didn't have time."
+      },
+      "parole": [
+        "Sarei",
+        "andato",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "Sono andato",
+        "Andrei",
+        "Andrò"
+      ],
+      "correct": [
+        "Sarei",
+        "andato",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Condizionale passato con essere: sarei andato = I would have gone.",
+        "en": "Perfect! Past conditional with essere: sarei andato = I would have gone."
+      },
+      "feedbackErr": {
+        "it": "Cond. passato + andare (essere): sarei andato. 'Sarei andato a Napoli ma non avevo tempo.'",
+        "en": "Past cond. + andare (essere): sarei andato. 'Sarei andato a Napoli but didn't have time.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare fare (voi): Cosa ___ al posto mio?",
+        "en": "Irregular fare (voi): What ___ in my place?"
+      },
+      "parole": [
+        "fareste",
+        "al",
+        "posto",
+        "mio"
+      ],
+      "distrattori": [
+        "fate",
+        "facevate",
+        "farete"
+      ],
+      "correct": [
+        "fareste",
+        "al",
+        "posto",
+        "mio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare (voi) → condizionale: fareste. 'Cosa fareste al posto mio?'",
+        "en": "Perfect! Fare (voi) → conditional: fareste. 'Cosa fareste al posto mio?'"
+      },
+      "feedbackErr": {
+        "it": "Fare → condizionale irregolare: voi fareste. 'Cosa fareste al posto mio?'",
+        "en": "Fare → irregular conditional: voi fareste. 'Cosa fareste al posto mio?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ipotesi (lui, comprare la casa): Se avesse i soldi, ___ quella casa.",
+        "en": "Hypothesis (he, comprare la casa): If he had the money, ___ that house."
+      },
+      "parole": [
+        "comprerebbe",
+        "quella",
+        "casa"
+      ],
+      "distrattori": [
+        "compra",
+        "comprava",
+        "comprerà"
+      ],
+      "correct": [
+        "comprerebbe",
+        "quella",
+        "casa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ipotesi irreale → condizionale: comprerebbe. 'Se avesse i soldi, comprerebbe quella casa.'",
+        "en": "Perfect! Unreal hypothesis → conditional: comprerebbe. 'Se avesse i soldi, comprerebbe quella casa.'"
+      },
+      "feedbackErr": {
+        "it": "Ipotesi irreale → condizionale: comprerebbe. Lui + comprare = comprerebbe.",
+        "en": "Unreal hypothesis → conditional: comprerebbe. Lui + comprare = comprerebbe."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare vedere (io, film): ___ volentieri quel film con te.",
+        "en": "Irregular vedere (I, film): ___ that film with you happily."
+      },
+      "parole": [
+        "Vedrei",
+        "volentieri",
+        "quel",
+        "film",
+        "con",
+        "te"
+      ],
+      "distrattori": [
+        "Vedo",
+        "Vedevo",
+        "Vedrò"
+      ],
+      "correct": [
+        "Vedrei",
+        "volentieri",
+        "quel",
+        "film",
+        "con",
+        "te"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vedere → condizionale irregolare: vedrei. 'Vedrei volentieri quel film con te.'",
+        "en": "Perfect! Vedere → irregular conditional: vedrei. 'Vedrei volentieri quel film con te.'"
+      },
+      "feedbackErr": {
+        "it": "Vedere → irregolare: vedrei. 'Vedrei volentieri quel film con te.'",
+        "en": "Vedere → irregular: vedrei. 'Vedrei volentieri quel film con te.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cortesia formale (loro, volere ordinare): ___ ordinare, signori?",
+        "en": "Formal courtesy (they, volere ordinare): ___ to order, ladies and gentlemen?"
+      },
+      "parole": [
+        "Vorrebbero",
+        "ordinare",
+        "signori"
+      ],
+      "distrattori": [
+        "Vogliono",
+        "Vorrebbero",
+        "Volevano",
+        "Vorranno"
+      ],
+      "correct": [
+        "Vorrebbero",
+        "ordinare",
+        "signori"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + condizionale di cortesia: vorrebbero. 'Vorrebbero ordinare, signori?'",
+        "en": "Perfect! Loro + conditional of courtesy: vorrebbero. 'Vorrebbero ordinare, signori?'"
+      },
+      "feedbackErr": {
+        "it": "Loro + condizionale di volere: vorrebbero. 'Vorrebbero ordinare, signori?'",
+        "en": "Loro + conditional of volere: vorrebbero. 'Vorrebbero ordinare, signori?'"
+      }
+    }
+  ]
+}

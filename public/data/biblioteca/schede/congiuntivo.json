@@ -1,0 +1,1582 @@
+{
+  "id": "congiuntivo",
+  "categoria": "grammatica",
+  "emoji": "🌀",
+  "livello": "B1",
+  "titolo": {
+    "it": "Congiuntivo (tutti i tempi)",
+    "en": "Subjunctive (all tenses)"
+  },
+  "mario": "Il congiuntivo spaventa tutti. Ma ti dico un segreto: non è un tempo separato — è una famiglia di quattro tempi. Presente e passato per il presente e il passato recente. Imperfetto e trapassato per i sogni, le ipotesi, le condizioni. Una volta che capisci quale dei quattro usare, il congiuntivo diventa logico.",
+  "marioEn": "The subjunctive scares everyone. But here's a secret: it's not one separate tense — it's a family of four. Present and past for the present and recent past. Imperfect and pluperfect for dreams, hypotheses, conditions. Once you understand which of the four to use, the subjunctive becomes logical.",
+  "perche": {
+    "it": "L'italiano usa il congiuntivo dove l'inglese non lo usa quasi più. In inglese 'I think he is right' va bene. In italiano no — 'Penso che abbia ragione' (congiuntivo). Il motivo è storico: l'italiano ha mantenuto il modo sogguntivo latino, che esprime soggettività, dubbio, speranza, volontà, concessione. I quattro tempi coprono scenari diversi: presente/passato per il probabile, imperfetto/trapassato per l'ipotetico.",
+    "en": "Italian uses the subjunctive where English barely uses it anymore. In English 'I think he is right' is fine. In Italian no — 'Penso che abbia ragione' (subjunctive). The reason is historical: Italian preserved the Latin subjunctive mood, which expresses subjectivity, doubt, hope, will, concession. The four tenses cover different scenarios: present/past for the probable, imperfect/pluperfect for the hypothetical."
+  },
+  "spiegazione": {
+    "it": "PRESENTE (-are→-i/-i/-i/-iamo/-iate/-ino · -ere/-ire→-a/-a/-a/-iamo/-iate/-ano) · PASSATO (abbia/sia + participio) · IMPERFETTO (-are→-assi/-assi/-asse/-assimo/-aste/-assero · -ere/-ire→-essi/-essi/-esse/-essimo/-este/-essero · essere→fossi · avere→avessi) · TRAPASSATO (avessi/fossi + participio). Irregolari chiave: essere→sia (pres.) / fossi (imp.) · avere→abbia / avessi · fare→faccia / facessi · andare→vada / andassi · venire→venga / venissi · dire→dica / dicessi · sapere→sappia / sapessi.",
+    "en": "PRESENT (-are→-i/-i/-i/-iamo/-iate/-ino · -ere/-ire→-a/-a/-a/-iamo/-iate/-ano) · PAST (abbia/sia + participle) · IMPERFECT (-are→-assi/-assi/-asse/-assimo/-aste/-assero · -ere/-ire→-essi/-essi/-esse/-essimo/-este/-essero · essere→fossi · avere→avessi) · PLUPERFECT (avessi/fossi + participle). Key irregulars: essere→sia (pres.) / fossi (imp.) · avere→abbia / avessi · fare→faccia / facessi · andare→vada / andassi · venire→venga / venissi · dire→dica / dicessi · sapere→sappia / sapessi."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "presente_are": "parli",
+      "presente_ere": "venda",
+      "imperfetto_are": "parlassi",
+      "imperfetto_ere": "vendessi",
+      "essere_pres": "sia",
+      "essere_imp": "fossi"
+    },
+    {
+      "soggetto": "tu",
+      "presente_are": "parli",
+      "presente_ere": "venda",
+      "imperfetto_are": "parlassi",
+      "imperfetto_ere": "vendessi",
+      "essere_pres": "sia",
+      "essere_imp": "fossi"
+    },
+    {
+      "soggetto": "lui/lei",
+      "presente_are": "parli",
+      "presente_ere": "venda",
+      "imperfetto_are": "parlasse",
+      "imperfetto_ere": "vendesse",
+      "essere_pres": "sia",
+      "essere_imp": "fosse"
+    },
+    {
+      "soggetto": "noi",
+      "presente_are": "parliamo",
+      "presente_ere": "vendiamo",
+      "imperfetto_are": "parlassimo",
+      "imperfetto_ere": "vendessimo",
+      "essere_pres": "siamo",
+      "essere_imp": "fossimo"
+    },
+    {
+      "soggetto": "voi",
+      "presente_are": "parliate",
+      "presente_ere": "vendiate",
+      "imperfetto_are": "parlaste",
+      "imperfetto_ere": "vendeste",
+      "essere_pres": "siate",
+      "essere_imp": "foste"
+    },
+    {
+      "soggetto": "loro",
+      "presente_are": "parlino",
+      "presente_ere": "vendano",
+      "imperfetto_are": "parlassero",
+      "imperfetto_ere": "vendessero",
+      "essere_pres": "siano",
+      "essere_imp": "fossero"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Penso che Mario sia molto stanco. (presente)",
+      "en": "I think Mario is very tired. (present)",
+      "audio": "Penso che Mario sia molto stanco."
+    },
+    {
+      "it": "È strano che non abbia chiamato. (passato)",
+      "en": "It's strange that he hasn't called. (past)",
+      "audio": "È strano che non abbia chiamato."
+    },
+    {
+      "it": "Volevo che tu venissi alla festa. (imperfetto)",
+      "en": "I wanted you to come to the party. (imperfect)",
+      "audio": "Volevo che tu venissi alla festa."
+    },
+    {
+      "it": "Parla come se avesse visto un fantasma. (trapassato)",
+      "en": "He speaks as if he had seen a ghost. (pluperfect)",
+      "audio": "Parla come se avesse visto un fantasma."
+    },
+    {
+      "it": "Benché faccia freddo, esco. (concessione)",
+      "en": "Although it's cold, I'm going out. (concession)",
+      "audio": "Benché faccia freddo, esco."
+    }
+  ],
+  "nota": {
+    "it": "💡 Quale dei quattro tempi? Regola principale: il verbo principale è al presente/futuro → cong. PRESENTE o PASSATO. Il verbo principale è al passato/condizionale → cong. IMPERFETTO o TRAPASSATO. Poi: azione contemporanea → presente/imperfetto. Azione anteriore → passato/trapassato.",
+    "en": "💡 Which of the four tenses? Main rule: main verb is in present/future → PRESENT or PAST subjunctive. Main verb is in past/conditional → IMPERFECT or PLUPERFECT subjunctive. Then: simultaneous action → present/imperfect. Prior action → past/pluperfect."
+  },
+  "congiunzioni": [
+    {
+      "categoria_it": "Concessione",
+      "categoria_en": "Concession",
+      "voci": [
+        "benché",
+        "sebbene",
+        "nonostante (che)",
+        "malgrado (che)",
+        "quantunque",
+        "per quanto"
+      ],
+      "esempio_it": "Benché faccia freddo, esco.",
+      "esempio_en": "Although it's cold, I'm going out."
+    },
+    {
+      "categoria_it": "Scopo",
+      "categoria_en": "Purpose",
+      "voci": [
+        "affinché",
+        "perché (= so that)",
+        "acciocché (formale/letterario)"
+      ],
+      "esempio_it": "Parlo lento affinché tu capisca.",
+      "esempio_en": "I speak slowly so you understand."
+    },
+    {
+      "categoria_it": "Condizione",
+      "categoria_en": "Condition",
+      "voci": [
+        "purché",
+        "a patto che",
+        "a condizione che",
+        "a meno che (non)",
+        "salvo che"
+      ],
+      "esempio_it": "Vengo, purché tu voglia.",
+      "esempio_en": "I'll come, provided you want me to."
+    },
+    {
+      "categoria_it": "Temporale",
+      "categoria_en": "Time",
+      "voci": [
+        "prima che"
+      ],
+      "esempio_it": "Prima che lui arrivi, prepariamo tutto.",
+      "esempio_en": "Before he arrives, let's prepare everything."
+    },
+    {
+      "categoria_it": "Causa apparente",
+      "categoria_en": "Apparent cause",
+      "voci": [
+        "non perché",
+        "non che"
+      ],
+      "esempio_it": "Non lo faccio perché abbia paura.",
+      "esempio_en": "It's not that I'm afraid."
+    },
+    {
+      "categoria_it": "Limitativa",
+      "categoria_en": "Limitative",
+      "voci": [
+        "per quanto",
+        "chiunque",
+        "qualunque cosa",
+        "comunque"
+      ],
+      "esempio_it": "Per quanto studi, non capisce.",
+      "esempio_en": "No matter how much he studies…"
+    },
+    {
+      "categoria_it": "Modale / Comparativa",
+      "categoria_en": "Modal / Comparative",
+      "voci": [
+        "come se (+ cong. imperfetto o trapassato)"
+      ],
+      "esempio_it": "Parla come se fosse italiano.",
+      "esempio_en": "He speaks as if he were Italian."
+    },
+    {
+      "categoria_it": "Concessiva ipotetica",
+      "categoria_en": "Concessive hypothetical",
+      "voci": [
+        "anche se (+ cong. imperfetto)"
+      ],
+      "esempio_it": "Anche se studiassi, non capirebbe.",
+      "esempio_en": "Even if he studied, he wouldn't understand."
+    }
+  ],
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Penso che Mario ___ (essere) molto stanco.",
+        "en": "Complete: I think Mario ___ (essere) very tired."
+      },
+      "opzioni": [
+        "è",
+        "era",
+        "sia",
+        "fosse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Pensare che + verbo principale al presente → cong. PRESENTE: sia.",
+        "en": "Correct! Pensare che + main verb in present → PRESENT subjunctive: sia."
+      },
+      "feedbackErr": {
+        "it": "'Pensare che' + presente → cong. presente: sia. Non indicativo (è).",
+        "en": "'Pensare che' + present → present subjunctive: sia. Not indicative (è)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Voglio che tu ___ (parlare) con lei.",
+        "en": "Complete: I want you ___ (parlare) with her."
+      },
+      "opzioni": [
+        "parla",
+        "parlerai",
+        "parli",
+        "parlavi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Volere che + presente → cong. presente: parli. -are → -i per io/tu/lui.",
+        "en": "Correct! Volere che + present → present subjunctive: parli. -are → -i for io/tu/lui."
+      },
+      "feedbackErr": {
+        "it": "'Volere che' → cong. presente. -are verbi: parli (io/tu/lui). 'Voglio che tu parli con lei.'",
+        "en": "'Volere che' → present subjunctive. -are verbs: parli (io/tu/lui). 'Voglio che tu parli con lei.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Benché ___ (fare) freddo, esco comunque.",
+        "en": "___ (fare) cold, I'm going out anyway."
+      },
+      "opzioni": [
+        "fa",
+        "faccia",
+        "farebbe",
+        "fece"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Benché + cong. presente: faccia (fare irregolare). 'Benché faccia freddo, esco.'",
+        "en": "Correct! Benché + present subjunctive: faccia (irregular fare). 'Benché faccia freddo, esco.'"
+      },
+      "feedbackErr": {
+        "it": "Benché → cong. presente. Fare → faccia (irregolare). 'Benché faccia freddo, esco.'",
+        "en": "Benché → present subjunctive. Fare → faccia (irregular). 'Benché faccia freddo, esco.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Parlo lento affinché tu ___ (capire).",
+        "en": "I speak slowly so that you ___ (capire)."
+      },
+      "opzioni": [
+        "capisci",
+        "capirai",
+        "capisca",
+        "capisse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Affinché + cong. presente: capisca. (-ire con -isc: capisco → capisca).",
+        "en": "Correct! Affinché + present subjunctive: capisca. (-ire with -isc: capisco → capisca)."
+      },
+      "feedbackErr": {
+        "it": "Affinché → cong. presente. Capire (-isc-): capisca. 'Parlo lento affinché tu capisca.'",
+        "en": "Affinché → present subjunctive. Capire (-isc-): capisca. 'Parlo lento affinché tu capisca.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Prima che lui ___ (arrivare), dobbiamo preparare tutto.",
+        "en": "Before he ___ (arrivare), we need to prepare everything."
+      },
+      "opzioni": [
+        "arriva",
+        "arriverà",
+        "arrivi",
+        "arrivasse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Prima che + cong. presente: arrivi. 'Prima che lui arrivi, dobbiamo preparare tutto.'",
+        "en": "Correct! Prima che + present subjunctive: arrivi. 'Prima che lui arrivi, dobbiamo preparare tutto.'"
+      },
+      "feedbackErr": {
+        "it": "Prima che → cong. presente: arrivi. 'Prima che lui arrivi, prepariamo tutto.'",
+        "en": "Prima che → present subjunctive: arrivi. 'Prima che lui arrivi, prepariamo tutto.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "È strano che Mario non ___ (chiamare) — di solito chiama sempre.",
+        "en": "It's strange that Mario hasn't ___ (chiamare) — he always calls."
+      },
+      "opzioni": [
+        "ha chiamato",
+        "chiamasse",
+        "abbia chiamato",
+        "chiami"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! È strano che + azione nel passato recente → cong. PASSATO: abbia chiamato.",
+        "en": "Correct! È strano che + recent past action → PAST subjunctive: abbia chiamato."
+      },
+      "feedbackErr": {
+        "it": "'È strano che' + azione passata → cong. passato: abbia chiamato. Non indicativo.",
+        "en": "'È strano che' + past action → past subjunctive: abbia chiamato. Not indicative."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Sebbene ___ (partire, lui) tardi, è arrivato in orario.",
+        "en": "Although he ___ (partire) late, he arrived on time."
+      },
+      "opzioni": [
+        "è partito",
+        "partisse",
+        "sia partito",
+        "partirà"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sebbene + azione passata (anteriore) → cong. PASSATO: sia partito. Partire → essere.",
+        "en": "Correct! Sebbene + past (prior) action → PAST subjunctive: sia partito. Partire → essere."
+      },
+      "feedbackErr": {
+        "it": "Sebbene + azione passata → cong. passato: sia partito. Partire → essere.",
+        "en": "Sebbene + past action → past subjunctive: sia partito. Partire → essere."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Spero che voi ___ (capire) la lezione di oggi.",
+        "en": "I hope you ___ (capire) today's lesson."
+      },
+      "opzioni": [
+        "avete capito",
+        "capiate",
+        "abbiate capito",
+        "capivate"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sperare che + azione già avvenuta (nel passato) → cong. PASSATO: abbiate capito.",
+        "en": "Correct! Sperare che + already happened action (past) → PAST subjunctive: abbiate capito."
+      },
+      "feedbackErr": {
+        "it": "'Spero che' + azione già completata → cong. passato: abbiate capito.",
+        "en": "'Spero che' + already completed action → past subjunctive: abbiate capito."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il congiuntivo PASSATO di 'andare' (io)?",
+        "en": "How is the PAST subjunctive of 'andare' formed (io)?"
+      },
+      "opzioni": [
+        "andassi",
+        "andavo",
+        "sia andato",
+        "abbia andato"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Cong. passato = abbia/sia + participio. Andare → essere → sia andato.",
+        "en": "Correct! Past subjunctive = abbia/sia + participle. Andare → essere → sia andato."
+      },
+      "feedbackErr": {
+        "it": "Cong. passato: abbia/sia + participio. Andare → essere → sia andato (non abbia andato!).",
+        "en": "Past subjunctive: abbia/sia + participle. Andare → essere → sia andato (not abbia andato!)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Volevo che tu ___ (venire) alla festa. (Il verbo principale è al passato)",
+        "en": "I wanted you ___ (venire) to the party. (Main verb is in past)"
+      },
+      "opzioni": [
+        "vieni",
+        "verrai",
+        "venga",
+        "venissi"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Volevo (passato) → cong. IMPERFETTO: venissi. Venire → irregolare: venissi.",
+        "en": "Correct! Volevo (past) → IMPERFECT subjunctive: venissi. Venire → irregular: venissi."
+      },
+      "feedbackErr": {
+        "it": "Verbo principale al passato → cong. imperfetto: venissi. 'Volevo che tu venissi.'",
+        "en": "Main verb in past → imperfect subjunctive: venissi. 'Volevo che tu venissi.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Parla come se ___ (essere) un esperto di pizza.",
+        "en": "He speaks as if he ___ (essere) a pizza expert."
+      },
+      "opzioni": [
+        "è",
+        "fosse",
+        "sia",
+        "sarà"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Come se + cong. IMPERFETTO: fosse. Essere → fossi/fossi/fosse/fossimo/foste/fossero.",
+        "en": "Correct! Come se + IMPERFECT subjunctive: fosse. Essere → fossi/fossi/fosse/fossimo/foste/fossero."
+      },
+      "feedbackErr": {
+        "it": "'Come se' → cong. imperfetto: fosse (essere irregolare). 'Parla come se fosse un esperto.'",
+        "en": "'Come se' → imperfect subjunctive: fosse (irregular essere). 'Parla come se fosse un esperto.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Vengo, purché tu ___ (volere). (Condizione)",
+        "en": "I'll come, provided you ___ (volere). (Condition)"
+      },
+      "opzioni": [
+        "vuoi",
+        "vorresti",
+        "voglia",
+        "volessi"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Purché + verbo principale al futuro → cong. IMPERFETTO: volessi. (O presente: voglia — entrambi accettabili, imperfetto più elegante con futuro).",
+        "en": "Correct! Purché + main verb in future → IMPERFECT subjunctive: volessi. (Or present: voglia — both acceptable, imperfect more elegant with future)."
+      },
+      "feedbackErr": {
+        "it": "Purché → cong. imperfetto: volessi. 'Vengo, purché tu volessi.' (O voglia, ma volessi è più elegante).",
+        "en": "Purché → imperfect subjunctive: volessi. 'Vengo, purché tu volessi.' (Or voglia, but volessi is more elegant)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il cong. imperfetto di 'parlare' (io)?",
+        "en": "How is the imperfect subjunctive of 'parlare' formed (io)?"
+      },
+      "opzioni": [
+        "parli",
+        "parlavo",
+        "parlassi",
+        "parlerei"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Cong. imperfetto -are: togli -are, aggiungi -assi. parlare → parlassi.",
+        "en": "Correct! Imperfect subjunctive -are: remove -are, add -assi. parlare → parlassi."
+      },
+      "feedbackErr": {
+        "it": "Cong. imperfetto -are → -assi: parlare → parlassi.",
+        "en": "Imperfect subjunctive -are → -assi: parlare → parlassi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il cong. imperfetto di 'essere' alla prima persona?",
+        "en": "What is the imperfect subjunctive of 'essere' for the first person?"
+      },
+      "opzioni": [
+        "sia",
+        "sarei",
+        "fossi",
+        "stessi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → cong. imperfetto irregolare: fossi/fossi/fosse/fossimo/foste/fossero.",
+        "en": "Correct! Essere → irregular imperfect subjunctive: fossi/fossi/fosse/fossimo/foste/fossero."
+      },
+      "feedbackErr": {
+        "it": "Essere → cong. imperfetto irregolare: fossi (non 'sarei' che è condizionale).",
+        "en": "Essere → irregular imperfect subjunctive: fossi (not 'sarei' which is conditional)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "A meno che non ___ (studiare), non capirai.",
+        "en": "Unless you ___ (studiare), you won't understand."
+      },
+      "opzioni": [
+        "studi",
+        "studiassi",
+        "studiavi",
+        "studierai"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'A meno che non' + cong. imperfetto (con verbo principale al futuro): studiassi.",
+        "en": "Correct! 'A meno che non' + imperfect subjunctive (with main verb in future): studiassi."
+      },
+      "feedbackErr": {
+        "it": "'A meno che non' → cong. imperfetto: studiassi. 'A meno che non studiassi, non capirai.'",
+        "en": "'A meno che non' → imperfect subjunctive: studiassi. 'A meno che non studiassi, non capirai.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Parla come se ___ (vedere) un fantasma — era pallidissimo!",
+        "en": "He speaks as if he ___ (vedere) a ghost — he was very pale!"
+      },
+      "opzioni": [
+        "ha visto",
+        "veda",
+        "avesse visto",
+        "vedesse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Come se + azione anteriore → cong. TRAPASSATO: avesse visto. Vedere → avere → avesse visto.",
+        "en": "Correct! Come se + prior action → PLUPERFECT subjunctive: avesse visto. Vedere → avere → avesse visto."
+      },
+      "feedbackErr": {
+        "it": "'Come se' + azione anteriore → cong. trapassato: avesse visto. Vedere → avere → avesse visto.",
+        "en": "'Come se' + prior action → pluperfect subjunctive: avesse visto. Vedere → avere → avesse visto."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Sebbene ___ (arrivare, lui) tardi, era ancora in tempo.",
+        "en": "Although he ___ (arrivare) late, he was still in time."
+      },
+      "opzioni": [
+        "è arrivato",
+        "arrivasse",
+        "fosse arrivato",
+        "arriva"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sebbene + azione anteriore al passato → cong. TRAPASSATO: fosse arrivato. Arrivare → essere.",
+        "en": "Correct! Sebbene + action prior to past → PLUPERFECT subjunctive: fosse arrivato. Arrivare → essere."
+      },
+      "feedbackErr": {
+        "it": "Sebbene + azione anteriore (nel passato) → cong. trapassato: fosse arrivato.",
+        "en": "Sebbene + prior action (in past) → pluperfect subjunctive: fosse arrivato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il cong. TRAPASSATO di 'mangiare' (io)?",
+        "en": "How is the PLUPERFECT subjunctive of 'mangiare' formed (io)?"
+      },
+      "opzioni": [
+        "avrei mangiato",
+        "avessi mangiato",
+        "fossi mangiato",
+        "abbia mangiato"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Cong. trapassato: avessi/fossi + participio. Mangiare → avere → avessi mangiato.",
+        "en": "Correct! Pluperfect subjunctive: avessi/fossi + participle. Mangiare → avere → avessi mangiato."
+      },
+      "feedbackErr": {
+        "it": "Cong. trapassato = avessi/fossi + participio. Mangiare → avere → avessi mangiato (non 'avrei' che è condizionale!).",
+        "en": "Pluperfect subjunctive = avessi/fossi + participle. Mangiare → avere → avessi mangiato (not 'avrei' which is conditional!)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Se + congiuntivo presente' come ipotetico — è corretto?",
+        "en": "'Se + present subjunctive' as hypothetical — is it correct?"
+      },
+      "opzioni": [
+        "Sì, sempre",
+        "Sì, ma solo al sud",
+        "No — mai: SE ipotetico non prende cong. presente",
+        "Sì, nel registro formale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! SE ipotetico non prende MAI il cong. presente o passato. ~~Se venga~~ → sbagliato sempre.",
+        "en": "Correct! Hypothetical SE NEVER takes the present or past subjunctive. ~~Se venga~~ → always wrong."
+      },
+      "feedbackErr": {
+        "it": "NO! SE ipotetico non prende cong. presente o passato. Mai. Corretto: se + cong. imperfetto o trapassato.",
+        "en": "NO! Hypothetical SE never takes present or past subjunctive. Never. Correct: se + imperfect or pluperfect subjunctive."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Per quanto' + verbo: che modo/tempo richiede?",
+        "en": "'Per quanto' + verb: what mood/tense does it require?"
+      },
+      "opzioni": [
+        "Indicativo presente",
+        "Futuro",
+        "Congiuntivo",
+        "Condizionale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Per quanto' → sempre congiuntivo. 'Per quanto studi, non capisce.' 'Per quanto avesse provato, non era riuscito.'",
+        "en": "Correct! 'Per quanto' → always subjunctive. 'Per quanto studi, non capisce.' 'Per quanto avesse provato, non era riuscito.'"
+      },
+      "feedbackErr": {
+        "it": "'Per quanto' (limitativa) → congiuntivo sempre. Presente: 'per quanto studi'. Imperfetto: 'per quanto studiasse'.",
+        "en": "'Per quanto' (limitative) → always subjunctive. Present: 'per quanto studi'. Imperfect: 'per quanto studiasse'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo presente dei verbi -are alla terza persona singolare termina in -i (es. parli).",
+        "en": "The present subjunctive of -are verbs for the third person singular ends in -i (e.g. parli)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -are verbi: io/tu/lui-lei → -i. parli, mangi, studi, parli.",
+        "en": "Correct! -are verbs: io/tu/lui-lei → -i. parli, mangi, studi, parli."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cong. presente -are: io/tu/lui-lei → -i. parlare → parli.",
+        "en": "True! Present subjunctive -are: io/tu/lui-lei → -i. parlare → parli."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo imperfetto di 'essere' è 'fossi/fossi/fosse/fossimo/foste/fossero'.",
+        "en": "The imperfect subjunctive of 'essere' is 'fossi/fossi/fosse/fossimo/foste/fossero'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → cong. imperfetto irregolare: fossi, fossi, fosse, fossimo, foste, fossero.",
+        "en": "Correct! Essere → irregular imperfect subjunctive: fossi, fossi, fosse, fossimo, foste, fossero."
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere → cong. imperfetto: fossi/fosse/fossero. 'Se fossi ricco...'",
+        "en": "True! Essere → imperfect subjunctive: fossi/fosse/fossero. 'Se fossi ricco...'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se venga' come periodo ipotetico è grammaticalmente corretto.",
+        "en": "'Se venga' as a hypothetical clause is grammatically correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Se venga' è SBAGLIATO. SE ipotetico non vuole mai il cong. presente. Corretto: 'se viene' (reale) o 'se venisse' (irreale).",
+        "en": "Correct! 'Se venga' is WRONG. Hypothetical SE never takes the present subjunctive. Correct: 'se viene' (real) or 'se venisse' (unreal)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Se venga' è sbagliato. SE ipotetico → mai cong. presente. Usa: 'se viene' o 'se venisse'.",
+        "en": "FALSE! 'Se venga' is wrong. Hypothetical SE → never present subjunctive. Use: 'se viene' or 'se venisse'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Come se fosse italiano' usa correttamente il congiuntivo imperfetto.",
+        "en": "'Come se fosse italiano' correctly uses the imperfect subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Come se + cong. imperfetto (azione contemporanea). 'Parla come se fosse italiano.'",
+        "en": "Correct! Come se + imperfect subjunctive (simultaneous action). 'Parla come se fosse italiano.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Come se' + cong. imperfetto: fosse. 'Parla come se fosse italiano.'",
+        "en": "True! 'Come se' + imperfect subjunctive: fosse. 'Parla come se fosse italiano.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Benché' richiede sempre il congiuntivo, non l'indicativo.",
+        "en": "'Benché' always requires the subjunctive, not the indicative."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Benché + congiuntivo sempre. 'Benché faccia freddo' (pres.) / 'Benché facesse freddo' (imp.). Mai indicativo.",
+        "en": "Correct! Benché + always subjunctive. 'Benché faccia freddo' (pres.) / 'Benché facesse freddo' (imp.). Never indicative."
+      },
+      "feedbackErr": {
+        "it": "Vero! Benché → sempre congiuntivo. Mai 'benché fa freddo' (sbagliato).",
+        "en": "True! Benché → always subjunctive. Never 'benché fa freddo' (wrong)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo trapassato si forma con 'avessi/fossi + participio passato'.",
+        "en": "The pluperfect subjunctive is formed with 'avessi/fossi + past participle'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Cong. trapassato: avessi mangiato, fossi andato. Stessa scelta di avere/essere del passato prossimo.",
+        "en": "Correct! Pluperfect subjunctive: avessi mangiato, fossi andato. Same avere/essere choice as passato prossimo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cong. trapassato = avessi/fossi + participio. avessi mangiato, fossi andato.",
+        "en": "True! Pluperfect subjunctive = avessi/fossi + participle. avessi mangiato, fossi andato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se sia venuto' come ipotetico è grammaticalmente corretto.",
+        "en": "'Se sia venuto' as a hypothetical is grammatically correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Se sia venuto' è SBAGLIATO. SE ipotetico non prende MAI il cong. presente o passato.",
+        "en": "Correct! 'Se sia venuto' is WRONG. Hypothetical SE NEVER takes the present or past subjunctive."
+      },
+      "feedbackErr": {
+        "it": "FALSO! SE ipotetico non vuole cong. presente o passato. Mai 'se sia venuto'. Usa: 'se fosse venuto' (trapassato).",
+        "en": "FALSE! Hypothetical SE doesn't take present or past subjunctive. Never 'se sia venuto'. Use: 'se fosse venuto' (pluperfect)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Affinché' + congiuntivo: 'Parlo lento affinché tu capisca' è corretto.",
+        "en": "'Affinché' + subjunctive: 'Parlo lento affinché tu capisca' is correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Affinché (scopo) + cong. presente: capisca. 'Parlo lento affinché tu capisca.'",
+        "en": "Correct! Affinché (purpose) + present subjunctive: capisca. 'Parlo lento affinché tu capisca.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Affinché → cong. presente: capisca. 'Parlo lento affinché tu capisca.'",
+        "en": "True! Affinché → present subjunctive: capisca. 'Parlo lento affinché tu capisca.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo imperfetto di 'avere' è 'avessi/avessi/avesse/avessimo/aveste/avessero'.",
+        "en": "The imperfect subjunctive of 'avere' is 'avessi/avessi/avesse/avessimo/aveste/avessero'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avere → cong. imperfetto: avessi, avessi, avesse, avessimo, aveste, avessero.",
+        "en": "Correct! Avere → imperfect subjunctive: avessi, avessi, avesse, avessimo, aveste, avessero."
+      },
+      "feedbackErr": {
+        "it": "Vero! Avere → cong. imperfetto: avessi/avesse/avessero. 'Se avessi tempo...'",
+        "en": "True! Avere → imperfect subjunctive: avessi/avesse/avessero. 'Se avessi tempo...'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Prima che' richiede sempre il congiuntivo.",
+        "en": "'Prima che' always requires the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Prima che + cong. sempre. 'Prima che lui arrivi' (pres.) / 'Prima che lui arrivasse' (imp.).",
+        "en": "Correct! Prima che + subjunctive always. 'Prima che lui arrivi' (pres.) / 'Prima che lui arrivasse' (imp.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Prima che → congiuntivo sempre. 'Prima che arrivi', 'prima che arrivasse'.",
+        "en": "True! Prima che → always subjunctive. 'Prima che arrivi', 'prima che arrivasse'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Purché' + congiuntivo esprime una condizione.",
+        "en": "'Purché' + subjunctive expresses a condition."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Purché (condizione) + cong. 'Vengo, purché tu voglia.' = I'll come, provided you want me to.",
+        "en": "Correct! Purché (condition) + subjunctive. 'Vengo, purché tu voglia.' = I'll come, provided you want me to."
+      },
+      "feedbackErr": {
+        "it": "Vero! Purché = provided that → cong. 'Vengo, purché tu voglia.'",
+        "en": "True! Purché = provided that → subjunctive. 'Vengo, purché tu voglia.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Nonostante' + congiuntivo esprime una concessione.",
+        "en": "'Nonostante' + subjunctive expresses a concession."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nonostante (concessione) + cong. 'Nonostante faccia freddo, esco.' = Despite the cold, I'm going out.",
+        "en": "Correct! Nonostante (concession) + subjunctive. 'Nonostante faccia freddo, esco.' = Despite the cold, I'm going out."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nonostante → cong. (concessione). 'Nonostante faccia freddo, esco.'",
+        "en": "True! Nonostante → subjunctive (concession). 'Nonostante faccia freddo, esco.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo passato si forma con 'abbia/sia + participio passato'.",
+        "en": "The past subjunctive is formed with 'abbia/sia + past participle'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Cong. passato: abbia mangiato, sia andato. Stessa scelta avere/essere del passato prossimo.",
+        "en": "Correct! Past subjunctive: abbia mangiato, sia andato. Same avere/essere choice as passato prossimo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cong. passato = abbia/sia + participio: abbia mangiato, sia andato.",
+        "en": "True! Past subjunctive = abbia/sia + participle: abbia mangiato, sia andato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Come se' + condizionale presente è corretto: 'Parla come se sarebbe italiano'.",
+        "en": "'Come se' + present conditional is correct: 'Parla come se sarebbe italiano'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Come se sarebbe' è SBAGLIATO. Come se → sempre cong. imperfetto (contemporaneo) o trapassato (anteriore). MAI condizionale.",
+        "en": "Correct! 'Come se sarebbe' is WRONG. Come se → always imperfect subjunctive (simultaneous) or pluperfect (prior). NEVER conditional."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Come se sarebbe' è sbagliato. Come se → cong. imperfetto: 'come se fosse'. Mai condizionale.",
+        "en": "FALSE! 'Come se sarebbe' is wrong. Come se → imperfect subjunctive: 'come se fosse'. Never conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo trapassato di 'essere' è 'fossi stato/stata'.",
+        "en": "The pluperfect subjunctive of 'essere' is 'fossi stato/stata'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → cong. trapassato: fossi stato (m.) / fossi stata (f.). 'Se fossi stata qui, avresti capito.'",
+        "en": "Correct! Essere → pluperfect subjunctive: fossi stato (m.) / fossi stata (f.). 'Se fossi stata qui, avresti capito.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere → cong. trapassato: fossi stato/stata. 'Se fossi stato qui...'",
+        "en": "True! Essere → pluperfect subjunctive: fossi stato/stata. 'Se fossi stato qui...'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Per quanto' + congiuntivo esprime una limitazione (= no matter how).",
+        "en": "'Per quanto' + subjunctive expresses a limitation (= no matter how)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Per quanto studi, non capisce.' = No matter how much he studies, he doesn't understand. Congiuntivo sempre.",
+        "en": "Correct! 'Per quanto studi, non capisce.' = No matter how much he studies, he doesn't understand. Always subjunctive."
+      },
+      "feedbackErr": {
+        "it": "Vero! Per quanto (limitativa) → cong. sempre. 'Per quanto studi, non capisce.'",
+        "en": "True! Per quanto (limitative) → always subjunctive. 'Per quanto studi, non capisce.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Anche se' + cong. imperfetto esprime una concessione ipotetica: 'Anche se studiassi, non capirebbe'.",
+        "en": "'Anche se' + imperfect subjunctive expresses a hypothetical concession: 'Anche se studiassi, non capirebbe'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Anche se studiassi' = even if he studied (hypothetical). Cong. imperfetto + condizionale. Corretto.",
+        "en": "Correct! 'Anche se studiassi' = even if he studied (hypothetical). Imperfect subjunctive + conditional. Correct."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Anche se' + cong. imperfetto = concessiva ipotetica. 'Anche se studiassi, non capirebbe.'",
+        "en": "True! 'Anche se' + imperfect subjunctive = hypothetical concessive. 'Anche se studiassi, non capirebbe.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo imperfetto di 'avere' è 'avessi', non 'avrei' (che è condizionale).",
+        "en": "The imperfect subjunctive of 'avere' is 'avessi', not 'avrei' (which is conditional)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avessi = cong. imperfetto. Avrei = condizionale presente. Confonderli è un errore frequente.",
+        "en": "Correct! Avessi = imperfect subjunctive. Avrei = present conditional. Confusing them is a frequent error."
+      },
+      "feedbackErr": {
+        "it": "Vero! Avessi (cong. imperfetto) ≠ avrei (condizionale). 'Se avessi tempo' (cong.) vs 'avrei tempo' (cond.).",
+        "en": "True! Avessi (imperfect subjunctive) ≠ avrei (conditional). 'Se avessi tempo' (subj.) vs 'avrei tempo' (cond.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo trapassato si forma con 'avrei/sarei + participio' (= condizionale passato).",
+        "en": "The pluperfect subjunctive is formed with 'avrei/sarei + participle' (= past conditional)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! SBAGLIATO. Cong. trapassato = AVESSI/FOSSI + participio. Condizionale passato = AVREI/SAREI + participio. Sono diversi!",
+        "en": "Correct! WRONG. Pluperfect subjunctive = AVESSI/FOSSI + participle. Past conditional = AVREI/SAREI + participle. They are different!"
+      },
+      "feedbackErr": {
+        "it": "FALSO! Cong. trapassato = avessi/fossi + participio (NON avrei/sarei). 'Se avessi mangiato' (cong.) vs 'avrei mangiato' (cond.).",
+        "en": "FALSE! Pluperfect subjunctive = avessi/fossi + participle (NOT avrei/sarei). 'Se avessi mangiato' (subj.) vs 'avrei mangiato' (cond.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Le prime tre persone singolari del congiuntivo imperfetto -are sono tutte identiche (-assi).",
+        "en": "The first three singular persons of the -are imperfect subjunctive are all identical (-assi)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Io parlassi / tu parlassi / lui-lei parlasse → le prime due sono -assi, la terza -asse.",
+        "en": "Correct! Io parlassi / tu parlassi / lui-lei parlasse → the first two are -assi, the third -asse."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! Io/tu: -assi. Lui-lei: -asse. Le prime due uguali, la terza diversa.",
+        "en": "Careful! Io/tu: -assi. Lui-lei: -asse. The first two are the same, the third is different."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. PRESENTE (pensare che, Mario, essere): Penso che Mario ___ molto stanco.",
+        "en": "PRESENT subj. (pensare che, Mario, essere): I think Mario ___ very tired."
+      },
+      "parole": [
+        "sia",
+        "molto",
+        "stanco"
+      ],
+      "distrattori": [
+        "è",
+        "era",
+        "fosse"
+      ],
+      "correct": [
+        "sia",
+        "molto",
+        "stanco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pensare che + presente → cong. presente: sia. 'Penso che Mario sia molto stanco.'",
+        "en": "Perfect! Pensare che + present → present subjunctive: sia. 'Penso che Mario sia molto stanco.'"
+      },
+      "feedbackErr": {
+        "it": "'Pensare che' → cong. presente: sia. Non indicativo (è).",
+        "en": "'Pensare che' → present subjunctive: sia. Not indicative (è)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. PRESENTE (importante, tu, parlare): È importante che tu ___ con Mario.",
+        "en": "PRESENT subj. (importante, you, parlare): It's important that you ___ with Mario."
+      },
+      "parole": [
+        "parli",
+        "con",
+        "Mario"
+      ],
+      "distrattori": [
+        "parla",
+        "parlerai",
+        "parlavi"
+      ],
+      "correct": [
+        "parli",
+        "con",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È importante che' → cong. presente: parli. 'È importante che tu parli con Mario.'",
+        "en": "Perfect! 'È importante che' → present subjunctive: parli. 'È importante che tu parli con Mario.'"
+      },
+      "feedbackErr": {
+        "it": "'È importante che' → cong. presente: parli. '-are verbi: tu → -i.'",
+        "en": "'È importante che' → present subjunctive: parli. '-are verbs: tu → -i.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Concessione (benché, freddo, io uscire): ___ faccia freddo, esco comunque.",
+        "en": "Concession (benché, cold, I go out): ___ it's cold, I'm going out anyway."
+      },
+      "parole": [
+        "Benché",
+        "faccia",
+        "freddo"
+      ],
+      "distrattori": [
+        "Anche se",
+        "fa",
+        "freddo",
+        "Sebbene"
+      ],
+      "correct": [
+        "Benché",
+        "faccia",
+        "freddo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Benché + cong. presente: faccia (fare irregolare). 'Benché faccia freddo, esco.'",
+        "en": "Perfect! Benché + present subjunctive: faccia (irregular fare). 'Benché faccia freddo, esco.'"
+      },
+      "feedbackErr": {
+        "it": "Benché → cong. presente. Fare → faccia (irregolare). 'Benché faccia freddo, esco.'",
+        "en": "Benché → present subjunctive. Fare → faccia (irregular). 'Benché faccia freddo, esco.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Scopo (affinché, io parlare lento, tu capire): Parlo lento ___ tu capisca.",
+        "en": "Purpose (affinché, I speak slowly, you understand): I speak slowly ___ you understand."
+      },
+      "parole": [
+        "affinché",
+        "tu",
+        "capisca"
+      ],
+      "distrattori": [
+        "perché",
+        "capisce",
+        "capisci"
+      ],
+      "correct": [
+        "affinché",
+        "tu",
+        "capisca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Affinché (scopo) + cong. presente: capisca. 'Parlo lento affinché tu capisca.'",
+        "en": "Perfect! Affinché (purpose) + present subjunctive: capisca. 'Parlo lento affinché tu capisca.'"
+      },
+      "feedbackErr": {
+        "it": "Affinché → cong. presente. Capire (-isc-): capisca. 'Parlo lento affinché tu capisca.'",
+        "en": "Affinché → present subjunctive. Capire (-isc-): capisca. 'Parlo lento affinché tu capisca.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Temporale (prima che, lui arrivare): ___ lui arrivi, prepariamo tutto.",
+        "en": "Time (prima che, he arrive): ___ he arrives, let's prepare everything."
+      },
+      "parole": [
+        "Prima",
+        "che",
+        "lui",
+        "arrivi"
+      ],
+      "distrattori": [
+        "Dopo che",
+        "arriva",
+        "arriverà"
+      ],
+      "correct": [
+        "Prima",
+        "che",
+        "lui",
+        "arrivi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Prima che + cong. presente: arrivi. 'Prima che lui arrivi, prepariamo tutto.'",
+        "en": "Perfect! Prima che + present subjunctive: arrivi. 'Prima che lui arrivi, prepariamo tutto.'"
+      },
+      "feedbackErr": {
+        "it": "Prima che → cong. presente: arrivi. 'Prima che lui arrivi, prepariamo tutto.'",
+        "en": "Prima che → present subjunctive: arrivi. 'Prima che lui arrivi, prepariamo tutto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. PASSATO (strano, Mario, non chiamare): È strano che Mario non ___.",
+        "en": "PAST subj. (strange, Mario, not chiamare): It's strange that Mario hasn't ___."
+      },
+      "parole": [
+        "abbia",
+        "chiamato"
+      ],
+      "distrattori": [
+        "ha",
+        "chiamasse",
+        "chiami"
+      ],
+      "correct": [
+        "abbia",
+        "chiamato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È strano che' + azione passata → cong. passato: abbia chiamato.",
+        "en": "Perfect! 'È strano che' + past action → past subjunctive: abbia chiamato."
+      },
+      "feedbackErr": {
+        "it": "'È strano che' + azione passata → cong. passato: abbia chiamato.",
+        "en": "'È strano che' + past action → past subjunctive: abbia chiamato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. PASSATO + essere (sebbene, lui partire tardi): Sebbene ___ tardi, è arrivato in orario.",
+        "en": "PAST subj. + essere (sebbene, he leave late): Although he ___ late, he arrived on time."
+      },
+      "parole": [
+        "sia",
+        "partito",
+        "tardi"
+      ],
+      "distrattori": [
+        "è",
+        "partisse",
+        "abbia"
+      ],
+      "correct": [
+        "sia",
+        "partito",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sebbene + cong. passato. Partire → essere → sia partito.",
+        "en": "Perfect! Sebbene + past subjunctive. Partire → essere → sia partito."
+      },
+      "feedbackErr": {
+        "it": "Sebbene + cong. passato. Partire → essere → sia partito (non 'abbia partito'!).",
+        "en": "Sebbene + past subjunctive. Partire → essere → sia partito (not 'abbia partito'!)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. PASSATO + voi (sperare, capire): Spero che voi ___ la lezione.",
+        "en": "PAST subj. + voi (sperare, capire): I hope you ___ the lesson."
+      },
+      "parole": [
+        "abbiate",
+        "capito",
+        "la",
+        "lezione"
+      ],
+      "distrattori": [
+        "avete",
+        "capiste",
+        "capiate"
+      ],
+      "correct": [
+        "abbiate",
+        "capito",
+        "la",
+        "lezione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sperare che + azione completata → cong. passato: abbiate capito.",
+        "en": "Perfect! Sperare che + completed action → past subjunctive: abbiate capito."
+      },
+      "feedbackErr": {
+        "it": "'Spero che' + azione completata → cong. passato: abbiate capito.",
+        "en": "'Spero che' + completed action → past subjunctive: abbiate capito."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. IMPERFETTO (volevo che, tu venire): Volevo che tu ___ alla festa.",
+        "en": "IMPERFECT subj. (volevo che, you venire): I wanted you ___ to the party."
+      },
+      "parole": [
+        "venissi",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "vieni",
+        "venga",
+        "verrai"
+      ],
+      "correct": [
+        "venissi",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Volevo (passato) → cong. imperfetto: venissi. Venire → irregolare: venissi.",
+        "en": "Perfect! Volevo (past) → imperfect subjunctive: venissi. Venire → irregular: venissi."
+      },
+      "feedbackErr": {
+        "it": "Verbo principale al passato → cong. imperfetto: venissi. 'Volevo che tu venissi alla festa.'",
+        "en": "Main verb in past → imperfect subjunctive: venissi. 'Volevo che tu venissi alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Come se + IMPERFETTO (lui parlare, esperto): Parla ___ un esperto di pizza.",
+        "en": "Come se + IMPERFECT (he speak, expert): He speaks ___ a pizza expert."
+      },
+      "parole": [
+        "come",
+        "se",
+        "fosse",
+        "un",
+        "esperto",
+        "di",
+        "pizza"
+      ],
+      "distrattori": [
+        "sarebbe",
+        "è",
+        "sia"
+      ],
+      "correct": [
+        "come",
+        "se",
+        "fosse",
+        "un",
+        "esperto",
+        "di",
+        "pizza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Come se + cong. imperfetto: fosse. 'Parla come se fosse un esperto di pizza.'",
+        "en": "Perfect! Come se + imperfect subjunctive: fosse. 'Parla come se fosse un esperto di pizza.'"
+      },
+      "feedbackErr": {
+        "it": "'Come se' + cong. imperfetto: fosse (essere irregolare). 'Parla come se fosse un esperto.'",
+        "en": "'Come se' + imperfect subjunctive: fosse (irregular essere). 'Parla come se fosse un esperto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Condizione (purché, tu volere): Vengo, ___.",
+        "en": "Condition (purché, you volere): I'll come, ___."
+      },
+      "parole": [
+        "purché",
+        "tu",
+        "voglia"
+      ],
+      "distrattori": [
+        "se",
+        "vuoi",
+        "volessi",
+        "volevi"
+      ],
+      "correct": [
+        "purché",
+        "tu",
+        "voglia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Purché (condizione) + cong. presente: voglia. 'Vengo, purché tu voglia.'",
+        "en": "Perfect! Purché (condition) + present subjunctive: voglia. 'Vengo, purché tu voglia.'"
+      },
+      "feedbackErr": {
+        "it": "Purché → cong. 'Vengo, purché tu voglia.' (presente, contemporaneo).",
+        "en": "Purché → subjunctive. 'Vengo, purché tu voglia.' (present, simultaneous)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. IMPERFETTO (sebbene, lui essere stanco): ___ stanco, continuò a lavorare.",
+        "en": "IMPERFECT subj. (sebbene, he essere stanco): ___ tired, he kept working."
+      },
+      "parole": [
+        "Sebbene",
+        "fosse",
+        "stanco"
+      ],
+      "distrattori": [
+        "Benché",
+        "è",
+        "era",
+        "fosse stato"
+      ],
+      "correct": [
+        "Sebbene",
+        "fosse",
+        "stanco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sebbene + cong. imperfetto (verbo principale al passato): fosse stanco.",
+        "en": "Perfect! Sebbene + imperfect subjunctive (main verb in past): fosse stanco."
+      },
+      "feedbackErr": {
+        "it": "Sebbene + verbo al passato → cong. imperfetto: fosse. 'Sebbene fosse stanco, continuò.'",
+        "en": "Sebbene + past main verb → imperfect subjunctive: fosse. 'Sebbene fosse stanco, continuò.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Condizione (a meno che non, studiare): ___ non studiassi, non avresti capito.",
+        "en": "Condition (a meno che non, studiare): ___ you studied, you wouldn't have understood."
+      },
+      "parole": [
+        "A",
+        "meno",
+        "che",
+        "non",
+        "studiassi"
+      ],
+      "distrattori": [
+        "Se",
+        "studia",
+        "studiavi",
+        "a meno di"
+      ],
+      "correct": [
+        "A",
+        "meno",
+        "che",
+        "non",
+        "studiassi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'A meno che non' (condizione negativa) + cong. imperfetto: studiassi.",
+        "en": "Perfect! 'A meno che non' (negative condition) + imperfect subjunctive: studiassi."
+      },
+      "feedbackErr": {
+        "it": "'A meno che non' → cong. imperfetto: studiassi. 'A meno che non studiassi, non avresti capito.'",
+        "en": "'A meno che non' → imperfect subjunctive: studiassi. 'A meno che non studiassi, non avresti capito.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. TRAPASSATO + come se (lui vedere fantasma): Parla come se ___ un fantasma.",
+        "en": "PLUPERFECT subj. + come se (he see ghost): He speaks as if he ___ a ghost."
+      },
+      "parole": [
+        "avesse",
+        "visto",
+        "un",
+        "fantasma"
+      ],
+      "distrattori": [
+        "abbia",
+        "vedesse",
+        "ha visto"
+      ],
+      "correct": [
+        "avesse",
+        "visto",
+        "un",
+        "fantasma"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Come se' + azione anteriore → cong. trapassato: avesse visto. Vedere → avere → avesse visto.",
+        "en": "Perfect! 'Come se' + prior action → pluperfect subjunctive: avesse visto. Vedere → avere → avesse visto."
+      },
+      "feedbackErr": {
+        "it": "'Come se' + azione anteriore → cong. trapassato: avesse visto. 'Come se avesse visto un fantasma.'",
+        "en": "'Come se' + prior action → pluperfect subjunctive: avesse visto. 'Come se avesse visto un fantasma.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. TRAPASSATO (sebbene, lui arrivare tardi): Sebbene ___ tardi, era ancora in tempo.",
+        "en": "PLUPERFECT subj. (sebbene, he arrivare late): Although he ___ late, he was still in time."
+      },
+      "parole": [
+        "fosse",
+        "arrivato",
+        "tardi"
+      ],
+      "distrattori": [
+        "sia",
+        "arrivasse",
+        "è arrivato"
+      ],
+      "correct": [
+        "fosse",
+        "arrivato",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sebbene + azione anteriore al passato → cong. trapassato: fosse arrivato (arrivare → essere).",
+        "en": "Perfect! Sebbene + action prior to past → pluperfect subjunctive: fosse arrivato (arrivare → essere)."
+      },
+      "feedbackErr": {
+        "it": "Sebbene + azione anteriore → cong. trapassato: fosse arrivato. Arrivare → essere.",
+        "en": "Sebbene + prior action → pluperfect subjunctive: fosse arrivato. Arrivare → essere."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Limitativa (per quanto, lui studiare): ___ non capisce.",
+        "en": "Limitative (per quanto, he studiare): ___ he doesn't understand."
+      },
+      "parole": [
+        "Per",
+        "quanto",
+        "studi"
+      ],
+      "distrattori": [
+        "Anche se",
+        "studia",
+        "studiasse"
+      ],
+      "correct": [
+        "Per",
+        "quanto",
+        "studi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Per quanto (limitativa) + cong. presente: studi. 'Per quanto studi, non capisce.'",
+        "en": "Perfect! Per quanto (limitative) + present subjunctive: studi. 'Per quanto studi, non capisce.'"
+      },
+      "feedbackErr": {
+        "it": "'Per quanto' → cong. presente: studi. 'Per quanto studi, non capisce.'",
+        "en": "'Per quanto' → present subjunctive: studi. 'Per quanto studi, non capisce.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. imperfetto avere (volere che voi, avere pazienza): Voglio che voi ___ pazienza.",
+        "en": "Imperfect subj. avere (volere che voi, avere pazienza): I want you ___ patience."
+      },
+      "parole": [
+        "abbiate",
+        "pazienza"
+      ],
+      "distrattori": [
+        "avete",
+        "aveste",
+        "avreste"
+      ],
+      "correct": [
+        "abbiate",
+        "pazienza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Volere che + presente → cong. presente di avere (voi): abbiate. 'Voglio che voi abbiate pazienza.'",
+        "en": "Perfect! Volere che + present → present subjunctive of avere (voi): abbiate. 'Voglio che voi abbiate pazienza.'"
+      },
+      "feedbackErr": {
+        "it": "Avere (voi) → cong. presente: abbiate. 'Voglio che voi abbiate pazienza.'",
+        "en": "Avere (voi) → present subjunctive: abbiate. 'Voglio che voi abbiate pazienza.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Concessiva ipotetica (anche se, lui studiare, non capire): ___ studiasse, non capirebbe.",
+        "en": "Hypothetical concessive (anche se, he studiare, not capire): ___ he studied, he wouldn't understand."
+      },
+      "parole": [
+        "Anche",
+        "se",
+        "studiasse"
+      ],
+      "distrattori": [
+        "Benché",
+        "studi",
+        "studia",
+        "avesse studiato"
+      ],
+      "correct": [
+        "Anche",
+        "se",
+        "studiasse"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Anche se' + cong. imperfetto (ipotetica): studiasse. + condizionale: non capirebbe.",
+        "en": "Perfect! 'Anche se' + imperfect subjunctive (hypothetical): studiasse. + conditional: non capirebbe."
+      },
+      "feedbackErr": {
+        "it": "'Anche se' ipotetica → cong. imperfetto: studiasse. 'Anche se studiasse, non capirebbe.'",
+        "en": "Hypothetical 'anche se' → imperfect subjunctive: studiasse. 'Anche se studiasse, non capirebbe.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Cong. trapassato (per quanto, lui provare): ___ non era riuscito.",
+        "en": "Pluperfect subj. (per quanto, he provare): ___ he hadn't managed."
+      },
+      "parole": [
+        "Per",
+        "quanto",
+        "avesse",
+        "provato"
+      ],
+      "distrattori": [
+        "Anche se",
+        "provasse",
+        "abbia",
+        "provato"
+      ],
+      "correct": [
+        "Per",
+        "quanto",
+        "avesse",
+        "provato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Per quanto + cong. trapassato (nel passato): avesse provato. 'Per quanto avesse provato, non era riuscito.'",
+        "en": "Perfect! Per quanto + pluperfect subjunctive (in past): avesse provato. 'Per quanto avesse provato, non era riuscito.'"
+      },
+      "feedbackErr": {
+        "it": "'Per quanto' nel passato → cong. trapassato: avesse provato.",
+        "en": "'Per quanto' in past → pluperfect subjunctive: avesse provato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Causa apparente (non perché, avere paura): Non lo faccio ___.",
+        "en": "Apparent cause (non perché, avere paura): I'm not doing it ___."
+      },
+      "parole": [
+        "perché",
+        "abbia",
+        "paura"
+      ],
+      "distrattori": [
+        "perché",
+        "ho",
+        "paura",
+        "ho avuto",
+        "abbia avuto"
+      ],
+      "correct": [
+        "perché",
+        "abbia",
+        "paura"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non perché' + cong. presente: abbia. 'Non lo faccio perché abbia paura.' = It's not that I'm afraid.",
+        "en": "Perfect! 'Non perché' + present subjunctive: abbia. 'Non lo faccio perché abbia paura.' = It's not that I'm afraid."
+      },
+      "feedbackErr": {
+        "it": "'Non perché' (causa apparente) → cong. presente: abbia. 'Non lo faccio perché abbia paura.'",
+        "en": "'Non perché' (apparent cause) → present subjunctive: abbia. 'Non lo faccio perché abbia paura.'"
+      }
+    }
+  ]
+}

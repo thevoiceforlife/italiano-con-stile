@@ -1,0 +1,1479 @@
+{
+  "id": "futuro-semplice",
+  "categoria": "grammatica",
+  "emoji": "🔮",
+  "livello": "A2",
+  "titolo": {
+    "it": "Futuro Semplice",
+    "en": "Simple Future"
+  },
+  "mario": "Un segreto: gli italiani usano spesso il presente per il futuro vicino. 'Domani vado a Napoli' — non 'andrò'. Il futuro semplice è per cose più lontane, incerte, o formali. E per fare ipotesi eleganti.",
+  "marioEn": "A secret: Italians often use the present for the near future. 'Domani vado a Napoli' — not 'andrò'. The simple future is for more distant, uncertain, or formal things. And for making elegant guesses.",
+  "perche": {
+    "it": "In inglese usi 'will' per quasi tutto il futuro. In italiano hai due opzioni: il presente (futuro vicino, già pianificato: 'domani vado') oppure il futuro semplice (futuro lontano, incerto, formale, o per fare supposizioni: 'Avrà trent'anni' = He must be about thirty). Il futuro semplice esprime anche la probabilità nel presente: 'Dove sarà Mario?' = 'I wonder where Mario is'.",
+    "en": "In English you use 'will' for almost all future. In Italian you have two options: the present (near future, already planned: 'domani vado') or the simple future (distant, uncertain, formal future, or for making guesses: 'Avrà trent'anni' = He must be about thirty). The simple future also expresses present probability: 'Dove sarà Mario?' = 'I wonder where Mario is'."
+  },
+  "spiegazione": {
+    "it": "Formazione: togli la -e finale dell'infinito (o -are→-er-), aggiungi -ò/-ai/-à/-emo/-ete/-anno. Attenzione: -are verbi cambiano la a in e (mangiare→mangerò). Irregolari: essere→sarò, avere→avrò, andare→andrò, fare→farò, venire→verrò, potere→potrò, dovere→dovrò, sapere→saprò, vedere→vedrò, volere→vorrò.",
+    "en": "Formation: remove the final -e of the infinitive (or -are→-er-), add -ò/-ai/-à/-emo/-ete/-anno. Note: -are verbs change the a to e (mangiare→mangerò). Irregulars: essere→sarò, avere→avrò, andare→andrò, fare→farò, venire→verrò, potere→potrò, dovere→dovrò, sapere→saprò, vedere→vedrò, volere→vorrò."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "mangiare": "mangerò",
+      "essere": "sarò",
+      "andare": "andrò"
+    },
+    {
+      "soggetto": "tu",
+      "mangiare": "mangerai",
+      "essere": "sarai",
+      "andare": "andrai"
+    },
+    {
+      "soggetto": "lui/lei",
+      "mangiare": "mangerà",
+      "essere": "sarà",
+      "andare": "andrà"
+    },
+    {
+      "soggetto": "noi",
+      "mangiare": "mangeremo",
+      "essere": "saremo",
+      "andare": "andremo"
+    },
+    {
+      "soggetto": "voi",
+      "mangiare": "mangerete",
+      "essere": "sarete",
+      "andare": "andrete"
+    },
+    {
+      "soggetto": "loro",
+      "mangiare": "mangeranno",
+      "essere": "saranno",
+      "andare": "andranno"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "L'anno prossimo andrò a Napoli per le vacanze.",
+      "en": "Next year I'll go to Naples for the holidays.",
+      "audio": "L'anno prossimo andrò a Napoli per le vacanze."
+    },
+    {
+      "it": "Domani pioverà — prendi l'ombrello.",
+      "en": "Tomorrow it will rain — take your umbrella.",
+      "audio": "Domani pioverà — prendi l'ombrello."
+    },
+    {
+      "it": "Mario non risponde — sarà occupato.",
+      "en": "Mario isn't answering — he must be busy.",
+      "audio": "Mario non risponde — sarà occupato."
+    },
+    {
+      "it": "Quando finirò gli studi, aprirò un bar.",
+      "en": "When I finish my studies, I'll open a bar.",
+      "audio": "Quando finirò gli studi, aprirò un bar."
+    },
+    {
+      "it": "Non so dove avrò messo le chiavi.",
+      "en": "I don't know where I must have put the keys.",
+      "audio": "Non so dove avrò messo le chiavi."
+    }
+  ],
+  "nota": {
+    "it": "💡 Futuro di probabilità: 'Avrà fame' non significa solo 'He will be hungry' ma anche 'He must be hungry' o 'I suppose he's hungry'. È un uso elegante e tipicamente italiano — una supposizione educata sul presente.",
+    "en": "💡 Future of probability: 'Avrà fame' doesn't only mean 'He will be hungry' but also 'He must be hungry' or 'I suppose he's hungry'. It's an elegant and typically Italian usage — a polite supposition about the present."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il futuro semplice di 'mangiare' alla prima persona?",
+        "en": "How is the simple future of 'mangiare' formed for the first person?"
+      },
+      "opzioni": [
+        "mangiavo",
+        "mangerò",
+        "mangio",
+        "mangierò"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! -are: togli -are, aggiungi -erò. mangiare → manger+ò = mangerò.",
+        "en": "Correct! -are: remove -are, add -erò. mangiare → manger+ò = mangerò."
+      },
+      "feedbackErr": {
+        "it": "Futuro -are: mangiare → togli -are, aggiungi -erò → mangerò.",
+        "en": "Future -are: mangiare → remove -are, add -erò → mangerò."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il futuro irregolare di 'essere' alla prima persona?",
+        "en": "What is the irregular future of 'essere' for the first person?"
+      },
+      "opzioni": [
+        "essero",
+        "sarei",
+        "sarò",
+        "sarèi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → sarò. Irregolare: sarò, sarai, sarà, saremo, sarete, saranno.",
+        "en": "Correct! Essere → sarò. Irregular: sarò, sarai, sarà, saremo, sarete, saranno."
+      },
+      "feedbackErr": {
+        "it": "Essere → futuro irregolare: sarò (non 'essero').",
+        "en": "Essere → irregular future: sarò (not 'essero')."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il futuro irregolare di 'avere' alla terza persona singolare?",
+        "en": "What is the irregular future of 'avere' for the third person singular?"
+      },
+      "opzioni": [
+        "averà",
+        "avrà",
+        "haverà",
+        "avrerà"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Avere → avrà (irregolare). avrò, avrai, avrà, avremo, avrete, avranno.",
+        "en": "Correct! Avere → avrà (irregular). avrò, avrai, avrà, avremo, avrete, avranno."
+      },
+      "feedbackErr": {
+        "it": "Avere → irregolare: avrà. Non 'averà'.",
+        "en": "Avere → irregular: avrà. Not 'averà'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'We will go to Naples' in italiano?",
+        "en": "How do you say 'We will go to Naples' in Italian?"
+      },
+      "opzioni": [
+        "Anderemo a Napoli.",
+        "Andavamo a Napoli.",
+        "Andremo a Napoli.",
+        "Andiamo a Napoli."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Andare → futuro irregolare: andrò, andrai, andrà, andremo, andrete, andranno.",
+        "en": "Correct! Andare → irregular future: andrò, andrai, andrà, andremo, andrete, andranno."
+      },
+      "feedbackErr": {
+        "it": "Andare → irregolare: andremo. Non 'anderemo'.",
+        "en": "Andare → irregular: andremo. Not 'anderemo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la terminazione del futuro alla seconda persona singolare?",
+        "en": "What is the future ending for the second person singular?"
+      },
+      "opzioni": [
+        "-ò",
+        "-ai",
+        "-à",
+        "-emo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tu → -ai: mangerai, andrai, sarai, farai.",
+        "en": "Correct! Tu → -ai: mangerai, andrai, sarai, farai."
+      },
+      "feedbackErr": {
+        "it": "Tu → futuro: -ai. mangerai, andrai, sarai, farai.",
+        "en": "Tu → future: -ai. mangerai, andrai, sarai, farai."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale uso descrive 'Sarà stanco dopo il viaggio'?",
+        "en": "Which use describes 'Sarà stanco dopo il viaggio'?"
+      },
+      "opzioni": [
+        "Futuro reale",
+        "Futuro di probabilità",
+        "Imperativo",
+        "Condizionale"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sarà stanco' = He must be tired / He's probably tired — futuro di probabilità sul presente.",
+        "en": "Correct! 'Sarà stanco' = He must be tired / He's probably tired — future of probability about the present."
+      },
+      "feedbackErr": {
+        "it": "'Sarà stanco' = ipotesi/probabilità sul presente. Futuro di probabilità.",
+        "en": "'Sarà stanco' = hypothesis/probability about the present. Future of probability."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il futuro irregolare di 'fare' alla prima persona?",
+        "en": "What is the irregular future of 'fare' for the first person?"
+      },
+      "opzioni": [
+        "farevo",
+        "farei",
+        "farò",
+        "faccio"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Fare → farò. Irregolare: farò, farai, farà, faremo, farete, faranno.",
+        "en": "Correct! Fare → farò. Irregular: farò, farai, farà, faremo, farete, faranno."
+      },
+      "feedbackErr": {
+        "it": "Fare → futuro irregolare: farò.",
+        "en": "Fare → irregular future: farò."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Quando ___ (finire) il lavoro, usciremo.",
+        "en": "Complete: When ___ (finire) work, we'll go out."
+      },
+      "opzioni": [
+        "finisco",
+        "finivo",
+        "finirò",
+        "finisca"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! In italiano con 'quando' + futuro si usa il futuro (non il presente come in inglese): quando finirò.",
+        "en": "Correct! In Italian with 'quando' + future you use the future (not the present as in English): quando finirò."
+      },
+      "feedbackErr": {
+        "it": "Con 'quando' + futuro → italiano usa il futuro: quando finirò (non 'quando finisco').",
+        "en": "With 'quando' + future → Italian uses the future: quando finirò (not 'quando finisco')."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase usa il futuro di probabilità?",
+        "en": "Which sentence uses the future of probability?"
+      },
+      "opzioni": [
+        "Domani andrò a Roma.",
+        "Mario non risponde — starà dormendo.",
+        "Quando finisco mangio.",
+        "Se vuoi vengo."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Starà dormendo' = He must be sleeping / probably sleeping — futuro di probabilità sul presente.",
+        "en": "Correct! 'Starà dormendo' = He must be sleeping / probably sleeping — future of probability about the present."
+      },
+      "feedbackErr": {
+        "it": "'Starà dormendo' = supposizione sul presente (must be sleeping) → futuro di probabilità.",
+        "en": "'Starà dormendo' = supposition about the present (must be sleeping) → future of probability."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il futuro di 'venire' alla terza persona singolare?",
+        "en": "What is the future of 'venire' for the third person singular?"
+      },
+      "opzioni": [
+        "venirà",
+        "verrà",
+        "venerà",
+        "venierà"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Venire → futuro irregolare: verrò, verrai, verrà, verremo, verrete, verranno.",
+        "en": "Correct! Venire → irregular future: verrò, verrai, verrà, verremo, verrete, verranno."
+      },
+      "feedbackErr": {
+        "it": "Venire → irregolare: verrà. Non 'venirà'.",
+        "en": "Venire → irregular: verrà. Not 'venirà'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il futuro di 'potere' alla prima persona è…?",
+        "en": "The future of 'potere' for the first person is…?"
+      },
+      "opzioni": [
+        "poterai",
+        "potrò",
+        "poterò",
+        "potrerò"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Potere → futuro irregolare: potrò. Stesso schema di volere→vorrò, dovere→dovrò.",
+        "en": "Correct! Potere → irregular future: potrò. Same pattern as volere→vorrò, dovere→dovrò."
+      },
+      "feedbackErr": {
+        "it": "Potere → irregolare: potrò. Schema: pot+rò.",
+        "en": "Potere → irregular: potrò. Pattern: pot+rò."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: L'anno prossimo ___ (noi, visitare) il Giappone.",
+        "en": "Complete: Next year ___ (noi, visit) Japan."
+      },
+      "opzioni": [
+        "visitiamo",
+        "visitavamo",
+        "visiteremo",
+        "visitiamo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Futuro lontano/pianificato → futuro semplice: visiteremo.",
+        "en": "Correct! Distant/planned future → simple future: visiteremo."
+      },
+      "feedbackErr": {
+        "it": "Futuro pianificato per l'anno prossimo → visiteremo.",
+        "en": "Planned future for next year → visiteremo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si traduce 'They will know the answer'?",
+        "en": "How do you translate 'They will know the answer'?"
+      },
+      "opzioni": [
+        "Sanno la risposta.",
+        "Sapevano la risposta.",
+        "Sapranno la risposta.",
+        "Saprebbero la risposta."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sapere → futuro irregolare: saprò, saprai, saprà, sapremo, saprete, sapranno.",
+        "en": "Correct! Sapere → irregular future: saprò, saprai, saprà, sapremo, saprete, sapranno."
+      },
+      "feedbackErr": {
+        "it": "Sapere → sapranno. Irregolare: sap+ranno.",
+        "en": "Sapere → sapranno. Irregular: sap+ranno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché si usa spesso il presente invece del futuro in italiano?",
+        "en": "Why is the present often used instead of the future in Italian?"
+      },
+      "opzioni": [
+        "Perché il futuro non esiste",
+        "Per il futuro vicino e già pianificato",
+        "Solo al sud Italia",
+        "È un errore grammaticale"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Per eventi futuri vicini e già pianificati il presente è più naturale: 'Domani vado a Napoli' invece di 'Domani andrò a Napoli'.",
+        "en": "Correct! For near and already planned future events the present is more natural: 'Domani vado a Napoli' instead of 'Domani andrò a Napoli'."
+      },
+      "feedbackErr": {
+        "it": "Il presente per il futuro vicino è normale in italiano: 'Domani vado' (già pianificato) è più naturale di 'Domani andrò'.",
+        "en": "The present for the near future is normal in Italian: 'Domani vado' (already planned) is more natural than 'Domani andrò'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la terminazione del futuro alla terza persona plurale?",
+        "en": "What is the future ending for the third person plural?"
+      },
+      "opzioni": [
+        "-ono",
+        "-ano",
+        "-anno",
+        "-eno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Loro → -anno: mangeranno, andranno, saranno, faranno.",
+        "en": "Correct! Loro → -anno: mangeranno, andranno, saranno, faranno."
+      },
+      "feedbackErr": {
+        "it": "Loro → futuro: -anno. mangeranno, andranno, saranno.",
+        "en": "Loro → future: -anno. mangeranno, andranno, saranno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Futuro di 'volere' alla seconda persona singolare?",
+        "en": "Future of 'volere' for the second person singular?"
+      },
+      "opzioni": [
+        "volerai",
+        "vorrai",
+        "volrai",
+        "volerài"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Volere → futuro irregolare: vorrò, vorrai, vorrà, vorremo, vorrete, vorranno.",
+        "en": "Correct! Volere → irregular future: vorrò, vorrai, vorrà, vorremo, vorrete, vorranno."
+      },
+      "feedbackErr": {
+        "it": "Volere → irregolare: vorrai. Non 'volerai'.",
+        "en": "Volere → irregular: vorrai. Not 'volerai'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Quanti anni avrà?' significa…?",
+        "en": "'Quanti anni avrà?' means…?"
+      },
+      "opzioni": [
+        "How old will he be in the future?",
+        "How old do you think he is? (making a guess)",
+        "How old was he?",
+        "How old is he exactly?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Futuro di probabilità: 'Quanti anni avrà?' = I wonder how old he is / How old do you think he is?",
+        "en": "Correct! Future of probability: 'Quanti anni avrà?' = I wonder how old he is / How old do you think he is?"
+      },
+      "feedbackErr": {
+        "it": "'Avrà' qui è futuro di probabilità sul presente = I wonder how old he is. Non riguarda il futuro reale.",
+        "en": "'Avrà' here is future of probability about the present = I wonder how old he is. Not about the real future."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Futuro di 'dovere' alla prima persona singolare?",
+        "en": "Future of 'dovere' for the first person singular?"
+      },
+      "opzioni": [
+        "doverò",
+        "dovrò",
+        "doverài",
+        "dovrerò"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dovere → futuro irregolare: dovrò. Schema: dov+rò.",
+        "en": "Correct! Dovere → irregular future: dovrò. Pattern: dov+rò."
+      },
+      "feedbackErr": {
+        "it": "Dovere → irregolare: dovrò. Non 'doverò'.",
+        "en": "Dovere → irregular: dovrò. Not 'doverò'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Se studi, ___ (superare) l'esame.",
+        "en": "Complete: If you study, ___ (superare) the exam."
+      },
+      "opzioni": [
+        "superi",
+        "superavi",
+        "supererai",
+        "superavi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Se + presente → futuro: 'Se studi, supererai l'esame.'",
+        "en": "Correct! Se + present → future: 'Se studi, supererai l'esame.'"
+      },
+      "feedbackErr": {
+        "it": "Periodo ipotetico reale: se + presente → futuro. 'Se studi, supererai l'esame.'",
+        "en": "Real conditional: se + present → future. 'Se studi, supererai l'esame.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Futuro di 'vedere' alla terza persona singolare?",
+        "en": "Future of 'vedere' for the third person singular?"
+      },
+      "opzioni": [
+        "vederà",
+        "vedrà",
+        "vedirà",
+        "vedràe"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Vedere → futuro irregolare: vedrò, vedrai, vedrà, vedremo, vedrete, vedranno.",
+        "en": "Correct! Vedere → irregular future: vedrò, vedrai, vedrà, vedremo, vedrete, vedranno."
+      },
+      "feedbackErr": {
+        "it": "Vedere → irregolare: vedrà. Non 'vederà'.",
+        "en": "Vedere → irregular: vedrà. Not 'vederà'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi in -are cambiano la -a in -e prima delle desinenze del futuro.",
+        "en": "Verbs in -are change the -a to -e before the future endings."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! mangiare→mangerò (non mangiarò). La -a diventa -e: mangiare→manger-, parlare→parler-.",
+        "en": "Correct! mangiare→mangerò (not mangiarò). The -a becomes -e: mangiare→manger-, parlare→parler-."
+      },
+      "feedbackErr": {
+        "it": "Vero! -are verbi: la a diventa e. mangiare→mangerò, parlare→parlerò.",
+        "en": "True! -are verbs: the a becomes e. mangiare→mangerò, parlare→parlerò."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sarà' è il futuro irregolare di 'essere' alla terza persona singolare.",
+        "en": "'Sarà' is the irregular future of 'essere' for the third person singular."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → sarà. sarò, sarai, sarà, saremo, sarete, saranno.",
+        "en": "Correct! Essere → sarà. sarò, sarai, sarà, saremo, sarete, saranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere → futuro irregolare: sarà.",
+        "en": "True! Essere → irregular future: sarà."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'quando' + evento futuro richiede il futuro (non il presente come in inglese).",
+        "en": "In Italian 'quando' + future event requires the future (not the present as in English)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'When I finish' → 'Quando finirò' (non 'quando finisco'). Diverso dall'inglese!",
+        "en": "Correct! 'When I finish' → 'Quando finirò' (not 'quando finisco'). Different from English!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Con 'quando' + futuro italiano usa il futuro: 'Quando arriverò ti chiamo.' Non 'quando arrivo'.",
+        "en": "True! With 'quando' + future Italian uses the future: 'Quando arriverò ti chiamo.' Not 'quando arrivo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il futuro semplice si usa solo per eventi futuri reali, mai per supposizioni.",
+        "en": "The simple future is only used for real future events, never for suppositions."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il futuro semplice si usa anche per supposizioni sul presente: 'Sarà stanco' = He must be tired.",
+        "en": "Correct! The simple future is also used for suppositions about the present: 'Sarà stanco' = He must be tired."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il futuro si usa anche per probabilità/supposizione: 'Mario non risponde — dormirà.'",
+        "en": "False! The future is also used for probability/supposition: 'Mario non risponde — dormirà.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Andrò' è il futuro irregolare di 'andare' alla prima persona.",
+        "en": "'Andrò' is the irregular future of 'andare' for the first person."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andare → andrò (irregolare). andrò, andrai, andrà, andremo, andrete, andranno.",
+        "en": "Correct! Andare → andrò (irregular). andrò, andrai, andrà, andremo, andrete, andranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Andare → futuro irregolare: andrò. Non 'anderò'.",
+        "en": "True! Andare → irregular future: andrò. Not 'anderò'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Gli italiani usano spesso il presente per indicare il futuro vicino già pianificato.",
+        "en": "Italians often use the present to indicate the near planned future."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Domani vado a Napoli' è più naturale di 'Domani andrò a Napoli' se è già pianificato.",
+        "en": "Correct! 'Domani vado a Napoli' is more natural than 'Domani andrò a Napoli' if already planned."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il presente per il futuro prossimo è normalissimo: 'Stasera mangio la pizza' = I'll eat pizza tonight.",
+        "en": "True! The present for the near future is perfectly normal: 'Stasera mangio la pizza' = I'll eat pizza tonight."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La terminazione del futuro alla prima persona singolare è -ò (con accento).",
+        "en": "The future ending for the first person singular is -ò (with accent)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Io → -ò (accento): mangerò, sarò, andrò, farò. L'accento distingue futuro da presente.",
+        "en": "Correct! Io → -ò (accent): mangerò, sarò, andrò, farò. The accent distinguishes future from present."
+      },
+      "feedbackErr": {
+        "it": "Vero! Prima persona futuro → -ò con accento: mangerò, sarò, andrò.",
+        "en": "True! First person future → -ò with accent: mangerò, sarò, andrò."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Verrò' è il futuro regolare di 'venire'.",
+        "en": "'Verrò' is the regular future of 'venire'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Venire è irregolare al futuro: verrò (non 'venirò'). verrò, verrai, verrà, verremo, verrete, verranno.",
+        "en": "Correct! Venire is irregular in the future: verrò (not 'venirò'). verrò, verrai, verrà, verremo, verrete, verranno."
+      },
+      "feedbackErr": {
+        "it": "Falso! Venire è IRregolare: verrò (non 'venirò'). Irregolare, come andare→andrò.",
+        "en": "False! Venire IS irregular: verrò (not 'venirò'). Irregular, like andare→andrò."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Potrò' è il futuro irregolare di 'potere'.",
+        "en": "'Potrò' is the irregular future of 'potere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Potere → potrò. Stesso schema: volere→vorrò, dovere→dovrò, sapere→saprò.",
+        "en": "Correct! Potere → potrò. Same pattern: volere→vorrò, dovere→dovrò, sapere→saprò."
+      },
+      "feedbackErr": {
+        "it": "Vero! Potere → futuro irregolare: potrò. Non 'poterai'.",
+        "en": "True! Potere → irregular future: potrò. Not 'poterai'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il futuro semplice si forma uguale per i verbi in -are, -ere e -ire.",
+        "en": "The simple future is formed the same way for verbs in -are, -ere and -ire."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stesse desinenze per tutti: -ò/-ai/-à/-emo/-ete/-anno. Solo la vocale tematica cambia.",
+        "en": "Correct! Same endings for all: -ò/-ai/-à/-emo/-ete/-anno. Only the thematic vowel changes."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stesse terminazioni: -ò/-ai/-à/-emo/-ete/-anno per tutti i verbi.",
+        "en": "True! Same endings: -ò/-ai/-à/-emo/-ete/-anno for all verbs."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Farò' è il futuro irregolare di 'fare'.",
+        "en": "'Farò' is the irregular future of 'fare'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → farò. farò, farai, farà, faremo, farete, faranno.",
+        "en": "Correct! Fare → farò. farò, farai, farà, faremo, farete, faranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare → futuro irregolare: farò. Non 'farerò'.",
+        "en": "True! Fare → irregular future: farò. Not 'farerò'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Domani mangio la pizza' è grammaticalmente sbagliato in italiano.",
+        "en": "'Domani mangio la pizza' is grammatically wrong in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! È perfettamente corretto — presente per il futuro vicino. È anzi più naturale di 'Domani mangerò la pizza'.",
+        "en": "Correct! It's perfectly correct — present for the near future. It's actually more natural than 'Domani mangerò la pizza'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Domani mangio' è corretto e naturale in italiano — il presente può esprimere il futuro vicino.",
+        "en": "False! 'Domani mangio' is correct and natural in Italian — the present can express the near future."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sapranno' è il futuro di 'sapere' alla terza persona plurale.",
+        "en": "'Sapranno' is the future of 'sapere' for the third person plural."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sapere → futuro irregolare: saprò, saprai, saprà, sapremo, saprete, sapranno.",
+        "en": "Correct! Sapere → irregular future: saprò, saprai, saprà, sapremo, saprete, sapranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sapere → irregolare: loro sapranno.",
+        "en": "True! Sapere → irregular: loro sapranno."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il futuro semplice si può usare per esprimere un ordine o un obbligo in modo formale.",
+        "en": "The simple future can be used to express an order or obligation in a formal way."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Consegnerete il rapporto entro venerdì.' = You will submit the report by Friday. Formale e autoritario.",
+        "en": "Correct! 'Consegnerete il rapporto entro venerdì.' = You will submit the report by Friday. Formal and authoritative."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il futuro formale come ordine: 'Consegnerete il lavoro domani.' Tipico in contesti professionali.",
+        "en": "True! The formal future as an order: 'Consegnerete il lavoro domani.' Typical in professional contexts."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vedrò' è il futuro regolare di 'vedere'.",
+        "en": "'Vedrò' is the regular future of 'vedere'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Vedere è irregolare al futuro: vedrò (non 'vederò'). vedrò, vedrai, vedrà, vedremo, vedrete, vedranno.",
+        "en": "Correct! Vedere is irregular in the future: vedrò (not 'vederò'). vedrò, vedrai, vedrà, vedremo, vedrete, vedranno."
+      },
+      "feedbackErr": {
+        "it": "Falso! Vedere è IRregolare: vedrò. Non 'vederò'.",
+        "en": "False! Vedere IS irregular: vedrò. Not 'vederò'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il futuro semplice di 'essere' si usa anche per fare previsioni sul tempo atmosferico.",
+        "en": "The simple future of 'essere' is also used to make weather forecasts."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Domani sarà nuvoloso', 'ci sarà pioggia', 'farà freddo' — il futuro nelle previsioni meteo.",
+        "en": "Correct! 'Domani sarà nuvoloso', 'ci sarà pioggia', 'farà freddo' — the future in weather forecasts."
+      },
+      "feedbackErr": {
+        "it": "Vero! Previsioni meteo → futuro: 'domani pioverà', 'sarà soleggiato', 'farà caldo'.",
+        "en": "True! Weather forecasts → future: 'domani pioverà', 'sarà soleggiato', 'farà caldo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorrò' è il futuro di 'volere'.",
+        "en": "'Vorrò' is the future of 'volere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Volere → futuro irregolare: vorrò, vorrai, vorrà, vorremo, vorrete, vorranno.",
+        "en": "Correct! Volere → irregular future: vorrò, vorrai, vorrà, vorremo, vorrete, vorranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Volere → irregolare: vorrò. Non 'volerò'.",
+        "en": "True! Volere → irregular: vorrò. Not 'volerò'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La frase 'Se pioverà, resterò a casa' usa correttamente due futuri.",
+        "en": "The sentence 'Se pioverà, resterò a casa' correctly uses two futures."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In italiano se + futuro → futuro nella principale. Diverso dall'inglese (if it rains → if it will rain in Italian).",
+        "en": "Correct! In Italian se + future → future in the main clause. Different from English (if it rains → if it will rain in Italian)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Se pioverà, resterò' — entrambi futuri. In italiano il se può prendere il futuro (diverso dall'inglese).",
+        "en": "True! 'Se pioverà, resterò' — both futures. In Italian se can take the future (different from English)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La desinenza -emo indica la prima persona plurale del futuro.",
+        "en": "The ending -emo indicates the first person plural of the future."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi → -emo: mangeremo, saremo, andremo, faremo, verremo.",
+        "en": "Correct! Noi → -emo: mangeremo, saremo, andremo, faremo, verremo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Noi + futuro → -emo: mangeremo, saremo, andremo.",
+        "en": "True! Noi + future → -emo: mangeremo, saremo, andremo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrò' è il futuro irregolare di 'avere'.",
+        "en": "'Avrò' is the irregular future of 'avere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avere → futuro irregolare: avrò, avrai, avrà, avremo, avrete, avranno.",
+        "en": "Correct! Avere → irregular future: avrò, avrai, avrà, avremo, avrete, avranno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Avere → irregolare: avrò. Non 'averò'.",
+        "en": "True! Avere → irregular: avrò. Not 'averò'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro pianificato (io, andare a Napoli): L'estate prossima ___ a Napoli.",
+        "en": "Planned future (I, andare to Naples): Next summer ___ to Naples."
+      },
+      "parole": [
+        "andrò",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "vado",
+        "andavo",
+        "andrei"
+      ],
+      "correct": [
+        "andrò",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Andare → futuro irregolare: andrò.",
+        "en": "Perfect! Andare → irregular future: andrò."
+      },
+      "feedbackErr": {
+        "it": "Andare → irregolare: andrò. 'L'estate prossima andrò a Napoli.'",
+        "en": "Andare → irregular: andrò. 'L'estate prossima andrò a Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Previsione meteo (piovere, domani): Domani ___ tutto il giorno.",
+        "en": "Weather forecast (piovere, tomorrow): Tomorrow ___ all day."
+      },
+      "parole": [
+        "pioverà",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "distrattori": [
+        "pioveva",
+        "piove",
+        "piovrebbe"
+      ],
+      "correct": [
+        "pioverà",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Piovere → futuro: pioverà. Previsione → futuro semplice.",
+        "en": "Perfect! Piovere → future: pioverà. Forecast → simple future."
+      },
+      "feedbackErr": {
+        "it": "Previsione → futuro: pioverà. 'Domani pioverà tutto il giorno.'",
+        "en": "Forecast → future: pioverà. 'Domani pioverà tutto il giorno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare essere (tu): ___ un ottimo professore un giorno.",
+        "en": "Irregular essere (tu): ___ an excellent teacher one day."
+      },
+      "parole": [
+        "Sarai",
+        "un",
+        "ottimo",
+        "professore",
+        "un",
+        "giorno"
+      ],
+      "distrattori": [
+        "Eri",
+        "Sei",
+        "Saresti"
+      ],
+      "correct": [
+        "Sarai",
+        "un",
+        "ottimo",
+        "professore",
+        "un",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Essere → futuro irregolare: sarai.",
+        "en": "Perfect! Essere → irregular future: sarai."
+      },
+      "feedbackErr": {
+        "it": "Essere → futuro irregolare: sarai. 'Sarai un ottimo professore.'",
+        "en": "Essere → irregular future: sarai. 'Sarai un ottimo professore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro di probabilità (Mario, dove essere): Mario non risponde — ___ occupato.",
+        "en": "Future of probability (Mario, where essere): Mario isn't answering — ___ busy."
+      },
+      "parole": [
+        "sarà",
+        "occupato"
+      ],
+      "distrattori": [
+        "è",
+        "era",
+        "sarebbe"
+      ],
+      "correct": [
+        "sarà",
+        "occupato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Futuro di probabilità: 'sarà' = he must be / he's probably.",
+        "en": "Perfect! Future of probability: 'sarà' = he must be / he's probably."
+      },
+      "feedbackErr": {
+        "it": "Supposizione sul presente → futuro di probabilità: 'sarà occupato' = he must be busy.",
+        "en": "Supposition about the present → future of probability: 'sarà occupato' = he must be busy."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare avere (lei): Quanti anni ___ — trentacinque?",
+        "en": "Irregular avere (she): How old ___ she be — thirty-five?"
+      },
+      "parole": [
+        "avrà"
+      ],
+      "distrattori": [
+        "aveva",
+        "ha",
+        "avrebbe"
+      ],
+      "correct": [
+        "avrà"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avere → futuro irregolare: avrà. Qui = futuro di probabilità (I wonder how old she is).",
+        "en": "Perfect! Avere → irregular future: avrà. Here = future of probability (I wonder how old she is)."
+      },
+      "feedbackErr": {
+        "it": "Avere → futuro irregolare: avrà. 'Quanti anni avrà?' = how old do you think she is?",
+        "en": "Avere → irregular future: avrà. 'Quanti anni avrà?' = how old do you think she is?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'Quando' + futuro (finire + uscire): Quando ___ il lavoro, usciremo.",
+        "en": "'Quando' + future (finire + uscire): When ___ work, we'll go out."
+      },
+      "parole": [
+        "finirò",
+        "il",
+        "lavoro"
+      ],
+      "distrattori": [
+        "finisco",
+        "finivo",
+        "finisca"
+      ],
+      "correct": [
+        "finirò",
+        "il",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con 'quando' + futuro → futuro (non presente). 'Quando finirò il lavoro, usciremo.'",
+        "en": "Perfect! With 'quando' + future → future (not present). 'Quando finirò il lavoro, usciremo.'"
+      },
+      "feedbackErr": {
+        "it": "'Quando' + futuro → italiano usa futuro: finirò. 'Quando finirò il lavoro, usciremo.'",
+        "en": "'Quando' + future → Italian uses future: finirò. 'Quando finirò il lavoro, usciremo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare fare (noi): L'anno prossimo ___ un viaggio in Giappone.",
+        "en": "Irregular fare (noi): Next year ___ a trip to Japan."
+      },
+      "parole": [
+        "faremo",
+        "un",
+        "viaggio",
+        "in",
+        "Giappone"
+      ],
+      "distrattori": [
+        "abbiamo fatto",
+        "facevamo",
+        "faremmo"
+      ],
+      "correct": [
+        "faremo",
+        "un",
+        "viaggio",
+        "in",
+        "Giappone"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → futuro irregolare: faremo.",
+        "en": "Perfect! Fare → irregular future: faremo."
+      },
+      "feedbackErr": {
+        "it": "Fare → irregolare: noi faremo. 'L'anno prossimo faremo un viaggio in Giappone.'",
+        "en": "Fare → irregular: noi faremo. 'L'anno prossimo faremo un viaggio in Giappone.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare venire (lei): Maria ___ alla festa sabato sera.",
+        "en": "Irregular venire (she): Maria ___ to the party on Saturday evening."
+      },
+      "parole": [
+        "verrà",
+        "alla",
+        "festa",
+        "sabato",
+        "sera"
+      ],
+      "distrattori": [
+        "viene",
+        "veniva",
+        "verrebbe"
+      ],
+      "correct": [
+        "verrà",
+        "alla",
+        "festa",
+        "sabato",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Venire → futuro irregolare: verrà.",
+        "en": "Perfect! Venire → irregular future: verrà."
+      },
+      "feedbackErr": {
+        "it": "Venire → irregolare: verrà. 'Maria verrà alla festa sabato sera.'",
+        "en": "Venire → irregular: verrà. 'Maria verrà alla festa sabato sera.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Previsione (il corso): Il corso ___ molto interessante, vedrai.",
+        "en": "Prediction (il corso): The course ___ very interesting, you'll see."
+      },
+      "parole": [
+        "sarà",
+        "molto",
+        "interessante",
+        "vedrai"
+      ],
+      "distrattori": [
+        "era",
+        "è",
+        "sarebbe"
+      ],
+      "correct": [
+        "sarà",
+        "molto",
+        "interessante",
+        "vedrai"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Previsione positiva → futuro: sarà. 'Il corso sarà molto interessante, vedrai.'",
+        "en": "Perfect! Positive prediction → future: sarà. 'Il corso sarà molto interessante, vedrai.'"
+      },
+      "feedbackErr": {
+        "it": "Previsione → futuro: sarà. 'Il corso sarà molto interessante, vedrai.'",
+        "en": "Prediction → future: sarà. 'Il corso sarà molto interessante, vedrai.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare potere (io): Non ___ venire alla festa, mi dispiace.",
+        "en": "Irregular potere (I): ___ not come to the party, I'm sorry."
+      },
+      "parole": [
+        "potrò",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "posso",
+        "potevo",
+        "potrei"
+      ],
+      "correct": [
+        "potrò",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Potere → futuro irregolare: potrò.",
+        "en": "Perfect! Potere → irregular future: potrò."
+      },
+      "feedbackErr": {
+        "it": "Potere → irregolare: potrò. 'Non potrò venire alla festa.'",
+        "en": "Potere → irregular: potrò. 'Non potrò venire alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro -ere (loro, vendere la casa): ___ la casa l'anno prossimo.",
+        "en": "Future -ere (they, vendere la casa): ___ the house next year."
+      },
+      "parole": [
+        "Venderanno",
+        "la",
+        "casa",
+        "l'anno",
+        "prossimo"
+      ],
+      "distrattori": [
+        "Hanno venduto",
+        "Vendevano",
+        "Venderebbero"
+      ],
+      "correct": [
+        "Venderanno",
+        "la",
+        "casa",
+        "l'anno",
+        "prossimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vendere → futuro: venderanno. Loro → -anno.",
+        "en": "Perfect! Vendere → future: venderanno. Loro → -anno."
+      },
+      "feedbackErr": {
+        "it": "Vendere → futuro: loro venderanno. 'Venderanno la casa l'anno prossimo.'",
+        "en": "Vendere → future: loro venderanno. 'Venderanno la casa l'anno prossimo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare dovere (voi): ___ studiare di più per il prossimo esame.",
+        "en": "Irregular dovere (voi): ___ study more for the next exam."
+      },
+      "parole": [
+        "Dovrete",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "Dovete",
+        "Dovevate",
+        "Dovreste"
+      ],
+      "correct": [
+        "Dovrete",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Dovere → futuro irregolare: dovrete.",
+        "en": "Perfect! Dovere → irregular future: dovrete."
+      },
+      "feedbackErr": {
+        "it": "Dovere → irregolare: voi dovrete. 'Dovrete studiare di più.'",
+        "en": "Dovere → irregular: voi dovrete. 'Dovrete studiare di più.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Se + futuro (studiare → superare): Se ___, supererai l'esame.",
+        "en": "Se + future (studiare → superare): If ___, you'll pass the exam."
+      },
+      "parole": [
+        "studi"
+      ],
+      "distrattori": [
+        "studierai",
+        "studiavi",
+        "studieresti"
+      ],
+      "correct": [
+        "studi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Se + presente → futuro nella principale. 'Se studi, supererai.'",
+        "en": "Perfect! Se + present → future in the main clause. 'Se studi, supererai.'"
+      },
+      "feedbackErr": {
+        "it": "Periodo ipotetico reale: se + presente indicativo → futuro. 'Se studi, supererai l'esame.'",
+        "en": "Real conditional: se + present indicative → future. 'Se studi, supererai l'esame.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare vedere (io): ___ la partita domani sera.",
+        "en": "Irregular vedere (I): ___ the match tomorrow evening."
+      },
+      "parole": [
+        "Vedrò",
+        "la",
+        "partita",
+        "domani",
+        "sera"
+      ],
+      "distrattori": [
+        "Vedo",
+        "Vedevo",
+        "Vedrei"
+      ],
+      "correct": [
+        "Vedrò",
+        "la",
+        "partita",
+        "domani",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vedere → futuro irregolare: vedrò.",
+        "en": "Perfect! Vedere → irregular future: vedrò."
+      },
+      "feedbackErr": {
+        "it": "Vedere → irregolare: vedrò. 'Vedrò la partita domani sera.'",
+        "en": "Vedere → irregular: vedrò. 'Vedrò la partita domani sera.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro -ire (tu, partire): Quando ___ per Londra?",
+        "en": "Future -ire (you, partire): When ___ to London?"
+      },
+      "parole": [
+        "partirai",
+        "per",
+        "Londra"
+      ],
+      "distrattori": [
+        "parti",
+        "partivi",
+        "partiresti"
+      ],
+      "correct": [
+        "partirai",
+        "per",
+        "Londra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Partire → futuro: partirai. Tu → -ai.",
+        "en": "Perfect! Partire → future: partirai. Tu → -ai."
+      },
+      "feedbackErr": {
+        "it": "Partire → futuro: partirai. 'Quando partirai per Londra?'",
+        "en": "Partire → future: partirai. 'Quando partirai per Londra?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare sapere (loro): Non ___ mai la verità.",
+        "en": "Irregular sapere (they): ___ never know the truth."
+      },
+      "parole": [
+        "sapranno",
+        "mai",
+        "la",
+        "verità"
+      ],
+      "distrattori": [
+        "sanno",
+        "sapevano",
+        "saprebbero"
+      ],
+      "correct": [
+        "sapranno",
+        "mai",
+        "la",
+        "verità"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sapere → futuro irregolare: sapranno.",
+        "en": "Perfect! Sapere → irregular future: sapranno."
+      },
+      "feedbackErr": {
+        "it": "Sapere → irregolare: loro sapranno. 'Non sapranno mai la verità.'",
+        "en": "Sapere → irregular: loro sapranno. 'Non sapranno mai la verità.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro -are (noi, lavorare): ___ insieme il mese prossimo.",
+        "en": "Future -are (noi, lavorare): ___ together next month."
+      },
+      "parole": [
+        "Lavoreremo",
+        "insieme",
+        "il",
+        "mese",
+        "prossimo"
+      ],
+      "distrattori": [
+        "Lavoriamo",
+        "Lavoravamo",
+        "Lavoreremmo"
+      ],
+      "correct": [
+        "Lavoreremo",
+        "insieme",
+        "il",
+        "mese",
+        "prossimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Lavorare → futuro: lavoreremo (-are→-er-+emo).",
+        "en": "Perfect! Lavorare → future: lavoreremo (-are→-er-+emo)."
+      },
+      "feedbackErr": {
+        "it": "Lavorare → futuro: noi lavoreremo. 'Lavoreremo insieme il mese prossimo.'",
+        "en": "Lavorare → future: noi lavoreremo. 'Lavoreremo insieme il mese prossimo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare volere (tu): ___ davvero farlo da solo?",
+        "en": "Irregular volere (you): ___ really do it alone?"
+      },
+      "parole": [
+        "Vorrai",
+        "davvero",
+        "farlo",
+        "da",
+        "solo"
+      ],
+      "distrattori": [
+        "Vuoi",
+        "Volevi",
+        "Vorresti"
+      ],
+      "correct": [
+        "Vorrai",
+        "davvero",
+        "farlo",
+        "da",
+        "solo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Volere → futuro irregolare: vorrai.",
+        "en": "Perfect! Volere → irregular future: vorrai."
+      },
+      "feedbackErr": {
+        "it": "Volere → irregolare: vorrai. 'Vorrai davvero farlo da solo?'",
+        "en": "Volere → irregular: vorrai. 'Vorrai davvero farlo da solo?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro -are (lei, parlare con Mario): ___ con Mario domani.",
+        "en": "Future -are (she, parlare con Mario): ___ with Mario tomorrow."
+      },
+      "parole": [
+        "Parlerà",
+        "con",
+        "Mario",
+        "domani"
+      ],
+      "distrattori": [
+        "Parla",
+        "Parlava",
+        "Parlerebbe"
+      ],
+      "correct": [
+        "Parlerà",
+        "con",
+        "Mario",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Parlare → futuro: parlerà (-are→-er-+à).",
+        "en": "Perfect! Parlare → future: parlerà (-are→-er-+à)."
+      },
+      "feedbackErr": {
+        "it": "Parlare → futuro: lei parlerà. 'Parlerà con Mario domani.'",
+        "en": "Parlare → future: lei parlerà. 'Parlerà con Mario domani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Futuro di probabilità (le chiavi — dove essere): Le chiavi — dove ___ ?",
+        "en": "Future of probability (le chiavi — where essere): The keys — where ___ ?"
+      },
+      "parole": [
+        "saranno"
+      ],
+      "distrattori": [
+        "sono",
+        "erano",
+        "sarebbero"
+      ],
+      "correct": [
+        "saranno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Dove saranno?' = I wonder where they are / where could they be? Futuro di probabilità.",
+        "en": "Perfect! 'Dove saranno?' = I wonder where they are / where could they be? Future of probability."
+      },
+      "feedbackErr": {
+        "it": "'Dove saranno?' = futuro di probabilità = I wonder where they are. Non riguarda il futuro reale.",
+        "en": "'Dove saranno?' = future of probability = I wonder where they are. Not about the real future."
+      }
+    }
+  ]
+}

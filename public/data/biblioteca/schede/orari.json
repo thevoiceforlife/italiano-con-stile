@@ -1,0 +1,1507 @@
+{
+  "id": "orari",
+  "categoria": "vocabolario",
+  "emoji": "🕐",
+  "livello": "A1",
+  "titolo": {
+    "it": "Orari e Tempo",
+    "en": "Time and Schedules"
+  },
+  "mario": "Al bar di Mario si entra alle sette di mattina e si esce quando si vuole. Ma fuori dal bar, in Italia, gli orari contano. I negozi chiudono a pranzo, le banche aprono tardi, i treni partono in orario (quasi sempre). Impara gli orari — ti salverà la vita.",
+  "marioEn": "At Mario's bar you come in at seven in the morning and leave whenever you want. But outside the bar, in Italy, schedules matter. Shops close at lunch, banks open late, trains leave on time (almost always). Learn the times — it will save your life.",
+  "perche": {
+    "it": "In inglese dici 'three thirty' o 'half past three'. In italiano hai due sistemi: il sistema informale (sono le tre e mezza) e il sistema formale a 24 ore (sono le quindici e trenta). Il sistema a 24 ore domina negli orari ufficiali — treni, aerei, TV, banche. Il sistema a 12 ore domina nella conversazione. Devi conoscere entrambi.",
+    "en": "In English you say 'three thirty' or 'half past three'. In Italian you have two systems: the informal system (sono le tre e mezza) and the formal 24-hour system (sono le quindici e trenta). The 24-hour system dominates official schedules — trains, planes, TV, banks. The 12-hour system dominates conversation. You need to know both."
+  },
+  "spiegazione": {
+    "it": "L'ora: 'Che ore sono?' / 'Che ora è?' → 'Sono le [numero]' (tutte le ore tranne l'una). 'È l'una' (solo per l'una). Minuti: e [minuti] per prima della metà, meno [minuti] per dopo la metà. Mezzogiorno/mezzanotte invariabili. Espressioni: di mattina/pomeriggio/sera/notte. In punto = exactly. Circa = approximately. Presto/tardi = early/late.",
+    "en": "The time: 'Che ore sono?' / 'Che ora è?' → 'Sono le [number]' (all hours except one). 'È l'una' (only for one o'clock). Minutes: e [minutes] for before the half, meno [minutes] for after the half. Mezzogiorno/mezzanotte invariable. Expressions: di mattina/pomeriggio/sera/notte. In punto = exactly. Circa = approximately. Presto/tardi = early/late."
+  },
+  "tabella": [
+    {
+      "ora_it": "È l'una.",
+      "ora_en": "It's one o'clock.",
+      "formale": "13:00"
+    },
+    {
+      "ora_it": "Sono le due e mezza.",
+      "ora_en": "It's half past two.",
+      "formale": "14:30"
+    },
+    {
+      "ora_it": "Sono le tre e un quarto.",
+      "ora_en": "It's quarter past three.",
+      "formale": "15:15"
+    },
+    {
+      "ora_it": "Sono le quattro meno un quarto.",
+      "ora_en": "It's quarter to four.",
+      "formale": "15:45"
+    },
+    {
+      "ora_it": "Sono le diciassette e trenta.",
+      "ora_en": "It's five thirty pm.",
+      "formale": "17:30"
+    },
+    {
+      "ora_it": "È mezzogiorno.",
+      "ora_en": "It's noon.",
+      "formale": "12:00"
+    },
+    {
+      "ora_it": "È mezzanotte.",
+      "ora_en": "It's midnight.",
+      "formale": "00:00"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Che ore sono? Sono le otto e un quarto di mattina.",
+      "en": "What time is it? It's quarter past eight in the morning.",
+      "audio": "Che ore sono? Sono le otto e un quarto di mattina."
+    },
+    {
+      "it": "Il treno parte alle diciannove e quarantacinque.",
+      "en": "The train leaves at nineteen forty-five.",
+      "audio": "Il treno parte alle diciannove e quarantacinque."
+    },
+    {
+      "it": "Il bar apre a mezzogiorno in punto.",
+      "en": "The bar opens at exactly noon.",
+      "audio": "Il bar apre a mezzogiorno in punto."
+    },
+    {
+      "it": "Ci vediamo alle tre meno venti, va bene?",
+      "en": "Let's meet at twenty to three, OK?",
+      "audio": "Ci vediamo alle tre meno venti, va bene?"
+    },
+    {
+      "it": "Arrivo tardi — saranno le undici di sera.",
+      "en": "I'll arrive late — it'll be around eleven at night.",
+      "audio": "Arrivo tardi — saranno le undici di sera."
+    }
+  ],
+  "nota": {
+    "it": "💡 Perché 'è l'una' e non 'sono le una'? Perché 'una' è singolare — c'è una sola ora. Tutte le altre ore sono plurali (due, tre, quattro...) quindi 'sono le'. Stesso ragionamento per mezzogiorno e mezzanotte — invariabili perché non sono numeri.",
+    "en": "💡 Why 'è l'una' and not 'sono le una'? Because 'una' is singular — there is only one hour. All other hours are plural (due, tre, quattro...) so 'sono le'. Same reasoning for mezzogiorno and mezzanotte — invariable because they are not numbers."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's one o'clock' in italiano?",
+        "en": "How do you say 'It's one o'clock' in Italian?"
+      },
+      "opzioni": [
+        "Sono le una.",
+        "È l'una.",
+        "Sono l'una.",
+        "È le una."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! È l'una — singolare perché 'una' è singolare. Tutte le altre ore → 'sono le'.",
+        "en": "Correct! È l'una — singular because 'una' is singular. All other hours → 'sono le'."
+      },
+      "feedbackErr": {
+        "it": "È l'una (singolare). Solo l'una usa 'è'. Tutte le altre: 'sono le due', 'sono le tre'...",
+        "en": "È l'una (singular). Only one o'clock uses 'è'. All others: 'sono le due', 'sono le tre'..."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's half past three' in italiano?",
+        "en": "How do you say 'It's half past three' in Italian?"
+      },
+      "opzioni": [
+        "Sono le tre meno mezza.",
+        "Sono le tre e mezza.",
+        "Sono le tre e trenta minuti.",
+        "È le tre e mezza."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sono le tre e mezza. 'E mezza' = plus thirty minutes.",
+        "en": "Correct! Sono le tre e mezza. 'E mezza' = plus thirty minutes."
+      },
+      "feedbackErr": {
+        "it": "Tre e mezza = half past three. 'Sono le tre e mezza.'",
+        "en": "Tre e mezza = half past three. 'Sono le tre e mezza.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's quarter past eight' in italiano?",
+        "en": "How do you say 'It's quarter past eight' in Italian?"
+      },
+      "opzioni": [
+        "Sono le otto meno un quarto.",
+        "Sono le otto e quindici.",
+        "Sono le otto e un quarto.",
+        "Sono le otto e un quinto."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sono le otto e un quarto. Anche 'otto e quindici' è corretto ma meno usato.",
+        "en": "Correct! Sono le otto e un quarto. 'Otto e quindici' is also correct but less common."
+      },
+      "feedbackErr": {
+        "it": "Quarto d'ora = un quarto. 'Sono le otto e un quarto.' (o 'otto e quindici').",
+        "en": "Quarter hour = un quarto. 'Sono le otto e un quarto.' (or 'otto e quindici')."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's quarter to four' in italiano?",
+        "en": "How do you say 'It's quarter to four' in Italian?"
+      },
+      "opzioni": [
+        "Sono le quattro e un quarto.",
+        "Sono le tre e tre quarti.",
+        "Sono le quattro meno un quarto.",
+        "Sono le quattro meno quindici."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sono le quattro meno un quarto. 'Meno' = minus, quindi 4:00 - 0:15 = 3:45.",
+        "en": "Correct! Sono le quattro meno un quarto. 'Meno' = minus, so 4:00 - 0:15 = 3:45."
+      },
+      "feedbackErr": {
+        "it": "Quarter to four = quattro meno un quarto = 3:45. 'Meno' indica i minuti che mancano.",
+        "en": "Quarter to four = quattro meno un quarto = 3:45. 'Meno' indicates the minutes remaining."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiede l'ora in italiano?",
+        "en": "How do you ask the time in Italian?"
+      },
+      "opzioni": [
+        "Qual è l'ora?",
+        "Che ore sono? / Che ora è?",
+        "Come sono le ore?",
+        "Quanto tempo è?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Che ore sono?' (più comune) o 'Che ora è?' — entrambe corrette.",
+        "en": "Correct! 'Che ore sono?' (more common) or 'Che ora è?' — both correct."
+      },
+      "feedbackErr": {
+        "it": "Si chiede 'Che ore sono?' o 'Che ora è?' — entrambe corrette e comuni.",
+        "en": "You ask 'Che ore sono?' or 'Che ora è?' — both correct and common."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'mezzogiorno' in inglese?",
+        "en": "How do you say 'mezzogiorno' in English?"
+      },
+      "opzioni": [
+        "Midnight",
+        "Midday / Noon",
+        "Half past twelve",
+        "Lunchtime"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Mezzogiorno = midday / noon = 12:00.",
+        "en": "Correct! Mezzogiorno = midday / noon = 12:00."
+      },
+      "feedbackErr": {
+        "it": "Mezzogiorno = noon (12:00). Mezzanotte = midnight (00:00).",
+        "en": "Mezzogiorno = noon (12:00). Mezzanotte = midnight (00:00)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sono le venti' corrisponde a che ora nel sistema 12 ore?",
+        "en": "'Sono le venti' corresponds to what time in the 12-hour system?"
+      },
+      "opzioni": [
+        "8:00 am",
+        "8:00 pm",
+        "20:00 (= same)",
+        "10:00 pm"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Le venti = 20:00 = 8:00 pm. Sistema 24 ore - 12 = sistema 12 ore. 20 - 12 = 8 pm.",
+        "en": "Correct! Le venti = 20:00 = 8:00 pm. 24-hour system - 12 = 12-hour system. 20 - 12 = 8 pm."
+      },
+      "feedbackErr": {
+        "it": "Le venti = 20:00 = 8 di sera. Per convertire: 20 - 12 = 8 pm.",
+        "en": "Le venti = 20:00 = 8 in the evening. To convert: 20 - 12 = 8 pm."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'In punto' significa…?",
+        "en": "'In punto' means…?"
+      },
+      "opzioni": [
+        "Approximately",
+        "Almost",
+        "Exactly (on the dot)",
+        "Around that time"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! In punto = exactly, on the dot. 'Arrivo alle tre in punto' = I arrive at exactly three.",
+        "en": "Correct! In punto = exactly, on the dot. 'Arrivo alle tre in punto' = I arrive at exactly three."
+      },
+      "feedbackErr": {
+        "it": "In punto = on the dot / exactly. 'Alle otto in punto' = at exactly eight.",
+        "en": "In punto = on the dot / exactly. 'Alle otto in punto' = at exactly eight."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's twenty past five' in italiano?",
+        "en": "How do you say 'It's twenty past five' in Italian?"
+      },
+      "opzioni": [
+        "Sono le cinque meno venti.",
+        "Sono le cinque e venti.",
+        "Sono le sei meno venti.",
+        "Sono le cinque e un terzo."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sono le cinque e venti. 'E + minuti' per i minuti dopo l'ora.",
+        "en": "Correct! Sono le cinque e venti. 'E + minutes' for minutes past the hour."
+      },
+      "feedbackErr": {
+        "it": "Minuti dopo l'ora → 'e + minuti': cinque e venti. 'Sono le cinque e venti.'",
+        "en": "Minutes past the hour → 'e + minutes': cinque e venti. 'Sono le cinque e venti.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Di mattina' corrisponde a quale periodo?",
+        "en": "'Di mattina' corresponds to which period?"
+      },
+      "opzioni": [
+        "12pm-6pm",
+        "6pm-12am",
+        "6am-12pm",
+        "12am-6am"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Di mattina = morning = roughly 6am-noon. Di pomeriggio = afternoon. Di sera = evening. Di notte = night.",
+        "en": "Correct! Di mattina = morning = roughly 6am-noon. Di pomeriggio = afternoon. Di sera = evening. Di notte = night."
+      },
+      "feedbackErr": {
+        "it": "Di mattina = morning (6am-noon). Di pomeriggio = afternoon. Di sera = evening. Di notte = night.",
+        "en": "Di mattina = morning (6am-noon). Di pomeriggio = afternoon. Di sera = evening. Di notte = night."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'It's ten to nine' in italiano?",
+        "en": "How do you say 'It's ten to nine' in Italian?"
+      },
+      "opzioni": [
+        "Sono le nove e dieci.",
+        "Sono le otto e cinquanta.",
+        "Sono le nove meno dieci.",
+        "Sono le nove meno un quarto."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sono le nove meno dieci = 8:50. 'Meno + minuti' per i minuti prima dell'ora.",
+        "en": "Correct! Sono le nove meno dieci = 8:50. 'Meno + minutes' for minutes before the hour."
+      },
+      "feedbackErr": {
+        "it": "'Meno + minuti' per prima dell'ora: nove meno dieci = 8:50. 'Sono le nove meno dieci.'",
+        "en": "'Meno + minutes' for before the hour: nove meno dieci = 8:50. 'Sono le nove meno dieci.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il treno parte alle 14:30 — come si dice in modo informale?",
+        "en": "The train leaves at 14:30 — how do you say it informally?"
+      },
+      "opzioni": [
+        "Parte alle due e mezza del pomeriggio.",
+        "Parte alle quattordici.",
+        "Parte a mezzogiorno e mezza.",
+        "Parte alle quattordici e trenta."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Informalmente: due e mezza del pomeriggio. Formalmente: quattordici e trenta.",
+        "en": "Correct! Informally: due e mezza del pomeriggio. Formally: quattordici e trenta."
+      },
+      "feedbackErr": {
+        "it": "14:30 informale = due e mezza del pomeriggio. Formale = quattordici e trenta.",
+        "en": "14:30 informal = due e mezza del pomeriggio. Formal = quattordici e trenta."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Circa' usato con gli orari significa…?",
+        "en": "'Circa' used with times means…?"
+      },
+      "opzioni": [
+        "Exactly",
+        "On time",
+        "Around / approximately",
+        "Never"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Circa = around, approximately. 'Arrivo circa alle tre' = I'll arrive around three.",
+        "en": "Correct! Circa = around, approximately. 'Arrivo circa alle tre' = I'll arrive around three."
+      },
+      "feedbackErr": {
+        "it": "Circa = around / approximately. 'Alle tre circa' = around three o'clock.",
+        "en": "Circa = around / approximately. 'Alle tre circa' = around three o'clock."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'early' in italiano (riferito all'ora)?",
+        "en": "How do you say 'early' in Italian (referring to time)?"
+      },
+      "opzioni": [
+        "Tardi",
+        "Presto",
+        "In orario",
+        "Prima volta"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Presto = early. Tardi = late. 'Arrivo presto' = I arrive early. 'Arrivo tardi' = I arrive late.",
+        "en": "Correct! Presto = early. Tardi = late. 'Arrivo presto' = I arrive early. 'Arrivo tardi' = I arrive late."
+      },
+      "feedbackErr": {
+        "it": "Presto = early. Tardi = late. 'Arrivo presto' / 'arrivo tardi'.",
+        "en": "Presto = early. Tardi = late. 'Arrivo presto' / 'arrivo tardi'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'In ritardo' significa…?",
+        "en": "'In ritardo' means…?"
+      },
+      "opzioni": [
+        "On time",
+        "Early",
+        "Late / delayed",
+        "Cancelled"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! In ritardo = late / delayed. 'Il treno è in ritardo' = The train is late.",
+        "en": "Correct! In ritardo = late / delayed. 'Il treno è in ritardo' = The train is late."
+      },
+      "feedbackErr": {
+        "it": "In ritardo = late. In orario = on time. In anticipo = early (ahead of schedule).",
+        "en": "In ritardo = late. In orario = on time. In anticipo = early (ahead of schedule)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Sono le 23:45 — come si dice?",
+        "en": "It's 23:45 — how do you say it?"
+      },
+      "opzioni": [
+        "Sono le undici meno un quarto di sera.",
+        "Sono le ventitré e quarantacinque.",
+        "Sono le mezzanotte meno un quarto.",
+        "Sia (a) che (b) sono corrette."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Entrambe corrette: 'undici meno un quarto di sera' (informale) e 'ventitré e quarantacinque' (formale).",
+        "en": "Correct! Both correct: 'undici meno un quarto di sera' (informal) and 'ventitré e quarantacinque' (formal)."
+      },
+      "feedbackErr": {
+        "it": "Entrambe corrette: informale = undici meno un quarto di sera. Formale = ventitré e quarantacinque.",
+        "en": "Both correct: informal = undici meno un quarto di sera. Formal = ventitré e quarantacinque."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'A che ora apre il bar?' — risposta corretta?",
+        "en": "'A che ora apre il bar?' — correct answer?"
+      },
+      "opzioni": [
+        "Il bar apre sette.",
+        "Il bar apre alle sette.",
+        "Il bar apre a le sette.",
+        "Il bar apre le sette."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Si usa 'alle' (= a + le) con le ore. 'Apre alle sette.'",
+        "en": "Correct! You use 'alle' (= a + le) with hours. 'Apre alle sette.'"
+      },
+      "feedbackErr": {
+        "it": "Con le ore si usa 'alle': apre ALLE sette. 'A + le = alle'.",
+        "en": "With hours you use 'alle': apre ALLE sette. 'A + le = alle'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Da quanto tempo?' chiede…?",
+        "en": "'Da quanto tempo?' asks…?"
+      },
+      "opzioni": [
+        "At what time?",
+        "How long? (duration from past to present)",
+        "Until when?",
+        "How often?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Da quanto tempo = how long (since). 'Studio italiano da sei mesi' = I have been studying Italian for six months.",
+        "en": "Correct! Da quanto tempo = how long (since). 'Studio italiano da sei mesi' = I have been studying Italian for six months."
+      },
+      "feedbackErr": {
+        "it": "Da quanto tempo = how long (since). 'Da quanto tempo studi italiano?' = How long have you been studying Italian?",
+        "en": "Da quanto tempo = how long (since). 'Da quanto tempo studi italiano?' = How long have you been studying Italian?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il negozio è aperto dalle 9 alle 13 e dalle 15:30 alle 19:30 — che tipo di orario è?",
+        "en": "The shop is open from 9 to 1 and from 3:30 to 7:30 — what type of schedule is this?"
+      },
+      "opzioni": [
+        "Orario continuato",
+        "Orario spezzato (con pausa pranzo)",
+        "Orario notturno",
+        "Orario ridotto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Orario spezzato = split schedule with lunch break. Tipicamente italiano — i negozi chiudono a pranzo.",
+        "en": "Correct! Orario spezzato = split schedule with lunch break. Typically Italian — shops close for lunch."
+      },
+      "feedbackErr": {
+        "it": "Orario spezzato = split hours with lunch break. Tipico in Italia. Orario continuato = no lunch break.",
+        "en": "Orario spezzato = split hours with lunch break. Typical in Italy. Orario continuato = no lunch break."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Tra mezz'ora' significa…?",
+        "en": "'Tra mezz'ora' means…?"
+      },
+      "opzioni": [
+        "Half an hour ago",
+        "In half an hour",
+        "At half past",
+        "Every half hour"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tra = in (future). 'Tra mezz'ora' = in half an hour. 'Tra un'ora' = in an hour. 'Tra cinque minuti' = in five minutes.",
+        "en": "Correct! Tra = in (future). 'Tra mezz'ora' = in half an hour. 'Tra un'ora' = in an hour. 'Tra cinque minuti' = in five minutes."
+      },
+      "feedbackErr": {
+        "it": "Tra + tempo = in + time (futuro). 'Tra mezz'ora' = in half an hour. 'Tra cinque minuti' = in five minutes.",
+        "en": "Tra + time = in + time (future). 'Tra mezz'ora' = in half an hour. 'Tra cinque minuti' = in five minutes."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono le una' è la forma corretta per l'una di notte o di giorno.",
+        "en": "'Sono le una' is the correct form for one o'clock day or night."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! La forma corretta è 'È L'UNA' — singolare, perché 'una' è singolare. Mai 'sono le una'.",
+        "en": "Correct! The correct form is 'È L'UNA' — singular, because 'una' is singular. Never 'sono le una'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Si dice 'È l'una' — singolare. Solo l'una usa 'è'. Tutte le altre ore usano 'sono le'.",
+        "en": "FALSE! You say 'È l'una' — singular. Only one o'clock uses 'è'. All other hours use 'sono le'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mezzogiorno' e 'mezzanotte' sono invariabili — non cambiano con il genere o il numero.",
+        "en": "'Mezzogiorno' and 'mezzanotte' are invariable — they don't change with gender or number."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mezzogiorno e mezzanotte sono forme fisse: 'È mezzogiorno', 'È mezzanotte'. Non 'sono le mezzogiorno'.",
+        "en": "Correct! Mezzogiorno and mezzanotte are fixed forms: 'È mezzogiorno', 'È mezzanotte'. Not 'sono le mezzogiorno'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mezzogiorno/mezzanotte sono invariabili: 'È mezzogiorno.' Non 'Sono le mezzogiorno.'",
+        "en": "True! Mezzogiorno/mezzanotte are invariable: 'È mezzogiorno.' Not 'Sono le mezzogiorno.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia il sistema a 24 ore si usa principalmente nella conversazione informale.",
+        "en": "In Italy the 24-hour system is mainly used in informal conversation."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il sistema a 24 ore è per gli usi FORMALI: treni, aerei, banche, TV. La conversazione informale usa il sistema a 12 ore.",
+        "en": "Correct! The 24-hour system is for FORMAL uses: trains, planes, banks, TV. Informal conversation uses the 12-hour system."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Il sistema a 24 ore = formale (treni, aerei, banche). Conversazione informale → sistema a 12 ore.",
+        "en": "FALSE! The 24-hour system = formal (trains, planes, banks). Informal conversation → 12-hour system."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Presto' significa 'early' e 'tardi' significa 'late'.",
+        "en": "'Presto' means 'early' and 'tardi' means 'late'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Presto = early / soon. Tardi = late. 'Arrivo presto' / 'arrivo tardi'.",
+        "en": "Correct! Presto = early / soon. Tardi = late. 'Arrivo presto' / 'arrivo tardi'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Presto = early/soon. Tardi = late. 'È tardi!' = It's late! 'Fai presto!' = Hurry up!",
+        "en": "True! Presto = early/soon. Tardi = late. 'È tardi!' = It's late! 'Fai presto!' = Hurry up!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono le quattro meno venti' corrisponde alle 3:40.",
+        "en": "'Sono le quattro meno venti' corresponds to 3:40."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 4:00 - 0:20 = 3:40. 'Meno + minuti' = minutes before the next hour.",
+        "en": "Correct! 4:00 - 0:20 = 3:40. 'Meno + minutes' = minutes before the next hour."
+      },
+      "feedbackErr": {
+        "it": "Vero! Quattro meno venti = 4:00 - 20 minuti = 3:40. 'Meno' indica i minuti che mancano all'ora.",
+        "en": "True! Quattro meno venti = 4:00 - 20 minutes = 3:40. 'Meno' indicates the minutes missing to the hour."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Per dire l'ora si usa sempre la preposizione 'alle' (es. 'il treno parte alle otto').",
+        "en": "To state the time you always use the preposition 'alle' (e.g. 'il treno parte alle otto')."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Si usa 'alle' per la maggior parte delle ore, ma: 'all'una' (+ l'), 'a mezzogiorno', 'a mezzanotte'.",
+        "en": "Correct! You use 'alle' for most hours, but: 'all'una' (+ l'), 'a mezzogiorno', 'a mezzanotte'."
+      },
+      "feedbackErr": {
+        "it": "FALSO — quasi sempre 'alle', ma eccezioni: 'ALL'una', 'A mezzogiorno', 'A mezzanotte'.",
+        "en": "FALSE — almost always 'alle', but exceptions: 'ALL'una', 'A mezzogiorno', 'A mezzanotte'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'In orario' significa 'on time'.",
+        "en": "'In orario' means 'on time'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In orario = on time. In ritardo = late. In anticipo = early (ahead of schedule).",
+        "en": "Correct! In orario = on time. In ritardo = late. In anticipo = early (ahead of schedule)."
+      },
+      "feedbackErr": {
+        "it": "Vero! In orario = on time. 'Il treno è arrivato in orario.' = The train arrived on time.",
+        "en": "True! In orario = on time. 'Il treno è arrivato in orario.' = The train arrived on time."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Tra un'ora' significa 'an hour ago'.",
+        "en": "'Tra un'ora' means 'an hour ago'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Tra un'ora' = in an hour (futuro). 'Un'ora fa' = an hour ago (passato).",
+        "en": "Correct! 'Tra un'ora' = in an hour (future). 'Un'ora fa' = an hour ago (past)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Tra + tempo = futuro: 'tra un'ora' = in an hour. Passato: 'un'ora fa' = an hour ago.",
+        "en": "FALSE! Tra + time = future: 'tra un'ora' = in an hour. Past: 'un'ora fa' = an hour ago."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Le 15:00 nel sistema informale si dice 'le tre del pomeriggio'.",
+        "en": "15:00 in the informal system is said as 'le tre del pomeriggio'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 15:00 formale. Informale = le tre del pomeriggio. Per convertire: 15 - 12 = 3 (pm).",
+        "en": "Correct! 15:00 formal. Informal = le tre del pomeriggio. To convert: 15 - 12 = 3 (pm)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 15:00 = le tre del pomeriggio (informale). Formale: le quindici.",
+        "en": "True! 15:00 = le tre del pomeriggio (informal). Formal: le quindici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Di sera' si riferisce al periodo tra circa le 18:00 e la mezzanotte.",
+        "en": "'Di sera' refers to the period from approximately 18:00 to midnight."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Di mattina ≈ 6-12, di pomeriggio ≈ 12-18, di sera ≈ 18-24, di notte ≈ 24-6.",
+        "en": "Correct! Di mattina ≈ 6-12, di pomeriggio ≈ 12-18, di sera ≈ 18-24, di notte ≈ 24-6."
+      },
+      "feedbackErr": {
+        "it": "Vero! Di sera = evening ≈ dalle 18:00 a mezzanotte. Di notte = from midnight onwards.",
+        "en": "True! Di sera = evening ≈ from 18:00 to midnight. Di notte = from midnight onwards."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Quanto tempo ci vuole?' chiede la durata di qualcosa.",
+        "en": "'Quanto tempo ci vuole?' asks the duration of something."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Quanto tempo ci vuole? = How long does it take? 'Ci vogliono due ore' = It takes two hours.",
+        "en": "Correct! Quanto tempo ci vuole? = How long does it take? 'Ci vogliono due ore' = It takes two hours."
+      },
+      "feedbackErr": {
+        "it": "Vero! Quanto tempo ci vuole? = How long does it take? 'Ci vuole un'ora' / 'ci vogliono due ore'.",
+        "en": "True! Quanto tempo ci vuole? = How long does it take? 'Ci vuole un'ora' / 'ci vogliono due ore'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Fa' dopo un periodo di tempo indica il futuro: 'tre ore fa' = in three hours.",
+        "en": "'Fa' after a time period indicates the future: 'tre ore fa' = in three hours."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Fa' indica il PASSATO: 'tre ore fa' = three hours ago. Futuro → 'tra': 'tra tre ore' = in three hours.",
+        "en": "Correct! 'Fa' indicates the PAST: 'tre ore fa' = three hours ago. Future → 'tra': 'tra tre ore' = in three hours."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Fa' = ago (passato). 'Tre ore fa' = three hours ago. 'Tra tre ore' = in three hours (futuro).",
+        "en": "FALSE! 'Fa' = ago (past). 'Tre ore fa' = three hours ago. 'Tra tre ore' = in three hours (future)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia molti negozi hanno l'orario spezzato con chiusura a pranzo.",
+        "en": "In Italy many shops have split hours with closure at lunchtime."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! L'orario spezzato (con pausa pranzo 13-15/16 circa) è tipicamente italiano, specialmente nel centro-sud e nei negozi più piccoli.",
+        "en": "Correct! Split hours (with lunch break 1-3/4pm approx.) are typically Italian, especially in the centre-south and smaller shops."
+      },
+      "feedbackErr": {
+        "it": "Vero! Molti negozi italiani chiudono per pranzo (tipicamente 13:00-15:30/16:00). Orario spezzato = tipicamente italiano.",
+        "en": "True! Many Italian shops close for lunch (typically 1pm-3:30/4pm). Orario spezzato = typically Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono le diciassette' corrisponde alle 5 del pomeriggio.",
+        "en": "'Sono le diciassette' corresponds to 5pm."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 17 - 12 = 5 pm. Le diciassette = 17:00 = cinque del pomeriggio.",
+        "en": "Correct! 17 - 12 = 5 pm. Le diciassette = 17:00 = five in the afternoon."
+      },
+      "feedbackErr": {
+        "it": "Vero! Diciassette = 17:00. 17 - 12 = 5 → cinque del pomeriggio.",
+        "en": "True! Diciassette = 17:00. 17 - 12 = 5 → five in the afternoon."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ogni quanto?' chiede la frequenza di un evento.",
+        "en": "'Ogni quanto?' asks the frequency of an event."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ogni quanto = how often. 'Il bus passa ogni quanto?' = How often does the bus come?",
+        "en": "Correct! Ogni quanto = how often. 'Il bus passa ogni quanto?' = How often does the bus come?"
+      },
+      "feedbackErr": {
+        "it": "Vero! Ogni quanto = how often. 'Ogni quanto passi al bar?' = How often do you go to the bar?",
+        "en": "True! Ogni quanto = how often. 'Ogni quanto passi al bar?' = How often do you go to the bar?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Alle otto in punto' e 'alle otto circa' hanno lo stesso significato.",
+        "en": "'Alle otto in punto' and 'alle otto circa' have the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! In punto = exactly 8:00. Circa = approximately 8:00 (potrebbe essere 7:55 o 8:10). Significati opposti.",
+        "en": "Correct! In punto = exactly 8:00. Circa = approximately 8:00 (could be 7:55 or 8:10). Opposite meanings."
+      },
+      "feedbackErr": {
+        "it": "FALSO! In punto = esattamente alle 8:00. Circa = approximately. Significati diversi!",
+        "en": "FALSE! In punto = exactly 8:00. Circa = approximately. Different meanings!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono le otto e mezza' può riferirsi sia alle 8:30 di mattina che alle 20:30 di sera.",
+        "en": "'Sono le otto e mezza' can refer to either 8:30am or 8:30pm."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nel sistema informale il contesto disambigua. Si può aggiungere 'di mattina' o 'di sera' per chiarire: 'le otto e mezza di sera'.",
+        "en": "Correct! In the informal system context disambiguates. You can add 'di mattina' or 'di sera' to clarify: 'le otto e mezza di sera'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il sistema a 12 ore è ambiguo senza contesto. Si aggiunge 'di mattina' o 'di sera' per chiarire.",
+        "en": "True! The 12-hour system is ambiguous without context. Add 'di mattina' or 'di sera' to clarify."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Stamattina' significa 'this morning'.",
+        "en": "'Stamattina' means 'this morning'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stamattina = this morning. Stasera = this evening. Stanotte = tonight/last night (context). Ieri mattina = yesterday morning.",
+        "en": "Correct! Stamattina = this morning. Stasera = this evening. Stanotte = tonight/last night (context). Ieri mattina = yesterday morning."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stamattina = this morning. Stasera = this evening. Stanotte = tonight.",
+        "en": "True! Stamattina = this morning. Stasera = this evening. Stanotte = tonight."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'È tardi' e 'fa tardi' hanno lo stesso significato.",
+        "en": "'È tardi' and 'fa tardi' have the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'È tardi' = it's late (the time is late). 'Fa tardi' = he/she is staying out late / running late. Usi diversi.",
+        "en": "Correct! 'È tardi' = it's late (the time is late). 'Fa tardi' = he/she is staying out late / running late. Different uses."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'È tardi' = it's late (l'ora è tarda). 'Fare tardi' = to be/run late, to stay out late.",
+        "en": "FALSE! 'È tardi' = it's late (the time is late). 'Fare tardi' = to be/run late, to stay out late."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ci vuole un'ora' e 'ci vogliono due ore' sono entrambe grammaticalmente corrette.",
+        "en": "'Ci vuole un'ora' and 'ci vogliono due ore' are both grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Singolare: ci vuole (un'ora, un momento). Plurale: ci vogliono (due ore, tre giorni). Il verbo concorda.",
+        "en": "Correct! Singular: ci vuole (un'ora, un momento). Plural: ci vogliono (due ore, tre giorni). The verb agrees."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ci vuole + singolare (un'ora). Ci vogliono + plurale (due ore). Il verbo concorda con la quantità.",
+        "en": "True! Ci vuole + singular (un'ora). Ci vogliono + plural (due ore). The verb agrees with the quantity."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi l'ora: ___ ?",
+        "en": "Ask the time: ___ ?"
+      },
+      "parole": [
+        "Che",
+        "ore",
+        "sono"
+      ],
+      "distrattori": [
+        "Qual",
+        "è",
+        "l'ora",
+        "Quanto"
+      ],
+      "correct": [
+        "Che",
+        "ore",
+        "sono"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Che ore sono?' — la domanda più comune per chiedere l'ora.",
+        "en": "Perfect! 'Che ore sono?' — the most common question to ask the time."
+      },
+      "feedbackErr": {
+        "it": "Per chiedere l'ora: 'Che ore sono?' o 'Che ora è?'",
+        "en": "To ask the time: 'Che ore sono?' or 'Che ora è?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 14:30 (informale): Sono ___.",
+        "en": "It's 14:30 (informal): It's ___."
+      },
+      "parole": [
+        "le",
+        "due",
+        "e",
+        "mezza",
+        "del",
+        "pomeriggio"
+      ],
+      "distrattori": [
+        "quattordici",
+        "trenta",
+        "sera",
+        "notte"
+      ],
+      "correct": [
+        "le",
+        "due",
+        "e",
+        "mezza",
+        "del",
+        "pomeriggio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 14:30 informale = le due e mezza del pomeriggio.",
+        "en": "Perfect! 14:30 informal = le due e mezza del pomeriggio."
+      },
+      "feedbackErr": {
+        "it": "14:30 in modo informale = le due e mezza del pomeriggio.",
+        "en": "14:30 informally = le due e mezza del pomeriggio."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 3:45: Sono ___.",
+        "en": "It's 3:45: It's ___."
+      },
+      "parole": [
+        "le",
+        "quattro",
+        "meno",
+        "un",
+        "quarto"
+      ],
+      "distrattori": [
+        "tre",
+        "e",
+        "tre",
+        "quarti",
+        "cinque"
+      ],
+      "correct": [
+        "le",
+        "quattro",
+        "meno",
+        "un",
+        "quarto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 3:45 = le quattro meno un quarto. 4:00 - 0:15 = 3:45.",
+        "en": "Perfect! 3:45 = le quattro meno un quarto. 4:00 - 0:15 = 3:45."
+      },
+      "feedbackErr": {
+        "it": "3:45 = quattro meno un quarto. 'Sono le quattro meno un quarto.'",
+        "en": "3:45 = quattro meno un quarto. 'Sono le quattro meno un quarto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il treno parte alle 8:00 precise: Il treno parte ___.",
+        "en": "The train leaves at exactly 8:00: The train leaves ___."
+      },
+      "parole": [
+        "alle",
+        "otto",
+        "in",
+        "punto"
+      ],
+      "distrattori": [
+        "circa",
+        "le",
+        "tardi",
+        "presto"
+      ],
+      "correct": [
+        "alle",
+        "otto",
+        "in",
+        "punto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Alle otto in punto' = at exactly eight o'clock.",
+        "en": "Perfect! 'Alle otto in punto' = at exactly eight o'clock."
+      },
+      "feedbackErr": {
+        "it": "Esattamente alle 8:00 = alle otto in punto. 'In punto' = exactly/on the dot.",
+        "en": "Exactly at 8:00 = alle otto in punto. 'In punto' = exactly/on the dot."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Arrivo tra 30 minuti: Arrivo ___.",
+        "en": "I'm arriving in 30 minutes: I'm arriving ___."
+      },
+      "parole": [
+        "tra",
+        "mezz'ora"
+      ],
+      "distrattori": [
+        "in",
+        "fa",
+        "circa",
+        "dopo"
+      ],
+      "correct": [
+        "tra",
+        "mezz'ora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tra + tempo futuro = in + time. 'Tra mezz'ora' = in half an hour.",
+        "en": "Perfect! Tra + future time = in + time. 'Tra mezz'ora' = in half an hour."
+      },
+      "feedbackErr": {
+        "it": "In half an hour = tra mezz'ora. 'Tra' + tempo = futuro.",
+        "en": "In half an hour = tra mezz'ora. 'Tra' + time = future."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il treno è in ritardo di 20 minuti. Dici: Il treno ___.",
+        "en": "The train is 20 minutes late. You say: The train ___."
+      },
+      "parole": [
+        "è",
+        "in",
+        "ritardo",
+        "di",
+        "venti",
+        "minuti"
+      ],
+      "distrattori": [
+        "anticipo",
+        "orario",
+        "tardi",
+        "presto"
+      ],
+      "correct": [
+        "è",
+        "in",
+        "ritardo",
+        "di",
+        "venti",
+        "minuti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È in ritardo di venti minuti' = It's twenty minutes late.",
+        "en": "Perfect! 'È in ritardo di venti minuti' = It's twenty minutes late."
+      },
+      "feedbackErr": {
+        "it": "In ritardo di 20 minuti = 'è in ritardo di venti minuti'.",
+        "en": "20 minutes late = 'è in ritardo di venti minuti'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono partito 2 ore fa: Sono partito ___.",
+        "en": "I left 2 hours ago: I left ___."
+      },
+      "parole": [
+        "due",
+        "ore",
+        "fa"
+      ],
+      "distrattori": [
+        "tra",
+        "fra",
+        "circa",
+        "dopo"
+      ],
+      "correct": [
+        "due",
+        "ore",
+        "fa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tempo + fa = ago. 'Due ore fa' = two hours ago.",
+        "en": "Perfect! Time + fa = ago. 'Due ore fa' = two hours ago."
+      },
+      "feedbackErr": {
+        "it": "Ago = fa. 'Due ore fa' = two hours ago. 'Tra due ore' = in two hours.",
+        "en": "Ago = fa. 'Due ore fa' = two hours ago. 'Tra due ore' = in two hours."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che stasera esci: ___ esco con gli amici.",
+        "en": "Say you're going out tonight: ___ I'm going out with friends."
+      },
+      "parole": [
+        "Stasera",
+        "esco",
+        "con",
+        "gli",
+        "amici"
+      ],
+      "distrattori": [
+        "Stamattina",
+        "Ieri",
+        "sera",
+        "Stanotte"
+      ],
+      "correct": [
+        "Stasera",
+        "esco",
+        "con",
+        "gli",
+        "amici"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Stasera = this evening. 'Stasera esco con gli amici.'",
+        "en": "Perfect! Stasera = this evening. 'Stasera esco con gli amici.'"
+      },
+      "feedbackErr": {
+        "it": "This evening = stasera. 'Stasera esco con gli amici.'",
+        "en": "This evening = stasera. 'Stasera esco con gli amici.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Quanto tempo ci vuole per arrivare a Napoli? ___ due ore.",
+        "en": "How long does it take to get to Naples? ___ two hours."
+      },
+      "parole": [
+        "Ci",
+        "vogliono",
+        "due",
+        "ore"
+      ],
+      "distrattori": [
+        "Ci",
+        "vuole",
+        "due",
+        "orari"
+      ],
+      "correct": [
+        "Ci",
+        "vogliono",
+        "due",
+        "ore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ci vogliono + plurale. 'Ci vogliono due ore' = It takes two hours.",
+        "en": "Perfect! Ci vogliono + plural. 'Ci vogliono due ore' = It takes two hours."
+      },
+      "feedbackErr": {
+        "it": "Plurale (due ore) → ci VOGLIONO. 'Ci vogliono due ore.'",
+        "en": "Plural (due ore) → ci VOGLIONO. 'Ci vogliono due ore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 7:15 di mattina: Sono ___.",
+        "en": "It's 7:15am: It's ___."
+      },
+      "parole": [
+        "le",
+        "sette",
+        "e",
+        "un",
+        "quarto",
+        "di",
+        "mattina"
+      ],
+      "distrattori": [
+        "sette",
+        "quindici",
+        "pomeriggio",
+        "mezza"
+      ],
+      "correct": [
+        "le",
+        "sette",
+        "e",
+        "un",
+        "quarto",
+        "di",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 7:15 = le sette e un quarto di mattina.",
+        "en": "Perfect! 7:15 = le sette e un quarto di mattina."
+      },
+      "feedbackErr": {
+        "it": "7:15 di mattina = le sette e un quarto di mattina.",
+        "en": "7:15am = le sette e un quarto di mattina."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che il bar apre a mezzogiorno: Il bar ___.",
+        "en": "Say the bar opens at noon: The bar ___."
+      },
+      "parole": [
+        "apre",
+        "a",
+        "mezzogiorno"
+      ],
+      "distrattori": [
+        "alle",
+        "mezzogiorno",
+        "apre",
+        "al"
+      ],
+      "correct": [
+        "apre",
+        "a",
+        "mezzogiorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! A mezzogiorno (non 'alle mezzogiorno'). Mezzogiorno è invariabile.",
+        "en": "Perfect! A mezzogiorno (not 'alle mezzogiorno'). Mezzogiorno is invariable."
+      },
+      "feedbackErr": {
+        "it": "Mezzogiorno → 'a mezzogiorno' (non 'alle mezzogiorno'). 'Il bar apre a mezzogiorno.'",
+        "en": "Mezzogiorno → 'a mezzogiorno' (not 'alle mezzogiorno'). 'Il bar apre a mezzogiorno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 18:50 (sistema 12 ore): Sono ___.",
+        "en": "It's 18:50 (12-hour system): It's ___."
+      },
+      "parole": [
+        "le",
+        "sette",
+        "meno",
+        "dieci",
+        "di",
+        "sera"
+      ],
+      "distrattori": [
+        "sei",
+        "cinquanta",
+        "mattina",
+        "pomeriggio"
+      ],
+      "correct": [
+        "le",
+        "sette",
+        "meno",
+        "dieci",
+        "di",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 18:50 informale = le sette meno dieci di sera. 19:00 - 10 min = 18:50.",
+        "en": "Perfect! 18:50 informal = le sette meno dieci di sera. 19:00 - 10 min = 18:50."
+      },
+      "feedbackErr": {
+        "it": "18:50 = le sette meno dieci di sera. 7pm - 10 min = 6:50pm.",
+        "en": "18:50 = le sette meno dieci di sera. 7pm - 10 min = 6:50pm."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi quanto spesso Mario va al bar: ___ al bar?",
+        "en": "Ask how often Mario goes to the bar: ___ to the bar?"
+      },
+      "parole": [
+        "Ogni",
+        "quanto",
+        "vai"
+      ],
+      "distrattori": [
+        "Quanto",
+        "tempo",
+        "spesso",
+        "fa"
+      ],
+      "correct": [
+        "Ogni",
+        "quanto",
+        "vai"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Ogni quanto vai al bar?' = How often do you go to the bar?",
+        "en": "Perfect! 'Ogni quanto vai al bar?' = How often do you go to the bar?"
+      },
+      "feedbackErr": {
+        "it": "How often = ogni quanto. 'Ogni quanto vai al bar?'",
+        "en": "How often = ogni quanto. 'Ogni quanto vai al bar?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il treno è partito puntuale: Il treno è partito ___.",
+        "en": "The train left on time: The train left ___."
+      },
+      "parole": [
+        "in",
+        "orario"
+      ],
+      "distrattori": [
+        "puntuale",
+        "tardi",
+        "presto",
+        "tempo"
+      ],
+      "correct": [
+        "in",
+        "orario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! In orario = on time. 'Il treno è partito in orario.'",
+        "en": "Perfect! In orario = on time. 'Il treno è partito in orario.'"
+      },
+      "feedbackErr": {
+        "it": "On time = in orario. 'Il treno è partito in orario.'",
+        "en": "On time = in orario. 'Il treno è partito in orario.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Stamattina mi sono svegliato presto: Stamattina ___ presto.",
+        "en": "This morning I woke up early: This morning ___ early."
+      },
+      "parole": [
+        "mi",
+        "sono",
+        "svegliato",
+        "presto"
+      ],
+      "distrattori": [
+        "alzato",
+        "tardi",
+        "ieri",
+        "stamattina"
+      ],
+      "correct": [
+        "mi",
+        "sono",
+        "svegliato",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi sono svegliato presto = I woke up early.",
+        "en": "Perfect! Mi sono svegliato presto = I woke up early."
+      },
+      "feedbackErr": {
+        "it": "Woke up early = mi sono svegliato presto. 'Stamattina mi sono svegliato presto.'",
+        "en": "Woke up early = mi sono svegliato presto. 'Stamattina mi sono svegliato presto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 12:00: ___.",
+        "en": "It's 12:00: ___."
+      },
+      "parole": [
+        "È",
+        "mezzogiorno"
+      ],
+      "distrattori": [
+        "Sono",
+        "le",
+        "dodici",
+        "mezzanotte"
+      ],
+      "correct": [
+        "È",
+        "mezzogiorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 12:00 = È mezzogiorno. Non 'sono le mezzogiorno'.",
+        "en": "Perfect! 12:00 = È mezzogiorno. Not 'sono le mezzogiorno'."
+      },
+      "feedbackErr": {
+        "it": "12:00 = È mezzogiorno (invariabile). Non 'sono le mezzogiorno'.",
+        "en": "12:00 = È mezzogiorno (invariable). Not 'sono le mezzogiorno'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Studio italiano da 6 mesi: Studio italiano ___.",
+        "en": "I have been studying Italian for 6 months: I have been studying Italian ___."
+      },
+      "parole": [
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "distrattori": [
+        "per",
+        "fa",
+        "tra",
+        "circa"
+      ],
+      "correct": [
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Da' + tempo = ongoing from past to present. 'Studio italiano da sei mesi.'",
+        "en": "Perfect! 'Da' + time = ongoing from past to present. 'Studio italiano da sei mesi.'"
+      },
+      "feedbackErr": {
+        "it": "Ongoing since the past → 'da': studio italiano da sei mesi.",
+        "en": "Ongoing since the past → 'da': studio italiano da sei mesi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Arriva tra poco (soon): Mario arriva ___.",
+        "en": "He's arriving soon: Mario ___ soon."
+      },
+      "parole": [
+        "arriva",
+        "tra",
+        "poco"
+      ],
+      "distrattori": [
+        "presto",
+        "dopo",
+        "tardi",
+        "fa"
+      ],
+      "correct": [
+        "arriva",
+        "tra",
+        "poco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tra poco = very soon / in a little while. 'Mario arriva tra poco.'",
+        "en": "Perfect! Tra poco = very soon / in a little while. 'Mario arriva tra poco.'"
+      },
+      "feedbackErr": {
+        "it": "Very soon = tra poco. 'Mario arriva tra poco.'",
+        "en": "Very soon = tra poco. 'Mario arriva tra poco.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono le 1:00 di notte: ___.",
+        "en": "It's 1:00am: ___."
+      },
+      "parole": [
+        "È",
+        "l'una",
+        "di",
+        "notte"
+      ],
+      "distrattori": [
+        "Sono",
+        "le",
+        "una",
+        "sera"
+      ],
+      "correct": [
+        "È",
+        "l'una",
+        "di",
+        "notte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È l'una di notte' — singolare perché 'una' è singolare.",
+        "en": "Perfect! 'È l'una di notte' — singular because 'una' is singular."
+      },
+      "feedbackErr": {
+        "it": "1:00 = È l'una (non 'sono le una'). 'È l'una di notte.'",
+        "en": "1:00 = È l'una (not 'sono le una'). 'È l'una di notte.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il negozio chiude tra 5 minuti: Il negozio chiude ___.",
+        "en": "The shop closes in 5 minutes: The shop closes ___."
+      },
+      "parole": [
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "distrattori": [
+        "fa",
+        "dopo",
+        "circa",
+        "presto"
+      ],
+      "correct": [
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! In 5 minutes = tra cinque minuti. 'Il negozio chiude tra cinque minuti.'",
+        "en": "Perfect! In 5 minutes = tra cinque minuti. 'Il negozio chiude tra cinque minuti.'"
+      },
+      "feedbackErr": {
+        "it": "In 5 minutes = tra cinque minuti. 'Il negozio chiude tra cinque minuti.'",
+        "en": "In 5 minutes = tra cinque minuti. 'Il negozio chiude tra cinque minuti.'"
+      }
+    }
+  ]
+}

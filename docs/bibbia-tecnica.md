@@ -1,567 +1,426 @@
-# 📖 BIBBIA TECNICA — ITALIANO CON STILE
-**Versione:** Sprint 7 (aggiornata 02/04/2026)
-**Repository:** https://github.com/thevoiceforlife/italiano-con-stile
-**Produzione:** https://italiano-con-stile.vercel.app
-**Stack:** Next.js 16 + React 19, Vercel, localStorage, Web Speech API
+# Italiano con Stile — Bibbia Tecnica
+
+## Progetto
+- **Repo**: https://github.com/thevoiceforlife/italiano-con-stile
+- **Prod**: https://italiano-con-stile.vercel.app
+- **Stack**: Next.js 16, React 19, Vercel, localStorage, Web Speech API
+- **Locale**: `~/Desktop/italiano-con-stile` → `npm run dev` → http://localhost:3000
+- **Lingua**: tutto bilingue IT/EN senza eccezioni
+- **Città di riferimento**: Napoli (non Roma)
 
 ---
 
-## 1. IDENTITÀ DEL PROGETTO
-
-**Motto:** Finally, someone explains why.
-**Target:** Anglofoni che imparano italiano
-**Lingua UI:** Sempre bilingue IT / EN — senza eccezioni
-**Tono:** Caldo, diretto, culturalmente autentico. Mai scolastico.
-**Livelli:** A1 Turista → A2 Viaggiatore → B1 Esploratore → B2 Appassionato
-
----
-
-## 2. ARCHITETTURA FILE
+## Architettura File Chiave
 
 ```
-app/
-  page.js                          Home — personaggi, menu del giorno
-  lesson/[id]/page.js              Motore lezioni — 7 tipi di domanda
-  lesson/boss/page.js              Sfida la Nonna
-  components/
-    XPBar.js                       Energia + streak + viaggi
-    ItalyTravelModal.js            Cartina Italia
-    LessonComplete.js              Schermata fine lezione
-    OnboardingModal.js             Onboarding + placement test
-    CharacterBubble.js             Personaggio con audio Web Speech API
-    LessonButton.js                Bottone VAI → / GO →
-    WordPopup.js                   Popup annotazioni grammaticali
-    saveProgress.js                Sistema reward centralizzato
-    Logo.js                        Logo con animazione
-public/
-  images/
-    mario.png / sofia.png / diego.png / gino.png / matilde.png / vittoria.png
-    italia-map.png
-    gesti/                         Immagini gesti italiani (da generare)
-  data/lessons/
-    lesson1.json → lesson4.json
-    lesson-boss.json
-```
-
-**localStorage key:** `"italiano-progress"`
-```json
-{
-  "energy": 25,
-  "credits": 0,
-  "tickets": {},
-  "completed": [],
-  "completedToday": [],
-  "lessonScores": {},
-  "lastVisit": 0,
-  "lastVisitDate": "2026-04-02",
-  "livello": "turista",
-  "onboardingDone": false,
-  "streak": {
-    "weekStart": "2026-03-30",
-    "totalDays": 7,
-    "activeDays": [],
-    "bonusErogato": false
-  }
-}
+app/page.js                          — Home: pill dashboard, accordion unità, mini-game personaggi
+app/dashboard/page.js                — Dashboard completa
+app/components/XPBar.js              — Barra energia (streak/crediti rimossi dalla barra)
+app/components/LevelBadge.js         — Livelli CEFR + categorie narrative
+app/components/saveProgress.js       — Sistema reward + streak
+app/components/ItalyTravelModal.js   — Modal viaggi (Capitali/Città/Mete)
+app/components/games/MarioDialog.js  — Dialogo AI Claude Haiku
+app/components/games/DiegoGesti.js   — Flash Gesti
+app/components/games/SofiaSlang.js   — Speed Round slang
+app/components/games/GinoStoria.js   — Gesto + Storia
+app/components/games/MatildeEmail.js — Email Challenge AI
+app/lesson/[id]/page.js              — Lezioni con FraseAnnotata in VocabIntro
+public/images/italia-map.png         — Mappa PNG statica (usata nel modal)
+public/images/italia-map.svg         — Mappa SVG (non ancora integrata)
 ```
 
 ---
 
-## 3. PERSONAGGI — REGOLE DEFINITIVE
-
-### 3.1 I 6 personaggi
-
-| ID | Nome | Emoji | Colore | Voce Web Speech | Ruolo |
-|----|------|-------|--------|-----------------|-------|
-| mario | Mario | ☕ | #FF9B42 | Rocko (it-IT) | Barista napoletano — guida principale A1-A2 |
-| sofia | Sofia | 🎧 | #C8A0E8 | Shelley (it-IT) | Giovane influencer — slang e social |
-| diego | Diego | 🧢 | #22C55E | Eddy (it-IT) | Bambino energico — gesti e vocabolario base |
-| gino | Gino | 🎓 | #E5B700 | Grandpa (it-IT) | Professore in pensione — etimologia e cultura |
-| matilde | Matilde | 💼 | #1CB0F6 | Sandy (it-IT) | Business woman — registro formale B1-B2 |
-| vittoria | Vittoria | 🍦 | #E5B700 | Grandma (it-IT) | Nonna Vittoria — boss finale, tono diretto |
-
-### 3.2 Regole per i testi dei personaggi
-
-**REGOLA FONDAMENTALE: Ogni personaggio parla sempre in prima persona diretta all'utente.**
-
-❌ SBAGLIATO (terza persona):
-```
-"Diego ti mostra un gesto del bar!"
-"Mario prende l'ordine del cliente"
-```
-
-✅ CORRETTO (prima persona):
-```
-"Sai riconoscere questo gesto al bar?"
-"Come vuoi ordinare il caffè? Dimmi quello più educato!"
-```
-
-**Tono per personaggio:**
-
-- **Mario** — amichevole, entusiasta, pratico. "Al mio bar si fa così!"
-- **Sofia** — veloce, diretta, slang. "Dai, lo sai questo!"
-- **Diego** — energico, con punti esclamativi. "Riesci al volo?"
-- **Gino** — calmo, sapiente, racconta storie. "Sai perché si dice così?"
-- **Matilde** — formale, professionale, senza fronzoli. "Quale registro usi?"
-- **Vittoria** — secca, ironica, affettuosa. "Se non la sai, c'è un problema."
-
-### 3.3 Campo intro nei JSON
-
-Ogni domanda ha:
-```json
-{
-  "intro": "Testo italiano — parlato dal personaggio ad alta voce",
-  "intro_en": "English translation — shown in bubble but NOT spoken"
-}
-```
-
-La bubble mostra: `"${q.intro} / ${q.intro_en}"`
-L'audio pronuncia: solo `q.intro` in italiano
-
----
-
-## 4. SISTEMA ENERGIA — REGOLE DEFINITIVE
-
-| Range | Colore | Stato |
-|-------|--------|-------|
-| 0-25% | #CC0000 Rosso | Emergenza |
-| 26-35% | #FF9600 Arancione | Quasi scarico |
-| 36-60% | #1CB0F6 Azzurro | Buono |
-| 61-89% | #58CC02 Verde | In forma |
-| 90-100% | #46A302 Verde pieno | Caricato |
-| 100%+ | #E5B700 Oro ⚡ | Eccezionale / Over-energy |
-
-**Regole:**
-- Primo accesso: 25%
-- Reset giornaliero: ogni 24h → -15%, minimo 25%
-- Lunedì senza giorni attivi: reset forzato a 25%
-- Over-energy: accumula oltre 100%, colore oro
-
-**Guadagno energia per lezione:**
-- L1 ☕ +10% / L2 🥐 +15% / L3 🍸 +20% / L4 🍕 +15% / Boss 🍦 0-10%
-
-**Scala errori:**
-- 0 errori = 100% del reward
-- 1-2 errori = 75%
-- 3-4 errori = 50%
-- 5-6 errori = 25%
-- 7+ errori = 0%
-
-**Crediti:**
-- Risposta corretta: +2 cr
-- Lezione perfetta: +5 cr bonus
-- Boss: +20 cr fissi
-
-**Soglie viaggio:**
-- ≥25% = Borghi
-- ≥60% = Province
-- ≥90% = Capoluoghi
-
----
-
-## 5. SISTEMA LEZIONI — STRUTTURA 4 FASI
-
-Ogni lezione ha esattamente **4 fasi** e **8 domande totali**:
+## Sistema XP / Energia / Crediti
 
 ```
-FASE 1 — SCOPERTA (0 domande, N card vocabolario)
-  → Card tap-to-reveal con emoji + IT + EN + spiegazione Mario
-  → Audio: pronuncia SOLO la parola italiana (non la spiegazione)
-  → Barra progresso: 0% → 25%
-
-FASE 2 — RICONOSCIMENTO (3 domande)
-  → Tipi: multipla, gesti, abbina_coppia
-  → Barra progresso: 25% → ~60%
-
-FASE 3 — COMPRENSIONE (2 domande)
-  → Tipi: ascolta_scegli, vero_falso
-  → Barra progresso: ~60% → ~80%
-
-FASE 4 — PRODUZIONE (3 domande)
-  → Tipi: word_bank, fill_blank, falso_amico, scegli_registro
-  → Barra progresso: ~80% → 100%
+Energia (XP bar):     lezioni completate → barra 0-100%
+Crediti:              reward domenicale +30cr, mini-game, streak
+Streak settimanale:   Lun→Dom, giorno attivo = ≥2 lezioni
 ```
 
-**Sfida la Nonna:** NO fase Scoperta. 5 domande: 2 riconoscimento + 1 comprensione + 2 produzione.
+### Fix streak (Sprint 7)
+- `getDay()` restituisce 0=Dom, array parte da Lun → formula: `(new Date().getDay() + 6) % 7`
+- `getMondayISO()` calcola sempre il lunedì della settimana corrente
+- Reset streak su nuova settimana, `totalDays` sempre 7
 
----
-
-## 6. TIPI DI DOMANDA — 8 TIPI IMPLEMENTATI
-
-### 6.1 `multipla`
-Scelta multipla standard. Le opzioni sono oggetti `{it, en}` — mostrate bilingue.
-Usato da: mario, matilde, vittoria
-
-### 6.2 `gesti`
-Come multipla ma con emoji gesto sopra.
-Campi aggiuntivi: `gesture` (emoji), `gesture_label` (IT / EN)
-Usato da: diego
-
-### 6.3 `abbina_coppia`
-Due colonne, shuffle separato IT e EN.
-Campo: `coppie: [{it, en}]`
-Usato da: diego
-
-### 6.4 `ascolta_scegli`
-Player audio 🔊 + tartaruga 🐢 lento. Opzioni bilingue.
-Campo: `audio` (stringa italiana pronunciata)
-Usato da: mario, vittoria
-
-### 6.5 `vero_falso`
-Due bottoni Vero/Falso. Risposta immediata al tap senza "Controlla".
-Campo: `correct: true | false`
-Usato da: gino, vittoria
-
-### 6.6 `word_bank`
-Riordina parole. Con hint bilingue. Tre stati: ok / incompleta / errata.
-Campi: `parole`, `distrattori`, `correct` (array ordinato), `hint_it`, `hint_en`
-Usato da: sofia
-
-### 6.7 `fill_blank`
-Come multipla ma con contesto frase con blank.
-Usato da: gino
-
-### 6.8 `falso_amico`
-Come multipla ma con box contesto bilingue sopra.
-Campi: `contesto_it`, `contesto_en`
-Usato da: gino, vittoria
-
-### 6.9 `scegli_registro`
-Come multipla ma per scegliere formale/informale.
-Usato da: matilde
-
----
-
-## 7. STRUTTURA JSON LEZIONE — TEMPLATE COMPLETO
-
-```json
-{
-  "id": 5,
-  "title": "Titolo IT / Title EN",
-  "subtitle": "Sottotitolo IT / Subtitle EN",
-  "livello": "Turista",
-  "livello_en": "Tourist",
-  "unita": 1,
-
-  "vocab": [
-    {
-      "id": "id-univoco",
-      "emoji": "🎯",
-      "it": "parola italiana",
-      "en": "english translation",
-      "mario": "Spiegazione in prima persona IT. / Explanation in first person EN."
-    }
-  ],
-
-  "questions": [
-    {
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "fase": "riconoscimento",
-      "intro": "Testo prima persona IT — pronunciato ad alta voce",
-      "intro_en": "English translation — shown in bubble only",
-      "domanda": {
-        "it": "Domanda in italiano?",
-        "en": "Question in English?"
-      },
-      "opzioni": [
-        { "it": "Opzione italiana", "en": "English option" },
-        { "it": "Opzione italiana 2", "en": "English option 2" }
-      ],
-      "correct": 0,
-      "feedbackOk": {
-        "it": "Feedback positivo in italiano.",
-        "en": "Positive feedback in English."
-      },
-      "feedbackErr": {
-        "it": "Feedback negativo in italiano.",
-        "en": "Negative feedback in English."
-      }
-    },
-
-    {
-      "personaggio": "diego",
-      "tipo": "abbina_coppia",
-      "fase": "riconoscimento",
-      "intro": "Testo prima persona IT",
-      "intro_en": "English translation",
-      "domanda": { "it": "Domanda IT?", "en": "Question EN?" },
-      "coppie": [
-        { "it": "parola IT", "en": "word EN" }
-      ],
-      "feedbackOk": { "it": "...", "en": "..." },
-      "feedbackErr": { "it": "...", "en": "..." }
-    },
-
-    {
-      "personaggio": "mario",
-      "tipo": "ascolta_scegli",
-      "fase": "comprensione",
-      "intro": "Testo prima persona IT",
-      "intro_en": "English translation",
-      "audio": "Frase italiana da pronunciare",
-      "domanda": { "it": "Domanda IT?", "en": "Question EN?" },
-      "opzioni": [
-        { "it": "Opzione IT", "en": "Option EN" }
-      ],
-      "correct": 0,
-      "feedbackOk": { "it": "...", "en": "..." },
-      "feedbackErr": { "it": "...", "en": "..." }
-    },
-
-    {
-      "personaggio": "gino",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Testo prima persona IT",
-      "intro_en": "English translation",
-      "domanda": { "it": "Affermazione IT.", "en": "Statement EN." },
-      "correct": false,
-      "feedbackOk": { "it": "...", "en": "..." },
-      "feedbackErr": { "it": "...", "en": "..." }
-    },
-
-    {
-      "personaggio": "sofia",
-      "tipo": "word_bank",
-      "fase": "produzione",
-      "intro": "Testo prima persona IT",
-      "intro_en": "English translation",
-      "domanda": { "it": "Domanda IT?", "en": "Question EN?" },
-      "hint_it": "Frase target IT.",
-      "hint_en": "Target sentence EN.",
-      "parole": ["Parola1", "parola2", "parola3"],
-      "distrattori": ["distrat1", "distrat2"],
-      "correct": ["Parola1", "parola2", "parola3"],
-      "feedbackOk": { "it": "...", "en": "..." },
-      "feedbackErr": { "it": "...", "en": "..." }
-    },
-
-    {
-      "personaggio": "gino",
-      "tipo": "falso_amico",
-      "fase": "produzione",
-      "intro": "Testo prima persona IT",
-      "intro_en": "English translation",
-      "domanda": { "it": "Domanda IT?", "en": "Question EN?" },
-      "contesto_it": "\"Frase con la parola in contesto.\"",
-      "contesto_en": "\"Sentence with the word in context.\"",
-      "opzioni": [
-        { "it": "Opzione IT", "en": "Option EN" }
-      ],
-      "correct": 1,
-      "feedbackOk": { "it": "...", "en": "..." },
-      "feedbackErr": { "it": "...", "en": "..." }
-    }
-  ],
-
-  "reward": {
-    "cibo": "cornetto",
-    "cibo_emoji": "🥐",
-    "cibo_nome_it": "Cornetto",
-    "cibo_nome_en": "Croissant",
-    "energia_base": 15,
-    "scala_errori": [
-      { "max_errori": 0,  "moltiplicatore": 1.0 },
-      { "max_errori": 2,  "moltiplicatore": 0.75 },
-      { "max_errori": 4,  "moltiplicatore": 0.50 },
-      { "max_errori": 6,  "moltiplicatore": 0.25 },
-      { "max_errori": 99, "moltiplicatore": 0.0 }
-    ]
-  }
-}
+### travelAccess (accesso viaggi per energia)
+```
+energy >= 90% → 'all'    (Capitali + Città + Mete)
+energy >= 60% → 'citta'  (Città + Mete)
+energy >= 25% → 'mete'   (solo Mete)
+energy < 25%  → 'none'
 ```
 
 ---
 
-## 8. ANNOTAZIONI GRAMMATICALI — WORDPOPUP
+## Sistema Livelli CEFR — LevelBadge.js
 
-Ogni parola annotabile ha questo schema:
-
-```json
-{
-  "parola": "caffè",
-  "tipo": "sostantivo",
-  "categoria_it": "sostantivo · maschile · singolare",
-  "categoria_en": "noun · masculine · singular",
-  "en": "coffee / espresso",
-  "perche": "Spiegazione del perché in italiano.",
-  "perche_en": "Explanation of why in English."
-}
-```
-
-**Tipi e colori:**
-
-| Tipo | Colore | Hex |
-|------|--------|-----|
-| sostantivo | 🟠 Arancione | #FF9B42 |
-| verbo | 🟢 Verde | #58CC02 |
-| aggettivo | 🔵 Azzurro | #1CB0F6 |
-| articolo | 🟣 Viola | #C8A0E8 |
-| preposizione | 🌸 Rosa | #FF6B9D |
-| avverbio | 🩶 Grigio | #AFAFAF |
-| falso_amico | 🔴 Rosso | #FF4B4B |
-| culturale | 🟡 Oro | #E5B700 |
-
-**Terminologia bilingue obbligatoria:**
-
-| Italiano | English |
-|----------|---------|
-| sostantivo | noun |
-| verbo | verb |
-| aggettivo | adjective |
-| articolo | article |
-| preposizione | preposition |
-| avverbio | adverb |
-| maschile | masculine |
-| femminile | feminine |
-| singolare | singular |
-| plurale | plural |
-| determinativo | definite |
-| indeterminativo | indefinite |
-| condizionale | conditional |
+| Livello | Categoria IT | Categoria EN | Emoji | Fase |
+|---------|-------------|--------------|-------|------|
+| A1 | Il Turista | The Tourist | 🧳 | Scintilla |
+| A2 | Il Viaggiatore | The Traveller | 🛵 | Incontro |
+| B1 | L'Esploratore | The Explorer | 🗺️ | Avventura |
+| B2 | L'Appassionato | The Passionate | ❤️ | Complicità |
+| C1 | L'Esperto | The Expert | 🎭 | Passione |
+| C2 | Il Maestro | The Master | 👑 | Essenza |
 
 ---
 
-## 9. DISTRIBUZIONE DOMANDE PER LIVELLO
+## Home — app/page.js
 
-### A1 — Turista (8 tipi attivi)
-multipla · abbina_coppia · gesti · ascolta_scegli · vero_falso · word_bank · fill_blank · falso_amico
+### Pill Dashboard (in alto a destra)
+```
+Dashboard / 🍕 Turista_4821 →
+```
 
-### A2 — Viaggiatore (+3 nuovi)
-+ ascolta_ricostruisci · ascolta_dialogo · completa_desinenza
+### Accordion Unità — Design Proposta B+A
+- **Barra laterale sinistra** colorata per stato: verde=fatto, blu=attiva, grigio=bloccata
+- **Cerchio col numero** dell'unità (verde ✓ se fatto, blu N se attiva, 🔒 se bloccata)
+- **Progress bar** sottile sotto il titolo unità
+- **Lezioni**: "Lezione N · Titolo IT / Titolo EN" + emoji nel cerchio colorato
+- **Separatori tra lezioni**: tratteggiato argento `1.5px dashed #B4B2A966`
+- **Separatore prima del boss**: tratteggiato dorato `1.5px dashed #E5B700AA`
+- **Boss**: sempre 🍦 nel cerchio, 🔒 solo a destra se bloccato (mai a sinistra)
+- **Lucchetti**: SOLO a destra per lezioni bloccate, MAI a sinistra
 
-### B1 — Esploratore (+3 nuovi)
-+ scegli_registro · word_bank_formale · ordina_dialogo
+### Struttura UNITS (hardcoded per ora)
+```js
+{n:1, titleIT:'Il primo giorno a Napoli', titleEN:'First day in Naples',  lessons:[1,2,3,4], comingSoon:false}
+{n:2, titleIT:'Fare conoscenza',          titleEN:'Making friends',        lessons:[],        comingSoon:true}
+{n:3, titleIT:'La giornata napoletana',   titleEN:'Daily Neapolitan life', lessons:[],        comingSoon:true}
+```
 
-### B2 — Appassionato (+2 nuovi)
-+ traduci_frase · falso_amico_avanzato
+### Mini-game Personaggi (Sprint 8)
+- Import dinamici con `ssr: false` per evitare hydration errors
+- Tap → mini-game, long press → bio modale
+- Tutti in `app/components/games/`
 
 ---
 
-## 10. SISTEMA STREAK SETTIMANALE
+## Dashboard — app/dashboard/page.js
 
-- **Settimana:** Lunedì → Domenica
-- **Giorno attivo:** ≥2 lezioni completate in un giorno
-- **Bonus domenica:**
-  - ≥5/7 giorni attivi: +50 cr + energia
-  - ≥3/7 giorni attivi: +30 cr
-  - ≥2/7 giorni attivi: +10 cr
-- **Giorni mostrati:** tutti e 7, bilingue (Lun/Mon, Mar/Tue, Mer/Wed, Gio/Thu, Ven/Fri, Sab/Sat, Dom/Sun)
+### Sezioni in ordine
+1. **Profilo**: avatar emoji (set fisso), nickname default `NickPrefix_seed`
+2. **Energia**: barra XP
+3. **Streak settimanale**: Lun→Dom, oggi evidenziato, Dom +30cr
+4. **Crediti + Viaggi**: contatore crediti, bottone Viaggia, box Capitali/Città/Mete
+5. **Statistiche**: 4 card
+6. **Percorso A1**: unità con stato dinamico da localStorage
+7. **Raccomandazioni**: rimosso "Continua da qui" — unità attiva ha icona → e va alla home
+
+### Box Capitali/Città/Mete in dashboard
+```
+🏛️ Capitali / Capitals   → fucsia  #E91E8C  (energia ≥90%)
+🏙️ Città    / Cities      → arancio #E67E22  (energia ≥60%)
+🗺️ Mete     / Destinations → ciano  #00BCD4  (energia ≥25%)
+```
+- Griglia 3 colonne con bordi neon e box-shadow colorato
+- Pallini progressione colorati
+- Badge "✓ aperto / open" o "🔒 ≥N% ⚡"
+
+### Percorso in dashboard
+- Unità attiva → cliccabile → `router.push('/')` con icona `→`
+- Unità in arrivo → `🔒 in arrivo`
+- NO "Continua da qui" (rimosso — ridondante)
 
 ---
 
-## 11. REGOLE UI GLOBALI
+## ItalyTravelModal — app/components/ItalyTravelModal.js
 
-1. **Tutto bilingue IT / EN** — senza eccezioni. Titoli, label, feedback, bottoni.
-2. **Box domanda** — bordo colorato con il colore del personaggio. Mai confondersi con le risposte.
-3. **Opzioni risposta** — sempre bilingue IT (grassetto) + EN (corsivo sotto).
-4. **Feedback** — sempre bilingue. IT in grassetto, EN in corsivo sotto.
-5. **Audio** — pronuncia solo IT. Mai pronunciare testo inglese.
-6. **Shuffle risposte** — deterministico (seed basato sulla domanda) per evitare che la corretta sia sempre prima.
-7. **Word bank** — tre stati: ok (verde), incompleta (giallo), sbagliata (rosso). Bottone Riprova senza penalità extra.
+### Colori sistema (NON sovrapposti ai cluster)
+```
+🏛️ Capitali / Capitals     → fucsia  #E91E8C
+🏙️ Città    / Cities        → arancio #E67E22
+🗺️ Mete     / Destinations  → ciano   #00BCD4
 
----
-
-## 12. COME AGGIUNGERE UNA NUOVA LEZIONE
-
-### Step 1 — Crea il JSON
-Segui esattamente il template della sezione 7.
-- 4 vocab card nella fase Scoperta
-- 3 domande fase Riconoscimento (multipla + gesti/abbina_coppia)
-- 2 domande fase Comprensione (ascolta_scegli + vero_falso)
-- 3 domande fase Produzione (word_bank + fill_blank/falso_amico)
-- Tutti i testi `intro` in prima persona
-- Tutto bilingue
-
-### Step 2 — Aggiungi a page.js
-```javascript
-const LESSONS = [
-  // ...lezioni esistenti...
-  { id: 5, title: "Titolo IT / Title EN", subtitle: "Sottotitolo IT / EN" },
-];
+🔴 Icone / Icons        → 500 cr  (turismo di massa)
+🟡 Tesori / Treasures   → 350 cr  (interesse crescente)
+🟢 Scoperte / Discoveries → 200 cr (perla autentica)
 ```
 
-### Step 3 — Aggiungi logica unlock
-```javascript
-function isUnlocked(id) {
-  // ...
-  if (id === 5) return completed.includes(4);
-}
-```
+**Regola costi**: cluster determina il costo, MA tutte le Capitali costano sempre 500 cr indipendentemente dal cluster.
 
-### Step 4 — Copia il JSON
-```bash
-cp lesson5.json ~/Desktop/italiano-con-stile/public/data/lessons/lesson5.json
-```
+### Layout Modal (bottom sheet mobile)
+1. Header + ✕
+2. Mappa PNG semplice statica (`/images/italia-map.png`) — nessun pin, nessuna interazione
+3. Crediti + legenda costi cluster (🔴🟡🟢)
+4. Box 3 colonne Capitali/Città/Mete con colori neon
+5. Scheda città selezionata (appare dopo selezione)
+6. Barra ricerca per nome/regione
+7. Tab Capitali | Città | Mete
+8. Lista per regione:
+   - **Campania sempre prima**
+   - Napoli ☀️ speciale in cima a Campania nel tab Capitali
+   - Poi tutte le regioni in ordine alfabetico
+   - Dentro ogni regione: città ordinate 🔴→🟡→🟢
+   - Pallino cluster colorato + badge costo a destra
 
-### Step 5 — Deploy
-```bash
-git add . && git commit -m "Aggiunta lezione 5: [titolo]" && git push origin main
+### Database (~145 destinazioni)
+Basato sulla tabella turismo straniero ufficiale con:
+- 20 Capitali di regione (tutte 🔴, 500 cr)
+- ~80 Città (capoluoghi di provincia, costo per cluster)
+- ~45 Mete (borghi, parchi, laghi, vulcani, coste)
+- Campo `regione` per ogni città
+- Campo `cluster` 🔴/🟡/🟢
+- Campo `fact` con curiosità bilingue IT/EN
+- Campo `desc` + `descEn`
+- "Rivedi il ricordo" per città già visitate (frase poetica)
+
+### travelAccess mapping (aggiornato)
+```js
+energy >= 90% → 'all'    // Capitali + Città + Mete
+energy >= 60% → 'citta'  // Città + Mete
+energy >= 25% → 'mete'   // solo Mete
+energy < 25%  → 'none'
 ```
 
 ---
 
-## 13. COME GENERARE LEZIONI CON CLAUDE API (Sprint 9+)
+## XPBar — app/components/XPBar.js
 
-Usa questo prompt per generare un JSON lezione completo:
+- Mostra solo barra energia (streak e crediti rimossi dalla barra)
+- Milestone labels aggiornate: `Mete` (25%) · `Città` (60%) · `Capitali` (90%)
+- Label access: `'🇮🇹 Solo Mete / Destinations only'` | `'🇮🇹 Mete + Città / Destinations + Cities'` | `'🇮🇹 Tutto / All Italy'`
 
+---
+
+## Terminologia Uniforme (ovunque nell'app)
+
+| IT | EN | Colore | Energia |
+|----|----|----|---------|
+| Capitali | Capitals | Fucsia #E91E8C | ≥90% |
+| Città | Cities | Arancio #E67E22 | ≥60% |
+| Mete | Destinations | Ciano #00BCD4 | ≥25% |
+| 🔴 Icone | Icons | rosso | 500 cr |
+| 🟡 Tesori | Treasures | giallo | 350 cr |
+| 🟢 Scoperte | Discoveries | verde | 200 cr |
+
+---
+
+## Sprint Completati
+
+| Sprint | Cosa | Stato |
+|--------|------|-------|
+| 7 | Fix streak, FraseAnnotata in VocabIntro | ✅ |
+| 8 | Mini-game 5 personaggi (AI + Flash + Speed + Storia + Email) | ✅ |
+| 9 | Dashboard, ItalyTravelModal, design sistema Capitali/Città/Mete | ✅ |
+
+---
+
+## Roadmap Sprint
+
+| Sprint | Cosa | Dettagli |
+|--------|------|---------|
+| 10 | Biblioteca / Approfondimenti | Schede grammatica, vocabolario tematico, errori frequenti → biblioteca |
+| **11** | **Router Unità** `/lesson/A1/1/1` | Struttura completa livello/unità/lezione, dati da JSON |
+| 12 | Supabase Auth | Login, registrazione, profilo persistente |
+| 13 | Migrazione localStorage → DB | Dati sicuri multi-device |
+| 14 | Assessment A1→A2 | Gate reale al 75%, unità recupero se 60-74% |
+
+---
+
+## Sprint 11 — Da fare: Router Unità
+
+### Struttura URL target
 ```
-Sei il motore di generazione lezioni per "Italiano con Stile".
-Genera una lezione JSON seguendo ESATTAMENTE questo template: [template sezione 7]
-
-REGOLE OBBLIGATORIE:
-- Tutto bilingue IT / EN
-- Tutti i testi intro in prima persona diretta
-- Mario parla come barista napoletano amichevole
-- Diego parla in modo energico con punti esclamativi
-- Gino parla come professore che racconta storie
-- Sofia parla veloce e diretto
-- Matilde parla formale e professionale
-- Vittoria parla secca e ironica
-
-TEMA: [inserisci tema, es. "Al Ristorante", "In Albergo", "Numeri e Prezzi"]
-LIVELLO: A1 Turista
-UNITA: [numero unità]
-
-Genera SOLO il JSON, nessun testo aggiuntivo.
+/lesson/A1/1/1  → Livello A1, Unità 1, Lezione 1
+/lesson/A1/1/2  → Livello A1, Unità 1, Lezione 2
+/lesson/A1/2/1  → Livello A1, Unità 2, Lezione 1
 ```
 
-Modello consigliato: **Claude Haiku** — ~$0.001 per lezione generata.
+### Struttura file dati
+```
+/data/lessons/A1/unit1/lesson1.json
+/data/lessons/A1/unit1/lesson2.json
+/data/lessons/A1/unit1/boss.json
+```
+
+### Regole unità
+- Unità dispari = Esplorazione (nuovi contenuti)
+- Unità pari = Consolidamento (ripasso + pratica)
+- 120 unità totali per livello A1/A2/B1
+- Assessment gate al 75% per passare al livello successivo
+- Unità recupero se 60-74%
+
+### Decisioni architetturali
+- Auth: Supabase (free tier: 50k utenti/mese)
+- Beta: tutto gratis
+- Soft launch: Unità 1 gratis, resto Premium
+- Avatar: emoji da set predefinito ['🍕','🤌','☕','🎵','🌊','🏺','🍋','👒']
+- Nickname default: `NickPrefix_seed` aggiornato al cambio livello
 
 ---
 
-## 14. ROADMAP SPRINT
+## Note Tecniche
 
-| Sprint | Contenuto | Status |
-|--------|-----------|--------|
-| 5 | Cartina Italia + energia + viaggi | ✅ |
-| 6 | Menu del giorno + onboarding + streak | ✅ |
-| 7 | Motore lezioni 7 tipi + JSON + WordPopup | ✅ |
-| 8 | Mini-game personaggi (tap → gioco) | ⏳ |
-| 9 | Prompt chaining — Unità 2 e 3 A1 | ⏳ |
-| 10 | Autenticazione Supabase | ⏳ |
-| 11 | Azure TTS + speech recognition | ⏳ |
-| 12 | Business Italian Matilde | ⏳ |
-| 13 | PWA mobile | ⏳ |
-| 14 | Freemium + monetizzazione | ⏳ |
+### Mappa Italia
+- PNG statica: `/public/images/italia-map.png` — usata nel modal, funziona
+- SVG disponibile: `/public/images/italia-map.svg` — non integrata, da riprendere
+- Calibrazione SVG (per uso futuro): `LON_OFF=6.238, LAT_OFF=47.367, PX_LON=81.6, PX_LAT=106.9`
+- Coordinate testate su: Aosta, Trieste, Bari, Napoli, Palermo, Cagliari
 
----
+### Claude API nei mini-game
+- Modello: `claude-sonnet-4-20250514` (sempre Sonnet 4)
+- Max tokens: 1000
+- Costo per dialogo MarioDialog: ~$0.002
+- L'API key viene gestita automaticamente — non passarla nel codice client
 
-## 15. MINI-GAME PERSONAGGI (Sprint 8)
-
-| Personaggio | Mini-game | Meccanica |
-|------------|-----------|-----------|
-| ☕ Mario | Cosa dice il cliente? | Dialogo AI — 3 opzioni generate da Claude API |
-| 🎧 Sofia | Speed Round | 10 slang in 60 secondi |
-| 🧢 Diego | Flash Gesti | 5 gesti in 60 secondi |
-| 🎓 Gino | Gesto + Storia | 1 gesto con storia culturale approfondita |
-| 💼 Matilde | Email Challenge | Componi email formale con word bank |
-| 🍦 Vittoria | Sfida la Nonna | Boss finale — già implementato |
-
-**Accesso:** tap sul personaggio nella home.
-**Costo AI (Mario):** ~$0.002 per dialogo con Claude Haiku.
+### localStorage keys
+```
+progress_v2        — progresso lezioni
+tickets            — città visitate (id città → boolean)
+energy             — energia attuale
+credits            — crediti
+streak_v2          — streak settimanale
+profile            — avatar, nickname
+```
 
 ---
 
-*Fine Bibbia Tecnica — aggiornare ad ogni sprint.*
+## Sprint 11 — Completato: Router Unità
+
+### Struttura URL implementata
+```
+/lesson/A1/1/1  → Livello A1, Unità 1, Lezione 1
+/lesson/A1/1/2  → Livello A1, Unità 1, Lezione 2
+/lesson/A1/1/boss → Boss Unità 1
+```
+
+### File creati/modificati
+```
+app/lesson/[livello]/[unita]/[lezione]/page.js  — nuovo router (rimpiazza [id])
+app/components/LessonButton.js                  — aggiornato (livello/unita/lezione)
+public/data/lessons/A1/unit1/lesson1-4.json     — JSON copiati in public/
+public/data/lessons/A1/unit1/boss.json          — placeholder boss
+data/lessons/A1/unit1/                          — copia locale (source of truth)
+```
+
+### Regole implementate
+- Unità dispari = Esplorazione (🗺️ nuovi contenuti)
+- Unità pari = Consolidamento (🔁 ripasso)
+- Header lezione: "Unità N · Lezione N / Unit N · Lesson N"
+- Bottone 🏠 Home con window.confirm() per evitare uscite accidentali
+- Boss: salta VocabIntro se vocab è vuoto
+
+### Note importanti
+- I JSON delle lezioni vanno in ENTRAMBE le cartelle:
+  - `data/lessons/[livello]/unit[N]/` — source of truth per sviluppo
+  - `public/data/lessons/[livello]/unit[N]/` — serviti dal browser (obbligatorio)
+- Il vecchio router `app/lesson/[id]/` è stato eliminato (conflitto slug Next.js)
+- Il progresso a metà lezione NON viene salvato — uscire = ricominciare da zero (fix previsto Sprint 12 con Supabase)
+- LessonButton mostra sempre "Inizia →" anche se lezione già vista (non è un bug, è by design pre-auth)
+
+---
+
+## Sprint 10 — Completato: Biblioteca
+
+### Struttura
+```
+app/biblioteca/page.js                    — lista schede, tab Grammatica/Vocabolario
+app/biblioteca/[scheda]/page.js           — scheda singola
+public/data/biblioteca/index.json         — indice completo tutte le schede
+public/data/biblioteca/schede/*.json      — contenuto schede (3 completate)
+```
+
+### Schede completate
+- `articoli-determinativi` — Grammatica A1
+- `numeri` — Vocabolario A1
+- `saluti` — Vocabolario A1
+
+### Principi della Biblioteca
+- **Accesso libero per tutti i livelli** — il badge A1/A2/B1 è informativo, non restrittivo
+- **Schede bloccate = comingSoon:true** nell'index.json — significa JSON non ancora scritto, non livello insufficiente
+- **Tono "Finally someone explains why"** — ogni scheda ha sezione 💡 Perché/Why con spiegazione onesta
+- **Struttura ogni scheda**: Mario intro → Perché → Spiegazione → Tabella → Esempi audio → Nota napoletana → Esercizi sequenziali
+- **Esercizi**: multipla + vero/falso + word bank — tutto istantaneo, niente AI
+- **Bottone** in dashboard con bordoSX dorato #E5B700
+
+### Per aggiungere una nuova scheda
+1. Scrivi il JSON in `public/data/biblioteca/schede/[id].json`
+2. In `public/data/biblioteca/index.json` togli `comingSoon:true` dalla scheda corrispondente
+
+### Lezioni apprese Sprint 10
+- I 60 esercizi per scheda si generano qui in chat (non serve API key) — io li scrivo, tu incolla il node script
+- Le word bank richiedono traduzione EN separata — NON copiare la frase IT nella EN
+- Lo script di generazione automatica (`scripts/genera-esercizi.js`) esiste ma richiede chiave Anthropic diretta (`sk-ant-api03-...`) — la chiave OpenRouter (`sk-or-v1-...`) non funziona
+- Flusso corretto per nuova scheda:
+  1. Scrivi JSON base (titolo, perche, spiegazione, tabella, esempi, nota)
+  2. Chiedi a Claude in chat i 60 esercizi
+  3. Incolla il node script nel terminale
+  4. Togli comingSoon dall'index.json
+
+### Stato schede Biblioteca (aggiornato)
+
+**Blocco 1 — A1 base ✅ COMPLETO**
+- articoli-determinativi — 60 esercizi ✅
+- genere-numero — 60 esercizi ✅
+- articoli-indeterminativi — 60 esercizi ✅
+- presente-indicativo — 60 esercizi ✅
+- pronomi-soggetto — 60 esercizi ✅
+- preposizioni — 60 esercizi ✅
+- numeri — 0 esercizi (da fare)
+- saluti — 0 esercizi (da fare)
+
+**Blocco 2 — A2 (da fare)**
+- aggettivi
+- ausiliari (essere vs avere)
+- verbi-modali
+- verbi-riflessivi
+- passato-prossimo
+- imperativo
+- pronomi-diretti
+
+**Blocco 3 — B1 (da fare)**
+- imperfetto
+- futuro-semplice
+- condizionale
+- gerundio
+- congiuntivo-presente
+- (e altri tempi avanzati)
+
+### Stato schede aggiornato — Blocco 1 completo ✅
+- articoli-determinativi — 60 esercizi ✅
+- genere-numero — 60 esercizi ✅
+- articoli-indeterminativi — 60 esercizi ✅
+- presente-indicativo — 60 esercizi ✅
+- pronomi-soggetto — 60 esercizi ✅
+- preposizioni — 60 esercizi ✅
+- numeri — 60 esercizi ✅
+- saluti — 60 esercizi ✅
+
+**Blocco 2 A2 — prossimo**
+aggettivi, ausiliari, verbi-modali, verbi-riflessivi, passato-prossimo, imperativo, pronomi-diretti
+
+---
+
+## Sprint Biblioteca — Completato (Aprile 2025)
+
+### Stato finale
+- **30 schede** totali — tutte 60/60 (20M/20VF/20WB)
+- **1800 esercizi** totali
+- **0 schede incomplete**
+
+### Grammatica (23 schede)
+A1: articoli-determinativi · articoli-indeterminativi · genere-numero · pronomi-soggetto · preposizioni · presente-indicativo · aggettivi · ausiliari · verbi-modali · verbi-riflessivi · imperativo
+A2: pronomi-diretti · passato-prossimo · imperfetto · futuro-semplice · condizionale · condizionale-passato
+B1: congiuntivo-presente · congiuntivo (tutti i tempi + congiunzioni) · periodo-ipotetico · gerundio
+
+### Vocabolario (9 schede — incluse le 2 già esistenti)
+A1: numeri · saluti · orari · direzioni · colori · famiglia
+A2: cibo-bar · emozioni · falsi-amici
+
+### Decisioni architetturali prese
+- congiuntivo → scheda unica con tutti e 4 i tempi + tavola congiunzioni (campo JSON `congiunzioni`)
+- condizionale-passato → NO SE ipotetico, solo rimpianto + discorso indiretto + SE whether
+- periodo-ipotetico → tavola SE completa (tipo 1/2/3/misto + SE whether + colloquiale + errori)
+- falsi-amici → struttura "Finally someone explains why" applicata alle trappole lessicali
+- Biblioteca = accesso libero per tutti i livelli (badge A1/A2/B1 solo informativo)
+- Check preventivo integrato in ogni script di generazione — se fallisce non salva
+
+### Per aggiungere nuove schede
+1. Scrivi il JSON con struttura standard in `public/data/biblioteca/schede/[id].json`
+2. Genera i 60 esercizi con check preventivo (20M/20VF/20WB)
+3. Togli `comingSoon` dall'`index.json`
+4. La scheda è live automaticamente su Vercel
+

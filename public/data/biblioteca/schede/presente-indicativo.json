@@ -1,0 +1,1551 @@
+{
+  "id": "presente-indicativo",
+  "categoria": "grammatica",
+  "emoji": "⏱️",
+  "livello": "A1",
+  "titolo": {
+    "it": "Presente Indicativo",
+    "en": "Present Tense"
+  },
+  "mario": "In italiano i verbi cambiano forma per ogni persona. Sei forme diverse dove l'inglese ne usa due. Sembra tanto — ma c'è un sistema. Te lo mostro.",
+  "marioEn": "In Italian verbs change form for every person. Six different forms where English uses two. Seems like a lot — but there's a system. Let me show you.",
+  "perche": {
+    "it": "In inglese il verbo cambia quasi solo alla terza persona: I eat, you eat, he eats. In italiano cambia per tutte e sei le persone: mangio, mangi, mangia, mangiamo, mangiate, mangiano. Perché? Perché in italiano il soggetto spesso non si dice — la desinenza del verbo ti dice già chi fa l'azione. 'Mangio' significa già 'io mangio' senza bisogno di dire 'io'.",
+    "en": "In English the verb almost only changes in the third person: I eat, you eat, he eats. In Italian it changes for all six persons: mangio, mangi, mangia, mangiamo, mangiate, mangiano. Why? Because in Italian the subject is often not said — the verb ending already tells you who is doing the action. 'Mangio' already means 'I eat' without needing to say 'io'."
+  },
+  "spiegazione": {
+    "it": "Tre gruppi di verbi: -are (mangiare), -ere (prendere), -ire (partire). Ogni gruppo ha le sue desinenze. Gli irregolari più comuni vanno imparati a parte.",
+    "en": "Three verb groups: -are (mangiare), -ere (prendere), -ire (partire). Each group has its own endings. The most common irregulars need to be learned separately."
+  },
+  "tabella": {
+    "headers": [
+      "Persona",
+      "-ARE (mangiare)",
+      "-ERE (prendere)",
+      "-IRE (partire)",
+      "-IRE (finire)*"
+    ],
+    "rows": [
+      [
+        "io",
+        "mangio",
+        "prendo",
+        "parto",
+        "finisco"
+      ],
+      [
+        "tu",
+        "mangi",
+        "prendi",
+        "parti",
+        "finisci"
+      ],
+      [
+        "lui/lei",
+        "mangia",
+        "prende",
+        "parte",
+        "finisce"
+      ],
+      [
+        "noi",
+        "mangiamo",
+        "prendiamo",
+        "partiamo",
+        "finiamo"
+      ],
+      [
+        "voi",
+        "mangiate",
+        "prendete",
+        "partite",
+        "finite"
+      ],
+      [
+        "loro",
+        "mangiano",
+        "prendono",
+        "partono",
+        "finiscono"
+      ],
+      [
+        "* -isc-",
+        "—",
+        "—",
+        "—",
+        "alcuni verbi -ire aggiungono -isc- / some -ire verbs add -isc-"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Mangio una pizza ogni venerdì.",
+      "en": "I eat a pizza every Friday.",
+      "audio": "Mangio una pizza ogni venerdì."
+    },
+    {
+      "it": "Mario prende sempre un caffè al bar.",
+      "en": "Mario always has a coffee at the bar.",
+      "audio": "Mario prende sempre un caffè al bar."
+    },
+    {
+      "it": "Partiamo domani mattina.",
+      "en": "We leave tomorrow morning.",
+      "audio": "Partiamo domani mattina."
+    },
+    {
+      "it": "Finite la pizza e poi usciamo.",
+      "en": "Finish the pizza and then we go out.",
+      "audio": "Finite la pizza e poi usciamo."
+    },
+    {
+      "it": "Capisco l'italiano ma parlo poco.",
+      "en": "I understand Italian but speak little.",
+      "audio": "Capisco l'italiano ma parlo poco."
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 A Napoli senti spesso 'tengo' invece di 'ho' (avere). 'Tengo 'na pizza' = Ho una pizza. È dialetto napoletano — bellissimo, ma in italiano standard si usa 'ho'.",
+    "en": "🇳🇦 In Naples you often hear 'tengo' instead of 'ho' (to have). 'Tengo 'na pizza' = I have a pizza. It's Neapolitan dialect — beautiful, but in standard Italian use 'ho'."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'mangiare' per 'io'?",
+        "en": "What is the correct form of 'mangiare' for 'io'?"
+      },
+      "opzioni": [
+        "mangi",
+        "mangia",
+        "mangio",
+        "mangiamo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Io mangio — desinenza -o per la prima persona singolare dei verbi -are.",
+        "en": "Correct! Io mangio — ending -o for first person singular of -are verbs."
+      },
+      "feedbackErr": {
+        "it": "Prima persona singolare -are → -o → mangio.",
+        "en": "First person singular -are → -o → mangio."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'prendere' per 'tu'?",
+        "en": "What is the correct form of 'prendere' for 'tu'?"
+      },
+      "opzioni": [
+        "prendo",
+        "prende",
+        "prendiamo",
+        "prendi"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Tu prendi — desinenza -i per la seconda persona singolare dei verbi -ere.",
+        "en": "Correct! Tu prendi — ending -i for second person singular of -ere verbs."
+      },
+      "feedbackErr": {
+        "it": "Seconda persona singolare → -i → prendi.",
+        "en": "Second person singular → -i → prendi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'partire' per 'lui/lei'?",
+        "en": "What is the correct form of 'partire' for 'lui/lei'?"
+      },
+      "opzioni": [
+        "parto",
+        "partono",
+        "partite",
+        "parte"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Lui/lei parte — desinenza -e per la terza persona singolare dei verbi -ire.",
+        "en": "Correct! Lui/lei parte — ending -e for third person singular of -ire verbs."
+      },
+      "feedbackErr": {
+        "it": "Terza persona singolare -ire → -e → parte.",
+        "en": "Third person singular -ire → -e → parte."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'mangiare' per 'noi'?",
+        "en": "What is the correct form of 'mangiare' for 'noi'?"
+      },
+      "opzioni": [
+        "mangiate",
+        "mangiano",
+        "mangio",
+        "mangiamo"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Noi mangiamo — desinenza -iamo per la prima persona plurale.",
+        "en": "Correct! Noi mangiamo — ending -iamo for first person plural."
+      },
+      "feedbackErr": {
+        "it": "Prima persona plurale -are → -iamo → mangiamo.",
+        "en": "First person plural -are → -iamo → mangiamo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'prendere' per 'voi'?",
+        "en": "What is the correct form of 'prendere' for 'voi'?"
+      },
+      "opzioni": [
+        "prendono",
+        "prendiamo",
+        "prende",
+        "prendete"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Voi prendete — desinenza -ete per la seconda persona plurale dei verbi -ere.",
+        "en": "Correct! Voi prendete — ending -ete for second person plural of -ere verbs."
+      },
+      "feedbackErr": {
+        "it": "Seconda persona plurale -ere → -ete → prendete.",
+        "en": "Second person plural -ere → -ete → prendete."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'finire' per 'io'?",
+        "en": "What is the correct form of 'finire' for 'io'?"
+      },
+      "opzioni": [
+        "finisco",
+        "finisco",
+        "finio",
+        "finisco"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Io finisco — alcuni verbi -ire aggiungono -isc- alle prime tre persone singolari e alla terza plurale.",
+        "en": "Correct! Io finisco — some -ire verbs add -isc- to the first three singular persons and third plural."
+      },
+      "feedbackErr": {
+        "it": "Verbi -ire con -isc-: finisco, finisci, finisce, finiamo, finite, finiscono.",
+        "en": "-ire verbs with -isc-: finisco, finisci, finisce, finiamo, finite, finiscono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché gli italiani spesso non dicono 'io' prima del verbo?",
+        "en": "Why do Italians often not say 'io' before the verb?"
+      },
+      "opzioni": [
+        "È una regola grammaticale obbligatoria.",
+        "La desinenza del verbo indica già la persona.",
+        "Non è educato.",
+        "È dialetto."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangio' significa già 'io mangio' — la desinenza -o indica la prima persona.",
+        "en": "Correct! 'Mangio' already means 'I eat' — the ending -o indicates first person."
+      },
+      "feedbackErr": {
+        "it": "La desinenza verbale porta già l'informazione del soggetto — il pronome è ridondante.",
+        "en": "The verb ending already carries the subject information — the pronoun is redundant."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'parlare' alla terza persona plurale?",
+        "en": "How do you conjugate 'parlare' in the third person plural?"
+      },
+      "opzioni": [
+        "parlate",
+        "parliamo",
+        "parla",
+        "parlano"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Loro parlano — desinenza -ano per la terza persona plurale dei verbi -are.",
+        "en": "Correct! Loro parlano — ending -ano for third person plural of -are verbs."
+      },
+      "feedbackErr": {
+        "it": "Terza persona plurale -are → -ano → parlano.",
+        "en": "Third person plural -are → -ano → parlano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'capire' alla seconda persona singolare?",
+        "en": "How do you conjugate 'capire' in the second person singular?"
+      },
+      "opzioni": [
+        "capisce",
+        "capiamo",
+        "capisci",
+        "capite"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tu capisci — verbo -ire con -isc- alla seconda persona singolare.",
+        "en": "Correct! Tu capisci — -ire verb with -isc- in the second person singular."
+      },
+      "feedbackErr": {
+        "it": "Capire usa -isc-: capisco, capisci, capisce, capiamo, capite, capiscono.",
+        "en": "Capire uses -isc-: capisco, capisci, capisce, capiamo, capite, capiscono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'vivere' per 'noi'?",
+        "en": "What is the correct form of 'vivere' for 'noi'?"
+      },
+      "opzioni": [
+        "vivete",
+        "vivono",
+        "vive",
+        "viviamo"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Noi viviamo — desinenza -iamo per la prima persona plurale.",
+        "en": "Correct! Noi viviamo — ending -iamo for first person plural."
+      },
+      "feedbackErr": {
+        "it": "Prima persona plurale → sempre -iamo → viviamo.",
+        "en": "First person plural → always -iamo → viviamo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'we eat' in italiano?",
+        "en": "How do you say 'we eat' in Italian?"
+      },
+      "opzioni": [
+        "mangiate",
+        "mangiano",
+        "mangiamo",
+        "mangio"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! We eat = mangiamo. Prima persona plurale.",
+        "en": "Correct! We eat = mangiamo. First person plural."
+      },
+      "feedbackErr": {
+        "it": "We eat = mangiamo. Noi + -iamo.",
+        "en": "We eat = mangiamo. Noi + -iamo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale verbo è irregolare al presente?",
+        "en": "Which verb is irregular in the present tense?"
+      },
+      "opzioni": [
+        "mangiare",
+        "prendere",
+        "essere",
+        "partire"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Essere' è molto irregolare: sono, sei, è, siamo, siete, sono.",
+        "en": "Correct! 'Essere' is very irregular: sono, sei, è, siamo, siete, sono."
+      },
+      "feedbackErr": {
+        "it": "'Essere' è il verbo più irregolare: sono, sei, è, siamo, siete, sono.",
+        "en": "'Essere' is the most irregular verb: sono, sei, è, siamo, siete, sono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'they speak' in italiano?",
+        "en": "How do you say 'they speak' in Italian?"
+      },
+      "opzioni": [
+        "parlate",
+        "parliamo",
+        "parla",
+        "parlano"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! They speak = parlano. Terza persona plurale -are → -ano.",
+        "en": "Correct! They speak = parlano. Third person plural -are → -ano."
+      },
+      "feedbackErr": {
+        "it": "They speak = parlano. Loro + -ano.",
+        "en": "They speak = parlano. Loro + -ano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la desinenza della seconda persona plurale (voi) per i verbi -are?",
+        "en": "What is the ending of the second person plural (voi) for -are verbs?"
+      },
+      "opzioni": [
+        "-ete",
+        "-ono",
+        "-ano",
+        "-ate"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Voi + -are → -ate → mangiate, parlate, lavorate.",
+        "en": "Correct! Voi + -are → -ate → mangiate, parlate, lavorate."
+      },
+      "feedbackErr": {
+        "it": "Seconda persona plurale -are → -ate: mangiate, parlate, cantate.",
+        "en": "Second person plural -are → -ate: mangiate, parlate, cantate."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'avere' alla prima persona singolare?",
+        "en": "How do you conjugate 'avere' in the first person singular?"
+      },
+      "opzioni": [
+        "hai",
+        "abbiamo",
+        "ha",
+        "ho"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Io ho — 'avere' è irregolare: ho, hai, ha, abbiamo, avete, hanno.",
+        "en": "Correct! Io ho — 'avere' is irregular: ho, hai, ha, abbiamo, avete, hanno."
+      },
+      "feedbackErr": {
+        "it": "Avere è irregolare: ho, hai, ha, abbiamo, avete, hanno.",
+        "en": "Avere is irregular: ho, hai, ha, abbiamo, avete, hanno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è corretta?",
+        "en": "Which sentence is correct?"
+      },
+      "opzioni": [
+        "Io mangio una pizza ogni venerdì.",
+        "Io mangia una pizza ogni venerdì.",
+        "Io mangiate una pizza ogni venerdì.",
+        "Io mangiano una pizza ogni venerdì."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Io + mangiare → mangio. Prima persona singolare.",
+        "en": "Correct! Io + mangiare → mangio. First person singular."
+      },
+      "feedbackErr": {
+        "it": "Con 'io' si usa la prima persona: mangio.",
+        "en": "With 'io' use the first person: mangio."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'you (plural) leave' in italiano?",
+        "en": "How do you say 'you (plural) leave' in Italian?"
+      },
+      "opzioni": [
+        "partono",
+        "parte",
+        "partiamo",
+        "partite"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Voi partite — seconda persona plurale -ire → -ite.",
+        "en": "Correct! Voi partite — second person plural -ire → -ite."
+      },
+      "feedbackErr": {
+        "it": "Voi + -ire → -ite → partite.",
+        "en": "Voi + -ire → -ite → partite."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale forma di 'essere' corrisponde a 'tu'?",
+        "en": "Which form of 'essere' corresponds to 'tu'?"
+      },
+      "opzioni": [
+        "sono",
+        "è",
+        "siamo",
+        "sei"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Tu sei — essere: sono, sei, è, siamo, siete, sono.",
+        "en": "Correct! Tu sei — essere: sono, sei, è, siamo, siete, sono."
+      },
+      "feedbackErr": {
+        "it": "Essere (irregolare): sono, sei, è, siamo, siete, sono.",
+        "en": "Essere (irregular): sono, sei, è, siamo, siete, sono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'dormire' alla terza persona plurale?",
+        "en": "How do you conjugate 'dormire' in the third person plural?"
+      },
+      "opzioni": [
+        "dormiamo",
+        "dormite",
+        "dorme",
+        "dormono"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Loro dormono — terza persona plurale -ire → -ono.",
+        "en": "Correct! Loro dormono — third person plural -ire → -ono."
+      },
+      "feedbackErr": {
+        "it": "Terza persona plurale -ire → -ono → dormono.",
+        "en": "Third person plural -ire → -ono → dormono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase usa il verbo correttamente?",
+        "en": "Which sentence uses the verb correctly?"
+      },
+      "opzioni": [
+        "Mario prende sempre un caffè al bar.",
+        "Mario prendono sempre un caffè al bar.",
+        "Mario prendiamo sempre un caffè al bar.",
+        "Mario prendete sempre un caffè al bar."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Mario = terza persona singolare → prende.",
+        "en": "Correct! Mario = third person singular → prende."
+      },
+      "feedbackErr": {
+        "it": "Mario = lui = terza persona singolare → prende.",
+        "en": "Mario = lui = third person singular → prende."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si può dire 'Mangio una pizza' senza 'io'.",
+        "en": "In Italian you can say 'Mangio una pizza' without 'io'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La desinenza -o indica già la prima persona. 'Io' è ridondante.",
+        "en": "Correct! The ending -o already indicates first person. 'Io' is redundant."
+      },
+      "feedbackErr": {
+        "it": "Vero! In italiano il soggetto pronominale è quasi sempre omesso.",
+        "en": "True! In Italian the pronominal subject is almost always omitted."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Tutti i verbi -ire si coniugano come 'partire'.",
+        "en": "All -ire verbs conjugate like 'partire'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Alcuni -ire aggiungono -isc-: finisco, capisci, preferisce.",
+        "en": "False! Some -ire verbs add -isc-: finisco, capisci, preferisce."
+      },
+      "feedbackErr": {
+        "it": "Falso! Due gruppi: partire (parto, parti...) e finire (finisco, finisci...).",
+        "en": "False! Two groups: partire (parto, parti...) and finire (finisco, finisci...)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La desinenza -iamo è uguale per tutti e tre i gruppi verbali.",
+        "en": "The ending -iamo is the same for all three verb groups."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mangiamo, prendiamo, partiamo — -iamo è sempre uguale per 'noi'.",
+        "en": "Correct! Mangiamo, prendiamo, partiamo — -iamo is always the same for 'noi'."
+      },
+      "feedbackErr": {
+        "it": "Vero! -iamo è universale per la prima persona plurale.",
+        "en": "True! -iamo is universal for first person plural."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il presente italiano si usa anche per azioni future certe.",
+        "en": "The Italian present tense is also used for certain future actions."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Domani parto' = Tomorrow I leave (uso presente per futuro certo).",
+        "en": "Correct! 'Domani parto' = Tomorrow I leave (present used for certain future)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Domani mangio la pizza' è perfettamente corretto in italiano.",
+        "en": "True! 'Domani mangio la pizza' is perfectly correct in Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La forma 'mangia' può essere sia seconda che terza persona.",
+        "en": "The form 'mangia' can be both second and third person."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Mangia' è solo terza persona singolare (lui/lei). Tu mangi.",
+        "en": "False! 'Mangia' is only third person singular (lui/lei). Tu mangi."
+      },
+      "feedbackErr": {
+        "it": "Falso! Mangi = tu. Mangia = lui/lei. Sono forme diverse.",
+        "en": "False! Mangi = tu. Mangia = lui/lei. They are different forms."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Essere' e 'avere' sono regolari al presente indicativo.",
+        "en": "'Essere' and 'avere' are regular in the present indicative."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Sono i verbi più irregolari: sono/sei/è e ho/hai/ha.",
+        "en": "False! They are the most irregular verbs: sono/sei/è and ho/hai/ha."
+      },
+      "feedbackErr": {
+        "it": "Falso! Entrambi sono molto irregolari e vanno imparati a memoria.",
+        "en": "False! Both are very irregular and need to be memorised."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La desinenza -ono si usa per la terza persona plurale di tutti i gruppi.",
+        "en": "The ending -ono is used for the third person plural of all groups."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! -are → -ano (parlano), -ere → -ono (prendono), -ire → -ono (partono).",
+        "en": "False! -are → -ano (parlano), -ere → -ono (prendono), -ire → -ono (partono)."
+      },
+      "feedbackErr": {
+        "it": "Falso! -are usa -ano, non -ono → parlano, mangiano.",
+        "en": "False! -are uses -ano, not -ono → parlano, mangiano."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Capisco' è la forma corretta di 'capire' per 'io'.",
+        "en": "'Capisco' is the correct form of 'capire' for 'io'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Capire usa -isc-: capisco, capisci, capisce, capiamo, capite, capiscono.",
+        "en": "Correct! Capire uses -isc-: capisco, capisci, capisce, capiamo, capite, capiscono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Capire è un verbo -ire con -isc-.",
+        "en": "True! Capire is an -ire verb with -isc-."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il verbo cambia forma per tutte e sei le persone.",
+        "en": "In Italian the verb changes form for all six persons."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mangio, mangi, mangia, mangiamo, mangiate, mangiano — sei forme diverse.",
+        "en": "Correct! Mangio, mangi, mangia, mangiamo, mangiate, mangiano — six different forms."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sei persone, sei forme. In inglese solo due: eat/eats.",
+        "en": "True! Six persons, six forms. In English only two: eat/eats."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'Siamo pronti' senza 'noi' — è corretto.",
+        "en": "You say 'Siamo pronti' without 'noi' — it is correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Siamo' indica già 'noi'. Il pronome è opzionale.",
+        "en": "Correct! 'Siamo' already indicates 'noi'. The pronoun is optional."
+      },
+      "feedbackErr": {
+        "it": "Vero! Siamo = noi siamo. Il pronome è ridondante in italiano.",
+        "en": "True! Siamo = noi siamo. The pronoun is redundant in Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il presente indicativo si usa per descrivere abitudini.",
+        "en": "The present indicative is used to describe habits."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mario prende un caffè ogni mattina' — abitudine presente.",
+        "en": "Correct! 'Mario prende un caffè ogni mattina' — present habit."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il presente descrive sia azioni in corso che abitudini.",
+        "en": "True! The present describes both ongoing actions and habits."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La forma 'mangiate' si usa sia per 'voi' che per l'imperativo.",
+        "en": "The form 'mangiate' is used for both 'voi' and the imperative."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangiate la pizza!' (imperativo) = 'Voi mangiate la pizza' (indicativo).",
+        "en": "Correct! 'Mangiate la pizza!' (imperative) = 'Voi mangiate la pizza' (indicative)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Voi mangiate (presente) e Mangiate! (imperativo) sono identiche.",
+        "en": "True! Voi mangiate (present) and Mangiate! (imperative) are identical."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Preferiscono' è la terza persona plurale di 'preferire'.",
+        "en": "'Preferiscono' is the third person plural of 'preferire'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Preferire usa -isc-: preferisco...preferiscono.",
+        "en": "Correct! Preferire uses -isc-: preferisco...preferiscono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Preferire è un verbo -ire con -isc-: preferiscono.",
+        "en": "True! Preferire is an -ire verb with -isc-: preferiscono."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il presente italiano copre sia 'I eat' che 'I am eating' in inglese.",
+        "en": "The Italian present covers both 'I eat' and 'I am eating' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangio' = I eat e I am eating. In italiano non esiste il present continuous.",
+        "en": "Correct! 'Mangio' = I eat and I am eating. In Italian the present continuous doesn't exist."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il presente italiano copre due forme inglesi.",
+        "en": "True! The Italian present covers two English forms."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dormiamo' è la prima persona plurale di 'dormire'.",
+        "en": "'Dormiamo' is the first person plural of 'dormire'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi dormiamo — -iamo per tutti i gruppi alla prima persona plurale.",
+        "en": "Correct! Noi dormiamo — -iamo for all groups in first person plural."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dormiamo = noi dormiamo. -iamo è universale.",
+        "en": "True! Dormiamo = noi dormiamo. -iamo is universal."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi regolari -ere alla terza persona plurale terminano in -ono.",
+        "en": "Regular -ere verbs in the third person plural end in -ono."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Loro prendono, vivono, scrivono — -ere → -ono alla terza plurale.",
+        "en": "Correct! Loro prendono, vivono, scrivono — -ere → -ono in third plural."
+      },
+      "feedbackErr": {
+        "it": "Vero! -ere → terza plurale -ono: prendono, vedono, scrivono.",
+        "en": "True! -ere → third plural -ono: prendono, vedono, scrivono."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Hai' è la seconda persona singolare di 'avere'.",
+        "en": "'Hai' is the second person singular of 'avere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tu hai — avere: ho, hai, ha, abbiamo, avete, hanno.",
+        "en": "Correct! Tu hai — avere: ho, hai, ha, abbiamo, avete, hanno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Hai = tu hai. Avere è irregolare.",
+        "en": "True! Hai = tu hai. Avere is irregular."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ sempre un caffè al bar.",
+        "en": "Build: Mario ___ always a coffee at the bar."
+      },
+      "parole": [
+        "Mario",
+        "prende",
+        "sempre",
+        "un",
+        "caffè",
+        "al",
+        "bar"
+      ],
+      "distrattori": [
+        "prendono",
+        "prendi",
+        "prendiamo"
+      ],
+      "correct": [
+        "Mario",
+        "prende",
+        "sempre",
+        "un",
+        "caffè",
+        "al",
+        "bar"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mario = lui = terza persona → prende.",
+        "en": "Perfect! Mario = lui = third person → prende."
+      },
+      "feedbackErr": {
+        "it": "Mario = terza persona singolare → prende.",
+        "en": "Mario = third person singular → prende."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ una pizza ogni venerdì.",
+        "en": "Build: ___ a pizza every Friday."
+      },
+      "parole": [
+        "Mangio",
+        "una",
+        "pizza",
+        "ogni",
+        "venerdì"
+      ],
+      "distrattori": [
+        "Mangia",
+        "Mangiate",
+        "Mangiano"
+      ],
+      "correct": [
+        "Mangio",
+        "una",
+        "pizza",
+        "ogni",
+        "venerdì"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Prima persona singolare → mangio.",
+        "en": "Perfect! First person singular → mangio."
+      },
+      "feedbackErr": {
+        "it": "Prima persona → mangio (non ho bisogno di 'io').",
+        "en": "First person → mangio (no need for 'io')."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ pronti! (noi)",
+        "en": "Build: ___ ready! (we)"
+      },
+      "parole": [
+        "Siamo",
+        "pronti"
+      ],
+      "distrattori": [
+        "Sono",
+        "Sei",
+        "È"
+      ],
+      "correct": [
+        "Siamo",
+        "pronti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi siamo → siamo. 'Noi' non serve dirlo.",
+        "en": "Perfect! Noi siamo → siamo. No need to say 'noi'."
+      },
+      "feedbackErr": {
+        "it": "Noi + essere → siamo.",
+        "en": "Noi + essere → siamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voi ___ l'italiano velocemente.",
+        "en": "Build: You (plural) ___ Italian quickly."
+      },
+      "parole": [
+        "Voi",
+        "capite",
+        "l'italiano",
+        "velocemente"
+      ],
+      "distrattori": [
+        "capisci",
+        "capisce",
+        "capiscono"
+      ],
+      "correct": [
+        "Voi",
+        "capite",
+        "l'italiano",
+        "velocemente"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + capire → capite (seconda persona plurale).",
+        "en": "Perfect! Voi + capire → capite (second person plural)."
+      },
+      "feedbackErr": {
+        "it": "Voi + -ire → -ite → capite.",
+        "en": "Voi + -ire → -ite → capite."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia e Mario ___ a Napoli.",
+        "en": "Build: Sofia and Mario ___ in Naples."
+      },
+      "parole": [
+        "Sofia",
+        "e",
+        "Mario",
+        "vivono",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "vive",
+        "vivete",
+        "viviamo"
+      ],
+      "correct": [
+        "Sofia",
+        "e",
+        "Mario",
+        "vivono",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sofia e Mario = loro = terza persona plurale → vivono.",
+        "en": "Perfect! Sofia e Mario = loro = third person plural → vivono."
+      },
+      "feedbackErr": {
+        "it": "Sofia e Mario = terza plurale → vivono.",
+        "en": "Sofia e Mario = third plural → vivono."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Tu ___ l'italiano benissimo!",
+        "en": "Build: You ___ Italian very well!"
+      },
+      "parole": [
+        "Tu",
+        "parli",
+        "l'italiano",
+        "benissimo"
+      ],
+      "distrattori": [
+        "parla",
+        "parlate",
+        "parlano"
+      ],
+      "correct": [
+        "Tu",
+        "parli",
+        "l'italiano",
+        "benissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + parlare → parli.",
+        "en": "Perfect! Tu + parlare → parli."
+      },
+      "feedbackErr": {
+        "it": "Tu + -are → -i → parli.",
+        "en": "Tu + -are → -i → parli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ fame! (io)",
+        "en": "Build: ___ hungry! (I)"
+      },
+      "parole": [
+        "Ho",
+        "fame"
+      ],
+      "distrattori": [
+        "Hai",
+        "Ha",
+        "Hanno"
+      ],
+      "correct": [
+        "Ho",
+        "fame"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + avere → ho. 'Ho fame' = I am hungry.",
+        "en": "Perfect! Io + avere → ho. 'Ho fame' = I am hungry."
+      },
+      "feedbackErr": {
+        "it": "Io + avere (irregolare) → ho.",
+        "en": "Io + avere (irregular) → ho."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Loro ___ la pizza napoletana.",
+        "en": "Build: They ___ Neapolitan pizza."
+      },
+      "parole": [
+        "Loro",
+        "preferiscono",
+        "la",
+        "pizza",
+        "napoletana"
+      ],
+      "distrattori": [
+        "preferisce",
+        "preferite",
+        "preferiamo"
+      ],
+      "correct": [
+        "Loro",
+        "preferiscono",
+        "la",
+        "pizza",
+        "napoletana"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + preferire (-isc-) → preferiscono.",
+        "en": "Perfect! Loro + preferire (-isc-) → preferiscono."
+      },
+      "feedbackErr": {
+        "it": "Loro + preferire → preferiscono (-isc- alla terza plurale).",
+        "en": "Loro + preferire → preferiscono (-isc- in third plural)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Domani ___ a Napoli. (noi)",
+        "en": "Build: Tomorrow ___ to Naples. (we)"
+      },
+      "parole": [
+        "Domani",
+        "partiamo",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "partono",
+        "partite",
+        "parto"
+      ],
+      "correct": [
+        "Domani",
+        "partiamo",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Presente per futuro certo: partiamo domani.",
+        "en": "Perfect! Present for certain future: partiamo domani."
+      },
+      "feedbackErr": {
+        "it": "Noi + partire → partiamo. Presente per futuro.",
+        "en": "Noi + partire → partiamo. Present for future."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voi ___ la lezione alle tre.",
+        "en": "Build: You (plural) ___ the lesson at three."
+      },
+      "parole": [
+        "Voi",
+        "finite",
+        "la",
+        "lezione",
+        "alle",
+        "tre"
+      ],
+      "distrattori": [
+        "finiscono",
+        "finisce",
+        "finiamo"
+      ],
+      "correct": [
+        "Voi",
+        "finite",
+        "la",
+        "lezione",
+        "alle",
+        "tre"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + finire → finite (seconda plurale, senza -isc-).",
+        "en": "Perfect! Voi + finire → finite (second plural, without -isc-)."
+      },
+      "feedbackErr": {
+        "it": "Voi + finire → finite. -isc- non si usa per noi e voi.",
+        "en": "Voi + finire → finite. -isc- is not used for noi and voi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ stanco dopo il lavoro. (io)",
+        "en": "Build: ___ tired after work. (I)"
+      },
+      "parole": [
+        "Sono",
+        "stanco",
+        "dopo",
+        "il",
+        "lavoro"
+      ],
+      "distrattori": [
+        "Sei",
+        "È",
+        "Siamo"
+      ],
+      "correct": [
+        "Sono",
+        "stanco",
+        "dopo",
+        "il",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + essere → sono.",
+        "en": "Perfect! Io + essere → sono."
+      },
+      "feedbackErr": {
+        "it": "Io + essere (irregolare) → sono.",
+        "en": "Io + essere (irregular) → sono."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ venti anni.",
+        "en": "Build: Mario ___ twenty years old."
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "venti",
+        "anni"
+      ],
+      "distrattori": [
+        "è",
+        "sono",
+        "hai"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "venti",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Età in italiano: avere + anni → ha venti anni.",
+        "en": "Perfect! Age in Italian: avere + anni → ha venti anni."
+      },
+      "feedbackErr": {
+        "it": "Età → avere: Mario ha venti anni (non è venti anni).",
+        "en": "Age → avere: Mario ha venti anni (not è venti anni)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Tu ___ a Napoli ogni estate.",
+        "en": "Build: You ___ to Naples every summer."
+      },
+      "parole": [
+        "Tu",
+        "torni",
+        "a",
+        "Napoli",
+        "ogni",
+        "estate"
+      ],
+      "distrattori": [
+        "torna",
+        "tornate",
+        "torniamo"
+      ],
+      "correct": [
+        "Tu",
+        "torni",
+        "a",
+        "Napoli",
+        "ogni",
+        "estate"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + tornare → torni.",
+        "en": "Perfect! Tu + tornare → torni."
+      },
+      "feedbackErr": {
+        "it": "Tu + -are → -i → torni.",
+        "en": "Tu + -are → -i → torni."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Noi ___ italiano da sei mesi.",
+        "en": "Build: We ___ Italian for six months."
+      },
+      "parole": [
+        "Noi",
+        "studiamo",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "distrattori": [
+        "studiate",
+        "studiano",
+        "studio"
+      ],
+      "correct": [
+        "Noi",
+        "studiamo",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + studiare → studiamo.",
+        "en": "Perfect! Noi + studiare → studiamo."
+      },
+      "feedbackErr": {
+        "it": "Noi + -are → -iamo → studiamo.",
+        "en": "Noi + -are → -iamo → studiamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia ___ la pizza più buona di Napoli.",
+        "en": "Build: Sofia ___ the best pizza in Naples."
+      },
+      "parole": [
+        "Sofia",
+        "fa",
+        "la",
+        "pizza",
+        "più",
+        "buona",
+        "di",
+        "Napoli"
+      ],
+      "distrattori": [
+        "fanno",
+        "fate",
+        "faccio"
+      ],
+      "correct": [
+        "Sofia",
+        "fa",
+        "la",
+        "pizza",
+        "più",
+        "buona",
+        "di",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sofia = terza singolare → fa (fare è irregolare).",
+        "en": "Perfect! Sofia = third singular → fa (fare is irregular)."
+      },
+      "feedbackErr": {
+        "it": "Fare è irregolare: faccio, fai, fa, facciamo, fate, fanno.",
+        "en": "Fare is irregular: faccio, fai, fa, facciamo, fate, fanno."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Loro ___ molto tardi la sera.",
+        "en": "Build: They ___ very late in the evening."
+      },
+      "parole": [
+        "Loro",
+        "mangiano",
+        "molto",
+        "tardi",
+        "la",
+        "sera"
+      ],
+      "distrattori": [
+        "mangia",
+        "mangiamo",
+        "mangiate"
+      ],
+      "correct": [
+        "Loro",
+        "mangiano",
+        "molto",
+        "tardi",
+        "la",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + mangiare → mangiano.",
+        "en": "Perfect! Loro + mangiare → mangiano."
+      },
+      "feedbackErr": {
+        "it": "Loro + -are → -ano → mangiano.",
+        "en": "Loro + -are → -ano → mangiano."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Diego ___ ogni giorno in palestra.",
+        "en": "Build: Diego ___ every day at the gym."
+      },
+      "parole": [
+        "Diego",
+        "va",
+        "ogni",
+        "giorno",
+        "in",
+        "palestra"
+      ],
+      "distrattori": [
+        "vai",
+        "vanno",
+        "andiamo"
+      ],
+      "correct": [
+        "Diego",
+        "va",
+        "ogni",
+        "giorno",
+        "in",
+        "palestra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Diego = terza singolare → va (andare è irregolare).",
+        "en": "Perfect! Diego = third singular → va (andare is irregular)."
+      },
+      "feedbackErr": {
+        "it": "Andare è irregolare: vado, vai, va, andiamo, andate, vanno.",
+        "en": "Andare is irregular: vado, vai, va, andiamo, andate, vanno."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voi ___ da Napoli?",
+        "en": "Build: Do you (plural) ___ from Naples?"
+      },
+      "parole": [
+        "Voi",
+        "venite",
+        "da",
+        "Napoli"
+      ],
+      "distrattori": [
+        "viene",
+        "vengo",
+        "vengono"
+      ],
+      "correct": [
+        "Voi",
+        "venite",
+        "da",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + venire → venite (irregolare).",
+        "en": "Perfect! Voi + venire → venite (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Venire è irregolare: vengo, vieni, viene, veniamo, venite, vengono.",
+        "en": "Venire is irregular: vengo, vieni, viene, veniamo, venite, vengono."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Io ___ il caffè senza zucchero.",
+        "en": "Build: I ___ coffee without sugar."
+      },
+      "parole": [
+        "Io",
+        "prendo",
+        "il",
+        "caffè",
+        "senza",
+        "zucchero"
+      ],
+      "distrattori": [
+        "prendi",
+        "prende",
+        "prendono"
+      ],
+      "correct": [
+        "Io",
+        "prendo",
+        "il",
+        "caffè",
+        "senza",
+        "zucchero"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + prendere → prendo.",
+        "en": "Perfect! Io + prendere → prendo."
+      },
+      "feedbackErr": {
+        "it": "Io + -ere → -o → prendo.",
+        "en": "Io + -ere → -o → prendo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Tu dove ___?",
+        "en": "Build: Where do you ___?"
+      },
+      "parole": [
+        "Tu",
+        "dove",
+        "abiti"
+      ],
+      "distrattori": [
+        "abita",
+        "abitano",
+        "abitiamo"
+      ],
+      "correct": [
+        "Tu",
+        "dove",
+        "abiti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + abitare → abiti.",
+        "en": "Perfect! Tu + abitare → abiti."
+      },
+      "feedbackErr": {
+        "it": "Tu + -are → -i → abiti.",
+        "en": "Tu + -are → -i → abiti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il presente indicativo si può usare per indicare azioni future certe.",
+        "en": "In Italian the present indicative can be used to indicate certain future actions."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Domani vado a Napoli.' = I'm going to Naples tomorrow. Il presente per il futuro prossimo è normalissimo.",
+        "en": "Correct! 'Domani vado a Napoli.' = I'm going to Naples tomorrow. The present for the near future is perfectly normal."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il presente copre anche il futuro vicino: 'Stasera mangio la pizza' = I'll eat pizza tonight.",
+        "en": "True! The present also covers the near future: 'Stasera mangio la pizza' = I'll eat pizza tonight."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il verbo 'andare' è regolare al presente indicativo.",
+        "en": "The verb 'andare' is regular in the present indicative."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Andare' è irregolare: vado, vai, va, andiamo, andate, vanno.",
+        "en": "Correct! 'Andare' is irregular: vado, vai, va, andiamo, andate, vanno."
+      },
+      "feedbackErr": {
+        "it": "Falso! Andare è irregolare: vado, vai, va, andiamo, andate, vanno — non 'ando, andi, anda'.",
+        "en": "False! Andare is irregular: vado, vai, va, andiamo, andate, vanno — not 'ando, andi, anda'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi in -ire come 'capire' e 'finire' aggiungono -isc- tra il tema e la desinenza (tranne noi e voi).",
+        "en": "Verbs in -ire like 'capire' and 'finire' add -isc- between the stem and ending (except noi and voi)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Capire: capisco, capisci, capisce, capiamo, capite, capiscono. Il -isc- appare in tutte le persone tranne noi/voi.",
+        "en": "Correct! Capire: capisco, capisci, capisce, capiamo, capite, capiscono. The -isc- appears in all persons except noi/voi."
+      },
+      "feedbackErr": {
+        "it": "Vero! Capire → capisco/capisci/capisce/capiamo/capite/capiscono. Il gruppo -isc- è una caratteristica di molti verbi -ire.",
+        "en": "True! Capire → capisco/capisci/capisce/capiamo/capite/capiscono. The -isc- group is a feature of many -ire verbs."
+      }
+    }
+  ]
+}

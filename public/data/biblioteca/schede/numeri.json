@@ -1,0 +1,1684 @@
+{
+  "id": "numeri",
+  "categoria": "vocabolario",
+  "emoji": "🔢",
+  "livello": "A1",
+  "titolo": {
+    "it": "I Numeri",
+    "en": "Numbers"
+  },
+  "mario": "I numeri italiani sembrano tanti da imparare. Ma da 20 in poi sono tutti costruiti con lo stesso pattern. Te lo dimostro.",
+  "marioEn": "Italian numbers seem like a lot to learn. But from 20 onwards they all follow the same pattern. Let me show you.",
+  "perche": {
+    "it": "In italiano i numeri da 1 a 16 hanno nomi propri da imparare a memoria. Da 17 a 19 si costruiscono già con un pattern (diciassette = dieci+sette). Da 20 in poi è matematica pura: venti+uno=ventuno, venti+due=ventidue. L'unica trappola: ventuno e trentuno perdono la 'i' finale di venti/trenta.",
+    "en": "In Italian, numbers 1 to 16 have their own names to memorise. 17 to 19 already follow a pattern (diciassette = dieci+sette). From 20 onwards it's pure maths: venti+uno=ventuno, venti+due=ventidue. The only trap: ventuno and trentuno drop the final 'i' of venti/trenta."
+  },
+  "spiegazione": {
+    "it": "Impara i blocchi base, poi costruisci tutto il resto.",
+    "en": "Learn the base blocks, then build everything else."
+  },
+  "tabella": {
+    "headers": [
+      "Numero",
+      "Italiano",
+      "English",
+      "Nota"
+    ],
+    "rows": [
+      [
+        "0",
+        "zero",
+        "zero",
+        ""
+      ],
+      [
+        "1",
+        "uno",
+        "one",
+        "diventa 'un' davanti a M, 'una' davanti a F"
+      ],
+      [
+        "2",
+        "due",
+        "two",
+        ""
+      ],
+      [
+        "3",
+        "tre",
+        "three",
+        ""
+      ],
+      [
+        "4",
+        "quattro",
+        "four",
+        ""
+      ],
+      [
+        "5",
+        "cinque",
+        "five",
+        ""
+      ],
+      [
+        "6",
+        "sei",
+        "six",
+        ""
+      ],
+      [
+        "7",
+        "sette",
+        "seven",
+        ""
+      ],
+      [
+        "8",
+        "otto",
+        "eight",
+        ""
+      ],
+      [
+        "9",
+        "nove",
+        "nine",
+        ""
+      ],
+      [
+        "10",
+        "dieci",
+        "ten",
+        ""
+      ],
+      [
+        "11",
+        "undici",
+        "eleven",
+        "da qui nomi speciali"
+      ],
+      [
+        "12",
+        "dodici",
+        "twelve",
+        ""
+      ],
+      [
+        "13",
+        "tredici",
+        "thirteen",
+        ""
+      ],
+      [
+        "14",
+        "quattordici",
+        "fourteen",
+        ""
+      ],
+      [
+        "15",
+        "quindici",
+        "fifteen",
+        ""
+      ],
+      [
+        "16",
+        "sedici",
+        "sixteen",
+        ""
+      ],
+      [
+        "17",
+        "diciassette",
+        "seventeen",
+        "dieci+sette"
+      ],
+      [
+        "18",
+        "diciotto",
+        "eighteen",
+        "dieci+otto"
+      ],
+      [
+        "19",
+        "diciannove",
+        "nineteen",
+        "dieci+nove"
+      ],
+      [
+        "20",
+        "venti",
+        "twenty",
+        ""
+      ],
+      [
+        "21",
+        "ventuno",
+        "twenty-one",
+        "⚠️ perde la 'i': venti→vent+uno"
+      ],
+      [
+        "22",
+        "ventidue",
+        "twenty-two",
+        ""
+      ],
+      [
+        "30",
+        "trenta",
+        "thirty",
+        ""
+      ],
+      [
+        "31",
+        "trentuno",
+        "thirty-one",
+        "⚠️ perde la 'a': trenta→trent+uno"
+      ],
+      [
+        "40",
+        "quaranta",
+        "forty",
+        ""
+      ],
+      [
+        "50",
+        "cinquanta",
+        "fifty",
+        ""
+      ],
+      [
+        "100",
+        "cento",
+        "hundred",
+        ""
+      ],
+      [
+        "1000",
+        "mille",
+        "thousand",
+        "pl. mila: duemila"
+      ],
+      [
+        "1.000.000",
+        "un milione",
+        "one million",
+        ""
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Ho ventitré anni.",
+      "en": "I am twenty-three years old.",
+      "audio": "Ho ventitré anni."
+    },
+    {
+      "it": "Il caffè costa un euro e cinquanta.",
+      "en": "The coffee costs one euro fifty.",
+      "audio": "Il caffè costa un euro e cinquanta."
+    },
+    {
+      "it": "Il mio numero è tre, tre, due, uno...",
+      "en": "My number is three, three, two, one...",
+      "audio": "Il mio numero è tre, tre, due, uno."
+    },
+    {
+      "it": "Siamo in duemila persone.",
+      "en": "There are two thousand of us.",
+      "audio": "Siamo in duemila persone."
+    }
+  ],
+  "nota": {
+    "it": "💡 In Italia i numeri di telefono si leggono a coppie: 33 21 45 67 → 'trentatré, ventuno, quarantacinque, sessantasette'.",
+    "en": "💡 In Italy phone numbers are read in pairs: 33 21 45 67 → 'trentatré, ventuno, quarantacinque, sessantasette'."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '21' in italiano?",
+        "en": "How do you say '21' in Italian?"
+      },
+      "opzioni": [
+        "ventiuno",
+        "ventuno",
+        "venti uno",
+        "ventauno"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ventuno — la 'i' di venti cade davanti a uno e otto.",
+        "en": "Correct! Ventuno — the 'i' of venti drops before uno and otto."
+      },
+      "feedbackErr": {
+        "it": "Venti+uno = ventuno (non ventiuno). La 'i' cade davanti a 1 e 8.",
+        "en": "Venti+uno = ventuno (not ventiuno). The 'i' drops before 1 and 8."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '28' in italiano?",
+        "en": "How do you say '28' in Italian?"
+      },
+      "opzioni": [
+        "ventiotto",
+        "ventotto",
+        "venti otto",
+        "ventaotto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ventotto — la 'i' di venti cade anche davanti a otto.",
+        "en": "Correct! Ventotto — the 'i' of venti drops before otto too."
+      },
+      "feedbackErr": {
+        "it": "Venti+otto = ventotto. La 'i' cade davanti a 1 e 8.",
+        "en": "Venti+otto = ventotto. The 'i' drops before 1 and 8."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '31' in italiano?",
+        "en": "How do you say '31' in Italian?"
+      },
+      "opzioni": [
+        "trentauno",
+        "trenta uno",
+        "trentuno",
+        "trentauno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Trentuno — la 'a' di trenta cade davanti a uno e otto.",
+        "en": "Correct! Trentuno — the 'a' of trenta drops before uno and otto."
+      },
+      "feedbackErr": {
+        "it": "Trenta+uno = trentuno. La 'a' finale cade davanti a 1 e 8.",
+        "en": "Trenta+uno = trentuno. The final 'a' drops before 1 and 8."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '38' in italiano?",
+        "en": "How do you say '38' in Italian?"
+      },
+      "opzioni": [
+        "trentaotto",
+        "trentotto",
+        "trenta otto",
+        "trent'otto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Trentotto — la 'a' di trenta cade davanti a otto.",
+        "en": "Correct! Trentotto — the 'a' of trenta drops before otto."
+      },
+      "feedbackErr": {
+        "it": "Trenta+otto = trentotto. Stessa regola di trentuno.",
+        "en": "Trenta+otto = trentotto. Same rule as trentuno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '1000' in italiano?",
+        "en": "How do you say '1000' in Italian?"
+      },
+      "opzioni": [
+        "un mille",
+        "mille",
+        "mila",
+        "milione"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 1000 = mille. Plurale: duemila (non duemille).",
+        "en": "Correct! 1000 = mille. Plural: duemila (not duemille)."
+      },
+      "feedbackErr": {
+        "it": "1000 = mille. Attenzione al plurale: duemila, tremila.",
+        "en": "1000 = mille. Watch the plural: duemila, tremila."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '2000' in italiano?",
+        "en": "How do you say '2000' in Italian?"
+      },
+      "opzioni": [
+        "due mille",
+        "duemille",
+        "duemila",
+        "due mila"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Duemila — il plurale di mille è mila.",
+        "en": "Correct! Duemila — the plural of mille is mila."
+      },
+      "feedbackErr": {
+        "it": "Mille → mila al plurale: duemila, tremila, cinquemila.",
+        "en": "Mille → mila in plural: duemila, tremila, cinquemila."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '15' in italiano?",
+        "en": "How do you say '15' in Italian?"
+      },
+      "opzioni": [
+        "quindici",
+        "quinqueci",
+        "cinquedici",
+        "quindieci"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Quindici — uno dei numeri speciali da 11 a 16.",
+        "en": "Correct! Quindici — one of the special numbers from 11 to 16."
+      },
+      "feedbackErr": {
+        "it": "11-16 hanno nomi propri: undici, dodici, tredici, quattordici, quindici, sedici.",
+        "en": "11-16 have their own names: undici, dodici, tredici, quattordici, quindici, sedici."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '17' in italiano?",
+        "en": "How do you say '17' in Italian?"
+      },
+      "opzioni": [
+        "settedici",
+        "diecisette",
+        "diciassette",
+        "settedici"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Diciassette = dieci+sette. Da 17 in poi il pattern è regolare.",
+        "en": "Correct! Diciassette = dieci+sette. From 17 onwards the pattern is regular."
+      },
+      "feedbackErr": {
+        "it": "17=diciassette, 18=diciotto, 19=diciannove.",
+        "en": "17=diciassette, 18=diciotto, 19=diciannove."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '100' in italiano?",
+        "en": "How do you say '100' in Italian?"
+      },
+      "opzioni": [
+        "un cento",
+        "centi",
+        "cento",
+        "centuno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 100 = cento (senza 'un' davanti).",
+        "en": "Correct! 100 = cento (without 'un' before it)."
+      },
+      "feedbackErr": {
+        "it": "100 = cento, non 'un cento'. 200=duecento, 300=trecento.",
+        "en": "100 = cento, not 'un cento'. 200=duecento, 300=trecento."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '1.000.000' in italiano?",
+        "en": "How do you say '1,000,000' in Italian?"
+      },
+      "opzioni": [
+        "mille mille",
+        "un milione",
+        "un miliardo",
+        "milioni"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 1.000.000 = un milione. 1.000.000.000 = un miliardo.",
+        "en": "Correct! 1,000,000 = un milione. 1,000,000,000 = un miliardo."
+      },
+      "feedbackErr": {
+        "it": "Un milione = 1.000.000. Un miliardo = 1.000.000.000.",
+        "en": "Un milione = 1,000,000. Un miliardo = 1,000,000,000."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I am 23 years old' in italiano?",
+        "en": "How do you say 'I am 23 years old' in Italian?"
+      },
+      "opzioni": [
+        "Sono ventitré anni.",
+        "Ho ventitré anni.",
+        "Vivo ventitré anni.",
+        "Faccio ventitré anni."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Età: ho + numero + anni. Non 'sono'!",
+        "en": "Correct! Age: ho + number + anni. Not 'sono'!"
+      },
+      "feedbackErr": {
+        "it": "Età → avere: ho ventitré anni. Non 'sono ventitré anni'.",
+        "en": "Age → avere: ho ventitré anni. Not 'sono ventitré anni'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si scrive '23' in italiano?",
+        "en": "How do you write '23' in Italian?"
+      },
+      "opzioni": [
+        "ventitre",
+        "ventitré",
+        "ventitrè",
+        "venti tre"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ventitré con accento acuto sulla é finale.",
+        "en": "Correct! Ventitré with acute accent on the final é."
+      },
+      "feedbackErr": {
+        "it": "23 = ventitré con accento acuto.",
+        "en": "23 = ventitré with acute accent."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '40' in italiano?",
+        "en": "How do you say '40' in Italian?"
+      },
+      "opzioni": [
+        "quattranta",
+        "quarenta",
+        "quaranta",
+        "quattrocento"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 40 = quaranta.",
+        "en": "Correct! 40 = quaranta."
+      },
+      "feedbackErr": {
+        "it": "40 = quaranta. Multipli di 10: venti, trenta, quaranta, cinquanta...",
+        "en": "40 = quaranta. Multiples of 10: venti, trenta, quaranta, cinquanta..."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '80' in italiano?",
+        "en": "How do you say '80' in Italian?"
+      },
+      "opzioni": [
+        "ottocento",
+        "ottanta",
+        "ottantina",
+        "occhanta"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 80 = ottanta. Ottocento = 800.",
+        "en": "Correct! 80 = ottanta. Ottocento = 800."
+      },
+      "feedbackErr": {
+        "it": "80 = ottanta. Non confondere con ottocento (800).",
+        "en": "80 = ottanta. Don't confuse with ottocento (800)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si leggono i numeri di telefono in italiano?",
+        "en": "How are phone numbers read in Italian?"
+      },
+      "opzioni": [
+        "Una cifra alla volta.",
+        "A coppie di numeri.",
+        "Come in inglese.",
+        "Non si leggono."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! In Italia i numeri si leggono a coppie: 33 21 45 → trentatré, ventuno, quarantacinque.",
+        "en": "Correct! In Italy numbers are read in pairs: 33 21 45 → trentatré, ventuno, quarantacinque."
+      },
+      "feedbackErr": {
+        "it": "In Italia i numeri di telefono si leggono a coppie.",
+        "en": "In Italy phone numbers are read in pairs."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '500' in italiano?",
+        "en": "How do you say '500' in Italian?"
+      },
+      "opzioni": [
+        "cinquecentuno",
+        "cinquento",
+        "cinquecento",
+        "cinque cento"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 500 = cinquecento. È anche il nome della famosa Fiat!",
+        "en": "Correct! 500 = cinquecento. It's also the name of the famous Fiat!"
+      },
+      "feedbackErr": {
+        "it": "500 = cinquecento.",
+        "en": "500 = cinquecento."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'zero' in italiano?",
+        "en": "How do you say 'zero' in Italian?"
+      },
+      "opzioni": [
+        "nulla",
+        "niente",
+        "zero",
+        "vuoto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Zero = zero — stessa parola! Viene dall'arabo attraverso l'italiano.",
+        "en": "Correct! Zero = zero — same word! It comes from Arabic through Italian."
+      },
+      "feedbackErr": {
+        "it": "Zero = zero. La parola 'zero' è entrata in inglese dall'italiano!",
+        "en": "Zero = zero. The word 'zero' entered English from Italian!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '19' in italiano?",
+        "en": "How do you say '19' in Italian?"
+      },
+      "opzioni": [
+        "diecinove",
+        "undici nove",
+        "diciannove",
+        "novadici"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 19 = diciannove = dieci+nove.",
+        "en": "Correct! 19 = diciannove = dieci+nove."
+      },
+      "feedbackErr": {
+        "it": "19 = diciannove. 17=diciassette, 18=diciotto, 19=diciannove.",
+        "en": "19 = diciannove. 17=diciassette, 18=diciotto, 19=diciannove."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '50' in italiano?",
+        "en": "How do you say '50' in Italian?"
+      },
+      "opzioni": [
+        "cinquenta",
+        "cinque dieci",
+        "cinquantuno",
+        "cinquanta"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 50 = cinquanta.",
+        "en": "Correct! 50 = cinquanta."
+      },
+      "feedbackErr": {
+        "it": "50 = cinquanta. 40=quaranta, 50=cinquanta, 60=sessanta.",
+        "en": "50 = cinquanta. 40=quaranta, 50=cinquanta, 60=sessanta."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice '200' in italiano?",
+        "en": "How do you say '200' in Italian?"
+      },
+      "opzioni": [
+        "due cento",
+        "duecenta",
+        "duecento",
+        "duecenti"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 200 = duecento.",
+        "en": "Correct! 200 = duecento."
+      },
+      "feedbackErr": {
+        "it": "200 = duecento. 300=trecento, 400=quattrocento.",
+        "en": "200 = duecento. 300=trecento, 400=quattrocento."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il plurale di 'mille' è 'mila'.",
+        "en": "The plural of 'mille' is 'mila'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mille → mila: duemila, tremila. Non 'duemille'.",
+        "en": "Correct! Mille → mila: duemila, tremila. Not 'duemille'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mille → mila. 'Duemille' non esiste.",
+        "en": "True! Mille → mila. 'Duemille' doesn't exist."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'ventiuno' con la 'i' di venti.",
+        "en": "You say 'ventiuno' with the 'i' of venti."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Si dice 'ventuno' — la 'i' cade davanti a uno e otto.",
+        "en": "False! You say 'ventuno' — the 'i' drops before uno and otto."
+      },
+      "feedbackErr": {
+        "it": "Falso! Venti+uno = ventuno (senza 'i').",
+        "en": "False! Venti+uno = ventuno (without 'i')."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano l'età si esprime con 'avere': ho 30 anni.",
+        "en": "In Italian age is expressed with 'avere': ho 30 anni."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ho 30 anni — non 'sono 30 anni'.",
+        "en": "Correct! Ho 30 anni — not 'sono 30 anni'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Età → avere: ho venti anni, ha trent'anni.",
+        "en": "True! Age → avere: ho venti anni, ha trent'anni."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "100 si dice 'un cento' in italiano.",
+        "en": "100 is said 'un cento' in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 100 = cento, senza 'un'.",
+        "en": "False! 100 = cento, without 'un'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 100 = cento (non 'un cento').",
+        "en": "False! 100 = cento (not 'un cento')."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La parola 'zero' è entrata in inglese dall'italiano.",
+        "en": "The word 'zero' entered English from Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Zero: arabo → italiano → inglese.",
+        "en": "Correct! Zero: Arabic → Italian → English."
+      },
+      "feedbackErr": {
+        "it": "Vero! L'italiano ha regalato 'zero' al mondo.",
+        "en": "True! Italian gave 'zero' to the world."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Trentuno' si scrive senza la 'a' di trenta.",
+        "en": "'Trentuno' is written without the 'a' of trenta."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Trenta+uno = trentuno. La 'a' cade davanti a 1 e 8.",
+        "en": "Correct! Trenta+uno = trentuno. The 'a' drops before 1 and 8."
+      },
+      "feedbackErr": {
+        "it": "Vero! Trentuno, trentotto — la 'a' finale cade.",
+        "en": "True! Trentuno, trentotto — the final 'a' drops."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia i numeri di telefono si leggono cifra per cifra.",
+        "en": "In Italy phone numbers are read digit by digit."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! In Italia si leggono a coppie: 33 21 45.",
+        "en": "False! In Italy they are read in pairs: 33 21 45."
+      },
+      "feedbackErr": {
+        "it": "Falso! In Italia i numeri si leggono a coppie.",
+        "en": "False! In Italy phone numbers are read in pairs."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ventitré' si scrive con l'accento sulla é.",
+        "en": "'Ventitré' is written with an accent on the é."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ventitré con accento acuto.",
+        "en": "Correct! Ventitré with acute accent."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ventitré ha l'accento perché tre è monosillabo finale.",
+        "en": "True! Ventitré has the accent because tre is a final monosyllable."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "11 si dice 'unidici' in italiano.",
+        "en": "11 is said 'unidici' in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 11 = undici.",
+        "en": "False! 11 = undici."
+      },
+      "feedbackErr": {
+        "it": "Falso! 11 = undici. 11-16: undici, dodici, tredici, quattordici, quindici, sedici.",
+        "en": "False! 11 = undici. 11-16: undici, dodici, tredici, quattordici, quindici, sedici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Da 20 in poi i numeri italiani seguono un pattern regolare.",
+        "en": "From 20 onwards Italian numbers follow a regular pattern."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venti+uno=ventuno, venti+due=ventidue...",
+        "en": "Correct! Venti+uno=ventuno, venti+due=ventidue..."
+      },
+      "feedbackErr": {
+        "it": "Vero! Da 20 è matematica: base+unità.",
+        "en": "True! From 20 it's maths: base+unit."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "500 = cinquecento è anche il nome di una famosa auto italiana.",
+        "en": "500 = cinquecento is also the name of a famous Italian car."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La Fiat Cinquecento — icona italiana!",
+        "en": "Correct! The Fiat Cinquecento — Italian icon!"
+      },
+      "feedbackErr": {
+        "it": "Vero! La Fiat 500 = Fiat Cinquecento.",
+        "en": "True! The Fiat 500 = Fiat Cinquecento."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "18 si dice 'diciotto' — dieci+otto.",
+        "en": "18 is said 'diciotto' — dieci+otto."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Diciotto = dieci+otto.",
+        "en": "Correct! Diciotto = dieci+otto."
+      },
+      "feedbackErr": {
+        "it": "Vero! Diciotto = dieci+otto.",
+        "en": "True! Diciotto = dieci+otto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "60 si dice 'sessanta' in italiano.",
+        "en": "60 is said 'sessanta' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 60 = sessanta.",
+        "en": "Correct! 60 = sessanta."
+      },
+      "feedbackErr": {
+        "it": "Vero! 60 = sessanta.",
+        "en": "True! 60 = sessanta."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Un milione si scrive con la maiuscola in italiano.",
+        "en": "Un milione is written with a capital letter in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Si scrive con la minuscola: un milione, due milioni.",
+        "en": "False! It's written lowercase: un milione, due milioni."
+      },
+      "feedbackErr": {
+        "it": "Falso! I numeri in italiano si scrivono sempre in minuscolo.",
+        "en": "False! Numbers in Italian are always written in lowercase."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il numero 12 si dice 'dodici' in italiano.",
+        "en": "The number 12 is said 'dodici' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 12 = dodici.",
+        "en": "Correct! 12 = dodici."
+      },
+      "feedbackErr": {
+        "it": "Vero! 12 = dodici.",
+        "en": "True! 12 = dodici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "90 si dice 'novanta' in italiano.",
+        "en": "90 is said 'novanta' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 90 = novanta.",
+        "en": "Correct! 90 = novanta."
+      },
+      "feedbackErr": {
+        "it": "Vero! 90 = novanta.",
+        "en": "True! 90 = novanta."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano '1.000' usa il punto per le migliaia, non la virgola.",
+        "en": "In Italian '1.000' uses a dot for thousands, not a comma."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Italia: 1.000 e 3,14. Inglese: 1,000 e 3.14 — esattamente al contrario!",
+        "en": "Correct! Italy: 1.000 and 3,14. English: 1,000 and 3.14 — exactly the opposite!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Il punto italiano = virgola inglese per le migliaia.",
+        "en": "True! The Italian dot = English comma for thousands."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "13 si dice 'tredici' in italiano.",
+        "en": "13 is said 'tredici' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 13 = tredici.",
+        "en": "Correct! 13 = tredici."
+      },
+      "feedbackErr": {
+        "it": "Vero! 13 = tredici.",
+        "en": "True! 13 = tredici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Quaranta' ha la stessa radice di 'quattro'.",
+        "en": "'Quaranta' has the same root as 'quattro'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Quattro → quaranta. Come due→venti, tre→trenta.",
+        "en": "Correct! Quattro → quaranta. Like due→venti, tre→trenta."
+      },
+      "feedbackErr": {
+        "it": "Vero! I multipli di 10 derivano dalle unità.",
+        "en": "True! Multiples of 10 derive from units."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ha ___ anni. (22)",
+        "en": "Build: Mario is ___ years old. (22)"
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "ventidue",
+        "anni"
+      ],
+      "distrattori": [
+        "è",
+        "ventiddue",
+        "venti"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "ventidue",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Età: avere + numero + anni.",
+        "en": "Perfect! Age: avere + number + anni."
+      },
+      "feedbackErr": {
+        "it": "Età → avere: ha ventidue anni.",
+        "en": "Age → avere: ha ventidue anni."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il caffè costa ___ euro e cinquanta. (1)",
+        "en": "Build: The coffee costs ___ euro fifty. (1)"
+      },
+      "parole": [
+        "Il",
+        "caffè",
+        "costa",
+        "un",
+        "euro",
+        "e",
+        "cinquanta"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "due"
+      ],
+      "correct": [
+        "Il",
+        "caffè",
+        "costa",
+        "un",
+        "euro",
+        "e",
+        "cinquanta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Un euro e cinquanta = €1.50.",
+        "en": "Perfect! Un euro e cinquanta = €1.50."
+      },
+      "feedbackErr": {
+        "it": "Un euro e cinquanta = 1,50€.",
+        "en": "Un euro e cinquanta = €1.50."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Abito a Napoli da ___ anni. (3)",
+        "en": "Build: I have lived in Naples for ___ years. (3)"
+      },
+      "parole": [
+        "Abito",
+        "a",
+        "Napoli",
+        "da",
+        "tre",
+        "anni"
+      ],
+      "distrattori": [
+        "per",
+        "tra",
+        "due"
+      ],
+      "correct": [
+        "Abito",
+        "a",
+        "Napoli",
+        "da",
+        "tre",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 3 = tre. Da tre anni.",
+        "en": "Perfect! 3 = tre. Da tre anni."
+      },
+      "feedbackErr": {
+        "it": "3 = tre. Durata → da.",
+        "en": "3 = tre. Duration → da."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho ___ anni. (30)",
+        "en": "Build: I am ___ years old. (30)"
+      },
+      "parole": [
+        "Ho",
+        "trenta",
+        "anni"
+      ],
+      "distrattori": [
+        "sono",
+        "trentuno",
+        "ventinove"
+      ],
+      "correct": [
+        "Ho",
+        "trenta",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 30 = trenta.",
+        "en": "Perfect! 30 = trenta."
+      },
+      "feedbackErr": {
+        "it": "30 = trenta. Ho trenta anni.",
+        "en": "30 = trenta. Ho trenta anni."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Arrivo tra ___ minuti. (5)",
+        "en": "Build: I arrive in ___ minutes. (5)"
+      },
+      "parole": [
+        "Arrivo",
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "distrattori": [
+        "per",
+        "quattro",
+        "sei"
+      ],
+      "correct": [
+        "Arrivo",
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 5 = cinque.",
+        "en": "Perfect! 5 = cinque."
+      },
+      "feedbackErr": {
+        "it": "5 = cinque.",
+        "en": "5 = cinque."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il mio numero è ___, ___, ___. (33, 21, 45)",
+        "en": "Build: My number is ___, ___, ___. (33, 21, 45)"
+      },
+      "parole": [
+        "Il",
+        "mio",
+        "numero",
+        "è",
+        "trentatré",
+        "ventuno",
+        "quarantacinque"
+      ],
+      "distrattori": [
+        "ventiuno",
+        "trentetre",
+        "quaranta"
+      ],
+      "correct": [
+        "Il",
+        "mio",
+        "numero",
+        "è",
+        "trentatré",
+        "ventuno",
+        "quarantacinque"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 33=trentatré, 21=ventuno, 45=quarantacinque.",
+        "en": "Perfect! 33=trentatré, 21=ventuno, 45=quarantacinque."
+      },
+      "feedbackErr": {
+        "it": "In Italia si leggono a coppie: 33=trentatré, 21=ventuno.",
+        "en": "In Italy read in pairs: 33=trentatré, 21=ventuno."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La pizza costa ___ euro. (12)",
+        "en": "Build: The pizza costs ___ euros. (12)"
+      },
+      "parole": [
+        "La",
+        "pizza",
+        "costa",
+        "dodici",
+        "euro"
+      ],
+      "distrattori": [
+        "undici",
+        "tredici",
+        "dici"
+      ],
+      "correct": [
+        "La",
+        "pizza",
+        "costa",
+        "dodici",
+        "euro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 12 = dodici.",
+        "en": "Perfect! 12 = dodici."
+      },
+      "feedbackErr": {
+        "it": "12 = dodici.",
+        "en": "12 = dodici."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Napoli ha circa ___ di abitanti. (un milione)",
+        "en": "Build: Naples has about ___ inhabitants. (one million)"
+      },
+      "parole": [
+        "Napoli",
+        "ha",
+        "circa",
+        "un",
+        "milione",
+        "di",
+        "abitanti"
+      ],
+      "distrattori": [
+        "mille",
+        "mila",
+        "milioni"
+      ],
+      "correct": [
+        "Napoli",
+        "ha",
+        "circa",
+        "un",
+        "milione",
+        "di",
+        "abitanti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Un milione = 1.000.000.",
+        "en": "Perfect! Un milione = 1,000,000."
+      },
+      "feedbackErr": {
+        "it": "Un milione = 1.000.000.",
+        "en": "Un milione = 1,000,000."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ci sono ___ studenti in classe. (15)",
+        "en": "Build: There are ___ students in class. (15)"
+      },
+      "parole": [
+        "Ci",
+        "sono",
+        "quindici",
+        "studenti",
+        "in",
+        "classe"
+      ],
+      "distrattori": [
+        "quinqueci",
+        "sedici",
+        "quattordici"
+      ],
+      "correct": [
+        "Ci",
+        "sono",
+        "quindici",
+        "studenti",
+        "in",
+        "classe"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 15 = quindici.",
+        "en": "Perfect! 15 = quindici."
+      },
+      "feedbackErr": {
+        "it": "15 = quindici.",
+        "en": "15 = quindici."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho comprato ___ libri. (3)",
+        "en": "Build: I bought ___ books. (3)"
+      },
+      "parole": [
+        "Ho",
+        "comprato",
+        "tre",
+        "libri"
+      ],
+      "distrattori": [
+        "tré",
+        "due",
+        "quattro"
+      ],
+      "correct": [
+        "Ho",
+        "comprato",
+        "tre",
+        "libri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 3 = tre (senza accento).",
+        "en": "Perfect! 3 = tre (no accent)."
+      },
+      "feedbackErr": {
+        "it": "3 = tre. L'accento solo su ventitré, trentatré ecc.",
+        "en": "3 = tre. Accent only on ventitré, trentatré etc."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il volo parte alle ___. (14:30)",
+        "en": "Build: The flight leaves at ___. (14:30)"
+      },
+      "parole": [
+        "Il",
+        "volo",
+        "parte",
+        "alle",
+        "quattordici",
+        "e",
+        "trenta"
+      ],
+      "distrattori": [
+        "tredici",
+        "quaranta",
+        "quindici"
+      ],
+      "correct": [
+        "Il",
+        "volo",
+        "parte",
+        "alle",
+        "quattordici",
+        "e",
+        "trenta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 14:30 = alle quattordici e trenta.",
+        "en": "Perfect! 14:30 = alle quattordici e trenta."
+      },
+      "feedbackErr": {
+        "it": "14:30 = alle quattordici e trenta (orario 24h).",
+        "en": "14:30 = alle quattordici e trenta (24h time)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho ___ euro nel portafoglio. (50)",
+        "en": "Build: I have ___ euros in my wallet. (50)"
+      },
+      "parole": [
+        "Ho",
+        "cinquanta",
+        "euro",
+        "nel",
+        "portafoglio"
+      ],
+      "distrattori": [
+        "cinquenta",
+        "quaranta",
+        "sessanta"
+      ],
+      "correct": [
+        "Ho",
+        "cinquanta",
+        "euro",
+        "nel",
+        "portafoglio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 50 = cinquanta.",
+        "en": "Perfect! 50 = cinquanta."
+      },
+      "feedbackErr": {
+        "it": "50 = cinquanta.",
+        "en": "50 = cinquanta."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il treno parte dal binario ___. (7)",
+        "en": "Build: The train leaves from platform ___. (7)"
+      },
+      "parole": [
+        "Il",
+        "treno",
+        "parte",
+        "dal",
+        "binario",
+        "sette"
+      ],
+      "distrattori": [
+        "sei",
+        "otto",
+        "settanta"
+      ],
+      "correct": [
+        "Il",
+        "treno",
+        "parte",
+        "dal",
+        "binario",
+        "sette"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 7 = sette.",
+        "en": "Perfect! 7 = sette."
+      },
+      "feedbackErr": {
+        "it": "7 = sette.",
+        "en": "7 = sette."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Siamo nel ___. (2000)",
+        "en": "Build: We are in ___. (2000)"
+      },
+      "parole": [
+        "Siamo",
+        "nel",
+        "duemila"
+      ],
+      "distrattori": [
+        "due mila",
+        "duemille",
+        "duemilioni"
+      ],
+      "correct": [
+        "Siamo",
+        "nel",
+        "duemila"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 2000 = duemila (non duemille).",
+        "en": "Perfect! 2000 = duemila (not duemille)."
+      },
+      "feedbackErr": {
+        "it": "2000 = duemila. Mille → mila al plurale.",
+        "en": "2000 = duemila. Mille → mila in plural."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La distanza è ___ chilometri. (100)",
+        "en": "Build: The distance is ___ kilometres. (100)"
+      },
+      "parole": [
+        "La",
+        "distanza",
+        "è",
+        "cento",
+        "chilometri"
+      ],
+      "distrattori": [
+        "un cento",
+        "mille",
+        "centuno"
+      ],
+      "correct": [
+        "La",
+        "distanza",
+        "è",
+        "cento",
+        "chilometri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 100 = cento (senza 'un').",
+        "en": "Perfect! 100 = cento (without 'un')."
+      },
+      "feedbackErr": {
+        "it": "100 = cento, non 'un cento'.",
+        "en": "100 = cento, not 'un cento'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho ___ anni. (41)",
+        "en": "Build: I am ___ years old. (41)"
+      },
+      "parole": [
+        "Ho",
+        "quarantuno",
+        "anni"
+      ],
+      "distrattori": [
+        "quarantauno",
+        "quaranta",
+        "quarantotto"
+      ],
+      "correct": [
+        "Ho",
+        "quarantuno",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 41 = quarantuno (la 'a' di quaranta cade davanti a uno).",
+        "en": "Perfect! 41 = quarantuno (the 'a' of quaranta drops before uno)."
+      },
+      "feedbackErr": {
+        "it": "Quaranta+uno = quarantuno.",
+        "en": "Quaranta+uno = quarantuno."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ci sono ___ giorni in un anno. (365)",
+        "en": "Build: There are ___ days in a year. (365)"
+      },
+      "parole": [
+        "Ci",
+        "sono",
+        "trecentosessantacinque",
+        "giorni",
+        "in",
+        "un",
+        "anno"
+      ],
+      "distrattori": [
+        "trecentosessanta",
+        "trecento",
+        "sessantacinque"
+      ],
+      "correct": [
+        "Ci",
+        "sono",
+        "trecentosessantacinque",
+        "giorni",
+        "in",
+        "un",
+        "anno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 365 = trecentosessantacinque.",
+        "en": "Perfect! 365 = trecentosessantacinque."
+      },
+      "feedbackErr": {
+        "it": "365 = trecentosessantacinque.",
+        "en": "365 = trecentosessantacinque."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il ristorante apre alle ___. (20:00)",
+        "en": "Build: The restaurant opens at ___. (20:00)"
+      },
+      "parole": [
+        "Il",
+        "ristorante",
+        "apre",
+        "alle",
+        "venti"
+      ],
+      "distrattori": [
+        "ventuno",
+        "otto",
+        "diciannove"
+      ],
+      "correct": [
+        "Il",
+        "ristorante",
+        "apre",
+        "alle",
+        "venti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 20:00 = alle venti.",
+        "en": "Perfect! 20:00 = alle venti."
+      },
+      "feedbackErr": {
+        "it": "20:00 = alle venti in orario 24h.",
+        "en": "20:00 = alle venti in 24h time."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho speso ___ euro. (78)",
+        "en": "Build: I spent ___ euros. (78)"
+      },
+      "parole": [
+        "Ho",
+        "speso",
+        "settantotto",
+        "euro"
+      ],
+      "distrattori": [
+        "settantaotto",
+        "ottantasette",
+        "settanta"
+      ],
+      "correct": [
+        "Ho",
+        "speso",
+        "settantotto",
+        "euro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 78 = settantotto (la 'a' di settanta cade davanti a otto).",
+        "en": "Perfect! 78 = settantotto (the 'a' of settanta drops before otto)."
+      },
+      "feedbackErr": {
+        "it": "Settanta+otto = settantotto.",
+        "en": "Settanta+otto = settantotto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il numero vincente è ___. (16)",
+        "en": "Build: The winning number is ___. (16)"
+      },
+      "parole": [
+        "Il",
+        "numero",
+        "vincente",
+        "è",
+        "sedici"
+      ],
+      "distrattori": [
+        "quindici",
+        "diciassette",
+        "seidici"
+      ],
+      "correct": [
+        "Il",
+        "numero",
+        "vincente",
+        "è",
+        "sedici"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 16 = sedici.",
+        "en": "Perfect! 16 = sedici."
+      },
+      "feedbackErr": {
+        "it": "16 = sedici.",
+        "en": "16 = sedici."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'ventuno', 'trentuno', 'quarantuno' perdono la vocale finale prima di 'uno'.",
+        "en": "In Italian 'ventuno', 'trentuno', 'quarantuno' drop the final vowel before 'uno'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venti+uno = ventuno (non ventiuno), trenta+uno = trentuno. La vocale finale cade davanti a 'uno' e 'otto'.",
+        "en": "Correct! Venti+uno = ventuno (not ventiuno), trenta+uno = trentuno. The final vowel drops before 'uno' and 'otto'."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ventuno, trentuno, quarantuno, cinquantuno — la vocale cade prima di 'uno' (e anche di 'otto': ventotto).",
+        "en": "True! Ventuno, trentuno, quarantuno, cinquantuno — the vowel drops before 'uno' (and also before 'otto': ventotto)."
+      }
+    }
+  ]
+}

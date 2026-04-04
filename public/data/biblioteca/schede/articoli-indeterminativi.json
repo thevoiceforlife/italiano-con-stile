@@ -1,0 +1,1507 @@
+{
+  "id": "articoli-indeterminativi",
+  "categoria": "grammatica",
+  "emoji": "📎",
+  "livello": "A1",
+  "titolo": {
+    "it": "Articoli Indeterminativi",
+    "en": "Indefinite Articles"
+  },
+  "mario": "In inglese dici 'a coffee' per tutto. In italiano: un caffè, uno zaino, una pizza, un'amica. Quattro forme, una logica precisa.",
+  "marioEn": "In English you say 'a coffee' for everything. In Italian: un caffè, uno zaino, una pizza, un'amica. Four forms, one precise logic.",
+  "perche": {
+    "it": "L'articolo indeterminativo è 'a/an' in inglese — cambia solo per il suono (a cat, an apple). In italiano cambia per genere E per il suono iniziale della parola, proprio come gli articoli determinativi. La logica è identica a il/lo/la/l' — solo che parliamo di 'un/uno/una/un''.",
+    "en": "The indefinite article is 'a/an' in English — it only changes for sound (a cat, an apple). In Italian it changes for gender AND for the initial sound of the word, just like definite articles. The logic is identical to il/lo/la/l' — except we're talking about 'un/uno/una/un''."
+  },
+  "spiegazione": {
+    "it": "Quattro forme: un (maschile normale), uno (maschile speciale: z, s+cons., gn, ps), una (femminile consonante), un' (femminile vocale).",
+    "en": "Four forms: un (normal masculine), uno (special masculine: z, s+cons., gn, ps), una (feminine consonant), un' (feminine vowel)."
+  },
+  "tabella": {
+    "headers": [
+      "Quando / When",
+      "Forma / Form",
+      "Esempio / Example",
+      "Corrisponde a / Same as"
+    ],
+    "rows": [
+      [
+        "Maschile normale",
+        "un",
+        "un caffè, un libro, un amico",
+        "il → un"
+      ],
+      [
+        "Maschile speciale (z, s+c, gn, ps)",
+        "uno",
+        "uno zaino, uno studente, uno gnocco",
+        "lo → uno"
+      ],
+      [
+        "Femminile + consonante",
+        "una",
+        "una pizza, una strada, una ragazza",
+        "la → una"
+      ],
+      [
+        "Femminile + vocale",
+        "un'",
+        "un'amica, un'idea, un'estate",
+        "l' → un'"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Vorrei un caffè, per favore.",
+      "en": "I'd like a coffee, please.",
+      "audio": "Vorrei un caffè, per favore."
+    },
+    {
+      "it": "Ho uno zaino nuovo.",
+      "en": "I have a new backpack.",
+      "audio": "Ho uno zaino nuovo."
+    },
+    {
+      "it": "C'è una pizza nel forno.",
+      "en": "There's a pizza in the oven.",
+      "audio": "C'è una pizza nel forno."
+    },
+    {
+      "it": "Ho un'idea!",
+      "en": "I have an idea!",
+      "audio": "Ho un'idea!"
+    },
+    {
+      "it": "È uno studente bravo.",
+      "en": "He is a good student.",
+      "audio": "È uno studente bravo."
+    }
+  ],
+  "nota": {
+    "it": "💡 Il trucco: se usi 'lo' con l'articolo determinativo, usi 'uno' con l'indeterminativo. Se usi 'il', usi 'un'. Se usi 'la', usi 'una'. Se usi 'l'', usi 'un''. Stessa logica, forme diverse.",
+    "en": "💡 The trick: if you use 'lo' with the definite article, use 'uno' with the indefinite. If you use 'il', use 'un'. If you use 'la', use 'una'. If you use 'l'', use 'un''. Same logic, different forms."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'zaino'?",
+        "en": "What is the correct indefinite article for 'zaino'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Zaino' inizia con z → maschile speciale → uno zaino.",
+        "en": "Correct! 'Zaino' starts with z → special masculine → uno zaino."
+      },
+      "feedbackErr": {
+        "it": "Prima di z si usa 'uno', non 'un' → uno zaino.",
+        "en": "Before z use 'uno', not 'un' → uno zaino."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'amica'?",
+        "en": "What is the correct indefinite article for 'amica'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Amica' è femminile e inizia con vocale → un'amica.",
+        "en": "Correct! 'Amica' is feminine and starts with a vowel → un'amica."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale iniziale → un' → un'amica.",
+        "en": "Feminine + initial vowel → un' → un'amica."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'pizza'?",
+        "en": "What is the correct indefinite article for 'pizza'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Pizza' è femminile e inizia con consonante → una pizza.",
+        "en": "Correct! 'Pizza' is feminine and starts with a consonant → una pizza."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante iniziale → una → una pizza.",
+        "en": "Feminine + initial consonant → una → una pizza."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'studente'?",
+        "en": "What is the correct indefinite article for 'studente'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Studente' è maschile e inizia con st (s+consonante) → uno studente.",
+        "en": "Correct! 'Studente' is masculine and starts with st (s+consonant) → uno studente."
+      },
+      "feedbackErr": {
+        "it": "Prima di s+consonante si usa 'uno' → uno studente.",
+        "en": "Before s+consonant use 'uno' → uno studente."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'idea'?",
+        "en": "What is the correct indefinite article for 'idea'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Idea' è femminile e inizia con vocale → un'idea.",
+        "en": "Correct! 'Idea' is feminine and starts with a vowel → un'idea."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'idea.",
+        "en": "Feminine + vowel → un' → un'idea."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'caffè'?",
+        "en": "What is the correct indefinite article for 'caffè'?"
+      },
+      "opzioni": [
+        "uno",
+        "una",
+        "un'",
+        "un"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Caffè' è maschile e inizia con consonante normale → un caffè.",
+        "en": "Correct! 'Caffè' is masculine and starts with a normal consonant → un caffè."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → un → un caffè.",
+        "en": "Masculine + normal consonant → un → un caffè."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'gnocco'?",
+        "en": "What is the correct indefinite article for 'gnocco'?"
+      },
+      "opzioni": [
+        "un",
+        "una",
+        "un'",
+        "uno"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Gnocco' inizia con gn → maschile speciale → uno gnocco.",
+        "en": "Correct! 'Gnocco' starts with gn → special masculine → uno gnocco."
+      },
+      "feedbackErr": {
+        "it": "Prima di gn si usa 'uno' → uno gnocco.",
+        "en": "Before gn use 'uno' → uno gnocco."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'università'?",
+        "en": "What is the correct indefinite article for 'università'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Università' è femminile e inizia con vocale → un'università.",
+        "en": "Correct! 'Università' is feminine and starts with a vowel → un'università."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'università.",
+        "en": "Feminine + vowel → un' → un'università."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'psicologo'?",
+        "en": "What is the correct indefinite article for 'psicologo'?"
+      },
+      "opzioni": [
+        "un",
+        "una",
+        "un'",
+        "uno"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Psicologo' inizia con ps → maschile speciale → uno psicologo.",
+        "en": "Correct! 'Psicologo' starts with ps → special masculine → uno psicologo."
+      },
+      "feedbackErr": {
+        "it": "Prima di ps si usa 'uno' → uno psicologo.",
+        "en": "Before ps use 'uno' → uno psicologo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'strada'?",
+        "en": "What is the correct indefinite article for 'strada'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "un'",
+        "una"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Strada' è femminile e inizia con consonante → una strada.",
+        "en": "Correct! 'Strada' is feminine and starts with a consonant → una strada."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → una → una strada.",
+        "en": "Feminine + consonant → una → una strada."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'an espresso' in italiano?",
+        "en": "How do you say 'an espresso' in Italian?"
+      },
+      "opzioni": [
+        "uno espresso",
+        "una espresso",
+        "un espresso",
+        "un' espresso"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Espresso' è maschile e inizia con vocale → un espresso (non uno).",
+        "en": "Correct! 'Espresso' is masculine and starts with a vowel → un espresso (not uno)."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' (non 'uno') → un espresso.",
+        "en": "Masculine + vowel → 'un' (not 'uno') → un espresso."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'amico'?",
+        "en": "What is the correct indefinite article for 'amico'?"
+      },
+      "opzioni": [
+        "uno",
+        "una",
+        "un'",
+        "un"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Amico' è maschile e inizia con vocale → un amico.",
+        "en": "Correct! 'Amico' is masculine and starts with a vowel → un amico."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' → un amico. 'Uno' si usa solo per z, s+c, gn, ps.",
+        "en": "Masculine + vowel → 'un' → un amico. 'Uno' is only for z, s+c, gn, ps."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'sport'?",
+        "en": "What is the correct indefinite article for 'sport'?"
+      },
+      "opzioni": [
+        "un",
+        "una",
+        "un'",
+        "uno"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Sport' inizia con sp (s+consonante) → uno sport.",
+        "en": "Correct! 'Sport' starts with sp (s+consonant) → uno sport."
+      },
+      "feedbackErr": {
+        "it": "Prima di s+consonante → 'uno' → uno sport.",
+        "en": "Before s+consonant → 'uno' → uno sport."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'errore'?",
+        "en": "What is the correct indefinite article for 'errore'?"
+      },
+      "opzioni": [
+        "uno",
+        "una",
+        "un'",
+        "un"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Errore' è maschile e inizia con vocale → un errore.",
+        "en": "Correct! 'Errore' is masculine and starts with a vowel → un errore."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' → un errore.",
+        "en": "Masculine + vowel → 'un' → un errore."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'ora'?",
+        "en": "What is the correct indefinite article for 'ora'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Ora' è femminile e inizia con vocale → un'ora.",
+        "en": "Correct! 'Ora' is feminine and starts with a vowel → un'ora."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'ora.",
+        "en": "Feminine + vowel → un' → un'ora."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'libro'?",
+        "en": "What is the correct indefinite article for 'libro'?"
+      },
+      "opzioni": [
+        "uno",
+        "una",
+        "un'",
+        "un"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Libro' è maschile e inizia con consonante normale → un libro.",
+        "en": "Correct! 'Libro' is masculine and starts with a normal consonant → un libro."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → 'un' → un libro.",
+        "en": "Masculine + normal consonant → 'un' → un libro."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'aula'?",
+        "en": "What is the correct indefinite article for 'aula'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Aula' è femminile e inizia con vocale → un'aula.",
+        "en": "Correct! 'Aula' is feminine and starts with a vowel → un'aula."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'aula.",
+        "en": "Feminine + vowel → un' → un'aula."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'yogurt'?",
+        "en": "What is the correct indefinite article for 'yogurt'?"
+      },
+      "opzioni": [
+        "un",
+        "una",
+        "un'",
+        "uno"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Yogurt' inizia con y (semivocale) → uno yogurt.",
+        "en": "Correct! 'Yogurt' starts with y (semivowel) → uno yogurt."
+      },
+      "feedbackErr": {
+        "it": "Prima di y si usa 'uno' → uno yogurt.",
+        "en": "Before y use 'uno' → uno yogurt."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'finestra'?",
+        "en": "What is the correct indefinite article for 'finestra'?"
+      },
+      "opzioni": [
+        "un",
+        "uno",
+        "un'",
+        "una"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Finestra' è femminile e inizia con consonante → una finestra.",
+        "en": "Correct! 'Finestra' is feminine and starts with a consonant → una finestra."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → una → una finestra.",
+        "en": "Feminine + consonant → una → una finestra."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'articolo indeterminativo corretto per 'uomo'?",
+        "en": "What is the correct indefinite article for 'uomo'?"
+      },
+      "opzioni": [
+        "uno",
+        "una",
+        "un'",
+        "un"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Uomo' è maschile e inizia con vocale → un uomo.",
+        "en": "Correct! 'Uomo' is masculine and starts with a vowel → un uomo."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' → un uomo. Non 'uno uomo'.",
+        "en": "Masculine + vowel → 'un' → un uomo. Not 'uno uomo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'uno amico' perché amico è maschile.",
+        "en": "You say 'uno amico' because amico is masculine."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Maschile + vocale → 'un' → un amico. 'Uno' è solo per z, s+c, gn, ps, y.",
+        "en": "False! Masculine + vowel → 'un' → un amico. 'Uno' is only for z, s+c, gn, ps, y."
+      },
+      "feedbackErr": {
+        "it": "Falso! Si dice 'un amico'. 'Uno' si usa solo prima di suoni speciali.",
+        "en": "False! You say 'un amico'. 'Uno' is only used before special sounds."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un'idea' perché idea è femminile e inizia con vocale.",
+        "en": "You say 'un'idea' because idea is feminine and starts with a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Femminile + vocale → un' → un'idea.",
+        "en": "Correct! Feminine + vowel → un' → un'idea."
+      },
+      "feedbackErr": {
+        "it": "Vero! Femminile + vocale → un' → un'idea, un'amica, un'ora.",
+        "en": "True! Feminine + vowel → un' → un'idea, un'amica, un'ora."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo indeterminativo 'uno' corrisponde sempre a 'lo' determinativo.",
+        "en": "The indefinite article 'uno' always corresponds to the definite 'lo'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lo zaino → uno zaino. Lo studente → uno studente. Stessa logica.",
+        "en": "Correct! Lo zaino → uno zaino. Lo studente → uno studente. Same logic."
+      },
+      "feedbackErr": {
+        "it": "Vero! lo → uno, il → un, la → una, l' → un'. Corrispondenza perfetta.",
+        "en": "True! lo → uno, il → un, la → una, l' → un'. Perfect correspondence."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un espresso' non 'uno espresso'.",
+        "en": "You say 'un espresso' not 'uno espresso'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maschile + vocale → 'un' (non 'uno') → un espresso, un amico, un errore.",
+        "en": "Correct! Masculine + vowel → 'un' (not 'uno') → un espresso, un amico, un errore."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Uno' si usa solo per suoni speciali (z, s+c, gn, ps, y) — non per vocali.",
+        "en": "True! 'Uno' is only used for special sounds (z, s+c, gn, ps, y) — not for vowels."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo indeterminativo ha forme plurali in italiano.",
+        "en": "The indefinite article has plural forms in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! In italiano non esiste il plurale dell'indeterminativo. 'A coffee' = un caffè, 'coffees' = dei caffè (partitivo).",
+        "en": "False! In Italian there is no plural of the indefinite article. 'A coffee' = un caffè, 'coffees' = dei caffè (partitive)."
+      },
+      "feedbackErr": {
+        "it": "Falso! L'indeterminativo non ha plurale. Per il plurale si usa il partitivo: dei, delle.",
+        "en": "False! The indefinite article has no plural. For plural use the partitive: dei, delle."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'una università' non 'un'università'.",
+        "en": "You say 'una università' not 'un'università'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Prima di vocale femminile si usa 'un'' → un'università.",
+        "en": "False! Before feminine vowel use 'un'' → un'università."
+      },
+      "feedbackErr": {
+        "it": "Falso! Femminile + vocale → un' → un'università. La 'a' di 'una' cade.",
+        "en": "False! Feminine + vowel → un' → un'università. The 'a' of 'una' drops."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'uno sport' perché sport inizia con s+consonante.",
+        "en": "You say 'uno sport' because sport starts with s+consonant."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sport inizia con sp → s+consonante → uno sport.",
+        "en": "Correct! Sport starts with sp → s+consonant → uno sport."
+      },
+      "feedbackErr": {
+        "it": "Vero! sp = s+consonante → uno sport. Come uno studente, uno zaino.",
+        "en": "True! sp = s+consonant → uno sport. Like uno studente, uno zaino."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Un' e 'uno' si usano entrambi per il maschile.",
+        "en": "'Un' and 'uno' are both used for masculine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambi maschili: 'un' per consonante normale e vocale, 'uno' per suoni speciali.",
+        "en": "Correct! Both masculine: 'un' for normal consonant and vowel, 'uno' for special sounds."
+      },
+      "feedbackErr": {
+        "it": "Vero! Maschile ha due forme: 'un' (normale) e 'uno' (speciale: z, s+c, gn, ps, y).",
+        "en": "True! Masculine has two forms: 'un' (normal) and 'uno' (special: z, s+c, gn, ps, y)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Una' e 'un'' si usano entrambi per il femminile.",
+        "en": "'Una' and 'un'' are both used for feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Femminile ha due forme: 'una' (consonante) e 'un'' (vocale).",
+        "en": "Correct! Feminine has two forms: 'una' (consonant) and 'un'' (vowel)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Una pizza (consonante), un'amica (vocale) — entrambe femminili.",
+        "en": "True! Una pizza (consonant), un'amica (vowel) — both feminine."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un yogurt' perché yogurt inizia con y.",
+        "en": "You say 'un yogurt' because yogurt starts with y."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Y' si comporta come suono speciale → uno yogurt.",
+        "en": "False! 'Y' behaves as a special sound → uno yogurt."
+      },
+      "feedbackErr": {
+        "it": "Falso! Prima di y si usa 'uno' → uno yogurt, uno yak.",
+        "en": "False! Before y use 'uno' → uno yogurt, uno yak."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'una amica' non 'un'amica'.",
+        "en": "You say 'una amica' not 'un'amica'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Femminile + vocale → 'un'' → un'amica. 'Una amica' non si dice.",
+        "en": "False! Feminine + vowel → 'un'' → un'amica. 'Una amica' is not said."
+      },
+      "feedbackErr": {
+        "it": "Falso! Davanti a vocale femminile la 'a' di 'una' cade → un'amica.",
+        "en": "False! Before a feminine vowel the 'a' of 'una' drops → un'amica."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il trucco è: se usi 'lo', usi 'uno'; se usi 'il', usi 'un'.",
+        "en": "The trick is: if you use 'lo', use 'uno'; if you use 'il', use 'un'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lo zaino → uno zaino. Il caffè → un caffè. Stessa logica sempre.",
+        "en": "Correct! Lo zaino → uno zaino. Il caffè → un caffè. Same logic always."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il sistema indeterminativo segue esattamente il determinativo.",
+        "en": "True! The indefinite system follows the definite exactly."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un problema' perché problema è maschile.",
+        "en": "You say 'un problema' because problema is masculine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Problema è maschile (nonostante -a) → un problema.",
+        "en": "Correct! Problema is masculine (despite -a) → un problema."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il problema → un problema. Maschile + consonante normale → 'un'.",
+        "en": "True! Il problema → un problema. Masculine + normal consonant → 'un'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo indeterminativo si usa per presentarsi: 'Sono un turista'.",
+        "en": "The indefinite article is used to introduce yourself: 'Sono un turista'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Sono un turista' = I am a tourist. L'indeterminativo introduce qualcosa per la prima volta.",
+        "en": "Correct! 'Sono un turista' = I am a tourist. The indefinite introduces something for the first time."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sono un turista, sono una studentessa — l'indeterminativo per categorie e prima menzione.",
+        "en": "True! Sono un turista, sono una studentessa — indefinite for categories and first mention."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un'ora' con l'apostrofo.",
+        "en": "You say 'un'ora' with an apostrophe."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ora' è femminile e inizia con vocale → un'ora.",
+        "en": "Correct! 'Ora' is feminine and starts with a vowel → un'ora."
+      },
+      "feedbackErr": {
+        "it": "Vero! Un'ora, un'amica, un'idea — femminile + vocale → un'.",
+        "en": "True! Un'ora, un'amica, un'idea — feminine + vowel → un'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'uno gnocco' perché gnocco inizia con gn.",
+        "en": "You say 'uno gnocco' because gnocco starts with gn."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Gn' è un suono speciale → uno gnocco.",
+        "en": "Correct! 'Gn' is a special sound → uno gnocco."
+      },
+      "feedbackErr": {
+        "it": "Vero! Prima di gn → 'uno' → uno gnocco, uno gneiss.",
+        "en": "True! Before gn → 'uno' → uno gnocco, uno gneiss."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'un' davanti a tutti i maschili che iniziano con vocale.",
+        "en": "You say 'un' before all masculines starting with a vowel."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maschile + vocale → 'un' → un amico, un errore, un uomo.",
+        "en": "Correct! Masculine + vowel → 'un' → un amico, un errore, un uomo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Maschile + vocale → 'un' (non 'uno') → un amico, un espresso.",
+        "en": "True! Masculine + vowel → 'un' (not 'uno') → un amico, un espresso."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'una psicologa' perché psicologa è femminile.",
+        "en": "You say 'una psicologa' because psicologa is feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Femminile + consonante → una → una psicologa.",
+        "en": "Correct! Feminine + consonant → una → una psicologa."
+      },
+      "feedbackErr": {
+        "it": "Vero! Psicologa è femminile + ps (consonante) → una psicologa.",
+        "en": "True! Psicologa is feminine + ps (consonant) → una psicologa."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vorrei ___ caffè, per favore.",
+        "en": "Build: I'd like ___ coffee, please."
+      },
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Caffè' è maschile + consonante normale → un caffè.",
+        "en": "Perfect! 'Caffè' is masculine + normal consonant → un caffè."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → 'un' → un caffè.",
+        "en": "Masculine + normal consonant → 'un' → un caffè."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho ___ idea!",
+        "en": "Build: I have ___ idea!"
+      },
+      "parole": [
+        "Ho",
+        "un'",
+        "idea"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "correct": [
+        "Ho",
+        "un'",
+        "idea"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Idea' è femminile + vocale → un'idea.",
+        "en": "Perfect! 'Idea' is feminine + vowel → un'idea."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'idea.",
+        "en": "Feminine + vowel → un' → un'idea."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ha ___ zaino nuovo.",
+        "en": "Build: Mario has ___ new backpack."
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "uno",
+        "zaino",
+        "nuovo"
+      ],
+      "distrattori": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "uno",
+        "zaino",
+        "nuovo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Zaino' inizia con z → uno zaino.",
+        "en": "Perfect! 'Zaino' starts with z → uno zaino."
+      },
+      "feedbackErr": {
+        "it": "Prima di z → 'uno' → uno zaino.",
+        "en": "Before z → 'uno' → uno zaino."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: C'è ___ pizza nel forno.",
+        "en": "Build: There is ___ pizza in the oven."
+      },
+      "parole": [
+        "C'è",
+        "una",
+        "pizza",
+        "nel",
+        "forno"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "correct": [
+        "C'è",
+        "una",
+        "pizza",
+        "nel",
+        "forno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Pizza' è femminile + consonante → una pizza.",
+        "en": "Perfect! 'Pizza' is feminine + consonant → una pizza."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → 'una' → una pizza.",
+        "en": "Feminine + consonant → 'una' → una pizza."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È ___ studente bravo.",
+        "en": "Build: He is ___ good student."
+      },
+      "parole": [
+        "È",
+        "uno",
+        "studente",
+        "bravo"
+      ],
+      "distrattori": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "È",
+        "uno",
+        "studente",
+        "bravo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Studente' inizia con st (s+consonante) → uno studente.",
+        "en": "Perfect! 'Studente' starts with st (s+consonant) → uno studente."
+      },
+      "feedbackErr": {
+        "it": "s+consonante → 'uno' → uno studente.",
+        "en": "s+consonant → 'uno' → uno studente."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Napoli è ___ città bellissima.",
+        "en": "Build: Naples is ___ beautiful city."
+      },
+      "parole": [
+        "Napoli",
+        "è",
+        "una",
+        "città",
+        "bellissima"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "correct": [
+        "Napoli",
+        "è",
+        "una",
+        "città",
+        "bellissima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Città' è femminile + consonante → una città.",
+        "en": "Perfect! 'Città' is feminine + consonant → una città."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → 'una' → una città.",
+        "en": "Feminine + consonant → 'una' → una città."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho aspettato ___ ora.",
+        "en": "Build: I waited ___ hour."
+      },
+      "parole": [
+        "Ho",
+        "aspettato",
+        "un'",
+        "ora"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "correct": [
+        "Ho",
+        "aspettato",
+        "un'",
+        "ora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Ora' è femminile + vocale → un'ora.",
+        "en": "Perfect! 'Ora' is feminine + vowel → un'ora."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'ora.",
+        "en": "Feminine + vowel → un' → un'ora."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sono ___ turista inglese.",
+        "en": "Build: I am ___ English tourist."
+      },
+      "parole": [
+        "Sono",
+        "un",
+        "turista",
+        "inglese"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Sono",
+        "un",
+        "turista",
+        "inglese"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Turista' è maschile + consonante normale → un turista.",
+        "en": "Perfect! 'Turista' is masculine + normal consonant → un turista."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → 'un' → un turista.",
+        "en": "Masculine + normal consonant → 'un' → un turista."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho mangiato ___ gnocco enorme.",
+        "en": "Build: I ate ___ huge gnocco."
+      },
+      "parole": [
+        "Ho",
+        "mangiato",
+        "uno",
+        "gnocco",
+        "enorme"
+      ],
+      "distrattori": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Ho",
+        "mangiato",
+        "uno",
+        "gnocco",
+        "enorme"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Gnocco' inizia con gn → uno gnocco.",
+        "en": "Perfect! 'Gnocco' starts with gn → uno gnocco."
+      },
+      "feedbackErr": {
+        "it": "gn → 'uno' → uno gnocco.",
+        "en": "gn → 'uno' → uno gnocco."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voglio fare ___ sport.",
+        "en": "Build: I want to do ___ sport."
+      },
+      "parole": [
+        "Voglio",
+        "fare",
+        "uno",
+        "sport"
+      ],
+      "distrattori": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Voglio",
+        "fare",
+        "uno",
+        "sport"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Sport' inizia con sp → uno sport.",
+        "en": "Perfect! 'Sport' starts with sp → uno sport."
+      },
+      "feedbackErr": {
+        "it": "sp = s+consonante → 'uno' → uno sport.",
+        "en": "sp = s+consonant → 'uno' → uno sport."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho ___ amico napoletano.",
+        "en": "Build: I have ___ Neapolitan friend."
+      },
+      "parole": [
+        "Ho",
+        "un",
+        "amico",
+        "napoletano"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Ho",
+        "un",
+        "amico",
+        "napoletano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Amico' è maschile + vocale → un amico.",
+        "en": "Perfect! 'Amico' is masculine + vowel → un amico."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' (non 'uno') → un amico.",
+        "en": "Masculine + vowel → 'un' (not 'uno') → un amico."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: C'è ___ errore nella frase.",
+        "en": "Build: There is ___ mistake in the sentence."
+      },
+      "parole": [
+        "C'è",
+        "un",
+        "errore",
+        "nella",
+        "frase"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "C'è",
+        "un",
+        "errore",
+        "nella",
+        "frase"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Errore' è maschile + vocale → un errore.",
+        "en": "Perfect! 'Errore' is masculine + vowel → un errore."
+      },
+      "feedbackErr": {
+        "it": "Maschile + vocale → 'un' → un errore.",
+        "en": "Masculine + vowel → 'un' → un errore."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È ___ bella giornata.",
+        "en": "Build: It is ___ beautiful day."
+      },
+      "parole": [
+        "È",
+        "una",
+        "bella",
+        "giornata"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "correct": [
+        "È",
+        "una",
+        "bella",
+        "giornata"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Giornata' è femminile + consonante → una giornata.",
+        "en": "Perfect! 'Giornata' is feminine + consonant → una giornata."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → 'una' → una giornata.",
+        "en": "Feminine + consonant → 'una' → una giornata."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ha ___ problema.",
+        "en": "Build: Mario has ___ problem."
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "un",
+        "problema"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "un",
+        "problema"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Problema' è maschile + consonante normale → un problema.",
+        "en": "Perfect! 'Problema' is masculine + normal consonant → un problema."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → 'un' → un problema.",
+        "en": "Masculine + normal consonant → 'un' → un problema."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Frequento ___ università a Napoli.",
+        "en": "Build: I attend ___ university in Naples."
+      },
+      "parole": [
+        "Frequento",
+        "un'",
+        "università",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "correct": [
+        "Frequento",
+        "un'",
+        "università",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Università' è femminile + vocale → un'università.",
+        "en": "Perfect! 'Università' is feminine + vowel → un'università."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'università.",
+        "en": "Feminine + vowel → un' → un'università."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho comprato ___ moto nuova.",
+        "en": "Build: I bought ___ new motorbike."
+      },
+      "parole": [
+        "Ho",
+        "comprato",
+        "una",
+        "moto",
+        "nuova"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "correct": [
+        "Ho",
+        "comprato",
+        "una",
+        "moto",
+        "nuova"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Moto' è femminile + consonante → una moto.",
+        "en": "Perfect! 'Moto' is feminine + consonant → una moto."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → 'una' → una moto.",
+        "en": "Feminine + consonant → 'una' → una moto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voglio mangiare ___ pizza vera.",
+        "en": "Build: I want to eat ___ real pizza."
+      },
+      "parole": [
+        "Voglio",
+        "mangiare",
+        "una",
+        "pizza",
+        "vera"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "correct": [
+        "Voglio",
+        "mangiare",
+        "una",
+        "pizza",
+        "vera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Pizza' è femminile + consonante → una pizza.",
+        "en": "Perfect! 'Pizza' is feminine + consonant → una pizza."
+      },
+      "feedbackErr": {
+        "it": "Femminile + consonante → 'una' → una pizza.",
+        "en": "Feminine + consonant → 'una' → una pizza."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Bevo ___ acqua fresca.",
+        "en": "Build: I drink ___ fresh water."
+      },
+      "parole": [
+        "Bevo",
+        "un'",
+        "acqua",
+        "fresca"
+      ],
+      "distrattori": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "correct": [
+        "Bevo",
+        "un'",
+        "acqua",
+        "fresca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Acqua' è femminile + vocale → un'acqua.",
+        "en": "Perfect! 'Acqua' is feminine + vowel → un'acqua."
+      },
+      "feedbackErr": {
+        "it": "Femminile + vocale → un' → un'acqua.",
+        "en": "Feminine + vowel → un' → un'acqua."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Leggo ___ libro interessante.",
+        "en": "Build: I am reading ___ interesting book."
+      },
+      "parole": [
+        "Leggo",
+        "un",
+        "libro",
+        "interessante"
+      ],
+      "distrattori": [
+        "uno",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Leggo",
+        "un",
+        "libro",
+        "interessante"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Libro' è maschile + consonante normale → un libro.",
+        "en": "Perfect! 'Libro' is masculine + normal consonant → un libro."
+      },
+      "feedbackErr": {
+        "it": "Maschile + consonante normale → 'un' → un libro.",
+        "en": "Masculine + normal consonant → 'un' → un libro."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ho mangiato ___ yogurt a colazione.",
+        "en": "Build: I ate ___ yogurt for breakfast."
+      },
+      "parole": [
+        "Ho",
+        "mangiato",
+        "uno",
+        "yogurt",
+        "a",
+        "colazione"
+      ],
+      "distrattori": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "correct": [
+        "Ho",
+        "mangiato",
+        "uno",
+        "yogurt",
+        "a",
+        "colazione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Yogurt' inizia con y → uno yogurt.",
+        "en": "Perfect! 'Yogurt' starts with y → uno yogurt."
+      },
+      "feedbackErr": {
+        "it": "y → 'uno' → uno yogurt.",
+        "en": "y → 'uno' → uno yogurt."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Un' si usa con nomi maschili che iniziano sia con vocale che con consonante normale.",
+        "en": "'Un' is used with masculine nouns starting with both a vowel and a normal consonant."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Un amico' (vocale) e 'un libro' (consonante) — stesso 'un'. Solo z/s+c/gn/ps/x → uno.",
+        "en": "Correct! 'Un amico' (vowel) and 'un libro' (consonant) — same 'un'. Only z/s+c/gn/ps/x → uno."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Un' va bene con vocale (un amico) e con consonante normale (un libro).",
+        "en": "True! 'Un' works with a vowel (un amico) and with a normal consonant (un libro)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'articolo indeterminativo 'una' si elide sempre davanti a vocale diventando 'un'.",
+        "en": "The indefinite article 'una' always elides before a vowel becoming 'un'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Una' davanti a vocale diventa 'un'' con apostrofo: un'amica, un'ora — non 'un' (che è maschile).",
+        "en": "Correct! 'Una' before a vowel becomes 'un'' with apostrophe: un'amica, un'ora — not 'un' (which is masculine)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Femminile + vocale → 'un'' (con apostrofo): un'amica. 'Un' senza apostrofo è sempre maschile.",
+        "en": "False! Feminine + vowel → 'un'' (with apostrophe): un'amica. 'Un' without apostrophe is always masculine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1514 @@
+{
+  "id": "imperfetto",
+  "categoria": "grammatica",
+  "emoji": "🌅",
+  "livello": "A2",
+  "titolo": {
+    "it": "Imperfetto",
+    "en": "Imperfect Tense"
+  },
+  "mario": "L'imperfetto è il tempo dei ricordi. Quando vuoi raccontare com'era la vita, cosa facevi sempre, come ti sentivi — usi l'imperfetto. È il tempo della nostalgia napoletana per eccellenza.",
+  "marioEn": "The imperfect is the tense of memories. When you want to describe how life was, what you used to do, how you felt — you use the imperfect. It's the tense of Neapolitan nostalgia par excellence.",
+  "perche": {
+    "it": "In inglese 'I ate' fa tutto: azione singola e abitudine passata. In italiano no: 'ho mangiato' è per l'azione singola completata, 'mangiavo' è per l'abitudine, la descrizione, l'azione in corso nel passato. La differenza: 'Mentre mangiavo (imperfetto, in corso), Mario è arrivato (passato prossimo, azione puntuale).' Imperfetto = sfondo. Passato prossimo = evento.",
+    "en": "In English 'I ate' does everything: single action and past habit. In Italian no: 'ho mangiato' is for the single completed action, 'mangiavo' is for habit, description, ongoing past action. The difference: 'Mentre mangiavo (imperfect, ongoing), Mario è arrivato (passato prossimo, punctual action).' Imperfect = background. Passato prossimo = event."
+  },
+  "spiegazione": {
+    "it": "Formazione: togli -re dall'infinito, aggiungi -vo/-vi/-va/-vamo/-vate/-vano. Tutti i verbi seguono questo schema (anche i -ere e -ire). Irregolari importanti: essere→ero, fare→facevo, dire→dicevo, bere→bevevo. Usi: abitudine passata (da bambino mangiavo), descrizione passata (era bello), azione in corso interrotta (dormivo quando…).",
+    "en": "Formation: remove -re from the infinitive, add -vo/-vi/-va/-vamo/-vate/-vano. All verbs follow this pattern (even -ere and -ire). Important irregulars: essere→ero, fare→facevo, dire→dicevo, bere→bevevo. Uses: past habit (da bambino mangiavo), past description (era bello), interrupted ongoing action (dormivo quando…)."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "mangiare": "mangiavo",
+      "essere": "ero",
+      "fare": "facevo"
+    },
+    {
+      "soggetto": "tu",
+      "mangiare": "mangiavi",
+      "essere": "eri",
+      "fare": "facevi"
+    },
+    {
+      "soggetto": "lui/lei",
+      "mangiare": "mangiava",
+      "essere": "era",
+      "fare": "faceva"
+    },
+    {
+      "soggetto": "noi",
+      "mangiare": "mangiavamo",
+      "essere": "eravamo",
+      "fare": "facevamo"
+    },
+    {
+      "soggetto": "voi",
+      "mangiare": "mangiavate",
+      "essere": "eravate",
+      "fare": "facevate"
+    },
+    {
+      "soggetto": "loro",
+      "mangiare": "mangiavano",
+      "essere": "erano",
+      "fare": "facevano"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Da bambino mangiavo la pizza ogni domenica.",
+      "en": "As a child I used to eat pizza every Sunday.",
+      "audio": "Da bambino mangiavo la pizza ogni domenica."
+    },
+    {
+      "it": "Mentre dormivo, Mario ha chiamato.",
+      "en": "While I was sleeping, Mario called.",
+      "audio": "Mentre dormivo, Mario ha chiamato."
+    },
+    {
+      "it": "Il bar era piccolo ma bellissimo.",
+      "en": "The bar was small but beautiful.",
+      "audio": "Il bar era piccolo ma bellissimo."
+    },
+    {
+      "it": "Quando ero giovane, facevo sport ogni giorno.",
+      "en": "When I was young, I used to do sport every day.",
+      "audio": "Quando ero giovane, facevo sport ogni giorno."
+    },
+    {
+      "it": "Pioveva e non volevo uscire.",
+      "en": "It was raining and I didn't want to go out.",
+      "audio": "Pioveva e non volevo uscire."
+    }
+  ],
+  "nota": {
+    "it": "💡 Trucco per scegliere: puoi aggiungere 'di solito' o 'sempre'? → imperfetto. È un'azione con un momento preciso? → passato prossimo. 'Mangiavo la pizza ogni domenica' (abitudine) vs 'Ho mangiato la pizza ieri' (evento preciso).",
+    "en": "💡 Trick to choose: can you add 'usually' or 'always'? → imperfect. Is it an action with a precise moment? → passato prossimo. 'Mangiavo la pizza ogni domenica' (habit) vs 'Ho mangiato la pizza ieri' (precise event)."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma l'imperfetto di 'mangiare' alla prima persona?",
+        "en": "How is the imperfect of 'mangiare' formed for the first person?"
+      },
+      "opzioni": [
+        "mangiavo",
+        "mangievo",
+        "mangiivo",
+        "mangiavo"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! -are: togli -re, aggiungi -vo. mangiare → mangia+vo = mangiavo.",
+        "en": "Correct! -are: remove -re, add -vo. mangiare → mangia+vo = mangiavo."
+      },
+      "feedbackErr": {
+        "it": "Imperfetto -are: togli -re, aggiungi -vo. mangiare → mangiavo.",
+        "en": "Imperfect -are: remove -re, add -vo. mangiare → mangiavo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperfetto irregolare di 'essere' alla terza persona singolare?",
+        "en": "What is the irregular imperfect of 'essere' for the third person singular?"
+      },
+      "opzioni": [
+        "stava",
+        "era",
+        "è",
+        "fosse"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Essere → irregolare: ero, eri, era, eravamo, eravate, erano.",
+        "en": "Correct! Essere → irregular: ero, eri, era, eravamo, eravate, erano."
+      },
+      "feedbackErr": {
+        "it": "Essere è irregolare all'imperfetto: era (non 'stava', che è imperfetto di stare).",
+        "en": "Essere is irregular in the imperfect: era (not 'stava', which is the imperfect of stare)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase descrive un'abitudine passata?",
+        "en": "Which sentence describes a past habit?"
+      },
+      "opzioni": [
+        "Ho mangiato la pizza ieri.",
+        "Mangiavo la pizza ogni domenica.",
+        "Mangiai la pizza.",
+        "Mangerò la pizza."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangiavo ogni domenica' = abitudine ripetuta nel passato → imperfetto.",
+        "en": "Correct! 'Mangiavo ogni domenica' = repeated past habit → imperfect."
+      },
+      "feedbackErr": {
+        "it": "Abitudine passata (ogni domenica) → imperfetto: mangiavo.",
+        "en": "Past habit (every Sunday) → imperfect: mangiavo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Mentre io ___ (dormire), Mario ha telefonato.",
+        "en": "Complete: While I ___ (dormire), Mario called."
+      },
+      "opzioni": [
+        "ho dormito",
+        "dormirò",
+        "dormivo",
+        "dorma"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Azione in corso interrotta → imperfetto: dormivo. L'interruzione (telefonato) → passato prossimo.",
+        "en": "Correct! Ongoing interrupted action → imperfect: dormivo. The interruption (called) → passato prossimo."
+      },
+      "feedbackErr": {
+        "it": "Azione in corso nel passato → imperfetto: dormivo. 'Mentre dormivo, Mario ha telefonato.'",
+        "en": "Ongoing past action → imperfect: dormivo. 'Mentre dormivo, Mario ha telefonato.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperfetto di 'fare' alla prima persona singolare?",
+        "en": "What is the imperfect of 'fare' for the first person singular?"
+      },
+      "opzioni": [
+        "farevo",
+        "favo",
+        "facevo",
+        "faccevo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Fare → irregolare: usava il tema latino 'face-'. facevo, facevi, faceva...",
+        "en": "Correct! Fare → irregular: it used the Latin stem 'face-'. facevo, facevi, faceva..."
+      },
+      "feedbackErr": {
+        "it": "Fare → irregolare: facevo (dal latino 'facere'). Non 'farevo'.",
+        "en": "Fare → irregular: facevo (from Latin 'facere'). Not 'farevo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Da bambino, ___ (giocare) in strada tutti i pomeriggi.",
+        "en": "Complete: As a child, I ___ (giocare) in the street every afternoon."
+      },
+      "opzioni": [
+        "ho giocato",
+        "giocherò",
+        "giocavo",
+        "giochi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Da bambino' + abitudine quotidiana → imperfetto: giocavo.",
+        "en": "Correct! 'Da bambino' + daily habit → imperfect: giocavo."
+      },
+      "feedbackErr": {
+        "it": "'Da bambino' + ogni pomeriggio = abitudine → imperfetto: giocavo.",
+        "en": "'Da bambino' + every afternoon = habit → imperfect: giocavo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperfetto di 'bere' alla terza persona plurale?",
+        "en": "What is the imperfect of 'bere' for the third person plural?"
+      },
+      "opzioni": [
+        "bevevano",
+        "berevano",
+        "bivevano",
+        "bevono"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Bere → tema 'beve-': bevevo, bevevi, beveva, bevevamo, bevevate, bevevano.",
+        "en": "Correct! Bere → stem 'beve-': bevevo, bevevi, beveva, bevevamo, bevevate, bevevano."
+      },
+      "feedbackErr": {
+        "it": "Bere → irregolare: tema beve-. Terza plurale: bevevano.",
+        "en": "Bere → irregular: stem beve-. Third plural: bevevano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale contesto richiede l'imperfetto?",
+        "en": "Which context requires the imperfect?"
+      },
+      "opzioni": [
+        "Mario arrivò alle otto.",
+        "Ieri ho comprato il caffè.",
+        "Il caffè costava poco allora.",
+        "Comprerò il caffè domani."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Descrizione di come erano le cose in passato → imperfetto: costava.",
+        "en": "Correct! Description of how things were in the past → imperfect: costava."
+      },
+      "feedbackErr": {
+        "it": "Descrizione passata (com'era prima) → imperfetto: 'costava poco allora'.",
+        "en": "Past description (how it was before) → imperfect: 'costava poco allora'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'She was beautiful' in italiano?",
+        "en": "How do you say 'She was beautiful' in Italian?"
+      },
+      "opzioni": [
+        "Era bella.",
+        "È stata bella.",
+        "Sarà bella.",
+        "Sia bella."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Descrizione di qualità nel passato → imperfetto: era bella.",
+        "en": "Correct! Description of quality in the past → imperfect: era bella."
+      },
+      "feedbackErr": {
+        "it": "Qualità passata (descrizione) → imperfetto: era bella.",
+        "en": "Past quality (description) → imperfect: era bella."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale forma è corretta per 'dire' all'imperfetto (lui)?",
+        "en": "Which form is correct for 'dire' in the imperfect (lui)?"
+      },
+      "opzioni": [
+        "diriva",
+        "direva",
+        "diceva",
+        "doveva"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Dire → tema 'dice-': dicevo, dicevi, diceva, dicevamo, dicevate, dicevano.",
+        "en": "Correct! Dire → stem 'dice-': dicevo, dicevi, diceva, dicevamo, dicevate, dicevano."
+      },
+      "feedbackErr": {
+        "it": "Dire → irregolare: tema 'dice-'. Lui: diceva.",
+        "en": "Dire → irregular: stem 'dice-'. Lui: diceva."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Imperfetto o passato prossimo? 'Stamattina ___ (piovere) quando sono uscito.'",
+        "en": "Imperfect or passato prossimo? 'This morning it ___ (piovere) when I went out.'"
+      },
+      "opzioni": [
+        "ha piovuto",
+        "pioverà",
+        "pioveva",
+        "abbia piovuto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Condizione meteorologica in corso (sfondo) → imperfetto: pioveva. L'uscire è l'evento puntuale.",
+        "en": "Correct! Ongoing weather condition (background) → imperfect: pioveva. Going out is the punctual event."
+      },
+      "feedbackErr": {
+        "it": "Meteo come sfondo dell'azione → imperfetto: pioveva. 'Pioveva quando sono uscito.'",
+        "en": "Weather as background of the action → imperfect: pioveva. 'Pioveva quando sono uscito.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Quando ___ (avere) vent'anni, vivevo a Napoli.",
+        "en": "Complete: When I ___ (avere) twenty, I lived in Naples."
+      },
+      "opzioni": [
+        "ho avuto",
+        "avrò",
+        "avevo",
+        "abbia"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Età nel passato = descrizione → imperfetto: avevo. 'Quando avevo vent'anni…'",
+        "en": "Correct! Age in the past = description → imperfect: avevo. 'Quando avevo vent'anni…'"
+      },
+      "feedbackErr": {
+        "it": "Età passata = stato/descrizione → imperfetto: avevo. 'Quando avevo vent'anni vivevo a Napoli.'",
+        "en": "Past age = state/description → imperfect: avevo. 'Quando avevo vent'anni vivevo a Napoli.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale parola segnale suggerisce l'uso dell'imperfetto?",
+        "en": "Which signal word suggests the use of the imperfect?"
+      },
+      "opzioni": [
+        "ieri",
+        "una volta",
+        "stamattina",
+        "l'anno scorso"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Una volta' = in the past (generically, habitually) → imperfetto. 'Una volta si mangiava meglio.'",
+        "en": "Correct! 'Una volta' = in the past (generically, habitually) → imperfect. 'Una volta si mangiava meglio.'"
+      },
+      "feedbackErr": {
+        "it": "'Una volta' indica abitudine passata → imperfetto. 'Una volta andavamo al mare ogni estate.'",
+        "en": "'Una volta' indicates past habit → imperfect. 'Una volta andavamo al mare ogni estate.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa correttamente: I nonni ___ (raccontare) sempre storie bellissime.",
+        "en": "Complete correctly: The grandparents ___ (raccontare) always beautiful stories."
+      },
+      "opzioni": [
+        "hanno raccontato",
+        "raccontavano",
+        "racconteranno",
+        "raccontino"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sempre' + azione ripetuta nel passato → imperfetto: raccontavano.",
+        "en": "Correct! 'Always' + repeated past action → imperfect: raccontavano."
+      },
+      "feedbackErr": {
+        "it": "'Sempre' + passato ripetuto → imperfetto: raccontavano. Non passato prossimo.",
+        "en": "'Always' + repeated past → imperfect: raccontavano. Not passato prossimo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si traduce 'I used to drink coffee every morning'?",
+        "en": "How do you translate 'I used to drink coffee every morning'?"
+      },
+      "opzioni": [
+        "Ho bevuto il caffè ogni mattina.",
+        "Bevevo il caffè ogni mattina.",
+        "Berrò il caffè ogni mattina.",
+        "Bevo il caffè ogni mattina."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Used to' = abitudine passata → imperfetto: bevevo.",
+        "en": "Correct! 'Used to' = past habit → imperfect: bevevo."
+      },
+      "feedbackErr": {
+        "it": "'Used to drink' = abitudine passata → imperfetto: bevevo ogni mattina.",
+        "en": "'Used to drink' = past habit → imperfect: bevevo ogni mattina."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Imperfetto di 'volere' alla seconda persona singolare?",
+        "en": "Imperfect of 'volere' for the second person singular?"
+      },
+      "opzioni": [
+        "volivi",
+        "volevi",
+        "voli",
+        "volervi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Volere → regolare all'imperfetto: volevo, volevi, voleva, volevamo, volevate, volevano.",
+        "en": "Correct! Volere → regular in the imperfect: volevo, volevi, voleva, volevamo, volevate, volevano."
+      },
+      "feedbackErr": {
+        "it": "Volere è regolare all'imperfetto: volevi. 'Non volevi venire?'",
+        "en": "Volere is regular in the imperfect: volevi. 'Non volevi venire?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Scegli la forma giusta: 'Ieri ___ (piovere) tutto il giorno.'",
+        "en": "Choose the right form: 'Yesterday it ___ (piovere) all day.'"
+      },
+      "opzioni": [
+        "pioverà",
+        "pioveva",
+        "ha piovuto",
+        "piovesse"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Condizione continua per tutta la giornata (non un evento puntuale) → imperfetto: pioveva. O passato prossimo (ha piovuto) — entrambi accettabili, ma imperfetto sottolinea la durata.",
+        "en": "Correct! Continuous condition all day (not a punctual event) → imperfect: pioveva. Or passato prossimo (ha piovuto) — both acceptable, but imperfect emphasises duration."
+      },
+      "feedbackErr": {
+        "it": "Condizione continua → imperfetto: pioveva. (Ha piovuto è anche accettabile ma imperfetto enfatizza la durata.)",
+        "en": "Continuous condition → imperfect: pioveva. (Ha piovuto is also acceptable but imperfect emphasises duration.)"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Da bambina, Maria ___ (essere) molto timida.",
+        "en": "Complete: As a child, Maria ___ (essere) very shy."
+      },
+      "opzioni": [
+        "è stata",
+        "sarà",
+        "era",
+        "sia"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Caratteristica/descrizione nel passato → imperfetto: era. 'Da bambina era molto timida.'",
+        "en": "Correct! Characteristic/description in the past → imperfect: era. 'Da bambina era molto timida.'"
+      },
+      "feedbackErr": {
+        "it": "Caratteristica passata (descrizione) → imperfetto: era. 'Da bambina Maria era molto timida.'",
+        "en": "Past characteristic (description) → imperfect: era. 'Da bambina Maria era molto timida.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale NON è un uso tipico dell'imperfetto?",
+        "en": "Which is NOT a typical use of the imperfect?"
+      },
+      "opzioni": [
+        "Abitudine passata",
+        "Descrizione nel passato",
+        "Azione puntuale e completata",
+        "Azione in corso interrotta"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Le azioni puntuali e completate → passato prossimo. L'imperfetto non indica momenti precisi.",
+        "en": "Correct! Punctual completed actions → passato prossimo. The imperfect doesn't indicate precise moments."
+      },
+      "feedbackErr": {
+        "it": "Azioni puntuali e completate → passato prossimo, non imperfetto. L'imperfetto è per durata, sfondo, abitudine.",
+        "en": "Punctual completed actions → passato prossimo, not imperfect. The imperfect is for duration, background, habit."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: Mentre ___ (fare) la doccia, ha suonato il campanello.",
+        "en": "Complete: While I ___ (fare) the shower, the doorbell rang."
+      },
+      "opzioni": [
+        "facevo",
+        "ho fatto",
+        "farò",
+        "faccia"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Azione in corso (sfondo) → imperfetto: facevo. Il campanello (evento puntuale) → passato prossimo.",
+        "en": "Correct! Ongoing action (background) → imperfect: facevo. The doorbell (punctual event) → passato prossimo."
+      },
+      "feedbackErr": {
+        "it": "Azione in corso nel passato (sfondo) → imperfetto: facevo. 'Mentre facevo la doccia…'",
+        "en": "Ongoing past action (background) → imperfect: facevo. 'Mentre facevo la doccia…'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto si forma togliendo -re dall'infinito e aggiungendo -vo/-vi/-va/-vamo/-vate/-vano.",
+        "en": "The imperfect is formed by removing -re from the infinitive and adding -vo/-vi/-va/-vamo/-vate/-vano."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! mangiare→mangia+vo, vendere→vende+vo, dormire→dormi+vo. Schema uguale per tutti.",
+        "en": "Correct! mangiare→mangia+vo, vendere→vende+vo, dormire→dormi+vo. Same pattern for all."
+      },
+      "feedbackErr": {
+        "it": "Vero! Togli -re, aggiungi -vo/-vi/-va/-vamo/-vate/-vano. Funziona per -are, -ere e -ire.",
+        "en": "True! Remove -re, add -vo/-vi/-va/-vamo/-vate/-vano. Works for -are, -ere and -ire."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Essere' è regolare all'imperfetto.",
+        "en": "'Essere' is regular in the imperfect."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Essere è irregolare: ero, eri, era, eravamo, eravate, erano.",
+        "en": "Correct! Essere is irregular: ero, eri, era, eravamo, eravate, erano."
+      },
+      "feedbackErr": {
+        "it": "Falso! Essere è irregolare: ero/eri/era/eravamo/eravate/erano — non 'essevo'.",
+        "en": "False! Essere is irregular: ero/eri/era/eravamo/eravate/erano — not 'essevo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto si usa per descrivere azioni in corso nel passato che vengono interrotte.",
+        "en": "The imperfect is used to describe ongoing past actions that are interrupted."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mentre dormivo (in corso), il telefono ha squillato (interruzione).'",
+        "en": "Correct! 'Mentre dormivo (ongoing), il telefono ha squillato (interruption).'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Schema classico: imperfetto (sfondo) + passato prossimo (evento). 'Mangiavo quando è arrivato.'",
+        "en": "True! Classic pattern: imperfect (background) + passato prossimo (event). 'Mangiavo quando è arrivato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Facevo' è la forma corretta dell'imperfetto di 'fare' alla prima persona.",
+        "en": "'Facevo' is the correct imperfect form of 'fare' for the first person."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → tema 'face-': facevo, facevi, faceva...",
+        "en": "Correct! Fare → stem 'face-': facevo, facevi, faceva..."
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare è irregolare: tema 'face-'. Io: facevo.",
+        "en": "True! Fare is irregular: stem 'face-'. Io: facevo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto si usa per eventi con un momento preciso e concluso nel passato.",
+        "en": "The imperfect is used for events with a precise and concluded moment in the past."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Momenti precisi e conclusi → passato prossimo. L'imperfetto è per durata, sfondo, abitudine.",
+        "en": "Correct! Precise concluded moments → passato prossimo. The imperfect is for duration, background, habit."
+      },
+      "feedbackErr": {
+        "it": "Falso! Evento preciso e concluso → passato prossimo: 'Ieri ho mangiato la pizza.' Imperfetto → abitudine/sfondo.",
+        "en": "False! Precise concluded event → passato prossimo: 'Ieri ho mangiato la pizza.' Imperfect → habit/background."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La parola 'sempre' con un verbo al passato suggerisce spesso l'imperfetto.",
+        "en": "The word 'sempre' with a past verb often suggests the imperfect."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Sempre' = ripetizione abituale → imperfetto. 'Mangiavamo sempre insieme.'",
+        "en": "Correct! 'Sempre' = habitual repetition → imperfect. 'Mangiavamo sempre insieme.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Sempre' = abitudine → imperfetto. 'Da bambino andavo sempre al mare.'",
+        "en": "True! 'Sempre' = habit → imperfect. 'Da bambino andavo sempre al mare.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dire' all'imperfetto usa il tema 'dir-': direvo, direvi, direbbe...",
+        "en": "'Dire' in the imperfect uses the stem 'dir-': direvo, direvi, direbbe..."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Dire usa il tema 'dice-': dicevo, dicevi, diceva, dicevamo, dicevate, dicevano.",
+        "en": "Correct! Dire uses the stem 'dice-': dicevo, dicevi, diceva, dicevamo, dicevate, dicevano."
+      },
+      "feedbackErr": {
+        "it": "Falso! Dire → tema 'dice-': dicevo, dicevi, diceva... Non 'direvo'.",
+        "en": "False! Dire → stem 'dice-': dicevo, dicevi, diceva... Not 'direvo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto e il passato prossimo possono coesistere nella stessa frase.",
+        "en": "The imperfect and passato prossimo can coexist in the same sentence."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! È lo schema narrativo classico: 'Mentre guardavo la TV (imp.), Mario è entrato (p.p.)'",
+        "en": "Correct! It's the classic narrative pattern: 'Mentre guardavo la TV (imp.), Mario è entrato (p.p.)'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Schema normale: imp. (sfondo) + p.p. (evento). 'Dormivo quando ha chiamato.'",
+        "en": "True! Normal pattern: imp. (background) + p.p. (event). 'Dormivo quando ha chiamato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Bere' all'imperfetto è regolare: berevo, berevi, berava...",
+        "en": "'Bere' in the imperfect is regular: berevo, berevi, berava..."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Bere è irregolare: usa il tema 'beve-': bevevo, bevevi, beveva, bevevamo, bevevate, bevevano.",
+        "en": "Correct! Bere is irregular: uses the stem 'beve-': bevevo, bevevi, beveva, bevevamo, bevevate, bevevano."
+      },
+      "feedbackErr": {
+        "it": "Falso! Bere → tema 'beve-': bevevo, bevevi, beveva... Non 'berevo'.",
+        "en": "False! Bere → stem 'beve-': bevevo, bevevi, beveva... Not 'berevo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Da bambino giocavo in strada' descrive un'abitudine passata.",
+        "en": "'Da bambino giocavo in strada' describes a past habit."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Da bambino' + imperfetto = abitudine abituale nell'infanzia. Non un'azione singola.",
+        "en": "Correct! 'Da bambino' + imperfect = habitual habit in childhood. Not a single action."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Da bambino giocavo' = abitudine dell'infanzia → imperfetto. 'Ho giocato' sarebbe un episodio preciso.",
+        "en": "True! 'Da bambino giocavo' = childhood habit → imperfect. 'Ho giocato' would be a precise episode."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto si usa anche per descrivere le condizioni atmosferiche nel passato.",
+        "en": "The imperfect is also used to describe weather conditions in the past."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Pioveva, faceva freddo, il cielo era grigio' — descrizioni atmosferiche → imperfetto.",
+        "en": "Correct! 'Pioveva, faceva freddo, il cielo era grigio' — atmospheric descriptions → imperfect."
+      },
+      "feedbackErr": {
+        "it": "Vero! Meteo come sfondo descrittivo → imperfetto: pioveva, faceva caldo, c'era vento.",
+        "en": "True! Weather as descriptive background → imperfect: pioveva, faceva caldo, c'era vento."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Erano le tre' è il modo corretto per dire 'It was three o'clock' al passato.",
+        "en": "'Erano le tre' is the correct way to say 'It was three o'clock' in the past."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! L'ora nel passato → imperfetto di essere: erano le tre, era mezzanotte, era l'una.",
+        "en": "Correct! Time in the past → imperfect of essere: erano le tre, era mezzanotte, era l'una."
+      },
+      "feedbackErr": {
+        "it": "Vero! L'ora al passato → imperfetto: erano le tre, era l'una, era mezzogiorno.",
+        "en": "True! Time in the past → imperfect: erano le tre, era l'una, era mezzogiorno."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Volevo' e 'ho voluto' hanno sempre lo stesso significato.",
+        "en": "'Volevo' and 'ho voluto' always have the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Volevo' = I wanted (ongoing/habit). 'Ho voluto' = I wanted (and acted on it, specific moment). 'Volevo un caffè' (desiderio generico) vs 'Ho voluto cambiare vita' (decisione).",
+        "en": "Correct! 'Volevo' = I wanted (ongoing/habit). 'Ho voluto' = I wanted (and acted on it, specific moment). 'Volevo un caffè' (general desire) vs 'Ho voluto cambiare vita' (decision)."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Volevo' (desiderio continuo/generico) ≠ 'ho voluto' (desiderio con azione concreta: ho voluto cambiare vita).",
+        "en": "False! 'Volevo' (continuous/general desire) ≠ 'ho voluto' (desire with concrete action: I decided to change my life)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La frase 'Quando ero piccolo, ero felice' usa correttamente l'imperfetto due volte.",
+        "en": "The sentence 'Quando ero piccolo, ero felice' correctly uses the imperfect twice."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambi sono stati/descrizioni nel passato: età (ero piccolo) e stato emotivo (ero felice) → imperfetto.",
+        "en": "Correct! Both are states/descriptions in the past: age (ero piccolo) and emotional state (ero felice) → imperfect."
+      },
+      "feedbackErr": {
+        "it": "Vero! Due descrizioni del passato → due imperfetti. 'Quando ero piccolo, ero felice.'",
+        "en": "True! Two past descriptions → two imperfects. 'Quando ero piccolo, ero felice.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Di solito' con un verbo al passato richiede sempre il passato prossimo.",
+        "en": "'Di solito' with a past verb always requires the passato prossimo."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Di solito' = abitudine → imperfetto. 'Di solito mangiavo alle otto' — non 'di solito ho mangiato'.",
+        "en": "Correct! 'Di solito' = habit → imperfect. 'Di solito mangiavo alle otto' — not 'di solito ho mangiato'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Di solito' = abitudine passata → imperfetto: 'Di solito andavo a scuola a piedi.'",
+        "en": "False! 'Di solito' = past habit → imperfect: 'Di solito andavo a scuola a piedi.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Stavo mangiando' e 'mangiavo' esprimono entrambi un'azione in corso nel passato.",
+        "en": "'Stavo mangiando' and 'mangiavo' both express an ongoing action in the past."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambi esprimono azione in corso nel passato. 'Stavo mangiando' (progressivo) è più enfatico; 'mangiavo' è più neutro.",
+        "en": "Correct! Both express ongoing action in the past. 'Stavo mangiando' (progressive) is more emphatic; 'mangiavo' is more neutral."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stavo mangiando (progressivo esplicito) e mangiavo (imperfetto) esprimono entrambi azione in corso.",
+        "en": "True! Stavo mangiando (explicit progressive) and mangiavo (imperfect) both express ongoing action."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi in -ire come 'dormire' seguono lo stesso schema dell'imperfetto dei verbi in -are.",
+        "en": "Verbs in -ire like 'dormire' follow the same imperfect pattern as verbs in -are."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Schema unico: togli -re, aggiungi -vo/-vi/-va... dormire → dormi+vo = dormivo.",
+        "en": "Correct! Single pattern: remove -re, add -vo/-vi/-va... dormire → dormi+vo = dormivo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Schema unico per tutti: togli -re, aggiungi -vo. Dormire → dormivo, dormivi, dormiva...",
+        "en": "True! Single pattern for all: remove -re, add -vo. Dormire → dormivo, dormivi, dormiva..."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ogni estate andavo al mare' richiede l'imperfetto perché è un'abitudine stagionale passata.",
+        "en": "'Ogni estate andavo al mare' requires the imperfect because it is a past seasonal habit."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ogni estate' + azione ripetuta → imperfetto. Non 'sono andato' (che sarebbe una sola estate).",
+        "en": "Correct! 'Ogni estate' + repeated action → imperfect. Not 'sono andato' (which would be just one summer)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Ogni estate' = ripetizione stagionale → imperfetto: andavo.",
+        "en": "True! 'Ogni estate' = seasonal repetition → imperfect: andavo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto non ha forme irregolari.",
+        "en": "The imperfect has no irregular forms."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Essere, fare, dire, bere, tradurre e altri sono irregolari all'imperfetto.",
+        "en": "Correct! Essere, fare, dire, bere, tradurre and others are irregular in the imperfect."
+      },
+      "feedbackErr": {
+        "it": "Falso! Essere (ero), fare (facevo), dire (dicevo), bere (bevevo) sono irregolari all'imperfetto.",
+        "en": "False! Essere (ero), fare (facevo), dire (dicevo), bere (bevevo) are irregular in the imperfect."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperfetto è il tempo più usato per raccontare storie e ricordi.",
+        "en": "The imperfect is the tense most used to tell stories and memories."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nelle storie l'imperfetto crea il contesto/sfondo e il passato prossimo fa avanzare la narrazione.",
+        "en": "Correct! In stories the imperfect creates the context/background and the passato prossimo advances the narration."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nei racconti: imperfetto per lo sfondo e la descrizione, passato prossimo per gli eventi.",
+        "en": "True! In stories: imperfect for background and description, passato prossimo for events."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Da bambino (io, mangiare): ___ la pizza ogni domenica.",
+        "en": "As a child (I, mangiare): ___ pizza every Sunday."
+      },
+      "parole": [
+        "mangiavo",
+        "la",
+        "pizza",
+        "ogni",
+        "domenica"
+      ],
+      "distrattori": [
+        "ho mangiato",
+        "mangio",
+        "mangerò"
+      ],
+      "correct": [
+        "mangiavo",
+        "la",
+        "pizza",
+        "ogni",
+        "domenica"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Abitudine passata → imperfetto: mangiavo.",
+        "en": "Perfect! Past habit → imperfect: mangiavo."
+      },
+      "feedbackErr": {
+        "it": "Abitudine passata (ogni domenica) → imperfetto: mangiavo.",
+        "en": "Past habit (every Sunday) → imperfect: mangiavo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sfondo interrotto (dormire + squillare): Mentre ___, il telefono ha squillato.",
+        "en": "Interrupted background (dormire + squillare): While ___, the phone rang."
+      },
+      "parole": [
+        "dormivo"
+      ],
+      "distrattori": [
+        "ho dormito",
+        "dormirò",
+        "dormo"
+      ],
+      "correct": [
+        "dormivo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Azione in corso (sfondo) → imperfetto: dormivo.",
+        "en": "Perfect! Ongoing action (background) → imperfect: dormivo."
+      },
+      "feedbackErr": {
+        "it": "Azione di sfondo interrotta → imperfetto: dormivo.",
+        "en": "Interrupted background action → imperfect: dormivo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Descrizione (il bar, essere piccolo): Il bar ___ piccolo ma bellissimo.",
+        "en": "Description (the bar, essere piccolo): The bar ___ small but beautiful."
+      },
+      "parole": [
+        "era",
+        "piccolo",
+        "ma",
+        "bellissimo"
+      ],
+      "distrattori": [
+        "è stato",
+        "sarà",
+        "è"
+      ],
+      "correct": [
+        "era",
+        "piccolo",
+        "ma",
+        "bellissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Descrizione nel passato → imperfetto: era.",
+        "en": "Perfect! Past description → imperfect: era."
+      },
+      "feedbackErr": {
+        "it": "Descrizione passata (com'era il bar) → imperfetto: era.",
+        "en": "Past description (what the bar was like) → imperfect: era."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Abitudine (tu, andare al bar): ___ al bar ogni mattina.",
+        "en": "Habit (you, andare al bar): ___ to the bar every morning."
+      },
+      "parole": [
+        "Andavi",
+        "al",
+        "bar",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "Sei andato",
+        "Andrai",
+        "Vai"
+      ],
+      "correct": [
+        "Andavi",
+        "al",
+        "bar",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + andare + abitudine passata → andavi.",
+        "en": "Perfect! Tu + andare + past habit → andavi."
+      },
+      "feedbackErr": {
+        "it": "Tu + abitudine passata → imperfetto: andavi.",
+        "en": "Tu + past habit → imperfect: andavi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare (lui, fare sport): Da giovane ___ sport ogni giorno.",
+        "en": "Irregular (lui, fare sport): As a young man ___ sport every day."
+      },
+      "parole": [
+        "faceva",
+        "sport",
+        "ogni",
+        "giorno"
+      ],
+      "distrattori": [
+        "ha fatto",
+        "farà",
+        "fava"
+      ],
+      "correct": [
+        "faceva",
+        "sport",
+        "ogni",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → irregolare: faceva. Abitudine passata.",
+        "en": "Perfect! Fare → irregular: faceva. Past habit."
+      },
+      "feedbackErr": {
+        "it": "Fare → irregolare: lui faceva. 'Da giovane faceva sport ogni giorno.'",
+        "en": "Fare → irregular: lui faceva. 'Da giovane faceva sport ogni giorno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Meteo (piovere + freddo): ___ e ___ molto freddo.",
+        "en": "Weather (piovere + freddo): ___ and it ___ very cold."
+      },
+      "parole": [
+        "Pioveva",
+        "e",
+        "faceva",
+        "molto",
+        "freddo"
+      ],
+      "distrattori": [
+        "Ha piovuto",
+        "fa",
+        "pioverà",
+        "aveva"
+      ],
+      "correct": [
+        "Pioveva",
+        "e",
+        "faceva",
+        "molto",
+        "freddo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Descrizione meteorologica → imperfetto: pioveva, faceva.",
+        "en": "Perfect! Weather description → imperfect: pioveva, faceva."
+      },
+      "feedbackErr": {
+        "it": "Meteo descrittivo → imperfetto: pioveva e faceva molto freddo.",
+        "en": "Descriptive weather → imperfect: pioveva e faceva molto freddo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Età (io, avere 10 anni): Quando ___ dieci anni, vivevo a Napoli.",
+        "en": "Age (I, avere 10 anni): When I ___ ten, I lived in Naples."
+      },
+      "parole": [
+        "avevo",
+        "dieci",
+        "anni"
+      ],
+      "distrattori": [
+        "ho avuto",
+        "avrò",
+        "ho"
+      ],
+      "correct": [
+        "avevo",
+        "dieci",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Età passata = descrizione → imperfetto: avevo.",
+        "en": "Perfect! Past age = description → imperfect: avevo."
+      },
+      "feedbackErr": {
+        "it": "Età nel passato → imperfetto: avevo. 'Quando avevo dieci anni…'",
+        "en": "Age in the past → imperfect: avevo. 'Quando avevo dieci anni…'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare essere (noi, essere giovani): ___ giovani e spensierati.",
+        "en": "Irregular essere (noi, essere giovani): ___ young and carefree."
+      },
+      "parole": [
+        "Eravamo",
+        "giovani",
+        "e",
+        "spensierati"
+      ],
+      "distrattori": [
+        "Siamo stati",
+        "Saremo",
+        "Siamo"
+      ],
+      "correct": [
+        "Eravamo",
+        "giovani",
+        "e",
+        "spensierati"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Essere → eravamo. Descrizione passata.",
+        "en": "Perfect! Essere → eravamo. Past description."
+      },
+      "feedbackErr": {
+        "it": "Essere (noi, passato descrittivo) → eravamo. 'Eravamo giovani e spensierati.'",
+        "en": "Essere (noi, past descriptive) → eravamo. 'Eravamo giovani e spensierati.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Abitudine (loro, raccontare storie): I nonni ___ sempre storie bellissime.",
+        "en": "Habit (loro, raccontare storie): The grandparents ___ always beautiful stories."
+      },
+      "parole": [
+        "raccontavano",
+        "sempre",
+        "storie",
+        "bellissime"
+      ],
+      "distrattori": [
+        "hanno raccontato",
+        "racconteranno",
+        "raccontano"
+      ],
+      "correct": [
+        "raccontavano",
+        "sempre",
+        "storie",
+        "bellissime"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + sempre + abitudine passata → raccontavano.",
+        "en": "Perfect! Loro + sempre + past habit → raccontavano."
+      },
+      "feedbackErr": {
+        "it": "'Sempre' + abitudine passata → imperfetto: raccontavano.",
+        "en": "'Always' + past habit → imperfect: raccontavano."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare bere (voi, bere vino): ___ sempre vino della casa.",
+        "en": "Irregular bere (voi, bere vino): ___ always house wine."
+      },
+      "parole": [
+        "Bevevate",
+        "sempre",
+        "vino",
+        "della",
+        "casa"
+      ],
+      "distrattori": [
+        "Avete bevuto",
+        "Berrete",
+        "Bevete"
+      ],
+      "correct": [
+        "Bevevate",
+        "sempre",
+        "vino",
+        "della",
+        "casa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bere (voi) → bevevate. Abitudine passata.",
+        "en": "Perfect! Bere (voi) → bevevate. Past habit."
+      },
+      "feedbackErr": {
+        "it": "Bere → irregolare: voi bevevate. Abitudine → imperfetto.",
+        "en": "Bere → irregular: voi bevevate. Habit → imperfect."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Descrizione (il quartiere): ___ un quartiere tranquillo, anni fa.",
+        "en": "Description (il quartiere): ___ a quiet neighbourhood, years ago."
+      },
+      "parole": [
+        "Era",
+        "un",
+        "quartiere",
+        "tranquillo",
+        "anni",
+        "fa"
+      ],
+      "distrattori": [
+        "È stato",
+        "Sarà",
+        "È"
+      ],
+      "correct": [
+        "Era",
+        "un",
+        "quartiere",
+        "tranquillo",
+        "anni",
+        "fa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Descrizione passata → imperfetto: era.",
+        "en": "Perfect! Past description → imperfect: era."
+      },
+      "feedbackErr": {
+        "it": "Descrizione di come era → imperfetto: era. 'Era un quartiere tranquillo, anni fa.'",
+        "en": "Description of how it was → imperfect: era. 'Era un quartiere tranquillo, anni fa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Stato emotivo (lei, volere partire): ___ partire ma non poteva.",
+        "en": "Emotional state (she, volere partire): ___ to leave but couldn't."
+      },
+      "parole": [
+        "Voleva",
+        "partire",
+        "ma",
+        "non",
+        "poteva"
+      ],
+      "distrattori": [
+        "Ha voluto",
+        "Vorrà",
+        "Vuole"
+      ],
+      "correct": [
+        "Voleva",
+        "partire",
+        "ma",
+        "non",
+        "poteva"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Desiderio/stato in corso nel passato → imperfetto: voleva, poteva.",
+        "en": "Perfect! Ongoing desire/state in the past → imperfect: voleva, poteva."
+      },
+      "feedbackErr": {
+        "it": "Desiderio continuo nel passato → imperfetto: voleva, poteva.",
+        "en": "Continuous desire in the past → imperfect: voleva, poteva."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ora nel passato: ___ le tre di notte quando è tornato.",
+        "en": "Time in the past: ___ three in the morning when he got back."
+      },
+      "parole": [
+        "Erano",
+        "le",
+        "tre",
+        "di",
+        "notte"
+      ],
+      "distrattori": [
+        "Sono state",
+        "È stata",
+        "Sarà"
+      ],
+      "correct": [
+        "Erano",
+        "le",
+        "tre",
+        "di",
+        "notte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! L'ora al passato → imperfetto: erano le tre.",
+        "en": "Perfect! Time in the past → imperfect: erano le tre."
+      },
+      "feedbackErr": {
+        "it": "L'ora al passato → imperfetto: erano le tre di notte.",
+        "en": "Time in the past → imperfect: erano le tre di notte."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare dire (lui, dire sempre): ___ sempre la verità.",
+        "en": "Irregular dire (lui, dire sempre): ___ always told the truth."
+      },
+      "parole": [
+        "Diceva",
+        "sempre",
+        "la",
+        "verità"
+      ],
+      "distrattori": [
+        "Ha detto",
+        "Dirà",
+        "Dice"
+      ],
+      "correct": [
+        "Diceva",
+        "sempre",
+        "la",
+        "verità"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Dire → irregolare: diceva. Sempre → abitudine → imperfetto.",
+        "en": "Perfect! Dire → irregular: diceva. Always → habit → imperfect."
+      },
+      "feedbackErr": {
+        "it": "Dire → irregolare: lui diceva. 'Diceva sempre la verità.'",
+        "en": "Dire → irregular: lui diceva. 'Diceva sempre la verità.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "'Used to' (io, studiare fino a tardi): ___ fino a tardi ogni sera.",
+        "en": "'Used to' (I, studiare fino a tardi): ___ until late every night."
+      },
+      "parole": [
+        "Studiavo",
+        "fino",
+        "a",
+        "tardi",
+        "ogni",
+        "sera"
+      ],
+      "distrattori": [
+        "Ho studiato",
+        "Studierò",
+        "Studio"
+      ],
+      "correct": [
+        "Studiavo",
+        "fino",
+        "a",
+        "tardi",
+        "ogni",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Used to study' = abitudine passata → imperfetto: studiavo.",
+        "en": "Perfect! 'Used to study' = past habit → imperfect: studiavo."
+      },
+      "feedbackErr": {
+        "it": "'Used to' = abitudine passata → imperfetto: studiavo ogni sera.",
+        "en": "'Used to' = past habit → imperfect: studiavo ogni sera."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sfondo narrativo (noi, camminare): ___ quando ha cominciato a piovere.",
+        "en": "Narrative background (noi, camminare): ___ when it started to rain."
+      },
+      "parole": [
+        "Camminavamo",
+        "quando",
+        "ha",
+        "cominciato",
+        "a",
+        "piovere"
+      ],
+      "distrattori": [
+        "Abbiamo camminato",
+        "Cammineremo",
+        "Camminiamo"
+      ],
+      "correct": [
+        "Camminavamo",
+        "quando",
+        "ha",
+        "cominciato",
+        "a",
+        "piovere"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Azione in corso (sfondo) → imperfetto: camminavamo.",
+        "en": "Perfect! Ongoing action (background) → imperfect: camminavamo."
+      },
+      "feedbackErr": {
+        "it": "Azione in corso come sfondo → imperfetto: camminavamo.",
+        "en": "Ongoing action as background → imperfect: camminavamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Caratteristica passata (tu, essere bravo): ___ molto bravo a scuola.",
+        "en": "Past characteristic (you, essere bravo): ___ very good at school."
+      },
+      "parole": [
+        "Eri",
+        "molto",
+        "bravo",
+        "a",
+        "scuola"
+      ],
+      "distrattori": [
+        "Sei stato",
+        "Sarai",
+        "Sei"
+      ],
+      "correct": [
+        "Eri",
+        "molto",
+        "bravo",
+        "a",
+        "scuola"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Caratteristica/qualità passata → imperfetto: eri. 'Eri molto bravo a scuola.'",
+        "en": "Perfect! Past characteristic/quality → imperfect: eri. 'Eri molto bravo a scuola.'"
+      },
+      "feedbackErr": {
+        "it": "Qualità passata → imperfetto: eri. 'Eri molto bravo a scuola.'",
+        "en": "Past quality → imperfect: eri. 'Eri molto bravo a scuola.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Abitudine infantile (loro, giocare): Da bambini ___ tutto il giorno in strada.",
+        "en": "Childhood habit (they, giocare): As children ___ all day in the street."
+      },
+      "parole": [
+        "giocavano",
+        "tutto",
+        "il",
+        "giorno",
+        "in",
+        "strada"
+      ],
+      "distrattori": [
+        "hanno giocato",
+        "giocheranno",
+        "giocano"
+      ],
+      "correct": [
+        "giocavano",
+        "tutto",
+        "il",
+        "giorno",
+        "in",
+        "strada"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Da bambini + abitudine → imperfetto: giocavano.",
+        "en": "Perfect! As children + habit → imperfect: giocavano."
+      },
+      "feedbackErr": {
+        "it": "'Da bambini' + abitudine passata → imperfetto: giocavano.",
+        "en": "'As children' + past habit → imperfect: giocavano."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Stato fisico passato (io, avere fame): ___ molta fame quando sono arrivato.",
+        "en": "Past physical state (I, avere fame): ___ very hungry when I arrived."
+      },
+      "parole": [
+        "Avevo",
+        "molta",
+        "fame"
+      ],
+      "distrattori": [
+        "Ho avuto",
+        "Avrò",
+        "Ho"
+      ],
+      "correct": [
+        "Avevo",
+        "molta",
+        "fame"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Stato fisico in corso nel passato → imperfetto: avevo fame.",
+        "en": "Perfect! Ongoing physical state in the past → imperfect: avevo fame."
+      },
+      "feedbackErr": {
+        "it": "Stato fisico passato (in corso) → imperfetto: avevo molta fame.",
+        "en": "Ongoing past physical state → imperfect: avevo molta fame."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Abitudine (voi, cenare insieme): ___ insieme ogni venerdì sera.",
+        "en": "Habit (voi, cenare insieme): ___ together every Friday evening."
+      },
+      "parole": [
+        "Cenavate",
+        "insieme",
+        "ogni",
+        "venerdì",
+        "sera"
+      ],
+      "distrattori": [
+        "Avete cenato",
+        "Cenerete",
+        "Cenate"
+      ],
+      "correct": [
+        "Cenavate",
+        "insieme",
+        "ogni",
+        "venerdì",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + abitudine settimanale → imperfetto: cenavate.",
+        "en": "Perfect! Voi + weekly habit → imperfect: cenavate."
+      },
+      "feedbackErr": {
+        "it": "Voi + abitudine regolare nel passato → imperfetto: cenavate.",
+        "en": "Voi + regular past habit → imperfect: cenavate."
+      }
+    }
+  ]
+}

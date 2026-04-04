@@ -1,0 +1,1545 @@
+{
+  "id": "periodo-ipotetico",
+  "categoria": "grammatica",
+  "emoji": "🔀",
+  "livello": "B1",
+  "titolo": {
+    "it": "Periodo Ipotetico",
+    "en": "Conditional Sentences (If-clauses)"
+  },
+  "mario": "Il periodo ipotetico è dove congiuntivo e condizionale si incontrano. 'Se avessi più tempo, aprirei un secondo bar.' 'Se fossi nato a Napoli, cucinerei meglio di così.' Ma attenzione — SE ha due anime: una significa 'if', l'altra significa 'whether'. Con 'if' → mai il condizionale. Con 'whether' → condizionale corretto. Ti spiego tutto.",
+  "marioEn": "The conditional sentence is where subjunctive and conditional meet. 'Se avessi più tempo, aprirei un secondo bar.' 'Se fossi nato a Napoli, cucinerei meglio di così.' But be careful — SE has two souls: one means 'if', the other means 'whether'. With 'if' → never the conditional. With 'whether' → conditional correct. I'll explain everything.",
+  "perche": {
+    "it": "In inglese il sistema è relativamente semplice: 'if + present → future' (reale) · 'if + past simple → would' (irreale presente) · 'if + past perfect → would have' (irreale passato). In italiano è parallelo ma usa il congiuntivo invece del passato semplice inglese: 'se + cong. imperfetto → condizionale' (irreale presente) · 'se + cong. trapassato → cond. passato' (irreale passato). La confusione nasce dal SE: come 'if' non vuole mai il condizionale. Come 'whether' (interrogativa indiretta) lo vuole sempre.",
+    "en": "In English the system is relatively simple: 'if + present → future' (real) · 'if + past simple → would' (unreal present) · 'if + past perfect → would have' (unreal past). In Italian it's parallel but uses the subjunctive instead of the English simple past: 'se + imperfect subjunctive → conditional' (unreal present) · 'se + pluperfect subjunctive → past conditional' (unreal past). The confusion arises from SE: as 'if' it never takes the conditional. As 'whether' (indirect question) it always does."
+  },
+  "spiegazione": {
+    "it": "TIPO 1 — Reale: se + indicativo presente → futuro/presente. TIPO 2 — Irreale presente: se + cong. IMPERFETTO → condizionale PRESENTE. TIPO 3 — Irreale passato: se + cong. TRAPASSATO → condizionale PASSATO. MISTO: se + cong. TRAPASSATO → condizionale PRESENTE (= condizione passata, risultato attuale). SE WHETHER: se + condizionale (pres. o pass.) nelle interrogative indirette — CORRETTO. TEST: sostituisci 'se' con 'whether' in inglese. Funziona? → SE whether → condizionale corretto.",
+    "en": "TYPE 1 — Real: se + present indicative → future/present. TYPE 2 — Unreal present: se + IMPERFECT subjunctive → PRESENT conditional. TYPE 3 — Unreal past: se + PLUPERFECT subjunctive → PAST conditional. MIXED: se + PLUPERFECT subjunctive → PRESENT conditional (= past condition, present result). SE WHETHER: se + conditional (pres. or past) in indirect questions — CORRECT. TEST: replace 'se' with 'whether' in English. Works? → SE whether → conditional correct."
+  },
+  "tabella": [
+    {
+      "tipo": "Tipo 1 — Reale",
+      "se_clausola": "se + indicativo presente",
+      "principale": "futuro / presente",
+      "esempio_it": "Se studi, imparerai.",
+      "esempio_en": "If you study, you'll learn.",
+      "note": "✅ Corretto"
+    },
+    {
+      "tipo": "Tipo 2 — Irreale presente",
+      "se_clausola": "se + cong. imperfetto",
+      "principale": "condizionale presente",
+      "esempio_it": "Se studiassi, impareresti.",
+      "esempio_en": "If you studied, you would learn.",
+      "note": "✅ Corretto"
+    },
+    {
+      "tipo": "Tipo 3 — Irreale passato",
+      "se_clausola": "se + cong. trapassato",
+      "principale": "condizionale passato",
+      "esempio_it": "Se avessi studiato, avresti imparato.",
+      "esempio_en": "If you had studied, you would have learned.",
+      "note": "✅ Corretto"
+    },
+    {
+      "tipo": "Tipo Misto",
+      "se_clausola": "se + cong. trapassato",
+      "principale": "condizionale presente",
+      "esempio_it": "Se avessi studiato, parleresti bene adesso.",
+      "esempio_en": "If you had studied, you would speak well now.",
+      "note": "✅ Corretto"
+    },
+    {
+      "tipo": "SE whether",
+      "se_clausola": "se + condizionale (pres. o pass.)",
+      "principale": "—",
+      "esempio_it": "Non so se verrei. Non so se sarei venuto.",
+      "esempio_en": "I don't know whether I would come. I don't know whether I would have come.",
+      "note": "✅ Corretto — SE = whether"
+    },
+    {
+      "tipo": "Colloquiale ⚠️",
+      "se_clausola": "se + indicativo imperfetto",
+      "principale": "indicativo imperfetto",
+      "esempio_it": "Se venivo, ti chiamavo.",
+      "esempio_en": "If I came, I would have called.",
+      "note": "⚠️ Parlato informale — scorretto nello scritto formale"
+    },
+    {
+      "tipo": "❌ SE + condizionale (ipotetico)",
+      "se_clausola": "se + condizionale",
+      "principale": "—",
+      "esempio_it": "Se verrei",
+      "esempio_en": "If I would come",
+      "note": "❌ Sempre sbagliato quando se = if"
+    },
+    {
+      "tipo": "❌ SE + cong. presente",
+      "se_clausola": "se + cong. presente",
+      "principale": "—",
+      "esempio_it": "Se venga",
+      "esempio_en": "If he comes (subj.)",
+      "note": "❌ Mai. SE ipotetico non prende cong. presente o passato"
+    },
+    {
+      "tipo": "❌ SE + cong. passato",
+      "se_clausola": "se + cong. passato",
+      "principale": "—",
+      "esempio_it": "Se sia venuto",
+      "esempio_en": "If he has come (subj.)",
+      "note": "❌ Mai. SE ipotetico non prende cong. presente o passato"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Se studi ogni giorno, imparerai l'italiano. (Tipo 1 — reale)",
+      "en": "If you study every day, you'll learn Italian. (Type 1 — real)",
+      "audio": "Se studi ogni giorno, imparerai l'italiano."
+    },
+    {
+      "it": "Se studiassi ogni giorno, parleresti meglio. (Tipo 2 — irreale presente)",
+      "en": "If you studied every day, you would speak better. (Type 2 — unreal present)",
+      "audio": "Se studiassi ogni giorno, parleresti meglio."
+    },
+    {
+      "it": "Se avessi studiato di più, avresti superato l'esame. (Tipo 3 — irreale passato)",
+      "en": "If you had studied more, you would have passed the exam. (Type 3 — unreal past)",
+      "audio": "Se avessi studiato di più, avresti superato l'esame."
+    },
+    {
+      "it": "Se avessi imparato l'italiano, parleresti con Mario adesso. (Misto)",
+      "en": "If you had learned Italian, you would be talking to Mario now. (Mixed)",
+      "audio": "Se avessi imparato l'italiano, parleresti con Mario adesso."
+    },
+    {
+      "it": "Non so se sarei venuto — era molto lontano. (SE whether)",
+      "en": "I don't know whether I would have come — it was very far. (SE whether)",
+      "audio": "Non so se sarei venuto — era molto lontano."
+    }
+  ],
+  "nota": {
+    "it": "💡 Il test del WHETHER: per capire se il condizionale dopo 'se' è corretto, sostituisci 'se' con 'whether' in inglese. 'Non so se verrei' → 'I don't know whether I would come' ✅ funziona → condizionale corretto. 'Se verrei a Napoli' → 'If I would come to Naples' ❌ non funziona → errore! Il condizionale dopo SE ipotetico è sempre sbagliato.",
+    "en": "💡 The WHETHER test: to check if the conditional after 'se' is correct, replace 'se' with 'whether' in English. 'Non so se verrei' → 'I don't know whether I would come' ✅ works → conditional correct. 'Se verrei a Napoli' → 'If I would come to Naples' ❌ doesn't work → error! The conditional after hypothetical SE is always wrong."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 1 (reale): Se ___ (studiare) ogni giorno, imparerai in fretta.",
+        "en": "Type 1 (real): If you ___ (studiare) every day, you'll learn quickly."
+      },
+      "opzioni": [
+        "studiassi",
+        "studi",
+        "avessi studiato",
+        "studia"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 1 (reale): se + indicativo PRESENTE → futuro. 'Se studi, imparerai.'",
+        "en": "Correct! Type 1 (real): se + PRESENT indicative → future. 'Se studi, imparerai.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 1 reale: se + indicativo presente → futuro. 'Se studi (non studiassi), imparerai.'",
+        "en": "Type 1 real: se + present indicative → future. 'Se studi (not studiassi), imparerai.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 2 (irreale presente): Se ___ (avere) più tempo, studierei di più.",
+        "en": "Type 2 (unreal present): If I ___ (avere) more time, I would study more."
+      },
+      "opzioni": [
+        "ho",
+        "avrò",
+        "avessi",
+        "avrei"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 2: se + cong. IMPERFETTO → condizionale presente. 'Se avessi tempo, studierei.'",
+        "en": "Correct! Type 2: se + IMPERFECT subjunctive → present conditional. 'Se avessi tempo, studierei.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 2 irreale presente: se + cong. imperfetto: avessi. 'Se avessi più tempo, studierei.'",
+        "en": "Type 2 unreal present: se + imperfect subjunctive: avessi. 'Se avessi più tempo, studierei.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 3 (irreale passato): Se ___ (studiare), avresti superato l'esame.",
+        "en": "Type 3 (unreal past): If you ___ (studiare), you would have passed the exam."
+      },
+      "opzioni": [
+        "studi",
+        "studiassi",
+        "avessi studiato",
+        "studiavi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 3: se + cong. TRAPASSATO → condizionale passato. 'Se avessi studiato, avresti superato.'",
+        "en": "Correct! Type 3: se + PLUPERFECT subjunctive → past conditional. 'Se avessi studiato, avresti superato.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 3 irreale passato: se + cong. trapassato: avessi studiato. 'Se avessi studiato, avresti superato l'esame.'",
+        "en": "Type 3 unreal past: se + pluperfect subjunctive: avessi studiato. 'Se avessi studiato, avresti superato l'esame.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Misto: Se ___ (imparare) l'italiano da bambino, ___ (parlare) perfettamente adesso.",
+        "en": "Mixed: If you ___ (imparare) Italian as a child, you ___ (parlare) perfectly now."
+      },
+      "opzioni": [
+        "imparassi → parleresti",
+        "avessi imparato → parleresti",
+        "avessi imparato → avresti parlato",
+        "imparavi → parlavi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tipo misto: se + cong. TRAPASSATO (condizione passata) → condizionale PRESENTE (risultato attuale). 'Se avessi imparato → parleresti adesso.'",
+        "en": "Correct! Mixed type: se + PLUPERFECT subjunctive (past condition) → PRESENT conditional (current result). 'Se avessi imparato → parleresti adesso.'"
+      },
+      "feedbackErr": {
+        "it": "Misto: condizione nel passato (trapassato) + risultato nel presente (cond. presente). 'Se avessi imparato, parleresti adesso.'",
+        "en": "Mixed: past condition (pluperfect) + present result (present cond.). 'Se avessi imparato, parleresti adesso.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: 'Non so se ___ (venire)' — quale forma è corretta?",
+        "en": "SE whether: 'I don't know whether ___ (venire)' — which form is correct?"
+      },
+      "opzioni": [
+        "venissi — corretto",
+        "venga — corretto",
+        "verrei — corretto (SE whether)",
+        "vengo — corretto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! SE whether + condizionale: 'Non so se verrei' ✅. Test: 'I don't know whether I would come' ✅ funziona.",
+        "en": "Correct! SE whether + conditional: 'Non so se verrei' ✅. Test: 'I don't know whether I would come' ✅ works."
+      },
+      "feedbackErr": {
+        "it": "'Non so se' = whether → condizionale CORRETTO: verrei. Test: 'I don't know whether I would come' ✅",
+        "en": "'Non so se' = whether → conditional CORRECT: verrei. Test: 'I don't know whether I would come' ✅"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Se verrei a Napoli, mangerei la pizza di Mario' — questa frase è…?",
+        "en": "'Se verrei a Napoli, mangerei la pizza di Mario' — this sentence is…?"
+      },
+      "opzioni": [
+        "Corretta — tipo 2",
+        "Corretta — SE whether",
+        "Sbagliata — SE ipotetico non vuole mai il condizionale",
+        "Corretta ma solo nel registro colloquiale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Se verrei' è SBAGLIATO — SE ipotetico non prende mai il condizionale. Corretto: 'Se venissi, mangerei la pizza.'",
+        "en": "Correct! 'Se verrei' is WRONG — hypothetical SE never takes the conditional. Correct: 'Se venissi, mangerei la pizza.'"
+      },
+      "feedbackErr": {
+        "it": "SBAGLIATO! 'Se verrei' = errore sempre. SE ipotetico → mai condizionale. Corretto: 'Se venissi, mangerei.'",
+        "en": "WRONG! 'Se verrei' = always an error. Hypothetical SE → never conditional. Correct: 'Se venissi, mangerei.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Se venga Mario, andiamo al bar' — questa frase è…?",
+        "en": "'Se venga Mario, andiamo al bar' — this sentence is…?"
+      },
+      "opzioni": [
+        "Corretta — congiuntivo presente",
+        "Corretta — tipo 1",
+        "Sbagliata — SE ipotetico non prende cong. presente",
+        "Corretta nel registro formale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Se venga' è SBAGLIATO. SE ipotetico non prende MAI il cong. presente. Corretto: 'Se viene Mario' (reale) o 'Se venisse Mario' (irreale).",
+        "en": "Correct! 'Se venga' is WRONG. Hypothetical SE NEVER takes the present subjunctive. Correct: 'Se viene Mario' (real) or 'Se venisse Mario' (unreal)."
+      },
+      "feedbackErr": {
+        "it": "SBAGLIATO! 'Se venga' = errore sempre. SE ipotetico + cong. presente = mai. Usa: 'se viene' o 'se venisse'.",
+        "en": "WRONG! 'Se venga' = always an error. Hypothetical SE + present subjunctive = never. Use: 'se viene' or 'se venisse'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si distingue SE ipotetico ('if') da SE whether ('whether')?",
+        "en": "How do you distinguish hypothetical SE ('if') from SE whether ('whether')?"
+      },
+      "opzioni": [
+        "Con la punteggiatura",
+        "Con il test: sostituisci 'se' con 'whether' in inglese — funziona?",
+        "SE whether viene solo dopo 'sapere'",
+        "Con l'accento scritto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il test del WHETHER: 'Non so se verrei' → 'I don't know WHETHER I would come' ✅ → condizionale corretto. 'Se verrei' → 'If I WOULD come' ❌ → sbagliato.",
+        "en": "Correct! The WHETHER test: 'Non so se verrei' → 'I don't know WHETHER I would come' ✅ → conditional correct. 'Se verrei' → 'If I WOULD come' ❌ → wrong."
+      },
+      "feedbackErr": {
+        "it": "Il test del WHETHER: sostituisci 'se' con 'whether' in inglese. Funziona? → SE whether → condizionale corretto. Non funziona? → SE ipotetico → mai condizionale.",
+        "en": "The WHETHER test: replace 'se' with 'whether' in English. Works? → SE whether → conditional correct. Doesn't work? → hypothetical SE → never conditional."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Colloquiale: 'Se venivo, ti chiamavo' — questa frase è…?",
+        "en": "Colloquial: 'Se venivo, ti chiamavo' — this sentence is…?"
+      },
+      "opzioni": [
+        "Corretta — tipo 1",
+        "Corretta — tipo 2",
+        "Sbagliata in qualsiasi registro",
+        "⚠️ Comune nel parlato ma scorretta nello scritto formale"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Se venivo, ti chiamavo' è frequente nel parlato informale ma grammaticalmente scorretta. Nello scritto formale: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "Correct! 'Se venivo, ti chiamavo' is frequent in informal speech but grammatically incorrect. In formal writing: 'Se fossi venuto, ti avrei chiamato.'"
+      },
+      "feedbackErr": {
+        "it": "'Se venivo, ti chiamavo' = parlato informale ⚠️ Corretto nel parlato, sbagliato nello scritto. Standard: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "'Se venivo, ti chiamavo' = informal speech ⚠️ OK in speech, wrong in writing. Standard: 'Se fossi venuto, ti avrei chiamato.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo misto: quale combinazione è corretta?",
+        "en": "Mixed type: which combination is correct?"
+      },
+      "opzioni": [
+        "Se + cong. imperfetto → cond. presente",
+        "Se + cong. trapassato → cond. passato",
+        "Se + cong. trapassato → cond. presente",
+        "Se + cong. imperfetto → cond. passato"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Misto: se + cong. TRAPASSATO (condizione passata) → condizionale PRESENTE (risultato attuale). 'Se avessi studiato, parleresti bene adesso.'",
+        "en": "Correct! Mixed: se + PLUPERFECT subjunctive (past condition) → PRESENT conditional (current result). 'Se avessi studiato, parleresti bene adesso.'"
+      },
+      "feedbackErr": {
+        "it": "Misto: cong. trapassato (passato) + cond. presente (adesso). 'Se avessi studiato → parleresti bene adesso.'",
+        "en": "Mixed: pluperfect subjunctive (past) + present conditional (now). 'Se avessi studiato → parleresti bene adesso.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: 'Mi chiedo se ___ (accettare, lui) l'offerta' — forma corretta?",
+        "en": "SE whether: 'I wonder whether ___ (accettare, he) the offer' — correct form?"
+      },
+      "opzioni": [
+        "accetti",
+        "accettasse",
+        "avrebbe accettato",
+        "avesse accettato"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi chiedo se' = whether → SE whether → condizionale passato: avrebbe accettato ✅",
+        "en": "Correct! 'Mi chiedo se' = whether → SE whether → past conditional: avrebbe accettato ✅"
+      },
+      "feedbackErr": {
+        "it": "'Mi chiedo se' = whether (interrogativa indiretta) → condizionale passato: avrebbe accettato.",
+        "en": "'Mi chiedo se' = whether (indirect question) → past conditional: avrebbe accettato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 1: 'Se hai fame, ___ qualcosa.' Quale forma è corretta?",
+        "en": "Type 1: 'If you're hungry, ___ something.' Which form is correct?"
+      },
+      "opzioni": [
+        "mangeresti",
+        "mangiassi",
+        "mangerai",
+        "mangia qualcosa"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 1 reale: se + presente → futuro o imperativo. 'Se hai fame, mangerai qualcosa' o 'mangia qualcosa' — entrambi corretti.",
+        "en": "Correct! Type 1 real: se + present → future or imperative. 'Se hai fame, mangerai qualcosa' or 'mangia qualcosa' — both correct."
+      },
+      "feedbackErr": {
+        "it": "Tipo 1 reale: se + presente indicativo → futuro/imperativo. 'Se hai fame, mangerai' o 'mangia'.",
+        "en": "Type 1 real: se + present indicative → future/imperative. 'Se hai fame, mangerai' or 'mangia'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Come se' richiede quale forma verbale?",
+        "en": "'Come se' requires which verb form?"
+      },
+      "opzioni": [
+        "Indicativo presente",
+        "Condizionale presente",
+        "Congiuntivo imperfetto o trapassato",
+        "Futuro semplice"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Come se' → SEMPRE cong. imperfetto (contemporaneo) o trapassato (anteriore). MAI condizionale. 'Come se fosse' / 'come se avesse visto'.",
+        "en": "Correct! 'Come se' → ALWAYS imperfect (simultaneous) or pluperfect (prior) subjunctive. NEVER conditional. 'Come se fosse' / 'come se avesse visto'."
+      },
+      "feedbackErr": {
+        "it": "'Come se' → cong. imperfetto o trapassato. MAI condizionale. 'Come se fosse italiano' / 'come se avesse visto un fantasma'.",
+        "en": "'Come se' → imperfect or pluperfect subjunctive. NEVER conditional. 'Come se fosse italiano' / 'come se avesse visto un fantasma'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'A meno che non venga Mario' — quale struttura è?",
+        "en": "'A meno che non venga Mario' — what structure is it?"
+      },
+      "opzioni": [
+        "Tipo 1 reale",
+        "Condizione negativa + congiuntivo",
+        "Tipo 3 irreale",
+        "SE whether"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'A meno che non' = condizione negativa (unless) + congiuntivo. 'A meno che non venga' (pres.) o 'venisse' (imp.).",
+        "en": "Correct! 'A meno che non' = negative condition (unless) + subjunctive. 'A meno che non venga' (pres.) or 'venisse' (imp.)."
+      },
+      "feedbackErr": {
+        "it": "'A meno che non' = unless → condizione negativa + congiuntivo. 'A meno che non venga Mario.'",
+        "en": "'A meno che non' = unless → negative condition + subjunctive. 'A meno che non venga Mario.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 2 completo: 'Se ___ (io, essere) ricco, ___ (aprire) un bar a Napoli.'",
+        "en": "Type 2 complete: 'If ___ (I, essere) rich, ___ (aprire) a bar in Naples.'"
+      },
+      "opzioni": [
+        "sono → aprirò",
+        "fossi → aprirei",
+        "sia → aprirei",
+        "ero → aprivo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 2: se + cong. imperfetto (fossi) → condizionale presente (aprirei). 'Se fossi ricco, aprirei un bar a Napoli.'",
+        "en": "Correct! Type 2: se + imperfect subjunctive (fossi) → present conditional (aprirei). 'Se fossi ricco, aprirei un bar a Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 2: se + cong. imperfetto → condizionale. 'Se fossi ricco, aprirei un bar a Napoli.'",
+        "en": "Type 2: se + imperfect subjunctive → conditional. 'Se fossi ricco, aprirei un bar a Napoli.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Tipo 3 completo: 'Se ___ (noi, prenotare), ___ (avere) un tavolo.'",
+        "en": "Type 3 complete: 'If ___ (noi, prenotare), ___ (avere) a table.'"
+      },
+      "opzioni": [
+        "prenotassimo → avremmo",
+        "avessimo prenotato → avremmo avuto",
+        "prenotavamo → avevamo",
+        "prenotiamo → abbiamo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 3: se + cong. trapassato (avessimo prenotato) → cond. passato (avremmo avuto).",
+        "en": "Correct! Type 3: se + pluperfect subjunctive (avessimo prenotato) → past conditional (avremmo avuto)."
+      },
+      "feedbackErr": {
+        "it": "Tipo 3: se + cong. trapassato → cond. passato. 'Se avessimo prenotato, avremmo avuto un tavolo.'",
+        "en": "Type 3: se + pluperfect subjunctive → past conditional. 'Se avessimo prenotato, avremmo avuto un tavolo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Se sia venuto Mario, andiamo al bar' — questa frase è…?",
+        "en": "'Se sia venuto Mario, andiamo al bar' — this sentence is…?"
+      },
+      "opzioni": [
+        "Corretta — cong. passato",
+        "Corretta — tipo 1",
+        "Sbagliata — SE ipotetico non prende cong. passato",
+        "Corretta nel registro formale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Se sia venuto' è SBAGLIATO. SE ipotetico non prende MAI cong. presente o passato. Corretto: 'Se viene Mario' o 'se venisse Mario'.",
+        "en": "Correct! 'Se sia venuto' is WRONG. Hypothetical SE NEVER takes present or past subjunctive. Correct: 'Se viene Mario' or 'se venisse Mario'."
+      },
+      "feedbackErr": {
+        "it": "SBAGLIATO! SE ipotetico + cong. passato = mai corretto. 'Se sia venuto' è sempre errore.",
+        "en": "WRONG! Hypothetical SE + past subjunctive = never correct. 'Se sia venuto' is always an error."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: 'Dimmi se ___ (tu, rimanere)' — forma corretta?",
+        "en": "SE whether: 'Tell me whether ___ (you, rimanere)' — correct form?"
+      },
+      "opzioni": [
+        "rimanessi",
+        "rimanga",
+        "saresti rimasto",
+        "sia rimasto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Dimmi se' = tell me whether → SE whether → condizionale passato: saresti rimasto ✅",
+        "en": "Correct! 'Dimmi se' = tell me whether → SE whether → past conditional: saresti rimasto ✅"
+      },
+      "feedbackErr": {
+        "it": "'Dimmi se' = whether (interrogativa indiretta) → condizionale: saresti rimasto.",
+        "en": "'Dimmi se' = whether (indirect question) → conditional: saresti rimasto."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Misto: 'Se ___ (tu, studiare) il pianoforte da bambino, ___ (suonare) benissimo adesso.'",
+        "en": "Mixed: 'If ___ (you, studiare) piano as a child, ___ (suonare) very well now.'"
+      },
+      "opzioni": [
+        "studiassi → suoneresti",
+        "avessi studiato → suoneresti",
+        "avessi studiato → avresti suonato",
+        "studiavi → suoneresti"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tipo misto: cong. trapassato (condizione passata) + cond. presente (risultato adesso). 'Se avessi studiato → suoneresti benissimo adesso.'",
+        "en": "Correct! Mixed type: pluperfect subjunctive (past condition) + present conditional (result now). 'Se avessi studiato → suoneresti benissimo adesso.'"
+      },
+      "feedbackErr": {
+        "it": "Misto: condizione nel passato (trapassato) + risultato nel presente (cond. presente). 'Se avessi studiato, suoneresti benissimo adesso.'",
+        "en": "Mixed: past condition (pluperfect) + present result (present conditional). 'Se avessi studiato, suoneresti benissimo adesso.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether con condizionale PRESENTE: 'Non so se ___ (io, volere) farlo ancora.'",
+        "en": "SE whether with PRESENT conditional: 'I don't know whether ___ (I, volere) do it again.'"
+      },
+      "opzioni": [
+        "voglia",
+        "volessi",
+        "vorrei",
+        "abbia voluto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! SE whether + condizionale presente: vorrei. 'Non so se vorrei farlo ancora' ✅ Test: 'I don't know whether I would want to' ✅",
+        "en": "Correct! SE whether + present conditional: vorrei. 'Non so se vorrei farlo ancora' ✅ Test: 'I don't know whether I would want to' ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non so se' = whether → SE whether → condizionale presente: vorrei. 'Non so se vorrei farlo ancora.'",
+        "en": "'Non so se' = whether → SE whether → present conditional: vorrei. 'Non so se vorrei farlo ancora.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nel tipo 1 (reale), la protasi usa il congiuntivo imperfetto.",
+        "en": "In type 1 (real), the protasis uses the imperfect subjunctive."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Tipo 1 (reale): se + INDICATIVO presente, non congiuntivo. 'Se studi, imparerai.'",
+        "en": "Correct! Type 1 (real): se + PRESENT indicative, not subjunctive. 'Se studi, imparerai.'"
+      },
+      "feedbackErr": {
+        "it": "FALSO! Tipo 1 reale: se + INDICATIVO presente → futuro. 'Se studi (non studiassi), imparerai.'",
+        "en": "FALSE! Type 1 real: se + PRESENT indicative → future. 'Se studi (not studiassi), imparerai.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nel tipo 2 (irreale presente): se + cong. imperfetto → condizionale presente.",
+        "en": "In type 2 (unreal present): se + imperfect subjunctive → present conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 2: 'Se studiassi (cong. imp.) → impareresti (cond. pres.).'",
+        "en": "Correct! Type 2: 'Se studiassi (imp. subj.) → impareresti (pres. cond.).'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Tipo 2: se + cong. imperfetto → condizionale presente. 'Se studiassi, impareresti.'",
+        "en": "True! Type 2: se + imperfect subjunctive → present conditional. 'Se studiassi, impareresti.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se verrei' come ipotetico è sempre sbagliato, in qualsiasi registro.",
+        "en": "'Se verrei' as a hypothetical is always wrong, in any register."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE ipotetico + condizionale = sempre errore. Nessun registro lo accetta.",
+        "en": "Correct! Hypothetical SE + conditional = always an error. No register accepts it."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Se verrei' (ipotetico) = sempre sbagliato. A differenza del colloquiale 'se venivo' che è almeno parlato.",
+        "en": "True! 'Se verrei' (hypothetical) = always wrong. Unlike colloquial 'se venivo' which is at least spoken."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non so se verrei' è grammaticalmente corretto.",
+        "en": "'Non so se verrei' is grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE whether + condizionale presente. Test: 'I don't know WHETHER I would come' ✅. Qui 'se' = 'whether', non 'if'.",
+        "en": "Correct! SE whether + present conditional. Test: 'I don't know WHETHER I would come' ✅. Here 'se' = 'whether', not 'if'."
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Non so se verrei' è CORRETTO — SE whether + condizionale. 'I don't know whether I would come' ✅",
+        "en": "TRUE! 'Non so se verrei' is CORRECT — SE whether + conditional. 'I don't know whether I would come' ✅"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il tipo misto combina cong. trapassato (condizione passata) + condizionale PRESENTE (risultato attuale).",
+        "en": "The mixed type combines pluperfect subjunctive (past condition) + PRESENT conditional (current result)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Misto: 'Se avessi studiato (trapassato), parleresti bene adesso (cond. presente).'",
+        "en": "Correct! Mixed: 'Se avessi studiato (pluperfect), parleresti bene adesso (present cond.).'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Misto: cong. trapassato + cond. presente. 'Se avessi studiato, parleresti bene adesso.'",
+        "en": "True! Mixed: pluperfect subjunctive + present conditional. 'Se avessi studiato, parleresti bene adesso.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se venivo, ti chiamavo' è accettabile nello scritto formale italiano.",
+        "en": "'Se venivo, ti chiamavo' is acceptable in formal Italian writing."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! È comune nel PARLATO informale ma scorretto nello scritto. Formale: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "Correct! It's common in informal SPEECH but wrong in writing. Formal: 'Se fossi venuto, ti avrei chiamato.'"
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Se venivo, ti chiamavo' = parlato informale ⚠️ Scorretto nello scritto. Standard: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "FALSE! 'Se venivo, ti chiamavo' = informal speech ⚠️ Wrong in writing. Standard: 'Se fossi venuto, ti avrei chiamato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nel tipo 3 (irreale passato): se + cong. trapassato → condizionale passato.",
+        "en": "In type 3 (unreal past): se + pluperfect subjunctive → past conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 3: 'Se avessi studiato (cong. trap.) → avresti imparato (cond. pass.).'",
+        "en": "Correct! Type 3: 'Se avessi studiato (pluperfect subj.) → avresti imparato (past cond.).'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Tipo 3: se + cong. trapassato → cond. passato. 'Se avessi studiato, avresti imparato.'",
+        "en": "True! Type 3: se + pluperfect subjunctive → past conditional. 'Se avessi studiato, avresti imparato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dimmi se saresti venuto' usa correttamente il condizionale (SE whether).",
+        "en": "'Dimmi se saresti venuto' correctly uses the conditional (SE whether)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Dimmi se' = tell me whether → SE whether → condizionale passato corretto ✅",
+        "en": "Correct! 'Dimmi se' = tell me whether → SE whether → past conditional correct ✅"
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Dimmi se saresti venuto' è CORRETTO — SE whether. 'Tell me whether you would have come' ✅",
+        "en": "TRUE! 'Dimmi se saresti venuto' is CORRECT — SE whether. 'Tell me whether you would have come' ✅"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il tipo 1 (reale) usa il futuro nella protasi: 'se studierai, imparerai'.",
+        "en": "Type 1 (real) uses the future in the protasis: 'se studierai, imparerai'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Nel tipo 1 la protasi usa l'INDICATIVO PRESENTE, non il futuro: 'Se studi, imparerai.' — non 'se studierai'.",
+        "en": "Correct! In type 1 the protasis uses the PRESENT INDICATIVE, not the future: 'Se studi, imparerai.' — not 'se studierai'."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Tipo 1: se + PRESENTE indicativo → futuro. 'Se studi, imparerai.' Non 'se studierai'.",
+        "en": "FALSE! Type 1: se + PRESENT indicative → future. 'Se studi, imparerai.' Not 'se studierai'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Come se' + condizionale è corretto: 'Parla come se sarebbe italiano'.",
+        "en": "'Come se' + conditional is correct: 'Parla come se sarebbe italiano'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Come se sarebbe' è SBAGLIATO. Come se → SEMPRE cong. imperfetto o trapassato. MAI condizionale.",
+        "en": "Correct! 'Come se sarebbe' is WRONG. Come se → ALWAYS imperfect or pluperfect subjunctive. NEVER conditional."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Come se sarebbe' è sbagliato. Come se → cong. imperfetto: 'come se fosse'. Mai condizionale.",
+        "en": "FALSE! 'Come se sarebbe' is wrong. Come se → imperfect subjunctive: 'come se fosse'. Never conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se + congiuntivo passato' come ipotetico è sempre sbagliato.",
+        "en": "'Se + past subjunctive' as a hypothetical is always wrong."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE ipotetico non prende MAI cong. presente o passato. 'Se sia venuto' = sempre sbagliato.",
+        "en": "Correct! Hypothetical SE NEVER takes present or past subjunctive. 'Se sia venuto' = always wrong."
+      },
+      "feedbackErr": {
+        "it": "Vero! SE ipotetico + cong. presente/passato = sempre sbagliato. Solo imperfetto e trapassato sono corretti.",
+        "en": "True! Hypothetical SE + present/past subjunctive = always wrong. Only imperfect and pluperfect are correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non so se avrei fatto lo stesso' è grammaticalmente corretto.",
+        "en": "'Non so se avrei fatto lo stesso' is grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE whether + condizionale passato. 'I don't know whether I would have done the same' ✅",
+        "en": "Correct! SE whether + past conditional. 'I don't know whether I would have done the same' ✅"
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Non so se avrei fatto' = SE whether + cond. passato = CORRETTO. Test: 'whether I would have done' ✅",
+        "en": "TRUE! 'Non so se avrei fatto' = SE whether + past cond. = CORRECT. Test: 'whether I would have done' ✅"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il test per riconoscere SE whether: se puoi sostituire 'se' con 'whether' in inglese, il condizionale dopo è corretto.",
+        "en": "The test for SE whether: if you can replace 'se' with 'whether' in English, the conditional after it is correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il test del WHETHER è lo strumento principale. 'Non so se verrei' → 'I don't know whether I would come' ✅",
+        "en": "Correct! The WHETHER test is the main tool. 'Non so se verrei' → 'I don't know whether I would come' ✅"
+      },
+      "feedbackErr": {
+        "it": "Vero! Test del WHETHER: funziona? → SE whether → condizionale corretto. Non funziona? → SE ipotetico → mai condizionale.",
+        "en": "True! WHETHER test: works? → SE whether → conditional correct. Doesn't work? → hypothetical SE → never conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nel tipo misto, la protasi è al cong. trapassato e l'apodosi al condizionale PRESENTE.",
+        "en": "In the mixed type, the protasis is in the pluperfect subjunctive and the apodosis in the PRESENT conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Misto: se + cong. TRAPASSATO → condizionale PRESENTE. Condizione nel passato, risultato nel presente.",
+        "en": "Correct! Mixed: se + PLUPERFECT subjunctive → PRESENT conditional. Past condition, present result."
+      },
+      "feedbackErr": {
+        "it": "Vero! Misto: protasi al trapassato (condizione passata) + apodosi al cond. presente (effetto ora).",
+        "en": "True! Mixed: protasis in pluperfect (past condition) + apodosis in present cond. (effect now)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se studiassi, impareresti' è un esempio di tipo 2 (irreale presente).",
+        "en": "'Se studiassi, impareresti' is an example of type 2 (unreal present)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 2: se + cong. imperfetto (studiassi) → condizionale presente (impareresti).",
+        "en": "Correct! Type 2: se + imperfect subjunctive (studiassi) → present conditional (impareresti)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Tipo 2 irreale presente: 'Se studiassi (cong. imp.) → impareresti (cond. pres.).'",
+        "en": "True! Type 2 unreal present: 'Se studiassi (imp. subj.) → impareresti (pres. cond.).'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se avessi studiato, parleresti bene adesso' è un periodo misto (non tipo 3 puro).",
+        "en": "'Se avessi studiato, parleresti bene adesso' is a mixed period (not pure type 3)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tipo 3 puro avrebbe: 'avresti parlato'. Qui c'è 'parleresti' (cond. presente) → è il tipo misto.",
+        "en": "Correct! Pure type 3 would have: 'avresti parlato'. Here there is 'parleresti' (present cond.) → it's the mixed type."
+      },
+      "feedbackErr": {
+        "it": "Vero! Misto: cong. trapassato + cond. PRESENTE (non passato). 'Se avessi studiato, parleresti (non avresti parlato) adesso.'",
+        "en": "True! Mixed type: pluperfect subjunctive + PRESENT conditional (not past). 'Se avessi studiato, parleresti (not avresti parlato) adesso.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A meno che non + congiuntivo' è grammaticalmente corretto.",
+        "en": "'A meno che non + subjunctive' is grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'A meno che non' (= unless) + congiuntivo. 'A meno che non venga Mario' (pres.) / 'a meno che non venisse' (imp.).",
+        "en": "Correct! 'A meno che non' (= unless) + subjunctive. 'A meno che non venga Mario' (pres.) / 'a meno che non venisse' (imp.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'A meno che non' + congiuntivo. 'A meno che non venga Mario, andiamo noi.'",
+        "en": "True! 'A meno che non' + subjunctive. 'A meno che non venga Mario, andiamo noi.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "SE whether può stare sia con il condizionale presente che con il condizionale passato.",
+        "en": "SE whether can be used with both the present and the past conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE whether + cond. presente: 'Non so se verrei.' SE whether + cond. passato: 'Non so se sarei venuto.' Entrambi corretti.",
+        "en": "Correct! SE whether + present cond.: 'Non so se verrei.' SE whether + past cond.: 'Non so se sarei venuto.' Both correct."
+      },
+      "feedbackErr": {
+        "it": "Vero! SE whether funziona con entrambi: cond. presente ('se verrei') e cond. passato ('se sarei venuto').",
+        "en": "True! SE whether works with both: present cond. ('se verrei') and past cond. ('se sarei venuto')."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Purché venga Mario' usa correttamente il congiuntivo.",
+        "en": "'Purché venga Mario' correctly uses the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Purché' (condizione) + congiuntivo presente: venga. 'Vengo, purché venga anche Mario.'",
+        "en": "Correct! 'Purché' (condition) + present subjunctive: venga. 'Vengo, purché venga anche Mario.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Purché + congiuntivo. 'Purché venga Mario' = provided Mario comes. Corretto.",
+        "en": "True! Purché + subjunctive. 'Purché venga Mario' = provided Mario comes. Correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se sarei stato più attento' come periodo ipotetico è corretto.",
+        "en": "'Se sarei stato più attento' as a hypothetical period is correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! SBAGLIATO. SE ipotetico + condizionale = sempre errore. Corretto: 'Se fossi stato più attento, avrei capito.'",
+        "en": "Correct! WRONG. Hypothetical SE + conditional = always an error. Correct: 'Se fossi stato più attento, avrei capito.'"
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Se sarei stato' è sbagliato. SE ipotetico + condizionale = sempre errore. Corretto: 'Se fossi stato più attento, avrei capito.'",
+        "en": "FALSE! 'Se sarei stato' is wrong. Hypothetical SE + conditional = always an error. Correct: 'Se fossi stato più attento, avrei capito.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 1 (reale, tu studiare → imparare): Se ___, imparerai in fretta.",
+        "en": "Type 1 (real, you studiare → imparare): If ___, you'll learn quickly."
+      },
+      "parole": [
+        "studi",
+        "imparerai",
+        "in",
+        "fretta"
+      ],
+      "distrattori": [
+        "studiassi",
+        "studierai",
+        "studia"
+      ],
+      "correct": [
+        "studi",
+        "imparerai",
+        "in",
+        "fretta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 1 reale: se + indicativo presente → futuro. 'Se studi, imparerai.'",
+        "en": "Perfect! Type 1 real: se + present indicative → future. 'Se studi, imparerai.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 1 reale: se + PRESENTE indicativo (non congiuntivo): studi. 'Se studi, imparerai.'",
+        "en": "Type 1 real: se + PRESENT indicative (not subjunctive): studi. 'Se studi, imparerai.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 2 (io, essere ricco, aprire bar): Se ___ ricco, ___ un bar a Napoli.",
+        "en": "Type 2 (I, essere rich, aprire bar): If ___ rich, ___ a bar in Naples."
+      },
+      "parole": [
+        "fossi",
+        "ricco",
+        "aprirei",
+        "un",
+        "bar",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "sono",
+        "sarei",
+        "aprirò"
+      ],
+      "correct": [
+        "fossi",
+        "ricco",
+        "aprirei",
+        "un",
+        "bar",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 2: se + cong. imperfetto (fossi) → cond. presente (aprirei). 'Se fossi ricco, aprirei un bar a Napoli.'",
+        "en": "Perfect! Type 2: se + imperfect subj. (fossi) → present cond. (aprirei). 'Se fossi ricco, aprirei un bar a Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 2: se + fossi (cong. imp.) → aprirei (cond. pres.). 'Se fossi ricco, aprirei un bar a Napoli.'",
+        "en": "Type 2: se + fossi (imp. subj.) → aprirei (pres. cond.). 'Se fossi ricco, aprirei un bar a Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 3 (noi, prenotare, avere tavolo): Se ___, ___ un tavolo.",
+        "en": "Type 3 (noi, prenotare, avere tavolo): If ___, ___ a table."
+      },
+      "parole": [
+        "avessimo",
+        "prenotato",
+        "avremmo",
+        "avuto",
+        "un",
+        "tavolo"
+      ],
+      "distrattori": [
+        "prenotassimo",
+        "avevamo",
+        "prenotiamo"
+      ],
+      "correct": [
+        "avessimo",
+        "prenotato",
+        "avremmo",
+        "avuto",
+        "un",
+        "tavolo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 3: cong. trapassato (avessimo prenotato) → cond. passato (avremmo avuto).",
+        "en": "Perfect! Type 3: pluperfect subj. (avessimo prenotato) → past cond. (avremmo avuto)."
+      },
+      "feedbackErr": {
+        "it": "Tipo 3: se + cong. trapassato → cond. passato. 'Se avessimo prenotato, avremmo avuto un tavolo.'",
+        "en": "Type 3: se + pluperfect subj. → past cond. 'Se avessimo prenotato, avremmo avuto un tavolo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Misto (io, studiare da bambino, parlare bene adesso): Se ___ da bambino, ___ bene adesso.",
+        "en": "Mixed (I, studiare as child, parlare bene now): If ___ as a child, ___ well now."
+      },
+      "parole": [
+        "avessi",
+        "studiato",
+        "parlerei",
+        "bene",
+        "adesso"
+      ],
+      "distrattori": [
+        "studiassi",
+        "avresti",
+        "studiato"
+      ],
+      "correct": [
+        "avessi",
+        "studiato",
+        "parlerei",
+        "bene",
+        "adesso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Misto: cong. trapassato (avessi studiato) + cond. presente (parlerei adesso).",
+        "en": "Perfect! Mixed: pluperfect subj. (avessi studiato) + present cond. (parlerei adesso)."
+      },
+      "feedbackErr": {
+        "it": "Misto: cong. trapassato + cond. presente. 'Se avessi studiato da bambino, parlerei bene adesso.'",
+        "en": "Mixed: pluperfect subj. + present cond. 'Se avessi studiato da bambino, parlerei bene adesso.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (io, venire): Non so ___ — era molto lontano.",
+        "en": "SE whether (I, venire): I don't know ___ — it was very far."
+      },
+      "parole": [
+        "se",
+        "sarei",
+        "venuto"
+      ],
+      "distrattori": [
+        "se",
+        "venissi",
+        "se",
+        "venga"
+      ],
+      "correct": [
+        "se",
+        "sarei",
+        "venuto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! SE whether + cond. passato. 'Non so se sarei venuto.' Test: 'whether I would have come' ✅",
+        "en": "Perfect! SE whether + past cond. 'Non so se sarei venuto.' Test: 'whether I would have come' ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non so se' = whether → cond. passato: sarei venuto. 'Non so se sarei venuto.'",
+        "en": "'Non so se' = whether → past cond.: sarei venuto. 'Non so se sarei venuto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "❌ Sbagliato → Corretto (tipo 2): ~~Se verrei~~ → Se ___, verrei.",
+        "en": "❌ Wrong → Correct (type 2): ~~Se verrei~~ → If ___, I would come."
+      },
+      "parole": [
+        "me",
+        "lo",
+        "chiedessi"
+      ],
+      "distrattori": [
+        "lo",
+        "chiederai",
+        "chiederesti"
+      ],
+      "correct": [
+        "me",
+        "lo",
+        "chiedessi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 2: se + cong. imperfetto: chiedessi. 'Se me lo chiedessi, verrei.' MAI 'se verrei'.",
+        "en": "Perfect! Type 2: se + imperfect subj.: chiedessi. 'Se me lo chiedessi, verrei.' NEVER 'se verrei'."
+      },
+      "feedbackErr": {
+        "it": "SE ipotetico + cong. imperfetto (non condizionale!): chiedessi. 'Se me lo chiedessi, verrei.'",
+        "en": "Hypothetical SE + imperfect subj. (not conditional!): chiedessi. 'Se me lo chiedessi, verrei.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Come se + imperfetto (lui parlare, esperto): Parla ___ un esperto di pizza napoletana.",
+        "en": "Come se + imperfect (he speak, expert): He speaks ___ a Neapolitan pizza expert."
+      },
+      "parole": [
+        "come",
+        "se",
+        "fosse",
+        "un",
+        "esperto"
+      ],
+      "distrattori": [
+        "come",
+        "sarebbe",
+        "sia"
+      ],
+      "correct": [
+        "come",
+        "se",
+        "fosse",
+        "un",
+        "esperto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Come se + cong. imperfetto: fosse. 'Parla come se fosse un esperto.' MAI 'come se sarebbe'.",
+        "en": "Perfect! Come se + imperfect subj.: fosse. 'Parla come se fosse un esperto.' NEVER 'come se sarebbe'."
+      },
+      "feedbackErr": {
+        "it": "'Come se' + cong. imperfetto: fosse (essere irregolare). 'Parla come se fosse un esperto.'",
+        "en": "'Come se' + imperfect subj.: fosse (irregular essere). 'Parla come se fosse un esperto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "A meno che non (Mario venire, andare noi): ___ venga Mario, andiamo noi.",
+        "en": "A meno che non (Mario venire, go noi): ___ Mario comes, we'll go."
+      },
+      "parole": [
+        "A",
+        "meno",
+        "che",
+        "non",
+        "venga",
+        "Mario"
+      ],
+      "distrattori": [
+        "Se",
+        "non",
+        "viene",
+        "Salvo",
+        "che"
+      ],
+      "correct": [
+        "A",
+        "meno",
+        "che",
+        "non",
+        "venga",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'A meno che non' + cong. presente: venga. 'A meno che non venga Mario, andiamo noi.'",
+        "en": "Perfect! 'A meno che non' + present subj.: venga. 'A meno che non venga Mario, andiamo noi.'"
+      },
+      "feedbackErr": {
+        "it": "'A meno che non' (= unless) + cong. presente: venga. 'A meno che non venga Mario, andiamo noi.'",
+        "en": "'A meno che non' (= unless) + present subj.: venga. 'A meno che non venga Mario, andiamo noi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (lui, accettare): Mi chiedo ___ l'offerta.",
+        "en": "SE whether (he, accettare): I wonder ___ the offer."
+      },
+      "parole": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "l'offerta"
+      ],
+      "distrattori": [
+        "se",
+        "accettasse",
+        "se",
+        "abbia",
+        "accettato"
+      ],
+      "correct": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "l'offerta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mi chiedo se' = whether → SE whether → cond. passato: avrebbe accettato ✅",
+        "en": "Perfect! 'Mi chiedo se' = whether → SE whether → past cond.: avrebbe accettato ✅"
+      },
+      "feedbackErr": {
+        "it": "'Mi chiedo se' = whether → cond. passato: avrebbe accettato.",
+        "en": "'Mi chiedo se' = whether → past cond.: avrebbe accettato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 2 (tu, potere venire, io essere contento): Se ___, sarei contentissimo.",
+        "en": "Type 2 (you, potere venire, I essere contento): If ___, I would be very happy."
+      },
+      "parole": [
+        "potessi",
+        "venire"
+      ],
+      "distrattori": [
+        "puoi",
+        "potresti",
+        "potevi"
+      ],
+      "correct": [
+        "potessi",
+        "venire"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 2: se + cong. imperfetto: potessi. 'Se potessi venire, sarei contentissimo.'",
+        "en": "Perfect! Type 2: se + imperfect subj.: potessi. 'Se potessi venire, sarei contentissimo.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 2: se + cong. imperfetto di potere: potessi. 'Se potessi venire, sarei contentissimo.'",
+        "en": "Type 2: se + imperfect subj. of potere: potessi. 'Se potessi venire, sarei contentissimo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Come se + trapassato (lui vedere fantasma): Parla ___ un fantasma.",
+        "en": "Come se + pluperfect (he see ghost): He speaks ___ a ghost."
+      },
+      "parole": [
+        "come",
+        "se",
+        "avesse",
+        "visto",
+        "un",
+        "fantasma"
+      ],
+      "distrattori": [
+        "come",
+        "vedesse",
+        "abbia",
+        "visto",
+        "sarebbe"
+      ],
+      "correct": [
+        "come",
+        "se",
+        "avesse",
+        "visto",
+        "un",
+        "fantasma"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Come se + cong. trapassato (azione anteriore): avesse visto. 'Parla come se avesse visto un fantasma.'",
+        "en": "Perfect! Come se + pluperfect subj. (prior action): avesse visto. 'Parla come se avesse visto un fantasma.'"
+      },
+      "feedbackErr": {
+        "it": "'Come se' + azione anteriore → cong. trapassato: avesse visto.",
+        "en": "'Come se' + prior action → pluperfect subj.: avesse visto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 3 (tu, studiare di più, superare esame): Se ___, avresti superato l'esame.",
+        "en": "Type 3 (you, studiare more, superare esame): If ___, you would have passed the exam."
+      },
+      "parole": [
+        "avessi",
+        "studiato",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "studiassi",
+        "avevi",
+        "studiato"
+      ],
+      "correct": [
+        "avessi",
+        "studiato",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 3: se + cong. trapassato: avessi studiato. 'Se avessi studiato di più, avresti superato l'esame.'",
+        "en": "Perfect! Type 3: se + pluperfect subj.: avessi studiato. 'Se avessi studiato di più, avresti superato l'esame.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 3: se + cong. trapassato: avessi studiato. 'Se avessi studiato di più, avresti superato l'esame.'",
+        "en": "Type 3: se + pluperfect subj.: avessi studiato. 'Se avessi studiato di più, avresti superato l'esame.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether presente (io, fare la stessa cosa): Non so ___ la stessa cosa.",
+        "en": "SE whether present (I, fare la stessa cosa): I don't know ___ the same thing."
+      },
+      "parole": [
+        "se",
+        "farei",
+        "la",
+        "stessa",
+        "cosa"
+      ],
+      "distrattori": [
+        "se",
+        "facessi",
+        "se",
+        "faccia"
+      ],
+      "correct": [
+        "se",
+        "farei",
+        "la",
+        "stessa",
+        "cosa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non so se' = whether → SE whether → cond. presente: farei ✅. Test: 'whether I would do' ✅",
+        "en": "Perfect! 'Non so se' = whether → SE whether → present cond.: farei ✅. Test: 'whether I would do' ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non so se' = whether → cond. presente: farei. 'Non so se farei la stessa cosa.'",
+        "en": "'Non so se' = whether → present cond.: farei. 'Non so se farei la stessa cosa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Misto (tu, imparare italiano, parlare con Mario adesso): Se ___, ___ con Mario adesso.",
+        "en": "Mixed (you, imparare Italian, parlare con Mario now): If ___, ___ with Mario now."
+      },
+      "parole": [
+        "avessi",
+        "imparato",
+        "l'italiano",
+        "parleresti",
+        "con",
+        "Mario",
+        "adesso"
+      ],
+      "distrattori": [
+        "imparassi",
+        "avresti",
+        "parlato"
+      ],
+      "correct": [
+        "avessi",
+        "imparato",
+        "l'italiano",
+        "parleresti",
+        "con",
+        "Mario",
+        "adesso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Misto: cong. trapassato (avessi imparato) + cond. presente (parleresti adesso).",
+        "en": "Perfect! Mixed: pluperfect subj. (avessi imparato) + present cond. (parleresti adesso)."
+      },
+      "feedbackErr": {
+        "it": "Misto: condizione passata (trapassato) + risultato attuale (cond. presente). 'Se avessi imparato, parleresti adesso.'",
+        "en": "Mixed: past condition (pluperfect) + current result (present cond.). 'Se avessi imparato, parleresti adesso.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Purché (tu venire, io essere contento): ___ tu voglia, vengo anch'io.",
+        "en": "Purché (you venire, I essere contento): ___ you want, I'll come too."
+      },
+      "parole": [
+        "Purché",
+        "tu",
+        "voglia"
+      ],
+      "distrattori": [
+        "Se",
+        "vuoi",
+        "volessi",
+        "Affinché"
+      ],
+      "correct": [
+        "Purché",
+        "tu",
+        "voglia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Purché + cong. presente: voglia. 'Purché tu voglia, vengo anch'io.'",
+        "en": "Perfect! Purché + present subj.: voglia. 'Purché tu voglia, vengo anch'io.'"
+      },
+      "feedbackErr": {
+        "it": "Purché (condizione) + cong. presente: voglia. 'Purché tu voglia, vengo anch'io.'",
+        "en": "Purché (condition) + present subj.: voglia. 'Purché tu voglia, vengo anch'io.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 1 con imperativo (tu avere fame, mangiare qualcosa): Se ___, mangia qualcosa.",
+        "en": "Type 1 with imperative (you avere fame, mangiare qualcosa): If ___, eat something."
+      },
+      "parole": [
+        "hai",
+        "fame"
+      ],
+      "distrattori": [
+        "avessi",
+        "fame",
+        "avresti",
+        "abbia"
+      ],
+      "correct": [
+        "hai",
+        "fame"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 1 reale: se + indicativo presente: hai. 'Se hai fame, mangia qualcosa.'",
+        "en": "Perfect! Type 1 real: se + present indicative: hai. 'Se hai fame, mangia qualcosa.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 1 reale: se + PRESENTE indicativo (non congiuntivo): hai. 'Se hai fame, mangia qualcosa.'",
+        "en": "Type 1 real: se + PRESENT indicative (not subjunctive): hai. 'Se hai fame, mangia qualcosa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (tu, restare): Dimmi ___ — voglio sapere.",
+        "en": "SE whether (you, restare): Tell me ___ — I want to know."
+      },
+      "parole": [
+        "se",
+        "saresti",
+        "rimasto"
+      ],
+      "distrattori": [
+        "se",
+        "rimanessi",
+        "se",
+        "rimanga"
+      ],
+      "correct": [
+        "se",
+        "saresti",
+        "rimasto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Dimmi se' = whether → SE whether → cond. passato: saresti rimasto ✅",
+        "en": "Perfect! 'Dimmi se' = whether → SE whether → past cond.: saresti rimasto ✅"
+      },
+      "feedbackErr": {
+        "it": "'Dimmi se' = whether → cond. passato: saresti rimasto. 'Dimmi se saresti rimasto.'",
+        "en": "'Dimmi se' = whether → past cond.: saresti rimasto. 'Dimmi se saresti rimasto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Tipo 2 (voi, volere, io comprare pizza): Se ___, comprerei la pizza per tutti.",
+        "en": "Type 2 (voi, volere, I comprare pizza): If ___, I would buy pizza for everyone."
+      },
+      "parole": [
+        "voleste"
+      ],
+      "distrattori": [
+        "volete",
+        "vorreste",
+        "vogliate"
+      ],
+      "correct": [
+        "voleste"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tipo 2: se + cong. imperfetto di volere (voi): voleste. 'Se voleste, comprerei la pizza per tutti.'",
+        "en": "Perfect! Type 2: se + imperfect subj. of volere (voi): voleste. 'Se voleste, comprerei la pizza per tutti.'"
+      },
+      "feedbackErr": {
+        "it": "Tipo 2: se + cong. imperfetto di volere (voi): voleste. 'Se voleste, comprerei la pizza per tutti.'",
+        "en": "Type 2: se + imperfect subj. of volere (voi): voleste. 'Se voleste, comprerei la pizza per tutti.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Come se colloquiale ❌ → Corretto: ~~come se sarebbe~~ → come se ___.",
+        "en": "Come se colloquial ❌ → Correct: ~~come se sarebbe~~ → come se ___."
+      },
+      "parole": [
+        "fosse"
+      ],
+      "distrattori": [
+        "sarebbe",
+        "è",
+        "sia",
+        "sarà"
+      ],
+      "correct": [
+        "fosse"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Come se fosse' — cong. imperfetto, non condizionale. MAI 'come se sarebbe'.",
+        "en": "Perfect! 'Come se fosse' — imperfect subj., not conditional. NEVER 'come se sarebbe'."
+      },
+      "feedbackErr": {
+        "it": "'Come se' → cong. imperfetto: fosse. MAI condizionale. 'Come se sarebbe' è sempre sbagliato.",
+        "en": "'Come se' → imperfect subj.: fosse. NEVER conditional. 'Come se sarebbe' is always wrong."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (lei, accettare il lavoro): Non sapeva ___ il lavoro.",
+        "en": "SE whether (she, accettare il lavoro): She didn't know ___ the job."
+      },
+      "parole": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "il",
+        "lavoro"
+      ],
+      "distrattori": [
+        "se",
+        "accettasse",
+        "se",
+        "avesse",
+        "accettato"
+      ],
+      "correct": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "il",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non sapeva se' = whether → SE whether → cond. passato: avrebbe accettato ✅",
+        "en": "Perfect! 'Non sapeva se' = whether → SE whether → past cond.: avrebbe accettato ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non sapeva se' = whether → cond. passato: avrebbe accettato.",
+        "en": "'Non sapeva se' = whether → past cond.: avrebbe accettato."
+      }
+    }
+  ]
+}

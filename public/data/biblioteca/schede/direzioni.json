@@ -1,0 +1,1514 @@
+{
+  "id": "direzioni",
+  "categoria": "vocabolario",
+  "emoji": "🗺️",
+  "livello": "A1",
+  "titolo": {
+    "it": "Direzioni e Luoghi",
+    "en": "Directions and Places"
+  },
+  "mario": "A Napoli tutti ti danno indicazioni col cuore — ma spesso ti mandano dalla parte sbagliata. Impara queste parole e almeno capirai dove ti mandano. Poi decide tu se fidarti o no.",
+  "marioEn": "In Naples everyone gives directions with their heart — but they often send you the wrong way. Learn these words and at least you'll understand where they're sending you. Then you can decide whether to trust them.",
+  "perche": {
+    "it": "Chiedere e capire le direzioni è la prima vera prova di italiano in strada. Le parole chiave sono poche ma fondamentali: destra/sinistra, dritto, girare, continuare, attraversare, semaforo, incrocio, piazza. E poi i verbi di movimento: andare, girare, prendere, attraversare. Tutto il resto si costruisce da lì.",
+    "en": "Asking for and understanding directions is the first real Italian test on the street. The key words are few but fundamental: right/left, straight, turn, continue, cross, traffic light, crossroads, square. And then the movement verbs: go, turn, take, cross. Everything else builds from there."
+  },
+  "spiegazione": {
+    "it": "Chiedere: 'Scusi, dov'è...?' / 'Come arrivo a...?' Indicazioni base: sempre dritto (straight on), giri a destra/sinistra (turn right/left), prenda la prima/seconda strada (take the first/second street), attraversi (cross), al semaforo (at the traffic light), all'incrocio (at the crossroads), in fondo a (at the end of), di fronte a (opposite), accanto a (next to), tra (between).",
+    "en": "Asking: 'Scusi, dov'è...?' / 'Come arrivo a...?' Basic directions: sempre dritto (straight on), giri a destra/sinistra (turn right/left), prenda la prima/seconda strada (take the first/second street), attraversi (cross), al semaforo (at the traffic light), all'incrocio (at the crossroads), in fondo a (at the end of), di fronte a (opposite), accanto a (next to), tra (between)."
+  },
+  "tabella": [
+    {
+      "italiano": "sempre dritto",
+      "inglese": "straight on",
+      "uso": "Vada sempre dritto."
+    },
+    {
+      "italiano": "a destra",
+      "inglese": "to/on the right",
+      "uso": "Giri a destra al semaforo."
+    },
+    {
+      "italiano": "a sinistra",
+      "inglese": "to/on the left",
+      "uso": "Giri a sinistra all'incrocio."
+    },
+    {
+      "italiano": "di fronte a",
+      "inglese": "opposite / across from",
+      "uso": "È di fronte alla banca."
+    },
+    {
+      "italiano": "accanto a",
+      "inglese": "next to",
+      "uso": "È accanto alla farmacia."
+    },
+    {
+      "italiano": "in fondo a",
+      "inglese": "at the end of",
+      "uso": "In fondo alla via c'è la piazza."
+    },
+    {
+      "italiano": "vicino a",
+      "inglese": "near / close to",
+      "uso": "È vicino alla stazione."
+    },
+    {
+      "italiano": "lontano da",
+      "inglese": "far from",
+      "uso": "È lontano dal centro."
+    },
+    {
+      "italiano": "tra... e...",
+      "inglese": "between... and...",
+      "uso": "È tra il bar e la banca."
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Scusi, dov'è la stazione? — Vada sempre dritto, poi giri a destra al semaforo.",
+      "en": "Excuse me, where is the station? — Go straight on, then turn right at the traffic light.",
+      "audio": "Scusi, dov'è la stazione? Vada sempre dritto, poi giri a destra al semaforo."
+    },
+    {
+      "it": "La farmacia è di fronte alla banca.",
+      "en": "The pharmacy is opposite the bank.",
+      "audio": "La farmacia è di fronte alla banca."
+    },
+    {
+      "it": "Prenda la seconda strada a sinistra.",
+      "en": "Take the second street on the left.",
+      "audio": "Prenda la seconda strada a sinistra."
+    },
+    {
+      "it": "Il bar di Mario è in fondo alla via, accanto alla pizzeria.",
+      "en": "Mario's bar is at the end of the street, next to the pizzeria.",
+      "audio": "Il bar di Mario è in fondo alla via, accanto alla pizzeria."
+    },
+    {
+      "it": "È lontano da qui? — No, a cinque minuti a piedi.",
+      "en": "Is it far from here? — No, five minutes on foot.",
+      "audio": "È lontano da qui? No, a cinque minuti a piedi."
+    }
+  ],
+  "nota": {
+    "it": "💡 In italiano formale le direzioni si danno con il congiuntivo imperativo (Lei): 'Vada, Giri, Prenda, Attraversi'. In modo informale (tu): 'Vai, Gira, Prendi, Attraversa'. Al bar di Mario userai il tu. Con un carabiniere, il Lei.",
+    "en": "💡 In formal Italian directions are given with the imperative (Lei form): 'Vada, Giri, Prenda, Attraversi'. Informally (tu): 'Vai, Gira, Prendi, Attraversa'. At Mario's bar you'll use tu. With a police officer, Lei."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiede dove si trova un posto in modo formale?",
+        "en": "How do you ask where a place is formally?"
+      },
+      "opzioni": [
+        "Dove è la stazione?",
+        "Scusi, dov'è la stazione?",
+        "Scusami, dove stazione?",
+        "La stazione dove?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Scusi, dov'è...?' — formale e cortese. 'Scusami, dov'è...?' per l'informale.",
+        "en": "Correct! 'Scusi, dov'è...?' — formal and polite. 'Scusami, dov'è...?' for informal."
+      },
+      "feedbackErr": {
+        "it": "Formale: 'Scusi, dov'è la stazione?' Informale: 'Scusami, dov'è la stazione?'",
+        "en": "Formal: 'Scusi, dov'è la stazione?' Informal: 'Scusami, dov'è la stazione?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sempre dritto' significa…?",
+        "en": "'Sempre dritto' means…?"
+      },
+      "opzioni": [
+        "Turn right",
+        "Turn left",
+        "Straight on",
+        "Go back"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sempre dritto = straight on. 'Vada sempre dritto per due isolati.'",
+        "en": "Correct! Sempre dritto = straight on. 'Vada sempre dritto per due isolati.'"
+      },
+      "feedbackErr": {
+        "it": "Sempre dritto = straight on. Destra = right. Sinistra = left.",
+        "en": "Sempre dritto = straight on. Destra = right. Sinistra = left."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Di fronte a' significa…?",
+        "en": "'Di fronte a' means…?"
+      },
+      "opzioni": [
+        "Next to",
+        "Behind",
+        "Opposite / across from",
+        "In front of (facing)"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Di fronte a = opposite / across from. 'La farmacia è di fronte alla banca' = The pharmacy is opposite the bank.",
+        "en": "Correct! Di fronte a = opposite / across from. 'La farmacia è di fronte alla banca' = The pharmacy is opposite the bank."
+      },
+      "feedbackErr": {
+        "it": "Di fronte a = opposite. 'La farmacia è di fronte alla banca.'",
+        "en": "Di fronte a = opposite. 'La farmacia è di fronte alla banca.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Accanto a' significa…?",
+        "en": "'Accanto a' means…?"
+      },
+      "opzioni": [
+        "Far from",
+        "Opposite",
+        "Next to / beside",
+        "Between"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Accanto a = next to. 'Il bar è accanto alla farmacia' = The bar is next to the pharmacy.",
+        "en": "Correct! Accanto a = next to. 'Il bar è accanto alla farmacia' = The bar is next to the pharmacy."
+      },
+      "feedbackErr": {
+        "it": "Accanto a = next to. 'Il bar è accanto alla farmacia.'",
+        "en": "Accanto a = next to. 'Il bar è accanto alla farmacia.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dà l'indicazione 'turn right at the traffic light' in modo formale?",
+        "en": "How do you give the direction 'turn right at the traffic light' formally?"
+      },
+      "opzioni": [
+        "Gira a destra al semaforo.",
+        "Girate a destra al semaforo.",
+        "Giri a destra al semaforo.",
+        "Girare a destra al semaforo."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Modo formale (Lei): Giri a destra. Informale (tu): Gira a destra.",
+        "en": "Correct! Formal (Lei): Giri a destra. Informal (tu): Gira a destra."
+      },
+      "feedbackErr": {
+        "it": "Imperativo formale (Lei): Giri a destra al semaforo. Informale (tu): Gira a destra.",
+        "en": "Formal imperative (Lei): Giri a destra al semaforo. Informal (tu): Gira a destra."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'In fondo alla via' significa…?",
+        "en": "'In fondo alla via' means…?"
+      },
+      "opzioni": [
+        "In the middle of the street",
+        "At the beginning of the street",
+        "At the end of the street",
+        "Around the corner"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! In fondo a = at the end of. 'La piazza è in fondo alla via' = The square is at the end of the street.",
+        "en": "Correct! In fondo a = at the end of. 'La piazza è in fondo alla via' = The square is at the end of the street."
+      },
+      "feedbackErr": {
+        "it": "In fondo a = at the end of. 'In fondo alla via c'è la piazza.'",
+        "en": "In fondo a = at the end of. 'In fondo alla via c'è la piazza.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'A piedi' significa…?",
+        "en": "'A piedi' means…?"
+      },
+      "opzioni": [
+        "By car",
+        "By train",
+        "On foot",
+        "By bicycle"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! A piedi = on foot. 'È a dieci minuti a piedi' = It's ten minutes on foot.",
+        "en": "Correct! A piedi = on foot. 'È a dieci minuti a piedi' = It's ten minutes on foot."
+      },
+      "feedbackErr": {
+        "it": "A piedi = on foot. In macchina = by car. In autobus = by bus.",
+        "en": "A piedi = on foot. In macchina = by car. In autobus = by bus."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Vicino a' significa…?",
+        "en": "'Vicino a' means…?"
+      },
+      "opzioni": [
+        "Far from",
+        "Near / close to",
+        "Opposite",
+        "Between"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Vicino a = near / close to. 'È vicino alla stazione' = It's near the station.",
+        "en": "Correct! Vicino a = near / close to. 'È vicino alla stazione' = It's near the station."
+      },
+      "feedbackErr": {
+        "it": "Vicino a = near. Lontano da = far from. 'È vicino alla stazione.'",
+        "en": "Vicino a = near. Lontano da = far from. 'È vicino alla stazione.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'All'incrocio' significa…?",
+        "en": "'All'incrocio' means…?"
+      },
+      "opzioni": [
+        "At the traffic light",
+        "At the crossroads / intersection",
+        "At the roundabout",
+        "At the bus stop"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! All'incrocio = at the crossroads. 'Giri a sinistra all'incrocio' = Turn left at the crossroads.",
+        "en": "Correct! All'incrocio = at the crossroads. 'Giri a sinistra all'incrocio' = Turn left at the crossroads."
+      },
+      "feedbackErr": {
+        "it": "All'incrocio = at the crossroads. Al semaforo = at the traffic light.",
+        "en": "All'incrocio = at the crossroads. Al semaforo = at the traffic light."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Take the first street on the left' in modo informale?",
+        "en": "How do you say 'Take the first street on the left' informally?"
+      },
+      "opzioni": [
+        "Prenda la prima strada a sinistra.",
+        "Prendi la prima strada a sinistra.",
+        "Prendete la prima strada a sinistra.",
+        "Prendendo la prima strada a sinistra."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Informale (tu): Prendi. Formale (Lei): Prenda. 'Prendi la prima strada a sinistra.'",
+        "en": "Correct! Informal (tu): Prendi. Formal (Lei): Prenda. 'Prendi la prima strada a sinistra.'"
+      },
+      "feedbackErr": {
+        "it": "Informale (tu): Prendi la prima strada a sinistra. Formale (Lei): Prenda la prima strada a sinistra.",
+        "en": "Informal (tu): Prendi la prima strada a sinistra. Formal (Lei): Prenda la prima strada a sinistra."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Tra la banca e la farmacia' significa…?",
+        "en": "'Tra la banca e la farmacia' means…?"
+      },
+      "opzioni": [
+        "Next to the bank",
+        "Behind the pharmacy",
+        "Between the bank and the pharmacy",
+        "Opposite the bank"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tra... e... = between... and... 'Il bar è tra la banca e la farmacia.'",
+        "en": "Correct! Tra... e... = between... and... 'Il bar è tra la banca e la farmacia.'"
+      },
+      "feedbackErr": {
+        "it": "Tra... e... = between. 'Il bar è tra la banca e la farmacia.'",
+        "en": "Tra... e... = between. 'Il bar è tra la banca e la farmacia.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'C'è un / Ci sono' si usa per…?",
+        "en": "'C'è / Ci sono' is used for…?"
+      },
+      "opzioni": [
+        "Asking directions only",
+        "Saying there is/there are",
+        "Saying how far something is",
+        "Giving an address"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! C'è + singolare = there is. Ci sono + plurale = there are. 'C'è una farmacia vicino?' = Is there a pharmacy nearby?",
+        "en": "Correct! C'è + singular = there is. Ci sono + plural = there are. 'C'è una farmacia vicino?' = Is there a pharmacy nearby?"
+      },
+      "feedbackErr": {
+        "it": "C'è = there is (singolare). Ci sono = there are (plurale). 'C'è una farmacia vicino?'",
+        "en": "C'è = there is (singular). Ci sono = there are (plural). 'C'è una farmacia vicino?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Attraversi il ponte' significa…?",
+        "en": "'Attraversi il ponte' means…?"
+      },
+      "opzioni": [
+        "Go around the bridge",
+        "Cross the bridge",
+        "Stop at the bridge",
+        "Take the bridge road"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Attraversare = to cross. Attraversi (Lei formale) il ponte = Cross the bridge.",
+        "en": "Correct! Attraversare = to cross. Attraversi (formal Lei) il ponte = Cross the bridge."
+      },
+      "feedbackErr": {
+        "it": "Attraversare = to cross. Attraversi (formale) / Attraversa (informale) il ponte.",
+        "en": "Attraversare = to cross. Attraversi (formal) / Attraversa (informal) il ponte."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'turn around / go back' in italiano?",
+        "en": "How do you say 'turn around / go back' in Italian?"
+      },
+      "opzioni": [
+        "Vada avanti",
+        "Torni indietro / Giri intorno",
+        "Stia fermo",
+        "Vada sempre dritto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Tornare indietro = to go back. 'Torni indietro e poi giri a destra.'",
+        "en": "Correct! Tornare indietro = to go back. 'Torni indietro e poi giri a destra.'"
+      },
+      "feedbackErr": {
+        "it": "Tornare indietro = go back. 'Torni indietro e poi giri a destra.'",
+        "en": "Tornare indietro = go back. 'Torni indietro e poi giri a destra.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Non si può sbagliare' nelle direzioni significa…?",
+        "en": "'Non si può sbagliare' in directions means…?"
+      },
+      "opzioni": [
+        "You can't miss it",
+        "It's very difficult",
+        "You must turn right",
+        "There's no way"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 'Non si può sbagliare' = you can't miss it / you can't go wrong. Frase tipica quando le indicazioni sono semplici.",
+        "en": "Correct! 'Non si può sbagliare' = you can't miss it / you can't go wrong. Typical phrase when directions are simple."
+      },
+      "feedbackErr": {
+        "it": "'Non si può sbagliare' = you can't miss it. Frase rassicurante in italiano.",
+        "en": "'Non si può sbagliare' = you can't miss it. A reassuring phrase in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'A destra' e 'sulla destra' — qual è la differenza?",
+        "en": "'A destra' and 'sulla destra' — what is the difference?"
+      },
+      "opzioni": [
+        "Nessuna differenza significativa",
+        "A destra = turn right (direction). Sulla destra = on the right (position)",
+        "A destra = left, sulla destra = right",
+        "Solo registro diverso"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Giri a destra' = turn right (azione). 'È sulla destra' = it's on the right (posizione). Distinzione sottile ma reale.",
+        "en": "Correct! 'Giri a destra' = turn right (action). 'È sulla destra' = it's on the right (position). Subtle but real distinction."
+      },
+      "feedbackErr": {
+        "it": "A destra = direction (turn right). Sulla destra = position (on the right side). 'Giri a destra, poi la trovi sulla destra.'",
+        "en": "A destra = direction (turn right). Sulla destra = position (on the right side). 'Giri a destra, poi la trovi sulla destra.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Dietro a' significa…?",
+        "en": "'Dietro a' means…?"
+      },
+      "opzioni": [
+        "In front of",
+        "Next to",
+        "Behind",
+        "Above"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Dietro a = behind. 'Il parcheggio è dietro alla chiesa' = The car park is behind the church.",
+        "en": "Correct! Dietro a = behind. 'Il parcheggio è dietro alla chiesa' = The car park is behind the church."
+      },
+      "feedbackErr": {
+        "it": "Dietro a = behind. Davanti a = in front of. 'Il parcheggio è dietro alla chiesa.'",
+        "en": "Dietro a = behind. Davanti a = in front of. 'Il parcheggio è dietro alla chiesa.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'How do I get to the station?'",
+        "en": "How do you say 'How do I get to the station?'"
+      },
+      "opzioni": [
+        "Dove è la stazione?",
+        "Come arrivo alla stazione?",
+        "Quanto costa la stazione?",
+        "La stazione è qui?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Come arrivo a...?' = How do I get to...? Alternativa: 'Come si arriva a...?'",
+        "en": "Correct! 'Come arrivo a...?' = How do I get to...? Alternative: 'Come si arriva a...?'"
+      },
+      "feedbackErr": {
+        "it": "'Come arrivo alla stazione?' = How do I get to the station? Oppure 'Come si arriva alla stazione?'",
+        "en": "'Come arrivo alla stazione?' = How do I get to the station? Or 'Come si arriva alla stazione?'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'È qui vicino?' chiede…?",
+        "en": "'È qui vicino?' asks…?"
+      },
+      "opzioni": [
+        "How long does it take?",
+        "Is it nearby?",
+        "Is this the right way?",
+        "Is it on this street?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'È qui vicino?' = Is it nearby? Risposta tipica: 'Sì, a due minuti a piedi' o 'No, è un po' lontano.'",
+        "en": "Correct! 'È qui vicino?' = Is it nearby? Typical answer: 'Sì, a due minuti a piedi' or 'No, è un po' lontano.'"
+      },
+      "feedbackErr": {
+        "it": "'È qui vicino?' = Is it nearby? / Is it close? 'Sì, è qui vicino' = Yes, it's nearby.",
+        "en": "'È qui vicino?' = Is it nearby? / Is it close? 'Sì, è qui vicino' = Yes, it's nearby."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'La seconda a destra' significa…?",
+        "en": "'La seconda a destra' means…?"
+      },
+      "opzioni": [
+        "The first street on the right",
+        "The second street on the right",
+        "The second traffic light on the right",
+        "The second building on the right"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! La seconda (strada) a destra = the second street on the right. 'Prendi la seconda a destra.'",
+        "en": "Correct! La seconda (strada) a destra = the second street on the right. 'Prendi la seconda a destra.'"
+      },
+      "feedbackErr": {
+        "it": "La seconda a destra = the second street on the right. Prima = first. Seconda = second. Terza = third.",
+        "en": "La seconda a destra = the second street on the right. Prima = first. Seconda = second. Terza = third."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Scusi' si usa per scusarsi (I'm sorry), non per attirare l'attenzione.",
+        "en": "'Scusi' is used to apologise (I'm sorry), not to get someone's attention."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Scusi' ha due usi: attirare l'attenzione (Excuse me) E scusarsi (I'm sorry, formal). In contesto direzioni = Excuse me.",
+        "en": "Correct! 'Scusi' has two uses: getting attention (Excuse me) AND apologising (I'm sorry, formal). In directions context = Excuse me."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Scusi' si usa sia per attirare l'attenzione ('Scusi, dov'è...?') sia per scusarsi in modo formale.",
+        "en": "FALSE! 'Scusi' is used both to get attention ('Scusi, dov'è...?') and to apologise formally."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vada' è l'imperativo formale (Lei) di 'andare'.",
+        "en": "'Vada' is the formal imperative (Lei) of 'andare'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Imperativo formale: Vada (Lei) = Go. Informale: Vai (tu) = Go. 'Vada sempre dritto.'",
+        "en": "Correct! Formal imperative: Vada (Lei) = Go. Informal: Vai (tu) = Go. 'Vada sempre dritto.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Vada = imperativo formale (Lei) di andare. 'Vada sempre dritto, poi giri a destra.'",
+        "en": "True! Vada = formal imperative (Lei) of andare. 'Vada sempre dritto, poi giri a destra.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Di fronte' e 'davanti' hanno esattamente lo stesso significato.",
+        "en": "'Di fronte' and 'davanti' have exactly the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Di fronte a = opposite (across the street/road). Davanti a = in front of (directly before). Sfumatura diversa.",
+        "en": "Correct! Di fronte a = opposite (across the street/road). Davanti a = in front of (directly before). Different nuance."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Di fronte = opposite (dall'altra parte). Davanti = in front of (di fronte ma più vicino, non necessariamente dall'altra parte).",
+        "en": "FALSE! Di fronte = opposite (on the other side). Davanti = in front of (facing but not necessarily across the street)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sempre dritto' e 'tutto dritto' hanno lo stesso significato.",
+        "en": "'Sempre dritto' and 'tutto dritto' have the same meaning."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sono sinonimi: sia 'sempre dritto' che 'tutto dritto' significano straight on / straight ahead.",
+        "en": "Correct! They are synonyms: both 'sempre dritto' and 'tutto dritto' mean straight on / straight ahead."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sempre dritto = tutto dritto = straight on. Entrambe le forme sono usate in italiano.",
+        "en": "True! Sempre dritto = tutto dritto = straight on. Both forms are used in Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A due passi' significa letteralmente 'two steps away'.",
+        "en": "'A due passi' literally means 'two steps away'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'A due passi' è un'espressione idiomatica che significa 'very nearby / just around the corner', non letteralmente due passi.",
+        "en": "Correct! 'A due passi' is an idiomatic expression meaning 'very nearby / just around the corner', not literally two steps."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'A due passi' = very nearby (idiomatico). Non significa letteralmente due passi — significa 'molto vicino'.",
+        "en": "FALSE! 'A due passi' = very nearby (idiomatic). It doesn't literally mean two steps — it means 'very close'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Giri a destra' (formale) e 'Gira a destra' (informale) danno la stessa indicazione.",
+        "en": "'Giri a destra' (formal) and 'Gira a destra' (informal) give the same direction."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stesso significato, registro diverso. Giri (Lei formale) / Gira (tu informale) = turn right.",
+        "en": "Correct! Same meaning, different register. Giri (formal Lei) / Gira (informal tu) = turn right."
+      },
+      "feedbackErr": {
+        "it": "Vero! Giri (formale Lei) = Gira (informale tu). Stesso significato: turn right.",
+        "en": "True! Giri (formal Lei) = Gira (informal tu). Same meaning: turn right."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vicino' e 'lontano' sono antonimi (parole di significato opposto).",
+        "en": "'Vicino' and 'lontano' are antonyms (words with opposite meanings)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Vicino = near. Lontano = far. 'È vicino?' → 'No, è lontano.' Antonimi perfetti.",
+        "en": "Correct! Vicino = near. Lontano = far. 'È vicino?' → 'No, è lontano.' Perfect antonyms."
+      },
+      "feedbackErr": {
+        "it": "Vero! Vicino (near) e lontano (far) sono antonimi. 'È vicino?' 'No, è lontano.'",
+        "en": "True! Vicino (near) and lontano (far) are antonyms. 'È vicino?' 'No, è lontano.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In Italia è normale chiedere le indicazioni a un passante per strada.",
+        "en": "In Italy it is normal to ask directions from a passer-by on the street."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Chiedere le indicazioni a passanti è normalissimo in Italia. Gli italiani generalmente rispondono volentieri.",
+        "en": "Correct! Asking passers-by for directions is perfectly normal in Italy. Italians generally respond willingly."
+      },
+      "feedbackErr": {
+        "it": "Vero! In Italia è normale e comune chiedere indicazioni ai passanti. 'Scusi, sa dov'è...?'",
+        "en": "True! In Italy it's normal and common to ask passers-by for directions. 'Scusi, sa dov'è...?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'L'isolato' = a city block — non esiste questa parola in italiano.",
+        "en": "'L'isolato' = a city block — this word doesn't exist in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Isolato' esiste in italiano e significa city block. 'Due isolati più avanti' = two blocks ahead.",
+        "en": "Correct! 'Isolato' exists in Italian and means city block. 'Due isolati più avanti' = two blocks ahead."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Isolato' esiste in italiano = city block. 'Vada dritto per due isolati.' = Go straight for two blocks.",
+        "en": "FALSE! 'Isolato' exists in Italian = city block. 'Vada dritto per due isolati.' = Go straight for two blocks."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Alla rotonda' si riferisce a un incrocio circolare (roundabout).",
+        "en": "'Alla rotonda' refers to a circular junction (roundabout)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La rotonda = roundabout. 'Alla rotonda, prenda la terza uscita' = At the roundabout, take the third exit.",
+        "en": "Correct! La rotonda = roundabout. 'Alla rotonda, prenda la terza uscita' = At the roundabout, take the third exit."
+      },
+      "feedbackErr": {
+        "it": "Vero! Rotonda = roundabout. 'Alla rotonda, giri a destra' = At the roundabout, turn right.",
+        "en": "True! Rotonda = roundabout. 'Alla rotonda, giri a destra' = At the roundabout, turn right."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sopra' e 'sotto' si possono usare per indicare i piani di un edificio.",
+        "en": "'Sopra' and 'sotto' can be used to indicate floors of a building."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sopra = above/upstairs. Sotto = below/downstairs. 'L'ufficio è sopra il bar' = The office is above the bar.",
+        "en": "Correct! Sopra = above/upstairs. Sotto = below/downstairs. 'L'ufficio è sopra il bar' = The office is above the bar."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sopra (above/upstairs) e sotto (below/downstairs) si usano anche per i piani degli edifici.",
+        "en": "True! Sopra (above/upstairs) and sotto (below/downstairs) are also used for building floors."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non lo so' è una risposta accettabile quando si chiedono le indicazioni.",
+        "en": "'Non lo so' is an acceptable answer when someone asks for directions."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Non lo so' = I don't know. È perfettamente normale — non tutti conoscono tutte le strade. Meglio 'non lo so' che indicazioni sbagliate.",
+        "en": "Correct! 'Non lo so' = I don't know. It's perfectly normal — not everyone knows every street. Better 'I don't know' than wrong directions."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Non lo so' è normale e onesto. Meglio ammettere di non sapere che dare indicazioni sbagliate.",
+        "en": "True! 'Non lo so' is normal and honest. Better to admit you don't know than to give wrong directions."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dritto' e 'diretto' hanno lo stesso significato quando si parla di direzioni.",
+        "en": "'Dritto' and 'diretto' have the same meaning when talking about directions."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Dritto = straight (physical direction). Diretto = direct (senza fermate — un treno diretto). Significati diversi.",
+        "en": "Correct! Dritto = straight (physical direction). Diretto = direct (without stops — un treno diretto). Different meanings."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Dritto = straight on (direzione fisica). Diretto = direct (treno/volo senza fermate). Significati diversi.",
+        "en": "FALSE! Dritto = straight on (physical direction). Diretto = direct (train/flight without stops). Different meanings."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Il semaforo' = the traffic light.",
+        "en": "'Il semaforo' = the traffic light."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il semaforo = traffic light. 'Giri a destra al semaforo' = Turn right at the traffic light.",
+        "en": "Correct! Il semaforo = traffic light. 'Giri a destra al semaforo' = Turn right at the traffic light."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il semaforo = traffic light. 'Al semaforo giri a sinistra.'",
+        "en": "True! Il semaforo = traffic light. 'Al semaforo giri a sinistra.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sulla destra' indica una posizione, 'a destra' indica una direzione.",
+        "en": "'Sulla destra' indicates a position, 'a destra' indicates a direction."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A destra = turn right (movimento). Sulla destra = on the right side (posizione). 'Giri a destra, poi la troverà sulla destra.'",
+        "en": "Correct! A destra = turn right (movement). Sulla destra = on the right side (position). 'Giri a destra, poi la troverà sulla destra.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! A destra = direzione (turn). Sulla destra = posizione (on the right side). 'Giri a destra → troverà il bar sulla destra.'",
+        "en": "True! A destra = direction (turn). Sulla destra = position (on the right side). 'Giri a destra → troverà il bar sulla destra.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Prendi il bus numero 14' usa la forma imperativa informale (tu).",
+        "en": "'Prendi il bus numero 14' uses the informal imperative (tu)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Prendi (tu, informale). Prenda (Lei, formale). 'Prendi il bus numero 14' = Take bus number 14 (informal).",
+        "en": "Correct! Prendi (tu, informal). Prenda (Lei, formal). 'Prendi il bus numero 14' = Take bus number 14 (informal)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Prendi = imperativo informale (tu). Formale: 'Prenda il bus numero 14.'",
+        "en": "True! Prendi = informal imperative (tu). Formal: 'Prenda il bus numero 14.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'In centro' significa nel centro storico / downtown.",
+        "en": "'In centro' means in the historic centre / downtown."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In centro = downtown / in the centre. 'Il bar è in centro' = The bar is in the centre.",
+        "en": "Correct! In centro = downtown / in the centre. 'Il bar è in centro' = The bar is in the centre."
+      },
+      "feedbackErr": {
+        "it": "Vero! In centro = in the centre / downtown. 'Abito in centro' = I live downtown.",
+        "en": "True! In centro = in the centre / downtown. 'Abito in centro' = I live downtown."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Traversare' e 'attraversare' sono sinonimi e significano 'to cross'.",
+        "en": "'Traversare' and 'attraversare' are synonyms meaning 'to cross'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Attraversare e traversare sono sinonimi. Attraversare è più comune nel parlato standard.",
+        "en": "Correct! Attraversare and traversare are synonyms. Attraversare is more common in standard speech."
+      },
+      "feedbackErr": {
+        "it": "Vero! Attraversare = traversare = to cross. Attraversare è più frequente nello standard.",
+        "en": "True! Attraversare = traversare = to cross. Attraversare is more frequent in standard Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'La fermata dell'autobus' = the bus stop.",
+        "en": "'La fermata dell'autobus' = the bus stop."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! La fermata = stop (bus, metro, tram). 'La fermata dell'autobus è qui vicino?' = Is the bus stop nearby?",
+        "en": "Correct! La fermata = stop (bus, metro, tram). 'La fermata dell'autobus è qui vicino?' = Is the bus stop nearby?"
+      },
+      "feedbackErr": {
+        "it": "Vero! La fermata (dell'autobus/del tram/della metro) = the stop. 'Dov'è la fermata più vicina?'",
+        "en": "True! La fermata (dell'autobus/del tram/della metro) = the stop. 'Dov'è la fermata più vicina?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Questo è un posto turistico' significa 'This is a tourist attraction'.",
+        "en": "'Questo è un posto turistico' means 'This is a tourist attraction'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Posto turistico' = a touristy place. 'Attrazione turistica' o 'luogo di interesse turistico' = tourist attraction. Sfumatura diversa.",
+        "en": "Correct! 'Posto turistico' = a touristy place. 'Attrazione turistica' or 'luogo di interesse turistico' = tourist attraction. Different nuance."
+      },
+      "feedbackErr": {
+        "it": "FALSO — sfumatura diversa! 'Posto turistico' = touristy place. 'Attrazione turistica' = tourist attraction.",
+        "en": "FALSE — different nuance! 'Posto turistico' = touristy place. 'Attrazione turistica' = tourist attraction."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi dove si trova la stazione (formale): ___ la stazione?",
+        "en": "Ask where the station is (formal): ___ the station?"
+      },
+      "parole": [
+        "Scusi",
+        "dov'è",
+        "la",
+        "stazione"
+      ],
+      "distrattori": [
+        "Scusami",
+        "dov'era",
+        "dove",
+        "il"
+      ],
+      "correct": [
+        "Scusi",
+        "dov'è",
+        "la",
+        "stazione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Scusi, dov'è la stazione?' — formale e cortese.",
+        "en": "Perfect! 'Scusi, dov'è la stazione?' — formal and polite."
+      },
+      "feedbackErr": {
+        "it": "Formale: 'Scusi, dov'è la stazione?'",
+        "en": "Formal: 'Scusi, dov'è la stazione?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dai l'indicazione di andare dritto (formale): ___ per due isolati.",
+        "en": "Give the direction to go straight (formal): ___ for two blocks."
+      },
+      "parole": [
+        "Vada",
+        "sempre",
+        "dritto",
+        "per",
+        "due",
+        "isolati"
+      ],
+      "distrattori": [
+        "Vai",
+        "dritto",
+        "tutto",
+        "avanti"
+      ],
+      "correct": [
+        "Vada",
+        "sempre",
+        "dritto",
+        "per",
+        "due",
+        "isolati"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Imperativo formale (Lei): Vada. 'Vada sempre dritto per due isolati.'",
+        "en": "Perfect! Formal imperative (Lei): Vada. 'Vada sempre dritto per due isolati.'"
+      },
+      "feedbackErr": {
+        "it": "Imperativo formale → Vada (non Vai). 'Vada sempre dritto per due isolati.'",
+        "en": "Formal imperative → Vada (not Vai). 'Vada sempre dritto per due isolati.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che la farmacia è di fronte alla banca: La farmacia è ___ alla banca.",
+        "en": "Say the pharmacy is opposite the bank: The pharmacy is ___ the bank."
+      },
+      "parole": [
+        "di",
+        "fronte"
+      ],
+      "distrattori": [
+        "accanto",
+        "vicino",
+        "dietro",
+        "davanti"
+      ],
+      "correct": [
+        "di",
+        "fronte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Di fronte a = opposite. 'La farmacia è di fronte alla banca.'",
+        "en": "Perfect! Di fronte a = opposite. 'La farmacia è di fronte alla banca.'"
+      },
+      "feedbackErr": {
+        "it": "Opposite = di fronte a. 'La farmacia è di fronte alla banca.'",
+        "en": "Opposite = di fronte a. 'La farmacia è di fronte alla banca.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Indica di girare a sinistra al semaforo (informale): ___ a sinistra ___.",
+        "en": "Direct to turn left at the traffic light (informal): ___ left ___ the traffic light."
+      },
+      "parole": [
+        "Gira",
+        "a",
+        "sinistra",
+        "al",
+        "semaforo"
+      ],
+      "distrattori": [
+        "Giri",
+        "destra",
+        "incrocio",
+        "rotonda"
+      ],
+      "correct": [
+        "Gira",
+        "a",
+        "sinistra",
+        "al",
+        "semaforo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Informale (tu): Gira. 'Gira a sinistra al semaforo.'",
+        "en": "Perfect! Informal (tu): Gira. 'Gira a sinistra al semaforo.'"
+      },
+      "feedbackErr": {
+        "it": "Informale (tu): Gira (non Giri che è formale). 'Gira a sinistra al semaforo.'",
+        "en": "Informal (tu): Gira (not Giri which is formal). 'Gira a sinistra al semaforo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il bar è alla fine della via: Il bar è ___ della via.",
+        "en": "The bar is at the end of the street: The bar is ___ the street."
+      },
+      "parole": [
+        "in",
+        "fondo",
+        "alla",
+        "via"
+      ],
+      "distrattori": [
+        "alla",
+        "fine",
+        "del",
+        "strada"
+      ],
+      "correct": [
+        "in",
+        "fondo",
+        "alla",
+        "via"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! In fondo a = at the end of. 'Il bar è in fondo alla via.'",
+        "en": "Perfect! In fondo a = at the end of. 'Il bar è in fondo alla via.'"
+      },
+      "feedbackErr": {
+        "it": "At the end of = in fondo a. 'Il bar è in fondo alla via.'",
+        "en": "At the end of = in fondo a. 'Il bar è in fondo alla via.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che è a 5 minuti a piedi: È ___ a piedi.",
+        "en": "Say it's 5 minutes on foot: It's ___ on foot."
+      },
+      "parole": [
+        "a",
+        "cinque",
+        "minuti",
+        "a",
+        "piedi"
+      ],
+      "distrattori": [
+        "circa",
+        "distante",
+        "lontano",
+        "cammino"
+      ],
+      "correct": [
+        "a",
+        "cinque",
+        "minuti",
+        "a",
+        "piedi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'A cinque minuti a piedi' = five minutes on foot.",
+        "en": "Perfect! 'A cinque minuti a piedi' = five minutes on foot."
+      },
+      "feedbackErr": {
+        "it": "Five minutes on foot = a cinque minuti a piedi.",
+        "en": "Five minutes on foot = a cinque minuti a piedi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Descrivi che il ristorante è tra la banca e il supermercato: Il ristorante è ___ la banca ___ il supermercato.",
+        "en": "Describe the restaurant between the bank and supermarket: The restaurant is ___ the bank ___ the supermarket."
+      },
+      "parole": [
+        "tra",
+        "la",
+        "banca",
+        "e",
+        "il",
+        "supermercato"
+      ],
+      "distrattori": [
+        "accanto",
+        "fronte",
+        "dietro"
+      ],
+      "correct": [
+        "tra",
+        "la",
+        "banca",
+        "e",
+        "il",
+        "supermercato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tra... e... = between. 'Il ristorante è tra la banca e il supermercato.'",
+        "en": "Perfect! Tra... e... = between. 'Il ristorante è tra la banca e il supermercato.'"
+      },
+      "feedbackErr": {
+        "it": "Between = tra... e... 'Il ristorante è tra la banca e il supermercato.'",
+        "en": "Between = tra... e... 'Il ristorante è tra la banca e il supermercato.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi come arrivare al museo (informale): ___ al museo?",
+        "en": "Ask how to get to the museum (informal): ___ to the museum?"
+      },
+      "parole": [
+        "Come",
+        "arrivo",
+        "al",
+        "museo"
+      ],
+      "distrattori": [
+        "Dove",
+        "arrivi",
+        "dal",
+        "museo"
+      ],
+      "correct": [
+        "Come",
+        "arrivo",
+        "al",
+        "museo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Come arrivo al museo?' = How do I get to the museum?",
+        "en": "Perfect! 'Come arrivo al museo?' = How do I get to the museum?"
+      },
+      "feedbackErr": {
+        "it": "How do I get to = Come arrivo a. 'Come arrivo al museo?'",
+        "en": "How do I get to = Come arrivo a. 'Come arrivo al museo?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rasssicura: non si può sbagliare. Dì: ___!",
+        "en": "Reassure: you can't miss it. Say: ___!"
+      },
+      "parole": [
+        "Non",
+        "si",
+        "può",
+        "sbagliare"
+      ],
+      "distrattori": [
+        "Nessuno",
+        "sbaglia",
+        "mai",
+        "non",
+        "puoi"
+      ],
+      "correct": [
+        "Non",
+        "si",
+        "può",
+        "sbagliare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non si può sbagliare!' = You can't miss it!",
+        "en": "Perfect! 'Non si può sbagliare!' = You can't miss it!"
+      },
+      "feedbackErr": {
+        "it": "You can't miss it = Non si può sbagliare! Frase tipica per rassicurare.",
+        "en": "You can't miss it = Non si può sbagliare! Typical reassuring phrase."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Indica di prendere la seconda strada a destra (formale): ___ la seconda ___.",
+        "en": "Direct to take the second street on the right (formal): ___ the second ___."
+      },
+      "parole": [
+        "Prenda",
+        "la",
+        "seconda",
+        "strada",
+        "a",
+        "destra"
+      ],
+      "distrattori": [
+        "Prendi",
+        "prima",
+        "sinistra",
+        "terza"
+      ],
+      "correct": [
+        "Prenda",
+        "la",
+        "seconda",
+        "strada",
+        "a",
+        "destra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Imperativo formale: Prenda. 'Prenda la seconda strada a destra.'",
+        "en": "Perfect! Formal imperative: Prenda. 'Prenda la seconda strada a destra.'"
+      },
+      "feedbackErr": {
+        "it": "Formale (Lei): Prenda la seconda strada a destra. Informale: Prendi la seconda strada a destra.",
+        "en": "Formal (Lei): Prenda la seconda strada a destra. Informal: Prendi la seconda strada a destra."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che il bar è qui vicino (very nearby): Il bar è ___.",
+        "en": "Say the bar is very nearby: The bar is ___."
+      },
+      "parole": [
+        "a",
+        "due",
+        "passi"
+      ],
+      "distrattori": [
+        "qui",
+        "vicino",
+        "lontano",
+        "distante"
+      ],
+      "correct": [
+        "a",
+        "due",
+        "passi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! A due passi = very nearby (idiomatic). 'Il bar è a due passi.'",
+        "en": "Perfect! A due passi = very nearby (idiomatic). 'Il bar è a due passi.'"
+      },
+      "feedbackErr": {
+        "it": "Very nearby (idiomatic) = a due passi. 'Il bar è a due passi.'",
+        "en": "Very nearby (idiomatic) = a due passi. 'Il bar è a due passi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "La farmacia è accanto al bar: La farmacia è ___ al bar.",
+        "en": "The pharmacy is next to the bar: The pharmacy is ___ the bar."
+      },
+      "parole": [
+        "accanto"
+      ],
+      "distrattori": [
+        "di fronte",
+        "dietro",
+        "vicino",
+        "sopra"
+      ],
+      "correct": [
+        "accanto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Accanto a = next to. 'La farmacia è accanto al bar.'",
+        "en": "Perfect! Accanto a = next to. 'La farmacia è accanto al bar.'"
+      },
+      "feedbackErr": {
+        "it": "Next to = accanto a. 'La farmacia è accanto al bar.'",
+        "en": "Next to = accanto a. 'La farmacia è accanto al bar.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiedi se è lontano da qui: ___ da qui?",
+        "en": "Ask if it's far from here: ___ from here?"
+      },
+      "parole": [
+        "È",
+        "lontano",
+        "da",
+        "qui"
+      ],
+      "distrattori": [
+        "Quanto",
+        "vicino",
+        "distante",
+        "qui"
+      ],
+      "correct": [
+        "È",
+        "lontano",
+        "da",
+        "qui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'È lontano da qui?' = Is it far from here?",
+        "en": "Perfect! 'È lontano da qui?' = Is it far from here?"
+      },
+      "feedbackErr": {
+        "it": "Is it far from here? = È lontano da qui?",
+        "en": "Is it far from here? = È lontano da qui?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Indica di attraversare la piazza (formale): ___ la piazza.",
+        "en": "Direct to cross the square (formal): ___ the square."
+      },
+      "parole": [
+        "Attraversi",
+        "la",
+        "piazza"
+      ],
+      "distrattori": [
+        "Attraversa",
+        "Traversa",
+        "Passi",
+        "Vada"
+      ],
+      "correct": [
+        "Attraversi",
+        "la",
+        "piazza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Imperativo formale di attraversare: Attraversi. 'Attraversi la piazza.'",
+        "en": "Perfect! Formal imperative of attraversare: Attraversi. 'Attraversi la piazza.'"
+      },
+      "feedbackErr": {
+        "it": "Imperativo formale: Attraversi (Lei). Informale: Attraversa (tu). 'Attraversi la piazza.'",
+        "en": "Formal imperative: Attraversi (Lei). Informal: Attraversa (tu). 'Attraversi la piazza.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Il ristorante è dietro la chiesa: Il ristorante è ___ la chiesa.",
+        "en": "The restaurant is behind the church: The restaurant is ___ the church."
+      },
+      "parole": [
+        "dietro",
+        "alla"
+      ],
+      "distrattori": [
+        "di fronte",
+        "accanto",
+        "davanti",
+        "vicino"
+      ],
+      "correct": [
+        "dietro",
+        "alla"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Dietro a = behind. 'Il ristorante è dietro alla chiesa.'",
+        "en": "Perfect! Dietro a = behind. 'Il ristorante è dietro alla chiesa.'"
+      },
+      "feedbackErr": {
+        "it": "Behind = dietro a. 'Il ristorante è dietro alla chiesa.'",
+        "en": "Behind = dietro a. 'Il ristorante è dietro alla chiesa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "C'è una farmacia vicino? Chiedi: ___ una farmacia ___ ?",
+        "en": "Is there a pharmacy nearby? Ask: ___ a pharmacy ___ ?"
+      },
+      "parole": [
+        "C'è",
+        "una",
+        "farmacia",
+        "qui",
+        "vicino"
+      ],
+      "distrattori": [
+        "Ci",
+        "sono",
+        "farmacie",
+        "lontano"
+      ],
+      "correct": [
+        "C'è",
+        "una",
+        "farmacia",
+        "qui",
+        "vicino"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'C'è una farmacia qui vicino?' = Is there a pharmacy nearby?",
+        "en": "Perfect! 'C'è una farmacia qui vicino?' = Is there a pharmacy nearby?"
+      },
+      "feedbackErr": {
+        "it": "There is a... = C'è una... 'C'è una farmacia qui vicino?'",
+        "en": "There is a... = C'è una... 'C'è una farmacia qui vicino?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Indica di girare alla rotonda (formale): ___ alla ___.",
+        "en": "Direct to turn at the roundabout (formal): ___ at the ___."
+      },
+      "parole": [
+        "Giri",
+        "alla",
+        "rotonda"
+      ],
+      "distrattori": [
+        "Gira",
+        "incrocio",
+        "semaforo",
+        "piazza"
+      ],
+      "correct": [
+        "Giri",
+        "alla",
+        "rotonda"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Formale (Lei): Giri alla rotonda. 'Giri alla rotonda e prenda la seconda uscita.'",
+        "en": "Perfect! Formal (Lei): Giri alla rotonda. 'Giri alla rotonda e prenda la seconda uscita.'"
+      },
+      "feedbackErr": {
+        "it": "Formale: Giri alla rotonda. Informale: Gira alla rotonda.",
+        "en": "Formal: Giri alla rotonda. Informal: Gira alla rotonda."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Non sai dove si trova. Dì onestamente: ___.",
+        "en": "You don't know where it is. Say honestly: ___."
+      },
+      "parole": [
+        "Non",
+        "lo",
+        "so",
+        "mi",
+        "dispiace"
+      ],
+      "distrattori": [
+        "Forse",
+        "vicino",
+        "sinistra",
+        "dritto"
+      ],
+      "correct": [
+        "Non",
+        "lo",
+        "so",
+        "mi",
+        "dispiace"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non lo so, mi dispiace' = I don't know, I'm sorry. Risposta onesta e utile.",
+        "en": "Perfect! 'Non lo so, mi dispiace' = I don't know, I'm sorry. Honest and helpful answer."
+      },
+      "feedbackErr": {
+        "it": "I don't know, sorry = Non lo so, mi dispiace. Risposta onesta.",
+        "en": "I don't know, sorry = Non lo so, mi dispiace. Honest answer."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "L'ufficio è al secondo piano: L'ufficio è ___.",
+        "en": "The office is on the second floor: The office is ___."
+      },
+      "parole": [
+        "al",
+        "secondo",
+        "piano"
+      ],
+      "distrattori": [
+        "secondo",
+        "livello",
+        "piano",
+        "sopra"
+      ],
+      "correct": [
+        "al",
+        "secondo",
+        "piano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Al secondo piano = on the second floor. Piano = floor/level.",
+        "en": "Perfect! Al secondo piano = on the second floor. Piano = floor/level."
+      },
+      "feedbackErr": {
+        "it": "Second floor = al secondo piano. 'L'ufficio è al secondo piano.'",
+        "en": "Second floor = al secondo piano. 'L'ufficio è al secondo piano.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dì che la piazza è sulla destra (posizione): La piazza è ___.",
+        "en": "Say the square is on the right (position): The square is ___."
+      },
+      "parole": [
+        "sulla",
+        "destra"
+      ],
+      "distrattori": [
+        "a",
+        "destra",
+        "sinistra",
+        "di"
+      ],
+      "correct": [
+        "sulla",
+        "destra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sulla destra = on the right (posizione). 'La piazza è sulla destra.'",
+        "en": "Perfect! Sulla destra = on the right (position). 'La piazza è sulla destra.'"
+      },
+      "feedbackErr": {
+        "it": "Posizione = sulla destra. Direzione = a destra. 'La piazza è sulla destra.'",
+        "en": "Position = sulla destra. Direction = a destra. 'La piazza è sulla destra.'"
+      }
+    }
+  ]
+}

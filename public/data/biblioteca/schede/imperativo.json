@@ -1,0 +1,1483 @@
+{
+  "id": "imperativo",
+  "categoria": "grammatica",
+  "emoji": "👉",
+  "livello": "A2",
+  "titolo": {
+    "it": "Imperativo",
+    "en": "Imperative"
+  },
+  "mario": "Vai! Vieni! Mangia! Aspetta! Parla più lento! Questi sono imperativi. In italiano cambiano forma a seconda di chi stai comandando — e con il Lei formale si ribaltano.",
+  "marioEn": "Vai! Vieni! Mangia! Aspetta! Parla più lento! These are imperatives. In Italian they change form depending on who you're commanding — and with formal Lei they flip.",
+  "perche": {
+    "it": "In inglese l'imperativo è semplicissimo: 'Eat!', 'Go!', 'Come!' — una forma sola per tutti. In italiano cambia per persona: mangia (tu), mangiate (voi), mangi (Lei formale). La cosa più sorprendente è il Lei formale: invece di usare l'imperativo normale, si usa il congiuntivo presente. 'Mangi!' al posto di 'Mangia!' — la forma cambia completamente. Questo perché storicamente il congiuntivo esprimeva rispetto e distanza.",
+    "en": "In English the imperative is very simple: 'Eat!', 'Go!', 'Come!' — one form for everyone. In Italian it changes by person: mangia (tu), mangiate (voi), mangi (Lei formal). The most surprising thing is formal Lei: instead of using the normal imperative, you use the present subjunctive. 'Mangi!' instead of 'Mangia!' — the form changes completely. This is because historically the subjunctive expressed respect and distance."
+  },
+  "spiegazione": {
+    "it": "Imperativo positivo: tu (seconda sing.), noi (esortativo), voi (seconda pl.), Lei (formale). Negativo: non + infinito per 'tu'. La posizione dei pronomi cambia: imperativo positivo → pronome attaccato (Dimmi!), negativo → separato (Non mi dire!).",
+    "en": "Positive imperative: tu (second sing.), noi (exhortative), voi (second pl.), Lei (formal). Negative: non + infinitive for 'tu'. Pronoun position changes: positive imperative → pronoun attached (Dimmi!), negative → separate (Non mi dire!)."
+  },
+  "tabella": {
+    "headers": [
+      "Persona",
+      "parlare",
+      "prendere",
+      "partire",
+      "essere",
+      "avere"
+    ],
+    "rows": [
+      [
+        "tu (+)",
+        "parla!",
+        "prendi!",
+        "parti!",
+        "sii!",
+        "abbi!"
+      ],
+      [
+        "tu (-)",
+        "non parlare!",
+        "non prendere!",
+        "non partire!",
+        "non essere!",
+        "non avere!"
+      ],
+      [
+        "noi",
+        "parliamo!",
+        "prendiamo!",
+        "partiamo!",
+        "siamo!",
+        "abbiamo!"
+      ],
+      [
+        "voi",
+        "parlate!",
+        "prendete!",
+        "partite!",
+        "siate!",
+        "abbiate!"
+      ],
+      [
+        "Lei (formale)",
+        "parli!",
+        "prenda!",
+        "parta!",
+        "sia!",
+        "abbia!"
+      ],
+      [
+        "Nota Lei",
+        "= congiuntivo",
+        "= congiuntivo",
+        "= congiuntivo",
+        "—",
+        "—"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Parla più lento, per favore! (tu)",
+      "en": "Speak more slowly, please! (tu)",
+      "audio": "Parla più lento, per favore!"
+    },
+    {
+      "it": "Prenda un caffè, signore! (Lei formale)",
+      "en": "Have a coffee, sir! (formal Lei)",
+      "audio": "Prenda un caffè, signore!"
+    },
+    {
+      "it": "Non parlate così forte! (voi)",
+      "en": "Don't speak so loudly! (voi)",
+      "audio": "Non parlate così forte!"
+    },
+    {
+      "it": "Andiamo! È tardi. (noi)",
+      "en": "Let's go! It's late. (noi)",
+      "audio": "Andiamo! È tardi."
+    },
+    {
+      "it": "Dimmi dove sei! (pronome attaccato)",
+      "en": "Tell me where you are! (attached pronoun)",
+      "audio": "Dimmi dove sei!"
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 A Napoli senti spesso 'Jamm!' (da 'Andiamo!') e 'Statt' buon!' (Sta' buono! = be good/behave). L'imperativo napoletano ha una musica tutta sua.",
+    "en": "🇳🇦 In Naples you often hear 'Jamm!' (from 'Andiamo!') and 'Statt' buon!' (Sta' buono! = be good/behave). The Neapolitan imperative has its own music."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'parlare' per 'tu'?",
+        "en": "What is the imperative of 'parlare' for 'tu'?"
+      },
+      "opzioni": [
+        "parli",
+        "parlate",
+        "parla",
+        "parlano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tu → parla!",
+        "en": "Correct! Tu → parla!"
+      },
+      "feedbackErr": {
+        "it": "Imperativo tu (-are) = terza persona singolare: parla!",
+        "en": "Imperative tu (-are) = third person singular: parla!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'prendere' per 'voi'?",
+        "en": "What is the imperative of 'prendere' for 'voi'?"
+      },
+      "opzioni": [
+        "prenda",
+        "prendi",
+        "prendete",
+        "prendono"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Voi → prendete!",
+        "en": "Correct! Voi → prendete!"
+      },
+      "feedbackErr": {
+        "it": "Imperativo voi = presente indicativo: prendete!",
+        "en": "Imperative voi = present indicative: prendete!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo formale (Lei) di 'parlare'?",
+        "en": "What is the formal imperative (Lei) of 'parlare'?"
+      },
+      "opzioni": [
+        "parla",
+        "parlate",
+        "parlano",
+        "parli"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Lei formale → parli! Usa il congiuntivo presente.",
+        "en": "Correct! Formal Lei → parli! Uses the present subjunctive."
+      },
+      "feedbackErr": {
+        "it": "Imperativo Lei formale = congiuntivo presente: parli!",
+        "en": "Formal Lei imperative = present subjunctive: parli!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'speak more slowly!' in italiano (tu)?",
+        "en": "How do you say 'speak more slowly!' in Italian (tu)?"
+      },
+      "opzioni": [
+        "Parli più lento!",
+        "Parlate più lento!",
+        "Parla più lento!",
+        "Parlano più lento!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tu → parla più lento!",
+        "en": "Correct! Tu → parla più lento!"
+      },
+      "feedbackErr": {
+        "it": "Imperativo tu (parlare) = parla!",
+        "en": "Imperative tu (parlare) = parla!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il negativo dell'imperativo per 'tu'?",
+        "en": "How is the negative imperative formed for 'tu'?"
+      },
+      "opzioni": [
+        "non + imperativo",
+        "non + infinito",
+        "non + congiuntivo",
+        "non + gerundio"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Negativo tu = non + infinito: non parlare!",
+        "en": "Correct! Negative tu = non + infinitive: non parlare!"
+      },
+      "feedbackErr": {
+        "it": "Negativo tu → non + infinito: non parlare!",
+        "en": "Negative tu → non + infinitive: non parlare!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'andare' per 'tu'?",
+        "en": "What is the imperative of 'andare' for 'tu'?"
+      },
+      "opzioni": [
+        "anda",
+        "vai",
+        "va",
+        "vado"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Andare → vai! (irregolare).",
+        "en": "Correct! Andare → vai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Andare → vai! Irregolare.",
+        "en": "Andare → vai! Irregular."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'let's go!' in italiano?",
+        "en": "How do you say 'let's go!' in Italian?"
+      },
+      "opzioni": [
+        "Vadi!",
+        "Andate!",
+        "Andiamo!",
+        "Vai!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Noi → andiamo! L'imperativo noi è esortativo.",
+        "en": "Correct! Noi → andiamo! The noi imperative is exhortative."
+      },
+      "feedbackErr": {
+        "it": "Let's go = Andiamo! Imperativo noi = esortativo.",
+        "en": "Let's go = Andiamo! Noi imperative = exhortative."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'have a coffee, sir!' in italiano (Lei formale)?",
+        "en": "How do you say 'have a coffee, sir!' in Italian (formal Lei)?"
+      },
+      "opzioni": [
+        "Prendi un caffè!",
+        "Prendete un caffè!",
+        "Prenda un caffè!",
+        "Prendono un caffè!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Lei formale → prenda! Congiuntivo presente.",
+        "en": "Correct! Formal Lei → prenda! Present subjunctive."
+      },
+      "feedbackErr": {
+        "it": "Formale → prenda! (congiuntivo).",
+        "en": "Formal → prenda! (subjunctive)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove va il pronome con l'imperativo positivo?",
+        "en": "Where does the pronoun go with the positive imperative?"
+      },
+      "opzioni": [
+        "Prima del verbo",
+        "Attaccato alla fine del verbo",
+        "Non cambia posizione",
+        "Dopo la frase"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Imperativo positivo → pronome attaccato: dimmi!, aspettami!",
+        "en": "Correct! Positive imperative → pronoun attached: dimmi!, aspettami!"
+      },
+      "feedbackErr": {
+        "it": "Imperativo positivo → pronome attaccato: dimmi!, guardalo!",
+        "en": "Positive imperative → pronoun attached: dimmi!, guardalo!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'essere' per 'tu'?",
+        "en": "What is the imperative of 'essere' for 'tu'?"
+      },
+      "opzioni": [
+        "sei",
+        "è",
+        "sii",
+        "sia"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → sii! (irregolare).",
+        "en": "Correct! Essere → sii! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Essere → sii! Irregolare.",
+        "en": "Essere → sii! Irregular."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'don't speak!' in italiano (tu)?",
+        "en": "How do you say 'don't speak!' in Italian (tu)?"
+      },
+      "opzioni": [
+        "Non parla!",
+        "Non parli!",
+        "Non parlare!",
+        "Non parlato!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Negativo tu → non + infinito: non parlare!",
+        "en": "Correct! Negative tu → non + infinitive: non parlare!"
+      },
+      "feedbackErr": {
+        "it": "Negativo tu = non + infinito: non parlare!",
+        "en": "Negative tu = non + infinitive: non parlare!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'venire' per 'tu'?",
+        "en": "What is the imperative of 'venire' for 'tu'?"
+      },
+      "opzioni": [
+        "vena",
+        "venite",
+        "vieni",
+        "viene"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Venire → vieni! (irregolare).",
+        "en": "Correct! Venire → vieni! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Venire → vieni! Irregolare.",
+        "en": "Venire → vieni! Irregular."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché l'imperativo formale (Lei) usa il congiuntivo?",
+        "en": "Why does the formal imperative (Lei) use the subjunctive?"
+      },
+      "opzioni": [
+        "Per sembrare più breve",
+        "Storicamente esprimeva rispetto e distanza",
+        "È un errore accettato",
+        "Per distinguersi dal dialetto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Storicamente il congiuntivo esprimeva rispetto.",
+        "en": "Correct! Historically the subjunctive expressed respect."
+      },
+      "feedbackErr": {
+        "it": "Il congiuntivo esprimeva rispetto in latino — rimasto nel Lei formale.",
+        "en": "The subjunctive expressed respect in Latin — remained in formal Lei."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'tell me!' in italiano (tu)?",
+        "en": "How do you say 'tell me!' in Italian (tu)?"
+      },
+      "opzioni": [
+        "Di mi!",
+        "Dimmi!",
+        "Mi di!",
+        "Dici mi!"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dimmi! = di' + mi attaccato. Raddoppia la consonante.",
+        "en": "Correct! Dimmi! = di' + mi attached. Consonant doubles."
+      },
+      "feedbackErr": {
+        "it": "Di' + mi = Dimmi! La consonante raddoppia con i monosillabi.",
+        "en": "Di' + mi = Dimmi! Consonant doubles with monosyllables."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'avere' per 'tu'?",
+        "en": "What is the imperative of 'avere' for 'tu'?"
+      },
+      "opzioni": [
+        "hai",
+        "ha",
+        "abbi",
+        "avere"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Avere → abbi! (irregolare).",
+        "en": "Correct! Avere → abbi! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Avere → abbi! Irregolare.",
+        "en": "Avere → abbi! Irregular."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'don't go!' in italiano (tu)?",
+        "en": "How do you say 'don't go!' in Italian (tu)?"
+      },
+      "opzioni": [
+        "Non vai!",
+        "Non va'!",
+        "Non andare!",
+        "Non andate!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Negativo tu → non + infinito: non andare!",
+        "en": "Correct! Negative tu → non + infinitive: non andare!"
+      },
+      "feedbackErr": {
+        "it": "Negativo tu = non + infinito: non andare!",
+        "en": "Negative tu = non + infinitive: non andare!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'partire' per 'Lei' formale?",
+        "en": "What is the imperative of 'partire' for formal 'Lei'?"
+      },
+      "opzioni": [
+        "parti",
+        "partite",
+        "parte",
+        "parta"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Lei formale → parta! Congiuntivo di partire.",
+        "en": "Correct! Formal Lei → parta! Subjunctive of partire."
+      },
+      "feedbackErr": {
+        "it": "Lei formale → parta! (congiuntivo).",
+        "en": "Formal Lei → parta! (subjunctive)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove va il pronome con l'imperativo NEGATIVO per 'tu'?",
+        "en": "Where does the pronoun go with the NEGATIVE imperative for 'tu'?"
+      },
+      "opzioni": [
+        "Attaccato all'infinito o prima",
+        "Solo dopo",
+        "Solo alla fine",
+        "Non cambia"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Negativo → pronome prima: Non mi dire! oppure attaccato: Non dirmelo!",
+        "en": "Correct! Negative → pronoun before: Non mi dire! or attached: Non dirmelo!"
+      },
+      "feedbackErr": {
+        "it": "Negativo → pronome prima o attaccato all'infinito.",
+        "en": "Negative → pronoun before or attached to infinitive."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'wait for me!' in italiano (tu)?",
+        "en": "How do you say 'wait for me!' in Italian (tu)?"
+      },
+      "opzioni": [
+        "Aspetta mi!",
+        "Mi aspetta!",
+        "Aspettami!",
+        "Aspettami mi!"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Imperativo positivo → pronome attaccato: aspettami!",
+        "en": "Correct! Positive imperative → pronoun attached: aspettami!"
+      },
+      "feedbackErr": {
+        "it": "Positivo → pronome attaccato: aspettami!",
+        "en": "Positive → pronoun attached: aspettami!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'imperativo di 'fare' per 'tu'?",
+        "en": "What is the imperative of 'fare' for 'tu'?"
+      },
+      "opzioni": [
+        "fai",
+        "fate",
+        "faccia",
+        "faccio"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Fare → fai! (irregolare).",
+        "en": "Correct! Fare → fai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Fare → fai! Irregolare.",
+        "en": "Fare → fai! Irregular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo negativo per 'tu' usa 'non + infinito'.",
+        "en": "The negative imperative for 'tu' uses 'non + infinitive'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Non parlare!, non andare!, non mangiare!",
+        "en": "Correct! Non parlare!, non andare!, non mangiare!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Negativo tu = non + infinito.",
+        "en": "True! Negative tu = non + infinitive."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo formale (Lei) usa il presente indicativo.",
+        "en": "The formal imperative (Lei) uses the present indicative."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! L'imperativo Lei usa il CONGIUNTIVO presente: parli, prenda, parta.",
+        "en": "False! The Lei imperative uses the present SUBJUNCTIVE: parli, prenda, parta."
+      },
+      "feedbackErr": {
+        "it": "Falso! Lei → congiuntivo: parli!, prenda!, parta!",
+        "en": "False! Lei → subjunctive: parli!, prenda!, parta!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con l'imperativo positivo il pronome si attacca alla fine del verbo.",
+        "en": "With the positive imperative the pronoun attaches to the end of the verb."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Dimmi!, aspettami!, guardalo!",
+        "en": "Correct! Dimmi!, aspettami!, guardalo!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Positivo → pronome attaccato: dimmi!, aspettami!",
+        "en": "True! Positive → pronoun attached: dimmi!, aspettami!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'andiamo!' per 'let's go!'",
+        "en": "You say 'andiamo!' for 'let's go!'"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andiamo! = let's go! Imperativo noi esortativo.",
+        "en": "Correct! Andiamo! = let's go! Noi exhortative imperative."
+      },
+      "feedbackErr": {
+        "it": "Vero! Andiamo! è l'imperativo esortativo noi.",
+        "en": "True! Andiamo! is the exhortative noi imperative."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo 'tu' dei verbi -are è uguale al presente indicativo 'tu'.",
+        "en": "The 'tu' imperative of -are verbs equals the 'tu' present indicative."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! L'imperativo tu (-are) = TERZA persona singolare: parla! (non parli).",
+        "en": "False! The tu imperative (-are) = THIRD person singular: parla! (not parli)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Tu imperativo -are = terza persona: parla!",
+        "en": "False! Tu imperative -are = third person: parla!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'dimmi' con la doppia m perché 'di'' è monosillabico.",
+        "en": "You say 'dimmi' with double m because 'di'' is monosyllabic."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Monosillabi + pronome → raddoppia: di'→dimmi, fa'→fammi.",
+        "en": "Correct! Monosyllables + pronoun → doubles: di'→dimmi, fa'→fammi."
+      },
+      "feedbackErr": {
+        "it": "Vero! Monosillabi raddoppiano: di'→dimmi, fa'→fammi.",
+        "en": "True! Monosyllables double: di'→dimmi, fa'→fammi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo voi è uguale al presente indicativo voi.",
+        "en": "The voi imperative is the same as the voi present indicative."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Voi parlate → Parlate! Identici.",
+        "en": "Correct! Voi parlate → Parlate! Identical."
+      },
+      "feedbackErr": {
+        "it": "Vero! Imperativo voi = presente indicativo voi.",
+        "en": "True! Voi imperative = voi present indicative."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'non mi dire!' oppure 'non dirmelo!' — entrambi corretti.",
+        "en": "You say 'non mi dire!' or 'non dirmelo!' — both correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Negativo → pronome prima del verbo OPPURE attaccato all'infinito.",
+        "en": "Correct! Negative → pronoun before the verb OR attached to the infinitive."
+      },
+      "feedbackErr": {
+        "it": "Vero! Entrambi corretti: non mi dire! / non dirmelo!",
+        "en": "True! Both correct: non mi dire! / non dirmelo!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'essere' per 'tu' è 'sei'.",
+        "en": "The imperative of 'essere' for 'tu' is 'sei'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Essere → sii! (irregolare).",
+        "en": "False! Essere → sii! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Essere imperativo → sii! Non 'sei'.",
+        "en": "False! Essere imperative → sii! Not 'sei'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "A Napoli si sente 'Jamm!' che viene da 'Andiamo!'",
+        "en": "In Naples you hear 'Jamm!' which comes from 'Andiamo!'"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Jamm! = dialetto napoletano per Andiamo!",
+        "en": "Correct! Jamm! = Neapolitan dialect for Andiamo!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Jamm! è l'imperativo napoletano di andare.",
+        "en": "True! Jamm! is the Neapolitan imperative of andare."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo noi si usa per dare ordini al gruppo.",
+        "en": "The noi imperative is used to give orders to the group."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andiamo!, mangiamo!, partiamo! — esortazioni di gruppo.",
+        "en": "Correct! Andiamo!, mangiamo!, partiamo! — group exhortations."
+      },
+      "feedbackErr": {
+        "it": "Vero! Imperativo noi = esortativo: Andiamo!",
+        "en": "True! Noi imperative = exhortative: Andiamo!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'avere' per 'tu' è 'abbi'.",
+        "en": "The imperative of 'avere' for 'tu' is 'abbi'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avere → abbi! Abbi pazienza!",
+        "en": "Correct! Avere → abbi! Abbi pazienza!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avere → abbi! Irregolare.",
+        "en": "True! Avere → abbi! Irregular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo formale è più difficile perché usa una forma diversa dal presente.",
+        "en": "The formal imperative is harder because it uses a different form from the present."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Parla (informale) → Parli (formale). Forma completamente diversa.",
+        "en": "Correct! Parla (informal) → Parli (formal). Completely different form."
+      },
+      "feedbackErr": {
+        "it": "Vero! Informale: parla! Formale: parli!",
+        "en": "True! Informal: parla! Formal: parli!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'aspettami' con il pronome attaccato.",
+        "en": "You say 'aspettami' with the pronoun attached."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Imperativo positivo → pronome attaccato: aspettami!",
+        "en": "Correct! Positive imperative → pronoun attached: aspettami!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Positivo → pronome attaccato: aspettami!",
+        "en": "True! Positive → pronoun attached: aspettami!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'venire' per 'tu' è 'vieni'.",
+        "en": "The imperative of 'venire' for 'tu' is 'vieni'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venire → vieni! (irregolare).",
+        "en": "Correct! Venire → vieni! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Venire → vieni! Irregolare.",
+        "en": "True! Venire → vieni! Irregular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'non parlare!' non 'non parla!' per il negativo tu.",
+        "en": "You say 'non parlare!' not 'non parla!' for the negative tu."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Negativo tu = non + infinito: non parlare!",
+        "en": "Correct! Negative tu = non + infinitive: non parlare!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Non parlare! (infinito) è corretto.",
+        "en": "True! Non parlare! (infinitive) is correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'fare' per 'tu' è 'fai'.",
+        "en": "The imperative of 'fare' for 'tu' is 'fai'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → fai! (irregolare).",
+        "en": "Correct! Fare → fai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare → fai! Irregolare.",
+        "en": "True! Fare → fai! Irregular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'andare' per 'tu' è 'anda'.",
+        "en": "The imperative of 'andare' for 'tu' is 'anda'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Andare → vai! (irregolare).",
+        "en": "False! Andare → vai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Andare → vai! Non 'anda'.",
+        "en": "False! Andare → vai! Not 'anda'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo noi si chiama esortativo.",
+        "en": "The noi imperative is called exhortative."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Esortativo = Andiamo!, Mangiamo!, Partiamo!",
+        "en": "Correct! Exhortative = Andiamo!, Mangiamo!, Partiamo!"
+      },
+      "feedbackErr": {
+        "it": "Vero! Imperativo noi = esortativo.",
+        "en": "True! Noi imperative = exhortative."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "L'imperativo di 'fare' per Lei formale è 'faccia'.",
+        "en": "The imperative of 'fare' for formal Lei is 'faccia'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → faccia! (congiuntivo, formale).",
+        "en": "Correct! Fare → faccia! (subjunctive, formal)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lei formale + fare → faccia!",
+        "en": "True! Formal Lei + fare → faccia!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ più lento, per favore! (tu, parlare)",
+        "en": "Build: ___ more slowly, please! (tu)"
+      },
+      "parole": [
+        "Parla",
+        "più",
+        "lento",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Parli",
+        "Parlate",
+        "Parlano"
+      ],
+      "correct": [
+        "Parla",
+        "più",
+        "lento",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + parlare → parla!",
+        "en": "Perfect! Tu + parlare → parla!"
+      },
+      "feedbackErr": {
+        "it": "Imperativo tu (parlare) = parla!",
+        "en": "Imperative tu (parlare) = parla!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ un caffè, signore! (Lei formale, prendere)",
+        "en": "Build: ___ a coffee, sir! (formal Lei)"
+      },
+      "parole": [
+        "Prenda",
+        "un",
+        "caffè",
+        "signore"
+      ],
+      "distrattori": [
+        "Prendi",
+        "Prendete",
+        "Prendono"
+      ],
+      "correct": [
+        "Prenda",
+        "un",
+        "caffè",
+        "signore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Lei formale + prendere → prenda!",
+        "en": "Perfect! Formal Lei + prendere → prenda!"
+      },
+      "feedbackErr": {
+        "it": "Formale → prenda! (congiuntivo).",
+        "en": "Formal → prenda! (subjunctive)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___! È tardi. (noi, andare)",
+        "en": "Build: ___! It's late. (noi, andare)"
+      },
+      "parole": [
+        "Andiamo",
+        "È",
+        "tardi"
+      ],
+      "distrattori": [
+        "Andate",
+        "Vai",
+        "Vada"
+      ],
+      "correct": [
+        "Andiamo",
+        "È",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + andare → andiamo!",
+        "en": "Perfect! Noi + andare → andiamo!"
+      },
+      "feedbackErr": {
+        "it": "Let's go = Andiamo!",
+        "en": "Let's go = Andiamo!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ così forte! (voi, parlare)",
+        "en": "Build: Don't ___ so loudly! (voi)"
+      },
+      "parole": [
+        "Non",
+        "parlate",
+        "così",
+        "forte"
+      ],
+      "distrattori": [
+        "parla",
+        "parli",
+        "parlano"
+      ],
+      "correct": [
+        "Non",
+        "parlate",
+        "così",
+        "forte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Negativo voi → non parlate!",
+        "en": "Perfect! Negative voi → non parlate!"
+      },
+      "feedbackErr": {
+        "it": "Negativo voi = non + parlate!",
+        "en": "Negative voi = non + parlate!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___! (tu, aspettarmi)",
+        "en": "Build: Wait for me! (tu)"
+      },
+      "parole": [
+        "Aspettami"
+      ],
+      "distrattori": [
+        "Aspetta mi",
+        "Mi aspetta",
+        "Aspettarmi"
+      ],
+      "correct": [
+        "Aspettami"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Positivo → pronome attaccato: aspettami!",
+        "en": "Perfect! Positive → pronoun attached: aspettami!"
+      },
+      "feedbackErr": {
+        "it": "Positivo → pronome attaccato: aspettami!",
+        "en": "Positive → pronoun attached: aspettami!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ tardi! (tu, andare)",
+        "en": "Build: Don't go late! (tu)"
+      },
+      "parole": [
+        "Non",
+        "andare",
+        "tardi"
+      ],
+      "distrattori": [
+        "vai",
+        "vada",
+        "andate"
+      ],
+      "correct": [
+        "Non",
+        "andare",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Negativo tu → non + infinito: non andare!",
+        "en": "Perfect! Negative tu → non + infinitive: non andare!"
+      },
+      "feedbackErr": {
+        "it": "Negativo tu = non + infinito: non andare!",
+        "en": "Negative tu = non + infinitive: non andare!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ gentile! (tu, essere)",
+        "en": "Build: Be kind! (tu, essere)"
+      },
+      "parole": [
+        "Sii",
+        "gentile"
+      ],
+      "distrattori": [
+        "Sei",
+        "Sia",
+        "Siete"
+      ],
+      "correct": [
+        "Sii",
+        "gentile"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Essere → sii! (irregolare).",
+        "en": "Perfect! Essere → sii! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Essere imperativo tu → sii!",
+        "en": "Essere imperative tu → sii!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ qui! (tu, venire)",
+        "en": "Build: Come here! (tu, venire)"
+      },
+      "parole": [
+        "Vieni",
+        "qui"
+      ],
+      "distrattori": [
+        "Viene",
+        "Venite",
+        "Venga"
+      ],
+      "correct": [
+        "Vieni",
+        "qui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Venire → vieni! (irregolare).",
+        "en": "Perfect! Venire → vieni! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Venire imperativo tu → vieni!",
+        "en": "Venire imperative tu → vieni!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ pazienza! (tu, avere)",
+        "en": "Build: Be patient! (tu, avere)"
+      },
+      "parole": [
+        "Abbi",
+        "pazienza"
+      ],
+      "distrattori": [
+        "Hai",
+        "Abbia",
+        "Avete"
+      ],
+      "correct": [
+        "Abbi",
+        "pazienza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avere → abbi! (irregolare).",
+        "en": "Perfect! Avere → abbi! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Avere imperativo tu → abbi!",
+        "en": "Avere imperative tu → abbi!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ attenzione! (tu, fare)",
+        "en": "Build: Pay attention! (tu, fare)"
+      },
+      "parole": [
+        "Fai",
+        "attenzione"
+      ],
+      "distrattori": [
+        "Fate",
+        "Faccia",
+        "Fa"
+      ],
+      "correct": [
+        "Fai",
+        "attenzione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → fai! (irregolare).",
+        "en": "Perfect! Fare → fai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Fare imperativo tu → fai!",
+        "en": "Fare imperative tu → fai!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ pure, signora! (Lei formale, sedersi)",
+        "en": "Build: Please sit down, madam! (formal Lei)"
+      },
+      "parole": [
+        "Si",
+        "sieda",
+        "pure",
+        "signora"
+      ],
+      "distrattori": [
+        "siediti",
+        "sedetevi",
+        "siedono"
+      ],
+      "correct": [
+        "Si",
+        "sieda",
+        "pure",
+        "signora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Lei formale + sedersi → si sieda! (congiuntivo).",
+        "en": "Perfect! Formal Lei + sedersi → si sieda! (subjunctive)."
+      },
+      "feedbackErr": {
+        "it": "Lei formale → si sieda! (congiuntivo).",
+        "en": "Formal Lei → si sieda! (subjunctive)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ la pizza senza di me! (voi, mangiare)",
+        "en": "Build: Don't eat the pizza without me! (voi)"
+      },
+      "parole": [
+        "Non",
+        "mangiate",
+        "la",
+        "pizza",
+        "senza",
+        "di",
+        "me"
+      ],
+      "distrattori": [
+        "mangia",
+        "mangi",
+        "mangiare"
+      ],
+      "correct": [
+        "Non",
+        "mangiate",
+        "la",
+        "pizza",
+        "senza",
+        "di",
+        "me"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Negativo voi → non mangiate!",
+        "en": "Perfect! Negative voi → non mangiate!"
+      },
+      "feedbackErr": {
+        "it": "Negativo voi = non + mangiate!",
+        "en": "Negative voi = non + mangiate!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___! (tu, dirmi la verità)",
+        "en": "Build: Tell me the truth! (tu)"
+      },
+      "parole": [
+        "Dimmi",
+        "la",
+        "verità"
+      ],
+      "distrattori": [
+        "Di mi",
+        "Mi di",
+        "Dicci"
+      ],
+      "correct": [
+        "Dimmi",
+        "la",
+        "verità"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Di' + mi = dimmi! La consonante raddoppia.",
+        "en": "Perfect! Di' + mi = dimmi! The consonant doubles."
+      },
+      "feedbackErr": {
+        "it": "Di' + mi = dimmi!",
+        "en": "Di' + mi = dimmi!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a Napoli con noi! (tu, venire)",
+        "en": "Build: Come to Naples with us! (tu)"
+      },
+      "parole": [
+        "Vieni",
+        "a",
+        "Napoli",
+        "con",
+        "noi"
+      ],
+      "distrattori": [
+        "Viene",
+        "Venite",
+        "Venga"
+      ],
+      "correct": [
+        "Vieni",
+        "a",
+        "Napoli",
+        "con",
+        "noi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Venire → vieni!",
+        "en": "Perfect! Venire → vieni!"
+      },
+      "feedbackErr": {
+        "it": "Venire tu → vieni!",
+        "en": "Venire tu → vieni!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ la pizza insieme! (noi, mangiare)",
+        "en": "Build: Let's eat the pizza together! (noi)"
+      },
+      "parole": [
+        "Mangiamo",
+        "la",
+        "pizza",
+        "insieme"
+      ],
+      "distrattori": [
+        "Mangia",
+        "Mangiate",
+        "Mangi"
+      ],
+      "correct": [
+        "Mangiamo",
+        "la",
+        "pizza",
+        "insieme"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + mangiare → mangiamo!",
+        "en": "Perfect! Noi + mangiare → mangiamo!"
+      },
+      "feedbackErr": {
+        "it": "Esortativo noi: mangiamo!",
+        "en": "Noi exhortative: mangiamo!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ qui, per favore! (Lei formale, venire)",
+        "en": "Build: Come here, please! (formal Lei)"
+      },
+      "parole": [
+        "Venga",
+        "qui",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Vieni",
+        "Venite",
+        "Viene"
+      ],
+      "correct": [
+        "Venga",
+        "qui",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Lei formale + venire → venga! (congiuntivo).",
+        "en": "Perfect! Formal Lei + venire → venga! (subjunctive)."
+      },
+      "feedbackErr": {
+        "it": "Formale → venga! (congiuntivo di venire).",
+        "en": "Formal → venga! (subjunctive of venire)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ adesso! (tu, partire)",
+        "en": "Build: Don't leave now! (tu)"
+      },
+      "parole": [
+        "Non",
+        "partire",
+        "adesso"
+      ],
+      "distrattori": [
+        "parti",
+        "parta",
+        "partite"
+      ],
+      "correct": [
+        "Non",
+        "partire",
+        "adesso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Negativo tu → non + infinito: non partire!",
+        "en": "Perfect! Negative tu → non + infinitive: non partire!"
+      },
+      "feedbackErr": {
+        "it": "Negativo tu = non + infinito: non partire!",
+        "en": "Negative tu = non + infinitive: non partire!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ subito! (tu, andare)",
+        "en": "Build: Go immediately! (tu)"
+      },
+      "parole": [
+        "Vai",
+        "subito"
+      ],
+      "distrattori": [
+        "Andate",
+        "Vada",
+        "Andiamo"
+      ],
+      "correct": [
+        "Vai",
+        "subito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Andare → vai! (irregolare).",
+        "en": "Perfect! Andare → vai! (irregular)."
+      },
+      "feedbackErr": {
+        "it": "Andare imperativo tu → vai!",
+        "en": "Andare imperative tu → vai!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ preoccupare! (tu)",
+        "en": "Build: Don't worry! (tu)"
+      },
+      "parole": [
+        "Non",
+        "ti",
+        "preoccupare"
+      ],
+      "distrattori": [
+        "preoccuparti",
+        "preoccupati",
+        "preoccuparsi"
+      ],
+      "correct": [
+        "Non",
+        "ti",
+        "preoccupare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Negativo riflessivo tu → non ti preoccupare!",
+        "en": "Perfect! Negative reflexive tu → non ti preoccupare!"
+      },
+      "feedbackErr": {
+        "it": "Negativo riflessivo tu → non ti preoccupare!",
+        "en": "Negative reflexive tu → non ti preoccupare!"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ questo! (tu, fare)",
+        "en": "Build: Do this! (tu)"
+      },
+      "parole": [
+        "Fai",
+        "questo"
+      ],
+      "distrattori": [
+        "Fate",
+        "Faccia",
+        "Fa"
+      ],
+      "correct": [
+        "Fai",
+        "questo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → fai!",
+        "en": "Perfect! Fare → fai!"
+      },
+      "feedbackErr": {
+        "it": "Fare imperativo tu → fai!",
+        "en": "Fare imperative tu → fai!"
+      }
+    }
+  ]
+}

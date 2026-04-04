@@ -1,0 +1,1567 @@
+{
+  "id": "ausiliari",
+  "categoria": "grammatica",
+  "emoji": "🔧",
+  "livello": "A2",
+  "titolo": {
+    "it": "Essere vs Avere",
+    "en": "Essere vs Avere"
+  },
+  "mario": "La domanda più frequente che mi fanno al bar: quando uso essere e quando avere? C'è una logica precisa. Te la spiego con la pizza.",
+  "marioEn": "The most common question at the bar: when do I use essere and when avere? There is a precise logic. Let me explain it with pizza.",
+  "perche": {
+    "it": "In inglese il passato prossimo usa sempre 'have': I have eaten, I have gone. In italiano no — alcuni verbi usano avere, altri usano essere. La regola è questa: i verbi di movimento o cambiamento di stato usano essere. I verbi transitivi (che hanno un oggetto diretto) usano avere. Sembra complessa ma si impara in fretta con la pratica.",
+    "en": "In English the present perfect always uses 'have': I have eaten, I have gone. In Italian no — some verbs use avere, others use essere. The rule is: verbs of movement or change of state use essere. Transitive verbs (that have a direct object) use avere. It seems complex but you learn it quickly with practice."
+  },
+  "spiegazione": {
+    "it": "AVERE: verbi transitivi (mangiare, bere, vedere, fare, prendere...). ESSERE: verbi di moto (andare, venire, partire, arrivare...), verbi di stato (essere, stare, rimanere...), verbi riflessivi, tutti i verbi impersonali.",
+    "en": "AVERE: transitive verbs (mangiare, bere, vedere, fare, prendere...). ESSERE: verbs of motion (andare, venire, partire, arrivare...), verbs of state (essere, stare, rimanere...), reflexive verbs, all impersonal verbs."
+  },
+  "tabella": {
+    "headers": [
+      "Ausiliare",
+      "Quando",
+      "Esempi",
+      "Concordanza participio"
+    ],
+    "rows": [
+      [
+        "AVERE",
+        "Verbi transitivi (con oggetto)",
+        "ho mangiato, ho visto, ho fatto",
+        "NON concorda: ho mangiato (sempre)"
+      ],
+      [
+        "ESSERE",
+        "Verbi di moto e stato",
+        "sono andato/a, sono venuto/a",
+        "CONCORDA: sono andato (M) / andata (F)"
+      ],
+      [
+        "ESSERE",
+        "Verbi riflessivi",
+        "mi sono lavato/a",
+        "Concorda sempre"
+      ],
+      [
+        "ESSERE",
+        "Verbi impersonali",
+        "è piovuto, è nevicato",
+        "Sempre -o al maschile"
+      ],
+      [
+        "ATTENZIONE",
+        "Verbi che cambiano significato",
+        "ho salito le scale / sono salito",
+        "Cambia il significato!"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Ho mangiato una pizza. (avere — transitivo)",
+      "en": "I ate a pizza. (avere — transitive)",
+      "audio": "Ho mangiato una pizza."
+    },
+    {
+      "it": "Sono andato a Napoli. (essere — moto)",
+      "en": "I went to Naples. (essere — motion)",
+      "audio": "Sono andato a Napoli."
+    },
+    {
+      "it": "Maria è arrivata tardi. (essere — F concorda)",
+      "en": "Maria arrived late. (essere — F agrees)",
+      "audio": "Maria è arrivata tardi."
+    },
+    {
+      "it": "Abbiamo visto un bel film. (avere — transitivo)",
+      "en": "We saw a great film. (avere — transitive)",
+      "audio": "Abbiamo visto un bel film."
+    },
+    {
+      "it": "Si sono alzati presto. (essere — riflessivo)",
+      "en": "They got up early. (essere — reflexive)",
+      "audio": "Si sono alzati presto."
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 Il trucco napoletano: pensa a 'VANNO A ESSERE' — Verbi di movimento, Atmosferici, Nascita/morte/vita, cambiAmento di stato, riflessivi, impErsonali. Tutti con ESSERE.",
+    "en": "🇳🇦 The Naples trick: verbs of Motion, Atmospheric events, Natural life events, state chAnges, reflexives, impErsonal verbs — all use ESSERE."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'mangiare' al passato prossimo?",
+        "en": "What is the correct auxiliary for 'mangiare' in the passato prossimo?"
+      },
+      "opzioni": [
+        "essere",
+        "avere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Mangiare è transitivo (ha un oggetto) → avere: ho mangiato.",
+        "en": "Correct! Mangiare is transitive (has an object) → avere: ho mangiato."
+      },
+      "feedbackErr": {
+        "it": "Mangiare è transitivo → avere: ho mangiato la pizza.",
+        "en": "Mangiare is transitive → avere: ho mangiato la pizza."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'andare' al passato prossimo?",
+        "en": "What is the correct auxiliary for 'andare' in the passato prossimo?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Andare è un verbo di moto → essere: sono andato.",
+        "en": "Correct! Andare is a motion verb → essere: sono andato."
+      },
+      "feedbackErr": {
+        "it": "Andare = moto → essere: sono andato a Napoli.",
+        "en": "Andare = motion → essere: sono andato a Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Maria went to Naples' in italiano?",
+        "en": "How do you say 'Maria went to Naples' in Italian?"
+      },
+      "opzioni": [
+        "Maria ha andato a Napoli.",
+        "Maria è andata a Napoli.",
+        "Maria è andato a Napoli.",
+        "Maria ha andata a Napoli."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Andare + essere → participio concorda: Maria (F) → andata.",
+        "en": "Correct! Andare + essere → participle agrees: Maria (F) → andata."
+      },
+      "feedbackErr": {
+        "it": "Andare → essere. Maria è F → andata (non andato).",
+        "en": "Andare → essere. Maria is F → andata (not andato)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'we saw a film' in italiano?",
+        "en": "How do you say 'we saw a film' in italiano?"
+      },
+      "opzioni": [
+        "Siamo visti un film.",
+        "Abbiamo visto un film.",
+        "Siamo visto un film.",
+        "Abbiamo vista un film."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Vedere è transitivo → avere: abbiamo visto. Il participio non concorda con avere.",
+        "en": "Correct! Vedere is transitive → avere: abbiamo visto. The participle doesn't agree with avere."
+      },
+      "feedbackErr": {
+        "it": "Vedere → avere: abbiamo visto. Con avere il participio non concorda col soggetto.",
+        "en": "Vedere → avere: abbiamo visto. With avere the participle doesn't agree with the subject."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'partire'?",
+        "en": "What is the correct auxiliary for 'partire'?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Partire = moto → essere: sono partito.",
+        "en": "Correct! Partire = motion → essere: sono partito."
+      },
+      "feedbackErr": {
+        "it": "Partire = moto → essere: sono partito, sei partita.",
+        "en": "Partire = motion → essere: sono partito, sei partita."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'it rained' in italiano?",
+        "en": "How do you say 'it rained' in Italian?"
+      },
+      "opzioni": [
+        "ha piovuto",
+        "è piovuto",
+        "ho piovuto",
+        "sono piovuto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! I verbi atmosferici usano essere: è piovuto, è nevicato.",
+        "en": "Correct! Atmospheric verbs use essere: è piovuto, è nevicato."
+      },
+      "feedbackErr": {
+        "it": "Verbi atmosferici → essere: è piovuto, è nevicato, è grandianato.",
+        "en": "Atmospheric verbs → essere: è piovuto, è nevicato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'essere' stesso al passato?",
+        "en": "What is the correct auxiliary for 'essere' itself in the past?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Essere usa sé stesso come ausiliare: sono stato, sei stata.",
+        "en": "Correct! Essere uses itself as auxiliary: sono stato, sei stata."
+      },
+      "feedbackErr": {
+        "it": "Essere → essere: sono stato a Napoli.",
+        "en": "Essere → essere: sono stato a Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Sofia arrived late' in italiano?",
+        "en": "How do you say 'Sofia arrived late' in Italian?"
+      },
+      "opzioni": [
+        "Sofia ha arrivata tardi.",
+        "Sofia ha arrivato tardi.",
+        "Sofia è arrivata tardi.",
+        "Sofia è arrivato tardi."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Arrivare → essere. Sofia (F) → arrivata.",
+        "en": "Correct! Arrivare → essere. Sofia (F) → arrivata."
+      },
+      "feedbackErr": {
+        "it": "Arrivare → essere. Sofia = F → arrivata.",
+        "en": "Arrivare → essere. Sofia = F → arrivata."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'fare'?",
+        "en": "What is the correct auxiliary for 'fare'?"
+      },
+      "opzioni": [
+        "essere",
+        "avere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Fare è transitivo → avere: ho fatto la pizza.",
+        "en": "Correct! Fare is transitive → avere: ho fatto la pizza."
+      },
+      "feedbackErr": {
+        "it": "Fare → avere: ho fatto, hai fatto, abbiamo fatto.",
+        "en": "Fare → avere: ho fatto, hai fatto, abbiamo fatto."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'they got up early' in italiano?",
+        "en": "How do you say 'they got up early' in Italian?"
+      },
+      "opzioni": [
+        "Hanno alzato presto.",
+        "Si sono alzati presto.",
+        "Si hanno alzati presto.",
+        "Sono alzati presto."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi è riflessivo → essere: si sono alzati.",
+        "en": "Correct! Alzarsi is reflexive → essere: si sono alzati."
+      },
+      "feedbackErr": {
+        "it": "Verbi riflessivi → sempre essere: si sono alzati.",
+        "en": "Reflexive verbs → always essere: si sono alzati."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'venire'?",
+        "en": "What is the correct auxiliary for 'venire'?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Venire = moto verso chi parla → essere: sono venuto.",
+        "en": "Correct! Venire = motion toward the speaker → essere: sono venuto."
+      },
+      "feedbackErr": {
+        "it": "Venire = moto → essere: sono venuto, è venuta.",
+        "en": "Venire = motion → essere: sono venuto, è venuta."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I have been in Naples' in italiano?",
+        "en": "How do you say 'I have been in Naples' in Italian?"
+      },
+      "opzioni": [
+        "Ho stato a Napoli.",
+        "Sono stato a Napoli.",
+        "Ho statio a Napoli.",
+        "Ero a Napoli."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Essere → essere: sono stato a Napoli.",
+        "en": "Correct! Essere → essere: sono stato a Napoli."
+      },
+      "feedbackErr": {
+        "it": "Essere usa sé stesso: sono stato a Napoli (M) / sono stata a Napoli (F).",
+        "en": "Essere uses itself: sono stato a Napoli (M) / sono stata a Napoli (F)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'dormire'?",
+        "en": "What is the correct auxiliary for 'dormire'?"
+      },
+      "opzioni": [
+        "essere",
+        "avere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dormire è intransitivo ma non di moto → avere: ho dormito.",
+        "en": "Correct! Dormire is intransitive but not a motion verb → avere: ho dormito."
+      },
+      "feedbackErr": {
+        "it": "Dormire → avere: ho dormito bene.",
+        "en": "Dormire → avere: ho dormito bene."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the boys have arrived' in italiano?",
+        "en": "How do you say 'the boys have arrived' in Italian?"
+      },
+      "opzioni": [
+        "I ragazzi hanno arrivato.",
+        "I ragazzi sono arrivato.",
+        "I ragazzi sono arrivati.",
+        "I ragazzi hanno arrivati."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Arrivare → essere. Ragazzi (M pl.) → arrivati.",
+        "en": "Correct! Arrivare → essere. Ragazzi (M pl.) → arrivati."
+      },
+      "feedbackErr": {
+        "it": "Arrivare → essere. Ragazzi = M pl. → arrivati.",
+        "en": "Arrivare → essere. Ragazzi = M pl. → arrivati."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'nascere' (to be born)?",
+        "en": "What is the correct auxiliary for 'nascere' (to be born)?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Nascere = cambiamento di stato → essere: sono nato a Napoli.",
+        "en": "Correct! Nascere = change of state → essere: sono nato a Napoli."
+      },
+      "feedbackErr": {
+        "it": "Nascere → essere: sono nato/a a Napoli.",
+        "en": "Nascere → essere: sono nato/a a Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'she has read a book' in italiano?",
+        "en": "How do you say 'she has read a book' in Italian?"
+      },
+      "opzioni": [
+        "È letto un libro.",
+        "Ha letto un libro.",
+        "È letta un libro.",
+        "Ha letta un libro."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Leggere è transitivo → avere: ha letto. Il participio non concorda.",
+        "en": "Correct! Leggere is transitive → avere: ha letto. The participle doesn't agree."
+      },
+      "feedbackErr": {
+        "it": "Leggere → avere: ha letto. Con avere il participio non concorda.",
+        "en": "Leggere → avere: ha letto. With avere the participle doesn't agree."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'restare' (to stay)?",
+        "en": "What is the correct auxiliary for 'restare' (to stay)?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Restare = stato/posizione → essere: sono restato a casa.",
+        "en": "Correct! Restare = state/position → essere: sono restato a casa."
+      },
+      "feedbackErr": {
+        "it": "Restare → essere: sono restato/a a casa.",
+        "en": "Restare → essere: sono restato/a a casa."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Mario and Sofia left' in italiano?",
+        "en": "How do you say 'Mario and Sofia left' in Italian?"
+      },
+      "opzioni": [
+        "Mario e Sofia hanno partito.",
+        "Mario e Sofia sono partiti.",
+        "Mario e Sofia sono partite.",
+        "Mario e Sofia hanno partiti."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Partire → essere. Gruppo misto M+F → maschile plurale: partiti.",
+        "en": "Correct! Partire → essere. Mixed M+F group → masculine plural: partiti."
+      },
+      "feedbackErr": {
+        "it": "Partire → essere. Gruppo misto → maschile plurale: partiti.",
+        "en": "Partire → essere. Mixed group → masculine plural: partiti."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'ausiliare corretto per 'lavorare'?",
+        "en": "What is the correct auxiliary for 'lavorare'?"
+      },
+      "opzioni": [
+        "essere",
+        "avere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Lavorare è intransitivo ma non di moto → avere: ho lavorato.",
+        "en": "Correct! Lavorare is intransitive but not a motion verb → avere: ho lavorato."
+      },
+      "feedbackErr": {
+        "it": "Lavorare → avere: ho lavorato tutto il giorno.",
+        "en": "Lavorare → avere: ho lavorato tutto il giorno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Con quale ausiliare il participio passato NON concorda col soggetto?",
+        "en": "With which auxiliary does the past participle NOT agree with the subject?"
+      },
+      "opzioni": [
+        "essere",
+        "avere",
+        "entrambi",
+        "nessuno dei due"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Con AVERE il participio non concorda: ho mangiato (M o F, uguale).",
+        "en": "Correct! With AVERE the participle doesn't agree: ho mangiato (M or F, same)."
+      },
+      "feedbackErr": {
+        "it": "Con avere: il participio non concorda. Con essere: concorda sempre.",
+        "en": "With avere: participle doesn't agree. With essere: always agrees."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi di moto usano sempre 'essere' come ausiliare.",
+        "en": "Motion verbs always use 'essere' as auxiliary."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andare, venire, partire, arrivare, uscire → tutti con essere.",
+        "en": "Correct! Andare, venire, partire, arrivare, uscire → all with essere."
+      },
+      "feedbackErr": {
+        "it": "Vero! Verbi di moto → essere: andare, venire, partire, arrivare.",
+        "en": "True! Motion verbs → essere: andare, venire, partire, arrivare."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con 'avere' il participio passato concorda col soggetto.",
+        "en": "With 'avere' the past participle agrees with the subject."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con avere il participio NON concorda col soggetto: ho mangiato (M o F, uguale).",
+        "en": "False! With avere the participle does NOT agree with the subject: ho mangiato (M or F, same)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Con avere → nessuna concordanza. Con essere → concorda sempre.",
+        "en": "False! With avere → no agreement. With essere → always agrees."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'Maria è andata a Napoli' perché andare usa essere.",
+        "en": "You say 'Maria è andata a Napoli' because andare uses essere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andare → essere. Maria (F) → andata.",
+        "en": "Correct! Andare → essere. Maria (F) → andata."
+      },
+      "feedbackErr": {
+        "it": "Vero! Andare → essere → andata (F sing.).",
+        "en": "True! Andare → essere → andata (F sing.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi riflessivi usano sempre 'avere' come ausiliare.",
+        "en": "Reflexive verbs always use 'avere' as auxiliary."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! I verbi riflessivi usano SEMPRE essere: mi sono alzato, si è lavata.",
+        "en": "False! Reflexive verbs ALWAYS use essere: mi sono alzato, si è lavata."
+      },
+      "feedbackErr": {
+        "it": "Falso! Riflessivi → sempre essere: mi sono alzato.",
+        "en": "False! Reflexive → always essere: mi sono alzato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'ho dormito' perché dormire usa avere.",
+        "en": "You say 'ho dormito' because dormire uses avere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Dormire è intransitivo ma non di moto → avere: ho dormito.",
+        "en": "Correct! Dormire is intransitive but not motion → avere: ho dormito."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dormire → avere: ho dormito bene.",
+        "en": "True! Dormire → avere: ho dormito bene."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi atmosferici come 'piovere' usano essere: è piovuto.",
+        "en": "Atmospheric verbs like 'piovere' use essere: è piovuto."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Piovere, nevicare, grandinare → essere: è piovuto, è nevicato.",
+        "en": "Correct! Piovere, nevicare, grandinare → essere: è piovuto, è nevicato."
+      },
+      "feedbackErr": {
+        "it": "Vero! Verbi atmosferici → essere: è piovuto, è nevicato.",
+        "en": "True! Atmospheric verbs → essere: è piovuto, è nevicato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'abbiamo mangiato la pizza' perché mangiare usa avere.",
+        "en": "You say 'abbiamo mangiato la pizza' because mangiare uses avere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mangiare è transitivo → avere: abbiamo mangiato.",
+        "en": "Correct! Mangiare is transitive → avere: abbiamo mangiato."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mangiare → avere: abbiamo mangiato la pizza.",
+        "en": "True! Mangiare → avere: abbiamo mangiato la pizza."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Essere' usa sé stesso come ausiliare: sono stato.",
+        "en": "'Essere' uses itself as auxiliary: sono stato."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → essere: sono stato, sei stata, è stato.",
+        "en": "Correct! Essere → essere: sono stato, sei stata, è stato."
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere usa sé stesso: sono stato a Napoli.",
+        "en": "True! Essere uses itself: sono stato a Napoli."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'sono nato a Napoli' perché nascere usa essere.",
+        "en": "You say 'sono nato a Napoli' because nascere uses essere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Nascere = cambiamento di stato → essere.",
+        "en": "Correct! Nascere = change of state → essere."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nascere → essere: sono nato/a a Napoli.",
+        "en": "True! Nascere → essere: sono nato/a a Napoli."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con 'essere' il participio concorda solo quando il soggetto è femminile.",
+        "en": "With 'essere' the participle agrees only when the subject is feminine."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con essere il participio concorda SEMPRE — M, F, singolare e plurale.",
+        "en": "False! With essere the participle ALWAYS agrees — M, F, singular and plural."
+      },
+      "feedbackErr": {
+        "it": "Falso! Concorda sempre: sono andato (M), sono andata (F), siamo andati (M pl.).",
+        "en": "False! Always agrees: sono andato (M), sono andata (F), siamo andati (M pl.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi transitivi usano quasi sempre 'avere'.",
+        "en": "Transitive verbs almost always use 'avere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Transitivi (con oggetto diretto) → avere: ho mangiato, ho visto, ho fatto.",
+        "en": "Correct! Transitive verbs (with direct object) → avere: ho mangiato, ho visto, ho fatto."
+      },
+      "feedbackErr": {
+        "it": "Vero! Transitivi → avere. Intransitivi di moto → essere.",
+        "en": "True! Transitive → avere. Intransitive motion → essere."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'ho lavorato' non 'sono lavorato'.",
+        "en": "You say 'ho lavorato' not 'sono lavorato'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lavorare → avere: ho lavorato.",
+        "en": "Correct! Lavorare → avere: ho lavorato."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lavorare → avere: ho lavorato tutto il giorno.",
+        "en": "True! Lavorare → avere: ho lavorato tutto il giorno."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gruppo misto M+F usa il participio maschile plurale con essere.",
+        "en": "A mixed M+F group uses the masculine plural participle with essere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mario e Sofia sono partiti — gruppo misto → maschile plurale.",
+        "en": "Correct! Mario e Sofia sono partiti — mixed group → masculine plural."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gruppo misto → maschile: Mario e Sofia sono partiti.",
+        "en": "True! Mixed group → masculine: Mario e Sofia sono partiti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'è uscita' per una donna che è uscita.",
+        "en": "You say 'è uscita' for a woman who went out."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Uscire → essere. Donna (F) → uscita.",
+        "en": "Correct! Uscire → essere. Woman (F) → uscita."
+      },
+      "feedbackErr": {
+        "it": "Vero! Uscire → essere → uscita (F sing.).",
+        "en": "True! Uscire → essere → uscita (F sing.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'hanno fatto' non 'sono fatto' perché fare usa avere.",
+        "en": "You say 'hanno fatto' not 'sono fatto' because fare uses avere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare è transitivo → avere: hanno fatto una pizza.",
+        "en": "Correct! Fare is transitive → avere: hanno fatto una pizza."
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare → avere: hanno fatto, ho fatto.",
+        "en": "True! Fare → avere: hanno fatto, ho fatto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Restare' e 'rimanere' usano essere al passato prossimo.",
+        "en": "'Restare' and 'rimanere' use essere in the passato prossimo."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Restare/rimanere = stato → essere: sono restato, sono rimasto.",
+        "en": "Correct! Restare/rimanere = state → essere: sono restato, sono rimasto."
+      },
+      "feedbackErr": {
+        "it": "Vero! Restare → sono restato. Rimanere → sono rimasto.",
+        "en": "True! Restare → sono restato. Rimanere → sono rimasto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'siamo venuti' per un gruppo che è venuto.",
+        "en": "You say 'siamo venuti' for a group that came."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venire → essere. Noi (M pl.) → venuti.",
+        "en": "Correct! Venire → essere. Noi (M pl.) → venuti."
+      },
+      "feedbackErr": {
+        "it": "Vero! Venire → essere → siamo venuti.",
+        "en": "True! Venire → essere → siamo venuti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con 'avere' si può dire 'ho mangiata la pizza' perché pizza è femminile.",
+        "en": "With 'avere' you can say 'ho mangiata la pizza' because pizza is feminine."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con avere il participio NON concorda col soggetto né con l'oggetto (a meno che non ci sia un pronome diretto).",
+        "en": "False! With avere the participle does NOT agree with subject or object (unless there's a direct pronoun)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Con avere → nessuna concordanza normale: ho mangiato la pizza (non mangiata).",
+        "en": "False! With avere → no normal agreement: ho mangiato la pizza (not mangiata)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ieri ___ una pizza buonissima. (mangiare, io)",
+        "en": "Build: Yesterday I ___ a delicious pizza. (mangiare)"
+      },
+      "parole": [
+        "Ieri",
+        "ho",
+        "mangiato",
+        "una",
+        "pizza",
+        "buonissima"
+      ],
+      "distrattori": [
+        "sono",
+        "mangiata",
+        "mangiati"
+      ],
+      "correct": [
+        "Ieri",
+        "ho",
+        "mangiato",
+        "una",
+        "pizza",
+        "buonissima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mangiare → avere: ho mangiato.",
+        "en": "Perfect! Mangiare → avere: ho mangiato."
+      },
+      "feedbackErr": {
+        "it": "Mangiare → avere: ho mangiato.",
+        "en": "Mangiare → avere: ho mangiato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia ___ a Napoli ieri. (andare)",
+        "en": "Build: Sofia ___ to Naples yesterday. (andare)"
+      },
+      "parole": [
+        "Sofia",
+        "è",
+        "andata",
+        "a",
+        "Napoli",
+        "ieri"
+      ],
+      "distrattori": [
+        "ha",
+        "andato",
+        "andati"
+      ],
+      "correct": [
+        "Sofia",
+        "è",
+        "andata",
+        "a",
+        "Napoli",
+        "ieri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Andare → essere. Sofia (F) → andata.",
+        "en": "Perfect! Andare → essere. Sofia (F) → andata."
+      },
+      "feedbackErr": {
+        "it": "Andare → essere → andata (F).",
+        "en": "Andare → essere → andata (F)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ un bel film ieri sera. (vedere, noi)",
+        "en": "Build: We ___ a great film last night. (vedere)"
+      },
+      "parole": [
+        "Abbiamo",
+        "visto",
+        "un",
+        "bel",
+        "film",
+        "ieri",
+        "sera"
+      ],
+      "distrattori": [
+        "Siamo",
+        "vista",
+        "visti"
+      ],
+      "correct": [
+        "Abbiamo",
+        "visto",
+        "un",
+        "bel",
+        "film",
+        "ieri",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vedere → avere: abbiamo visto.",
+        "en": "Perfect! Vedere → avere: abbiamo visto."
+      },
+      "feedbackErr": {
+        "it": "Vedere → avere: abbiamo visto.",
+        "en": "Vedere → avere: abbiamo visto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ tardi stamattina. (alzarsi)",
+        "en": "Build: Mario ___ late this morning. (alzarsi)"
+      },
+      "parole": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "distrattori": [
+        "ha",
+        "alzata",
+        "alzati"
+      ],
+      "correct": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Alzarsi → riflessivo → essere. Mario (M) → alzato.",
+        "en": "Perfect! Alzarsi → reflexive → essere. Mario (M) → alzato."
+      },
+      "feedbackErr": {
+        "it": "Riflessivo → essere. Mario = M → alzato.",
+        "en": "Reflexive → essere. Mario = M → alzato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a Napoli per tre anni. (vivere, io M)",
+        "en": "Build: I ___ in Naples for three years. (vivere)"
+      },
+      "parole": [
+        "Sono",
+        "vissuto",
+        "a",
+        "Napoli",
+        "per",
+        "tre",
+        "anni"
+      ],
+      "distrattori": [
+        "Ho",
+        "vivuto",
+        "vissuta"
+      ],
+      "correct": [
+        "Sono",
+        "vissuto",
+        "a",
+        "Napoli",
+        "per",
+        "tre",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vivere → essere: sono vissuto. Participio irregolare: vissuto.",
+        "en": "Perfect! Vivere → essere: sono vissuto. Irregular participle: vissuto."
+      },
+      "feedbackErr": {
+        "it": "Vivere → essere: sono vissuto (M).",
+        "en": "Vivere → essere: sono vissuto (M)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Ieri ___ molto. (piovere)",
+        "en": "Build: Yesterday it ___ a lot. (piovere)"
+      },
+      "parole": [
+        "Ieri",
+        "è",
+        "piovuto",
+        "molto"
+      ],
+      "distrattori": [
+        "ha",
+        "piovuta",
+        "piovuti"
+      ],
+      "correct": [
+        "Ieri",
+        "è",
+        "piovuto",
+        "molto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Piovere → essere: è piovuto.",
+        "en": "Perfect! Piovere → essere: è piovuto."
+      },
+      "feedbackErr": {
+        "it": "Verbi atmosferici → essere: è piovuto.",
+        "en": "Atmospheric verbs → essere: è piovuto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Le ragazze ___ tardi. (arrivare)",
+        "en": "Build: The girls ___ late. (arrivare)"
+      },
+      "parole": [
+        "Le",
+        "ragazze",
+        "sono",
+        "arrivate",
+        "tardi"
+      ],
+      "distrattori": [
+        "hanno",
+        "arrivato",
+        "arrivati"
+      ],
+      "correct": [
+        "Le",
+        "ragazze",
+        "sono",
+        "arrivate",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Arrivare → essere. Ragazze (F pl.) → arrivate.",
+        "en": "Perfect! Arrivare → essere. Ragazze (F pl.) → arrivate."
+      },
+      "feedbackErr": {
+        "it": "Arrivare → essere → arrivate (F pl.).",
+        "en": "Arrivare → essere → arrivate (F pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ tutta la notte. (lavorare)",
+        "en": "Build: Mario ___ all night. (lavorare)"
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "lavorato",
+        "tutta",
+        "la",
+        "notte"
+      ],
+      "distrattori": [
+        "è",
+        "lavorata",
+        "lavorati"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "lavorato",
+        "tutta",
+        "la",
+        "notte"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Lavorare → avere: ha lavorato.",
+        "en": "Perfect! Lavorare → avere: ha lavorato."
+      },
+      "feedbackErr": {
+        "it": "Lavorare → avere: ha lavorato.",
+        "en": "Lavorare → avere: ha lavorato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a Napoli l'estate scorsa. (essere, noi)",
+        "en": "Build: We ___ in Naples last summer. (essere)"
+      },
+      "parole": [
+        "Siamo",
+        "stati",
+        "a",
+        "Napoli",
+        "l'estate",
+        "scorsa"
+      ],
+      "distrattori": [
+        "Abbiamo",
+        "stato",
+        "stata"
+      ],
+      "correct": [
+        "Siamo",
+        "stati",
+        "a",
+        "Napoli",
+        "l'estate",
+        "scorsa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Essere → essere: siamo stati (noi M pl.).",
+        "en": "Perfect! Essere → essere: siamo stati (noi M pl.)."
+      },
+      "feedbackErr": {
+        "it": "Essere → essere: siamo stati a Napoli.",
+        "en": "Essere → essere: siamo stati a Napoli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a Napoli tre anni fa. (nascere, io M)",
+        "en": "Build: I ___ in Naples three years ago. (nascere)"
+      },
+      "parole": [
+        "Sono",
+        "nato",
+        "a",
+        "Napoli",
+        "tre",
+        "anni",
+        "fa"
+      ],
+      "distrattori": [
+        "Ho",
+        "nata",
+        "nati"
+      ],
+      "correct": [
+        "Sono",
+        "nato",
+        "a",
+        "Napoli",
+        "tre",
+        "anni",
+        "fa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Nascere → essere: sono nato (M).",
+        "en": "Perfect! Nascere → essere: sono nato (M)."
+      },
+      "feedbackErr": {
+        "it": "Nascere → essere → nato (M sing.).",
+        "en": "Nascere → essere → nato (M sing.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario e Sofia ___ insieme. (partire)",
+        "en": "Build: Mario and Sofia ___ together. (partire)"
+      },
+      "parole": [
+        "Mario",
+        "e",
+        "Sofia",
+        "sono",
+        "partiti",
+        "insieme"
+      ],
+      "distrattori": [
+        "hanno",
+        "partite",
+        "partito"
+      ],
+      "correct": [
+        "Mario",
+        "e",
+        "Sofia",
+        "sono",
+        "partiti",
+        "insieme"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Partire → essere. Gruppo misto → maschile plurale: partiti.",
+        "en": "Perfect! Partire → essere. Mixed group → masculine plural: partiti."
+      },
+      "feedbackErr": {
+        "it": "Partire → essere. Misto → partiti (M pl.).",
+        "en": "Partire → essere. Mixed → partiti (M pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ a casa tutto il giorno. (restare, io F)",
+        "en": "Build: I ___ home all day. (restare, F)"
+      },
+      "parole": [
+        "Sono",
+        "restata",
+        "a",
+        "casa",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "distrattori": [
+        "Ho",
+        "restato",
+        "restati"
+      ],
+      "correct": [
+        "Sono",
+        "restata",
+        "a",
+        "casa",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Restare → essere. Io (F) → restata.",
+        "en": "Perfect! Restare → essere. Io (F) → restata."
+      },
+      "feedbackErr": {
+        "it": "Restare → essere → restata (F sing.).",
+        "en": "Restare → essere → restata (F sing.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'ho bevuto' perché bere usa avere.",
+        "en": "You say 'ho bevuto' because bere uses avere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Bere è transitivo → avere: ho bevuto un caffè.",
+        "en": "Correct! Bere is transitive → avere: ho bevuto un caffè."
+      },
+      "feedbackErr": {
+        "it": "Vero! Bere → avere: ho bevuto.",
+        "en": "True! Bere → avere: ho bevuto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'è morto' perché morire usa essere.",
+        "en": "You say 'è morto' because morire uses essere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Morire = cambiamento di stato → essere: è morto, è morta.",
+        "en": "Correct! Morire = change of state → essere: è morto, è morta."
+      },
+      "feedbackErr": {
+        "it": "Vero! Morire → essere: è morto/a.",
+        "en": "True! Morire → essere: è morto/a."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ un caffè stamattina. (bere, io)",
+        "en": "Build: I ___ a coffee this morning. (bere)"
+      },
+      "parole": [
+        "Ho",
+        "bevuto",
+        "un",
+        "caffè",
+        "stamattina"
+      ],
+      "distrattori": [
+        "Sono",
+        "bevuta",
+        "bevuti"
+      ],
+      "correct": [
+        "Ho",
+        "bevuto",
+        "un",
+        "caffè",
+        "stamattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bere → avere: ho bevuto.",
+        "en": "Perfect! Bere → avere: ho bevuto."
+      },
+      "feedbackErr": {
+        "it": "Bere → avere: ho bevuto.",
+        "en": "Bere → avere: ho bevuto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Le ragazze ___ a casa. (rimanere)",
+        "en": "Build: The girls ___ at home. (rimanere)"
+      },
+      "parole": [
+        "Le",
+        "ragazze",
+        "sono",
+        "rimaste",
+        "a",
+        "casa"
+      ],
+      "distrattori": [
+        "hanno",
+        "rimasto",
+        "rimasti"
+      ],
+      "correct": [
+        "Le",
+        "ragazze",
+        "sono",
+        "rimaste",
+        "a",
+        "casa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Rimanere → essere. Ragazze (F pl.) → rimaste.",
+        "en": "Perfect! Rimanere → essere. Ragazze (F pl.) → rimaste."
+      },
+      "feedbackErr": {
+        "it": "Rimanere → essere → rimaste (F pl.).",
+        "en": "Rimanere → essere → rimaste (F pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ la lettera ieri. (scrivere, io)",
+        "en": "Build: I ___ the letter yesterday. (scrivere)"
+      },
+      "parole": [
+        "Ho",
+        "scritto",
+        "la",
+        "lettera",
+        "ieri"
+      ],
+      "distrattori": [
+        "Sono",
+        "scritta",
+        "scritti"
+      ],
+      "correct": [
+        "Ho",
+        "scritto",
+        "la",
+        "lettera",
+        "ieri"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Scrivere → avere: ho scritto.",
+        "en": "Perfect! Scrivere → avere: ho scritto."
+      },
+      "feedbackErr": {
+        "it": "Scrivere → avere: ho scritto.",
+        "en": "Scrivere → avere: ho scritto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Diego ___ alle sette. (uscire)",
+        "en": "Build: Diego ___ at seven. (uscire)"
+      },
+      "parole": [
+        "Diego",
+        "è",
+        "uscito",
+        "alle",
+        "sette"
+      ],
+      "distrattori": [
+        "ha",
+        "uscita",
+        "usciti"
+      ],
+      "correct": [
+        "Diego",
+        "è",
+        "uscito",
+        "alle",
+        "sette"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Uscire → essere. Diego (M) → uscito.",
+        "en": "Perfect! Uscire → essere. Diego (M) → uscito."
+      },
+      "feedbackErr": {
+        "it": "Uscire → essere → uscito (M).",
+        "en": "Uscire → essere → uscito (M)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ il libro in un giorno. (leggere, io)",
+        "en": "Build: I ___ the book in one day. (leggere)"
+      },
+      "parole": [
+        "Ho",
+        "letto",
+        "il",
+        "libro",
+        "in",
+        "un",
+        "giorno"
+      ],
+      "distrattori": [
+        "Sono",
+        "letta",
+        "letti"
+      ],
+      "correct": [
+        "Ho",
+        "letto",
+        "il",
+        "libro",
+        "in",
+        "un",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Leggere → avere: ho letto.",
+        "en": "Perfect! Leggere → avere: ho letto."
+      },
+      "feedbackErr": {
+        "it": "Leggere → avere: ho letto.",
+        "en": "Leggere → avere: ho letto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia ___ presto ieri sera. (tornare)",
+        "en": "Build: Sofia ___ home early last night. (tornare)"
+      },
+      "parole": [
+        "Sofia",
+        "è",
+        "tornata",
+        "presto",
+        "ieri",
+        "sera"
+      ],
+      "distrattori": [
+        "ha",
+        "tornato",
+        "tornati"
+      ],
+      "correct": [
+        "Sofia",
+        "è",
+        "tornata",
+        "presto",
+        "ieri",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tornare → essere. Sofia (F) → tornata.",
+        "en": "Perfect! Tornare → essere. Sofia (F) → tornata."
+      },
+      "feedbackErr": {
+        "it": "Tornare → essere → tornata (F).",
+        "en": "Tornare → essere → tornata (F)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: I bambini ___ molto. (crescere)",
+        "en": "Build: The children ___ a lot. (crescere)"
+      },
+      "parole": [
+        "I",
+        "bambini",
+        "sono",
+        "cresciuti",
+        "molto"
+      ],
+      "distrattori": [
+        "hanno",
+        "cresciuto",
+        "cresciute"
+      ],
+      "correct": [
+        "I",
+        "bambini",
+        "sono",
+        "cresciuti",
+        "molto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Crescere → essere. Bambini (M pl.) → cresciuti.",
+        "en": "Perfect! Crescere → essere. Bambini (M pl.) → cresciuti."
+      },
+      "feedbackErr": {
+        "it": "Crescere → essere → cresciuti (M pl.).",
+        "en": "Crescere → essere → cresciuti (M pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ la porta. (aprire)",
+        "en": "Build: Mario ___ the door. (aprire)"
+      },
+      "parole": [
+        "Mario",
+        "ha",
+        "aperto",
+        "la",
+        "porta"
+      ],
+      "distrattori": [
+        "è",
+        "aperta",
+        "aperti"
+      ],
+      "correct": [
+        "Mario",
+        "ha",
+        "aperto",
+        "la",
+        "porta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Aprire → avere: ha aperto.",
+        "en": "Perfect! Aprire → avere: ha aperto."
+      },
+      "feedbackErr": {
+        "it": "Aprire → avere: ha aperto.",
+        "en": "Aprire → avere: ha aperto."
+      }
+    }
+  ]
+}

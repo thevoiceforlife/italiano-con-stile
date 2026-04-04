@@ -1,0 +1,1521 @@
+{
+  "id": "pronomi-soggetto",
+  "categoria": "grammatica",
+  "emoji": "👤",
+  "livello": "A1",
+  "titolo": {
+    "it": "Pronomi Soggetto",
+    "en": "Subject Pronouns"
+  },
+  "mario": "In italiano non diciamo quasi mai 'io'. Sembra strano — in inglese 'I' è obbligatorio. Da noi no. Il verbo da solo basta. Ti spiego perché.",
+  "marioEn": "In Italian we almost never say 'io'. Seems strange — in English 'I' is compulsory. Not for us. The verb alone is enough. Let me explain why.",
+  "perche": {
+    "it": "In inglese devi sempre dire il soggetto: 'I eat', 'you eat', 'he eats' — senza 'I', 'you', 'he' non si capisce chi mangia. In italiano no: 'mangio' può significare solo 'io mangio', 'mangi' solo 'tu mangi'. La desinenza del verbo porta già l'informazione del soggetto. Quindi 'io', 'tu', 'lui' si usano solo per enfasi o contrasto: 'Mangio IO, non tu!'",
+    "en": "In English you must always say the subject: 'I eat', 'you eat', 'he eats' — without 'I', 'you', 'he' you don't know who's eating. In Italian no: 'mangio' can only mean 'I eat', 'mangi' can only mean 'you eat'. The verb ending already carries the subject information. So 'io', 'tu', 'lui' are only used for emphasis or contrast: 'It's ME eating, not you!'"
+  },
+  "spiegazione": {
+    "it": "I pronomi soggetto esistono ma si omettono quasi sempre. Si usano per: 1) enfasi, 2) contrasto, 3) chiarire ambiguità (lui/lei/loro hanno stessa forma verbale).",
+    "en": "Subject pronouns exist but are almost always omitted. They are used for: 1) emphasis, 2) contrast, 3) to clarify ambiguity (lui/lei/loro share verb forms)."
+  },
+  "tabella": {
+    "headers": [
+      "Pronome / Pronoun",
+      "Inglese / English",
+      "Uso / Use",
+      "Esempio / Example"
+    ],
+    "rows": [
+      [
+        "io",
+        "I",
+        "raramente usato / rarely used",
+        "Mangio (= io mangio)"
+      ],
+      [
+        "tu",
+        "you (sing.)",
+        "raramente usato / rarely used",
+        "Mangi (= tu mangi)"
+      ],
+      [
+        "lui",
+        "he",
+        "utile per chiarire / useful to clarify",
+        "Lui mangia, lei no"
+      ],
+      [
+        "lei",
+        "she / you (formal)",
+        "doppio uso / double use",
+        "Lei è la professoressa"
+      ],
+      [
+        "noi",
+        "we",
+        "raramente usato / rarely used",
+        "Mangiamo (= noi mangiamo)"
+      ],
+      [
+        "voi",
+        "you (plural)",
+        "raramente usato / rarely used",
+        "Mangiate (= voi mangiate)"
+      ],
+      [
+        "loro",
+        "they",
+        "spesso omesso / often omitted",
+        "Mangiano (= loro mangiano)"
+      ],
+      [
+        "Lei (maiuscolo)",
+        "you (very formal)",
+        "formale scritto / formal written",
+        "Lei desidera, signore?"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Parlo italiano. (non: io parlo italiano)",
+      "en": "I speak Italian. (not: io parlo italiano)",
+      "audio": "Parlo italiano."
+    },
+    {
+      "it": "Mangio IO, non tu! (enfasi)",
+      "en": "I'M eating, not you! (emphasis)",
+      "audio": "Mangio io, non tu!"
+    },
+    {
+      "it": "Lui studia, lei lavora. (contrasto)",
+      "en": "He studies, she works. (contrast)",
+      "audio": "Lui studia, lei lavora."
+    },
+    {
+      "it": "Lei desidera un caffè, signora?",
+      "en": "Would you like a coffee, madam?",
+      "audio": "Lei desidera un caffè, signora?"
+    },
+    {
+      "it": "Siamo pronti! (= noi siamo pronti)",
+      "en": "We are ready! (= noi siamo pronti)",
+      "audio": "Siamo pronti!"
+    }
+  ],
+  "nota": {
+    "it": "⚠️ Attenzione: 'lei' (minuscolo) = she. 'Lei' (maiuscolo) = you formale. In pratica nel parlato si capisce dal contesto. Nello scritto formale si usa la maiuscola.",
+    "en": "⚠️ Watch out: 'lei' (lowercase) = she. 'Lei' (uppercase) = formal you. In practice in speech you understand from context. In formal writing use the capital."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quando si usa 'io' in italiano?",
+        "en": "When do you use 'io' in Italian?"
+      },
+      "opzioni": [
+        "Sempre, come in inglese.",
+        "Solo per enfasi o contrasto.",
+        "Mai — è vietato.",
+        "Solo al passato."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Io' si usa solo per enfasi: 'Mangio IO, non tu!'",
+        "en": "Correct! 'Io' is used only for emphasis: 'It's ME eating, not you!'"
+      },
+      "feedbackErr": {
+        "it": "'Io' è opzionale in italiano — si usa solo per enfasi o contrasto.",
+        "en": "'Io' is optional in Italian — only used for emphasis or contrast."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è più naturale in italiano?",
+        "en": "Which sentence is more natural in Italian?"
+      },
+      "opzioni": [
+        "Io mangio la pizza.",
+        "Mangio la pizza.",
+        "Io sono mangio la pizza.",
+        "Mangio io la pizza sempre."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangio la pizza' è più naturale — 'io' è ridondante.",
+        "en": "Correct! 'Mangio la pizza' is more natural — 'io' is redundant."
+      },
+      "feedbackErr": {
+        "it": "Senza 'io' è più naturale — la desinenza -o indica già la prima persona.",
+        "en": "Without 'io' is more natural — the ending -o already indicates first person."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché si usa 'lui' o 'lei' più spesso di 'io' e 'tu'?",
+        "en": "Why is 'lui' or 'lei' used more often than 'io' and 'tu'?"
+      },
+      "opzioni": [
+        "È obbligatorio.",
+        "Sono più eleganti.",
+        "Chiariscono l'ambiguità: lui/lei hanno la stessa forma verbale.",
+        "Non si usano mai."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangia' può essere lui O lei — 'lui' o 'lei' chiarisce chi.",
+        "en": "Correct! 'Mangia' can be lui OR lei — 'lui' or 'lei' clarifies who."
+      },
+      "feedbackErr": {
+        "it": "Lui/lei si usano per chiarire: 'mangia' è ambiguo, 'lui mangia' no.",
+        "en": "Lui/lei are used to clarify: 'mangia' is ambiguous, 'lui mangia' is not."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'she works' in italiano?",
+        "en": "How do you say 'she works' in Italian?"
+      },
+      "opzioni": [
+        "Lui lavora.",
+        "Lei lavoriamo.",
+        "Lavora. / Lei lavora.",
+        "Lavorano."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Lavora' o 'Lei lavora' — entrambi corretti.",
+        "en": "Correct! 'Lavora' or 'Lei lavora' — both correct."
+      },
+      "feedbackErr": {
+        "it": "She works = lavora o lei lavora. Il pronome è opzionale.",
+        "en": "She works = lavora or lei lavora. The pronoun is optional."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "In italiano formale, come si chiama il 'Lei' di cortesia?",
+        "en": "In formal Italian, what is the polite 'Lei' called?"
+      },
+      "opzioni": [
+        "Lei informale",
+        "Tu formale",
+        "Lei di cortesia / Forma di rispetto",
+        "Voi regale"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Lei di cortesia' — si usa con sconosciuti, anziani, in contesti professionali.",
+        "en": "Correct! 'Lei di cortesia' — used with strangers, elderly, in professional contexts."
+      },
+      "feedbackErr": {
+        "it": "Si chiama 'Lei di cortesia' o 'forma di rispetto'.",
+        "en": "It's called 'Lei di cortesia' or 'forma di rispetto'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase usa 'Lei' formale correttamente?",
+        "en": "Which sentence uses formal 'Lei' correctly?"
+      },
+      "opzioni": [
+        "Lei mangi la pizza?",
+        "Lei mangia la pizza, signora?",
+        "Lei mangiate la pizza?",
+        "Lei mangiano la pizza?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Lei' formale usa la terza persona singolare: mangia.",
+        "en": "Correct! Formal 'Lei' uses the third person singular: mangia."
+      },
+      "feedbackErr": {
+        "it": "Lei formale + terza persona singolare: Lei mangia, Lei prende, Lei desidera.",
+        "en": "Formal Lei + third person singular: Lei mangia, Lei prende, Lei desidera."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase esprime contrasto con il pronome?",
+        "en": "Which sentence expresses contrast with the pronoun?"
+      },
+      "opzioni": [
+        "Mangio la pizza.",
+        "Mangio io la pizza, non tu!",
+        "Io pizza mangio.",
+        "Mangiamo la pizza."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangio IO, non tu!' — il pronome sottolinea il contrasto.",
+        "en": "Correct! 'It's ME eating, not you!' — the pronoun emphasises the contrast."
+      },
+      "feedbackErr": {
+        "it": "Il pronome si usa per contrasto: 'Mangio io, non tu!' — enfasi su 'io'.",
+        "en": "The pronoun is used for contrast: 'Mangio io, non tu!' — emphasis on 'io'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'they are ready' in italiano?",
+        "en": "How do you say 'they are ready' in Italian?"
+      },
+      "opzioni": [
+        "Siete pronti.",
+        "Siamo pronti.",
+        "Sono pronti.",
+        "È pronto."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! They = loro → sono pronti. Senza 'loro' è ancora corretto.",
+        "en": "Correct! They = loro → sono pronti. Without 'loro' it's still correct."
+      },
+      "feedbackErr": {
+        "it": "They = loro → sono pronti. 'Loro' è opzionale.",
+        "en": "They = loro → sono pronti. 'Loro' is optional."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la differenza tra 'lei' (minuscolo) e 'Lei' (maiuscolo)?",
+        "en": "What is the difference between 'lei' (lowercase) and 'Lei' (uppercase)?"
+      },
+      "opzioni": [
+        "Nessuna differenza.",
+        "'lei' = she, 'Lei' = formal you.",
+        "'lei' = formal you, 'Lei' = she.",
+        "Solo nel tono della voce."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'lei' = she (terza persona), 'Lei' = you formale (cortesia).",
+        "en": "Correct! 'lei' = she (third person), 'Lei' = formal you (courtesy)."
+      },
+      "feedbackErr": {
+        "it": "'lei' minuscolo = she. 'Lei' maiuscolo = you formale.",
+        "en": "'lei' lowercase = she. 'Lei' uppercase = formal you."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'we are Italian' in italiano?",
+        "en": "How do you say 'we are Italian' in Italian?"
+      },
+      "opzioni": [
+        "Sono italiani.",
+        "Siete italiani.",
+        "Siamo italiani.",
+        "È italiano."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! We = noi → siamo italiani. 'Noi' opzionale.",
+        "en": "Correct! We = noi → siamo italiani. 'Noi' optional."
+      },
+      "feedbackErr": {
+        "it": "We = noi → siamo italiani.",
+        "en": "We = noi → siamo italiani."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "In quale contesto si usa sicuramente il pronome soggetto?",
+        "en": "In which context is the subject pronoun definitely used?"
+      },
+      "opzioni": [
+        "Sempre, in ogni frase.",
+        "Quando si vuole enfatizzare o fare un contrasto.",
+        "Solo al futuro.",
+        "Solo con i verbi irregolari."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Enfasi e contrasto: 'Mangio io, non lui!' 'Lei studia, lui gioca.'",
+        "en": "Correct! Emphasis and contrast: 'I'm eating, not him!' 'She studies, he plays.'"
+      },
+      "feedbackErr": {
+        "it": "Il pronome si usa per enfasi e contrasto, non obbligatoriamente sempre.",
+        "en": "The pronoun is used for emphasis and contrast, not always obligatorily."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiede formalmente 'would you like a coffee?' in italiano?",
+        "en": "How do you formally ask 'would you like a coffee?' in Italian?"
+      },
+      "opzioni": [
+        "Tu vuoi un caffè?",
+        "Lei desidera un caffè?",
+        "Voi volete un caffè?",
+        "Loro desiderano un caffè?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Lei desidera' — Lei formale + terza persona singolare.",
+        "en": "Correct! 'Lei desidera' — formal Lei + third person singular."
+      },
+      "feedbackErr": {
+        "it": "Formale: Lei desidera un caffè? (Lei + terza singolare).",
+        "en": "Formal: Lei desidera un caffè? (Lei + third singular)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché in italiano si dice solo 'Partiamo' e non 'Noi partiamo' normalmente?",
+        "en": "Why in Italian do you normally just say 'Partiamo' and not 'Noi partiamo'?"
+      },
+      "opzioni": [
+        "'Noi' non esiste in italiano.",
+        "La desinenza -iamo indica già la prima persona plurale.",
+        "È una regola dialettale.",
+        "'Partiamo' è sbagliato."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! -iamo indica già 'noi' — il pronome è informazione doppia.",
+        "en": "Correct! -iamo already indicates 'noi' — the pronoun is double information."
+      },
+      "feedbackErr": {
+        "it": "La desinenza -iamo porta già l'informazione del soggetto 'noi'.",
+        "en": "The ending -iamo already carries the subject information 'noi'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'you (plural) are from Naples?' in italiano?",
+        "en": "How do you say 'you (plural) are from Naples?' in Italian?"
+      },
+      "opzioni": [
+        "Sei di Napoli?",
+        "È di Napoli?",
+        "Sono di Napoli?",
+        "Siete di Napoli?"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! You plural = voi → siete di Napoli?",
+        "en": "Correct! You plural = voi → siete di Napoli?"
+      },
+      "feedbackErr": {
+        "it": "Voi = seconda persona plurale → siete.",
+        "en": "Voi = second person plural → siete."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale pronome si usa per 'I' in italiano?",
+        "en": "Which pronoun is used for 'I' in Italian?"
+      },
+      "opzioni": [
+        "noi",
+        "lui",
+        "io",
+        "lei"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! I = io. Ma si usa raramente — la desinenza verbale basta.",
+        "en": "Correct! I = io. But it's rarely used — the verb ending is enough."
+      },
+      "feedbackErr": {
+        "it": "I = io. Ma in italiano il pronome soggetto è quasi sempre omesso.",
+        "en": "I = io. But in Italian the subject pronoun is almost always omitted."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come risponde Mario quando gli chiedi 'Chi mangia la pizza?'",
+        "en": "How does Mario answer when you ask 'Chi mangia la pizza?'"
+      },
+      "opzioni": [
+        "'Io mangio io.'",
+        "'Mangio io!' o 'Io!'",
+        "'Mario mangio.'",
+        "'Mangiano io.'"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangio io!' oppure solo 'Io!' — enfasi naturale.",
+        "en": "Correct! 'Mangio io!' or just 'Io!' — natural emphasis."
+      },
+      "feedbackErr": {
+        "it": "Risposta naturale: 'Mangio io!' Il pronome qui serve per enfasi.",
+        "en": "Natural answer: 'Mangio io!' The pronoun here is used for emphasis."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'voi' in inglese?",
+        "en": "What does 'voi' mean in English?"
+      },
+      "opzioni": [
+        "I",
+        "he/she",
+        "we",
+        "you (plural)"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Voi = you plural. Come 'y'all' in americano o 'you guys'.",
+        "en": "Correct! Voi = you plural. Like 'y'all' in American or 'you guys'."
+      },
+      "feedbackErr": {
+        "it": "Voi = you plural — la forma plurale di 'tu'.",
+        "en": "Voi = you plural — the plural form of 'tu'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale forma del verbo si usa con 'Lei' formale?",
+        "en": "Which verb form is used with formal 'Lei'?"
+      },
+      "opzioni": [
+        "Seconda persona singolare (tu)",
+        "Prima persona singolare (io)",
+        "Terza persona singolare (lui/lei)",
+        "Seconda persona plurale (voi)"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Lei formale usa la terza singolare: Lei mangia, Lei prende, Lei desidera.",
+        "en": "Correct! Formal Lei uses the third singular: Lei mangia, Lei prende, Lei desidera."
+      },
+      "feedbackErr": {
+        "it": "Lei formale + terza persona singolare — come 'lui' e 'lei' informali.",
+        "en": "Formal Lei + third person singular — like informal 'lui' and 'lei'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'he studies, she works' in italiano?",
+        "en": "How do you say 'he studies, she works' in Italian?"
+      },
+      "opzioni": [
+        "Lui studia, lei lavora.",
+        "Lui studiano, lei lavorano.",
+        "Lui studi, lei lavori.",
+        "Lui studiamo, lei lavoriamo."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Lui studia, lei lavora — terza persona singolare per entrambi.",
+        "en": "Correct! Lui studia, lei lavora — third person singular for both."
+      },
+      "feedbackErr": {
+        "it": "Lui e lei = terza persona singolare → studia, lavora.",
+        "en": "Lui and lei = third person singular → studia, lavora."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "In quale situazione si dice 'Studi tu, non io!'?",
+        "en": "In which situation do you say 'Studi tu, non io!'?"
+      },
+      "opzioni": [
+        "Per fare una domanda.",
+        "Per esprimere un contrasto o rifiuto.",
+        "Per essere formali.",
+        "Per descrivere un'abitudine."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Contrasto e rifiuto: 'Studi TU, non io' — enfasi sul pronome.",
+        "en": "Correct! Contrast and refusal: 'YOU study, not me' — emphasis on the pronoun."
+      },
+      "feedbackErr": {
+        "it": "Il pronome esprime contrasto: 'Studi tu, non io!' = You study, not me!",
+        "en": "The pronoun expresses contrast: 'Studi tu, non io!' = You study, not me!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il pronome soggetto è quasi sempre obbligatorio.",
+        "en": "In Italian the subject pronoun is almost always compulsory."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Il pronome è quasi sempre omesso — la desinenza verbale basta.",
+        "en": "False! The pronoun is almost always omitted — the verb ending is enough."
+      },
+      "feedbackErr": {
+        "it": "Falso! In italiano il pronome soggetto è opzionale — la desinenza indica già la persona.",
+        "en": "False! In Italian the subject pronoun is optional — the ending already indicates the person."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Lei' con la maiuscola indica il 'you' formale in italiano.",
+        "en": "'Lei' with a capital letter indicates the formal 'you' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Lei' maiuscolo = you formale. 'lei' minuscolo = she.",
+        "en": "Correct! 'Lei' uppercase = formal you. 'lei' lowercase = she."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nel testo formale scritto: 'Lei' maiuscolo per il 'you' di rispetto.",
+        "en": "True! In formal written text: 'Lei' uppercase for respectful 'you'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si può dire 'Mangio io!' per enfatizzare chi mangia.",
+        "en": "You can say 'Mangio io!' to emphasise who is eating."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il pronome post-verbale è comune per enfasi: 'Mangio io, non lui!'",
+        "en": "Correct! The post-verbal pronoun is common for emphasis: 'I'm eating, not him!'"
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Mangio io!' è perfetto per enfasi.",
+        "en": "True! 'Mangio io!' is perfect for emphasis."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Lui' e 'lei' si usano spesso per chiarire chi fa l'azione.",
+        "en": "'Lui' and 'lei' are often used to clarify who is doing the action."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangia' è ambiguo — 'lui mangia' e 'lei mangia' chiariscono.",
+        "en": "Correct! 'Mangia' is ambiguous — 'lui mangia' and 'lei mangia' clarify."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lui/lei chiariscono l'ambiguità della terza persona singolare.",
+        "en": "True! Lui/lei clarify the ambiguity of the third person singular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'tu' si usa sempre, come 'you' in inglese.",
+        "en": "In Italian 'tu' is always used, like 'you' in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Tu' è opzionale — 'Mangi la pizza?' è più naturale di 'Tu mangi la pizza?'",
+        "en": "False! 'Tu' is optional — 'Mangi la pizza?' is more natural than 'Tu mangi la pizza?'"
+      },
+      "feedbackErr": {
+        "it": "Falso! In italiano i pronomi soggetto sono quasi sempre omessi.",
+        "en": "False! In Italian subject pronouns are almost always omitted."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Loro' si omette più spesso degli altri pronomi.",
+        "en": "'Loro' is omitted more often than other pronouns."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mangiano' è chiaro — 'loro' è raramente necessario.",
+        "en": "Correct! 'Mangiano' is clear — 'loro' is rarely necessary."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Mangiano' indica già terza plurale — 'loro' è ridondante.",
+        "en": "True! 'Mangiano' already indicates third plural — 'loro' is redundant."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Siamo italiani' è corretto senza 'noi'.",
+        "en": "'Siamo italiani' is correct without 'noi'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Siamo' indica già la prima persona plurale. 'Noi' è ridondante.",
+        "en": "Correct! 'Siamo' already indicates first person plural. 'Noi' is redundant."
+      },
+      "feedbackErr": {
+        "it": "Vero! -iamo indica 'noi' — il pronome non è necessario.",
+        "en": "True! -iamo indicates 'noi' — the pronoun is not necessary."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si dice 'tu sei' o solo 'sei' — entrambi corretti.",
+        "en": "In Italian you say 'tu sei' or just 'sei' — both correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Entrambi corretti — 'sei' è più naturale, 'tu sei' per enfasi.",
+        "en": "Correct! Both correct — 'sei' is more natural, 'tu sei' for emphasis."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Sei' e 'tu sei' sono entrambi grammaticalmente corretti.",
+        "en": "True! 'Sei' and 'tu sei' are both grammatically correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il 'voi' di cortesia non si usa più nell'italiano moderno.",
+        "en": "The courtesy 'voi' is no longer used in modern Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Voi' di cortesia era usato nel passato — oggi si usa 'Lei'.",
+        "en": "Correct! Courtesy 'voi' was used in the past — today 'Lei' is used."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il 'voi' di rispetto è arcaico — oggi si usa 'Lei' formale.",
+        "en": "True! The respectful 'voi' is archaic — today formal 'Lei' is used."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Parlo italiano' significa 'I speak Italian' senza bisogno di 'io'.",
+        "en": "'Parlo italiano' means 'I speak Italian' without needing 'io'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -o indica già la prima persona. 'Parlo' = I speak.",
+        "en": "Correct! -o already indicates first person. 'Parlo' = I speak."
+      },
+      "feedbackErr": {
+        "it": "Vero! La desinenza -o porta già il significato di 'io'.",
+        "en": "True! The ending -o already carries the meaning of 'io'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Noi' si usa spesso per sottolineare l'identità di gruppo.",
+        "en": "'Noi' is often used to emphasise group identity."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Noi italiani...' — uso del pronome per identificazione collettiva.",
+        "en": "Correct! 'Noi italiani...' — use of pronoun for collective identification."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Noi italiani amiamo il caffè' — il pronome enfatizza l'identità.",
+        "en": "True! 'Noi italiani amiamo il caffè' — the pronoun emphasises identity."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi (senza pronome): ___ la pizza ogni venerdì.",
+        "en": "Build (without pronoun): ___ pizza every Friday."
+      },
+      "parole": [
+        "Mangio",
+        "la",
+        "pizza",
+        "ogni",
+        "venerdì"
+      ],
+      "distrattori": [
+        "Io",
+        "mangio",
+        "Mangi",
+        "Mangia"
+      ],
+      "correct": [
+        "Mangio",
+        "la",
+        "pizza",
+        "ogni",
+        "venerdì"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Senza 'io' è più naturale — la desinenza -o indica già la prima persona.",
+        "en": "Perfect! Without 'io' is more natural — the ending -o already indicates first person."
+      },
+      "feedbackErr": {
+        "it": "Senza pronome: 'Mangio' indica già 'io mangio'.",
+        "en": "Without pronoun: 'Mangio' already means 'io mangio'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi (con contrasto): ___ la pizza, non lui!",
+        "en": "Build (with contrast): ___ eating the pizza, not him!"
+      },
+      "parole": [
+        "Mangio",
+        "io",
+        "la",
+        "pizza",
+        "non",
+        "lui"
+      ],
+      "distrattori": [
+        "tu",
+        "lei",
+        "noi"
+      ],
+      "correct": [
+        "Mangio",
+        "io",
+        "la",
+        "pizza",
+        "non",
+        "lui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Io' qui serve per contrasto — enfasi su chi mangia.",
+        "en": "Perfect! 'Io' here is used for contrast — emphasis on who is eating."
+      },
+      "feedbackErr": {
+        "it": "Il pronome 'io' serve per il contrasto con 'lui'.",
+        "en": "The pronoun 'io' is needed for the contrast with 'lui'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi (formale): ___ desidera un caffè, signora?",
+        "en": "Build (formal): ___ like a coffee, madam?"
+      },
+      "parole": [
+        "Lei",
+        "desidera",
+        "un",
+        "caffè",
+        "signora"
+      ],
+      "distrattori": [
+        "Tu",
+        "Voi",
+        "Lui"
+      ],
+      "correct": [
+        "Lei",
+        "desidera",
+        "un",
+        "caffè",
+        "signora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Lei' formale + terza persona singolare: desidera.",
+        "en": "Perfect! Formal 'Lei' + third person singular: desidera."
+      },
+      "feedbackErr": {
+        "it": "Contesto formale → Lei (di cortesia) + desidera.",
+        "en": "Formal context → Lei (courtesy) + desidera."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ studia, ___ lavora.",
+        "en": "Build: ___ studies, ___ works."
+      },
+      "parole": [
+        "Lui",
+        "studia",
+        "lei",
+        "lavora"
+      ],
+      "distrattori": [
+        "tu",
+        "io",
+        "voi"
+      ],
+      "correct": [
+        "Lui",
+        "studia",
+        "lei",
+        "lavora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Contrasto tra lui e lei — pronomi utili per chiarire.",
+        "en": "Perfect! Contrast between lui and lei — pronouns useful to clarify."
+      },
+      "feedbackErr": {
+        "it": "Lui/lei per contrasto e chiarezza: lui studia, lei lavora.",
+        "en": "Lui/lei for contrast and clarity: lui studia, lei lavora."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ pronti! (noi, senza pronome)",
+        "en": "Build: ___ ready! (we, without pronoun)"
+      },
+      "parole": [
+        "Siamo",
+        "pronti"
+      ],
+      "distrattori": [
+        "Noi",
+        "Sono",
+        "Sei"
+      ],
+      "correct": [
+        "Siamo",
+        "pronti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Siamo' indica già 'noi' — niente pronome necessario.",
+        "en": "Perfect! 'Siamo' already indicates 'noi' — no pronoun needed."
+      },
+      "feedbackErr": {
+        "it": "Senza pronome: 'Siamo' porta già il significato di 'noi'.",
+        "en": "Without pronoun: 'Siamo' already carries the meaning of 'noi'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ italiani amiamo il caffè.",
+        "en": "Build: ___ Italians love coffee."
+      },
+      "parole": [
+        "Noi",
+        "italiani",
+        "amiamo",
+        "il",
+        "caffè"
+      ],
+      "distrattori": [
+        "Voi",
+        "Loro",
+        "Lui"
+      ],
+      "correct": [
+        "Noi",
+        "italiani",
+        "amiamo",
+        "il",
+        "caffè"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Noi italiani' — pronome per identità di gruppo.",
+        "en": "Perfect! 'Noi italiani' — pronoun for group identity."
+      },
+      "feedbackErr": {
+        "it": "'Noi italiani' — il pronome enfatizza l'identità collettiva.",
+        "en": "'Noi italiani' — the pronoun emphasises collective identity."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi (informale): ___ di Napoli?",
+        "en": "Build (informal): ___ from Naples?"
+      },
+      "parole": [
+        "Sei",
+        "di",
+        "Napoli"
+      ],
+      "distrattori": [
+        "Tu",
+        "È",
+        "Siete"
+      ],
+      "correct": [
+        "Sei",
+        "di",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Senza 'tu' è più naturale: 'Sei di Napoli?'",
+        "en": "Perfect! Without 'tu' is more natural: 'Sei di Napoli?'"
+      },
+      "feedbackErr": {
+        "it": "Senza pronome è più naturale in italiano: 'Sei di Napoli?'",
+        "en": "Without pronoun is more natural in Italian: 'Sei di Napoli?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ vengono da Londra.",
+        "en": "Build: ___ come from London."
+      },
+      "parole": [
+        "Vengono",
+        "da",
+        "Londra"
+      ],
+      "distrattori": [
+        "Loro",
+        "viene",
+        "vengo"
+      ],
+      "correct": [
+        "Vengono",
+        "da",
+        "Londra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Vengono' indica già terza plurale — 'loro' non necessario.",
+        "en": "Perfect! 'Vengono' already indicates third plural — 'loro' not needed."
+      },
+      "feedbackErr": {
+        "it": "Terza plurale senza pronome: 'Vengono da Londra'.",
+        "en": "Third plural without pronoun: 'Vengono da Londra'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ di dov'è, signore?",
+        "en": "Build: Where ___ from, sir?"
+      },
+      "parole": [
+        "Lei",
+        "di",
+        "dov'è",
+        "signore"
+      ],
+      "distrattori": [
+        "Tu",
+        "Lui",
+        "Voi"
+      ],
+      "correct": [
+        "Lei",
+        "di",
+        "dov'è",
+        "signore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Formale + 'signore' → Lei di dov'è?",
+        "en": "Perfect! Formal + 'signore' → Lei di dov'è?"
+      },
+      "feedbackErr": {
+        "it": "Contesto formale (signore) → Lei di cortesia.",
+        "en": "Formal context (signore) → courtesy Lei."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Studi ___, non io!",
+        "en": "Build: YOU study, not me!"
+      },
+      "parole": [
+        "Studi",
+        "tu",
+        "non",
+        "io"
+      ],
+      "distrattori": [
+        "lei",
+        "lui",
+        "voi"
+      ],
+      "correct": [
+        "Studi",
+        "tu",
+        "non",
+        "io"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Tu' e 'io' per contrasto — entrambi i pronomi necessari qui.",
+        "en": "Perfect! 'Tu' and 'io' for contrast — both pronouns needed here."
+      },
+      "feedbackErr": {
+        "it": "Contrasto: 'Studi tu, non io!' — entrambi i pronomi servono.",
+        "en": "Contrast: 'Studi tu, non io!' — both pronouns are needed."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ di Napoli siamo orgogliosi.",
+        "en": "Build: ___ from Naples are proud."
+      },
+      "parole": [
+        "Noi",
+        "di",
+        "Napoli",
+        "siamo",
+        "orgogliosi"
+      ],
+      "distrattori": [
+        "Voi",
+        "Loro",
+        "Lui"
+      ],
+      "correct": [
+        "Noi",
+        "di",
+        "Napoli",
+        "siamo",
+        "orgogliosi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Noi di Napoli' — pronome per identità geografica.",
+        "en": "Perfect! 'Noi di Napoli' — pronoun for geographical identity."
+      },
+      "feedbackErr": {
+        "it": "'Noi di Napoli' — il pronome serve per l'identificazione.",
+        "en": "'Noi di Napoli' — the pronoun serves for identification."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ parla italiano benissimo.",
+        "en": "Build: ___ speaks Italian very well."
+      },
+      "parole": [
+        "Lei",
+        "parla",
+        "italiano",
+        "benissimo"
+      ],
+      "distrattori": [
+        "Lui",
+        "Tu",
+        "Io"
+      ],
+      "correct": [
+        "Lei",
+        "parla",
+        "italiano",
+        "benissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Lei' (she) + parla. Il pronome chiarisce che è femminile.",
+        "en": "Perfect! 'Lei' (she) + parla. The pronoun clarifies it's feminine."
+      },
+      "feedbackErr": {
+        "it": "'Lei' chiarisce il genere: lei (she) parla.",
+        "en": "'Lei' clarifies the gender: lei (she) parla."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ tutti a Napoli! (voi)",
+        "en": "Build: ___ all in Naples! (you plural)"
+      },
+      "parole": [
+        "Siete",
+        "tutti",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "Voi",
+        "Sono",
+        "Siamo"
+      ],
+      "correct": [
+        "Siete",
+        "tutti",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi siete → siete. Senza 'voi' è naturale.",
+        "en": "Perfect! Voi siete → siete. Without 'voi' is natural."
+      },
+      "feedbackErr": {
+        "it": "Seconda plurale senza pronome: 'Siete tutti a Napoli!'",
+        "en": "Second plural without pronoun: 'Siete tutti a Napoli!'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ è il mio professore.",
+        "en": "Build: ___ is my professor."
+      },
+      "parole": [
+        "Lui",
+        "è",
+        "il",
+        "mio",
+        "professore"
+      ],
+      "distrattori": [
+        "Lei",
+        "Io",
+        "Tu"
+      ],
+      "correct": [
+        "Lui",
+        "è",
+        "il",
+        "mio",
+        "professore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Lui' chiarisce che il professore è maschio.",
+        "en": "Perfect! 'Lui' clarifies that the professor is male."
+      },
+      "feedbackErr": {
+        "it": "'Lui' per specificare il genere maschile.",
+        "en": "'Lui' to specify masculine gender."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ sono napoletana.",
+        "en": "Build: ___ am Neapolitan."
+      },
+      "parole": [
+        "Sono",
+        "napoletana"
+      ],
+      "distrattori": [
+        "Io",
+        "Lei",
+        "Sei"
+      ],
+      "correct": [
+        "Sono",
+        "napoletana"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Sono napoletana' senza 'io' — naturale e corretto.",
+        "en": "Perfect! 'Sono napoletana' without 'io' — natural and correct."
+      },
+      "feedbackErr": {
+        "it": "Senza pronome: 'Sono napoletana' è perfetto.",
+        "en": "Without pronoun: 'Sono napoletana' is perfect."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ vengono stasera a cena?",
+        "en": "Build: Are ___ coming for dinner tonight?"
+      },
+      "parole": [
+        "Vengono",
+        "stasera",
+        "a",
+        "cena"
+      ],
+      "distrattori": [
+        "Loro",
+        "viene",
+        "vengo"
+      ],
+      "correct": [
+        "Vengono",
+        "stasera",
+        "a",
+        "cena"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Domanda senza pronome — 'vengono' indica già terza plurale.",
+        "en": "Perfect! Question without pronoun — 'vengono' already indicates third plural."
+      },
+      "feedbackErr": {
+        "it": "Senza pronome: 'Vengono stasera a cena?' è perfettamente naturale.",
+        "en": "Without pronoun: 'Vengono stasera a cena?' is perfectly natural."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ è la professoressa d'italiano.",
+        "en": "Build: ___ is the Italian teacher."
+      },
+      "parole": [
+        "Lei",
+        "è",
+        "la",
+        "professoressa",
+        "d'italiano"
+      ],
+      "distrattori": [
+        "Lui",
+        "Io",
+        "Tu"
+      ],
+      "correct": [
+        "Lei",
+        "è",
+        "la",
+        "professoressa",
+        "d'italiano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Lei' chiarisce il genere femminile.",
+        "en": "Perfect! 'Lei' clarifies the feminine gender."
+      },
+      "feedbackErr": {
+        "it": "'Lei' (she) per il genere femminile.",
+        "en": "'Lei' (she) for the feminine gender."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ siete stanchi?",
+        "en": "Build: Are ___ tired?"
+      },
+      "parole": [
+        "Voi",
+        "siete",
+        "stanchi"
+      ],
+      "distrattori": [
+        "Noi",
+        "Loro",
+        "Tu"
+      ],
+      "correct": [
+        "Voi",
+        "siete",
+        "stanchi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Voi siete' con pronome — qui 'voi' chiarisce chi si sta interrogando.",
+        "en": "Perfect! 'Voi siete' with pronoun — here 'voi' clarifies who is being addressed."
+      },
+      "feedbackErr": {
+        "it": "'Voi' utile qui per chiarire chi si sta interrogando.",
+        "en": "'Voi' useful here to clarify who is being addressed."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ sei tu o lei?",
+        "en": "Build: Is it ___ or her?"
+      },
+      "parole": [
+        "Chi",
+        "sei",
+        "tu",
+        "o",
+        "lei"
+      ],
+      "distrattori": [
+        "io",
+        "lui",
+        "voi"
+      ],
+      "correct": [
+        "Chi",
+        "sei",
+        "tu",
+        "o",
+        "lei"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Tu o lei' — pronomi necessari per il confronto.",
+        "en": "Perfect! 'Tu o lei' — pronouns necessary for the comparison."
+      },
+      "feedbackErr": {
+        "it": "Pronomi necessari per il contrasto: tu o lei.",
+        "en": "Pronouns necessary for the contrast: tu o lei."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il pronome soggetto è obbligatorio come in inglese.",
+        "en": "In Italian the subject pronoun is obligatory as in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! In italiano il pronome soggetto è opzionale perché la desinenza del verbo indica già la persona. 'Mangio' = I eat, senza 'io'.",
+        "en": "Correct! In Italian the subject pronoun is optional because the verb ending already indicates the person. 'Mangio' = I eat, without 'io'."
+      },
+      "feedbackErr": {
+        "it": "Falso! La desinenza verbale indica già chi fa l'azione. 'Mangio' già significa 'I eat' — 'io' è opzionale.",
+        "en": "False! The verb ending already indicates who does the action. 'Mangio' already means 'I eat' — 'io' is optional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome 'Lei' (maiuscolo) indica la terza persona singolare di cortesia.",
+        "en": "The pronoun 'Lei' (capital L) indicates the third person singular of courtesy."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Lei' formale si usa con persone che non si conoscono o in contesti professionali. 'Di dov'è, Lei?' — formale.",
+        "en": "Correct! Formal 'Lei' is used with people you don't know or in professional contexts. 'Di dov'è, Lei?' — formal."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Lei' maiuscolo = cortesia formale. Si coniuga come la terza persona singolare: 'Lei parla bene l'italiano.'",
+        "en": "True! Capital 'Lei' = formal courtesy. It conjugates like the third person singular: 'Lei parla bene l'italiano.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome 'loro' come soggetto si usa frequentemente nella conversazione quotidiana italiana.",
+        "en": "The pronoun 'loro' as a subject is frequently used in everyday Italian conversation."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Loro' come soggetto è spesso omesso nel parlato: 'Vengono domani' invece di 'Loro vengono domani'. 'Loro' si usa per enfasi o contrasto.",
+        "en": "Correct! 'Loro' as subject is often omitted in speech: 'Vengono domani' instead of 'Loro vengono domani'. 'Loro' is used for emphasis or contrast."
+      },
+      "feedbackErr": {
+        "it": "Falso! Nel parlato 'loro' soggetto si omette spesso: 'Vengono domani' = They're coming tomorrow. 'Loro' appare per enfasi.",
+        "en": "False! In speech 'loro' as subject is often omitted: 'Vengono domani' = They're coming tomorrow. 'Loro' appears for emphasis."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Noi' si usa spesso per esprimere identità collettiva o nazionalità.",
+        "en": "'Noi' is often used to express collective identity or nationality."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Noi italiani amiamo il caffè.' 'Noi napoletani siamo orgogliosi della nostra pizza.' Il pronome enfatizza l'appartenenza.",
+        "en": "Correct! 'Noi italiani amiamo il caffè.' 'Noi napoletani siamo orgogliosi della nostra pizza.' The pronoun emphasises belonging."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Noi italiani' — il pronome soggetto esplicito serve per identificazione collettiva.",
+        "en": "True! 'Noi italiani' — the explicit subject pronoun serves for collective identification."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si usa 'tu' con i colleghi di lavoro in tutti i contesti professionali.",
+        "en": "In Italian 'tu' is used with work colleagues in all professional contexts."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Dipende dal contesto e dall'azienda. In molti ambienti professionali formali si usa ancora 'Lei'. Nelle startup o ambienti giovani si usa 'tu'.",
+        "en": "Correct! It depends on the context and company. In many formal professional settings 'Lei' is still used. In startups or young environments 'tu' is used."
+      },
+      "feedbackErr": {
+        "it": "Falso! Non sempre. In ambienti formali si usa 'Lei'. In startup/ambiente giovane si usa 'tu'. Dipende dal contesto.",
+        "en": "False! Not always. In formal settings 'Lei' is used. In startups/young environments 'tu' is used. It depends on context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome soggetto in italiano si usa obbligatoriamente per creare contrasto o enfasi.",
+        "en": "The subject pronoun in Italian is obligatorily used to create contrast or emphasis."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Non è obbligatorio ma è la situazione più comune in cui si usa: 'Lo faccio IO, non tu!' Il contrasto motiva il pronome.",
+        "en": "Correct! It's not obligatory but it's the most common situation where it's used: 'Lo faccio IO, non tu!' The contrast motivates the pronoun."
+      },
+      "feedbackErr": {
+        "it": "Falso — non è obbligatorio ma è l'uso principale: contrasto ed enfasi. 'Paga tu, non io!'",
+        "en": "False — not obligatory but the main use: contrast and emphasis. 'Paga tu, non io!'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano moderno, 'voi' si usa come forma di cortesia plurale per i clienti nei negozi.",
+        "en": "In modern Italian, 'voi' is used as a plural courtesy form for customers in shops."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! In contesti commerciali si usa 'voi' di cortesia: 'Cosa desiderate?' 'Accomodatevi.' Più formale del 'tu' ma meno rigido del 'Lei' plurale.",
+        "en": "Correct! In commercial contexts 'voi' of courtesy is used: 'Cosa desiderate?' 'Accomodatevi.' More formal than 'tu' but less rigid than plural 'Lei'."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Voi' di cortesia è normale in ristoranti, alberghi, negozi: 'Cosa prendete?' 'Avete prenotato?'",
+        "en": "True! Courtesy 'voi' is normal in restaurants, hotels, shops: 'Cosa prendete?' 'Avete prenotato?'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La forma 'egli' è il modo normale di dire 'he' nell'italiano parlato contemporaneo.",
+        "en": "'Egli' is the normal way to say 'he' in contemporary spoken Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Egli' è letterario e formale. Nel parlato si usa 'lui': 'Lui lavora a Napoli', non 'Egli lavora a Napoli'.",
+        "en": "Correct! 'Egli' is literary and formal. In speech 'lui' is used: 'Lui lavora a Napoli', not 'Egli lavora a Napoli'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Egli' è arcaico/letterario. Nel parlato moderno si dice 'lui': 'Lui è bravo.' Non 'Egli è bravo.'",
+        "en": "False! 'Egli' is archaic/literary. In modern speech you say 'lui': 'Lui è bravo.' Not 'Egli è bravo.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Quando si vuole sapere chi ha fatto qualcosa tra più persone, il pronome soggetto esplicito aiuta a disambiguare.",
+        "en": "When you want to know who did something among several people, the explicit subject pronoun helps disambiguate."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ha chiamato Mario?' — ambiguo. 'Ha chiamato LUI o LEI?' — il pronome chiarisce di chi si parla.",
+        "en": "Correct! 'Ha chiamato Mario?' — ambiguous. 'Ha chiamato LUI o LEI?' — the pronoun clarifies who is being talked about."
+      },
+      "feedbackErr": {
+        "it": "Vero! Il pronome soggetto serve per identificare chi compie l'azione quando il contesto è ambiguo.",
+        "en": "True! The subject pronoun serves to identify who performs the action when the context is ambiguous."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Contrasto (enfasi su 'tu'): ___ la pizza, non io!",
+        "en": "Contrast (emphasis on 'tu'): ___ the pizza, not me!"
+      },
+      "parole": [
+        "Mangi",
+        "tu",
+        "la",
+        "pizza",
+        "non",
+        "io"
+      ],
+      "distrattori": [
+        "Mangio",
+        "lei",
+        "lui",
+        "noi"
+      ],
+      "correct": [
+        "Mangi",
+        "tu",
+        "la",
+        "pizza",
+        "non",
+        "io"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Contrasto → pronome esplicito obbligatorio: 'Mangi TU la pizza, non io!'",
+        "en": "Perfect! Contrast → explicit pronoun required: 'Mangi TU la pizza, not me!'"
+      },
+      "feedbackErr": {
+        "it": "Per il contrasto il pronome è necessario: 'Mangi tu la pizza, non io!' — senza 'tu' il contrasto si perde.",
+        "en": "For contrast the pronoun is needed: 'Mangi tu la pizza, non io!' — without 'tu' the contrast is lost."
+      }
+    }
+  ]
+}

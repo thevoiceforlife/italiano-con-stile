@@ -1,0 +1,1479 @@
+{
+  "id": "gerundio",
+  "categoria": "grammatica",
+  "emoji": "⚙️",
+  "livello": "B1",
+  "titolo": {
+    "it": "Gerundio",
+    "en": "Gerund"
+  },
+  "mario": "Il gerundio è quella forma verbale che finisce in -ando o -endo. La usi più di quanto pensi: 'stavo mangiando', 'parlando di pizza', 'uscendo dal bar'. È semplice, regolare, e molto utile.",
+  "marioEn": "The gerund is that verb form ending in -ando or -endo. You use it more than you think: 'stavo mangiando', 'parlando di pizza', 'uscendo dal bar'. It's simple, regular, and very useful.",
+  "perche": {
+    "it": "In inglese la forma -ing fa tutto: 'eating' può essere soggetto, oggetto, aggettivo, avverbio. In italiano il gerundio fa solo una parte di quel lavoro — l'uso avverbiale e il progressivo. 'Mangiando' = while eating, by eating. Non 'il mangiare è bello' (quello è l'infinito). Non 'sto mangiare' (quello è stare + gerundio). Il gerundio italiano corrisponde principalmente a 'while -ing' e 'by -ing' in inglese.",
+    "en": "In English the -ing form does everything: 'eating' can be subject, object, adjective, adverb. In Italian the gerund only does part of that work — the adverbial use and the progressive. 'Mangiando' = while eating, by eating. Not 'il mangiare è bello' (that's the infinitive). Not 'sto mangiare' (that's stare + gerund). The Italian gerund mainly corresponds to 'while -ing' and 'by -ing' in English."
+  },
+  "spiegazione": {
+    "it": "Formazione: -are → -ando (mangiare→mangiando), -ere → -endo (vendere→vendendo), -ire → -endo (dormire→dormendo). Irregolari: essere→essendo, fare→facendo, dire→dicendo, bere→bevendo. Usi: 1) Progressivo: stare + gerundio (sto mangiando = I am eating). 2) Avverbiale: modo (mangiando veloce), causa (avendo fame), concessione (pur essendo stanco). 3) Pronomi: si attaccano al gerundio (mangiandolo, guardandoti).",
+    "en": "Formation: -are → -ando (mangiare→mangiando), -ere → -endo (vendere→vendendo), -ire → -endo (dormire→dormendo). Irregulars: essere→essendo, fare→facendo, dire→dicendo, bere→bevendo. Uses: 1) Progressive: stare + gerund (sto mangiando = I am eating). 2) Adverbial: manner (mangiando veloce), cause (avendo fame), concession (pur essendo stanco). 3) Pronouns: they attach to the gerund (mangiandolo, guardandoti)."
+  },
+  "tabella": [
+    {
+      "infinito": "mangiare (-are)",
+      "gerundio": "mangiando",
+      "progressivo": "sto mangiando"
+    },
+    {
+      "infinito": "vendere (-ere)",
+      "gerundio": "vendendo",
+      "progressivo": "sto vendendo"
+    },
+    {
+      "infinito": "dormire (-ire)",
+      "gerundio": "dormendo",
+      "progressivo": "sto dormendo"
+    },
+    {
+      "infinito": "fare (irreg.)",
+      "gerundio": "facendo",
+      "progressivo": "sto facendo"
+    },
+    {
+      "infinito": "dire (irreg.)",
+      "gerundio": "dicendo",
+      "progressivo": "sto dicendo"
+    },
+    {
+      "infinito": "bere (irreg.)",
+      "gerundio": "bevendo",
+      "progressivo": "sto bevendo"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Sto mangiando la pizza di Mario — non disturbare!",
+      "en": "I'm eating Mario's pizza — don't disturb me!",
+      "audio": "Sto mangiando la pizza di Mario — non disturbare!"
+    },
+    {
+      "it": "Studiando ogni giorno, impari velocemente.",
+      "en": "By studying every day, you learn quickly.",
+      "audio": "Studiando ogni giorno, impari velocemente."
+    },
+    {
+      "it": "Uscendo dal bar, ho incontrato Mario.",
+      "en": "While leaving the bar, I met Mario.",
+      "audio": "Uscendo dal bar, ho incontrato Mario."
+    },
+    {
+      "it": "Essendo stanco, sono andato a letto presto.",
+      "en": "Being tired, I went to bed early.",
+      "audio": "Essendo stanco, sono andato a letto presto."
+    },
+    {
+      "it": "Ho imparato l'italiano guardando film italiani.",
+      "en": "I learned Italian by watching Italian films.",
+      "audio": "Ho imparato l'italiano guardando film italiani."
+    }
+  ],
+  "nota": {
+    "it": "💡 'Sto mangiando' vs 'mangio': la differenza è come in inglese — 'I'm eating' (ora, in questo momento) vs 'I eat' (in generale). In italiano 'mangio' copre entrambi, ma 'sto mangiando' enfatizza che l'azione è in corso proprio adesso. Gli italiani usano il progressivo meno degli anglofoni — 'mangio' da solo va benissimo nella maggior parte dei casi.",
+    "en": "💡 'Sto mangiando' vs 'mangio': the difference is like in English — 'I'm eating' (now, at this moment) vs 'I eat' (in general). In Italian 'mangio' covers both, but 'sto mangiando' emphasises that the action is happening right now. Italians use the progressive less than English speakers — 'mangio' alone is fine in most cases."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il gerundio di 'mangiare'?",
+        "en": "How is the gerund of 'mangiare' formed?"
+      },
+      "opzioni": [
+        "mangiare",
+        "mangiando",
+        "mangiato",
+        "mangi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! -are → -ando. mangiare → mangiando.",
+        "en": "Correct! -are → -ando. mangiare → mangiando."
+      },
+      "feedbackErr": {
+        "it": "Gerundio -are: togli -are, aggiungi -ando. mangiare → mangiando.",
+        "en": "Gerund -are: remove -are, add -ando. mangiare → mangiando."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il gerundio di 'vendere'?",
+        "en": "How is the gerund of 'vendere' formed?"
+      },
+      "opzioni": [
+        "vendando",
+        "venduto",
+        "vendendo",
+        "vende"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! -ere → -endo. vendere → vendendo.",
+        "en": "Correct! -ere → -endo. vendere → vendendo."
+      },
+      "feedbackErr": {
+        "it": "Gerundio -ere: togli -ere, aggiungi -endo. vendere → vendendo.",
+        "en": "Gerund -ere: remove -ere, add -endo. vendere → vendendo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il gerundio di 'dormire'?",
+        "en": "How is the gerund of 'dormire' formed?"
+      },
+      "opzioni": [
+        "dormando",
+        "dormendo",
+        "dormito",
+        "dormi"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! -ire → -endo. dormire → dormendo.",
+        "en": "Correct! -ire → -endo. dormire → dormendo."
+      },
+      "feedbackErr": {
+        "it": "Gerundio -ire: togli -ire, aggiungi -endo. dormire → dormendo.",
+        "en": "Gerund -ire: remove -ire, add -endo. dormire → dormendo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il progressivo italiano?",
+        "en": "How is the Italian progressive formed?"
+      },
+      "opzioni": [
+        "avere + gerundio",
+        "essere + gerundio",
+        "stare + gerundio",
+        "stare + infinito"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Progressivo = stare + gerundio. 'Sto mangiando' = I am eating.",
+        "en": "Correct! Progressive = stare + gerund. 'Sto mangiando' = I am eating."
+      },
+      "feedbackErr": {
+        "it": "Progressivo italiano = stare + gerundio. 'Sto mangiando', 'sta dormendo'.",
+        "en": "Italian progressive = stare + gerund. 'Sto mangiando', 'sta dormendo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il gerundio irregolare di 'fare'?",
+        "en": "What is the irregular gerund of 'fare'?"
+      },
+      "opzioni": [
+        "farendo",
+        "fando",
+        "facendo",
+        "fando"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Fare → gerundio irregolare: facendo. 'Sto facendo la pizza.'",
+        "en": "Correct! Fare → irregular gerund: facendo. 'Sto facendo la pizza.'"
+      },
+      "feedbackErr": {
+        "it": "Fare → gerundio irregolare: facendo (dal tema fac-). Non 'farendo'.",
+        "en": "Fare → irregular gerund: facendo (from stem fac-). Not 'farendo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I am drinking coffee' in italiano?",
+        "en": "How do you say 'I am drinking coffee' in Italian?"
+      },
+      "opzioni": [
+        "Sto berendo il caffè.",
+        "Sto bevendo il caffè.",
+        "Bevo il caffè adesso.",
+        "Sto bendo il caffè."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Bere → gerundio irregolare: bevendo. 'Sto bevendo il caffè.'",
+        "en": "Correct! Bere → irregular gerund: bevendo. 'Sto bevendo il caffè.'"
+      },
+      "feedbackErr": {
+        "it": "Bere → gerundio irregolare: bevendo. 'Sto bevendo il caffè.'",
+        "en": "Bere → irregular gerund: bevendo. 'Sto bevendo il caffè.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale uso descrive 'Studiando ogni giorno, impari in fretta'?",
+        "en": "Which use describes 'Studiando ogni giorno, impari in fretta'?"
+      },
+      "opzioni": [
+        "Progressivo (I am studying)",
+        "Gerundio avverbiale di modo (by studying)",
+        "Gerundio avverbiale di causa",
+        "Gerundio come soggetto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Studiando' = by studying — gerundio di modo. Indica il mezzo con cui si ottiene il risultato.",
+        "en": "Correct! 'Studiando' = by studying — gerund of manner. Indicates the means by which the result is obtained."
+      },
+      "feedbackErr": {
+        "it": "'Studiando ogni giorno, impari' = by studying = gerundio avverbiale di modo.",
+        "en": "'Studiando ogni giorno, impari' = by studying = adverbial gerund of manner."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove si mette il pronome con il gerundio?",
+        "en": "Where does the pronoun go with the gerund?"
+      },
+      "opzioni": [
+        "Prima del gerundio separato",
+        "Attaccato alla fine del gerundio",
+        "Prima di stare nel progressivo",
+        "In entrambe le posizioni (b) e (c)"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Pronome attaccato (mangiandolo) O prima di stare (lo sto mangiando) — entrambi corretti.",
+        "en": "Correct! Pronoun attached (mangiandolo) OR before stare (lo sto mangiando) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Con il gerundio: pronome attaccato (guardandoti) O prima di stare (ti sto guardando) — entrambi corretti.",
+        "en": "With the gerund: pronoun attached (guardandoti) OR before stare (ti sto guardando) — both correct."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il gerundio irregolare di 'dire'?",
+        "en": "What is the irregular gerund of 'dire'?"
+      },
+      "opzioni": [
+        "direndo",
+        "dicendo",
+        "dirando",
+        "dendo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dire → gerundio irregolare: dicendo. 'Sto dicendo la verità.'",
+        "en": "Correct! Dire → irregular gerund: dicendo. 'Sto dicendo la verità.'"
+      },
+      "feedbackErr": {
+        "it": "Dire → gerundio irregolare: dicendo (dal tema dic-). Non 'direndo'.",
+        "en": "Dire → irregular gerund: dicendo (from stem dic-). Not 'direndo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si traduce 'She was sleeping when I called'?",
+        "en": "How do you translate 'She was sleeping when I called'?"
+      },
+      "opzioni": [
+        "Dormiva quando ho chiamato.",
+        "Stava dormendo quando ho chiamato.",
+        "Dormiva quando chiamavo.",
+        "Entrambe (a) e (b) sono corrette."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Entrambe corrette: 'dormiva' (imperfetto) e 'stava dormendo' (progressivo) esprimono azione in corso nel passato.",
+        "en": "Correct! Both correct: 'dormiva' (imperfect) and 'stava dormendo' (progressive) express ongoing past action."
+      },
+      "feedbackErr": {
+        "it": "Entrambe corrette: 'dormiva' (imperfetto) = 'stava dormendo' (progressivo). Stesso significato, diverso stile.",
+        "en": "Both correct: 'dormiva' (imperfect) = 'stava dormendo' (progressive). Same meaning, different style."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase usa il gerundio per indicare la causa?",
+        "en": "Which sentence uses the gerund to indicate cause?"
+      },
+      "opzioni": [
+        "Sto mangiando la pizza.",
+        "Essendo stanco, sono andato a letto presto.",
+        "Mangiando veloce, fai male allo stomaco.",
+        "Guardandoti, mi ricordo di Mario."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Essendo stanco' = because I was tired — gerundio di causa.",
+        "en": "Correct! 'Essendo stanco' = because I was tired — gerund of cause."
+      },
+      "feedbackErr": {
+        "it": "'Essendo stanco, sono andato a letto' = gerundio di causa. Being tired (= because I was tired).",
+        "en": "'Essendo stanco, sono andato a letto' = gerund of cause. Being tired (= because I was tired)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa significa 'pur essendo stanco' all'inizio di una frase?",
+        "en": "What does 'pur essendo stanco' at the beginning of a sentence mean?"
+      },
+      "opzioni": [
+        "Because I'm tired",
+        "While I'm tired",
+        "Even though I'm tired",
+        "Since I'm tired"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Pur + gerundio' = even though (concessione). 'Pur essendo stanco, continuo a lavorare.'",
+        "en": "Correct! 'Pur + gerund' = even though (concession). 'Pur essendo stanco, continuo a lavorare.'"
+      },
+      "feedbackErr": {
+        "it": "'Pur + gerundio' = even though (concessione). 'Pur essendo stanco' = even though I'm tired.",
+        "en": "'Pur + gerund' = even though (concession). 'Pur essendo stanco' = even though I'm tired."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il gerundio passato?",
+        "en": "How is the past gerund formed?"
+      },
+      "opzioni": [
+        "avendo/essendo + participio passato",
+        "stare + participio passato",
+        "avere/essere + gerundio",
+        "gerundio + participio"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Gerundio passato: avendo/essendo + participio. 'Avendo mangiato', 'essendo andato'.",
+        "en": "Correct! Past gerund: avendo/essendo + participle. 'Avendo mangiato', 'essendo andato'."
+      },
+      "feedbackErr": {
+        "it": "Gerundio passato = avendo/essendo + participio. 'Avendo finito il lavoro, sono uscito.'",
+        "en": "Past gerund = avendo/essendo + participle. 'Avendo finito il lavoro, sono uscito.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Ho imparato l'italiano ___ film italiani.' (guardare)",
+        "en": "Complete: 'I learned Italian ___ Italian films.' (guardare)"
+      },
+      "opzioni": [
+        "guardato",
+        "guardare",
+        "guardando",
+        "guarderò"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Mezzo/modo → gerundio: guardando. 'Ho imparato l'italiano guardando film italiani.'",
+        "en": "Correct! Manner/means → gerund: guardando. 'Ho imparato l'italiano guardando film italiani.'"
+      },
+      "feedbackErr": {
+        "it": "Mezzo: by watching → gerundio: guardando. 'Ho imparato l'italiano guardando film italiani.'",
+        "en": "Means: by watching → gerund: guardando. 'Ho imparato l'italiano guardando film italiani.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il gerundio di 'essere'?",
+        "en": "What is the gerund of 'essere'?"
+      },
+      "opzioni": [
+        "essando",
+        "sendo",
+        "essendo",
+        "essuto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → gerundio: essendo. 'Essendo italiano, capisce tutto.'",
+        "en": "Correct! Essere → gerund: essendo. 'Essendo italiano, capisce tutto.'"
+      },
+      "feedbackErr": {
+        "it": "Essere → gerundio: essendo. 'Essendo stanco, sono andato a letto.'",
+        "en": "Essere → gerund: essendo. 'Essendo stanco, sono andato a letto.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale NON è un uso tipico del gerundio italiano?",
+        "en": "Which is NOT a typical use of the Italian gerund?"
+      },
+      "opzioni": [
+        "Progressivo (sto mangiando)",
+        "Soggetto della frase (mangiare è bello)",
+        "Avverbiale di modo (mangiando lentamente)",
+        "Avverbiale di causa (essendo stanco)"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Come soggetto si usa l'infinito: 'Mangiare è bello' (non 'mangiando è bello'). Il gerundio italiano NON è soggetto.",
+        "en": "Correct! As a subject the infinitive is used: 'Mangiare è bello' (not 'mangiando è bello'). The Italian gerund is NOT a subject."
+      },
+      "feedbackErr": {
+        "it": "Il gerundio NON è soggetto in italiano. Soggetto → infinito: 'Mangiare è bello.' Non 'mangiando è bello'.",
+        "en": "The gerund is NOT a subject in Italian. Subject → infinitive: 'Mangiare è bello.' Not 'mangiando è bello'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'They are working' con il progressivo italiano?",
+        "en": "How do you say 'They are working' with the Italian progressive?"
+      },
+      "opzioni": [
+        "Sono lavorando.",
+        "Hanno lavorando.",
+        "Stanno lavorando.",
+        "Vengono lavorando."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Loro + stare: stanno. 'Stanno lavorando' = They are working.",
+        "en": "Correct! Loro + stare: stanno. 'Stanno lavorando' = They are working."
+      },
+      "feedbackErr": {
+        "it": "Progressivo: stare (loro=stanno) + gerundio. 'Stanno lavorando.'",
+        "en": "Progressive: stare (loro=stanno) + gerund. 'Stanno lavorando.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa con il pronome attaccato: 'Lo sto guardando' → alternativa corretta?",
+        "en": "Complete with the attached pronoun: 'Lo sto guardando' → correct alternative?"
+      },
+      "opzioni": [
+        "Sto guardare lo.",
+        "Sto guardandolo.",
+        "Guardandolo sto.",
+        "Lo guardando sto."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il pronome può attaccarsi al gerundio: 'sto guardandolo' = 'lo sto guardando'. Entrambe corrette.",
+        "en": "Correct! The pronoun can attach to the gerund: 'sto guardandolo' = 'lo sto guardando'. Both correct."
+      },
+      "feedbackErr": {
+        "it": "Pronome attaccato al gerundio: 'sto guardandolo'. O prima di stare: 'lo sto guardando'. Entrambe corrette.",
+        "en": "Pronoun attached to gerund: 'sto guardandolo'. Or before stare: 'lo sto guardando'. Both correct."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Gerundio passato: 'Avendo mangiato, sono uscito' significa…?",
+        "en": "Past gerund: 'Avendo mangiato, sono uscito' means…?"
+      },
+      "opzioni": [
+        "While eating, I went out",
+        "Having eaten, I went out",
+        "By eating, I went out",
+        "Although I had eaten, I went out"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Gerundio passato = azione anteriore. 'Avendo mangiato' = having eaten (prima sono uscito).",
+        "en": "Correct! Past gerund = prior action. 'Avendo mangiato' = having eaten (before I went out)."
+      },
+      "feedbackErr": {
+        "it": "Gerundio passato: avendo mangiato = having eaten. Azione completata prima dell'azione principale.",
+        "en": "Past gerund: avendo mangiato = having eaten. Action completed before the main action."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il soggetto del gerundio deve essere lo stesso della frase principale — vero o falso?",
+        "en": "The subject of the gerund must be the same as the main clause — true or false?"
+      },
+      "opzioni": [
+        "Falso — può essere diverso",
+        "Vero — deve essere lo stesso soggetto",
+        "Solo nell'italiano formale",
+        "Solo con il progressivo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il soggetto del gerundio è sempre quello della frase principale: 'Mangiando (IO) la pizza, (IO) sono felice.'",
+        "en": "Correct! The subject of the gerund is always that of the main clause: 'Mangiando (I) la pizza, (I) sono felice.'"
+      },
+      "feedbackErr": {
+        "it": "Il soggetto del gerundio deve coincidere con quello principale. 'Mangiando la pizza, sono felice.' = Lo stesso io.",
+        "en": "The gerund subject must match the main clause subject. 'Mangiando la pizza, sono felice.' = Same io."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio dei verbi -are termina in -ando.",
+        "en": "The gerund of -are verbs ends in -ando."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -are → -ando: mangiare→mangiando, parlare→parlando, studiare→studiando.",
+        "en": "Correct! -are → -ando: mangiare→mangiando, parlare→parlando, studiare→studiando."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gerundio -are → -ando. mangiare→mangiando, parlare→parlando.",
+        "en": "True! Gerund -are → -ando. mangiare→mangiando, parlare→parlando."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio dei verbi -ere e -ire termina ugualmente in -endo.",
+        "en": "The gerund of both -ere and -ire verbs ends in -endo."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -ere→-endo (vendendo), -ire→-endo (dormendo). Stessa terminazione per entrambi.",
+        "en": "Correct! -ere→-endo (vendendo), -ire→-endo (dormendo). Same ending for both."
+      },
+      "feedbackErr": {
+        "it": "Vero! -ere e -ire → entrambi -endo. vendere→vendendo, dormire→dormendo.",
+        "en": "True! -ere and -ire → both -endo. vendere→vendendo, dormire→dormendo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il progressivo italiano si forma con 'essere + gerundio'.",
+        "en": "The Italian progressive is formed with 'essere + gerund'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il progressivo usa STARE (non essere): sto mangiando, stava dormendo.",
+        "en": "Correct! The progressive uses STARE (not essere): sto mangiando, stava dormendo."
+      },
+      "feedbackErr": {
+        "it": "Falso! Progressivo = STARE + gerundio. Non essere. 'Sto mangiando', 'sta dormendo'.",
+        "en": "False! Progressive = STARE + gerund. Not essere. 'Sto mangiando', 'sta dormendo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Facendo' è il gerundio irregolare di 'fare'.",
+        "en": "'Facendo' is the irregular gerund of 'fare'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → gerundio irregolare: facendo. 'Sto facendo la spesa.'",
+        "en": "Correct! Fare → irregular gerund: facendo. 'Sto facendo la spesa.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare → gerundio: facendo (irregolare). Non 'farendo'.",
+        "en": "True! Fare → gerund: facendo (irregular). Not 'farendo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano il gerundio può essere soggetto della frase, come in inglese ('Eating is good').",
+        "en": "In Italian the gerund can be the subject of the sentence, as in English ('Eating is good')."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Come soggetto si usa l'infinito: 'Mangiare è bello' (non 'mangiando è bello').",
+        "en": "Correct! As a subject the infinitive is used: 'Mangiare è bello' (not 'mangiando è bello')."
+      },
+      "feedbackErr": {
+        "it": "Falso! Soggetto → infinito: 'Mangiare è bello.' Il gerundio italiano non è soggetto. 'Mangiando è bello' è sbagliato.",
+        "en": "False! Subject → infinitive: 'Mangiare è bello.' The Italian gerund is not a subject. 'Mangiando è bello' is wrong."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dicendo' è il gerundio di 'dire'.",
+        "en": "'Dicendo' is the gerund of 'dire'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Dire → gerundio irregolare: dicendo (dal tema dic-). 'Stai dicendo la verità?'",
+        "en": "Correct! Dire → irregular gerund: dicendo (from stem dic-). 'Stai dicendo la verità?'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Dire → gerundio: dicendo. Non 'direndo'.",
+        "en": "True! Dire → gerund: dicendo. Not 'direndo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I pronomi si attaccano sempre al gerundio, mai a stare.",
+        "en": "Pronouns always attach to the gerund, never to stare."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Entrambe le posizioni sono corrette: 'lo sto mangiando' (prima di stare) O 'sto mangiandolo' (attaccato al gerundio).",
+        "en": "Correct! Both positions are correct: 'lo sto mangiando' (before stare) OR 'sto mangiandolo' (attached to gerund)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Entrambe le posizioni sono corrette: 'lo sto mangiando' e 'sto mangiandolo' — libera scelta.",
+        "en": "False! Both positions are correct: 'lo sto mangiando' and 'sto mangiandolo' — free choice."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Bevendo' è il gerundio irregolare di 'bere'.",
+        "en": "'Bevendo' is the irregular gerund of 'bere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Bere → gerundio irregolare: bevendo (dal tema beve-). 'Sto bevendo il caffè.'",
+        "en": "Correct! Bere → irregular gerund: bevendo (from stem beve-). 'Sto bevendo il caffè.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Bere → gerundio: bevendo (irregolare). Non 'berendo'.",
+        "en": "True! Bere → gerund: bevendo (irregular). Not 'berendo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio progressivo passato si forma con 'stava + gerundio'.",
+        "en": "The past progressive gerund is formed with 'stava + gerund'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stava + gerundio = was -ing. 'Stava mangiando quando ho chiamato.' = He was eating when I called.",
+        "en": "Correct! Stava + gerund = was -ing. 'Stava mangiando quando ho chiamato.' = He was eating when I called."
+      },
+      "feedbackErr": {
+        "it": "Vero! Progressivo passato = stava + gerundio: 'stava dormendo', 'stavo lavorando'.",
+        "en": "True! Past progressive = stava + gerund: 'stava dormendo', 'stavo lavorando'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Pur + gerundio' esprime una concessione (= even though).",
+        "en": "'Pur + gerund' expresses concession (= even though)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Pur essendo stanco, lavoro.' = Even though I'm tired, I work. Pur + gerundio = concessione.",
+        "en": "Correct! 'Pur essendo stanco, lavoro.' = Even though I'm tired, I work. Pur + gerund = concession."
+      },
+      "feedbackErr": {
+        "it": "Vero! Pur + gerundio = concessione (even though). 'Pur sapendo la risposta, non ha parlato.'",
+        "en": "True! Pur + gerund = concession (even though). 'Pur sapendo la risposta, non ha parlato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio italiano ha la stessa forma per tutte le persone (io, tu, lui, noi...).",
+        "en": "The Italian gerund has the same form for all persons (io, tu, lui, noi...)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il gerundio non si coniuga: 'mangiando' vale per io/tu/lui/noi/voi/loro. È invariabile.",
+        "en": "Correct! The gerund doesn't conjugate: 'mangiando' applies for io/tu/lui/noi/voi/loro. It's invariable."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gerundio = invariabile. 'Mangiando' è uguale per tutte le persone — il soggetto viene dal contesto.",
+        "en": "True! Gerund = invariable. 'Mangiando' is the same for all persons — the subject comes from context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio passato si forma con 'avendo/essendo + participio passato'.",
+        "en": "The past gerund is formed with 'avendo/essendo + past participle'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Gerundio passato: avendo mangiato, essendo andato, avendo fatto. Azione anteriore alla principale.",
+        "en": "Correct! Past gerund: avendo mangiato, essendo andato, avendo fatto. Action prior to the main one."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gerundio passato = avendo/essendo + participio. 'Avendo finito il lavoro, sono uscito.'",
+        "en": "True! Past gerund = avendo/essendo + participle. 'Avendo finito il lavoro, sono uscito.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Essendo' è il gerundio di 'essere'.",
+        "en": "'Essendo' is the gerund of 'essere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → gerundio: essendo. 'Essendo italiano, capisce tutto.'",
+        "en": "Correct! Essere → gerund: essendo. 'Essendo italiano, capisce tutto.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere → gerundio: essendo. 'Essendo stanco, sono andato a dormire.'",
+        "en": "True! Essere → gerund: essendo. 'Essendo stanco, sono andato a dormire.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si usa il progressivo ('sto mangiando') molto più spesso del presente semplice ('mangio').",
+        "en": "In Italian the progressive ('sto mangiando') is used much more often than the simple present ('mangio')."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Gli italiani usano il progressivo MENO degli anglofoni. 'Mangio' funziona anche per 'I am eating'. 'Sto mangiando' si usa per enfatizzare che l'azione è in corso proprio adesso.",
+        "en": "Correct! Italians use the progressive LESS than English speakers. 'Mangio' also works for 'I am eating'. 'Sto mangiando' is used to emphasise that the action is happening right now."
+      },
+      "feedbackErr": {
+        "it": "Falso! In italiano 'mangio' copre anche 'I am eating'. Il progressivo si usa meno che in inglese.",
+        "en": "False! In Italian 'mangio' also covers 'I am eating'. The progressive is used less than in English."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Studiando ogni giorno, impari in fretta' usa il gerundio per indicare il mezzo/modo.",
+        "en": "'Studiando ogni giorno, impari in fretta' uses the gerund to indicate means/manner."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Studiando = by studying — indica il modo in cui si raggiunge il risultato (imparare in fretta).",
+        "en": "Correct! Studiando = by studying — indicates the way in which the result (learning quickly) is achieved."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Studiando' = by studying = gerundio di modo/mezzo. 'Studiando ogni giorno, impari in fretta.'",
+        "en": "True! 'Studiando' = by studying = gerund of manner/means. 'Studiando ogni giorno, impari in fretta.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il soggetto del gerundio può essere diverso dal soggetto della frase principale.",
+        "en": "The subject of the gerund can be different from the subject of the main clause."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! In italiano il soggetto del gerundio deve essere lo stesso della principale. 'Mangiando la pizza, Mario era felice.' — Mario è il soggetto di entrambi.",
+        "en": "Correct! In Italian the gerund subject must be the same as the main clause. 'Mangiando la pizza, Mario era felice.' — Mario is the subject of both."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il soggetto del gerundio = soggetto della principale. 'Mangiando la pizza, Mario era felice.' = Mario mangiava E Mario era felice.",
+        "en": "False! Gerund subject = main clause subject. 'Mangiando la pizza, Mario era felice.' = Mario was eating AND Mario was happy."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Uscendo dal bar, ho incontrato Mario' usa il gerundio per indicare simultaneità.",
+        "en": "'Uscendo dal bar, ho incontrato Mario' uses the gerund to indicate simultaneity."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Uscendo' = while leaving — le due azioni sono simultanee o quasi. Gerundio di tempo/simultaneità.",
+        "en": "Correct! 'Uscendo' = while leaving — the two actions are simultaneous or nearly so. Temporal/simultaneous gerund."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Uscendo dal bar' = while leaving = simultaneità/tempo. 'Uscendo dal bar, ho incontrato Mario.'",
+        "en": "True! 'Uscendo dal bar' = while leaving = simultaneity/time. 'Uscendo dal bar, ho incontrato Mario.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio dei verbi -ire è sempre regolare (nessuna forma -isc).",
+        "en": "The gerund of -ire verbs is always regular (no -isc form)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Al gerundio non esiste il gruppo -isc: capire→capendo (non capiscendo), finire→finendo. Il gerundio è sempre regolare per i -ire.",
+        "en": "Correct! In the gerund there is no -isc group: capire→capendo (not capiscendo), finire→finendo. The gerund is always regular for -ire verbs."
+      },
+      "feedbackErr": {
+        "it": "Vero! Gerundio -ire: sempre -endo, mai -isc. capire→capendo, finire→finendo.",
+        "en": "True! Gerund -ire: always -endo, never -isc. capire→capendo, finire→finendo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho imparato l'italiano guardando film italiani' usa correttamente il gerundio.",
+        "en": "'Ho imparato l'italiano guardando film italiani' correctly uses the gerund."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Guardando' = by watching — gerundio di mezzo/modo. Frase perfetta.",
+        "en": "Correct! 'Guardando' = by watching — gerund of means/manner. Perfect sentence."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Guardando film italiani' = by watching Italian films. Gerundio di mezzo. Corretto.",
+        "en": "True! 'Guardando film italiani' = by watching Italian films. Gerund of means. Correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il gerundio passato 'avendo mangiato' indica un'azione successiva all'azione principale.",
+        "en": "The past gerund 'avendo mangiato' indicates an action subsequent to the main action."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il gerundio passato indica un'azione ANTERIORE (precedente) alla principale: 'Avendo mangiato, sono uscito' = First I ate, then I went out.",
+        "en": "Correct! The past gerund indicates a PRIOR (preceding) action to the main one: 'Avendo mangiato, sono uscito' = First I ate, then I went out."
+      },
+      "feedbackErr": {
+        "it": "Falso! Gerundio passato = azione ANTERIORE (prima). 'Avendo mangiato, sono uscito' = Prima ho mangiato, poi sono uscito.",
+        "en": "False! Past gerund = PRIOR action (before). 'Avendo mangiato, sono uscito' = First I ate, then I went out."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Progressivo presente (io, mangiare): ___ la pizza di Mario.",
+        "en": "Present progressive (I, mangiare): ___ Mario's pizza."
+      },
+      "parole": [
+        "Sto",
+        "mangiando",
+        "la",
+        "pizza",
+        "di",
+        "Mario"
+      ],
+      "distrattori": [
+        "Sono",
+        "mangiato",
+        "Ho",
+        "mangio"
+      ],
+      "correct": [
+        "Sto",
+        "mangiando",
+        "la",
+        "pizza",
+        "di",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Progressivo: stare + gerundio. Io + stare = sto. 'Sto mangiando la pizza di Mario.'",
+        "en": "Perfect! Progressive: stare + gerund. Io + stare = sto. 'Sto mangiando la pizza di Mario.'"
+      },
+      "feedbackErr": {
+        "it": "Progressivo: stare (io=sto) + gerundio. 'Sto mangiando la pizza di Mario.'",
+        "en": "Progressive: stare (io=sto) + gerund. 'Sto mangiando la pizza di Mario.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mezzo/modo (studiare → imparare): ___ ogni giorno, impari in fretta.",
+        "en": "Means/manner (studiare → imparare): ___ every day, you learn quickly."
+      },
+      "parole": [
+        "Studiando",
+        "ogni",
+        "giorno"
+      ],
+      "distrattori": [
+        "Studando",
+        "Studiare",
+        "Studio"
+      ],
+      "correct": [
+        "Studiando",
+        "ogni",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mezzo/modo → gerundio: studiando. 'Studiando ogni giorno, impari in fretta.'",
+        "en": "Perfect! Means/manner → gerund: studiando. 'Studiando ogni giorno, impari in fretta.'"
+      },
+      "feedbackErr": {
+        "it": "By studying = gerundio: studiando. 'Studiando ogni giorno, impari in fretta.'",
+        "en": "By studying = gerund: studiando. 'Studiando ogni giorno, impari in fretta.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Simultaneità (uscire dal bar + incontrare): ___ dal bar, ho incontrato Mario.",
+        "en": "Simultaneity (uscire dal bar + incontrare): ___ from the bar, I met Mario."
+      },
+      "parole": [
+        "Uscendo",
+        "dal",
+        "bar"
+      ],
+      "distrattori": [
+        "Uscito",
+        "Uscire",
+        "Uscivo"
+      ],
+      "correct": [
+        "Uscendo",
+        "dal",
+        "bar"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mentre uscivo → gerundio di simultaneità: uscendo. 'Uscendo dal bar, ho incontrato Mario.'",
+        "en": "Perfect! While leaving → simultaneous gerund: uscendo. 'Uscendo dal bar, ho incontrato Mario.'"
+      },
+      "feedbackErr": {
+        "it": "While leaving = gerundio: uscendo. 'Uscendo dal bar, ho incontrato Mario.'",
+        "en": "While leaving = gerund: uscendo. 'Uscendo dal bar, ho incontrato Mario.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Causa (essere stanco): ___ stanco, sono andato a letto presto.",
+        "en": "Cause (essere stanco): ___ tired, I went to bed early."
+      },
+      "parole": [
+        "Essendo",
+        "stanco"
+      ],
+      "distrattori": [
+        "Essere",
+        "Ero",
+        "Essuto"
+      ],
+      "correct": [
+        "Essendo",
+        "stanco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Causa → gerundio: essendo. 'Essendo stanco, sono andato a letto presto.'",
+        "en": "Perfect! Cause → gerund: essendo. 'Essendo stanco, sono andato a letto presto.'"
+      },
+      "feedbackErr": {
+        "it": "Causa (because I was) → gerundio: essendo. 'Essendo stanco, sono andato a letto presto.'",
+        "en": "Cause (because I was) → gerund: essendo. 'Essendo stanco, sono andato a letto presto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare fare (progressivo, lei): Maria ___ la spesa al supermercato.",
+        "en": "Irregular fare (progressive, she): Maria ___ shopping at the supermarket."
+      },
+      "parole": [
+        "sta",
+        "facendo",
+        "la",
+        "spesa"
+      ],
+      "distrattori": [
+        "è",
+        "facendo",
+        "fa",
+        "farendo"
+      ],
+      "correct": [
+        "sta",
+        "facendo",
+        "la",
+        "spesa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Fare → gerundio: facendo. Lei + stare = sta. 'Maria sta facendo la spesa.'",
+        "en": "Perfect! Fare → gerund: facendo. Lei + stare = sta. 'Maria sta facendo la spesa.'"
+      },
+      "feedbackErr": {
+        "it": "Fare → gerundio irregolare: facendo. Lei + stare = sta. 'Maria sta facendo la spesa.'",
+        "en": "Fare → irregular gerund: facendo. Lei + stare = sta. 'Maria sta facendo la spesa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mezzo di apprendimento (guardare film): Ho imparato l'italiano ___ film italiani.",
+        "en": "Learning means (guardare film): I learned Italian ___ Italian films."
+      },
+      "parole": [
+        "guardando",
+        "film",
+        "italiani"
+      ],
+      "distrattori": [
+        "guardato",
+        "guardare",
+        "guardavo"
+      ],
+      "correct": [
+        "guardando",
+        "film",
+        "italiani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! By watching → gerundio: guardando. 'Ho imparato l'italiano guardando film italiani.'",
+        "en": "Perfect! By watching → gerund: guardando. 'Ho imparato l'italiano guardando film italiani.'"
+      },
+      "feedbackErr": {
+        "it": "By watching = gerundio: guardando. 'Ho imparato l'italiano guardando film italiani.'",
+        "en": "By watching = gerund: guardando. 'Ho imparato l'italiano guardando film italiani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Progressivo passato (loro, lavorare): I ragazzi ___ tutto il giorno.",
+        "en": "Past progressive (they, lavorare): The guys ___ all day."
+      },
+      "parole": [
+        "stavano",
+        "lavorando",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "distrattori": [
+        "erano",
+        "lavorando",
+        "hanno",
+        "lavorato"
+      ],
+      "correct": [
+        "stavano",
+        "lavorando",
+        "tutto",
+        "il",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Progressivo passato: stavano + gerundio. 'I ragazzi stavano lavorando tutto il giorno.'",
+        "en": "Perfect! Past progressive: stavano + gerund. 'I ragazzi stavano lavorando tutto il giorno.'"
+      },
+      "feedbackErr": {
+        "it": "Progressivo passato: stare imperfetto (stavano) + gerundio. 'Stavano lavorando tutto il giorno.'",
+        "en": "Past progressive: imperfect stare (stavano) + gerund. 'Stavano lavorando tutto il giorno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Concessione con pur (essere stanca, continuare a lavorare): ___ stanca, continua a lavorare.",
+        "en": "Concession with pur (essere stanca, continuare a lavorare): ___ tired, she keeps working."
+      },
+      "parole": [
+        "Pur",
+        "essendo",
+        "stanca"
+      ],
+      "distrattori": [
+        "Anche se",
+        "è",
+        "era"
+      ],
+      "correct": [
+        "Pur",
+        "essendo",
+        "stanca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pur + gerundio = concessione (even though). 'Pur essendo stanca, continua a lavorare.'",
+        "en": "Perfect! Pur + gerund = concession (even though). 'Pur essendo stanca, continua a lavorare.'"
+      },
+      "feedbackErr": {
+        "it": "Pur + gerundio = even though. 'Pur essendo stanca, continua a lavorare.'",
+        "en": "Pur + gerund = even though. 'Pur essendo stanca, continua a lavorare.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Pronome attaccato (tu, guardare + mi): ___ mi hai fatto ridere.",
+        "en": "Attached pronoun (you, guardare + mi): ___ you made me laugh."
+      },
+      "parole": [
+        "Guardandomi",
+        "mi",
+        "hai",
+        "fatto",
+        "ridere"
+      ],
+      "distrattori": [
+        "Guardando mi",
+        "Guardare mi",
+        "Mi guardando"
+      ],
+      "correct": [
+        "Guardandomi",
+        "mi",
+        "hai",
+        "fatto",
+        "ridere"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pronome attaccato al gerundio: guardare+mi = guardandomi.",
+        "en": "Perfect! Pronoun attached to gerund: guardare+mi = guardandomi."
+      },
+      "feedbackErr": {
+        "it": "Pronome si attacca al gerundio: guardandomi. 'Guardandomi, mi hai fatto ridere.'",
+        "en": "Pronoun attaches to gerund: guardandomi. 'Guardandomi, mi hai fatto ridere.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare bere (progressivo, tu): ___ il caffè in piedi al bar, come un vero napoletano.",
+        "en": "Irregular bere (progressive, you): ___ coffee standing at the bar, like a true Neapolitan."
+      },
+      "parole": [
+        "Stai",
+        "bevendo",
+        "il",
+        "caffè",
+        "in",
+        "piedi"
+      ],
+      "distrattori": [
+        "Sei",
+        "berendo",
+        "Bevi",
+        "bevuto"
+      ],
+      "correct": [
+        "Stai",
+        "bevendo",
+        "il",
+        "caffè",
+        "in",
+        "piedi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Bere → gerundio: bevendo. Tu + stare = stai. 'Stai bevendo il caffè in piedi.'",
+        "en": "Perfect! Bere → gerund: bevendo. Tu + stare = stai. 'Stai bevendo il caffè in piedi.'"
+      },
+      "feedbackErr": {
+        "it": "Bere → gerundio irregolare: bevendo. Tu + stare = stai. 'Stai bevendo il caffè in piedi.'",
+        "en": "Bere → irregular gerund: bevendo. Tu + stare = stai. 'Stai bevendo il caffè in piedi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Causa (avere fame): ___ molta fame, ho mangiato in fretta.",
+        "en": "Cause (avere fame): ___ very hungry, I ate quickly."
+      },
+      "parole": [
+        "Avendo",
+        "molta",
+        "fame"
+      ],
+      "distrattori": [
+        "Avuto",
+        "Avere",
+        "Ho avuto"
+      ],
+      "correct": [
+        "Avendo",
+        "molta",
+        "fame"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Causa → gerundio: avendo. 'Avendo molta fame, ho mangiato in fretta.'",
+        "en": "Perfect! Cause → gerund: avendo. 'Avendo molta fame, ho mangiato in fretta.'"
+      },
+      "feedbackErr": {
+        "it": "Causa (having/because I had) → gerundio: avendo. 'Avendo molta fame, ho mangiato in fretta.'",
+        "en": "Cause (having/because I had) → gerund: avendo. 'Avendo molta fame, ho mangiato in fretta.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Gerundio passato (finire il lavoro + uscire): ___ il lavoro, sono uscito.",
+        "en": "Past gerund (finire il lavoro + uscire): ___ the work, I went out."
+      },
+      "parole": [
+        "Avendo",
+        "finito",
+        "il",
+        "lavoro"
+      ],
+      "distrattori": [
+        "Avuto",
+        "Finendo",
+        "Ho finito"
+      ],
+      "correct": [
+        "Avendo",
+        "finito",
+        "il",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Gerundio passato: avendo + participio. 'Avendo finito il lavoro, sono uscito.'",
+        "en": "Perfect! Past gerund: avendo + participle. 'Avendo finito il lavoro, sono uscito.'"
+      },
+      "feedbackErr": {
+        "it": "Gerundio passato = avendo + participio. 'Avendo finito il lavoro, sono uscito.'",
+        "en": "Past gerund = avendo + participle. 'Avendo finito il lavoro, sono uscito.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irregolare dire (progressivo, lui): Mario ___ qualcosa di importante.",
+        "en": "Irregular dire (progressive, he): Mario ___ something important."
+      },
+      "parole": [
+        "sta",
+        "dicendo",
+        "qualcosa",
+        "di",
+        "importante"
+      ],
+      "distrattori": [
+        "è",
+        "direndo",
+        "ha",
+        "detto"
+      ],
+      "correct": [
+        "sta",
+        "dicendo",
+        "qualcosa",
+        "di",
+        "importante"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Dire → gerundio: dicendo. Lui + stare = sta. 'Mario sta dicendo qualcosa di importante.'",
+        "en": "Perfect! Dire → gerund: dicendo. Lui + stare = sta. 'Mario sta dicendo qualcosa di importante.'"
+      },
+      "feedbackErr": {
+        "it": "Dire → gerundio irregolare: dicendo. Lui + stare = sta. 'Mario sta dicendo qualcosa di importante.'",
+        "en": "Dire → irregular gerund: dicendo. Lui + stare = sta. 'Mario sta dicendo qualcosa di importante.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Simultaneità (parlare + camminare): ___ di pizza, camminavamo per Napoli.",
+        "en": "Simultaneity (parlare + camminare): ___ about pizza, we walked through Naples."
+      },
+      "parole": [
+        "Parlando",
+        "di",
+        "pizza"
+      ],
+      "distrattori": [
+        "Parlato",
+        "Parlare",
+        "Abbiamo parlato"
+      ],
+      "correct": [
+        "Parlando",
+        "di",
+        "pizza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mentre parlavamo → gerundio: parlando. 'Parlando di pizza, camminavamo per Napoli.'",
+        "en": "Perfect! While talking → gerund: parlando. 'Parlando di pizza, camminavamo per Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "While talking = gerundio: parlando. 'Parlando di pizza, camminavamo per Napoli.'",
+        "en": "While talking = gerund: parlando. 'Parlando di pizza, camminavamo per Napoli.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Progressivo (noi, dormire ancora): ___ ancora — non svegliarci!",
+        "en": "Progressive (noi, dormire ancora): ___ still — don't wake us!"
+      },
+      "parole": [
+        "Stiamo",
+        "dormendo",
+        "ancora"
+      ],
+      "distrattori": [
+        "Siamo",
+        "dormito",
+        "Dormiamo",
+        "dormando"
+      ],
+      "correct": [
+        "Stiamo",
+        "dormendo",
+        "ancora"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + stare = stiamo. Gerundio -ire: dormendo. 'Stiamo dormendo ancora.'",
+        "en": "Perfect! Noi + stare = stiamo. Gerund -ire: dormendo. 'Stiamo dormendo ancora.'"
+      },
+      "feedbackErr": {
+        "it": "Progressivo: stare (noi=stiamo) + gerundio. dormire → dormendo. 'Stiamo dormendo ancora.'",
+        "en": "Progressive: stare (noi=stiamo) + gerund. dormire → dormendo. 'Stiamo dormendo ancora.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mezzo (correre ogni giorno → stare in forma): ___ ogni giorno, rimango in forma.",
+        "en": "Means (correre ogni giorno → stare in forma): ___ every day, I stay in shape."
+      },
+      "parole": [
+        "Correndo",
+        "ogni",
+        "giorno"
+      ],
+      "distrattori": [
+        "Corruto",
+        "Correre",
+        "Corro"
+      ],
+      "correct": [
+        "Correndo",
+        "ogni",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! By running → gerundio: correndo. 'Correndo ogni giorno, rimango in forma.'",
+        "en": "Perfect! By running → gerund: correndo. 'Correndo ogni giorno, rimango in shape.'"
+      },
+      "feedbackErr": {
+        "it": "By running = gerundio: correndo. 'Correndo ogni giorno, rimango in forma.'",
+        "en": "By running = gerund: correndo. 'Correndo ogni giorno, rimango in shape.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Pronome attaccato (io, guardare + lo): ___ non riesco a smettere.",
+        "en": "Attached pronoun (I, guardare + lo): ___ I can't stop."
+      },
+      "parole": [
+        "Guardandolo",
+        "non",
+        "riesco",
+        "a",
+        "smettere"
+      ],
+      "distrattori": [
+        "Guardando lo",
+        "Lo guardando",
+        "Guardare lo"
+      ],
+      "correct": [
+        "Guardandolo",
+        "non",
+        "riesco",
+        "a",
+        "smettere"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pronome attaccato: guardare+lo = guardandolo. 'Guardandolo, non riesco a smettere.'",
+        "en": "Perfect! Attached pronoun: guardare+lo = guardandolo. 'Guardandolo, I can't stop.'"
+      },
+      "feedbackErr": {
+        "it": "Pronome si attacca al gerundio: guardandolo. 'Guardandolo, non riesco a smettere.'",
+        "en": "Pronoun attaches to gerund: guardandolo. 'Guardandolo, I can't stop.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Gerundio passato con essere (arrivare, lei): ___ tardi, Maria si è scusata.",
+        "en": "Past gerund with essere (arrivare, she): ___ late, Maria apologised."
+      },
+      "parole": [
+        "Essendo",
+        "arrivata",
+        "tardi"
+      ],
+      "distrattori": [
+        "Avendo",
+        "arrivato",
+        "Arrivando"
+      ],
+      "correct": [
+        "Essendo",
+        "arrivata",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Gerundio passato + essere (arrivare): essendo + arrivata. Concorda con Maria (f.sg.).",
+        "en": "Perfect! Past gerund + essere (arrivare): essendo + arrivata. Agrees with Maria (f.sg.)."
+      },
+      "feedbackErr": {
+        "it": "Gerundio passato con essere: essendo arrivata. Arrivare → essere. Concorda con Maria (f.): arrivata.",
+        "en": "Past gerund with essere: essendo arrivata. Arrivare → essere. Agrees with Maria (f.): arrivata."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Concessione (pur, sapere la risposta, non parlare): ___ la risposta, non ha parlato.",
+        "en": "Concession (pur, sapere la risposta, non parlare): ___ the answer, he didn't speak."
+      },
+      "parole": [
+        "Pur",
+        "sapendo",
+        "la",
+        "risposta"
+      ],
+      "distrattori": [
+        "Anche se",
+        "saputo",
+        "sa"
+      ],
+      "correct": [
+        "Pur",
+        "sapendo",
+        "la",
+        "risposta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pur + gerundio: pur sapendo. 'Pur sapendo la risposta, non ha parlato.'",
+        "en": "Perfect! Pur + gerund: pur sapendo. 'Pur sapendo la risposta, non ha parlato.'"
+      },
+      "feedbackErr": {
+        "it": "Pur + gerundio = concessione: pur sapendo. 'Pur sapendo la risposta, non ha parlato.'",
+        "en": "Pur + gerund = concession: pur sapendo. 'Pur sapendo la risposta, non ha parlato.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Gerundio -are (correre → vado al lavoro): Vado al lavoro ___ — fa troppo caldo per la giacca.",
+        "en": "Gerund -are (correre → vado al lavoro): I go to work ___ — it's too hot for a jacket."
+      },
+      "parole": [
+        "correndo"
+      ],
+      "distrattori": [
+        "corruto",
+        "correre",
+        "corso"
+      ],
+      "correct": [
+        "correndo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Correre → gerundio: correndo (-ere→-endo). 'Vado al lavoro correndo.'",
+        "en": "Perfect! Correre → gerund: correndo (-ere→-endo). 'Vado al lavoro correndo.'"
+      },
+      "feedbackErr": {
+        "it": "Correre → gerundio: correndo. 'Vado al lavoro correndo.'",
+        "en": "Correre → gerund: correndo. 'Vado al lavoro correndo.'"
+      }
+    }
+  ]
+}

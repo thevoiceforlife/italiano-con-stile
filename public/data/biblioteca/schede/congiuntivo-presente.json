@@ -1,0 +1,1434 @@
+{
+  "id": "congiuntivo-presente",
+  "categoria": "grammatica",
+  "emoji": "🌀",
+  "livello": "B1",
+  "titolo": {
+    "it": "Congiuntivo Presente",
+    "en": "Present Subjunctive"
+  },
+  "mario": "Il congiuntivo spaventa tutti. Ma ti dico un segreto: lo usi già, probabilmente senza saperlo. 'Penso che sia bello' — ecco il congiuntivo. Non è magia nera. È solo il modo in cui l'italiano esprime soggettività, dubbio, emozione.",
+  "marioEn": "The subjunctive scares everyone. But I'll tell you a secret: you probably already use it without knowing. 'Penso che sia bello' — there's the subjunctive. It's not black magic. It's just the way Italian expresses subjectivity, doubt, emotion.",
+  "perche": {
+    "it": "In inglese il congiuntivo quasi non esiste più (solo 'if I were you', 'I suggest that he be'). In italiano è vivo e usato ogni giorno. Si usa dopo verbi di opinione, dubbio, emozione, volontà, con certe congiunzioni. La struttura classica: soggetto1 + verbo principale + che + soggetto2 + congiuntivo. 'Penso che Mario sia bravo.' 'Voglio che tu venga.' 'È importante che tu studi.'",
+    "en": "In English the subjunctive barely exists anymore (only 'if I were you', 'I suggest that he be'). In Italian it's alive and used every day. It's used after verbs of opinion, doubt, emotion, will, with certain conjunctions. The classic structure: subject1 + main verb + che + subject2 + subjunctive. 'Penso che Mario sia bravo.' 'Voglio che tu venga.' 'È importante che tu studi.'"
+  },
+  "spiegazione": {
+    "it": "Formazione: -are verbi: tolgi -are, aggiungi -i/-i/-i/-iamo/-iate/-ino (parl-are → parli). -ere/-ire: tolgi -ere/-ire, aggiungi -a/-a/-a/-iamo/-iate/-ano (vend-ere → venda). Essere: sia/sia/sia/siamo/siate/siano. Avere: abbia/abbia/abbia/abbiamo/abbiate/abbiano. Verbi chiave che lo attivano: pensare, credere, sperare, volere, dubitare, temere + essere+aggettivo (è importante/necessario/strano che...).",
+    "en": "Formation: -are verbs: remove -are, add -i/-i/-i/-iamo/-iate/-ino (parl-are → parli). -ere/-ire: remove -ere/-ire, add -a/-a/-a/-iamo/-iate/-ano (vend-ere → venda). Essere: sia/sia/sia/siamo/siate/siano. Avere: abbia/abbia/abbia/abbiamo/abbiate/abbiano. Key verbs that trigger it: pensare, credere, sperare, volere, dubitare, temere + essere+adjective (è importante/necessario/strano che...)."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "parlare": "parli",
+      "vendere": "venda",
+      "essere": "sia"
+    },
+    {
+      "soggetto": "tu",
+      "parlare": "parli",
+      "vendere": "venda",
+      "essere": "sia"
+    },
+    {
+      "soggetto": "lui/lei",
+      "parlare": "parli",
+      "vendere": "venda",
+      "essere": "sia"
+    },
+    {
+      "soggetto": "noi",
+      "parlare": "parliamo",
+      "vendere": "vendiamo",
+      "essere": "siamo"
+    },
+    {
+      "soggetto": "voi",
+      "parlare": "parliate",
+      "vendere": "vendiate",
+      "essere": "siate"
+    },
+    {
+      "soggetto": "loro",
+      "parlare": "parlino",
+      "vendere": "vendano",
+      "essere": "siano"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Penso che Mario sia molto bravo.",
+      "en": "I think Mario is very good.",
+      "audio": "Penso che Mario sia molto bravo."
+    },
+    {
+      "it": "È importante che tu studi ogni giorno.",
+      "en": "It's important that you study every day.",
+      "audio": "È importante che tu studi ogni giorno."
+    },
+    {
+      "it": "Voglio che tu venga alla festa.",
+      "en": "I want you to come to the party.",
+      "audio": "Voglio che tu venga alla festa."
+    },
+    {
+      "it": "Spero che faccia bello domani.",
+      "en": "I hope the weather will be nice tomorrow.",
+      "audio": "Spero che faccia bello domani."
+    },
+    {
+      "it": "È strano che non abbia risposto.",
+      "en": "It's strange that he hasn't answered.",
+      "audio": "È strano che non abbia risposto."
+    }
+  ],
+  "nota": {
+    "it": "💡 La trappola dell'italiano scritto: io/tu/lui/lei hanno la stessa forma al congiuntivo presente (-are verbi: parli). Per disambiguare si aggiunge il pronome soggetto: 'Penso che LUI parli bene' (non 'Penso che parli bene' — troppo ambiguo). In bocca agli italiani questo problema non esiste perché il contesto chiarisce tutto.",
+    "en": "💡 The written Italian trap: io/tu/lui/lei have the same form in the present subjunctive (-are verbs: parli). To disambiguate the subject pronoun is added: 'Penso che LUI parli bene' (not 'Penso che parli bene' — too ambiguous). For Italian speakers this problem doesn't exist because context clarifies everything."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale verbo attiva il congiuntivo nella frase che segue?",
+        "en": "Which verb triggers the subjunctive in the following sentence?"
+      },
+      "opzioni": [
+        "mangiare",
+        "pensare",
+        "andare",
+        "avere"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Pensare che' → congiuntivo. 'Penso che Mario sia bravo.'",
+        "en": "Correct! 'Pensare che' → subjunctive. 'Penso che Mario sia bravo.'"
+      },
+      "feedbackErr": {
+        "it": "'Pensare' + che → congiuntivo. 'Penso che Mario sia bravo.'",
+        "en": "'Pensare' + che → subjunctive. 'Penso che Mario sia bravo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il congiuntivo di 'essere' per tutte le persone singolari?",
+        "en": "What is the subjunctive of 'essere' for all singular persons?"
+      },
+      "opzioni": [
+        "è",
+        "era",
+        "sia",
+        "fosse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Essere → sia per io/tu/lui/lei. 'Penso che sia bravo', 'Penso che tu sia stanco'.",
+        "en": "Correct! Essere → sia for io/tu/lui/lei. 'Penso che sia bravo', 'Penso che tu sia stanco'."
+      },
+      "feedbackErr": {
+        "it": "Essere → congiuntivo presente: sia (io/tu/lui/lei). 'Penso che sia bravo.'",
+        "en": "Essere → present subjunctive: sia (io/tu/lui/lei). 'Penso che sia bravo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il congiuntivo di 'parlare' per la terza persona singolare?",
+        "en": "How is the subjunctive of 'parlare' formed for the third person singular?"
+      },
+      "opzioni": [
+        "parla",
+        "parlasse",
+        "parli",
+        "parlerà"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! -are verbi: togli -are, aggiungi -i. parl+i = parli. 'Penso che Mario parli bene l'italiano.'",
+        "en": "Correct! -are verbs: remove -are, add -i. parl+i = parli. 'Penso che Mario parli bene l'italiano.'"
+      },
+      "feedbackErr": {
+        "it": "Congiuntivo -are: togli -are, aggiungi -i. parlare → parli.",
+        "en": "Subjunctive -are: remove -are, add -i. parlare → parli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'È importante che tu ___ ogni giorno.' (studiare)",
+        "en": "Complete: 'It's important that you ___ every day.' (studiare)"
+      },
+      "opzioni": [
+        "studi",
+        "studia",
+        "studieresti",
+        "studierai"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! È importante che + congiuntivo: studi. 'È importante che tu studi ogni giorno.'",
+        "en": "Correct! È importante che + subjunctive: studi. 'È importante che tu studi ogni giorno.'"
+      },
+      "feedbackErr": {
+        "it": "'È importante che' → congiuntivo: studi. 'È importante che tu studi ogni giorno.'",
+        "en": "'È importante che' → subjunctive: studi. 'È importante che tu studi ogni giorno.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il congiuntivo di 'avere' per le persone singolari?",
+        "en": "What is the subjunctive of 'avere' for the singular persons?"
+      },
+      "opzioni": [
+        "ha",
+        "avrebbe",
+        "abbia",
+        "avrà"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Avere → abbia (io/tu/lui/lei). 'Spero che tu abbia capito.'",
+        "en": "Correct! Avere → abbia (io/tu/lui/lei). 'Spero che tu abbia capito.'"
+      },
+      "feedbackErr": {
+        "it": "Avere → congiuntivo: abbia. 'È strano che non abbia risposto.'",
+        "en": "Avere → subjunctive: abbia. 'È strano che non abbia risposto.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il congiuntivo di 'vendere' per la terza plurale?",
+        "en": "How is the subjunctive of 'vendere' formed for the third plural?"
+      },
+      "opzioni": [
+        "vendono",
+        "vendano",
+        "vendino",
+        "venderebbero"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! -ere verbi terza plurale: togli -ere, aggiungi -ano. vend+ano = vendano.",
+        "en": "Correct! -ere verbs third plural: remove -ere, add -ano. vend+ano = vendano."
+      },
+      "feedbackErr": {
+        "it": "Congiuntivo -ere terza plurale → -ano. vendere → vendano.",
+        "en": "Subjunctive -ere third plural → -ano. vendere → vendano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale struttura richiede il congiuntivo?",
+        "en": "Which structure requires the subjunctive?"
+      },
+      "opzioni": [
+        "Ieri Mario ha mangiato la pizza.",
+        "Penso che Mario mangi troppa pizza.",
+        "Mario mangia la pizza ogni giorno.",
+        "Mario ha sempre mangiato la pizza."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Penso che' + congiuntivo. Verbo di opinione + che → congiuntivo.",
+        "en": "Correct! 'Penso che' + subjunctive. Verb of opinion + che → subjunctive."
+      },
+      "feedbackErr": {
+        "it": "'Penso che' + congiuntivo: mangi. Verbo di opinione → congiuntivo nella subordinata.",
+        "en": "'Penso che' + subjunctive: mangi. Verb of opinion → subjunctive in the subordinate clause."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Voglio che tu ___ alla festa.' (venire)",
+        "en": "Complete: 'I want you ___ to the party.' (venire)"
+      },
+      "opzioni": [
+        "vieni",
+        "verrai",
+        "venga",
+        "venivi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Volere che + congiuntivo: venga (venire è irregolare al congiuntivo). 'Voglio che tu venga.'",
+        "en": "Correct! Volere che + subjunctive: venga (venire is irregular in the subjunctive). 'Voglio che tu venga.'"
+      },
+      "feedbackErr": {
+        "it": "Venire → congiuntivo irregolare: venga. 'Voglio che tu venga alla festa.'",
+        "en": "Venire → irregular subjunctive: venga. 'Voglio che tu venga alla festa.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Il congiuntivo si usa principalmente con quale connettivo?",
+        "en": "The subjunctive is mainly used with which connective?"
+      },
+      "opzioni": [
+        "perché (because)",
+        "quando (when)",
+        "che (that)",
+        "mentre (while)"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Che' è il connettivo chiave: 'penso che', 'voglio che', 'è importante che' → + congiuntivo.",
+        "en": "Correct! 'Che' is the key connective: 'penso che', 'voglio che', 'è importante che' → + subjunctive."
+      },
+      "feedbackErr": {
+        "it": "Il congiuntivo si attiva principalmente dopo 'che' (preceduto da verbi di opinione/emozione/volontà).",
+        "en": "The subjunctive is mainly triggered after 'che' (preceded by verbs of opinion/emotion/will)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Spero che ___ bello domani.' (fare)",
+        "en": "Complete: 'I hope the weather ___ nice tomorrow.' (fare)"
+      },
+      "opzioni": [
+        "fa",
+        "farà",
+        "faccia",
+        "facesse"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Sperare che + congiuntivo. Fare → congiuntivo: faccia. 'Spero che faccia bello.'",
+        "en": "Correct! Sperare che + subjunctive. Fare → subjunctive: faccia. 'Spero che faccia bello.'"
+      },
+      "feedbackErr": {
+        "it": "Sperare + che → congiuntivo. Fare → faccia. 'Spero che faccia bello domani.'",
+        "en": "Sperare + che → subjunctive. Fare → faccia. 'Spero che faccia bello domani.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Perché le prime tre persone singolari del congiuntivo dei verbi -are sono uguali?",
+        "en": "Why are the first three singular persons of the -are verb subjunctive identical?"
+      },
+      "opzioni": [
+        "È un errore grammaticale",
+        "È un'evoluzione dal latino — tutte e tre prendono -i",
+        "Solo io e tu sono uguali",
+        "È solo nell'italiano moderno"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dal latino: io/tu/lui-lei prendono tutti -i nei verbi -are. 'Penso che io parli / che tu parli / che lui parli.'",
+        "en": "Correct! From Latin: io/tu/lui-lei all take -i in -are verbs. 'Penso che io parli / che tu parli / che lui parli.'"
+      },
+      "feedbackErr": {
+        "it": "Dal latino: tutte e tre le singolari prendono -i (-are). Per questo è ambiguo senza pronome.",
+        "en": "From Latin: all three singulars take -i (-are). This is why it's ambiguous without a pronoun."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase usa correttamente il congiuntivo?",
+        "en": "Which sentence correctly uses the subjunctive?"
+      },
+      "opzioni": [
+        "Penso che Mario è bravo.",
+        "Penso che Mario sia bravo.",
+        "Penso che Mario sarà bravo.",
+        "Penso che Mario fosse bravo."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Pensare che + congiuntivo presente: sia. Non indicativo (è), non futuro (sarà).",
+        "en": "Correct! Pensare che + present subjunctive: sia. Not indicative (è), not future (sarà)."
+      },
+      "feedbackErr": {
+        "it": "'Penso che' → congiuntivo presente: sia. Non 'penso che Mario è' (errore comune!).",
+        "en": "'Penso che' → present subjunctive: sia. Not 'penso che Mario è' (common mistake!)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'È strano che non ___ risposto.' (avere — congiuntivo passato)",
+        "en": "Complete: 'It's strange that he hasn't ___.' (avere — past subjunctive)"
+      },
+      "opzioni": [
+        "ha",
+        "aveva",
+        "abbia",
+        "avrebbe"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Congiuntivo passato: abbia + participio. 'È strano che non abbia risposto.'",
+        "en": "Correct! Past subjunctive: abbia + participle. 'È strano che non abbia risposto.'"
+      },
+      "feedbackErr": {
+        "it": "Congiuntivo passato: abbia (congiuntivo di avere) + participio passato. 'Non abbia risposto.'",
+        "en": "Past subjunctive: abbia (subjunctive of avere) + past participle. 'Non abbia risposto.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale aggettivo con 'è' NON richiede il congiuntivo?",
+        "en": "Which adjective with 'è' does NOT require the subjunctive?"
+      },
+      "opzioni": [
+        "È importante che...",
+        "È necessario che...",
+        "È certo che...",
+        "È strano che..."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'È certo che' → indicativo (non congiuntivo), perché esprime certezza: 'È certo che Mario viene.'",
+        "en": "Correct! 'È certo che' → indicative (not subjunctive), because it expresses certainty: 'È certo che Mario viene.'"
+      },
+      "feedbackErr": {
+        "it": "'È certo che' → indicativo. La certezza non richiede il congiuntivo. 'È certo che Mario viene.'",
+        "en": "'È certo che' → indicative. Certainty doesn't require the subjunctive. 'È certo che Mario viene.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Congiuntivo di 'andare' alla terza persona singolare?",
+        "en": "Subjunctive of 'andare' for the third person singular?"
+      },
+      "opzioni": [
+        "vada",
+        "vadi",
+        "va",
+        "andasse"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Andare → congiuntivo irregolare: vada. 'Spero che Mario vada a Napoli.'",
+        "en": "Correct! Andare → irregular subjunctive: vada. 'Spero che Mario vada a Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Andare → congiuntivo irregolare: vada. 'Spero che Mario vada a Napoli.'",
+        "en": "Andare → irregular subjunctive: vada. 'Spero che Mario vada a Napoli.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale congiunzione NON richiede il congiuntivo?",
+        "en": "Which conjunction does NOT require the subjunctive?"
+      },
+      "opzioni": [
+        "affinché (so that)",
+        "benché (although)",
+        "perché (because — finale)",
+        "dopo che (after)"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Dopo che' + indicativo (azione reale completata). 'Dopo che Mario è arrivato, abbiamo mangiato.'",
+        "en": "Correct! 'Dopo che' + indicative (real completed action). 'Dopo che Mario è arrivato, abbiamo mangiato.'"
+      },
+      "feedbackErr": {
+        "it": "'Dopo che' → indicativo. 'Dopo che Mario è arrivato...' Le altre (affinché/benché/perché finale) → congiuntivo.",
+        "en": "'Dopo che' → indicative. 'Dopo che Mario è arrivato...' The others (affinché/benché/perché finale) → subjunctive."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'Dubito che Mario ___ la verità.' (dire)",
+        "en": "Complete: 'I doubt Mario ___ the truth.' (dire)"
+      },
+      "opzioni": [
+        "dice",
+        "dirà",
+        "dica",
+        "diceva"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Dubitare che + congiuntivo. Dire → congiuntivo: dica. 'Dubito che Mario dica la verità.'",
+        "en": "Correct! Dubitare che + subjunctive. Dire → subjunctive: dica. 'Dubito che Mario dica la verità.'"
+      },
+      "feedbackErr": {
+        "it": "'Dubitare che' → congiuntivo. Dire → dica. 'Dubito che Mario dica la verità.'",
+        "en": "'Dubitare che' → subjunctive. Dire → dica. 'Dubito che Mario dica la verità.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Congiuntivo di 'fare' alla terza persona singolare?",
+        "en": "Subjunctive of 'fare' for the third person singular?"
+      },
+      "opzioni": [
+        "fa",
+        "farà",
+        "faccia",
+        "farebbe"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Fare → congiuntivo irregolare: faccia. 'Spero che faccia bello domani.'",
+        "en": "Correct! Fare → irregular subjunctive: faccia. 'Spero che faccia bello domani.'"
+      },
+      "feedbackErr": {
+        "it": "Fare → congiuntivo irregolare: faccia. 'Voglio che tu faccia questo.'",
+        "en": "Fare → irregular subjunctive: faccia. 'Voglio che tu faccia questo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale verbo NON attiva il congiuntivo?",
+        "en": "Which verb does NOT trigger the subjunctive?"
+      },
+      "opzioni": [
+        "pensare",
+        "credere",
+        "sapere (certezza)",
+        "sperare"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Sapere' (con certezza) → indicativo: 'So che Mario è bravo.' Non congiuntivo!",
+        "en": "Correct! 'Sapere' (with certainty) → indicative: 'So che Mario è bravo.' Not subjunctive!"
+      },
+      "feedbackErr": {
+        "it": "'Sapere' + certezza → indicativo: 'So che Mario è bravo.' Pensare/credere/sperare → congiuntivo.",
+        "en": "'Sapere' + certainty → indicative: 'So che Mario è bravo.' Pensare/credere/sperare → subjunctive."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Completa: 'È necessario che voi ___ alle otto.' (arrivare)",
+        "en": "Complete: 'It's necessary that you ___ at eight.' (arrivare)"
+      },
+      "opzioni": [
+        "arrivate",
+        "arriviate",
+        "arriverete",
+        "arrivavate"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! È necessario che + congiuntivo. Voi + -are → -iate. arriviate. 'È necessario che voi arriviate alle otto.'",
+        "en": "Correct! È necessario che + subjunctive. Voi + -are → -iate. arriviate. 'È necessario che voi arriviate alle otto.'"
+      },
+      "feedbackErr": {
+        "it": "'È necessario che' → congiuntivo. Voi + -are verbo → -iate: arriviate.",
+        "en": "'È necessario che' → subjunctive. Voi + -are verb → -iate: arriviate."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo si usa dopo 'pensare che', 'credere che', 'sperare che'.",
+        "en": "The subjunctive is used after 'pensare che', 'credere che', 'sperare che'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Questi verbi di opinione/speranza attivano il congiuntivo nella subordinata.",
+        "en": "Correct! These verbs of opinion/hope trigger the subjunctive in the subordinate clause."
+      },
+      "feedbackErr": {
+        "it": "Vero! Pensare/credere/sperare + che → congiuntivo. 'Penso che Mario sia bravo.'",
+        "en": "True! Pensare/credere/sperare + che → subjunctive. 'Penso che Mario sia bravo.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La frase 'Penso che Mario è bravo' è grammaticalmente corretta.",
+        "en": "The sentence 'Penso che Mario è bravo' is grammatically correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! È l'errore più comune! 'Penso che' → congiuntivo: 'Penso che Mario SIA bravo.' Non 'è'.",
+        "en": "Correct! This is the most common mistake! 'Penso che' → subjunctive: 'Penso che Mario SIA bravo.' Not 'è'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Penso che' → congiuntivo. Corretto: 'Penso che Mario SIA bravo.' (non 'è').",
+        "en": "False! 'Penso che' → subjunctive. Correct: 'Penso che Mario SIA bravo.' (not 'è')."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo di 'essere' alla terza persona singolare è 'sia'.",
+        "en": "The subjunctive of 'essere' for the third person singular is 'sia'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Essere → sia per io/tu/lui/lei. 'Penso che Mario sia stanco.'",
+        "en": "Correct! Essere → sia for io/tu/lui/lei. 'Penso che Mario sia stanco.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Essere → congiuntivo: sia. 'Penso che Mario sia molto bravo.'",
+        "en": "True! Essere → subjunctive: sia. 'Penso che Mario sia molto bravo.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nei verbi -are, le prime tre persone del congiuntivo (io/tu/lui-lei) hanno la stessa forma.",
+        "en": "In -are verbs, the first three subjunctive persons (io/tu/lui-lei) have the same form."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Io parli / tu parli / lui-lei parli — stesso. Per questo si aggiunge spesso il pronome soggetto.",
+        "en": "Correct! Io parli / tu parli / lui-lei parli — same. This is why the subject pronoun is often added."
+      },
+      "feedbackErr": {
+        "it": "Vero! -are verbi: io/tu/lui-lei parli — tutti uguali. Aggiungere il pronome aiuta a capire chi è il soggetto.",
+        "en": "True! -are verbs: io/tu/lui-lei parli — all the same. Adding the pronoun helps understand who the subject is."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'È certo che' richiede il congiuntivo perché esprime un fatto soggettivo.",
+        "en": "'È certo che' requires the subjunctive because it expresses a subjective fact."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'È certo che' → indicativo, non congiuntivo. Esprime certezza = fatto reale. 'È certo che Mario viene.'",
+        "en": "Correct! 'È certo che' → indicative, not subjunctive. It expresses certainty = real fact. 'È certo che Mario viene.'"
+      },
+      "feedbackErr": {
+        "it": "Falso! 'È certo che' → indicativo (certezza = realtà). 'È strano/importante/necessario che' → congiuntivo.",
+        "en": "False! 'È certo che' → indicative (certainty = reality). 'È strano/importante/necessario che' → subjunctive."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo di 'avere' alla prima persona è 'abbia'.",
+        "en": "The subjunctive of 'avere' for the first person is 'abbia'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avere → abbia (io/tu/lui-lei). 'È strano che io abbia sbagliato.'",
+        "en": "Correct! Avere → abbia (io/tu/lui-lei). 'È strano che io abbia sbagliato.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avere → congiuntivo: abbia. 'Voglio che tu abbia pazienza.'",
+        "en": "True! Avere → subjunctive: abbia. 'Voglio che tu abbia pazienza.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Benché' (although) richiede il congiuntivo.",
+        "en": "'Benché' (although) requires the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Benché + congiuntivo: 'Benché sia stanco, lavoro.' = Although I'm tired, I work.",
+        "en": "Correct! Benché + subjunctive: 'Benché sia stanco, lavoro.' = Although I'm tired, I work."
+      },
+      "feedbackErr": {
+        "it": "Vero! Benché → congiuntivo sempre. 'Benché piova, vado al mare.'",
+        "en": "True! Benché → always subjunctive. 'Benché piova, vado al mare.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo si usa quando c'è un solo soggetto nella frase.",
+        "en": "The subjunctive is used when there is only one subject in the sentence."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Con un solo soggetto → infinito: 'Voglio mangiare' (non 'Voglio che io mangi'). Il congiuntivo richiede due soggetti diversi: 'Voglio che TU mangi.'",
+        "en": "Correct! With one subject → infinitive: 'Voglio mangiare' (not 'Voglio che io mangi'). The subjunctive requires two different subjects: 'I want YOU to eat.'"
+      },
+      "feedbackErr": {
+        "it": "Falso! Un soggetto → infinito: 'Voglio mangiare.' Due soggetti → congiuntivo: 'Voglio che tu mangi.'",
+        "en": "False! One subject → infinitive: 'Voglio mangiare.' Two subjects → subjunctive: 'Voglio che tu mangi.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo di 'fare' è 'faccia'.",
+        "en": "The subjunctive of 'fare' is 'faccia'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Fare → congiuntivo irregolare: faccia. 'Voglio che tu faccia attenzione.'",
+        "en": "Correct! Fare → irregular subjunctive: faccia. 'Voglio che tu faccia attenzione.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Fare → congiuntivo: faccia. 'Spero che faccia bello domani.'",
+        "en": "True! Fare → subjunctive: faccia. 'Spero che faccia bello domani.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Affinché' (so that) si usa con il congiuntivo.",
+        "en": "'Affinché' (so that) is used with the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Affinché + congiuntivo: 'Te lo dico affinché tu capisca.' = I'm telling you so that you understand.",
+        "en": "Correct! Affinché + subjunctive: 'Te lo dico affinché tu capisca.' = I'm telling you so that you understand."
+      },
+      "feedbackErr": {
+        "it": "Vero! Affinché (= perché finale) + congiuntivo. 'Studia affinché tu possa capire.'",
+        "en": "True! Affinché (= purpose perché) + subjunctive. 'Studia affinché tu possa capire.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo in italiano è obsoleto e usato solo nella lingua scritta.",
+        "en": "The subjunctive in Italian is obsolete and used only in written language."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il congiuntivo è vivo nel parlato italiano: 'Penso che sia', 'spero che faccia', 'è importante che tu venga' — quotidiani.",
+        "en": "Correct! The subjunctive is alive in spoken Italian: 'Penso che sia', 'spero che faccia', 'è importante che tu venga' — daily usage."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il congiuntivo è usato ogni giorno: 'Penso che sia bello', 'voglio che tu venga'. Non è letterario.",
+        "en": "False! The subjunctive is used every day: 'Penso che sia bello', 'voglio che tu venga'. It's not literary."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'So che Mario è bravo' usa correttamente l'indicativo (non il congiuntivo).",
+        "en": "'So che Mario è bravo' correctly uses the indicative (not the subjunctive)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Sapere' + certezza → indicativo: 'So che Mario è bravo.' Non 'so che Mario sia bravo.'",
+        "en": "Correct! 'Sapere' + certainty → indicative: 'So che Mario è bravo.' Not 'so che Mario sia bravo.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Sapere' con certezza → indicativo. 'So che Mario è bravo' è corretto.",
+        "en": "True! 'Sapere' with certainty → indicative. 'So che Mario è bravo' is correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo di 'andare' è 'vada' (irregolare).",
+        "en": "The subjunctive of 'andare' is 'vada' (irregular)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Andare → congiuntivo irregolare: vada. 'Voglio che Mario vada a Napoli.'",
+        "en": "Correct! Andare → irregular subjunctive: vada. 'Voglio che Mario vada a Napoli.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Andare → congiuntivo: vada. 'Spero che tu vada bene.'",
+        "en": "True! Andare → subjunctive: vada. 'Spero che tu vada bene.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con 'sebbene' (even though) si usa il congiuntivo.",
+        "en": "With 'sebbene' (even though) the subjunctive is used."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sebbene + congiuntivo: 'Sebbene piova, usciremo.' = Even though it's raining, we'll go out.",
+        "en": "Correct! Sebbene + subjunctive: 'Sebbene piova, usciremo.' = Even though it's raining, we'll go out."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sebbene (= benché) + congiuntivo. 'Sebbene sia stanco, continuo a lavorare.'",
+        "en": "True! Sebbene (= benché) + subjunctive. 'Sebbene sia stanco, continuo a lavorare.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La struttura 'prima che' richiede il congiuntivo.",
+        "en": "The structure 'prima che' requires the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Prima che + congiuntivo: 'Parti prima che arrivi Mario.' = Leave before Mario arrives.",
+        "en": "Correct! Prima che + subjunctive: 'Parti prima che arrivi Mario.' = Leave before Mario arrives."
+      },
+      "feedbackErr": {
+        "it": "Vero! Prima che + congiuntivo. 'Telefona prima che parta il treno.'",
+        "en": "True! Prima che + subjunctive. 'Telefona prima che parta il treno.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo presente della terza persona plurale dei verbi -ire è -ino.",
+        "en": "The present subjunctive third person plural of -ire verbs is -ino."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! -ire verbi terza plurale → -ano (regolari) o -iscano (tipo capire). dormire → dormano. capire → capiscano.",
+        "en": "Correct! -ire verbs third plural → -ano (regular) or -iscano (capire type). dormire → dormano. capire → capiscano."
+      },
+      "feedbackErr": {
+        "it": "Vero! -ire terza plurale → -ano: dormano, partano. Tipo -isc: capiscano, finiscano.",
+        "en": "True! -ire third plural → -ano: dormano, partano. -isc type: capiscano, finiscano."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Temo che' (I fear that) si usa con il congiuntivo.",
+        "en": "'Temo che' (I fear that) is used with the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Temere che + congiuntivo. 'Temo che Mario non venga.' = I fear Mario won't come.",
+        "en": "Correct! Temere che + subjunctive. 'Temo che Mario non venga.' = I fear Mario won't come."
+      },
+      "feedbackErr": {
+        "it": "Vero! Temo che + congiuntivo. 'Temo che sia tardi.' = I'm afraid it's late.",
+        "en": "True! Temo che + subjunctive. 'Temo che sia tardi.' = I'm afraid it's late."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo si usa solo nelle frasi scritte formali, mai nella conversazione.",
+        "en": "The subjunctive is used only in formal written sentences, never in conversation."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il congiuntivo è frequentissimo nella conversazione: 'Penso che sia bello', 'spero che venga', 'è strano che non abbia chiamato'.",
+        "en": "Correct! The subjunctive is very common in conversation: 'Penso che sia bello', 'spero che venga', 'è strano che non abbia chiamato'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il congiuntivo è quotidiano nel parlato: 'penso che sia', 'voglio che tu venga', 'è strano che non chiami'.",
+        "en": "False! The subjunctive is everyday in speech: 'penso che sia', 'voglio che tu venga', 'è strano che non chiami'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sembra che' (it seems that) richiede il congiuntivo.",
+        "en": "'Sembra che' (it seems that) requires the subjunctive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sembrare che + congiuntivo. 'Sembra che Mario sia partito.' = It seems Mario has left.",
+        "en": "Correct! Sembrare che + subjunctive. 'Sembra che Mario sia partito.' = It seems Mario has left."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sembra che + congiuntivo. 'Sembra che piova' = It seems to be raining.",
+        "en": "True! Sembra che + subjunctive. 'Sembra che piova' = It seems to be raining."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il congiuntivo presente di 'venire' è 'vengi' (regolare).",
+        "en": "The present subjunctive of 'venire' is 'vengi' (regular)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Venire → congiuntivo irregolare: venga (io/tu/lui-lei). 'Voglio che tu venga.' Non 'vengi'.",
+        "en": "Correct! Venire → irregular subjunctive: venga (io/tu/lui-lei). 'Voglio che tu venga.' Not 'vengi'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Venire → congiuntivo irregolare: venga. Non 'vengi'. 'Voglio che tu venga alla festa.'",
+        "en": "False! Venire → irregular subjunctive: venga. Not 'vengi'. 'Voglio che tu venga alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Opinione (io, pensare che, Mario, essere bravo): Penso che Mario ___ molto bravo.",
+        "en": "Opinion (I, pensare che, Mario, essere bravo): I think Mario ___ very good."
+      },
+      "parole": [
+        "sia",
+        "molto",
+        "bravo"
+      ],
+      "distrattori": [
+        "è",
+        "era",
+        "sarà"
+      ],
+      "correct": [
+        "sia",
+        "molto",
+        "bravo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Pensare che + congiuntivo: sia. 'Penso che Mario sia molto bravo.'",
+        "en": "Perfect! Pensare che + subjunctive: sia. 'Penso che Mario sia molto bravo.'"
+      },
+      "feedbackErr": {
+        "it": "'Pensare che' → congiuntivo: sia. Non 'è' (indicativo).",
+        "en": "'Pensare che' → subjunctive: sia. Not 'è' (indicative)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Necessità (tu, arrivare alle otto): È necessario che tu ___ alle otto.",
+        "en": "Necessity (you, arrivare alle otto): It's necessary that you ___ at eight."
+      },
+      "parole": [
+        "arrivi",
+        "alle",
+        "otto"
+      ],
+      "distrattori": [
+        "arriva",
+        "arriverai",
+        "arrivavi"
+      ],
+      "correct": [
+        "arrivi",
+        "alle",
+        "otto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! È necessario che + congiuntivo: arrivi. 'È necessario che tu arrivi alle otto.'",
+        "en": "Perfect! È necessario che + subjunctive: arrivi. 'È necessario che tu arrivi alle otto.'"
+      },
+      "feedbackErr": {
+        "it": "'È necessario che' → congiuntivo: arrivi. 'È necessario che tu arrivi alle otto.'",
+        "en": "'È necessario che' → subjunctive: arrivi. 'È necessario che tu arrivi alle otto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Volontà (io, volere che tu venga): Voglio che tu ___ alla festa.",
+        "en": "Will (I, want you to come): I want you ___ to the party."
+      },
+      "parole": [
+        "venga",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "vieni",
+        "verrai",
+        "venivi"
+      ],
+      "correct": [
+        "venga",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Volere che + congiuntivo: venga (irregolare). 'Voglio che tu venga alla festa.'",
+        "en": "Perfect! Volere che + subjunctive: venga (irregular). 'Voglio che tu venga alla festa.'"
+      },
+      "feedbackErr": {
+        "it": "Venire → congiuntivo irregolare: venga. 'Voglio che tu venga alla festa.'",
+        "en": "Venire → irregular subjunctive: venga. 'Voglio che tu venga alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Speranza (io, sperare che, bello domani): Spero che ___ bello domani.",
+        "en": "Hope (I, sperare che, nice tomorrow): I hope ___ nice tomorrow."
+      },
+      "parole": [
+        "faccia",
+        "bello",
+        "domani"
+      ],
+      "distrattori": [
+        "fa",
+        "farà",
+        "faceva"
+      ],
+      "correct": [
+        "faccia",
+        "bello",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sperare che + congiuntivo: faccia (fare irregolare). 'Spero che faccia bello domani.'",
+        "en": "Perfect! Sperare che + subjunctive: faccia (irregular fare). 'Spero che faccia bello domani.'"
+      },
+      "feedbackErr": {
+        "it": "Fare → congiuntivo irregolare: faccia. 'Spero che faccia bello domani.'",
+        "en": "Fare → irregular subjunctive: faccia. 'Spero che faccia bello domani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Strano (non avere risposto): È strano che Mario non ___ risposto.",
+        "en": "Strange (not have answered): It's strange that Mario hasn't ___."
+      },
+      "parole": [
+        "abbia",
+        "risposto"
+      ],
+      "distrattori": [
+        "ha",
+        "aveva",
+        "avrà"
+      ],
+      "correct": [
+        "abbia",
+        "risposto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! È strano che + congiuntivo passato: abbia + participio. 'Non abbia risposto.'",
+        "en": "Perfect! È strano che + past subjunctive: abbia + participle. 'Non abbia risposto.'"
+      },
+      "feedbackErr": {
+        "it": "Congiuntivo passato: abbia (cong. avere) + risposto. 'È strano che non abbia risposto.'",
+        "en": "Past subjunctive: abbia (subj. avere) + risposto. 'È strano che non abbia risposto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Dubbio (io, dubitare che, Mario, dire la verità): Dubito che Mario ___ la verità.",
+        "en": "Doubt (I, dubitare che, Mario, dire la verità): I doubt Mario ___ the truth."
+      },
+      "parole": [
+        "dica",
+        "la",
+        "verità"
+      ],
+      "distrattori": [
+        "dice",
+        "dirà",
+        "diceva"
+      ],
+      "correct": [
+        "dica",
+        "la",
+        "verità"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Dubitare che + congiuntivo: dica (dire irregolare). 'Dubito che Mario dica la verità.'",
+        "en": "Perfect! Dubitare che + subjunctive: dica (irregular dire). 'Dubito che Mario dica la verità.'"
+      },
+      "feedbackErr": {
+        "it": "Dire → congiuntivo irregolare: dica. 'Dubito che Mario dica la verità.'",
+        "en": "Dire → irregular subjunctive: dica. 'Dubito che Mario dica la verità.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Congiuntivo di essere (noi, sperare): Speriamo che ___ tutti d'accordo.",
+        "en": "Subjunctive of essere (noi, sperare): We hope ___ all in agreement."
+      },
+      "parole": [
+        "siano",
+        "tutti",
+        "d'accordo"
+      ],
+      "distrattori": [
+        "sono",
+        "erano",
+        "saranno"
+      ],
+      "correct": [
+        "siano",
+        "tutti",
+        "d'accordo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + essere → siano. 'Speriamo che siano tutti d'accordo.'",
+        "en": "Perfect! Loro + essere → siano. 'Speriamo che siano tutti d'accordo.'"
+      },
+      "feedbackErr": {
+        "it": "Essere (loro) → congiuntivo: siano. 'Speriamo che siano tutti d'accordo.'",
+        "en": "Essere (loro) → subjunctive: siano. 'Speriamo che siano tutti d'accordo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Benché (even though, io, essere stanco): ___ sia stanco, continuo a studiare.",
+        "en": "Benché (even though, I, essere stanco): ___ I'm tired, I keep studying."
+      },
+      "parole": [
+        "Benché",
+        "sia",
+        "stanco"
+      ],
+      "distrattori": [
+        "Anche se",
+        "sono",
+        "ero"
+      ],
+      "correct": [
+        "Benché",
+        "sia",
+        "stanco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Benché + congiuntivo: sia. 'Benché sia stanco, continuo a studiare.'",
+        "en": "Perfect! Benché + subjunctive: sia. 'Benché sia stanco, continuo a studiare.'"
+      },
+      "feedbackErr": {
+        "it": "Benché → congiuntivo: sia. 'Benché sia stanco, continuo a studiare.'",
+        "en": "Benché → subjunctive: sia. 'Benché sia stanco, continuo a studiare.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Andare (sperare che vada bene): Spero che tutto ___ bene.",
+        "en": "Andare (sperare che vada bene): I hope everything ___ well."
+      },
+      "parole": [
+        "vada",
+        "bene"
+      ],
+      "distrattori": [
+        "va",
+        "andrà",
+        "andasse"
+      ],
+      "correct": [
+        "vada",
+        "bene"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Andare → congiuntivo irregolare: vada. 'Spero che tutto vada bene.'",
+        "en": "Perfect! Andare → irregular subjunctive: vada. 'Spero che tutto vada bene.'"
+      },
+      "feedbackErr": {
+        "it": "Andare → congiuntivo irregolare: vada. 'Spero che tutto vada bene.'",
+        "en": "Andare → irregular subjunctive: vada. 'Spero che tutto vada bene.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "È importante (tu, parlare con Mario): È importante che tu ___ con Mario.",
+        "en": "It's important (you, parlare con Mario): It's important that you ___ with Mario."
+      },
+      "parole": [
+        "parli",
+        "con",
+        "Mario"
+      ],
+      "distrattori": [
+        "parla",
+        "parlerai",
+        "parlavi"
+      ],
+      "correct": [
+        "parli",
+        "con",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! È importante che + congiuntivo: parli. 'È importante che tu parli con Mario.'",
+        "en": "Perfect! È importante che + subjunctive: parli. 'È importante che tu parli con Mario.'"
+      },
+      "feedbackErr": {
+        "it": "'È importante che' → congiuntivo: parli. 'È importante che tu parli con Mario.'",
+        "en": "'È importante che' → subjunctive: parli. 'È importante che tu parli con Mario.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Emozione (io, essere felice che tu, venire): Sono felice che tu ___ qui.",
+        "en": "Emotion (I, essere felice che tu, venire): I'm happy that you ___ here."
+      },
+      "parole": [
+        "sia",
+        "qui"
+      ],
+      "distrattori": [
+        "sei",
+        "eri",
+        "sarai"
+      ],
+      "correct": [
+        "sia",
+        "qui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Essere + emozione + che → congiuntivo: sia. 'Sono felice che tu sia qui.'",
+        "en": "Perfect! Essere + emotion + che → subjunctive: sia. 'Sono felice che tu sia qui.'"
+      },
+      "feedbackErr": {
+        "it": "Emozione + che → congiuntivo: sia. 'Sono felice che tu sia qui.'",
+        "en": "Emotion + che → subjunctive: sia. 'Sono felice che tu sia qui.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Temo che (Mario, non venire): Temo che Mario non ___ alla festa.",
+        "en": "Temo che (Mario, non venire): I fear Mario ___ not come to the party."
+      },
+      "parole": [
+        "venga",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "viene",
+        "verrà",
+        "veniva"
+      ],
+      "correct": [
+        "venga",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Temo che + congiuntivo: venga (venire irregolare). 'Temo che Mario non venga.'",
+        "en": "Perfect! Temo che + subjunctive: venga (irregular venire). 'Temo che Mario non venga.'"
+      },
+      "feedbackErr": {
+        "it": "Temo che + congiuntivo. Venire → venga. 'Temo che Mario non venga alla festa.'",
+        "en": "Temo che + subjunctive. Venire → venga. 'Temo che Mario non venga alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Avere (bisogno che voi, avere pazienza): Ho bisogno che voi ___ pazienza.",
+        "en": "Avere (bisogno che voi, avere pazienza): I need you ___ patience."
+      },
+      "parole": [
+        "abbiate",
+        "pazienza"
+      ],
+      "distrattori": [
+        "avete",
+        "avevate",
+        "avrete"
+      ],
+      "correct": [
+        "abbiate",
+        "pazienza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + avere → abbiate. 'Ho bisogno che voi abbiate pazienza.'",
+        "en": "Perfect! Voi + avere → abbiate. 'Ho bisogno che voi abbiate pazienza.'"
+      },
+      "feedbackErr": {
+        "it": "Avere (voi) → congiuntivo: abbiate. 'Ho bisogno che voi abbiate pazienza.'",
+        "en": "Avere (voi) → subjunctive: abbiate. 'Ho bisogno che voi abbiate pazienza.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Prima che (tu, partire, io, dirti una cosa): Prima che tu ___, voglio dirti una cosa.",
+        "en": "Prima che (you, partire, I, tell you something): Before you ___, I want to tell you something."
+      },
+      "parole": [
+        "parta"
+      ],
+      "distrattori": [
+        "parti",
+        "partirai",
+        "partissi"
+      ],
+      "correct": [
+        "parta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Prima che + congiuntivo: parta. 'Prima che tu parta, voglio dirti una cosa.'",
+        "en": "Perfect! Prima che + subjunctive: parta. 'Prima che tu parta, voglio dirti una cosa.'"
+      },
+      "feedbackErr": {
+        "it": "Prima che → congiuntivo: parta. 'Prima che tu parta, voglio dirti una cosa.'",
+        "en": "Prima che → subjunctive: parta. 'Prima che tu parta, voglio dirti una cosa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sembra che (Mario, essere partito): Sembra che Mario ___ già partito.",
+        "en": "Sembra che (Mario, essere partito): It seems Mario ___ already left."
+      },
+      "parole": [
+        "sia",
+        "già",
+        "partito"
+      ],
+      "distrattori": [
+        "è",
+        "era",
+        "sarà"
+      ],
+      "correct": [
+        "sia",
+        "già",
+        "partito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sembra che + congiuntivo passato: sia partito. 'Sembra che Mario sia già partito.'",
+        "en": "Perfect! Sembra che + past subjunctive: sia partito. 'Sembra che Mario sia già partito.'"
+      },
+      "feedbackErr": {
+        "it": "Sembra che + congiuntivo passato: sia (cong. essere) + partito. 'Sembra che sia già partito.'",
+        "en": "Sembra che + past subjunctive: sia (subj. essere) + partito. 'Sembra che sia già partito.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Credere che (loro, essere stanchi): Credo che i ragazzi ___ stanchi.",
+        "en": "Credere che (they, essere stanchi): I think the guys ___ tired."
+      },
+      "parole": [
+        "siano",
+        "stanchi"
+      ],
+      "distrattori": [
+        "sono",
+        "erano",
+        "saranno"
+      ],
+      "correct": [
+        "siano",
+        "stanchi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Credere che + congiuntivo: siano (essere, loro). 'Credo che i ragazzi siano stanchi.'",
+        "en": "Perfect! Credere che + subjunctive: siano (essere, loro). 'Credo che i ragazzi siano stanchi.'"
+      },
+      "feedbackErr": {
+        "it": "'Credere che' → congiuntivo. Essere (loro) → siano. 'Credo che i ragazzi siano stanchi.'",
+        "en": "'Credere che' → subjunctive. Essere (loro) → siano. 'Credo che i ragazzi siano stanchi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Volere che (noi, studiare): Il professore vuole che noi ___ di più.",
+        "en": "Volere che (noi, studiare): The teacher wants us ___ more."
+      },
+      "parole": [
+        "studiamo",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "studiamo",
+        "studiavamo",
+        "studieremo",
+        "studiamo"
+      ],
+      "correct": [
+        "studiamo",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + -are congiuntivo → -iamo (= forma indicativo per noi). 'Il professore vuole che noi studiamo di più.'",
+        "en": "Perfect! Noi + -are subjunctive → -iamo (= same as indicative for noi). 'Il professore vuole che noi studiamo di più.'"
+      },
+      "feedbackErr": {
+        "it": "Noi + congiuntivo -are: -iamo. 'Vuole che noi studiamo di più.'",
+        "en": "Noi + subjunctive -are: -iamo. 'Vuole che noi studiamo di più.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "È strano che (tu, non sapere): È strano che tu non ___ la risposta.",
+        "en": "It's strange that (you, non sapere): It's strange that you don't ___ the answer."
+      },
+      "parole": [
+        "sappia",
+        "la",
+        "risposta"
+      ],
+      "distrattori": [
+        "sai",
+        "sapevi",
+        "saprai"
+      ],
+      "correct": [
+        "sappia",
+        "la",
+        "risposta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sapere → congiuntivo irregolare: sappia. 'È strano che tu non sappia la risposta.'",
+        "en": "Perfect! Sapere → irregular subjunctive: sappia. 'È strano che tu non sappia la risposta.'"
+      },
+      "feedbackErr": {
+        "it": "Sapere → congiuntivo irregolare: sappia. 'È strano che tu non sappia la risposta.'",
+        "en": "Sapere → irregular subjunctive: sappia. 'È strano che tu non sappia la risposta.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Affinché (io, spiegare, tu, capire): Te lo spiego affinché tu ___.",
+        "en": "Affinché (I, explain, you, capire): I explain it to you so that you ___."
+      },
+      "parole": [
+        "capisca"
+      ],
+      "distrattori": [
+        "capisci",
+        "capirai",
+        "capivi"
+      ],
+      "correct": [
+        "capisca"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Affinché + congiuntivo: capisca (capire -isc-). 'Te lo spiego affinché tu capisca.'",
+        "en": "Perfect! Affinché + subjunctive: capisca (capire -isc-). 'Te lo spiego affinché tu capisca.'"
+      },
+      "feedbackErr": {
+        "it": "Affinché + congiuntivo. Capire (-isc-): capisca. 'Te lo spiego affinché tu capisca.'",
+        "en": "Affinché + subjunctive. Capire (-isc-): capisca. 'Te lo spiego affinché tu capisca.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sebbene (even though, voi, essere stanchi): ___ stanchi, continuate a lavorare bene.",
+        "en": "Sebbene (even though, you pl, essere stanchi): ___ tired, you keep working well."
+      },
+      "parole": [
+        "Sebbene",
+        "siate",
+        "stanchi"
+      ],
+      "distrattori": [
+        "Anche se",
+        "siete",
+        "eravate"
+      ],
+      "correct": [
+        "Sebbene",
+        "siate",
+        "stanchi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sebbene + congiuntivo: siate (essere, voi). 'Sebbene siate stanchi, continuate bene.'",
+        "en": "Perfect! Sebbene + subjunctive: siate (essere, voi). 'Sebbene siate stanchi, continuate bene.'"
+      },
+      "feedbackErr": {
+        "it": "Sebbene + congiuntivo. Essere (voi) → siate. 'Sebbene siate stanchi, continuate a lavorare bene.'",
+        "en": "Sebbene + subjunctive. Essere (voi) → siate. 'Sebbene siate stanchi, continuate a lavorare bene.'"
+      }
+    }
+  ]
+}

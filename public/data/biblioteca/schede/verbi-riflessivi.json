@@ -1,0 +1,1561 @@
+{
+  "id": "verbi-riflessivi",
+  "categoria": "grammatica",
+  "emoji": "🪞",
+  "livello": "A2",
+  "titolo": {
+    "it": "Verbi Riflessivi",
+    "en": "Reflexive Verbs"
+  },
+  "mario": "Mi chiamo Mario. Mi alzo alle sei. Mi lavo, mi vesto, mi pettino. Tutti questi 'mi' — cosa sono? Sono i verbi riflessivi. L'azione torna su chi la fa.",
+  "marioEn": "Mi chiamo Mario. Mi alzo alle sei. Mi lavo, mi vesto, mi pettino. All these 'mi' — what are they? They are reflexive verbs. The action comes back to the person doing it.",
+  "perche": {
+    "it": "In inglese i verbi riflessivi quasi non esistono come categoria — dici 'I wash', 'I get up', 'I get dressed'. In italiano queste azioni si considerano 'riflesse' su sé stessi: mi lavo (I wash myself), mi alzo (I get myself up), mi vesto (I dress myself). Non è solo grammatica — è un modo diverso di vedere l'azione. I verbi riflessivi usano sempre essere come ausiliare al passato.",
+    "en": "In English reflexive verbs barely exist as a category — you say 'I wash', 'I get up', 'I get dressed'. In Italian these actions are considered 'reflected' on oneself: mi lavo (I wash myself), mi alzo (I get myself up), mi vesto (I dress myself). It's not just grammar — it's a different way of seeing the action. Reflexive verbs always use essere as auxiliary in the past."
+  },
+  "spiegazione": {
+    "it": "I verbi riflessivi si riconoscono dall'infinito in -si (alzarsi, lavarsi, chiamarsi). I pronomi riflessivi: mi (io), ti (tu), si (lui/lei), ci (noi), vi (voi), si (loro). Vanno PRIMA del verbo.",
+    "en": "Reflexive verbs are recognised by the infinitive in -si (alzarsi, lavarsi, chiamarsi). Reflexive pronouns: mi (io), ti (tu), si (lui/lei), ci (noi), vi (voi), si (loro). They go BEFORE the verb."
+  },
+  "tabella": {
+    "headers": [
+      "Persona",
+      "Pronome",
+      "alzarsi",
+      "chiamarsi",
+      "lavarsi"
+    ],
+    "rows": [
+      [
+        "io",
+        "mi",
+        "mi alzo",
+        "mi chiamo",
+        "mi lavo"
+      ],
+      [
+        "tu",
+        "ti",
+        "ti alzi",
+        "ti chiami",
+        "ti lavi"
+      ],
+      [
+        "lui/lei",
+        "si",
+        "si alza",
+        "si chiama",
+        "si lava"
+      ],
+      [
+        "noi",
+        "ci",
+        "ci alziamo",
+        "ci chiamiamo",
+        "ci laviamo"
+      ],
+      [
+        "voi",
+        "vi",
+        "vi alzate",
+        "vi chiamate",
+        "vi lavate"
+      ],
+      [
+        "loro",
+        "si",
+        "si alzano",
+        "si chiamano",
+        "si lavano"
+      ],
+      [
+        "Passato",
+        "essere!",
+        "mi sono alzato/a",
+        "mi sono chiamato/a",
+        "mi sono lavato/a"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Mi chiamo Mario. E tu, come ti chiami?",
+      "en": "My name is Mario. And you, what's your name?",
+      "audio": "Mi chiamo Mario. E tu, come ti chiami?"
+    },
+    {
+      "it": "Mi alzo alle sette ogni mattina.",
+      "en": "I get up at seven every morning.",
+      "audio": "Mi alzo alle sette ogni mattina."
+    },
+    {
+      "it": "Sofia si veste sempre con stile.",
+      "en": "Sofia always dresses with style.",
+      "audio": "Sofia si veste sempre con stile."
+    },
+    {
+      "it": "Ci siamo divertiti molto a Napoli.",
+      "en": "We had a lot of fun in Naples.",
+      "audio": "Ci siamo divertiti molto a Napoli."
+    },
+    {
+      "it": "A che ora ti sei alzato stamattina?",
+      "en": "What time did you get up this morning?",
+      "audio": "A che ora ti sei alzato stamattina?"
+    }
+  ],
+  "nota": {
+    "it": "🇳🇦 'Come ti chiami?' è la domanda più importante dell'italiano. Letteralmente: 'How do you call yourself?' L'azione del chiamare torna su di te — ecco il riflessivo.",
+    "en": "🇳🇦 'Come ti chiami?' is the most important question in Italian. Literally: 'How do you call yourself?' The action of calling comes back to you — that's the reflexive."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'alzarsi' per 'io'?",
+        "en": "What is the correct form of 'alzarsi' for 'io'?"
+      },
+      "opzioni": [
+        "alzo",
+        "mi alzo",
+        "si alzo",
+        "ti alzo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Io mi alzo — il pronome riflessivo 'mi' va prima del verbo.",
+        "en": "Correct! Io mi alzo — the reflexive pronoun 'mi' goes before the verb."
+      },
+      "feedbackErr": {
+        "it": "Io + alzarsi → mi alzo. Pronome riflessivo prima del verbo.",
+        "en": "Io + alzarsi → mi alzo. Reflexive pronoun before the verb."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si chiede 'what is your name?' in italiano?",
+        "en": "How do you ask 'what is your name?' in Italian?"
+      },
+      "opzioni": [
+        "Come hai nome?",
+        "Come ti chiami?",
+        "Come si chiami?",
+        "Come mi chiami?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Come ti chiami? — chiamarsi con pronome 'ti' per la seconda persona.",
+        "en": "Correct! Come ti chiami? — chiamarsi with pronoun 'ti' for second person."
+      },
+      "feedbackErr": {
+        "it": "Come ti chiami? = What is your name? Ti = pronome riflessivo per 'tu'.",
+        "en": "Come ti chiami? = What is your name? Ti = reflexive pronoun for 'tu'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è il pronome riflessivo per 'lui/lei'?",
+        "en": "What is the reflexive pronoun for 'lui/lei'?"
+      },
+      "opzioni": [
+        "mi",
+        "ti",
+        "si",
+        "ci"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Si — Mario si alza, Sofia si lava.",
+        "en": "Correct! Si — Mario si alza, Sofia si lava."
+      },
+      "feedbackErr": {
+        "it": "Lui/lei → si: Mario si alza, Sofia si chiama.",
+        "en": "Lui/lei → si: Mario si alza, Sofia si chiama."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'lavarsi' per 'noi'?",
+        "en": "How do you conjugate 'lavarsi' for 'noi'?"
+      },
+      "opzioni": [
+        "si laviamo",
+        "vi laviamo",
+        "ci laviamo",
+        "mi laviamo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Noi ci laviamo — ci è il pronome riflessivo per 'noi'.",
+        "en": "Correct! Noi ci laviamo — ci is the reflexive pronoun for 'noi'."
+      },
+      "feedbackErr": {
+        "it": "Noi + riflessivo → ci laviamo.",
+        "en": "Noi + reflexive → ci laviamo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale ausiliare usano i verbi riflessivi al passato prossimo?",
+        "en": "Which auxiliary do reflexive verbs use in the passato prossimo?"
+      },
+      "opzioni": [
+        "avere",
+        "essere",
+        "stare",
+        "fare"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Riflessivi → sempre essere: mi sono alzato, si è lavata.",
+        "en": "Correct! Reflexive → always essere: mi sono alzato, si è lavata."
+      },
+      "feedbackErr": {
+        "it": "Riflessivi → sempre essere al passato: mi sono alzato.",
+        "en": "Reflexive → always essere in the past: mi sono alzato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Mario got up late' in italiano?",
+        "en": "How do you say 'Mario got up late' in Italian?"
+      },
+      "opzioni": [
+        "Mario ha alzato tardi.",
+        "Mario si è alzato tardi.",
+        "Mario si ha alzato tardi.",
+        "Mario è alzato tardi."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi → essere. Mario (M) → si è alzato.",
+        "en": "Correct! Alzarsi → essere. Mario (M) → si è alzato."
+      },
+      "feedbackErr": {
+        "it": "Riflessivo → essere. Mario (M) → si è alzato.",
+        "en": "Reflexive → essere. Mario (M) → si è alzato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è corretta?",
+        "en": "Which sentence is correct?"
+      },
+      "opzioni": [
+        "Sofia si veste con stile.",
+        "Sofia veste con stile.",
+        "Sofia ti veste con stile.",
+        "Sofia ci veste con stile."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Vestirsi → si veste. Il pronome si concorda con la persona.",
+        "en": "Correct! Vestirsi → si veste. The pronoun agrees with the person."
+      },
+      "feedbackErr": {
+        "it": "Sofia (terza sing.) + vestirsi → si veste.",
+        "en": "Sofia (third sing.) + vestirsi → si veste."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'chiamarsi' per 'voi'?",
+        "en": "How do you conjugate 'chiamarsi' for 'voi'?"
+      },
+      "opzioni": [
+        "si chiamate",
+        "vi chiamate",
+        "ci chiamate",
+        "ti chiamate"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Voi vi chiamate — vi è il pronome riflessivo per 'voi'.",
+        "en": "Correct! Voi vi chiamate — vi is the reflexive pronoun for 'voi'."
+      },
+      "feedbackErr": {
+        "it": "Voi + riflessivo → vi chiamate.",
+        "en": "Voi + reflexive → vi chiamate."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'we had fun in Naples' in italiano?",
+        "en": "How do you say 'we had fun in Naples' in Italian?"
+      },
+      "opzioni": [
+        "Abbiamo divertiti a Napoli.",
+        "Ci siamo divertiti a Napoli.",
+        "Ci abbiamo divertito a Napoli.",
+        "Si siamo divertiti a Napoli."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Divertirsi → essere. Noi ci siamo divertiti.",
+        "en": "Correct! Divertirsi → essere. Noi ci siamo divertiti."
+      },
+      "feedbackErr": {
+        "it": "Divertirsi → essere: ci siamo divertiti.",
+        "en": "Divertirsi → essere: ci siamo divertiti."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è l'infinito del verbo riflessivo 'mi chiamo'?",
+        "en": "What is the infinitive of the reflexive verb 'mi chiamo'?"
+      },
+      "opzioni": [
+        "chiamare",
+        "chiamo",
+        "chiamarsi",
+        "si chiamare"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! L'infinito riflessivo termina in -si: chiamarsi, alzarsi, lavarsi.",
+        "en": "Correct! The reflexive infinitive ends in -si: chiamarsi, alzarsi, lavarsi."
+      },
+      "feedbackErr": {
+        "it": "Infinito riflessivo → -si: chiamarsi, alzarsi, vestirsi.",
+        "en": "Reflexive infinitive → -si: chiamarsi, alzarsi, vestirsi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the girls got dressed' in italiano?",
+        "en": "How do you say 'the girls got dressed' in Italian?"
+      },
+      "opzioni": [
+        "Le ragazze si hanno vestite.",
+        "Le ragazze si sono vestite.",
+        "Le ragazze si sono vestiti.",
+        "Le ragazze hanno vestite."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Vestirsi → essere. Ragazze (F pl.) → si sono vestite.",
+        "en": "Correct! Vestirsi → essere. Ragazze (F pl.) → si sono vestite."
+      },
+      "feedbackErr": {
+        "it": "Riflessivo → essere. Ragazze (F pl.) → si sono vestite.",
+        "en": "Reflexive → essere. Ragazze (F pl.) → si sono vestite."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale verbo NON è riflessivo?",
+        "en": "Which verb is NOT reflexive?"
+      },
+      "opzioni": [
+        "alzarsi",
+        "lavarsi",
+        "mangiare",
+        "vestirsi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Mangiare non è riflessivo — non termina in -si all'infinito.",
+        "en": "Correct! Mangiare is not reflexive — it doesn't end in -si in the infinitive."
+      },
+      "feedbackErr": {
+        "it": "Mangiare = transitivo normale. Alzarsi, lavarsi, vestirsi = riflessivi.",
+        "en": "Mangiare = normal transitive. Alzarsi, lavarsi, vestirsi = reflexive."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove va il pronome riflessivo con il verbo coniugato?",
+        "en": "Where does the reflexive pronoun go with a conjugated verb?"
+      },
+      "opzioni": [
+        "Dopo il verbo",
+        "Prima del verbo",
+        "Alla fine della frase",
+        "Non importa"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Prima del verbo: mi alzo, ti lavi, si chiama.",
+        "en": "Correct! Before the verb: mi alzo, ti lavi, si chiama."
+      },
+      "feedbackErr": {
+        "it": "Con verbo coniugato → pronome PRIMA: mi alzo, ti chiami.",
+        "en": "With conjugated verb → pronoun BEFORE: mi alzo, ti chiami."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I feel good' in italiano?",
+        "en": "How do you say 'I feel good' in Italian?"
+      },
+      "opzioni": [
+        "Sento bene.",
+        "Mi sento bene.",
+        "Si sento bene.",
+        "Ti sento bene."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sentirsi → mi sento bene.",
+        "en": "Correct! Sentirsi → mi sento bene."
+      },
+      "feedbackErr": {
+        "it": "Sentirsi → mi sento bene (io).",
+        "en": "Sentirsi → mi sento bene (io)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'they introduced themselves' in italiano?",
+        "en": "How do you say 'they introduced themselves' in Italian?"
+      },
+      "opzioni": [
+        "Hanno presentato.",
+        "Si hanno presentati.",
+        "Si sono presentati.",
+        "Si sono presentate."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Presentarsi → essere. Gruppo misto → si sono presentati.",
+        "en": "Correct! Presentarsi → essere. Mixed group → si sono presentati."
+      },
+      "feedbackErr": {
+        "it": "Presentarsi → essere: si sono presentati (gruppo misto o M).",
+        "en": "Presentarsi → essere: si sono presentati (mixed or M group)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove va il pronome riflessivo con l'infinito?",
+        "en": "Where does the reflexive pronoun go with the infinitive?"
+      },
+      "opzioni": [
+        "Prima dell'infinito",
+        "Attaccato alla fine dell'infinito",
+        "Dopo il verbo principale",
+        "Non cambia posizione"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Con l'infinito si attacca alla fine: alzarsi, lavarsi, volersi alzare.",
+        "en": "Correct! With the infinitive it attaches to the end: alzarsi, lavarsi, volersi alzare."
+      },
+      "feedbackErr": {
+        "it": "Infinito riflessivo → pronome attaccato: alz-arsi, lav-arsi.",
+        "en": "Reflexive infinitive → pronoun attached: alz-arsi, lav-arsi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si coniuga 'svegliarsi' per 'loro'?",
+        "en": "How do you conjugate 'svegliarsi' for 'loro'?"
+      },
+      "opzioni": [
+        "ci svegliano",
+        "vi svegliano",
+        "si svegliano",
+        "mi svegliano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Loro si svegliano — si è il pronome riflessivo per la terza plurale.",
+        "en": "Correct! Loro si svegliano — si is the reflexive pronoun for third plural."
+      },
+      "feedbackErr": {
+        "it": "Loro + riflessivo → si svegliano.",
+        "en": "Loro + reflexive → si svegliano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è corretta al passato?",
+        "en": "Which sentence is correct in the past?"
+      },
+      "opzioni": [
+        "Mi ho lavato.",
+        "Mi sono lavato.",
+        "Si ho lavato.",
+        "Ho mi lavato."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Lavarsi → essere: mi sono lavato.",
+        "en": "Correct! Lavarsi → essere: mi sono lavato."
+      },
+      "feedbackErr": {
+        "it": "Riflessivo → essere: mi sono lavato.",
+        "en": "Reflexive → essere: mi sono lavato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'what time did you get up?' in italiano?",
+        "en": "How do you say 'what time did you get up?' in Italian?"
+      },
+      "opzioni": [
+        "A che ora hai alzato?",
+        "A che ora ti sei alzato?",
+        "A che ora si sei alzato?",
+        "A che ora mi sei alzato?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi → essere. Tu → ti sei alzato/a.",
+        "en": "Correct! Alzarsi → essere. Tu → ti sei alzato/a."
+      },
+      "feedbackErr": {
+        "it": "Tu + alzarsi → ti sei alzato/a?",
+        "en": "Tu + alzarsi → ti sei alzato/a?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I want to wash myself' in italiano?",
+        "en": "How do you say 'I want to wash myself' in Italian?"
+      },
+      "opzioni": [
+        "Voglio lavarmi.",
+        "Voglio mi lavare.",
+        "Mi voglio lavare.",
+        "Voglio si lavare."
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Voglio lavarmi — con modale il pronome si attacca all'infinito.",
+        "en": "Correct! Voglio lavarmi — with modal the pronoun attaches to the infinitive."
+      },
+      "feedbackErr": {
+        "it": "Con modale: voglio lavarmi OPPURE mi voglio lavare — entrambi corretti!",
+        "en": "With modal: voglio lavarmi OR mi voglio lavare — both correct!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi riflessivi si riconoscono dall'infinito in -si.",
+        "en": "Reflexive verbs are recognised by the infinitive ending in -si."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi, lavarsi, chiamarsi, vestirsi — tutti in -si.",
+        "en": "Correct! Alzarsi, lavarsi, chiamarsi, vestirsi — all in -si."
+      },
+      "feedbackErr": {
+        "it": "Vero! Infinito riflessivo → -si: alzarsi, lavarsi.",
+        "en": "True! Reflexive infinitive → -si: alzarsi, lavarsi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome riflessivo per 'noi' è 'ci'.",
+        "en": "The reflexive pronoun for 'noi' is 'ci'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi ci alziamo, ci laviamo, ci chiamiamo.",
+        "en": "Correct! Noi ci alziamo, ci laviamo, ci chiamiamo."
+      },
+      "feedbackErr": {
+        "it": "Vero! Noi → ci: ci alziamo.",
+        "en": "True! Noi → ci: ci alziamo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi riflessivi usano 'avere' al passato prossimo.",
+        "en": "Reflexive verbs use 'avere' in the passato prossimo."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Riflessivi → sempre essere: mi sono alzato, si è lavata.",
+        "en": "False! Reflexive → always essere: mi sono alzato, si è lavata."
+      },
+      "feedbackErr": {
+        "it": "Falso! Riflessivi → sempre essere al passato.",
+        "en": "False! Reflexive → always essere in the past."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'mi chiamo Mario' per 'my name is Mario'.",
+        "en": "You say 'mi chiamo Mario' for 'my name is Mario'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi chiamo = I call myself = my name is. Letteralmente bellissimo.",
+        "en": "Correct! Mi chiamo = I call myself = my name is. Literally beautiful."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mi chiamo Mario = my name is Mario.",
+        "en": "True! Mi chiamo Mario = my name is Mario."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome riflessivo va sempre dopo il verbo coniugato.",
+        "en": "The reflexive pronoun always goes after the conjugated verb."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Con verbo coniugato va PRIMA: mi alzo, ti chiami, si lava.",
+        "en": "False! With conjugated verb it goes BEFORE: mi alzo, ti chiami, si lava."
+      },
+      "feedbackErr": {
+        "it": "Falso! Verbo coniugato → pronome PRIMA: mi alzo.",
+        "en": "False! Conjugated verb → pronoun BEFORE: mi alzo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'Sofia si è alzata' perché Sofia è femminile.",
+        "en": "You say 'Sofia si è alzata' because Sofia is feminine."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi → essere → partcipio concorda: Sofia (F) → alzata.",
+        "en": "Correct! Alzarsi → essere → participle agrees: Sofia (F) → alzata."
+      },
+      "feedbackErr": {
+        "it": "Vero! Riflessivo → essere → concordanza: Sofia (F) → alzata.",
+        "en": "True! Reflexive → essere → agreement: Sofia (F) → alzata."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Divertirsi' è un verbo riflessivo.",
+        "en": "'Divertirsi' is a reflexive verb."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Divertirsi → mi diverto, ci siamo divertiti.",
+        "en": "Correct! Divertirsi → mi diverto, ci siamo divertiti."
+      },
+      "feedbackErr": {
+        "it": "Vero! Divertirsi = to have fun. Ci siamo divertiti!",
+        "en": "True! Divertirsi = to have fun. Ci siamo divertiti!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con un modale il pronome riflessivo può attaccarsi all'infinito.",
+        "en": "With a modal the reflexive pronoun can attach to the infinitive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Voglio lavarmi = Mi voglio lavare — entrambi corretti.",
+        "en": "Correct! Voglio lavarmi = Mi voglio lavare — both correct."
+      },
+      "feedbackErr": {
+        "it": "Vero! Con modale: voglio lavarmi oppure mi voglio lavare.",
+        "en": "True! With modal: voglio lavarmi or mi voglio lavare."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome riflessivo per 'voi' è 'vi'.",
+        "en": "The reflexive pronoun for 'voi' is 'vi'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Voi vi alzate, vi lavate, vi chiamate.",
+        "en": "Correct! Voi vi alzate, vi lavate, vi chiamate."
+      },
+      "feedbackErr": {
+        "it": "Vero! Voi → vi: vi alzate.",
+        "en": "True! Voi → vi: vi alzate."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sentirsi' significa 'to feel' in italiano.",
+        "en": "'Sentirsi' means 'to feel' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi sento bene = I feel well. Come ti senti? = How do you feel?",
+        "en": "Correct! Mi sento bene = I feel well. Come ti senti? = How do you feel?"
+      },
+      "feedbackErr": {
+        "it": "Vero! Sentirsi = to feel: mi sento bene, si sente stanco.",
+        "en": "True! Sentirsi = to feel: mi sento bene, si sente stanco."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'ci siamo divertiti' per un gruppo misto che si è divertito.",
+        "en": "You say 'ci siamo divertiti' for a mixed group that had fun."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Divertirsi → essere. Gruppo misto → maschile plurale: divertiti.",
+        "en": "Correct! Divertirsi → essere. Mixed group → masculine plural: divertiti."
+      },
+      "feedbackErr": {
+        "it": "Vero! Misto → maschile: ci siamo divertiti.",
+        "en": "True! Mixed → masculine: ci siamo divertiti."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il verbo 'chiamarsi' in italiano corrisponde a 'to be called' in inglese.",
+        "en": "The verb 'chiamarsi' in Italian corresponds to 'to be called' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi chiamo Mario = I am called Mario = My name is Mario.",
+        "en": "Correct! Mi chiamo Mario = I am called Mario = My name is Mario."
+      },
+      "feedbackErr": {
+        "it": "Vero! Chiamarsi = to be called: mi chiamo, ti chiami.",
+        "en": "True! Chiamarsi = to be called: mi chiamo, ti chiami."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'lui si è lavato' non 'lui ha lavato'.",
+        "en": "You say 'lui si è lavato' not 'lui ha lavato'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lavarsi (riflessivo) → essere: si è lavato. Lavare (transitivo) → avere: ha lavato la macchina.",
+        "en": "Correct! Lavarsi (reflexive) → essere: si è lavato. Lavare (transitive) → avere: ha lavato la macchina."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lavarsi → si è lavato. Ma lavare la macchina → ha lavato.",
+        "en": "True! Lavarsi → si è lavato. But lavare la macchina → ha lavato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Tutti i verbi italiani hanno una forma riflessiva.",
+        "en": "All Italian verbs have a reflexive form."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Non tutti i verbi hanno una forma riflessiva con lo stesso significato.",
+        "en": "False! Not all verbs have a reflexive form with the same meaning."
+      },
+      "feedbackErr": {
+        "it": "Falso! Molti verbi hanno forma riflessiva, ma non tutti cambiano significato.",
+        "en": "False! Many verbs have a reflexive form, but not all change meaning."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'mi sono svegliata' per una donna che si è svegliata.",
+        "en": "You say 'mi sono svegliata' for a woman who woke up."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Svegliarsi → essere. Donna (F) → svegliata.",
+        "en": "Correct! Svegliarsi → essere. Woman (F) → svegliata."
+      },
+      "feedbackErr": {
+        "it": "Vero! Svegliarsi → essere → svegliata (F).",
+        "en": "True! Svegliarsi → essere → svegliata (F)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi riflessivi italiani non esistono in inglese.",
+        "en": "Italian reflexive verbs don't exist in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Esistono in inglese ma sono rari: 'I hurt myself', 'enjoy yourself'.",
+        "en": "False! They exist in English but are rare: 'I hurt myself', 'enjoy yourself'."
+      },
+      "feedbackErr": {
+        "it": "Falso! In inglese esistono ma sono molto meno comuni: I hurt myself.",
+        "en": "False! They exist in English but are much less common: I hurt myself."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Alzarsi' e 'alzare' hanno significati diversi.",
+        "en": "'Alzarsi' and 'alzare' have different meanings."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi = to get up (riflessivo). Alzare = to lift/raise something (transitivo).",
+        "en": "Correct! Alzarsi = to get up (reflexive). Alzare = to lift/raise something (transitive)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Alzarsi = get up. Alzare la voce = raise your voice.",
+        "en": "True! Alzarsi = get up. Alzare la voce = raise your voice."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con 'essere' il participio dei riflessivi concorda col soggetto.",
+        "en": "With 'essere' the participle of reflexives agrees with the subject."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi sono alzato (M), mi sono alzata (F), ci siamo alzati (M pl.).",
+        "en": "Correct! Mi sono alzato (M), mi sono alzata (F), ci siamo alzati (M pl.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Riflessivo → essere → concordanza sempre: alzato/a/i/e.",
+        "en": "True! Reflexive → essere → always agreement: alzato/a/i/e."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ Mario. (presentarsi, io)",
+        "en": "Build: My name is Mario. (presentarsi)"
+      },
+      "parole": [
+        "Mi",
+        "chiamo",
+        "Mario"
+      ],
+      "distrattori": [
+        "Si",
+        "Ti",
+        "Ci"
+      ],
+      "correct": [
+        "Mi",
+        "chiamo",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi chiamo Mario = My name is Mario.",
+        "en": "Perfect! Mi chiamo Mario = My name is Mario."
+      },
+      "feedbackErr": {
+        "it": "Io + chiamarsi → mi chiamo.",
+        "en": "Io + chiamarsi → mi chiamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ alle sette ogni mattina. (io, alzarsi)",
+        "en": "Build: I get up at seven every morning. (alzarsi)"
+      },
+      "parole": [
+        "Mi",
+        "alzo",
+        "alle",
+        "sette",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "Si",
+        "Ti",
+        "ho"
+      ],
+      "correct": [
+        "Mi",
+        "alzo",
+        "alle",
+        "sette",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + alzarsi → mi alzo.",
+        "en": "Perfect! Io + alzarsi → mi alzo."
+      },
+      "feedbackErr": {
+        "it": "Io + alzarsi → mi alzo.",
+        "en": "Io + alzarsi → mi alzo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia ___ sempre con stile. (vestirsi)",
+        "en": "Build: Sofia always dresses with style. (vestirsi)"
+      },
+      "parole": [
+        "Sofia",
+        "si",
+        "veste",
+        "sempre",
+        "con",
+        "stile"
+      ],
+      "distrattori": [
+        "mi",
+        "ti",
+        "ci"
+      ],
+      "correct": [
+        "Sofia",
+        "si",
+        "veste",
+        "sempre",
+        "con",
+        "stile"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sofia (terza sing.) + vestirsi → si veste.",
+        "en": "Perfect! Sofia (third sing.) + vestirsi → si veste."
+      },
+      "feedbackErr": {
+        "it": "Terza sing. + riflessivo → si veste.",
+        "en": "Third sing. + reflexive → si veste."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ molto a Napoli. (noi, divertirsi)",
+        "en": "Build: We had a lot of fun in Naples. (divertirsi)"
+      },
+      "parole": [
+        "Ci",
+        "siamo",
+        "divertiti",
+        "molto",
+        "a",
+        "Napoli"
+      ],
+      "distrattori": [
+        "Mi",
+        "abbiamo",
+        "divertito"
+      ],
+      "correct": [
+        "Ci",
+        "siamo",
+        "divertiti",
+        "molto",
+        "a",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Divertirsi → essere. Noi → ci siamo divertiti.",
+        "en": "Perfect! Divertirsi → essere. Noi → ci siamo divertiti."
+      },
+      "feedbackErr": {
+        "it": "Divertirsi → essere: ci siamo divertiti.",
+        "en": "Divertirsi → essere: ci siamo divertiti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ tardi stamattina. (Mario, alzarsi, passato)",
+        "en": "Build: Mario got up late this morning. (alzarsi, past)"
+      },
+      "parole": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "distrattori": [
+        "ha",
+        "alzata",
+        "mi"
+      ],
+      "correct": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Alzarsi → essere. Mario (M) → si è alzato.",
+        "en": "Perfect! Alzarsi → essere. Mario (M) → si è alzato."
+      },
+      "feedbackErr": {
+        "it": "Alzarsi → essere → si è alzato (M).",
+        "en": "Alzarsi → essere → si è alzato (M)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Come ___? (tu, sentirsi)",
+        "en": "Build: How do you feel? (sentirsi)"
+      },
+      "parole": [
+        "Come",
+        "ti",
+        "senti"
+      ],
+      "distrattori": [
+        "si",
+        "mi",
+        "ci"
+      ],
+      "correct": [
+        "Come",
+        "ti",
+        "senti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + sentirsi → ti senti. Come ti senti?",
+        "en": "Perfect! Tu + sentirsi → ti senti. Come ti senti?"
+      },
+      "feedbackErr": {
+        "it": "Tu + sentirsi → ti senti.",
+        "en": "Tu + sentirsi → ti senti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Le ragazze ___ presto. (svegliarsi, passato)",
+        "en": "Build: The girls woke up early. (svegliarsi, past)"
+      },
+      "parole": [
+        "Le",
+        "ragazze",
+        "si",
+        "sono",
+        "svegliate",
+        "presto"
+      ],
+      "distrattori": [
+        "hanno",
+        "svegliato",
+        "svegliate"
+      ],
+      "correct": [
+        "Le",
+        "ragazze",
+        "si",
+        "sono",
+        "svegliate",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Svegliarsi → essere. Ragazze (F pl.) → si sono svegliate.",
+        "en": "Perfect! Svegliarsi → essere. Ragazze (F pl.) → si sono svegliate."
+      },
+      "feedbackErr": {
+        "it": "Svegliarsi → essere → svegliate (F pl.).",
+        "en": "Svegliarsi → essere → svegliate (F pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voglio ___ prima di uscire. (lavarsi)",
+        "en": "Build: I want to wash before going out. (lavarsi)"
+      },
+      "parole": [
+        "Voglio",
+        "lavarmi",
+        "prima",
+        "di",
+        "uscire"
+      ],
+      "distrattori": [
+        "lavar",
+        "mi lavare",
+        "lavarsi"
+      ],
+      "correct": [
+        "Voglio",
+        "lavarmi",
+        "prima",
+        "di",
+        "uscire"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con modale → pronome attaccato all'infinito: lavarmi.",
+        "en": "Perfect! With modal → pronoun attached to infinitive: lavarmi."
+      },
+      "feedbackErr": {
+        "it": "Con modale → pronome attaccato: voglio lavarmi.",
+        "en": "With modal → pronoun attached: voglio lavarmi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ bene dopo la vacanza. (io F, sentirsi)",
+        "en": "Build: I feel well after the holiday. (sentirsi, F)"
+      },
+      "parole": [
+        "Mi",
+        "sento",
+        "bene",
+        "dopo",
+        "la",
+        "vacanza"
+      ],
+      "distrattori": [
+        "Si",
+        "Ti",
+        "ho"
+      ],
+      "correct": [
+        "Mi",
+        "sento",
+        "bene",
+        "dopo",
+        "la",
+        "vacanza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + sentirsi → mi sento bene.",
+        "en": "Perfect! Io + sentirsi → mi sento bene."
+      },
+      "feedbackErr": {
+        "it": "Io + sentirsi → mi sento bene.",
+        "en": "Io + sentirsi → mi sento bene."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Come ___? (voi, chiamarsi)",
+        "en": "Build: What are your names? (chiamarsi, voi)"
+      },
+      "parole": [
+        "Come",
+        "vi",
+        "chiamate"
+      ],
+      "distrattori": [
+        "si",
+        "ti",
+        "ci"
+      ],
+      "correct": [
+        "Come",
+        "vi",
+        "chiamate"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + chiamarsi → vi chiamate.",
+        "en": "Perfect! Voi + chiamarsi → vi chiamate."
+      },
+      "feedbackErr": {
+        "it": "Voi + chiamarsi → vi chiamate.",
+        "en": "Voi + chiamarsi → vi chiamate."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario e Sofia ___ alle otto. (alzarsi, passato)",
+        "en": "Build: Mario and Sofia got up at eight. (alzarsi, past)"
+      },
+      "parole": [
+        "Mario",
+        "e",
+        "Sofia",
+        "si",
+        "sono",
+        "alzati",
+        "alle",
+        "otto"
+      ],
+      "distrattori": [
+        "hanno",
+        "alzate",
+        "alzato"
+      ],
+      "correct": [
+        "Mario",
+        "e",
+        "Sofia",
+        "si",
+        "sono",
+        "alzati",
+        "alle",
+        "otto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Gruppo misto → si sono alzati (M pl.).",
+        "en": "Perfect! Mixed group → si sono alzati (M pl.)."
+      },
+      "feedbackErr": {
+        "it": "Misto → maschile: si sono alzati.",
+        "en": "Mixed → masculine: si sono alzati."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ con il cane ogni mattina. (loro, divertirsi)",
+        "en": "Build: They have fun with the dog every morning. (divertirsi)"
+      },
+      "parole": [
+        "Si",
+        "divertono",
+        "con",
+        "il",
+        "cane",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "Ci",
+        "Mi",
+        "divertono"
+      ],
+      "correct": [
+        "Si",
+        "divertono",
+        "con",
+        "il",
+        "cane",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + divertirsi → si divertono.",
+        "en": "Perfect! Loro + divertirsi → si divertono."
+      },
+      "feedbackErr": {
+        "it": "Loro + divertirsi → si divertono.",
+        "en": "Loro + divertirsi → si divertono."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'mi sono svegliata' per una donna che si è svegliata.",
+        "en": "You say 'mi sono svegliata' for a woman who woke up."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Svegliarsi → essere. Donna (F) → svegliata.",
+        "en": "Correct! Svegliarsi → essere. Woman (F) → svegliata."
+      },
+      "feedbackErr": {
+        "it": "Vero! Svegliarsi → essere → svegliata (F).",
+        "en": "True! Svegliarsi → essere → svegliata (F)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Alzarsi' e 'alzare' hanno significati diversi.",
+        "en": "'Alzarsi' and 'alzare' have different meanings."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Alzarsi = to get up. Alzare = to lift/raise something.",
+        "en": "Correct! Alzarsi = to get up. Alzare = to lift/raise something."
+      },
+      "feedbackErr": {
+        "it": "Vero! Alzarsi = get up. Alzare la voce = raise your voice.",
+        "en": "True! Alzarsi = get up. Alzare la voce = raise your voice."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ Mario. (presentarsi, io)",
+        "en": "Build: My name is Mario."
+      },
+      "parole": [
+        "Mi",
+        "chiamo",
+        "Mario"
+      ],
+      "distrattori": [
+        "Si",
+        "Ti",
+        "Ci"
+      ],
+      "correct": [
+        "Mi",
+        "chiamo",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi chiamo Mario = My name is Mario.",
+        "en": "Perfect! Mi chiamo Mario = My name is Mario."
+      },
+      "feedbackErr": {
+        "it": "Io + chiamarsi → mi chiamo.",
+        "en": "Io + chiamarsi → mi chiamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Come ___? (tu, chiamarsi)",
+        "en": "Build: What is your name? (chiamarsi)"
+      },
+      "parole": [
+        "Come",
+        "ti",
+        "chiami"
+      ],
+      "distrattori": [
+        "si",
+        "mi",
+        "ci"
+      ],
+      "correct": [
+        "Come",
+        "ti",
+        "chiami"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tu + chiamarsi → ti chiami.",
+        "en": "Perfect! Tu + chiamarsi → ti chiami."
+      },
+      "feedbackErr": {
+        "it": "Tu + chiamarsi → ti chiami.",
+        "en": "Tu + chiamarsi → ti chiami."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Come ___? (voi, chiamarsi)",
+        "en": "Build: What are your names?"
+      },
+      "parole": [
+        "Come",
+        "vi",
+        "chiamate"
+      ],
+      "distrattori": [
+        "si",
+        "ti",
+        "ci"
+      ],
+      "correct": [
+        "Come",
+        "vi",
+        "chiamate"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + chiamarsi → vi chiamate.",
+        "en": "Perfect! Voi + chiamarsi → vi chiamate."
+      },
+      "feedbackErr": {
+        "it": "Voi + chiamarsi → vi chiamate.",
+        "en": "Voi + chiamarsi → vi chiamate."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ tardi stamattina. (alzarsi, passato)",
+        "en": "Build: Mario got up late this morning."
+      },
+      "parole": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "distrattori": [
+        "ha",
+        "alzata",
+        "mi"
+      ],
+      "correct": [
+        "Mario",
+        "si",
+        "è",
+        "alzato",
+        "tardi",
+        "stamattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Alzarsi → essere. Mario (M) → si è alzato.",
+        "en": "Perfect! Alzarsi → essere. Mario (M) → si è alzato."
+      },
+      "feedbackErr": {
+        "it": "Alzarsi → essere → si è alzato (M).",
+        "en": "Alzarsi → essere → si è alzato (M)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ bene dopo la vacanza. (io, sentirsi)",
+        "en": "Build: I feel well after the holiday."
+      },
+      "parole": [
+        "Mi",
+        "sento",
+        "bene",
+        "dopo",
+        "la",
+        "vacanza"
+      ],
+      "distrattori": [
+        "Si",
+        "Ti",
+        "ho"
+      ],
+      "correct": [
+        "Mi",
+        "sento",
+        "bene",
+        "dopo",
+        "la",
+        "vacanza"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Io + sentirsi → mi sento bene.",
+        "en": "Perfect! Io + sentirsi → mi sento bene."
+      },
+      "feedbackErr": {
+        "it": "Io + sentirsi → mi sento.",
+        "en": "Io + sentirsi → mi sento."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Le ragazze ___ presto. (svegliarsi, passato)",
+        "en": "Build: The girls woke up early."
+      },
+      "parole": [
+        "Le",
+        "ragazze",
+        "si",
+        "sono",
+        "svegliate",
+        "presto"
+      ],
+      "distrattori": [
+        "hanno",
+        "svegliato",
+        "mi"
+      ],
+      "correct": [
+        "Le",
+        "ragazze",
+        "si",
+        "sono",
+        "svegliate",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Svegliarsi → essere. Ragazze (F pl.) → si sono svegliate.",
+        "en": "Perfect! Svegliarsi → essere. Ragazze (F pl.) → si sono svegliate."
+      },
+      "feedbackErr": {
+        "it": "Svegliarsi → essere → svegliate (F pl.).",
+        "en": "Svegliarsi → essere → svegliate (F pl.)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Voglio ___ prima di uscire. (lavarsi)",
+        "en": "Build: I want to wash before going out."
+      },
+      "parole": [
+        "Voglio",
+        "lavarmi",
+        "prima",
+        "di",
+        "uscire"
+      ],
+      "distrattori": [
+        "lavar",
+        "mi",
+        "lavarsi"
+      ],
+      "correct": [
+        "Voglio",
+        "lavarmi",
+        "prima",
+        "di",
+        "uscire"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con modale → pronome attaccato: lavarmi.",
+        "en": "Perfect! With modal → pronoun attached: lavarmi."
+      },
+      "feedbackErr": {
+        "it": "Con modale → voglio lavarmi.",
+        "en": "With modal → voglio lavarmi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ con il cane ogni mattina. (loro, divertirsi)",
+        "en": "Build: They have fun with the dog every morning."
+      },
+      "parole": [
+        "Si",
+        "divertono",
+        "con",
+        "il",
+        "cane",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "Ci",
+        "Mi",
+        "divertono"
+      ],
+      "correct": [
+        "Si",
+        "divertono",
+        "con",
+        "il",
+        "cane",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + divertirsi → si divertono.",
+        "en": "Perfect! Loro + divertirsi → si divertono."
+      },
+      "feedbackErr": {
+        "it": "Loro + divertirsi → si divertono.",
+        "en": "Loro + divertirsi → si divertono."
+      }
+    }
+  ]
+}

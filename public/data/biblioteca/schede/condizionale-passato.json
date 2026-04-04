@@ -1,0 +1,1515 @@
+{
+  "id": "condizionale-passato",
+  "categoria": "grammatica",
+  "emoji": "⏪💭",
+  "livello": "B1",
+  "titolo": {
+    "it": "Condizionale Passato",
+    "en": "Past Conditional"
+  },
+  "mario": "Il condizionale passato è il tempo del rimpianto. 'Avrei dovuto aprire quel bar a Napoli.' 'Avrei potuto dirtelo prima.' 'Avrei voluto venire.' Tre frasi, tre rimpianti — e tutte e tre si formano allo stesso modo.",
+  "marioEn": "The past conditional is the tense of regret. 'Avrei dovuto aprire quel bar a Napoli.' 'Avrei potuto dirtelo prima.' 'Avrei voluto venire.' Three sentences, three regrets — and all three are formed the same way.",
+  "perche": {
+    "it": "In inglese 'would have + participio' fa tutto: I would have eaten, I should have called, I could have done it. In italiano funziona uguale: avrei mangiato, avrei dovuto chiamare, avrei potuto farlo. Si usa in tre contesti principali: 1) Rimpianto — avrei dovuto, avrei potuto, avrei voluto. 2) Discorso indiretto — ha detto che sarebbe venuto. 3) Irreale implicito — al posto tuo non avrei detto niente. Attenzione: esiste un quarto uso corretto con 'se' — ma solo quando 'se' significa 'whether', non 'if'. 'Non so se sarei venuto' è corretto. 'Se sarei venuto' (ipotetico) è sempre sbagliato.",
+    "en": "In English 'would have + participle' does everything: I would have eaten, I should have called, I could have done it. In Italian it works the same: avrei mangiato, avrei dovuto chiamare, avrei potuto farlo. Used in three main contexts: 1) Regret — avrei dovuto, avrei potuto, avrei voluto. 2) Indirect speech — ha detto che sarebbe venuto. 3) Implicit unreal — al posto tuo non avrei detto niente. Note: there is a fourth correct use with 'se' — but only when 'se' means 'whether', not 'if'. 'Non so se sarei venuto' is correct. 'Se sarei venuto' (hypothetical) is always wrong."
+  },
+  "spiegazione": {
+    "it": "Struttura: condizionale di avere/essere + participio passato. Avere → avrei/avresti/avrebbe/avremmo/avreste/avrebbero. Essere → sarei/saresti/sarebbe/saremmo/sareste/sarebbero. Stessa scelta del passato prossimo: verbi di movimento/stato/riflessivi → essere (con accordo). I tre rimpianti fondamentali: avrei DOVUTO (should have), avrei POTUTO (could have), avrei VOLUTO (would have liked to).",
+    "en": "Structure: conditional of avere/essere + past participle. Avere → avrei/avresti/avrebbe/avremmo/avreste/avrebbero. Essere → sarei/saresti/sarebbe/saremmo/sareste/sarebbero. Same choice as passato prossimo: movement/state/reflexive verbs → essere (with agreement). The three fundamental regrets: avrei DOVUTO (should have), avrei POTUTO (could have), avrei VOLUTO (would have liked to)."
+  },
+  "tabella": [
+    {
+      "soggetto": "io",
+      "avere": "avrei mangiato",
+      "essere": "sarei andato/a"
+    },
+    {
+      "soggetto": "tu",
+      "avere": "avresti mangiato",
+      "essere": "saresti andato/a"
+    },
+    {
+      "soggetto": "lui/lei",
+      "avere": "avrebbe mangiato",
+      "essere": "sarebbe andato/a"
+    },
+    {
+      "soggetto": "noi",
+      "avere": "avremmo mangiato",
+      "essere": "saremmo andati/e"
+    },
+    {
+      "soggetto": "voi",
+      "avere": "avreste mangiato",
+      "essere": "sareste andati/e"
+    },
+    {
+      "soggetto": "loro",
+      "avere": "avrebbero mangiato",
+      "essere": "sarebbero andati/e"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Avrei dovuto chiamarti — mi dispiace.",
+      "en": "I should have called you — I'm sorry.",
+      "audio": "Avrei dovuto chiamarti — mi dispiace."
+    },
+    {
+      "it": "Saresti dovuto venire — era fantastico.",
+      "en": "You should have come — it was fantastic.",
+      "audio": "Saresti dovuto venire — era fantastico."
+    },
+    {
+      "it": "Mario ha detto che sarebbe arrivato alle otto.",
+      "en": "Mario said he would arrive at eight.",
+      "audio": "Mario ha detto che sarebbe arrivato alle otto."
+    },
+    {
+      "it": "Al posto tuo, non avrei detto niente.",
+      "en": "In your place, I wouldn't have said anything.",
+      "audio": "Al posto tuo, non avrei detto niente."
+    },
+    {
+      "it": "Non so se sarei venuto — era lontano.",
+      "en": "I don't know whether I would have come — it was far.",
+      "audio": "Non so se sarei venuto — era lontano."
+    }
+  ],
+  "nota": {
+    "it": "💡 I tre rimpianti da memorizzare: AVREI DOVUTO (I should have) · AVREI POTUTO (I could have) · AVREI VOLUTO (I would have liked to). Sono le forme più usate nella vita reale. E ricorda: 'Non so se sarei venuto' è corretto — qui 'se' significa 'whether', non 'if'. Il test: sostituisci 'se' con 'whether' in inglese — funziona? → condizionale corretto.",
+    "en": "💡 Three regrets to memorise: AVREI DOVUTO (I should have) · AVREI POTUTO (I could have) · AVREI VOLUTO (I would have liked to). These are the most used forms in real life. And remember: 'Non so se sarei venuto' is correct — here 'se' means 'whether', not 'if'. The test: replace 'se' with 'whether' in English — does it work? → conditional correct."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il condizionale passato di 'mangiare' (io)?",
+        "en": "How is the past conditional of 'mangiare' formed (io)?"
+      },
+      "opzioni": [
+        "mangerei",
+        "avevo mangiato",
+        "avrei mangiato",
+        "sarei mangiato"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Mangiare (transitivo) → avere. Condizionale passato: avrei + mangiato.",
+        "en": "Correct! Mangiare (transitive) → avere. Past conditional: avrei + mangiato."
+      },
+      "feedbackErr": {
+        "it": "Cond. passato = condizionale di avere/essere + participio. Mangiare → avere → avrei mangiato.",
+        "en": "Past cond. = conditional of avere/essere + participle. Mangiare → avere → avrei mangiato."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si forma il condizionale passato di 'andare' (io)?",
+        "en": "How is the past conditional of 'andare' formed (io)?"
+      },
+      "opzioni": [
+        "avrei andato",
+        "andrei",
+        "ero andato",
+        "sarei andato"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Andare → essere. Condizionale passato: sarei andato/a.",
+        "en": "Correct! Andare → essere. Past conditional: sarei andato/a."
+      },
+      "feedbackErr": {
+        "it": "Andare → essere. Cond. passato: sarei andato. Stessa regola del passato prossimo.",
+        "en": "Andare → essere. Past cond.: sarei andato. Same rule as passato prossimo."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Avrei dovuto' corrisponde a quale espressione inglese?",
+        "en": "'Avrei dovuto' corresponds to which English expression?"
+      },
+      "opzioni": [
+        "I should",
+        "I had to",
+        "I should have",
+        "I used to have to"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Avrei dovuto' = I should have. Il rimpianto per eccellenza. 'Avrei dovuto studiare di più.'",
+        "en": "Correct! 'Avrei dovuto' = I should have. The ultimate regret. 'Avrei dovuto studiare di più.'"
+      },
+      "feedbackErr": {
+        "it": "'Avrei dovuto' = I should have + infinito. 'Avrei dovuto studiare di più.'",
+        "en": "'Avrei dovuto' = I should have + infinitive. 'Avrei dovuto studiare di più.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Avrei potuto' corrisponde a quale espressione inglese?",
+        "en": "'Avrei potuto' corresponds to which English expression?"
+      },
+      "opzioni": [
+        "I can",
+        "I could",
+        "I could have",
+        "I used to be able to"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Avrei potuto' = I could have. 'Avrei potuto dirtelo prima.'",
+        "en": "Correct! 'Avrei potuto' = I could have. 'Avrei potuto dirtelo prima.'"
+      },
+      "feedbackErr": {
+        "it": "'Avrei potuto' = I could have. Condizionale passato di potere.",
+        "en": "'Avrei potuto' = I could have. Past conditional of potere."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Avrei voluto' corrisponde a quale espressione inglese?",
+        "en": "'Avrei voluto' corresponds to which English expression?"
+      },
+      "opzioni": [
+        "I want",
+        "I wanted",
+        "I would have liked",
+        "I used to want"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Avrei voluto' = I would have liked. 'Avrei voluto venire ma non potevo.'",
+        "en": "Correct! 'Avrei voluto' = I would have liked. 'Avrei voluto venire ma non potevo.'"
+      },
+      "feedbackErr": {
+        "it": "'Avrei voluto' = I would have liked. Condizionale passato di volere.",
+        "en": "'Avrei voluto' = I would have liked. Past conditional of volere."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Discorso indiretto: Mario ha detto che ___ (venire) alle otto.",
+        "en": "Indirect speech: Mario said he ___ (venire) at eight."
+      },
+      "opzioni": [
+        "verrebbe",
+        "verrà",
+        "sarebbe venuto",
+        "veniva"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Discorso indiretto al passato: il futuro diretto ('verrò') → condizionale passato ('sarebbe venuto').",
+        "en": "Correct! Past indirect speech: the direct future ('verrò') → past conditional ('sarebbe venuto')."
+      },
+      "feedbackErr": {
+        "it": "Discorso indiretto al passato: 'Verrò' (diretto) → 'sarebbe venuto' (indiretto). Non 'verrebbe' (presente).",
+        "en": "Past indirect speech: 'Verrò' (direct) → 'sarebbe venuto' (indirect). Not 'verrebbe' (present)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Accordo con essere: Le ragazze ___ (andare) ma era tardi.",
+        "en": "Agreement with essere: The girls ___ (andare) but it was late."
+      },
+      "opzioni": [
+        "avrebbero andato",
+        "sarebbero andate",
+        "sarebbero andati",
+        "avrebbero andate"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Andare → essere. Le ragazze (f.pl.) → sarebbero andate. Il participio concorda.",
+        "en": "Correct! Andare → essere. Le ragazze (f.pl.) → sarebbero andate. The participle agrees."
+      },
+      "feedbackErr": {
+        "it": "Andare → essere. Le ragazze = femminile plurale → sarebbero andate (non andati).",
+        "en": "Andare → essere. Le ragazze = feminine plural → sarebbero andate (not andati)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Irreale implicito: Al posto tuo, non ___ (dire) niente.",
+        "en": "Implicit unreal: In your place, I wouldn't ___ (dire) anything."
+      },
+      "opzioni": [
+        "direi",
+        "dicevo",
+        "avrei detto",
+        "dirò"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Irreale implicito (= se fossi stato al posto tuo): condizionale passato. 'Non avrei detto niente.'",
+        "en": "Correct! Implicit unreal (= if I had been in your place): past conditional. 'Non avrei detto niente.'"
+      },
+      "feedbackErr": {
+        "it": "Irreale implicito → condizionale passato: avrei detto. 'Al posto tuo, non avrei detto niente.'",
+        "en": "Implicit unreal → past conditional: avrei detto. 'Al posto tuo, non avrei detto niente.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Con più tempo, ___ (scrivere) una lettera migliore.",
+        "en": "With more time, ___ (scrivere) a better letter."
+      },
+      "opzioni": [
+        "scriverei",
+        "scrivo",
+        "avrei scritto",
+        "avevo scritto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Irreale implicito → condizionale passato: avrei scritto. 'Con più tempo, avrei scritto meglio.'",
+        "en": "Correct! Implicit unreal → past conditional: avrei scritto. 'Con più tempo, avrei scritto meglio.'"
+      },
+      "feedbackErr": {
+        "it": "Irreale implicito → cond. passato: avrei scritto. 'Con più tempo, avrei scritto una lettera migliore.'",
+        "en": "Implicit unreal → past cond.: avrei scritto. 'Con più tempo, avrei scritto una lettera migliore.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Non so se sarei venuto' — questa frase è…?",
+        "en": "'Non so se sarei venuto' — this sentence is…?"
+      },
+      "opzioni": [
+        "Sbagliata — SE ipotetico non vuole il condizionale",
+        "Corretta — SE significa 'whether', non 'if'",
+        "Corretta solo nel parlato informale",
+        "Sbagliata — bisogna usare il congiuntivo"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Se' qui = 'whether' (interrogativa indiretta) → condizionale corretto. Test: 'I don't know whether I would have come' ✅",
+        "en": "Correct! 'Se' here = 'whether' (indirect question) → conditional correct. Test: 'I don't know whether I would have come' ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non so se sarei venuto' è CORRETTO. Qui 'se' = 'whether' (interrogativa indiretta), non 'if' ipotetico.",
+        "en": "'Non so se sarei venuto' is CORRECT. Here 'se' = 'whether' (indirect question), not 'if' hypothetical."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Avremmo dovuto' corrisponde a…?",
+        "en": "'Avremmo dovuto' corresponds to…?"
+      },
+      "opzioni": [
+        "we should",
+        "we must have",
+        "we should have",
+        "we had to"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Avremmo dovuto = we should have. 'Avremmo dovuto partire prima.'",
+        "en": "Correct! Avremmo dovuto = we should have. 'Avremmo dovuto partire prima.'"
+      },
+      "feedbackErr": {
+        "it": "Avremmo dovuto = we should have. Condizionale passato di dovere, prima persona plurale.",
+        "en": "Avremmo dovuto = we should have. Past conditional of dovere, first person plural."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Ha promesso che ___ (chiamare, lei) presto.",
+        "en": "She promised she ___ (chiamare) soon."
+      },
+      "opzioni": [
+        "chiamerebbe",
+        "avrebbe chiamato",
+        "chiamava",
+        "chiamerà"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Discorso indiretto al passato: 'Chiamerò' → 'avrebbe chiamato'. Condizionale passato.",
+        "en": "Correct! Past indirect speech: 'Chiamerò' → 'avrebbe chiamato'. Past conditional."
+      },
+      "feedbackErr": {
+        "it": "Discorso indiretto al passato: futuro diretto → condizionale passato. 'Chiamerò' → 'avrebbe chiamato'.",
+        "en": "Past indirect speech: direct future → past conditional. 'Chiamerò' → 'avrebbe chiamato'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Pensavo che tu ___ (capire) subito.",
+        "en": "I thought you ___ (capire) right away."
+      },
+      "opzioni": [
+        "capisci",
+        "capiresti",
+        "avresti capito",
+        "capivi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Pensavo che + condizionale passato nel discorso indiretto: avresti capito.",
+        "en": "Correct! Pensavo che + past conditional in indirect speech: avresti capito."
+      },
+      "feedbackErr": {
+        "it": "'Pensavo che' nel discorso indiretto al passato → condizionale passato: avresti capito.",
+        "en": "'Pensavo che' in past indirect speech → past conditional: avresti capito."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: Mi chiedo se lui ___ (capire) la situazione.",
+        "en": "SE whether: I wonder whether he ___ (capire) the situation."
+      },
+      "opzioni": [
+        "capisca",
+        "capisce",
+        "avrebbe capito",
+        "avesse capito"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi chiedo se' = I wonder whether → condizionale passato corretto. 'Avrebbe capito.'",
+        "en": "Correct! 'Mi chiedo se' = I wonder whether → past conditional correct. 'Avrebbe capito.'"
+      },
+      "feedbackErr": {
+        "it": "'Mi chiedo se' = whether (interrogativa indiretta) → condizionale passato: avrebbe capito.",
+        "en": "'Mi chiedo se' = whether (indirect question) → past conditional: avrebbe capito."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Voi: ___ (volere) restare ma era troppo tardi.",
+        "en": "You all: ___ (volere) to stay but it was too late."
+      },
+      "opzioni": [
+        "vorreste",
+        "avreste voluto",
+        "voleste",
+        "avete voluto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Voi + condizionale passato di volere: avreste voluto. 'Avreste voluto restare.'",
+        "en": "Correct! Voi + past conditional of volere: avreste voluto. 'Avreste voluto restare.'"
+      },
+      "feedbackErr": {
+        "it": "Voi + cond. passato di volere: avreste voluto. 'Avreste voluto restare ma era troppo tardi.'",
+        "en": "Voi + past cond. of volere: avreste voluto. 'Avreste voluto restare ma era troppo tardi.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Loro: ___ (potere) restare ma avevano da fare.",
+        "en": "They: ___ (potere) to stay but had things to do."
+      },
+      "opzioni": [
+        "potrebbero",
+        "potevano",
+        "avrebbero potuto",
+        "avevano potuto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Loro + condizionale passato di potere: avrebbero potuto. 'Avrebbero potuto restare.'",
+        "en": "Correct! Loro + past conditional of potere: avrebbero potuto. 'Avrebbero potuto restare.'"
+      },
+      "feedbackErr": {
+        "it": "Cond. passato di potere (loro): avrebbero potuto. 'Avrebbero potuto restare ma avevano da fare.'",
+        "en": "Past cond. of potere (loro): avrebbero potuto. 'Avrebbero potuto restare ma avevano da fare.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: Dimmi se ___ (venire) anche tu.",
+        "en": "SE whether: Tell me whether ___ (venire) too."
+      },
+      "opzioni": [
+        "venissi",
+        "vieni",
+        "saresti venuto",
+        "sia venuto"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Dimmi se' = tell me whether → condizionale passato. 'Saresti venuto' ✅",
+        "en": "Correct! 'Dimmi se' = tell me whether → past conditional. 'Saresti venuto' ✅"
+      },
+      "feedbackErr": {
+        "it": "'Dimmi se' = whether (interrogativa indiretta) → condizionale: saresti venuto.",
+        "en": "'Dimmi se' = whether (indirect question) → conditional: saresti venuto."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Con il tuo aiuto, ___ (finire) molto prima.",
+        "en": "With your help, ___ (finire) much earlier."
+      },
+      "opzioni": [
+        "finiremmo",
+        "abbiamo finito",
+        "avremmo finito",
+        "finivamo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Irreale implicito (= se tu mi avessi aiutato) → condizionale passato: avremmo finito.",
+        "en": "Correct! Implicit unreal (= if you had helped me) → past conditional: avremmo finito."
+      },
+      "feedbackErr": {
+        "it": "'Con il tuo aiuto' = irreale implicito → cond. passato: avremmo finito. 'Con il tuo aiuto, avremmo finito prima.'",
+        "en": "'With your help' = implicit unreal → past cond.: avremmo finito. 'Con il tuo aiuto, avremmo finito prima.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Hanno detto che ___ (arrivare, loro m.pl.) domenica.",
+        "en": "They said they ___ (arrivare) on Sunday."
+      },
+      "opzioni": [
+        "arriverebbero",
+        "sarebbero arrivati",
+        "arrivavano",
+        "arriveranno"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Arrivare → essere. Discorso indiretto al passato: sarebbero arrivati (m.pl.).",
+        "en": "Correct! Arrivare → essere. Past indirect speech: sarebbero arrivati (m.pl.)."
+      },
+      "feedbackErr": {
+        "it": "Arrivare → essere. Discorso indiretto al passato → cond. passato: sarebbero arrivati.",
+        "en": "Arrivare → essere. Past indirect speech → past cond.: sarebbero arrivati."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "SE whether: Non sapeva se ___ (accettare) l'offerta.",
+        "en": "SE whether: She didn't know whether she ___ (accettare) the offer."
+      },
+      "opzioni": [
+        "accettasse",
+        "accetti",
+        "avrebbe accettato",
+        "accetterà"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Non sapeva se' = whether (interrogativa indiretta) → condizionale passato: avrebbe accettato ✅",
+        "en": "Correct! 'Non sapeva se' = whether (indirect question) → past conditional: avrebbe accettato ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non sapeva se' = whether → condizionale passato: avrebbe accettato.",
+        "en": "'Non sapeva se' = whether → past conditional: avrebbe accettato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale passato si forma con il condizionale di avere/essere + il participio passato.",
+        "en": "The past conditional is formed with the conditional of avere/essere + the past participle."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! avrei mangiato, sarei andato. Stessa logica del passato prossimo ma con condizionale.",
+        "en": "Correct! avrei mangiato, sarei andato. Same logic as passato prossimo but with conditional."
+      },
+      "feedbackErr": {
+        "it": "Vero! Cond. passato = avrei/sarei + participio. avrei mangiato, sarei andato.",
+        "en": "True! Past cond. = avrei/sarei + participle. avrei mangiato, sarei andato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrei dovuto' = 'I should have' in inglese.",
+        "en": "'Avrei dovuto' = 'I should have' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il rimpianto principale. 'Avrei dovuto studiare di più.'",
+        "en": "Correct! The main regret form. 'Avrei dovuto studiare di più.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'",
+        "en": "True! Avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con l'ausiliare essere, il participio del condizionale passato concorda con il soggetto.",
+        "en": "With the auxiliary essere, the past conditional participle agrees with the subject."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Maria sarebbe andata (f.), i ragazzi sarebbero andati (m.pl.), le ragazze sarebbero andate (f.pl.).",
+        "en": "Correct! Maria sarebbe andata (f.), i ragazzi sarebbero andati (m.pl.), le ragazze sarebbero andate (f.pl.)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Con essere: participio concorda. sarebbe andato/andata/andati/andate.",
+        "en": "True! With essere: participle agrees. sarebbe andato/andata/andati/andate."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non so se sarei venuto' è grammaticalmente corretto.",
+        "en": "'Non so se sarei venuto' is grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Qui 'se' = 'whether' (interrogativa indiretta) → condizionale corretto. Test: 'I don't know whether I would have come' ✅",
+        "en": "Correct! Here 'se' = 'whether' (indirect question) → conditional correct. Test: 'I don't know whether I would have come' ✅"
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Non so se sarei venuto' è corretto — 'se' = 'whether'. Il condizionale con 'se' è sbagliato solo quando 'se' = 'if' ipotetico.",
+        "en": "TRUE! 'Non so se sarei venuto' is correct — 'se' = 'whether'. The conditional with 'se' is wrong only when 'se' = hypothetical 'if'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrei potuto' = 'I could have'.",
+        "en": "'Avrei potuto' = 'I could have'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Uno dei tre rimpianti fondamentali. 'Avrei potuto dirtelo — mi dispiace.'",
+        "en": "Correct! One of the three fundamental regrets. 'Avrei potuto dirtelo — mi dispiace.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avrei potuto = I could have. Condizionale passato di potere.",
+        "en": "True! Avrei potuto = I could have. Past conditional of potere."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ha detto che sarebbe venuto' è un uso corretto del condizionale passato nel discorso indiretto.",
+        "en": "'Ha detto che sarebbe venuto' is a correct use of the past conditional in indirect speech."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Discorso indiretto al passato: 'Verrò' (diretto) → 'ha detto che sarebbe venuto' (indiretto).",
+        "en": "Correct! Past indirect speech: 'Verrò' (direct) → 'ha detto che sarebbe venuto' (indirect)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Nel discorso indiretto al passato, il futuro diretto diventa condizionale passato.",
+        "en": "True! In past indirect speech, the direct future becomes past conditional."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Se sarei venuto, ti avrei chiamato' è grammaticalmente corretto.",
+        "en": "'Se sarei venuto, ti avrei chiamato' is grammatically correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Se sarei venuto' è SBAGLIATO — SE ipotetico non vuole mai il condizionale. Corretto: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "Correct! 'Se sarei venuto' is WRONG — hypothetical SE never takes the conditional. Correct: 'Se fossi venuto, ti avrei chiamato.'"
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Se sarei venuto' è sbagliato. SE ipotetico + condizionale = sempre errore. Corretto: 'Se fossi venuto, ti avrei chiamato.'",
+        "en": "FALSE! 'Se sarei venuto' is wrong. Hypothetical SE + conditional = always an error. Correct: 'Se fossi venuto, ti avrei chiamato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrei voluto' = 'I would have liked'.",
+        "en": "'Avrei voluto' = 'I would have liked'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il terzo rimpianto. 'Avrei voluto venire ma non potevo.'",
+        "en": "Correct! The third regret. 'Avrei voluto venire ma non potevo.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avrei voluto = I would have liked. Cond. passato di volere.",
+        "en": "True! Avrei voluto = I would have liked. Past cond. of volere."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale passato non si usa mai dopo 'se'.",
+        "en": "The past conditional is never used after 'se'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Si usa dopo 'se' quando 'se' significa 'whether': 'Non so se sarei venuto.' Solo con SE ipotetico (= if) è sbagliato.",
+        "en": "Correct! It IS used after 'se' when 'se' means 'whether': 'Non so se sarei venuto.' Only with hypothetical SE (= if) is it wrong."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Con SE whether (interrogativa indiretta) il condizionale è corretto: 'Non so se sarei venuto.' Solo con SE ipotetico (= if) è errore.",
+        "en": "FALSE! With SE whether (indirect question) the conditional is correct: 'Non so se sarei venuto.' Only with hypothetical SE (= if) is it an error."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sarebbe venuta' concorda correttamente con un soggetto femminile singolare.",
+        "en": "'Sarebbe venuta' correctly agrees with a feminine singular subject."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Venire → essere. Lei (f.sg.) → sarebbe venuta. Il participio concorda.",
+        "en": "Correct! Venire → essere. Lei (f.sg.) → sarebbe venuta. The participle agrees."
+      },
+      "feedbackErr": {
+        "it": "Vero! Con essere il participio concorda: lei → sarebbe venuta (non venuto).",
+        "en": "True! With essere the participle agrees: lei → sarebbe venuta (not venuto)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avremmo dovuto' = 'we should have'.",
+        "en": "'Avremmo dovuto' = 'we should have'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi + cond. passato di dovere = avremmo dovuto. 'Avremmo dovuto partire prima.'",
+        "en": "Correct! Noi + past cond. of dovere = avremmo dovuto. 'Avremmo dovuto partire prima.'"
+      },
+      "feedbackErr": {
+        "it": "Vero! Avremmo dovuto = we should have. 'Avremmo dovuto prenotare prima.'",
+        "en": "True! Avremmo dovuto = we should have. 'Avremmo dovuto prenotare prima.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mi chiedo se avrei potuto farlo' è un uso grammaticalmente corretto del condizionale.",
+        "en": "'Mi chiedo se avrei potuto farlo' is a grammatically correct use of the conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi chiedo se' = I wonder whether → SE whether → condizionale passato corretto ✅",
+        "en": "Correct! 'Mi chiedo se' = I wonder whether → SE whether → past conditional correct ✅"
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Mi chiedo se' = whether (interrogativa indiretta) → condizionale passato è corretto.",
+        "en": "TRUE! 'Mi chiedo se' = whether (indirect question) → past conditional is correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Al posto tuo, non avrei detto niente' contiene un 'se' implicito.",
+        "en": "'Al posto tuo, non avrei detto niente' contains an implicit 'se'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il 'se' implicito è: 'se fossi stato al posto tuo'. L'irreale è sottinteso, non espresso.",
+        "en": "Correct! The implicit 'se' is: 'if I had been in your place'. The unreal condition is implied, not expressed."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Al posto tuo' = 'se fossi stato al posto tuo' (implicito). Irreale implicito → cond. passato.",
+        "en": "True! 'Al posto tuo' = 'if I had been in your place' (implied). Implicit unreal → past cond."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Pensavo che sarebbe arrivato' usa correttamente il condizionale passato.",
+        "en": "'Pensavo che sarebbe arrivato' correctly uses the past conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Discorso indiretto al passato: pensavo che + condizionale passato. 'Arriverà' → 'sarebbe arrivato'.",
+        "en": "Correct! Past indirect speech: pensavo che + past conditional. 'Arriverà' → 'sarebbe arrivato'."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Pensavo che' nel discorso indiretto al passato → cond. passato: sarebbe arrivato.",
+        "en": "True! 'Pensavo che' in past indirect speech → past cond.: sarebbe arrivato."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Avrei dovuto' richiede sempre un infinito dopo.",
+        "en": "'Avrei dovuto' always requires an infinitive after it."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Avrei dovuto + infinito: avrei dovuto CHIAMARE, avrei dovuto STUDIARE, avrei dovuto VENIRE.",
+        "en": "Correct! Avrei dovuto + infinitive: avrei dovuto CHIAMARE, avrei dovuto STUDIARE, avrei dovuto VENIRE."
+      },
+      "feedbackErr": {
+        "it": "Vero! Avrei dovuto + infinito. 'Avrei dovuto telefonare.' 'Avrei dovuto partire prima.'",
+        "en": "True! Avrei dovuto + infinitive. 'Avrei dovuto telefonare.' 'Avrei dovuto partire prima.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sarebbero partiti' = 'they would have left', con corretto accordo al maschile plurale.",
+        "en": "'Sarebbero partiti' = 'they would have left', with correct masculine plural agreement."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Partire → essere. Loro (m.pl.) → sarebbero partiti. Il participio concorda.",
+        "en": "Correct! Partire → essere. Loro (m.pl.) → sarebbero partiti. The participle agrees."
+      },
+      "feedbackErr": {
+        "it": "Vero! Partire → essere. Loro (m.pl.) → sarebbero partiti. Accordo corretto.",
+        "en": "True! Partire → essere. Loro (m.pl.) → sarebbero partiti. Correct agreement."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Con più tempo, avrei fatto meglio' è un esempio di irreale implicito.",
+        "en": "'Con più tempo, avrei fatto meglio' is an example of implicit unreal."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il 'se' implicito: 'se avessi avuto più tempo'. L'irreale è sottinteso da 'con più tempo'.",
+        "en": "Correct! The implicit 'se': 'if I had had more time'. The unreal is implied by 'con più tempo'."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Con più tempo' = 'se avessi avuto più tempo' (implicito) → cond. passato: avrei fatto.",
+        "en": "True! 'Con più tempo' = 'if I had had more time' (implied) → past cond.: avrei fatto."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dimmi se saresti venuto' usa correttamente il condizionale.",
+        "en": "'Dimmi se saresti venuto' correctly uses the conditional."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Dimmi se' = tell me whether → SE whether → condizionale passato corretto ✅",
+        "en": "Correct! 'Dimmi se' = tell me whether → SE whether → past conditional correct ✅"
+      },
+      "feedbackErr": {
+        "it": "VERO! 'Dimmi se' = whether → condizionale passato è corretto. Non è SE ipotetico.",
+        "en": "TRUE! 'Dimmi se' = whether → past conditional is correct. It's not hypothetical SE."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Non so se verrei' (SE whether, condizionale presente) è grammaticalmente corretto.",
+        "en": "'Non so se verrei' (SE whether, present conditional) is grammatically correct."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! SE whether funziona sia con il condizionale presente che passato: 'Non so se verrei' (pres.) e 'Non so se sarei venuto' (pass.) — entrambi corretti.",
+        "en": "Correct! SE whether works with both present and past conditional: 'Non so se verrei' (pres.) and 'Non so se sarei venuto' (past) — both correct."
+      },
+      "feedbackErr": {
+        "it": "VERO! SE whether + cond. presente è corretto: 'Non so se verrei.' Anche 'Non so se sarei venuto' (past) è corretto.",
+        "en": "TRUE! SE whether + present cond. is correct: 'Non so se verrei.' Also 'Non so se sarei venuto' (past) is correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il condizionale passato dei verbi riflessivi usa sempre essere.",
+        "en": "The past conditional of reflexive verbs always uses essere."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Riflessivi → sempre essere: mi sarei alzato, si sarebbe svegliata, ci saremmo divertiti.",
+        "en": "Correct! Reflexives → always essere: mi sarei alzato, si sarebbe svegliata, ci saremmo divertiti."
+      },
+      "feedbackErr": {
+        "it": "Vero! Riflessivi → essere: mi sarei alzato, ti saresti vestita, si sarebbe riposato.",
+        "en": "True! Reflexives → essere: mi sarei alzato, ti saresti vestita, si sarebbe riposato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rimpianto dovere (io): ___ chiamarti prima — mi dispiace.",
+        "en": "Regret dovere (I): ___ called you earlier — I'm sorry."
+      },
+      "parole": [
+        "Avrei",
+        "dovuto",
+        "chiamarti",
+        "prima"
+      ],
+      "distrattori": [
+        "Sarei",
+        "dovevo",
+        "chiamarmi",
+        "dovrò"
+      ],
+      "correct": [
+        "Avrei",
+        "dovuto",
+        "chiamarti",
+        "prima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'",
+        "en": "Perfect! Avrei dovuto = I should have. 'Avrei dovuto chiamarti prima.'"
+      },
+      "feedbackErr": {
+        "it": "Rimpianto → avrei dovuto + infinito. 'Avrei dovuto chiamarti prima.'",
+        "en": "Regret → avrei dovuto + infinitive. 'Avrei dovuto chiamarti prima.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rimpianto potere (io): ___ evitarlo — era ovvio.",
+        "en": "Regret potere (I): ___ avoided it — it was obvious."
+      },
+      "parole": [
+        "Avrei",
+        "potuto",
+        "evitarlo"
+      ],
+      "distrattori": [
+        "Sarei",
+        "potevo",
+        "evitarli",
+        "potrò"
+      ],
+      "correct": [
+        "Avrei",
+        "potuto",
+        "evitarlo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avrei potuto = I could have. 'Avrei potuto evitarlo.'",
+        "en": "Perfect! Avrei potuto = I could have. 'Avrei potuto evitarlo.'"
+      },
+      "feedbackErr": {
+        "it": "Rimpianto → avrei potuto + infinito. 'Avrei potuto evitarlo.'",
+        "en": "Regret → avrei potuto + infinitive. 'Avrei potuto evitarlo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rimpianto volere (io): ___ venire alla festa ma non potevo.",
+        "en": "Regret volere (I): ___ come to the party but couldn't."
+      },
+      "parole": [
+        "Avrei",
+        "voluto",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "Sarei",
+        "volle",
+        "venuto",
+        "vorrò"
+      ],
+      "correct": [
+        "Avrei",
+        "voluto",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avrei voluto = I would have liked. 'Avrei voluto venire alla festa.'",
+        "en": "Perfect! Avrei voluto = I would have liked. 'Avrei voluto venire alla festa.'"
+      },
+      "feedbackErr": {
+        "it": "Rimpianto → avrei voluto + infinito. 'Avrei voluto venire alla festa.'",
+        "en": "Regret → avrei voluto + infinitive. 'Avrei voluto venire alla festa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Discorso indiretto (Mario, venire alle otto): Mario ha detto che ___ alle otto.",
+        "en": "Indirect speech (Mario, venire at eight): Mario said he ___ at eight."
+      },
+      "parole": [
+        "sarebbe",
+        "arrivato",
+        "alle",
+        "otto"
+      ],
+      "distrattori": [
+        "avrebbe",
+        "arrivati",
+        "arriverà",
+        "venisse"
+      ],
+      "correct": [
+        "sarebbe",
+        "arrivato",
+        "alle",
+        "otto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Arrivare → essere. Discorso indiretto → cond. passato: sarebbe arrivato.",
+        "en": "Perfect! Arrivare → essere. Indirect speech → past cond.: sarebbe arrivato."
+      },
+      "feedbackErr": {
+        "it": "Discorso indiretto al passato → cond. passato. Arrivare → essere → sarebbe arrivato.",
+        "en": "Past indirect speech → past cond. Arrivare → essere → sarebbe arrivato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irreale implicito (al posto tuo): Al posto tuo, ___ niente.",
+        "en": "Implicit unreal (al posto tuo): In your place, ___ nothing."
+      },
+      "parole": [
+        "non",
+        "avrei",
+        "detto",
+        "niente"
+      ],
+      "distrattori": [
+        "sarei",
+        "dire",
+        "direi",
+        "dico"
+      ],
+      "correct": [
+        "non",
+        "avrei",
+        "detto",
+        "niente"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Al posto tuo' = irreale implicito → cond. passato: non avrei detto niente.",
+        "en": "Perfect! 'Al posto tuo' = implicit unreal → past cond.: non avrei detto niente."
+      },
+      "feedbackErr": {
+        "it": "'Al posto tuo' (= se fossi stato al posto tuo) → cond. passato: non avrei detto niente.",
+        "en": "'Al posto tuo' (= if I had been in your place) → past cond.: non avrei detto niente."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Essere + rimpianto (io, andare): ___ ma ero troppo stanco.",
+        "en": "Essere + regret (I, andare): ___ but I was too tired."
+      },
+      "parole": [
+        "Sarei",
+        "andato",
+        "ma",
+        "ero",
+        "troppo",
+        "stanco"
+      ],
+      "distrattori": [
+        "Avrei",
+        "andare",
+        "sono",
+        "anderei"
+      ],
+      "correct": [
+        "Sarei",
+        "andato",
+        "ma",
+        "ero",
+        "troppo",
+        "stanco"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Andare → essere. Io → sarei andato. 'Sarei andato ma ero troppo stanco.'",
+        "en": "Perfect! Andare → essere. Io → sarei andato. 'Sarei andato ma ero troppo stanco.'"
+      },
+      "feedbackErr": {
+        "it": "Andare → essere → sarei andato. 'Sarei andato ma ero troppo stanco.'",
+        "en": "Andare → essere → sarei andato. 'Sarei andato ma ero troppo stanco.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Accordo f.sg. (Maria, venire): Maria ___ ma aveva da fare.",
+        "en": "Agreement f.sg. (Maria, venire): Maria ___ but had things to do."
+      },
+      "parole": [
+        "sarebbe",
+        "venuta",
+        "ma",
+        "aveva",
+        "da",
+        "fare"
+      ],
+      "distrattori": [
+        "avrebbe",
+        "venuto",
+        "venire",
+        "venisse"
+      ],
+      "correct": [
+        "sarebbe",
+        "venuta",
+        "ma",
+        "aveva",
+        "da",
+        "fare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Venire → essere. Maria (f.sg.) → sarebbe venuta. Participio concorda.",
+        "en": "Perfect! Venire → essere. Maria (f.sg.) → sarebbe venuta. Participle agrees."
+      },
+      "feedbackErr": {
+        "it": "Venire → essere. Maria (f.sg.) → sarebbe venuta (non venuto!). Il participio concorda.",
+        "en": "Venire → essere. Maria (f.sg.) → sarebbe venuta (not venuto!). The participle agrees."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (io): Non so ___ — era molto lontano.",
+        "en": "SE whether (I): I don't know ___ — it was very far."
+      },
+      "parole": [
+        "se",
+        "sarei",
+        "venuto"
+      ],
+      "distrattori": [
+        "se",
+        "venissi",
+        "se",
+        "vengo",
+        "whether"
+      ],
+      "correct": [
+        "se",
+        "sarei",
+        "venuto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! SE whether → condizionale passato corretto. 'Non so se sarei venuto.'",
+        "en": "Perfect! SE whether → past conditional correct. 'Non so se sarei venuto.'"
+      },
+      "feedbackErr": {
+        "it": "'Non so se' = whether → cond. passato è corretto: sarei venuto.",
+        "en": "'Non so se' = whether → past cond. is correct: sarei venuto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Potere + noi: ___ farlo insieme ma non avevamo tempo.",
+        "en": "Potere + noi: ___ done it together but we had no time."
+      },
+      "parole": [
+        "Avremmo",
+        "potuto",
+        "farlo",
+        "insieme"
+      ],
+      "distrattori": [
+        "Saremmo",
+        "potevamo",
+        "fare",
+        "potremmo"
+      ],
+      "correct": [
+        "Avremmo",
+        "potuto",
+        "farlo",
+        "insieme"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Noi + cond. passato di potere: avremmo potuto. 'Avremmo potuto farlo insieme.'",
+        "en": "Perfect! Noi + past cond. of potere: avremmo potuto. 'Avremmo potuto farlo insieme.'"
+      },
+      "feedbackErr": {
+        "it": "Cond. passato di potere (noi): avremmo potuto. 'Avremmo potuto farlo insieme.'",
+        "en": "Past cond. of potere (noi): avremmo potuto. 'Avremmo potuto farlo insieme.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Discorso indiretto f.sg. (tornare presto): Ha promesso che ___ presto.",
+        "en": "Indirect speech f.sg. (tornare presto): She promised she ___ soon."
+      },
+      "parole": [
+        "sarebbe",
+        "tornata",
+        "presto"
+      ],
+      "distrattori": [
+        "avrebbe",
+        "tornato",
+        "tornare",
+        "tornerebbe"
+      ],
+      "correct": [
+        "sarebbe",
+        "tornata",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tornare → essere. Lei (f.sg.) → sarebbe tornata. Accordo corretto.",
+        "en": "Perfect! Tornare → essere. Lei (f.sg.) → sarebbe tornata. Correct agreement."
+      },
+      "feedbackErr": {
+        "it": "Tornare → essere. Lei (f.sg.) → sarebbe tornata. Discorso indiretto → cond. passato.",
+        "en": "Tornare → essere. Lei (f.sg.) → sarebbe tornata. Indirect speech → past cond."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rimpianto loro (dovere studiare): ___ di più — lo sapevano.",
+        "en": "Their regret (dovere studiare): ___ more — they knew it."
+      },
+      "parole": [
+        "Avrebbero",
+        "dovuto",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "Sarebbero",
+        "dovevano",
+        "studiano",
+        "studieranno"
+      ],
+      "correct": [
+        "Avrebbero",
+        "dovuto",
+        "studiare",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Loro + avrebbero dovuto = they should have. 'Avrebbero dovuto studiare di più.'",
+        "en": "Perfect! Loro + avrebbero dovuto = they should have. 'Avrebbero dovuto studiare di più.'"
+      },
+      "feedbackErr": {
+        "it": "Loro + cond. passato di dovere: avrebbero dovuto. 'Avrebbero dovuto studiare di più.'",
+        "en": "Loro + past cond. of dovere: avrebbero dovuto. 'Avrebbero dovuto studiare di più.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (lui): Mi chiedo ___ la situazione.",
+        "en": "SE whether (he): I wonder ___ the situation."
+      },
+      "parole": [
+        "se",
+        "avrebbe",
+        "capito"
+      ],
+      "distrattori": [
+        "se",
+        "capisse",
+        "se",
+        "capisca",
+        "whether"
+      ],
+      "correct": [
+        "se",
+        "avrebbe",
+        "capito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Mi chiedo se' = I wonder whether → cond. passato: avrebbe capito ✅",
+        "en": "Perfect! 'Mi chiedo se' = I wonder whether → past cond.: avrebbe capito ✅"
+      },
+      "feedbackErr": {
+        "it": "'Mi chiedo se' = whether → cond. passato corretto: avrebbe capito.",
+        "en": "'Mi chiedo se' = whether → past cond. correct: avrebbe capito."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irreale implicito (con più tempo, io): Con più tempo, ___ una lettera migliore.",
+        "en": "Implicit unreal (with more time, I): With more time, ___ a better letter."
+      },
+      "parole": [
+        "avrei",
+        "scritto",
+        "una",
+        "lettera",
+        "migliore"
+      ],
+      "distrattori": [
+        "avevo",
+        "sarei",
+        "scrivuto",
+        "scrivo"
+      ],
+      "correct": [
+        "avrei",
+        "scritto",
+        "una",
+        "lettera",
+        "migliore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Con più tempo' = irreale implicito → cond. passato: avrei scritto.",
+        "en": "Perfect! 'Con più tempo' = implicit unreal → past cond.: avrei scritto."
+      },
+      "feedbackErr": {
+        "it": "'Con più tempo' → cond. passato: avrei scritto. 'Con più tempo, avrei scritto una lettera migliore.'",
+        "en": "'Con più tempo' → past cond.: avrei scritto. 'Con più tempo, avrei scritto una lettera migliore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Voi + volere: ___ restare più a lungo ma dovevate partire.",
+        "en": "Voi + volere: ___ to stay longer but had to leave."
+      },
+      "parole": [
+        "Avreste",
+        "voluto",
+        "restare",
+        "più",
+        "a",
+        "lungo"
+      ],
+      "distrattori": [
+        "Sareste",
+        "volevate",
+        "restando",
+        "vorreste"
+      ],
+      "correct": [
+        "Avreste",
+        "voluto",
+        "restare",
+        "più",
+        "a",
+        "lungo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi + cond. passato di volere: avreste voluto. 'Avreste voluto restare più a lungo.'",
+        "en": "Perfect! Voi + past cond. of volere: avreste voluto. 'Avreste voluto restare più a lungo.'"
+      },
+      "feedbackErr": {
+        "it": "Voi + cond. passato di volere: avreste voluto. 'Avreste voluto restare più a lungo.'",
+        "en": "Voi + past cond. of volere: avreste voluto. 'Avreste voluto restare più a lungo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Discorso indiretto (tu, capire): Pensavo ___ subito.",
+        "en": "Indirect speech (you, capire): I thought ___ right away."
+      },
+      "parole": [
+        "che",
+        "avresti",
+        "capito",
+        "subito"
+      ],
+      "distrattori": [
+        "capisci",
+        "capiresti",
+        "avrò",
+        "capisca"
+      ],
+      "correct": [
+        "che",
+        "avresti",
+        "capito",
+        "subito"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Pensavo che' + cond. passato nel discorso indiretto: avresti capito.",
+        "en": "Perfect! 'Pensavo che' + past cond. in indirect speech: avresti capito."
+      },
+      "feedbackErr": {
+        "it": "'Pensavo che' + discorso indiretto al passato → cond. passato: avresti capito.",
+        "en": "'Pensavo che' + past indirect speech → past cond.: avresti capito."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (tu): Dimmi ___ anche tu.",
+        "en": "SE whether (you): Tell me ___ too."
+      },
+      "parole": [
+        "se",
+        "saresti",
+        "venuto"
+      ],
+      "distrattori": [
+        "se",
+        "venissi",
+        "se",
+        "vieni",
+        "se",
+        "sia venuto"
+      ],
+      "correct": [
+        "se",
+        "saresti",
+        "venuto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Dimmi se' = whether → cond. passato: saresti venuto ✅",
+        "en": "Perfect! 'Dimmi se' = whether → past cond.: saresti venuto ✅"
+      },
+      "feedbackErr": {
+        "it": "'Dimmi se' = whether (interrogativa indiretta) → cond. passato: saresti venuto.",
+        "en": "'Dimmi se' = whether (indirect question) → past cond.: saresti venuto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Irreale implicito (noi, con il tuo aiuto): Con il tuo aiuto, ___ molto prima.",
+        "en": "Implicit unreal (noi, with your help): With your help, ___ much earlier."
+      },
+      "parole": [
+        "avremmo",
+        "finito",
+        "molto",
+        "prima"
+      ],
+      "distrattori": [
+        "saremmo",
+        "finendo",
+        "finivamo",
+        "finiamo"
+      ],
+      "correct": [
+        "avremmo",
+        "finito",
+        "molto",
+        "prima"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Con il tuo aiuto' = irreale implicito → cond. passato: avremmo finito.",
+        "en": "Perfect! 'With your help' = implicit unreal → past cond.: avremmo finito."
+      },
+      "feedbackErr": {
+        "it": "'Con il tuo aiuto' → cond. passato: avremmo finito. 'Con il tuo aiuto, avremmo finito prima.'",
+        "en": "'With your help' → past cond.: avremmo finito. 'Con il tuo aiuto, avremmo finito prima.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Discorso indiretto m.pl. (arrivare domenica): Hanno detto che ___ domenica.",
+        "en": "Indirect speech m.pl. (arrivare domenica): They said they ___ on Sunday."
+      },
+      "parole": [
+        "sarebbero",
+        "arrivati",
+        "domenica"
+      ],
+      "distrattori": [
+        "avrebbero",
+        "arrivato",
+        "arriveranno",
+        "arrivassero"
+      ],
+      "correct": [
+        "sarebbero",
+        "arrivati",
+        "domenica"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Arrivare → essere. Loro (m.pl.) → sarebbero arrivati. Discorso indiretto.",
+        "en": "Perfect! Arrivare → essere. Loro (m.pl.) → sarebbero arrivati. Indirect speech."
+      },
+      "feedbackErr": {
+        "it": "Arrivare → essere. Loro (m.pl.) → sarebbero arrivati. Discorso indiretto → cond. passato.",
+        "en": "Arrivare → essere. Loro (m.pl.) → sarebbero arrivati. Indirect speech → past cond."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "SE whether (lei, accettare): Non sapeva ___ l'offerta.",
+        "en": "SE whether (she, accettare): She didn't know ___ the offer."
+      },
+      "parole": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "l'offerta"
+      ],
+      "distrattori": [
+        "se",
+        "accettasse",
+        "se",
+        "accetti",
+        "se",
+        "avesse"
+      ],
+      "correct": [
+        "se",
+        "avrebbe",
+        "accettato",
+        "l'offerta"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Non sapeva se' = whether → cond. passato: avrebbe accettato ✅",
+        "en": "Perfect! 'Non sapeva se' = whether → past cond.: avrebbe accettato ✅"
+      },
+      "feedbackErr": {
+        "it": "'Non sapeva se' = whether → cond. passato: avrebbe accettato.",
+        "en": "'Non sapeva se' = whether → past cond.: avrebbe accettato."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Rimpianto potere + dirtelo: ___ — perché non l'ho fatto?",
+        "en": "Regret potere + dirtelo: ___ — why didn't I?"
+      },
+      "parole": [
+        "Avrei",
+        "potuto",
+        "dirtelo"
+      ],
+      "distrattori": [
+        "Sarei",
+        "potevo",
+        "dirlo",
+        "potrò"
+      ],
+      "correct": [
+        "Avrei",
+        "potuto",
+        "dirtelo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Avrei potuto = I could have. Pronome attaccato all'infinito: dirtelo. 'Avrei potuto dirtelo.'",
+        "en": "Perfect! Avrei potuto = I could have. Pronoun attached to infinitive: dirtelo. 'Avrei potuto dirtelo.'"
+      },
+      "feedbackErr": {
+        "it": "Avrei potuto = I could have. 'Avrei potuto dirtelo — mi dispiace.'",
+        "en": "Avrei potuto = I could have. 'Avrei potuto dirtelo — mi dispiace.'"
+      }
+    }
+  ]
+}

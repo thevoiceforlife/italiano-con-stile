@@ -1,0 +1,1553 @@
+{
+  "id": "preposizioni",
+  "categoria": "grammatica",
+  "emoji": "📍",
+  "livello": "A1",
+  "titolo": {
+    "it": "Preposizioni Semplici",
+    "en": "Simple Prepositions"
+  },
+  "mario": "Di, a, da, in, con, su, per, tra — otto paroline che cambiano tutto. In inglese 'of, to, from, in' — simili ma non uguali. Qui ti spiego le differenze chiave.",
+  "marioEn": "Di, a, da, in, con, su, per, tra — eight little words that change everything. In English 'of, to, from, in' — similar but not the same. Here I explain the key differences.",
+  "perche": {
+    "it": "Le preposizioni sono tra le parti più difficili di qualsiasi lingua — perché non si traducono mai letteralmente. 'A' può essere 'at', 'to' o 'in' a seconda del contesto. 'Da' può essere 'from', 'since', 'at' o 'by'. Non c'è una logica perfetta — ma ci sono pattern che si ripetono e si imparano con l'uso.",
+    "en": "Prepositions are among the hardest parts of any language — because they never translate literally. 'A' can be 'at', 'to' or 'in' depending on context. 'Da' can be 'from', 'since', 'at' or 'by'. There's no perfect logic — but there are patterns that repeat and you learn them with use."
+  },
+  "spiegazione": {
+    "it": "Le 8 preposizioni semplici + le loro combinazioni con gli articoli (preposizioni articolate): di+il=del, a+il=al, da+il=dal, in+il=nel, su+il=sul.",
+    "en": "The 8 simple prepositions + their combinations with articles (articulated prepositions): di+il=del, a+il=al, da+il=dal, in+il=nel, su+il=sul."
+  },
+  "tabella": {
+    "headers": [
+      "Preposizione",
+      "Uso principale / Main use",
+      "Esempio IT",
+      "Esempio EN"
+    ],
+    "rows": [
+      [
+        "di",
+        "possesso, argomento / possession, topic",
+        "il caffè di Mario",
+        "Mario's coffee"
+      ],
+      [
+        "a",
+        "luogo, destinazione / place, destination",
+        "vado a Napoli",
+        "I go to Naples"
+      ],
+      [
+        "da",
+        "provenienza, durata / origin, duration",
+        "vengo da Roma / studio da un anno",
+        "I come from Rome / I've studied for a year"
+      ],
+      [
+        "in",
+        "luogo interno, mezzo / inside, means",
+        "sono in casa / in treno",
+        "I'm at home / by train"
+      ],
+      [
+        "con",
+        "compagnia, strumento / company, tool",
+        "caffè con latte / scrivo con la penna",
+        "coffee with milk / I write with a pen"
+      ],
+      [
+        "su",
+        "sopra, argomento / on top, about",
+        "il libro è sul tavolo / un film su Napoli",
+        "the book is on the table / a film about Naples"
+      ],
+      [
+        "per",
+        "scopo, destinazione / purpose, destination",
+        "parto per Napoli / studio per l'esame",
+        "I leave for Naples / I study for the exam"
+      ],
+      [
+        "tra/fra",
+        "tra persone/cose, tempo futuro / between, future time",
+        "tra amici / arrivo tra cinque minuti",
+        "among friends / I arrive in five minutes"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Vado a Napoli domani.",
+      "en": "I'm going to Naples tomorrow.",
+      "audio": "Vado a Napoli domani."
+    },
+    {
+      "it": "Il caffè di Mario è ottimo.",
+      "en": "Mario's coffee is excellent.",
+      "audio": "Il caffè di Mario è ottimo."
+    },
+    {
+      "it": "Vengo da Londra.",
+      "en": "I come from London.",
+      "audio": "Vengo da Londra."
+    },
+    {
+      "it": "Il libro è sul tavolo.",
+      "en": "The book is on the table.",
+      "audio": "Il libro è sul tavolo."
+    },
+    {
+      "it": "Studio italiano da sei mesi.",
+      "en": "I have been studying Italian for six months.",
+      "audio": "Studio italiano da sei mesi."
+    }
+  ],
+  "nota": {
+    "it": "💡 Preposizioni articolate: quando di/a/da/in/su si uniscono all'articolo. di+il=del, di+la=della, a+il=al, a+la=alla, in+il=nel, su+il=sul. Con 'con' e 'per' non si uniscono (quasi mai).",
+    "en": "💡 Articulated prepositions: when di/a/da/in/su combine with the article. di+il=del, di+la=della, a+il=al, a+la=alla, in+il=nel, su+il=sul. With 'con' and 'per' they don't combine (almost never)."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I go to Naples' in italiano?",
+        "en": "How do you say 'I go to Naples' in Italian?"
+      },
+      "opzioni": [
+        "Vado in Napoli.",
+        "Vado di Napoli.",
+        "Vado a Napoli.",
+        "Vado da Napoli."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'A' si usa per città: vado a Napoli, a Roma, a Londra.",
+        "en": "Correct! 'A' is used for cities: vado a Napoli, a Roma, a Londra."
+      },
+      "feedbackErr": {
+        "it": "'A' per le città: vado a Napoli. 'In' per le regioni/paesi.",
+        "en": "'A' for cities: vado a Napoli. 'In' for regions/countries."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the coffee of Mario' in italiano?",
+        "en": "How do you say 'the coffee of Mario' in Italian?"
+      },
+      "opzioni": [
+        "il caffè a Mario",
+        "il caffè da Mario",
+        "il caffè di Mario",
+        "il caffè per Mario"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Di' per il possesso: il caffè di Mario.",
+        "en": "Correct! 'Di' for possession: il caffè di Mario."
+      },
+      "feedbackErr": {
+        "it": "Possesso → di: il caffè di Mario, la pizza di Sofia.",
+        "en": "Possession → di: il caffè di Mario, la pizza di Sofia."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I come from London' in italiano?",
+        "en": "How do you say 'I come from London' in Italian?"
+      },
+      "opzioni": [
+        "Vengo a Londra.",
+        "Vengo di Londra.",
+        "Vengo in Londra.",
+        "Vengo da Londra."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Da' per l'origine: vengo da Londra, da Roma, da Napoli.",
+        "en": "Correct! 'Da' for origin: vengo da Londra, da Roma, da Napoli."
+      },
+      "feedbackErr": {
+        "it": "Provenienza → da: vengo da Londra.",
+        "en": "Origin → da: vengo da Londra."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the book is on the table' in italiano?",
+        "en": "How do you say 'the book is on the table' in Italian?"
+      },
+      "opzioni": [
+        "Il libro è in il tavolo.",
+        "Il libro è nel tavolo.",
+        "Il libro è sul tavolo.",
+        "Il libro è al tavolo."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Su' + 'il' = 'sul': il libro è sul tavolo.",
+        "en": "Correct! 'Su' + 'il' = 'sul': il libro è sul tavolo."
+      },
+      "feedbackErr": {
+        "it": "Su+il=sul: il libro è sul tavolo. Preposizione articolata.",
+        "en": "Su+il=sul: il libro è sul tavolo. Articulated preposition."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'coffee with milk' in italiano?",
+        "en": "How do you say 'coffee with milk' in Italian?"
+      },
+      "opzioni": [
+        "caffè di latte",
+        "caffè a latte",
+        "caffè per latte",
+        "caffè con latte"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Con' per compagnia e composizione: caffè con latte.",
+        "en": "Correct! 'Con' for company and composition: caffè con latte."
+      },
+      "feedbackErr": {
+        "it": "Compagnia/composizione → con: caffè con latte, pasta con pomodoro.",
+        "en": "Company/composition → con: caffè con latte, pasta con pomodoro."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I study for the exam' in italiano?",
+        "en": "How do you say 'I study for the exam' in Italian?"
+      },
+      "opzioni": [
+        "Studio di l'esame.",
+        "Studio in l'esame.",
+        "Studio per l'esame.",
+        "Studio a l'esame."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Per' per lo scopo: studio per l'esame.",
+        "en": "Correct! 'Per' for purpose: studio per l'esame."
+      },
+      "feedbackErr": {
+        "it": "Scopo → per: studio per l'esame, parto per Napoli.",
+        "en": "Purpose → per: studio per l'esame, parto per Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I arrive in five minutes' in italiano?",
+        "en": "How do you say 'I arrive in five minutes' in Italian?"
+      },
+      "opzioni": [
+        "Arrivo in cinque minuti.",
+        "Arrivo per cinque minuti.",
+        "Arrivo di cinque minuti.",
+        "Arrivo tra cinque minuti."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Tra' per il tempo futuro: arrivo tra cinque minuti.",
+        "en": "Correct! 'Tra' for future time: arrivo tra cinque minuti."
+      },
+      "feedbackErr": {
+        "it": "Tempo futuro → tra: arrivo tra cinque minuti, torno tra un'ora.",
+        "en": "Future time → tra: arrivo tra cinque minuti, torno tra un'ora."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'at home' in italiano?",
+        "en": "How do you say 'at home' in Italian?"
+      },
+      "opzioni": [
+        "a casa",
+        "di casa",
+        "da casa",
+        "nella casa"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 'A casa' senza articolo — espressione fissa in italiano.",
+        "en": "Correct! 'A casa' without article — fixed expression in Italian."
+      },
+      "feedbackErr": {
+        "it": "A casa — espressione fissa. Non 'nella casa' o 'in casa' (anche in casa funziona).",
+        "en": "A casa — fixed expression. Not 'nella casa' (though 'in casa' also works)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I have been studying Italian for six months'?",
+        "en": "How do you say 'I have been studying Italian for six months'?"
+      },
+      "opzioni": [
+        "Studio italiano per sei mesi.",
+        "Studio italiano tra sei mesi.",
+        "Studio italiano da sei mesi.",
+        "Studio italiano in sei mesi."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Da' per durata dal passato: studio italiano da sei mesi.",
+        "en": "Correct! 'Da' for duration from the past: studio italiano da sei mesi."
+      },
+      "feedbackErr": {
+        "it": "Durata dal passato → da: studio da sei mesi, vivo a Napoli da tre anni.",
+        "en": "Duration from past → da: studio da sei mesi, vivo a Napoli da tre anni."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la preposizione articolata 'di + il'?",
+        "en": "What is the articulated preposition 'di + il'?"
+      },
+      "opzioni": [
+        "dil",
+        "della",
+        "dei",
+        "del"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! di + il = del: il caffè del bar, il libro del professore.",
+        "en": "Correct! di + il = del: il caffè del bar, il libro del professore."
+      },
+      "feedbackErr": {
+        "it": "di+il=del, di+la=della, di+i=dei, di+le=delle.",
+        "en": "di+il=del, di+la=della, di+i=dei, di+le=delle."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'by train' in italiano?",
+        "en": "How do you say 'by train' in Italian?"
+      },
+      "opzioni": [
+        "con treno",
+        "a treno",
+        "in treno",
+        "di treno"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Mezzo di trasporto → in: in treno, in macchina, in autobus.",
+        "en": "Correct! Means of transport → in: in treno, in macchina, in autobus."
+      },
+      "feedbackErr": {
+        "it": "Trasporto → in: in treno, in aereo, in barca. Eccezione: a piedi.",
+        "en": "Transport → in: in treno, in aereo, in barca. Exception: a piedi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'among friends' in italiano?",
+        "en": "How do you say 'among friends' in Italian?"
+      },
+      "opzioni": [
+        "con amici",
+        "per amici",
+        "di amici",
+        "tra amici"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Tra' per 'among/between': tra amici, tra noi.",
+        "en": "Correct! 'Tra' for 'among/between': tra amici, tra noi."
+      },
+      "feedbackErr": {
+        "it": "Among/between → tra (o fra): tra amici, fra colleghi.",
+        "en": "Among/between → tra (or fra): tra amici, fra colleghi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I go to Italy' in italiano?",
+        "en": "How do you say 'I go to Italy' in Italian?"
+      },
+      "opzioni": [
+        "Vado a Italia.",
+        "Vado da Italia.",
+        "Vado in Italia.",
+        "Vado di Italia."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'In' per paesi e regioni: vado in Italia, in Francia, in Campania.",
+        "en": "Correct! 'In' for countries and regions: vado in Italia, in Francia, in Campania."
+      },
+      "feedbackErr": {
+        "it": "Paesi e regioni → in: in Italia, in Francia. Città → a: a Napoli.",
+        "en": "Countries and regions → in: in Italia, in Francia. Cities → a: a Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la preposizione articolata 'a + il'?",
+        "en": "What is the articulated preposition 'a + il'?"
+      },
+      "opzioni": [
+        "ail",
+        "alla",
+        "al",
+        "agli"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! a + il = al: vado al bar, al ristorante, al mare.",
+        "en": "Correct! a + il = al: vado al bar, al ristorante, al mare."
+      },
+      "feedbackErr": {
+        "it": "a+il=al, a+la=alla, a+i=ai, a+gli=agli, a+le=alle.",
+        "en": "a+il=al, a+la=alla, a+i=ai, a+gli=agli, a+le=alle."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'a film about Naples' in italiano?",
+        "en": "How do you say 'a film about Naples' in Italian?"
+      },
+      "opzioni": [
+        "un film per Napoli",
+        "un film di Napoli",
+        "un film a Napoli",
+        "un film su Napoli"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Su' per argomento: un film su Napoli, un libro sul caffè.",
+        "en": "Correct! 'Su' for topic: un film su Napoli, un libro sul caffè."
+      },
+      "feedbackErr": {
+        "it": "Argomento → su: un film su Napoli, una lezione sull'italiano.",
+        "en": "Topic → su: un film su Napoli, una lezione sull'italiano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la preposizione articolata 'in + il'?",
+        "en": "What is the articulated preposition 'in + il'?"
+      },
+      "opzioni": [
+        "inl",
+        "nella",
+        "negli",
+        "nel"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! in + il = nel: il libro è nel cassetto, nel bar.",
+        "en": "Correct! in + il = nel: il libro è nel cassetto, nel bar."
+      },
+      "feedbackErr": {
+        "it": "in+il=nel, in+la=nella, in+i=nei, in+gli=negli, in+le=nelle.",
+        "en": "in+il=nel, in+la=nella, in+i=nei, in+gli=negli, in+le=nelle."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I write with a pen' in italiano?",
+        "en": "How do you say 'I write with a pen' in Italian?"
+      },
+      "opzioni": [
+        "Scrivo a penna.",
+        "Scrivo di penna.",
+        "Scrivo per penna.",
+        "Scrivo con la penna."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Con' per lo strumento: scrivo con la penna.",
+        "en": "Correct! 'Con' for instrument: scrivo con la penna."
+      },
+      "feedbackErr": {
+        "it": "Strumento → con: scrivo con la penna, taglio con il coltello.",
+        "en": "Instrument → con: scrivo con la penna, taglio con il coltello."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'at the bar' in italiano?",
+        "en": "How do you say 'at the bar' in Italian?"
+      },
+      "opzioni": [
+        "in il bar",
+        "di il bar",
+        "del bar",
+        "al bar"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! a + il = al: al bar, al ristorante, al mare.",
+        "en": "Correct! a + il = al: al bar, al ristorante, al mare."
+      },
+      "feedbackErr": {
+        "it": "a+il=al → al bar. Non 'a il bar'.",
+        "en": "a+il=al → al bar. Not 'a il bar'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'the book of the professor' in italiano?",
+        "en": "How do you say 'the book of the professor' in Italian?"
+      },
+      "opzioni": [
+        "il libro al professore",
+        "il libro da professore",
+        "il libro del professore",
+        "il libro per il professore"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! di + il = del: il libro del professore.",
+        "en": "Correct! di + il = del: il libro del professore."
+      },
+      "feedbackErr": {
+        "it": "Possesso + il → del: il libro del professore.",
+        "en": "Possession + il → del: il libro del professore."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I leave for Naples' in italiano?",
+        "en": "How do you say 'I leave for Naples' in Italian?"
+      },
+      "opzioni": [
+        "Parto a Napoli.",
+        "Parto da Napoli.",
+        "Parto in Napoli.",
+        "Parto per Napoli."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Destinazione → per: parto per Napoli, parto per l'Italia.",
+        "en": "Correct! Destination → per: parto per Napoli, parto per l'Italia."
+      },
+      "feedbackErr": {
+        "it": "Destinazione del viaggio → per: parto per Napoli.",
+        "en": "Travel destination → per: parto per Napoli."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si usa 'a' per le città e 'in' per i paesi.",
+        "en": "You use 'a' for cities and 'in' for countries."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A Napoli, a Roma, a Londra. In Italia, in Francia, in Inghilterra.",
+        "en": "Correct! A Napoli, a Roma, a Londra. In Italia, in Francia, in Inghilterra."
+      },
+      "feedbackErr": {
+        "it": "Vero! Città → a. Paesi e regioni → in.",
+        "en": "True! Cities → a. Countries and regions → in."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Di' si usa per indicare l'argomento di un libro o film.",
+        "en": "'Di' is used to indicate the topic of a book or film."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Per l'argomento si usa 'su': un film su Napoli, un libro sull'italiano.",
+        "en": "False! For topic you use 'su': un film su Napoli, un libro sull'italiano."
+      },
+      "feedbackErr": {
+        "it": "Falso! Argomento → su: un film su Napoli. 'Di' è per possesso.",
+        "en": "False! Topic → su: un film su Napoli. 'Di' is for possession."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Da' si usa per indicare sia l'origine che la durata.",
+        "en": "'Da' is used to indicate both origin and duration."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Vengo da Napoli (origine) + studio da sei mesi (durata).",
+        "en": "Correct! Vengo da Napoli (origin) + studio da sei mesi (duration)."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Da' ha due usi principali: origine e durata.",
+        "en": "True! 'Da' has two main uses: origin and duration."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "di+il=del, a+il=al, su+il=sul — queste sono preposizioni articolate.",
+        "en": "di+il=del, a+il=al, su+il=sul — these are articulated prepositions."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Le preposizioni si uniscono agli articoli formando un'unica parola.",
+        "en": "Correct! Prepositions combine with articles forming a single word."
+      },
+      "feedbackErr": {
+        "it": "Vero! Preposizione + articolo = preposizione articolata.",
+        "en": "True! Preposition + article = articulated preposition."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'vado a il bar' — corretto.",
+        "en": "You say 'vado a il bar' — correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! a+il=al → vado al bar. 'A il' non esiste in italiano.",
+        "en": "False! a+il=al → vado al bar. 'A il' doesn't exist in Italian."
+      },
+      "feedbackErr": {
+        "it": "Falso! a+il si uniscono sempre: al bar, non 'a il bar'.",
+        "en": "False! a+il always combine: al bar, not 'a il bar'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Tra' e 'fra' sono sinonimi in italiano.",
+        "en": "'Tra' and 'fra' are synonyms in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Tra e fra significano la stessa cosa — si scelgono per evitare ripetizioni di suono.",
+        "en": "Correct! Tra and fra mean the same thing — chosen to avoid sound repetition."
+      },
+      "feedbackErr": {
+        "it": "Vero! Tra amici = fra amici. Si alternano per eufonia.",
+        "en": "True! Tra amici = fra amici. They alternate for euphony."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Con' non forma preposizioni articolate con gli articoli.",
+        "en": "'Con' does not form articulated prepositions with articles."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Con rimane separato: con il, con la, con i (non 'col' in italiano moderno).",
+        "en": "Correct! Con stays separate: con il, con la, con i (not 'col' in modern Italian)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Con non si unisce agli articoli nell'italiano moderno standard.",
+        "en": "True! Con does not combine with articles in modern standard Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Studio italiano da sei mesi' usa 'da' per il passato continuato nel presente.",
+        "en": "'Studio italiano da sei mesi' uses 'da' for the past continuous in the present."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Da + presente = azione iniziata nel passato e ancora in corso.",
+        "en": "Correct! Da + present = action started in the past and still ongoing."
+      },
+      "feedbackErr": {
+        "it": "Vero! Presente + da = ho iniziato 6 mesi fa e continuo ancora.",
+        "en": "True! Present + da = started 6 months ago and still continuing."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Per' si usa sia per lo scopo che per la destinazione del viaggio.",
+        "en": "'Per' is used both for purpose and for travel destination."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Studio per l'esame (scopo) + parto per Napoli (destinazione).",
+        "en": "Correct! Studio per l'esame (purpose) + parto per Napoli (destination)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Per = scopo (studio per) + destinazione (parto per Napoli).",
+        "en": "True! Per = purpose (studio per) + destination (parto per Napoli)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si usa 'in' per i mezzi di trasporto: in treno, in aereo, in macchina.",
+        "en": "You use 'in' for means of transport: in treno, in aereo, in macchina."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Trasporto → in. Eccezione: a piedi, in bicicletta (anche 'in bici').",
+        "en": "Correct! Transport → in. Exception: a piedi, in bicicletta (also 'in bici')."
+      },
+      "feedbackErr": {
+        "it": "Vero! In treno, in aereo, in macchina. Eccezione: a piedi.",
+        "en": "True! In treno, in aereo, in macchina. Exception: a piedi."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Su' si usa sia per 'on top of' che per 'about'.",
+        "en": "'Su' is used both for 'on top of' and 'about'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Il libro è sul tavolo (on top) + un film su Napoli (about).",
+        "en": "Correct! Il libro è sul tavolo (on top) + un film su Napoli (about)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Su ha due usi: posizione (sul tavolo) e argomento (su Napoli).",
+        "en": "True! Su has two uses: position (sul tavolo) and topic (su Napoli)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Le preposizioni italiane si traducono sempre letteralmente in inglese.",
+        "en": "Italian prepositions always translate literally into English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! 'Da' può essere from/since/at/by. Le preposizioni non si traducono letteralmente.",
+        "en": "False! 'Da' can be from/since/at/by. Prepositions don't translate literally."
+      },
+      "feedbackErr": {
+        "it": "Falso! Le preposizioni sono la parte più imprevedibile — vanno imparate nel contesto.",
+        "en": "False! Prepositions are the most unpredictable part — they need to be learned in context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'A' si usa per indicare l'ora: sono le tre, ma a che ora?",
+        "en": "'A' is used to indicate the time: sono le tre, but at what time?"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! A che ora? A mezzogiorno. All'una. Alle tre.",
+        "en": "Correct! A che ora? A mezzogiorno. All'una. Alle tre."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ora → a: alle tre, a mezzogiorno, all'una.",
+        "en": "True! Time → a: alle tre, a mezzogiorno, all'una."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'In' si usa per stanze della casa: in cucina, in bagno, in camera.",
+        "en": "'In' is used for rooms in the house: in cucina, in bagno, in camera."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stanze → in: sono in cucina, in bagno, in salotto.",
+        "en": "Correct! Rooms → in: sono in cucina, in bagno, in salotto."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stanze della casa → in: in cucina, in bagno, in camera.",
+        "en": "True! Rooms of the house → in: in cucina, in bagno, in camera."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vado da Mario' significa 'I go to Mario's place'.",
+        "en": "'Vado da Mario' means 'I go to Mario's place'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Da' + persona = a casa di / dal medico / dall'amico.",
+        "en": "Correct! 'Da' + person = at someone's place / dal medico / dall'amico."
+      },
+      "feedbackErr": {
+        "it": "Vero! Da + persona = at their place: vado da Mario, vado dal dottore.",
+        "en": "True! Da + person = at their place: vado da Mario, vado dal dottore."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "si+la = 'sula' — la preposizione articolata di su+la.",
+        "en": "su+la = 'sula' — the articulated preposition of su+la."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! su+la=sulla: la pizza è sulla tavola. Non 'sula'.",
+        "en": "False! su+la=sulla: la pizza è sulla tavola. Not 'sula'."
+      },
+      "feedbackErr": {
+        "it": "Falso! su+la=sulla: la pizza è sulla tavola.",
+        "en": "False! su+la=sulla: la pizza è sulla tavola."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Per' non forma preposizioni articolate in italiano moderno.",
+        "en": "'Per' does not form articulated prepositions in modern Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Per rimane separato: per il, per la, per i (non 'pel' — arcaico).",
+        "en": "Correct! Per stays separate: per il, per la, per i (not 'pel' — archaic)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Per non si unisce agli articoli nell'italiano moderno.",
+        "en": "True! Per does not combine with articles in modern Italian."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vado ___ Napoli domani.",
+        "en": "Build: I am going ___ Naples tomorrow."
+      },
+      "parole": [
+        "Vado",
+        "a",
+        "Napoli",
+        "domani"
+      ],
+      "distrattori": [
+        "in",
+        "di",
+        "da"
+      ],
+      "correct": [
+        "Vado",
+        "a",
+        "Napoli",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Città → a: vado a Napoli.",
+        "en": "Perfect! City → a: vado a Napoli."
+      },
+      "feedbackErr": {
+        "it": "Città → a: vado a Napoli.",
+        "en": "City → a: vado a Napoli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il caffè ___ Mario è ottimo.",
+        "en": "Build: Mario's coffee is excellent."
+      },
+      "parole": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "distrattori": [
+        "a",
+        "da",
+        "per"
+      ],
+      "correct": [
+        "Il",
+        "caffè",
+        "di",
+        "Mario",
+        "è",
+        "ottimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Possesso → di: il caffè di Mario.",
+        "en": "Perfect! Possession → di: il caffè di Mario."
+      },
+      "feedbackErr": {
+        "it": "Possesso → di: il caffè di Mario.",
+        "en": "Possession → di: il caffè di Mario."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Studio italiano ___ sei mesi.",
+        "en": "Build: I have been studying Italian ___ six months."
+      },
+      "parole": [
+        "Studio",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "distrattori": [
+        "per",
+        "tra",
+        "in"
+      ],
+      "correct": [
+        "Studio",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Durata dal passato → da: studio da sei mesi.",
+        "en": "Perfect! Duration from past → da: studio da sei mesi."
+      },
+      "feedbackErr": {
+        "it": "Durata dal passato → da: studio italiano da sei mesi.",
+        "en": "Duration from past → da: studio italiano da sei mesi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il libro è ___ tavolo.",
+        "en": "Build: The book is ___ table."
+      },
+      "parole": [
+        "Il",
+        "libro",
+        "è",
+        "sul",
+        "tavolo"
+      ],
+      "distrattori": [
+        "su",
+        "al",
+        "del"
+      ],
+      "correct": [
+        "Il",
+        "libro",
+        "è",
+        "sul",
+        "tavolo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! su+il=sul: il libro è sul tavolo.",
+        "en": "Perfect! su+il=sul: il libro è sul tavolo."
+      },
+      "feedbackErr": {
+        "it": "su+il=sul → il libro è sul tavolo.",
+        "en": "su+il=sul → il libro è sul tavolo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vengo ___ Londra.",
+        "en": "Build: I come ___ London."
+      },
+      "parole": [
+        "Vengo",
+        "da",
+        "Londra"
+      ],
+      "distrattori": [
+        "di",
+        "a",
+        "per"
+      ],
+      "correct": [
+        "Vengo",
+        "da",
+        "Londra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Provenienza → da: vengo da Londra.",
+        "en": "Perfect! Origin → da: vengo da Londra."
+      },
+      "feedbackErr": {
+        "it": "Provenienza → da: vengo da Londra.",
+        "en": "Origin → da: vengo da Londra."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Parto ___ Napoli domani.",
+        "en": "Build: I leave ___ Naples tomorrow."
+      },
+      "parole": [
+        "Parto",
+        "per",
+        "Napoli",
+        "domani"
+      ],
+      "distrattori": [
+        "a",
+        "da",
+        "in"
+      ],
+      "correct": [
+        "Parto",
+        "per",
+        "Napoli",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Destinazione del viaggio → per: parto per Napoli.",
+        "en": "Perfect! Travel destination → per: parto per Napoli."
+      },
+      "feedbackErr": {
+        "it": "Destinazione → per: parto per Napoli.",
+        "en": "Destination → per: parto per Napoli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Arrivo ___ cinque minuti.",
+        "en": "Build: I arrive ___ five minutes."
+      },
+      "parole": [
+        "Arrivo",
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "distrattori": [
+        "per",
+        "da",
+        "in"
+      ],
+      "correct": [
+        "Arrivo",
+        "tra",
+        "cinque",
+        "minuti"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Tempo futuro → tra: arrivo tra cinque minuti.",
+        "en": "Perfect! Future time → tra: arrivo tra cinque minuti."
+      },
+      "feedbackErr": {
+        "it": "Tempo futuro → tra: arrivo tra cinque minuti.",
+        "en": "Future time → tra: arrivo tra cinque minuti."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vado ___ bar ogni mattina.",
+        "en": "Build: I go ___ bar every morning."
+      },
+      "parole": [
+        "Vado",
+        "al",
+        "bar",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "a",
+        "dal",
+        "nel"
+      ],
+      "correct": [
+        "Vado",
+        "al",
+        "bar",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! a+il=al: vado al bar.",
+        "en": "Perfect! a+il=al: vado al bar."
+      },
+      "feedbackErr": {
+        "it": "a+il=al → vado al bar.",
+        "en": "a+il=al → vado al bar."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: È un film ___ Napoli.",
+        "en": "Build: It is a film ___ Naples."
+      },
+      "parole": [
+        "È",
+        "un",
+        "film",
+        "su",
+        "Napoli"
+      ],
+      "distrattori": [
+        "di",
+        "a",
+        "per"
+      ],
+      "correct": [
+        "È",
+        "un",
+        "film",
+        "su",
+        "Napoli"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Argomento → su: un film su Napoli.",
+        "en": "Perfect! Topic → su: un film su Napoli."
+      },
+      "feedbackErr": {
+        "it": "Argomento → su: un film su Napoli.",
+        "en": "Topic → su: un film su Napoli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vado ___ Italia in agosto.",
+        "en": "Build: I go ___ Italy in August."
+      },
+      "parole": [
+        "Vado",
+        "in",
+        "Italia",
+        "in",
+        "agosto"
+      ],
+      "distrattori": [
+        "a",
+        "da",
+        "di"
+      ],
+      "correct": [
+        "Vado",
+        "in",
+        "Italia",
+        "in",
+        "agosto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Paese → in: vado in Italia.",
+        "en": "Perfect! Country → in: vado in Italia."
+      },
+      "feedbackErr": {
+        "it": "Paese → in: vado in Italia. Città → a: vado a Napoli.",
+        "en": "Country → in: vado in Italia. City → a: vado a Napoli."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Studio ___ l'esame di italiano.",
+        "en": "Build: I study ___ the Italian exam."
+      },
+      "parole": [
+        "Studio",
+        "per",
+        "l'esame",
+        "di",
+        "italiano"
+      ],
+      "distrattori": [
+        "da",
+        "a",
+        "su"
+      ],
+      "correct": [
+        "Studio",
+        "per",
+        "l'esame",
+        "di",
+        "italiano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Scopo → per: studio per l'esame.",
+        "en": "Perfect! Purpose → per: studio per l'esame."
+      },
+      "feedbackErr": {
+        "it": "Scopo → per: studio per l'esame.",
+        "en": "Purpose → per: studio per l'esame."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Vado ___ Mario stasera.",
+        "en": "Build: I go ___ Mario's place tonight."
+      },
+      "parole": [
+        "Vado",
+        "da",
+        "Mario",
+        "stasera"
+      ],
+      "distrattori": [
+        "a",
+        "di",
+        "per"
+      ],
+      "correct": [
+        "Vado",
+        "da",
+        "Mario",
+        "stasera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Da + persona = a casa di: vado da Mario.",
+        "en": "Perfect! Da + person = at their place: vado da Mario."
+      },
+      "feedbackErr": {
+        "it": "Da + persona = a casa di: vado da Mario.",
+        "en": "Da + person = at their place: vado da Mario."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Il libro ___ professore è sul tavolo.",
+        "en": "Build: The professor's book is on the table."
+      },
+      "parole": [
+        "Il",
+        "libro",
+        "del",
+        "professore",
+        "è",
+        "sul",
+        "tavolo"
+      ],
+      "distrattori": [
+        "di",
+        "al",
+        "dal"
+      ],
+      "correct": [
+        "Il",
+        "libro",
+        "del",
+        "professore",
+        "è",
+        "sul",
+        "tavolo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! di+il=del: il libro del professore.",
+        "en": "Perfect! di+il=del: il libro del professore."
+      },
+      "feedbackErr": {
+        "it": "di+il=del → il libro del professore.",
+        "en": "di+il=del → il libro del professore."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sono ___ cucina adesso.",
+        "en": "Build: I am ___ kitchen now."
+      },
+      "parole": [
+        "Sono",
+        "in",
+        "cucina",
+        "adesso"
+      ],
+      "distrattori": [
+        "a",
+        "da",
+        "su"
+      ],
+      "correct": [
+        "Sono",
+        "in",
+        "cucina",
+        "adesso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Stanze della casa → in: sono in cucina.",
+        "en": "Perfect! Rooms → in: sono in cucina."
+      },
+      "feedbackErr": {
+        "it": "Stanze → in: sono in cucina, in bagno, in salotto.",
+        "en": "Rooms → in: sono in cucina, in bagno, in salotto."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario parla ___ caffè napoletano.",
+        "en": "Build: Mario speaks ___ Neapolitan coffee."
+      },
+      "parole": [
+        "Mario",
+        "parla",
+        "del",
+        "caffè",
+        "napoletano"
+      ],
+      "distrattori": [
+        "di",
+        "al",
+        "sul"
+      ],
+      "correct": [
+        "Mario",
+        "parla",
+        "del",
+        "caffè",
+        "napoletano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Parlare di + il = del: parla del caffè.",
+        "en": "Perfect! Parlare di + il = del: parla del caffè."
+      },
+      "feedbackErr": {
+        "it": "Parlare di: parla del caffè (di+il=del).",
+        "en": "Parlare di: parla del caffè (di+il=del)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Viaggio ___ treno da Napoli a Roma.",
+        "en": "Build: I travel ___ train from Naples to Rome."
+      },
+      "parole": [
+        "Viaggio",
+        "in",
+        "treno",
+        "da",
+        "Napoli",
+        "a",
+        "Roma"
+      ],
+      "distrattori": [
+        "con",
+        "per",
+        "su"
+      ],
+      "correct": [
+        "Viaggio",
+        "in",
+        "treno",
+        "da",
+        "Napoli",
+        "a",
+        "Roma"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Trasporto → in treno. Provenienza → da Napoli. Destinazione → a Roma.",
+        "en": "Perfect! Transport → in treno. Origin → da Napoli. Destination → a Roma."
+      },
+      "feedbackErr": {
+        "it": "In treno (mezzo), da Napoli (partenza), a Roma (arrivo).",
+        "en": "In treno (means), da Napoli (departure), a Roma (arrival)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: La pizza ___ mozzarella è la migliore.",
+        "en": "Build: Pizza ___ mozzarella is the best."
+      },
+      "parole": [
+        "La",
+        "pizza",
+        "con",
+        "mozzarella",
+        "è",
+        "la",
+        "migliore"
+      ],
+      "distrattori": [
+        "di",
+        "a",
+        "per"
+      ],
+      "correct": [
+        "La",
+        "pizza",
+        "con",
+        "mozzarella",
+        "è",
+        "la",
+        "migliore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Composizione → con: pizza con mozzarella.",
+        "en": "Perfect! Composition → con: pizza con mozzarella."
+      },
+      "feedbackErr": {
+        "it": "Composizione → con: pizza con mozzarella, caffè con latte.",
+        "en": "Composition → con: pizza con mozzarella, caffè con latte."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Scrivo ___ penna rossa.",
+        "en": "Build: I write ___ a red pen."
+      },
+      "parole": [
+        "Scrivo",
+        "con",
+        "la",
+        "penna",
+        "rossa"
+      ],
+      "distrattori": [
+        "di",
+        "a",
+        "per"
+      ],
+      "correct": [
+        "Scrivo",
+        "con",
+        "la",
+        "penna",
+        "rossa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Strumento → con: scrivo con la penna.",
+        "en": "Perfect! Instrument → con: scrivo con la penna."
+      },
+      "feedbackErr": {
+        "it": "Strumento → con: scrivo con la penna.",
+        "en": "Instrument → con: scrivo con la penna."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Parlo ___ mio amico napoletano.",
+        "en": "Build: I speak ___ my Neapolitan friend."
+      },
+      "parole": [
+        "Parlo",
+        "con",
+        "il",
+        "mio",
+        "amico",
+        "napoletano"
+      ],
+      "distrattori": [
+        "di",
+        "a",
+        "da"
+      ],
+      "correct": [
+        "Parlo",
+        "con",
+        "il",
+        "mio",
+        "amico",
+        "napoletano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Compagnia → con: parlo con il mio amico.",
+        "en": "Perfect! Company → con: parlo con il mio amico."
+      },
+      "feedbackErr": {
+        "it": "Compagnia → con: parlo con il mio amico.",
+        "en": "Company → con: parlo con il mio amico."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La preposizione 'da' si usa per indicare il punto di partenza (provenienza).",
+        "en": "The preposition 'da' is used to indicate the starting point (origin)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Vengo da Londra', 'arrivo da Roma', 'da Milano a Napoli'. Da = punto di partenza.",
+        "en": "Correct! 'Vengo da Londra', 'arrivo da Roma', 'da Milano a Napoli'. Da = starting point."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Da' indica provenienza: vengo da Londra, arrivo da Roma.",
+        "en": "True! 'Da' indicates origin: vengo da Londra, arrivo da Roma."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Le preposizioni articolate si formano combinando TUTTE le preposizioni semplici con l'articolo.",
+        "en": "Articulated prepositions are formed by combining ALL simple prepositions with the article."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Con' e 'per' di solito NON formano preposizioni articolate (si dice 'con il', 'per la', non 'col' nella lingua standard moderna).",
+        "en": "Correct! 'Con' and 'per' do not usually form articulated prepositions (you say 'con il', 'per la', not 'col' in standard modern language)."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Con' e 'per' normalmente non si uniscono all'articolo. Si dice 'con il', 'per la' — non 'col', 'pella'.",
+        "en": "False! 'Con' and 'per' don't normally combine with the article. You say 'con il', 'per la' — not 'col', 'pella'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'In' + 'il' forma 'nel', e 'in' + 'la' forma 'nella'.",
+        "en": "'In' + 'il' forms 'nel', and 'in' + 'la' forms 'nella'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! in+il=nel, in+la=nella, in+lo=nello, in+l'=nell', in+i=nei, in+gli=negli, in+le=nelle.",
+        "en": "Correct! in+il=nel, in+la=nella, in+lo=nello, in+l'=nell', in+i=nei, in+gli=negli, in+le=nelle."
+      },
+      "feedbackErr": {
+        "it": "Vero! In+il=nel, in+la=nella. 'Nel bar di Mario', 'nella piazza'.",
+        "en": "True! In+il=nel, in+la=nella. 'Nel bar di Mario', 'nella piazza'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Studio italiano ___ sei mesi.",
+        "en": "Build: I have been studying Italian ___ six months."
+      },
+      "parole": [
+        "Studio",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "distrattori": [
+        "per",
+        "in",
+        "di"
+      ],
+      "correct": [
+        "Studio",
+        "italiano",
+        "da",
+        "sei",
+        "mesi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Azione che continua dal passato → 'da'. 'Studio italiano da sei mesi' = I have been studying for six months (e continuo).",
+        "en": "Perfect! Action continuing from the past → 'da'. 'Studio italiano da sei mesi' = I have been studying for six months (and still am)."
+      },
+      "feedbackErr": {
+        "it": "Azione che dura dal passato fino a ora → 'da' (non 'per'). 'Studio da sei mesi' = ongoing.",
+        "en": "Action lasting from the past until now → 'da' (not 'per'). 'Studio da sei mesi' = ongoing."
+      }
+    }
+  ]
+}

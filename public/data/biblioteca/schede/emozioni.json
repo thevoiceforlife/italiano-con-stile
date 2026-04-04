@@ -1,0 +1,1513 @@
+{
+  "id": "emozioni",
+  "categoria": "vocabolario",
+  "emoji": "😊😔",
+  "livello": "A2",
+  "titolo": {
+    "it": "Le Emozioni",
+    "en": "Emotions"
+  },
+  "mario": "Gli italiani esprimono le emozioni con tutto il corpo — le mani, gli occhi, la voce. Ma prima di gesticolare, devi sapere le parole. 'Mi sento' per gli stati interni, 'sono' per le caratteristiche, 'ho' per certe emozioni fisiche come paura e vergogna. Tre costruzioni diverse per la stessa idea in inglese. Ti spiego.",
+  "marioEn": "Italians express emotions with their whole body — hands, eyes, voice. But before gesticulating, you need to know the words. 'Mi sento' for internal states, 'sono' for characteristics, 'ho' for certain physical emotions like fear and shame. Three different constructions for the same idea in English. Let me explain.",
+  "perche": {
+    "it": "In inglese dici 'I am happy', 'I feel sad', 'I am afraid' — tutto con 'to be' o 'to feel'. In italiano hai tre costruzioni diverse: SONO (essere + aggettivo) per stati ed emozioni generali. MI SENTO (sentirsi) per come ti senti in un momento. HO (avere + sostantivo) per emozioni fisiche: ho paura, ho vergogna, ho nostalgia. Questa distinzione è fondamentale — sbagliare costruzione suona strano agli italiani.",
+    "en": "In English you say 'I am happy', 'I feel sad', 'I am afraid' — everything with 'to be' or 'to feel'. In Italian you have three different constructions: SONO (essere + adjective) for general states and emotions. MI SENTO (sentirsi) for how you feel at a moment. HO (avere + noun) for physical emotions: ho paura, ho vergogna, ho nostalgia. This distinction is fundamental — getting it wrong sounds strange to Italians."
+  },
+  "spiegazione": {
+    "it": "SONO + aggettivo: sono felice, sono triste, sono arrabbiato, sono sorpreso, sono stanco. MI SENTO + aggettivo: mi sento bene/male, mi sento solo, mi sento perso. HO + sostantivo: ho paura (I'm afraid), ho vergogna (I'm ashamed), ho nostalgia (I'm homesick/nostalgic), ho voglia di (I feel like), ho il morale basso (I'm feeling low). STARE: sto bene/male (health and current state).",
+    "en": "SONO + adjective: sono felice, sono triste, sono arrabbiato, sono sorpreso, sono stanco. MI SENTO + adjective: mi sento bene/male, mi sento solo, mi sento perso. HO + noun: ho paura (I'm afraid), ho vergogna (I'm ashamed), ho nostalgia (I'm homesick/nostalgic), ho voglia di (I feel like), ho il morale basso (I'm feeling low). STARE: sto bene/male (health and current state)."
+  },
+  "tabella": [
+    {
+      "emozione": "felice / contento/a",
+      "inglese": "happy",
+      "costruzione": "Sono felice.",
+      "nota": "felice = deep joy, contento = satisfied/content"
+    },
+    {
+      "emozione": "triste",
+      "inglese": "sad",
+      "costruzione": "Sono triste.",
+      "nota": "Mi sento triste = I feel sad (momentaneo)"
+    },
+    {
+      "emozione": "arrabbiato/a",
+      "inglese": "angry",
+      "costruzione": "Sono arrabbiato.",
+      "nota": "Anche: incazzato (volgare)"
+    },
+    {
+      "emozione": "spaventato/a / ho paura",
+      "inglese": "afraid / scared",
+      "costruzione": "Ho paura. / Sono spaventato.",
+      "nota": "Ho paura + di + infinito"
+    },
+    {
+      "emozione": "sorpreso/a / stupito/a",
+      "inglese": "surprised",
+      "costruzione": "Sono sorpreso.",
+      "nota": "Stupito = anche astonished"
+    },
+    {
+      "emozione": "annoiato/a",
+      "inglese": "bored",
+      "costruzione": "Sono annoiato.",
+      "nota": "Mi annoio = I'm getting bored"
+    },
+    {
+      "emozione": "stressato/a",
+      "inglese": "stressed",
+      "costruzione": "Sono stressato.",
+      "nota": "Molto comune nell'italiano moderno"
+    },
+    {
+      "emozione": "ho nostalgia",
+      "inglese": "I'm homesick / nostalgic",
+      "costruzione": "Ho nostalgia di casa.",
+      "nota": "Ho nostalgia = avere + sostantivo"
+    },
+    {
+      "emozione": "ho vergogna",
+      "inglese": "I'm ashamed / embarrassed",
+      "costruzione": "Ho vergogna.",
+      "nota": "Ho vergogna ≠ sono vergognoso (= shy)"
+    },
+    {
+      "emozione": "mi sento solo/a",
+      "inglese": "I feel lonely",
+      "costruzione": "Mi sento solo.",
+      "nota": "Solo = alone O lonely (contesto chiarisce)"
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Sono molto felice di essere a Napoli — finalmente!",
+      "en": "I'm very happy to be in Naples — finally!",
+      "audio": "Sono molto felice di essere a Napoli."
+    },
+    {
+      "it": "Mi sento un po' triste oggi, non so perché.",
+      "en": "I feel a bit sad today, I don't know why.",
+      "audio": "Mi sento un po' triste oggi."
+    },
+    {
+      "it": "Ho paura di parlare italiano con i madrelingua.",
+      "en": "I'm afraid to speak Italian with native speakers.",
+      "audio": "Ho paura di parlare italiano con i madrelingua."
+    },
+    {
+      "it": "Mario è arrabbiato — qualcuno ha finito il caffè.",
+      "en": "Mario is angry — someone finished the coffee.",
+      "audio": "Mario è arrabbiato — qualcuno ha finito il caffè."
+    },
+    {
+      "it": "Ho nostalgia della pizza di mia madre.",
+      "en": "I'm nostalgic for my mother's pizza.",
+      "audio": "Ho nostalgia della pizza di mia madre."
+    }
+  ],
+  "nota": {
+    "it": "💡 'Solo' è ambiguo: può significare 'alone' (fisicamente da solo) o 'lonely' (emozione di solitudine). 'Sono solo' = I am alone / I am lonely. Il contesto chiarisce. Per essere più precisi: 'mi sento solo' = I feel lonely (emozione). 'Sono da solo' = I am alone (fisicamente). Distinzione sottile ma utile.",
+    "en": "💡 'Solo' is ambiguous: it can mean 'alone' (physically by oneself) or 'lonely' (the emotion). 'Sono solo' = I am alone / I am lonely. Context clarifies. For precision: 'mi sento solo' = I feel lonely (emotion). 'Sono da solo' = I am alone (physically). A subtle but useful distinction."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm afraid' usando 'avere' in italiano?",
+        "en": "How do you say 'I'm afraid' using 'avere' in Italian?"
+      },
+      "opzioni": [
+        "Sono paura.",
+        "Mi sento paura.",
+        "Ho paura.",
+        "Faccio paura."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Ho paura = I'm afraid. Avere + paura. 'Ho paura dei ragni' = I'm afraid of spiders.",
+        "en": "Correct! Ho paura = I'm afraid. Avere + paura. 'Ho paura dei ragni' = I'm afraid of spiders."
+      },
+      "feedbackErr": {
+        "it": "I'm afraid = HO PAURA (avere + sostantivo). Non 'sono paura'.",
+        "en": "I'm afraid = HO PAURA (avere + noun). Not 'sono paura'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la differenza tra 'felice' e 'contento'?",
+        "en": "What is the difference between 'felice' and 'contento'?"
+      },
+      "opzioni": [
+        "Sono sinonimi perfetti",
+        "Felice = deep joy/happiness. Contento = satisfied/content",
+        "Contento = più intenso di felice",
+        "Felice si usa solo per bambini"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Felice = deep joy (I'm happy). Contento = satisfied, content (I'm pleased/OK with it). 'Sono felice di vivere qui' vs 'Sono contento del risultato'.",
+        "en": "Correct! Felice = deep joy (I'm happy). Contento = satisfied, content (I'm pleased/OK with it). 'Sono felice di vivere qui' vs 'Sono contento del risultato'."
+      },
+      "feedbackErr": {
+        "it": "Felice = deep joy. Contento = satisfied/content. Sfumatura importante in italiano.",
+        "en": "Felice = deep joy. Contento = satisfied/content. Important nuance in Italian."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I feel lonely' in italiano?",
+        "en": "How do you say 'I feel lonely' in Italian?"
+      },
+      "opzioni": [
+        "Sono solo.",
+        "Mi sento solo.",
+        "Ho solitudine.",
+        "Sono solitario."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi sento solo' = I feel lonely (emozione). 'Sono solo' può significare also I am alone (fisicamente).",
+        "en": "Correct! 'Mi sento solo' = I feel lonely (emotion). 'Sono solo' can also mean I am alone (physically)."
+      },
+      "feedbackErr": {
+        "it": "'Mi sento solo' = I feel lonely (emozione). 'Sono da solo' = I am alone (fisicamente). Distinzione utile.",
+        "en": "'Mi sento solo' = I feel lonely (emotion). 'Sono da solo' = I am alone (physically). Useful distinction."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm ashamed' usando 'avere' in italiano?",
+        "en": "How do you say 'I'm ashamed' using 'avere' in Italian?"
+      },
+      "opzioni": [
+        "Sono vergognoso.",
+        "Mi vergogno.",
+        "Ho vergogna.",
+        "Sono imbarazzato."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Ho vergogna = I'm ashamed. Anche 'mi vergogno' è corretto. 'Sono vergognoso' = I'm a shy person (caratteristica).",
+        "en": "Correct! Ho vergogna = I'm ashamed. Also 'mi vergogno' is correct. 'Sono vergognoso' = I'm a shy person (characteristic)."
+      },
+      "feedbackErr": {
+        "it": "Ho vergogna = I'm ashamed/embarrassed. Mi vergogno = anche corretto. Avere + vergogna.",
+        "en": "Ho vergogna = I'm ashamed/embarrassed. Mi vergogno = also correct. Avere + vergogna."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale costruzione si usa per 'I feel like eating pizza'?",
+        "en": "Which construction is used for 'I feel like eating pizza'?"
+      },
+      "opzioni": [
+        "Sono voglia di pizza.",
+        "Ho voglia di pizza.",
+        "Mi sento pizza.",
+        "Voglio pizza adesso."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ho voglia di + infinito/nome = I feel like. 'Ho voglia di mangiare la pizza' = I feel like eating pizza.",
+        "en": "Correct! Ho voglia di + infinitive/noun = I feel like. 'Ho voglia di mangiare la pizza' = I feel like eating pizza."
+      },
+      "feedbackErr": {
+        "it": "I feel like = HO VOGLIA DI + infinito. 'Ho voglia di mangiare la pizza.'",
+        "en": "I feel like = HO VOGLIA DI + infinitive. 'Ho voglia di mangiare la pizza.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm homesick' in italiano?",
+        "en": "How do you say 'I'm homesick' in Italian?"
+      },
+      "opzioni": [
+        "Sono malato di casa.",
+        "Ho nostalgia di casa.",
+        "Mi sento casa.",
+        "Sono nostalgico di casa."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ho nostalgia di casa = I'm homesick. Avere + nostalgia + di + luogo/persona.",
+        "en": "Correct! Ho nostalgia di casa = I'm homesick. Avere + nostalgia + di + place/person."
+      },
+      "feedbackErr": {
+        "it": "Homesick = HO NOSTALGIA DI CASA. Avere + nostalgia è la costruzione corretta.",
+        "en": "Homesick = HO NOSTALGIA DI CASA. Avere + nostalgia is the correct construction."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si esprime lo stato di salute momentaneo 'I'm fine' in italiano?",
+        "en": "How do you express the momentary health state 'I'm fine' in Italian?"
+      },
+      "opzioni": [
+        "Sono bene.",
+        "Mi sento bene / Sto bene.",
+        "Ho bene.",
+        "Vado bene."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Sto bene' (stare) o 'mi sento bene' per lo stato momentaneo di salute. 'Sono bene' non è corretto.",
+        "en": "Correct! 'Sto bene' (stare) or 'mi sento bene' for momentary health state. 'Sono bene' is not correct."
+      },
+      "feedbackErr": {
+        "it": "'Sto bene' o 'mi sento bene' = I'm fine. Non 'sono bene' — stare si usa per la salute momentanea.",
+        "en": "'Sto bene' or 'mi sento bene' = I'm fine. Not 'sono bene' — stare is used for momentary health."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Sono arrabbiato' significa…?",
+        "en": "'Sono arrabbiato' means…?"
+      },
+      "opzioni": [
+        "I'm sad",
+        "I'm bored",
+        "I'm angry",
+        "I'm tired"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Arrabbiato = angry. 'Mario è arrabbiato con me' = Mario is angry with me.",
+        "en": "Correct! Arrabbiato = angry. 'Mario è arrabbiato con me' = Mario is angry with me."
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry. Triste = sad. Annoiato = bored. Stanco = tired.",
+        "en": "Arrabbiato = angry. Triste = sad. Annoiato = bored. Stanco = tired."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm surprised' in italiano?",
+        "en": "How do you say 'I'm surprised' in Italian?"
+      },
+      "opzioni": [
+        "Ho sorpresa.",
+        "Sono sorpreso.",
+        "Mi sento strano.",
+        "Sono sbalordito (solo per extreme)"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sono sorpreso = I'm surprised. Anche: sono stupito (astonished), sbalordito (flabbergasted).",
+        "en": "Correct! Sono sorpreso = I'm surprised. Also: sono stupito (astonished), sbalordito (flabbergasted)."
+      },
+      "feedbackErr": {
+        "it": "I'm surprised = sono sorpreso. Sono stupito = I'm astonished. Avere non si usa con sorpresa.",
+        "en": "I'm surprised = sono sorpreso. Sono stupito = I'm astonished. Avere is not used with sorpresa."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Mi annoio' significa…?",
+        "en": "'Mi annoio' means…?"
+      },
+      "opzioni": [
+        "I'm boring (to others)",
+        "I'm getting bored / I'm bored",
+        "I'm annoyed",
+        "I'm lonely"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Mi annoio = I'm bored / I'm getting bored. Sono annoiato = I'm bored (stato). Mi annoio = processo in corso.",
+        "en": "Correct! Mi annoio = I'm bored / I'm getting bored. Sono annoiato = I'm bored (state). Mi annoio = ongoing process."
+      },
+      "feedbackErr": {
+        "it": "Mi annoio = I'm bored. Sono annoiato = I'm bored (stato). Attenzione: I'm boring = sono noioso!",
+        "en": "Mi annoio = I'm bored. Sono annoiato = I'm bored (state). Note: I'm boring = sono noioso!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è corretta per esprimere gelosia?",
+        "en": "Which sentence is correct to express jealousy?"
+      },
+      "opzioni": [
+        "Ho gelosia.",
+        "Sono geloso.",
+        "Mi sento geloso.",
+        "Sia (b) che (c) sono corrette."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Sono geloso' (essere + aggettivo) e 'mi sento geloso' (sentirsi + aggettivo) sono entrambe corrette.",
+        "en": "Correct! 'Sono geloso' (essere + adjective) and 'mi sento geloso' (sentirsi + adjective) are both correct."
+      },
+      "feedbackErr": {
+        "it": "Sono geloso O mi sento geloso — entrambe corrette. 'Ho gelosia' è meno comune.",
+        "en": "Sono geloso OR mi sento geloso — both correct. 'Ho gelosia' is less common."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si esprime l'imbarazzo in italiano?",
+        "en": "How is embarrassment expressed in Italian?"
+      },
+      "opzioni": [
+        "Sono imbarazzato / Ho imbarazzo",
+        "Ho imbarazzo solo",
+        "Sono rosso",
+        "Mi imbarazzo"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Sono imbarazzato (aggettivo) e ho imbarazzo (sostantivo) — entrambe comuni. 'Che imbarazzo!' = How embarrassing!",
+        "en": "Correct! Sono imbarazzato (adjective) and ho imbarazzo (noun) — both common. 'Che imbarazzo!' = How embarrassing!"
+      },
+      "feedbackErr": {
+        "it": "Sono imbarazzato = I'm embarrassed. Ho imbarazzo = I'm embarrassed. Entrambe corrette.",
+        "en": "Sono imbarazzato = I'm embarrassed. Ho imbarazzo = I'm embarrassed. Both correct."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Che peccato!' si usa per esprimere…?",
+        "en": "'Che peccato!' is used to express…?"
+      },
+      "opzioni": [
+        "Anger",
+        "What a sin! (religious)",
+        "What a shame! / What a pity!",
+        "Surprise"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Che peccato!' = What a shame! / What a pity! Non ha connotazione religiosa nel parlato quotidiano.",
+        "en": "Correct! 'Che peccato!' = What a shame! / What a pity! No religious connotation in everyday speech."
+      },
+      "feedbackErr": {
+        "it": "'Che peccato!' = What a pity! / What a shame! Non è religioso nel parlato comune.",
+        "en": "'Che peccato!' = What a pity! / What a shame! Not religious in common speech."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm stressed' in italiano?",
+        "en": "How do you say 'I'm stressed' in Italian?"
+      },
+      "opzioni": [
+        "Ho stress.",
+        "Sono stressato.",
+        "Mi sento stressante.",
+        "Faccio stress."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sono stressato (m.) / stressata (f.) = I'm stressed. Molto comune nell'italiano moderno.",
+        "en": "Correct! Sono stressato (m.) / stressata (f.) = I'm stressed. Very common in modern Italian."
+      },
+      "feedbackErr": {
+        "it": "I'm stressed = sono stressato/a. Non 'ho stress' nella costruzione standard.",
+        "en": "I'm stressed = sono stressato/a. Not 'ho stress' in standard construction."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Hai un bell'umore oggi' significa…?",
+        "en": "'Hai un bell'umore oggi' means…?"
+      },
+      "opzioni": [
+        "You're in a bad mood today",
+        "You're in a good mood today",
+        "You're funny today",
+        "You look beautiful today"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Bell'umore = good mood. Cattivo umore / brutto umore = bad mood. 'Umore' = mood.",
+        "en": "Correct! Bell'umore = good mood. Cattivo umore / brutto umore = bad mood. 'Umore' = mood."
+      },
+      "feedbackErr": {
+        "it": "Bell'umore = good mood. Cattivo umore / brutto umore = bad mood. 'Sei di buon umore' = you're in a good mood.",
+        "en": "Bell'umore = good mood. Cattivo umore / brutto umore = bad mood. 'Sei di buon umore' = you're in a good mood."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I feel like crying' in italiano?",
+        "en": "How do you say 'I feel like crying' in Italian?"
+      },
+      "opzioni": [
+        "Sono piangente.",
+        "Ho voglia di piangere.",
+        "Mi sento da piangere.",
+        "Piango quasi."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ho voglia di + infinito = I feel like. 'Ho voglia di piangere' = I feel like crying.",
+        "en": "Correct! Ho voglia di + infinitive = I feel like. 'Ho voglia di piangere' = I feel like crying."
+      },
+      "feedbackErr": {
+        "it": "I feel like + infinito = ho voglia di + infinito. 'Ho voglia di piangere.'",
+        "en": "I feel like + infinitive = ho voglia di + infinitive. 'Ho voglia di piangere.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Essere di cattivo umore' significa…?",
+        "en": "'Essere di cattivo umore' means…?"
+      },
+      "opzioni": [
+        "To be in a good mood",
+        "To be grumpy / in a bad mood",
+        "To have a bad character",
+        "To be rude"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Di cattivo umore = in a bad mood. Di buon umore = in a good mood. 'Oggi sono di cattivo umore — non parlarmi.'",
+        "en": "Correct! Di cattivo umore = in a bad mood. Di buon umore = in a good mood. 'Oggi sono di cattivo umore — non parlarmi.'"
+      },
+      "feedbackErr": {
+        "it": "Di cattivo umore = bad mood. Di buon umore = good mood. 'Sono di cattivo umore oggi.'",
+        "en": "Di cattivo umore = bad mood. Di buon umore = good mood. 'Sono di cattivo umore oggi.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm relieved' in italiano?",
+        "en": "How do you say 'I'm relieved' in Italian?"
+      },
+      "opzioni": [
+        "Sono sollevato.",
+        "Ho sollievo.",
+        "Mi sento alleggerito.",
+        "Sia (a) che (b) sono corrette."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Sono sollevato (essere + aggettivo) e ho sollievo (avere + sostantivo) — entrambe corrette. 'Che sollievo!' = What a relief!",
+        "en": "Correct! Sono sollevato (essere + adjective) and ho sollievo (avere + noun) — both correct. 'Che sollievo!' = What a relief!"
+      },
+      "feedbackErr": {
+        "it": "Sono sollevato E ho sollievo — entrambe corrette. 'Che sollievo!' = What a relief!",
+        "en": "Sono sollevato AND ho sollievo — both correct. 'Che sollievo!' = What a relief!"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'Ho il morale basso' significa…?",
+        "en": "'Ho il morale basso' means…?"
+      },
+      "opzioni": [
+        "I'm in a bad mood",
+        "I'm feeling down / my morale is low",
+        "I'm depressed (clinically)",
+        "I'm tired"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Ho il morale basso = I'm feeling down / my spirits are low. Meno clinico di 'sono depresso'.",
+        "en": "Correct! Ho il morale basso = I'm feeling down / my spirits are low. Less clinical than 'sono depresso'."
+      },
+      "feedbackErr": {
+        "it": "Ho il morale basso = feeling down / low spirits. Ho il morale alto = feeling up / spirits are high.",
+        "en": "Ho il morale basso = feeling down / low spirits. Ho il morale alto = feeling up / spirits are high."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'm worried' in italiano?",
+        "en": "How do you say 'I'm worried' in Italian?"
+      },
+      "opzioni": [
+        "Ho preoccupazione.",
+        "Sono preoccupato.",
+        "Mi sento preoccupante.",
+        "Faccio preoccupazione."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Sono preoccupato (m.) / preoccupata (f.) = I'm worried. 'Sono molto preoccupato per Mario.'",
+        "en": "Correct! Sono preoccupato (m.) / preoccupata (f.) = I'm worried. 'Sono molto preoccupato per Mario.'"
+      },
+      "feedbackErr": {
+        "it": "I'm worried = sono preoccupato/a. Essere + aggettivo. 'Sono molto preoccupato.'",
+        "en": "I'm worried = sono preoccupato/a. Essere + adjective. 'Sono molto preoccupato.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho paura' è la costruzione corretta per 'I'm afraid' in italiano.",
+        "en": "'Ho paura' is the correct construction for 'I'm afraid' in Italian."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ho paura = avere + sostantivo. 'Ho paura dei cani.' Non 'sono paura'.",
+        "en": "Correct! Ho paura = avere + noun. 'Ho paura dei cani.' Not 'sono paura'."
+      },
+      "feedbackErr": {
+        "it": "Vero! I'm afraid = HO PAURA (avere + paura). 'Ho paura degli esami.'",
+        "en": "True! I'm afraid = HO PAURA (avere + paura). 'Ho paura degli esami.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono bene' è il modo corretto di dire 'I'm fine' in italiano.",
+        "en": "'Sono bene' is the correct way to say 'I'm fine' in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Sono bene' non è corretto. Si dice 'STO bene' (stare per la salute) o 'mi sento bene'. 'Sono bene' è un errore tipico degli anglofoni.",
+        "en": "Correct! 'Sono bene' is not correct. You say 'STO bene' (stare for health) or 'mi sento bene'. 'Sono bene' is a typical error for English speakers."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Sono bene' non è corretto. Si dice 'Sto bene' o 'mi sento bene'. Stare si usa per la salute.",
+        "en": "FALSE! 'Sono bene' is not correct. Say 'Sto bene' or 'mi sento bene'. Stare is used for health."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Felice' e 'contento' hanno esattamente lo stesso significato.",
+        "en": "'Felice' and 'contento' have exactly the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Sfumatura diversa: felice = deep joy/happiness. Contento = satisfied/content. 'Sono felice' (profondo) vs 'sono contento del risultato' (soddisfatto).",
+        "en": "Correct! Different nuance: felice = deep joy/happiness. Contento = satisfied/content. 'Sono felice' (deep) vs 'sono contento del risultato' (satisfied)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Sfumatura: felice = gioia profonda. Contento = soddisfatto. 'Sono contento' è meno intenso di 'sono felice'.",
+        "en": "FALSE! Nuance: felice = deep joy. Contento = satisfied. 'Sono contento' is less intense than 'sono felice'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho voglia di' + infinito = 'I feel like' in inglese.",
+        "en": "'Ho voglia di' + infinitive = 'I feel like' in English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ho voglia di mangiare = I feel like eating. Ho voglia di dormire = I feel like sleeping. Avere + voglia + di + infinito.",
+        "en": "Correct! Ho voglia di mangiare = I feel like eating. Ho voglia di dormire = I feel like sleeping. Avere + voglia + di + infinitive."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ho voglia di + infinito = I feel like. 'Ho voglia di mangiare la pizza.'",
+        "en": "True! Ho voglia di + infinitive = I feel like. 'Ho voglia di mangiare la pizza.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mi sento' e 'sono' si possono sempre usare indifferentemente con le emozioni.",
+        "en": "'Mi sento' and 'sono' can always be used interchangeably with emotions."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Sono = caratteristica o stato generale. Mi sento = come mi sento in questo momento. 'Sono triste' (in generale) vs 'mi sento triste oggi' (momentaneo).",
+        "en": "Correct! Sono = characteristic or general state. Mi sento = how I feel at this moment. 'Sono triste' (in general) vs 'mi sento triste oggi' (momentary)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Sono = stato/caratteristica. Mi sento = emozione momentanea. Distinzione sottile ma reale.",
+        "en": "FALSE! Sono = state/characteristic. Mi sento = momentary emotion. Subtle but real distinction."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Solo' in italiano può significare sia 'alone' che 'lonely'.",
+        "en": "'Solo' in Italian can mean both 'alone' and 'lonely'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Solo è ambiguo. 'Sono da solo' = I am alone (fisicamente). 'Mi sento solo' = I feel lonely (emotivamente). Contesto chiarisce.",
+        "en": "Correct! Solo is ambiguous. 'Sono da solo' = I am alone (physically). 'Mi sento solo' = I feel lonely (emotionally). Context clarifies."
+      },
+      "feedbackErr": {
+        "it": "Vero! Solo = alone O lonely. 'Sono da solo' (fisico) vs 'mi sento solo' (emotivo).",
+        "en": "True! Solo = alone OR lonely. 'Sono da solo' (physical) vs 'mi sento solo' (emotional)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho nostalgia' è la costruzione corretta per 'I'm nostalgic/homesick'.",
+        "en": "'Ho nostalgia' is the correct construction for 'I'm nostalgic/homesick'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ho nostalgia di + luogo/persona/cosa. 'Ho nostalgia di casa' = I'm homesick.",
+        "en": "Correct! Ho nostalgia di + place/person/thing. 'Ho nostalgia di casa' = I'm homesick."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ho nostalgia di casa = I'm homesick. Avere + nostalgia è la costruzione corretta.",
+        "en": "True! Ho nostalgia di casa = I'm homesick. Avere + nostalgia is the correct construction."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono annoiato' e 'sono noioso' significano la stessa cosa.",
+        "en": "'Sono annoiato' and 'sono noioso' mean the same thing."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Sono annoiato = I'm bored (sto provando noia). Sono noioso = I'm boring (gli altri si annoiano con me). Distinzione fondamentale!",
+        "en": "Correct! Sono annoiato = I'm bored (I'm experiencing boredom). Sono noioso = I'm boring (others are bored with me). Fundamental distinction!"
+      },
+      "feedbackErr": {
+        "it": "FALSO! Annoiato = bored (sto soffrendo di noia). Noioso = boring (do noia agli altri). Opposti!",
+        "en": "FALSE! Annoiato = bored (I'm experiencing boredom). Noioso = boring (I bore others). Opposites!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Stressato' è una parola recente nell'italiano moderno, derivata dall'inglese.",
+        "en": "'Stressato' is a recent word in modern Italian, derived from English."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Stressato viene dall'inglese 'stressed'. È molto comune nell'italiano contemporaneo.",
+        "en": "Correct! Stressato comes from the English 'stressed'. It's very common in contemporary Italian."
+      },
+      "feedbackErr": {
+        "it": "Vero! Stressato = italianizzazione di 'stressed'. Molto usato nell'italiano moderno.",
+        "en": "True! Stressato = Italianisation of 'stressed'. Very used in modern Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Che peccato!' ha sempre una connotazione religiosa in italiano.",
+        "en": "'Che peccato!' always has a religious connotation in Italian."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Nel parlato quotidiano 'Che peccato!' = What a shame/pity! Non è religioso. 'Peccato' ha perso la connotazione religiosa in questo uso.",
+        "en": "Correct! In everyday speech 'Che peccato!' = What a shame/pity! It's not religious. 'Peccato' has lost its religious connotation in this use."
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Che peccato!' nel parlato = What a pity! Nessuna connotazione religiosa nell'uso quotidiano.",
+        "en": "FALSE! 'Che peccato!' in speech = What a pity! No religious connotation in everyday use."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho vergogna' e 'mi vergogno' hanno lo stesso significato.",
+        "en": "'Ho vergogna' and 'mi vergogno' have the same meaning."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Ho vergogna = mi vergogno = I'm ashamed/embarrassed. Due costruzioni diverse, stesso significato.",
+        "en": "Correct! Ho vergogna = mi vergogno = I'm ashamed/embarrassed. Two different constructions, same meaning."
+      },
+      "feedbackErr": {
+        "it": "Vero! Ho vergogna = mi vergogno = I'm ashamed. Due modi equivalenti.",
+        "en": "True! Ho vergogna = mi vergogno = I'm ashamed. Two equivalent ways."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono preoccupato' è più formale di 'mi preoccupo'.",
+        "en": "'Sono preoccupato' is more formal than 'mi preoccupo'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Non è questione di formalità ma di sfumatura: sono preoccupato = I'm (currently) worried (stato). Mi preoccupo = I worry (tendenza/abitudine).",
+        "en": "Correct! It's not a question of formality but nuance: sono preoccupato = I'm (currently) worried (state). Mi preoccupo = I worry (tendency/habit)."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Non è questione di formalità: sono preoccupato = stato attuale. Mi preoccupo = tendenza/abitudine.",
+        "en": "FALSE! Not a formality issue: sono preoccupato = current state. Mi preoccupo = tendency/habit."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sono di buon umore' e 'sono di cattivo umore' descrivono lo stato d'umore.",
+        "en": "'Sono di buon umore' and 'sono di cattivo umore' describe the mood state."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Di buon umore = in a good mood. Di cattivo umore = in a bad mood. 'Umore' = mood in italiano.",
+        "en": "Correct! Di buon umore = in a good mood. Di cattivo umore = in a bad mood. 'Umore' = mood in Italian."
+      },
+      "feedbackErr": {
+        "it": "Vero! Buon umore = good mood. Cattivo umore = bad mood. 'Sei di buon umore oggi!'",
+        "en": "True! Buon umore = good mood. Cattivo umore = bad mood. 'Sei di buon umore oggi!'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ho il morale basso' è clinicamente equivalente a 'sono depresso'.",
+        "en": "'Ho il morale basso' is clinically equivalent to 'sono depresso'."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Ho il morale basso = feeling down (espressione comune, non clinica). Sono depresso = I'm depressed (può avere connotazione medica). Sono diversi.",
+        "en": "Correct! Ho il morale basso = feeling down (common, non-clinical expression). Sono depresso = I'm depressed (can have medical connotation). They are different."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Morale basso = feeling down (non clinico). Depresso = può indicare depressione clinica. Diversi per intensità.",
+        "en": "FALSE! Morale basso = feeling down (non-clinical). Depresso = can indicate clinical depression. Different in intensity."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mi sento perso' può significare sia fisicamente che emotivamente 'lost'.",
+        "en": "'Mi sento perso' can mean both physically and emotionally 'lost'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Mi sento perso = I feel lost (fisicamente: non trovo la strada. Emotivamente: non so cosa fare nella vita).",
+        "en": "Correct! Mi sento perso = I feel lost (physically: I can't find my way. Emotionally: I don't know what to do in life)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Mi sento perso = lost fisicamente (non trovo la strada) O emotivamente (sono confuso nella vita).",
+        "en": "True! Mi sento perso = lost physically (can't find the way) OR emotionally (confused in life)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Geloso' in italiano può riferirsi sia alla gelosia romantica che all'invidia.",
+        "en": "'Geloso' in Italian can refer to both romantic jealousy and envy."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Geloso copre sia jealousy (romantica) che envy (invidia per ciò che gli altri hanno). 'Sono geloso del suo successo' = I'm envious of his success.",
+        "en": "Correct! Geloso covers both jealousy (romantic) and envy (for what others have). 'Sono geloso del suo successo' = I'm envious of his success."
+      },
+      "feedbackErr": {
+        "it": "Vero! Geloso = jealousy romantica E envy (invidia). 'Sono geloso del suo successo.'",
+        "en": "True! Geloso = romantic jealousy AND envy. 'Sono geloso del suo successo.'"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Emozionato' in italiano significa sempre 'emotional' nel senso negativo.",
+        "en": "'Emozionato' in Italian always means 'emotional' in a negative sense."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Emozionato = moved / excited (positivo o neutro). 'Sono molto emozionato per il matrimonio' = I'm very excited/moved about the wedding. Non è necessariamente negativo.",
+        "en": "Correct! Emozionato = moved / excited (positive or neutral). 'Sono molto emozionato per il matrimonio' = I'm very excited/moved about the wedding. Not necessarily negative."
+      },
+      "feedbackErr": {
+        "it": "FALSO! Emozionato = excited/moved, spesso positivo. 'Sono emozionato per il concerto!' = I'm excited for the concert!",
+        "en": "FALSE! Emozionato = excited/moved, often positive. 'Sono emozionato per il concerto!' = I'm excited for the concert!"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Eccitato' in italiano si usa liberamente per dire 'I'm excited' come in inglese.",
+        "en": "'Eccitato' in Italian is used freely to say 'I'm excited' as in English."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "ATTENZIONE! 'Eccitato' in italiano ha spesso connotazione sessuale. Per 'I'm excited' usare: sono entusiasta, sono emozionato, sono su di giri. Evitare 'eccitato' in contesti neutri!",
+        "en": "CAREFUL! 'Eccitato' in Italian often has a sexual connotation. For 'I'm excited' use: sono entusiasta, sono emozionato, sono su di giri. Avoid 'eccitato' in neutral contexts!"
+      },
+      "feedbackErr": {
+        "it": "FALSO! 'Eccitato' ha spesso connotazione sessuale. Per excited → emozionato, entusiasta, su di giri.",
+        "en": "FALSE! 'Eccitato' often has sexual connotation. For excited → emozionato, entusiasta, su di giri."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sto male' si usa principalmente per dire che si sta fisicamente male (malattia).",
+        "en": "'Sto male' is mainly used to say you feel physically unwell (illness)."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sto male = I feel unwell (fisicamente). Ma può anche indicare malessere emotivo: 'sto male per quello che è successo' = I feel bad about what happened.",
+        "en": "Correct! Sto male = I feel unwell (physically). But can also indicate emotional distress: 'sto male per quello che è successo' = I feel bad about what happened."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sto male = fisicamente unwell. Può indicare anche malessere emotivo nel contesto giusto.",
+        "en": "True! Sto male = physically unwell. Can also indicate emotional distress in the right context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'annoiato' significa I'm boring (noiosa per gli altri).",
+        "en": "In Italian 'annoiato' means I'm boring (boring to others)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Annoiato = I'm bored (sto provando noia). Noioso = I'm boring (do noia agli altri). Distinzione fondamentale!",
+        "en": "Correct! Annoiato = I'm bored (experiencing boredom). Noioso = I'm boring (boring to others). Fundamental distinction!"
+      },
+      "feedbackErr": {
+        "it": "FALSO! Annoiato = bored. Noioso = boring. 'Sono annoiato' (sto soffrendo di noia) ≠ 'sono noioso' (do noia agli altri).",
+        "en": "FALSE! Annoiato = bored. Noioso = boring. 'Sono annoiato' (I'm bored) ≠ 'sono noioso' (I'm boring to others)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono molto contento: Sono ___ di essere qui.",
+        "en": "I'm very happy: I am ___ to be here."
+      },
+      "parole": [
+        "molto",
+        "felice"
+      ],
+      "distrattori": [
+        "tanto",
+        "contento",
+        "triste",
+        "bene"
+      ],
+      "correct": [
+        "molto",
+        "felice"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Molto felice = very happy. Essere + aggettivo.",
+        "en": "Perfect! Molto felice = very happy. Essere + adjective."
+      },
+      "feedbackErr": {
+        "it": "Very happy = molto felice. 'Sono molto felice di essere qui.'",
+        "en": "Very happy = molto felice. 'Sono molto felice di essere qui.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho paura dei cani: ___ ___ dei cani.",
+        "en": "I'm afraid of dogs: ___ ___ of dogs."
+      },
+      "parole": [
+        "Ho",
+        "paura"
+      ],
+      "distrattori": [
+        "Sono",
+        "spaventato",
+        "mi",
+        "faccio"
+      ],
+      "correct": [
+        "Ho",
+        "paura"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ho paura = avere + sostantivo. 'Ho paura dei cani.'",
+        "en": "Perfect! Ho paura = avere + noun. 'Ho paura dei cani.'"
+      },
+      "feedbackErr": {
+        "it": "I'm afraid = HO PAURA. Avere + paura. 'Ho paura dei cani.'",
+        "en": "I'm afraid = HO PAURA. Avere + paura. 'Ho paura dei cani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mi sento triste oggi: ___ un po' ___ oggi.",
+        "en": "I feel a bit sad today: I feel a bit ___ today."
+      },
+      "parole": [
+        "Mi",
+        "sento",
+        "un",
+        "po'",
+        "triste"
+      ],
+      "distrattori": [
+        "Sono",
+        "molto",
+        "felice",
+        "stanca"
+      ],
+      "correct": [
+        "Mi",
+        "sento",
+        "un",
+        "po'",
+        "triste"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi sento = sentirsi per stati emotivi momentanei. 'Mi sento un po' triste oggi.'",
+        "en": "Perfect! Mi sento = sentirsi for momentary emotional states. 'Mi sento un po' triste oggi.'"
+      },
+      "feedbackErr": {
+        "it": "'Mi sento un po' triste oggi.' Mi sento = emozione momentanea.",
+        "en": "'Mi sento un po' triste oggi.' Mi sento = momentary emotion."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho voglia di pizza: ___ ___ ___ pizza.",
+        "en": "I feel like pizza: ___ ___ ___ pizza."
+      },
+      "parole": [
+        "Ho",
+        "voglia",
+        "di"
+      ],
+      "distrattori": [
+        "Sono",
+        "vogliosa",
+        "per",
+        "mangiare"
+      ],
+      "correct": [
+        "Ho",
+        "voglia",
+        "di"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ho voglia di + nome/infinito = I feel like. 'Ho voglia di pizza.'",
+        "en": "Perfect! Ho voglia di + noun/infinitive = I feel like. 'Ho voglia di pizza.'"
+      },
+      "feedbackErr": {
+        "it": "I feel like = HO VOGLIA DI. 'Ho voglia di pizza.'",
+        "en": "I feel like = HO VOGLIA DI. 'Ho voglia di pizza.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sto bene grazie: ___ ___, grazie.",
+        "en": "I'm fine thanks: ___ ___, thanks."
+      },
+      "parole": [
+        "Sto",
+        "bene"
+      ],
+      "distrattori": [
+        "Sono",
+        "bene",
+        "mi",
+        "sento"
+      ],
+      "correct": [
+        "Sto",
+        "bene"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sto bene (stare) per la salute momentanea. Non 'sono bene'.",
+        "en": "Perfect! Sto bene (stare) for momentary health. Not 'sono bene'."
+      },
+      "feedbackErr": {
+        "it": "I'm fine = STO bene (stare). Non 'sono bene'. 'Sto bene, grazie.'",
+        "en": "I'm fine = STO bene (stare). Not 'sono bene'. 'Sto bene, grazie.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono arrabbiato con Mario: ___ arrabbiato ___ Mario.",
+        "en": "I'm angry with Mario: I'm angry ___ Mario."
+      },
+      "parole": [
+        "Sono",
+        "arrabbiato",
+        "con",
+        "Mario"
+      ],
+      "distrattori": [
+        "Ho",
+        "incazzato",
+        "a",
+        "per"
+      ],
+      "correct": [
+        "Sono",
+        "arrabbiato",
+        "con",
+        "Mario"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Arrabbiato con = angry with. 'Sono arrabbiato con Mario.'",
+        "en": "Perfect! Arrabbiato con = angry with. 'Sono arrabbiato con Mario.'"
+      },
+      "feedbackErr": {
+        "it": "Angry with = arrabbiato con. 'Sono arrabbiato con Mario.'",
+        "en": "Angry with = arrabbiato con. 'Sono arrabbiato con Mario.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho nostalgia di casa: ___ ___ di casa.",
+        "en": "I'm homesick: ___ ___ of home."
+      },
+      "parole": [
+        "Ho",
+        "nostalgia"
+      ],
+      "distrattori": [
+        "Sono",
+        "nostalgico",
+        "mi",
+        "sento"
+      ],
+      "correct": [
+        "Ho",
+        "nostalgia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ho nostalgia di casa = I'm homesick. Avere + nostalgia.",
+        "en": "Perfect! Ho nostalgia di casa = I'm homesick. Avere + nostalgia."
+      },
+      "feedbackErr": {
+        "it": "Homesick = HO NOSTALGIA DI CASA. Avere + nostalgia. 'Ho nostalgia di casa.'",
+        "en": "Homesick = HO NOSTALGIA DI CASA. Avere + nostalgia. 'Ho nostalgia di casa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono di buon umore oggi: Oggi sono ___ ___ ___.",
+        "en": "I'm in a good mood today: Today I'm ___ ___ ___."
+      },
+      "parole": [
+        "di",
+        "buon",
+        "umore"
+      ],
+      "distrattori": [
+        "con",
+        "bello",
+        "spirito",
+        "contento"
+      ],
+      "correct": [
+        "di",
+        "buon",
+        "umore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Di buon umore = in a good mood. 'Oggi sono di buon umore.'",
+        "en": "Perfect! Di buon umore = in a good mood. 'Oggi sono di buon umore.'"
+      },
+      "feedbackErr": {
+        "it": "Good mood = di buon umore. 'Oggi sono di buon umore.'",
+        "en": "Good mood = di buon umore. 'Oggi sono di buon umore.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono preoccupato per il lavoro: ___ molto ___ per il lavoro.",
+        "en": "I'm worried about work: I'm very ___ about work."
+      },
+      "parole": [
+        "Sono",
+        "molto",
+        "preoccupato",
+        "per",
+        "il",
+        "lavoro"
+      ],
+      "distrattori": [
+        "Ho",
+        "stressato",
+        "di",
+        "problema"
+      ],
+      "correct": [
+        "Sono",
+        "molto",
+        "preoccupato",
+        "per",
+        "il",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sono preoccupato per = I'm worried about. Essere + aggettivo.",
+        "en": "Perfect! Sono preoccupato per = I'm worried about. Essere + adjective."
+      },
+      "feedbackErr": {
+        "it": "Worried about = preoccupato per. 'Sono molto preoccupato per il lavoro.'",
+        "en": "Worried about = preoccupato per. 'Sono molto preoccupato per il lavoro.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Che peccato! Non puoi venire?: ___ ___! Non puoi venire?",
+        "en": "What a shame! You can't come?: ___ ___! You can't come?"
+      },
+      "parole": [
+        "Che",
+        "peccato"
+      ],
+      "distrattori": [
+        "Che",
+        "male",
+        "come",
+        "triste"
+      ],
+      "correct": [
+        "Che",
+        "peccato"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Che peccato!' = What a shame/pity! Non è religioso nel parlato quotidiano.",
+        "en": "Perfect! 'Che peccato!' = What a shame/pity! Not religious in everyday speech."
+      },
+      "feedbackErr": {
+        "it": "What a shame/pity = Che peccato! 'Che peccato! Non puoi venire?'",
+        "en": "What a shame/pity = Che peccato! 'Che peccato! Non puoi venire?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho vergogna di quello che ho fatto: ___ ___ di quello che ho fatto.",
+        "en": "I'm ashamed of what I did: ___ ___ of what I did."
+      },
+      "parole": [
+        "Ho",
+        "vergogna"
+      ],
+      "distrattori": [
+        "Sono",
+        "vergognoso",
+        "mi",
+        "sento"
+      ],
+      "correct": [
+        "Ho",
+        "vergogna"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ho vergogna di = I'm ashamed of. Avere + vergogna.",
+        "en": "Perfect! Ho vergogna di = I'm ashamed of. Avere + vergogna."
+      },
+      "feedbackErr": {
+        "it": "I'm ashamed = HO VERGOGNA. Avere + vergogna. 'Ho vergogna di quello che ho fatto.'",
+        "en": "I'm ashamed = HO VERGOGNA. Avere + vergogna. 'Ho vergogna di quello che ho fatto.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mi sento solo: ___ ___ ___.",
+        "en": "I feel lonely: ___ ___ ___."
+      },
+      "parole": [
+        "Mi",
+        "sento",
+        "solo"
+      ],
+      "distrattori": [
+        "Sono",
+        "da",
+        "solo",
+        "solitudine"
+      ],
+      "correct": [
+        "Mi",
+        "sento",
+        "solo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi sento solo = I feel lonely (emozione). Sono da solo = I am alone (fisicamente).",
+        "en": "Perfect! Mi sento solo = I feel lonely (emotion). Sono da solo = I am alone (physically)."
+      },
+      "feedbackErr": {
+        "it": "I feel lonely = MI SENTO SOLO. Sono da solo = I am alone (physically).",
+        "en": "I feel lonely = MI SENTO SOLO. Sono da solo = I am alone (physically)."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ho il morale basso: ___ il ___ ___.",
+        "en": "I'm feeling down: ___ the ___ ___."
+      },
+      "parole": [
+        "Ho",
+        "il",
+        "morale",
+        "basso"
+      ],
+      "distrattori": [
+        "Sono",
+        "spirito",
+        "giù",
+        "depresso"
+      ],
+      "correct": [
+        "Ho",
+        "il",
+        "morale",
+        "basso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Ho il morale basso = I'm feeling down / my morale is low.",
+        "en": "Perfect! Ho il morale basso = I'm feeling down / my morale is low."
+      },
+      "feedbackErr": {
+        "it": "Feeling down = ho il morale basso. 'Ho il morale basso oggi.'",
+        "en": "Feeling down = ho il morale basso. 'Ho il morale basso oggi.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono emozionato per il viaggio: ___ molto ___ per il viaggio.",
+        "en": "I'm excited/moved about the trip: I'm very ___ about the trip."
+      },
+      "parole": [
+        "Sono",
+        "molto",
+        "emozionato",
+        "per",
+        "il",
+        "viaggio"
+      ],
+      "distrattori": [
+        "Ho",
+        "eccitato",
+        "mi",
+        "sento"
+      ],
+      "correct": [
+        "Sono",
+        "molto",
+        "emozionato",
+        "per",
+        "il",
+        "viaggio"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Emozionato = excited/moved. Non 'eccitato' (che ha connotazione sessuale)!",
+        "en": "Perfect! Emozionato = excited/moved. Not 'eccitato' (which has sexual connotation)!"
+      },
+      "feedbackErr": {
+        "it": "Excited/moved = emozionato (NON eccitato). 'Sono molto emozionato per il viaggio.'",
+        "en": "Excited/moved = emozionato (NOT eccitato). 'Sono molto emozionato per il viaggio.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono stressato dal lavoro: ___ stressato ___ lavoro.",
+        "en": "I'm stressed from work: I'm stressed ___ work."
+      },
+      "parole": [
+        "Sono",
+        "stressato",
+        "dal",
+        "lavoro"
+      ],
+      "distrattori": [
+        "Ho",
+        "stress",
+        "per",
+        "il"
+      ],
+      "correct": [
+        "Sono",
+        "stressato",
+        "dal",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Stressato dal = stressed from/by. 'Sono stressato dal lavoro.'",
+        "en": "Perfect! Stressato dal = stressed from/by. 'Sono stressato dal lavoro.'"
+      },
+      "feedbackErr": {
+        "it": "Stressed from work = stressato dal lavoro. 'Sono stressato dal lavoro.'",
+        "en": "Stressed from work = stressato dal lavoro. 'Sono stressato dal lavoro.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Che sollievo! Ha superato l'esame: ___ ___! Ha superato l'esame.",
+        "en": "What a relief! He passed the exam: ___ ___! He passed the exam."
+      },
+      "parole": [
+        "Che",
+        "sollievo"
+      ],
+      "distrattori": [
+        "Che",
+        "gioia",
+        "sono",
+        "sollevato"
+      ],
+      "correct": [
+        "Che",
+        "sollievo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Che sollievo!' = What a relief! Molto comune in italiano.",
+        "en": "Perfect! 'Che sollievo!' = What a relief! Very common in Italian."
+      },
+      "feedbackErr": {
+        "it": "What a relief = Che sollievo! 'Che sollievo! Ha superato l'esame.'",
+        "en": "What a relief = Che sollievo! 'Che sollievo! Ha superato l'esame.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono geloso del suo successo: ___ geloso del ___ successo.",
+        "en": "I'm envious of his success: I'm jealous of ___ success."
+      },
+      "parole": [
+        "Sono",
+        "geloso",
+        "del",
+        "suo",
+        "successo"
+      ],
+      "distrattori": [
+        "Ho",
+        "invidioso",
+        "mi",
+        "sento"
+      ],
+      "correct": [
+        "Sono",
+        "geloso",
+        "del",
+        "suo",
+        "successo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Geloso del = jealous/envious of. 'Sono geloso del suo successo.'",
+        "en": "Perfect! Geloso del = jealous/envious of. 'Sono geloso del suo successo.'"
+      },
+      "feedbackErr": {
+        "it": "Jealous/envious of = geloso di. 'Sono geloso del suo successo.'",
+        "en": "Jealous/envious of = geloso di. 'Sono geloso del suo successo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono sorpreso dalla notizia: ___ molto ___ dalla notizia.",
+        "en": "I'm surprised by the news: I'm very ___ by the news."
+      },
+      "parole": [
+        "Sono",
+        "molto",
+        "sorpreso",
+        "dalla",
+        "notizia"
+      ],
+      "distrattori": [
+        "Ho",
+        "stupito",
+        "mi",
+        "shock"
+      ],
+      "correct": [
+        "Sono",
+        "molto",
+        "sorpreso",
+        "dalla",
+        "notizia"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Sorpreso da = surprised by. Essere + aggettivo.",
+        "en": "Perfect! Sorpreso da = surprised by. Essere + adjective."
+      },
+      "feedbackErr": {
+        "it": "Surprised by = sorpreso da. 'Sono molto sorpreso dalla notizia.'",
+        "en": "Surprised by = sorpreso da. 'Sono molto sorpreso dalla notizia.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mi sento perso in questa città: ___ ___ in questa città.",
+        "en": "I feel lost in this city: ___ ___ in this city."
+      },
+      "parole": [
+        "Mi",
+        "sento",
+        "perso"
+      ],
+      "distrattori": [
+        "Sono",
+        "perduto",
+        "confuso",
+        "sbagliato"
+      ],
+      "correct": [
+        "Mi",
+        "sento",
+        "perso"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Mi sento perso = I feel lost (fisicamente o emotivamente).",
+        "en": "Perfect! Mi sento perso = I feel lost (physically or emotionally)."
+      },
+      "feedbackErr": {
+        "it": "I feel lost = mi sento perso. 'Mi sento perso in questa città.'",
+        "en": "I feel lost = mi sento perso. 'Mi sento perso in questa città.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sono annoiato dalla lezione: ___ ___ dalla lezione.",
+        "en": "I'm bored by the lesson: I'm ___ by the lesson."
+      },
+      "parole": [
+        "Sono",
+        "annoiato",
+        "dalla",
+        "lezione"
+      ],
+      "distrattori": [
+        "noioso",
+        "mi",
+        "noia",
+        "con"
+      ],
+      "correct": [
+        "Sono",
+        "annoiato",
+        "dalla",
+        "lezione"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Annoiato = bored (non noioso = boring!). 'Sono annoiato dalla lezione.'",
+        "en": "Perfect! Annoiato = bored (not noioso = boring!). 'Sono annoiato dalla lezione.'"
+      },
+      "feedbackErr": {
+        "it": "Bored = annoiato (NON noioso che = boring). 'Sono annoiato dalla lezione.'",
+        "en": "Bored = annoiato (NOT noioso which = boring). 'Sono annoiato dalla lezione.'"
+      }
+    }
+  ]
+}

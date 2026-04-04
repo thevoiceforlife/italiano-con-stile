@@ -1,0 +1,1492 @@
+{
+  "id": "pronomi-diretti",
+  "categoria": "grammatica",
+  "emoji": "🎯",
+  "livello": "A2",
+  "titolo": {
+    "it": "Pronomi Diretti",
+    "en": "Direct Object Pronouns"
+  },
+  "mario": "In inglese dici 'I love it' e 'it' funziona per tutto. In italiano il pronome cambia in base al genere di quello che stai sostituendo. Sembra complicato — ma dopo questo te lo spiego in cinque minuti.",
+  "marioEn": "In English you say 'I love it' and 'it' works for everything. In Italian the pronoun changes based on the gender of what you're replacing. Sounds complicated — but after this I'll explain it to you in five minutes.",
+  "perche": {
+    "it": "Il pronome diretto sostituisce il complemento oggetto — la cosa o persona che riceve l'azione del verbo. 'Mangio la pizza' → 'La mangio.' 'Chiamo Mario' → 'Lo chiamo.' In inglese 'it' non distingue genere. In italiano sì: 'lo' per il maschile, 'la' per il femminile, 'li' per il maschile plurale, 'le' per il femminile plurale. La buona notizia: la posizione è sempre la stessa — davanti al verbo coniugato, attaccato all'infinito.",
+    "en": "The direct object pronoun replaces the object — the thing or person receiving the verb's action. 'Mangio la pizza' → 'La mangio.' 'Chiamo Mario' → 'Lo chiamo.' In English 'it' doesn't distinguish gender. In Italian it does: 'lo' for masculine, 'la' for feminine, 'li' for masculine plural, 'le' for feminine plural. The good news: the position is always the same — before the conjugated verb, attached to the infinitive."
+  },
+  "spiegazione": {
+    "it": "Pronomi diretti: mi (me) · ti (you) · lo (him/it-m) · la (her/it-f) · ci (us) · vi (you-pl) · li (them-m) · le (them-f). Davanti al verbo coniugato. Attaccato all'infinito (mangiarlo). Lo/la diventano l'/l' davanti a vocale.",
+    "en": "Direct object pronouns: mi (me) · ti (you) · lo (him/it-m) · la (her/it-f) · ci (us) · vi (you-pl) · li (them-m) · le (them-f). Before the conjugated verb. Attached to the infinitive (mangiarlo). Lo/la become l'/l' before a vowel."
+  },
+  "tabella": [
+    {
+      "pronome": "mi",
+      "persona": "1a sing.",
+      "esempio_it": "Mi chiama.",
+      "esempio_en": "He calls me."
+    },
+    {
+      "pronome": "ti",
+      "persona": "2a sing.",
+      "esempio_it": "Ti vedo.",
+      "esempio_en": "I see you."
+    },
+    {
+      "pronome": "lo",
+      "persona": "3a sing. m.",
+      "esempio_it": "Lo compro.",
+      "esempio_en": "I buy it/him."
+    },
+    {
+      "pronome": "la",
+      "persona": "3a sing. f.",
+      "esempio_it": "La chiamo.",
+      "esempio_en": "I call her/it."
+    },
+    {
+      "pronome": "ci",
+      "persona": "1a pl.",
+      "esempio_it": "Ci saluta.",
+      "esempio_en": "He greets us."
+    },
+    {
+      "pronome": "vi",
+      "persona": "2a pl.",
+      "esempio_it": "Vi aspetto.",
+      "esempio_en": "I wait for you."
+    },
+    {
+      "pronome": "li",
+      "persona": "3a pl. m.",
+      "esempio_it": "Li incontro.",
+      "esempio_en": "I meet them."
+    },
+    {
+      "pronome": "le",
+      "persona": "3a pl. f.",
+      "esempio_it": "Le compro.",
+      "esempio_en": "I buy them."
+    }
+  ],
+  "esempi": [
+    {
+      "it": "Il caffè? Lo prendo sempre al bar di Mario.",
+      "en": "The coffee? I always get it at Mario's bar.",
+      "audio": "Il caffè? Lo prendo sempre al bar di Mario."
+    },
+    {
+      "it": "La pizza è buona — la mangio volentieri.",
+      "en": "The pizza is good — I happily eat it.",
+      "audio": "La pizza è buona — la mangio volentieri."
+    },
+    {
+      "it": "I ragazzi? Li vedo domani.",
+      "en": "The guys? I'll see them tomorrow.",
+      "audio": "I ragazzi? Li vedo domani."
+    },
+    {
+      "it": "Vuoi mangiare la pasta? Sì, voglio mangiarla.",
+      "en": "Do you want to eat the pasta? Yes, I want to eat it.",
+      "audio": "Vuoi mangiare la pasta? Sì, voglio mangiarla."
+    },
+    {
+      "it": "Mi chiami stasera? Ti chiamo alle otto.",
+      "en": "Will you call me tonight? I'll call you at eight.",
+      "audio": "Mi chiami stasera? Ti chiamo alle otto."
+    }
+  ],
+  "nota": {
+    "it": "💡 Attenzione: con il passato prossimo e l'ausiliare avere, il participio passato concorda con lo/la/li/le. 'La pizza? L'ho mangiata.' Non 'L'ho mangiato.' È uno dei punti più sottili dell'italiano.",
+    "en": "💡 Watch out: with the passato prossimo and the auxiliary avere, the past participle agrees with lo/la/li/le. 'La pizza? L'ho mangiata.' Not 'L'ho mangiato.' This is one of Italian's most subtle points."
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si sostituisce 'il caffè' con un pronome diretto?",
+        "en": "How do you replace 'il caffè' with a direct object pronoun?"
+      },
+      "opzioni": [
+        "la",
+        "li",
+        "lo",
+        "le"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Il caffè' è maschile singolare → lo. 'Lo prendo al bar.'",
+        "en": "Correct! 'Il caffè' is masculine singular → lo. 'Lo prendo al bar.'"
+      },
+      "feedbackErr": {
+        "it": "Maschile singolare → lo. Il caffè? Lo prendo al bar.",
+        "en": "Masculine singular → lo. Il caffè? Lo prendo al bar."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si sostituisce 'la pizza' con un pronome diretto?",
+        "en": "How do you replace 'la pizza' with a direct object pronoun?"
+      },
+      "opzioni": [
+        "lo",
+        "li",
+        "le",
+        "la"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'La pizza' è femminile singolare → la. 'La mangio volentieri.'",
+        "en": "Correct! 'La pizza' is feminine singular → la. 'La mangio volentieri.'"
+      },
+      "feedbackErr": {
+        "it": "Femminile singolare → la. La pizza? La mangio volentieri.",
+        "en": "Feminine singular → la. La pizza? La mangio volentieri."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si sostituisce 'i ragazzi' con un pronome diretto?",
+        "en": "How do you replace 'i ragazzi' with a direct object pronoun?"
+      },
+      "opzioni": [
+        "lo",
+        "la",
+        "le",
+        "li"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'I ragazzi' è maschile plurale → li. 'Li vedo domani.'",
+        "en": "Correct! 'I ragazzi' is masculine plural → li. 'Li vedo domani.'"
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale → li. I ragazzi? Li vedo domani.",
+        "en": "Masculine plural → li. I ragazzi? Li vedo domani."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si sostituisce 'le ragazze' con un pronome diretto?",
+        "en": "How do you replace 'le ragazze' with a direct object pronoun?"
+      },
+      "opzioni": [
+        "li",
+        "lo",
+        "la",
+        "le"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Le ragazze' è femminile plurale → le. 'Le incontro stasera.'",
+        "en": "Correct! 'Le ragazze' is feminine plural → le. 'Le incontro stasera.'"
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale → le. Le ragazze? Le incontro stasera.",
+        "en": "Feminine plural → le. Le ragazze? Le incontro stasera.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove si mette il pronome diretto con un verbo coniugato?",
+        "en": "Where does the direct object pronoun go with a conjugated verb?"
+      },
+      "opzioni": [
+        "Dopo il verbo",
+        "Prima del verbo",
+        "Alla fine della frase",
+        "Prima del soggetto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Con il verbo coniugato il pronome va PRIMA: 'Lo mangio', non 'Mangio lo'.",
+        "en": "Correct! With the conjugated verb the pronoun goes BEFORE: 'Lo mangio', not 'Mangio lo'."
+      },
+      "feedbackErr": {
+        "it": "Il pronome va prima del verbo coniugato: 'Lo mangio', non 'Mangio lo'.",
+        "en": "The pronoun goes before the conjugated verb: 'Lo mangio', not 'Mangio lo'."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Dove si mette il pronome diretto con l'infinito?",
+        "en": "Where does the direct object pronoun go with the infinitive?"
+      },
+      "opzioni": [
+        "Prima dell'infinito separato",
+        "Attaccato alla fine dell'infinito",
+        "Prima del verbo modale",
+        "In entrambe le posizioni (a) e (c)"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Con l'infinito: attaccato (mangiarlo) OPPURE prima del modale (lo voglio mangiare) — entrambi corretti.",
+        "en": "Correct! With the infinitive: attached (mangiarlo) OR before the modal (lo voglio mangiare) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Con l'infinito: attaccato (mangiarlo) o prima del modale (lo voglio mangiare) — entrambi corretti.",
+        "en": "With the infinitive: attached (mangiarlo) or before the modal (lo voglio mangiare) — both correct."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta? 'Voglio mangiare la pasta' → ?",
+        "en": "Which is the correct form? 'Voglio mangiare la pasta' → ?"
+      },
+      "opzioni": [
+        "Voglio mangiarla",
+        "Voglio la mangiare",
+        "Mangio la voglio",
+        "La voglio mangiare"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 'La' si attacca all'infinito (senza la -e finale): mangiar+la = mangiarla.",
+        "en": "Correct! 'La' attaches to the infinitive (without the final -e): mangiar+la = mangiarla."
+      },
+      "feedbackErr": {
+        "it": "Il pronome si attacca all'infinito: mangiare → mangiar+la = mangiarla.",
+        "en": "The pronoun attaches to the infinitive: mangiare → mangiar+la = mangiarla."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa succede a 'lo' e 'la' davanti a una vocale?",
+        "en": "What happens to 'lo' and 'la' before a vowel?"
+      },
+      "opzioni": [
+        "Rimangono uguali",
+        "Diventano 'lu' e 'li'",
+        "Diventano l' con apostrofo",
+        "Scompaiono"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Lo/la + vocale → l'. 'L'aspetto' (= lo/la aspetto).",
+        "en": "Correct! Lo/la + vowel → l'. 'L'aspetto' (= lo/la aspetto)."
+      },
+      "feedbackErr": {
+        "it": "Lo/la davanti a vocale → l' con apostrofo. 'L'aspetto' (= lo aspetto o la aspetto).",
+        "en": "Lo/la before a vowel → l' with apostrophe. 'L'aspetto' (= lo aspetto or la aspetto)."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale pronome sostituisce 'me' (prima persona singolare) come oggetto?",
+        "en": "Which pronoun replaces 'me' (first person singular) as an object?"
+      },
+      "opzioni": [
+        "ti",
+        "mi",
+        "ci",
+        "si"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi' = me come oggetto. 'Mi vede?' — 'Does he see me?'",
+        "en": "Correct! 'Mi' = me as an object. 'Mi vede?' — 'Does he see me?'"
+      },
+      "feedbackErr": {
+        "it": "'Mi' = me come oggetto diretto. 'Mi chiama' = He calls me.",
+        "en": "'Mi' = me as direct object. 'Mi chiama' = He calls me."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale pronome sostituisce 'you' (tu, informale singolare) come oggetto?",
+        "en": "Which pronoun replaces 'you' (tu, informal singular) as an object?"
+      },
+      "opzioni": [
+        "vi",
+        "ci",
+        "ti",
+        "si"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Ti' = te come oggetto. 'Ti vedo domani.' = I'll see you tomorrow.",
+        "en": "Correct! 'Ti' = you as an object. 'Ti vedo domani.' = I'll see you tomorrow."
+      },
+      "feedbackErr": {
+        "it": "'Ti' = te come oggetto. 'Ti vedo domani.' = I see you tomorrow.",
+        "en": "'Ti' = you as object. 'Ti vedo domani.' = I see you tomorrow."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I call her' in italiano?",
+        "en": "How do you say 'I call her' in Italian?"
+      },
+      "opzioni": [
+        "Lo chiamo",
+        "Li chiamo",
+        "Le chiamo",
+        "La chiamo"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Her' = lei = femminile singolare → la. 'La chiamo.'",
+        "en": "Correct! 'Her' = lei = feminine singular → la. 'La chiamo.'"
+      },
+      "feedbackErr": {
+        "it": "'Her' = femminile singolare → la. 'La chiamo.'",
+        "en": "'Her' = feminine singular → la. 'La chiamo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I see them' (riferito a oggetti maschili plurali)?",
+        "en": "How do you say 'I see them' (referring to masculine plural objects)?"
+      },
+      "opzioni": [
+        "Le vedo",
+        "La vedo",
+        "Lo vedo",
+        "Li vedo"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Maschile plurale → li. 'Li vedo.'",
+        "en": "Correct! Masculine plural → li. 'Li vedo.'"
+      },
+      "feedbackErr": {
+        "it": "Maschile plurale → li. 'Li vedo.'",
+        "en": "Masculine plural → li. 'Li vedo.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la posizione corretta del pronome in 'Puoi aiutare me'?",
+        "en": "Which is the correct pronoun position in 'Puoi aiutare me'?"
+      },
+      "opzioni": [
+        "Puoi aiutarmi",
+        "Mi puoi aiutare",
+        "Entrambe corrette",
+        "Nessuna delle due"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Con modale + infinito: mi puoi aiutare (prima del modale) O puoi aiutarmi (attaccato all'infinito) — entrambe corrette.",
+        "en": "Correct! With modal + infinitive: mi puoi aiutare (before modal) OR puoi aiutarmi (attached to infinitive) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Con modale + infinito entrambe le posizioni sono corrette: mi puoi aiutare / puoi aiutarmi.",
+        "en": "With modal + infinitive both positions are correct: mi puoi aiutare / puoi aiutarmi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Cosa sostituisce il pronome 'ci' come oggetto diretto?",
+        "en": "What does the pronoun 'ci' replace as a direct object?"
+      },
+      "opzioni": [
+        "Lui/lei",
+        "Voi",
+        "Noi",
+        "Loro"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Ci' = noi come oggetto. 'Ci vede.' = He sees us.",
+        "en": "Correct! 'Ci' = us as object. 'Ci vede.' = He sees us."
+      },
+      "feedbackErr": {
+        "it": "'Ci' = noi come oggetto diretto. 'Ci vede.' = He sees us.",
+        "en": "'Ci' = us as direct object. 'Ci vede.' = He sees us."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I'll buy them' (le scarpe — femminile plurale)?",
+        "en": "How do you say 'I'll buy them' (le scarpe — feminine plural)?"
+      },
+      "opzioni": [
+        "Li compro",
+        "Lo compro",
+        "La compro",
+        "Le compro"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'Le scarpe' → femminile plurale → le. 'Le compro.'",
+        "en": "Correct! 'Le scarpe' → feminine plural → le. 'Le compro.'"
+      },
+      "feedbackErr": {
+        "it": "'Le scarpe' → femminile plurale → le. 'Le compro.'",
+        "en": "'Le scarpe' → feminine plural → le. 'Le compro.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è grammaticalmente corretta?",
+        "en": "Which sentence is grammatically correct?"
+      },
+      "opzioni": [
+        "Mangio lo ogni giorno.",
+        "Lo mangio ogni giorno.",
+        "Mangio ogni giorno lo.",
+        "Ogni giorno lo mangio non."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il pronome va prima del verbo coniugato: 'Lo mangio ogni giorno.'",
+        "en": "Correct! The pronoun goes before the conjugated verb: 'Lo mangio ogni giorno.'"
+      },
+      "feedbackErr": {
+        "it": "Il pronome diretto precede il verbo coniugato: 'Lo mangio ogni giorno.'",
+        "en": "The direct pronoun precedes the conjugated verb: 'Lo mangio ogni giorno.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'He loves us' in italiano?",
+        "en": "How do you say 'He loves us' in Italian?"
+      },
+      "opzioni": [
+        "Vi ama",
+        "Li ama",
+        "Ci ama",
+        "Mi ama"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'Us' = noi come oggetto → ci. 'Ci ama.'",
+        "en": "Correct! 'Us' = us as object → ci. 'Ci ama.'"
+      },
+      "feedbackErr": {
+        "it": "'Us' come oggetto → ci. 'Ci ama.'",
+        "en": "'Us' as object → ci. 'Ci ama.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'She sees you (voi)' in italiano?",
+        "en": "How do you say 'She sees you (voi)' in Italian?"
+      },
+      "opzioni": [
+        "Ti vede",
+        "Ci vede",
+        "Li vede",
+        "Vi vede"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! 'You (voi)' come oggetto → vi. 'Vi vede.'",
+        "en": "Correct! 'You (voi)' as object → vi. 'Vi vede.'"
+      },
+      "feedbackErr": {
+        "it": "'You (voi)' come oggetto diretto → vi. 'Vi vede.'",
+        "en": "'You (voi)' as direct object → vi. 'Vi vede.'"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si traduce 'I need to call him'?",
+        "en": "How do you translate 'I need to call him'?"
+      },
+      "opzioni": [
+        "Devo chiamare lo",
+        "Devo lo chiamare",
+        "Lo devo chiamare",
+        "Chiamare lo devo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Con modale+infinito: 'lo devo chiamare' (oppure 'devo chiamarlo') — entrambe corrette, ma questa opzione è valida.",
+        "en": "Correct! With modal+infinitive: 'lo devo chiamare' (or 'devo chiamarlo') — both correct, but this option is valid."
+      },
+      "feedbackErr": {
+        "it": "Con modale+infinito: 'lo devo chiamare' o 'devo chiamarlo'. Il pronome non va tra i due verbi staccato.",
+        "en": "With modal+infinitive: 'lo devo chiamare' or 'devo chiamarlo'. The pronoun doesn't go loosely between the two verbs."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "'L'aspetto' significa…?",
+        "en": "'L'aspetto' means…?"
+      },
+      "opzioni": [
+        "I wait for him OR her",
+        "I wait for them",
+        "I wait for you",
+        "I wait for us"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! L' = lo o la davanti a vocale — quindi 'l'aspetto' può essere 'lo aspetto' o 'la aspetto' — ambiguo senza contesto.",
+        "en": "Correct! L' = lo or la before a vowel — so 'l'aspetto' can be 'lo aspetto' or 'la aspetto' — ambiguous without context."
+      },
+      "feedbackErr": {
+        "it": "L' + vocale = lo o la. 'L'aspetto' = lo aspetto (him) o la aspetto (her) — dipende dal contesto.",
+        "en": "L' + vowel = lo or la. 'L'aspetto' = lo aspetto (him) or la aspetto (her) — depends on context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Lo' sostituisce nomi maschili singolari.",
+        "en": "'Lo' replaces masculine singular nouns."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Il caffè' → lo. 'Il libro' → lo.",
+        "en": "Correct! 'Il caffè' → lo. 'Il libro' → lo."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Lo' = pronome diretto maschile singolare.",
+        "en": "True! 'Lo' = masculine singular direct pronoun."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano si può dire 'Mangio lo' con il pronome dopo il verbo.",
+        "en": "In Italian you can say 'Mangio lo' with the pronoun after the verb."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il pronome va PRIMA del verbo coniugato: 'Lo mangio', non 'Mangio lo'.",
+        "en": "Correct! The pronoun goes BEFORE the conjugated verb: 'Lo mangio', not 'Mangio lo'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Con il verbo coniugato il pronome precede sempre: 'Lo mangio'.",
+        "en": "False! With the conjugated verb the pronoun always comes before: 'Lo mangio'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Le' come pronome diretto plurale sostituisce nomi femminili plurali.",
+        "en": "'Le' as a plural direct pronoun replaces feminine plural nouns."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Le scarpe' → le. 'Le ragazze' → le.",
+        "en": "Correct! 'Le scarpe' → le. 'Le ragazze' → le."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Le' = pronome diretto femminile plurale.",
+        "en": "True! 'Le' = feminine plural direct pronoun."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Mi' può essere usato sia come pronome diretto che indiretto.",
+        "en": "'Mi' can be used as both a direct and indirect pronoun."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Mi vede' (diretto: sees me) e 'Mi parla' (indiretto: speaks to me) — stesso pronome, funzioni diverse.",
+        "en": "Correct! 'Mi vede' (direct: sees me) and 'Mi parla' (indirect: speaks to me) — same pronoun, different functions."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Mi' funziona come diretto (mi vede = sees me) e indiretto (mi parla = speaks to me).",
+        "en": "True! 'Mi' works as direct (mi vede = sees me) and indirect (mi parla = speaks to me)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Li' sostituisce nomi femminili plurali.",
+        "en": "'Li' replaces feminine plural nouns."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Li' = maschile plurale. Femminile plurale = 'le'.",
+        "en": "Correct! 'Li' = masculine plural. Feminine plural = 'le'."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Li' = maschile plurale. Femminile plurale → 'le'. Esempio: li vedo (i ragazzi) / le vedo (le ragazze).",
+        "en": "False! 'Li' = masculine plural. Feminine plural → 'le'. Example: li vedo (i ragazzi) / le vedo (le ragazze)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con l'infinito, il pronome può attaccarsi alla fine: 'mangiarlo'.",
+        "en": "With the infinitive, the pronoun can attach to the end: 'mangiarlo'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Infinito perde la -e finale e il pronome si attacca: mangiare → mangiar+lo = mangiarlo.",
+        "en": "Correct! The infinitive drops the final -e and the pronoun attaches: mangiare → mangiar+lo = mangiarlo."
+      },
+      "feedbackErr": {
+        "it": "Vero! mangiare → mangiar+lo = mangiarlo. La -e finale dell'infinito cade.",
+        "en": "True! mangiare → mangiar+lo = mangiarlo. The infinitive's final -e is dropped."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ci' come pronome diretto sostituisce 'noi' come oggetto.",
+        "en": "'Ci' as a direct pronoun replaces 'noi' as an object."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ci vede' = He sees us. 'Ci' = noi come oggetto.",
+        "en": "Correct! 'Ci vede' = He sees us. 'Ci' = us as object."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Ci' = noi come oggetto diretto. 'Ci vede' = He sees us.",
+        "en": "True! 'Ci' = us as direct object. 'Ci vede' = He sees us."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'it' si traduce sempre con 'lo', per qualsiasi cosa.",
+        "en": "In Italian 'it' always translates as 'lo', for any thing."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'It' dipende dal genere del nome: 'lo' per maschile, 'la' per femminile. 'It' non esiste come neutro in italiano.",
+        "en": "Correct! 'It' depends on the noun's gender: 'lo' for masculine, 'la' for feminine. 'It' doesn't exist as neuter in Italian."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'It' dipende dal genere: 'lo' (il tavolo → lo), 'la' (la sedia → la). Nessun neutro in italiano.",
+        "en": "False! 'It' depends on gender: 'lo' (il tavolo → lo), 'la' (la sedia → la). No neuter in Italian."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vi' come pronome diretto sostituisce 'voi' come oggetto.",
+        "en": "'Vi' as a direct pronoun replaces 'voi' as an object."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Vi vedo domani.' = I'll see you (all of you) tomorrow.",
+        "en": "Correct! 'Vi vedo domani.' = I'll see you (all of you) tomorrow."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Vi' = voi come oggetto diretto. 'Vi vedo.' = I see you (pl.).",
+        "en": "True! 'Vi' = you (pl.) as direct object. 'Vi vedo.' = I see you (pl.)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "La frase 'Devo comprare lo' è grammaticalmente corretta.",
+        "en": "The sentence 'Devo comprare lo' is grammatically correct."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Con infinito il pronome si attacca: 'devo comprarlo'. Oppure: 'lo devo comprare'. Mai staccato tra i due verbi.",
+        "en": "Correct! With the infinitive the pronoun attaches: 'devo comprarlo'. Or: 'lo devo comprare'. Never loose between the two verbs."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il pronome non può stare tra infinito e pronome separato così. Corretto: 'devo comprarlo' o 'lo devo comprare'.",
+        "en": "False! The pronoun can't sit loosely after the infinitive like that. Correct: 'devo comprarlo' or 'lo devo comprare'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'L'aspetto' può significare 'I wait for him' oppure 'I wait for her' a seconda del contesto.",
+        "en": "'L'aspetto' can mean 'I wait for him' or 'I wait for her' depending on context."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! L' = lo o la davanti a vocale — ambiguo senza contesto.",
+        "en": "Correct! L' = lo or la before a vowel — ambiguous without context."
+      },
+      "feedbackErr": {
+        "it": "Vero! Lo aspetto → l'aspetto. La aspetto → l'aspetto. Stesso risultato scritto, diverso in contesto.",
+        "en": "True! Lo aspetto → l'aspetto. La aspetto → l'aspetto. Same written result, different in context."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Ti' è il pronome diretto della seconda persona singolare informale.",
+        "en": "'Ti' is the direct object pronoun for the second person informal singular."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Ti chiamo.' = I call you (tu). Informale, seconda persona singolare.",
+        "en": "Correct! 'Ti chiamo.' = I call you (tu). Informal, second person singular."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Ti' = te come oggetto diretto, 2a persona singolare informale.",
+        "en": "True! 'Ti' = you as direct object, 2nd person informal singular."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con i verbi modali (dovere, potere, volere), il pronome può andare solo dopo l'infinito.",
+        "en": "With modal verbs (dovere, potere, volere), the pronoun can only go after the infinitive."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Con i modali il pronome può stare PRIMA del modale (lo voglio mangiare) O attaccato all'infinito (voglio mangiarlo) — entrambe corrette.",
+        "en": "Correct! With modals the pronoun can go BEFORE the modal (lo voglio mangiare) OR attached to the infinitive (voglio mangiarlo) — both correct."
+      },
+      "feedbackErr": {
+        "it": "Falso! Con i modali: 'lo voglio mangiare' OPPURE 'voglio mangiarlo' — entrambe grammaticalmente corrette.",
+        "en": "False! With modals: 'lo voglio mangiare' OR 'voglio mangiarlo' — both grammatically correct."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome diretto non cambia mai in base al genere del nome che sostituisce.",
+        "en": "The direct object pronoun never changes based on the gender of the noun it replaces."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il pronome CAMBIA: lo (m.sg.), la (f.sg.), li (m.pl.), le (f.pl.). Il genere conta.",
+        "en": "Correct! The pronoun DOES change: lo (m.sg.), la (f.sg.), li (m.pl.), le (f.pl.). Gender matters."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il pronome cambia con il genere: lo/la/li/le. È proprio questo che lo distingue dall'inglese 'it/them'.",
+        "en": "False! The pronoun changes with gender: lo/la/li/le. This is exactly what distinguishes it from English 'it/them'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Le vedo' può significare sia 'I see them (le ragazze)' che 'I see her (Lei formale)'.",
+        "en": "'Le vedo' can mean both 'I see them (le ragazze)' and 'I see her (formal Lei)'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Le' è ambiguo: plurale femminile O pronome di cortesia Lei. Il contesto disambigua.",
+        "en": "Correct! 'Le' is ambiguous: feminine plural OR courtesy pronoun Lei. Context disambiguates."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Le vedo' = le ragazze (pl.f.) O Lei (formale). Stesso pronome, due funzioni — il contesto chiarisce.",
+        "en": "True! 'Le vedo' = le ragazze (pl.f.) OR Lei (formal). Same pronoun, two functions — context clarifies."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome diretto 'la' diventa 'l'' davanti a consonante.",
+        "en": "The direct pronoun 'la' becomes 'l'' before a consonant."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'La' diventa 'l'' davanti a VOCALE, non consonante. 'La' rimane 'la' davanti a consonante.",
+        "en": "Correct! 'La' becomes 'l'' before a VOWEL, not a consonant. 'La' stays 'la' before a consonant."
+      },
+      "feedbackErr": {
+        "it": "Falso! L'apostrofo appare davanti a VOCALE: 'l'aspetto' (non 'la aspetto'). Davanti a consonante rimane 'la'.",
+        "en": "False! The apostrophe appears before a VOWEL: 'l'aspetto' (not 'la aspetto'). Before a consonant it stays 'la'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Lo vedo' e 'Vedo lo' hanno lo stesso significato.",
+        "en": "'Lo vedo' and 'Vedo lo' have the same meaning."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! 'Lo vedo' è grammaticalmente corretto. 'Vedo lo' NON esiste in italiano — il pronome deve precedere il verbo coniugato.",
+        "en": "Correct! 'Lo vedo' is grammatically correct. 'Vedo lo' does NOT exist in Italian — the pronoun must precede the conjugated verb."
+      },
+      "feedbackErr": {
+        "it": "Falso! 'Lo vedo' è corretto, 'Vedo lo' non esiste. Il pronome diretto va PRIMA del verbo coniugato.",
+        "en": "False! 'Lo vedo' is correct, 'Vedo lo' doesn't exist. The direct pronoun goes BEFORE the conjugated verb."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Nella frase 'Li chiamo domani', 'li' si riferisce a persone o oggetti maschili plurali.",
+        "en": "In the sentence 'Li chiamo domani', 'li' refers to masculine plural people or objects."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! 'Li' = maschile plurale. Potrebbero essere 'i ragazzi', 'gli amici', 'i clienti', ecc.",
+        "en": "Correct! 'Li' = masculine plural. Could be 'i ragazzi', 'gli amici', 'i clienti', etc."
+      },
+      "feedbackErr": {
+        "it": "Vero! 'Li' indica sempre maschile plurale — persone o cose.",
+        "en": "True! 'Li' always indicates masculine plural — people or things."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Il pronome diretto può stare all'inizio della frase prima del soggetto.",
+        "en": "The direct object pronoun can go at the beginning of the sentence before the subject."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! Il pronome diretto si mette prima del verbo, non prima del soggetto. 'Io lo vedo' — non 'Lo io vedo'.",
+        "en": "Correct! The direct pronoun goes before the verb, not before the subject. 'Io lo vedo' — not 'Lo io vedo'."
+      },
+      "feedbackErr": {
+        "it": "Falso! Il pronome precede il verbo (non il soggetto): 'Io lo vedo', mai 'Lo io vedo'.",
+        "en": "False! The pronoun precedes the verb (not the subject): 'Io lo vedo', never 'Lo io vedo'."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Con i pronomi diretti, il participio passato concorda solo con lo/la/li/le (non con mi/ti/ci/vi).",
+        "en": "With direct pronouns, the past participle agrees only with lo/la/li/le (not with mi/ti/ci/vi)."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! La concordanza è obbligatoria con lo/la/li/le, ma è accettata anche con mi/ti/ci/vi in italiano formale.",
+        "en": "Correct! Agreement is mandatory with lo/la/li/le, but also accepted with mi/ti/ci/vi in formal Italian."
+      },
+      "feedbackErr": {
+        "it": "Falso! La concordanza con mi/ti/ci/vi è accettata (specie nel formale): 'Mi ha vista' è possibile.",
+        "en": "False! Agreement with mi/ti/ci/vi is accepted (especially formally): 'Mi ha vista' is possible."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sostituisci 'il caffè': ___ prendo ogni mattina.",
+        "en": "Replace 'il caffè': I get ___ every morning."
+      },
+      "parole": [
+        "Lo",
+        "prendo",
+        "ogni",
+        "mattina"
+      ],
+      "distrattori": [
+        "La",
+        "Li",
+        "Le"
+      ],
+      "correct": [
+        "Lo",
+        "prendo",
+        "ogni",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il caffè (m.sg.) → lo. 'Lo prendo ogni mattina.'",
+        "en": "Perfect! Il caffè (m.sg.) → lo. 'Lo prendo ogni mattina.'"
+      },
+      "feedbackErr": {
+        "it": "Il caffè è maschile singolare → lo. 'Lo prendo ogni mattina.'",
+        "en": "Il caffè is masculine singular → lo. 'Lo prendo ogni mattina.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sostituisci 'la pizza': ___ mangio ogni venerdì.",
+        "en": "Replace 'la pizza': I eat ___ every Friday."
+      },
+      "parole": [
+        "La",
+        "mangio",
+        "ogni",
+        "venerdì"
+      ],
+      "distrattori": [
+        "Lo",
+        "Li",
+        "Le"
+      ],
+      "correct": [
+        "La",
+        "mangio",
+        "ogni",
+        "venerdì"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La pizza (f.sg.) → la. 'La mangio ogni venerdì.'",
+        "en": "Perfect! La pizza (f.sg.) → la. 'La mangio ogni venerdì.'"
+      },
+      "feedbackErr": {
+        "it": "La pizza è femminile singolare → la. 'La mangio ogni venerdì.'",
+        "en": "La pizza is feminine singular → la. 'La mangio ogni venerdì.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sostituisci 'i libri': ___ leggo la sera.",
+        "en": "Replace 'i libri': I read ___ in the evening."
+      },
+      "parole": [
+        "Li",
+        "leggo",
+        "la",
+        "sera"
+      ],
+      "distrattori": [
+        "Lo",
+        "La",
+        "Le"
+      ],
+      "correct": [
+        "Li",
+        "leggo",
+        "la",
+        "sera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! I libri (m.pl.) → li. 'Li leggo la sera.'",
+        "en": "Perfect! I libri (m.pl.) → li. 'Li leggo la sera.'"
+      },
+      "feedbackErr": {
+        "it": "I libri sono maschile plurale → li. 'Li leggo la sera.'",
+        "en": "I libri are masculine plural → li. 'Li leggo la sera.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Sostituisci 'le chiavi': ___ cerco ovunque!",
+        "en": "Replace 'le chiavi': I'm looking for ___ everywhere!"
+      },
+      "parole": [
+        "Le",
+        "cerco",
+        "ovunque"
+      ],
+      "distrattori": [
+        "Li",
+        "Lo",
+        "La"
+      ],
+      "correct": [
+        "Le",
+        "cerco",
+        "ovunque"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Le chiavi (f.pl.) → le. 'Le cerco ovunque!'",
+        "en": "Perfect! Le chiavi (f.pl.) → le. 'Le cerco ovunque!'"
+      },
+      "feedbackErr": {
+        "it": "Le chiavi sono femminile plurale → le. 'Le cerco ovunque!'",
+        "en": "Le chiavi are feminine plural → le. 'Le cerco ovunque!'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Con l'infinito (comprare + lo): Voglio ___.",
+        "en": "With the infinitive (comprare + lo): I want to ___."
+      },
+      "parole": [
+        "Voglio",
+        "comprarlo"
+      ],
+      "distrattori": [
+        "comprare",
+        "lo",
+        "comprare lo"
+      ],
+      "correct": [
+        "Voglio",
+        "comprarlo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Comprare → comprar+lo = comprarlo. 'Voglio comprarlo.'",
+        "en": "Perfect! Comprare → comprar+lo = comprarlo. 'Voglio comprarlo.'"
+      },
+      "feedbackErr": {
+        "it": "Con l'infinito il pronome si attacca: comprare → comprarlo. 'Voglio comprarlo.'",
+        "en": "With the infinitive the pronoun attaches: comprare → comprarlo. 'Voglio comprarlo.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Prima del modale: ___ devo chiamare stasera.",
+        "en": "Before the modal: I must call ___ tonight."
+      },
+      "parole": [
+        "Lo",
+        "devo",
+        "chiamare",
+        "stasera"
+      ],
+      "distrattori": [
+        "La",
+        "Li",
+        "Le"
+      ],
+      "correct": [
+        "Lo",
+        "devo",
+        "chiamare",
+        "stasera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il pronome prima del modale: 'Lo devo chiamare stasera.'",
+        "en": "Perfect! Pronoun before the modal: 'Lo devo chiamare stasera.'"
+      },
+      "feedbackErr": {
+        "it": "Con il modale il pronome può stare prima: 'Lo devo chiamare'. O dopo l'infinito: 'Devo chiamarlo'.",
+        "en": "With the modal the pronoun can come first: 'Lo devo chiamare'. Or after the infinitive: 'Devo chiamarlo'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiami me?: ___ chiami stasera?",
+        "en": "Are you calling me?: ___ tonight?"
+      },
+      "parole": [
+        "Mi",
+        "chiami",
+        "stasera"
+      ],
+      "distrattori": [
+        "Ti",
+        "Ci",
+        "Vi"
+      ],
+      "correct": [
+        "Mi",
+        "chiami",
+        "stasera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Me' come oggetto → mi. 'Mi chiami stasera?'",
+        "en": "Perfect! 'Me' as object → mi. 'Mi chiami stasera?'"
+      },
+      "feedbackErr": {
+        "it": "Prima persona singolare come oggetto → mi. 'Mi chiami stasera?'",
+        "en": "First person singular as object → mi. 'Mi chiami stasera?'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vedo te (tu): ___ vedo al bar.",
+        "en": "I see you (tu): ___ at the bar."
+      },
+      "parole": [
+        "Ti",
+        "vedo",
+        "al",
+        "bar"
+      ],
+      "distrattori": [
+        "Mi",
+        "Ci",
+        "Vi"
+      ],
+      "correct": [
+        "Ti",
+        "vedo",
+        "al",
+        "bar"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Te (tu)' come oggetto → ti. 'Ti vedo al bar.'",
+        "en": "Perfect! 'You (tu)' as object → ti. 'Ti vedo al bar.'"
+      },
+      "feedbackErr": {
+        "it": "2a persona singolare come oggetto → ti. 'Ti vedo al bar.'",
+        "en": "2nd person singular as object → ti. 'Ti vedo al bar.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vediamo noi: Mario ___ vede ogni giorno.",
+        "en": "He sees us: Mario ___ every day."
+      },
+      "parole": [
+        "ci",
+        "vede",
+        "ogni",
+        "giorno"
+      ],
+      "distrattori": [
+        "vi",
+        "li",
+        "le"
+      ],
+      "correct": [
+        "ci",
+        "vede",
+        "ogni",
+        "giorno"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Noi' come oggetto → ci. 'Mario ci vede ogni giorno.'",
+        "en": "Perfect! 'Us' as object → ci. 'Mario ci vede ogni giorno.'"
+      },
+      "feedbackErr": {
+        "it": "Noi come oggetto diretto → ci. 'Mario ci vede ogni giorno.'",
+        "en": "Us as direct object → ci. 'Mario ci vede ogni giorno.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Aspetto lei (l' + aspetto): ___ alle nove.",
+        "en": "I wait for her (l' + aspetto): ___ at nine."
+      },
+      "parole": [
+        "L'",
+        "aspetto",
+        "alle",
+        "nove"
+      ],
+      "distrattori": [
+        "Lo",
+        "La",
+        "Li"
+      ],
+      "correct": [
+        "L'",
+        "aspetto",
+        "alle",
+        "nove"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La + aspetto (vocale) → l'aspetto. 'L'aspetto alle nove.'",
+        "en": "Perfect! La + aspetto (vowel) → l'aspetto. 'L'aspetto alle nove.'"
+      },
+      "feedbackErr": {
+        "it": "La davanti a vocale → l'. 'L'aspetto alle nove.'",
+        "en": "La before a vowel → l'. 'L'aspetto alle nove.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Chiamo le ragazze: ___ chiamo domani.",
+        "en": "I'll call the girls: ___ tomorrow."
+      },
+      "parole": [
+        "Le",
+        "chiamo",
+        "domani"
+      ],
+      "distrattori": [
+        "Li",
+        "Lo",
+        "La"
+      ],
+      "correct": [
+        "Le",
+        "chiamo",
+        "domani"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Le ragazze (f.pl.) → le. 'Le chiamo domani.'",
+        "en": "Perfect! Le ragazze (f.pl.) → le. 'Le chiamo domani.'"
+      },
+      "feedbackErr": {
+        "it": "Femminile plurale → le. 'Le chiamo domani.'",
+        "en": "Feminine plural → le. 'Le chiamo domani.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Mangiate voi (vi + invito): ___ invito a cena.",
+        "en": "I invite you all: ___ to dinner."
+      },
+      "parole": [
+        "Vi",
+        "invito",
+        "a",
+        "cena"
+      ],
+      "distrattori": [
+        "Ci",
+        "Ti",
+        "Li"
+      ],
+      "correct": [
+        "Vi",
+        "invito",
+        "a",
+        "cena"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Voi come oggetto → vi. 'Vi invito a cena.'",
+        "en": "Perfect! You (pl.) as object → vi. 'Vi invito a cena.'"
+      },
+      "feedbackErr": {
+        "it": "Voi come oggetto diretto → vi. 'Vi invito a cena.'",
+        "en": "You (pl.) as direct object → vi. 'Vi invito a cena.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vuoi vedere il film?: Sì, voglio ___.",
+        "en": "Do you want to see the film?: Yes, I want to ___."
+      },
+      "parole": [
+        "vederlo"
+      ],
+      "distrattori": [
+        "vedere lo",
+        "lo vedere",
+        "vedere la"
+      ],
+      "correct": [
+        "vederlo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Il film (m.sg.) → lo. vedere+lo = vederlo. 'Sì, voglio vederlo.'",
+        "en": "Perfect! Il film (m.sg.) → lo. vedere+lo = vederlo. 'Sì, voglio vederlo.'"
+      },
+      "feedbackErr": {
+        "it": "Film è maschile → lo. Attaccato all'infinito: veder+lo = vederlo.",
+        "en": "Film is masculine → lo. Attached to infinitive: veder+lo = vederlo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Hai comprato le scarpe?: Sì, ___ ho comprate.",
+        "en": "Did you buy the shoes?: Yes, I bought ___."
+      },
+      "parole": [
+        "le",
+        "ho",
+        "comprate"
+      ],
+      "distrattori": [
+        "li",
+        "lo",
+        "la"
+      ],
+      "correct": [
+        "le",
+        "ho",
+        "comprate"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Le scarpe (f.pl.) → le. Con avere+lo/la/li/le il participio concorda: comprate.",
+        "en": "Perfect! Le scarpe (f.pl.) → le. With avere+lo/la/li/le the participle agrees: comprate."
+      },
+      "feedbackErr": {
+        "it": "Scarpe → f.pl. → le. Con avere e lo/la/li/le il participio concorda: 'le ho comprate'.",
+        "en": "Scarpe → f.pl. → le. With avere and lo/la/li/le the participle agrees: 'le ho comprate'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Ordine: Puoi aiutarmi O ___?",
+        "en": "Order: Puoi aiutarmi OR ___?"
+      },
+      "parole": [
+        "mi",
+        "puoi",
+        "aiutare"
+      ],
+      "distrattori": [
+        "aiutare",
+        "mi",
+        "puoi",
+        "aiutarmi"
+      ],
+      "correct": [
+        "mi",
+        "puoi",
+        "aiutare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Con il modale: 'mi puoi aiutare' (prima del modale) O 'puoi aiutarmi' (dopo infinito) — entrambe corrette!",
+        "en": "Perfect! With the modal: 'mi puoi aiutare' (before modal) OR 'puoi aiutarmi' (after infinitive) — both correct!"
+      },
+      "feedbackErr": {
+        "it": "Con modale+infinito il pronome può stare prima del modale: 'mi puoi aiutare'.",
+        "en": "With modal+infinitive the pronoun can go before the modal: 'mi puoi aiutare'."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Guardo lui (lo + guardo): ___ ogni volta che passa.",
+        "en": "I watch him: ___ every time he passes."
+      },
+      "parole": [
+        "Lo",
+        "guardo",
+        "ogni",
+        "volta",
+        "che",
+        "passa"
+      ],
+      "distrattori": [
+        "La",
+        "Li",
+        "Le"
+      ],
+      "correct": [
+        "Lo",
+        "guardo",
+        "ogni",
+        "volta",
+        "che",
+        "passa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Him' → lo. 'Lo guardo ogni volta che passa.'",
+        "en": "Perfect! 'Him' → lo. 'Lo guardo ogni volta che passa.'"
+      },
+      "feedbackErr": {
+        "it": "Maschile singolare (lui) → lo. 'Lo guardo ogni volta che passa.'",
+        "en": "Masculine singular (him) → lo. 'Lo guardo ogni volta che passa.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Porta l'ombrello: ___ porto sempre con me.",
+        "en": "I always carry the umbrella: I always carry ___ with me."
+      },
+      "parole": [
+        "Lo",
+        "porto",
+        "sempre",
+        "con",
+        "me"
+      ],
+      "distrattori": [
+        "La",
+        "Li",
+        "Le"
+      ],
+      "correct": [
+        "Lo",
+        "porto",
+        "sempre",
+        "con",
+        "me"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! L'ombrello (m.sg.) → lo. 'Lo porto sempre con me.'",
+        "en": "Perfect! L'ombrello (m.sg.) → lo. 'Lo porto sempre con me.'"
+      },
+      "feedbackErr": {
+        "it": "Ombrello è maschile singolare → lo. 'Lo porto sempre con me.'",
+        "en": "Ombrello is masculine singular → lo. 'Lo porto sempre con me.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Aspetta me (mi + aspetta): ___ qui!",
+        "en": "Wait for me: ___ here!"
+      },
+      "parole": [
+        "Mi",
+        "aspetta",
+        "qui"
+      ],
+      "distrattori": [
+        "Ti",
+        "Ci",
+        "Vi"
+      ],
+      "correct": [
+        "Mi",
+        "aspetta",
+        "qui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! 'Me' come oggetto → mi. 'Mi aspetta qui!'",
+        "en": "Perfect! 'Me' as object → mi. 'Mi aspetta qui!'"
+      },
+      "feedbackErr": {
+        "it": "1a persona singolare come oggetto → mi. 'Mi aspetta qui!'",
+        "en": "1st person singular as object → mi. 'Mi aspetta qui!'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Vedo le montagne: ___ vedo dalla finestra.",
+        "en": "I see the mountains: ___ from the window."
+      },
+      "parole": [
+        "Le",
+        "vedo",
+        "dalla",
+        "finestra"
+      ],
+      "distrattori": [
+        "Li",
+        "Lo",
+        "La"
+      ],
+      "correct": [
+        "Le",
+        "vedo",
+        "dalla",
+        "finestra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Le montagne (f.pl.) → le. 'Le vedo dalla finestra.'",
+        "en": "Perfect! Le montagne (f.pl.) → le. 'Le vedo dalla finestra.'"
+      },
+      "feedbackErr": {
+        "it": "Montagne → f.pl. → le. 'Le vedo dalla finestra.'",
+        "en": "Montagne → f.pl. → le. 'Le vedo dalla finestra.'"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Incontro gli amici: ___ incontro ogni sabato al bar.",
+        "en": "I meet my friends: ___ every Saturday at the bar."
+      },
+      "parole": [
+        "Li",
+        "incontro",
+        "ogni",
+        "sabato",
+        "al",
+        "bar"
+      ],
+      "distrattori": [
+        "Le",
+        "Lo",
+        "La"
+      ],
+      "correct": [
+        "Li",
+        "incontro",
+        "ogni",
+        "sabato",
+        "al",
+        "bar"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Gli amici (m.pl.) → li. 'Li incontro ogni sabato al bar.'",
+        "en": "Perfect! Gli amici (m.pl.) → li. 'Li incontro ogni sabato al bar.'"
+      },
+      "feedbackErr": {
+        "it": "Amici → m.pl. → li. 'Li incontro ogni sabato al bar.'",
+        "en": "Amici → m.pl. → li. 'Li incontro ogni sabato al bar.'"
+      }
+    }
+  ]
+}

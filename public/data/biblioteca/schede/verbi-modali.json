@@ -1,0 +1,1523 @@
+{
+  "id": "verbi-modali",
+  "categoria": "grammatica",
+  "emoji": "💪",
+  "livello": "A2",
+  "titolo": {
+    "it": "Verbi Modali",
+    "en": "Modal Verbs"
+  },
+  "mario": "Potere, volere, dovere — i tre moschettieri del verbo italiano. Con questi tre verbi puoi dire quasi tutto quello che ti serve nella vita quotidiana.",
+  "marioEn": "Potere, volere, dovere — the three musketeers of the Italian verb. With these three verbs you can say almost everything you need in daily life.",
+  "perche": {
+    "it": "I verbi modali sono speciali perché non si usano da soli — accompagnano sempre un infinito. 'Posso mangiare', 'voglio andare', 'devo partire'. In inglese funziona uguale: can eat, want to go, must leave. La differenza è che in italiano i modali sono irregolari al presente e possono prendere l'ausiliare del verbo che accompagnano — il che crea confusione.",
+    "en": "Modal verbs are special because they are not used alone — they always accompany an infinitive. 'Posso mangiare', 'voglio andare', 'devo partire'. In English it works the same: can eat, want to go, must leave. The difference is that in Italian modals are irregular in the present and can take the auxiliary of the verb they accompany — which creates confusion."
+  },
+  "spiegazione": {
+    "it": "Tre modali principali: POTERE (can/to be able to), VOLERE (to want), DOVERE (must/to have to). Tutti irregolari al presente. Si usano sempre + infinito.",
+    "en": "Three main modals: POTERE (can/to be able to), VOLERE (to want), DOVERE (must/to have to). All irregular in the present. Always used + infinitive."
+  },
+  "tabella": {
+    "headers": [
+      "Persona",
+      "POTERE",
+      "VOLERE",
+      "DOVERE",
+      "SAPERE*"
+    ],
+    "rows": [
+      [
+        "io",
+        "posso",
+        "voglio",
+        "devo",
+        "so"
+      ],
+      [
+        "tu",
+        "puoi",
+        "vuoi",
+        "devi",
+        "sai"
+      ],
+      [
+        "lui/lei",
+        "può",
+        "vuole",
+        "deve",
+        "sa"
+      ],
+      [
+        "noi",
+        "possiamo",
+        "vogliamo",
+        "dobbiamo",
+        "sappiamo"
+      ],
+      [
+        "voi",
+        "potete",
+        "volete",
+        "dovete",
+        "sapete"
+      ],
+      [
+        "loro",
+        "possono",
+        "vogliono",
+        "devono",
+        "sanno"
+      ],
+      [
+        "* Sapere",
+        "= to know how to (abilità appresa)",
+        "—",
+        "—",
+        "So nuotare = I can swim (ho imparato)"
+      ]
+    ]
+  },
+  "esempi": [
+    {
+      "it": "Posso avere un caffè? (potere — richiesta)",
+      "en": "Can I have a coffee? (potere — request)",
+      "audio": "Posso avere un caffè?"
+    },
+    {
+      "it": "Voglio imparare l'italiano. (volere — desiderio)",
+      "en": "I want to learn Italian. (volere — desire)",
+      "audio": "Voglio imparare l'italiano."
+    },
+    {
+      "it": "Devo studiare stasera. (dovere — obbligo)",
+      "en": "I have to study tonight. (dovere — obligation)",
+      "audio": "Devo studiare stasera."
+    },
+    {
+      "it": "Puoi aiutarmi? (potere — richiesta)",
+      "en": "Can you help me? (potere — request)",
+      "audio": "Puoi aiutarmi?"
+    },
+    {
+      "it": "Non vogliamo aspettare. (volere — negazione)",
+      "en": "We don't want to wait. (volere — negation)",
+      "audio": "Non vogliamo aspettare."
+    }
+  ],
+  "nota": {
+    "it": "💡 Potere vs Sapere: 'Posso nuotare' = I am allowed to swim / it's possible. 'So nuotare' = I know how to swim (ho imparato). La differenza è importante!",
+    "en": "💡 Potere vs Sapere: 'Posso nuotare' = I am allowed to swim / it's possible. 'So nuotare' = I know how to swim (I learned). The difference matters!"
+  },
+  "esercizi": [
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'potere' per 'io'?",
+        "en": "What is the correct form of 'potere' for 'io'?"
+      },
+      "opzioni": [
+        "posso",
+        "puoi",
+        "può",
+        "potiamo"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Io posso — potere è irregolare: posso, puoi, può, possiamo, potete, possono.",
+        "en": "Correct! Io posso — potere is irregular: posso, puoi, può, possiamo, potete, possono."
+      },
+      "feedbackErr": {
+        "it": "Potere: posso, puoi, può, possiamo, potete, possono.",
+        "en": "Potere: posso, puoi, può, possiamo, potete, possono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'volere' per 'loro'?",
+        "en": "What is the correct form of 'volere' for 'loro'?"
+      },
+      "opzioni": [
+        "volono",
+        "vogliano",
+        "vogliono",
+        "volano"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Loro vogliono — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+        "en": "Correct! Loro vogliono — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono."
+      },
+      "feedbackErr": {
+        "it": "Volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+        "en": "Volere: voglio, vuoi, vuole, vogliamo, volete, vogliono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I have to study' in italiano?",
+        "en": "How do you say 'I have to study' in Italian?"
+      },
+      "opzioni": [
+        "Voglio studiare.",
+        "Posso studiare.",
+        "Devo studiare.",
+        "So studiare."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Dovere = obligation: devo studiare.",
+        "en": "Correct! Dovere = obligation: devo studiare."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → dovere: devo studiare.",
+        "en": "Obligation → dovere: devo studiare."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'can I have a coffee?' in italiano?",
+        "en": "How do you say 'can I have a coffee?' in Italian?"
+      },
+      "opzioni": [
+        "Voglio un caffè?",
+        "Devo un caffè?",
+        "Posso avere un caffè?",
+        "So avere un caffè?"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Potere per richieste: Posso avere un caffè?",
+        "en": "Correct! Potere for requests: Posso avere un caffè?"
+      },
+      "feedbackErr": {
+        "it": "Richiesta educata → potere: Posso avere un caffè?",
+        "en": "Polite request → potere: Posso avere un caffè?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la differenza tra 'posso nuotare' e 'so nuotare'?",
+        "en": "What is the difference between 'posso nuotare' and 'so nuotare'?"
+      },
+      "opzioni": [
+        "Nessuna differenza.",
+        "'Posso' = permesso/possibilità, 'so' = abilità appresa.",
+        "'Posso' = abilità, 'so' = permesso.",
+        "Solo formale vs informale."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Posso = I'm allowed to / it's possible. So = I know how to (ho imparato).",
+        "en": "Correct! Posso = I'm allowed to / it's possible. So = I know how to (I learned)."
+      },
+      "feedbackErr": {
+        "it": "Posso = possibilità/permesso. So = abilità acquisita.",
+        "en": "Posso = possibility/permission. So = acquired ability."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'dovere' per 'noi'?",
+        "en": "What is the correct form of 'dovere' for 'noi'?"
+      },
+      "opzioni": [
+        "dovamo",
+        "doviamo",
+        "dobbiamo",
+        "devono"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Noi dobbiamo — dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+        "en": "Correct! Noi dobbiamo — dovere: devo, devi, deve, dobbiamo, dovete, devono."
+      },
+      "feedbackErr": {
+        "it": "Dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+        "en": "Dovere: devo, devi, deve, dobbiamo, dovete, devono."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si usa un verbo modale in italiano?",
+        "en": "How is a modal verb used in Italian?"
+      },
+      "opzioni": [
+        "Modale + participio",
+        "Modale + gerundio",
+        "Modale + infinito",
+        "Modale + congiuntivo"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Modale + infinito: posso mangiare, voglio andare, devo partire.",
+        "en": "Correct! Modal + infinitive: posso mangiare, voglio andare, devo partire."
+      },
+      "feedbackErr": {
+        "it": "Modale + infinito: posso MANGIARE, voglio ANDARE.",
+        "en": "Modal + infinitive: posso MANGIARE, voglio ANDARE."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'she wants to learn Italian' in italiano?",
+        "en": "How do you say 'she wants to learn Italian' in Italian?"
+      },
+      "opzioni": [
+        "Lei deve imparare l'italiano.",
+        "Lei vuole imparare l'italiano.",
+        "Lei può imparare l'italiano.",
+        "Lei sa imparare l'italiano."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Volere = desiderio: vuole imparare l'italiano.",
+        "en": "Correct! Volere = desire: vuole imparare l'italiano."
+      },
+      "feedbackErr": {
+        "it": "Desiderio → volere: vuole imparare l'italiano.",
+        "en": "Desire → volere: vuole imparare l'italiano."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'sapere' per 'loro'?",
+        "en": "What is the correct form of 'sapere' for 'loro'?"
+      },
+      "opzioni": [
+        "sapono",
+        "sanno",
+        "sapono",
+        "sappono"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Loro sanno — sapere: so, sai, sa, sappiamo, sapete, sanno.",
+        "en": "Correct! Loro sanno — sapere: so, sai, sa, sappiamo, sapete, sanno."
+      },
+      "feedbackErr": {
+        "it": "Sapere: so, sai, sa, sappiamo, sapete, sanno.",
+        "en": "Sapere: so, sai, sa, sappiamo, sapete, sanno."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'you must not smoke here' in italiano?",
+        "en": "How do you say 'you must not smoke here' in Italian?"
+      },
+      "opzioni": [
+        "Non vuoi fumare qui.",
+        "Non puoi fumare qui.",
+        "Non devi fumare qui.",
+        "Non sai fumare qui."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Divieto/obbligo negativo → non devi: non devi fumare qui.",
+        "en": "Correct! Prohibition/negative obligation → non devi: non devi fumare qui."
+      },
+      "feedbackErr": {
+        "it": "Obbligo negativo → non devi: non devi fumare qui.",
+        "en": "Negative obligation → non devi: non devi fumare qui."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'volere' per 'tu'?",
+        "en": "What is the correct form of 'volere' for 'tu'?"
+      },
+      "opzioni": [
+        "voli",
+        "vuoli",
+        "vuoi",
+        "voli"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tu vuoi — volere: voglio, vuoi, vuole...",
+        "en": "Correct! Tu vuoi — volere: voglio, vuoi, vuole..."
+      },
+      "feedbackErr": {
+        "it": "Volere (tu) = vuoi.",
+        "en": "Volere (tu) = vuoi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'I know how to cook' in italiano?",
+        "en": "How do you say 'I know how to cook' in Italian?"
+      },
+      "opzioni": [
+        "Posso cucinare.",
+        "Voglio cucinare.",
+        "Devo cucinare.",
+        "So cucinare."
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Abilità appresa → sapere: so cucinare.",
+        "en": "Correct! Learned ability → sapere: so cucinare."
+      },
+      "feedbackErr": {
+        "it": "Abilità acquisita → sapere: so cucinare, so nuotare, so guidare.",
+        "en": "Acquired ability → sapere: so cucinare, so nuotare, so guidare."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'potere' per 'voi'?",
+        "en": "What is the correct form of 'potere' for 'voi'?"
+      },
+      "opzioni": [
+        "possono",
+        "possiamo",
+        "potete",
+        "puoite"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Voi potete — potere: posso, puoi, può, possiamo, potete, possono.",
+        "en": "Correct! Voi potete — potere: posso, puoi, può, possiamo, potete, possono."
+      },
+      "feedbackErr": {
+        "it": "Potere (voi) = potete.",
+        "en": "Potere (voi) = potete."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'we can go to Naples' in italiano?",
+        "en": "How do you say 'we can go to Naples' in Italian?"
+      },
+      "opzioni": [
+        "Vogliamo andare a Napoli.",
+        "Dobbiamo andare a Napoli.",
+        "Possiamo andare a Napoli.",
+        "Sappiamo andare a Napoli."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Possibilità → potere: possiamo andare a Napoli.",
+        "en": "Correct! Possibility → potere: possiamo andare a Napoli."
+      },
+      "feedbackErr": {
+        "it": "Possibilità → potere: possiamo andare a Napoli.",
+        "en": "Possibility → potere: possiamo andare a Napoli."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale frase è grammaticalmente corretta?",
+        "en": "Which sentence is grammatically correct?"
+      },
+      "opzioni": [
+        "Voglio andando a Napoli.",
+        "Voglio vado a Napoli.",
+        "Voglio andare a Napoli.",
+        "Voglio andato a Napoli."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Modale + infinito: voglio ANDARE (non gerundio, non indicativo).",
+        "en": "Correct! Modal + infinitive: voglio ANDARE (not gerund, not indicative)."
+      },
+      "feedbackErr": {
+        "it": "Modale + infinito sempre: voglio andare.",
+        "en": "Modal + infinitive always: voglio andare."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'Mario has to leave early' in italiano?",
+        "en": "How do you say 'Mario has to leave early' in Italian?"
+      },
+      "opzioni": [
+        "Mario vuole partire presto.",
+        "Mario può partire presto.",
+        "Mario deve partire presto.",
+        "Mario sa partire presto."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Obbligo → dovere: Mario deve partire presto.",
+        "en": "Correct! Obligation → dovere: Mario deve partire presto."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → dovere: deve partire presto.",
+        "en": "Obligation → dovere: deve partire presto."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Qual è la forma corretta di 'dovere' per 'tu'?",
+        "en": "What is the correct form of 'dovere' for 'tu'?"
+      },
+      "opzioni": [
+        "dove",
+        "dova",
+        "devi",
+        "dobi"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Tu devi — dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+        "en": "Correct! Tu devi — dovere: devo, devi, deve, dobbiamo, dovete, devono."
+      },
+      "feedbackErr": {
+        "it": "Dovere (tu) = devi.",
+        "en": "Dovere (tu) = devi."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'they don't want to wait' in italiano?",
+        "en": "How do you say 'they don't want to wait' in Italian?"
+      },
+      "opzioni": [
+        "Non possono aspettare.",
+        "Non devono aspettare.",
+        "Non vogliono aspettare.",
+        "Non sanno aspettare."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Mancanza di desiderio → non volere: non vogliono aspettare.",
+        "en": "Correct! Lack of desire → non volere: non vogliono aspettare."
+      },
+      "feedbackErr": {
+        "it": "Non volere = don't want: non vogliono aspettare.",
+        "en": "Non volere = don't want: non vogliono aspettare."
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Quale modale si usa per chiedere permesso?",
+        "en": "Which modal is used to ask for permission?"
+      },
+      "opzioni": [
+        "volere",
+        "dovere",
+        "sapere",
+        "potere"
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Esatto! Posso = may I / can I — per chiedere permesso.",
+        "en": "Correct! Posso = may I / can I — for asking permission."
+      },
+      "feedbackErr": {
+        "it": "Permesso → potere: Posso entrare? Posso usare il bagno?",
+        "en": "Permission → potere: Posso entrare? Posso usare il bagno?"
+      }
+    },
+    {
+      "tipo": "multipla",
+      "domanda": {
+        "it": "Come si dice 'can you help me?' in italiano?",
+        "en": "How do you say 'can you help me?' in Italian?"
+      },
+      "opzioni": [
+        "Vuoi aiutarmi?",
+        "Devi aiutarmi?",
+        "Puoi aiutarmi?",
+        "Sai aiutarmi?"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Puoi aiutarmi? = Can you help me? Richiesta di aiuto.",
+        "en": "Correct! Puoi aiutarmi? = Can you help me? Request for help."
+      },
+      "feedbackErr": {
+        "it": "Richiesta → potere: Puoi aiutarmi?",
+        "en": "Request → potere: Puoi aiutarmi?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I verbi modali si usano sempre con un infinito.",
+        "en": "Modal verbs are always used with an infinitive."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Posso mangiare, voglio andare, devo partire — sempre + infinito.",
+        "en": "Correct! Posso mangiare, voglio andare, devo partire — always + infinitive."
+      },
+      "feedbackErr": {
+        "it": "Vero! Modale + infinito sempre: posso MANGIARE.",
+        "en": "True! Modal + infinitive always: posso MANGIARE."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Voglio' è la prima persona singolare di 'volere'.",
+        "en": "'Voglio' is the first person singular of 'volere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Io voglio — volere: voglio, vuoi, vuole...",
+        "en": "Correct! Io voglio — volere: voglio, vuoi, vuole..."
+      },
+      "feedbackErr": {
+        "it": "Vero! Voglio = io voglio.",
+        "en": "True! Voglio = io voglio."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Posso nuotare' e 'so nuotare' significano la stessa cosa.",
+        "en": "'Posso nuotare' and 'so nuotare' mean the same thing."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Posso = I'm allowed to / possible. So = I know how to (abilità appresa).",
+        "en": "False! Posso = I'm allowed to / possible. So = I know how to (learned ability)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Posso = possibilità. So = abilità acquisita.",
+        "en": "False! Posso = possibility. So = acquired ability."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Dobbiamo' è la prima persona plurale di 'dovere'.",
+        "en": "'Dobbiamo' is the first person plural of 'dovere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi dobbiamo — dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+        "en": "Correct! Noi dobbiamo — dovere: devo, devi, deve, dobbiamo, dovete, devono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dobbiamo = noi dobbiamo.",
+        "en": "True! Dobbiamo = noi dobbiamo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'voglio andando' con il gerundio dopo il modale.",
+        "en": "You say 'voglio andando' with the gerund after the modal."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Modale + INFINITO: voglio andare (non andando).",
+        "en": "False! Modal + INFINITIVE: voglio andare (not andando)."
+      },
+      "feedbackErr": {
+        "it": "Falso! Modale + infinito: voglio ANDARE.",
+        "en": "False! Modal + infinitive: voglio ANDARE."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Potere' si usa per chiedere permesso: Posso entrare?",
+        "en": "'Potere' is used to ask permission: Posso entrare?"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Posso = may I? — per chiedere permesso educatamente.",
+        "en": "Correct! Posso = may I? — for asking permission politely."
+      },
+      "feedbackErr": {
+        "it": "Vero! Posso entrare? = May I come in? Permesso → potere.",
+        "en": "True! Posso entrare? = May I come in? Permission → potere."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sanno' è la terza persona plurale di 'sapere'.",
+        "en": "'Sanno' is the third person plural of 'sapere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Loro sanno — sapere: so, sai, sa, sappiamo, sapete, sanno.",
+        "en": "Correct! Loro sanno — sapere: so, sai, sa, sappiamo, sapete, sanno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sanno = loro sanno.",
+        "en": "True! Sanno = loro sanno."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vorrei' è una forma più educata di 'voglio'.",
+        "en": "'Vorrei' is a more polite form of 'voglio'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Vorrei = I would like (condizionale) — più educato di voglio.",
+        "en": "Correct! Vorrei = I would like (conditional) — more polite than voglio."
+      },
+      "feedbackErr": {
+        "it": "Vero! Vorrei un caffè è più educato di Voglio un caffè.",
+        "en": "True! Vorrei un caffè is more polite than Voglio un caffè."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "I modali italiani sono regolari al presente indicativo.",
+        "en": "Italian modals are regular in the present indicative."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Falso! Potere, volere, dovere, sapere sono tutti irregolari.",
+        "en": "False! Potere, volere, dovere, sapere are all irregular."
+      },
+      "feedbackErr": {
+        "it": "Falso! Tutti irregolari: posso (non poto), voglio (non volo), devo ma dobbiamo.",
+        "en": "False! All irregular: posso (not poto), voglio (not volo), devo but dobbiamo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Può' è la terza persona singolare di 'potere'.",
+        "en": "'Può' is the third person singular of 'potere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Lui/lei può — potere: posso, puoi, può, possiamo, potete, possono.",
+        "en": "Correct! Lui/lei può — potere: posso, puoi, può, possiamo, potete, possono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Può = lui/lei può.",
+        "en": "True! Può = lui/lei può."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'devo andare' non 'devo vado'.",
+        "en": "You say 'devo andare' not 'devo vado'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Modale + infinito: devo ANDARE (non il presente indicativo).",
+        "en": "Correct! Modal + infinitive: devo ANDARE (not the present indicative)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Modale + infinito: devo andare.",
+        "en": "True! Modal + infinitive: devo andare."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Volete' è la seconda persona plurale di 'volere'.",
+        "en": "'Volete' is the second person plural of 'volere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Voi volete — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+        "en": "Correct! Voi volete — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Volete = voi volete.",
+        "en": "True! Volete = voi volete."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'So parlare italiano' significa 'I know how to speak Italian'.",
+        "en": "'So parlare italiano' means 'I know how to speak Italian'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Sapere + infinito = know how to: so parlare, so cucinare, so nuotare.",
+        "en": "Correct! Sapere + infinitive = know how to: so parlare, so cucinare, so nuotare."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sapere = know how to: so parlare italiano.",
+        "en": "True! Sapere = know how to: so parlare italiano."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Possiamo' è la prima persona plurale di 'potere'.",
+        "en": "'Possiamo' is the first person plural of 'potere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi possiamo — potere: posso, puoi, può, possiamo, potete, possono.",
+        "en": "Correct! Noi possiamo — potere: posso, puoi, può, possiamo, potete, possono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Possiamo = noi possiamo.",
+        "en": "True! Possiamo = noi possiamo."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "In italiano 'dovere' esprime sia obbligo che probabilità.",
+        "en": "In Italian 'dovere' expresses both obligation and probability."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Deve essere tardi = It must be late (probabilità). Devo studiare = I have to study (obbligo).",
+        "en": "Correct! Deve essere tardi = It must be late (probability). Devo studiare = I have to study (obligation)."
+      },
+      "feedbackErr": {
+        "it": "Vero! Dovere = obbligo (devo studiare) e probabilità (deve essere tardi).",
+        "en": "True! Dovere = obligation (devo studiare) and probability (deve essere tardi)."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Vogliono' è la terza persona plurale di 'volere'.",
+        "en": "'Vogliono' is the third person plural of 'volere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Loro vogliono — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+        "en": "Correct! Loro vogliono — volere: voglio, vuoi, vuole, vogliamo, volete, vogliono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Vogliono = loro vogliono.",
+        "en": "True! Vogliono = loro vogliono."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si può dire 'non posso venire' per rifiutare un invito.",
+        "en": "You can say 'non posso venire' to decline an invitation."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Non posso venire = I can't come — modo educato per rifiutare.",
+        "en": "Correct! Non posso venire = I can't come — polite way to decline."
+      },
+      "feedbackErr": {
+        "it": "Vero! Non posso venire è il modo standard per rifiutare un invito.",
+        "en": "True! Non posso venire is the standard way to decline an invitation."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Devono' è la terza persona plurale di 'dovere'.",
+        "en": "'Devono' is the third person plural of 'dovere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Loro devono — dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+        "en": "Correct! Loro devono — dovere: devo, devi, deve, dobbiamo, dovete, devono."
+      },
+      "feedbackErr": {
+        "it": "Vero! Devono = loro devono.",
+        "en": "True! Devono = loro devono."
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "Si dice 'voglio mangiare' non 'voglio mangio'.",
+        "en": "You say 'voglio mangiare' not 'voglio mangio'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Modale + infinito sempre: voglio MANGIARE.",
+        "en": "Correct! Modal + infinitive always: voglio MANGIARE."
+      },
+      "feedbackErr": {
+        "it": "Vero! Modale + infinito: voglio mangiare.",
+        "en": "True! Modal + infinitive: voglio mangiare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ avere un caffè? (io, chiedere permesso)",
+        "en": "Build: ___ have a coffee? (I, asking permission)"
+      },
+      "parole": [
+        "Posso",
+        "avere",
+        "un",
+        "caffè"
+      ],
+      "distrattori": [
+        "Voglio",
+        "Devo",
+        "So"
+      ],
+      "correct": [
+        "Posso",
+        "avere",
+        "un",
+        "caffè"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Permesso → potere: Posso avere un caffè?",
+        "en": "Perfect! Permission → potere: Posso avere un caffè?"
+      },
+      "feedbackErr": {
+        "it": "Permesso → posso: Posso avere un caffè?",
+        "en": "Permission → posso: Posso avere un caffè?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ imparare l'italiano. (io, desiderio)",
+        "en": "Build: ___ learn Italian. (I, desire)"
+      },
+      "parole": [
+        "Voglio",
+        "imparare",
+        "l'italiano"
+      ],
+      "distrattori": [
+        "Posso",
+        "Devo",
+        "So"
+      ],
+      "correct": [
+        "Voglio",
+        "imparare",
+        "l'italiano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Desiderio → volere: Voglio imparare.",
+        "en": "Perfect! Desire → volere: Voglio imparare."
+      },
+      "feedbackErr": {
+        "it": "Desiderio → voglio: Voglio imparare.",
+        "en": "Desire → voglio: Voglio imparare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Mario ___ partire presto. (obbligo)",
+        "en": "Build: Mario ___ leave early. (obligation)"
+      },
+      "parole": [
+        "Mario",
+        "deve",
+        "partire",
+        "presto"
+      ],
+      "distrattori": [
+        "vuole",
+        "può",
+        "sa"
+      ],
+      "correct": [
+        "Mario",
+        "deve",
+        "partire",
+        "presto"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Obbligo → dovere: deve partire.",
+        "en": "Perfect! Obligation → dovere: deve partire."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → deve: Mario deve partire.",
+        "en": "Obligation → deve: Mario deve partire."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ cucinare benissimo. (io, abilità)",
+        "en": "Build: ___ cook very well. (I, ability)"
+      },
+      "parole": [
+        "So",
+        "cucinare",
+        "benissimo"
+      ],
+      "distrattori": [
+        "Posso",
+        "Voglio",
+        "Devo"
+      ],
+      "correct": [
+        "So",
+        "cucinare",
+        "benissimo"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Abilità acquisita → sapere: So cucinare.",
+        "en": "Perfect! Acquired ability → sapere: So cucinare."
+      },
+      "feedbackErr": {
+        "it": "Abilità acquisita → so: So cucinare.",
+        "en": "Acquired ability → so: So cucinare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ aspettare. (loro, desiderio negativo)",
+        "en": "Build: They don't ___ wait. (desire, negative)"
+      },
+      "parole": [
+        "Non",
+        "vogliono",
+        "aspettare"
+      ],
+      "distrattori": [
+        "possono",
+        "devono",
+        "sanno"
+      ],
+      "correct": [
+        "Non",
+        "vogliono",
+        "aspettare"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Non volere = don't want: non vogliono aspettare.",
+        "en": "Perfect! Non volere = don't want: non vogliono aspettare."
+      },
+      "feedbackErr": {
+        "it": "Non volere = don't want: non vogliono.",
+        "en": "Non volere = don't want: non vogliono."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ andare a Napoli questo weekend. (noi, possibilità)",
+        "en": "Build: We ___ go to Naples this weekend. (possibility)"
+      },
+      "parole": [
+        "Possiamo",
+        "andare",
+        "a",
+        "Napoli",
+        "questo",
+        "weekend"
+      ],
+      "distrattori": [
+        "Vogliamo",
+        "Dobbiamo",
+        "Sappiamo"
+      ],
+      "correct": [
+        "Possiamo",
+        "andare",
+        "a",
+        "Napoli",
+        "questo",
+        "weekend"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Possibilità → potere: Possiamo andare.",
+        "en": "Perfect! Possibility → potere: Possiamo andare."
+      },
+      "feedbackErr": {
+        "it": "Possibilità → possiamo: Possiamo andare.",
+        "en": "Possibility → possiamo: Possiamo andare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ studiare stasera. (tu, obbligo)",
+        "en": "Build: You ___ study tonight. (obligation)"
+      },
+      "parole": [
+        "Devi",
+        "studiare",
+        "stasera"
+      ],
+      "distrattori": [
+        "Vuoi",
+        "Puoi",
+        "Sai"
+      ],
+      "correct": [
+        "Devi",
+        "studiare",
+        "stasera"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Obbligo → dovere: Devi studiare.",
+        "en": "Perfect! Obligation → dovere: Devi studiare."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → devi: Devi studiare.",
+        "en": "Obligation → devi: Devi studiare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ parlare italiano. (voi, abilità)",
+        "en": "Build: You all ___ speak Italian. (ability)"
+      },
+      "parole": [
+        "Sapete",
+        "parlare",
+        "italiano"
+      ],
+      "distrattori": [
+        "Potete",
+        "Volete",
+        "Dovete"
+      ],
+      "correct": [
+        "Sapete",
+        "parlare",
+        "italiano"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Abilità → sapere: Sapete parlare italiano.",
+        "en": "Perfect! Ability → sapere: Sapete parlare italiano."
+      },
+      "feedbackErr": {
+        "it": "Abilità → sapete: Sapete parlare italiano.",
+        "en": "Ability → sapete: Sapete parlare italiano."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ un caffè, per favore. (io, educato)",
+        "en": "Build: I ___ a coffee, please. (I, polite)"
+      },
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "Voglio",
+        "Posso",
+        "Devo"
+      ],
+      "correct": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Vorrei = I would like — più educato di voglio.",
+        "en": "Perfect! Vorrei = I would like — more polite than voglio."
+      },
+      "feedbackErr": {
+        "it": "Educato → vorrei: Vorrei un caffè.",
+        "en": "Polite → vorrei: Vorrei un caffè."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ fumare qui. (tu, divieto)",
+        "en": "Build: You ___ not smoke here. (prohibition)"
+      },
+      "parole": [
+        "Non",
+        "devi",
+        "fumare",
+        "qui"
+      ],
+      "distrattori": [
+        "vuoi",
+        "puoi",
+        "sai"
+      ],
+      "correct": [
+        "Non",
+        "devi",
+        "fumare",
+        "qui"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Divieto → non devi: Non devi fumare qui.",
+        "en": "Perfect! Prohibition → non devi: Non devi fumare qui."
+      },
+      "feedbackErr": {
+        "it": "Divieto → non devi: Non devi fumare.",
+        "en": "Prohibition → non devi: Non devi fumare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ aiutarmi? (tu, richiesta)",
+        "en": "Build: ___ you help me? (request)"
+      },
+      "parole": [
+        "Puoi",
+        "aiutarmi"
+      ],
+      "distrattori": [
+        "Vuoi",
+        "Devi",
+        "Sai"
+      ],
+      "correct": [
+        "Puoi",
+        "aiutarmi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Richiesta → potere: Puoi aiutarmi?",
+        "en": "Perfect! Request → potere: Puoi aiutarmi?"
+      },
+      "feedbackErr": {
+        "it": "Richiesta → puoi: Puoi aiutarmi?",
+        "en": "Request → puoi: Puoi aiutarmi?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ essere tardi. (probabilità)",
+        "en": "Build: It ___ be late. (probability)"
+      },
+      "parole": [
+        "Deve",
+        "essere",
+        "tardi"
+      ],
+      "distrattori": [
+        "Può",
+        "Vuole",
+        "Sa"
+      ],
+      "correct": [
+        "Deve",
+        "essere",
+        "tardi"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Probabilità → dovere: Deve essere tardi = It must be late.",
+        "en": "Perfect! Probability → dovere: Deve essere tardi = It must be late."
+      },
+      "feedbackErr": {
+        "it": "Probabilità → deve: Deve essere tardi.",
+        "en": "Probability → deve: Deve essere tardi."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ venire alla festa? (voi, possibilità)",
+        "en": "Build: ___ you come to the party? (possibility)"
+      },
+      "parole": [
+        "Potete",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "Volete",
+        "Dovete",
+        "Sapete"
+      ],
+      "correct": [
+        "Potete",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Possibilità → potere: Potete venire?",
+        "en": "Perfect! Possibility → potere: Potete venire?"
+      },
+      "feedbackErr": {
+        "it": "Possibilità → potete: Potete venire?",
+        "en": "Possibility → potete: Potete venire?"
+      }
+    },
+    {
+      "tipo": "vero_falso",
+      "domanda": {
+        "it": "'Sappiamo' è la prima persona plurale di 'sapere'.",
+        "en": "'Sappiamo' is the first person plural of 'sapere'."
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Esatto! Noi sappiamo — sapere: so, sai, sa, sappiamo, sapete, sanno.",
+        "en": "Correct! Noi sappiamo — sapere: so, sai, sa, sappiamo, sapete, sanno."
+      },
+      "feedbackErr": {
+        "it": "Vero! Sappiamo = noi sappiamo.",
+        "en": "True! Sappiamo = noi sappiamo."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ guidare da quando ho 18 anni. (io, abilità)",
+        "en": "Build: ___ drive since I was 18. (ability)"
+      },
+      "parole": [
+        "So",
+        "guidare",
+        "da",
+        "quando",
+        "ho",
+        "18",
+        "anni"
+      ],
+      "distrattori": [
+        "Posso",
+        "Voglio",
+        "Devo"
+      ],
+      "correct": [
+        "So",
+        "guidare",
+        "da",
+        "quando",
+        "ho",
+        "18",
+        "anni"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Abilità acquisita → sapere: So guidare.",
+        "en": "Perfect! Acquired ability → sapere: So guidare."
+      },
+      "feedbackErr": {
+        "it": "Abilità acquisita → so: So guidare.",
+        "en": "Acquired ability → so: So guidare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Sofia non ___ mangiare i pomodori. (allergia/impossibilità)",
+        "en": "Build: Sofia ___ eat tomatoes. (impossibility)"
+      },
+      "parole": [
+        "Sofia",
+        "non",
+        "può",
+        "mangiare",
+        "i",
+        "pomodori"
+      ],
+      "distrattori": [
+        "vuole",
+        "deve",
+        "sa"
+      ],
+      "correct": [
+        "Sofia",
+        "non",
+        "può",
+        "mangiare",
+        "i",
+        "pomodori"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Impossibilità → non potere: non può mangiare.",
+        "en": "Perfect! Impossibility → non potere: non può mangiare."
+      },
+      "feedbackErr": {
+        "it": "Impossibilità → non può: Sofia non può mangiare.",
+        "en": "Impossibility → non può: Sofia non può mangiare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ partire domani mattina. (noi, obbligo)",
+        "en": "Build: We ___ leave tomorrow morning. (obligation)"
+      },
+      "parole": [
+        "Dobbiamo",
+        "partire",
+        "domani",
+        "mattina"
+      ],
+      "distrattori": [
+        "Possiamo",
+        "Vogliamo",
+        "Sappiamo"
+      ],
+      "correct": [
+        "Dobbiamo",
+        "partire",
+        "domani",
+        "mattina"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Obbligo → dovere: Dobbiamo partire.",
+        "en": "Perfect! Obligation → dovere: Dobbiamo partire."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → dobbiamo: Dobbiamo partire.",
+        "en": "Obligation → dobbiamo: Dobbiamo partire."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ suonare la chitarra? (tu, abilità)",
+        "en": "Build: ___ you play guitar? (ability)"
+      },
+      "parole": [
+        "Sai",
+        "suonare",
+        "la",
+        "chitarra"
+      ],
+      "distrattori": [
+        "Puoi",
+        "Vuoi",
+        "Devi"
+      ],
+      "correct": [
+        "Sai",
+        "suonare",
+        "la",
+        "chitarra"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Abilità → sapere: Sai suonare la chitarra?",
+        "en": "Perfect! Ability → sapere: Sai suonare la chitarra?"
+      },
+      "feedbackErr": {
+        "it": "Abilità → sai: Sai suonare la chitarra?",
+        "en": "Ability → sai: Sai suonare la chitarra?"
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Loro ___ lavorare di più. (consiglio/obbligo)",
+        "en": "Build: They ___ work more. (obligation)"
+      },
+      "parole": [
+        "Loro",
+        "devono",
+        "lavorare",
+        "di",
+        "più"
+      ],
+      "distrattori": [
+        "possono",
+        "vogliono",
+        "sanno"
+      ],
+      "correct": [
+        "Loro",
+        "devono",
+        "lavorare",
+        "di",
+        "più"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Obbligo → dovere: devono lavorare.",
+        "en": "Perfect! Obligation → dovere: devono lavorare."
+      },
+      "feedbackErr": {
+        "it": "Obbligo → devono: Loro devono lavorare.",
+        "en": "Obligation → devono: Loro devono lavorare."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: Non ___ uscire stasera, ho mal di testa. (io, impossibilità)",
+        "en": "Build: I ___ go out tonight, I have a headache. (impossibility)"
+      },
+      "parole": [
+        "Non",
+        "posso",
+        "uscire",
+        "stasera",
+        "ho",
+        "mal",
+        "di",
+        "testa"
+      ],
+      "distrattori": [
+        "voglio",
+        "devo",
+        "so"
+      ],
+      "correct": [
+        "Non",
+        "posso",
+        "uscire",
+        "stasera",
+        "ho",
+        "mal",
+        "di",
+        "testa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Impossibilità → non posso: Non posso uscire.",
+        "en": "Perfect! Impossibility → non posso: Non posso uscire."
+      },
+      "feedbackErr": {
+        "it": "Impossibilità → non posso: Non posso uscire.",
+        "en": "Impossibility → non posso: Non posso uscire."
+      }
+    },
+    {
+      "tipo": "word_bank",
+      "domanda": {
+        "it": "Componi: ___ venire alla festa? (tu, invito)",
+        "en": "Build: ___ you come to the party? (invitation)"
+      },
+      "parole": [
+        "Vuoi",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "distrattori": [
+        "Puoi",
+        "Devi",
+        "Sai"
+      ],
+      "correct": [
+        "Vuoi",
+        "venire",
+        "alla",
+        "festa"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! Invito → volere: Vuoi venire alla festa?",
+        "en": "Perfect! Invitation → volere: Vuoi venire alla festa?"
+      },
+      "feedbackErr": {
+        "it": "Invito → vuoi: Vuoi venire alla festa?",
+        "en": "Invitation → vuoi: Vuoi venire alla festa?"
+      }
+    }
+  ]
+}
