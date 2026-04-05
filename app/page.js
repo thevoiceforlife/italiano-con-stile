@@ -192,7 +192,7 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <main style={{ minHeight:"100vh",background:"var(--bg)",padding:"24px 16px" }}>
+    <main className="page-narrow" style={{ minHeight:"100vh",background:"var(--bg)",padding:"24px 16px" }}>
 
       {/* Onboarding */}
       {showOnboarding && mounted && (

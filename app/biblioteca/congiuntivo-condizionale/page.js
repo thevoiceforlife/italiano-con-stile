@@ -474,7 +474,7 @@ export default function CongiuntivoCondizionale() {
   const chiudiTutti = () => setAperte({});
 
   return (
-    <div style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 80 }}>
+    <div className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 80 }}>
       <style>{`
         @keyframes fadeInDown {
           from { opacity: 0; transform: translateY(-8px); }

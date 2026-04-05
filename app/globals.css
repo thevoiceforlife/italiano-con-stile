@@ -392,3 +392,54 @@ button:active:not(:disabled) {
     transform: translateY(0);
   }
 }
+
+/* ============================================
+   RESPONSIVE — colonna centrata stile app
+   ============================================ */
+.app-shell {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media (min-width: 481px) {
+  body {
+    background: #1a2730;
+  }
+  .app-shell {
+    box-shadow: 0 0 60px rgba(0,0,0,0.5);
+  }
+}
+
+/* ============================================
+   LAYOUT PER PAGINA
+   ============================================ */
+.page-narrow {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.page-wide {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ============================================
+   LAYOUT PER PAGINA
+   ============================================ */
+.page-narrow {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.page-wide {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px;
+}

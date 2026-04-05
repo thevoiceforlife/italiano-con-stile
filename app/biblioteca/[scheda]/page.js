@@ -279,13 +279,13 @@ export default function SchedaPage() {
   }
 
   if (loading) return (
-    <main style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ textAlign: "center" }}><div style={{ fontSize: 36, marginBottom: 8 }}>☕</div><div style={{ fontSize: 13, color: "var(--text3)" }}>Caricamento / Loading...</div></div>
     </main>
   );
 
   if (!data) return (
-    <main style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
+    <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 36, marginBottom: 8 }}>😅</div>
         <div style={{ fontSize: 14, fontWeight: 800, color: "var(--err-text)", marginBottom: 16 }}>Scheda non trovata / Card not found</div>
@@ -306,7 +306,7 @@ export default function SchedaPage() {
   const totTipo = eserCorrente.length;
 
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 60 }}>
+    <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 60 }}>
 
       {/* Header sticky */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", position: "sticky", top: 0, zIndex: 10 }}>

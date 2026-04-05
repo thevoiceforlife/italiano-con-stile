@@ -162,7 +162,7 @@ export default function BossLevel() {
   // ─── Schermata di caricamento ───────────────────────────────────────────────
   if (loading) {
     return (
-      <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "24px" }}>
+      <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "24px" }}>
         <div style={{ fontSize: "48px", marginBottom: "16px", animation: "pulse-ok 1s ease infinite" }}>🍦</div>
         <p style={{ fontSize: "15px", fontWeight: 800, color: "#E5B700", marginBottom: "6px" }}>
           Vittoria prepara le domande…
@@ -225,7 +225,7 @@ export default function BossLevel() {
 
   // ─── Gioco ─────────────────────────────────────────────────────────────────
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
+    <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       {topBar}
 
       <div style={{

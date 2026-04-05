@@ -17,10 +17,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${nunito.variable} h-full`}>
       <body
-        className="min-h-full flex flex-col"
+        className="min-h-full flex flex-col items-center"
         style={{ fontFamily: "var(--font-nunito), sans-serif" }}
       >
-        {children}
+        <div className="app-shell">
+          {children}
+        </div>
       </body>
     </html>
   );

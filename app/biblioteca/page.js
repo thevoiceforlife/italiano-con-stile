@@ -25,7 +25,7 @@ export default function BibliotecaPage() {
   });
 
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 40 }}>
+    <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 40 }}>
 
       {/* Header */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "14px 16px", position: "sticky", top: 0, zIndex: 10 }}>

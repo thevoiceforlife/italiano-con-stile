@@ -402,7 +402,7 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
     }, 80);
   }
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
+    <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
           <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 11, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0, letterSpacing: "0.04em" }}>🏠 Home</button>
@@ -476,7 +476,7 @@ function QuizFase({ lesson, unitType, unita, lezione, onComplete }) {
     else setCurrent(c => c + 1);
   }
   return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
+    <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 2, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -520,7 +520,7 @@ export default function LessonPage() {
   }, [livello, unita, lezione]);
 
   if (loading) return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 48, marginBottom: 12 }}>☕</div>
         <p style={{ fontSize: 14, color: "var(--text3)" }}>Caricamento... / Loading...</p>
@@ -529,7 +529,7 @@ export default function LessonPage() {
   );
 
   if (error || !lesson) return (
-    <main style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
+    <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 48, marginBottom: 12 }}>😅</div>
         <p style={{ fontSize: 15, fontWeight: 800, color: "var(--err-text)", marginBottom: 8 }}>Lezione non trovata / Lesson not found</p>
