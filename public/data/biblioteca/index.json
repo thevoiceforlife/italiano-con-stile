@@ -1,6 +1,20 @@
 {
   "grammatica": [
     {
+      "id": "congiuntivo-condizionale",
+      "emoji": "🎯",
+      "livello": "B1",
+      "titolo": {
+        "it": "Congiuntivo & Condizionale",
+        "en": "Subjunctive & Conditional — Complete Guide"
+      },
+      "descrizione": {
+        "it": "Tutti i tempi, le congiunzioni, lo schema SE completo e il raccordo tra i due modi.",
+        "en": "All tenses, conjunctions, complete SE schema and the link between the two moods."
+      },
+      "tipo": "special"
+    },
+    {
       "id": "articoli-determinativi",
       "emoji": "📌",
       "livello": "A1",
