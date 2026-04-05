@@ -331,8 +331,8 @@ const SCHEMA_SE = [
 // ── Componente TCard (accordion) ─────────────────────────────────────────────
 function TCard({ t, aperta, onToggle }) {
   const isCond = t.modo === "Condizionale";
-  const accent = isCond ? "var(--primary)" : "var(--accent, #009246)";
-  const accentBg = isCond ? "rgba(var(--primary-rgb, 229,183,0), 0.08)" : "rgba(0,146,70,0.06)";
+  const accent = isCond ? "var(--primary)" : "#009246";
+  const accentBg = isCond ? "rgba(var(--primary-rgb, 229,183,0), 0.08)" : "rgba(0,146,70,0.3)";
 
   return (
     <div style={{
@@ -375,7 +375,7 @@ function TCard({ t, aperta, onToggle }) {
 
       {/* Body espanso */}
       {aperta && (
-        <div style={{ background: "var(--text)", padding: "24px 20px 28px", animation: "fadeInDown 0.25s ease" }}>
+        <div style={{ background: "#15212a", padding: "24px 20px 28px", animation: "fadeInDown 0.25s ease" }}>
           {/* Chips */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 16 }}>
             {t.chips.map((c, i) => (
@@ -396,7 +396,7 @@ function TCard({ t, aperta, onToggle }) {
                 {t.tabella.cols.map((c, i) => (
                   <th key={i} style={{
                     padding: "8px 10px", textAlign: "left",
-                    background: i === 0 ? "rgba(255,255,255,0.06)" : (isCond ? "rgba(229,183,0,0.2)" : "rgba(0,146,70,0.25)"),
+                    background: i === 0 ? "rgba(255,255,255,0.06)" : (isCond ? "rgba(229,183,0,0.25)" : "rgba(0,146,70,0.25)"),
                     color: i === 0 ? "rgba(255,255,255,0.4)" : (isCond ? "#E5B700" : "#88DDAA"),
                     fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase", fontWeight: 700,
                   }}>{c}</th>
@@ -490,7 +490,7 @@ export default function CongiuntivoCondizionale() {
 
       {/* Hero */}
       <div style={{
-        background: "var(--text)",
+        background: "#15212a",
         padding: "48px 20px 36px",
         position: "relative",
         overflow: "hidden",
@@ -623,9 +623,9 @@ export default function CongiuntivoCondizionale() {
                     {c.voci.map((v, j) => (
                       <span key={j} style={{
                         fontFamily: "monospace", fontSize: 11, padding: "2px 8px",
-                        background: c.colore === "verde" ? "rgba(0,146,70,0.08)" : "rgba(229,183,0,0.1)",
-                        color: c.colore === "verde" ? "#006B33" : "#8B6900",
-                        border: `1px solid ${c.colore === "verde" ? "rgba(0,146,70,0.2)" : "rgba(229,183,0,0.3)"}`,
+                        background: c.colore === "verde" ? "rgba(0,146,70,0.18)" : "rgba(229,183,0,0.15)",
+                        color: c.colore === "verde" ? "#88DDAA" : "#E5B700",
+                        border: `1px solid ${c.colore === "verde" ? "rgba(0,146,70,0.3)" : "rgba(229,183,0,0.35)"}`,
                       }}>{v}</span>
                     ))}
                   </div>
@@ -676,7 +676,7 @@ export default function CongiuntivoCondizionale() {
                     {["Tipo", "Protasi (SE...)", "Apodosi (principale)", "Esempio IT", "Esempio EN"].map((h, i) => (
                       <th key={i} style={{
                         padding: "10px 12px", textAlign: "left",
-                        background: i === 0 ? "var(--text)" : i <= 2 ? "rgba(0,0,0,0.85)" : "rgba(0,0,0,0.7)",
+                        background: i === 0 ? "var(--text)" : i <= 2 ? "#15212a" : "#1e2d38",
                         color: "white", fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase",
                         borderRight: "1px solid rgba(255,255,255,0.1)",
                       }}>{h}</th>
@@ -687,11 +687,11 @@ export default function CongiuntivoCondizionale() {
                   {SCHEMA_SE.map((r, i) => {
                     const isError = !r.ok && !r.colloquiale;
                     const isColloquiale = r.colloquiale;
-                    const bg = isError ? "rgba(206,43,55,0.06)" : isColloquiale ? "rgba(229,183,0,0.06)" : i % 2 === 0 ? "transparent" : "rgba(0,0,0,0.02)";
+                    const bg = isError ? "rgba(206,43,55,0.12)" : isColloquiale ? "rgba(229,183,0,0.1)" : i % 2 === 0 ? "transparent" : "rgba(255,255,255,0.03)";
                     const borderColor = isError ? "#CE2B37" : isColloquiale ? "#E5B700" : "transparent";
                     return (
                       <tr key={i} style={{ background: bg, borderLeft: `4px solid ${borderColor}` }}>
-                        <td style={{ padding: "10px 12px", fontWeight: 700, fontSize: 12, color: isError ? "#CE2B37" : isColloquiale ? "#8B6900" : "var(--text)", borderBottom: "1px solid var(--border)" }}>
+                        <td style={{ padding: "10px 12px", fontWeight: 700, fontSize: 12, color: isError ? "#CE2B37" : isColloquiale ? "#E5B700" : "var(--text)", borderBottom: "1px solid var(--border)" }}>
                           {r.tipo}
                         </td>
                         <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 11, color: "var(--text2)", borderBottom: "1px solid var(--border)" }}>{r.se}</td>
@@ -709,7 +709,7 @@ export default function CongiuntivoCondizionale() {
             <div style={{ display: "flex", gap: 16, marginTop: 12, flexWrap: "wrap" }}>
               {[
                 { colore: "transparent", border: "var(--border)", label: "✅ Corretto" },
-                { colore: "rgba(229,183,0,0.1)", border: "#E5B700", label: "⚠️ Colloquiale (parlato)" },
+                { colore: "rgba(229,183,0,0.15)", border: "#E5B700", label: "⚠️ Colloquiale (parlato)" },
                 { colore: "rgba(206,43,55,0.08)", border: "#CE2B37", label: "❌ Sempre sbagliato" },
               ].map((l, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 11, color: "var(--text3)" }}>
@@ -729,16 +729,16 @@ export default function CongiuntivoCondizionale() {
                   { cong: "Cong. PASSATO", cond: "Cond. PRESENTE", quando: "Emozione presente + fatto passato", esempio: "Sono felice che sia venuto", colore: "#009246" },
                   { cong: "Cong. IMPERFETTO", cond: "Cond. PRESENTE", quando: "Tipo II / Principale al passato", esempio: "Se studiassi → impareresti · Voleva che venissi", colore: "#E5B700" },
                   { cong: "Cong. TRAPASSATO", cond: "Cond. PASSATO", quando: "Tipo III / Rimpianto passato", esempio: "Se avessi studiato → avresti imparato", colore: "#CE2B37" },
-                  { cong: "Cong. TRAPASSATO", cond: "Cond. PRESENTE", quando: "Tipo MISTO (cond. passata, effetto ora)", esempio: "Se avessi studiato → parleresti bene adesso", colore: "#8B6900" },
+                  { cong: "Cong. TRAPASSATO", cond: "Cond. PRESENTE", quando: "Tipo MISTO (cond. passata, effetto ora)", esempio: "Se avessi studiato → parleresti bene adesso", colore: "#E5B700" },
                 ].map((r, i) => (
                   <div key={i} style={{ display: "grid", gridTemplateColumns: "180px 180px 1fr", gap: 2 }}>
-                    <div style={{ background: "rgba(0,146,70,0.08)", border: "1.5px solid rgba(0,146,70,0.2)", padding: "10px 12px" }}>
+                    <div style={{ background: "rgba(0,146,70,0.18)", border: "1.5px solid rgba(0,146,70,0.2)", padding: "10px 12px" }}>
                       <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "#009246", marginBottom: 3 }}>CONGIUNTIVO</div>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: "#006B33" }}>{r.cong}</div>
+                      <div style={{ fontSize: 12, fontWeight: 700, color: "#88DDAA" }}>{r.cong}</div>
                     </div>
                     <div style={{ background: "rgba(229,183,0,0.08)", border: "1.5px solid rgba(229,183,0,0.2)", padding: "10px 12px" }}>
                       <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "var(--primary)", marginBottom: 3 }}>CONDIZIONALE</div>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: "#8B6900" }}>{r.cond}</div>
+                      <div style={{ fontSize: 12, fontWeight: 700, color: "#E5B700" }}>{r.cond}</div>
                     </div>
                     <div style={{ background: "var(--card)", border: "1.5px solid var(--border)", padding: "10px 12px", borderLeft: `3px solid ${r.colore}` }}>
                       <div style={{ fontSize: 11, color: "var(--text3)", marginBottom: 2 }}>{r.quando}</div>
