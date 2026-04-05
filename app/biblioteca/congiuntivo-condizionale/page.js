@@ -509,7 +509,7 @@ export default function CongiuntivoCondizionale() {
             <span style={{ color: "#009246" }}>Congiuntivo</span> &amp; <span style={{ color: "#E5B700" }}>Condizionale</span>
           </h1>
           <div style={{ fontFamily: "monospace", fontSize: 11, color: "rgba(255,255,255,0.35)", letterSpacing: 2, marginBottom: 20 }}>SUBJUNCTIVE &amp; CONDITIONAL — ALL TENSES + CONJUNCTIONS + SE</div>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3, maxWidth: 600 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3 }}>
             <div style={{ background: "rgba(0,146,70,0.15)", padding: "14px 16px", borderLeft: "4px solid #009246" }}>
               <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, color: "#88DDAA", marginBottom: 6 }}>🇮🇹 Italiano</div>
               <div style={{ fontStyle: "italic", fontSize: 13, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>Il congiuntivo esprime soggettività, dubbio, speranza, volontà. Il condizionale esprime cortesia, ipotesi e rimpianti. Insieme costruiscono il sistema dell'ipotetico italiano.</div>
