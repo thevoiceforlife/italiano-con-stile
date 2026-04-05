@@ -34,6 +34,16 @@ function getDaysToSunday() {
   return d === 0 ? 1 : 8 - d;
 }
 
+// FIX Sprint 7: lunedì della settimana corrente in formato ISO
+function getMondayISO() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  const dow = d.getDay();
+  const diff = dow === 0 ? -6 : 1 - dow;
+  d.setDate(d.getDate() + diff);
+  return d.toISOString().split('T')[0];
+}
+
 export function loadProgress() {
   try {
     const raw = localStorage.getItem(KEY);
@@ -57,7 +67,7 @@ export function initAndDecay() {
       completedToday: [], lessonScores: {},
       lastVisit: now, lastVisitDate: today,
       livello: null, onboardingDone: false,
-      streak: { weekStart: today, totalDays: getDaysToSunday(), activeDays: [], bonusErogato: false },
+      streak: { weekStart: getMondayISO(), totalDays: 7, activeDays: [], bonusErogato: false },
     };
     saveRaw(initial);
     return initial;
@@ -77,13 +87,15 @@ export function initAndDecay() {
   }
 
   // Reset streak se lunedì
-  let streak = data.streak ?? { weekStart: today, totalDays: getDaysToSunday(), activeDays: [], bonusErogato: false };
+  let streak = data.streak ?? { weekStart: getMondayISO(), totalDays: 7, activeDays: [], bonusErogato: false };
   const dow = new Date().getDay();
-  if (dow === 1 && daysDiff > 0) {
+  const currentMonday = getMondayISO();
+  const isNewWeek = streak.weekStart !== currentMonday;
+  if (isNewWeek) {
     if ((streak.activeDays ?? []).length === 0 && (data.completed ?? []).length > 0) {
       energy = 25;
     }
-    streak = { weekStart: today, totalDays: 7, activeDays: [], bonusErogato: false };
+    streak = { weekStart: currentMonday, totalDays: 7, activeDays: [], bonusErogato: false };
   }
 
   const updated = { ...data, energy, completedToday, lastVisit: now, lastVisitDate: today, streak };

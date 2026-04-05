@@ -1,0 +1,283 @@
+{
+  "id": 3,
+  "title": "Mario dà le Indicazioni",
+  "subtitle": "Preposizioni di luogo in contesto",
+  "livello": "Viaggiatore",
+  "vocab": [
+    {
+      "id": "sinistra",
+      "emoji": "⬅️",
+      "it": "a sinistra",
+      "en": "to the left",
+      "mario": "A sinistra, a destra — le prime parole per non perderti in Italia! / Left, right — the first words so you don't get lost in Italy!",
+      "marioIT": "A sinistra, a destra — le prime parole per non perderti in Italia!"
+    },
+    {
+      "id": "destra",
+      "emoji": "➡️",
+      "it": "a destra",
+      "en": "to the right",
+      "mario": "Gira a destra al semaforo — ma quale semaforo? Beh... vedrai. / Turn right at the traffic light — but which one? Well... you'll see.",
+      "marioIT": "Gira a destra al semaforo, ma quale semaforo? Beh, vedrai."
+    },
+    {
+      "id": "dritto",
+      "emoji": "⬆️",
+      "it": "sempre dritto",
+      "en": "straight ahead",
+      "mario": "Sempre dritto è la risposta più comune — e la meno precisa! / Straight ahead is the most common answer — and the least precise!",
+      "marioIT": "Sempre dritto è la risposta più comune, e la meno precisa!"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Leggi bene... / Read carefully...",
+      "introIT": "Leggi bene...",
+      "domanda": {
+        "it": "Come chiedi la strada senza sembrare un turista?",
+        "en": "How do you ask for directions without looking like a tourist?"
+      },
+      "opzioni": [
+        "Scusi, dov'è la stazione?",
+        "Where is the station please?",
+        "Voglio sapere dov'è la stazione.",
+        "Station! Station! Dov'è?"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Complimenti! 'Scusi' + 'dov'è' — educato e diretto. Gli italiani apprezzano.",
+        "en": "Excellent! 'Scusi' + 'dov'è' — polite and direct. Italians appreciate it."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! In italiano si usa 'Scusi' per fermare qualcuno educatamente.",
+        "en": "Watch out! In Italian, 'Scusi' is how you politely stop someone."
+      }
+    },
+    {
+      "id": 2,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Attenzione però... / Be careful though...",
+      "introIT": "Attenzione però...",
+      "domanda": {
+        "it": "Un italiano ti dice 'a 5 minuti'. Quanto è lontano davvero?",
+        "en": "An Italian tells you 'a 5 minuti'. How far is it really?"
+      },
+      "opzioni": [
+        "Esattamente 5 minuti",
+        "Forse 5, forse 30 — dipende",
+        "Non lo sa",
+        "5 minuti in macchina"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il GPS italiano è ottimista. 'A 5 minuti' può significare qualsiasi cosa.",
+        "en": "Exactly! The Italian GPS is optimistic. '5 minutes' can mean anything."
+      },
+      "feedbackErr": {
+        "it": "Meglio tardi che mai! In Italia, i minuti sono elastici. È cultura, non disonestà!",
+        "en": "Better late than never! In Italy, minutes are elastic. It's culture, not dishonesty!"
+      }
+    },
+    {
+      "id": 3,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Sai come funziona? / Do you know how it works?",
+      "introIT": "Sai come funziona?",
+      "domanda": {
+        "it": "Come si dice 'straight ahead' in italiano?",
+        "en": "How do you say 'straight ahead' in Italian?"
+      },
+      "opzioni": [
+        "A sinistra",
+        "A destra",
+        "Sempre dritto",
+        "Di fronte"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Ben fatto! 'Sempre dritto' — letteralmente 'always straight'. Semplice e utile!",
+        "en": "Well done! 'Sempre dritto' — literally 'always straight'. Simple and useful!"
+      },
+      "feedbackErr": {
+        "it": "Quasi! 'Sempre dritto' — ricordalo, lo sentirai mille volte!",
+        "en": "Almost there! 'Sempre dritto' — remember it, you'll hear it a thousand times!"
+      }
+    },
+    {
+      "id": 4,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Leggi bene, questa è importante. / Read carefully, this one matters.",
+      "introIT": "Leggi bene, questa è importante.",
+      "domanda": {
+        "it": "Come si chiede 'quanto ci vuole a piedi?'",
+        "en": "How do you ask 'how long does it take on foot?'"
+      },
+      "opzioni": [
+        "Quanto tempo a piedi?",
+        "Quanto ci vuole a piedi?",
+        "Come si va a piedi?",
+        "È lontano a piedi?"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Complimenti! 'Quanto ci vuole a piedi?' è la forma più naturale e comune.",
+        "en": "Excellent! 'Quanto ci vuole a piedi?' is the most natural and common form."
+      },
+      "feedbackErr": {
+        "it": "Quasi! La forma più italiana è 'Quanto ci vuole a piedi?' — 'ci vuole' significa 'it takes'.",
+        "en": "Almost! The most Italian form is 'Quanto ci vuole a piedi?' — 'ci vuole' means 'it takes'."
+      }
+    },
+    {
+      "id": 5,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Ultima domanda... / Last question...",
+      "introIT": "Ultima domanda — e poi sei pronto!",
+      "domanda": {
+        "it": "Come si dice 'it's near here' in italiano?",
+        "en": "How do you say 'it's near here' in Italian?"
+      },
+      "opzioni": [
+        "È lontano da qui",
+        "È vicino a qui",
+        "È qui vicino",
+        "Sta vicino"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! 'È qui vicino' — letteralmente 'it's here near'. Naturale e usatissimo.",
+        "en": "Exactly! 'È qui vicino' — literally 'it's here near'. Natural and very common."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! Si dice 'è qui vicino' — non 'è vicino a qui'. L'ordine delle parole è diverso dall'inglese!",
+        "en": "Watch out! You say 'è qui vicino' — not 'è vicino a qui'. Word order is different from English!"
+      }
+    },
+    {
+      "id": 6,
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "intro": "Come lo direbbero i giovani! / How young Italians would say it!",
+      "introIT": "Come lo direbbero i giovani italiani!",
+      "domanda": {
+        "it": "Un giovane dice 'è a due passi'. Cosa significa?",
+        "en": "A young person says 'è a due passi'. What does it mean?"
+      },
+      "opzioni": [
+        "It's two steps away — very near",
+        "It's far",
+        "Walk two steps then turn",
+        "Take two buses"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 'A due passi' — a due passi, letteralmente, vicinissimo. Espressione comunissima!",
+        "en": "Exactly! 'A due passi' — two steps away, literally. Very near. Super common expression!"
+      },
+      "feedbackErr": {
+        "it": "'A due passi' significa vicinissimo — letteralmente 'at two steps'. Lo sentirai ovunque!",
+        "en": "'A due passi' means very near — literally 'at two steps'. You'll hear it everywhere!"
+      }
+    },
+    {
+      "id": 7,
+      "personaggio": "diego",
+      "tipo": "gesti",
+      "intro": "Conosci questo gesto? / Do you know this gesture?",
+      "introIT": "Conosci questo gesto napoletano?",
+      "domanda": {
+        "it": "Cosa significa il gesto 🖐 con il dito sotto l'occhio?",
+        "en": "What does the gesture 🖐 with a finger under the eye mean?"
+      },
+      "opzioni": [
+        "Occhio! Stai attento!",
+        "Sono stanco",
+        "Ci vediamo dopo",
+        "Non capisco"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il dito sotto l'occhio = 'occhio!' — attenzione, stai in guardia!",
+        "en": "Exactly! Finger under the eye = 'watch out!' — be careful, stay alert!"
+      },
+      "feedbackErr": {
+        "it": "Il dito sotto l'occhio significa 'occhio!' — occhio come 'eye', quindi 'tieni gli occhi aperti'!",
+        "en": "Finger under the eye means 'watch out!' — occhio means eye, so 'keep your eyes open'!"
+      }
+    },
+    {
+      "id": 8,
+      "personaggio": "matilde",
+      "tipo": "multipla",
+      "intro": "In contesto formale si dice così. / In a formal context, this is how you say it.",
+      "introIT": "In contesto formale si dice così. Niente slang.",
+      "domanda": {
+        "it": "Come chiedi indicazioni in modo formale a un anziano?",
+        "en": "How do you ask for directions formally to an elderly person?"
+      },
+      "opzioni": [
+        "Scusi, potrebbe indicarmi dov'è la stazione?",
+        "Ehi, dov'è la stazione?",
+        "Mi sa dire dov'è la stazione?",
+        "Sa dov'è la stazione per caso?"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Complimenti! 'Scusi' + condizionale di cortesia — registro formale impeccabile.",
+        "en": "Excellent! 'Scusi' + courtesy conditional — impeccable formal register."
+      },
+      "feedbackErr": {
+        "it": "Con una persona anziana: 'Scusi, potrebbe indicarmi...?' — condizionale + lei formale. Sempre.",
+        "en": "With an elderly person: 'Scusi, potrebbe indicarmi...?' — conditional + formal 'lei'. Always."
+      }
+    }
+  ],
+  "reward": {
+    "scala_errori": [
+      {
+        "max_errori": 0,
+        "energia": 25,
+        "crediti": 15,
+        "cibo": "cornetto+caffè"
+      },
+      {
+        "max_errori": 1,
+        "energia": 20,
+        "crediti": 12,
+        "cibo": "cornetto"
+      },
+      {
+        "max_errori": 2,
+        "energia": 15,
+        "crediti": 10,
+        "cibo": "cornetto"
+      },
+      {
+        "max_errori": 3,
+        "energia": 10,
+        "crediti": 8,
+        "cibo": "caffè"
+      },
+      {
+        "max_errori": 4,
+        "energia": 5,
+        "crediti": 5,
+        "cibo": "caffè"
+      },
+      {
+        "max_errori": 99,
+        "energia": 2,
+        "crediti": 2,
+        "cibo": "nessuno"
+      }
+    ],
+    "pizza_ogni_n_risposte": 5
+  }
+}

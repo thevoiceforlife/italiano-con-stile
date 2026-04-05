@@ -1,11 +1,20 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import LessonButton from "./components/LessonButton";
 import XPBar from "./components/XPBar";
 import Logo from "./components/Logo";
 import OnboardingModal from "./components/OnboardingModal";
 import { parla, CHARACTERS as CHAR_VOICES } from "./components/CharacterBubble";
 import { loadProgress } from "./components/saveProgress";
+import { getLevelData } from "./components/LevelBadge";
+
+// ─── Sprint 8: mini-game imports ──────────────────────────────────────────────
+import MarioDialog  from "./components/games/MarioDialog";
+import DiegoGesti   from "./components/games/DiegoGesti";
+import SofiaSlang   from "./components/games/SofiaSlang";
+import GinoStoria   from "./components/games/GinoStoria";
+import MatildeEmail from "./components/games/MatildeEmail";
 
 const STORAGE_KEY = "italiano-progress";
 
@@ -15,15 +24,17 @@ const CHARACTERS = [
     id: "mario", name: "Mario", emoji: "☕", color: "#FF9B42",
     bubble: { it: "Sono Mario, il tuo barista. Ti accompagno in ogni lezione — dal primo caffè alla vita quotidiana italiana.", en: "I'm Mario, your barman. I'll guide you through every lesson — from your first espresso to everyday Italian life." },
     speakIT: "Sono Mario, il tuo barista. Ti accompagno in ogni lezione, dal primo caffè alla vita quotidiana italiana.",
-    miniGame: "mario_bar",
-    miniGameLabel: "☕ Cosa dice il cliente?",
+    miniGame: "mario_dialog",
+    miniGameLabel: "☕ Dialogo al bar",
+    miniGameDesc:  "Parla con Mario in italiano — 5 turni di conversazione reale.",
   },
   {
     id: "sofia", name: "Sofia", emoji: "🎧", color: "#C8A0E8",
     bubble: { it: "Sono Sofia. Ti insegno lo slang, i social e come parlano davvero i giovani italiani. Veloce.", en: "I'm Sofia. I'll teach you slang, social media Italian, and how young Italians actually speak. Fast." },
     speakIT: "Sono Sofia. Ti insegno lo slang, i social e come parlano davvero i giovani italiani. Veloce.",
     miniGame: "speed_round",
-    miniGameLabel: "🎧 Speed Round",
+    miniGameLabel: "🎧 Speed Round Slang",
+    miniGameDesc:  "8 termini slang in 30 secondi — scegli il significato giusto.",
   },
   {
     id: "diego", name: "Diego", emoji: "🧢", color: "#22C55E",
@@ -31,6 +42,7 @@ const CHARACTERS = [
     speakIT: "Io sono Diego! Ogni volta che fai bene, arrivo io! Siiiii!",
     miniGame: "flash_gesti",
     miniGameLabel: "🧢 Flash Gesti",
+    miniGameDesc:  "10 gesti italiani in 60 secondi — li conosci tutti?",
   },
   {
     id: "gino", name: "Gino", emoji: "🎓", color: "#E5B700",
@@ -38,6 +50,7 @@ const CHARACTERS = [
     speakIT: "Sono Gino, professore di lettere in pensione. Ti racconto la storia della lingua italiana.",
     miniGame: "gesto_storia",
     miniGameLabel: "🎓 Gesto + Storia",
+    miniGameDesc:  "Impara un gesto, poi leggi la storia vera in cui appare.",
   },
   {
     id: "matilde", name: "Matilde", emoji: "💼", color: "#1CB0F6",
@@ -45,6 +58,7 @@ const CHARACTERS = [
     speakIT: "Sono Matilde. Business Italian, email formali, riunioni. Niente slang. Niente scuse. Procediamo.",
     miniGame: "email_challenge",
     miniGameLabel: "💼 Email Challenge",
+    miniGameDesc:  "Scrivi un'email formale — Matilde la valuta con AI.",
   },
   {
     id: "vittoria", name: "Vittoria", emoji: "🍦", color: "#E5B700",
@@ -52,15 +66,38 @@ const CHARACTERS = [
     speakIT: "Sono Nonna Vittoria. Se sbagli il congiuntivo, lo sento da qui. Ma se studi con il cuore, ti faccio il gelato.",
     miniGame: "boss",
     miniGameLabel: "🍦 Sfida la Nonna",
+    miniGameDesc:  "Boss challenge — in arrivo! / Coming soon!",
   },
 ];
 
-const LESSONS = [
-  { id:1, title:"Le Prime Parole / The First Words",        subtitle:"Ciao, Grazie, Prego, Sì — il giorno 1 / day 1" },
-  { id:2, title:"Il Primo Caffè / The First Coffee",          subtitle:"Ordina senza sembrare turista / Order without looking like a tourist" },
-  { id:3, title:"Mario dà le Indicazioni / Mario Gives Directions", subtitle:"Preposizioni di luogo in contesto / Prepositions of place in context" },
-  { id:4, title:"La Cultura del Cibo / The Culture of Food",     subtitle:"L'ordine dei piatti — sacro e intoccabile / The order of courses — sacred and untouchable" },
-  { id:"boss", title:"⚡ Sfida la Nonna / Challenge the Grandma",  subtitle:"5 domande — il gelato ti aspetta sempre 🍦 / 5 questions — the gelato always awaits", boss:true },
+const UNITS = [
+  {
+    id: 1,
+    livello: "A1",
+    titleIT: "Il primo giorno a Napoli",
+    titleEN: "First day in Naples",
+    lessons: [
+      { id:1, emoji:"☕", titleIT:"Le Prime Parole",              titleEN:"The First Words",        subtitleIT:"Ciao, Grazie, Prego, Sì",                    subtitleEN:"Day 1 essentials" },
+      { id:2, emoji:"🥐", titleIT:"Il Primo Caffè",               titleEN:"The First Coffee",       subtitleIT:"Ordina senza sembrare turista",               subtitleEN:"Order without looking like a tourist" },
+      { id:3, emoji:"🍸", titleIT:"Mario dà le Indicazioni",      titleEN:"Mario Gives Directions", subtitleIT:"Preposizioni di luogo in contesto",           subtitleEN:"Prepositions of place in context" },
+      { id:4, emoji:"🍕", titleIT:"La Cultura del Cibo",          titleEN:"The Culture of Food",    subtitleIT:"L'ordine dei piatti — sacro e intoccabile",   subtitleEN:"The order of courses — sacred" },
+    ],
+    boss: { id:"boss", titleIT:"Sfida la Nonna", titleEN:"Challenge the Grandma", subtitleIT:"5 domande — il gelato ti aspetta 🍦", subtitleEN:"5 questions — gelato awaits 🍦" },
+  },
+  {
+    id: 2,
+    titleIT: "Fare conoscenza",
+    titleEN: "Making friends",
+    lessons: [],
+    comingSoon: true,
+  },
+  {
+    id: 3,
+    titleIT: "La giornata napoletana",
+    titleEN: "Daily Neapolitan life",
+    lessons: [],
+    comingSoon: true,
+  },
 ];
 
 // ─── Suoni personaggi ─────────────────────────────────────────────────────────
@@ -76,7 +113,22 @@ function playCharacterSound(id) {
   } catch(e){}
 }
 
-// ─── Modal bio personaggio ────────────────────────────────────────────────────
+// ─── Sprint 8: Mini-game launcher ────────────────────────────────────────────
+// Render del mini-game giusto in base a c.miniGame
+function MiniGameRouter({ character, onClose, onXP }) {
+  const props = { onClose, onXP };
+  switch (character.miniGame) {
+    case "mario_dialog":   return <MarioDialog  {...props} />;
+    case "speed_round":    return <SofiaSlang   {...props} />;
+    case "flash_gesti":    return <DiegoGesti   {...props} />;
+    case "gesto_storia":   return <GinoStoria   {...props} />;
+    case "email_challenge":return <MatildeEmail {...props} />;
+    // Vittoria boss → per ora bio (Sprint 9)
+    default:               return null;
+  }
+}
+
+// ─── Modal bio personaggio (long press) ──────────────────────────────────────
 function CharacterModal({ c, onClose }) {
   const voice = CHAR_VOICES[c.id];
   return (
@@ -93,7 +145,7 @@ function CharacterModal({ c, onClose }) {
         <div style={{ height:"1px",background:"var(--border)",margin:"10px 0" }} />
         <p style={{ fontSize:"13px",fontWeight:700,color:"var(--text2)",lineHeight:1.6,fontStyle:"italic",marginBottom:"16px" }}>"{c.bubble.en}"</p>
         <div style={{ background:`${c.color}22`,border:`1px solid ${c.color}66`,borderRadius:"8px",padding:"8px 12px",marginBottom:"16px",fontSize:"12px",fontWeight:700,color:c.color }}>
-          🎮 {c.miniGameLabel} — in arrivo! / coming soon!
+          🎮 {c.miniGameLabel} — {c.miniGameDesc}
         </div>
         <button onClick={()=>parla(c.speakIT,voice,undefined,undefined)} style={{ background:c.color,color:"white",border:"none",borderRadius:"var(--r)",padding:"12px 28px",fontSize:"14px",fontWeight:900,cursor:"pointer",boxShadow:`0 4px 0 ${c.color}99`,textTransform:"uppercase",letterSpacing:"0.6px",marginBottom:"12px",width:"100%" }}>
           🔊 Ascolta / Listen
@@ -106,11 +158,11 @@ function CharacterModal({ c, onClose }) {
   );
 }
 
-// ─── Card personaggio con long press ─────────────────────────────────────────
+// ─── Card personaggio con tap (game) e long press (bio) ──────────────────────
 function CharacterCard({ c, onTap, onLongPress }) {
-  const [hovered, setHovered]   = useState(false);
-  const pressTimer              = useRef(null);
-  const longPressed             = useRef(false);
+  const [hovered, setHovered] = useState(false);
+  const pressTimer            = useRef(null);
+  const longPressed           = useRef(false);
 
   function handlePointerDown() {
     longPressed.current = false;
@@ -151,7 +203,12 @@ function CharacterCard({ c, onTap, onLongPress }) {
 
 // ─── HOME ─────────────────────────────────────────────────────────────────────
 export default function Home() {
-  const [modalChar,      setModalChar]      = useState(null);
+  const router = useRouter();
+  const [dashAvatar,   setDashAvatar]   = useState('🍕');
+  const [dashNickname, setDashNickname] = useState('Il mio profilo');
+  const [modalChar,      setModalChar]      = useState(null);   // long press → bio
+  const [openUnit,       setOpenUnit]       = useState(1);        // unità aperta nell'accordion
+  const [activeGame,     setActiveGame]     = useState(null);   // tap → game
   const [completed,      setCompleted]      = useState([]);
   const [showOnboarding, setShowOnboarding] = useState(false);
   const [mounted,        setMounted]        = useState(false);
@@ -163,17 +220,37 @@ export default function Home() {
     } catch { setCompleted([]); }
   }
 
-  // Init — decay + onboarding check
   useEffect(() => {
     const data = loadProgress();
     if (!data || !data.onboardingDone) setShowOnboarding(true);
     refreshCompleted();
     setMounted(true);
     window.addEventListener("focus", refreshCompleted);
+    // Popola pill dashboard
+    try {
+      const av      = localStorage.getItem('italiano-avatar')    || '🍕';
+      const nick    = localStorage.getItem('italiano-nickname');
+      const seed    = localStorage.getItem('italiano-nick-seed') || '0000';
+      const prog    = JSON.parse(localStorage.getItem('italiano-progress') || '{}');
+      const levelId = prog.livello || 'A1';
+      const lv      = getLevelData(levelId);
+      setDashAvatar(av);
+      setDashNickname(nick || (lv.nickPrefix + '_' + seed));
+    } catch {}
     return () => window.removeEventListener("focus", refreshCompleted);
   }, []);
 
-  function handleOnboardingComplete(livello) {
+  // Aggiunge XP dopo il mini-game
+  function handleGameXP(xp) {
+    try {
+      const raw  = localStorage.getItem('italiano-progress');
+      const data = raw ? JSON.parse(raw) : {};
+      const updated = { ...data, credits: (data.credits ?? 0) + xp };
+      localStorage.setItem('italiano-progress', JSON.stringify(updated));
+    } catch {}
+  }
+
+  function handleOnboardingComplete() {
     setShowOnboarding(false);
     refreshCompleted();
   }
@@ -187,6 +264,13 @@ export default function Home() {
     return false;
   }
 
+  function isUnitUnlocked(unitId) {
+    if (unitId === 1) return true;
+    const prevUnit = UNITS.find(u => u.id === unitId - 1);
+    if (!prevUnit) return false;
+    return prevUnit.lessons.every(l => completed.includes(l.id)) && completed.includes("boss");
+  }
+
   function isDone(id) { return completed.includes(id); }
 
   if (!mounted) return null;
@@ -194,21 +278,53 @@ export default function Home() {
   return (
     <main className="page-narrow" style={{ minHeight:"100vh",background:"var(--bg)",padding:"24px 16px" }}>
 
-      {/* Onboarding */}
       {showOnboarding && mounted && (
         <OnboardingModal onComplete={handleOnboardingComplete} />
       )}
 
-      <header style={{ marginBottom:"32px" }}>
+      <header style={{ marginBottom:"24px", display:"flex", alignItems:"center", justifyContent:"space-between" }}>
         <Logo />
+        <button
+          onClick={() => router.push('/dashboard')}
+          style={{
+            display:"flex", flexDirection:"column", alignItems:"flex-end", gap:3,
+            background:"var(--card)", border:"1.5px solid var(--border)",
+            borderRadius:14, padding:"7px 12px",
+            cursor:"pointer", fontFamily:"inherit",
+          }}
+        >
+          <span style={{ fontSize:10, fontWeight:900, color:"var(--primary)", textTransform:"uppercase", letterSpacing:"0.08em" }}>Dashboard</span>
+          <div style={{ display:"flex", alignItems:"center", gap:6 }}>
+            <div style={{
+              width:24, height:24, borderRadius:"50%",
+              border:"2px solid var(--primary)",
+              background:"var(--opt-sel-bg)",
+              display:"flex", alignItems:"center", justifyContent:"center",
+              fontSize:13, lineHeight:1, flexShrink:0,
+            }}>{dashAvatar}</div>
+            <span style={{ fontSize:12, fontWeight:700, color:"var(--text)" }}>{dashNickname}</span>
+            <span style={{ fontSize:11, color:"var(--text3)" }}>→</span>
+          </div>
+        </button>
+
       </header>
 
-      {/* Energia + streak */}
       <XPBar />
 
-      {/* Modal bio personaggio */}
+
+
+      {/* ── Bio modal (long press) ── */}
       {modalChar && (
         <CharacterModal c={modalChar} onClose={()=>{ window.speechSynthesis?.cancel(); setModalChar(null); }} />
+      )}
+
+      {/* ── Mini-game (tap) ── */}
+      {activeGame && (
+        <MiniGameRouter
+          character={activeGame}
+          onClose={() => setActiveGame(null)}
+          onXP={(xp) => { handleGameXP(xp); refreshCompleted(); }}
+        />
       )}
 
       {/* ── PERSONAGGI ── */}
@@ -217,7 +333,7 @@ export default function Home() {
           I tuoi compagni / Your companions
         </h2>
         <p style={{ fontSize:"11px",color:"var(--text3)",marginBottom:"12px" }}>
-          Tap → mini-game (presto! / coming soon!) · Tieni premuto / Hold → bio
+          Tap → mini-game · Tieni premuto / Hold → bio
         </p>
         <div style={{ display:"flex",gap:"6px",justifyContent:"space-between" }}>
           {CHARACTERS.map(c => (
@@ -226,8 +342,9 @@ export default function Home() {
               c={c}
               onTap={() => {
                 playCharacterSound(c.id);
-                // Sprint 7: aprirà il mini-game. Per ora apre bio.
-                setModalChar(c);
+                // Vittoria non ha ancora un game → apre bio
+                if (c.miniGame === "boss") { setModalChar(c); return; }
+                setActiveGame(c);
               }}
               onLongPress={() => {
                 playCharacterSound(c.id);
@@ -238,43 +355,147 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── MENU DEL GIORNO ── */}
+      {/* ── PERCORSO / LEARNING PATH ── */}
       <section style={{ marginBottom:"28px" }}>
         <h2 style={{ fontSize:"13px",fontWeight:900,color:"var(--text3)",textTransform:"uppercase",letterSpacing:"1px",marginBottom:"4px" }}>
-          🍽 Menu del Giorno / Daily Menu
+          🗺️ Percorso A1 / Learning path A1
         </h2>
         <p style={{ fontSize:"11px",color:"var(--text3)",marginBottom:"12px" }}>
-          ☕ Caffè → 🥐 Cornetto → 🍸 Aperitivo → 🍕 Pizza → 🍦 Gelato
+          🧳 Il Turista / The Tourist — Napoli e dintorni
         </p>
-        <div style={{ display:"flex",flexDirection:"column",gap:"12px" }}>
-          {LESSONS.map(lesson => {
-            const unlocked = isUnlocked(lesson.id);
-            const done     = isDone(lesson.id);
+        <div style={{ display:"flex",flexDirection:"column",gap:"10px" }}>
+          {UNITS.map(unit => {
+            const isOpen     = openUnit === unit.id;
+            const unitDone   = unit.lessons.length > 0 && unit.lessons.every(l => isDone(l.id));
+            const unitActive = !unit.comingSoon && unit.lessons.some(l => isUnlocked(l.id));
+            const unitLocked = unit.comingSoon || (!unitDone && !unitActive);
             return (
-              <div key={lesson.id} style={{
-                background: lesson.boss ? "linear-gradient(135deg,#1a1a2e,#2a1500)" : "var(--card)",
+              <div key={unit.id} style={{
+                background:"var(--card)",
                 borderRadius:"var(--r)",
-                border:`2px solid ${done?"#46A302":lesson.boss&&unlocked?"#E5B700":unlocked?"#58CC02":"var(--border)"}`,
-                padding:"16px", opacity:unlocked?1:0.4,
-                display:"flex",alignItems:"center",gap:"14px",
-                boxShadow:lesson.boss&&unlocked?"0 0 20px #E5B70033":"none",
+                overflow:"hidden",
+                opacity: unitLocked ? 0.45 : 1,
                 transition:"opacity 0.3s",
+                border:"0.5px solid var(--border)",
+                borderLeft:`4px solid ${unitDone?"#639922":unitActive?"#378ADD":"var(--border)"}`,
               }}>
-                <div style={{ width:"44px",height:"44px",borderRadius:"50%",flexShrink:0,
-                  background:done?"#46A302":lesson.boss&&unlocked?"#E5B700":unlocked?"#58CC02":"var(--dis-bg)",
-                  boxShadow:done?"0 4px 0 #2d7a00":lesson.boss&&unlocked?"0 4px 0 #b8920b":unlocked?"0 4px 0 #46A302":"0 4px 0 #AFAFAF",
-                  display:"flex",alignItems:"center",justifyContent:"center",fontSize:"18px",color:"white",fontWeight:900,
-                }}>
-                  {done?"✅":lesson.boss&&unlocked?"🍦":unlocked?"⭐":"🔒"}
-                </div>
-                <div style={{ flex:1 }}>
-                  <div style={{ fontWeight:900,fontSize:"15px",
-                    color:done?"#46A302":lesson.boss&&unlocked?"#E5B700":unlocked?"var(--text)":"var(--text3)",marginBottom:"2px" }}>
-                    {lesson.title}
+                {/* Header unità — Proposta B+A */}
+                <div
+                  onClick={() => !unitLocked && setOpenUnit(isOpen ? null : unit.id)}
+                  style={{
+                    display:"flex",alignItems:"center",gap:"12px",padding:"12px 14px",
+                    cursor: unitLocked ? "default" : "pointer",
+                    background: "transparent",
+                  }}
+                >
+                  {/* Cerchio numero — Proposta B */}
+                  <div style={{
+                    width:36,height:36,borderRadius:"50%",flexShrink:0,
+                    background:unitDone?"#639922":unitActive?"#378ADD":"var(--bg)",
+                    border: unitLocked?"1.5px solid var(--border)":"none",
+                    display:"flex",alignItems:"center",justifyContent:"center",
+                    fontSize:unitDone?16:14,color:"white",fontWeight:900,
+                  }}>
+                    {unitDone?"✓":unitLocked?"🔒":unit.id}
                   </div>
-                  <div style={{ fontSize:"12px",color:"var(--text3)",fontWeight:700 }}>{lesson.subtitle}</div>
+                  <div style={{ flex:1 }}>
+                    <div style={{ fontSize:15,fontWeight:900,color:"var(--text)",letterSpacing:"0.02em" }}>
+                      Unità {unit.id} — {unit.titleIT}
+                    </div>
+                    <div style={{ fontSize:12,color:"var(--text2)",marginTop:2,letterSpacing:"0.01em" }}>
+                      Unit {unit.id} — {unit.titleEN}
+                      {unit.comingSoon && " · in arrivo / coming soon"}
+                    </div>
+                    {/* Progress bar — Proposta B */}
+                    {!unit.comingSoon && (
+                      <div style={{ height:3,background:unitDone?"#C0DD97":unitActive?"#B5D4F4":"var(--border)",borderRadius:99,marginTop:6,overflow:"hidden" }}>
+                        <div style={{
+                          height:"100%",borderRadius:99,
+                          background:unitDone?"#639922":"#378ADD",
+                          width:`${unit.lessons.length>0?Math.round((unit.lessons.filter(l=>isDone(l.id)).length/unit.lessons.length)*100):0}%`,
+                          transition:"width 0.5s",
+                        }}/>
+                      </div>
+                    )}
+                  </div>
+                  {!unitLocked && (
+                    <span style={{ fontSize:12,color:unitDone?"#639922":unitActive?"#378ADD":"var(--text3)",transition:"transform 0.2s",transform:isOpen?"rotate(180deg)":"none",flexShrink:0 }}>▾</span>
+                  )}
                 </div>
-                {!!unlocked && <LessonButton lessonId={lesson.id} />}
+
+                {/* Lezioni */}
+                {isOpen && !unit.comingSoon && (
+                  <div style={{ borderTop:"1px solid var(--border)" }}>
+                    {unit.lessons.map((lesson, li) => {
+                      const unlocked = isUnlocked(lesson.id);
+                      const done     = isDone(lesson.id);
+                      return (
+                        <div key={lesson.id} style={{
+                          display:"flex",alignItems:"center",gap:"10px",
+                          padding:"10px 14px",
+                          borderBottom:"1.5px dashed #B4B2A966",
+                          background: done?"#46A30208":"transparent",
+                        }}>
+                          {/* Cerchio emoji alimento — NO lucchetto a sinistra */}
+                          <div style={{
+                            width:30,height:30,borderRadius:"50%",flexShrink:0,
+                            background: done?"#EAF3DE":unlocked?"#E6F1FB":"var(--bg)",
+                            border:`1.5px solid ${done?"#639922":unlocked?"#378ADD":"var(--border)"}`,
+                            display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,
+                          }}>
+                            {lesson.emoji}
+                          </div>
+                          <div style={{ flex:1, opacity: unlocked||done ? 1 : 0.4 }}>
+                            <div style={{ fontSize:12,fontWeight:800,color:done?"#27500A":unlocked?"var(--text)":"var(--text3)" }}>
+                              Lezione {li+1} · {lesson.titleIT} / {lesson.titleEN}
+                            </div>
+                            <div style={{ fontSize:11,color:"var(--text3)",marginTop:1 }}>
+                              {lesson.subtitleIT}
+                            </div>
+                          </div>
+                          {done && (
+                            <span style={{ fontSize:11,fontWeight:700,color:"#3B6D11",padding:"3px 8px",borderRadius:99,background:"#EAF3DE",flexShrink:0 }}>✓ rivedi</span>
+                          )}
+                          {unlocked && !done && <LessonButton livello={unit.livello || "A1"} unita={unit.id} lezione={lesson.id} />}
+                          {!unlocked && <span style={{ fontSize:16,color:"var(--text3)",flexShrink:0 }}>🔒</span>}
+                        </div>
+                      );
+                    })}
+                    {/* Boss — separatore tratteggiato dorato */}
+                    {unit.boss && (() => {
+                      const bossUnlocked = isUnlocked("boss");
+                      const bossDone     = isDone("boss");
+                      return (
+                        <div style={{
+                          display:"flex",alignItems:"center",gap:"10px",
+                          padding:"11px 14px",
+                          background: bossUnlocked?"#1a120844":"transparent",
+                          borderTop:"1.5px dashed #E5B700AA",
+                        }}>
+                          <div style={{
+                            width:30,height:30,borderRadius:"50%",flexShrink:0,
+                            background: bossDone?"#E5B700":bossUnlocked?"#E5B70022":"var(--bg)",
+                            border:`1.5px solid ${bossUnlocked?"#E5B700":"var(--border)"}`,
+                            display:"flex",alignItems:"center",justifyContent:"center",fontSize:14,
+                          }}>
+                            {bossDone ? "✅" : "🍦"}
+                          </div>
+                          <div style={{ flex:1, opacity: bossUnlocked ? 1 : 0.45 }}>
+                            <div style={{ fontSize:13,fontWeight:900,color:bossDone?"#E5B700":bossUnlocked?"#E5B700":"var(--text3)" }}>
+                              ⚡ {unit.boss.titleIT} / {unit.boss.titleEN}
+                            </div>
+                            <div style={{ fontSize:11,color:"var(--text3)",marginTop:1 }}>
+                              {unit.boss.subtitleIT}
+                            </div>
+                          </div>
+                          {bossDone && <span style={{ fontSize:11,fontWeight:700,color:"#E5B700",padding:"3px 8px",borderRadius:99,background:"#E5B70022",flexShrink:0 }}>✓ rivedi</span>}
+                          {bossUnlocked && !bossDone && <LessonButton livello={unit.livello || "A1"} unita={unit.id} lezione="boss" />}
+                          {!bossUnlocked && !bossDone && <span style={{ fontSize:16,color:"var(--text3)",flexShrink:0 }}>🔒</span>}
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
               </div>
             );
           })}

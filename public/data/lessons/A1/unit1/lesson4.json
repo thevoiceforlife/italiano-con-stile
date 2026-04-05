@@ -1,0 +1,283 @@
+{
+  "id": 4,
+  "title": "La Cultura del Cibo",
+  "subtitle": "L'ordine dei piatti — sacro e intoccabile",
+  "livello": "Viaggiatore",
+  "vocab": [
+    {
+      "id": "peperone",
+      "emoji": "🫑",
+      "it": "il peperone",
+      "en": "bell pepper",
+      "mario": "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo! / Watch out! Peperone is not pizza pepperoni. It's the green, red, yellow bell pepper!",
+      "marioIT": "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo!"
+    },
+    {
+      "id": "primo",
+      "emoji": "🍝",
+      "it": "il primo",
+      "en": "first course (pasta/risotto)",
+      "mario": "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta! / In Italy you eat in order: starter, first course, main, dessert. No skipping!",
+      "marioIT": "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta!"
+    },
+    {
+      "id": "conto",
+      "emoji": "🧾",
+      "it": "il conto",
+      "en": "the bill",
+      "mario": "Per chiedere il conto si dice: 'Ci porta il conto, per favore?' — mai schioccare le dita! / To ask for the bill say: 'Ci porta il conto, per favore?' — never snap your fingers!",
+      "marioIT": "Per chiedere il conto si dice: Ci porta il conto, per favore? Mai schioccare le dita!"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Leggi bene... / Read carefully...",
+      "introIT": "Leggi bene...",
+      "domanda": {
+        "it": "Qual è l'ordine corretto dei piatti in Italia?",
+        "en": "What is the correct order of courses in Italy?"
+      },
+      "opzioni": [
+        "Primo, secondo, antipasto, dolce",
+        "Antipasto, primo, secondo, dolce",
+        "Secondo, primo, dolce",
+        "Non c'è un ordine fisso"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! L'ordine è sacro in Italia — antipasto, primo, secondo, dolce. Non si negozia.",
+        "en": "Exactly! The order is sacred in Italy — starter, first, main, dessert. Non-negotiable."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! In Italia l'ordine dei piatti è una tradizione seria. Antipasto prima di tutto!",
+        "en": "Watch out! In Italy the order of courses is a serious tradition. Antipasto first!"
+      }
+    },
+    {
+      "id": 2,
+      "personaggio": "gino",
+      "tipo": "multipla",
+      "intro": "Vedi, c'è una storia bellissima... / You see, there's a wonderful story...",
+      "introIT": "Vedi, c'è una storia bellissima dietro questa parola...",
+      "domanda": {
+        "it": "In italiano, 'peperoni' sulla pizza significa...?",
+        "en": "In Italian, 'peperoni' on a pizza means...?"
+      },
+      "opzioni": [
+        "Salame piccante (come in America)",
+        "Peperoni colorati — non il salame!",
+        "Una pizza speciale napoletana",
+        "Qualsiasi tipo di carne"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Ben fatto! 'Peperoni' in italiano sono i peperoni colorati. Il salame piccante americano si chiama 'salame piccante'.",
+        "en": "Well done! 'Peperoni' in Italian are bell peppers. The American spicy salami is an English word!"
+      },
+      "feedbackErr": {
+        "it": "Falso amico! Se ordini 'pizza ai peperoni' in Italia, arriva con i peperoni colorati — non il salame.",
+        "en": "False friend! If you order 'pizza ai peperoni' in Italy, you get bell peppers — not salami."
+      }
+    },
+    {
+      "id": 3,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "E per finire... / And finally...",
+      "introIT": "E per finire, una cosa importante al ristorante...",
+      "domanda": {
+        "it": "Come si chiede il conto al ristorante in Italia?",
+        "en": "How do you ask for the bill at a restaurant in Italy?"
+      },
+      "opzioni": [
+        "Schioccare le dita al cameriere",
+        "Ci porta il conto, per favore?",
+        "Check please!",
+        "Alzarsi e andare alla cassa"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Complimenti! 'Ci porta il conto, per favore?' — educato, diretto, italiano al 100%.",
+        "en": "Excellent! 'Ci porta il conto, per favore?' — polite, direct, 100% Italian."
+      },
+      "feedbackErr": {
+        "it": "Meglio tardi che mai! Schioccare le dita è molto maleducato in Italia. Sempre 'per favore'!",
+        "en": "Better late than never! Snapping your fingers is very rude in Italy. Always 'per favore'!"
+      }
+    },
+    {
+      "id": 4,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Sembra... ma non è così! / Looks like... but it's not!",
+      "introIT": "Sembra... ma non è così — te lo dico io.",
+      "domanda": {
+        "it": "Cosa è il 'coperto' al ristorante?",
+        "en": "What is the 'coperto' at a restaurant?"
+      },
+      "opzioni": [
+        "Il coperchio della pentola",
+        "Una tassa sul tavolo per pane e servizio",
+        "Il menu del giorno",
+        "Il dolce incluso nel pasto"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il coperto è una piccola tassa per posto a tavola — include il pane e il servizio. Normale in Italia!",
+        "en": "Exactly! The coperto is a small cover charge — it includes bread and service. Normal in Italy!"
+      },
+      "feedbackErr": {
+        "it": "Attenzione! Il coperto non è il coperchio — è una piccola tassa per posto a tavola. Tra 1 e 3 euro a persona, normalissimo.",
+        "en": "Watch out! Coperto isn't a lid — it's a small cover charge per person. Between 1 and 3 euros, perfectly normal."
+      }
+    },
+    {
+      "id": 5,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Ultima cosa... / One last thing...",
+      "introIT": "Ultima cosa, e poi sei pronto per qualsiasi ristorante italiano!",
+      "domanda": {
+        "it": "Dopo il pranzo, un italiano ordina spesso...?",
+        "en": "After lunch, an Italian often orders...?"
+      },
+      "opzioni": [
+        "Un cappuccino",
+        "Un caffè",
+        "Una birra",
+        "Un succo di frutta"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Complimenti! Dopo i pasti si ordina sempre un caffè — mai un cappuccino. Il cappuccino è solo per la mattina!",
+        "en": "Excellent! After meals you always order an espresso — never a cappuccino. Cappuccino is only for the morning!"
+      },
+      "feedbackErr": {
+        "it": "Ricorda: il cappuccino è solo per la mattina! Dopo pranzo o cena, gli italiani ordinano sempre un caffè.",
+        "en": "Remember: cappuccino is only for the morning! After lunch or dinner, Italians always order an espresso."
+      }
+    },
+    {
+      "id": 6,
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "intro": "Come si dice sui social italiani! / How Italians say it on social media!",
+      "introIT": "Come si dice sui social italiani!",
+      "domanda": {
+        "it": "Un italiano scrive 'che sballo!' riferito a una pizza. Cosa intende?",
+        "en": "An Italian writes 'che sballo!' about a pizza. What do they mean?"
+      },
+      "opzioni": [
+        "It's incredible / amazing!",
+        "It fell on the floor",
+        "It's too expensive",
+        "It's cold"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 'Che sballo!' — fantastico, incredibile. Slang giovanile molto usato.",
+        "en": "Exactly! 'Che sballo!' — fantastic, incredible. Very common youth slang."
+      },
+      "feedbackErr": {
+        "it": "'Che sballo!' significa che è fantastico — slang giovanile italiano per qualcosa di straordinario!",
+        "en": "'Che sballo!' means it's fantastic — Italian youth slang for something extraordinary!"
+      }
+    },
+    {
+      "id": 7,
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "intro": "Nella mia cucina, questa regola non si discute. / In my kitchen, this rule is not up for debate.",
+      "introIT": "Nella mia cucina questa regola non si discute.",
+      "domanda": {
+        "it": "La pasta si scola al dente. Cosa significa 'al dente'?",
+        "en": "Pasta is drained 'al dente'. What does 'al dente' mean?"
+      },
+      "opzioni": [
+        "Firm to the bite — slightly undercooked",
+        "Very soft and well cooked",
+        "With a lot of sauce",
+        "Cold pasta salad"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Complimenti! 'Al dente' — letteralmente 'to the tooth'. Deve opporre una leggera resistenza. Mai scotta!",
+        "en": "Excellent! 'Al dente' — literally 'to the tooth'. It must offer slight resistance. Never overcooked!"
+      },
+      "feedbackErr": {
+        "it": "'Al dente' significa che la pasta è cotta ma ha ancora una leggera resistenza sotto i denti. Mai troppo morbida!",
+        "en": "'Al dente' means the pasta is cooked but still has slight resistance. Never too soft!"
+      }
+    },
+    {
+      "id": 8,
+      "personaggio": "gino",
+      "tipo": "multipla",
+      "intro": "La storia del cibo italiano è straordinaria... / The history of Italian food is extraordinary...",
+      "introIT": "La storia del cibo italiano è straordinaria.",
+      "domanda": {
+        "it": "La pizza Margherita fu creata per onorare chi?",
+        "en": "The pizza Margherita was created to honour whom?"
+      },
+      "opzioni": [
+        "La Regina Margherita di Savoia, 1889",
+        "Una famosa cuoca napoletana",
+        "Il Re Umberto I",
+        "Uno chef francese in visita a Napoli"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Nel 1889 il pizzaiolo Raffaele Esposito creò la Margherita per la Regina. I colori: rosso pomodoro, bianco mozzarella, verde basilico — il tricolore!",
+        "en": "Exactly! In 1889 pizzaiolo Raffaele Esposito created the Margherita for the Queen. The colours: red tomato, white mozzarella, green basil — the Italian flag!"
+      },
+      "feedbackErr": {
+        "it": "Nel 1889 il pizzaiolo Raffaele Esposito creò la pizza Margherita per la Regina Margherita di Savoia. I colori della pizza sono il tricolore italiano!",
+        "en": "In 1889, pizzaiolo Raffaele Esposito created pizza Margherita for Queen Margherita of Savoy. The pizza's colours are the Italian flag!"
+      }
+    }
+  ],
+  "reward": {
+    "scala_errori": [
+      {
+        "max_errori": 0,
+        "energia": 25,
+        "crediti": 15,
+        "cibo": "cornetto+caffè"
+      },
+      {
+        "max_errori": 1,
+        "energia": 20,
+        "crediti": 12,
+        "cibo": "cornetto"
+      },
+      {
+        "max_errori": 2,
+        "energia": 15,
+        "crediti": 10,
+        "cibo": "cornetto"
+      },
+      {
+        "max_errori": 3,
+        "energia": 10,
+        "crediti": 8,
+        "cibo": "caffè"
+      },
+      {
+        "max_errori": 4,
+        "energia": 5,
+        "crediti": 5,
+        "cibo": "caffè"
+      },
+      {
+        "max_errori": 99,
+        "energia": 2,
+        "crediti": 2,
+        "cibo": "nessuno"
+      }
+    ],
+    "pizza_ogni_n_risposte": 5
+  }
+}

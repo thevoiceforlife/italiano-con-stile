@@ -1,26 +1,36 @@
 "use client";
 import { useRouter } from "next/navigation";
 
-export default function LessonButton({ lessonId }) {
+export default function LessonButton({ livello, unita, lezione, lessonId }) {
   const router = useRouter();
+
+  const href = livello && unita && lezione !== undefined
+    ? `/lesson/${livello}/${unita}/${lezione}`
+    : `/lesson/${lessonId}`;
+
   return (
     <button
-      onClick={() => router.push(`/lesson/${lessonId}`)}
+      onClick={() => router.push(href)}
       style={{
         background: "var(--primary)",
         color: "white",
-        padding: "10px 18px",
-        borderRadius: "var(--r)",
-        fontSize: "13px",
-        fontWeight: 900,
-        letterSpacing: "0.6px",
-        textTransform: "uppercase",
         border: "none",
-        boxShadow: "0 4px 0 var(--primary-d)",
+        borderRadius: "var(--r)",
+        padding: "7px 16px",
+        fontSize: 12,
+        fontWeight: 900,
         cursor: "pointer",
+        fontFamily: "inherit",
+        letterSpacing: "0.04em",
+        boxShadow: "0 3px 0 var(--primary-d)",
+        flexShrink: 0,
+        textTransform: "uppercase",
+        transition: "opacity 0.15s",
       }}
+      onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
+      onMouseLeave={e => e.currentTarget.style.opacity = "1"}
     >
-      VAI → / GO →
+      Inizia →
     </button>
   );
 }
