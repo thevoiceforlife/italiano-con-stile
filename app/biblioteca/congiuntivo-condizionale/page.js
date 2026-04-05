@@ -727,7 +727,8 @@ export default function CongiuntivoCondizionale() {
                 {[
                   { cong: "Cong. PRESENTE", cond: "Cond. PRESENTE", quando: "Principale al presente", esempio: "Spero che venga → potrebbe venire", colore: "#009246" },
                   { cong: "Cong. PASSATO", cond: "Cond. PRESENTE", quando: "Emozione presente + fatto passato", esempio: "Sono felice che sia venuto", colore: "#009246" },
-                  { cong: "Cong. IMPERFETTO", cond: "Cond. PRESENTE", quando: "Tipo II / Principale al passato", esempio: "Se studiassi → impareresti · Voleva che venissi", colore: "#E5B700" },
+                  { cong: "Cong. IMPERFETTO", cond: "Cond. PRESENTE", quando: "Tipo II — ipotesi irreale presente", esempio: "Se studiassi → impareresti · Se fossi libero → verrei", colore: "#E5B700" },
+                  { cong: "Cong. IMPERFETTO", cond: "— (nessun condizionale)", quando: "Principale al PASSATO + azione contemporanea", esempio: "Voleva che venissi · Speravo che facesse bel tempo", colore: "#009246" },
                   { cong: "Cong. TRAPASSATO", cond: "Cond. PASSATO", quando: "Tipo III / Rimpianto passato", esempio: "Se avessi studiato → avresti imparato", colore: "#CE2B37" },
                   { cong: "Cong. TRAPASSATO", cond: "Cond. PRESENTE", quando: "Tipo MISTO (cond. passata, effetto ora)", esempio: "Se avessi studiato → parleresti bene adesso", colore: "#E5B700" },
                 ].map((r, i) => (
