@@ -310,7 +310,7 @@ const CONGIUNZIONI = [
     cat_en: "Concessive hypothetical",
     colore: "rosso",
     voci: ["anche se (+ cong. imperfetto)"],
-    esempio_it: "Anche se studiassi, non capirebbe.",
+    esempio_it: "Anche se studiasse, non capirebbe.",
     esempio_en: "Even if he studied, he wouldn't understand.",
     tempo: "Congiuntivo imperfetto + condizionale presente"
   },
