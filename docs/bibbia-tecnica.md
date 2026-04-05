@@ -424,3 +424,29 @@ A2: cibo-bar · emozioni · falsi-amici
 3. Togli `comingSoon` dall'`index.json`
 4. La scheda è live automaticamente su Vercel
 
+
+---
+
+## Sessione 5 Aprile 2026 — Fix e Completamenti
+
+### Bug risolti
+- **Tabella formato misto** (`[scheda]/page.js`): fix `isOldFormat` per supportare sia `{headers, rows}` che array di oggetti
+- **Biblioteca hidden**: aggiunto `filter(s => !s.hidden)` in `page.js` per nascondere schede duplicate
+- **q undefined crash**: guard `if (!q) return null` in `DomandaRouter` — evita crash fine lezione
+- **Sfida la Nonna**: `boss.json` era vuoto — popolato con 10 domande Unit1
+
+### Pagina congiuntivo-condizionale
+- Route: `/biblioteca/congiuntivo-condizionale`
+- 3 tab: Tempi verbali (6 accordion) · Congiunzioni (8 categorie) · Schema SE (9 righe + raccordo + eccezioni)
+- Fix colori dark theme (#15212a per sfondi espansi, #88DDAA per verde, #E5B700 per giallo)
+- Fix grammaticale: studiassi → studiasse (3a persona)
+- Fix raccordo: Tipo II separato da consecutio temporum (ora 6 righe)
+- Fix congiunzione "anche se": chiarita distinzione indicativo (reale) vs congiuntivo (ipotetico)
+
+### Struttura biblioteca
+- congiuntivo-condizionale → sottocategoria "Congiuntivo & Condizionale", posizione dopo futuro-semplice
+- condizionale, condizionale-passato, congiuntivo-presente, congiuntivo → hidden: true (raggiungibili solo dagli esercizi)
+
+### Stato lezioni
+- Sfida la Nonna Unit1: 10 domande (multipla + vero_falso), 50 XP, reward con badge 🏆
+
