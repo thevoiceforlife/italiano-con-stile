@@ -1,0 +1,259 @@
+{
+  "id": "boss",
+  "title": "Sfida la Nonna",
+  "subtitle": "Tutto quello che hai imparato nell'Unità 1",
+  "livello": "A1",
+  "vocab": [],
+  "questions": [
+    {
+      "id": 1,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "La Nonna ti aspetta. Dimostra quello che sai!",
+      "introIT": "La Nonna ti aspetta. Dimostra quello che sai!",
+      "domanda": {
+        "it": "You meet someone in the morning. What do you say?",
+        "en": "Incontri qualcuno la mattina. Cosa dici?"
+      },
+      "opzioni": [
+        "Buonasera",
+        "Buongiorno",
+        "Arrivederci",
+        "Prego"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 'Buongiorno' la mattina — la Nonna è impressionata.",
+        "en": "Correct! 'Buongiorno' in the morning — Nonna is impressed."
+      },
+      "feedbackErr": {
+        "it": "Quasi! 'Buongiorno' è per la mattina. 'Buonasera' è per la sera.",
+        "en": "Almost! 'Buongiorno' is for the morning. 'Buonasera' is for the evening."
+      }
+    },
+    {
+      "id": 2,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Al bar di Mario...",
+      "introIT": "Al bar di Mario...",
+      "domanda": {
+        "it": "You order 'un caffè'. What do you get?",
+        "en": "Ordini 'un caffè'. Cosa ricevi?"
+      },
+      "opzioni": [
+        "A cappuccino",
+        "An espresso",
+        "A tea",
+        "A croissant"
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! In Italia 'un caffè' = sempre un espresso.",
+        "en": "Well done! In Italy 'un caffè' = always an espresso."
+      },
+      "feedbackErr": {
+        "it": "Ricorda: in Italia 'un caffè' significa sempre espresso, mai altro.",
+        "en": "Remember: in Italy 'un caffè' always means espresso, nothing else."
+      }
+    },
+    {
+      "id": 3,
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "intro": "Vero o falso?",
+      "introIT": "Vero o falso?",
+      "domanda": {
+        "it": "'Prego' means 'please' in Italian.",
+        "en": "'Prego' significa 'please' in italiano."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! 'Prego' = you're welcome. 'Per favore' = please.",
+        "en": "Correct! 'Prego' = you're welcome. 'Per favore' = please."
+      },
+      "feedbackErr": {
+        "it": "Attenzione! 'Prego' = you're welcome. 'Please' = per favore.",
+        "en": "Careful! 'Prego' = you're welcome. 'Please' = per favore."
+      }
+    },
+    {
+      "id": 4,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Le indicazioni stradali...",
+      "introIT": "Le indicazioni stradali...",
+      "domanda": {
+        "it": "Mario tells you to go 'sempre dritto'. What does he mean?",
+        "en": "Mario ti dice di andare 'sempre dritto'. Cosa intende?"
+      },
+      "opzioni": [
+        "Turn left",
+        "Turn right",
+        "Go straight on",
+        "Go back"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Perfetto! Sempre dritto = straight on. Non girare!",
+        "en": "Perfect! Sempre dritto = straight on. Don't turn!"
+      },
+      "feedbackErr": {
+        "it": "Dritto = straight. Sinistra = left. Destra = right.",
+        "en": "Dritto = straight. Sinistra = left. Destra = right."
+      }
+    },
+    {
+      "id": 5,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Al ristorante italiano...",
+      "introIT": "Al ristorante italiano...",
+      "domanda": {
+        "it": "What is 'il primo' in an Italian restaurant?",
+        "en": "Cos'è 'il primo' in un ristorante italiano?"
+      },
+      "opzioni": [
+        "The dessert",
+        "The starter",
+        "The pasta or risotto course",
+        "The main meat dish"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il primo = pasta o risotto. Viene dopo l'antipasto.",
+        "en": "Correct! Il primo = pasta or risotto. It comes after the starter."
+      },
+      "feedbackErr": {
+        "it": "Il primo = pasta/risotto. Il secondo = carne/pesce. Il dolce = dessert.",
+        "en": "Il primo = pasta/risotto. Il secondo = meat/fish. Il dolce = dessert."
+      }
+    },
+    {
+      "id": 6,
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "intro": "Vero o falso?",
+      "introIT": "Vero o falso?",
+      "domanda": {
+        "it": "'A sinistra' means 'to the right' in Italian.",
+        "en": "'A sinistra' significa 'a destra' in italiano."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Corretto! A sinistra = left. A destra = right.",
+        "en": "Correct! A sinistra = left. A destra = right."
+      },
+      "feedbackErr": {
+        "it": "A sinistra = LEFT. A destra = right. Non confonderle!",
+        "en": "A sinistra = LEFT. A destra = right. Don't mix them up!"
+      }
+    },
+    {
+      "id": 7,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "La colazione italiana...",
+      "introIT": "La colazione italiana...",
+      "domanda": {
+        "it": "What is 'un cornetto' at an Italian bar?",
+        "en": "Cos'è 'un cornetto' al bar italiano?"
+      },
+      "opzioni": [
+        "A type of coffee",
+        "An ice cream",
+        "A croissant-style pastry",
+        "A small pizza"
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! Il cornetto è una pasta sfoglia tipo croissant. Vuoto o con crema!",
+        "en": "Well done! Il cornetto is a croissant-style pastry. Plain or with cream!"
+      },
+      "feedbackErr": {
+        "it": "Il cornetto = pastry tipo croissant. Al bar si prende con il caffè!",
+        "en": "Il cornetto = croissant-style pastry. You have it with coffee at the bar!"
+      }
+    },
+    {
+      "id": 8,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Il conto, per favore...",
+      "introIT": "Il conto, per favore...",
+      "domanda": {
+        "it": "How do you ask for the bill at an Italian restaurant?",
+        "en": "Come chiedi il conto in un ristorante italiano?"
+      },
+      "opzioni": [
+        "Check please!",
+        "Il conto, per favore.",
+        "Finito, grazie!",
+        "Basta così."
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Perfetto! 'Il conto, per favore' — e ricorda: non arriva da solo!",
+        "en": "Perfect! 'Il conto, per favore' — and remember: it doesn't come automatically!"
+      },
+      "feedbackErr": {
+        "it": "In Italia si dice 'Il conto, per favore'. E devi chiederlo — non arriva da solo!",
+        "en": "In Italy you say 'Il conto, per favore'. You must ask — it won't come automatically!"
+      }
+    },
+    {
+      "id": 9,
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "intro": "Vero o falso?",
+      "introIT": "Vero o falso?",
+      "domanda": {
+        "it": "In Italy, the cappuccino is acceptable to drink at any time of day.",
+        "en": "In Italia il cappuccino si può bere in qualsiasi momento della giornata."
+      },
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! Il cappuccino è solo per la mattina. Dopo pranzo = solo espresso!",
+        "en": "Correct! Cappuccino is only for the morning. After lunch = espresso only!"
+      },
+      "feedbackErr": {
+        "it": "Falso! Il cappuccino = solo la mattina. Gli italiani lo sanno bene.",
+        "en": "False! Cappuccino = mornings only. Italians know this well."
+      }
+    },
+    {
+      "id": 10,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "intro": "Ultima domanda dalla Nonna!",
+      "introIT": "Ultima domanda dalla Nonna!",
+      "domanda": {
+        "it": "You want to say 'I'd like a coffee' politely. What do you say?",
+        "en": "Vuoi dire 'I'd like a coffee' in modo educato. Cosa dici?"
+      },
+      "opzioni": [
+        "Voglio un caffè.",
+        "Dammi un caffè.",
+        "Vorrei un caffè, per favore.",
+        "Un caffè adesso."
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravissimo! 'Vorrei' è il condizionale di cortesia. Molto più elegante di 'voglio'!",
+        "en": "Excellent! 'Vorrei' is the polite conditional. Much more elegant than 'voglio'!"
+      },
+      "feedbackErr": {
+        "it": "'Voglio' suona brusco. 'Vorrei un caffè, per favore' = educato e corretto.",
+        "en": "'Voglio' sounds abrupt. 'Vorrei un caffè, per favore' = polite and correct."
+      }
+    }
+  ],
+  "reward": {
+    "xp": 50,
+    "badge": "🏆",
+    "message": {
+      "it": "Hai battuto la Nonna! Sei pronto per l'Unità 2.",
+      "en": "You beat Nonna! You're ready for Unit 2."
+    }
+  }
+}
