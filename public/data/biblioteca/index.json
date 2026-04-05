@@ -1,24 +1,6 @@
 {
   "grammatica": [
     {
-      "id": "congiuntivo-condizionale",
-      "emoji": "🎯",
-      "livello": "B1",
-      "titolo": {
-        "it": "Congiuntivo & Condizionale",
-        "en": "Subjunctive & Conditional — Complete Guide"
-      },
-      "descrizione": {
-        "it": "Tutti i tempi, le congiunzioni, lo schema SE completo e il raccordo tra i due modi.",
-        "en": "All tenses, conjunctions, complete SE schema and the link between the two moods."
-      },
-      "tipo": "special",
-      "teaser": {
-        "it": "Tutti i tempi, le congiunzioni, lo schema SE completo e il raccordo tra i due modi.",
-        "en": "All tenses, conjunctions, complete SE schema and the link between the two moods."
-      }
-    },
-    {
       "id": "articoli-determinativi",
       "emoji": "📌",
       "livello": "A1",
@@ -215,6 +197,20 @@
       }
     },
     {
+      "id": "congiuntivo-condizionale",
+      "emoji": "🎯",
+      "livello": "B1",
+      "sottocategoria": "Congiuntivo & Condizionale",
+      "titolo": {
+        "it": "Congiuntivo & Condizionale",
+        "en": "Subjunctive & Conditional — Complete Guide"
+      },
+      "teaser": {
+        "it": "Tutti i tempi, le congiunzioni, lo schema SE completo e il raccordo tra i due modi.",
+        "en": "All tenses, conjunctions, complete SE schema and the link between the two moods."
+      }
+    },
+    {
       "id": "condizionale",
       "emoji": "🤔",
       "livello": "B1",
@@ -226,7 +222,8 @@
       "teaser": {
         "it": "Vorrei un caffè — non voglio, vorrei. La differenza è educazione.",
         "en": "Vorrei un caffè — not voglio, vorrei. The difference is politeness."
-      }
+      },
+      "hidden": true
     },
     {
       "id": "congiuntivo-presente",
@@ -240,7 +237,8 @@
       "teaser": {
         "it": "Il congiuntivo non è difficile. È solo che nessuno te lo ha mai spiegato bene.",
         "en": "The subjunctive isn't hard. Nobody has ever explained it properly to you."
-      }
+      },
+      "hidden": true
     },
     {
       "id": "imperativo",
