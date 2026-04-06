@@ -433,18 +433,13 @@ button:active:not(:disabled) {
   padding: 0 16px;
 }
 
-/* ============================================
-   LAYOUT PER PAGINA
-   ============================================ */
-.page-narrow {
-  width: 100%;
-  max-width: 520px;
-  margin: 0 auto;
+@media (min-width: 768px) {
+  .page-narrow {
+    max-width: 640px;
+  }
+  .page-wide {
+    max-width: 1024px;
+  }
 }
 
-.page-wide {
-  width: 100%;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
+
