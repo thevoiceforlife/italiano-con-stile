@@ -396,9 +396,14 @@ button:active:not(:disabled) {
 /* ============================================
    RESPONSIVE — colonna centrata stile app
    ============================================ */
+.app-shell:has(main.full-bleed) {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
 .app-shell {
   width: 100%;
-  max-width: 480px;
   min-height: 100vh;
   position: relative;
 }

@@ -5,6 +5,7 @@ import CharacterBubble from "../../../../components/CharacterBubble";
 import LessonComplete from "../../../../components/LessonComplete";
 import { salvaProgressi } from "../../../../components/saveProgress";
 import { FraseAnnotata } from "../../../../components/WordPopup";
+import VocabMatch from "../../../../components/VocabMatch";
 
 async function loadLesson(livello, unita, lezione) {
   const file = lezione === "boss" ? "boss" : `lesson${lezione}`;
@@ -551,7 +552,7 @@ export default function LessonPage() {
         }} />
       );
     }
-    return <VocabIntro lesson={lesson} unitType={unitType} unita={unita} lezione={lezione} onComplete={() => setFase("quiz")} />;
+    return <VocabMatch lesson={lesson} unitType={unitType} unita={unita} lezione={lezione} onComplete={() => setFase("quiz")} router={router} />;
   }
 
   return (
