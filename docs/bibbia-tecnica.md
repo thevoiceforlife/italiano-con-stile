@@ -494,3 +494,33 @@ Breakpoint unico: 768px
 2. Implementare top bar navigazione desktop
 3. Fix bug dashboard: badge livello sotto nickname mostra `""` vuoto
 4. Verificare URL `/lesson/A1/1/1` funziona in produzione
+
+---
+
+## Sessione 6 Aprile 2026 — VocabMatch + Layout Desktop
+
+### Nuovo componente: VocabMatch
+- File: `app/components/VocabMatch.js`
+- Sostituisce `VocabIntro` nella lezione — attività interattiva invece di lettura passiva
+- Meccanica: 2x2 card italiane (emoji + parola) + 1x4 traduzioni EN da abbinare
+- Batch dinamici: `computeBatches()` — se ultimo round < 2 parole fa merge col precedente
+- Personaggio: immagine reale `/images/mario.png` con colore `#FF9B42`
+- Colori neon: cyan `#00BCD4` per card IT, oro `#E5B700` per card EN
+- Background scuro `#0f1923` — stile dark/neon
+- Intro: icona pulsa → click → parla + testo si illumina parola per parola → carte si attivano
+- Gioco: fumetto muto cambia stato (ok/err), audio solo sulla parola abbinata
+- Animazioni icona: idle → bounce (ok) → shake (err) → spin (round done)
+- Fumetto: altezza fissa 62px, reset timer annullabile su round completato
+
+### Layout desktop full-width
+- Problema: `app-shell` aveva `max-width: 480px` che strozzava tutto
+- Soluzione: rimosso `max-width` da `.app-shell` in `globals.css`
+- Ogni pagina gestisce il proprio max-width via `page-narrow`/`page-wide`
+- VocabMatch usa `className="full-bleed"` + CSS `:has()` per uscire dal max-width
+- Top bar e bottom bar ora full-width su desktop, contenuto centrato max 540px
+- Pattern Duolingo: top/bottom full width, contenuto centrato, personaggio tra i due
+
+### Fix applicati
+- Rimossi file spuri dal repo (`=`, `{`, `~$iave per website.docx`)
+- Aggiunto `.gitignore` per cartella annidata `italiano-con-stile/` e file Office temporanei
+- Colori personaggi allineati a `CharacterBubble.js` (mario: `#FF9B42`, sofia: `#C8A0E8`, ecc.)
