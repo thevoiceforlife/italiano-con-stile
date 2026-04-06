@@ -450,3 +450,47 @@ A2: cibo-bar · emozioni · falsi-amici
 ### Stato lezioni
 - Sfida la Nonna Unit1: 10 domande (multipla + vero_falso), 50 XP, reward con badge 🏆
 
+
+---
+
+## Sessione 6 Aprile 2026 — Responsive Layout
+
+### Problema risolto
+- Repo aveva due cartelle annidate: `~/Desktop/italiano-con-stile/` (originale ✅) e `~/Desktop/italiano-con-stile/italiano-con-stile/` (clone errato ❌)
+- Tutto il lavoro va fatto sempre da `~/Desktop/italiano-con-stile/`
+
+### Fix critici
+- Eliminato `app/lesson/[id]/page.js` — conflitto slug Next.js con `[livello]`
+- Creato `app/components/LevelBadge.js` — mancante, causava build error su Vercel
+- Dashboard `app/dashboard/page.js` esiste ed è funzionante — non era mai stata committata
+
+### Sistema responsive implementato
+```css
+.page-narrow { max-width: 520px; margin: 0 auto; }          /* Home, Lezioni, Boss */
+.page-wide   { max-width: 860px; margin: 0 auto; }          /* Dashboard, Biblioteca */
+.app-shell   { width: 100%; }                                /* Layout radice */
+```
+
+### Classi applicate
+```
+page-narrow → app/page.js, lesson/[livello]/[unita]/[lezione]/page.js, lesson/boss/page.js
+page-wide   → app/dashboard/page.js, app/biblioteca/page.js, app/biblioteca/[scheda]/page.js
+page-wide   → app/biblioteca/congiuntivo-condizionale/page.js (su <div> root, non <main>)
+```
+
+### Prossimo Sprint — Layout Desktop
+Tre alternative valutate (mockup in sessione):
+
+**A — Sidebar fissa** (1100px: sidebar 220px + contenuto 880px)
+**B — 2 colonne senza sidebar** (1024px: col-sx 440px + col-dx 560px) ← preferita
+**C — Top bar + hero orizzontale** (960px: hero full + 3 colonne 300px)
+
+Breakpoint unico: 768px
+- Mobile < 768px → colonna unica, layout attuale invariato
+- Desktop ≥ 768px → layout scelto
+
+### Da fare prossima sessione
+1. Scegliere layout desktop (A/B/C)
+2. Implementare top bar navigazione desktop
+3. Fix bug dashboard: badge livello sotto nickname mostra `""` vuoto
+4. Verificare URL `/lesson/A1/1/1` funziona in produzione
