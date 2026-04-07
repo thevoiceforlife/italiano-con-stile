@@ -294,11 +294,11 @@ export default function Home() {
         {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
         {/* HERO */}
-        <div style={{ position:"relative", height:"55vh", minHeight:280, overflow:"hidden" }}>
+        <div style={{ position:"relative", height:"70vh", minHeight:360, overflow:"hidden" }}>
           <img
             src="/images/bar-di-mario.png"
             alt="Bar di Mario — Napoli"
-            style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }}
+            style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center center", display:"block" }}
           />
           <div style={{ position:"absolute", inset:0, background:"linear-gradient(to bottom, rgba(13,31,45,0.05) 0%, rgba(13,31,45,0.6) 55%, rgba(13,31,45,1) 100%)" }} />
           <div style={{ position:"absolute", bottom:0, left:0, right:0, padding:"clamp(16px,4vw,40px)" }}>
@@ -399,7 +399,7 @@ export default function Home() {
               </div>
               <button
                 onClick={() => setShowOnboarding(true)}
-                style={{ width:"100%", maxWidth:400, padding:"16px 24px", background:"#E5B700", color:"#0d1f2d", border:"none", borderRadius:14, fontSize:"clamp(14px,2vw,16px)", fontWeight:900, cursor:"pointer", fontFamily:"inherit" }}
+                style={{ width:"100%", padding:"16px 24px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:"clamp(14px,2vw,16px)", fontWeight:900, cursor:"pointer", fontFamily:"inherit" }}
               >
                 Siediti al bar / Take a seat →
               </button>
@@ -483,13 +483,13 @@ export default function Home() {
               </div>
 
               {/* FRAME LEZIONE UNIFICATO */}
-              <div className="frame-glow" style={{ border:"1.5px solid #27AE60", borderRadius:16, overflow:"hidden" }}>
-                <div style={{ background:"rgba(39,174,96,0.05)", padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
+              <div className="frame-glow" style={{ border:"1.5px solid #58cc02", borderRadius:16, overflow:"hidden" }}>
+                <div style={{ background:"rgba(88,204,2,0.05)", padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
                   <div style={{ width:48, height:48, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
                     <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
                   </div>
                   <div style={{ flex:1 }}>
-                    <div style={{ fontSize:11, fontWeight:700, color:"#27AE60", marginBottom:2 }}>
+                    <div style={{ fontSize:11, fontWeight:700, color:"#58cc02", marginBottom:2 }}>
                       {ctaLabelTop}
                     </div>
                     <div style={{ fontSize:14, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
@@ -500,11 +500,11 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div style={{ height:"1px", background:"rgba(39,174,96,0.2)" }} />
+                <div style={{ height:"1px", background:"rgba(88,204,2,0.2)" }} />
                 <button
                   className="btn-breathe"
                   onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
-                  style={{ width:"100%", padding:"16px", background:"#27AE60", color:"#fff", border:"none", fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
+                  style={{ width:"100%", padding:"16px", background:"#58cc02", color:"#fff", border:"none", fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
                 >
                   {ctaLabel}
                 </button>
