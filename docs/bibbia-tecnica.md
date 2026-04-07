@@ -524,3 +524,56 @@ Breakpoint unico: 768px
 - Rimossi file spuri dal repo (`=`, `{`, `~$iave per website.docx`)
 - Aggiunto `.gitignore` per cartella annidata `italiano-con-stile/` e file Office temporanei
 - Colori personaggi allineati a `CharacterBubble.js` (mario: `#FF9B42`, sofia: `#C8A0E8`, ecc.)
+
+---
+
+## Sessione 7 Aprile 2026 — Home Narrativa + Layout Desktop
+
+### Home narrativa — due versioni
+- **Non autenticato**: landing con hero Bar di Mario, personaggi, come funziona (Impara→Energia→Esplora), barra energia con cibo, tagline + CTA
+- **Autenticato**: topbar Logo + avatar grande + Dashboard, personaggi cliccabili con hover glow, frame lezione unificato
+- Distinzione: `hasProgress = !!(data && data.onboardingDone)` da localStorage
+
+### Testi definitivi
+- Hero headline: "Benvenuto al Bar di Mario / Welcome to Mario's Bar"
+- Sottotitolo: "Impara da Napoli. Parla ovunque. / Learn from Naples. Speak anywhere."
+- Tagline: "L'italiano inizia qui. / Italian starts here."
+- CTA landing: "Siediti al bar / Take a seat →"
+- CTA lezione prima volta: "Inizia / Start →"
+- CTA lezione successiva: "Continua / Continue →"
+- Pulsante dashboard: "Il tuo percorso / Your learning path →"
+- Logo top bar: invariato "Italian for English Speakers / Finally, someone explains why."
+
+### Frame lezione unificato
+- Bordo verde neon `#27AE60` con `frame-glow` animation
+- Card lezione: avatar Mario + titolo bilingue + meta
+- Divisore sottile verde
+- Pulsante verde pieno `#27AE60` con scritta bianca, animazione `btn-breathe` (respiro)
+- Sotto: pulsante scuro bordo cyan `#00BCD4` → dashboard
+
+### CSS animazioni aggiunte a globals.css
+```css
+@keyframes text-breathe { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.75;transform:scale(0.98)} }
+@keyframes frame-glow   { 0%,100%{box-shadow:0 0 12px rgba(39,174,96,0.4)} 50%{box-shadow:0 0 28px rgba(39,174,96,0.75)} }
+@keyframes btn-pulse    { 0%,100%{box-shadow:0 0 10px rgba(39,174,96,0.35)} 50%{box-shadow:0 0 24px rgba(39,174,96,0.75)} }
+.btn-breathe { animation: text-breathe 2.5s ease-in-out infinite; }
+.frame-glow  { animation: frame-glow  2.5s ease-in-out infinite; }
+.btn-pulse   { animation: btn-pulse   2s ease-in-out infinite; }
+```
+
+### Personaggi nella home
+- Immagini reali `/images/[id].png` con fallback emoji
+- Hover glow colorato con `onMouseEnter/Leave` inline
+- Click → mini-game, long press → bio modale (invariato)
+- Avatar utente nella topbar: stessa dimensione dei personaggi `clamp(44px,6vw,56px)`
+
+### Layout full-width
+- `app-shell` senza max-width — ogni pagina gestisce il proprio
+- Home usa `full-bleed` className
+- Top bar e contenuto usano `clamp(16px,5vw,48px)` per padding orizzontale responsivo
+- Contenuto centrato `maxWidth:640` dentro il padding
+
+### Da fare prossima sessione
+- Testare landing non autenticata (aprire in finestra anonima)
+- Badge livello vuoto in dashboard (`""`) — bug aperto
+- Fix UNDEFINED_0000 nel nickname quando non c'è profilo
