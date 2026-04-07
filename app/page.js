@@ -482,31 +482,33 @@ export default function Home() {
                 {isFirstLesson ? "Prima lezione / First lesson" : "In corso / Current lesson"}
               </div>
 
-              {/* CARD LEZIONE */}
-              <div style={{ background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.08)", borderRadius:14, padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
-                <div style={{ width:48, height:48, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
-                  <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
+              {/* FRAME LEZIONE UNIFICATO */}
+              <div style={{ border:"1.5px solid #27AE60", boxShadow:"0 0 16px rgba(39,174,96,0.3)", borderRadius:16, overflow:"hidden" }}>
+                <div style={{ background:"rgba(39,174,96,0.05)", padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
+                  <div style={{ width:48, height:48, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
+                    <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
+                  </div>
+                  <div style={{ flex:1 }}>
+                    <div style={{ fontSize:11, fontWeight:700, color:"#27AE60", marginBottom:2 }}>
+                      {ctaLabelTop}
+                    </div>
+                    <div style={{ fontSize:14, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
+                      {nextLesson.titleIT} / {nextLesson.titleEN}
+                    </div>
+                    <div style={{ fontSize:11, color:"var(--text3)" }}>
+                      Unità {nextLesson.unita} / Unit {nextLesson.unita} · {nextLesson.livello} · ~5 min
+                    </div>
+                  </div>
                 </div>
-                <div style={{ flex:1 }}>
-                  <div style={{ fontSize:11, fontWeight:700, color:"#E5B700", marginBottom:2 }}>
-                    {ctaLabelTop}
-                  </div>
-                  <div style={{ fontSize:14, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
-                    {nextLesson.titleIT} / {nextLesson.titleEN}
-                  </div>
-                  <div style={{ fontSize:11, color:"var(--text3)" }}>
-                    Unità {nextLesson.unita} / Unit {nextLesson.unita} · {nextLesson.livello} · ~5 min
-                  </div>
-                </div>
+                <div style={{ height:"1px", background:"rgba(39,174,96,0.2)" }} />
+                <button
+                  className="btn-pulse"
+                  onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
+                  style={{ width:"100%", padding:"15px", background:"rgba(39,174,96,0.12)", color:"#4ADE80", border:"none", fontSize:15, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
+                >
+                  {ctaLabel}
+                </button>
               </div>
-
-              {/* PULSANTE VERDE GRANDE */}
-              <button
-                onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
-                style={{ width:"100%", padding:"16px", background:"#27AE60", color:"#fff", border:"none", borderRadius:14, fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.3px" }}
-              >
-                {ctaLabel}
-              </button>
 
               {/* PULSANTE PERCORSO */}
               <button
