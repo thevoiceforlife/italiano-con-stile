@@ -483,7 +483,7 @@ export default function Home() {
               </div>
 
               {/* FRAME LEZIONE UNIFICATO */}
-              <div style={{ border:"1.5px solid #27AE60", boxShadow:"0 0 16px rgba(39,174,96,0.3)", borderRadius:16, overflow:"hidden" }}>
+              <div className="frame-glow" style={{ border:"1.5px solid #27AE60", borderRadius:16, overflow:"hidden" }}>
                 <div style={{ background:"rgba(39,174,96,0.05)", padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
                   <div style={{ width:48, height:48, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
                     <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
@@ -502,9 +502,9 @@ export default function Home() {
                 </div>
                 <div style={{ height:"1px", background:"rgba(39,174,96,0.2)" }} />
                 <button
-                  className="btn-pulse"
+                  className="btn-breathe"
                   onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
-                  style={{ width:"100%", padding:"15px", background:"rgba(39,174,96,0.12)", color:"#4ADE80", border:"none", fontSize:15, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
+                  style={{ width:"100%", padding:"16px", background:"#27AE60", color:"#fff", border:"none", fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
                 >
                   {ctaLabel}
                 </button>

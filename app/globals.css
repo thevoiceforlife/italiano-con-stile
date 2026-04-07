@@ -449,3 +449,9 @@ button:active:not(:disabled) {
   50%      { box-shadow: 0 0 24px rgba(39,174,96,0.75), 0 0 40px rgba(39,174,96,0.25); }
 }
 .btn-pulse { animation: btn-pulse 2s ease-in-out infinite; }
+
+@keyframes text-breathe {
+  0%,100% { opacity: 1; letter-spacing: 0.5px; }
+  50%      { opacity: 0.6; letter-spacing: 2px; }
+}
+.btn-pulse { animation: text-breathe 2.5s ease-in-out infinite; }
