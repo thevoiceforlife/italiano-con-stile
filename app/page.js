@@ -222,7 +222,7 @@ export default function Home() {
 
   useEffect(() => {
     const data = loadProgress();
-    if (!data || !data.onboardingDone) setShowOnboarding(true);
+    if (!data || !data.onboardingDone) { /* onboarding aperto solo dal click CTA landing */ }
     refreshCompleted();
     setMounted(true);
     window.addEventListener("focus", refreshCompleted);
