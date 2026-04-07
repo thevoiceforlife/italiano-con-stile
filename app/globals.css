@@ -435,10 +435,10 @@ button:active:not(:disabled) {
 
 @media (min-width: 768px) {
   .page-narrow {
-    max-width: 640px;
+    max-width: 720px;
   }
   .page-wide {
-    max-width: 1024px;
+    max-width: 1080px;
   }
 }
 
