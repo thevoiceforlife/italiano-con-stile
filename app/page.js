@@ -419,6 +419,11 @@ export default function Home() {
   }
 
   // ── HOME AUTENTICATA ───────────────────────────────────────────────────────
+  const lessonDone = nextLesson ? isDone(nextLesson.id) : false;
+  const isFirstLesson = nextLesson && nextLesson.id === 1 && !isDone(1);
+  const ctaLabel = isFirstLesson ? "Inizia / Start →" : "Continua / Continue →";
+  const ctaLabelTop = isFirstLesson ? "Lezione 1 / Lesson 1" : `Lezione ${nextLesson ? nextLesson.id : ''} / Lesson ${nextLesson ? nextLesson.id : ''}`;
+
   return (
     <main className="full-bleed" style={{ minHeight:"100vh", background:"var(--bg)", display:"flex", flexDirection:"column" }}>
       {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
@@ -428,25 +433,25 @@ export default function Home() {
         <Logo />
         <button
           onClick={() => router.push('/dashboard')}
-          style={{ display:"flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:30, padding:"5px 12px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
+          style={{ display:"flex", alignItems:"center", gap:10, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:50, padding:"5px 14px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
         >
-          <div style={{ width:36, height:36, borderRadius:"50%", border:"2.5px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:18, flexShrink:0 }}>
+          <div style={{ width:"clamp(44px,6vw,56px)", height:"clamp(44px,6vw,56px)", borderRadius:"50%", border:"2.5px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:"clamp(20px,3vw,28px)", flexShrink:0, overflow:"hidden" }}>
             {dashAvatar}
           </div>
           <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
-            <span style={{ fontSize:12, fontWeight:700, color:"var(--text)" }}>{dashNickname}</span>
+            <span style={{ fontSize:13, fontWeight:700, color:"var(--text)" }}>{dashNickname}</span>
             <span style={{ fontSize:10, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
           </div>
         </button>
       </header>
 
       {/* CONTENUTO */}
-      <div style={{ flex:1, padding:"20px clamp(16px,5vw,48px)" }}>
-        <div style={{ maxWidth:640, margin:"0 auto", display:"flex", flexDirection:"column", gap:24 }}>
+      <div style={{ flex:1, padding:"24px clamp(16px,5vw,48px)" }}>
+        <div style={{ maxWidth:640, margin:"0 auto", display:"flex", flexDirection:"column", gap:28 }}>
 
           {/* PERSONAGGI */}
           <section>
-            <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:12 }}>
+            <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:14 }}>
               I tuoi compagni / Your companions
             </div>
             <div style={{ display:"flex", gap:"clamp(6px,2vw,16px)", justifyContent:"space-between" }}>
@@ -470,29 +475,46 @@ export default function Home() {
             </div>
           </section>
 
-          {/* CTA CONTINUA */}
+          {/* PROSSIMA LEZIONE */}
           {nextLesson && (
-            <section>
-              <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:12 }}>
-                Prossima lezione / Next lesson
+            <section style={{ display:"flex", flexDirection:"column", gap:12 }}>
+              <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px" }}>
+                {isFirstLesson ? "Prima lezione / First lesson" : "In corso / Current lesson"}
               </div>
-              <div
-                onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
-                style={{ background:"rgba(229,183,0,0.08)", border:"1.5px solid rgba(229,183,0,0.25)", borderRadius:14, padding:"14px 16px", display:"flex", alignItems:"center", gap:12, cursor:"pointer" }}
-              >
-                <div style={{ width:44, height:44, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
-                  <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:20px">🧑</span>'; }} />
+
+              {/* CARD LEZIONE */}
+              <div style={{ background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.08)", borderRadius:14, padding:"14px 16px", display:"flex", alignItems:"center", gap:12 }}>
+                <div style={{ width:48, height:48, borderRadius:"50%", border:"2px solid #FF9B42", background:"rgba(255,155,66,0.15)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", flexShrink:0 }}>
+                  <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
                 </div>
                 <div style={{ flex:1 }}>
-                  <div style={{ fontSize:13, fontWeight:700, color:"var(--text)", marginBottom:2 }}>
-                    Continua / Continue — Lezione {nextLesson.id}
+                  <div style={{ fontSize:11, fontWeight:700, color:"#E5B700", marginBottom:2 }}>
+                    {ctaLabelTop}
+                  </div>
+                  <div style={{ fontSize:14, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
+                    {nextLesson.titleIT} / {nextLesson.titleEN}
                   </div>
                   <div style={{ fontSize:11, color:"var(--text3)" }}>
-                    {nextLesson.titleIT} · Unità {nextLesson.unita} · {nextLesson.livello}
+                    Unità {nextLesson.unita} / Unit {nextLesson.unita} · {nextLesson.livello} · ~5 min
                   </div>
                 </div>
-                <span style={{ fontSize:18, color:"#E5B700" }}>→</span>
               </div>
+
+              {/* PULSANTE VERDE GRANDE */}
+              <button
+                onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
+                style={{ width:"100%", padding:"16px", background:"#27AE60", color:"#fff", border:"none", borderRadius:14, fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.3px" }}
+              >
+                {ctaLabel}
+              </button>
+
+              {/* PULSANTE PERCORSO */}
+              <button
+                onClick={() => router.push('/dashboard')}
+                style={{ width:"100%", padding:"14px", background:"rgba(0,188,212,0.08)", color:"#00BCD4", border:"1.5px solid #00BCD4", borderRadius:14, fontSize:14, fontWeight:700, cursor:"pointer", fontFamily:"inherit" }}
+              >
+                Il tuo percorso / Your learning path →
+              </button>
             </section>
           )}
 
