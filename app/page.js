@@ -293,125 +293,52 @@ export default function Home() {
       <main className="full-bleed" style={{ minHeight:"100vh", background:"var(--bg)", display:"flex", flexDirection:"column" }}>
         {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
-        {/* HERO */}
-        <div style={{ position:"relative", height:"70vh", minHeight:360, overflow:"hidden" }}>
-          <img
-            src="/images/bar-di-mario.png"
-            alt="Bar di Mario — Napoli"
-            style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center center", display:"block" }}
-          />
-          <div style={{ position:"absolute", inset:0, background:"linear-gradient(to bottom, rgba(13,31,45,0.05) 0%, rgba(13,31,45,0.6) 55%, rgba(13,31,45,1) 100%)" }} />
-          <div style={{ position:"absolute", bottom:0, left:0, right:0, padding:"clamp(16px,4vw,40px)" }}>
-            <div style={{ maxWidth:640, margin:"0 auto" }}>
-              <div style={{ fontSize:"clamp(20px,4vw,32px)", fontWeight:900, color:"#fff", lineHeight:1.25, marginBottom:6 }}>
-                Benvenuto al <span style={{ color:"#E5B700" }}>Bar di Mario</span>
-                <br />
-                <span style={{ fontSize:"clamp(14px,2.5vw,22px)", fontWeight:700, color:"rgba(255,255,255,0.7)" }}>
-                  Welcome to <span style={{ color:"#E5B700" }}>Mario's Bar</span>
-                </span>
-              </div>
-              <div style={{ fontSize:"clamp(12px,1.8vw,16px)", color:"rgba(255,255,255,0.55)", lineHeight:1.5 }}>
-                Impara da Napoli. Parla ovunque. / Learn from Naples. Speak anywhere.
-              </div>
+        {/* 1. IMMAGINE full width, bordi squadrati */}
+        <img
+          src="/images/bar-di-mario.png"
+          alt="Bar di Mario — Napoli"
+          style={{ width:"100%", display:"block", objectFit:"cover", objectPosition:"center center", height:"clamp(200px,45vw,420px)" }}
+        />
+
+        {/* 2. TRICOLORE 2px */}
+        <div style={{ display:"flex", height:2 }}>
+          <div style={{ flex:1, background:"#009246" }} />
+          <div style={{ flex:1, background:"#fff" }} />
+          <div style={{ flex:1, background:"#CE2B37" }} />
+        </div>
+
+        {/* CONTENUTO centrato */}
+        <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:"clamp(14px,4vw,40px) clamp(16px,5vw,48px)" }}>
+          <div style={{ width:"100%", maxWidth:480, display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
+
+            {/* 3. LOGO */}
+            <Logo />
+
+            {/* 4. CAPTION — stesso rigo */}
+            <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, width:"100%", flexWrap:"wrap" }}>
+              <span style={{ fontSize:13, fontWeight:700, color:"rgba(255,255,255,0.65)" }}>Benvenuto al Bar di Mario</span>
+              <span style={{ fontSize:11, color:"rgba(255,255,255,0.2)" }}>·</span>
+              <span style={{ fontSize:12, color:"rgba(255,255,255,0.3)", fontStyle:"italic" }}>Welcome to Mario's Bar</span>
             </div>
-          </div>
-        </div>
 
-        {/* CONTENUTO */}
-        <div style={{ flex:1, padding:"0 clamp(16px,5vw,48px)" }}>
-          <div style={{ maxWidth:640, margin:"0 auto" }}>
+            <div style={{ width:"100%", height:1, background:"rgba(255,255,255,0.08)" }} />
 
-            {/* PERSONAGGI */}
-            <section style={{ padding:"24px 0 20px", borderBottom:"1px solid rgba(255,255,255,0.06)" }}>
-              <div style={{ fontSize:10, color:"rgba(255,255,255,0.3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:14 }}>
-                I tuoi compagni / Your companions
-              </div>
-              <div style={{ display:"flex", gap:"clamp(6px,2vw,16px)", justifyContent:"space-between" }}>
-                {CHARACTERS.map(c => (
-                  <div
-                    key={c.id}
-                    onClick={() => { playCharacterSound(c.id); if (c.miniGame === "boss") { setModalChar(c); return; } setActiveGame(c); }}
-                    onMouseEnter={e => e.currentTarget.querySelector('.char-glow').style.boxShadow = `0 0 18px ${c.color}CC`}
-                    onMouseLeave={e => e.currentTarget.querySelector('.char-glow').style.boxShadow = 'none'}
-                    style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:6, cursor:"pointer", flex:1 }}
-                  >
-                    <div
-                      className="char-glow"
-                      style={{ width:"clamp(44px,8vw,64px)", height:"clamp(44px,8vw,64px)", borderRadius:"50%", border:`2px solid ${c.color}`, background:"rgba(255,255,255,0.05)", display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", transition:"box-shadow 0.2s" }}
-                    >
-                      <img src={`/images/${c.id}.png`} alt={c.name} style={{ width:"100%", height:"100%", objectFit:"cover", borderRadius:"50%" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML += `<span style="font-size:22px">${c.emoji}</span>`; }} />
-                    </div>
-                    <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", textAlign:"center" }}>{c.name}</div>
-                  </div>
-                ))}
-              </div>
-            </section>
+            {/* 5. PULSANTE VERDE */}
+            <button
+              onClick={() => setShowOnboarding(true)}
+              style={{ width:"100%", padding:"16px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:15, fontWeight:900, cursor:"pointer", fontFamily:"inherit", whiteSpace:"nowrap" }}
+            >
+              L'italiano inizia qui / Italian starts here →
+            </button>
 
-            {/* COME FUNZIONA */}
-            <section style={{ padding:"20px 0" }}>
-              <div style={{ fontSize:10, color:"rgba(255,255,255,0.3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:16 }}>
-                Come funziona / How it works
-              </div>
-              <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:0, marginBottom:16 }}>
-                {[
-                  { icon:"📖", it:"Impara", en:"Learn", sub:"Lezioni brevi / Short lessons" },
-                  { icon:"⚡", it:"Energia", en:"Energy", sub:"Cibo napoletano / Neapolitan food" },
-                  { icon:"🗺️", it:"Esplora", en:"Explore", sub:"Tutta Italia / All of Italy" },
-                ].map((s, i) => (
-                  <div key={i} style={{ display:"flex", alignItems:"center", flex:1 }}>
-                    <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:4, flex:1, textAlign:"center" }}>
-                      <span style={{ fontSize:"clamp(24px,4vw,36px)" }}>{s.icon}</span>
-                      <div style={{ fontSize:"clamp(11px,1.5vw,14px)", fontWeight:700, color:"#fff" }}>{s.it}<br /><span style={{ color:"rgba(255,255,255,0.4)", fontWeight:400 }}>{s.en}</span></div>
-                      <div style={{ fontSize:10, color:"rgba(255,255,255,0.3)", lineHeight:1.3 }}>{s.sub}</div>
-                    </div>
-                    {i < 2 && <div style={{ fontSize:16, color:"rgba(255,255,255,0.2)", flexShrink:0, paddingBottom:16 }}>→</div>}
-                  </div>
-                ))}
-              </div>
-
-              {/* BARRA ENERGIA CON CIBO */}
-              <div style={{ background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.07)", borderRadius:12, padding:"12px 14px" }}>
-                <div style={{ display:"flex", justifyContent:"space-between", fontSize:10, color:"rgba(255,255,255,0.3)", marginBottom:8 }}>
-                  <span>Energia / Energy</span>
-                  <span style={{ color:"#E5B700" }}>Guadagnata con il cibo / Earned with food</span>
-                </div>
-                <div style={{ height:8, background:"rgba(255,255,255,0.08)", borderRadius:4, overflow:"hidden", marginBottom:8 }}>
-                  <div style={{ height:"100%", width:"20%", background:"#E5B700", borderRadius:4 }} />
-                </div>
-                <div style={{ display:"flex", justifyContent:"space-between" }}>
-                  {["☕","🥐","🍹","🍕","🍦"].map((e, i) => (
-                    <div key={i} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:3 }}>
-                      <span style={{ fontSize:"clamp(14px,2vw,20px)" }}>{e}</span>
-                      <div style={{ width:6, height:6, borderRadius:"50%", background: i===0 ? "#E5B700" : "rgba(255,255,255,0.15)" }} />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-
-            {/* TAGLINE + CTA */}
-            <section style={{ padding:"16px 0 32px", textAlign:"center" }}>
-              <div style={{ fontSize:"clamp(16px,2.5vw,22px)", fontWeight:900, color:"#fff", marginBottom:4 }}>
-                L'italiano inizia qui.
-              </div>
-              <div style={{ fontSize:"clamp(12px,1.5vw,16px)", color:"rgba(255,255,255,0.4)", marginBottom:24 }}>
-                Italian starts here.
-              </div>
-              <button
-                onClick={() => setShowOnboarding(true)}
-                style={{ width:"100%", padding:"16px 24px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:"clamp(14px,2vw,16px)", fontWeight:900, cursor:"pointer", fontFamily:"inherit" }}
-              >
-                Siediti al bar / Take a seat →
-              </button>
-              <div style={{ fontSize:11, color:"rgba(255,255,255,0.2)", marginTop:10 }}>
-                Gratis · Nessuna carta / Free · No credit card
-              </div>
-            </section>
+            {/* 6. HINT */}
+            <div style={{ fontSize:10, color:"rgba(255,255,255,0.25)", textAlign:"center" }}>
+              Gratis · Nessuna carta / Free · No credit card
+            </div>
 
           </div>
         </div>
 
-        {/* MODALS */}
         {modalChar && <CharacterModal c={modalChar} onClose={() => { window.speechSynthesis?.cancel(); setModalChar(null); }} />}
         {activeGame && <MiniGameRouter character={activeGame} onClose={() => setActiveGame(null)} onXP={(xp) => { handleGameXP(xp); refreshCompleted(); }} />}
       </main>
