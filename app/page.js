@@ -359,7 +359,7 @@ Italian starts here
 
       {/* TOP BAR */}
       <header style={{ padding:"10px clamp(16px,5vw,48px)", borderBottom:"1px solid rgba(255,255,255,0.08)", display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 }}>
-        <Logo />
+        <Logo size={80} />
         <button
           onClick={() => router.push('/dashboard')}
           style={{ display:"flex", alignItems:"center", gap:10, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:50, padding:"5px 14px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
@@ -373,6 +373,7 @@ Italian starts here
           </div>
         </button>
       </header>
+      <Tricolore />
 
       {/* CONTENUTO */}
       <div style={{ flex:1, padding:"24px clamp(16px,5vw,48px)" }}>
