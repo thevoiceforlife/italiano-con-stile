@@ -359,7 +359,7 @@ Italian starts here
 
       {/* TOP BAR */}
       <header style={{ padding:"10px clamp(16px,5vw,48px)", borderBottom:"1px solid rgba(255,255,255,0.08)", display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 }}>
-        <Logo />
+        <div style={{ maxWidth:"55vw", overflow:"hidden", flexShrink:1 }}><Logo size={120} /></div>
         <button
           onClick={() => router.push('/dashboard')}
           style={{ display:"flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:30, padding:"5px 12px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
