@@ -601,3 +601,34 @@ Breakpoint unico: 768px
 - Verde primario CTA: `#58cc02` = `var(--primary)` — stesso del logo
 - Frame lezione: bordo + glow `#58cc02`
 - Tricolore: `#009246` / `#fff` / `#CE2B37`
+
+---
+
+## Sessione 9 Aprile 2026 — Mobile, Topbar, Fix
+
+### Topbar home autenticata — decisione finale
+- Solo `<Logo />` centrato — nessun avatar, nessun nickname
+- Accesso dashboard tramite pulsante "Il tuo percorso / Your learning path →"
+- Avatar e nickname rimangono solo nella dashboard
+
+### Tricolore
+- Componente `app/components/Tricolore.js` — `height` prop default 2px
+- Inserito in `app/layout.js` — appare su tutte le pagine in cima
+- Inserito anche sotto la topbar nella home autenticata
+
+### Fix nickname UNDEFINED_0000
+- Causa: `getLevelData()` non aveva `nickPrefix` nella struttura
+- Fix: aggiunto `nickPrefix` per tutti i livelli A1→C2 in `LevelBadge.js`
+- Fallback: `(lv.nickPrefix || 'Turista') + '_' + seed`
+
+### Fix logo mobile
+- Logo component non si ridimensiona con `overflow:hidden`
+- Soluzione finale: topbar mostra solo Logo, nessun elemento competitivo
+
+### Landing non autenticata — struttura finale
+1. Immagine Bar di Mario full width `height: clamp(200px,45vw,420px)`
+2. Tricolore 2px (dal layout)
+3. `<Logo size={110} />` centrato
+4. Caption "Benvenuto al Bar di Mario · Welcome to Mario's Bar" stesso rigo
+5. Pulsante verde `#58cc02` — "L'italiano inizia qui / Italian starts here →"
+6. Hint gratis
