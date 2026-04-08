@@ -301,14 +301,14 @@ export default function Home() {
         />
 
         {/* 2. TRICOLORE 2px */}
-        <div style={{ display:"flex", height:2 }}>
+        <div style={{ display:"flex", height:3 }}>
           <div style={{ flex:1, background:"#009246" }} />
           <div style={{ flex:1, background:"#fff" }} />
           <div style={{ flex:1, background:"#CE2B37" }} />
         </div>
 
         {/* CONTENUTO centrato */}
-        <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:"clamp(14px,4vw,40px) clamp(16px,5vw,48px)" }}>
+        <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", padding:"16px clamp(16px,5vw,48px) 24px" }}>
           <div style={{ width:"100%", maxWidth:480, display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
 
             {/* 3. LOGO */}
@@ -326,9 +326,10 @@ export default function Home() {
             {/* 5. PULSANTE VERDE */}
             <button
               onClick={() => setShowOnboarding(true)}
-              style={{ width:"100%", padding:"16px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:15, fontWeight:900, cursor:"pointer", fontFamily:"inherit", whiteSpace:"nowrap" }}
+              style={{ width:"100%", padding:"15px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:14, fontWeight:900, cursor:"pointer", fontFamily:"inherit", lineHeight:1.4, textAlign:"center" }}
             >
-              L'italiano inizia qui / Italian starts here →
+              L'italiano inizia qui →
+Italian starts here
             </button>
 
             {/* 6. HINT */}
