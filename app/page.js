@@ -358,20 +358,30 @@ Italian starts here
       {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
       {/* TOP BAR */}
-      <header style={{ padding:"10px clamp(16px,5vw,48px)", borderBottom:"1px solid rgba(255,255,255,0.08)", display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 }}>
-        <div style={{ maxWidth:"55vw", overflow:"hidden", flexShrink:1 }}><Logo size={120} /></div>
-        <button
-          onClick={() => router.push('/dashboard')}
-          style={{ display:"flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:30, padding:"5px 12px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
-        >
-          <div style={{ width:36, height:36, borderRadius:"50%", border:"2px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:18, flexShrink:0 }}>
-            {dashAvatar}
+      <header style={{ padding:"10px 14px 8px", borderBottom:"1px solid rgba(255,255,255,0.08)", flexShrink:0 }}>
+        {/* Riga 1: bandiere + testo brand */}
+        <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:7 }}>
+          <span style={{ fontSize:26, lineHeight:1, flexShrink:0 }}>🇬🇧🇮🇹</span>
+          <div style={{ overflow:"hidden" }}>
+            <div style={{ fontSize:13, fontWeight:900, color:"#58cc02", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>Italian for English Speakers</div>
+            <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", fontStyle:"italic", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>Finally, someone explains why.</div>
           </div>
-          <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
-            <span style={{ fontSize:12, fontWeight:700, color:"var(--text)", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap", maxWidth:100 }}>{dashNickname}</span>
-            <span style={{ fontSize:10, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
-          </div>
-        </button>
+        </div>
+        {/* Riga 2: avatar a destra */}
+        <div style={{ display:"flex", justifyContent:"flex-end" }}>
+          <button
+            onClick={() => router.push('/dashboard')}
+            style={{ display:"flex", alignItems:"center", gap:6, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:20, padding:"4px 10px 4px 4px", cursor:"pointer", fontFamily:"inherit" }}
+          >
+            <div style={{ width:26, height:26, borderRadius:"50%", border:"2px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:13, flexShrink:0 }}>
+              {dashAvatar}
+            </div>
+            <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
+              <span style={{ fontSize:11, fontWeight:700, color:"var(--text)", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis", maxWidth:160 }}>{dashNickname}</span>
+              <span style={{ fontSize:9, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
+            </div>
+          </button>
+        </div>
       </header>
       <Tricolore />
 
