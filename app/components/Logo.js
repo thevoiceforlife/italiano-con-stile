@@ -380,7 +380,7 @@ export default function Logo({ size = 160 }) {
             alignItems: "center",
           }}
         >
-          {/* ICONA 🔊 — sparisce dopo unlock */}
+          {/* ICONA 🗣️ — sparisce dopo unlock */}
           {!unlocked && (
             <span
               onClick={handleIconClick}
@@ -404,7 +404,7 @@ export default function Logo({ size = 160 }) {
                 animationDirection: "alternate",
               }}
             >
-              🔊
+              🗣️
             </span>
           )}
 
@@ -440,7 +440,8 @@ export default function Logo({ size = 160 }) {
             alignItems: "flex-end",
             gap: "3px",
             height: "16px",
-            opacity: 1,
+            opacity: waving ? 1 : 0,
+            transition: "opacity 0.3s",
           }}
         >
           {[7, 12, 9, 14, 8, 11, 6, 13, 10, 7, 12, 9].map((barH, i) => (

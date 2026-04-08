@@ -357,29 +357,21 @@ Italian starts here
     <main className="full-bleed" style={{ minHeight:"100vh", background:"var(--bg)", display:"flex", flexDirection:"column" }}>
       {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
-      {/* TOP BAR — 2 righe */}
-      <header style={{ padding:"10px clamp(14px,4vw,40px) 8px", borderBottom:"1px solid rgba(255,255,255,0.08)", flexShrink:0 }}>
-        <div style={{ display:"flex", justifyContent:"center", alignItems:"center", gap:8, marginBottom:8 }}>
-          <span style={{ fontSize:22 }}>🇬🇧🇮🇹</span>
-          <div>
-            <div style={{ fontSize:13, fontWeight:900, color:"#58cc02", lineHeight:1.2 }}>Italian for English Speakers</div>
-            <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)", fontStyle:"italic" }}>Finally, someone explains why.</div>
+      {/* TOP BAR */}
+      <header style={{ padding:"10px clamp(16px,5vw,48px)", borderBottom:"1px solid rgba(255,255,255,0.08)", display:"flex", alignItems:"center", justifyContent:"space-between", flexShrink:0 }}>
+        <Logo />
+        <button
+          onClick={() => router.push('/dashboard')}
+          style={{ display:"flex", alignItems:"center", gap:8, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:30, padding:"5px 12px 5px 5px", cursor:"pointer", fontFamily:"inherit" }}
+        >
+          <div style={{ width:36, height:36, borderRadius:"50%", border:"2px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:18, flexShrink:0 }}>
+            {dashAvatar}
           </div>
-        </div>
-        <div style={{ display:"flex", justifyContent:"flex-end" }}>
-          <button
-            onClick={() => router.push('/dashboard')}
-            style={{ display:"flex", alignItems:"center", gap:6, background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:20, padding:"4px 10px 4px 4px", cursor:"pointer", fontFamily:"inherit" }}
-          >
-            <div style={{ width:28, height:28, borderRadius:"50%", border:"2px solid #E5B700", background:"rgba(229,183,0,0.15)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:14, flexShrink:0 }}>
-              {dashAvatar}
-            </div>
-            <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
-              <span style={{ fontSize:11, fontWeight:700, color:"var(--text)", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap", maxWidth:160 }}>{dashNickname}</span>
-              <span style={{ fontSize:9, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
-            </div>
-          </button>
-        </div>
+          <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
+            <span style={{ fontSize:12, fontWeight:700, color:"var(--text)", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap", maxWidth:100 }}>{dashNickname}</span>
+            <span style={{ fontSize:10, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
+          </div>
+        </button>
       </header>
       <Tricolore />
 
