@@ -236,7 +236,7 @@ export default function Home() {
       const levelId = prog.livello || 'A1';
       const lv      = getLevelData(levelId);
       setDashAvatar(av);
-      setDashNickname(nick || (lv.nickPrefix + '_' + seed));
+      setDashNickname(nick || ((lv.nickPrefix || 'Turista') + '_' + seed));
     } catch {}
     return () => window.removeEventListener("focus", refreshCompleted);
   }, []);

@@ -1,11 +1,11 @@
 export function getLevelData(level) {
   const levels = {
-    A1: { it: "Il Turista",     en: "The Tourist",    emoji: "🧳", fase: "Scintilla" },
-    A2: { it: "Il Viaggiatore", en: "The Traveller",  emoji: "🛵", fase: "Incontro" },
-    B1: { it: "L'Esploratore",  en: "The Explorer",   emoji: "🗺️", fase: "Avventura" },
-    B2: { it: "L'Appassionato", en: "The Passionate", emoji: "❤️", fase: "Complicità" },
-    C1: { it: "L'Esperto",      en: "The Expert",     emoji: "🎭", fase: "Passione" },
-    C2: { it: "Il Maestro",     en: "The Master",     emoji: "👑", fase: "Essenza" },
+    A1: { it: "Il Turista",     en: "The Tourist",    emoji: "🧳", fase: "Scintilla",  nickPrefix: "Turista" },
+    A2: { it: "Il Viaggiatore", en: "The Traveller",  emoji: "🛵", fase: "Incontro",   nickPrefix: "Viaggiatore" },
+    B1: { it: "L'Esploratore",  en: "The Explorer",   emoji: "🗺️", fase: "Avventura", nickPrefix: "Esploratore" },
+    B2: { it: "L'Appassionato", en: "The Passionate", emoji: "❤️", fase: "Complicità",nickPrefix: "Appassionato" },
+    C1: { it: "L'Esperto",      en: "The Expert",     emoji: "🎭", fase: "Passione",  nickPrefix: "Esperto" },
+    C2: { it: "Il Maestro",     en: "The Master",     emoji: "👑", fase: "Essenza",   nickPrefix: "Maestro" },
   };
   return levels[level] || levels["A1"];
 }
