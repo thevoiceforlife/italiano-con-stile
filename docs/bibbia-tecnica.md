@@ -577,3 +577,27 @@ Breakpoint unico: 768px
 - Testare landing non autenticata (aprire in finestra anonima)
 - Badge livello vuoto in dashboard (`""`) — bug aperto
 - Fix UNDEFINED_0000 nel nickname quando non c'è profilo
+
+---
+
+## Sessione 8 Aprile 2026 — Landing Narrativa Finale
+
+### Struttura landing non autenticata
+1. Immagine Bar di Mario — full width, bordi squadrati, `height: clamp(200px,45vw,420px)`
+2. Tricolore italiano — 2px, verde/bianco/rosso `#009246 / #fff / #CE2B37`
+3. Logo componente `<Logo />` — "Italian for English Speakers / Finally, someone explains why."
+4. Caption narrativa — "Benvenuto al Bar di Mario · Welcome to Mario's Bar" stesso rigo
+5. Pulsante verde `#58cc02` — "L'italiano inizia qui / Italian starts here →" su un rigo
+6. Hint — "Gratis · Nessuna carta / Free · No credit card"
+
+### Video animato (futuro)
+- Generare con Kling AI, Pika Labs o Runway ML
+- Formato MP4 (non GIF — troppo pesante)
+- Codice già pronto con fallback immagine statica
+- File da copiare in `/public/images/bar-di-mario.mp4`
+- `poster="/images/bar-di-mario.png"` per caricamento istantaneo
+
+### Colori sistema aggiornati
+- Verde primario CTA: `#58cc02` = `var(--primary)` — stesso del logo
+- Frame lezione: bordo + glow `#58cc02`
+- Tricolore: `#009246` / `#fff` / `#CE2B37`
