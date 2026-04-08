@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import LessonButton from "./components/LessonButton";
 import XPBar from "./components/XPBar";
 import Logo from "./components/Logo";
+import Tricolore from "./components/Tricolore";
 import OnboardingModal from "./components/OnboardingModal";
 import { parla, CHARACTERS as CHAR_VOICES } from "./components/CharacterBubble";
 import { loadProgress } from "./components/saveProgress";
@@ -312,7 +313,7 @@ export default function Home() {
           <div style={{ width:"100%", maxWidth:480, display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
 
             {/* 3. LOGO */}
-            <Logo />
+            <Logo size={110} />
 
             {/* 4. CAPTION — stesso rigo */}
             <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, width:"100%", flexWrap:"wrap" }}>
@@ -367,7 +368,7 @@ Italian starts here
             {dashAvatar}
           </div>
           <div style={{ display:"flex", flexDirection:"column", alignItems:"flex-start" }}>
-            <span style={{ fontSize:13, fontWeight:700, color:"var(--text)" }}>{dashNickname}</span>
+            <span style={{ fontSize:12, fontWeight:700, color:"var(--text)", overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap", maxWidth:120 }}>{dashNickname}</span>
             <span style={{ fontSize:10, color:"rgba(255,255,255,0.35)" }}>Dashboard →</span>
           </div>
         </button>

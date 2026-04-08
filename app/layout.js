@@ -1,5 +1,6 @@
 import { Nunito } from "next/font/google";
 import "./globals.css";
+import Tricolore from "./components/Tricolore";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         style={{ fontFamily: "var(--font-nunito), sans-serif" }}
       >
         <div className="app-shell">
+          <Tricolore />
           {children}
         </div>
       </body>
