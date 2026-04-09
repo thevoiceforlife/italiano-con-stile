@@ -139,6 +139,43 @@ export default function Dashboard() {
 
       <div style={{padding:16,display:'flex',flexDirection:'column',gap:14,maxWidth:480,margin:'0 auto'}}>
 
+        {/* ── HUB NAVIGAZIONE ── */}
+        <div style={{display:'flex',flexDirection:'column',gap:10,marginBottom:4}}>
+
+          {/* Percorso — rettangolo grande */}
+          <div
+            onClick={()=>document.getElementById('section-percorso')?.scrollIntoView({behavior:'smooth'})}
+            style={{background:'rgba(88,204,2,0.08)',border:'1.5px solid rgba(88,204,2,0.3)',borderRadius:16,padding:'18px 16px',cursor:'pointer',display:'flex',alignItems:'center',gap:14}}
+          >
+            <span style={{fontSize:36,flexShrink:0}}>🗺️</span>
+            <div>
+              <div style={{fontSize:16,fontWeight:900,color:'#58cc02'}}>Il tuo percorso</div>
+              <div style={{fontSize:12,color:'rgba(255,255,255,0.4)',marginTop:2}}>Your learning path</div>
+              <div style={{fontSize:11,color:'rgba(255,255,255,0.25)',marginTop:3}}>A1 · {completed.length} lezioni completate</div>
+            </div>
+          </div>
+
+          {/* Biblioteca + Esplora — quadrati uguali */}
+          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:10}}>
+            <div
+              onClick={()=>router.push('/biblioteca')}
+              style={{background:'rgba(229,183,0,0.06)',border:'1.5px solid rgba(229,183,0,0.25)',borderRadius:16,padding:'18px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
+            >
+              <span style={{fontSize:32}}>📖</span>
+              <div style={{fontSize:14,fontWeight:900,color:'#E5B700'}}>Biblioteca</div>
+              <div style={{fontSize:10,color:'rgba(255,255,255,0.35)'}}>Library</div>
+            </div>
+            <div
+              onClick={()=>document.getElementById('section-viaggi')?.scrollIntoView({behavior:'smooth'})}
+              style={{background:'rgba(0,188,212,0.06)',border:'1.5px solid rgba(0,188,212,0.25)',borderRadius:16,padding:'18px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
+            >
+              <span style={{fontSize:32}}>✈️</span>
+              <div style={{fontSize:14,fontWeight:900,color:'#00BCD4'}}>Esplora</div>
+              <div style={{fontSize:10,color:'rgba(255,255,255,0.35)'}}>Explore Italy</div>
+            </div>
+          </div>
+        </div>
+
         {/* ── 1. PROFILO ── */}
         <div style={C}>
           <div style={{display:'flex',alignItems:'center',gap:14,marginBottom:14}}>
