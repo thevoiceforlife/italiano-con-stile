@@ -632,3 +632,33 @@ Breakpoint unico: 768px
 4. Caption "Benvenuto al Bar di Mario · Welcome to Mario's Bar" stesso rigo
 5. Pulsante verde `#58cc02` — "L'italiano inizia qui / Italian starts here →"
 6. Hint gratis
+
+---
+
+## Sessione 9 Aprile 2026 — Navigazione e Hub Dashboard
+
+### Home autenticata — struttura finale
+1. Logo centrato nella topbar
+2. Tricolore sopra e sotto la topbar
+3. Personaggi cliccabili con hover glow
+4. Frame lezione verde neon con pulsante breathe
+5. Pulsante discreto solo EN: "👤 Profile & Learning Path →" — trasparente, basso
+
+### Dashboard — hub navigazione in cima
+- Percorso: rettangolo grande verde `#58cc02` → scroll a sezione percorso
+- Biblioteca: quadrato oro `#E5B700` → `/biblioteca`
+- Esplora: quadrato cyan `#00BCD4` → scroll a sezione viaggi
+- Sotto l'hub: profilo, energia, streak, statistiche esistenti
+
+### Prossimo sprint — Ridisegno dashboard
+- La dashboard attuale è densa e va ristrutturata
+- Hub in cima già fatto
+- Da ridisegnare: profilo, energia, percorso, streak, viaggi
+- Obiettivo: zero scroll inutile, tutto visibile above the fold su mobile
+
+### Decisioni navigazione
+- NO bottom nav (troppo invasiva)
+- NO sidebar desktop
+- Home: 1 solo pulsante discreto per dashboard
+- Dashboard: hub con 3 card come entry point
+- Biblioteca e Viaggi accessibili solo dalla dashboard
