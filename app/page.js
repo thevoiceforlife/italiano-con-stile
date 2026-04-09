@@ -428,12 +428,14 @@ Italian starts here
                 </button>
               </div>
 
-              {/* PULSANTE PERCORSO */}
+              {/* PULSANTE PROFILO + PERCORSO */}
               <button
                 onClick={() => router.push('/dashboard')}
-                style={{ width:"100%", padding:"14px", background:"rgba(0,188,212,0.08)", color:"#00BCD4", border:"1.5px solid #00BCD4", borderRadius:14, fontSize:14, fontWeight:700, cursor:"pointer", fontFamily:"inherit" }}
+                style={{ width:"100%", padding:"9px 14px", background:"transparent", color:"rgba(255,255,255,0.45)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:12, fontSize:12, fontWeight:600, cursor:"pointer", fontFamily:"inherit", display:"flex", alignItems:"center", gap:8 }}
               >
-                Il tuo percorso / Your learning path →
+                <span>👤</span>
+                <span style={{ flex:1, textAlign:"left" }}>Profile & Learning Path</span>
+                <span style={{ color:"rgba(255,255,255,0.25)" }}>→</span>
               </button>
             </section>
           )}
