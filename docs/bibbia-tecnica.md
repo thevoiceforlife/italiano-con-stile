@@ -662,3 +662,135 @@ Breakpoint unico: 768px
 - Home: 1 solo pulsante discreto per dashboard
 - Dashboard: hub con 3 card come entry point
 - Biblioteca e Viaggi accessibili solo dalla dashboard
+
+---
+
+## Sessione 10 Aprile 2026 — Sistema Pasti + Lezioni + Prize
+
+### Struttura unità — 5 lezioni + boss (aggiornato)
+Ogni unità passa da 4 a 5 lezioni. Il boss rimane separato.
+`lessons:[1,2,3,4,5]` in tutti i file JSON e componenti.
+
+### Icone e tipi lezione
+
+**Unità dispari — Esplorazione 🗺️**
+| Slot | Icona | Tipo | Reward cibo | Crediti |
+|------|-------|------|-------------|---------|
+| L1 | ⭐ | Vocabolario nuovo | ☕ Caffè/Cappuccino/Spremuta | +5 cr |
+| L2 | 📖 | Lettura + contesto | 🥐 Fine colazione (random) | +5 cr |
+| L3 | 💪 | VocabMatch pratica | 🍝 Pranzo (random) | +8 cr |
+| L4 | 🎧 | Ascolto personaggio | 🍹 Aperitivo (random) | +8 cr |
+| L5 | 🎯 | Speed Round | 🍽️ Cena (random) | +10 cr |
+| Boss | 🏆 | Sfida la Nonna | 🍦 Dolce random + crediti | +30 cr |
+
+**Unità pari — Consolidamento 🔁**
+| Slot | Icona | Tipo | Reward cibo | Crediti |
+|------|-------|------|-------------|---------|
+| L1 | 🔁 | Ripasso vocabolario | ☕ Caffè/Cappuccino/Spremuta | +5 cr |
+| L2 | ✍️ | Scrittura + traduzione | 🥐 Fine colazione (random) | +5 cr |
+| L3 | 💪 | Esercizi grammatica | 🍝 Pranzo (random) | +8 cr |
+| L4 | 🎭 | Mini-game personaggio | 🍹 Aperitivo (random) | +8 cr |
+| L5 | 🎯 | Speed Round misto | 🍽️ Cena (random) | +10 cr |
+| Boss | 🏆 | Assessment parziale | 🍦 Dolce random | +50 cr |
+
+**Totale crediti per unità dispari completa: 66 cr**
+**Totale crediti per unità pari completa: 86 cr**
+
+### Sistema reward cibo — pool random per slot
+
+**Slot colazione (L1)** — sempre random tra:
+- ☕ Caffè espresso
+- Cappuccino
+- 🍊 Spremuta d'arancia
+
+Nota: anche la prima lezione della prima unità è random — non esiste un cibo fisso.
+
+**Slot fine colazione (L2)** — random
+- 🥐 Cornetto alla crema
+- 🧇 Brioche col tuppo
+- 🍫 Cioccolata calda
+- 🥐 Sfogliatella
+
+**Slot pranzo (L3)** — random
+- 🍝 Spaghetti al pomodoro
+- 🍜 Pasta e fagioli
+- 🍝 Pasta al ragù
+- 🫙 Minestra napoletana
+
+**Slot aperitivo (L4)** — random
+- 🍹 Aperol Spritz
+- 🍋 Limoncello
+- 🥂 Prosecco
+- 🍷 Negroni
+
+**Slot cena (L5)** — random
+- 🍕 Pizza margherita
+- 🐟 Branzino al forno
+- 🍖 Secondi napoletani
+- 🥗 Insalata di mare
+
+**Slot dolce boss** — random, assegnato dalla Nonna
+- 🍦 Gelato alla crema
+- 🍮 Babà napoletano
+- 🥐 Cannolo siciliano
+- 🍰 Tiramisù
+- 🍮 Panna cotta
+
+### Popup narrativi — regole
+
+1. **Popup PRE-lezione 1** — appare PRIMA di ogni L1 di ogni nuova unità
+   - Prima unità in assoluto: sempre ☕ caffè + testo "Si comincia con un caffè al Bar di Mario!"
+   - Unità successive: random tra caffè/cappuccino/spremuta
+   - Contiene: emoji grande + testo bilingue + animazione energia che sale + CTA "Inizia!"
+
+2. **Popup POST-lezione** — appare DOPO ogni lezione completata (tra una lezione e la successiva)
+   - Emoji cibo grande con animazione bounce/esplosione stile Duolingo
+   - Testo bilingue celebrativo
+   - Barra energia che si anima e sale visibilmente
+   - Crediti guadagnati in evidenza
+   - CTA "Continua!" per la prossima lezione
+
+3. **Popup POST-boss** — appare dopo il boss
+   - "La Nonna ti premia!" con dolce random
+   - Animazione più elaborata (confetti o shimmer)
+   - Mostra: dolce conquistato + crediti totali unità + energia raggiunta
+   - CTA "Esplora l'Italia!" se energia sufficiente, "Continua a studiare!" altrimenti
+
+### Energia — comportamento popup
+- L'energia sale CON ANIMAZIONE nel popup (barra che si riempie in 1.5s)
+- Non silenziosamente — l'utente deve vedere il progresso in tempo reale
+- Il valore numerico % conta su durante l'animazione
+
+### Lezioni — decisione architetturale
+- Tutti i JSON delle lezioni esistenti (lesson1-4.json) vengono riscritti da zero
+- Nuova struttura: 5 lezioni + boss per unità
+- Ogni lezione ha campo `type`: 'vocabolario' | 'lettura' | 'pratica' | 'ascolto' | 'speedround'
+- Unità dispari: tipi [vocabolario, lettura, pratica, ascolto, speedround]
+- Unità pari: tipi [ripasso, scrittura, pratica, minigame, speedround]
+
+### Sistema Prize Made in Italy (Sprint 15)
+- 120 prize totali A1→C2
+- Separati dai cibi energia — nessuna sovrapposizione
+- Assegnati dai personaggi in base alla loro personalità:
+  - Mario → cibi e bevande napoletane
+  - Sofia → oggetti culturali, musica
+  - Diego → piatti regionali italiani
+  - Gino → libri, arte, architettura
+  - Matilde → made in Italy, moda, design
+- Nomi evocativi senza brand registrati ("La Rossa di Maranello" non "Ferrari")
+- Collezione visibile in dashboard come album figurine
+- Richiede Supabase per persistenza — Sprint 15
+
+### Pronuncia (sospesa)
+- Web Speech API: qualità insufficiente per italiano
+- Alternativa futura: Whisper API server-side (Sprint 16)
+- Per ora L5 = Speed Round in entrambi i tipi di unità
+- Toggle "Abilita pronuncia beta" nelle impostazioni dashboard per chi vuole testare
+
+### Da fare prossima sessione
+1. Riscrivere lesson1.json → lesson5.json + boss.json per Unità 1 (dispari)
+2. Aggiungere campo `type` ai JSON lezioni
+3. Aggiungere campo `reward` ai JSON (slot cibo + crediti)
+4. Implementare popup reward tra lezioni in lesson/[livello]/[unita]/[lezione]/page.js
+5. Aggiornare saveProgress.js per gestire crediti per lezione
+6. Aggiornare UNITS in dashboard e home da lessons:[1,2,3,4] a lessons:[1,2,3,4,5]
