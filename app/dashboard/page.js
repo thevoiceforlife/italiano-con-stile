@@ -217,7 +217,7 @@ export default function Dashboard() {
 
           <div
             onClick={()=>router.push('/biblioteca')}
-            style={{background:'rgba(229,183,0,0.06)',border:'1.5px solid rgba(229,183,0,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
+            style={{background:'rgba(229,183,0,0.06)',border:'1.5px solid rgba(229,183,0,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',justifyContent:'center',minHeight:140}}
           >
             <span style={{fontSize:30}}>📖</span>
             <div style={{fontSize:17,fontWeight:900,color:'#E5B700'}}>Biblioteca</div>
@@ -226,7 +226,7 @@ export default function Dashboard() {
 
           <div
             onClick={()=>setShowTravel(true)}
-            style={{background:'rgba(0,188,212,0.06)',border:'1.5px solid rgba(0,188,212,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
+            style={{background:'rgba(0,188,212,0.06)',border:'1.5px solid rgba(0,188,212,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',justifyContent:'center',minHeight:140}}
           >
             <span style={{fontSize:30}}>✈️</span>
             <div style={{fontSize:17,fontWeight:900,color:'#00BCD4'}}>Esplora</div>
