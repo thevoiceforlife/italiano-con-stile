@@ -299,8 +299,8 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
     header: {padding:'14px 16px 10px',borderBottom:'1px solid var(--border)',display:'flex',alignItems:'center',justifyContent:'space-between',flexShrink:0},
     body:   {overflowY:'auto',flex:1},
     sec:    {padding:'12px 16px',borderBottom:'1px solid var(--border)'},
-    lbl:    {fontSize:10,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:6},
-    mu:     {fontSize:12,color:'var(--text3)'},
+    lbl:    {fontSize:13,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',letterSpacing:'0.06em',marginBottom:6},
+    mu:     {fontSize:15,color:'var(--text3)'},
     track:  {height:5,background:'var(--border)',borderRadius:99,overflow:'hidden',marginTop:5},
   };
 
@@ -311,14 +311,14 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
         {/* Header */}
         <div style={S.header}>
           <div>
-            <div style={{fontSize:15,fontWeight:900,color:'var(--text)'}}>🇮🇹 Viaggia in Italia / Travel Italy</div>
-            <div style={{fontSize:11,color:'var(--text3)',marginTop:2}}>Scopri l'Italia con i tuoi crediti / Explore Italy</div>
+            <div style={{fontSize:18,fontWeight:900,color:'var(--text)'}}>🇮🇹 Viaggia in Italia / Travel Italy</div>
+            <div style={{fontSize:14,color:'var(--text3)',marginTop:2}}>Scopri l'Italia con i tuoi crediti / Explore Italy</div>
           </div>
-          <button onClick={onClose} style={{background:'var(--card)',border:'1px solid var(--border)',color:'var(--text2)',borderRadius:8,width:32,height:32,fontSize:16,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center'}}>✕</button>
+          <button onClick={onClose} style={{background:'var(--card)',border:'1px solid var(--border)',color:'var(--text2)',borderRadius:8,width:32,height:32,fontSize:18,cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center'}}>✕</button>
         </div>
 
         {boughtMsg && (
-          <div style={{background:'var(--ok-bar)',padding:'9px 16px',color:'var(--ok-text)',fontSize:12,textAlign:'center',fontWeight:700,flexShrink:0}}>
+          <div style={{background:'var(--ok-bar)',padding:'9px 16px',color:'var(--ok-text)',fontSize:15,textAlign:'center',fontWeight:700,flexShrink:0}}>
             {boughtMsg}
           </div>
         )}
@@ -340,13 +340,13 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
               <div style={S.lbl}>crediti / credits</div>
               <div style={{display:'flex',alignItems:'baseline',gap:6,marginTop:2}}>
                 <span style={{fontSize:22,fontWeight:900,color:'var(--text)'}}>{credits}</span>
-                <span style={{fontSize:18}}>🎫</span>
+                <span style={{fontSize:20}}>🎫</span>
               </div>
             </div>
             <div style={{textAlign:'right',display:'flex',flexDirection:'column',gap:2}}>
-              <div style={{fontSize:10,color:'var(--text3)'}}>🔴 Icone / Icons · 500 cr</div>
-              <div style={{fontSize:10,color:'var(--text3)'}}>🟡 Tesori / Treasures · 350 cr</div>
-              <div style={{fontSize:10,color:'var(--text3)'}}>🟢 Scoperte / Discoveries · 200 cr</div>
+              <div style={{fontSize:13,color:'var(--text3)'}}>🔴 Icone / Icons · 500 cr</div>
+              <div style={{fontSize:13,color:'var(--text3)'}}>🟡 Tesori / Treasures · 350 cr</div>
+              <div style={{fontSize:13,color:'var(--text3)'}}>🟢 Scoperte / Discoveries · 200 cr</div>
             </div>
           </div>
 
@@ -359,16 +359,16 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
                 const acc     = isCatAccessible(key, travelAccess);
                 return (
                   <div key={key} style={{borderRadius:10,padding:'10px 6px',textAlign:'center',background:'var(--card)',border:`1.5px solid ${acc?cat.color:'var(--border)'}`,boxShadow:acc?`0 0 10px ${cat.color}44`:'none',opacity:acc?1:0.5}}>
-                    <div style={{fontSize:18,marginBottom:3}}>{cat.icon}</div>
-                    <div style={{fontSize:11,fontWeight:700,color:'var(--text)',marginBottom:1}}>{cat.label}</div>
-                    <div style={{fontSize:9,color:'var(--text3)',marginBottom:4}}>{cat.labelEN}</div>
-                    <div style={{fontSize:15,fontWeight:900,color:acc?cat.color:'var(--text3)'}}>{visited}/{tot}</div>
+                    <div style={{fontSize:20,marginBottom:3}}>{cat.icon}</div>
+                    <div style={{fontSize:14,fontWeight:700,color:'var(--text)',marginBottom:1}}>{cat.label}</div>
+                    <div style={{fontSize:12,color:'var(--text3)',marginBottom:4}}>{cat.labelEN}</div>
+                    <div style={{fontSize:18,fontWeight:900,color:acc?cat.color:'var(--text3)'}}>{visited}/{tot}</div>
                     <div style={{display:'flex',gap:2,justifyContent:'center',marginTop:4,flexWrap:'wrap'}}>
                       {Array.from({length:Math.min(tot,8)},(_,i)=>(
                         <div key={i} style={{width:6,height:6,borderRadius:'50%',background:i<visited?cat.color:'var(--border)'}}/>
                       ))}
                     </div>
-                    <div style={{display:'inline-block',padding:'2px 6px',borderRadius:99,fontSize:9,fontWeight:700,marginTop:5,
+                    <div style={{display:'inline-block',padding:'2px 6px',borderRadius:99,fontSize:12,fontWeight:700,marginTop:5,
                       background:acc?cat.bg:'var(--bg)',color:acc?cat.color:'var(--text3)'}}>
                       {acc?'✓ aperto':'🔒 bloccato'}
                     </div>
@@ -384,56 +384,56 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
               <div style={{display:'flex',alignItems:'flex-start',gap:10,marginBottom:8}}>
                 <span style={{fontSize:24,flexShrink:0}}>{selected.emoji}</span>
                 <div style={{flex:1}}>
-                  <div style={{fontSize:14,fontWeight:900,color:'var(--text)'}}>{selected.name}</div>
+                  <div style={{fontSize:17,fontWeight:900,color:'var(--text)'}}>{selected.name}</div>
                   <div style={{display:'flex',alignItems:'center',gap:6,marginTop:2,flexWrap:'wrap'}}>
-                    <span style={{fontSize:11,color:'var(--text3)'}}>{selected.regione}</span>
-                    <span style={{fontSize:11}}>{selected.cluster}</span>
-                    <span style={{fontSize:10,fontWeight:700,padding:'1px 6px',borderRadius:99,
+                    <span style={{fontSize:14,color:'var(--text3)'}}>{selected.regione}</span>
+                    <span style={{fontSize:14}}>{selected.cluster}</span>
+                    <span style={{fontSize:13,fontWeight:700,padding:'1px 6px',borderRadius:99,
                       background:CAT_COLORS[selected.cat].bg,color:CAT_COLORS[selected.cat].color}}>
                       {CAT_COLORS[selected.cat].label}
                     </span>
                   </div>
-                  <div style={{fontSize:11,color:'var(--text3)',marginTop:3}}>{selected.desc}</div>
-                  <div style={{fontSize:11,color:'var(--text3)',fontStyle:'italic'}}>{selected.descEn}</div>
+                  <div style={{fontSize:14,color:'var(--text3)',marginTop:3}}>{selected.desc}</div>
+                  <div style={{fontSize:14,color:'var(--text3)',fontStyle:'italic'}}>{selected.descEn}</div>
                 </div>
                 <button onClick={()=>{setSelected(null);setRevisiting(false);}}
-                  style={{background:'none',border:'none',color:'var(--text3)',fontSize:16,cursor:'pointer'}}>✕</button>
+                  style={{background:'none',border:'none',color:'var(--text3)',fontSize:18,cursor:'pointer'}}>✕</button>
               </div>
               {selected.fact && (
-                <div style={{background:'var(--bg)',borderLeft:`3px solid ${CAT_COLORS[selected.cat].color}`,borderRadius:'0 8px 8px 0',padding:'6px 10px',fontSize:11,color:'var(--text2)',lineHeight:1.5,marginBottom:8}}>
+                <div style={{background:'var(--bg)',borderLeft:`3px solid ${CAT_COLORS[selected.cat].color}`,borderRadius:'0 8px 8px 0',padding:'6px 10px',fontSize:14,color:'var(--text2)',lineHeight:1.5,marginBottom:8}}>
                   💡 {selected.fact}
                 </div>
               )}
               {selected.always ? (
-                <div style={{background:'#FF9B4222',color:'#FF9B42',borderRadius:10,padding:'8px 12px',fontSize:12,fontWeight:700,textAlign:'center'}}>
+                <div style={{background:'#FF9B4222',color:'#FF9B42',borderRadius:10,padding:'8px 12px',fontSize:15,fontWeight:700,textAlign:'center'}}>
                   ☀️ Casa — il Bar di Mario ti aspetta sempre! / Mario's bar always awaits!
                 </div>
               ) : isUnlocked(selected) ? (
                 <div style={{display:'flex',flexDirection:'column',gap:6}}>
-                  <div style={{background:'var(--ok-bar)',color:'var(--ok-text)',borderRadius:10,padding:'7px 12px',fontSize:12,fontWeight:700,textAlign:'center'}}>
+                  <div style={{background:'var(--ok-bar)',color:'var(--ok-text)',borderRadius:10,padding:'7px 12px',fontSize:15,fontWeight:700,textAlign:'center'}}>
                     ✅ Visitata / Visited — lezioni locali in arrivo!
                   </div>
                   <button onClick={()=>setRevisiting(r=>!r)}
-                    style={{background:CAT_COLORS[selected.cat].color+'22',color:CAT_COLORS[selected.cat].color,border:`1px solid ${CAT_COLORS[selected.cat].color}44`,borderRadius:10,padding:'7px 12px',fontSize:12,fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>
+                    style={{background:CAT_COLORS[selected.cat].color+'22',color:CAT_COLORS[selected.cat].color,border:`1px solid ${CAT_COLORS[selected.cat].color}44`,borderRadius:10,padding:'7px 12px',fontSize:15,fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>
                     🔁 Rivedi il ricordo / Revisit memory
                   </button>
                   {revisiting && (
-                    <div style={{background:'var(--card)',border:`1px solid ${CAT_COLORS[selected.cat].color}33`,borderRadius:10,padding:'9px 12px',fontSize:12,color:'var(--text2)',lineHeight:1.6,fontStyle:'italic'}}>
+                    <div style={{background:'var(--card)',border:`1px solid ${CAT_COLORS[selected.cat].color}33`,borderRadius:10,padding:'9px 12px',fontSize:15,color:'var(--text2)',lineHeight:1.6,fontStyle:'italic'}}>
                       ✨ {RICORDI[selected.id]||'Un ricordo indimenticabile! / An unforgettable memory!'}
                     </div>
                   )}
                 </div>
               ) : !accessible(selected) ? (
-                <div style={{background:'var(--err-bar)',color:'var(--err-text)',borderRadius:10,padding:'8px 12px',fontSize:11,textAlign:'center'}}>
+                <div style={{background:'var(--err-bar)',color:'var(--err-text)',borderRadius:10,padding:'8px 12px',fontSize:14,textAlign:'center'}}>
                   🔒 {selected.cat==='capitali'?'Ricarica al 90% / Recharge to 90%':selected.cat==='citta'?'Ricarica al 60% / Recharge to 60%':'Ricarica al 25% / Recharge to 25%'}
                 </div>
               ) : !canAfford(selected) ? (
-                <div style={{background:'var(--card)',color:'var(--text2)',borderRadius:10,padding:'8px 12px',fontSize:11,textAlign:'center',border:'1px solid var(--border)'}}>
+                <div style={{background:'var(--card)',color:'var(--text2)',borderRadius:10,padding:'8px 12px',fontSize:14,textAlign:'center',border:'1px solid var(--border)'}}>
                   💳 Crediti insufficienti: {credits}/{getCost(selected)} cr / Not enough credits
                 </div>
               ) : (
                 <button onClick={()=>handleBuy(selected)}
-                  style={{background:'var(--primary)',color:'#fff',border:'none',borderRadius:10,padding:'10px 14px',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit',width:'100%',boxShadow:'0 2px 12px #58CC0244'}}>
+                  style={{background:'var(--primary)',color:'#fff',border:'none',borderRadius:10,padding:'10px 14px',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit',width:'100%',boxShadow:'0 2px 12px #58CC0244'}}>
                   🎫 Compra biglietto — {getCost(selected)} cr / Buy ticket
                 </button>
               )}
@@ -446,7 +446,7 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
               value={search}
               onChange={e=>setSearch(e.target.value)}
               placeholder="🔍 Cerca una destinazione / Search a destination..."
-              style={{width:'100%',padding:'9px 12px',borderRadius:10,border:'1px solid var(--border)',background:'var(--card)',fontSize:13,color:'var(--text)',fontFamily:'inherit',outline:'none'}}
+              style={{width:'100%',padding:'9px 12px',borderRadius:10,border:'1px solid var(--border)',background:'var(--card)',fontSize:16,color:'var(--text)',fontFamily:'inherit',outline:'none'}}
             />
           </div>
 
@@ -454,7 +454,7 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
           <div style={{display:'flex',borderBottom:'1px solid var(--border)',background:'var(--card)',flexShrink:0}}>
             {Object.entries(CAT_COLORS).map(([key,cat])=>(
               <button key={key} onClick={()=>setFilter(key)}
-                style={{flex:1,padding:'10px 4px',fontSize:11,fontWeight:700,border:'none',background:'transparent',cursor:'pointer',fontFamily:'inherit',
+                style={{flex:1,padding:'10px 4px',fontSize:14,fontWeight:700,border:'none',background:'transparent',cursor:'pointer',fontFamily:'inherit',
                   color:filter===key?cat.color:'var(--text3)',
                   borderBottom:filter===key?`2px solid ${cat.color}`:'2px solid transparent',
                   transition:'all 0.2s'}}>
@@ -473,9 +473,9 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
                 <div key={regione}>
                   {/* Header regione */}
                   <div style={{display:'flex',alignItems:'center',gap:8,padding:'12px 0 6px',borderBottom:'0.5px solid var(--border)',marginBottom:2}}>
-                    <span style={{fontSize:13}}>{regionCluster}</span>
-                    <span style={{fontSize:11,fontWeight:700,color:'var(--text2)',textTransform:'uppercase',letterSpacing:'0.05em'}}>{regione}</span>
-                    <span style={{fontSize:10,color:'var(--text3)',marginLeft:'auto'}}>{cities.length} {filter==='capitali'?'capital':filter==='citta'?'citt':filter==='mete'?'met':''}{cities.length>1?'e':'a'} / {cities.length}</span>
+                    <span style={{fontSize:16}}>{regionCluster}</span>
+                    <span style={{fontSize:14,fontWeight:700,color:'var(--text2)',textTransform:'uppercase',letterSpacing:'0.05em'}}>{regione}</span>
+                    <span style={{fontSize:13,color:'var(--text3)',marginLeft:'auto'}}>{cities.length} {filter==='capitali'?'capital':filter==='citta'?'citt':filter==='mete'?'met':''}{cities.length>1?'e':'a'} / {cities.length}</span>
                   </div>
 
                   {/* Napoli speciale in cima a Campania */}
@@ -483,12 +483,12 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
                     const napoli = CITIES.find(c=>c.id==='napoli');
                     return (
                       <div style={{display:'flex',alignItems:'center',gap:8,padding:'8px 0 8px 8px',borderBottom:'0.5px solid var(--border)',background:'#FF9B4211',borderRadius:8}}>
-                        <span style={{fontSize:16}}>☀️</span>
+                        <span style={{fontSize:18}}>☀️</span>
                         <div style={{flex:1}}>
-                          <div style={{fontSize:13,fontWeight:700,color:'#FF9B42'}}>Napoli</div>
-                          <div style={{fontSize:10,color:'var(--text3)'}}>Base di partenza · sempre aperta / always open</div>
+                          <div style={{fontSize:16,fontWeight:700,color:'#FF9B42'}}>Napoli</div>
+                          <div style={{fontSize:13,color:'var(--text3)'}}>Base di partenza · sempre aperta / always open</div>
                         </div>
-                        <span style={{fontSize:10,fontWeight:700,color:'#FF9B42',background:'#FF9B4222',padding:'2px 8px',borderRadius:99}}>🏠 base</span>
+                        <span style={{fontSize:13,fontWeight:700,color:'#FF9B42',background:'#FF9B4222',padding:'2px 8px',borderRadius:99}}>🏠 base</span>
                       </div>
                     );
                   })()}
@@ -512,20 +512,20 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
                           transition:'all 0.15s',opacity:access?1:0.4}}>
                         {/* Pallino cluster */}
                         <div style={{width:8,height:8,borderRadius:'50%',flexShrink:0,background:clColor,boxShadow:`0 0 4px ${clColor}`}}/>
-                        <span style={{fontSize:15,flexShrink:0}}>{city.emoji}</span>
+                        <span style={{fontSize:18,flexShrink:0}}>{city.emoji}</span>
                         <div style={{flex:1,minWidth:0}}>
-                          <div style={{fontSize:13,fontWeight:700,color:isSel?catColor:'var(--text)',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{city.name}</div>
-                          <div style={{fontSize:10,color:'var(--text3)',marginTop:1,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{city.desc}</div>
+                          <div style={{fontSize:16,fontWeight:700,color:isSel?catColor:'var(--text)',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{city.name}</div>
+                          <div style={{fontSize:13,color:'var(--text3)',marginTop:1,whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{city.desc}</div>
                         </div>
                         {/* Badge destra */}
                         {unlocked ? (
-                          <span style={{fontSize:10,fontWeight:700,color:'var(--ok-text)',background:'var(--ok-bar)',padding:'2px 7px',borderRadius:99,flexShrink:0,whiteSpace:'nowrap'}}>✓</span>
+                          <span style={{fontSize:13,fontWeight:700,color:'var(--ok-text)',background:'var(--ok-bar)',padding:'2px 7px',borderRadius:99,flexShrink:0,whiteSpace:'nowrap'}}>✓</span>
                         ) : !access ? (
-                          <span style={{fontSize:12,color:'var(--text3)',flexShrink:0}}>🔒</span>
+                          <span style={{fontSize:15,color:'var(--text3)',flexShrink:0}}>🔒</span>
                         ) : canAfford(city) ? (
-                          <span style={{fontSize:10,fontWeight:700,color:'white',background:clColor,padding:'2px 7px',borderRadius:99,flexShrink:0,whiteSpace:'nowrap'}}>{getCost(city)} 🎫</span>
+                          <span style={{fontSize:13,fontWeight:700,color:'white',background:clColor,padding:'2px 7px',borderRadius:99,flexShrink:0,whiteSpace:'nowrap'}}>{getCost(city)} 🎫</span>
                         ) : (
-                          <span style={{fontSize:10,color:'var(--text3)',flexShrink:0}}>💳</span>
+                          <span style={{fontSize:13,color:'var(--text3)',flexShrink:0}}>💳</span>
                         )}
                       </div>
                     );
@@ -535,7 +535,7 @@ export default function ItalyTravelModal({ energy, credits, tickets, travelAcces
             })}
 
             {Object.keys(byRegione).length===0 && (
-              <div style={{textAlign:'center',padding:'24px 0',color:'var(--text3)',fontSize:13}}>
+              <div style={{textAlign:'center',padding:'24px 0',color:'var(--text3)',fontSize:16}}>
                 Nessun risultato / No results found
               </div>
             )}

@@ -256,7 +256,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
     else if (isSelected) { border = "#ffe34d"; boxShadow = "0 0 16px rgba(255,227,77,0.6)"; }
     return {
       borderRadius: 8, textAlign: "center", padding: "7px 3px",
-      fontSize: 10, color: "#fff", fontWeight: 500, lineHeight: 1.3,
+      fontSize: 13, color: "#fff", fontWeight: 500, lineHeight: 1.3,
       display: "flex", alignItems: "center", justifyContent: "center", minHeight: 44,
       border: `1.5px solid ${border}`, boxShadow, background: bg,
       cursor: isMatched ? "default" : "pointer",
@@ -304,14 +304,14 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
       {/* Top bar */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px clamp(16px, 5vw, 48px)" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-          <button onClick={() => { if (window.confirm("Tornare alla home?\n\nIl progresso non verrà salvato.")) { window.speechSynthesis?.cancel(); router.push("/"); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+          <button onClick={() => { if (window.confirm("Tornare alla home?\n\nIl progresso non verrà salvato.")) { window.speechSynthesis?.cancel(); router.push("/"); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
+            <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
               Unità {unita} · Lezione {lezione} / Unit {unita} · Lesson {lezione}
             </div>
-            <div style={{ fontSize: 10, color: "var(--text3)", marginTop: 1 }}>{lesson.title}</div>
+            <div style={{ fontSize: 13, color: "var(--text3)", marginTop: 1 }}>{lesson.title}</div>
           </div>
-          <div style={{ fontSize: 10, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}66`, borderRadius: 99, padding: "3px 9px" }}>
+          <div style={{ fontSize: 13, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}66`, borderRadius: 99, padding: "3px 9px" }}>
             {unitType.emoji} {unitType.it === "Esplorazione" ? "Nuovi contenuti" : "Ripasso"}
           </div>
         </div>
@@ -338,7 +338,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
               <div style={{ position: "absolute", left: -7, top: 16, width: 0, height: 0, borderTop: "6px solid transparent", borderBottom: "6px solid transparent", borderRight: `7px solid ${bubbleBorder}`, transition: "border-right-color 0.25s" }} />
               {/* Bubble */}
               <div style={{ borderRadius: 10, border: `1.5px solid ${bubbleBorder}`, boxShadow: bubbleShadow, background: bubbleBg, padding: "8px 12px", height: 62, display: "flex", flexDirection: "column", justifyContent: "center", gap: 5, overflow: "hidden", transition: "border-color 0.25s, background 0.25s, box-shadow 0.25s" }}>
-                <div style={{ fontSize: 12, fontWeight: 500, color: "#fff", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                <div style={{ fontSize: 15, fontWeight: 500, color: "#fff", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
                   {!introPlayed || cardsActive
                     ? bubbleIT
                     : introWords.map((w, i) => (
@@ -346,10 +346,10 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
                       ))
                   }
                 </div>
-                <div style={{ fontSize: 10, color: "rgba(255,255,255,0.38)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{bubbleEN}</div>
+                <div style={{ fontSize: 13, color: "rgba(255,255,255,0.38)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{bubbleEN}</div>
               </div>
             </div>
-            <div style={{ fontSize: 9, color: "var(--text3)", marginTop: 4, textAlign: "right" }}>
+            <div style={{ fontSize: 12, color: "var(--text3)", marginTop: 4, textAlign: "right" }}>
               Round {batchIndex + 1} di {tot} · Round {batchIndex + 1} of {tot}
             </div>
           </div>
@@ -360,7 +360,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
           {currentBatch.map(v => (
             <div key={v.id} style={itCardStyle(v.id)} onClick={() => cardsActive && !matched.includes(v.id) && handleSelectIT(v.id)}>
               <span style={{ fontSize: 24, lineHeight: 1, letterSpacing: 1 }}>{v.emoji}</span>
-              <span style={{ fontSize: 12, fontWeight: 500, color: "#fff" }}>{v.it}</span>
+              <span style={{ fontSize: 15, fontWeight: 500, color: "#fff" }}>{v.it}</span>
             </div>
           ))}
         </div>
@@ -385,7 +385,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
           <button
             onClick={nextActive ? handleNextRound : undefined}
             disabled={!nextActive}
-            style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 15, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: nextActive ? "var(--primary)" : "var(--dis-bg)", color: nextActive ? "white" : "var(--dis-text)", boxShadow: nextActive ? "0 4px 0 var(--primary-d)" : "none", cursor: nextActive ? "pointer" : "not-allowed", transition: "all 0.2s" }}
+            style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 18, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: nextActive ? "var(--primary)" : "var(--dis-bg)", color: nextActive ? "white" : "var(--dis-text)", boxShadow: nextActive ? "0 4px 0 var(--primary-d)" : "none", cursor: nextActive ? "pointer" : "not-allowed", transition: "all 0.2s" }}
           >
             Avanti / Next →
           </button>

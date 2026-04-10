@@ -44,7 +44,7 @@ function Popup({ ann, onClose }) {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 10 }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
-              <span style={{ fontSize: 11 }}>{cfg.icon}</span>
+              <span style={{ fontSize: 14 }}>{cfg.icon}</span>
               <span style={{
                 fontSize: 20, fontWeight: 900, color: cfg.color,
                 fontFamily: 'inherit',
@@ -58,11 +58,11 @@ function Popup({ ann, onClose }) {
               border: `1px solid ${cfg.border}`,
               borderRadius: 6, padding: '2px 8px',
             }}>
-              <span style={{ fontSize: 11, fontWeight: 700, color: cfg.color }}>
+              <span style={{ fontSize: 14, fontWeight: 700, color: cfg.color }}>
                 {ann.categoria_it}
               </span>
-              <span style={{ fontSize: 11, color: '#777E8B', margin: '0 4px' }}>·</span>
-              <span style={{ fontSize: 11, fontWeight: 600, color: '#AFAFAF', fontStyle: 'italic' }}>
+              <span style={{ fontSize: 14, color: '#777E8B', margin: '0 4px' }}>·</span>
+              <span style={{ fontSize: 14, fontWeight: 600, color: '#AFAFAF', fontStyle: 'italic' }}>
                 {ann.categoria_en}
               </span>
             </div>
@@ -71,7 +71,7 @@ function Popup({ ann, onClose }) {
             onClick={onClose}
             style={{
               background: 'none', border: 'none', color: '#777E8B',
-              fontSize: 18, cursor: 'pointer', lineHeight: 1, padding: 4,
+              fontSize: 20, cursor: 'pointer', lineHeight: 1, padding: 4,
             }}
           >✕</button>
         </div>
@@ -82,9 +82,9 @@ function Popup({ ann, onClose }) {
           padding: '8px 12px', marginBottom: 10,
           display: 'flex', alignItems: 'center', gap: 8,
         }}>
-          <span style={{ fontSize: 13, fontWeight: 800, color: '#E5E5E5' }}>{ann.parola}</span>
-          <span style={{ color: '#38444D', fontSize: 13 }}>→</span>
-          <span style={{ fontSize: 13, fontWeight: 700, color: '#AFAFAF', fontStyle: 'italic' }}>{ann.en}</span>
+          <span style={{ fontSize: 16, fontWeight: 800, color: '#E5E5E5' }}>{ann.parola}</span>
+          <span style={{ color: '#38444D', fontSize: 16 }}>→</span>
+          <span style={{ fontSize: 16, fontWeight: 700, color: '#AFAFAF', fontStyle: 'italic' }}>{ann.en}</span>
         </div>
 
         {/* Perché — bilingue */}
@@ -95,14 +95,14 @@ function Popup({ ann, onClose }) {
             padding: '8px 11px',
             background: cfg.bg,
           }}>
-            <div style={{ fontSize: 11, fontWeight: 700, color: cfg.color, marginBottom: 4, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            <div style={{ fontSize: 14, fontWeight: 700, color: cfg.color, marginBottom: 4, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
               💡 Perché / Why
             </div>
-            <div style={{ fontSize: 12, color: '#E5E5E5', lineHeight: 1.6, fontWeight: 600 }}>
+            <div style={{ fontSize: 15, color: '#E5E5E5', lineHeight: 1.6, fontWeight: 600 }}>
               {ann.perche}
             </div>
             {ann.perche_en && (
-              <div style={{ fontSize: 11, color: '#AFAFAF', lineHeight: 1.5, fontStyle: 'italic', marginTop: 4 }}>
+              <div style={{ fontSize: 14, color: '#AFAFAF', lineHeight: 1.5, fontStyle: 'italic', marginTop: 4 }}>
                 {ann.perche_en}
               </div>
             )}
@@ -118,11 +118,11 @@ function Popup({ ann, onClose }) {
                 padding: '4px 0',
                 borderTop: i > 0 ? '1px solid #38444D' : 'none',
               }}>
-                <span style={{ fontSize: 12, color: es.ok ? '#58CC02' : '#FF4B4B', flexShrink: 0 }}>
+                <span style={{ fontSize: 15, color: es.ok ? '#58CC02' : '#FF4B4B', flexShrink: 0 }}>
                   {es.ok ? '✅' : '❌'}
                 </span>
-                <span style={{ fontSize: 12, color: '#E5E5E5', fontWeight: 700 }}>{es.it}</span>
-                <span style={{ fontSize: 11, color: '#AFAFAF', fontStyle: 'italic' }}>{es.en}</span>
+                <span style={{ fontSize: 15, color: '#E5E5E5', fontWeight: 700 }}>{es.it}</span>
+                <span style={{ fontSize: 14, color: '#AFAFAF', fontStyle: 'italic' }}>{es.en}</span>
               </div>
             ))}
           </div>
@@ -210,7 +210,7 @@ export function LegendaAnnotazioni() {
             background: cfg.color,
             borderBottom: `2px dashed ${cfg.color}`,
           }} />
-          <span style={{ fontSize: 10, color: '#AFAFAF', fontWeight: 600 }}>
+          <span style={{ fontSize: 13, color: '#AFAFAF', fontWeight: 600 }}>
             {cfg.it} / {cfg.en}
           </span>
         </div>

@@ -359,18 +359,18 @@ function TCard({ t, aperta, onToggle }) {
         <div style={{ flex: 1 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
             <span style={{
-              fontFamily: "monospace", fontSize: 9, letterSpacing: 2,
+              fontFamily: "monospace", fontSize: 12, letterSpacing: 2,
               background: aperta ? accent : accentBg,
               color: aperta ? "var(--text)" : accent,
               padding: "2px 8px", fontWeight: 900,
             }}>{t.num}</span>
-            <span style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase", color: aperta ? "rgba(255,255,255,0.4)" : "var(--text3)" }}>{t.modo}</span>
+            <span style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, textTransform: "uppercase", color: aperta ? "rgba(255,255,255,0.4)" : "var(--text3)" }}>{t.modo}</span>
           </div>
-          <div style={{ fontSize: 17, fontWeight: 800, color: aperta ? "white" : "var(--text)", marginBottom: 2 }}>{t.titolo_it}</div>
-          <div style={{ fontFamily: "monospace", fontSize: 10, letterSpacing: 1, color: aperta ? "rgba(255,255,255,0.4)" : "var(--text3)", marginBottom: 4 }}>{t.titolo_en}</div>
-          <div style={{ fontSize: 12, color: aperta ? "rgba(255,255,255,0.55)" : "var(--text3)", lineHeight: 1.5 }}>{t.desc_it} <em style={{ opacity: 0.7 }}>· {t.desc_en}</em></div>
+          <div style={{ fontSize: 19, fontWeight: 800, color: aperta ? "white" : "var(--text)", marginBottom: 2 }}>{t.titolo_it}</div>
+          <div style={{ fontFamily: "monospace", fontSize: 13, letterSpacing: 1, color: aperta ? "rgba(255,255,255,0.4)" : "var(--text3)", marginBottom: 4 }}>{t.titolo_en}</div>
+          <div style={{ fontSize: 15, color: aperta ? "rgba(255,255,255,0.55)" : "var(--text3)", lineHeight: 1.5 }}>{t.desc_it} <em style={{ opacity: 0.7 }}>· {t.desc_en}</em></div>
         </div>
-        <div style={{ fontSize: 16, color: aperta ? "rgba(255,255,255,0.3)" : "var(--text3)", transform: aperta ? "rotate(180deg)" : "none", transition: "transform 0.25s", flexShrink: 0, marginTop: 4 }}>▼</div>
+        <div style={{ fontSize: 18, color: aperta ? "rgba(255,255,255,0.3)" : "var(--text3)", transform: aperta ? "rotate(180deg)" : "none", transition: "transform 0.25s", flexShrink: 0, marginTop: 4 }}>▼</div>
       </div>
 
       {/* Body espanso */}
@@ -379,18 +379,18 @@ function TCard({ t, aperta, onToggle }) {
           {/* Chips */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 16 }}>
             {t.chips.map((c, i) => (
-              <span key={i} style={{ fontFamily: "monospace", fontSize: 10, letterSpacing: 1, padding: "3px 10px", background: "rgba(255,255,255,0.08)", color: "#88DDAA", border: "1px solid rgba(255,255,255,0.15)" }}>{c}</span>
+              <span key={i} style={{ fontFamily: "monospace", fontSize: 13, letterSpacing: 1, padding: "3px 10px", background: "rgba(255,255,255,0.08)", color: "#88DDAA", border: "1px solid rgba(255,255,255,0.15)" }}>{c}</span>
             ))}
           </div>
 
           {/* Formazione */}
-          <div style={{ background: "rgba(255,255,255,0.05)", borderLeft: `3px solid ${accent}`, padding: "10px 14px", marginBottom: 16, fontSize: 12, lineHeight: 1.7, color: "rgba(255,255,255,0.8)" }}>
-            <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#88DDAA", marginBottom: 4 }}>📐 Formazione / Formation</div>
+          <div style={{ background: "rgba(255,255,255,0.05)", borderLeft: `3px solid ${accent}`, padding: "10px 14px", marginBottom: 16, fontSize: 15, lineHeight: 1.7, color: "rgba(255,255,255,0.8)" }}>
+            <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "#88DDAA", marginBottom: 4 }}>📐 Formazione / Formation</div>
             {t.formazione.it}
           </div>
 
           {/* Tabella coniugazione */}
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12, marginBottom: 16 }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 15, marginBottom: 16 }}>
             <thead>
               <tr>
                 {t.tabella.cols.map((c, i) => (
@@ -398,7 +398,7 @@ function TCard({ t, aperta, onToggle }) {
                     padding: "8px 10px", textAlign: "left",
                     background: i === 0 ? "rgba(255,255,255,0.06)" : (isCond ? "rgba(229,183,0,0.25)" : "rgba(0,146,70,0.25)"),
                     color: i === 0 ? "rgba(255,255,255,0.4)" : (isCond ? "#E5B700" : "#88DDAA"),
-                    fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase", fontWeight: 700,
+                    fontFamily: "monospace", fontSize: 12, letterSpacing: 2, textTransform: "uppercase", fontWeight: 700,
                   }}>{c}</th>
                 ))}
               </tr>
@@ -422,8 +422,8 @@ function TCard({ t, aperta, onToggle }) {
           </table>
 
           {/* Regola */}
-          <div style={{ background: "rgba(255,255,255,0.05)", borderLeft: `3px solid ${isCond ? "#E5B700" : "#88DDAA"}`, padding: "10px 14px", marginBottom: 16, fontSize: 13, lineHeight: 1.7, color: "rgba(255,255,255,0.85)" }}>
-            <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: isCond ? "#E5B700" : "#88DDAA", marginBottom: 4 }}>📌 Regola / Rule</div>
+          <div style={{ background: "rgba(255,255,255,0.05)", borderLeft: `3px solid ${isCond ? "#E5B700" : "#88DDAA"}`, padding: "10px 14px", marginBottom: 16, fontSize: 16, lineHeight: 1.7, color: "rgba(255,255,255,0.85)" }}>
+            <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: isCond ? "#E5B700" : "#88DDAA", marginBottom: 4 }}>📌 Regola / Rule</div>
             {t.regola.it}
           </div>
 
@@ -431,25 +431,25 @@ function TCard({ t, aperta, onToggle }) {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3, marginBottom: 16 }}>
             {t.esempi.map((e, i) => (
               <div key={i} style={{ background: "rgba(255,255,255,0.06)", padding: "12px 14px" }}>
-                <div style={{ fontStyle: "italic", fontSize: 14, color: "white", marginBottom: 3 }}>{e.it}</div>
-                <div style={{ fontFamily: "monospace", fontSize: 11, color: "#FF9999", marginBottom: 3 }}>{e.en}</div>
-                <div style={{ fontSize: 11, color: "#88DDAA", fontStyle: "italic" }}>{e.ctx}</div>
+                <div style={{ fontStyle: "italic", fontSize: 17, color: "white", marginBottom: 3 }}>{e.it}</div>
+                <div style={{ fontFamily: "monospace", fontSize: 14, color: "#FF9999", marginBottom: 3 }}>{e.en}</div>
+                <div style={{ fontSize: 14, color: "#88DDAA", fontStyle: "italic" }}>{e.ctx}</div>
               </div>
             ))}
           </div>
 
           {/* Errori comuni */}
-          <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#FF9999", marginBottom: 8 }}>⚠️ Errori comuni / Common mistakes</div>
+          <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "#FF9999", marginBottom: 8 }}>⚠️ Errori comuni / Common mistakes</div>
           {t.errori.map((e, i) => (
             <div key={i} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3, marginBottom: 3 }}>
               <div style={{ background: "rgba(206,43,55,0.15)", padding: "10px 12px", borderTop: "3px solid #CE2B37" }}>
-                <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "#FF9999", marginBottom: 5 }}>❌ SBAGLIATO</div>
-                <div style={{ fontStyle: "italic", fontSize: 13, color: "#FF9999", textDecoration: "line-through" }}>{e.sbagliato}</div>
+                <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, color: "#FF9999", marginBottom: 5 }}>❌ SBAGLIATO</div>
+                <div style={{ fontStyle: "italic", fontSize: 16, color: "#FF9999", textDecoration: "line-through" }}>{e.sbagliato}</div>
               </div>
               <div style={{ background: "rgba(0,146,70,0.15)", padding: "10px 12px", borderTop: "3px solid #009246" }}>
-                <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "#88DDAA", marginBottom: 5 }}>✅ CORRETTO</div>
-                <div style={{ fontStyle: "italic", fontSize: 13, color: "#88DDAA", marginBottom: 4 }}>{e.corretto}</div>
-                <div style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", lineHeight: 1.4 }}>{e.perche}</div>
+                <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, color: "#88DDAA", marginBottom: 5 }}>✅ CORRETTO</div>
+                <div style={{ fontStyle: "italic", fontSize: 16, color: "#88DDAA", marginBottom: 4 }}>{e.corretto}</div>
+                <div style={{ fontSize: 14, color: "rgba(255,255,255,0.5)", lineHeight: 1.4 }}>{e.perche}</div>
               </div>
             </div>
           ))}
@@ -502,21 +502,21 @@ export default function CongiuntivoCondizionale() {
         <div style={{ maxWidth: 760, margin: "0 auto" }}>
           <button
             onClick={() => router.back()}
-            style={{ background: "none", border: "none", color: "rgba(255,255,255,0.5)", fontSize: 13, cursor: "pointer", marginBottom: 20, padding: 0, fontFamily: "monospace", letterSpacing: 1 }}
+            style={{ background: "none", border: "none", color: "rgba(255,255,255,0.5)", fontSize: 16, cursor: "pointer", marginBottom: 20, padding: 0, fontFamily: "monospace", letterSpacing: 1 }}
           >← Biblioteca</button>
-          <div style={{ fontFamily: "monospace", fontSize: 10, letterSpacing: 4, textTransform: "uppercase", color: "rgba(255,255,255,0.4)", marginBottom: 12 }}>Grammatica · B1</div>
+          <div style={{ fontFamily: "monospace", fontSize: 13, letterSpacing: 4, textTransform: "uppercase", color: "rgba(255,255,255,0.4)", marginBottom: 12 }}>Grammatica · B1</div>
           <h1 style={{ fontSize: "clamp(28px, 6vw, 52px)", fontWeight: 900, color: "white", lineHeight: 1.05, marginBottom: 8 }}>
             <span style={{ color: "#009246" }}>Congiuntivo</span> &amp; <span style={{ color: "#E5B700" }}>Condizionale</span>
           </h1>
-          <div style={{ fontFamily: "monospace", fontSize: 11, color: "rgba(255,255,255,0.35)", letterSpacing: 2, marginBottom: 20 }}>SUBJUNCTIVE &amp; CONDITIONAL — ALL TENSES + CONJUNCTIONS + SE</div>
+          <div style={{ fontFamily: "monospace", fontSize: 14, color: "rgba(255,255,255,0.35)", letterSpacing: 2, marginBottom: 20 }}>SUBJUNCTIVE &amp; CONDITIONAL — ALL TENSES + CONJUNCTIONS + SE</div>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3 }}>
             <div style={{ background: "rgba(0,146,70,0.15)", padding: "14px 16px", borderLeft: "4px solid #009246" }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, color: "#88DDAA", marginBottom: 6 }}>🇮🇹 Italiano</div>
-              <div style={{ fontStyle: "italic", fontSize: 13, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>Il congiuntivo esprime soggettività, dubbio, speranza, volontà. Il condizionale esprime cortesia, ipotesi e rimpianti. Insieme costruiscono il sistema dell'ipotetico italiano.</div>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, color: "#88DDAA", marginBottom: 6 }}>🇮🇹 Italiano</div>
+              <div style={{ fontStyle: "italic", fontSize: 16, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>Il congiuntivo esprime soggettività, dubbio, speranza, volontà. Il condizionale esprime cortesia, ipotesi e rimpianti. Insieme costruiscono il sistema dell'ipotetico italiano.</div>
             </div>
             <div style={{ background: "rgba(206,43,55,0.15)", padding: "14px 16px", borderLeft: "4px solid #CE2B37" }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, color: "#FF9999", marginBottom: 6 }}>🇬🇧 English</div>
-              <div style={{ fontStyle: "italic", fontSize: 13, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>The subjunctive expresses subjectivity, doubt, hope, will. The conditional expresses politeness, hypotheses and regrets. Together they build the Italian hypothetical system.</div>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, color: "#FF9999", marginBottom: 6 }}>🇬🇧 English</div>
+              <div style={{ fontStyle: "italic", fontSize: 16, color: "rgba(255,255,255,0.85)", lineHeight: 1.6 }}>The subjunctive expresses subjectivity, doubt, hope, will. The conditional expresses politeness, hypotheses and regrets. Together they build the Italian hypothetical system.</div>
             </div>
           </div>
         </div>
@@ -532,7 +532,7 @@ export default function CongiuntivoCondizionale() {
           ].map(t => (
             <button key={t.id} onClick={() => setTab(t.id)} style={{
               padding: "14px 18px", background: "none", border: "none", cursor: "pointer",
-              fontFamily: "monospace", fontSize: 11, letterSpacing: 1, textTransform: "uppercase",
+              fontFamily: "monospace", fontSize: 14, letterSpacing: 1, textTransform: "uppercase",
               color: tab === t.id ? "var(--primary)" : "var(--text3)",
               borderBottom: tab === t.id ? "3px solid var(--primary)" : "3px solid transparent",
               fontWeight: tab === t.id ? 800 : 500, transition: "all 0.2s",
@@ -548,19 +548,19 @@ export default function CongiuntivoCondizionale() {
           <div>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
               <div>
-                <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)", marginBottom: 2 }}>6 tempi verbali</div>
-                <div style={{ fontSize: 12, color: "var(--text3)" }}>Tap per espandere · Clicca la regola, leggi gli esempi, evita gli errori</div>
+                <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", marginBottom: 2 }}>6 tempi verbali</div>
+                <div style={{ fontSize: 15, color: "var(--text3)" }}>Tap per espandere · Clicca la regola, leggi gli esempi, evita gli errori</div>
               </div>
               <div style={{ display: "flex", gap: 8 }}>
-                <button onClick={apriTutti} style={{ fontFamily: "monospace", fontSize: 10, padding: "6px 12px", background: "none", border: "1.5px solid var(--border)", color: "var(--text3)", cursor: "pointer" }}>Apri tutti</button>
-                <button onClick={chiudiTutti} style={{ fontFamily: "monospace", fontSize: 10, padding: "6px 12px", background: "none", border: "1.5px solid var(--border)", color: "var(--text3)", cursor: "pointer" }}>Chiudi tutti</button>
+                <button onClick={apriTutti} style={{ fontFamily: "monospace", fontSize: 13, padding: "6px 12px", background: "none", border: "1.5px solid var(--border)", color: "var(--text3)", cursor: "pointer" }}>Apri tutti</button>
+                <button onClick={chiudiTutti} style={{ fontFamily: "monospace", fontSize: 13, padding: "6px 12px", background: "none", border: "1.5px solid var(--border)", color: "var(--text3)", cursor: "pointer" }}>Chiudi tutti</button>
               </div>
             </div>
 
             {/* Separatore Congiuntivo */}
             <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 10 }}>
               <div style={{ width: 4, height: 24, background: "#009246" }} />
-              <span style={{ fontFamily: "monospace", fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "#009246", fontWeight: 800 }}>Congiuntivo</span>
+              <span style={{ fontFamily: "monospace", fontSize: 14, letterSpacing: 3, textTransform: "uppercase", color: "#009246", fontWeight: 800 }}>Congiuntivo</span>
               <div style={{ flex: 1, height: 1, background: "var(--border)" }} />
             </div>
             {TEMPI.filter(t => t.modo === "Congiuntivo").map(t => (
@@ -570,7 +570,7 @@ export default function CongiuntivoCondizionale() {
             {/* Separatore Condizionale */}
             <div style={{ display: "flex", alignItems: "center", gap: 12, margin: "24px 0 10px" }}>
               <div style={{ width: 4, height: 24, background: "var(--primary)" }} />
-              <span style={{ fontFamily: "monospace", fontSize: 11, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", fontWeight: 800 }}>Condizionale</span>
+              <span style={{ fontFamily: "monospace", fontSize: 14, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", fontWeight: 800 }}>Condizionale</span>
               <div style={{ flex: 1, height: 1, background: "var(--border)" }} />
             </div>
             {TEMPI.filter(t => t.modo === "Condizionale").map(t => (
@@ -579,7 +579,7 @@ export default function CongiuntivoCondizionale() {
 
             {/* Link agli esercizi */}
             <div style={{ marginTop: 32, background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 20 }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "var(--text3)", marginBottom: 12 }}>📝 Esercizi disponibili</div>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "var(--text3)", marginBottom: 12 }}>📝 Esercizi disponibili</div>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
                 {[
                   { id: "congiuntivo", label: "Congiuntivo (tutti i tempi)" },
@@ -590,7 +590,7 @@ export default function CongiuntivoCondizionale() {
                 ].map(s => (
                   <button key={s.id} onClick={() => router.push(`/biblioteca/${s.id}`)} style={{
                     padding: "8px 14px", background: "var(--bg)", border: "1.5px solid var(--border)",
-                    borderRadius: 8, fontSize: 12, color: "var(--text)", cursor: "pointer", fontWeight: 600,
+                    borderRadius: 8, fontSize: 15, color: "var(--text)", cursor: "pointer", fontWeight: 600,
                   }}>
                     {s.label} →
                   </button>
@@ -604,8 +604,8 @@ export default function CongiuntivoCondizionale() {
         {tab === "congiunzioni" && (
           <div>
             <div style={{ marginBottom: 24 }}>
-              <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Congiunzioni che reggono il congiuntivo</div>
-              <div style={{ fontFamily: "monospace", fontSize: 11, color: "var(--text3)", letterSpacing: 1 }}>CONJUNCTIONS THAT TRIGGER THE SUBJUNCTIVE</div>
+              <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Congiunzioni che reggono il congiuntivo</div>
+              <div style={{ fontFamily: "monospace", fontSize: 14, color: "var(--text3)", letterSpacing: 1 }}>CONJUNCTIONS THAT TRIGGER THE SUBJUNCTIVE</div>
             </div>
             <div className="cong-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 3 }}>
               {CONGIUNZIONI.map((c, i) => (
@@ -616,23 +616,23 @@ export default function CongiuntivoCondizionale() {
                   border: "1.5px solid var(--border)",
                   borderTopColor: c.colore === "verde" ? "#009246" : "var(--primary)",
                 }}>
-                  <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: c.colore === "verde" ? "#009246" : "var(--primary)", marginBottom: 8, fontWeight: 800 }}>
+                  <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: c.colore === "verde" ? "#009246" : "var(--primary)", marginBottom: 8, fontWeight: 800 }}>
                     {c.cat_it} / {c.cat_en}
                   </div>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginBottom: 10 }}>
                     {c.voci.map((v, j) => (
                       <span key={j} style={{
-                        fontFamily: "monospace", fontSize: 11, padding: "2px 8px",
+                        fontFamily: "monospace", fontSize: 14, padding: "2px 8px",
                         background: c.colore === "verde" ? "rgba(0,146,70,0.18)" : "rgba(229,183,0,0.15)",
                         color: c.colore === "verde" ? "#88DDAA" : "#E5B700",
                         border: `1px solid ${c.colore === "verde" ? "rgba(0,146,70,0.3)" : "rgba(229,183,0,0.35)"}`,
                       }}>{v}</span>
                     ))}
                   </div>
-                  <div style={{ fontStyle: "italic", fontSize: 14, color: "var(--text)", marginBottom: 3, lineHeight: 1.5 }}>«{c.esempio_it}»</div>
-                  <div style={{ fontFamily: "monospace", fontSize: 11, color: "var(--text3)", marginBottom: 8 }}>"{c.esempio_en}"</div>
-                  <div style={{ fontSize: 11, color: "var(--text3)", borderTop: "1px solid var(--border)", paddingTop: 8, lineHeight: 1.5 }}>
-                    <span style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase", color: "var(--text3)" }}>Tempo: </span>{c.tempo}
+                  <div style={{ fontStyle: "italic", fontSize: 17, color: "var(--text)", marginBottom: 3, lineHeight: 1.5 }}>«{c.esempio_it}»</div>
+                  <div style={{ fontFamily: "monospace", fontSize: 14, color: "var(--text3)", marginBottom: 8 }}>"{c.esempio_en}"</div>
+                  <div style={{ fontSize: 14, color: "var(--text3)", borderTop: "1px solid var(--border)", paddingTop: 8, lineHeight: 1.5 }}>
+                    <span style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, textTransform: "uppercase", color: "var(--text3)" }}>Tempo: </span>{c.tempo}
                   </div>
                 </div>
               ))}
@@ -640,8 +640,8 @@ export default function CongiuntivoCondizionale() {
 
             {/* Nota Mario */}
             <div style={{ marginTop: 24, background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 18, borderLeft: "4px solid var(--primary)" }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", marginBottom: 8 }}>💡 Regola rapida</div>
-              <div style={{ fontSize: 13, color: "var(--text)", lineHeight: 1.7 }}>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", marginBottom: 8 }}>💡 Regola rapida</div>
+              <div style={{ fontSize: 16, color: "var(--text)", lineHeight: 1.7 }}>
                 <strong>Congiuntivo presente</strong> → principale al presente/futuro.<br />
                 <strong>Congiuntivo imperfetto</strong> → principale al passato/condizionale.<br />
                 <strong>Come se</strong> → sempre imperfetto (contemporaneo) o trapassato (anteriore). <span style={{ color: "var(--primary)", fontWeight: 700 }}>MAI condizionale dopo come se.</span>
@@ -654,14 +654,14 @@ export default function CongiuntivoCondizionale() {
         {tab === "se" && (
           <div>
             <div style={{ marginBottom: 24 }}>
-              <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Schema completo del SE</div>
-              <div style={{ fontFamily: "monospace", fontSize: 11, color: "var(--text3)", letterSpacing: 1 }}>IF-CLAUSES COMPLETE GUIDE — CORRECT · COLLOQUIAL · WRONG</div>
+              <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Schema completo del SE</div>
+              <div style={{ fontFamily: "monospace", fontSize: 14, color: "var(--text3)", letterSpacing: 1 }}>IF-CLAUSES COMPLETE GUIDE — CORRECT · COLLOQUIAL · WRONG</div>
             </div>
 
             {/* Test WHETHER */}
             <div style={{ background: "var(--card)", border: "1.5px solid var(--primary)", borderRadius: "var(--r)", padding: 16, marginBottom: 20 }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", marginBottom: 8 }}>💡 Il test del WHETHER</div>
-              <div style={{ fontSize: 13, color: "var(--text)", lineHeight: 1.7 }}>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "var(--primary)", marginBottom: 8 }}>💡 Il test del WHETHER</div>
+              <div style={{ fontSize: 16, color: "var(--text)", lineHeight: 1.7 }}>
                 Sostituisci <strong>SE</strong> con <strong>WHETHER</strong> in inglese.<br />
                 ✅ Funziona? → <strong>SE whether</strong> → condizionale corretto: <em>«Non so se verrei»</em> = "I don't know <strong>whether</strong> I would come"<br />
                 ❌ Non funziona? → <strong>SE ipotetico</strong> → mai condizionale: <em>~~«Se verrei»~~</em> = "If I <strong>would</strong> come" ❌
@@ -670,14 +670,14 @@ export default function CongiuntivoCondizionale() {
 
             {/* Tabella */}
             <div style={{ overflowX: "auto" }}>
-              <table className="se-table" style={{ width: "100%", borderCollapse: "collapse", fontSize: 12, border: "2px solid var(--text)" }}>
+              <table className="se-table" style={{ width: "100%", borderCollapse: "collapse", fontSize: 15, border: "2px solid var(--text)" }}>
                 <thead>
                   <tr>
                     {["Tipo", "Protasi (SE...)", "Apodosi (principale)", "Esempio IT", "Esempio EN"].map((h, i) => (
                       <th key={i} style={{
                         padding: "10px 12px", textAlign: "left",
                         background: i === 0 ? "var(--text)" : i <= 2 ? "#15212a" : "#1e2d38",
-                        color: "white", fontFamily: "monospace", fontSize: 9, letterSpacing: 2, textTransform: "uppercase",
+                        color: "white", fontFamily: "monospace", fontSize: 12, letterSpacing: 2, textTransform: "uppercase",
                         borderRight: "1px solid rgba(255,255,255,0.1)",
                       }}>{h}</th>
                     ))}
@@ -691,13 +691,13 @@ export default function CongiuntivoCondizionale() {
                     const borderColor = isError ? "#CE2B37" : isColloquiale ? "#E5B700" : "transparent";
                     return (
                       <tr key={i} style={{ background: bg, borderLeft: `4px solid ${borderColor}` }}>
-                        <td style={{ padding: "10px 12px", fontWeight: 700, fontSize: 12, color: isError ? "#CE2B37" : isColloquiale ? "#E5B700" : "var(--text)", borderBottom: "1px solid var(--border)" }}>
+                        <td style={{ padding: "10px 12px", fontWeight: 700, fontSize: 15, color: isError ? "#CE2B37" : isColloquiale ? "#E5B700" : "var(--text)", borderBottom: "1px solid var(--border)" }}>
                           {r.tipo}
                         </td>
-                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 11, color: "var(--text2)", borderBottom: "1px solid var(--border)" }}>{r.se}</td>
-                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 11, color: "var(--text2)", borderBottom: "1px solid var(--border)" }}>{r.principale}</td>
-                        <td style={{ padding: "10px 12px", fontStyle: "italic", fontSize: 12, color: isError ? "#CE2B37" : "var(--text)", borderBottom: "1px solid var(--border)" }}>{r.esempio_it}</td>
-                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 11, color: "var(--text3)", borderBottom: "1px solid var(--border)" }}>{r.esempio_en}</td>
+                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 14, color: "var(--text2)", borderBottom: "1px solid var(--border)" }}>{r.se}</td>
+                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 14, color: "var(--text2)", borderBottom: "1px solid var(--border)" }}>{r.principale}</td>
+                        <td style={{ padding: "10px 12px", fontStyle: "italic", fontSize: 15, color: isError ? "#CE2B37" : "var(--text)", borderBottom: "1px solid var(--border)" }}>{r.esempio_it}</td>
+                        <td style={{ padding: "10px 12px", fontFamily: "monospace", fontSize: 14, color: "var(--text3)", borderBottom: "1px solid var(--border)" }}>{r.esempio_en}</td>
                       </tr>
                     );
                   })}
@@ -712,7 +712,7 @@ export default function CongiuntivoCondizionale() {
                 { colore: "rgba(229,183,0,0.15)", border: "#E5B700", label: "⚠️ Colloquiale (parlato)" },
                 { colore: "rgba(206,43,55,0.08)", border: "#CE2B37", label: "❌ Sempre sbagliato" },
               ].map((l, i) => (
-                <div key={i} style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 11, color: "var(--text3)" }}>
+                <div key={i} style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 14, color: "var(--text3)" }}>
                   <div style={{ width: 16, height: 10, background: l.colore, border: `1.5px solid ${l.border}` }} />
                   {l.label}
                 </div>
@@ -721,8 +721,8 @@ export default function CongiuntivoCondizionale() {
 
             {/* Raccordo cong+cond */}
             <div style={{ marginTop: 28 }}>
-              <div style={{ fontSize: 16, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Raccordo Congiuntivo ↔ Condizionale</div>
-              <div style={{ fontFamily: "monospace", fontSize: 10, color: "var(--text3)", letterSpacing: 2, marginBottom: 16 }}>WHICH SUBJUNCTIVE GOES WITH WHICH CONDITIONAL?</div>
+              <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)", marginBottom: 4 }}>Raccordo Congiuntivo ↔ Condizionale</div>
+              <div style={{ fontFamily: "monospace", fontSize: 13, color: "var(--text3)", letterSpacing: 2, marginBottom: 16 }}>WHICH SUBJUNCTIVE GOES WITH WHICH CONDITIONAL?</div>
               <div style={{ display: "grid", gap: 3 }}>
                 {[
                   { cong: "Cong. PRESENTE", cond: "Cond. PRESENTE", quando: "Principale al presente", esempio: "Spero che venga → potrebbe venire", colore: "#009246" },
@@ -734,16 +734,16 @@ export default function CongiuntivoCondizionale() {
                 ].map((r, i) => (
                   <div key={i} style={{ display: "grid", gridTemplateColumns: "180px 180px 1fr", gap: 2 }}>
                     <div style={{ background: "rgba(0,146,70,0.18)", border: "1.5px solid rgba(0,146,70,0.2)", padding: "10px 12px" }}>
-                      <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "#009246", marginBottom: 3 }}>CONGIUNTIVO</div>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: "#88DDAA" }}>{r.cong}</div>
+                      <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, color: "#009246", marginBottom: 3 }}>CONGIUNTIVO</div>
+                      <div style={{ fontSize: 15, fontWeight: 700, color: "#88DDAA" }}>{r.cong}</div>
                     </div>
                     <div style={{ background: "rgba(229,183,0,0.08)", border: "1.5px solid rgba(229,183,0,0.2)", padding: "10px 12px" }}>
-                      <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 2, color: "var(--primary)", marginBottom: 3 }}>CONDIZIONALE</div>
-                      <div style={{ fontSize: 12, fontWeight: 700, color: "#E5B700" }}>{r.cond}</div>
+                      <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 2, color: "var(--primary)", marginBottom: 3 }}>CONDIZIONALE</div>
+                      <div style={{ fontSize: 15, fontWeight: 700, color: "#E5B700" }}>{r.cond}</div>
                     </div>
                     <div style={{ background: "var(--card)", border: "1.5px solid var(--border)", padding: "10px 12px", borderLeft: `3px solid ${r.colore}` }}>
-                      <div style={{ fontSize: 11, color: "var(--text3)", marginBottom: 2 }}>{r.quando}</div>
-                      <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text)" }}>{r.esempio}</div>
+                      <div style={{ fontSize: 14, color: "var(--text3)", marginBottom: 2 }}>{r.quando}</div>
+                      <div style={{ fontSize: 15, fontStyle: "italic", color: "var(--text)" }}>{r.esempio}</div>
                     </div>
                   </div>
                 ))}
@@ -752,7 +752,7 @@ export default function CongiuntivoCondizionale() {
 
             {/* Eccezioni */}
             <div style={{ marginTop: 24, background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 18, borderLeft: "4px solid #CE2B37" }}>
-              <div style={{ fontFamily: "monospace", fontSize: 9, letterSpacing: 3, textTransform: "uppercase", color: "#CE2B37", marginBottom: 12 }}>⚡ Eccezioni e casi speciali</div>
+              <div style={{ fontFamily: "monospace", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", color: "#CE2B37", marginBottom: 12 }}>⚡ Eccezioni e casi speciali</div>
               <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                 {[
                   { regola: "È certo che / So che", uso: "→ INDICATIVO (non congiuntivo). La certezza non richiede il congiuntivo.", esempio: "So che Mario è bravo. ✅ (non 'sia')" },
@@ -760,11 +760,11 @@ export default function CongiuntivoCondizionale() {
                   { regola: "Come se", uso: "→ SEMPRE cong. imperfetto o trapassato. MAI condizionale.", esempio: "Come se fosse ✅ · Come se sarebbe ❌" },
                   { regola: "Colloquiale: se + imperfetto indicativo", uso: "→ Accettato nel parlato informale, scorretto nello scritto formale.", esempio: "Se venivo, ti chiamavo. ⚠️ Formale: Se fossi venuto, ti avrei chiamato." },
                 ].map((e, i) => (
-                  <div key={i} style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8, fontSize: 12 }}>
-                    <div style={{ fontFamily: "monospace", fontSize: 11, fontWeight: 700, color: "var(--text)", lineHeight: 1.4 }}>{e.regola}</div>
+                  <div key={i} style={{ display: "grid", gridTemplateColumns: "160px 1fr", gap: 8, fontSize: 15 }}>
+                    <div style={{ fontFamily: "monospace", fontSize: 14, fontWeight: 700, color: "var(--text)", lineHeight: 1.4 }}>{e.regola}</div>
                     <div>
                       <div style={{ color: "var(--text2)", lineHeight: 1.5, marginBottom: 2 }}>{e.uso}</div>
-                      <div style={{ fontStyle: "italic", color: "var(--text3)", fontSize: 11 }}>{e.esempio}</div>
+                      <div style={{ fontStyle: "italic", color: "var(--text3)", fontSize: 14 }}>{e.esempio}</div>
                     </div>
                   </div>
                 ))}

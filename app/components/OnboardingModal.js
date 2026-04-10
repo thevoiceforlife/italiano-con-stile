@@ -141,17 +141,17 @@ export default function OnboardingModal({ onComplete }) {
             <div style={{ fontSize:20, fontWeight:900, color:'#FF9B42', marginBottom:8 }}>
               Benvenuto al Bar di Mario!
             </div>
-            <div style={{ fontSize:13, color:'var(--text2)', lineHeight:1.6, marginBottom:24 }}>
+            <div style={{ fontSize:16, color:'var(--text2)', lineHeight:1.6, marginBottom:24 }}>
               Finally, someone explains why.
             </div>
-            <div style={{ fontSize:15, fontWeight:800, color:'var(--text)', marginBottom:20 }}>
+            <div style={{ fontSize:18, fontWeight:800, color:'var(--text)', marginBottom:20 }}>
               ☕ Sei già stato in Italia? / Have you studied Italian before?
             </div>
             <div style={{ display:'flex', flexDirection:'column', gap:12 }}>
               <button onClick={() => handleStart(false)} style={{
                 background:'var(--primary)', color:'#fff', border:'none',
                 borderRadius:'var(--r)', padding:'14px',
-                fontSize:14, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
+                fontSize:17, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
                 boxShadow:'0 4px 0 var(--primary-d)',
               }}>
                 🧳 Parto da zero / I'm a beginner
@@ -160,7 +160,7 @@ export default function OnboardingModal({ onComplete }) {
                 background:'var(--card)', color:'var(--text)',
                 border:'2px solid var(--border)',
                 borderRadius:'var(--r)', padding:'14px',
-                fontSize:14, fontWeight:800, cursor:'pointer', fontFamily:'inherit',
+                fontSize:17, fontWeight:800, cursor:'pointer', fontFamily:'inherit',
               }}>
                 🛵 Ho già qualche base / I have some Italian
               </button>
@@ -172,7 +172,7 @@ export default function OnboardingModal({ onComplete }) {
         {phase === 'test' && (
           <div style={{ padding:'24px' }}>
             <div style={{ marginBottom:16 }}>
-              <div style={{ fontSize:11, fontWeight:900, color:'var(--primary)', textTransform:'uppercase', letterSpacing:'1px', marginBottom:8 }}>
+              <div style={{ fontSize:14, fontWeight:900, color:'var(--primary)', textTransform:'uppercase', letterSpacing:'1px', marginBottom:8 }}>
                 Placement test — {testIdx + 1}/{PLACEMENT_QUESTIONS.length}
               </div>
               <div style={{ height:6, background:'var(--bg)', borderRadius:99, overflow:'hidden' }}>
@@ -182,13 +182,13 @@ export default function OnboardingModal({ onComplete }) {
             </div>
 
             {q.context && (
-              <div style={{ background:'var(--bg)', borderRadius:8, padding:'10px 14px', marginBottom:12, fontSize:15, fontWeight:800, color:'var(--text)', textAlign:'center' }}>
+              <div style={{ background:'var(--bg)', borderRadius:8, padding:'10px 14px', marginBottom:12, fontSize:18, fontWeight:800, color:'var(--text)', textAlign:'center' }}>
                 {q.context.it}
               </div>
             )}
 
-            <div style={{ fontSize:14, fontWeight:800, color:'var(--text)', marginBottom:4 }}>{q.q.it}</div>
-            <div style={{ fontSize:12, color:'var(--text3)', fontStyle:'italic', marginBottom:16 }}>{q.q.en}</div>
+            <div style={{ fontSize:17, fontWeight:800, color:'var(--text)', marginBottom:4 }}>{q.q.it}</div>
+            <div style={{ fontSize:15, color:'var(--text3)', fontStyle:'italic', marginBottom:16 }}>{q.q.en}</div>
 
             <div style={{ display:'flex', flexDirection:'column', gap:8, marginBottom:16 }}>
               {q.options.map((opt, i) => {
@@ -201,7 +201,7 @@ export default function OnboardingModal({ onComplete }) {
                   <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
                     background:bg, border:`2px solid ${border}`, color,
                     borderRadius:'var(--r)', padding:'12px 14px',
-                    textAlign:'left', fontSize:14, fontWeight:700,
+                    textAlign:'left', fontSize:17, fontWeight:700,
                     cursor: confirmed ? 'default' : 'pointer', fontFamily:'inherit',
                     transition:'background 0.15s, border 0.15s',
                   }}>
@@ -216,7 +216,7 @@ export default function OnboardingModal({ onComplete }) {
                 width:'100%', padding:'14px', borderRadius:'var(--r)',
                 background: selected === null ? 'var(--dis-bg)' : 'var(--primary)',
                 color: selected === null ? 'var(--dis-text)' : '#fff',
-                border:'none', fontSize:14, fontWeight:900, cursor: selected === null ? 'not-allowed' : 'pointer',
+                border:'none', fontSize:17, fontWeight:900, cursor: selected === null ? 'not-allowed' : 'pointer',
                 fontFamily:'inherit', boxShadow: selected !== null ? '0 4px 0 var(--primary-d)' : 'none',
               }}>
                 Controlla / Check
@@ -225,7 +225,7 @@ export default function OnboardingModal({ onComplete }) {
               <button onClick={handleTestNext} style={{
                 width:'100%', padding:'14px', borderRadius:'var(--r)',
                 background: isCorrect ? 'var(--primary)' : 'var(--err-btn, #CC0000)',
-                color:'#fff', border:'none', fontSize:14, fontWeight:900, cursor:'pointer',
+                color:'#fff', border:'none', fontSize:17, fontWeight:900, cursor:'pointer',
                 fontFamily:'inherit',
               }}>
                 {testIdx + 1 < PLACEMENT_QUESTIONS.length ? 'Avanti →' : 'Vediamo il risultato →'}
@@ -238,10 +238,10 @@ export default function OnboardingModal({ onComplete }) {
         {phase === 'screens' && (
           <div style={{ padding:'32px 24px', textAlign:'center' }}>
             <div style={{ fontSize:72, marginBottom:16 }}>{sc.emoji}</div>
-            <div style={{ fontSize:19, fontWeight:900, color:sc.color, marginBottom:12 }}>
+            <div style={{ fontSize:21, fontWeight:900, color:sc.color, marginBottom:12 }}>
               {sc.title.it} / {sc.title.en}
             </div>
-            <div style={{ fontSize:13, color:'var(--text2)', lineHeight:1.7, marginBottom:28 }}>
+            <div style={{ fontSize:16, color:'var(--text2)', lineHeight:1.7, marginBottom:28 }}>
               {sc.desc.it}
               <br/><span style={{ color:'var(--text3)', fontStyle:'italic' }}>{sc.desc.en}</span>
             </div>
@@ -258,7 +258,7 @@ export default function OnboardingModal({ onComplete }) {
             <button onClick={handleScreenNext} style={{
               width:'100%', background:sc.color, color:'#fff', border:'none',
               borderRadius:'var(--r)', padding:'14px',
-              fontSize:14, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
+              fontSize:17, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
             }}>
               {screenIdx + 1 < SCREENS.length ? 'Avanti →' : 'Iniziamo! / Let\'s go!'}
             </button>
@@ -273,19 +273,19 @@ export default function OnboardingModal({ onComplete }) {
               return (
                 <>
                   <div style={{ fontSize:72, marginBottom:12 }}>{lv.emoji}</div>
-                  <div style={{ fontSize:13, color:'var(--text3)', marginBottom:8, textTransform:'uppercase', letterSpacing:'1px' }}>
+                  <div style={{ fontSize:16, color:'var(--text3)', marginBottom:8, textTransform:'uppercase', letterSpacing:'1px' }}>
                     Il tuo livello / Your level
                   </div>
                   <div style={{ fontSize:22, fontWeight:900, color:'var(--primary)', marginBottom:4 }}>
                     {lv.label}
                   </div>
-                  <div style={{ fontSize:13, color:'var(--text2)', marginBottom:24 }}>
+                  <div style={{ fontSize:16, color:'var(--text2)', marginBottom:24 }}>
                     {lv.sub} — Mario ti aspetta al bar!
                   </div>
                   <button onClick={() => finishOnboarding(lv.id)} style={{
                     width:'100%', background:'var(--primary)', color:'#fff', border:'none',
                     borderRadius:'var(--r)', padding:'14px',
-                    fontSize:15, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
+                    fontSize:18, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
                     boxShadow:'0 4px 0 var(--primary-d)',
                     textTransform:'uppercase', letterSpacing:'0.6px',
                   }}>

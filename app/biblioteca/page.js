@@ -30,12 +30,12 @@ export default function BibliotecaPage() {
       {/* Header */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "14px 16px", position: "sticky", top: 0, zIndex: 10 }}>
         <div style={{ maxWidth: 480, margin: "0 auto", display: "flex", alignItems: "center", gap: 12 }}>
-          <button onClick={() => router.push("/dashboard")} style={{ background: "none", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "6px 12px", fontSize: 12, fontWeight: 800, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
+          <button onClick={() => router.push("/dashboard")} style={{ background: "none", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "6px 12px", fontSize: 15, fontWeight: 800, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
             ← Dashboard
           </button>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 16, fontWeight: 900, color: "var(--text)" }}>📚 Biblioteca</div>
-            <div style={{ fontSize: 11, color: "var(--text3)" }}>Finally someone explains why</div>
+            <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)" }}>📚 Biblioteca</div>
+            <div style={{ fontSize: 14, color: "var(--text3)" }}>Finally someone explains why</div>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ export default function BibliotecaPage() {
               flex: 1, padding: "10px 0", borderRadius: "calc(var(--r) - 2px)", border: "none",
               background: tab === t ? "var(--primary)" : "transparent",
               color: tab === t ? "white" : "var(--text3)",
-              fontSize: 13, fontWeight: 900, cursor: "pointer", fontFamily: "inherit",
+              fontSize: 16, fontWeight: 900, cursor: "pointer", fontFamily: "inherit",
               textTransform: "capitalize", transition: "all 0.2s",
               boxShadow: tab === t ? "0 2px 0 var(--primary-d)" : "none",
             }}>
@@ -62,13 +62,13 @@ export default function BibliotecaPage() {
         {!index && (
           <div style={{ textAlign: "center", padding: 40 }}>
             <div style={{ fontSize: 36, marginBottom: 8 }}>☕</div>
-            <div style={{ fontSize: 13, color: "var(--text3)" }}>Caricamento... / Loading...</div>
+            <div style={{ fontSize: 16, color: "var(--text3)" }}>Caricamento... / Loading...</div>
           </div>
         )}
 
         {Object.entries(grouped).map(([sotto, schede]) => (
           <div key={sotto} style={{ marginBottom: 28 }}>
-            <div style={{ fontSize: 10, fontWeight: 900, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 10, paddingLeft: 2 }}>
+            <div style={{ fontSize: 13, fontWeight: 900, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 10, paddingLeft: 2 }}>
               {sotto}
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -92,14 +92,14 @@ export default function BibliotecaPage() {
                     <div style={{ fontSize: 28, lineHeight: 1, flexShrink: 0 }}>{s.emoji}</div>
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 3 }}>
-                        <span style={{ fontSize: 13, fontWeight: 900, color: "var(--text)" }}>{s.titolo.it}</span>
-                        <span style={{ fontSize: 9, fontWeight: 800, color: lv.color, background: lv.bg, padding: "2px 6px", borderRadius: 99, flexShrink: 0 }}>{s.livello}</span>
+                        <span style={{ fontSize: 16, fontWeight: 900, color: "var(--text)" }}>{s.titolo.it}</span>
+                        <span style={{ fontSize: 12, fontWeight: 800, color: lv.color, background: lv.bg, padding: "2px 6px", borderRadius: 99, flexShrink: 0 }}>{s.livello}</span>
                       </div>
-                      <div style={{ fontSize: 11, color: "var(--text3)", lineHeight: 1.4 }}>{s.titolo.en}</div>
-                      {!locked && <div style={{ fontSize: 11, color: "var(--text2)", fontStyle: "italic", marginTop: 4, lineHeight: 1.4 }}>"{s.teaser.it}"</div>}
-                      {locked && <div style={{ fontSize: 10, color: "var(--text3)", marginTop: 3 }}>🔒 In arrivo / Coming soon</div>}
+                      <div style={{ fontSize: 14, color: "var(--text3)", lineHeight: 1.4 }}>{s.titolo.en}</div>
+                      {!locked && <div style={{ fontSize: 14, color: "var(--text2)", fontStyle: "italic", marginTop: 4, lineHeight: 1.4 }}>"{s.teaser.it}"</div>}
+                      {locked && <div style={{ fontSize: 13, color: "var(--text3)", marginTop: 3 }}>🔒 In arrivo / Coming soon</div>}
                     </div>
-                    {!locked && <span style={{ fontSize: 16, color: "var(--text3)", flexShrink: 0 }}>›</span>}
+                    {!locked && <span style={{ fontSize: 18, color: "var(--text3)", flexShrink: 0 }}>›</span>}
                   </div>
                 );
               })}

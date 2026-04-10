@@ -17,7 +17,7 @@ export default function LessonButton({ livello, unita, lezione, lessonId }) {
         border: "none",
         borderRadius: "var(--r)",
         padding: "7px 16px",
-        fontSize: 12,
+        fontSize: 15,
         fontWeight: 900,
         cursor: "pointer",
         fontFamily: "inherit",

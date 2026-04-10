@@ -62,10 +62,10 @@ function QBox({ q }) {
   const c = CHAR_COLOR[q?.personaggio] || "#1CB0F6";
   return (
     <div style={{ background: "var(--card)", borderRadius: "var(--r)", border: `2px solid ${c}`, padding: "13px 15px" }}>
-      <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>
+      <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>
         <FraseAnnotata testo={q.domanda.it} annotazioni={q.annotazioni_domanda || []} />
       </div>
-      <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
+      <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
     </div>
   );
 }
@@ -75,17 +75,17 @@ function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
     <div style={{ background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)", borderTop: `2px solid ${isCorrect ? "var(--ok-text)" : "var(--err-text)"}`, padding: "16px", flexShrink: 0 }}>
       <div style={{ maxWidth: 480, margin: "0 auto", display: "flex", alignItems: "center", gap: 12 }}>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 14, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
+          <div style={{ fontSize: 17, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
             {isCorrect ? "✅ Esatto! / Correct!" : "❌ Sbagliato / Wrong"}
           </div>
-          <div style={{ fontSize: 13, fontWeight: 700, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.9, lineHeight: 1.5 }}>
+          <div style={{ fontSize: 16, fontWeight: 700, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.9, lineHeight: 1.5 }}>
             {isCorrect ? feedbackOk?.it : feedbackErr?.it}
           </div>
-          <div style={{ fontSize: 11, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.65, marginTop: 3, fontStyle: "italic" }}>
+          <div style={{ fontSize: 14, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.65, marginTop: 3, fontStyle: "italic" }}>
             {isCorrect ? feedbackOk?.en : feedbackErr?.en}
           </div>
         </div>
-        <button onClick={onNext} style={{ background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", padding: "13px 18px", borderRadius: "var(--r)", fontSize: 14, fontWeight: 900, border: "none", boxShadow: `0 4px 0 ${isCorrect ? "var(--primary-d)" : "#990000"}`, textTransform: "uppercase", letterSpacing: "0.6px", cursor: "pointer", flexShrink: 0, fontFamily: "inherit" }}>Avanti →</button>
+        <button onClick={onNext} style={{ background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", padding: "13px 18px", borderRadius: "var(--r)", fontSize: 17, fontWeight: 900, border: "none", boxShadow: `0 4px 0 ${isCorrect ? "var(--primary-d)" : "#990000"}`, textTransform: "uppercase", letterSpacing: "0.6px", cursor: "pointer", flexShrink: 0, fontFamily: "inherit" }}>Avanti →</button>
       </div>
     </div>
   );
@@ -95,7 +95,7 @@ function CheckBar({ disabled, onCheck, label = "Controlla / Check" }) {
   return (
     <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
       <div style={{ maxWidth: 480, margin: "0 auto" }}>
-        <button onClick={disabled ? undefined : onCheck} disabled={disabled} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 15, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: disabled ? "var(--dis-bg)" : "var(--primary)", color: disabled ? "var(--dis-text)" : "white", boxShadow: disabled ? "none" : "0 4px 0 var(--primary-d)", cursor: disabled ? "not-allowed" : "pointer" }}>{label}</button>
+        <button onClick={disabled ? undefined : onCheck} disabled={disabled} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 18, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: disabled ? "var(--dis-bg)" : "var(--primary)", color: disabled ? "var(--dis-text)" : "white", boxShadow: disabled ? "none" : "0 4px 0 var(--primary-d)", cursor: disabled ? "not-allowed" : "pointer" }}>{label}</button>
       </div>
     </div>
   );
@@ -117,17 +117,17 @@ function DomandaMultipla({ q, onAnswer }) {
         {q.gesture && (
           <div style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: "var(--r)", padding: 20, textAlign: "center" }}>
             <span style={{ fontSize: 64, lineHeight: 1 }}>{q.gesture}</span>
-            {q.gesture_label && <div style={{ fontSize: 11, color: "var(--text3)", marginTop: 8, textTransform: "uppercase", letterSpacing: "0.05em" }}>{q.gesture_label}</div>}
+            {q.gesture_label && <div style={{ fontSize: 14, color: "var(--text3)", marginTop: 8, textTransform: "uppercase", letterSpacing: "0.05em" }}>{q.gesture_label}</div>}
           </div>
         )}
         {q.contesto_it && (
           <div style={{ background: "var(--card)", border: `2px solid ${CHAR_COLOR[q.personaggio]}`, borderRadius: "var(--r)", padding: "13px 15px" }}>
-            <div style={{ fontSize: 10, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico / False friend</div>
-            <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", marginBottom: 4 }}>{q.domanda.it}</div>
-            <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginBottom: 10 }}>{q.domanda.en}</div>
+            <div style={{ fontSize: 13, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico / False friend</div>
+            <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)", marginBottom: 4 }}>{q.domanda.it}</div>
+            <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic", marginBottom: 10 }}>{q.domanda.en}</div>
             <div style={{ background: "var(--bg)", borderRadius: 8, padding: "8px 11px" }}>
-              <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
-              <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", marginTop: 3 }}>{q.contesto_en}</div>
+              <div style={{ fontSize: 16, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
+              <div style={{ fontSize: 15, fontStyle: "italic", color: "var(--text3)", marginTop: 3 }}>{q.contesto_en}</div>
             </div>
           </div>
         )}
@@ -143,8 +143,8 @@ function DomandaMultipla({ q, onAnswer }) {
             } else if (selected === si) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; shadow = "0 4px 0 var(--opt-sel-b)"; }
             return (
               <button key={si} onClick={() => !confirmed && setSelected(si)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "12px 14px", textAlign: "left", fontFamily: "inherit", width: "100%", cursor: confirmed ? "default" : "pointer", transition: "background 0.15s, border 0.15s", boxShadow: shadow }}>
-                <div style={{ fontSize: 14, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
-                {getOptEn(opt) && <div style={{ fontSize: 11, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
+                <div style={{ fontSize: 17, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
+                {getOptEn(opt) && <div style={{ fontSize: 14, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
               </button>
             );
           })}
@@ -171,8 +171,8 @@ function DomandaVeroFalso({ q, onAnswer }) {
       <div style={{ flex: 1, padding: "20px 16px", display: "flex", flexDirection: "column", gap: 14, maxWidth: 480, margin: "0 auto", width: "100%", overflowY: "auto" }}>
         <CharacterBubble character={q.personaggio} text={`${q.intro} / ${q.intro_en}`} speakText={q.intro} autoSpeak={true} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} />
         <div style={{ background: "var(--card)", borderRadius: "var(--r)", border: `2px solid ${CHAR_COLOR[q.personaggio]}`, padding: "14px 15px" }}>
-          <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>{q.domanda.it}</div>
-          <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
+          <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>{q.domanda.it}</div>
+          <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
         </div>
         <div style={{ display: "flex", gap: 10 }}>
           {[true, false].map(val => {
@@ -182,7 +182,7 @@ function DomandaVeroFalso({ q, onAnswer }) {
               else if (val === selected) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
             }
             return (
-              <button key={String(val)} onClick={() => handleSelect(val)} disabled={confirmed} style={{ flex: 1, padding: 14, borderRadius: "var(--r)", border: `2px solid ${border}`, background: bg, color, fontSize: 14, fontWeight: 900, cursor: confirmed ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s" }}>
+              <button key={String(val)} onClick={() => handleSelect(val)} disabled={confirmed} style={{ flex: 1, padding: 14, borderRadius: "var(--r)", border: `2px solid ${border}`, background: bg, color, fontSize: 17, fontWeight: 900, cursor: confirmed ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s" }}>
                 {val ? "✅ Vero / True" : "❌ Falso / False"}
               </button>
             );
@@ -221,12 +221,12 @@ function DomandaAscolta({ q, onAnswer }) {
         <CharacterBubble character={q.personaggio} text={`${q.intro} / ${q.intro_en}`} speakText={q.intro} autoSpeak={true} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} />
         <div style={{ background: "var(--card)", border: `2px solid ${CHAR_COLOR[q.personaggio]}`, borderRadius: "var(--r)", padding: "13px 15px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
-            <button onClick={() => playAudio(false)} style={{ background: "#FF9B42", border: "none", borderRadius: "99px", width: 40, height: 40, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: 16, flexShrink: 0 }}>🔊</button>
-            <button onClick={() => playAudio(true)} style={{ background: "#1CB0F622", border: "1.5px solid #1CB0F644", borderRadius: "99px", padding: "5px 12px", fontSize: 11, fontWeight: 700, color: "var(--secondary)", cursor: "pointer", fontFamily: "inherit" }}>🐢 Lento / Slow</button>
-            <span style={{ fontSize: 11, color: "var(--text2)", fontStyle: "italic", flex: 1 }}>{audioLabel}</span>
+            <button onClick={() => playAudio(false)} style={{ background: "#FF9B42", border: "none", borderRadius: "99px", width: 40, height: 40, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: 18, flexShrink: 0 }}>🔊</button>
+            <button onClick={() => playAudio(true)} style={{ background: "#1CB0F622", border: "1.5px solid #1CB0F644", borderRadius: "99px", padding: "5px 12px", fontSize: 14, fontWeight: 700, color: "var(--secondary)", cursor: "pointer", fontFamily: "inherit" }}>🐢 Lento / Slow</button>
+            <span style={{ fontSize: 14, color: "var(--text2)", fontStyle: "italic", flex: 1 }}>{audioLabel}</span>
           </div>
-          <div style={{ fontSize: 15, fontWeight: 900, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
-          <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>{q.domanda.en}</div>
+          <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
+          <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>{q.domanda.en}</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
           {shuffled.map(({ o: opt }, si) => {
@@ -239,8 +239,8 @@ function DomandaAscolta({ q, onAnswer }) {
             } else if (selected === si) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; shadow = "0 4px 0 var(--opt-sel-b)"; }
             return (
               <button key={si} onClick={() => !confirmed && setSelected(si)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "12px 14px", textAlign: "left", fontFamily: "inherit", width: "100%", cursor: confirmed ? "default" : "pointer", transition: "background 0.15s, border 0.15s", boxShadow: shadow }}>
-                <div style={{ fontSize: 14, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
-                {getOptEn(opt) && <div style={{ fontSize: 11, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
+                <div style={{ fontSize: 17, fontWeight: 800, pointerEvents: "none" }}>{getOptIt(opt)}</div>
+                {getOptEn(opt) && <div style={{ fontSize: 14, fontWeight: 500, opacity: 0.75, fontStyle: "italic", marginTop: 2, pointerEvents: "none" }}>{getOptEn(opt)}</div>}
               </button>
             );
           })}
@@ -284,43 +284,43 @@ function DomandaWordBank({ q, onAnswer }) {
         <CharacterBubble character={q.personaggio} text={`${q.intro} / ${q.intro_en}`} speakText={q.intro} autoSpeak={true} feedback={feedback === "ok" ? "ok" : feedback === "err" ? "err" : null} />
         {(q.hint_it || q.hintIt) && (
           <div style={{ background: "var(--bg)", borderLeft: "3px solid #C8A0E8", borderRadius: "0 8px 8px 0", padding: "8px 11px" }}>
-            <div style={{ fontSize: 10, fontWeight: 700, color: "#C8A0E8", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>💡 Suggerimento / Hint</div>
-            <div style={{ fontSize: 13, color: "var(--text2)", lineHeight: 1.5 }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: "#C8A0E8", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 3 }}>💡 Suggerimento / Hint</div>
+            <div style={{ fontSize: 16, color: "var(--text2)", lineHeight: 1.5 }}>
               <strong>IT:</strong> {q.hint_it || q.hintIt}<br />
               <em><strong>EN:</strong> {q.hint_en || q.hintEn}</em>
             </div>
           </div>
         )}
-        <div style={{ fontSize: 11, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em" }}>Componi la frase / Build the sentence — tocca per rimuovere / tap to remove:</div>
+        <div style={{ fontSize: 14, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em" }}>Componi la frase / Build the sentence — tocca per rimuovere / tap to remove:</div>
         <div style={{ background: "var(--bg)", border: `2px dashed ${feedback === "ok" ? "var(--ok-text)" : feedback === "err" ? "var(--err-text)" : "var(--border)"}`, borderRadius: "var(--r)", padding: "10px 12px", minHeight: 50, display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center", transition: "border-color 0.2s" }}>
           {target.length === 0
-            ? <span style={{ color: "var(--text3)", fontSize: 12 }}>Tocca le parole qui sotto / Tap words below</span>
-            : target.map((w, i) => <button key={i} onClick={() => removeWord(i)} style={{ background: "#C8A0E818", border: "2px solid #C8A0E8", borderRadius: 8, padding: "6px 12px", fontSize: 13, fontWeight: 800, color: "#C8A0E8", cursor: feedback === "ok" ? "default" : "pointer", fontFamily: "inherit" }}>{w}</button>)}
+            ? <span style={{ color: "var(--text3)", fontSize: 15 }}>Tocca le parole qui sotto / Tap words below</span>
+            : target.map((w, i) => <button key={i} onClick={() => removeWord(i)} style={{ background: "#C8A0E818", border: "2px solid #C8A0E8", borderRadius: 8, padding: "6px 12px", fontSize: 16, fontWeight: 800, color: "#C8A0E8", cursor: feedback === "ok" ? "default" : "pointer", fontFamily: "inherit" }}>{w}</button>)}
         </div>
-        <div style={{ fontSize: 11, color: "var(--text3)", textAlign: "right" }}>{target.length}/{correct.length} parole / words</div>
+        <div style={{ fontSize: 14, color: "var(--text3)", textAlign: "right" }}>{target.length}/{correct.length} parole / words</div>
         <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
           {shuffled.map((w, i) => {
             const avail = pool.filter(x => x === w).length;
             const isUsed = (usedCounts[w] || 0) >= avail;
-            return <button key={i} onClick={() => !isUsed && feedback !== "ok" && addWord(w)} disabled={isUsed || feedback === "ok"} style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: 8, padding: "6px 12px", fontSize: 13, fontWeight: 800, color: "var(--text)", cursor: isUsed ? "not-allowed" : "pointer", opacity: isUsed ? 0.25 : 1, fontFamily: "inherit", transition: "all 0.15s" }}>{w}</button>;
+            return <button key={i} onClick={() => !isUsed && feedback !== "ok" && addWord(w)} disabled={isUsed || feedback === "ok"} style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: 8, padding: "6px 12px", fontSize: 16, fontWeight: 800, color: "var(--text)", cursor: isUsed ? "not-allowed" : "pointer", opacity: isUsed ? 0.25 : 1, fontFamily: "inherit", transition: "all 0.15s" }}>{w}</button>;
           })}
         </div>
         {feedback && (
           <div style={{ background: fbBg, border: `1.5px solid ${fbBorder}`, borderRadius: "var(--r)", padding: "11px 14px" }}>
-            <div style={{ fontSize: 13, fontWeight: 900, color: fbColor, marginBottom: 2 }}>
+            <div style={{ fontSize: 16, fontWeight: 900, color: fbColor, marginBottom: 2 }}>
               {feedback === "ok" ? "✅ Esatto! / Correct!" : feedback === "incomplete" ? "⚠️ Incompleta / Incomplete" : "❌ Non corretto / Wrong"}
             </div>
-            <div style={{ fontSize: 12, fontWeight: 700, color: fbColor, lineHeight: 1.5 }}>
+            <div style={{ fontSize: 15, fontWeight: 700, color: fbColor, lineHeight: 1.5 }}>
               {feedback === "ok" ? q.feedbackOk?.it : feedback === "incomplete" ? "Aggiungi altre parole! / Add more words!" : q.feedbackErr?.it}
             </div>
-            {feedback !== "incomplete" && <div style={{ fontSize: 11, color: fbColor, opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{feedback === "ok" ? q.feedbackOk?.en : q.feedbackErr?.en}</div>}
+            {feedback !== "incomplete" && <div style={{ fontSize: 14, color: fbColor, opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{feedback === "ok" ? q.feedbackOk?.en : q.feedbackErr?.en}</div>}
           </div>
         )}
       </div>
       {feedback === "ok"
-        ? <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}><div style={{ maxWidth: 480, margin: "0 auto" }}><button onClick={() => { window.speechSynthesis?.cancel(); onAnswer(true); }} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "var(--secondary)", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0" }}>Avanti / Next →</button></div></div>
+        ? <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}><div style={{ maxWidth: 480, margin: "0 auto" }}><button onClick={() => { window.speechSynthesis?.cancel(); onAnswer(true); }} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "var(--secondary)", color: "white", fontSize: 18, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0" }}>Avanti / Next →</button></div></div>
         : feedback === "err" || feedback === "incomplete"
-          ? <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}><div style={{ maxWidth: 480, margin: "0 auto" }}><button onClick={handleRetry} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "#E5B700", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #b8920b" }}>🔁 Riprova / Try again</button></div></div>
+          ? <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}><div style={{ maxWidth: 480, margin: "0 auto" }}><button onClick={handleRetry} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "#E5B700", color: "white", fontSize: 18, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #b8920b" }}>🔁 Riprova / Try again</button></div></div>
           : <CheckBar disabled={target.length === 0} onCheck={handleCheck} />}
     </>
   );
@@ -356,7 +356,7 @@ function DomandaAbbina({ q, onAnswer }) {
               if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
               else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
               else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
-              return <button key={it} onClick={() => !isMatched && handleIT(it)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "11px 12px", fontSize: 13, fontWeight: 800, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left" }}>{it}</button>;
+              return <button key={it} onClick={() => !isMatched && handleIT(it)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "11px 12px", fontSize: 16, fontWeight: 800, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left" }}>{it}</button>;
             })}
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -366,22 +366,22 @@ function DomandaAbbina({ q, onAnswer }) {
               if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
               else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
               else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
-              return <button key={en} onClick={() => !isMatched && handleEN(en)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "11px 12px", fontSize: 12, fontWeight: 700, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left", fontStyle: "italic" }}>{en}</button>;
+              return <button key={en} onClick={() => !isMatched && handleEN(en)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "11px 12px", fontSize: 15, fontWeight: 700, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left", fontStyle: "italic" }}>{en}</button>;
             })}
           </div>
         </div>
         {allMatched && (
           <div style={{ background: "var(--ok-bar)", border: "1.5px solid var(--ok-text)", borderRadius: "var(--r)", padding: "11px 14px" }}>
-            <div style={{ fontSize: 13, fontWeight: 900, color: "var(--ok-text)", marginBottom: 2 }}>✅ Esatto! / Correct!</div>
-            <div style={{ fontSize: 12, color: "var(--ok-text)", lineHeight: 1.5 }}>{q.feedbackOk?.it}</div>
-            <div style={{ fontSize: 11, color: "var(--ok-text)", opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{q.feedbackOk?.en}</div>
+            <div style={{ fontSize: 16, fontWeight: 900, color: "var(--ok-text)", marginBottom: 2 }}>✅ Esatto! / Correct!</div>
+            <div style={{ fontSize: 15, color: "var(--ok-text)", lineHeight: 1.5 }}>{q.feedbackOk?.it}</div>
+            <div style={{ fontSize: 14, color: "var(--ok-text)", opacity: 0.7, fontStyle: "italic", marginTop: 2 }}>{q.feedbackOk?.en}</div>
           </div>
         )}
       </div>
       {allMatched && (
         <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)", flexShrink: 0 }}>
           <div style={{ maxWidth: 480, margin: "0 auto" }}>
-            <button onClick={() => { window.speechSynthesis?.cancel(); onAnswer(true); }} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "var(--secondary)", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0" }}>Avanti / Next →</button>
+            <button onClick={() => { window.speechSynthesis?.cancel(); onAnswer(true); }} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", border: "none", background: "var(--secondary)", color: "white", fontSize: 18, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px", boxShadow: "0 4px 0 #0e7cb0" }}>Avanti / Next →</button>
           </div>
         </div>
       )}
@@ -406,14 +406,14 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
     <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-          <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+          <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
+            <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
               Unità {unita} · Lezione {lezione} / Unit {unita} · Lesson {lezione}
             </div>
-            <div style={{ fontSize: 10, color: "var(--text3)", marginTop: 1 }}>{lesson.title}</div>
+            <div style={{ fontSize: 13, color: "var(--text3)", marginTop: 1 }}>{lesson.title}</div>
           </div>
-          <div style={{ fontSize: 10, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}66`, borderRadius: 99, padding: "3px 9px" }}>
+          <div style={{ fontSize: 13, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}66`, borderRadius: 99, padding: "3px 9px" }}>
             {unitType.emoji} {unitType.it === "Esplorazione" ? "Nuovi contenuti / New content" : "Ripasso / Review"}
           </div>
         </div>
@@ -430,9 +430,9 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
               <div style={{ fontSize: 44, lineHeight: 1, flexShrink: 0 }}>{v.emoji}</div>
               <div style={{ flex: 1 }}>
                 <div style={{ fontWeight: 900, fontSize: 20, color: toccata ? "var(--opt-sel-text)" : "var(--text)", marginBottom: 2 }}>{v.it}</div>
-                <div style={{ fontSize: 13, color: "var(--text3)", fontWeight: 700 }}>{v.en}</div>
+                <div style={{ fontSize: 16, color: "var(--text3)", fontWeight: 700 }}>{v.en}</div>
                 {toccata && v.mario && (
-                  <div style={{ fontSize: 12, color: "var(--text2)", fontStyle: "italic", marginTop: 5, lineHeight: 1.4 }}>
+                  <div style={{ fontSize: 15, color: "var(--text2)", fontStyle: "italic", marginTop: 5, lineHeight: 1.4 }}>
                     <FraseAnnotata testo={v.mario} annotazioni={v.annotazioni || []} />
                   </div>
                 )}
@@ -444,7 +444,7 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
       </div>
       <div style={{ padding: "14px 16px", background: "var(--card)", borderTop: "2px solid var(--border)" }}>
         <div style={{ maxWidth: 480, margin: "0 auto" }}>
-          <button onClick={tutteVisitate ? onComplete : undefined} disabled={!tutteVisitate} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 15, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: tutteVisitate ? "var(--primary)" : "var(--dis-bg)", color: tutteVisitate ? "white" : "var(--dis-text)", boxShadow: tutteVisitate ? "0 4px 0 var(--primary-d)" : "none", cursor: tutteVisitate ? "pointer" : "not-allowed" }}>
+          <button onClick={tutteVisitate ? onComplete : undefined} disabled={!tutteVisitate} style={{ width: "100%", padding: 15, borderRadius: "var(--r)", fontSize: 18, fontWeight: 900, letterSpacing: "0.6px", border: "none", textTransform: "uppercase", fontFamily: "inherit", background: tutteVisitate ? "var(--primary)" : "var(--dis-bg)", color: tutteVisitate ? "white" : "var(--dis-text)", boxShadow: tutteVisitate ? "0 4px 0 var(--primary-d)" : "none", cursor: tutteVisitate ? "pointer" : "not-allowed" }}>
             {tutteVisitate ? "Inizia il Quiz / Start Quiz →" : `Scopri tutte le parole (${toccate.size}/${lesson.vocab.length})`}
           </button>
         </div>
@@ -480,14 +480,14 @@ function QuizFase({ lesson, unitType, unita, lezione, onComplete }) {
     <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", display: "flex", alignItems: "center", gap: 12, flexShrink: 0 }}>
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 2, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 2, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+                <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
                 Unità {unita} · {current + 1}/{total}
               </span>
             <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-              <span style={{ color: "var(--text3)", fontWeight: 600, textTransform: "none", fontSize: 10 }}>{faseMap[q?.fase] || ""}</span>
-              <div style={{ fontSize: 9, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}55`, borderRadius: 99, padding: "2px 7px" }}>
+              <span style={{ color: "var(--text3)", fontWeight: 600, textTransform: "none", fontSize: 13 }}>{faseMap[q?.fase] || ""}</span>
+              <div style={{ fontSize: 12, fontWeight: 800, color: unitType.color, background: `${unitType.color}22`, border: `1px solid ${unitType.color}55`, borderRadius: 99, padding: "2px 7px" }}>
                 {unitType.emoji} {unitType.it}
               </div>
             </div>
@@ -496,7 +496,7 @@ function QuizFase({ lesson, unitType, unita, lezione, onComplete }) {
             <div style={{ width: `${25 + Math.round((current / total) * 75)}%`, height: "100%", background: "var(--primary)", borderRadius: 99, transition: "width 0.4s ease" }} />
           </div>
         </div>
-        <span style={{ fontSize: 13, fontWeight: 900, color: "var(--primary)" }}>{score} ✅</span>
+        <span style={{ fontSize: 16, fontWeight: 900, color: "var(--primary)" }}>{score} ✅</span>
       </div>
       {q && <DomandaRouter key={current} q={q} onAnswer={handleAnswer} />}
     </main>
@@ -524,7 +524,7 @@ export default function LessonPage() {
     <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 48, marginBottom: 12 }}>☕</div>
-        <p style={{ fontSize: 14, color: "var(--text3)" }}>Caricamento... / Loading...</p>
+        <p style={{ fontSize: 17, color: "var(--text3)" }}>Caricamento... / Loading...</p>
       </div>
     </main>
   );
@@ -533,9 +533,9 @@ export default function LessonPage() {
     <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 48, marginBottom: 12 }}>😅</div>
-        <p style={{ fontSize: 15, fontWeight: 800, color: "var(--err-text)", marginBottom: 8 }}>Lezione non trovata / Lesson not found</p>
-        <p style={{ fontSize: 12, color: "var(--text3)", marginBottom: 16 }}>{livello} / Unità {unita} / Lezione {lezione}</p>
-        <button onClick={() => router.push("/")} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+        <p style={{ fontSize: 18, fontWeight: 800, color: "var(--err-text)", marginBottom: 8 }}>Lezione non trovata / Lesson not found</p>
+        <p style={{ fontSize: 15, color: "var(--text3)", marginBottom: 16 }}>{livello} / Unità {unita} / Lezione {lezione}</p>
+        <button onClick={() => router.push("/")} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
       </div>
     </main>
   );

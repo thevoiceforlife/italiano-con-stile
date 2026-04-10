@@ -59,10 +59,10 @@ function StreakBar({ streak }) {
   return (
     <div style={{ marginTop: 8, paddingTop: 10, borderTop: '1px solid var(--border)' }}>
       <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom: 6 }}>
-        <span style={{ fontSize:11, fontWeight:700, color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.05em' }}>
+        <span style={{ fontSize:14, fontWeight:700, color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.05em' }}>
           🔥 Streak settimanale / Weekly streak
         </span>
-        <span style={{ fontSize:11, fontWeight:700, color:'#E5B700' }}>
+        <span style={{ fontSize:14, fontWeight:700, color:'#E5B700' }}>
           Dom/Sun: {bonusTxt}
         </span>
       </div>
@@ -90,7 +90,7 @@ function StreakBar({ streak }) {
                 {done ? '✅' : isToday ? '·' : '·'}
               </div>
               <div style={{
-                fontSize:9, marginTop:2, fontWeight:700,
+                fontSize:12, marginTop:2, fontWeight:700,
                 // FIX: label in giallo per oggi, grigio per gli altri
                 color: isToday ? '#E5B700' : 'var(--text3)',
               }}>
@@ -100,7 +100,7 @@ function StreakBar({ streak }) {
           );
         })}
       </div>
-      <div style={{ fontSize:10, color:'var(--text3)', marginTop:5, textAlign:'center' }}>
+      <div style={{ fontSize:13, color:'var(--text3)', marginTop:5, textAlign:'center' }}>
         {active} giorni attivi · giorno attivo = ≥2 lezioni / active day = ≥2 lessons
       </div>
     </div>
@@ -186,7 +186,7 @@ export default function XPBar() {
           <div style={{
             background:'#1a1200', border:'1px solid #E5B70066',
             borderRadius:8, padding:'8px 12px',
-            fontSize:12, color:'#E5B700', fontWeight:700,
+            fontSize:15, color:'#E5B700', fontWeight:700,
             display:'flex', justifyContent:'space-between', alignItems:'center',
             animation:'fadeIn 0.3s ease',
           }}>
@@ -197,7 +197,7 @@ export default function XPBar() {
             </span>
             <button onClick={() => setSundayMsg(null)} style={{
               background:'none', border:'none', color:'#E5B700',
-              cursor:'pointer', fontSize:16, lineHeight:1,
+              cursor:'pointer', fontSize:18, lineHeight:1,
             }}>✕</button>
           </div>
         )}
@@ -207,15 +207,15 @@ export default function XPBar() {
             <span style={{ fontSize:20 }}>
               {isOver ? '⚡' : energy >= 60 ? '🔋' : energy >= 26 ? '🔋' : '🪫'}
             </span>
-            <span style={{ color:'var(--text)', fontSize:13, fontWeight:700 }}>
+            <span style={{ color:'var(--text)', fontSize:16, fontWeight:700 }}>
               Energia / Energy
             </span>
           </div>
           <div style={{ display:'flex', alignItems:'center', gap:8 }}>
-            <span style={{ color:mainColor, fontSize:15, fontWeight:800, fontVariantNumeric:'tabular-nums', transition:'color 0.4s' }}>
+            <span style={{ color:mainColor, fontSize:18, fontWeight:800, fontVariantNumeric:'tabular-nums', transition:'color 0.4s' }}>
               {Math.round(energy)}%
             </span>
-            <span style={{ color:'var(--text3)', fontSize:10, fontWeight:600 }}>
+            <span style={{ color:'var(--text3)', fontSize:13, fontWeight:600 }}>
               {label.it}
             </span>
           </div>
@@ -254,7 +254,7 @@ export default function XPBar() {
             { pct:60, emoji:'🏙️', label:'Città' },
             { pct:90, emoji:'🏛️', label:'Capitali' },
           ].map(({ pct, emoji, label: lbl }) => (
-            <span key={pct} style={{ fontSize:9, fontWeight:700,
+            <span key={pct} style={{ fontSize:12, fontWeight:700,
               color: energy >= pct ? '#58CC02' : 'var(--text3)' }}>
               {emoji} {pct}% {lbl}
             </span>

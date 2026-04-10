@@ -45,7 +45,7 @@ function EnergyMiniBar({ prima, dopo }) {
   const pctDopo  = Math.min(dopo,  100);
   return (
     <div style={{ marginTop:6 }}>
-      <div style={{ display:'flex', justifyContent:'space-between', fontSize:11, color:'var(--text2)', marginBottom:4 }}>
+      <div style={{ display:'flex', justifyContent:'space-between', fontSize:14, color:'var(--text2)', marginBottom:4 }}>
         <span>{Math.round(prima)}%</span>
         <span style={{ color, fontWeight:800 }}>→ {Math.round(dopo)}%{dopo > 100 ? ' ⚡🚀' : ''}</span>
       </div>
@@ -78,20 +78,20 @@ function PopupSad({ onRetry, onHome }) {
       <div style={{ fontSize:20, fontWeight:900, color:'var(--text)', marginBottom:8 }}>
         Nessun punto oggi / No points today
       </div>
-      <div style={{ fontSize:13, color:'var(--text2)', lineHeight:1.6, marginBottom:24 }}>
+      <div style={{ fontSize:16, color:'var(--text2)', lineHeight:1.6, marginBottom:24 }}>
         Riprova per guadagnare energia e crediti viaggio! /
         Try again to earn energy and travel credits!
       </div>
       <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
         <button onClick={onRetry} style={{
           background:'var(--primary)', color:'#fff', border:'none',
-          borderRadius:'var(--r)', padding:'14px', fontSize:15, fontWeight:900,
+          borderRadius:'var(--r)', padding:'14px', fontSize:18, fontWeight:900,
           cursor:'pointer', fontFamily:'inherit', boxShadow:'0 4px 0 var(--primary-d)',
           textTransform:'uppercase', letterSpacing:'0.6px',
         }}>
           🔁 Riprova / Try again
         </button>
-        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
       </div>
     </div>
   );
@@ -114,10 +114,10 @@ function PopupMenuCompleto({ reward, onBoss }) {
       {showConfetti && <Confetti />}
       <div style={{ textAlign:'center', padding:'24px' }}>
         <div style={{ fontSize:48, marginBottom:8 }}>🎊</div>
-        <div style={{ fontSize:19, fontWeight:900, color:'#E5B700', marginBottom:4 }}>
+        <div style={{ fontSize:21, fontWeight:900, color:'#E5B700', marginBottom:4 }}>
           MENU NAPOLETANO COMPLETATO!
         </div>
-        <div style={{ fontSize:13, color:'var(--text2)', marginBottom:20 }}>
+        <div style={{ fontSize:16, color:'var(--text2)', marginBottom:20 }}>
           Complete Neapolitan Menu! Hai conquistato tutto! 🇮🇹
         </div>
 
@@ -126,7 +126,7 @@ function PopupMenuCompleto({ reward, onBoss }) {
             <div key={it.emoji} style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
               <span style={{ fontSize:20 }}>{it.emoji}</span>
               <span style={{ color:'var(--text)', fontWeight:700, flex:1, textAlign:'left', marginLeft:10 }}>{it.nome}</span>
-              <span style={{ color:'#58CC02', fontWeight:900, fontSize:13 }}>+{it.pct}%</span>
+              <span style={{ color:'#58CC02', fontWeight:900, fontSize:16 }}>+{it.pct}%</span>
             </div>
           ))}
           <div style={{ borderTop:'1px solid var(--border)', marginTop:8, paddingTop:8, display:'flex', justifyContent:'space-between' }}>
@@ -139,7 +139,7 @@ function PopupMenuCompleto({ reward, onBoss }) {
           </div>
         </div>
 
-        <div style={{ fontSize:13, color:'var(--text2)', marginBottom:20, lineHeight:1.5 }}>
+        <div style={{ fontSize:16, color:'var(--text2)', marginBottom:20, lineHeight:1.5 }}>
           ☕ Domani si ricomincia con un buon caffè! /
           Tomorrow the menu awaits again!
         </div>
@@ -148,7 +148,7 @@ function PopupMenuCompleto({ reward, onBoss }) {
           background:'linear-gradient(135deg, #1a1a2e, #2a1500)',
           color:'#E5B700', border:'2px solid #E5B700',
           borderRadius:'var(--r)', padding:'14px',
-          fontSize:15, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
+          fontSize:18, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
           boxShadow:'0 0 20px #E5B70044', width:'100%',
           textTransform:'uppercase', letterSpacing:'0.6px',
         }}>
@@ -170,7 +170,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
       {/* Cibo guadagnato */}
       <div style={{ textAlign:'center', marginBottom:20 }}>
         <div style={{ fontSize:56 }}>{reward.ciboEmoji}</div>
-        <div style={{ fontSize:18, fontWeight:900, color:'var(--text)', marginTop:8 }}>
+        <div style={{ fontSize:20, fontWeight:900, color:'var(--text)', marginTop:8 }}>
           {isPizza
             ? reward.spicchi === 4
               ? '🍕 Pizza intera guadagnata!'
@@ -179,11 +179,11 @@ function PopupNormale({ reward, onContinua, onHome }) {
           }
         </div>
         {isBoss && reward.nonna && (
-          <div style={{ fontSize:13, color:'#E5B700', fontStyle:'italic', marginTop:6, lineHeight:1.5 }}>
+          <div style={{ fontSize:16, color:'#E5B700', fontStyle:'italic', marginTop:6, lineHeight:1.5 }}>
             "{reward.nonna.msg}" / "{reward.nonna.msgEN}"
           </div>
         )}
-        <div style={{ fontSize:12, color:'var(--text3)', marginTop:4 }}>
+        <div style={{ fontSize:15, color:'var(--text3)', marginTop:4 }}>
           {reward.corrette}/{reward.totDomande} risposte corrette
           {reward.isReplay ? ' — replay' : ''}
         </div>
@@ -194,7 +194,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
         background:'var(--bg)', borderRadius:12,
         border:'1px solid var(--border)', padding:'12px 14px', marginBottom:12,
       }}>
-        <div style={{ fontSize:12, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
+        <div style={{ fontSize:15, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
           ⚡ Energia guadagnata / Energy gained
         </div>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
@@ -204,7 +204,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
           </span>
           {reward.isReplay && reward.deltaEnergia !== 0 && (
             <span style={{
-              fontSize:11, fontWeight:700,
+              fontSize:14, fontWeight:700,
               color: reward.deltaEnergia > 0 ? '#58CC02' : '#FF4B4B',
             }}>
               {reward.deltaEnergia > 0 ? '+' : ''}{reward.deltaEnergia}% vs precedente
@@ -214,9 +214,9 @@ function PopupNormale({ reward, onContinua, onHome }) {
         <EnergyMiniBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
 
         {isPizza && reward.spicchi < 4 && (
-          <div style={{ marginTop:8, fontSize:11, color:'var(--text3)' }}>
+          <div style={{ marginTop:8, fontSize:14, color:'var(--text3)' }}>
             {Array.from({ length: 4 }, (_, i) => (
-              <span key={i} style={{ fontSize:18, opacity: i < reward.spicchi ? 1 : 0.25 }}>🍕</span>
+              <span key={i} style={{ fontSize:20, opacity: i < reward.spicchi ? 1 : 0.25 }}>🍕</span>
             ))}
             <span style={{ marginLeft:6 }}>ancora {4 - reward.spicchi} spicch{4 - reward.spicchi === 1 ? 'io' : 'i'} per la pizza intera!</span>
           </div>
@@ -228,30 +228,30 @@ function PopupNormale({ reward, onContinua, onHome }) {
         background:'var(--bg)', borderRadius:12,
         border:'1px solid var(--border)', padding:'12px 14px', marginBottom:16,
       }}>
-        <div style={{ fontSize:12, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
+        <div style={{ fontSize:15, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
           🎫 Crediti viaggio / Travel credits
         </div>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
-          <span style={{ fontSize:13, color:'var(--text2)' }}>
+          <span style={{ fontSize:16, color:'var(--text2)' }}>
             {reward.corrette} risposte × 2
           </span>
-          <span style={{ fontSize:13, fontWeight:700, color:'var(--text)' }}>+{reward.creditiBase ?? 0} cr</span>
+          <span style={{ fontSize:16, fontWeight:700, color:'var(--text)' }}>+{reward.creditiBase ?? 0} cr</span>
         </div>
         {reward.creditiBonus > 0 && (
           <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
-            <span style={{ fontSize:13, color:'#E5B700' }}>⭐ Bonus perfetto</span>
-            <span style={{ fontSize:13, fontWeight:700, color:'#E5B700' }}>+{reward.creditiBonus} cr</span>
+            <span style={{ fontSize:16, color:'#E5B700' }}>⭐ Bonus perfetto</span>
+            <span style={{ fontSize:16, fontWeight:700, color:'#E5B700' }}>+{reward.creditiBonus} cr</span>
           </div>
         )}
         <div style={{ borderTop:'1px solid var(--border)', marginTop:6, paddingTop:6, display:'flex', justifyContent:'space-between' }}>
-          <span style={{ fontSize:13, fontWeight:800, color:'var(--text)' }}>Totale</span>
-          <span style={{ fontSize:13, fontWeight:900, color:'#58CC02' }}>
+          <span style={{ fontSize:16, fontWeight:800, color:'var(--text)' }}>Totale</span>
+          <span style={{ fontSize:16, fontWeight:900, color:'#58CC02' }}>
             +{reward.crediti} cr
             {!reward.perfetto && <span style={{ color:'var(--text3)', fontWeight:600 }}> (max: 21 cr)</span>}
           </span>
         </div>
         {reward.isReplay && reward.deltaCrediti !== 0 && (
-          <div style={{ fontSize:11, color: reward.deltaCrediti > 0 ? '#58CC02' : '#FF4B4B', marginTop:4 }}>
+          <div style={{ fontSize:14, color: reward.deltaCrediti > 0 ? '#58CC02' : '#FF4B4B', marginTop:4 }}>
             {reward.deltaCrediti > 0 ? '+' : ''}{reward.deltaCrediti} cr vs sessione precedente
           </div>
         )}
@@ -262,7 +262,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
         <div style={{
           background:'#1a1200', border:'1px solid #E5B70044',
           borderRadius:8, padding:'8px 12px',
-          fontSize:11, color:'#E5B700', textAlign:'center', marginBottom:14,
+          fontSize:14, color:'#E5B700', textAlign:'center', marginBottom:14,
         }}>
           🔁 Riprova per ottenere tutti i crediti! / Retry for max credits!
         </div>
@@ -270,11 +270,11 @@ function PopupNormale({ reward, onContinua, onHome }) {
 
       {/* Bottoni */}
       <div style={{ display:'flex', gap:10 }}>
-        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
         <button onClick={onContinua} style={{
           flex:2, background:'var(--primary)', color:'#fff', border:'none',
           borderRadius:'var(--r)', padding:'14px',
-          fontSize:14, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
+          fontSize:17, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
           boxShadow:'0 4px 0 var(--primary-d)',
           textTransform:'uppercase', letterSpacing:'0.6px',
         }}>Continua →</button>
@@ -322,7 +322,7 @@ export default function LessonComplete({ reward, onHome }) {
           padding:'14px 20px', textAlign:'center',
         }}>
           <div style={{
-            fontSize:13, fontWeight:900, textTransform:'uppercase', letterSpacing:'1px',
+            fontSize:16, fontWeight:900, textTransform:'uppercase', letterSpacing:'1px',
             color: reward.tipo === 'sad' ? 'var(--err-text)' : reward.menuCompleto ? '#E5B700' : 'var(--primary)',
           }}>
             {reward.tipo === 'sad'

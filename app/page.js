@@ -317,9 +317,9 @@ export default function Home() {
 
             {/* 4. CAPTION — stesso rigo */}
             <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, width:"100%", flexWrap:"wrap" }}>
-              <span style={{ fontSize:13, fontWeight:700, color:"rgba(255,255,255,0.65)" }}>Benvenuto al Bar di Mario</span>
-              <span style={{ fontSize:11, color:"rgba(255,255,255,0.2)" }}>·</span>
-              <span style={{ fontSize:12, color:"rgba(255,255,255,0.3)", fontStyle:"italic" }}>Welcome to Mario's Bar</span>
+              <span style={{ fontSize:16, fontWeight:700, color:"rgba(255,255,255,0.65)" }}>Benvenuto al Bar di Mario</span>
+              <span style={{ fontSize:14, color:"rgba(255,255,255,0.2)" }}>·</span>
+              <span style={{ fontSize:15, color:"rgba(255,255,255,0.3)", fontStyle:"italic" }}>Welcome to Mario's Bar</span>
             </div>
 
             <div style={{ width:"100%", height:1, background:"rgba(255,255,255,0.08)" }} />
@@ -327,14 +327,14 @@ export default function Home() {
             {/* 5. PULSANTE VERDE */}
             <button
               onClick={() => setShowOnboarding(true)}
-              style={{ width:"100%", padding:"15px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:14, fontWeight:900, cursor:"pointer", fontFamily:"inherit", lineHeight:1.4, textAlign:"center" }}
+              style={{ width:"100%", padding:"15px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:17, fontWeight:900, cursor:"pointer", fontFamily:"inherit", lineHeight:1.4, textAlign:"center" }}
             >
               L'italiano inizia qui →
 Italian starts here
             </button>
 
             {/* 6. HINT */}
-            <div style={{ fontSize:10, color:"rgba(255,255,255,0.25)", textAlign:"center" }}>
+            <div style={{ fontSize:13, color:"rgba(255,255,255,0.25)", textAlign:"center" }}>
               Gratis · Nessuna carta / Free · No credit card
             </div>
 
@@ -369,7 +369,7 @@ Italian starts here
 
           {/* PERSONAGGI */}
           <section>
-            <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:14 }}>
+            <div style={{ fontSize:13, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:14 }}>
               I tuoi compagni / Your companions
             </div>
             <div style={{ display:"flex", gap:"clamp(6px,2vw,16px)", justifyContent:"space-between" }}>
@@ -387,7 +387,7 @@ Italian starts here
                   >
                     <img src={`/images/${c.id}.png`} alt={c.name} style={{ width:"100%", height:"100%", objectFit:"cover", borderRadius:"50%" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML += `<span style="font-size:22px">${c.emoji}</span>`; }} />
                   </div>
-                  <div style={{ fontSize:10, color:"var(--text3)", textAlign:"center" }}>{c.name}</div>
+                  <div style={{ fontSize:13, color:"var(--text3)", textAlign:"center" }}>{c.name}</div>
                 </div>
               ))}
             </div>
@@ -396,7 +396,7 @@ Italian starts here
           {/* PROSSIMA LEZIONE */}
           {nextLesson && (
             <section style={{ display:"flex", flexDirection:"column", gap:12 }}>
-              <div style={{ fontSize:10, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px" }}>
+              <div style={{ fontSize:13, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px" }}>
                 {isFirstLesson ? "Prima lezione / First lesson" : "In corso / Current lesson"}
               </div>
 
@@ -407,13 +407,13 @@ Italian starts here
                     <img src="/images/mario.png" alt="Mario" style={{ width:"100%", height:"100%", objectFit:"cover" }} onError={e => { e.target.style.display='none'; e.target.parentNode.innerHTML='<span style="font-size:22px">🧑</span>'; }} />
                   </div>
                   <div style={{ flex:1 }}>
-                    <div style={{ fontSize:11, fontWeight:700, color:"#58cc02", marginBottom:2 }}>
+                    <div style={{ fontSize:14, fontWeight:700, color:"#58cc02", marginBottom:2 }}>
                       {ctaLabelTop}
                     </div>
-                    <div style={{ fontSize:14, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
+                    <div style={{ fontSize:17, fontWeight:900, color:"var(--text)", marginBottom:3 }}>
                       {nextLesson.titleIT} / {nextLesson.titleEN}
                     </div>
-                    <div style={{ fontSize:11, color:"var(--text3)" }}>
+                    <div style={{ fontSize:14, color:"var(--text3)" }}>
                       Unità {nextLesson.unita} / Unit {nextLesson.unita} · {nextLesson.livello} · ~5 min
                     </div>
                   </div>
@@ -422,7 +422,7 @@ Italian starts here
                 <button
                   className="btn-breathe"
                   onClick={() => router.push(`/lesson/${nextLesson.livello}/${nextLesson.unita}/${nextLesson.id}`)}
-                  style={{ width:"100%", padding:"16px", background:"#58cc02", color:"#fff", border:"none", fontSize:16, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
+                  style={{ width:"100%", padding:"16px", background:"#58cc02", color:"#fff", border:"none", fontSize:18, fontWeight:900, cursor:"pointer", fontFamily:"inherit", letterSpacing:"0.5px" }}
                 >
                   {ctaLabel}
                 </button>
@@ -431,7 +431,7 @@ Italian starts here
               {/* PULSANTE PROFILO + PERCORSO */}
               <button
                 onClick={() => router.push('/dashboard')}
-                style={{ width:"100%", padding:"9px 14px", background:"transparent", color:"rgba(255,255,255,0.45)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:12, fontSize:12, fontWeight:600, cursor:"pointer", fontFamily:"inherit", display:"flex", alignItems:"center", gap:8 }}
+                style={{ width:"100%", padding:"9px 14px", background:"transparent", color:"rgba(255,255,255,0.45)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:12, fontSize:15, fontWeight:600, cursor:"pointer", fontFamily:"inherit", display:"flex", alignItems:"center", gap:8 }}
               >
                 <span>👤</span>
                 <span style={{ flex:1, textAlign:"left" }}>Profile & Learning Path</span>

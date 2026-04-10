@@ -50,17 +50,17 @@ function EditProfileModal({ avatar, nickname, onSave, onClose }) {
   return (
     <div onClick={onClose} style={{position:'fixed',inset:0,zIndex:300,background:'rgba(0,0,0,0.65)',display:'flex',alignItems:'center',justifyContent:'center',padding:24}}>
       <div onClick={e=>e.stopPropagation()} style={{background:'var(--card)',borderRadius:20,border:'1.5px solid var(--border)',padding:24,maxWidth:340,width:'100%'}}>
-        <div style={{fontSize:16,fontWeight:900,color:'var(--text)',marginBottom:16}}>Modifica profilo / Edit profile</div>
-        <div style={{fontSize:11,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',marginBottom:8}}>Avatar</div>
+        <div style={{fontSize:18,fontWeight:900,color:'var(--text)',marginBottom:16}}>Modifica profilo / Edit profile</div>
+        <div style={{fontSize:14,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',marginBottom:8}}>Avatar</div>
         <div style={{display:'flex',gap:8,flexWrap:'wrap',marginBottom:18}}>
           {DEFAULT_AVATARS.map(a=>(
             <button key={a} onClick={()=>setAv(a)} style={{fontSize:24,width:44,height:44,borderRadius:'50%',border:`2.5px solid ${a===av?'var(--primary)':'var(--border)'}`,background:a===av?'var(--opt-sel-bg)':'var(--card)',cursor:'pointer',display:'flex',alignItems:'center',justifyContent:'center'}}>{a}</button>
           ))}
         </div>
-        <div style={{fontSize:11,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',marginBottom:8}}>Nickname (max 20)</div>
-        <input value={nick} onChange={e=>setNick(e.target.value.slice(0,20))} style={{width:'100%',padding:'10px 12px',background:'var(--bg)',border:'1.5px solid var(--border)',borderRadius:10,fontSize:14,color:'var(--text)',fontFamily:'inherit',outline:'none',marginBottom:18}} placeholder="es. Turista_1234" />
-        <button onClick={save} style={{width:'100%',padding:13,borderRadius:12,border:'none',background:'var(--primary)',color:'white',fontSize:14,fontWeight:900,cursor:'pointer',fontFamily:'inherit',textTransform:'uppercase',letterSpacing:'0.6px',marginBottom:10}}>Salva / Save</button>
-        <button onClick={onClose} style={{width:'100%',padding:11,borderRadius:12,border:'1.5px solid var(--border)',background:'none',fontSize:13,fontWeight:800,color:'var(--text2)',cursor:'pointer',fontFamily:'inherit'}}>Annulla / Cancel</button>
+        <div style={{fontSize:14,fontWeight:700,color:'var(--text3)',textTransform:'uppercase',marginBottom:8}}>Nickname (max 20)</div>
+        <input value={nick} onChange={e=>setNick(e.target.value.slice(0,20))} style={{width:'100%',padding:'10px 12px',background:'var(--bg)',border:'1.5px solid var(--border)',borderRadius:10,fontSize:17,color:'var(--text)',fontFamily:'inherit',outline:'none',marginBottom:18}} placeholder="es. Turista_1234" />
+        <button onClick={save} style={{width:'100%',padding:13,borderRadius:12,border:'none',background:'var(--primary)',color:'white',fontSize:17,fontWeight:900,cursor:'pointer',fontFamily:'inherit',textTransform:'uppercase',letterSpacing:'0.6px',marginBottom:10}}>Salva / Save</button>
+        <button onClick={onClose} style={{width:'100%',padding:11,borderRadius:12,border:'1.5px solid var(--border)',background:'none',fontSize:16,fontWeight:800,color:'var(--text2)',cursor:'pointer',fontFamily:'inherit'}}>Annulla / Cancel</button>
       </div>
     </div>
   );
@@ -108,18 +108,18 @@ export default function Dashboard() {
     <main className="page-wide" style={{minHeight:'100vh',background:'var(--bg)',paddingBottom:40}}>
 
       {/* ── TOP BAR ── */}
-      <div style={{background:'var(--card)',borderBottom:'1.5px solid var(--border)',padding:'12px 16px',display:'flex',alignItems:'center',justifyContent:'space-between',position:'sticky',top:0,zIndex:10}}>
+      <div style={{background:'var(--card)',borderBottom:'1.5px solid var(--border)',padding:'12px 12px',display:'flex',alignItems:'center',justifyContent:'space-between',position:'sticky',top:0,zIndex:10}}>
         <button
           onClick={()=>router.push('/')}
-          style={{background:'none',border:'none',color:'var(--primary)',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit',display:'flex',alignItems:'center',gap:5}}
+          style={{background:'none',border:'none',color:'var(--primary)',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit',display:'flex',alignItems:'center',gap:5}}
         >
           🏠 Home
         </button>
-        <span style={{fontSize:13,fontWeight:900,color:'var(--text)'}}>Dashboard</span>
+        <span style={{fontSize:16,fontWeight:900,color:'var(--text)'}}>Dashboard</span>
         <div style={{width:64}}/>
       </div>
 
-      <div style={{padding:16,display:'flex',flexDirection:'column',gap:12,maxWidth:480,margin:'0 auto'}}>
+      <div style={{padding:'16px 12px',display:'flex',flexDirection:'column',gap:12,maxWidth:440,margin:'0 auto'}}>
 
         {/* ── 1. STATUS CARD ── */}
         <div style={C}>
@@ -130,19 +130,19 @@ export default function Dashboard() {
               {avatar}
             </div>
             <div style={{flex:1,minWidth:0}}>
-              <div style={{fontSize:15,fontWeight:900,color:'var(--text)',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{nickname}</div>
-              <span style={{display:'inline-flex',alignItems:'center',gap:4,background:lv.bg,color:lv.color,padding:'2px 8px',borderRadius:99,fontSize:11,fontWeight:700,marginTop:3}}>
+              <div style={{fontSize:18,fontWeight:900,color:'var(--text)',whiteSpace:'nowrap',overflow:'hidden',textOverflow:'ellipsis'}}>{nickname}</div>
+              <span style={{display:'inline-flex',alignItems:'center',gap:4,background:lv.bg,color:lv.color,padding:'2px 8px',borderRadius:99,fontSize:14,fontWeight:700,marginTop:3}}>
                 {lv.emoji} {lv.id} · {lv.itLabel}
               </span>
             </div>
             <div style={{textAlign:'right',flexShrink:0}}>
               <div style={{fontSize:22,fontWeight:900,color:eColor,lineHeight:1}}>{Math.round(energy)}%</div>
-              <div style={{fontSize:10,color:'var(--text3)',marginTop:1}}>energia</div>
+              <div style={{fontSize:13,color:'var(--text3)',marginTop:1}}>energia</div>
             </div>
             <button
               onClick={()=>setShowEdit(true)}
               title="Modifica profilo / Edit profile"
-              style={{background:'none',border:'1.5px solid var(--border)',borderRadius:8,width:30,height:30,display:'flex',alignItems:'center',justifyContent:'center',cursor:'pointer',fontSize:14,flexShrink:0}}
+              style={{background:'none',border:'1.5px solid var(--border)',borderRadius:8,width:30,height:30,display:'flex',alignItems:'center',justifyContent:'center',cursor:'pointer',fontSize:17,flexShrink:0}}
             >✏️</button>
           </div>
 
@@ -159,13 +159,13 @@ export default function Dashboard() {
               {l:`${stats.accuracy}% acc.`,  c:lv.color,  bg:lv.bg},
               {l:`${stats.minuti} min`,      c:'var(--text3)', bg:'var(--bg)'},
             ].map(({l,c,bg})=>(
-              <span key={l} style={{fontSize:10,fontWeight:700,color:c,background:bg,padding:'3px 9px',borderRadius:99}}>{l}</span>
+              <span key={l} style={{fontSize:13,fontWeight:700,color:c,background:bg,padding:'3px 9px',borderRadius:99}}>{l}</span>
             ))}
           </div>
 
           {/* Streak 7 giorni */}
           <div style={{display:'flex',alignItems:'center',gap:6}}>
-            <span style={{fontSize:12,flexShrink:0}}>🔥</span>
+            <span style={{fontSize:15,flexShrink:0}}>🔥</span>
             <div style={{display:'flex',gap:3,flex:1}}>
               {DAY_KEYS_ARR.map((key,i)=>{
                 const done    = activeDays.includes(key);
@@ -191,7 +191,7 @@ export default function Dashboard() {
                 );
               })}
             </div>
-            <span style={{fontSize:10,fontWeight:700,color:'#E5B700',flexShrink:0}}>+30cr Dom</span>
+            <span style={{fontSize:13,fontWeight:700,color:'#E5B700',flexShrink:0}}>+30cr Dom</span>
           </div>
 
         </div>
@@ -205,9 +205,9 @@ export default function Dashboard() {
         >
           <span style={{fontSize:34,flexShrink:0}}>🗺️</span>
           <div style={{flex:1}}>
-            <div style={{fontSize:16,fontWeight:900,color:'#58cc02'}}>Il tuo percorso</div>
-            <div style={{fontSize:12,color:'rgba(255,255,255,0.4)',marginTop:2}}>Your learning path</div>
-            <div style={{fontSize:11,color:'rgba(255,255,255,0.25)',marginTop:3}}>A1 · {completed.length} lezioni completate</div>
+            <div style={{fontSize:18,fontWeight:900,color:'#58cc02'}}>Il tuo percorso</div>
+            <div style={{fontSize:15,color:'rgba(255,255,255,0.4)',marginTop:2}}>Your learning path</div>
+            <div style={{fontSize:14,color:'rgba(255,255,255,0.25)',marginTop:3}}>A1 · {completed.length} lezioni completate</div>
           </div>
           <span style={{fontSize:20,color:'#58cc02'}}>→</span>
         </div>
@@ -220,8 +220,8 @@ export default function Dashboard() {
             style={{background:'rgba(229,183,0,0.06)',border:'1.5px solid rgba(229,183,0,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
           >
             <span style={{fontSize:30}}>📖</span>
-            <div style={{fontSize:14,fontWeight:900,color:'#E5B700'}}>Biblioteca</div>
-            <div style={{fontSize:10,color:'rgba(255,255,255,0.35)'}}>Library</div>
+            <div style={{fontSize:17,fontWeight:900,color:'#E5B700'}}>Biblioteca</div>
+            <div style={{fontSize:13,color:'rgba(255,255,255,0.35)'}}>Library</div>
           </div>
 
           <div
@@ -229,9 +229,9 @@ export default function Dashboard() {
             style={{background:'rgba(0,188,212,0.06)',border:'1.5px solid rgba(0,188,212,0.25)',borderRadius:16,padding:'20px 12px',cursor:'pointer',display:'flex',flexDirection:'column',alignItems:'center',gap:8,textAlign:'center',aspectRatio:'1',justifyContent:'center'}}
           >
             <span style={{fontSize:30}}>✈️</span>
-            <div style={{fontSize:14,fontWeight:900,color:'#00BCD4'}}>Esplora</div>
-            <div style={{fontSize:10,color:'rgba(255,255,255,0.35)'}}>Explore Italy</div>
-            <div style={{fontSize:10,fontWeight:700,color:'rgba(0,188,212,0.7)'}}>🎫 {credits} cr</div>
+            <div style={{fontSize:17,fontWeight:900,color:'#00BCD4'}}>Esplora</div>
+            <div style={{fontSize:13,color:'rgba(255,255,255,0.35)'}}>Explore Italy</div>
+            <div style={{fontSize:13,fontWeight:700,color:'rgba(0,188,212,0.7)'}}>🎫 {credits} cr</div>
           </div>
 
         </div>

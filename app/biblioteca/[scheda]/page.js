@@ -46,8 +46,8 @@ function EsercizioMultipla({ q, onDone }) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-      <div style={{ fontSize: 14, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
-      <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginBottom: 4 }}>{q.domanda.en}</div>
+      <div style={{ fontSize: 17, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
+      <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic", marginBottom: 4 }}>{q.domanda.en}</div>
       {opzioni.map((opt, si) => {
         let bg = "var(--opt-bg)", border = "var(--opt-border)", color = "var(--opt-text)";
         if (confirmed) {
@@ -61,7 +61,7 @@ function EsercizioMultipla({ q, onDone }) {
             background: bg, border: `2px solid ${border}`, color,
             borderRadius: "var(--r)", padding: "11px 14px", textAlign: "left",
             fontFamily: "inherit", width: "100%",
-            cursor: confirmed ? "default" : "pointer", fontSize: 13, fontWeight: 700,
+            cursor: confirmed ? "default" : "pointer", fontSize: 16, fontWeight: 700,
           }}>
             {opt.testo}
           </button>
@@ -71,23 +71,23 @@ function EsercizioMultipla({ q, onDone }) {
         <button
           onClick={() => { if (selected === null) return; setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); }}
           disabled={selected === null}
-          style={{ marginTop: 4, padding: 12, borderRadius: "var(--r)", border: "none", background: selected === null ? "var(--dis-bg)" : "var(--primary)", color: selected === null ? "var(--dis-text)" : "white", fontSize: 13, fontWeight: 900, cursor: selected === null ? "not-allowed" : "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px" }}
+          style={{ marginTop: 4, padding: 12, borderRadius: "var(--r)", border: "none", background: selected === null ? "var(--dis-bg)" : "var(--primary)", color: selected === null ? "var(--dis-text)" : "white", fontSize: 16, fontWeight: 900, cursor: selected === null ? "not-allowed" : "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px" }}
         >
           Controlla / Check
         </button>
       )}
       {confirmed && (
         <div style={{ background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)", border: `1.5px solid ${isCorrect ? "var(--ok-text)" : "var(--err-text)"}`, borderRadius: "var(--r)", padding: "12px 14px" }}>
-          <div style={{ fontSize: 13, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
+          <div style={{ fontSize: 16, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
             {isCorrect ? "✅ Esatto! / Correct!" : "❌ Non corretto / Wrong"}
           </div>
-          <div style={{ fontSize: 12, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>
+          <div style={{ fontSize: 15, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>
             {isCorrect ? q.feedbackOk?.it : q.feedbackErr?.it}
           </div>
-          <div style={{ fontSize: 11, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>
+          <div style={{ fontSize: 14, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>
             {isCorrect ? q.feedbackOk?.en : q.feedbackErr?.en}
           </div>
-          <button onClick={() => onDone(isCorrect)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", fontSize: 13, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>
+          <button onClick={() => onDone(isCorrect)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", fontSize: 16, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>
             Avanti / Next →
           </button>
         </div>
@@ -110,8 +110,8 @@ function EsercizioVeroFalso({ q, onDone }) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-      <div style={{ fontSize: 14, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
-      <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginBottom: 4 }}>{q.domanda.en}</div>
+      <div style={{ fontSize: 17, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
+      <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic", marginBottom: 4 }}>{q.domanda.en}</div>
       <div style={{ display: "flex", gap: 10 }}>
         {[true, false].map(val => {
           let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
@@ -122,7 +122,7 @@ function EsercizioVeroFalso({ q, onDone }) {
           return (
             <button key={String(val)} onClick={() => handleSelect(val)} disabled={confirmed} style={{
               flex: 1, padding: 12, borderRadius: "var(--r)", border: `2px solid ${border}`,
-              background: bg, color, fontSize: 13, fontWeight: 900,
+              background: bg, color, fontSize: 16, fontWeight: 900,
               cursor: confirmed ? "default" : "pointer", fontFamily: "inherit",
             }}>
               {val ? "✅ Vero / True" : "❌ Falso / False"}
@@ -132,16 +132,16 @@ function EsercizioVeroFalso({ q, onDone }) {
       </div>
       {confirmed && (
         <div style={{ background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)", border: `1.5px solid ${isCorrect ? "var(--ok-text)" : "var(--err-text)"}`, borderRadius: "var(--r)", padding: "12px 14px" }}>
-          <div style={{ fontSize: 13, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
+          <div style={{ fontSize: 16, fontWeight: 900, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", marginBottom: 3 }}>
             {isCorrect ? "✅ Esatto! / Correct!" : "❌ Non corretto / Wrong"}
           </div>
-          <div style={{ fontSize: 12, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>
+          <div style={{ fontSize: 15, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>
             {isCorrect ? q.feedbackOk?.it : q.feedbackErr?.it}
           </div>
-          <div style={{ fontSize: 11, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>
+          <div style={{ fontSize: 14, color: isCorrect ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>
             {isCorrect ? q.feedbackOk?.en : q.feedbackErr?.en}
           </div>
-          <button onClick={() => onDone(isCorrect)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", fontSize: 13, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>
+          <button onClick={() => onDone(isCorrect)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: isCorrect ? "var(--primary)" : "#CC0000", color: "white", fontSize: 16, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>
             Avanti / Next →
           </button>
         </div>
@@ -174,43 +174,43 @@ function EsercizioWordBank({ q, onDone }) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-      <div style={{ fontSize: 14, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
-      <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
+      <div style={{ fontSize: 17, fontWeight: 800, color: "var(--text)", lineHeight: 1.5 }}>{q.domanda.it}</div>
+      <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic" }}>{q.domanda.en}</div>
       <div style={{ background: "var(--bg)", border: `2px dashed ${feedback === "ok" ? "var(--ok-text)" : feedback === "err" ? "var(--err-text)" : "var(--border)"}`, borderRadius: "var(--r)", padding: "10px 12px", minHeight: 46, display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center" }}>
         {target.length === 0
-          ? <span style={{ color: "var(--text3)", fontSize: 12 }}>Tocca le parole qui sotto / Tap words below</span>
+          ? <span style={{ color: "var(--text3)", fontSize: 15 }}>Tocca le parole qui sotto / Tap words below</span>
           : target.map((w, i) => (
-            <button key={i} onClick={() => removeWord(i)} style={{ background: "#C8A0E818", border: "2px solid #C8A0E8", borderRadius: 8, padding: "5px 10px", fontSize: 13, fontWeight: 800, color: "#C8A0E8", cursor: feedback === "ok" ? "default" : "pointer", fontFamily: "inherit" }}>{w}</button>
+            <button key={i} onClick={() => removeWord(i)} style={{ background: "#C8A0E818", border: "2px solid #C8A0E8", borderRadius: 8, padding: "5px 10px", fontSize: 16, fontWeight: 800, color: "#C8A0E8", cursor: feedback === "ok" ? "default" : "pointer", fontFamily: "inherit" }}>{w}</button>
           ))}
       </div>
-      <div style={{ fontSize: 10, color: "var(--text3)", textAlign: "right" }}>{target.length}/{correct.length} parole / words</div>
+      <div style={{ fontSize: 13, color: "var(--text3)", textAlign: "right" }}>{target.length}/{correct.length} parole / words</div>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
         {shuffled.map((w, i) => {
           const avail = pool.filter(x => x === w).length;
           const isUsed = (usedCounts[w] || 0) >= avail;
           return (
-            <button key={i} onClick={() => !isUsed && feedback !== "ok" && addWord(w)} disabled={isUsed || feedback === "ok"} style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: 8, padding: "6px 12px", fontSize: 13, fontWeight: 800, color: "var(--text)", cursor: isUsed ? "not-allowed" : "pointer", opacity: isUsed ? 0.25 : 1, fontFamily: "inherit" }}>{w}</button>
+            <button key={i} onClick={() => !isUsed && feedback !== "ok" && addWord(w)} disabled={isUsed || feedback === "ok"} style={{ background: "var(--card)", border: "2px solid var(--border)", borderRadius: 8, padding: "6px 12px", fontSize: 16, fontWeight: 800, color: "var(--text)", cursor: isUsed ? "not-allowed" : "pointer", opacity: isUsed ? 0.25 : 1, fontFamily: "inherit" }}>{w}</button>
           );
         })}
       </div>
       {feedback && (
         <div style={{ background: feedback === "ok" ? "var(--ok-bar)" : feedback === "incomplete" ? "#1a1200" : "var(--err-bar)", border: `1.5px solid ${feedback === "ok" ? "var(--ok-text)" : feedback === "incomplete" ? "#E5B70088" : "var(--err-text)"}`, borderRadius: "var(--r)", padding: "12px 14px" }}>
-          <div style={{ fontSize: 13, fontWeight: 900, color: feedback === "ok" ? "var(--ok-text)" : feedback === "incomplete" ? "#E5B700" : "var(--err-text)", marginBottom: 3 }}>
+          <div style={{ fontSize: 16, fontWeight: 900, color: feedback === "ok" ? "var(--ok-text)" : feedback === "incomplete" ? "#E5B700" : "var(--err-text)", marginBottom: 3 }}>
             {feedback === "ok" ? "✅ Esatto! / Correct!" : feedback === "incomplete" ? "⚠️ Incompleta / Incomplete" : "❌ Non corretto / Wrong"}
           </div>
           {feedback !== "incomplete" && (
             <>
-              <div style={{ fontSize: 12, color: feedback === "ok" ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>{feedback === "ok" ? q.feedbackOk?.it : q.feedbackErr?.it}</div>
-              <div style={{ fontSize: 11, color: feedback === "ok" ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>{feedback === "ok" ? q.feedbackOk?.en : q.feedbackErr?.en}</div>
+              <div style={{ fontSize: 15, color: feedback === "ok" ? "var(--ok-text)" : "var(--err-text)", lineHeight: 1.5, marginBottom: 4 }}>{feedback === "ok" ? q.feedbackOk?.it : q.feedbackErr?.it}</div>
+              <div style={{ fontSize: 14, color: feedback === "ok" ? "var(--ok-text)" : "var(--err-text)", opacity: 0.75, fontStyle: "italic", marginBottom: 10 }}>{feedback === "ok" ? q.feedbackOk?.en : q.feedbackErr?.en}</div>
             </>
           )}
           {feedback === "ok"
-            ? <button onClick={() => onDone(true)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: "var(--primary)", color: "white", fontSize: 13, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>Avanti / Next →</button>
-            : <button onClick={() => { setTarget([]); setFeedback(null); }} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: "#E5B700", color: "white", fontSize: 13, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>🔁 Riprova / Try again</button>}
+            ? <button onClick={() => onDone(true)} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: "var(--primary)", color: "white", fontSize: 16, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>Avanti / Next →</button>
+            : <button onClick={() => { setTarget([]); setFeedback(null); }} style={{ width: "100%", padding: 10, borderRadius: "var(--r)", border: "none", background: "#E5B700", color: "white", fontSize: 16, fontWeight: 900, cursor: "pointer", fontFamily: "inherit", textTransform: "uppercase" }}>🔁 Riprova / Try again</button>}
         </div>
       )}
       {!feedback && (
-        <button onClick={handleCheck} disabled={target.length === 0} style={{ padding: 12, borderRadius: "var(--r)", border: "none", background: target.length === 0 ? "var(--dis-bg)" : "var(--primary)", color: target.length === 0 ? "var(--dis-text)" : "white", fontSize: 13, fontWeight: 900, cursor: target.length === 0 ? "not-allowed" : "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px" }}>
+        <button onClick={handleCheck} disabled={target.length === 0} style={{ padding: 12, borderRadius: "var(--r)", border: "none", background: target.length === 0 ? "var(--dis-bg)" : "var(--primary)", color: target.length === 0 ? "var(--dis-text)" : "white", fontSize: 16, fontWeight: 900, cursor: target.length === 0 ? "not-allowed" : "pointer", fontFamily: "inherit", textTransform: "uppercase", letterSpacing: "0.6px" }}>
           Controlla / Check
         </button>
       )}
@@ -280,7 +280,7 @@ export default function SchedaPage() {
 
   if (loading) return (
     <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ textAlign: "center" }}><div style={{ fontSize: 36, marginBottom: 8 }}>☕</div><div style={{ fontSize: 13, color: "var(--text3)" }}>Caricamento / Loading...</div></div>
+      <div style={{ textAlign: "center" }}><div style={{ fontSize: 36, marginBottom: 8 }}>☕</div><div style={{ fontSize: 16, color: "var(--text3)" }}>Caricamento / Loading...</div></div>
     </main>
   );
 
@@ -288,7 +288,7 @@ export default function SchedaPage() {
     <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
       <div style={{ textAlign: "center" }}>
         <div style={{ fontSize: 36, marginBottom: 8 }}>😅</div>
-        <div style={{ fontSize: 14, fontWeight: 800, color: "var(--err-text)", marginBottom: 16 }}>Scheda non trovata / Card not found</div>
+        <div style={{ fontSize: 17, fontWeight: 800, color: "var(--err-text)", marginBottom: 16 }}>Scheda non trovata / Card not found</div>
         <button onClick={() => router.push("/biblioteca")} style={{ background: "var(--primary)", color: "white", padding: "10px 20px", borderRadius: "var(--r)", border: "none", fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>← Biblioteca</button>
       </div>
     </main>
@@ -311,15 +311,15 @@ export default function SchedaPage() {
       {/* Header sticky */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px", position: "sticky", top: 0, zIndex: 10 }}>
         <div style={{ maxWidth: 480, margin: "0 auto", display: "flex", alignItems: "center", gap: 10 }}>
-          <button onClick={() => sezione === "esercizi" ? setSezione("teoria") : router.push("/biblioteca")} style={{ background: "none", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 11, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
+          <button onClick={() => sezione === "esercizi" ? setSezione("teoria") : router.push("/biblioteca")} style={{ background: "none", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 14, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
             {sezione === "esercizi" ? "← Teoria" : "← Biblioteca"}
           </button>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ fontSize: 13, fontWeight: 900, color: "var(--text)", display: "flex", alignItems: "center", gap: 6 }}>
+            <div style={{ fontSize: 16, fontWeight: 900, color: "var(--text)", display: "flex", alignItems: "center", gap: 6 }}>
               {data.emoji} {data.titolo.it}
-              <span style={{ fontSize: 9, fontWeight: 800, color: lv.color, background: lv.bg, padding: "2px 6px", borderRadius: 99, flexShrink: 0 }}>{data.livello}</span>
+              <span style={{ fontSize: 12, fontWeight: 800, color: lv.color, background: lv.bg, padding: "2px 6px", borderRadius: 99, flexShrink: 0 }}>{data.livello}</span>
             </div>
-            <div style={{ fontSize: 10, color: "var(--text3)" }}>{data.titolo.en}</div>
+            <div style={{ fontSize: 13, color: "var(--text3)" }}>{data.titolo.en}</div>
           </div>
         </div>
       </div>
@@ -358,15 +358,15 @@ export default function SchedaPage() {
                     width: 22, height: 22, borderRadius: "50%",
                     background: "#FF9B42", border: "2px solid var(--bg)",
                     display: "flex", alignItems: "center", justifyContent: "center",
-                    fontSize: 10, cursor: "pointer", lineHeight: 1,
+                    fontSize: 13, cursor: "pointer", lineHeight: 1,
                   }}
                   title="Ascolta / Listen"
                 >🔊</button>
               </div>
               <div style={{ flex: 1, background: marioSpeaking ? "#FF9B4211" : "var(--card)", border: `2px solid ${marioSpeaking ? "#FF9B42" : "#FF9B4244"}`, borderRadius: "var(--r)", padding: "12px 14px", boxShadow: marioSpeaking ? "0 0 16px #FF9B4244" : "none", transition: "all 0.3s" }}>
-                <div style={{ fontSize: 13, fontWeight: 800, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>{data.mario}</div>
+                <div style={{ fontSize: 16, fontWeight: 800, color: "var(--text)", lineHeight: 1.5, marginBottom: 4 }}>{data.mario}</div>
                 <div style={{ height: 1, background: "var(--border)", marginBottom: 4 }} />
-                <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", lineHeight: 1.4 }}>{data.marioEn}</div>
+                <div style={{ fontSize: 15, color: "var(--text3)", fontStyle: "italic", lineHeight: 1.4 }}>{data.marioEn}</div>
               </div>
             </div>
             <style>{`
@@ -378,26 +378,26 @@ export default function SchedaPage() {
 
             {/* 💡 Perché / Why */}
             <div style={{ background: "#1a1200", border: "2px solid #E5B700", borderRadius: "var(--r)", padding: 16 }}>
-              <div style={{ fontSize: 11, fontWeight: 900, color: "#E5B700", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 8 }}>
+              <div style={{ fontSize: 14, fontWeight: 900, color: "#E5B700", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 8 }}>
                 💡 Perché / Why — finally someone explains
               </div>
-              <div style={{ fontSize: 13, color: "#F5E6A3", lineHeight: 1.7, marginBottom: 8 }}>{data.perche.it}</div>
+              <div style={{ fontSize: 16, color: "#F5E6A3", lineHeight: 1.7, marginBottom: 8 }}>{data.perche.it}</div>
               <div style={{ height: 1, background: "#E5B70033", marginBottom: 8 }} />
-              <div style={{ fontSize: 12, color: "#C8B87A", lineHeight: 1.6, fontStyle: "italic" }}>{data.perche.en}</div>
+              <div style={{ fontSize: 15, color: "#C8B87A", lineHeight: 1.6, fontStyle: "italic" }}>{data.perche.en}</div>
             </div>
 
             {/* Spiegazione */}
             <div style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 16 }}>
-              <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 8 }}>📖 Spiegazione / Explanation</div>
-              <div style={{ fontSize: 13, color: "var(--text)", lineHeight: 1.6, marginBottom: 6 }}>{data.spiegazione.it}</div>
+              <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 8 }}>📖 Spiegazione / Explanation</div>
+              <div style={{ fontSize: 16, color: "var(--text)", lineHeight: 1.6, marginBottom: 6 }}>{data.spiegazione.it}</div>
               <div style={{ height: 1, background: "var(--border)", marginBottom: 6 }} />
-              <div style={{ fontSize: 12, color: "var(--text3)", lineHeight: 1.5, fontStyle: "italic" }}>{data.spiegazione.en}</div>
+              <div style={{ fontSize: 15, color: "var(--text3)", lineHeight: 1.5, fontStyle: "italic" }}>{data.spiegazione.en}</div>
             </div>
 
             {/* Tabella */}
             {data.tabella && (
               <div style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 16, overflowX: "auto" }}>
-                <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>📊 Schema / Table</div>
+                <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>📊 Schema / Table</div>
                 {(() => {
                   // Supporta sia il vecchio formato {headers, rows} che il nuovo formato array di oggetti
                   const isOldFormat = data.tabella.headers && data.tabella.rows;
@@ -408,11 +408,11 @@ export default function SchedaPage() {
                     ? data.tabella.rows
                     : data.tabella.map(obj => Object.values(obj));
                   return (
-                    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 11 }}>
+                    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14 }}>
                       <thead>
                         <tr>
                           {headers.map((h, i) => (
-                            <th key={i} style={{ padding: "6px 8px", textAlign: "left", borderBottom: "2px solid var(--border)", color: "var(--text2)", fontWeight: 800, fontSize: 10, textTransform: "uppercase", letterSpacing: "0.04em", whiteSpace: "nowrap" }}>{h}</th>
+                            <th key={i} style={{ padding: "6px 8px", textAlign: "left", borderBottom: "2px solid var(--border)", color: "var(--text2)", fontWeight: 800, fontSize: 13, textTransform: "uppercase", letterSpacing: "0.04em", whiteSpace: "nowrap" }}>{h}</th>
                           ))}
                         </tr>
                       </thead>
@@ -420,7 +420,7 @@ export default function SchedaPage() {
                         {rows.map((row, ri) => (
                           <tr key={ri} style={{ borderBottom: "1px solid var(--border)", background: ri % 2 === 0 ? "transparent" : "var(--bg)" }}>
                             {row.map((cell, ci) => (
-                              <td key={ci} style={{ padding: "7px 8px", color: ci === 0 ? "var(--text3)" : "var(--text)", fontWeight: ci === 0 ? 700 : 600, fontSize: 11, lineHeight: 1.4 }}>{cell}</td>
+                              <td key={ci} style={{ padding: "7px 8px", color: ci === 0 ? "var(--text3)" : "var(--text)", fontWeight: ci === 0 ? 700 : 600, fontSize: 14, lineHeight: 1.4 }}>{cell}</td>
                             ))}
                           </tr>
                         ))}
@@ -433,7 +433,7 @@ export default function SchedaPage() {
 
             {/* Esempi audio */}
             <div style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 16 }}>
-              <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>
+              <div style={{ fontSize: 14, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 10 }}>
                 🔊 Esempi / Examples — tocca per ascoltare / tap to listen
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -442,10 +442,10 @@ export default function SchedaPage() {
                     onMouseEnter={ev => ev.currentTarget.style.borderColor = "var(--primary)"}
                     onMouseLeave={ev => ev.currentTarget.style.borderColor = "var(--border)"}
                   >
-                    <span style={{ fontSize: 16, marginTop: 1, flexShrink: 0 }}>🔊</span>
+                    <span style={{ fontSize: 18, marginTop: 1, flexShrink: 0 }}>🔊</span>
                     <div>
-                      <div style={{ fontSize: 13, fontWeight: 800, color: "var(--text)", lineHeight: 1.4 }}>{e.it}</div>
-                      <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>{e.en}</div>
+                      <div style={{ fontSize: 16, fontWeight: 800, color: "var(--text)", lineHeight: 1.4 }}>{e.it}</div>
+                      <div style={{ fontSize: 14, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>{e.en}</div>
                     </div>
                   </div>
                 ))}
@@ -455,15 +455,15 @@ export default function SchedaPage() {
             {/* Nota napoletana */}
             {data.nota && (
               <div style={{ background: "var(--bg)", borderLeft: "3px solid #FF9B42", borderRadius: "0 var(--r) var(--r) 0", padding: "10px 14px" }}>
-                <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.6 }}>{data.nota.it}</div>
+                <div style={{ fontSize: 15, color: "var(--text2)", lineHeight: 1.6 }}>{data.nota.it}</div>
                 <div style={{ height: 1, background: "var(--border)", margin: "6px 0" }} />
-                <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", lineHeight: 1.5 }}>{data.nota.en}</div>
+                <div style={{ fontSize: 14, color: "var(--text3)", fontStyle: "italic", lineHeight: 1.5 }}>{data.nota.en}</div>
               </div>
             )}
 
             {/* Scegli tipo esercizio */}
             <div>
-              <div style={{ fontSize: 11, fontWeight: 900, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 10 }}>
+              <div style={{ fontSize: 14, fontWeight: 900, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 10 }}>
                 ✏️ Esercizi / Exercises — scegli il tipo / choose type
               </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -481,12 +481,12 @@ export default function SchedaPage() {
                     }}>
                       <span style={{ fontSize: 24, flexShrink: 0 }}>{emoji}</span>
                       <div style={{ flex: 1 }}>
-                        <div style={{ fontSize: 13, fontWeight: 900, color: "var(--text)", marginBottom: 2 }}>{it} / {en}</div>
-                        <div style={{ fontSize: 11, color: "var(--text3)" }}>{lista.length} esercizi / exercises</div>
+                        <div style={{ fontSize: 16, fontWeight: 900, color: "var(--text)", marginBottom: 2 }}>{it} / {en}</div>
+                        <div style={{ fontSize: 14, color: "var(--text3)" }}>{lista.length} esercizi / exercises</div>
                       </div>
                       {isDone
-                        ? <span style={{ fontSize: 11, fontWeight: 800, color: "var(--ok-text)", background: "var(--ok-bar)", padding: "3px 8px", borderRadius: 99 }}>{sc}/{lista.length} ✓</span>
-                        : <span style={{ fontSize: 14, color: "var(--text3)" }}>›</span>}
+                        ? <span style={{ fontSize: 14, fontWeight: 800, color: "var(--ok-text)", background: "var(--ok-bar)", padding: "3px 8px", borderRadius: 99 }}>{sc}/{lista.length} ✓</span>
+                        : <span style={{ fontSize: 17, color: "var(--text3)" }}>›</span>}
                     </button>
                   );
                 })}
@@ -500,11 +500,11 @@ export default function SchedaPage() {
           <>
             {/* Header tipo */}
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-              <div style={{ fontSize: 13, fontWeight: 900, color: "var(--text)" }}>
+              <div style={{ fontSize: 16, fontWeight: 900, color: "var(--text)" }}>
                 {tipiConfig.find(t => t.tipo === tipoEser)?.emoji} {tipiConfig.find(t => t.tipo === tipoEser)?.it}
               </div>
               {!isDoneTipo && (
-                <div style={{ fontSize: 12, fontWeight: 700, color: "var(--text3)" }}>
+                <div style={{ fontSize: 15, fontWeight: 700, color: "var(--text3)" }}>
                   {eserIdx + 1}/{totTipo} · {score[tipoEser]} ✅
                 </div>
               )}
@@ -528,19 +528,19 @@ export default function SchedaPage() {
             {isDoneTipo && (
               <div style={{ background: score[tipoEser] === totTipo ? "var(--ok-bar)" : "var(--card)", border: `2px solid ${score[tipoEser] === totTipo ? "var(--ok-text)" : "var(--border)"}`, borderRadius: "var(--r)", padding: "24px 20px", textAlign: "center" }}>
                 <div style={{ fontSize: 40, marginBottom: 8 }}>{score[tipoEser] === totTipo ? "🎉" : "💪"}</div>
-                <div style={{ fontSize: 16, fontWeight: 900, color: score[tipoEser] === totTipo ? "var(--ok-text)" : "var(--text)", marginBottom: 4 }}>
+                <div style={{ fontSize: 18, fontWeight: 900, color: score[tipoEser] === totTipo ? "var(--ok-text)" : "var(--text)", marginBottom: 4 }}>
                   {score[tipoEser]}/{totTipo} — {score[tipoEser] === totTipo ? "Perfetto! / Perfect!" : "Quasi! / Almost!"}
                 </div>
-                <div style={{ fontSize: 12, color: score[tipoEser] === totTipo ? "var(--ok-text)" : "var(--text3)", marginBottom: 20, fontStyle: "italic" }}>
+                <div style={{ fontSize: 15, color: score[tipoEser] === totTipo ? "var(--ok-text)" : "var(--text3)", marginBottom: 20, fontStyle: "italic" }}>
                   {score[tipoEser] === totTipo
                     ? "Tutti corretti! Vai avanti. / All correct! Keep going."
                     : "Rileggi la teoria e riprova. / Review the theory and try again."}
                 </div>
                 <div style={{ display: "flex", gap: 10 }}>
-                  <button onClick={() => startTipo(tipoEser)} style={{ flex: 1, padding: 11, borderRadius: "var(--r)", border: "2px solid var(--border)", background: "var(--card)", color: "var(--text)", fontSize: 12, fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>
+                  <button onClick={() => startTipo(tipoEser)} style={{ flex: 1, padding: 11, borderRadius: "var(--r)", border: "2px solid var(--border)", background: "var(--card)", color: "var(--text)", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>
                     🔁 Riprova / Retry
                   </button>
-                  <button onClick={() => setSezione("teoria")} style={{ flex: 1, padding: 11, borderRadius: "var(--r)", border: "none", background: "var(--primary)", color: "white", fontSize: 12, fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>
+                  <button onClick={() => setSezione("teoria")} style={{ flex: 1, padding: 11, borderRadius: "var(--r)", border: "none", background: "var(--primary)", color: "white", fontSize: 15, fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>
                     ← Teoria / Theory
                   </button>
                 </div>
