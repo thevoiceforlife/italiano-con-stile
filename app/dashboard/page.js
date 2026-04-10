@@ -100,15 +100,15 @@ export default function Dashboard() {
 
   const eColor = energy>=90?'#46A302':energy>=61?'#58CC02':energy>=36?'#1CB0F6':energy>=26?'#FF9600':'#CC0000';
 
-  const C  = {background:'var(--card)',border:'1.5px solid var(--border)',borderRadius:16,padding:16};
+  const C  = {background:'var(--card)',border:'1.5px solid var(--border)',borderRadius:16,padding:14};
   const tr = {height:4,background:'var(--bg)',borderRadius:99,overflow:'hidden'};
   const fi = (w,c)=>({height:'100%',width:`${Math.min(w,100)}%`,background:c,borderRadius:99,transition:'width 0.7s'});
 
   return (
-    <main className="page-wide" style={{minHeight:'100vh',background:'var(--bg)',paddingBottom:40}}>
+    <main className="page-wide" style={{minHeight:'100vh',background:'var(--bg)',paddingBottom:40,paddingLeft:0,paddingRight:0}}>
 
       {/* ── TOP BAR ── */}
-      <div style={{background:'var(--card)',borderBottom:'1.5px solid var(--border)',padding:'12px 12px',display:'flex',alignItems:'center',justifyContent:'space-between',position:'sticky',top:0,zIndex:10}}>
+      <div style={{background:'var(--card)',borderBottom:'1.5px solid var(--border)',padding:'12px 8px',display:'flex',alignItems:'center',justifyContent:'space-between',position:'sticky',top:0,zIndex:10}}>
         <button
           onClick={()=>router.push('/')}
           style={{background:'none',border:'none',color:'var(--primary)',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit',display:'flex',alignItems:'center',gap:5}}
@@ -119,7 +119,7 @@ export default function Dashboard() {
         <div style={{width:64}}/>
       </div>
 
-      <div style={{padding:'16px 12px',display:'flex',flexDirection:'column',gap:12,maxWidth:440,margin:'0 auto'}}>
+      <div style={{padding:'12px 8px',display:'flex',flexDirection:'column',gap:10,maxWidth:'100%',margin:'0 auto'}}>
 
         {/* ── 1. STATUS CARD ── */}
         <div style={C}>
