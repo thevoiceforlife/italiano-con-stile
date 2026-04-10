@@ -160,7 +160,7 @@ export default function Dashboard() {
               <div style={{fontSize:13,color:'var(--text3)',marginTop:3}}>parole apprese</div>
               <div style={{fontSize:12,color:'var(--text3)',opacity:0.7}}>words learned</div>
             </div>
-            <div style={{background:'rgba(255,150,0,0.08)',borderRadius:12,padding:'10px 12px',textAlign:'center'}}>
+            <div style={{background:'rgba(255,150,0,0.10)',border:'1px solid rgba(255,150,0,0.2)',borderRadius:12,padding:'10px 12px',textAlign:'center'}}>
               <div style={{fontSize:28,fontWeight:900,color:'#FF9600',lineHeight:1}}>
                 {activeDays.length}<span style={{fontSize:16,fontWeight:700,color:'rgba(255,150,0,0.6)'}}>/7</span>
               </div>
@@ -179,13 +179,13 @@ export default function Dashboard() {
                 return (
                   <div key={key} style={{flex:1,textAlign:'center'}}>
                     <div style={{
-                      height:20,borderRadius:5,
+                      height:26,borderRadius:6,
                       background: done?'#FF960018':'var(--bg)',
                       border: isToday
-                        ? `1.5px solid ${done?'#FF9600':'#E5B700'}`
+                        ? `2px solid ${done?'#FF9600':'#E5B700'}`
                         : `1px solid ${done?'#FF960066':'var(--border)'}`,
                       display:'flex',alignItems:'center',justifyContent:'center',
-                      fontSize: done?10:7,
+                      fontSize: done?12:8,
                       color: done?'#FF9600':'var(--text3)',
                     }}>
                       {done?'✓':'·'}
