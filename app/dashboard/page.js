@@ -151,16 +151,22 @@ export default function Dashboard() {
             <div style={fi(energy,eColor)}/>
           </div>
 
-          {/* Pills stats */}
-          <div style={{display:'flex',gap:5,flexWrap:'wrap',marginBottom:12}}>
-            {[
-              {l:`${stats.lezioni} lez.`,   c:'#58CC02', bg:'rgba(88,204,2,0.12)'},
-              {l:`${stats.parole} parole`,   c:'#1CB0F6', bg:'rgba(28,176,246,0.10)'},
-              {l:`${stats.accuracy}% acc.`,  c:lv.color,  bg:lv.bg},
-              {l:`${stats.minuti} min`,      c:'var(--text3)', bg:'var(--bg)'},
-            ].map(({l,c,bg})=>(
-              <span key={l} style={{fontSize:13,fontWeight:700,color:c,background:bg,padding:'3px 9px',borderRadius:99}}>{l}</span>
-            ))}
+          {/* Numeri celebrativi */}
+          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:8,marginBottom:12}}>
+            <div style={{background:'rgba(28,176,246,0.08)',borderRadius:12,padding:'10px 12px',textAlign:'center'}}>
+              <div style={{fontSize:28,fontWeight:900,color:'#1CB0F6',lineHeight:1,letterSpacing:'-0.5px'}}>
+                {stats.parole.toLocaleString()}
+              </div>
+              <div style={{fontSize:13,color:'var(--text3)',marginTop:3}}>parole apprese</div>
+              <div style={{fontSize:12,color:'var(--text3)',opacity:0.7}}>words learned</div>
+            </div>
+            <div style={{background:'rgba(255,150,0,0.08)',borderRadius:12,padding:'10px 12px',textAlign:'center'}}>
+              <div style={{fontSize:28,fontWeight:900,color:'#FF9600',lineHeight:1}}>
+                {activeDays.length}<span style={{fontSize:16,fontWeight:700,color:'rgba(255,150,0,0.6)'}}>/7</span>
+              </div>
+              <div style={{fontSize:13,color:'var(--text3)',marginTop:3}}>giorni attivi</div>
+              <div style={{fontSize:12,color:'var(--text3)',opacity:0.7}}>active days</div>
+            </div>
           </div>
 
           {/* Streak 7 giorni */}
