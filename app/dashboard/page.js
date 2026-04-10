@@ -184,7 +184,7 @@ export default function Dashboard() {
                     }}>
                       {done?'✓':'·'}
                     </div>
-                    <div style={{fontSize:8,marginTop:2,fontWeight:700,color:isToday?'#E5B700':'var(--text3)'}}>
+                    <div style={{fontSize:12,marginTop:3,fontWeight:700,color:isToday?'#E5B700':'var(--text3)'}}>
                       {DAY_IT[i]}
                     </div>
                   </div>
