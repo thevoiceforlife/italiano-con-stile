@@ -91,13 +91,7 @@ function PopupSad({ onRetry, onHome }) {
         }}>
           🔁 Riprova / Try again
         </button>
-        <button onClick={onHome} style={{
-          background:'none', border:'2px solid var(--border)',
-          borderRadius:'var(--r)', padding:'12px', fontSize:13, fontWeight:800,
-          color:'var(--text2)', cursor:'pointer', fontFamily:'inherit',
-        }}>
-          🏠 Home
-        </button>
+        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
       </div>
     </div>
   );
@@ -276,12 +270,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
 
       {/* Bottoni */}
       <div style={{ display:'flex', gap:10 }}>
-        <button onClick={onHome} style={{
-          flex:1, background:'none', border:'2px solid var(--border)',
-          borderRadius:'var(--r)', padding:'12px',
-          fontSize:13, fontWeight:800, color:'var(--text2)',
-          cursor:'pointer', fontFamily:'inherit',
-        }}>🏠 Home</button>
+        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
         <button onClick={onContinua} style={{
           flex:2, background:'var(--primary)', color:'#fff', border:'none',
           borderRadius:'var(--r)', padding:'14px',

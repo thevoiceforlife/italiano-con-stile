@@ -406,7 +406,7 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
     <main className="page-narrow" style={{ minHeight: "100vh", background: "var(--bg-lesson)", display: "flex", flexDirection: "column" }}>
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px 16px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-          <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 11, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0, letterSpacing: "0.04em" }}>🏠 Home</button>
+          <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
               Unità {unita} · Lezione {lezione} / Unit {unita} · Lesson {lezione}
@@ -482,7 +482,7 @@ function QuizFase({ lesson, unitType, unita, lezione, onComplete }) {
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px", marginBottom: 2, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 11, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0, letterSpacing: "0.04em" }}>🏠 Home</button>
+                <button onClick={() => { if (window.confirm("Tornare alla home? / Go back home?\n\nIl progresso di questa lezione non verrà salvato.\nYour progress on this lesson won't be saved.")) { window.speechSynthesis?.cancel(); router.push('/'); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
                 Unità {unita} · {current + 1}/{total}
               </span>
             <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
@@ -535,7 +535,7 @@ export default function LessonPage() {
         <div style={{ fontSize: 48, marginBottom: 12 }}>😅</div>
         <p style={{ fontSize: 15, fontWeight: 800, color: "var(--err-text)", marginBottom: 8 }}>Lezione non trovata / Lesson not found</p>
         <p style={{ fontSize: 12, color: "var(--text3)", marginBottom: 16 }}>{livello} / Unità {unita} / Lezione {lezione}</p>
-        <button onClick={() => router.push("/")} style={{ background: "var(--primary)", color: "white", padding: "12px 24px", borderRadius: "var(--r)", border: "none", fontWeight: 900, cursor: "pointer", fontFamily: "inherit" }}>← Home</button>
+        <button onClick={() => router.push("/")} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
       </div>
     </main>
   );

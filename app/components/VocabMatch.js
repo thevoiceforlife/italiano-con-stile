@@ -304,7 +304,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
       {/* Top bar */}
       <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "12px clamp(16px, 5vw, 48px)" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-          <button onClick={() => { if (window.confirm("Tornare alla home?\n\nIl progresso non verrà salvato.")) { window.speechSynthesis?.cancel(); router.push("/"); } }} style={{ background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "5px 11px", fontSize: 11, fontWeight: 900, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>🏠 Home</button>
+          <button onClick={() => { if (window.confirm("Tornare alla home?\n\nIl progresso non verrà salvato.")) { window.speechSynthesis?.cancel(); router.push("/"); } }} style={{background:'none',border:'none',color:'#58cc02',fontSize:13,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 11, fontWeight: 900, color: "var(--primary)", textTransform: "uppercase", letterSpacing: "1px" }}>
               Unità {unita} · Lezione {lezione} / Unit {unita} · Lesson {lezione}
