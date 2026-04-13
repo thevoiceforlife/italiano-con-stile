@@ -861,7 +861,7 @@ export default function LessonPage() {
   function handleQuizComplete(corrette) {
     const lessonId = lezione === "boss" ? "boss" : parseInt(lezione);
     const tipo = lezione === "boss" ? "boss" : "lezione";
-    const r = salvaProgressi({ tipo, lessonId, corrette, totDomande: lesson.questions.length, lessonReward: lesson.reward });
+    const r = salvaProgressi({ tipo, lessonId, corrette, totDomande: lesson.questions.length, lessonReward: lesson.reward, unita });
     setReward(r); setFase("done");
   }
 

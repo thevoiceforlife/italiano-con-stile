@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import CelebrationEffect from './CelebrationEffect';
 
 // ─── Coriandoli CSS ───────────────────────────────────────────────────────────
 function Confetti() {
@@ -242,99 +243,115 @@ function PopupBossReward({ reward, onHome }) {
   );
 }
 
-// ─── Popup REWARD (post-lezione / post-boss) ──────────────────────────────────
-function PopupReward({ reward, onContinua, onHome, nextUrl }) {
-  const isBoss  = reward.tipo === 'boss';
-  const [bouncing, setBouncing] = useState(true);
-  useEffect(() => { setTimeout(() => setBouncing(false), 1200); }, []);
+// ─── Barra progressione unità ────────────────────────────────────────────────
+function UnitProgressBar({ currentLesson }) {
+  const lessons = [1,2,3,4,5];
+  let completed = [];
+  try { completed = JSON.parse(localStorage.getItem('italiano-progress') || '{}').completed || []; } catch {}
+  const bossCompleted = completed.includes('boss');
 
   return (
-    <div style={{ padding:'24px' }}>
-
-      {/* Cibo guadagnato — grande con bounce */}
-      <div style={{ textAlign:'center', marginBottom:20 }}>
+    <div style={{ marginBottom: 12 }}>
+      <div style={{ fontSize:12, color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:8, textAlign:'center' }}>
+        Il tuo percorso / Your journey
+      </div>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'center', gap:6 }}>
+        {lessons.map(id => {
+          const done = completed.includes(id);
+          const isCurrent = id === currentLesson;
+          return (
+            <div key={id} style={{
+              width:28, height:28, borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center',
+              fontSize:12, fontWeight:900,
+              background: done ? '#58cc02' : 'var(--bg)',
+              border: `2px solid ${done ? '#58cc02' : isCurrent ? '#ffd700' : 'var(--border)'}`,
+              color: done ? '#fff' : 'var(--text3)',
+              animation: isCurrent ? 'pulse-ok 1s ease-in-out infinite' : 'none',
+            }}>
+              {done ? '✓' : `L${id}`}
+            </div>
+          );
+        })}
         <div style={{
-          fontSize:72, lineHeight:1,
-          animation: bouncing ? 'foodBounce 0.6s ease-out 2' : 'none',
+          width:28, height:28, borderRadius:'50%', display:'flex', alignItems:'center', justifyContent:'center',
+          fontSize:14,
+          background: bossCompleted ? '#ffd700' : 'var(--bg)',
+          border: `2px solid ${bossCompleted ? '#ffd700' : 'var(--border)'}`,
+        }}>
+          {bossCompleted ? '🏆' : '👑'}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Messaggio motivazionale ─────────────────────────────────────────────────
+function MotivationalMessage({ corrette, totDomande }) {
+  const ratio = totDomande > 0 ? corrette / totDomande : 0;
+  let it, en;
+  if (ratio === 1)       { it = "Perfetto! La prossima lezione ti aspetta!"; en = "Perfect! The next lesson is waiting for you!"; }
+  else if (ratio >= 0.75){ it = "Ottimo lavoro! Continua così!"; en = "Great work! Keep it up!"; }
+  else if (ratio >= 0.5) { it = "Bene! La pratica fa il maestro."; en = "Good! Practice makes perfect."; }
+  else                   { it = "Riprova domani — tornerai più forte!"; en = "Try again tomorrow — you'll come back stronger!"; }
+  return (
+    <div style={{ textAlign:'center', marginBottom:14 }}>
+      <div style={{ fontSize:14, fontWeight:600, color:'var(--text)' }}>{it}</div>
+      <div style={{ fontSize:13, fontStyle:'italic', color:'var(--text3)', marginTop:2 }}>{en}</div>
+    </div>
+  );
+}
+
+// ─── Popup REWARD (post-lezione) ─────────────────────────────────────────────
+function PopupReward({ reward, onContinua, onHome, nextUrl }) {
+  const lessonNum = typeof reward.lessonId === 'number' ? reward.lessonId : null;
+
+  return (
+    <div style={{ padding:'24px', position:'relative' }}>
+      {/* ELEMENTO 1: Celebrazione random */}
+      <CelebrationEffect />
+
+      {/* ELEMENTO 2: Reward food animato */}
+      <div style={{ textAlign:'center', marginBottom:20, position:'relative', zIndex:11 }}>
+        <div style={{
+          fontSize:64, lineHeight:1,
+          animation:'rewardBounce 0.6s 0.3s ease-out both',
         }}>
           {reward.ciboEmoji}
         </div>
-        <div style={{ fontSize:20, fontWeight:900, color:'var(--text)', marginTop:10 }}>
+        <div style={{ fontSize:18, fontWeight:900, color:'var(--text)', marginTop:10 }}>
           {reward.ciboNome}!
         </div>
         {reward.ciboNomeEN && reward.ciboNomeEN !== reward.ciboNome && (
-          <div style={{ fontSize:15, color:'var(--text3)', fontStyle:'italic', marginTop:2 }}>
+          <div style={{ fontSize:14, color:'var(--text3)', fontStyle:'italic', marginTop:2 }}>
             {reward.ciboNomeEN}
           </div>
         )}
-        {isBoss && reward.nonna && (
-          <div style={{ fontSize:16, color:'#E5B700', fontStyle:'italic', marginTop:8, lineHeight:1.5 }}>
-            "{reward.nonna.msg}" / "{reward.nonna.msgEN}"
-          </div>
-        )}
-        <div style={{ fontSize:14, color:'var(--text3)', marginTop:6 }}>
+        <div style={{ fontSize:13, color:'var(--text3)', marginTop:6 }}>
           {reward.corrette}/{reward.totDomande} risposte corrette / correct answers
-          {reward.isReplay ? ' — replay' : ''}
         </div>
       </div>
 
       {/* Energia */}
-      <div style={{
-        background:'var(--bg)', borderRadius:12,
-        border:'1px solid var(--border)', padding:'12px 14px', marginBottom:12,
-      }}>
-        <div style={{ fontSize:15, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
-          ⚡ Energia guadagnata / Energy gained
-        </div>
-        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-          <span style={{ fontSize:22, fontWeight:900,
-            color: reward.energia > 0 ? '#58CC02' : 'var(--text3)' }}>
-            {reward.energia > 0 ? `+${reward.energia}%` : '—'}
-          </span>
-          {reward.isReplay && reward.deltaEnergia !== 0 && (
-            <span style={{
-              fontSize:14, fontWeight:700,
-              color: reward.deltaEnergia > 0 ? '#58CC02' : '#FF4B4B',
-            }}>
-              {reward.deltaEnergia > 0 ? '+' : ''}{reward.deltaEnergia}% vs precedente
-            </span>
-          )}
+      <div style={{ background:'var(--bg)', borderRadius:12, border:'1px solid var(--border)', padding:'12px 14px', marginBottom:12 }}>
+        <div style={{ fontSize:14, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
+          ⚡ Energia / Energy
         </div>
         <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
       </div>
 
       {/* Crediti */}
-      <div style={{
-        background:'var(--bg)', borderRadius:12,
-        border:'1px solid var(--border)', padding:'12px 14px', marginBottom:16,
-      }}>
-        <div style={{ fontSize:15, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
-          🎫 Crediti viaggio / Travel credits
+      <div style={{ background:'var(--bg)', borderRadius:12, border:'1px solid var(--border)', padding:'12px 14px', marginBottom:14 }}>
+        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+          <span style={{ fontSize:14, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em' }}>🎫 Crediti</span>
+          <span style={{ fontSize:16, fontWeight:900, color:'#58CC02' }}>+{reward.crediti} cr</span>
         </div>
-        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
-          <span style={{ fontSize:16, color:'var(--text2)' }}>
-            Guadagnati / Earned
-          </span>
-          <span style={{ fontSize:16, fontWeight:700, color:'var(--text)' }}>+{reward.creditiBase ?? 0} cr</span>
-        </div>
-        {reward.creditiBonus > 0 && (
-          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
-            <span style={{ fontSize:16, color:'#E5B700' }}>⭐ Bonus perfetto</span>
-            <span style={{ fontSize:16, fontWeight:700, color:'#E5B700' }}>+{reward.creditiBonus} cr</span>
-          </div>
-        )}
-        <div style={{ borderTop:'1px solid var(--border)', marginTop:6, paddingTop:6, display:'flex', justifyContent:'space-between' }}>
-          <span style={{ fontSize:16, fontWeight:800, color:'var(--text)' }}>Totale</span>
-          <span style={{ fontSize:16, fontWeight:900, color:'#58CC02' }}>
-            +{reward.crediti} cr
-          </span>
-        </div>
-        {reward.isReplay && reward.deltaCrediti !== 0 && (
-          <div style={{ fontSize:14, color: reward.deltaCrediti > 0 ? '#58CC02' : '#FF4B4B', marginTop:4 }}>
-            {reward.deltaCrediti > 0 ? '+' : ''}{reward.deltaCrediti} cr vs sessione precedente
-          </div>
-        )}
       </div>
+
+      {/* ELEMENTO 3: Barra progressione unità */}
+      {lessonNum && <UnitProgressBar currentLesson={lessonNum} />}
+
+      {/* ELEMENTO 4: Messaggio motivazionale */}
+      <MotivationalMessage corrette={reward.corrette} totDomande={reward.totDomande} />
 
       {/* Bottoni navigazione */}
       <div style={{ display:'flex', gap:10 }}>

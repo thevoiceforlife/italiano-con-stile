@@ -1,0 +1,179 @@
+{
+  "id": "A1-unit2-lesson5",
+  "title": "Ripasso veloce",
+  "title_en": "Quick recap",
+  "type": "speedround",
+  "icon": "🎯",
+  "reward": {
+    "type": "slot",
+    "name": "pasta",
+    "credits": 10,
+    "pool": ["🍝 Spaghetti al pomodoro", "🍝 Pasta alla norma", "🍜 Pasta e fagioli"]
+  },
+  "vocab": [],
+  "pillole": [],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Ripasso veloce!",
+      "intro_en": "Quick recap!",
+      "domanda": { "it": "Come ti presenti?", "en": "How do you introduce yourself?" },
+      "opzioni": [
+        { "it": "Mi chiamo...", "en": "My name is..." },
+        { "it": "Ho...", "en": "I have..." },
+        { "it": "Sono di...", "en": "I am from..." },
+        { "it": "Lavoro...", "en": "I work..." }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Sì!", "en": "Yes!" },
+      "feedbackErr": { "it": "Mi chiamo per presentarsi!", "en": "Mi chiamo to introduce yourself!" }
+    },
+    {
+      "id": "q2",
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Quick!",
+      "domanda": { "it": "Come si dice l'età?", "en": "How do you say your age?" },
+      "opzioni": [
+        { "it": "Sono 30 anni.", "en": "I am 30 years." },
+        { "it": "Ho 30 anni.", "en": "I have 30 years." },
+        { "it": "Mi chiamo 30 anni.", "en": "My name is 30 years." },
+        { "it": "Lavoro 30 anni.", "en": "I work 30 years." }
+      ],
+      "correct": 1,
+      "feedbackOk": { "it": "Esatto!", "en": "Correct!" },
+      "feedbackErr": { "it": "Ho 30 anni — avere per l'età!", "en": "Ho 30 anni — avere for age!" }
+    },
+    {
+      "id": "q3",
+      "personaggio": "matilde",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "introIT": "Vero o falso!",
+      "intro_en": "True or false!",
+      "domanda": { "it": "Piacere si usa quando conosci qualcuno per la prima volta.", "en": "Piacere is used when you meet someone for the first time." },
+      "correct": true,
+      "feedbackOk": { "it": "Sì!", "en": "Yes!" },
+      "feedbackErr": { "it": "Sì, è vero!", "en": "Yes, it is true!" }
+    },
+    {
+      "id": "q4",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Ancora!",
+      "intro_en": "Again!",
+      "domanda": { "it": "Di dove sei? chiede...?", "en": "Di dove sei? asks...?" },
+      "opzioni": [
+        { "it": "Il tuo nome", "en": "Your name" },
+        { "it": "La tua origine", "en": "Your origin" },
+        { "it": "La tua età", "en": "Your age" },
+        { "it": "Il tuo lavoro", "en": "Your job" }
+      ],
+      "correct": 1,
+      "feedbackOk": { "it": "Esatto!", "en": "Correct!" },
+      "feedbackErr": { "it": "Di dove sei? = origine!", "en": "Di dove sei? = origin!" }
+    },
+    {
+      "id": "q5",
+      "personaggio": "gino",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Quasi fatto!",
+      "intro_en": "Almost done!",
+      "domanda": { "it": "Come ordini un caffè?", "en": "How do you order a coffee?" },
+      "opzioni": [
+        { "it": "Caffè!", "en": "Coffee!" },
+        { "it": "Vorrei un caffè, per favore.", "en": "I would like a coffee, please." },
+        { "it": "Ho un caffè.", "en": "I have a coffee." },
+        { "it": "Sono un caffè.", "en": "I am a coffee." }
+      ],
+      "correct": 1,
+      "feedbackOk": { "it": "Perfetto!", "en": "Perfect!" },
+      "feedbackErr": { "it": "Vorrei un caffè, per favore!", "en": "Vorrei un caffè, per favore!" }
+    },
+    {
+      "id": "q6",
+      "personaggio": "matilde",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "introIT": "Vero o falso!",
+      "intro_en": "True or false!",
+      "domanda": { "it": "Con un professore uso ciao per salutare.", "en": "With a professor I use ciao to greet." },
+      "correct": false,
+      "feedbackOk": { "it": "Esatto! Mai ciao con i professori!", "en": "Correct! Never ciao with professors!" },
+      "feedbackErr": { "it": "No! Con i professori: Buongiorno o Salve!", "en": "No! With professors: Buongiorno or Salve!" }
+    },
+    {
+      "id": "q7",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Penultima!",
+      "intro_en": "Second to last!",
+      "domanda": { "it": "Come dici il tuo lavoro?", "en": "How do you say your job?" },
+      "opzioni": [
+        { "it": "Lavoro come medico.", "en": "I work as a doctor." },
+        { "it": "Sono come medico.", "en": "I am as a doctor." },
+        { "it": "Ho medico.", "en": "I have doctor." },
+        { "it": "Mi chiamo medico.", "en": "My name is doctor." }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Esatto!", "en": "Correct!" },
+      "feedbackErr": { "it": "Lavoro come + professione!", "en": "Lavoro come + profession!" }
+    },
+    {
+      "id": "q8",
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ancora un po!",
+      "intro_en": "A little more!",
+      "domanda": { "it": "Qualcuno ti dice piacere. Tu rispondi?", "en": "Someone says piacere. You reply?" },
+      "opzioni": [
+        { "it": "Piacere!", "en": "Nice to meet you too!" },
+        { "it": "Grazie!", "en": "Thank you!" },
+        { "it": "Ciao ciao!", "en": "Bye bye!" },
+        { "it": "Il conto!", "en": "The bill!" }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Sì! Si risponde sempre piacere!", "en": "Yes! You always reply piacere!" },
+      "feedbackErr": { "it": "Si risponde piacere a piacere!", "en": "You reply piacere to piacere!" }
+    },
+    {
+      "id": "q9",
+      "personaggio": "gino",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "introIT": "Penultima davvero!",
+      "intro_en": "Really second to last!",
+      "domanda": { "it": "A Napoli si danno sempre due baci sulla guancia.", "en": "In Naples you always give two kisses on the cheek." },
+      "correct": false,
+      "feedbackOk": { "it": "Esatto! A Napoli spesso uno solo o abbraccio!", "en": "Correct! In Naples often just one or a hug!" },
+      "feedbackErr": { "it": "No! A Napoli spesso uno solo — o un abbraccio!", "en": "No! In Naples often just one — or a hug!" }
+    },
+    {
+      "id": "q10",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "domanda": { "it": "Presentazione completa corretta?", "en": "Correct full introduction?" },
+      "opzioni": [
+        { "it": "Mi chiamo Sofia, sono italiana e ho 28 anni.", "en": "My name is Sofia, I am Italian and I am 28." },
+        { "it": "Chiamo Sofia, sono italiana, sono 28 anni.", "en": "Call Sofia, am Italian, am 28 years." },
+        { "it": "Ho Sofia, sono italiana, chiamo 28.", "en": "Have Sofia, am Italian, call 28." },
+        { "it": "Piacere Sofia, ho italiana, sono 28.", "en": "Pleased Sofia, have Italian, am 28." }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Perfetto! Sei pronto per l'Italia!", "en": "Perfect! You are ready for Italy!" },
+      "feedbackErr": { "it": "Mi chiamo + sono + ho anni — tre verbi!", "en": "Mi chiamo + sono + ho anni — three verbs!" }
+    }
+  ]
+}

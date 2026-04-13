@@ -1,0 +1,187 @@
+{
+  "id": "A1-unit2-lesson2",
+  "title": "Le prime presentazioni",
+  "title_en": "First introductions",
+  "type": "scrittura",
+  "icon": "✍️",
+  "reward": {
+    "type": "slot",
+    "name": "cornetto",
+    "credits": 5,
+    "pool": ["🥐 Cornetto alla crema", "🥐 Cornetto al cioccolato", "🥐 Cornetto vuoto"]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "emoji": "😊",
+      "it": "Piacere!",
+      "en": "Nice to meet you!",
+      "audio_text": "Piacere",
+      "mario_it": "Sempre sorridi quando dici piacere!",
+      "mario_en": "Always smile when you say piacere!"
+    },
+    {
+      "id": "v2",
+      "emoji": "🙋",
+      "it": "Mi chiamo...",
+      "en": "My name is...",
+      "audio_text": "Mi chiamo",
+      "mario_it": "Letteralmente: mi chiamo a me stesso!",
+      "mario_en": "Literally: I call myself!"
+    },
+    {
+      "id": "v3",
+      "emoji": "🌍",
+      "it": "Di dove sei?",
+      "en": "Where are you from?",
+      "audio_text": "Di dove sei",
+      "mario_it": "La domanda più comune al bar!",
+      "mario_en": "The most common question at the bar!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_vocab",
+      "icon": "💡",
+      "domanda_it": "Perché si dice mi chiamo e non sono?",
+      "domanda_en": "Why say mi chiamo and not sono?",
+      "titolo_it": "Verbi riflessivi — la magia italiana",
+      "titolo_en": "Reflexive verbs — Italian magic",
+      "corpo_it": "Mi chiamo viene da chiamarsi — chiamare se stesso. È un verbo riflessivo: l'azione torna su di te. Potresti dire anche Sono Sofia ma mi chiamo suona più naturale e caldo!",
+      "corpo_en": "Mi chiamo comes from chiamarsi — to call oneself. It is a reflexive verb: the action comes back to you. You could also say Sono Sofia but mi chiamo sounds more natural and warm!",
+      "esempio_it": "Mi chiamo Sofia → I call myself Sofia",
+      "esempio_en": "Sono Sofia → I am Sofia (also correct!)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Ciao! Sono Sofia.",
+      "intro_en": "Hi! I am Sofia.",
+      "domanda": { "it": "Come ti presenti in italiano?", "en": "How do you introduce yourself in Italian?" },
+      "opzioni": [
+        { "it": "Mi chiamo...", "en": "My name is..." },
+        { "it": "Vorrei...", "en": "I would like..." },
+        { "it": "Dov'è...?", "en": "Where is...?" },
+        { "it": "Il conto!", "en": "The bill!" }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Esatto! Mi chiamo è la presentazione classica italiana.", "en": "Correct! Mi chiamo is the classic Italian introduction." },
+      "feedbackErr": { "it": "Mi chiamo... — così ci si presenta in italiano!", "en": "Mi chiamo... — that is how you introduce yourself in Italian!" }
+    },
+    {
+      "id": "q2",
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Incontri Diego!",
+      "intro_en": "You meet Diego!",
+      "domanda": { "it": "Diego ti tende la mano. Cosa dici?", "en": "Diego extends his hand. What do you say?" },
+      "opzioni": [
+        { "it": "Grazie!", "en": "Thank you!" },
+        { "it": "Piacere!", "en": "Nice to meet you!" },
+        { "it": "Scusa!", "en": "Sorry!" },
+        { "it": "Ciao ciao!", "en": "Bye bye!" }
+      ],
+      "correct": 1,
+      "feedbackOk": { "it": "Perfetto! Piacere è la parola giusta per le presentazioni.", "en": "Perfect! Piacere is the right word for introductions." },
+      "feedbackErr": { "it": "Piacere! — quando conosci qualcuno per la prima volta!", "en": "Piacere! — when you meet someone for the first time!" }
+    },
+    {
+      "id": "q3",
+      "personaggio": "matilde",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "introIT": "Attenzione! Questa è importante.",
+      "intro_en": "Careful! This one is important.",
+      "domanda": { "it": "In italiano piacere significa solo pleasure.", "en": "In Italian piacere means only pleasure." },
+      "correct": false,
+      "feedbackOk": { "it": "Esatto! Piacere è anche il saluto per le presentazioni.", "en": "Correct! Piacere is also the greeting for introductions." },
+      "feedbackErr": { "it": "Piacere significa pleasure MA è anche nice to meet you!", "en": "Piacere means pleasure BUT also nice to meet you!" }
+    },
+    {
+      "id": "q4",
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione reale!",
+      "intro_en": "Real situation!",
+      "domanda": { "it": "Qualcuno dice Di dove sei? Cosa sta chiedendo?", "en": "Someone says Di dove sei? What are they asking?" },
+      "opzioni": [
+        { "it": "Come ti chiami?", "en": "What is your name?" },
+        { "it": "Da dove vieni?", "en": "Where are you from?" },
+        { "it": "Quanti anni hai?", "en": "How old are you?" },
+        { "it": "Dove abiti?", "en": "Where do you live?" }
+      ],
+      "correct": 1,
+      "feedbackOk": { "it": "Sì! Di dove sei? chiede la tua origine.", "en": "Yes! Di dove sei? asks about your origin." },
+      "feedbackErr": { "it": "Di dove sei? = Where are you from? — la tua origine!", "en": "Di dove sei? = Where are you from? — your origin!" }
+    },
+    {
+      "id": "q5",
+      "personaggio": "matilde",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Grammatica in pillole!",
+      "intro_en": "Grammar in pills!",
+      "domanda": { "it": "Come risponde un inglese a Di dove sei?", "en": "How does an English person answer Di dove sei?" },
+      "opzioni": [
+        { "it": "Sono dell'Inghilterra.", "en": "I am from England." },
+        { "it": "Mi chiamo Inghilterra.", "en": "My name is England." },
+        { "it": "Vengo a Inghilterra.", "en": "I come to England." },
+        { "it": "Ho Inghilterra.", "en": "I have England." }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Perfetto! Sono di... o Vengo da... — entrambi corretti.", "en": "Perfect! Sono di... or Vengo da... — both correct." },
+      "feedbackErr": { "it": "Sono dell'Inghilterra — sono di + paese!", "en": "Sono dell'Inghilterra — sono di + country!" }
+    },
+    {
+      "id": "q6",
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Adesso tocca a te!",
+      "intro_en": "Now it is your turn!",
+      "domanda": { "it": "Incontri Matilde. Come ti presenti?", "en": "You meet Matilde. How do you introduce yourself?" },
+      "opzioni": [
+        { "it": "Piacere, mi chiamo ...!", "en": "Nice to meet you, my name is ...!" },
+        { "it": "Vorrei un caffè!", "en": "I would like a coffee!" },
+        { "it": "Dov'è la stazione?", "en": "Where is the station?" },
+        { "it": "Il conto, per favore.", "en": "The bill, please." }
+      ],
+      "correct": 0,
+      "feedbackOk": { "it": "Perfetto! Presentazione completa e naturale.", "en": "Perfect! Complete and natural introduction." },
+      "feedbackErr": { "it": "Piacere, mi chiamo... — presentazione completa!", "en": "Piacere, mi chiamo... — complete introduction!" }
+    },
+    {
+      "id": "q7",
+      "personaggio": "matilde",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "introIT": "Vero o falso con Matilde!",
+      "intro_en": "True or false with Matilde!",
+      "domanda": { "it": "Con un professore usi ciao per salutare.", "en": "With a professor you use ciao to greet." },
+      "correct": false,
+      "feedbackOk": { "it": "Esatto! Con i professori si usa Buongiorno o Salve.", "en": "Correct! With professors use Buongiorno or Salve." },
+      "feedbackErr": { "it": "No! Con i professori mai ciao — troppo informale!", "en": "No! With professors never ciao — too informal!" }
+    },
+    {
+      "id": "q8",
+      "personaggio": "sofia",
+      "tipo": "word_bank",
+      "fase": "produzione",
+      "introIT": "Ultima sfida con Sofia!",
+      "intro_en": "Final challenge with Sofia!",
+      "domanda": { "it": "Diego non conosce Sofia. Aiutala a presentarsi!", "en": "Diego does not know Sofia. Help her introduce herself!" },
+      "soluzione": "Piacere mi chiamo Sofia",
+      "parole": ["Piacere", "mi", "chiamo", "Sofia"],
+      "distrattori": ["grazie", "ciao", "vorrei"],
+      "feedbackOk": { "it": "Perfetto! Sofia è felicissima!", "en": "Perfect! Sofia is so happy!" },
+      "feedbackErr": { "it": "Piacere, mi chiamo Sofia — presentazione completa!", "en": "Piacere, mi chiamo Sofia — complete introduction!" }
+    }
+  ]
+}

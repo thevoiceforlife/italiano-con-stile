@@ -214,7 +214,7 @@ export default function Dashboard() {
 
         {/* Percorso — rettangolo grande */}
         <div
-          onClick={()=>router.push('/')}
+          onClick={()=>router.push('/percorso')}
           style={{background:'rgba(88,204,2,0.08)',border:'1.5px solid rgba(88,204,2,0.3)',borderRadius:16,padding:'18px 16px',cursor:'pointer',display:'flex',alignItems:'center',gap:14}}
         >
           <span style={{fontSize:34,flexShrink:0}}>🗺️</span>

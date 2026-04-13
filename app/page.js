@@ -86,10 +86,18 @@ const UNITS = [
   },
   {
     id: 2,
+    livello: "A1",
     titleIT: "Fare conoscenza",
     titleEN: "Making friends",
-    lessons: [],
-    comingSoon: true,
+    tipo: "consolidamento",
+    lessons: [
+      { id:1, emoji:"🔁", titleIT:"Di nuovo al bar",           titleEN:"Back at the bar",         subtitleIT:"Ripasso: ciao, caffè, grazie",               subtitleEN:"Review: hello, coffee, thank you" },
+      { id:2, emoji:"✍️", titleIT:"Le prime presentazioni",     titleEN:"First introductions",     subtitleIT:"Mi chiamo, piacere, di dove sei",            subtitleEN:"My name is, nice to meet you, where from" },
+      { id:3, emoji:"💪", titleIT:"La classe di Matilde",       titleEN:"Matilde's class",         subtitleIT:"Sono, ho anni, lavoro come",                 subtitleEN:"I am, my age, I work as" },
+      { id:4, emoji:"🎭", titleIT:"La festa di Gino",           titleEN:"Gino's party",            subtitleIT:"Presentazioni in situazione reale",          subtitleEN:"Introductions in real situations" },
+      { id:5, emoji:"🎯", titleIT:"Ripasso veloce",             titleEN:"Quick recap",             subtitleIT:"Tutto quello che hai imparato — veloce!",    subtitleEN:"Everything you learned — fast!" },
+    ],
+    boss: { id:"boss", titleIT:"La Nonna presenta", titleEN:"Nonna introduces you", subtitleIT:"10 domande — il gelato ti aspetta 🍦", subtitleEN:"10 questions — gelato awaits 🍦" },
   },
   {
     id: 3,
@@ -257,23 +265,29 @@ export default function Home() {
     refreshCompleted();
   }
 
-  function isUnlocked(id) {
-    if (id === 1)      return true;
-    if (id === 2)      return completed.includes(1);
-    if (id === 3)      return completed.includes(2);
-    if (id === 4)      return completed.includes(3);
-    if (id === "boss") return completed.includes(4);
+  // Composite key: "u1-1", "u1-boss", "u2-3", etc.
+  // Backward compat: old keys (1, 2, "boss") treated as unit 1
+  function ckey(unitId, lessonId) { return `u${unitId}-${lessonId}`; }
+
+  function isCompleted(unitId, lessonId) {
+    const key = ckey(unitId, lessonId);
+    if (completed.includes(key)) return true;
+    // Backward compat: unit 1 old-style keys
+    if (unitId === 1) return completed.includes(lessonId === "boss" ? "boss" : lessonId);
     return false;
+  }
+
+  function isLessonUnlocked(unitId, lessonId) {
+    if (lessonId === 1) return isUnitUnlocked(unitId);
+    if (lessonId === "boss") return [1,2,3,4,5].every(l => isCompleted(unitId, l));
+    return isCompleted(unitId, lessonId - 1);
   }
 
   function isUnitUnlocked(unitId) {
     if (unitId === 1) return true;
-    const prevUnit = UNITS.find(u => u.id === unitId - 1);
-    if (!prevUnit) return false;
-    return prevUnit.lessons.every(l => completed.includes(l.id)) && completed.includes("boss");
+    const prevId = unitId - 1;
+    return [1,2,3,4,5].every(l => isCompleted(prevId, l)) && isCompleted(prevId, "boss");
   }
-
-  function isDone(id) { return completed.includes(id); }
 
 
   if (!mounted) return null;
@@ -285,9 +299,9 @@ export default function Home() {
     hasProgress = !!(data && data.onboardingDone);
   } catch {}
 
-  // Prossima lezione da fare
-  const allLessons = UNITS.flatMap(u => u.lessons.map(l => ({...l, unita: u.id, livello: u.livello || 'A1'})));
-  const nextLesson = allLessons.find(l => isUnlocked(l.id) && !isDone(l.id));
+  // Prossima lezione da fare (scansiona tutte le unità sbloccate)
+  const allLessons = UNITS.filter(u => !u.comingSoon).flatMap(u => u.lessons.map(l => ({...l, unita: u.id, livello: u.livello || 'A1'})));
+  const nextLesson = allLessons.find(l => isLessonUnlocked(l.unita, l.id) && !isCompleted(l.unita, l.id));
 
   // ── LANDING (non autenticato) ──────────────────────────────────────────────
   if (!hasProgress) {
@@ -343,8 +357,8 @@ export default function Home() {
   }
 
   // ── HOME AUTENTICATA ───────────────────────────────────────────────────────
-  const lessonDone = nextLesson ? isDone(nextLesson.id) : false;
-  const isFirstLesson = nextLesson && nextLesson.id === 1 && !isDone(1);
+  const lessonDone = nextLesson ? isCompleted(nextLesson.unita, nextLesson.id) : false;
+  const isFirstLesson = nextLesson && nextLesson.id === 1 && nextLesson.unita === 1 && !isCompleted(1, 1);
   const ctaLabel = isFirstLesson ? "Inizia / Start →" : "Continua / Continue →";
   const ctaLabelTop = isFirstLesson ? "Lezione 1 / Lesson 1" : `Lezione ${nextLesson ? nextLesson.id : ''} / Lesson ${nextLesson ? nextLesson.id : ''}`;
 
@@ -404,7 +418,17 @@ export default function Home() {
             </div>
           </section>
 
-          {/* PROSSIMA LEZIONE */}
+          {/* PROSSIMA LEZIONE o COMPLETATO */}
+          {!nextLesson && (
+            <section style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:12, padding:"20px 0" }}>
+              <div style={{ fontSize:48 }}>🎉</div>
+              <div style={{ fontSize:18, fontWeight:900, color:"#58cc02", textAlign:"center" }}>Complimenti! Hai completato tutto!</div>
+              <div style={{ fontSize:14, fontStyle:"italic", color:"var(--text3)", textAlign:"center" }}>Congratulations! You completed everything!</div>
+              <button onClick={() => router.push('/percorso')} style={{ marginTop:8, background:"none", border:"1.5px solid rgba(88,204,2,0.3)", borderRadius:12, padding:"10px 20px", color:"#58cc02", fontSize:14, fontWeight:700, cursor:"pointer", fontFamily:"inherit", textTransform:"none", letterSpacing:"normal" }}>
+                🗺️ Vedi il percorso / See your path
+              </button>
+            </section>
+          )}
           {nextLesson && (
             <section style={{ display:"flex", flexDirection:"column", gap:12 }}>
               <div style={{ fontSize:13, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px" }}>

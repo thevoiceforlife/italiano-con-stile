@@ -148,12 +148,15 @@ export function getNonnaMsg(score) {
 
 // ─── Funzione principale ──────────────────────────────────────────────────────
 // lessonReward = il campo reward dal JSON della lezione (opzionale)
-export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonReward }) {
+export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonReward, unita }) {
   let data = loadProgress() ?? { energy: 25, credits: 0, tickets: {}, completed: [], completedToday: [], lessonScores: {}, streak: null };
 
   const sad    = corrette <= 1;
   const perfetto = corrette === totDomande;
   let reward = {};
+  // Composite key per multi-unit: "u2-3" o fallback al vecchio formato per unit 1
+  const unitNum = parseInt(unita) || 1;
+  function ckey(id) { return unitNum > 1 ? `u${unitNum}-${id}` : id; }
 
   if (tipo === 'lezione') {
     const lid      = typeof lessonId === 'string' ? lessonId : parseInt(lessonId);
@@ -211,11 +214,11 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonRew
       ...data,
       energy:   energiaDopo,
       credits:  creditiDopo,
-      completed: sad ? data.completed : [...new Set([...(data.completed ?? []), lid])],
+      completed: sad ? data.completed : [...new Set([...(data.completed ?? []), ckey(lid)])],
       completedToday,
       lessonScores: sad ? data.lessonScores : {
         ...data.lessonScores,
-        [lid]: { energia: energiaG, crediti: creditiTot, corrette, perfetto },
+        [ckey(lid)]: { energia: energiaG, crediti: creditiTot, corrette, perfetto },
       },
       streak: newStreak,
     });
@@ -263,11 +266,11 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonRew
       ...data,
       energy:  energiaDopo,
       credits: creditiDopo,
-      completed: bossSad ? data.completed : [...new Set([...(data.completed ?? []), 'boss'])],
+      completed: bossSad ? data.completed : [...new Set([...(data.completed ?? []), ckey('boss')])],
       completedToday,
       lessonScores: {
         ...data.lessonScores,
-        boss: { energia: energiaG, crediti: creditiTot, corrette, perfetto: corrette === totDomande },
+        [ckey('boss')]: { energia: energiaG, crediti: creditiTot, corrette, perfetto: corrette === totDomande },
       },
       streak: newStreak,
     });

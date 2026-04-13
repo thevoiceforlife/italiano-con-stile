@@ -23,40 +23,45 @@
       "emoji": "🍝",
       "it": "Il primo (piatto)",
       "en": "The first course (pasta/soup)",
-      "mario": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro — non si salta mai! / The first course is pasta or soup. In Naples, the primo is sacred — never skip it!",
-      "marioIT": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro!"
+      "audio_text": "Il primo piatto",
+      "mario_it": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro — non si salta mai!",
+      "mario_en": "The first course is pasta or soup. In Naples, the primo is sacred — never skip it!"
     },
     {
       "id": "secondo",
       "emoji": "🥩",
       "it": "Il secondo (piatto)",
       "en": "The second course (meat/fish)",
-      "mario": "Il secondo è carne o pesce. Viene DOPO il primo, mai insieme! / The second course is meat or fish. It comes AFTER the primo, never together!",
-      "marioIT": "Il secondo è carne o pesce. Viene dopo il primo, mai insieme!"
+      "audio_text": "Il secondo piatto",
+      "mario_it": "Il secondo è carne o pesce. Viene dopo il primo, mai insieme!",
+      "mario_en": "The second course is meat or fish. It comes after the primo, never together!"
     },
     {
       "id": "contorno",
       "emoji": "🥗",
       "it": "Il contorno",
       "en": "The side dish",
-      "mario": "Il contorno è il piatto di verdure che accompagna il secondo. Insalata, patate, verdure. / The contorno is the vegetable dish that comes with the second course.",
-      "marioIT": "Il contorno accompagna il secondo. Insalata, patate, verdure."
+      "audio_text": "Il contorno",
+      "mario_it": "Il contorno accompagna il secondo. Insalata, patate, verdure grigliate!",
+      "mario_en": "The contorno is the vegetable side dish. Salad, potatoes, grilled vegetables!"
     },
     {
       "id": "dolce",
       "emoji": "🍰",
       "it": "Il dolce",
       "en": "The dessert",
-      "mario": "Il dolce chiude il pasto. A Napoli il babà è il re dei dolci! / The dessert closes the meal. In Naples, babà is the king of desserts!",
-      "marioIT": "Il dolce chiude il pasto. A Napoli il babà è il re!"
+      "audio_text": "Il dolce",
+      "mario_it": "Il dolce chiude il pasto. A Napoli il babà è il re dei dolci!",
+      "mario_en": "Dessert closes the meal. In Naples, babà is the king of desserts!"
     },
     {
       "id": "antipasto",
       "emoji": "🧀",
       "it": "L'antipasto",
-      "en": "The appetizer / starter",
-      "mario": "L'antipasto viene PRIMA del primo. 'Anti' = before, 'pasto' = meal. Bruschette, mozzarella, salumi! / The antipasto comes BEFORE the primo. Bruschetta, mozzarella, cold cuts!",
-      "marioIT": "L'antipasto viene prima del primo. Bruschette, mozzarella, salumi!"
+      "en": "The appetizer",
+      "audio_text": "L'antipasto",
+      "mario_it": "L'antipasto viene prima del primo. Bruschette, mozzarella, salumi!",
+      "mario_en": "The antipasto comes before the primo. Bruschetta, mozzarella, cold cuts!"
     }
   ],
   "questions": [

@@ -9,6 +9,16 @@
       "boss_personaggio": "vittoria",
       "lezioni": [1, 2, 3, 4, 5],
       "has_boss": true
+    },
+    "unit2": {
+      "titolo_it": "Fare conoscenza",
+      "titolo_en": "Making friends",
+      "tipo": "consolidamento",
+      "personaggio_principale": "sofia",
+      "personaggi": ["sofia", "diego", "matilde", "gino"],
+      "boss_personaggio": "vittoria",
+      "lezioni": [1, 2, 3, 4, 5],
+      "has_boss": true
     }
   }
 }
