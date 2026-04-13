@@ -1,10 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import LessonButton from "./components/LessonButton";
-import XPBar from "./components/XPBar";
 import Logo from "./components/Logo";
-import Tricolore from "./components/Tricolore";
+import TricoloreBar from "./components/TricoloreBar";
 import OnboardingModal from "./components/OnboardingModal";
 import { parla, CHARACTERS as CHAR_VOICES } from "./components/CharacterBubble";
 import { loadProgress } from "./components/saveProgress";
@@ -78,10 +76,11 @@ const UNITS = [
     titleIT: "Il primo giorno a Napoli",
     titleEN: "First day in Naples",
     lessons: [
-      { id:1, emoji:"☕", titleIT:"Le Prime Parole",              titleEN:"The First Words",        subtitleIT:"Ciao, Grazie, Prego, Sì",                    subtitleEN:"Day 1 essentials" },
-      { id:2, emoji:"🥐", titleIT:"Il Primo Caffè",               titleEN:"The First Coffee",       subtitleIT:"Ordina senza sembrare turista",               subtitleEN:"Order without looking like a tourist" },
-      { id:3, emoji:"🍸", titleIT:"Mario dà le Indicazioni",      titleEN:"Mario Gives Directions", subtitleIT:"Preposizioni di luogo in contesto",           subtitleEN:"Prepositions of place in context" },
-      { id:4, emoji:"🍕", titleIT:"La Cultura del Cibo",          titleEN:"The Culture of Food",    subtitleIT:"L'ordine dei piatti — sacro e intoccabile",   subtitleEN:"The order of courses — sacred" },
+      { id:1, emoji:"⭐", titleIT:"Le Prime Parole",              titleEN:"The First Words",        subtitleIT:"Ciao, Grazie, Prego, Sì",                    subtitleEN:"Day 1 essentials" },
+      { id:2, emoji:"📖", titleIT:"Il Primo Caffè",               titleEN:"The First Coffee",       subtitleIT:"Ordina senza sembrare turista",               subtitleEN:"Order without looking like a tourist" },
+      { id:3, emoji:"💪", titleIT:"Mario dà le Indicazioni",      titleEN:"Mario Gives Directions", subtitleIT:"Preposizioni di luogo in contesto",           subtitleEN:"Prepositions of place in context" },
+      { id:4, emoji:"🎧", titleIT:"La Cultura del Cibo",          titleEN:"The Culture of Food",    subtitleIT:"L'ordine dei piatti — sacro e intoccabile",   subtitleEN:"The order of courses — sacred" },
+      { id:5, emoji:"🎯", titleIT:"Speed Round — Giornata a Napoli", titleEN:"Speed Round — A Day in Naples", subtitleIT:"Tutto quello che hai imparato — veloce!", subtitleEN:"Everything you learned — fast!" },
     ],
     boss: { id:"boss", titleIT:"Sfida la Nonna", titleEN:"Challenge the Grandma", subtitleIT:"5 domande — il gelato ti aspetta 🍦", subtitleEN:"5 questions — gelato awaits 🍦" },
   },
@@ -207,6 +206,7 @@ export default function Home() {
   const router = useRouter();
   const [dashAvatar,   setDashAvatar]   = useState('🍕');
   const [dashNickname, setDashNickname] = useState('Il mio profilo');
+  const [homeCredits,  setHomeCredits]  = useState(0);
   const [modalChar,      setModalChar]      = useState(null);   // long press → bio
   const [openUnit,       setOpenUnit]       = useState(1);        // unità aperta nell'accordion
   const [activeGame,     setActiveGame]     = useState(null);   // tap → game
@@ -237,6 +237,7 @@ export default function Home() {
       const lv      = getLevelData(levelId);
       setDashAvatar(av);
       setDashNickname(nick || ((lv.nickPrefix || 'Turista') + '_' + seed));
+      setHomeCredits(typeof prog.credits === 'number' ? prog.credits : 0);
     } catch {}
     return () => window.removeEventListener("focus", refreshCompleted);
   }, []);
@@ -291,59 +292,53 @@ export default function Home() {
   // ── LANDING (non autenticato) ──────────────────────────────────────────────
   if (!hasProgress) {
     return (
-      <main className="full-bleed" style={{ minHeight:"100vh", background:"var(--bg)", display:"flex", flexDirection:"column" }}>
+      <>
         {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
-        {/* 1. IMMAGINE full width, bordi squadrati */}
-        <img
-          src="/images/bar-di-mario.png"
-          alt="Bar di Mario — Napoli"
-          style={{ width:"100%", display:"block", objectFit:"cover", objectPosition:"center center", height:"clamp(200px,45vw,420px)" }}
-        />
+        <div className="app-wrapper" style={{ minHeight:"auto" }}>
+          <img
+            src="/images/bar-di-mario.png"
+            alt="Bar di Mario — Napoli"
+            style={{ width:"100%", maxWidth:"100%", display:"block", objectFit:"cover", objectPosition:"center center", height:"clamp(200px,45vw,360px)", borderRadius:"var(--r)" }}
+          />
+          <TricoloreBar />
+          {/* Topbar onboarding: solo logo centrato, nessun HOME */}
+          <div className="app-topbar" style={{ justifyContent:"center" }}>
+            <Logo size={40} />
+          </div>
+          <TricoloreBar />
 
-        {/* 2. TRICOLORE 2px */}
-        <div style={{ display:"flex", height:3 }}>
-          <div style={{ flex:1, background:"#009246" }} />
-          <div style={{ flex:1, background:"#fff" }} />
-          <div style={{ flex:1, background:"#CE2B37" }} />
-        </div>
-
-        {/* CONTENUTO centrato */}
-        <div style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", padding:"16px clamp(16px,5vw,48px) 24px" }}>
-          <div style={{ width:"100%", maxWidth:480, display:"flex", flexDirection:"column", alignItems:"center", gap:12 }}>
-
-            {/* 3. LOGO */}
-            <Logo size={110} />
-
-            {/* 4. CAPTION — stesso rigo */}
-            <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, width:"100%", flexWrap:"wrap" }}>
-              <span style={{ fontSize:16, fontWeight:700, color:"rgba(255,255,255,0.65)" }}>Benvenuto al Bar di Mario</span>
-              <span style={{ fontSize:14, color:"rgba(255,255,255,0.2)" }}>·</span>
-              <span style={{ fontSize:15, color:"rgba(255,255,255,0.3)", fontStyle:"italic" }}>Welcome to Mario's Bar</span>
+          <div className="app-body" style={{ alignItems:"center", justifyContent:"center", gap:16 }}>
+            <div style={{ width:"100%", maxWidth:480, display:"flex", flexDirection:"column", alignItems:"center", gap:16, padding:"16px 0" }}>
+              <div style={{ fontSize:56, lineHeight:1 }}>☕</div>
+              <div style={{ textAlign:"center", lineHeight:1.35 }}>
+                <div style={{ fontSize:20, fontWeight:900, color:"var(--text)" }}>Benvenuto al Bar di Mario</div>
+                <div style={{ fontSize:15, color:"var(--text3)", fontStyle:"italic", marginTop:4 }}>Welcome to Mario's Bar</div>
+              </div>
+              <div style={{ textAlign:"center", fontSize:14, color:"var(--text2)", lineHeight:1.5 }}>
+                <div>L'italiano inizia qui.</div>
+                <div style={{ color:"var(--text3)", fontStyle:"italic" }}>Italian starts here.</div>
+              </div>
+              <div style={{ fontSize:12, color:"var(--text3)", textAlign:"center", marginTop:8 }}>
+                Gratis · Nessuna carta
+                <div style={{ fontStyle:"italic", opacity:0.8 }}>Free · No credit card</div>
+              </div>
             </div>
+          </div>
 
-            <div style={{ width:"100%", height:1, background:"rgba(255,255,255,0.08)" }} />
-
-            {/* 5. PULSANTE VERDE */}
+          <div className="app-bottom">
             <button
               onClick={() => setShowOnboarding(true)}
-              style={{ width:"100%", padding:"15px", background:"#58cc02", color:"#fff", border:"none", borderRadius:14, fontSize:17, fontWeight:900, cursor:"pointer", fontFamily:"inherit", lineHeight:1.4, textAlign:"center" }}
+              className="btn-primary"
             >
-              L'italiano inizia qui →
-Italian starts here
+              Siediti al bar · Take a seat →
             </button>
-
-            {/* 6. HINT */}
-            <div style={{ fontSize:13, color:"rgba(255,255,255,0.25)", textAlign:"center" }}>
-              Gratis · Nessuna carta / Free · No credit card
-            </div>
-
           </div>
         </div>
 
         {modalChar && <CharacterModal c={modalChar} onClose={() => { window.speechSynthesis?.cancel(); setModalChar(null); }} />}
         {activeGame && <MiniGameRouter character={activeGame} onClose={() => setActiveGame(null)} onXP={(xp) => { handleGameXP(xp); refreshCompleted(); }} />}
-      </main>
+      </>
     );
   }
 
@@ -354,32 +349,48 @@ Italian starts here
   const ctaLabelTop = isFirstLesson ? "Lezione 1 / Lesson 1" : `Lezione ${nextLesson ? nextLesson.id : ''} / Lesson ${nextLesson ? nextLesson.id : ''}`;
 
   return (
-    <main className="full-bleed" style={{ minHeight:"100vh", background:"var(--bg)", display:"flex", flexDirection:"column" }}>
+    <>
       {showOnboarding && <OnboardingModal onComplete={handleOnboardingComplete} />}
 
-      {/* TOP BAR */}
-      <header style={{ padding:"10px clamp(16px,5vw,48px)", borderBottom:"1px solid rgba(255,255,255,0.08)", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
-        <Logo />
-      </header>
-      <Tricolore />
+      {/* Schema globale: wrapper 720 + tricolore + topbar + tricolore + body + bottom */}
+      <div className="app-wrapper">
+        <TricoloreBar />
+        <div className="app-topbar">
+          <button
+            onClick={() => router.push('/dashboard')}
+            className="lesson-topbar__home"
+            aria-label="Dashboard"
+            title="Dashboard"
+          >
+            👤
+          </button>
+          <div className="lesson-topbar__title">
+            <div className="lesson-topbar__title-it">Italiano con Stile</div>
+            <div className="lesson-topbar__title-en">Finally, someone explains why</div>
+          </div>
+          <div className="lesson-topbar__credits" title={`${homeCredits} crediti`}>
+            🎫 {homeCredits}
+          </div>
+        </div>
+        <TricoloreBar />
 
-      {/* CONTENUTO */}
-      <div style={{ flex:1, padding:"24px clamp(16px,5vw,48px)" }}>
-        <div style={{ maxWidth:640, margin:"0 auto", display:"flex", flexDirection:"column", gap:28 }}>
+        {/* BODY */}
+        <div className="app-body">
+          <div style={{ display:"flex", flexDirection:"column", gap:28 }}>
 
           {/* PERSONAGGI */}
           <section>
             <div style={{ fontSize:13, color:"var(--text3)", textTransform:"uppercase", letterSpacing:"0.8px", marginBottom:14 }}>
               I tuoi compagni / Your companions
             </div>
-            <div style={{ display:"flex", gap:"clamp(6px,2vw,16px)", justifyContent:"space-between" }}>
+            <div style={{ display:"flex", gap:"clamp(6px,2vw,16px)", justifyContent:"space-between", overflow:"hidden" }}>
               {CHARACTERS.map(c => (
                 <div
                   key={c.id}
                   onClick={() => { playCharacterSound(c.id); if (c.miniGame === "boss") { setModalChar(c); return; } setActiveGame(c); }}
                   onMouseEnter={e => e.currentTarget.querySelector('.char-glow').style.boxShadow = `0 0 18px ${c.color}CC`}
                   onMouseLeave={e => e.currentTarget.querySelector('.char-glow').style.boxShadow = 'none'}
-                  style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:6, cursor:"pointer", flex:1 }}
+                  style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:6, cursor:"pointer", flex:1, minWidth:0 }}
                 >
                   <div
                     className="char-glow"
@@ -428,24 +439,24 @@ Italian starts here
                 </button>
               </div>
 
-              {/* PULSANTE PROFILO + PERCORSO */}
-              <button
-                onClick={() => router.push('/dashboard')}
-                style={{ width:"100%", padding:"9px 14px", background:"transparent", color:"rgba(255,255,255,0.45)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:12, fontSize:15, fontWeight:600, cursor:"pointer", fontFamily:"inherit", display:"flex", alignItems:"center", gap:8 }}
-              >
-                <span>👤</span>
-                <span style={{ flex:1, textAlign:"left" }}>Profile & Learning Path</span>
-                <span style={{ color:"rgba(255,255,255,0.25)" }}>→</span>
-              </button>
             </section>
           )}
 
+          </div>
+        </div>
+        <div className="app-bottom">
+          <button
+            onClick={() => router.push('/dashboard')}
+            className="btn-primary btn-primary--secondary"
+          >
+            👤 Dashboard
+          </button>
         </div>
       </div>
 
       {/* MODALS */}
       {modalChar && <CharacterModal c={modalChar} onClose={() => { window.speechSynthesis?.cancel(); setModalChar(null); }} />}
       {activeGame && <MiniGameRouter character={activeGame} onClose={() => setActiveGame(null)} onXP={(xp) => { handleGameXP(xp); refreshCompleted(); }} />}
-    </main>
+    </>
   );
 }

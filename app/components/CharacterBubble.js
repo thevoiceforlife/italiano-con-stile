@@ -1,57 +1,26 @@
 "use client";
 import { useState, useEffect, useCallback } from "react";
+import personaggiData from "@/data/config/personaggi.json";
 
-export const CHARACTERS = {
-  mario: {
-    name: "Mario",
-    image: "/images/mario.png",
-    color: "#FF9B42",
-    voice: "Rocko",
-    rate: 0.88,
-    pitch: 1.0,
-  },
-  sofia: {
-    name: "Sofia",
-    image: "/images/sofia.png",
-    color: "#C8A0E8",
-    voice: "Shelley",
-    rate: 1.1,
-    pitch: 1.2,
-  },
-  diego: {
-    name: "Diego",
-    image: "/images/diego.png",
-    color: "#22C55E",
-    voice: "Eddy",
-    rate: 1.3,
-    pitch: 1.55,
-  },
-  gino: {
-    name: "Gino",
-    image: "/images/gino.png",
-    color: "#E5B700",
-    voice: "Grandpa",
-    rate: 0.72,
-    pitch: 0.72,
-  },
-  matilde: {
-    name: "Matilde",
-    image: "/images/matilde.png",
-    color: "#1CB0F6",
-    voice: "Sandy",
-    rate: 0.95,
-    pitch: 1.0,
-  },
-  // ── Sprint 4 ─────────────────────────────────────────────────────────────
-  vittoria: {
-    name: "Nonna Vittoria",
-    image: "/images/vittoria.png",
-    color: "#E5B700",
-    voice: "Grandma",
-    rate: 0.75,
-    pitch: 0.9,
-  },
+// Voice/rate/pitch sono parametri runtime TTS — non vanno nel JSON config
+const VOICE_CONFIG = {
+  mario:    { voice: "Rocko",   rate: 0.88, pitch: 1.0 },
+  sofia:    { voice: "Shelley", rate: 1.1,  pitch: 1.2 },
+  diego:    { voice: "Eddy",    rate: 1.3,  pitch: 1.55 },
+  gino:     { voice: "Grandpa", rate: 0.72, pitch: 0.72 },
+  matilde:  { voice: "Sandy",   rate: 0.95, pitch: 1.0 },
+  vittoria: { voice: "Grandma", rate: 0.75, pitch: 0.9 },
 };
+
+// CHARACTERS: merge config JSON + voice config — usato ovunque nell'app
+export const CHARACTERS = Object.fromEntries(
+  Object.entries(personaggiData).map(([id, p]) => [id, {
+    name: p.nome,
+    image: p.avatar,
+    color: p.colore,
+    ...(VOICE_CONFIG[id] || {}),
+  }])
+);
 
 // ─── Selezione voce con fallback graceful ─────────────────────────────────────
 // Strategia: voce esatta → voce italiana qualsiasi → voce di sistema
@@ -70,12 +39,16 @@ function selezionaVoce(voci, config) {
   return null;
 }
 
+function cleanForTTSInternal(text) {
+  return String(text).replace(/(\d+)-(\d+)/g, '$1 $2').replace(/\s*-\s*/g, ' ').replace(/\//g, ' ').replace(/·/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 export function parla(testo, config, onStart, onEnd) {
   if (!testo || !config) return;
   if (typeof window === "undefined" || !window.speechSynthesis) return;
   window.speechSynthesis.cancel();
 
-  const u = new SpeechSynthesisUtterance(testo);
+  const u = new SpeechSynthesisUtterance(cleanForTTSInternal(testo));
   u.lang = "it-IT";
   u.rate = config.rate ?? 0.88;
   u.pitch = config.pitch ?? 1.0;
@@ -110,15 +83,19 @@ export const CHARACTER_ANIMS = ``;
 
 /**
  * CharacterBubble
- * @param {string}  character  — "mario" | "sofia" | "diego" | "gino" | "matilde"
- * @param {string}  text       — testo bilingue da mostrare nella bubble
- * @param {string}  speakText  — testo italiano da leggere ad alta voce
+ * @param {string}  character  — "mario" | "sofia" | "diego" | "gino" | "matilde" | "vittoria"
+ * @param {string}  textIT     — testo italiano (riga 1, colore principale)
+ * @param {string}  textEN     — testo inglese (riga 2, italic var(--text3))
+ * @param {string}  text       — [legacy] testo bilingue su una riga (deprecated)
+ * @param {string}  speakText  — testo italiano da leggere ad alta voce (TTS)
  * @param {boolean} autoSpeak  — parla automaticamente al mount
  * @param {string}  feedback   — "ok" | "err" | null
  * @param {number}  size       — dimensione avatar in px (default: 64)
  */
 export default function CharacterBubble({
   character = "mario",
+  textIT = "",
+  textEN = "",
   text = "",
   speakText = "",
   autoSpeak = false,
@@ -180,7 +157,7 @@ export default function CharacterBubble({
       />
 
       {/* SPEECH BUBBLE */}
-      {text && (
+      {(textIT || textEN || text) && (
         <div style={{ position: "relative", flex: 1 }}>
           {/* CODA DEL FUMETTO — triangolino in basso a sinistra */}
           <div
@@ -219,15 +196,27 @@ export default function CharacterBubble({
               border: `2px solid ${bubbleBorder}`,
               borderRadius: "14px 14px 14px 4px",
               padding: "12px 14px",
-              fontSize: "13px",
-              fontWeight: 700,
-              color: "var(--text2)",
               lineHeight: 1.5,
               boxShadow: bubbleGlow,
               transition: "border-color 0.3s, box-shadow 0.3s",
             }}
           >
-            {text}
+            {textIT ? (
+              <>
+                <div style={{ fontSize: "14px", fontWeight: 800, color: "var(--text)", lineHeight: 1.35 }}>
+                  {textIT}
+                </div>
+                {textEN && textEN !== "undefined" && textEN !== "null" && String(textEN).trim() !== "" && (
+                  <div style={{ fontSize: "13px", fontWeight: 500, color: "var(--text3)", fontStyle: "italic", marginTop: 3, lineHeight: 1.35 }}>
+                    {textEN}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div style={{ fontSize: "13px", fontWeight: 700, color: "var(--text2)" }}>
+                {text}
+              </div>
+            )}
           </div>
         </div>
       )}

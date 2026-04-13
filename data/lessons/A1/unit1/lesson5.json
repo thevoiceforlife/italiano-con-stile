@@ -1,0 +1,190 @@
+{
+  "id": 5,
+  "title": "Speed Round — Giornata a Napoli",
+  "titleEN": "Speed Round — A Day in Naples",
+  "subtitle": "Tutto quello che hai imparato — veloce!",
+  "subtitleEN": "Everything you learned — fast!",
+  "livello": "Turista",
+  "type": "speedround",
+  "icon": "🎯",
+  "reward": {
+    "slot": "cena",
+    "crediti": 10,
+    "pool": [
+      { "emoji": "🍕", "nome": "Pizza margherita", "nomeEN": "Margherita pizza" },
+      { "emoji": "🐟", "nome": "Branzino al forno", "nomeEN": "Baked sea bass" },
+      { "emoji": "🍖", "nome": "Secondi napoletani", "nomeEN": "Neapolitan main courses" },
+      { "emoji": "🥗", "nome": "Insalata di mare", "nomeEN": "Seafood salad" }
+    ]
+  },
+  "vocab": [],
+  "questions": [
+    {
+      "id": 1,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "intro": "Ripasso veloce! / Quick recap!",
+      "introIT": "Ripasso veloce!",
+      "intro_en": "Quick recap!",
+      "domanda": {
+        "it": "Come si dice 'Thank you' in italiano?",
+        "en": "How do you say 'Thank you' in Italian?"
+      },
+      "opzioni": [{"it":"Prego","en":"You're welcome"},{"it":"Ciao","en":"Hello/Bye"},{"it":"Grazie","en":"Thank you"},{"it":"Scusa","en":"Sorry"}],
+      "correct": 2,
+      "feedbackOk": { "it": "Velocissimo! Grazie!", "en": "Super fast! Grazie!" },
+      "feedbackErr": { "it": "'Grazie' = Thank you!", "en": "'Grazie' = Thank you!" }
+    },
+    {
+      "id": 2,
+      "personaggio": "sofia",
+      "tipo": "vero_falso",
+      "fase": "riconoscimento",
+      "intro": "Quick! / Veloce!",
+      "introIT": "Veloce!",
+      "intro_en": "Quick!",
+      "domanda": {
+        "it": "'Ciao' si usa solo per salutare quando si arriva.",
+        "en": "'Ciao' is only used when arriving."
+      },
+      "correct": false,
+      "feedbackOk": { "it": "Esatto! 'Ciao' = sia ciao che arrivederci!", "en": "Right! 'Ciao' = both hello and goodbye!" },
+      "feedbackErr": { "it": "'Ciao' si usa SIA per arrivare CHE per andare!", "en": "'Ciao' is used for BOTH hello AND goodbye!" }
+    },
+    {
+      "id": 3,
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "intro": "Ordina! / Order!",
+      "introIT": "Ordina al bar!",
+      "intro_en": "Order at the bar!",
+      "domanda": {
+        "it": "Come ordini un caffè educatamente?",
+        "en": "How do you order a coffee politely?"
+      },
+      "opzioni": [{"it":"Caffè!","en":"Coffee!"},{"it":"Vorrei un caffè, per favore","en":"I'd like a coffee, please"},{"it":"Un caffè, subito!","en":"A coffee, now!"},{"it":"Quanto costa?","en":"How much is it?"}],
+      "correct": 1,
+      "feedbackOk": { "it": "Perfetto! 'Vorrei... per favore'!", "en": "Perfect! 'Vorrei... per favore'!" },
+      "feedbackErr": { "it": "'Vorrei un caffè, per favore' — sempre educato!", "en": "'Vorrei un caffè, per favore' — always polite!" }
+    },
+    {
+      "id": 4,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "intro": "Directions! / Indicazioni!",
+      "introIT": "Indicazioni!",
+      "intro_en": "Directions!",
+      "domanda": {
+        "it": "'A sinistra' significa...",
+        "en": "'A sinistra' means..."
+      },
+      "opzioni": [{"it":"A destra","en":"On the right"},{"it":"A sinistra","en":"On the left"},{"it":"Sempre dritto","en":"Straight ahead"},{"it":"Torna indietro","en":"Go back"}],
+      "correct": 1,
+      "feedbackOk": { "it": "Esatto! A sinistra = on the left!", "en": "Correct! A sinistra = on the left!" },
+      "feedbackErr": { "it": "'A sinistra' = on the left. 'A destra' = on the right.", "en": "'A sinistra' = on the left. 'A destra' = on the right." }
+    },
+    {
+      "id": 5,
+      "personaggio": "gino",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "intro": "Food culture! / Cultura del cibo!",
+      "introIT": "Cultura del cibo!",
+      "intro_en": "Food culture!",
+      "domanda": {
+        "it": "Dopo il primo piatto, cosa viene?",
+        "en": "After the first course, what comes next?"
+      },
+      "opzioni": [{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"},{"it":"Il secondo","en":"Second course"},{"it":"Il caffè","en":"Coffee"}],
+      "correct": 2,
+      "feedbackOk": { "it": "Esatto! Primo → Secondo!", "en": "Correct! Primo → Secondo!" },
+      "feedbackErr": { "it": "Dopo il primo viene il secondo (carne/pesce)!", "en": "After the primo comes il secondo (meat/fish)!" }
+    },
+    {
+      "id": 6,
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "Naples fact! / Fatto napoletano!",
+      "introIT": "Fatto napoletano!",
+      "intro_en": "Naples fact!",
+      "domanda": {
+        "it": "A Napoli, il caffè al banco costa meno che al tavolo.",
+        "en": "In Naples, coffee at the counter costs less than at the table."
+      },
+      "correct": true,
+      "feedbackOk": { "it": "Bravo! Al banco si risparmia sempre!", "en": "Right! At the counter you always save!" },
+      "feedbackErr": { "it": "È vero! Al banco il caffè costa meno — ordina al banco come un vero napoletano!", "en": "It's true! Counter coffee costs less — order like a real Neapolitan!" }
+    },
+    {
+      "id": 7,
+      "personaggio": "sofia",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "intro": "Mix it up! / Mescola tutto!",
+      "introIT": "Mescola tutto!",
+      "intro_en": "Mix it up!",
+      "domanda": {
+        "it": "Come chiedi 'Where is the museum?' in italiano?",
+        "en": "How do you ask 'Where is the museum?' in Italian?"
+      },
+      "opzioni": [{"it":"Quanto costa il museo?","en":"How much is the museum?"},{"it":"Dov'è il museo?","en":"Where is the museum?"},{"it":"Vorrei il museo","en":"I'd like the museum"},{"it":"Il museo è a destra","en":"The museum is on the right"}],
+      "correct": 1,
+      "feedbackOk": { "it": "Perfetto! 'Dov'è...?' per chiedere dove!", "en": "Perfect! 'Dov'è...?' to ask where!" },
+      "feedbackErr": { "it": "'Dov'è il museo?' = Where is the museum?", "en": "'Dov'è il museo?' = Where is the museum?" }
+    },
+    {
+      "id": 8,
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "intro": "Quasi alla fine! / Almost there!",
+      "introIT": "Quasi alla fine!",
+      "intro_en": "Almost there!",
+      "domanda": {
+        "it": "Qualcuno dice 'Grazie'. Tu rispondi...",
+        "en": "Someone says 'Grazie'. You reply..."
+      },
+      "opzioni": [{"it":"Ciao","en":"Hello/Bye"},{"it":"Buongiorno","en":"Good morning"},{"it":"Prego","en":"You're welcome"},{"it":"Scusa","en":"Sorry"}],
+      "correct": 2,
+      "feedbackOk": { "it": "Perfetto! 'Prego' = You're welcome!", "en": "Perfect! 'Prego' = You're welcome!" },
+      "feedbackErr": { "it": "'Prego' è la risposta automatica a 'Grazie'!", "en": "'Prego' is the automatic reply to 'Grazie'!" }
+    },
+    {
+      "id": 9,
+      "personaggio": "diego",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "intro": "Greetings! / Saluti!",
+      "introIT": "Saluti!",
+      "intro_en": "Greetings!",
+      "domanda": {
+        "it": "Sono le 9 di mattina. Come saluti?",
+        "en": "It's 9 AM. How do you greet?"
+      },
+      "opzioni": [{"it":"Buonasera","en":"Good evening"},{"it":"Buonanotte","en":"Good night"},{"it":"Buongiorno","en":"Good morning"},{"it":"Arrivederci","en":"Goodbye"}],
+      "correct": 2,
+      "feedbackOk": { "it": "Esatto! Buongiorno la mattina!", "en": "Correct! Buongiorno in the morning!" },
+      "feedbackErr": { "it": "'Buongiorno' la mattina, 'Buonasera' la sera!", "en": "'Buongiorno' in the morning, 'Buonasera' in the evening!" }
+    },
+    {
+      "id": 10,
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "intro": "Final one! / Ultima!",
+      "introIT": "Ultima!",
+      "intro_en": "Final one!",
+      "domanda": {
+        "it": "'Cornetto' è la parola italiana per 'croissant'.",
+        "en": "'Cornetto' is the Italian word for 'croissant'."
+      },
+      "correct": true,
+      "feedbackOk": { "it": "Bravissimo! Speed Round completato!", "en": "Excellent! Speed Round complete!" },
+      "feedbackErr": { "it": "Si! 'Cornetto' = croissant in italiano!", "en": "Yes! 'Cornetto' = croissant in Italian!" }
+    }
+  ]
+}

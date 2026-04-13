@@ -1,32 +1,52 @@
 {
   "id": 2,
-  "title": "Il Primo Caffè",
+  "title": "Il Primo Caffe",
+  "titleEN": "The First Coffee",
   "subtitle": "Ordina senza sembrare turista",
+  "subtitleEN": "Order without looking like a tourist",
   "livello": "Turista",
+  "type": "lettura",
+  "icon": "📖",
+  "reward": {
+    "slot": "fine_colazione",
+    "crediti": 5,
+    "pool": [
+      { "emoji": "🥐", "nome": "Cornetto alla crema", "nomeEN": "Cream croissant" },
+      { "emoji": "🧇", "nome": "Brioche col tuppo", "nomeEN": "Sicilian brioche" },
+      { "emoji": "🍫", "nome": "Cioccolata calda", "nomeEN": "Hot chocolate" },
+      { "emoji": "🥐", "nome": "Sfogliatella", "nomeEN": "Sfogliatella pastry" }
+    ]
+  },
   "vocab": [
     {
-      "id": "caffe",
+      "id": "caffè",
       "emoji": "☕",
-      "it": "il caffè",
-      "en": "espresso / coffee",
-      "mario": "Al bar si dice solo 'un caffè' — niente 'espresso'. / At the bar you just say 'un caffè' — not 'espresso'.",
-      "marioIT": "Al bar si dice solo un caffè, niente espresso."
+      "it": "Un caffè",
+      "en": "An espresso",
+      "audio_text": "Un caffè",
+      "mario_it": "A Napoli 'un caffè' è sempre un espresso. Se vuoi il lungo devi dirlo!",
+      "mario_en": "In Naples 'un caffè' is always an espresso. If you want a long one, say so!",
+      "mario": "A Napoli 'un caffè' è sempre un espresso."
     },
     {
-      "id": "cornetto",
-      "emoji": "🥐",
-      "it": "il cornetto",
-      "en": "croissant / brioche",
-      "mario": "Non è un gelato! Il cornetto si mangia a colazione. / It's not ice cream! Cornetto is eaten at breakfast.",
-      "marioIT": "Non è un gelato! Il cornetto si mangia a colazione."
+      "id": "vorrei",
+      "emoji": "🙋",
+      "it": "Vorrei...",
+      "en": "I would like...",
+      "audio_text": "Vorrei",
+      "mario_it": "'Vorrei' è magico — educato e diretto. La formula perfetta per ordinare.",
+      "mario_en": "'Vorrei' is magic — polite and direct. The perfect formula to order.",
+      "mario": "'Vorrei' è magico — educato e diretto."
     },
     {
-      "id": "te",
-      "emoji": "🍵",
-      "it": "il tè",
-      "en": "tea",
-      "mario": "Al bar italiano il tè non è popolare — ma esiste! / Tea isn't popular at Italian bars — but it exists!",
-      "marioIT": "Al bar italiano il tè non è popolare, ma esiste."
+      "id": "il_conto",
+      "emoji": "💰",
+      "it": "Il conto, per favore",
+      "en": "The bill, please",
+      "audio_text": "Il conto, per favore",
+      "mario_it": "Il conto — mai 'la conta'! E aggiungi sempre 'per favore'.",
+      "mario_en": "Il conto — never 'la conta'! And always add 'per favore'.",
+      "mario": "Il conto — mai 'la conta'! E aggiungi sempre 'per favore'."
     }
   ],
   "questions": [
@@ -34,250 +54,191 @@
       "id": 1,
       "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Leggi bene... / Read carefully...",
-      "introIT": "Leggi bene...",
+      "fase": "riconoscimento",
+      "intro": "Sei al bar! / You're at the bar!",
+      "introIT": "Sei al bar di Mario!",
+      "intro_en": "You're at Mario's bar!",
       "domanda": {
-        "it": "Come si ordina un caffè al bar italiano?",
-        "en": "How do you order a coffee at an Italian bar?"
+        "it": "Come ordini un caffè educatamente?",
+        "en": "How do you order a coffee politely?"
       },
-      "opzioni": [
-        "Un caffè, per favore",
-        "One espresso please",
-        "Voglio un caffè",
-        "Dammi un caffè"
-      ],
-      "correct": 0,
+      "opzioni": [{"it":"Caffè!","en":"Coffee!"},{"it":"Vorrei un caffè, per favore","en":"I'd like a coffee, please"},{"it":"Dammi caffè","en":"Give me coffee"},{"it":"Prendo il conto","en":"I'll take the bill"}],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Breve e diretto. Al bancone si dice così.",
-        "en": "Exactly! Short and direct. That's how you say it at the counter."
+        "it": "Perfetto! 'Vorrei' + 'per favore' = combo vincente in qualsiasi bar italiano.",
+        "en": "Perfect! 'Vorrei' + 'per favore' = winning combo in any Italian bar."
       },
       "feedbackErr": {
-        "it": "Attenzione! 'Voglio' è troppo diretto. 'Per favore' fa tutta la differenza.",
-        "en": "Watch out! 'Voglio' is too blunt. 'Per favore' makes all the difference."
+        "it": "'Vorrei un caffè, per favore' — educato e diretto. Mai gridare 'Caffe!'",
+        "en": "'Vorrei un caffè, per favore' — polite and direct. Never shout 'Caffe!'"
       }
     },
     {
       "id": 2,
       "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "Attenzione però... / Be careful though...",
-      "introIT": "Attenzione però...",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "True or false? / Vero o falso?",
+      "introIT": "Vero o falso?",
+      "intro_en": "True or false?",
       "domanda": {
-        "it": "Cosa è il 'cornetto' in Italia?",
-        "en": "What is a 'cornetto' in Italy?"
+        "it": "A Napoli, 'un caffè' significa automaticamente un espresso.",
+        "en": "In Naples, 'un caffè' automatically means an espresso."
       },
-      "opzioni": [
-        "Un gelato",
-        "Una brioche a colazione",
-        "Un cornet musicale",
-        "Una pasta sfoglia salata"
-      ],
-      "correct": 1,
+      "correct": true,
       "feedbackOk": {
-        "it": "Ben fatto! Il cornetto è la brioche della colazione italiana — non il gelato!",
-        "en": "Well done! Cornetto is the breakfast brioche — not ice cream!"
+        "it": "Esatto! A Napoli il caffè è sempre espresso — se vuoi altro devi specificare.",
+        "en": "Correct! In Naples coffee is always espresso — if you want something else, specify."
       },
       "feedbackErr": {
-        "it": "Sembra simile, ma attenzione! In Italia il cornetto si mangia a colazione.",
-        "en": "Looks similar, but watch out! Cornetto is eaten at breakfast in Italy."
+        "it": "In realtà sì! A Napoli 'un caffè' = espresso, sempre.",
+        "en": "Actually yes! In Naples 'un caffè' = espresso, always."
       }
     },
     {
       "id": 3,
-      "personaggio": "mario",
+      "personaggio": "sofia",
       "tipo": "multipla",
-      "intro": "Sai come funziona il bar? / Do you know how a bar works?",
-      "introIT": "Sai come funziona il bar?",
+      "fase": "comprensione",
+      "intro": "Attenta al dettaglio! / Watch the detail!",
+      "introIT": "Attenta al dettaglio!",
+      "intro_en": "Watch the detail!",
       "domanda": {
-        "it": "In un bar italiano, dove si paga?",
-        "en": "At an Italian bar, where do you pay?"
+        "it": "Cosa significa 'il conto'?",
+        "en": "What does 'il conto' mean?"
       },
-      "opzioni": [
-        "Prima al bancone",
-        "Dopo aver bevuto",
-        "Prima alla cassa, poi al bancone",
-        "Non si paga"
-      ],
-      "correct": 2,
+      "opzioni": [{"it":"Il bancone","en":"The counter"},{"it":"Il conto","en":"The bill"},{"it":"Il caffè","en":"The coffee"},{"it":"Il resto","en":"The change"}],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Complimenti! Prima paghi alla cassa, prendi lo scontrino, poi ordini al bancone.",
-        "en": "Excellent! First pay at the till, get your receipt, then order at the counter."
+        "it": "Brava! 'Il conto' = the bill. Non confonderlo con 'il banco' (the counter)!",
+        "en": "Well done! 'Il conto' = the bill. Don't confuse it with 'il banco' (the counter)!"
       },
       "feedbackErr": {
-        "it": "Meglio tardi che mai! Prima cassa, poi bancone — sempre.",
-        "en": "Better late than never! Till first, then counter — always."
+        "it": "'Il conto' è the bill. 'Il banco' è the counter. Due cose diverse!",
+        "en": "'Il conto' is the bill. 'Il banco' is the counter. Two different things!"
       }
     },
     {
       "id": 4,
       "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "Sembra... ma non è così! / Looks like... but it's not!",
-      "introIT": "Sembra... ma non è così — te lo dico io.",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "A Naples fact! / Un fatto napoletano!",
+      "introIT": "Un fatto napoletano!",
+      "intro_en": "A Naples fact!",
       "domanda": {
-        "it": "Quando si beve il cappuccino in Italia?",
-        "en": "When do Italians drink cappuccino?"
+        "it": "Al bar, il caffè al banco e al tavolo costano uguale.",
+        "en": "At the bar, coffee at the counter and at the table cost the same."
       },
-      "opzioni": [
-        "Solo a colazione — mai dopo pranzo",
-        "In qualsiasi momento della giornata",
-        "Solo la sera",
-        "Solo nei bar di lusso"
-      ],
-      "correct": 0,
+      "correct": false,
       "feedbackOk": {
-        "it": "Esatto! Il cappuccino è bevanda da colazione. Ordinarlo dopo pranzo fa alzare un sopracciglio a ogni italiano.",
-        "en": "Exactly! Cappuccino is a breakfast drink. Ordering it after lunch raises every Italian's eyebrow."
+        "it": "Esatto, falso! Al banco costa meno. Un segreto che ogni turista dovrebbe sapere.",
+        "en": "Correct, false! At the counter it costs less. A secret every tourist should know."
       },
       "feedbackErr": {
-        "it": "Attenzione! In Italia il cappuccino si beve solo a colazione. Dopo i pasti si ordina un caffè — mai un cappuccino!",
-        "en": "Watch out! In Italy cappuccino is only for breakfast. After meals you order an espresso — never a cappuccino!"
+        "it": "Falso! Al banco il caffè costa meno — a volte anche la metà.",
+        "en": "False! At the counter coffee costs less — sometimes half price."
       }
     },
     {
       "id": 5,
       "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Meglio tardi che mai... / Better late than never...",
-      "introIT": "Meglio tardi che mai — questa la devi sapere.",
+      "fase": "comprensione",
+      "intro": "Breakfast time! / Ora di colazione!",
+      "introIT": "Ora di colazione!",
+      "intro_en": "Breakfast time!",
       "domanda": {
-        "it": "Al bar, stare al bancone costa come stare seduti?",
-        "en": "At a bar, does standing at the counter cost the same as sitting down?"
+        "it": "Come si chiama il 'croissant' in italiano?",
+        "en": "What is a 'croissant' called in Italian?"
       },
-      "opzioni": [
-        "Sì, il prezzo è sempre uguale",
-        "No, seduti si paga di più",
-        "No, al bancone si paga di più",
-        "Dipende dalla città"
-      ],
+      "opzioni": [{"it":"Baguette","en":"Baguette"},{"it":"Cornetto","en":"Croissant"},{"it":"Panino","en":"Sandwich"},{"it":"Brioche","en":"Brioche"}],
       "correct": 1,
       "feedbackOk": {
-        "it": "Ben fatto! Al bancone si paga meno — è la regola del bar italiano.",
-        "en": "Well done! Standing at the counter costs less — that's the Italian bar rule."
+        "it": "Esatto! Cornetto! In Sicilia lo chiamano 'brioche', ma a Napoli è sempre 'cornetto'.",
+        "en": "Correct! Cornetto! In Sicily they call it 'brioche', but in Naples it's always 'cornetto'."
       },
       "feedbackErr": {
-        "it": "Sembra simile, ma attenzione! Seduti si paga di più per il servizio al tavolo.",
-        "en": "Looks similar, but watch out! Sitting costs more for table service."
+        "it": "È 'cornetto'! La parola italiana per croissant.",
+        "en": "It's 'cornetto'! The Italian word for croissant."
       }
     },
     {
       "id": 6,
-      "personaggio": "sofia",
+      "personaggio": "gino",
       "tipo": "multipla",
-      "intro": "Ti dico come la dicono i giovani! / Let me tell you how young Italians say it!",
-      "introIT": "Ti dico come la dicono i giovani!",
+      "fase": "comprensione",
+      "intro": "La cultura del caffè... / The culture of coffee...",
+      "introIT": "La cultura del caffè ha una storia profonda a Napoli.",
+      "intro_en": "Coffee culture has a deep history in Naples.",
       "domanda": {
-        "it": "Un giovane italiano al bar dice spesso: 'Un attimo!' Cosa significa?",
-        "en": "A young Italian at the bar often says: 'Un attimo!' What does it mean?"
+        "it": "'Quanto costa?' si usa per chiedere...",
+        "en": "'Quanto costa?' is used to ask..."
       },
-      "opzioni": [
-        "One moment!",
-        "I don't know",
-        "Come here!",
-        "It's over"
-      ],
-      "correct": 0,
+      "opzioni": [{"it":"Dov'è?","en":"Where is it?"},{"it":"Quanto costa?","en":"How much does it cost?"},{"it":"Come si chiama?","en":"What is it called?"},{"it":"Cosa vuoi?","en":"What do you want?"}],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! 'Un attimo' — letteralmente 'an atom of time'. Si usa ovunque!",
-        "en": "Exactly! 'Un attimo' — literally 'an atom of time'. Used everywhere!"
+        "it": "Perfetto! 'Quanto costa?' = How much does it cost?",
+        "en": "Perfect! 'Quanto costa?' = How much does it cost?"
       },
       "feedbackErr": {
-        "it": "'Un attimo' significa 'one moment' — lo sentirai mille volte in Italia!",
-        "en": "'Un attimo' means 'one moment' — you'll hear it a thousand times in Italy!"
+        "it": "'Quanto costa?' significa 'How much does it cost?'. 'Quanto' = how much, 'costa' = it costs.",
+        "en": "'Quanto costa?' means 'How much does it cost?'."
       }
     },
     {
       "id": 7,
       "personaggio": "diego",
       "tipo": "multipla",
-      "intro": "Questa è una parola IMPORTANTISSIMA! / This word is SUPER IMPORTANT!",
-      "introIT": "Questa parola la devi sapere assolutamente!",
+      "fase": "produzione",
+      "intro": "Ordina come un pro! / Order like a pro!",
+      "introIT": "Ordina come un vero napoletano!",
+      "intro_en": "Order like a real Neapolitan!",
       "domanda": {
-        "it": "Come si dice 'water' in italiano?",
-        "en": "Come si dice 'water' in italiano?"
+        "it": "Vuoi un caffè e un cornetto. Come ordini?",
+        "en": "You want a coffee and a croissant. How do you order?"
       },
       "opzioni": [
-        "Vino",
-        "Acqua",
-        "Succo",
-        "Latte"
+        {"it":"Vorrei un caffè e un cornetto, per favore","en":"I'd like a coffee and a croissant, please"},
+        {"it":"Caffè! Cornetto!","en":"Coffee! Croissant!"},
+        {"it":"Il conto per un caffè","en":"The bill for a coffee"},
+        {"it":"Un cornetto e basta","en":"Just a croissant"}
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Ben fatto! Acqua — fondamentale al bar italiano. 'Acqua naturale o frizzante?'",
-        "en": "Well done! Acqua — essential at an Italian bar. 'Still or sparkling?'"
+        "it": "Bravo! 'Vorrei... per favore' — sei gia un cliente perfetto del bar!",
+        "en": "Great! 'Vorrei... per favore' — you're already a perfect bar customer!"
       },
       "feedbackErr": {
-        "it": "Acqua! Non dimenticarlo — al bar ti chiedono sempre 'naturale o frizzante?'",
-        "en": "Acqua! Don't forget — at the bar they always ask 'still or sparkling?'"
+        "it": "'Vorrei un caffè e un cornetto, per favore' — sempre educato!",
+        "en": "'Vorrei un caffè e un cornetto, per favore' — always polite!"
       }
     },
     {
       "id": 8,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "intro": "Il caffè ha una storia straordinaria... / Coffee has an extraordinary history...",
-      "introIT": "Il caffè ha una storia straordinaria in Italia.",
+      "personaggio": "mario",
+      "tipo": "word_bank",
+      "fase": "produzione",
+      "intro": "Build the sentence! / Componi la frase!",
+      "introIT": "Componi la frase!",
+      "intro_en": "Build the sentence!",
       "domanda": {
-        "it": "Il caffè è arrivato in Italia da quale paese?",
-        "en": "Coffee arrived in Italy from which country?"
+        "it": "Ordina un caffè al bar di Mario.",
+        "en": "Order a coffee at Mario's bar."
       },
-      "opzioni": [
-        "Brasile",
-        "Etiopia via Yemen e Turchia",
-        "Colombia",
-        "Francia"
-      ],
-      "correct": 1,
+      "soluzione": "Vorrei un caffè, per favore.",
+      "parole": ["Vorrei", "un", "caffè", "per", "favore"],
+      "distrattori": ["il", "conto", "quanto"],
+      "hint_it": "Inizia con 'Vorrei' e finisci con 'per favore'",
+      "hint_en": "Start with 'Vorrei' and end with 'per favore'",
       "feedbackOk": {
-        "it": "Complimenti! Il caffè viene dall'Etiopia, passò per Yemen e Turchia, arrivò a Venezia nel 1600. Da lì conquistò l'Italia!",
-        "en": "Excellent! Coffee comes from Ethiopia, passed through Yemen and Turkey, arrived in Venice in 1600. From there it conquered Italy!"
+        "it": "Perfetto! 'Vorrei un caffè, per favore' — ora sei pronto!",
+        "en": "Perfect! 'Vorrei un caffè, per favore' — now you're ready!"
       },
       "feedbackErr": {
-        "it": "Il caffè viene dall'Etiopia — passò per Yemen e Turchia e arrivò a Venezia nel 1600. Storia straordinaria!",
-        "en": "Coffee comes from Ethiopia — it passed through Yemen and Turkey and arrived in Venice in 1600. Extraordinary history!"
+        "it": "L'ordine giusto è: 'Vorrei un caffè, per favore'.",
+        "en": "The correct order is: 'Vorrei un caffè, per favore'."
       }
     }
-  ],
-  "reward": {
-    "scala_errori": [
-      {
-        "max_errori": 0,
-        "energia": 25,
-        "crediti": 15,
-        "cibo": "cornetto+caffè"
-      },
-      {
-        "max_errori": 1,
-        "energia": 20,
-        "crediti": 12,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 2,
-        "energia": 15,
-        "crediti": 10,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 3,
-        "energia": 10,
-        "crediti": 8,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 4,
-        "energia": 5,
-        "crediti": 5,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 99,
-        "energia": 2,
-        "crediti": 2,
-        "cibo": "nessuno"
-      }
-    ],
-    "pizza_ogni_n_risposte": 5
-  }
+  ]
 }

@@ -19,6 +19,9 @@ app/components/XPBar.js              — Barra energia (streak/crediti rimossi d
 app/components/LevelBadge.js         — Livelli CEFR + categorie narrative
 app/components/saveProgress.js       — Sistema reward + streak
 app/components/ItalyTravelModal.js   — Modal viaggi (Capitali/Città/Mete)
+app/components/CharacterBubble.js    — CHARACTERS (merge JSON config + voice), TTS parla()
+app/components/PersonaggioBubble.js  — Fumetto personaggio con TTS/typewriter
+app/components/VocabMatch.js         — Round 1/2 abbinamento vocaboli
 app/components/games/MarioDialog.js  — Dialogo AI Claude Haiku
 app/components/games/DiegoGesti.js   — Flash Gesti
 app/components/games/SofiaSlang.js   — Speed Round slang
@@ -27,6 +30,33 @@ app/components/games/MatildeEmail.js — Email Challenge AI
 app/lesson/[id]/page.js              — Lezioni con FraseAnnotata in VocabIntro
 public/images/italia-map.png         — Mappa PNG statica (usata nel modal)
 public/images/italia-map.svg         — Mappa SVG (non ancora integrata)
+
+data/config/personaggi.json          — Config centralizzata personaggi (nome, avatar, colore, ruolo)
+data/config/unita.json               — Config centralizzata unità (titoli, personaggi, lezioni)
+lib/getConfig.js                     — API: getPersonaggio(id), getUnitaConfig(livello, unita)
+```
+
+---
+
+## Configurazione Centralizzata
+
+### Personaggi — `data/config/personaggi.json`
+Single source of truth per nome, avatar, colore e ruolo di ogni personaggio.
+`CharacterBubble.js` importa questo JSON e ci aggiunge i parametri TTS runtime
+(voice, rate, pitch) per costruire l'export `CHARACTERS` usato ovunque nell'app.
+
+```
+Flusso: personaggi.json → CharacterBubble.js:CHARACTERS → PersonaggioBubble, page.js, VocabMatch
+```
+
+### Unità — `data/config/unita.json`
+Config per ogni unità: titoli bilingui, tipo (esplorazione/consolidamento),
+personaggi coinvolti, lista lezioni, boss.
+
+### API — `lib/getConfig.js`
+```js
+import { getPersonaggio } from '@/lib/getConfig'
+const p = getPersonaggio('mario')  // → { nome, avatar, colore, ruolo_it, ruolo_en }
 ```
 
 ---
@@ -788,9 +818,113 @@ Nota: anche la prima lezione della prima unità è random — non esiste un cibo
 - Toggle "Abilita pronuncia beta" nelle impostazioni dashboard per chi vuole testare
 
 ### Da fare prossima sessione
-1. Riscrivere lesson1.json → lesson5.json + boss.json per Unità 1 (dispari)
-2. Aggiungere campo `type` ai JSON lezioni
-3. Aggiungere campo `reward` ai JSON (slot cibo + crediti)
-4. Implementare popup reward tra lezioni in lesson/[livello]/[unita]/[lezione]/page.js
-5. Aggiornare saveProgress.js per gestire crediti per lezione
-6. Aggiornare UNITS in dashboard e home da lessons:[1,2,3,4] a lessons:[1,2,3,4,5]
+1. ✅ Riscrivere lesson1.json → lesson5.json + boss.json per Unità 1 (dispari)
+2. ✅ Aggiungere campo `type` ai JSON lezioni
+3. ✅ Aggiungere campo `reward` ai JSON (slot cibo + crediti)
+4. ✅ Implementare popup reward tra lezioni in lesson/[livello]/[unita]/[lezione]/page.js
+5. ✅ Aggiornare saveProgress.js per gestire crediti per lezione
+6. ✅ Aggiornare UNITS in dashboard e home da lessons:[1,2,3,4] a lessons:[1,2,3,4,5]
+
+---
+
+## DECISIONI SESSIONE 2
+
+### Bilinguismo universale
+- Ogni testo visibile ha **sempre due righe**: italiano prima, inglese dopo
+- Mai affiancati, mai su una riga sola — sempre su righe separate
+- Vale per: fumetti, domande, opzioni di risposta, reazioni della Nonna, feedback, hint — **tutto**
+- I personaggi pronunciano via TTS **solo la parte italiana**, anche se il fumetto mostra entrambe le lingue
+
+### Vocabolario (3 parole per lezione)
+- **Round 1**: mostra parola italiana → studente sceglie traduzione inglese → TTS pronuncia la parola italiana
+- **Round 2**: mostra parola inglese → studente sceglie/scrive la parola italiana
+- Ogni vocab item ha campo `audio_text` per il TTS (può differire dalla forma scritta)
+
+### Word Bank
+- Punteggiatura finale **fissa a video** (non selezionabile, non nelle parole da trascinare)
+- Parole mostrate in case normali (maiuscole/minuscole rispettate)
+- Quando la frase è composta correttamente → TTS legge la frase italiana completa
+- **È** (verbo essere) e **e** (congiunzione) sempre distinguibili — mai tutto maiuscolo
+
+### Audio — Web Speech API
+- TTS gratuito, già nel browser, zero configurazione
+- Fallback sempre visibile: pulsante `[👁️ Leggi]` se audio non disponibile
+- Per microfono: pulsante `[⌨️ Scrivi invece]` se mic non disponibile
+- Lingua TTS: sempre `it-IT`, rate `0.88`
+
+### Attività per tipo lezione (variano tra unità)
+
+| Slot | Tipo | Attività |
+|------|------|----------|
+| L1 | Vocabolario | Flashcard IT→EN poi EN→IT con audio TTS |
+| L2 | Lettura | Dialogo a bolle bilingue + quiz comprensione |
+| L3 | Pratica | Word bank componi frase (punteggiatura fissa, audio a completamento) |
+| L4 | Ascolto | Senti TTS → scegli parola o frase corretta |
+| L5 | Speed Round | Mix 10 domande da tutte le lezioni, 10 secondi ciascuna |
+| Boss | Sfida la Nonna | Dialogo interattivo: lei parla (bilingue), tu scegli risposta (bilingue), reazioni divertenti agli errori (bilingue) |
+
+### Struttura fumetti e domande
+- Sempre su **due righe separate**
+- Riga 1: testo italiano
+- Riga 2: testo inglese (corsivo o colore più tenue)
+- Mai concatenati sulla stessa riga con `/` o `—`
+
+### Struttura JSON lezioni — v2
+
+```json
+{
+  "id": 1,
+  "title": "Titolo IT",
+  "titleEN": "Title EN",
+  "type": "vocabolario|lettura|pratica|ascolto|speedround|boss",
+  "icon": "⭐",
+  "reward": {
+    "slot": "colazione|fine_colazione|pranzo|aperitivo|cena|dolce",
+    "crediti": 5,
+    "pool": [{ "emoji": "☕", "nome": "Nome IT", "nomeEN": "Name EN" }]
+  },
+  "vocab": [
+    {
+      "id": "parola",
+      "emoji": "👋",
+      "it": "Ciao",
+      "en": "Hello / Goodbye",
+      "audio_text": "Ciao",
+      "mario_it": "Spiegazione italiana.",
+      "mario_en": "English explanation."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "personaggio": "mario",
+      "tipo": "multipla|vero_falso|word_bank|abbina_coppia|ascolta_scegli",
+      "fase": "riconoscimento|comprensione|produzione",
+      "intro_it": "Testo italiano intro.",
+      "intro_en": "English intro text.",
+      "domanda_it": "Domanda in italiano?",
+      "domanda_en": "Question in English?",
+      "opzioni": [
+        { "it": "Opzione IT", "en": "Option EN" }
+      ],
+      "correct": 0,
+      "feedback_ok_it": "Feedback positivo IT.",
+      "feedback_ok_en": "Positive feedback EN.",
+      "feedback_err_it": "Feedback errore IT.",
+      "feedback_err_en": "Error feedback EN."
+    }
+  ]
+}
+```
+
+**Regole campi:**
+- `intro_it` / `intro_en` → due righe nel fumetto, TTS solo su `intro_it`
+- `domanda_it` / `domanda_en` → due righe nel box domanda
+- `opzioni` → ogni opzione è `{ it, en }` (due righe nel bottone)
+- `feedback_ok_it/en` e `feedback_err_it/en` → due righe nella barra feedback
+- `audio_text` nel vocab → testo esatto per TTS (gestisce accenti, elisioni)
+
+### Bug da correggere
+- **È vs e**: sempre distinguibili nel testo — `È` (verbo) mai scritto come `E` maiuscolo
+- Maiuscole/minuscole sempre rispettate nella visualizzazione (no `toUpperCase()` sulle opzioni)
+- Punteggiatura (`.`, `?`, `!`, `,`) **non inclusa** nel pool word bank — appare fissa a video

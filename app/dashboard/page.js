@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation';
 import { getLevelData } from '../components/LevelBadge';
 import { loadProgress } from '../components/saveProgress';
 import ItalyTravelModal from '../components/ItalyTravelModal';
+import TricoloreBar from '../components/TricoloreBar';
 
 const DEFAULT_AVATARS = ['🍕','🤌','☕','🎵','🌊','🏺','🍋','👒'];
 const DAY_KEYS_ARR   = ['lun','mar','mer','gio','ven','sab','dom'];
@@ -105,21 +106,28 @@ export default function Dashboard() {
   const fi = (w,c)=>({height:'100%',width:`${Math.min(w,100)}%`,background:c,borderRadius:99,transition:'width 0.7s'});
 
   return (
-    <main className="page-wide" style={{minHeight:'100vh',background:'var(--bg)',paddingBottom:40,paddingLeft:0,paddingRight:0}}>
+    <>
+      <div className="app-wrapper">
+        <TricoloreBar />
+        <div className="app-topbar">
+          <button
+            onClick={()=>router.push('/')}
+            className="lesson-topbar__home"
+            aria-label="Home"
+            title="Home"
+          >
+            🏠
+          </button>
+          <div className="lesson-topbar__title">
+            <div className="lesson-topbar__title-it">Dashboard</div>
+            <div className="lesson-topbar__title-en">Your progress</div>
+          </div>
+          <div style={{width:40}}/>
+        </div>
+        <TricoloreBar />
 
-      {/* ── TOP BAR ── */}
-      <div style={{background:'var(--card)',borderBottom:'1.5px solid var(--border)',padding:'12px 8px',display:'flex',alignItems:'center',justifyContent:'space-between',position:'sticky',top:0,zIndex:10}}>
-        <button
-          onClick={()=>router.push('/')}
-          style={{background:'none',border:'none',color:'var(--primary)',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit',display:'flex',alignItems:'center',gap:5}}
-        >
-          🏠 Home
-        </button>
-        <span style={{fontSize:16,fontWeight:900,color:'var(--text)'}}>Dashboard</span>
-        <div style={{width:64}}/>
-      </div>
-
-      <div style={{padding:'12px 8px',display:'flex',flexDirection:'column',gap:10,maxWidth:'100%',margin:'0 auto'}}>
+        <div className="app-body">
+          <div style={{display:'flex',flexDirection:'column',gap:10,width:'100%'}}>
 
         {/* ── 1. STATUS CARD ── */}
         <div style={C}>
@@ -273,6 +281,8 @@ export default function Dashboard() {
         />
       )}
 
-    </main>
+      </div>
+    </div>
+    </>
   );
 }

@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 :root {
   /* Sfondi */
   --bg: #23313d;
@@ -66,7 +64,9 @@
   }
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -208,15 +208,6 @@ button:active:not(:disabled) {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@keyframes speaking-glow {
-  0%,
-  100% {
-    box-shadow: 0 0 0px 0px #ff9b4200;
-  }
-  50% {
-    box-shadow: 0 0 14px 6px #ff9b42aa;
   }
 }
 @keyframes logo-shake {
@@ -362,55 +353,19 @@ button:active:not(:disabled) {
       0 0 40px #58cc0233;
   }
 }
-@keyframes slide-up {
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes card-flip {
-  0% {
-    transform: scale(0.95);
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* ============================================
-   RESPONSIVE — colonna centrata stile app
+   RESPONSIVE — colonna centrata stile app (Opzione B)
    ============================================ */
-.app-shell:has(main.full-bleed) {
-  max-width: 100% !important;
-  width: 100% !important;
-  padding: 0 !important;
-}
-
 .app-shell {
   width: 100%;
   min-height: 100vh;
   position: relative;
 }
 
+/* Lati scuri su desktop — da 481px in su */
 @media (min-width: 481px) {
   body {
-    background: #1a2730;
+    background: #111b27;
   }
   .app-shell {
     box-shadow: 0 0 60px rgba(0,0,0,0.5);
@@ -418,12 +373,150 @@ button:active:not(:disabled) {
 }
 
 /* ============================================
-   LAYOUT PER PAGINA
+   LAYOUT PER PAGINA — Opzione B (720 centrato)
    ============================================ */
 .page-narrow {
   width: 100%;
-  max-width: 520px;
+  max-width: 720px;
   margin: 0 auto;
+}
+
+/* Wrapper unico schermate lezione — padding 16 laterale.
+   La LessonTopbar sta FUORI da questo wrapper (full-width, sibling). */
+.lesson-frame {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  min-height: calc(100vh - 60px); /* sottrai topbar approssimativa */
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  box-sizing: border-box;
+  background: var(--bg-lesson);
+}
+@media (max-width: 767px) {
+  .lesson-frame { padding: 0; min-height: calc(100vh - 52px); }
+}
+
+/* Barra secondaria: componente BarraSecondaria si occupa degli stili interni.
+   Qui lasciamo solo la classe di appiglio per futuri tweak globali. */
+.barra-secondaria {
+  flex-shrink: 0;
+}
+
+/* ============================================
+   PERSONAGGIO + FUMETTO — stili statici (no inline <style>)
+   Tutte le animazioni sono ONE-SHOT (forwards) — nessuna infinite.
+   Il colore è passato via CSS custom property --char-color.
+   ============================================ */
+.pb-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  width: 100%;
+}
+.pb-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid var(--char-color, #FF9B42);
+  background: var(--char-bg, rgba(255,155,66,0.12));
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  /* Nessuna animazione di default — personaggio statico */
+}
+
+/* ONE-SHOT animations — si applicano via className e si disapplicano */
+@keyframes pb-enter {
+  0%   { transform: scale(0.7); opacity: 0; }
+  60%  { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes pb-bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-10px); }
+  55%  { transform: translateY(0); }
+  75%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+@keyframes pb-shake {
+  0%,100% { transform: translateX(0); }
+  20%     { transform: translateX(-6px); }
+  40%     { transform: translateX(6px); }
+  60%     { transform: translateX(-4px); }
+  80%     { transform: translateX(4px); }
+}
+@keyframes pb-spin {
+  0%   { transform: rotate(0deg)   scale(1); }
+  50%  { transform: rotate(180deg) scale(1.15); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+.pb-avatar.pb-enter  { animation: pb-enter  0.5s ease-out forwards; }
+.pb-avatar.pb-bounce { animation: pb-bounce 0.5s ease forwards; }
+.pb-avatar.pb-shake  { animation: pb-shake  0.4s ease forwards; }
+.pb-avatar.pb-spin   { animation: pb-spin   0.6s ease forwards; }
+
+/* ── Pulse durante TTS (si applica al WRAPPER avatar, non all'img) ────────── */
+@keyframes avatarPulse {
+  0%   { box-shadow: 0 0 0 0px rgba(255,149,0,0.75); }
+  50%  { box-shadow: 0 0 0 10px rgba(255,149,0,0.15); }
+  100% { box-shadow: 0 0 0 0px rgba(255,149,0,0);    }
+}
+.pb-avatar-wrapper {
+  position: relative;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease;
+}
+.pb-avatar-wrapper.speaking {
+  animation: avatarPulse 0.9s ease-out infinite;
+}
+
+/* ── Cursor typewriter (blink) ──────────────────────────────────────────── */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* ── Typewriter width animation (non usato direttamente ma disponibile) ─── */
+@keyframes typewriter {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+/* Body scrollabile della lezione */
+.lesson-body {
+  flex: 1;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  overflow-y: auto;
+}
+@media (max-width: 767px) {
+  .lesson-body { padding: 16px 12px; }
+}
+
+/* Footer sticky: CTA sempre visibile in fondo */
+.lesson-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 90;
+  background: var(--card);
+  border-top: 2px solid var(--border);
+  padding: 12px 16px;
+  margin: 0;
+  flex-shrink: 0;
+  box-shadow: 0 -4px 12px rgba(0,0,0,0.25);
+}
+@media (max-width: 767px) {
+  .lesson-footer { padding: 10px 8px; margin: 0; }
+}
+.lesson-footer--row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
 }
 
 .page-wide {
@@ -434,24 +527,346 @@ button:active:not(:disabled) {
 }
 
 @media (min-width: 768px) {
-  .page-narrow {
-    max-width: 720px;
-  }
   .page-wide {
     max-width: 1080px;
   }
 }
 
-
-
-@keyframes btn-pulse {
-  0%,100% { box-shadow: 0 0 10px rgba(39,174,96,0.35); }
-  50%      { box-shadow: 0 0 24px rgba(39,174,96,0.75), 0 0 40px rgba(39,174,96,0.25); }
+/* Niente margini laterali su mobile */
+@media (max-width: 767px) {
+  .page-narrow,
+  .page-wide {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
-.btn-pulse { animation: btn-pulse 2s ease-in-out infinite; }
+
+html, body { overflow-x: hidden; }
+
+/* ============================================
+   SCHEMA GLOBALE — layout di pagina standard
+   ============================================ */
+
+/* Wrapper principale: 720 centrato, SENZA padding laterale.
+   Il padding va sui figli (topbar, body, bottom) — non sul wrapper —
+   così TricoloreBar può occupare tutta la larghezza 720px. */
+.app-wrapper {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: var(--bg);
+  overflow-x: hidden;
+}
+@media (max-width: 767px) {
+  .app-wrapper {
+    max-width: 100%;
+  }
+}
+
+/* Topbar — sempre 56px, flex-shrink:0 */
+.app-topbar {
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .app-topbar {
+    height: 48px;
+    font-size: 12px;
+    padding: 0 8px;
+  }
+}
+
+/* Body scrollabile: occupa lo spazio tra topbar e bottom */
+.app-body {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .app-body {
+    padding: 16px 8px;
+  }
+}
+
+/* Bottom sticky: sempre visibile in fondo */
+.app-bottom {
+  min-height: 72px;
+  flex-shrink: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+  background: var(--bg);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .app-bottom {
+    padding: 8px 8px;
+  }
+}
+/* Variante feedback: cresce per ospitare messaggio + bottone */
+.app-bottom--feedback {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 12px 16px;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .app-bottom--feedback {
+    padding: 12px 8px;
+  }
+}
+
+/* ============================================
+   LESSON TOPBAR — adattatore legacy, usa .app-topbar
+   ============================================ */
+.lesson-topbar-outer {
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  .lesson-topbar-outer { height: 48px; }
+}
+.lesson-topbar-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.lesson-topbar__home {
+  background: none;
+  border: none;
+  color: #58cc02;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+  text-transform: none;
+  letter-spacing: normal;
+  flex-shrink: 0;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lesson-topbar__title {
+  flex: 1;
+  text-align: center;
+  line-height: 1.2;
+  min-width: 0;
+}
+.lesson-topbar__title-it {
+  font-size: 13px;
+  font-weight: 900;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lesson-topbar__title-en {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lesson-topbar__title-mobile {
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lesson-topbar__credits {
+  font-size: 14px;
+  font-weight: 900;
+  color: #E5B700;
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Mobile: topbar compatta */
+@media (max-width: 767px) {
+  .lesson-topbar-inner {
+    padding: 0;
+    gap: 8px;
+  }
+  .lesson-topbar__home {
+    height: 36px;
+    width: 36px;
+    font-size: 18px;
+  }
+  .lesson-topbar__credits {
+    font-size: 12px;
+  }
+  .lesson-topbar__title-it { font-size: 12px; }
+  .lesson-topbar__title-en { font-size: 10px; }
+}
+
+/* ============================================
+   DESIGN SYSTEM — Sessione design Opzione B
+   ============================================ */
+
+/* Bottone primario (Controlla, Avanti, Inizia, Check) */
+.btn-primary {
+  width: 100%;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-radius: var(--r);
+  border: none;
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 0 var(--primary-d);
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.2;
+  padding: 0 14px;
+}
+.btn-primary:disabled {
+  background: var(--dis-bg);
+  color: var(--dis-text);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.btn-primary--secondary {
+  background: var(--secondary);
+  box-shadow: 0 4px 0 var(--secondary-d);
+}
+.btn-primary--warn {
+  background: #E5B700;
+  box-shadow: 0 4px 0 #b8920b;
+}
+.btn-primary--err {
+  background: #CC0000;
+  box-shadow: 0 4px 0 #990000;
+}
+
+/* Card opzione di risposta */
+.opt-card {
+  width: 100%;
+  min-height: 64px;
+  padding: 12px 16px;
+  border-radius: var(--r);
+  border: 2px solid var(--opt-border);
+  background: var(--opt-bg);
+  color: var(--opt-text);
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  transition: background 0.15s, border 0.15s;
+}
+.opt-card__it {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.25;
+  pointer-events: none;
+}
+.opt-card__en {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--text3);
+  line-height: 1.25;
+  pointer-events: none;
+}
+
+/* Card domanda */
+.q-card {
+  padding: 16px 20px;
+  border-radius: var(--r);
+  background: var(--card);
+  border: 2px solid var(--border);
+}
+.q-card__it {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.35;
+}
+.q-card__en {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text3);
+  margin-top: 6px;
+  line-height: 1.35;
+}
 
 @keyframes text-breathe {
   0%,100% { opacity: 1; letter-spacing: 0.5px; }
   50%      { opacity: 0.6; letter-spacing: 2px; }
 }
-.btn-pulse { animation: text-breathe 2.5s ease-in-out infinite; }
+.btn-breathe { animation: text-breathe 2.5s ease-in-out infinite; }
+
+/* Boss intro popup animations */
+@keyframes popIn {
+  0%   { transform: scale(0.7); opacity: 0; }
+  60%  { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-8px); }
+}
+@keyframes sparkle {
+  0%,100% { opacity: 0; transform: scale(0); }
+  50%     { opacity: 1; transform: scale(1); }
+}
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+@keyframes gelato {
+  0%   { transform: scale(0) rotate(-10deg); opacity: 0; }
+  60%  { transform: scale(1.15) rotate(3deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}

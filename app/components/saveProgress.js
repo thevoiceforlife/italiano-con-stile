@@ -1,14 +1,30 @@
 // app/components/saveProgress.js
-// ─── Sistema reward centralizzato — Sprint 6 ─────────────────────────────────
+// ─── Sistema reward centralizzato — Sprint 11 ────────────────────────────────
 
 const KEY = 'italiano-progress';
 
-const LESSON_FOOD = {
-  1: { cibo: 'caffe',     energiaBase: 10, emoji: '☕', nome: 'Caffè' },
-  2: { cibo: 'cornetto',  energiaBase: 15, emoji: '🥐', nome: 'Cornetto' },
-  3: { cibo: 'aperitivo', energiaBase: 20, emoji: '🍸', nome: 'Aperitivo' },
-  4: { cibo: 'pizza',     energiaBase: 15, emoji: '🍕', nome: 'Pizza' },
+// Crediti fissi per slot lezione (dalla bibbia)
+const SLOT_CREDITI = { 1: 5, 2: 5, 3: 8, 4: 8, 5: 10 };
+const BOSS_CREDITI = 30;
+
+// Energia base per slot lezione
+const SLOT_ENERGIA = { 1: 10, 2: 12, 3: 15, 4: 15, 5: 18 };
+const BOSS_ENERGIA_MAX = 10;
+
+// Fallback pool cibo se il JSON non ha reward.pool
+const FALLBACK_FOOD = {
+  1: { emoji: '☕', nome: 'Caffe espresso', nomeEN: 'Espresso coffee' },
+  2: { emoji: '🥐', nome: 'Cornetto alla crema', nomeEN: 'Cream croissant' },
+  3: { emoji: '🍝', nome: 'Spaghetti al pomodoro', nomeEN: 'Spaghetti with tomato sauce' },
+  4: { emoji: '🍹', nome: 'Aperol Spritz', nomeEN: 'Aperol Spritz' },
+  5: { emoji: '🍕', nome: 'Pizza margherita', nomeEN: 'Margherita pizza' },
 };
+
+// Pick random item from pool
+function pickRandom(pool) {
+  if (!pool || pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
 
 function getMultiplier(corrette, tot) {
   const r = corrette / tot;
@@ -113,20 +129,26 @@ function updateStreak(data, completedToday) {
 
 // ─── Messaggi Nonna ───────────────────────────────────────────────────────────
 export const NONNA_MSGS = [
-  { score: 5, energy: 10, msg: 'Sei al mio livello ormai.',      msgEN: "You're at my level now.",         speak: 'Perfetta! Sei al mio livello ormai.' },
-  { score: 4, energy: 7,  msg: 'Quasi. Un errore si perdona.',   msgEN: 'Almost. One mistake is forgiven.', speak: 'Quasi. Un piccolo errore si perdona.' },
-  { score: 3, energy: 5,  msg: 'Metà strada. Studia di più.',    msgEN: 'Halfway. Study more.',             speak: 'Metà strada. Devi studiare di più.' },
-  { score: 2, energy: 3,  msg: 'Hai la testa altrove.',          msgEN: 'Your mind is elsewhere.',         speak: 'Solo due. La prossima volta impegnati.' },
-  { score: 1, energy: 1,  msg: 'Una sola. Mamma mia.',           msgEN: 'Just one. Goodness gracious.',    speak: 'Una sola. Il gelato lo prendi lo stesso.' },
-  { score: 0, energy: 0,  msg: 'Ti do il gelato lo stesso. 🍦',  msgEN: "Gelato anyway. Next time try.",   speak: 'Va bene. Ti do lo stesso il gelato. La prossima volta impegnati.' },
+  { min: 10, energy: 15, msg: 'Perfetto! Nonna è fiera di te.',   msgEN: "Perfect! Grandma is proud of you.", speak: 'Perfetto! Nonna è fiera di te.' },
+  { min: 9,  energy: 12, msg: 'Sei al mio livello ormai.',        msgEN: "You're at my level now.",           speak: 'Sei al mio livello ormai.' },
+  { min: 8,  energy: 10, msg: 'Quasi perfetto! Bravissimo.',      msgEN: 'Almost perfect! Very well done.',   speak: 'Quasi perfetto! Bravissimo.' },
+  { min: 7,  energy: 8,  msg: 'Ottimo lavoro. Il gelato è tuo.',  msgEN: 'Great work. Gelato is yours.',      speak: 'Ottimo lavoro. Il gelato è tuo.' },
+  { min: 6,  energy: 7,  msg: 'Bene! Qualche errore, ma bene.',   msgEN: 'Good! A few mistakes, but good.',  speak: 'Bene! Qualche errore, ma bene.' },
+  { min: 5,  energy: 5,  msg: 'Metà giuste. Puoi fare meglio.',   msgEN: 'Half right. You can do better.',    speak: 'Metà giuste. Puoi fare meglio.' },
+  { min: 4,  energy: 4,  msg: 'Quasi. Un errore si perdona.',     msgEN: 'Almost. One mistake is forgiven.',  speak: 'Quasi. Un piccolo errore si perdona.' },
+  { min: 3,  energy: 3,  msg: 'Metà strada. Studia di più.',      msgEN: 'Halfway. Study more.',              speak: 'Metà strada. Devi studiare di più.' },
+  { min: 2,  energy: 2,  msg: 'Hai la testa altrove.',            msgEN: 'Your mind is elsewhere.',           speak: 'Solo due. La prossima volta impegnati.' },
+  { min: 1,  energy: 1,  msg: 'Una sola. Mamma mia.',             msgEN: 'Just one. Goodness gracious.',      speak: 'Una sola. Il gelato lo prendi lo stesso.' },
+  { min: 0,  energy: 0,  msg: 'Ti do il gelato lo stesso. 🍦',    msgEN: "Gelato anyway. Next time try.",     speak: 'Va bene. Ti do lo stesso il gelato. La prossima volta impegnati.' },
 ];
 
 export function getNonnaMsg(score) {
-  return NONNA_MSGS.find(m => m.score === score) ?? NONNA_MSGS[NONNA_MSGS.length - 1];
+  return NONNA_MSGS.find(m => score >= m.min) ?? NONNA_MSGS[NONNA_MSGS.length - 1];
 }
 
 // ─── Funzione principale ──────────────────────────────────────────────────────
-export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
+// lessonReward = il campo reward dal JSON della lezione (opzionale)
+export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonReward }) {
   let data = loadProgress() ?? { energy: 25, credits: 0, tickets: {}, completed: [], completedToday: [], lessonScores: {}, streak: null };
 
   const sad    = corrette <= 1;
@@ -134,20 +156,27 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
   let reward = {};
 
   if (tipo === 'lezione') {
-    const food     = LESSON_FOOD[lessonId] ?? LESSON_FOOD[1];
+    const lid      = typeof lessonId === 'string' ? lessonId : parseInt(lessonId);
+    const slotNum  = typeof lid === 'number' ? lid : 1;
     const multi    = getMultiplier(corrette, totDomande);
-    const spicchi  = lessonId === 4 ? getSpicchi(corrette) : 0;
-    let   energiaG = 0;
-    if (!sad) {
-      energiaG = lessonId === 4
-        ? Math.round(food.energiaBase * (spicchi / 4))
-        : Math.round(food.energiaBase * multi);
-    }
-    const creditiBase  = sad ? 0 : corrette * 2;
-    const creditiBonus = (perfetto && !sad) ? 5 : 0;
+
+    // Pool cibo: dal JSON o fallback
+    const pool     = lessonReward?.pool;
+    const picked   = pool ? pickRandom(pool) : FALLBACK_FOOD[slotNum] ?? FALLBACK_FOOD[1];
+
+    // Crediti: dal JSON reward.crediti o dalla tabella SLOT_CREDITI
+    const creditiSlot = lessonReward?.crediti ?? SLOT_CREDITI[slotNum] ?? 5;
+
+    // Energia
+    const energiaBase = SLOT_ENERGIA[slotNum] ?? 10;
+    let   energiaG    = sad ? 0 : Math.round(energiaBase * multi);
+
+    // Crediti: slot crediti * multiplier (proporzionale alla performance)
+    const creditiBase  = sad ? 0 : Math.round(creditiSlot * multi);
+    const creditiBonus = (perfetto && !sad) ? Math.round(creditiSlot * 0.5) : 0;
     const creditiTot   = creditiBase + creditiBonus;
 
-    const prev      = data.lessonScores?.[lessonId];
+    const prev      = data.lessonScores?.[lid];
     const prevE     = prev?.energia ?? 0;
     const prevC     = prev?.crediti ?? 0;
     const isReplay  = !!prev;
@@ -156,19 +185,21 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
     const energiaDopo = Math.min(Math.max((data.energy ?? 25) + deltaE, 0), 200);
     const creditiDopo = Math.max((data.credits ?? 0) + deltaC, 0);
 
-    const completedToday = [...new Set([...(data.completedToday ?? []), lessonId])];
-    const allPerfect = !sad && perfetto && [1, 2, 3, 4, 'boss'].every(id => {
-      if (id === lessonId) return true;
+    const completedToday = [...new Set([...(data.completedToday ?? []), lid])];
+    const allPerfect = !sad && perfetto && [1, 2, 3, 4, 5, 'boss'].every(id => {
+      if (id === lid) return true;
       return data.lessonScores?.[id]?.perfetto === true;
     });
     const newStreak = updateStreak(data, completedToday);
 
     reward = {
-      tipo: sad ? 'sad' : 'lezione', lessonId, corrette, totDomande, perfetto, sad,
-      cibo: sad ? 'nessuno' : food.cibo,
-      ciboEmoji: sad ? '😔' : food.emoji,
-      ciboNome:  sad ? '—'  : food.nome,
-      spicchi, energia: energiaG,
+      tipo: sad ? 'sad' : 'lezione', lessonId: lid, corrette, totDomande, perfetto, sad,
+      cibo: sad ? 'nessuno' : (picked.nome || 'cibo'),
+      ciboEmoji: sad ? '😔' : (picked.emoji || '🍽️'),
+      ciboNome:  sad ? '—'  : (picked.nome || 'Cibo'),
+      ciboNomeEN: sad ? '—' : (picked.nomeEN || picked.nome || 'Food'),
+      slot: lessonReward?.slot || 'generico',
+      energia: energiaG,
       energiaPrima: data.energy ?? 25, energiaDopo,
       crediti: creditiTot, creditiBase, creditiBonus,
       creditiPrima: data.credits ?? 0, creditiDopo,
@@ -180,11 +211,11 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
       ...data,
       energy:   energiaDopo,
       credits:  creditiDopo,
-      completed: sad ? data.completed : [...new Set([...(data.completed ?? []), lessonId])],
+      completed: sad ? data.completed : [...new Set([...(data.completed ?? []), lid])],
       completedToday,
       lessonScores: sad ? data.lessonScores : {
         ...data.lessonScores,
-        [lessonId]: { energia: energiaG, crediti: creditiTot, corrette, perfetto },
+        [lid]: { energia: energiaG, crediti: creditiTot, corrette, perfetto },
       },
       streak: newStreak,
     });
@@ -193,7 +224,11 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
     const nonna    = getNonnaMsg(corrette);
     const bossSad  = corrette === 0;
     const energiaG = bossSad ? 0 : nonna.energy;
-    const creditiTot = bossSad ? 0 : 20;
+    const creditiTot = bossSad ? 0 : (lessonReward?.crediti ?? BOSS_CREDITI);
+
+    // Pool dolce dal JSON boss o fallback gelato
+    const pool   = lessonReward?.pool;
+    const picked = pool ? pickRandom(pool) : { emoji: '🍦', nome: 'Gelato alla crema', nomeEN: 'Cream gelato' };
 
     const prev     = data.lessonScores?.['boss'];
     const prevE    = prev?.energia ?? 0;
@@ -206,13 +241,18 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande }) {
 
     const completedToday = [...new Set([...(data.completedToday ?? []), 'boss'])];
     const allPerfect = corrette === totDomande &&
-      [1, 2, 3, 4].every(id => data.lessonScores?.[id]?.perfetto === true);
+      [1, 2, 3, 4, 5].every(id => data.lessonScores?.[id]?.perfetto === true);
     const newStreak = updateStreak(data, completedToday);
 
     reward = {
       tipo: bossSad ? 'sad' : 'boss', lessonId: 'boss', corrette, totDomande,
       perfetto: corrette === totDomande, sad: bossSad,
-      nonna, cibo: 'gelato', ciboEmoji: '🍦', ciboNome: 'Gelato',
+      nonna,
+      cibo: picked.nome || 'gelato',
+      ciboEmoji: picked.emoji || '🍦',
+      ciboNome: picked.nome || 'Gelato',
+      ciboNomeEN: picked.nomeEN || 'Gelato',
+      slot: 'dolce',
       energia: energiaG, energiaPrima: data.energy ?? 25, energiaDopo,
       crediti: creditiTot, creditiPrima: data.credits ?? 0, creditiDopo,
       isReplay, deltaEnergia: deltaE, deltaCrediti: deltaC,

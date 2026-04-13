@@ -1,0 +1,44 @@
+{
+  "mario": {
+    "nome": "Mario",
+    "avatar": "/images/mario.png",
+    "colore": "#FF9B42",
+    "ruolo_it": "Barista napoletano",
+    "ruolo_en": "Neapolitan barman"
+  },
+  "sofia": {
+    "nome": "Sofia",
+    "avatar": "/images/sofia.png",
+    "colore": "#C8A0E8",
+    "ruolo_it": "Studentessa",
+    "ruolo_en": "Student"
+  },
+  "diego": {
+    "nome": "Diego",
+    "avatar": "/images/diego.png",
+    "colore": "#22C55E",
+    "ruolo_it": "Turista",
+    "ruolo_en": "Tourist"
+  },
+  "gino": {
+    "nome": "Gino",
+    "avatar": "/images/gino.png",
+    "colore": "#E5B700",
+    "ruolo_it": "Nonno saggio",
+    "ruolo_en": "Wise grandpa"
+  },
+  "matilde": {
+    "nome": "Matilde",
+    "avatar": "/images/matilde.png",
+    "colore": "#1CB0F6",
+    "ruolo_it": "Professoressa",
+    "ruolo_en": "Teacher"
+  },
+  "vittoria": {
+    "nome": "Nonna Vittoria",
+    "avatar": "/images/vittoria.png",
+    "colore": "#E5B700",
+    "ruolo_it": "La Nonna",
+    "ruolo_en": "The Grandma"
+  }
+}

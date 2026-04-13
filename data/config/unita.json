@@ -1,0 +1,14 @@
+{
+  "A1": {
+    "unit1": {
+      "titolo_it": "Il primo giorno a Napoli",
+      "titolo_en": "First day in Naples",
+      "tipo": "esplorazione",
+      "personaggio_principale": "mario",
+      "personaggi": ["mario", "sofia", "diego", "gino"],
+      "boss_personaggio": "vittoria",
+      "lezioni": [1, 2, 3, 4, 5],
+      "has_boss": true
+    }
+  }
+}

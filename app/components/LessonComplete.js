@@ -38,40 +38,37 @@ function Confetti() {
   );
 }
 
-// ─── Barra energia mini ───────────────────────────────────────────────────────
-function EnergyMiniBar({ prima, dopo }) {
+// ─── Barra energia animata ────────────────────────────────────────────────────
+function EnergyBar({ prima, dopo }) {
+  const [animPct, setAnimPct] = useState(Math.min(prima, 100));
   const color = dopo > 100 ? '#E5B700' : dopo >= 90 ? '#46A302' : dopo >= 61 ? '#58CC02' : dopo >= 36 ? '#1CB0F6' : dopo >= 26 ? '#FF9600' : '#CC0000';
-  const pctPrima = Math.min(prima, 100);
-  const pctDopo  = Math.min(dopo,  100);
+
+  useEffect(() => {
+    const t = setTimeout(() => setAnimPct(Math.min(dopo, 100)), 300);
+    return () => clearTimeout(t);
+  }, [dopo]);
+
   return (
     <div style={{ marginTop:6 }}>
       <div style={{ display:'flex', justifyContent:'space-between', fontSize:14, color:'var(--text2)', marginBottom:4 }}>
-        <span>{Math.round(prima)}%</span>
-        <span style={{ color, fontWeight:800 }}>→ {Math.round(dopo)}%{dopo > 100 ? ' ⚡🚀' : ''}</span>
+        <span>⚡ {Math.round(prima)}%</span>
+        <span style={{ color, fontWeight:800 }}>→ {Math.round(dopo)}%{dopo > 100 ? ' 🚀' : ''}</span>
       </div>
-      <div style={{ position:'relative', height:10, background:'var(--bg)', borderRadius:99, overflow:'hidden' }}>
-        <div style={{ position:'absolute', left:0, top:0, bottom:0, width:`${pctPrima}%`, background:'var(--border)', borderRadius:99 }} />
+      <div style={{ position:'relative', height:12, background:'var(--bg)', borderRadius:99, overflow:'hidden' }}>
+        <div style={{ position:'absolute', left:0, top:0, bottom:0, width:`${Math.min(prima,100)}%`, background:'var(--border)', borderRadius:99 }} />
         <div style={{
           position:'absolute', left:0, top:0, bottom:0,
-          width:`${pctDopo}%`, background:color, borderRadius:99,
-          transition:'width 1s cubic-bezier(.4,0,.2,1)',
-          boxShadow:`0 0 6px ${color}66`,
+          width:`${animPct}%`, background:color, borderRadius:99,
+          transition:'width 1.5s cubic-bezier(.4,0,.2,1)',
+          boxShadow:`0 0 8px ${color}88`,
         }} />
-        {dopo > 100 && (
-          <div style={{
-            position:'absolute', left:0, top:0, bottom:0,
-            width:`${Math.min(dopo - 100, 100)}%`,
-            background:'linear-gradient(90deg,#E5B700,#FFD700)',
-            borderRadius:99, animation:'glowGold 1.5s infinite',
-          }} />
-        )}
       </div>
     </div>
   );
 }
 
-// ─── Popup SAD (0-1 corrette) ─────────────────────────────────────────────────
-function PopupSad({ onRetry, onHome }) {
+// ─── Popup SAD ────────────────────────────────────────────────────────────────
+function PopupSad({ reward, onRetry, onHome }) {
   return (
     <div style={{ textAlign:'center', padding:'32px 24px' }}>
       <div style={{ fontSize:72, marginBottom:16 }}>😔</div>
@@ -97,17 +94,10 @@ function PopupSad({ onRetry, onHome }) {
   );
 }
 
-// ─── Popup MENU NAPOLETANO COMPLETO ───────────────────────────────────────────
+// ─── Popup MENU COMPLETO ──────────────────────────────────────────────────────
 function PopupMenuCompleto({ reward, onBoss }) {
   const [showConfetti, setShowConfetti] = useState(true);
   useEffect(() => { setTimeout(() => setShowConfetti(false), 4000); }, []);
-
-  const items = [
-    { emoji:'☕', nome:'Caffè',     pct:10 },
-    { emoji:'🥐', nome:'Cornetto',  pct:15 },
-    { emoji:'🍸', nome:'Aperitivo', pct:20 },
-    { emoji:'🍕', nome:'Pizza',     pct:15 },
-  ];
 
   return (
     <>
@@ -115,33 +105,17 @@ function PopupMenuCompleto({ reward, onBoss }) {
       <div style={{ textAlign:'center', padding:'24px' }}>
         <div style={{ fontSize:48, marginBottom:8 }}>🎊</div>
         <div style={{ fontSize:21, fontWeight:900, color:'#E5B700', marginBottom:4 }}>
-          MENU NAPOLETANO COMPLETATO!
+          GIORNATA NAPOLETANA COMPLETA!
         </div>
         <div style={{ fontSize:16, color:'var(--text2)', marginBottom:20 }}>
-          Complete Neapolitan Menu! Hai conquistato tutto! 🇮🇹
+          Complete Neapolitan Day! Hai conquistato tutto! 🇮🇹
         </div>
 
-        <div style={{ background:'var(--bg)', borderRadius:12, padding:'14px', marginBottom:16 }}>
-          {items.map(it => (
-            <div key={it.emoji} style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:8 }}>
-              <span style={{ fontSize:20 }}>{it.emoji}</span>
-              <span style={{ color:'var(--text)', fontWeight:700, flex:1, textAlign:'left', marginLeft:10 }}>{it.nome}</span>
-              <span style={{ color:'#58CC02', fontWeight:900, fontSize:16 }}>+{it.pct}%</span>
-            </div>
-          ))}
-          <div style={{ borderTop:'1px solid var(--border)', marginTop:8, paddingTop:8, display:'flex', justifyContent:'space-between' }}>
-            <span style={{ color:'var(--text2)', fontWeight:700 }}>⚡ Totale energia</span>
-            <span style={{ color:'#58CC02', fontWeight:900 }}>+60% → {Math.round(reward?.energiaDopo ?? 95)}%</span>
-          </div>
-          <div style={{ display:'flex', justifyContent:'space-between', marginTop:4 }}>
-            <span style={{ color:'var(--text2)', fontWeight:700 }}>🎫 Crediti totali oggi</span>
-            <span style={{ color:'var(--text)', fontWeight:900 }}>+84 cr</span>
-          </div>
-        </div>
+        <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
 
-        <div style={{ fontSize:16, color:'var(--text2)', marginBottom:20, lineHeight:1.5 }}>
-          ☕ Domani si ricomincia con un buon caffè! /
-          Tomorrow the menu awaits again!
+        <div style={{ fontSize:16, color:'var(--text2)', marginBottom:20, marginTop:16, lineHeight:1.5 }}>
+          Pronto per la Sfida della Nonna? /
+          Ready for Grandma's Challenge?
         </div>
 
         <button onClick={onBoss} style={{
@@ -159,32 +133,147 @@ function PopupMenuCompleto({ reward, onBoss }) {
   );
 }
 
-// ─── Popup NORMALE ────────────────────────────────────────────────────────────
-function PopupNormale({ reward, onContinua, onHome }) {
-  const isPizza = reward.lessonId === 4;
+// ─── Popup BOSS REWARD (gelato dinamico) ─────────────────────────────────────
+function PopupBossReward({ reward, onHome }) {
+  const crediti = reward.crediti ?? 0;
+  const gusti = crediti <= 10 ? 1 : crediti <= 20 ? 2 : 3;
+  const gelatoIcon = gusti === 1 ? "🍦" : gusti === 2 ? "🍨" : "🍧";
+  const gelatoLabel = gusti === 1 ? "1 gusto" : gusti === 2 ? "2 gusti" : "3 gusti con panna";
+  const gelatoLabelEn = gusti === 1 ? "1 flavour" : gusti === 2 ? "2 flavours" : "3 flavours with cream";
+  const isPerfect = gusti === 3;
+
+  const nonnaIT = gusti === 1
+    ? "Brava! Un gelato lo meriti. La prossima volta di più!"
+    : gusti === 2
+      ? "Molto bene! Due gusti per te — sei sulla strada giusta!"
+      : "Perfetto! Sei pronto per Napoli. La Nonna è orgogliosa di te!";
+  const nonnaEN = gusti === 1
+    ? "Well done! You deserve a gelato. More next time!"
+    : gusti === 2
+      ? "Very good! Two flavours — you're on the right track!"
+      : "Perfect! You're ready for Naples. Nonna is so proud of you!";
+
+  const sparkles = [
+    { emoji: "✨", top: 0, left: 5, delay: "0s" },
+    { emoji: "⭐", top: -4, right: 2, delay: "0.5s" },
+    { emoji: "✨", bottom: 0, left: 15, delay: "1s" },
+    { emoji: "⭐", bottom: -4, right: 10, delay: "1.5s" },
+  ];
+
+  return (
+    <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16 }}>
+
+      {/* Nonna con sparkle */}
+      <div style={{ position: 'relative', width: 80, height: 80 }}>
+        <div style={{
+          width: 80, height: 80, borderRadius: '50%', border: '3px solid #ffd700',
+          overflow: 'hidden', background: '#2c3e4a', animation: 'float 2s ease-in-out infinite',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          <img src="/images/vittoria.png" alt="Nonna" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            onError={e => { e.target.style.display = 'none'; e.target.parentNode.innerHTML += '<span style="font-size:36px">👵</span>'; }} />
+        </div>
+        {sparkles.map((s, i) => (
+          <span key={i} style={{ position: 'absolute', fontSize: 14, pointerEvents: 'none', top: s.top, left: s.left, right: s.right, bottom: s.bottom, animation: `sparkle 1.6s ${s.delay} ease-in-out infinite` }}>{s.emoji}</span>
+        ))}
+      </div>
+
+      {/* Perfect badge */}
+      {isPerfect && (
+        <div style={{ background: '#ffd700', color: '#1a1a1a', borderRadius: 20, padding: '3px 12px', fontSize: 11, fontWeight: 900, textTransform: 'uppercase', letterSpacing: '1px' }}>
+          ★ Punteggio perfetto · Perfect score ★
+        </div>
+      )}
+
+      {/* Gelato */}
+      <div style={{ fontSize: 72, lineHeight: 1, animation: 'gelato 0.8s ease-out forwards' }}>
+        {gelatoIcon}
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ fontSize: 20, fontWeight: 900, color: '#ffd700' }}>{gelatoLabel}</div>
+        <div style={{ fontSize: 14, fontStyle: 'italic', color: 'rgba(255,255,255,0.4)', marginTop: 2 }}>{gelatoLabelEn}</div>
+      </div>
+
+      {/* Frase nonna */}
+      <div style={{ textAlign: 'center', lineHeight: 1.5 }}>
+        <div style={{ fontSize: 15, color: '#E5B700', fontStyle: 'italic' }}>"{nonnaIT}"</div>
+        <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', fontStyle: 'italic', marginTop: 4 }}>"{nonnaEN}"</div>
+      </div>
+
+      {/* Stats */}
+      <div style={{ display: 'flex', gap: 12, width: '100%' }}>
+        {[
+          { icon: '✅', val: `${reward.corrette}/${reward.totDomande}`, label: 'risposte' },
+          { icon: '🎫', val: `+${crediti}`, label: 'crediti' },
+          { icon: gelatoIcon, val: `${gusti}`, label: 'gusti' },
+        ].map((s, i) => (
+          <div key={i} style={{ flex: 1, background: 'var(--bg)', borderRadius: 10, padding: '10px 8px', textAlign: 'center', border: '1px solid var(--border)' }}>
+            <div style={{ fontSize: 13 }}>{s.icon}</div>
+            <div style={{ fontSize: 18, fontWeight: 900, color: 'var(--text)' }}>{s.val}</div>
+            <div style={{ fontSize: 11, color: 'var(--text3)' }}>{s.label}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Energia */}
+      <div style={{ width: '100%' }}>
+        <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
+      </div>
+
+      {/* Unlock */}
+      <div style={{ background: 'rgba(28,176,246,0.08)', border: '1px solid rgba(28,176,246,0.3)', borderRadius: 12, padding: '10px 14px', width: '100%', textAlign: 'center' }}>
+        <div style={{ fontSize: 14, fontWeight: 700, color: '#1CB0F6' }}>🔓 Unità 2 sbloccata!</div>
+        <div style={{ fontSize: 12, fontStyle: 'italic', color: 'rgba(28,176,246,0.5)', marginTop: 2 }}>Unit 2 unlocked!</div>
+      </div>
+
+      {/* Pulsante */}
+      <button onClick={onHome} style={{
+        width: '100%', height: 56, border: 'none', borderRadius: 'var(--r)',
+        borderBottom: isPerfect ? '4px solid #b8920b' : '4px solid var(--primary-d)',
+        background: isPerfect ? '#ffd700' : 'var(--primary)',
+        color: isPerfect ? '#1a1a1a' : '#fff',
+        fontSize: 16, fontWeight: 900, cursor: 'pointer', fontFamily: 'inherit',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 2,
+      }}>
+        <span>🗺️ Vai all'Unità 2!</span>
+        <span style={{ fontSize: 11, fontStyle: 'italic', opacity: 0.7 }}>Go to Unit 2!</span>
+      </button>
+    </div>
+  );
+}
+
+// ─── Popup REWARD (post-lezione / post-boss) ──────────────────────────────────
+function PopupReward({ reward, onContinua, onHome, nextUrl }) {
   const isBoss  = reward.tipo === 'boss';
+  const [bouncing, setBouncing] = useState(true);
+  useEffect(() => { setTimeout(() => setBouncing(false), 1200); }, []);
 
   return (
     <div style={{ padding:'24px' }}>
 
-      {/* Cibo guadagnato */}
+      {/* Cibo guadagnato — grande con bounce */}
       <div style={{ textAlign:'center', marginBottom:20 }}>
-        <div style={{ fontSize:56 }}>{reward.ciboEmoji}</div>
-        <div style={{ fontSize:20, fontWeight:900, color:'var(--text)', marginTop:8 }}>
-          {isPizza
-            ? reward.spicchi === 4
-              ? '🍕 Pizza intera guadagnata!'
-              : `${reward.spicchi} spicch${reward.spicchi === 1 ? 'io' : 'i'} di pizza!`
-            : `${reward.ciboNome} guadagnato!`
-          }
+        <div style={{
+          fontSize:72, lineHeight:1,
+          animation: bouncing ? 'foodBounce 0.6s ease-out 2' : 'none',
+        }}>
+          {reward.ciboEmoji}
         </div>
+        <div style={{ fontSize:20, fontWeight:900, color:'var(--text)', marginTop:10 }}>
+          {reward.ciboNome}!
+        </div>
+        {reward.ciboNomeEN && reward.ciboNomeEN !== reward.ciboNome && (
+          <div style={{ fontSize:15, color:'var(--text3)', fontStyle:'italic', marginTop:2 }}>
+            {reward.ciboNomeEN}
+          </div>
+        )}
         {isBoss && reward.nonna && (
-          <div style={{ fontSize:16, color:'#E5B700', fontStyle:'italic', marginTop:6, lineHeight:1.5 }}>
+          <div style={{ fontSize:16, color:'#E5B700', fontStyle:'italic', marginTop:8, lineHeight:1.5 }}>
             "{reward.nonna.msg}" / "{reward.nonna.msgEN}"
           </div>
         )}
-        <div style={{ fontSize:15, color:'var(--text3)', marginTop:4 }}>
-          {reward.corrette}/{reward.totDomande} risposte corrette
+        <div style={{ fontSize:14, color:'var(--text3)', marginTop:6 }}>
+          {reward.corrette}/{reward.totDomande} risposte corrette / correct answers
           {reward.isReplay ? ' — replay' : ''}
         </div>
       </div>
@@ -211,16 +300,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
             </span>
           )}
         </div>
-        <EnergyMiniBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
-
-        {isPizza && reward.spicchi < 4 && (
-          <div style={{ marginTop:8, fontSize:14, color:'var(--text3)' }}>
-            {Array.from({ length: 4 }, (_, i) => (
-              <span key={i} style={{ fontSize:20, opacity: i < reward.spicchi ? 1 : 0.25 }}>🍕</span>
-            ))}
-            <span style={{ marginLeft:6 }}>ancora {4 - reward.spicchi} spicch{4 - reward.spicchi === 1 ? 'io' : 'i'} per la pizza intera!</span>
-          </div>
-        )}
+        <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
       </div>
 
       {/* Crediti */}
@@ -233,7 +313,7 @@ function PopupNormale({ reward, onContinua, onHome }) {
         </div>
         <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:4 }}>
           <span style={{ fontSize:16, color:'var(--text2)' }}>
-            {reward.corrette} risposte × 2
+            Guadagnati / Earned
           </span>
           <span style={{ fontSize:16, fontWeight:700, color:'var(--text)' }}>+{reward.creditiBase ?? 0} cr</span>
         </div>
@@ -247,7 +327,6 @@ function PopupNormale({ reward, onContinua, onHome }) {
           <span style={{ fontSize:16, fontWeight:800, color:'var(--text)' }}>Totale</span>
           <span style={{ fontSize:16, fontWeight:900, color:'#58CC02' }}>
             +{reward.crediti} cr
-            {!reward.perfetto && <span style={{ color:'var(--text3)', fontWeight:600 }}> (max: 21 cr)</span>}
           </span>
         </div>
         {reward.isReplay && reward.deltaCrediti !== 0 && (
@@ -257,52 +336,69 @@ function PopupNormale({ reward, onContinua, onHome }) {
         )}
       </div>
 
-      {/* Hint replay se non perfetto */}
-      {!reward.perfetto && !isBoss && (
-        <div style={{
-          background:'#1a1200', border:'1px solid #E5B70044',
-          borderRadius:8, padding:'8px 12px',
-          fontSize:14, color:'#E5B700', textAlign:'center', marginBottom:14,
-        }}>
-          🔁 Riprova per ottenere tutti i crediti! / Retry for max credits!
-        </div>
-      )}
-
-      {/* Bottoni */}
+      {/* Bottoni navigazione */}
       <div style={{ display:'flex', gap:10 }}>
-        <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+        {nextUrl && (
+          <button onClick={onHome} style={{background:'none',border:'none',color:'#58cc02',fontSize:16,fontWeight:900,cursor:'pointer',fontFamily:'inherit'}}>🏠 Home</button>
+        )}
         <button onClick={onContinua} style={{
           flex:2, background:'var(--primary)', color:'#fff', border:'none',
           borderRadius:'var(--r)', padding:'14px',
           fontSize:17, fontWeight:900, cursor:'pointer', fontFamily:'inherit',
           boxShadow:'0 4px 0 var(--primary-d)',
           textTransform:'uppercase', letterSpacing:'0.6px',
-        }}>Continua →</button>
+        }}>
+          {nextUrl ? 'Continua / Continue →' : '🏠 Home'}
+        </button>
       </div>
     </div>
   );
 }
 
 // ─── Componente principale ────────────────────────────────────────────────────
-export default function LessonComplete({ reward, onHome }) {
+export default function LessonComplete({ reward, livello, unita, lezione, onHome }) {
   const router = useRouter();
+  const [showConfetti, setShowConfetti] = useState(false);
+
+  useEffect(() => {
+    if (reward && !reward.sad) {
+      setShowConfetti(true);
+      setTimeout(() => setShowConfetti(false), 3500);
+    }
+  }, [reward]);
 
   if (!reward) return null;
 
-  const handleRetry = () => {
-    if (reward.lessonId === 'boss') router.push('/lesson/boss');
-    else router.push(`/lesson/${reward.lessonId}`);
-  };
+  // Calcola URL prossima lezione
+  const lv = livello || 'A1';
+  const un = unita || '1';
+  const le = lezione || '1';
+  let nextUrl = null;
+  if (le === 'boss') {
+    nextUrl = null; // dopo il boss torna home
+  } else {
+    const num = parseInt(le);
+    if (num < 5) {
+      nextUrl = `/lesson/${lv}/${un}/${num + 1}`;
+    } else {
+      nextUrl = `/lesson/${lv}/${un}/boss`;
+    }
+  }
 
-  const handleBoss  = () => router.push('/lesson/boss');
+  const handleRetry = () => {
+    router.push(`/lesson/${lv}/${un}/${le}`);
+  };
+  const handleBoss  = () => router.push(`/lesson/${lv}/${un}/boss`);
   const handleHome  = () => { if (onHome) onHome(); else router.push('/'); };
   const handleContinua = () => {
     if (reward.menuCompleto) handleBoss();
+    else if (nextUrl) router.push(nextUrl);
     else handleHome();
   };
 
   return (
     <div style={{ minHeight:'100vh', background:'var(--bg-lesson)', display:'flex', alignItems:'center', justifyContent:'center', padding:16 }}>
+      {showConfetti && <Confetti />}
       <div style={{
         background:'var(--card)', borderRadius:20,
         border:'2px solid var(--border)',
@@ -328,7 +424,7 @@ export default function LessonComplete({ reward, onHome }) {
             {reward.tipo === 'sad'
               ? '❌ Nessun punto / No points'
               : reward.menuCompleto
-                ? '🎊 Menu Napoletano Completo!'
+                ? '🎊 Giornata Completa!'
                 : reward.tipo === 'boss'
                   ? '🍦 Sfida la Nonna — Completata!'
                   : `✅ Lezione ${reward.lessonId} — Completata!`
@@ -338,10 +434,12 @@ export default function LessonComplete({ reward, onHome }) {
 
         {/* Contenuto */}
         {reward.tipo === 'sad'
-          ? <PopupSad onRetry={handleRetry} onHome={handleHome} />
+          ? <PopupSad reward={reward} onRetry={handleRetry} onHome={handleHome} />
           : reward.menuCompleto
             ? <PopupMenuCompleto reward={reward} onBoss={handleBoss} />
-            : <PopupNormale reward={reward} onContinua={handleContinua} onHome={handleHome} />
+            : reward.tipo === 'boss'
+              ? <PopupBossReward reward={reward} onHome={handleHome} />
+              : <PopupReward reward={reward} onContinua={handleContinua} onHome={handleHome} nextUrl={nextUrl} />
         }
       </div>
 
@@ -349,6 +447,12 @@ export default function LessonComplete({ reward, onHome }) {
         @keyframes glowGold {
           0%,100% { opacity:.85; }
           50%      { opacity:1; }
+        }
+        @keyframes foodBounce {
+          0%   { transform: scale(0.3) translateY(40px); opacity:0; }
+          50%  { transform: scale(1.15) translateY(-10px); opacity:1; }
+          70%  { transform: scale(0.95) translateY(2px); }
+          100% { transform: scale(1) translateY(0); opacity:1; }
         }
       `}</style>
     </div>

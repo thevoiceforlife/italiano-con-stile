@@ -1,32 +1,62 @@
 {
   "id": 4,
   "title": "La Cultura del Cibo",
+  "titleEN": "The Culture of Food",
   "subtitle": "L'ordine dei piatti — sacro e intoccabile",
-  "livello": "Viaggiatore",
+  "subtitleEN": "The order of courses — sacred and untouchable",
+  "livello": "Turista",
+  "type": "ascolto",
+  "icon": "🎧",
+  "reward": {
+    "slot": "aperitivo",
+    "crediti": 8,
+    "pool": [
+      { "emoji": "🍹", "nome": "Aperol Spritz", "nomeEN": "Aperol Spritz" },
+      { "emoji": "🍋", "nome": "Limoncello", "nomeEN": "Limoncello" },
+      { "emoji": "🥂", "nome": "Prosecco", "nomeEN": "Prosecco" },
+      { "emoji": "🍷", "nome": "Negroni", "nomeEN": "Negroni" }
+    ]
+  },
   "vocab": [
-    {
-      "id": "peperone",
-      "emoji": "🫑",
-      "it": "il peperone",
-      "en": "bell pepper",
-      "mario": "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo! / Watch out! Peperone is not pizza pepperoni. It's the green, red, yellow bell pepper!",
-      "marioIT": "Attenzione! Peperone non è pepperoni della pizza. È il peperone verde, rosso, giallo!"
-    },
     {
       "id": "primo",
       "emoji": "🍝",
-      "it": "il primo",
-      "en": "first course (pasta/risotto)",
-      "mario": "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta! / In Italy you eat in order: starter, first course, main, dessert. No skipping!",
-      "marioIT": "In Italia si mangia in ordine: antipasto, primo, secondo, dolce. Non si salta!"
+      "it": "Il primo (piatto)",
+      "en": "The first course (pasta/soup)",
+      "mario": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro — non si salta mai! / The first course is pasta or soup. In Naples, the primo is sacred — never skip it!",
+      "marioIT": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro!"
     },
     {
-      "id": "conto",
-      "emoji": "🧾",
-      "it": "il conto",
-      "en": "the bill",
-      "mario": "Per chiedere il conto si dice: 'Ci porta il conto, per favore?' — mai schioccare le dita! / To ask for the bill say: 'Ci porta il conto, per favore?' — never snap your fingers!",
-      "marioIT": "Per chiedere il conto si dice: Ci porta il conto, per favore? Mai schioccare le dita!"
+      "id": "secondo",
+      "emoji": "🥩",
+      "it": "Il secondo (piatto)",
+      "en": "The second course (meat/fish)",
+      "mario": "Il secondo è carne o pesce. Viene DOPO il primo, mai insieme! / The second course is meat or fish. It comes AFTER the primo, never together!",
+      "marioIT": "Il secondo è carne o pesce. Viene dopo il primo, mai insieme!"
+    },
+    {
+      "id": "contorno",
+      "emoji": "🥗",
+      "it": "Il contorno",
+      "en": "The side dish",
+      "mario": "Il contorno è il piatto di verdure che accompagna il secondo. Insalata, patate, verdure. / The contorno is the vegetable dish that comes with the second course.",
+      "marioIT": "Il contorno accompagna il secondo. Insalata, patate, verdure."
+    },
+    {
+      "id": "dolce",
+      "emoji": "🍰",
+      "it": "Il dolce",
+      "en": "The dessert",
+      "mario": "Il dolce chiude il pasto. A Napoli il babà è il re dei dolci! / The dessert closes the meal. In Naples, babà is the king of desserts!",
+      "marioIT": "Il dolce chiude il pasto. A Napoli il babà è il re!"
+    },
+    {
+      "id": "antipasto",
+      "emoji": "🧀",
+      "it": "L'antipasto",
+      "en": "The appetizer / starter",
+      "mario": "L'antipasto viene PRIMA del primo. 'Anti' = before, 'pasto' = meal. Bruschette, mozzarella, salumi! / The antipasto comes BEFORE the primo. Bruschetta, mozzarella, cold cuts!",
+      "marioIT": "L'antipasto viene prima del primo. Bruschette, mozzarella, salumi!"
     }
   ],
   "questions": [
@@ -34,250 +64,188 @@
       "id": 1,
       "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Leggi bene... / Read carefully...",
-      "introIT": "Leggi bene...",
+      "fase": "riconoscimento",
+      "intro": "Time to eat! / Ora si mangia!",
+      "introIT": "Ora si mangia!",
+      "intro_en": "Time to eat!",
       "domanda": {
-        "it": "Qual è l'ordine corretto dei piatti in Italia?",
-        "en": "What is the correct order of courses in Italy?"
+        "it": "Qual è l'ordine corretto dei piatti in un pasto italiano?",
+        "en": "What is the correct order of courses in an Italian meal?"
       },
       "opzioni": [
-        "Primo, secondo, antipasto, dolce",
-        "Antipasto, primo, secondo, dolce",
-        "Secondo, primo, dolce",
-        "Non c'è un ordine fisso"
+        {"it":"Secondo → Primo → Dolce","en":"Second → First → Dessert"},
+        {"it":"Antipasto → Primo → Secondo → Dolce","en":"Appetizer → First → Second → Dessert"},
+        {"it":"Dolce → Primo → Secondo","en":"Dessert → First → Second"},
+        {"it":"Primo → Antipasto → Dolce → Secondo","en":"First → Appetizer → Dessert → Second"}
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! L'ordine è sacro in Italia — antipasto, primo, secondo, dolce. Non si negozia.",
-        "en": "Exactly! The order is sacred in Italy — starter, first, main, dessert. Non-negotiable."
+        "it": "Perfetto! Antipasto → Primo → Secondo (+ Contorno) → Dolce. L'ordine è sacro!",
+        "en": "Perfect! Antipasto → Primo → Secondo (+ Contorno) → Dolce. The order is sacred!"
       },
       "feedbackErr": {
-        "it": "Attenzione! In Italia l'ordine dei piatti è una tradizione seria. Antipasto prima di tutto!",
-        "en": "Watch out! In Italy the order of courses is a serious tradition. Antipasto first!"
+        "it": "L'ordine corretto è: Antipasto → Primo → Secondo → Dolce. Mai mischiare!",
+        "en": "The correct order is: Antipasto → Primo → Secondo → Dolce. Never mix!"
       }
     },
     {
       "id": 2,
-      "personaggio": "gino",
+      "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Vedi, c'è una storia bellissima... / You see, there's a wonderful story...",
-      "introIT": "Vedi, c'è una storia bellissima dietro questa parola...",
+      "fase": "riconoscimento",
+      "intro": "What's the primo? / Cos'è il primo?",
+      "introIT": "Cos'è il primo?",
+      "intro_en": "What's the primo?",
       "domanda": {
-        "it": "In italiano, 'peperoni' sulla pizza significa...?",
-        "en": "In Italian, 'peperoni' on a pizza means...?"
+        "it": "'Il primo' in un pasto italiano è...",
+        "en": "'Il primo' in an Italian meal is..."
       },
-      "opzioni": [
-        "Salame piccante (come in America)",
-        "Peperoni colorati — non il salame!",
-        "Una pizza speciale napoletana",
-        "Qualsiasi tipo di carne"
-      ],
+      "opzioni": [{"it":"Carne o pesce","en":"Meat or fish"},{"it":"Pasta o minestra","en":"Pasta or soup"},{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"}],
       "correct": 1,
       "feedbackOk": {
-        "it": "Ben fatto! 'Peperoni' in italiano sono i peperoni colorati. Il salame piccante americano si chiama 'salame piccante'.",
-        "en": "Well done! 'Peperoni' in Italian are bell peppers. The American spicy salami is an English word!"
+        "it": "Esatto! Il primo = pasta o zuppa. Il piatto piu importante per ogni italiano!",
+        "en": "Correct! Il primo = pasta or soup. The most important dish for every Italian!"
       },
       "feedbackErr": {
-        "it": "Falso amico! Se ordini 'pizza ai peperoni' in Italia, arriva con i peperoni colorati — non il salame.",
-        "en": "False friend! If you order 'pizza ai peperoni' in Italy, you get bell peppers — not salami."
+        "it": "Il primo è la pasta o la zuppa. La carne o il pesce è il 'secondo'.",
+        "en": "Il primo is pasta or soup. Meat or fish is 'il secondo'."
       }
     },
     {
       "id": 3,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "intro": "E per finire... / And finally...",
-      "introIT": "E per finire, una cosa importante al ristorante...",
+      "personaggio": "sofia",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "Vero o falso? / True or false?",
+      "introIT": "Vero o falso?",
+      "intro_en": "True or false?",
       "domanda": {
-        "it": "Come si chiede il conto al ristorante in Italia?",
-        "en": "How do you ask for the bill at a restaurant in Italy?"
+        "it": "In Italia, primo e secondo si servono nello stesso piatto.",
+        "en": "In Italy, first and second course are served on the same plate."
       },
-      "opzioni": [
-        "Schioccare le dita al cameriere",
-        "Ci porta il conto, per favore?",
-        "Check please!",
-        "Alzarsi e andare alla cassa"
-      ],
-      "correct": 1,
+      "correct": false,
       "feedbackOk": {
-        "it": "Complimenti! 'Ci porta il conto, per favore?' — educato, diretto, italiano al 100%.",
-        "en": "Excellent! 'Ci porta il conto, per favore?' — polite, direct, 100% Italian."
+        "it": "Esatto! MAI nello stesso piatto. Primo e secondo sono due piatti separati.",
+        "en": "Correct! NEVER on the same plate. Primo and secondo are two separate courses."
       },
       "feedbackErr": {
-        "it": "Meglio tardi che mai! Schioccare le dita è molto maleducato in Italia. Sempre 'per favore'!",
-        "en": "Better late than never! Snapping your fingers is very rude in Italy. Always 'per favore'!"
+        "it": "Falso! In Italia il primo e il secondo sono SEMPRE separati. Mai mescolarli!",
+        "en": "False! In Italy primo and secondo are ALWAYS separate. Never mix them!"
       }
     },
     {
       "id": 4,
-      "personaggio": "mario",
+      "personaggio": "gino",
       "tipo": "multipla",
-      "intro": "Sembra... ma non è così! / Looks like... but it's not!",
-      "introIT": "Sembra... ma non è così — te lo dico io.",
+      "fase": "comprensione",
+      "intro": "A food history question! / Una domanda di storia del cibo!",
+      "introIT": "Sai cosa significa 'antipasto'?",
+      "intro_en": "Do you know what 'antipasto' means?",
       "domanda": {
-        "it": "Cosa è il 'coperto' al ristorante?",
-        "en": "What is the 'coperto' at a restaurant?"
+        "it": "'Antipasto' letteralmente significa...",
+        "en": "'Antipasto' literally means..."
       },
-      "opzioni": [
-        "Il coperchio della pentola",
-        "Una tassa sul tavolo per pane e servizio",
-        "Il menu del giorno",
-        "Il dolce incluso nel pasto"
-      ],
+      "opzioni": ["After the meal", "Before the meal", "Without a meal", "The main meal"],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Il coperto è una piccola tassa per posto a tavola — include il pane e il servizio. Normale in Italia!",
-        "en": "Exactly! The coperto is a small cover charge — it includes bread and service. Normal in Italy!"
+        "it": "Bravo! 'Anti' = before, 'pasto' = meal. L'antipasto viene prima di tutto!",
+        "en": "Well done! 'Anti' = before, 'pasto' = meal. The antipasto comes before everything!"
       },
       "feedbackErr": {
-        "it": "Attenzione! Il coperto non è il coperchio — è una piccola tassa per posto a tavola. Tra 1 e 3 euro a persona, normalissimo.",
-        "en": "Watch out! Coperto isn't a lid — it's a small cover charge per person. Between 1 and 3 euros, perfectly normal."
+        "it": "'Anti' = before, 'pasto' = meal. Quindi 'antipasto' = before the meal!",
+        "en": "'Anti' = before, 'pasto' = meal. So 'antipasto' = before the meal!"
       }
     },
     {
       "id": 5,
       "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "Ultima cosa... / One last thing...",
-      "introIT": "Ultima cosa, e poi sei pronto per qualsiasi ristorante italiano!",
+      "fase": "comprensione",
+      "intro": "What's the contorno? / Cos'è il contorno?",
+      "introIT": "È il contorno?",
+      "intro_en": "And the contorno?",
       "domanda": {
-        "it": "Dopo il pranzo, un italiano ordina spesso...?",
-        "en": "After lunch, an Italian often orders...?"
+        "it": "Il contorno è...",
+        "en": "The contorno is..."
       },
-      "opzioni": [
-        "Un cappuccino",
-        "Un caffè",
-        "Una birra",
-        "Un succo di frutta"
-      ],
-      "correct": 1,
+      "opzioni": [{"it":"Il piatto principale","en":"The main course"},{"it":"L'antipasto","en":"The appetizer"},{"it":"Il contorno","en":"The side dish"},{"it":"Il dolce","en":"The dessert"}],
+      "correct": 2,
       "feedbackOk": {
-        "it": "Complimenti! Dopo i pasti si ordina sempre un caffè — mai un cappuccino. Il cappuccino è solo per la mattina!",
-        "en": "Excellent! After meals you always order an espresso — never a cappuccino. Cappuccino is only for the morning!"
+        "it": "Esatto! Il contorno sono le verdure che accompagnano il secondo.",
+        "en": "Correct! The contorno is the vegetables that accompany the second course."
       },
       "feedbackErr": {
-        "it": "Ricorda: il cappuccino è solo per la mattina! Dopo pranzo o cena, gli italiani ordinano sempre un caffè.",
-        "en": "Remember: cappuccino is only for the morning! After lunch or dinner, Italians always order an espresso."
+        "it": "Il contorno è il piatto di verdure accanto al secondo. Insalata, patate, verdure grigliate.",
+        "en": "The contorno is the vegetable dish alongside the secondo. Salad, potatoes, grilled vegetables."
       }
     },
     {
       "id": 6,
-      "personaggio": "sofia",
-      "tipo": "multipla",
-      "intro": "Come si dice sui social italiani! / How Italians say it on social media!",
-      "introIT": "Come si dice sui social italiani!",
+      "personaggio": "diego",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "intro": "Questa è culturale! / This is a cultural one!",
+      "introIT": "Questa è culturale!",
+      "intro_en": "This is a cultural one!",
       "domanda": {
-        "it": "Un italiano scrive 'che sballo!' riferito a una pizza. Cosa intende?",
-        "en": "An Italian writes 'che sballo!' about a pizza. What do they mean?"
+        "it": "A Napoli, il babà è considerato il re dei dolci.",
+        "en": "In Naples, babà is considered the king of desserts."
       },
-      "opzioni": [
-        "It's incredible / amazing!",
-        "It fell on the floor",
-        "It's too expensive",
-        "It's cold"
-      ],
-      "correct": 0,
+      "correct": true,
       "feedbackOk": {
-        "it": "Esatto! 'Che sballo!' — fantastico, incredibile. Slang giovanile molto usato.",
-        "en": "Exactly! 'Che sballo!' — fantastic, incredible. Very common youth slang."
+        "it": "Esatto! Il babà napoletano è leggendario — imbevuto di rum e irresistibile!",
+        "en": "Correct! Neapolitan babà is legendary — soaked in rum and irresistible!"
       },
       "feedbackErr": {
-        "it": "'Che sballo!' significa che è fantastico — slang giovanile italiano per qualcosa di straordinario!",
-        "en": "'Che sballo!' means it's fantastic — Italian youth slang for something extraordinary!"
+        "it": "È vero! Il babà è il dolce più iconico di Napoli — da provare assolutamente!",
+        "en": "It's true! Baba is the most iconic dessert of Naples — a must-try!"
       }
     },
     {
       "id": 7,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
-      "intro": "Nella mia cucina, questa regola non si discute. / In my kitchen, this rule is not up for debate.",
-      "introIT": "Nella mia cucina questa regola non si discute.",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "produzione",
+      "intro": "Match the courses! / Abbina i piatti!",
+      "introIT": "Abbina i piatti al significato!",
+      "intro_en": "Match the courses to their meaning!",
       "domanda": {
-        "it": "La pasta si scola al dente. Cosa significa 'al dente'?",
-        "en": "Pasta is drained 'al dente'. What does 'al dente' mean?"
+        "it": "Abbina ogni piatto alla sua categoria.",
+        "en": "Match each dish to its category."
       },
-      "opzioni": [
-        "Firm to the bite — slightly undercooked",
-        "Very soft and well cooked",
-        "With a lot of sauce",
-        "Cold pasta salad"
+      "coppie": [
+        { "it": "Il primo", "en": "Pasta or soup" },
+        { "it": "Il secondo", "en": "Meat or fish" },
+        { "it": "Il contorno", "en": "Side dish" },
+        { "it": "Il dolce", "en": "Dessert" }
       ],
-      "correct": 0,
       "feedbackOk": {
-        "it": "Complimenti! 'Al dente' — letteralmente 'to the tooth'. Deve opporre una leggera resistenza. Mai scotta!",
-        "en": "Excellent! 'Al dente' — literally 'to the tooth'. It must offer slight resistance. Never overcooked!"
-      },
-      "feedbackErr": {
-        "it": "'Al dente' significa che la pasta è cotta ma ha ancora una leggera resistenza sotto i denti. Mai troppo morbida!",
-        "en": "'Al dente' means the pasta is cooked but still has slight resistance. Never too soft!"
+        "it": "Perfetto! Ora conosci l'ordine sacro del pasto italiano!",
+        "en": "Perfect! Now you know the sacred order of the Italian meal!"
       }
     },
     {
       "id": 8,
-      "personaggio": "gino",
+      "personaggio": "mario",
       "tipo": "multipla",
-      "intro": "La storia del cibo italiano è straordinaria... / The history of Italian food is extraordinary...",
-      "introIT": "La storia del cibo italiano è straordinaria.",
+      "fase": "produzione",
+      "intro": "Final question! / Ultima domanda!",
+      "introIT": "Ultima domanda!",
+      "intro_en": "Final question!",
       "domanda": {
-        "it": "La pizza Margherita fu creata per onorare chi?",
-        "en": "The pizza Margherita was created to honour whom?"
+        "it": "Sei al ristorante. Hai finito il primo. Cosa viene dopo?",
+        "en": "You're at the restaurant. You finished the primo. What comes next?"
       },
-      "opzioni": [
-        "La Regina Margherita di Savoia, 1889",
-        "Una famosa cuoca napoletana",
-        "Il Re Umberto I",
-        "Uno chef francese in visita a Napoli"
-      ],
-      "correct": 0,
+      "opzioni": [{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"},{"it":"Il secondo","en":"Second course"},{"it":"Il caffè","en":"Coffee"}],
+      "correct": 2,
       "feedbackOk": {
-        "it": "Esatto! Nel 1889 il pizzaiolo Raffaele Esposito creò la Margherita per la Regina. I colori: rosso pomodoro, bianco mozzarella, verde basilico — il tricolore!",
-        "en": "Exactly! In 1889 pizzaiolo Raffaele Esposito created the Margherita for the Queen. The colours: red tomato, white mozzarella, green basil — the Italian flag!"
+        "it": "Esatto! Dopo il primo viene il secondo (carne o pesce), poi il dolce, poi il caffè!",
+        "en": "Correct! After the primo comes il secondo (meat or fish), then dessert, then coffee!"
       },
       "feedbackErr": {
-        "it": "Nel 1889 il pizzaiolo Raffaele Esposito creò la pizza Margherita per la Regina Margherita di Savoia. I colori della pizza sono il tricolore italiano!",
-        "en": "In 1889, pizzaiolo Raffaele Esposito created pizza Margherita for Queen Margherita of Savoy. The pizza's colours are the Italian flag!"
+        "it": "Dopo il primo viene il secondo! L'ordine: Antipasto → Primo → Secondo → Dolce → Caffe.",
+        "en": "After the primo comes il secondo! The order: Antipasto → Primo → Secondo → Dolce → Coffee."
       }
     }
-  ],
-  "reward": {
-    "scala_errori": [
-      {
-        "max_errori": 0,
-        "energia": 25,
-        "crediti": 15,
-        "cibo": "cornetto+caffè"
-      },
-      {
-        "max_errori": 1,
-        "energia": 20,
-        "crediti": 12,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 2,
-        "energia": 15,
-        "crediti": 10,
-        "cibo": "cornetto"
-      },
-      {
-        "max_errori": 3,
-        "energia": 10,
-        "crediti": 8,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 4,
-        "energia": 5,
-        "crediti": 5,
-        "cibo": "caffè"
-      },
-      {
-        "max_errori": 99,
-        "energia": 2,
-        "crediti": 2,
-        "cibo": "nessuno"
-      }
-    ],
-    "pizza_ogni_n_risposte": 5
-  }
+  ]
 }

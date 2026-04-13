@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { getLevelData } from "../components/LevelBadge";
+import TricoloreBar from "../components/TricoloreBar";
 
 export default function BibliotecaPage() {
   const router = useRouter();
@@ -25,22 +26,28 @@ export default function BibliotecaPage() {
   });
 
   return (
-    <main className="page-wide" style={{ minHeight: "100vh", background: "var(--bg)", paddingBottom: 40 }}>
-
-      {/* Header */}
-      <div style={{ background: "var(--card)", borderBottom: "2px solid var(--border)", padding: "14px 16px", position: "sticky", top: 0, zIndex: 10 }}>
-        <div style={{ maxWidth: 480, margin: "0 auto", display: "flex", alignItems: "center", gap: 12 }}>
-          <button onClick={() => router.push("/dashboard")} style={{ background: "none", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: "6px 12px", fontSize: 15, fontWeight: 800, color: "var(--text2)", cursor: "pointer", fontFamily: "inherit", flexShrink: 0 }}>
-            ← Dashboard
+    <>
+      <div className="app-wrapper">
+        <TricoloreBar />
+        <div className="app-topbar">
+          <button
+            onClick={() => router.push("/dashboard")}
+            className="lesson-topbar__home"
+            aria-label="Dashboard"
+            title="Dashboard"
+          >
+            ←
           </button>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 18, fontWeight: 900, color: "var(--text)" }}>📚 Biblioteca</div>
-            <div style={{ fontSize: 14, color: "var(--text3)" }}>Finally someone explains why</div>
+          <div className="lesson-topbar__title">
+            <div className="lesson-topbar__title-it">📚 Biblioteca</div>
+            <div className="lesson-topbar__title-en">Finally, someone explains why</div>
           </div>
+          <div style={{width:40}}/>
         </div>
-      </div>
+        <TricoloreBar />
 
-      <div style={{ maxWidth: 480, margin: "0 auto", padding: "20px 16px" }}>
+        <div className="app-body">
+          <div style={{ width: "100%" }}>
 
         {/* Tab switcher */}
         <div style={{ display: "flex", gap: 8, marginBottom: 24, background: "var(--card)", border: "1.5px solid var(--border)", borderRadius: "var(--r)", padding: 4 }}>
@@ -106,7 +113,9 @@ export default function BibliotecaPage() {
             </div>
           </div>
         ))}
+        </div>
       </div>
-    </main>
+    </div>
+    </>
   );
 }

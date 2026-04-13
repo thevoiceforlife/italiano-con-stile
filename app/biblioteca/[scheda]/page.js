@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
 import CharacterBubble from "../../components/CharacterBubble";
 import { getLevelData } from "../../components/LevelBadge";
+import { cleanForTTS } from "../../components/pronounce";
 
 function playSound(type) {
   try {
@@ -250,7 +251,7 @@ export default function SchedaPage() {
   function speakEsempio(text) {
     window.speechSynthesis?.cancel();
     setTimeout(() => {
-      const u = new SpeechSynthesisUtterance(text);
+      const u = new SpeechSynthesisUtterance(cleanForTTS(text));
       u.lang = "it-IT"; u.rate = 0.88;
       window.speechSynthesis.speak(u);
     }, 50);
@@ -346,7 +347,7 @@ export default function SchedaPage() {
                     window.speechSynthesis?.cancel();
                     setMarioSpeaking(true);
                     setTimeout(() => {
-                      const u = new SpeechSynthesisUtterance(data.mario);
+                      const u = new SpeechSynthesisUtterance(cleanForTTS(data.mario));
                       u.lang = "it-IT"; u.rate = 0.88;
                       u.onend = () => setMarioSpeaking(false);
                       u.onerror = () => setMarioSpeaking(false);
