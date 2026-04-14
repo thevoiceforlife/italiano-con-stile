@@ -228,16 +228,13 @@ function PopupBossReward({ reward, onHome }) {
       </div>
 
       {/* Pulsante */}
-      <button onClick={onHome} style={{
-        width: '100%', height: 56, border: 'none', borderRadius: 'var(--r)',
+      <button onClick={onHome} className="btn-cta" style={{
         borderBottom: isPerfect ? '4px solid #b8920b' : '4px solid var(--primary-d)',
         background: isPerfect ? '#ffd700' : 'var(--primary)',
         color: isPerfect ? '#1a1a1a' : '#fff',
-        fontSize: 16, fontWeight: 900, cursor: 'pointer', fontFamily: 'inherit',
-        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 2,
       }}>
-        <span>🗺️ Vai all'Unità 2!</span>
-        <span style={{ fontSize: 11, fontStyle: 'italic', opacity: 0.7 }}>Go to Unit 2!</span>
+        <span className="btn-it">🗺️ Vai all'Unità 2!</span>
+        <span className="btn-en">Go to Unit 2!</span>
       </button>
     </div>
   );

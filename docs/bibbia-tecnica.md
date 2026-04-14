@@ -928,3 +928,180 @@ Nota: anche la prima lezione della prima unità è random — non esiste un cibo
 - **È vs e**: sempre distinguibili nel testo — `È` (verbo) mai scritto come `E` maiuscolo
 - Maiuscole/minuscole sempre rispettate nella visualizzazione (no `toUpperCase()` sulle opzioni)
 - Punteggiatura (`.`, `?`, `!`, `,`) **non inclusa** nel pool word bank — appare fissa a video
+
+---
+
+## PERSONAGGI UFFICIALI (15 totali)
+
+| ID | Nome | Ruolo | Età | Città | Colore |
+|---|---|---|---|---|---|
+| mario | Mario | Barista napoletano | 45 | Napoli | `#ff9b42` — **FISSO in ogni lezione** |
+| sofia | Sofia | Studentessa d'arte | 26 | Bologna | `#c8a0e8` |
+| zac | Zac | Studente architettura (padre italiano, madre marocchina) | 23 | Vicenza | `#22c55e` |
+| gino | Prof. Gino | Pensionato ex professore | 68 | Napoli | `#e5b700` |
+| matilde | Matilde | Professoressa italiano | 38 | Milano | `#1cb0f6` |
+| vittoria | Nonna Vittoria | La Nonna | 72 | Napoli | `#ffd700` — **BOSS principale** |
+| tamara | Tamara | Fashion designer | 29 | Dakar | `#f97316` |
+| yuki | Yuki | Imprenditrice | 27 | Osaka | `#f43f5e` |
+| rafael | Rafael | Chef | 31 | Buenos Aires | `#3b82f6` |
+| chenwei | Chen Wei | Imprenditore | 44 | Shanghai | `#ef4444` |
+| jack | Jack | Travel blogger | 34 | Sydney | `#0ea5e9` |
+| oliver | Oliver | Architetto freelance | 41 | Londra | `#8b5cf6` |
+| patricia | Patricia | Pensionata ex avvocata | 58 | Miami | `#ec4899` |
+| priya | Priya | Sviluppatrice app | 32 | Mumbai | `#a855f7` |
+| hans | Hans | Ingegnere in sabbatico | 42 | Monaco | `#64748b` |
+
+---
+
+## STRUTTURA PRODOTTO
+
+**6 città × 15 temi × 2 unità = 180 unità totali**
+
+- Ogni unità: 5 lezioni + 1 boss = **6 sessioni**
+- Ogni lezione: 8-10 domande
+- **Totale domande: ~9.720**
+
+### Città e livelli CEFR
+
+| Città | Livello |
+|---|---|
+| Napoli | A1 |
+| Roma | A2 |
+| Firenze | B1 |
+| Venezia | B2 |
+| Milano | C1 |
+| Italia | C2 |
+
+---
+
+## STRUTTURA TEMA (2 unità per tema)
+
+### UNITÀ 1 — SCOPRI + PRATICA
+
+| Lezione | Icona | Tipo | Attività |
+|---|---|---|---|
+| L1 | ⭐ | Vocabolario | multipla + abbina_coppia |
+| L2 | 📖 | Contesto | multipla + vero_falso |
+| L3 | 💪 | Pratica | fill_blank + tap_right |
+| L4 | 🎧 | Ascolto | ascolta_scegli |
+| L5 | 🎯 | Speedround | mix veloce |
+| Boss | 🏆 | — | fill_blank + word_bank |
+
+### UNITÀ 2 — PRATICA + USA
+
+| Lezione | Icona | Tipo | Attività |
+|---|---|---|---|
+| L1 | 🔁 | Ripasso | ascolta_scegli dominante |
+| L2 | 🎭 | Situazione | tap_right + word_bank |
+| L3 | 🎭 | Situazione | fill_blank + word_bank |
+| L4 | 🎭 | Situazione | word_bank + completa_risposta |
+| L5 | 🎯 | Speedround | mix audio |
+| Boss | 🏆 | — | produzione completa |
+
+---
+
+## MATRICE A1 — 10 REGOLE
+
+### REGOLA 1 — Proporzioni per unità
+- **U1**: 60% Scopri + 30% Pratica + 10% Usa
+- **U2**: 0% Scopri + 30% Pratica + 70% Usa
+
+### REGOLA 2 — Tipi ammessi U1
+- `multipla` (max 40%)
+- `abbina_coppia` (max 1)
+- `vero_falso` (max 1)
+- `fill_blank` (buco semplice)
+- `tap_right` (max 3 opzioni)
+- `ascolta_scegli` (solo da L3)
+- `word_bank` (max 4 parole, solo L5 e Boss)
+
+**VIETATI in U1**: word_bank lungo, dialogo
+
+### REGOLA 3 — Tipi ammessi U2
+- `ascolta_scegli` (dominante)
+- `fill_blank` (anche nel mezzo della frase)
+- `tap_right`
+- `word_bank` (max 6 parole)
+- `multipla` (max 20%)
+
+**VIETATI in U2**: abbina_coppia, vero_falso puro
+
+### REGOLA 4 — Complessità linguistica U1
+- Frasi max 5 parole
+- Solo vocabolario corrente
+- Solo presente indicativo
+- Solo pronomi io / tu
+
+### REGOLA 5 — Complessità linguistica U2
+- Frasi max 8 parole
+- Vocabolario tema completo
+- Connettivi semplici: `e`, `ma`, `perché`
+- Pronomi: io / tu / lui / lei
+
+### REGOLA 6 — Progressione audio U1
+| L1 | L2 | L3 | L4 | L5 |
+|---|---|---|---|---|
+| 0% | 0% | 20% | 50% | 30% |
+
+### REGOLA 7 — Progressione audio U2
+| L1 | L2 | L3 | L4 | L5 |
+|---|---|---|---|---|
+| 60% | 20% | 40% | 80% | 60% |
+
+### REGOLA 8 — Arco difficoltà ogni lezione
+| Domande | Difficoltà | Fase |
+|---|---|---|
+| Q1-Q2 | 1/5 | Comfort |
+| Q3-Q5 | 2-3/5 | Apprendimento |
+| Q6-Q7 | 3-4/5 | Consolidamento |
+| Q8 | 4/5 | Produzione |
+
+### REGOLA 9 — Mario sempre presente
+- **U1**: posa pensiero (spiega)
+- **U2**: posa saluto (testa)
+- **U3**: posa felice (osserva)
+- Posa 2 (felice) → risposta corretta
+- Posa 3 (pensiero) → risposta sbagliata
+
+### REGOLA 10 — Pillola culturale
+- 1 per lezione, sempre alla fine
+- Opzionale per l'utente
+- Max 3 righe IT + 3 righe EN + 1 esempio
+- **MAI dentro il flusso delle domande**
+
+---
+
+## I 15 TEMI DI NAPOLI (A1)
+
+| # | Tema |
+|---|---|
+| 1 | Saluti e presentazioni |
+| 2 | Al bar — ordinare |
+| 3 | Al bar — pagare e chiedere |
+| 4 | In giro — chiedere indicazioni |
+| 5 | In giro — descrivere luoghi |
+| 6 | I numeri (1-100) |
+| 7 | Giorni, orari e appuntamenti |
+| 8 | Il cibo napoletano |
+| 9 | Descrivere persone |
+| 10 | La famiglia base |
+| 11 | I colori e aggettivi base |
+| 12 | Al telefono base |
+| 13 | Fare la spesa |
+| 14 | Il tempo atmosferico |
+| 15 | Le emozioni base |
+
+---
+
+## AVATAR PERSONAGGI
+
+**Stile**: chibi semi-3D, sfondo trasparente PNG
+
+**3 pose per personaggio:**
+- **Posa 1 — Saluto**: neutro, mano alzata
+- **Posa 2 — Felice**: braccia alzate, salto
+- **Posa 3 — Pensiero**: mano al mento
+
+**Regole**:
+- Occhi sempre verso l'utente
+- Mario: **3 pose già generate e processate**

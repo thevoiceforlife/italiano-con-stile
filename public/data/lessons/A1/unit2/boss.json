@@ -7,9 +7,33 @@
   "reward": {
     "type": "gelato_nonna",
     "tiers": [
-      { "min": 0,  "max": 10, "gusti": 1, "icon": "🍦", "energia": 5,  "label_it": "1 gusto",            "label_en": "1 flavour" },
-      { "min": 11, "max": 20, "gusti": 2, "icon": "🍨", "energia": 12, "label_it": "2 gusti",            "label_en": "2 flavours" },
-      { "min": 21, "max": 99, "gusti": 3, "icon": "🍧", "energia": 20, "label_it": "3 gusti con panna",  "label_en": "3 flavours with cream" }
+      {
+        "min": 0,
+        "max": 10,
+        "gusti": 1,
+        "icon": "🍦",
+        "energia": 5,
+        "label_it": "1 gusto",
+        "label_en": "1 flavour"
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "gusti": 2,
+        "icon": "🍨",
+        "energia": 12,
+        "label_it": "2 gusti",
+        "label_en": "2 flavours"
+      },
+      {
+        "min": 21,
+        "max": 99,
+        "gusti": 3,
+        "icon": "🍧",
+        "energia": 20,
+        "label_it": "3 gusti con panna",
+        "label_en": "3 flavours with cream"
+      }
     ]
   },
   "vocab": [],
@@ -22,8 +46,8 @@
       "domanda_en": "The Italian Nonna — why is she so important?",
       "titolo_it": "La Nonna: cuore della famiglia italiana",
       "titolo_en": "The Nonna: heart of the Italian family",
-      "corpo_it": "In Italia la nonna non è solo un parente — è il centro della famiglia. Cucina per tutti, tiene insieme le tradizioni, e i suoi giudizi contano più di tutto. Conquistare la nonna significa conquistare tutta la famiglia!",
-      "corpo_en": "In Italy the grandmother is not just a relative — she is the family centre. She cooks for everyone, keeps traditions alive, and her judgement counts above all. Win over the nonna and you have won over the whole family!",
+      "corpo_it": "In Italia la nonna è il centro della famiglia. Cucina per tutti, tiene insieme le tradizioni. Conquistare la nonna significa conquistare tutta la famiglia!",
+      "corpo_en": "In Italy the grandmother is the family centre. She cooks for everyone, keeps traditions alive. Win over the nonna and you win the whole family!",
       "esempio_it": "🇮🇹 Regola d'oro: porta sempre qualcosa di dolce alla Nonna!",
       "esempio_en": "Golden rule: always bring something sweet to the Nonna!"
     }
@@ -36,166 +60,355 @@
       "fase": "comprensione",
       "introIT": "Vediamo cosa hai imparato!",
       "intro_en": "Let us see what you have learned!",
-      "domanda": { "it": "La Nonna ti chiede come ti chiami. Cosa rispondi?", "en": "Nonna asks your name. What do you reply?" },
+      "domanda": {
+        "it": "La Nonna ti chiede come ti chiami. Cosa rispondi?",
+        "en": "Nonna asks your name. What do you reply?"
+      },
       "opzioni": [
-        { "it": "Mi chiamo ..., piacere!", "en": "My name is ..., nice to meet you!" },
-        { "it": "Ho ....", "en": "I have ...." },
-        { "it": "Vorrei un caffè.", "en": "I would like a coffee." },
-        { "it": "Il conto!", "en": "The bill!" }
+        {
+          "it": "Mi chiamo ..., piacere!",
+          "en": "My name is ..., nice to meet you!"
+        },
+        {
+          "it": "Ho ...",
+          "en": "I have ..."
+        },
+        {
+          "it": "Vorrei un caffè.",
+          "en": "I would like a coffee."
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna sorride! Ottima presentazione!", "en": "Nonna smiles! Excellent introduction!" },
-      "feedbackErr": { "it": "Mi chiamo ..., piacere! — così ci si presenta!", "en": "Mi chiamo ..., piacere! — that is how you introduce yourself!" }
+      "feedbackOk": {
+        "it": "La Nonna sorride! Ottima presentazione!",
+        "en": "Nonna smiles! Excellent introduction!"
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo ..., piacere! — così ci si presenta!",
+        "en": "Mi chiamo ..., piacere! — that is how you introduce yourself!"
+      }
     },
     {
       "id": "q2",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "La Nonna è curiosa!",
-      "intro_en": "Nonna is curious!",
-      "domanda": { "it": "La Nonna chiede la tua età. Come rispondi?", "en": "Nonna asks your age. How do you reply?" },
+      "introIT": "Ascolta la Nonna!",
+      "intro_en": "Listen to Nonna!",
+      "audio": "Benvenuto! Prego, si accomodi!",
+      "domanda": {
+        "it": "Cosa sta dicendo la Nonna?",
+        "en": "What is Nonna saying?"
+      },
       "opzioni": [
-        { "it": "Sono 35 anni.", "en": "I am 35 years." },
-        { "it": "Ho 35 anni.", "en": "I have 35 years." },
-        { "it": "Mi chiamo 35.", "en": "My name is 35." },
-        { "it": "Lavoro 35 anni.", "en": "I work 35 years." }
+        {
+          "it": "Ti dà il benvenuto",
+          "en": "She welcomes you"
+        },
+        {
+          "it": "Ti chiede l'età",
+          "en": "She asks your age"
+        },
+        {
+          "it": "Ti chiede il nome",
+          "en": "She asks your name"
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Brava! La Nonna è colpita dalla tua grammatica!", "en": "Well done! Nonna is impressed by your grammar!" },
-      "feedbackErr": { "it": "Ho 35 anni — in italiano l'età si HA!", "en": "Ho 35 anni — in Italian you HAVE age!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Prego, si accomodi = please sit down!",
+        "en": "Correct! Prego, si accomodi = please sit down!"
+      },
+      "feedbackErr": {
+        "it": "Benvenuto + si accomodi = ti dà il benvenuto!",
+        "en": "Benvenuto + si accomodi = she welcomes you!"
+      }
     },
     {
       "id": "q3",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "fill_blank",
       "fase": "comprensione",
-      "introIT": "La Nonna vuole sapere tutto!",
-      "intro_en": "Nonna wants to know everything!",
-      "domanda": { "it": "La Nonna chiede il tuo paese. Sei inglese. Rispondi!", "en": "Nonna asks your country. You are English. Reply!" },
+      "introIT": "Completa!",
+      "intro_en": "Complete!",
+      "frase_it": "Grazie _____, Nonna!",
+      "frase_en": "Thank you _____, Nonna!",
       "opzioni": [
-        { "it": "Sono dell'Inghilterra.", "en": "I am from England." },
-        { "it": "Ho Inghilterra.", "en": "I have England." },
-        { "it": "Mi chiamo Inghilterra.", "en": "My name is England." },
-        { "it": "Lavoro Inghilterra.", "en": "I work England." }
+        {
+          "it": "mille",
+          "en": "very much"
+        },
+        {
+          "it": "tanto",
+          "en": "so much"
+        },
+        {
+          "it": "molto",
+          "en": "a lot"
+        },
+        {
+          "it": "assai",
+          "en": "greatly"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna annuisce! Sono di + paese — perfetto!", "en": "Nonna nods! Sono di + country — perfect!" },
-      "feedbackErr": { "it": "Sono dell'Inghilterra — sono di + paese!", "en": "Sono dell'Inghilterra — sono di + country!" }
+      "feedbackOk": {
+        "it": "Perfetto! Grazie mille è la formula più comune!",
+        "en": "Perfect! Grazie mille is the most common formula!"
+      },
+      "feedbackErr": {
+        "it": "Grazie MILLE — la formula più usata!",
+        "en": "Grazie MILLE — the most used formula!"
+      }
     },
     {
       "id": "q4",
       "personaggio": "vittoria",
       "tipo": "multipla",
       "fase": "comprensione",
-      "introIT": "La Nonna fa le domande serie!",
-      "intro_en": "Nonna asks the serious questions!",
-      "domanda": { "it": "La Nonna ti offre un caffè. Come ringrazi?", "en": "Nonna offers you a coffee. How do you thank her?" },
+      "introIT": "La Nonna presenta suo nipote!",
+      "intro_en": "Nonna introduces her nephew!",
+      "domanda": {
+        "it": "La Nonna presenta Marco. Cosa dici a Marco?",
+        "en": "Nonna introduces Marco. What do you say to Marco?"
+      },
       "opzioni": [
-        { "it": "Grazie mille, Nonna!", "en": "Thank you very much, Nonna!" },
-        { "it": "Il conto, per favore.", "en": "The bill, please." },
-        { "it": "Dov'è la stazione?", "en": "Where is the station?" },
-        { "it": "Ho 30 anni.", "en": "I am 30 years old." }
+        {
+          "it": "Piacere Marco! Mi chiamo ...",
+          "en": "Nice to meet you Marco! My name is ..."
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        },
+        {
+          "it": "Dov'è Marco?",
+          "en": "Where is Marco?"
+        },
+        {
+          "it": "Ho Marco.",
+          "en": "I have Marco."
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna è commossa! Grazie mille — perfetto!", "en": "Nonna is touched! Grazie mille — perfect!" },
-      "feedbackErr": { "it": "Grazie mille, Nonna! — sempre gentili con la Nonna!", "en": "Grazie mille, Nonna! — always kind to Nonna!" }
+      "feedbackOk": {
+        "it": "La Nonna applaude! Perfetto!",
+        "en": "Nonna applauds! Perfect!"
+      },
+      "feedbackErr": {
+        "it": "Piacere + mi chiamo — sempre così!",
+        "en": "Piacere + mi chiamo — always like this!"
+      }
     },
     {
       "id": "q5",
       "personaggio": "vittoria",
-      "tipo": "vero_falso",
+      "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "La Nonna sa tutto!",
-      "intro_en": "Nonna knows everything!",
-      "domanda": { "it": "In italiano si usa ciao con tutti, anche con i professori.", "en": "In Italian you use ciao with everyone, even professors." },
-      "correct": false,
-      "feedbackOk": { "it": "Esatto! La Nonna è d'accordo — con i professori mai ciao!", "en": "Correct! Nonna agrees — never ciao with professors!" },
-      "feedbackErr": { "it": "No! Con professori e sconosciuti: Buongiorno o Salve!", "en": "No! With professors and strangers: Buongiorno or Salve!" }
+      "introIT": "Ascolta Marco!",
+      "intro_en": "Listen to Marco!",
+      "audio": "Piacere, mi chiamo Marco.",
+      "domanda": {
+        "it": "Cosa ha detto Marco?",
+        "en": "What did Marco say?"
+      },
+      "opzioni": [
+        {
+          "it": "Si è presentato",
+          "en": "He introduced himself"
+        },
+        {
+          "it": "Ha ordinato un caffè",
+          "en": "He ordered a coffee"
+        },
+        {
+          "it": "Ha chiesto l'età",
+          "en": "He asked the age"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto!",
+        "en": "Correct!"
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo Marco = si è presentato!",
+        "en": "Mi chiamo Marco = he introduced himself!"
+      }
     },
     {
       "id": "q6",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "fill_blank",
       "fase": "produzione",
-      "introIT": "La Nonna mette alla prova!",
-      "intro_en": "Nonna puts you to the test!",
-      "domanda": { "it": "La Nonna presenta suo nipote Marco. Cosa dici a Marco?", "en": "Nonna introduces her nephew Marco. What do you say to Marco?" },
+      "introIT": "Completa per la Nonna!",
+      "intro_en": "Complete for Nonna!",
+      "frase_it": "Lavoro _____ insegnante.",
+      "frase_en": "I work _____ a teacher.",
       "opzioni": [
-        { "it": "Piacere! Mi chiamo ....", "en": "Nice to meet you! My name is ...." },
-        { "it": "Dove sei Marco?", "en": "Where are you Marco?" },
-        { "it": "Ho Marco.", "en": "I have Marco." },
-        { "it": "Lavoro come Marco.", "en": "I work as Marco." }
+        {
+          "it": "come",
+          "en": "as"
+        },
+        {
+          "it": "di",
+          "en": "of"
+        },
+        {
+          "it": "per",
+          "en": "for"
+        },
+        {
+          "it": "con",
+          "en": "with"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna applaude! Presentazione perfetta!", "en": "Nonna applauds! Perfect introduction!" },
-      "feedbackErr": { "it": "Piacere! Mi chiamo... — sempre così con i nuovi amici!", "en": "Piacere! Mi chiamo... — always like this with new friends!" }
+      "feedbackOk": {
+        "it": "La Nonna è soddisfatta!",
+        "en": "Nonna is satisfied!"
+      },
+      "feedbackErr": {
+        "it": "Lavoro COME insegnante!",
+        "en": "Lavoro COME insegnante!"
+      }
     },
     {
       "id": "q7",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "introIT": "Quasi finito!",
-      "intro_en": "Almost done!",
-      "domanda": { "it": "La Nonna chiede il tuo lavoro. Rispondi!", "en": "Nonna asks your job. Reply!" },
+      "introIT": "La Nonna offre il dolce!",
+      "intro_en": "Nonna offers dessert!",
+      "contesto_it": "La Nonna ti offre il dolce. 🍰",
+      "contesto_en": "Nonna offers you dessert. 🍰",
+      "domanda": {
+        "it": "Cosa fai?",
+        "en": "What do you do?"
+      },
       "opzioni": [
-        { "it": "Lavoro come insegnante.", "en": "I work as a teacher." },
-        { "it": "Sono come insegnante.", "en": "I am as a teacher." },
-        { "it": "Ho insegnante.", "en": "I have teacher." },
-        { "it": "Mi chiamo insegnante.", "en": "My name is teacher." }
+        {
+          "it": "Accetti con Grazie!",
+          "en": "Accept with Thank you!",
+          "emoji": "🍰"
+        },
+        {
+          "it": "Rifiuti",
+          "en": "Decline",
+          "emoji": "🚫"
+        },
+        {
+          "it": "Chiedi il conto",
+          "en": "Ask for the bill",
+          "emoji": "🧾"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna è soddisfatta! Lavoro come + professione!", "en": "Nonna is satisfied! Lavoro come + profession!" },
-      "feedbackErr": { "it": "Lavoro come insegnante — lavoro come + professione!", "en": "Lavoro come insegnante — lavoro come + profession!" }
+      "feedbackOk": {
+        "it": "La Nonna è felice!",
+        "en": "Nonna is happy!"
+      },
+      "feedbackErr": {
+        "it": "Con la Nonna si accetta sempre!",
+        "en": "With Nonna you always accept!"
+      }
     },
     {
       "id": "q8",
       "personaggio": "vittoria",
-      "tipo": "vero_falso",
+      "tipo": "giusto_o_no",
       "fase": "produzione",
-      "introIT": "Penultima domanda!",
-      "intro_en": "Second to last question!",
-      "domanda": { "it": "A Napoli si danno sempre due baci sulla guancia.", "en": "In Naples you always give two kisses on the cheek." },
-      "correct": false,
-      "feedbackOk": { "it": "La Nonna ride! A Napoli uno solo — o abbraccio!", "en": "Nonna laughs! In Naples just one — or a hug!" },
-      "feedbackErr": { "it": "No! A Napoli spesso uno solo — o un bell'abbraccio!", "en": "No! In Naples often just one — or a warm hug!" }
+      "introIT": "Ultimo giudizio!",
+      "intro_en": "Final judgement!",
+      "scena_it": "La Nonna saluta:",
+      "scena_en": "Nonna says goodbye:",
+      "frase_it": "Arrivederci! È stato un piacere!",
+      "frase_en": "Goodbye! It was a pleasure!",
+      "correct": true,
+      "feedbackOk": {
+        "it": "Sì! La Nonna saluta con eleganza!",
+        "en": "Yes! Nonna says goodbye with elegance!"
+      },
+      "feedbackErr": {
+        "it": "Sì, è giusto! Arrivederci + è stato un piacere!",
+        "en": "Yes, it is right! Arrivederci + è stato un piacere!"
+      }
     },
     {
       "id": "q9",
       "personaggio": "vittoria",
       "tipo": "multipla",
       "fase": "produzione",
-      "introIT": "La Nonna è quasi convinta!",
-      "intro_en": "Nonna is almost convinced!",
-      "domanda": { "it": "Presentazione completa corretta con la Nonna?", "en": "Correct full introduction with Nonna?" },
+      "introIT": "È ora di salutare la Nonna!",
+      "intro_en": "Time to say goodbye to Nonna!",
+      "domanda": {
+        "it": "Come saluti la Nonna alla fine della visita?",
+        "en": "How do you say goodbye to Nonna at the end of the visit?"
+      },
       "opzioni": [
-        { "it": "Piacere Nonna, mi chiamo ..., sono inglese e ho 30 anni!", "en": "Nice to meet you Nonna, my name is ..., I am English and I am 30!" },
-        { "it": "Ciao Nonna, chiamo ..., sono inglese, sono 30 anni!", "en": "Hi Nonna, call ..., English, am 30 years!" },
-        { "it": "Ho ..., lavoro inglese, sono 30!", "en": "Have ..., work English, am 30!" },
-        { "it": "Nonna piacere, ho inglese, chiamo 30!", "en": "Nonna pleased, have English, call 30!" }
+        {
+          "it": "Arrivederci Nonna! Grazie di tutto!",
+          "en": "Goodbye Nonna! Thank you for everything!"
+        },
+        {
+          "it": "Ciao ciao!",
+          "en": "Bye bye!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "La Nonna è conquistata! Sei ufficialmente approvato!", "en": "Nonna is won over! You are officially approved!" },
-      "feedbackErr": { "it": "Piacere + mi chiamo + sono + ho anni — presentazione completa!", "en": "Piacere + mi chiamo + sono + ho anni — complete introduction!" }
+      "feedbackOk": {
+        "it": "La Nonna è commossa! Perfetto congedo!",
+        "en": "Nonna is moved! Perfect goodbye!"
+      },
+      "feedbackErr": {
+        "it": "Arrivederci + grazie di tutto — con calore!",
+        "en": "Arrivederci + grazie di tutto — with warmth!"
+      }
     },
     {
       "id": "q10",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "word_bank",
       "fase": "produzione",
-      "introIT": "L'ultima domanda della Nonna!",
-      "intro_en": "Nonna's last question!",
-      "domanda": { "it": "La Nonna ti saluta alla fine. Tu rispondi?", "en": "Nonna says goodbye at the end. You reply?" },
-      "opzioni": [
-        { "it": "Arrivederci, Nonna! Grazie di tutto!", "en": "Goodbye, Nonna! Thank you for everything!" },
-        { "it": "Il conto, per favore!", "en": "The bill, please!" },
-        { "it": "Dov'è la stazione?", "en": "Where is the station?" },
-        { "it": "Ho 30 anni.", "en": "I am 30 years old." }
+      "introIT": "L'ultima sfida!",
+      "intro_en": "The final challenge!",
+      "domanda": {
+        "it": "Saluta la Nonna!",
+        "en": "Say goodbye to Nonna!"
+      },
+      "soluzione": "Arrivederci Nonna grazie di tutto",
+      "parole": [
+        "Arrivederci",
+        "Nonna",
+        "grazie",
+        "di",
+        "tutto"
       ],
-      "correct": 0,
-      "feedbackOk": { "it": "Perfetto! La Nonna ti vuole già bene! Tornerai?", "en": "Perfect! Nonna already loves you! Will you come back?" },
-      "feedbackErr": { "it": "Arrivederci, Nonna! Grazie di tutto! — con affetto!", "en": "Arrivederci, Nonna! Grazie di tutto! — with affection!" }
+      "distrattori": [
+        "ciao",
+        "buonanotte",
+        "caffè"
+      ],
+      "feedbackOk": {
+        "it": "Perfetto! La Nonna è conquistata!",
+        "en": "Perfect! Nonna is won over!"
+      },
+      "feedbackErr": {
+        "it": "Arrivederci Nonna, grazie di tutto!",
+        "en": "Arrivederci Nonna, grazie di tutto!"
+      }
     }
   ]
 }

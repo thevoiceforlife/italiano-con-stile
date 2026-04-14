@@ -8,7 +8,11 @@
     "type": "slot",
     "name": "secondo_caffe",
     "credits": 5,
-    "pool": ["☕ Secondo caffè", "🥛 Latte macchiato", "🍵 Tè caldo"]
+    "pool": [
+      "☕ Secondo caffè",
+      "🥛 Latte macchiato",
+      "🍵 Tè caldo"
+    ]
   },
   "vocab": [
     {
@@ -57,77 +61,110 @@
   "questions": [
     {
       "id": "q1",
-      "personaggio": "sofia",
-      "tipo": "multipla",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "introIT": "Ciao! Sono Sofia.",
-      "intro_en": "Hi! I am Sofia.",
+      "introIT": "Ascolta Mario!",
+      "intro_en": "Listen to Mario!",
+      "audio": "Buongiorno!",
       "domanda": {
-        "it": "Sofia ti saluta la mattina. Cosa rispondi?",
-        "en": "Sofia greets you in the morning. What do you reply?"
+        "it": "Quando si usa questo saluto?",
+        "en": "When do you use this greeting?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Il conto!", "en": "The bill!" },
-        { "it": "A destra!", "en": "On the right!" }
+        {
+          "it": "La mattina",
+          "en": "In the morning"
+        },
+        {
+          "it": "La sera",
+          "en": "In the evening"
+        },
+        {
+          "it": "La notte",
+          "en": "At night"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Buongiorno è il saluto perfetto per la mattina.",
-        "en": "Correct! Buongiorno is the perfect morning greeting."
+        "it": "Esatto! Buongiorno si usa la mattina!",
+        "en": "Correct! Buongiorno is used in the morning!"
       },
       "feedbackErr": {
-        "it": "Buongiorno è il saluto giusto per la mattina!",
-        "en": "Buongiorno is the right morning greeting!"
+        "it": "Buongiorno = buon giorno = la mattina!",
+        "en": "Buongiorno = good day = morning!"
       }
     },
     {
       "id": "q2",
-      "personaggio": "sofia",
-      "tipo": "multipla",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "introIT": "Al bar con Sofia!",
-      "intro_en": "At the bar with Sofia!",
+      "introIT": "Ascolta ancora!",
+      "intro_en": "Listen again!",
+      "audio": "Vorrei un caffè, per favore.",
       "domanda": {
-        "it": "Come ordini un caffè educatamente?",
-        "en": "How do you order a coffee politely?"
+        "it": "Cosa sta facendo?",
+        "en": "What is he doing?"
       },
       "opzioni": [
-        { "it": "Caffè!", "en": "Coffee!" },
-        { "it": "Vorrei un caffè, per favore.", "en": "I would like a coffee, please." },
-        { "it": "Il conto, per favore.", "en": "The bill, please." },
-        { "it": "Quanto costa?", "en": "How much is it?" }
+        {
+          "it": "Sta ordinando",
+          "en": "He is ordering"
+        },
+        {
+          "it": "Sta pagando",
+          "en": "He is paying"
+        },
+        {
+          "it": "Sta salutando",
+          "en": "He is greeting"
+        }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Vorrei è educato e naturale.",
-        "en": "Perfect! Vorrei is polite and natural."
+        "it": "Sì! Vorrei = I would like — sta ordinando!",
+        "en": "Yes! Vorrei = I would like — he is ordering!"
       },
       "feedbackErr": {
-        "it": "Vorrei un caffè, per favore — sempre educati!",
-        "en": "Vorrei un caffè, per favore — always be polite!"
+        "it": "Vorrei un caffè = sta ordinando un caffè!",
+        "en": "Vorrei un caffè = he is ordering a coffee!"
       }
     },
     {
       "id": "q3",
-      "personaggio": "diego",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "introIT": "Un fatto culturale!",
-      "intro_en": "A cultural fact!",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Un'altra frase!",
+      "intro_en": "Another phrase!",
+      "audio": "Il conto, per favore.",
       "domanda": {
-        "it": "In Italia ciao si usa solo per salutare, non per congedarsi.",
-        "en": "In Italy ciao is only used for greeting, not for saying goodbye."
+        "it": "Cosa significa?",
+        "en": "What does it mean?"
       },
-      "correct": false,
+      "opzioni": [
+        {
+          "it": "Vuole pagare",
+          "en": "He wants to pay"
+        },
+        {
+          "it": "Sta ordinando",
+          "en": "He is ordering"
+        },
+        {
+          "it": "Sta salutando",
+          "en": "He is greeting"
+        }
+      ],
+      "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Ciao funziona sia per hello che per bye!",
-        "en": "Correct! Ciao works for both hello and bye!"
+        "it": "Esatto! Il conto = the bill — vuole pagare!",
+        "en": "Correct! Il conto = the bill — he wants to pay!"
       },
       "feedbackErr": {
-        "it": "No! Ciao si usa sia per salutare che per congedarsi.",
-        "en": "No! Ciao is used both for hello and goodbye."
+        "it": "Il conto, per favore = vuole pagare!",
+        "en": "Il conto, per favore = he wants to pay!"
       }
     },
     {
@@ -135,107 +172,136 @@
       "personaggio": "sofia",
       "tipo": "multipla",
       "fase": "comprensione",
-      "introIT": "Ripassa con me!",
-      "intro_en": "Review with me!",
+      "introIT": "Al bar con Sofia!",
+      "intro_en": "At the bar with Sofia!",
       "domanda": {
-        "it": "Mario ti dà il caffè. Cosa dici?",
-        "en": "Mario gives you the coffee. What do you say?"
+        "it": "Ciao! Cosa vuoi?",
+        "en": "Hi! What do you want?"
       },
       "opzioni": [
-        { "it": "Prego!", "en": "You are welcome!" },
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Scusa!", "en": "Sorry!" },
-        { "it": "Quanto costa?", "en": "How much?" }
+        {
+          "it": "Vorrei un caffè, per favore.",
+          "en": "I would like a coffee, please."
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!"
+        },
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!"
+        }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Grazie è sempre la risposta giusta!",
-        "en": "Yes! Grazie is always the right answer!"
+        "it": "Perfetto! Dialogo al bar completato!",
+        "en": "Perfect! Bar dialogue completed!"
       },
       "feedbackErr": {
-        "it": "Grazie — sempre e comunque!",
-        "en": "Grazie — always and forever!"
+        "it": "Riprova!",
+        "en": "Try again!"
       }
     },
     {
       "id": "q5",
-      "personaggio": "gino",
-      "tipo": "multipla",
+      "personaggio": "diego",
+      "tipo": "tap_right",
       "fase": "comprensione",
-      "introIT": "Lo sapevo già!",
-      "intro_en": "I already knew this!",
+      "introIT": "Veloce!",
+      "intro_en": "Quick!",
+      "contesto_it": "Sono le 9 di mattina. ☀️",
+      "contesto_en": "It is 9 in the morning. ☀️",
       "domanda": {
-        "it": "Sono le 14:00. Come saluti?",
-        "en": "It is 2 PM. How do you greet?"
+        "it": "Cosa dici?",
+        "en": "What do you say?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Buonasera!", "en": "Good evening!" },
-        { "it": "Buon pomeriggio!", "en": "Good afternoon!" },
-        { "it": "Buonanotte!", "en": "Good night!" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Bravo! Il pomeriggio va da mezzogiorno alle 18:00.",
-        "en": "Well done! Afternoon goes from noon to 6 PM."
+        "it": "Esatto! Buongiorno la mattina!",
+        "en": "Correct! Buongiorno in the morning!"
       },
       "feedbackErr": {
-        "it": "Buon pomeriggio — dal mezzogiorno alle 18:00!",
-        "en": "Buon pomeriggio — from noon to 6 PM!"
+        "it": "La mattina si dice Buongiorno!",
+        "en": "In the morning you say Buongiorno!"
       }
     },
     {
       "id": "q6",
-      "personaggio": "sofia",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "introIT": "Situazione reale!",
-      "intro_en": "Real situation!",
-      "domanda": {
-        "it": "Entri in una farmacia. Come saluti la farmacista?",
-        "en": "You enter a pharmacy. How do you greet the pharmacist?"
-      },
+      "personaggio": "matilde",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Completa la frase!",
+      "intro_en": "Complete the sentence!",
+      "frase_it": "_____ un caffè, per favore.",
+      "frase_en": "I _____ a coffee, please.",
       "opzioni": [
-        { "it": "Ciao!", "en": "Hi!" },
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Salve!", "en": "Hello! (formal)" },
-        { "it": "Buongiorno o Salve — entrambi ok!", "en": "Buongiorno or Salve — both fine!" }
+        {
+          "it": "Vorrei",
+          "en": "would like"
+        },
+        {
+          "it": "Ho",
+          "en": "have"
+        },
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Grazie",
+          "en": "thank you"
+        }
       ],
-      "correct": 3,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Con gli sconosciuti, formale è meglio.",
-        "en": "Correct! With strangers, formal is better."
+        "it": "Perfetto! Vorrei è educato e naturale.",
+        "en": "Perfect! Vorrei is polite and natural."
       },
       "feedbackErr": {
-        "it": "Con sconosciuti usa Buongiorno o Salve — mai Ciao!",
-        "en": "With strangers use Buongiorno or Salve — never Ciao!"
+        "it": "Vorrei un caffè — Vorrei = I would like!",
+        "en": "Vorrei un caffè — Vorrei = I would like!"
       }
     },
     {
       "id": "q7",
-      "personaggio": "diego",
-      "tipo": "multipla",
+      "personaggio": "mario",
+      "tipo": "giusto_o_no",
       "fase": "produzione",
-      "introIT": "Metti in pratica!",
-      "intro_en": "Put it into practice!",
-      "domanda": {
-        "it": "Vuoi pagare. Cosa dici al barista?",
-        "en": "You want to pay. What do you say to the barman?"
-      },
-      "opzioni": [
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Il conto, per favore.", "en": "The bill, please." },
-        { "it": "Vorrei un caffè.", "en": "I would like a coffee." },
-        { "it": "Buongiorno!", "en": "Good morning!" }
-      ],
-      "correct": 1,
+      "introIT": "Giusto o sbagliato?",
+      "intro_en": "Right or wrong?",
+      "scena_it": "Mario saluta il dottore:",
+      "scena_en": "Mario greets the doctor:",
+      "frase_it": "Ciao dottore!",
+      "frase_en": "Hi doctor!",
+      "correct": false,
       "feedbackOk": {
-        "it": "Perfetto! Il conto, per favore — educato e chiaro.",
-        "en": "Perfect! Il conto, per favore — polite and clear."
+        "it": "Esatto! Con il dottore si usa Buongiorno, non Ciao!",
+        "en": "Correct! With the doctor use Buongiorno, not Ciao!"
       },
       "feedbackErr": {
-        "it": "Il conto, per favore — per chiedere il conto!",
-        "en": "Il conto, per favore — to ask for the bill!"
+        "it": "No! Con il dottore mai Ciao — usa Buongiorno!",
+        "en": "No! With the doctor never Ciao — use Buongiorno!"
       }
     },
     {
@@ -246,19 +312,29 @@
       "introIT": "Ultima sfida!",
       "intro_en": "Final challenge!",
       "domanda": {
-        "it": "Sofia ti chiede un caffè. Ordina per lei!",
-        "en": "Sofia asks you for a coffee. Order for her!"
+        "it": "Ordina un caffè al bar!",
+        "en": "Order a coffee at the bar!"
       },
       "soluzione": "Vorrei un caffè per favore",
-      "parole": ["Vorrei", "un", "caffè", "per", "favore"],
-      "distrattori": ["ciao", "grazie", "quanto"],
+      "parole": [
+        "Vorrei",
+        "un",
+        "caffè",
+        "per",
+        "favore"
+      ],
+      "distrattori": [
+        "ciao",
+        "grazie",
+        "quanto"
+      ],
       "feedbackOk": {
-        "it": "Perfetto! Ordine fatto come un vero italiano!",
-        "en": "Perfect! Order placed like a true Italian!"
+        "it": "Perfetto! Ordine fatto!",
+        "en": "Perfect! Order placed!"
       },
       "feedbackErr": {
-        "it": "La frase giusta è: Vorrei un caffè, per favore",
-        "en": "The right phrase is: Vorrei un caffè, per favore"
+        "it": "Vorrei un caffè, per favore!",
+        "en": "Vorrei un caffè, per favore!"
       }
     }
   ]

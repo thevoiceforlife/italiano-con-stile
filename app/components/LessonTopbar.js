@@ -3,34 +3,16 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadProgress } from "./saveProgress";
 
-/**
- * LessonTopbar — SOLO la riga centrale 720 della topbar lezione.
- *
- * NON contiene i TricoloreBar: vanno renderizzati dal chiamante come
- * siblings diretti (fratelli del LessonTopbar), così da essere figli di
- * un container full-width senza wrapper intermedi.
- *
- * Struttura render:
- *   <div class="lesson-topbar-outer">        (full-width, bg)
- *     <div class="lesson-topbar-inner">      (max-width: 720 centrato)
- *       home | title | credits
- *     </div>
- *   </div>
- *
- * Su mobile (<768px) mostra "U1·L1" compatto, altrimenti bilingue.
- *
- * @param {string|number} unita
- * @param {string|number} lezione
- * @param {string}        confirmMsg
- */
 export default function LessonTopbar({ unita, lezione, confirmMsg }) {
   const router = useRouter();
   const [credits, setCredits] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  const [audioOn, setAudioOn] = useState(true);
 
   useEffect(() => {
     const d = loadProgress();
     if (d && typeof d.credits === "number") setCredits(d.credits);
+    setAudioOn(localStorage.getItem("ics_audio") !== "false");
 
     const mq = window.matchMedia("(max-width: 767px)");
     const update = () => setIsMobile(mq.matches);
@@ -55,6 +37,13 @@ export default function LessonTopbar({ unita, lezione, confirmMsg }) {
     }
   }
 
+  function toggleAudio() {
+    const nuovo = !audioOn;
+    setAudioOn(nuovo);
+    localStorage.setItem("ics_audio", String(nuovo));
+    if (!nuovo) window.speechSynthesis?.cancel();
+  }
+
   return (
     <div className="app-topbar">
       <button className="lesson-topbar__home" onClick={handleHome} aria-label="Home">
@@ -70,9 +59,13 @@ export default function LessonTopbar({ unita, lezione, confirmMsg }) {
           </>
         )}
       </div>
-      <div className="lesson-topbar__credits" title={`${credits} crediti`}>
-        🎫 {credits}
-      </div>
+      <button onClick={toggleAudio} title={audioOn ? "Audio on" : "Audio off"} style={{
+        background: "none", border: "1px solid var(--border)", borderRadius: 8,
+        padding: "4px 8px", fontSize: 16, cursor: "pointer",
+        color: audioOn ? "var(--special)" : "var(--text3)", flexShrink: 0,
+      }}>
+        {audioOn ? "🔊" : "🔕"}
+      </button>
     </div>
   );
 }

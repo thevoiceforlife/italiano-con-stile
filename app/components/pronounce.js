@@ -31,9 +31,15 @@ export function cleanForTTS(text) {
     .trim();
 }
 
+export function isAudioOn() {
+  if (typeof window === "undefined") return true;
+  return localStorage.getItem("ics_audio") !== "false";
+}
+
 export function pronounce(text, lang = "it-IT") {
   if (!text || typeof window === "undefined") return;
   if (!window.speechSynthesis) return;
+  if (!isAudioOn()) return;
 
   try {
     window.speechSynthesis.cancel();

@@ -8,7 +8,11 @@
     "type": "slot",
     "name": "aperitivo",
     "credits": 8,
-    "pool": ["🍷 Vino rosso", "🥂 Prosecco", "🍹 Aperol Spritz"]
+    "pool": [
+      "🍷 Vino rosso",
+      "🥂 Prosecco",
+      "🍹 Aperol Spritz"
+    ]
   },
   "vocab": [],
   "pillole": [
@@ -20,8 +24,8 @@
       "domanda_en": "The cheek kiss — one or two?",
       "titolo_it": "Nord vs Sud — baci diversi",
       "titolo_en": "North vs South — different kisses",
-      "corpo_it": "Al Nord Italia si danno due baci. Al Sud, come a Napoli, spesso uno solo — o un abbraccio caloroso tra amici! La regola d'oro: aspetta e osserva cosa fa l'italiano davanti a te!",
-      "corpo_en": "In Northern Italy you give two kisses. In the South, like Naples, often just one — or a warm hug between friends! Golden rule: wait and watch what the Italian in front of you does!",
+      "corpo_it": "Al Nord Italia si danno due baci. Al Sud, come a Napoli, spesso uno solo — o un abbraccio caloroso!",
+      "corpo_en": "In Northern Italy you give two kisses. In the South, like Naples, often just one — or a warm hug!",
       "esempio_it": "🗺️ Milano → due baci · Napoli → uno o abbraccio",
       "esempio_en": "Milan → two kisses · Naples → one or hug"
     },
@@ -33,10 +37,10 @@
       "domanda_en": "Why do Italians gesture so much?",
       "titolo_it": "I gesti italiani",
       "titolo_en": "Italian gestures",
-      "corpo_it": "I gesti italiani non sono solo decorativi — hanno significati precisi! Alcune teorie dicono che nascono dalla necessità storica di comunicare tra persone di dialetti diversi. Ogni regione ha i suoi gesti unici!",
-      "corpo_en": "Italian gestures are not just decorative — they have precise meanings! Some theories say they arose from the historical need to communicate between people speaking different dialects. Every region has its own unique gestures!",
-      "esempio_it": "🤌 Il gesto italiano più famoso = Ma che vuoi?",
-      "esempio_en": "The most famous Italian gesture = What do you want?"
+      "corpo_it": "I gesti italiani hanno significati precisi! Nascono dalla necessità storica di comunicare tra persone di dialetti diversi.",
+      "corpo_en": "Italian gestures have precise meanings! They arose from the historical need to communicate between people speaking different dialects.",
+      "esempio_it": "🤌 Il gesto più famoso = Ma che vuoi?",
+      "esempio_en": "The most famous gesture = What do you want?"
     }
   ],
   "questions": [
@@ -47,16 +51,37 @@
       "fase": "riconoscimento",
       "introIT": "Benvenuto alla mia festa!",
       "intro_en": "Welcome to my party!",
-      "domanda": { "it": "Gino ti accoglie alla festa. Cosa dici?", "en": "Gino welcomes you to the party. What do you say?" },
+      "domanda": {
+        "it": "Gino ti accoglie. Come ti presenti?",
+        "en": "Gino welcomes you. How do you introduce yourself?"
+      },
       "opzioni": [
-        { "it": "Il conto, per favore!", "en": "The bill, please!" },
-        { "it": "Grazie! Piacere di conoscerti!", "en": "Thank you! Nice to meet you!" },
-        { "it": "Dov'è la stazione?", "en": "Where is the station?" },
-        { "it": "Ho 30 anni.", "en": "I am 30 years old." }
+        {
+          "it": "Mi chiamo ..., piacere!",
+          "en": "My name is ..., nice to meet you!"
+        },
+        {
+          "it": "Vorrei un caffè.",
+          "en": "I would like a coffee."
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        },
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?"
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Perfetto! Educato e cordiale — proprio come un italiano!", "en": "Perfect! Polite and friendly — just like an Italian!" },
-      "feedbackErr": { "it": "Grazie! Piacere di conoscerti! — la risposta giusta!", "en": "Grazie! Piacere di conoscerti! — the right answer!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Gino sorride! Perfetta presentazione!",
+        "en": "Gino smiles! Perfect introduction!"
+      },
+      "feedbackErr": {
+        "it": "Presentati con mi chiamo + piacere!",
+        "en": "Introduce yourself with mi chiamo + piacere!"
+      }
     },
     {
       "id": "q2",
@@ -65,34 +90,73 @@
       "fase": "riconoscimento",
       "introIT": "Sofia vuole conoscerti!",
       "intro_en": "Sofia wants to meet you!",
-      "domanda": { "it": "Sofia ti chiede come ti chiami. Cosa rispondi?", "en": "Sofia asks your name. What do you reply?" },
+      "domanda": {
+        "it": "Sofia chiede il tuo nome. Cosa rispondi?",
+        "en": "Sofia asks your name. What do you reply?"
+      },
       "opzioni": [
-        { "it": "Mi chiamo ..., piacere!", "en": "My name is ..., nice to meet you!" },
-        { "it": "Ho ....", "en": "I have ...." },
-        { "it": "Lavoro come ....", "en": "I work as ...." },
-        { "it": "Sono di ....", "en": "I am from ...." }
+        {
+          "it": "Mi chiamo ..., piacere Sofia!",
+          "en": "My name is ..., nice to meet you Sofia!"
+        },
+        {
+          "it": "Vorrei un caffè.",
+          "en": "I would like a coffee."
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        },
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Esatto! Presentazione perfetta e naturale.", "en": "Correct! Perfect and natural introduction." },
-      "feedbackErr": { "it": "Mi chiamo ..., piacere! — sempre così!", "en": "Mi chiamo ..., piacere! — always like this!" }
+      "feedbackOk": {
+        "it": "Sofia è felice di conoscerti!",
+        "en": "Sofia is happy to meet you!"
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo + piacere — così ci si presenta!",
+        "en": "Mi chiamo + piacere — that is how you introduce yourself!"
+      }
     },
     {
       "id": "q3",
-      "personaggio": "diego",
-      "tipo": "multipla",
+      "personaggio": "gino",
+      "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "Diego è curioso!",
-      "intro_en": "Diego is curious!",
-      "domanda": { "it": "Diego chiede: Di dove sei? Tu sei inglese. Cosa rispondi?", "en": "Diego asks: Di dove sei? You are English. What do you reply?" },
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Piacere di conoscerti!",
+      "domanda": {
+        "it": "Quando si usa questa frase?",
+        "en": "When do you use this phrase?"
+      },
       "opzioni": [
-        { "it": "Sono dell'Inghilterra.", "en": "I am from England." },
-        { "it": "Ho Inghilterra.", "en": "I have England." },
-        { "it": "Mi chiamo Inghilterra.", "en": "My name is England." },
-        { "it": "Lavoro Inghilterra.", "en": "I work England." }
+        {
+          "it": "Quando conosci qualcuno",
+          "en": "When you meet someone"
+        },
+        {
+          "it": "Quando ordini",
+          "en": "When you order"
+        },
+        {
+          "it": "Quando paghi",
+          "en": "When you pay"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Perfetto! Sono di + paese — sempre corretto.", "en": "Perfect! Sono di + country — always correct." },
-      "feedbackErr": { "it": "Sono dell'Inghilterra — sono di + paese!", "en": "Sono dell'Inghilterra — sono di + country!" }
+      "feedbackOk": {
+        "it": "Esatto! Piacere al primo incontro!",
+        "en": "Correct! Piacere at first meeting!"
+      },
+      "feedbackErr": {
+        "it": "Piacere di conoscerti = when you meet someone!",
+        "en": "Piacere di conoscerti = when you meet someone!"
+      }
     },
     {
       "id": "q4",
@@ -101,78 +165,169 @@
       "fase": "comprensione",
       "introIT": "Matilde è alla festa!",
       "intro_en": "Matilde is at the party!",
-      "domanda": { "it": "Matilde chiede la tua età. Cosa rispondi?", "en": "Matilde asks your age. What do you reply?" },
+      "domanda": {
+        "it": "Matilde chiede la tua età in modo formale. Rispondi!",
+        "en": "Matilde asks your age formally. Reply!"
+      },
       "opzioni": [
-        { "it": "Sono 35 anni.", "en": "I am 35 years." },
-        { "it": "Ho 35 anni.", "en": "I have 35 years." },
-        { "it": "Mi chiamo 35 anni.", "en": "My name is 35 years." },
-        { "it": "Lavoro 35 anni.", "en": "I work 35 years." }
+        {
+          "it": "Ho 30 anni.",
+          "en": "I am 30 years old."
+        },
+        {
+          "it": "Sono 30 anni.",
+          "en": "I am 30 years."
+        },
+        {
+          "it": "Mi chiamo 30.",
+          "en": "My name is 30."
+        },
+        {
+          "it": "Lavoro 30 anni.",
+          "en": "I work 30 years."
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Esatto! Ho 35 anni — avere per l'età!", "en": "Correct! Ho 35 anni — avere for age!" },
-      "feedbackErr": { "it": "Ho 35 anni — ricorda: in italiano l'età si HA!", "en": "Ho 35 anni — remember: in Italian you HAVE age!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! HO gli anni — avere per l'età!",
+        "en": "Correct! HO years — avere for age!"
+      },
+      "feedbackErr": {
+        "it": "Ho 30 anni — in italiano l'età si HA!",
+        "en": "Ho 30 anni — in Italian you HAVE age!"
+      }
     },
     {
       "id": "q5",
-      "personaggio": "gino",
-      "tipo": "vero_falso",
+      "personaggio": "matilde",
+      "tipo": "fill_blank",
       "fase": "comprensione",
-      "introIT": "Gino fa una domanda trabocchetto!",
-      "intro_en": "Gino asks a trick question!",
-      "domanda": { "it": "A una festa italiana è scortese rifiutare il cibo offerto.", "en": "At an Italian party it is rude to refuse offered food." },
-      "correct": true,
-      "feedbackOk": { "it": "Esatto! Il cibo è amore in Italia — rifiutarlo è quasi un insulto!", "en": "Correct! Food is love in Italy — refusing it is almost an insult!" },
-      "feedbackErr": { "it": "Sì, è vero! Il cibo in Italia è sacro — accetta sempre!", "en": "Yes, it is true! Food in Italy is sacred — always accept!" }
+      "introIT": "Completa!",
+      "intro_en": "Complete!",
+      "frase_it": "Sono _____ Inghilterra.",
+      "frase_en": "I am _____ England.",
+      "opzioni": [
+        {
+          "it": "dell'",
+          "en": "from"
+        },
+        {
+          "it": "di",
+          "en": "of"
+        },
+        {
+          "it": "a",
+          "en": "to"
+        },
+        {
+          "it": "in",
+          "en": "in"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Sono dell'Inghilterra!",
+        "en": "Perfect! Sono dell'Inghilterra!"
+      },
+      "feedbackErr": {
+        "it": "Sono DELL'Inghilterra — dell' per i paesi!",
+        "en": "Sono DELL'Inghilterra — dell' for countries!"
+      }
     },
     {
       "id": "q6",
-      "personaggio": "sofia",
-      "tipo": "multipla",
+      "personaggio": "gino",
+      "tipo": "giusto_o_no",
       "fase": "produzione",
-      "introIT": "Sofia ti fa conoscere qualcuno!",
-      "intro_en": "Sofia introduces you to someone!",
-      "domanda": { "it": "Sofia dice: Questo è Marco. Tu rispondi a Marco.", "en": "Sofia says: Questo è Marco. You reply to Marco." },
-      "opzioni": [
-        { "it": "Piacere! Mi chiamo ....", "en": "Nice to meet you! My name is ...." },
-        { "it": "Dove sei Marco?", "en": "Where are you Marco?" },
-        { "it": "Il conto di Marco.", "en": "Marco's bill." },
-        { "it": "Ho Marco.", "en": "I have Marco." }
-      ],
-      "correct": 0,
-      "feedbackOk": { "it": "Perfetto! Naturale e cordiale come un italiano!", "en": "Perfect! Natural and friendly like an Italian!" },
-      "feedbackErr": { "it": "Piacere! Mi chiamo... — la risposta naturale!", "en": "Piacere! Mi chiamo... — the natural response!" }
+      "introIT": "Giusto o sbagliato?",
+      "intro_en": "Right or wrong?",
+      "scena_it": "Ti offrono la pizza alla festa:",
+      "scena_en": "They offer you pizza at the party:",
+      "frase_it": "No grazie, non ho fame.",
+      "frase_en": "No thanks, I am not hungry.",
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! In Italia rifiutare il cibo è scortese — accetta sempre!",
+        "en": "Correct! In Italy refusing food is rude — always accept!"
+      },
+      "feedbackErr": {
+        "it": "In Italia il cibo è sacro — rifiutarlo è quasi un insulto!",
+        "en": "In Italy food is sacred — refusing it is almost an insult!"
+      }
     },
     {
       "id": "q7",
       "personaggio": "gino",
-      "tipo": "multipla",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "introIT": "Gino vuole sapere tutto!",
-      "intro_en": "Gino wants to know everything!",
-      "domanda": { "it": "Gino chiede il tuo lavoro. Come rispondi?", "en": "Gino asks about your job. How do you reply?" },
+      "introIT": "Scegli!",
+      "intro_en": "Choose!",
+      "contesto_it": "Gino ti offre un bicchiere di vino. 🍷",
+      "contesto_en": "Gino offers you a glass of wine. 🍷",
+      "domanda": {
+        "it": "Cosa fai?",
+        "en": "What do you do?"
+      },
       "opzioni": [
-        { "it": "Lavoro come insegnante.", "en": "I work as a teacher." },
-        { "it": "Sono come insegnante.", "en": "I am as a teacher." },
-        { "it": "Ho insegnante.", "en": "I have teacher." },
-        { "it": "Mi chiamo insegnante.", "en": "My name is teacher." }
+        {
+          "it": "Accetti con Grazie!",
+          "en": "Accept with Thank you!",
+          "emoji": "🍷"
+        },
+        {
+          "it": "Rifiuti educatamente",
+          "en": "Politely decline",
+          "emoji": "🚫"
+        },
+        {
+          "it": "Chiedi il conto",
+          "en": "Ask for the bill",
+          "emoji": "🧾"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Esatto! Lavoro come + professione — sempre!", "en": "Correct! Lavoro come + profession — always!" },
-      "feedbackErr": { "it": "Lavoro come insegnante — lavoro come + professione!", "en": "Lavoro come insegnante — lavoro come + profession!" }
+      "feedbackOk": {
+        "it": "Perfetto! Accettare è la scelta giusta!",
+        "en": "Perfect! Accepting is the right choice!"
+      },
+      "feedbackErr": {
+        "it": "In Italia si accetta sempre — con Grazie!",
+        "en": "In Italy you always accept — with Grazie!"
+      }
     },
     {
       "id": "q8",
       "personaggio": "sofia",
       "tipo": "word_bank",
       "fase": "produzione",
-      "introIT": "Ultima sfida alla festa!",
-      "intro_en": "Final challenge at the party!",
-      "domanda": { "it": "Presentati a Gino in modo completo!", "en": "Introduce yourself to Gino completely!" },
+      "introIT": "Sfida finale!",
+      "intro_en": "Final challenge!",
+      "domanda": {
+        "it": "Presentati a Gino in modo completo!",
+        "en": "Introduce yourself to Gino completely!"
+      },
       "soluzione": "Piacere sono inglese e ho trentanni",
-      "parole": ["Piacere", "sono", "inglese", "e", "ho", "trentanni"],
-      "distrattori": ["ciao", "grazie", "lavoro"],
-      "feedbackOk": { "it": "Magnifico! Gino è impressionato!", "en": "Magnificent! Gino is impressed!" },
-      "feedbackErr": { "it": "Piacere + sono + ho — tre verbi, una presentazione!", "en": "Piacere + sono + ho — three verbs, one introduction!" }
+      "parole": [
+        "Piacere",
+        "sono",
+        "inglese",
+        "e",
+        "ho",
+        "trentanni"
+      ],
+      "distrattori": [
+        "ciao",
+        "grazie",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Magnifico! Gino è impressionato!",
+        "en": "Magnificent! Gino is impressed!"
+      },
+      "feedbackErr": {
+        "it": "Piacere + sono + ho — tre verbi!",
+        "en": "Piacere + sono + ho — three verbs!"
+      }
     }
   ]
 }

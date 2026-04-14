@@ -1,243 +1,311 @@
 {
-  "id": 2,
-  "title": "Il Primo Caffe",
-  "titleEN": "The First Coffee",
-  "subtitle": "Ordina senza sembrare turista",
-  "subtitleEN": "Order without looking like a tourist",
-  "livello": "Turista",
-  "type": "lettura",
+  "id": "A1-unit1-lesson2",
+  "title": "Saluti — in contesto",
+  "title_en": "Greetings — in context",
+  "type": "contesto",
   "icon": "📖",
+  "unita_tipo": "scopri",
   "reward": {
-    "slot": "fine_colazione",
-    "crediti": 5,
+    "type": "slot",
+    "credits": 5,
     "pool": [
-      { "emoji": "🥐", "nome": "Cornetto alla crema", "nomeEN": "Cream croissant" },
-      { "emoji": "🧇", "nome": "Brioche col tuppo", "nomeEN": "Sicilian brioche" },
-      { "emoji": "🍫", "nome": "Cioccolata calda", "nomeEN": "Hot chocolate" },
-      { "emoji": "🥐", "nome": "Sfogliatella", "nomeEN": "Sfogliatella pastry" }
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
     ]
   },
-  "vocab": [
+  "vocab": [],
+  "pillole": [
     {
-      "id": "caffè",
-      "emoji": "☕",
-      "it": "Un caffè",
-      "en": "An espresso",
-      "audio_text": "Un caffè",
-      "mario_it": "A Napoli 'un caffè' è sempre un espresso. Se vuoi il lungo devi dirlo!",
-      "mario_en": "In Naples 'un caffè' is always an espresso. If you want a long one, say so!",
-      "mario": "A Napoli 'un caffè' è sempre un espresso."
-    },
-    {
-      "id": "vorrei",
-      "emoji": "🙋",
-      "it": "Vorrei...",
-      "en": "I would like...",
-      "audio_text": "Vorrei",
-      "mario_it": "'Vorrei' è magico — educato e diretto. La formula perfetta per ordinare.",
-      "mario_en": "'Vorrei' is magic — polite and direct. The perfect formula to order.",
-      "mario": "'Vorrei' è magico — educato e diretto."
-    },
-    {
-      "id": "il_conto",
-      "emoji": "💰",
-      "it": "Il conto, per favore",
-      "en": "The bill, please",
-      "audio_text": "Il conto, per favore",
-      "mario_it": "Il conto — mai 'la conta'! E aggiungi sempre 'per favore'.",
-      "mario_en": "Il conto — never 'la conta'! And always add 'per favore'.",
-      "mario": "Il conto — mai 'la conta'! E aggiungi sempre 'per favore'."
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché Buongiorno e non Buonanotte?",
+      "domanda_en": "Why Buongiorno and not Buonanotte?",
+      "titolo_it": "I saluti italiani e l'orario",
+      "titolo_en": "Italian greetings and time of day",
+      "corpo_it": "In italiano il saluto cambia con l'ora. Buongiorno fino alle 13. Buon pomeriggio dalle 13 alle 18. Buonasera dalle 18. Buonanotte solo prima di dormire — non è un saluto ma un augurio!",
+      "corpo_en": "In Italian the greeting changes with the time. Buongiorno until 1 PM. Buon pomeriggio from 1 to 6 PM. Buonasera from 6 PM. Buonanotte only before sleeping — it is not a greeting but a wish!",
+      "esempio_it": "☀️ 09:00 Buongiorno · 🌤️ 15:00 Buon pomeriggio · 🌆 19:00 Buonasera · 🌙 Dormire Buonanotte",
+      "esempio_en": "09:00 Good morning · 15:00 Good afternoon · 19:00 Good evening · Sleeping Good night"
     }
   ],
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "intro": "Sei al bar! / You're at the bar!",
-      "introIT": "Sei al bar di Mario!",
-      "intro_en": "You're at Mario's bar!",
+      "introIT": "Sono le 8 di mattina al bar!",
+      "intro_en": "It is 8 in the morning at the bar!",
       "domanda": {
-        "it": "Come ordini un caffè educatamente?",
-        "en": "How do you order a coffee politely?"
+        "it": "Mario apre il bar. Come saluta i clienti?",
+        "en": "Mario opens the bar. How does he greet the customers?"
       },
-      "opzioni": [{"it":"Caffè!","en":"Coffee!"},{"it":"Vorrei un caffè, per favore","en":"I'd like a coffee, please"},{"it":"Dammi caffè","en":"Give me coffee"},{"it":"Prendo il conto","en":"I'll take the bill"}],
-      "correct": 1,
+      "opzioni": [
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        }
+      ],
+      "correct": 2,
       "feedbackOk": {
-        "it": "Perfetto! 'Vorrei' + 'per favore' = combo vincente in qualsiasi bar italiano.",
-        "en": "Perfect! 'Vorrei' + 'per favore' = winning combo in any Italian bar."
+        "it": "Esatto! Le 8 di mattina — Buongiorno!",
+        "en": "Correct! 8 in the morning — Buongiorno!"
       },
       "feedbackErr": {
-        "it": "'Vorrei un caffè, per favore' — educato e diretto. Mai gridare 'Caffe!'",
-        "en": "'Vorrei un caffè, per favore' — polite and direct. Never shout 'Caffe!'"
+        "it": "No! La mattina si dice Buongiorno!",
+        "en": "No! In the morning say Buongiorno!"
       }
     },
     {
-      "id": 2,
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Oliver entra al bar!",
+      "intro_en": "Oliver enters the bar!",
+      "domanda": {
+        "it": "Oliver entra al bar per la prima volta. Vede Mario. Cosa dice?",
+        "en": "Oliver enters the bar for the first time. He sees Mario. What does he say?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrivederci Mario.",
+          "en": "Goodbye Mario."
+        },
+        {
+          "it": "Buongiorno e piacere.",
+          "en": "Good morning and nice to meet you."
+        },
+        {
+          "it": "Sono di Londra.",
+          "en": "I am from London."
+        },
+        {
+          "it": "Mi chiamo Oliver.",
+          "en": "My name is Oliver."
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Perfetto! Buongiorno + piacere — mattina e primo incontro!",
+        "en": "Perfect! Buongiorno + piacere — morning and first meeting!"
+      },
+      "feedbackErr": {
+        "it": "No! Mattina = Buongiorno. Primo incontro = Piacere!",
+        "en": "No! Morning = Buongiorno. First meeting = Piacere!"
+      }
+    },
+    {
+      "id": "q3",
       "personaggio": "mario",
       "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "True or false? / Vero o falso?",
+      "fase": "riconoscimento",
       "introIT": "Vero o falso?",
       "intro_en": "True or false?",
       "domanda": {
-        "it": "A Napoli, 'un caffè' significa automaticamente un espresso.",
-        "en": "In Naples, 'un caffè' automatically means an espresso."
-      },
-      "correct": true,
-      "feedbackOk": {
-        "it": "Esatto! A Napoli il caffè è sempre espresso — se vuoi altro devi specificare.",
-        "en": "Correct! In Naples coffee is always espresso — if you want something else, specify."
-      },
-      "feedbackErr": {
-        "it": "In realtà sì! A Napoli 'un caffè' = espresso, sempre.",
-        "en": "Actually yes! In Naples 'un caffè' = espresso, always."
-      }
-    },
-    {
-      "id": 3,
-      "personaggio": "sofia",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Attenta al dettaglio! / Watch the detail!",
-      "introIT": "Attenta al dettaglio!",
-      "intro_en": "Watch the detail!",
-      "domanda": {
-        "it": "Cosa significa 'il conto'?",
-        "en": "What does 'il conto' mean?"
-      },
-      "opzioni": [{"it":"Il bancone","en":"The counter"},{"it":"Il conto","en":"The bill"},{"it":"Il caffè","en":"The coffee"},{"it":"Il resto","en":"The change"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Brava! 'Il conto' = the bill. Non confonderlo con 'il banco' (the counter)!",
-        "en": "Well done! 'Il conto' = the bill. Don't confuse it with 'il banco' (the counter)!"
-      },
-      "feedbackErr": {
-        "it": "'Il conto' è the bill. 'Il banco' è the counter. Due cose diverse!",
-        "en": "'Il conto' is the bill. 'Il banco' is the counter. Two different things!"
-      }
-    },
-    {
-      "id": 4,
-      "personaggio": "mario",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "A Naples fact! / Un fatto napoletano!",
-      "introIT": "Un fatto napoletano!",
-      "intro_en": "A Naples fact!",
-      "domanda": {
-        "it": "Al bar, il caffè al banco e al tavolo costano uguale.",
-        "en": "At the bar, coffee at the counter and at the table cost the same."
+        "it": "Arrivederci si usa solo la sera.",
+        "en": "Arrivederci is only used in the evening."
       },
       "correct": false,
       "feedbackOk": {
-        "it": "Esatto, falso! Al banco costa meno. Un segreto che ogni turista dovrebbe sapere.",
-        "en": "Correct, false! At the counter it costs less. A secret every tourist should know."
+        "it": "Esatto! Arrivederci si usa a qualsiasi ora!",
+        "en": "Correct! Arrivederci is used at any time!"
       },
       "feedbackErr": {
-        "it": "Falso! Al banco il caffè costa meno — a volte anche la metà.",
-        "en": "False! At the counter coffee costs less — sometimes half price."
+        "it": "No! Arrivederci si usa sempre — mattina, pomeriggio e sera!",
+        "en": "No! Arrivederci is used anytime — morning, afternoon and evening!"
       }
     },
     {
-      "id": 5,
+      "id": "q4",
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "comprensione",
-      "intro": "Breakfast time! / Ora di colazione!",
-      "introIT": "Ora di colazione!",
-      "intro_en": "Breakfast time!",
+      "introIT": "Situazione reale!",
+      "intro_en": "Real situation!",
       "domanda": {
-        "it": "Come si chiama il 'croissant' in italiano?",
-        "en": "What is a 'croissant' called in Italian?"
-      },
-      "opzioni": [{"it":"Baguette","en":"Baguette"},{"it":"Cornetto","en":"Croissant"},{"it":"Panino","en":"Sandwich"},{"it":"Brioche","en":"Brioche"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Esatto! Cornetto! In Sicilia lo chiamano 'brioche', ma a Napoli è sempre 'cornetto'.",
-        "en": "Correct! Cornetto! In Sicily they call it 'brioche', but in Naples it's always 'cornetto'."
-      },
-      "feedbackErr": {
-        "it": "È 'cornetto'! La parola italiana per croissant.",
-        "en": "It's 'cornetto'! The Italian word for croissant."
-      }
-    },
-    {
-      "id": 6,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "La cultura del caffè... / The culture of coffee...",
-      "introIT": "La cultura del caffè ha una storia profonda a Napoli.",
-      "intro_en": "Coffee culture has a deep history in Naples.",
-      "domanda": {
-        "it": "'Quanto costa?' si usa per chiedere...",
-        "en": "'Quanto costa?' is used to ask..."
-      },
-      "opzioni": [{"it":"Dov'è?","en":"Where is it?"},{"it":"Quanto costa?","en":"How much does it cost?"},{"it":"Come si chiama?","en":"What is it called?"},{"it":"Cosa vuoi?","en":"What do you want?"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Perfetto! 'Quanto costa?' = How much does it cost?",
-        "en": "Perfect! 'Quanto costa?' = How much does it cost?"
-      },
-      "feedbackErr": {
-        "it": "'Quanto costa?' significa 'How much does it cost?'. 'Quanto' = how much, 'costa' = it costs.",
-        "en": "'Quanto costa?' means 'How much does it cost?'."
-      }
-    },
-    {
-      "id": 7,
-      "personaggio": "diego",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Ordina come un pro! / Order like a pro!",
-      "introIT": "Ordina come un vero napoletano!",
-      "intro_en": "Order like a real Neapolitan!",
-      "domanda": {
-        "it": "Vuoi un caffè e un cornetto. Come ordini?",
-        "en": "You want a coffee and a croissant. How do you order?"
+        "it": "Sono le 20:00. Entri in un ristorante. Cosa dici?",
+        "en": "It is 8 PM. You enter a restaurant. What do you say?"
       },
       "opzioni": [
-        {"it":"Vorrei un caffè e un cornetto, per favore","en":"I'd like a coffee and a croissant, please"},
-        {"it":"Caffè! Cornetto!","en":"Coffee! Croissant!"},
-        {"it":"Il conto per un caffè","en":"The bill for a coffee"},
-        {"it":"Un cornetto e basta","en":"Just a croissant"}
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
-        "it": "Bravo! 'Vorrei... per favore' — sei gia un cliente perfetto del bar!",
-        "en": "Great! 'Vorrei... per favore' — you're already a perfect bar customer!"
+        "it": "Esatto! Dopo le 18:00 si dice Buonasera!",
+        "en": "Correct! After 6 PM you say Buonasera!"
       },
       "feedbackErr": {
-        "it": "'Vorrei un caffè e un cornetto, per favore' — sempre educato!",
-        "en": "'Vorrei un caffè e un cornetto, per favore' — always polite!"
+        "it": "No! Dopo le 18:00 si dice Buonasera!",
+        "en": "No! After 6 PM say Buonasera!"
       }
     },
     {
-      "id": 8,
+      "id": "q5",
       "personaggio": "mario",
-      "tipo": "word_bank",
-      "fase": "produzione",
-      "intro": "Build the sentence! / Componi la frase!",
-      "introIT": "Componi la frase!",
-      "intro_en": "Build the sentence!",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario conosce Oliver!",
+      "intro_en": "Mario meets Oliver!",
       "domanda": {
-        "it": "Ordina un caffè al bar di Mario.",
-        "en": "Order a coffee at Mario's bar."
+        "it": "Mario incontra Oliver per la prima volta. Cosa dice Mario?",
+        "en": "Mario meets Oliver for the first time. What does Mario say?"
       },
-      "soluzione": "Vorrei un caffè, per favore.",
-      "parole": ["Vorrei", "un", "caffè", "per", "favore"],
-      "distrattori": ["il", "conto", "quanto"],
-      "hint_it": "Inizia con 'Vorrei' e finisci con 'per favore'",
-      "hint_en": "Start with 'Vorrei' and end with 'per favore'",
+      "opzioni": [
+        {
+          "it": "Arrivederci Oliver.",
+          "en": "Goodbye Oliver."
+        },
+        {
+          "it": "Buonanotte Oliver.",
+          "en": "Good night Oliver."
+        },
+        {
+          "it": "Piacere Oliver. Mi chiamo Mario.",
+          "en": "Nice to meet you Oliver. My name is Mario."
+        },
+        {
+          "it": "Di dove sei Oliver?",
+          "en": "Where are you from Oliver?"
+        }
+      ],
+      "correct": 2,
       "feedbackOk": {
-        "it": "Perfetto! 'Vorrei un caffè, per favore' — ora sei pronto!",
-        "en": "Perfect! 'Vorrei un caffè, per favore' — now you're ready!"
+        "it": "Perfetto! Piacere + mi chiamo — presentazione completa!",
+        "en": "Perfect! Piacere + mi chiamo — complete introduction!"
       },
       "feedbackErr": {
-        "it": "L'ordine giusto è: 'Vorrei un caffè, per favore'.",
-        "en": "The correct order is: 'Vorrei un caffè, per favore'."
+        "it": "No! Al primo incontro: Piacere + mi chiamo!",
+        "en": "No! At first meeting: Piacere + mi chiamo!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Oliver è curioso!",
+      "intro_en": "Oliver is curious!",
+      "domanda": {
+        "it": "Oliver vuole sapere da dove viene Mario. Cosa chiede?",
+        "en": "Oliver wants to know where Mario is from. What does he ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Buongiorno Mario!",
+          "en": "Good morning Mario!"
+        },
+        {
+          "it": "Piacere Mario.",
+          "en": "Nice to meet you Mario."
+        },
+        {
+          "it": "Arrivederci Mario.",
+          "en": "Goodbye Mario."
+        },
+        {
+          "it": "Di dove sei Mario?",
+          "en": "Where are you from Mario?"
+        }
+      ],
+      "correct": 3,
+      "feedbackOk": {
+        "it": "Sì! Di dove sei? — chiede l'origine!",
+        "en": "Yes! Di dove sei? — asks about origin!"
+      },
+      "feedbackErr": {
+        "it": "No! Per l'origine: Di dove sei?",
+        "en": "No! For origin: Di dove sei?"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "vero_falso",
+      "fase": "produzione",
+      "introIT": "Mario risponde a Oliver!",
+      "intro_en": "Mario replies to Oliver!",
+      "domanda": {
+        "it": "Mario risponde: Sono di Napoli. È corretto?",
+        "en": "Mario replies: Sono di Napoli. Is this correct?"
+      },
+      "correct": true,
+      "feedbackOk": {
+        "it": "Sì! Sono di + città — sempre corretto!",
+        "en": "Yes! Sono di + city — always correct!"
+      },
+      "feedbackErr": {
+        "it": "Sì, è corretto! Sono di Napoli — sono di + città!",
+        "en": "Yes, it is correct! Sono di Napoli — sono di + city!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "produzione",
+      "introIT": "Abbina la situazione al saluto giusto!",
+      "intro_en": "Match the situation to the right greeting!",
+      "domanda": {
+        "it": "Abbina ogni situazione al saluto giusto.",
+        "en": "Match each situation to the right greeting."
+      },
+      "coppie": [
+        {
+          "it": "Sono le 9:00",
+          "situazione_en": "It is 9 AM",
+          "en": "Buongiorno",
+          "traduzione_en": "Good morning"
+        },
+        {
+          "it": "Primo incontro",
+          "situazione_en": "First meeting",
+          "en": "Piacere",
+          "traduzione_en": "Nice to meet you"
+        },
+        {
+          "it": "Fine della visita",
+          "situazione_en": "End of the visit",
+          "en": "Arrivederci",
+          "traduzione_en": "Goodbye"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo! Lezione 2 completata!",
+        "en": "Excellent! Lesson 2 complete!"
+      },
+      "feedbackErr": {
+        "it": "Quasi! Riprova — guarda bene le situazioni.",
+        "en": "Almost! Try again — look carefully at the situations."
       }
     }
   ]

@@ -11,6 +11,7 @@ import { salvaProgressi } from "../../../../components/saveProgress";
 import { FraseAnnotata } from "../../../../components/WordPopup";
 import VocabMatch from "../../../../components/VocabMatch";
 import BossIntroPopup from "../../../../components/BossIntroPopup";
+import LessonCompletePopup, { getMessaggioMario } from "../../../../components/LessonCompletePopup";
 
 async function loadLesson(livello, unita, lezione) {
   const file = lezione === "boss" ? "boss" : `lesson${lezione}`;
@@ -630,15 +631,7 @@ function DomandaAbbina({ q, onAnswer }) {
       setMatched(m => ({ ...m, [it]: en }));
       setSelIT(null);
       setSelEN(null);
-      // TTS legge solo la parola italiana abbinata
-      try {
-        window.speechSynthesis?.cancel();
-        setTimeout(() => {
-          const u = new SpeechSynthesisUtterance(cleanForTTS(it));
-          u.lang = "it-IT"; u.rate = 0.88;
-          window.speechSynthesis.speak(u);
-        }, 120);
-      } catch (e) {}
+      // Nessun TTS automatico — audio solo on demand tramite 🔊
     }
     else { setWrong({ it, en }); setTimeout(() => { setSelIT(null); setSelEN(null); setWrong(null); }, 700); }
   }
@@ -647,27 +640,127 @@ function DomandaAbbina({ q, onAnswer }) {
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={allMatched ? "ok" : null} pulseUntilClick={!allMatched} />
         <QBox q={q} />
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, width: "100%" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            {shuffIT.current.map(({ it }) => {
-              const isMatched = !!matched[it], isSel = selIT === it, isWrong = wrong?.it === it;
-              let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
-              if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
-              else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
-              else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
-              return <button key={it} onClick={() => !isMatched && handleIT(it)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "12px 16px", fontSize: 16, fontWeight: 700, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left", textTransform: "none", letterSpacing: "normal", width: "100%", display: "block" }}>{it}</button>;
-            })}
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            {shuffEN.current.map(({ en }) => {
-              const isMatched = Object.values(matched).includes(en), isSel = selEN === en, isWrong = wrong?.en === en;
-              let bg = "var(--card)", border = "var(--border)", color = "var(--text)";
-              if (isMatched) { bg = "var(--ok-bar)"; border = "var(--ok-text)"; color = "var(--ok-text)"; }
-              else if (isWrong) { bg = "var(--err-bar)"; border = "var(--err-text)"; color = "var(--err-text)"; }
-              else if (isSel) { bg = "var(--opt-sel-bg)"; border = "var(--opt-sel-b)"; color = "var(--opt-sel-text)"; }
-              return <button key={en} onClick={() => !isMatched && handleEN(en)} style={{ background: bg, border: `2px solid ${border}`, color, borderRadius: "var(--r)", padding: "12px 16px", fontSize: 15, fontWeight: 500, cursor: isMatched ? "default" : "pointer", fontFamily: "inherit", transition: "all 0.15s", textAlign: "left", fontStyle: "italic", textTransform: "none", letterSpacing: "normal", width: "100%", display: "block" }}>{en}</button>;
-            })}
-          </div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
+          {shuffIT.current.map((cIT, i) => {
+            const cEN = shuffEN.current[i];
+            const it = cIT.it, en = cEN.en;
+            const hasSituationMode = q.coppie.some(p => p.situazione_en);
+
+            // Testi bilingue per ciascun box
+            const leftTopIT  = it;
+            const leftSubEN  = cIT.situazione_en || "";
+            const rightTopIT = hasSituationMode ? en : en; // parola IT (situation) o traduzione EN (classic)
+            const rightSubEN = hasSituationMode ? (cEN.traduzione_en || "") : "";
+
+            // STATI BOX SINISTRO
+            const itMatched = !!matched[it], itSel = selIT === it, itWrong = wrong?.it === it;
+            let bgL = "var(--card)", brL = "var(--border)", colL = "var(--text)";
+            if (itMatched) { bgL = "var(--ok-bar)"; brL = "var(--ok-text)"; colL = "var(--ok-text)"; }
+            else if (itWrong) { bgL = "var(--err-bar)"; brL = "var(--err-text)"; colL = "var(--err-text)"; }
+            else if (itSel) { bgL = "var(--opt-sel-bg)"; brL = "var(--opt-sel-b)"; colL = "var(--opt-sel-text)"; }
+
+            // STATI BOX DESTRO
+            const enMatched = Object.values(matched).includes(en), enSel = selEN === en, enWrong = wrong?.en === en;
+            let bgR = "var(--card)", brR = "var(--border)", colR = "var(--text)";
+            if (enMatched) { bgR = "var(--ok-bar)"; brR = "var(--ok-text)"; colR = "var(--ok-text)"; }
+            else if (enWrong) { bgR = "var(--err-bar)"; brR = "var(--err-text)"; colR = "var(--err-text)"; }
+            else if (enSel) { bgR = "var(--opt-sel-bg)"; brR = "var(--opt-sel-b)"; colR = "var(--opt-sel-text)"; }
+
+            const boxBaseStyle = {
+              position: "relative",
+              padding: "12px 14px 28px 14px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "flex-start",
+              borderRadius: "var(--r)",
+              transition: "all 0.15s",
+              fontFamily: "inherit",
+              textTransform: "none",
+              letterSpacing: "normal",
+              textAlign: "left",
+            };
+            const audioIconStyle = {
+              position: "absolute",
+              bottom: 6,
+              right: 8,
+              fontSize: 13,
+              opacity: 0.4,
+              cursor: "pointer",
+              padding: 4,
+              lineHeight: 1,
+              transition: "opacity 0.15s",
+            };
+
+            return (
+              <div key={i} className="match-row">
+                {/* BOX SINISTRO */}
+                <div
+                  onClick={() => !itMatched && handleIT(it)}
+                  className="match-card"
+                  style={{
+                    ...boxBaseStyle,
+                    background: bgL, border: `2px solid ${brL}`, color: colL,
+                    cursor: itMatched ? "default" : "pointer",
+                  }}
+                >
+                  <div style={{ fontSize: 15, fontWeight: 700, color: colL, lineHeight: 1.3, textAlign: "left" }}>
+                    {leftTopIT}
+                  </div>
+                  {leftSubEN && (
+                    <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(255,255,255,0.45)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
+                      {leftSubEN}
+                    </div>
+                  )}
+                  <div
+                    onClick={(e) => { e.stopPropagation(); pronounce(it, "it-IT"); }}
+                    onMouseEnter={(e) => { e.currentTarget.style.opacity = 1; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.4; }}
+                    style={audioIconStyle}
+                    aria-label="Ascolta"
+                    role="button"
+                  >🔊</div>
+                </div>
+
+                {/* BOX DESTRO */}
+                <div
+                  onClick={() => !enMatched && handleEN(en)}
+                  className="match-card"
+                  style={{
+                    ...boxBaseStyle,
+                    background: bgR, border: `2px solid ${brR}`, color: colR,
+                    cursor: enMatched ? "default" : "pointer",
+                  }}
+                >
+                  <div style={{
+                    fontSize: 15,
+                    fontWeight: 700,
+                    color: colR,
+                    lineHeight: 1.3,
+                    textAlign: "left",
+                    fontStyle: hasSituationMode ? "normal" : "italic",
+                  }}>
+                    {rightTopIT}
+                  </div>
+                  {rightSubEN && (
+                    <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(255,255,255,0.45)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
+                      {rightSubEN}
+                    </div>
+                  )}
+                  {hasSituationMode && (
+                    <div
+                      onClick={(e) => { e.stopPropagation(); pronounce(en, "it-IT"); }}
+                      onMouseEnter={(e) => { e.currentTarget.style.opacity = 1; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.4; }}
+                      style={audioIconStyle}
+                      aria-label="Ascolta"
+                      role="button"
+                    >🔊</div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
         {allMatched && (
           <div style={{ background: "var(--ok-bar)", border: "1.5px solid var(--ok-text)", borderRadius: "var(--r)", padding: "11px 14px" }}>
@@ -756,14 +849,542 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
   );
 }
 
+// ─── TIPO: fill_blank ────────────────────────────────────────────────────────
+function DomandaFillBlank({ q, onAnswer }) {
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+
+  function renderFrase(frase, selectedOpt) {
+    const parts = frase.split("___");
+    return (
+      <span>
+        {parts[0]}
+        <span style={{
+          display: "inline-block", minWidth: 80, borderBottom: `2px solid ${confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)"}`,
+          color: confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)",
+          fontWeight: 700, textAlign: "center", padding: "0 8px", transition: "color 0.2s, border-color 0.2s",
+        }}>
+          {selectedOpt ? selectedOpt.it : "___"}
+        </span>
+        {parts[1] || ""}
+      </span>
+    );
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
+        <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
+          <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text)", lineHeight: 1.5 }}>
+            {renderFrase(q.frase_it, selected !== null ? q.opzioni[selected] : null)}
+          </div>
+          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 6 }}>
+            {q.frase_en}
+          </div>
+        </div>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+          {q.opzioni.map((opt, i) => {
+            const isSel = selected === i;
+            const bg = confirmed && i === q.correct ? "var(--ok-bar)" : confirmed && isSel ? "var(--err-bar)" : isSel ? "var(--opt-sel-bg)" : "var(--card)";
+            const border = confirmed && i === q.correct ? "var(--ok-text)" : confirmed && isSel ? "var(--err-text)" : isSel ? "var(--opt-sel-b)" : "var(--border)";
+            const color = confirmed && i === q.correct ? "var(--ok-text)" : confirmed && isSel ? "var(--err-text)" : isSel ? "var(--opt-sel-text)" : "var(--text)";
+            return (
+              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
+                flex: "1 1 45%", minWidth: 80, minHeight: 56,
+                background: bg, border: `1.5px solid ${border}`, borderBottom: `4px solid ${border}`,
+                borderRadius: 10, padding: "8px 12px", cursor: confirmed ? "default" : "pointer",
+                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "center",
+                display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
+              }}>
+                <div style={{ fontSize: 16, fontWeight: 700, color }}>{opt.it}</div>
+                <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", opacity: 0.7, minHeight: 15 }}>{opt.en}</div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : <CheckBar disabled={selected === null} onCheck={() => { setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); if (isCorrect) pronounce(q.opzioni[q.correct].it); }} />
+      }
+    </>
+  );
+}
+
+// ─── TIPO: dialogo ──────────────────────────────────────────────────────────
+function DomandaDialogo({ q, onAnswer }) {
+  const [turnoIdx, setTurnoIdx] = useState(0);
+  const [risposte, setRisposte] = useState([]);
+  const [selected, setSelected] = useState(null);
+  const [feedback, setFeedback] = useState(null); // "ok"|"err"|null
+  const [completato, setCompletato] = useState(false);
+  const [score, setScore] = useState(0);
+  const intro = getIntroBilingual(q);
+  const turni = q.turni || [];
+
+  const turnoCorrente = turni[turnoIdx];
+  const tuttiRisposti = turnoIdx >= turni.length;
+
+  function handleSelect(idx) {
+    if (feedback || completato) return;
+    setSelected(idx);
+    const isOk = idx === turnoCorrente.correct;
+    setFeedback(isOk ? "ok" : "err");
+    if (isOk) {
+      setScore(s => s + 1);
+      pronounce(turnoCorrente.opzioni[idx].it, "it-IT");
+      setTimeout(() => {
+        setRisposte(prev => [...prev, { turno: turnoIdx, risposta: idx }]);
+        setFeedback(null);
+        setSelected(null);
+        if (turnoIdx + 1 >= turni.length) setCompletato(true);
+        else {
+          setTurnoIdx(t => t + 1);
+          // TTS per il prossimo turno del personaggio
+          const next = turni[turnoIdx + 1];
+          if (next) setTimeout(() => pronounce(next.testo_it, "it-IT"), 400);
+        }
+      }, 1200);
+    } else {
+      playSound("wrong");
+      setTimeout(() => { setFeedback(null); setSelected(null); }, 800);
+    }
+  }
+
+  // TTS primo turno
+  useEffect(() => {
+    if (turni[0]) setTimeout(() => pronounce(turni[0].testo_it, "it-IT"), 300);
+  }, []);
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={completato ? "ok" : null} pulseUntilClick={false} />
+
+        {/* Chat bubbles */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+          {turni.map((t, ti) => {
+            if (ti > turnoIdx && !completato) return null;
+            const risposta = risposte.find(r => r.turno === ti);
+            return (
+              <div key={ti}>
+                {/* Bolla personaggio */}
+                <div style={{ display: "flex", gap: 8, alignItems: "flex-start", marginBottom: 6, animation: "fade-in 0.3s ease-out" }}>
+                  <span style={{ fontSize: 22, flexShrink: 0 }}>{CHAR_COLOR[t.personaggio] ? "🗣️" : "🗣️"}</span>
+                  <div style={{ background: "var(--card)", border: "1px solid var(--border)", borderRadius: "12px 12px 12px 0", padding: "10px 14px", maxWidth: "75%" }}>
+                    <div style={{ fontSize: 15, fontWeight: 600, color: "var(--text)" }}>{t.testo_it}</div>
+                    <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", marginTop: 2 }}>{t.testo_en}</div>
+                  </div>
+                </div>
+                {/* Bolla utente (se risposto) */}
+                {risposta && (
+                  <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 6, animation: "fade-in 0.3s ease-out" }}>
+                    <div style={{ background: "rgba(88,204,2,0.15)", border: "1px solid #58cc02", borderRadius: "12px 12px 0 12px", padding: "10px 14px", maxWidth: "75%" }}>
+                      <div style={{ fontSize: 15, fontWeight: 600, color: "#58cc02" }}>{t.opzioni[risposta.risposta].it}</div>
+                      <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(88,204,2,0.6)", marginTop: 2 }}>{t.opzioni[risposta.risposta].en}</div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Opzioni per turno corrente */}
+        {!completato && turnoCorrente && (
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 8 }}>
+            {turnoCorrente.opzioni.map((opt, i) => (
+              <button key={i} onClick={() => handleSelect(i)} style={{
+                background: feedback === "ok" && i === selected ? "var(--ok-bar)" : feedback === "err" && i === selected ? "var(--err-bar)" : "var(--card)",
+                border: `1.5px solid ${feedback === "ok" && i === selected ? "var(--ok-text)" : feedback === "err" && i === selected ? "var(--err-text)" : "var(--border)"}`,
+                borderRadius: 10, padding: "10px 14px", cursor: feedback ? "default" : "pointer",
+                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "left",
+                animation: feedback === "err" && i === selected ? "shake-err 0.4s ease" : "none",
+              }}>
+                <div style={{ fontSize: 15, fontWeight: 600, color: "var(--text)" }}>{opt.it}</div>
+                <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)" }}>{opt.en}</div>
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+      {completato && (
+        <div className="app-bottom">
+          <button onClick={() => onAnswer(score === turni.length)} className="btn-primary">Avanti · Next →</button>
+        </div>
+      )}
+    </>
+  );
+}
+
+// ─── TIPO: ascolta_giudica ──────────────────────────────────────────────────
+function DomandaAscoltoGiudica({ q, onAnswer }) {
+  const [hasListened, setHasListened] = useState(false);
+  const [confirmed, setConfirmed] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+
+  function handleListen() {
+    pronounce(q.audio_it, "it-IT");
+    setHasListened(true);
+  }
+
+  function handleAnswer(val) {
+    if (confirmed || !hasListened) return;
+    setSelected(val);
+    setConfirmed(true);
+    playSound(val === q.correct ? "correct" : "wrong");
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!hasListened} />
+
+        {/* Pulsante ascolto grande */}
+        <div style={{ textAlign: "center", margin: "12px 0" }}>
+          <button onClick={handleListen} style={{
+            width: 80, height: 80, borderRadius: "50%", border: "3px solid var(--special)",
+            background: "rgba(255,149,0,0.1)", fontSize: 36, cursor: "pointer",
+            display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto",
+            animation: !hasListened ? "pulse-ok 2s ease-in-out infinite" : "none",
+          }}>🔊</button>
+          <div style={{ fontSize: 13, color: "var(--text3)", marginTop: 8 }}>
+            {hasListened ? "Tocca per riascoltare · Tap to listen again" : "Ascolta! · Listen!"}
+          </div>
+        </div>
+
+        {/* Domanda */}
+        <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio], textAlign: "center" }}>
+          <div className="q-card__it">{q.domanda.it}</div>
+          <div className="q-card__en">{q.domanda.en}</div>
+        </div>
+      </div>
+
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : (
+          <div className="app-bottom" style={{ display: "flex", gap: 8 }}>
+            <button onClick={() => handleAnswer(true)} disabled={!hasListened} style={{
+              flex: 1, height: 56, fontSize: 15, fontWeight: 700, borderRadius: "var(--r)",
+              background: "var(--card)", border: "2px solid #58cc02", color: "#58cc02",
+              cursor: hasListened ? "pointer" : "not-allowed", fontFamily: "inherit",
+              opacity: hasListened ? 1 : 0.4, textTransform: "none", letterSpacing: "normal",
+            }}>
+              <div>✅ Corretto</div><div style={{ fontSize: 11, fontStyle: "italic", opacity: 0.7 }}>True</div>
+            </button>
+            <button onClick={() => handleAnswer(false)} disabled={!hasListened} style={{
+              flex: 1, height: 56, fontSize: 15, fontWeight: 700, borderRadius: "var(--r)",
+              background: "var(--card)", border: "2px solid #ff4b4b", color: "#ff4b4b",
+              cursor: hasListened ? "pointer" : "not-allowed", fontFamily: "inherit",
+              opacity: hasListened ? 1 : 0.4, textTransform: "none", letterSpacing: "normal",
+            }}>
+              <div>❌ Sbagliato</div><div style={{ fontSize: 11, fontStyle: "italic", opacity: 0.7 }}>False</div>
+            </button>
+          </div>
+        )
+      }
+    </>
+  );
+}
+
+// ─── TIPO: tap_right ────────────────────────────────────────────────────────
+function DomandaTapRight({ q, onAnswer }) {
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+
+  function handleTap(idx) {
+    if (confirmed) return;
+    setSelected(idx);
+    setConfirmed(true);
+    playSound(idx === q.correct ? "correct" : "wrong");
+    if (idx === q.correct) pronounce(q.opzioni[idx].it, "it-IT");
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
+        {q.contesto_it && (
+          <div style={{ background: "var(--bg)", borderLeft: "3px solid var(--special)", borderRadius: "0 var(--r) var(--r) 0", padding: 12 }}>
+            <div style={{ fontSize: 15, fontWeight: 700, color: "var(--text)" }}>{q.contesto_it}</div>
+            <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginTop: 2 }}>{q.contesto_en}</div>
+          </div>
+        )}
+        <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>{q.domanda.it}</div>
+        <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginTop: -8 }}>{q.domanda.en}</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {q.opzioni.map((opt, i) => {
+            const isSel = selected === i;
+            const ok = confirmed && i === q.correct;
+            const err = confirmed && isSel && !isCorrect;
+            return (
+              <button key={i} onClick={() => handleTap(i)} style={{
+                display: "flex", alignItems: "center", gap: 14, minHeight: 72,
+                padding: "10px 16px", borderRadius: "var(--r)",
+                background: ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : "var(--card)",
+                border: `2px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
+                cursor: confirmed ? "default" : "pointer", fontFamily: "inherit",
+                textTransform: "none", letterSpacing: "normal", width: "100%",
+                animation: err ? "shake-err 0.4s ease" : "none",
+              }}>
+                <span style={{ fontSize: 32, flexShrink: 0 }}>{opt.emoji || ""}</span>
+                <div style={{ flex: 1, textAlign: "left" }}>
+                  <div style={{ fontSize: 16, fontWeight: 700, color: ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--text)" }}>{opt.it}</div>
+                  <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", minHeight: 15 }}>{opt.en}</div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {confirmed && (
+        <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+      )}
+    </>
+  );
+}
+
+// ─── TIPO: giusto_o_no ──────────────────────────────────────────────────────
+function DomandaGiustoONo({ q, onAnswer }) {
+  const [confirmed, setConfirmed] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+
+  function handleAnswer(val) {
+    if (confirmed) return;
+    setSelected(val);
+    setConfirmed(true);
+    playSound(val === q.correct ? "correct" : "wrong");
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
+        {/* Scena */}
+        <div style={{ fontSize: 13, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+          <div>{q.scena_it}</div>
+          <div style={{ fontStyle: "italic", opacity: 0.7 }}>{q.scena_en}</div>
+        </div>
+        {/* Frase nel fumetto */}
+        <div style={{
+          background: "var(--card)", border: `2px solid ${CHAR_COLOR[q.personaggio] || "var(--border)"}`,
+          borderRadius: "12px 12px 12px 0", padding: "14px 18px", position: "relative",
+        }}>
+          <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", lineHeight: 1.3 }}>"{q.frase_it}"</div>
+          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 4 }}>"{q.frase_en}"</div>
+        </div>
+      </div>
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : (
+          <div className="app-bottom" style={{ display: "flex", gap: 8 }}>
+            <button onClick={() => handleAnswer(true)} style={{
+              flex: 1, height: 64, borderRadius: "var(--r)", background: "var(--card)",
+              border: "2px solid #58cc02", color: "#58cc02", cursor: "pointer",
+              fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+              display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2,
+            }}>
+              <span style={{ fontSize: 24 }}>👍</span>
+              <div style={{ fontSize: 14, fontWeight: 700 }}>Giusto!</div>
+              <div style={{ fontSize: 10, fontStyle: "italic", opacity: 0.6 }}>Right</div>
+            </button>
+            <button onClick={() => handleAnswer(false)} style={{
+              flex: 1, height: 64, borderRadius: "var(--r)", background: "var(--card)",
+              border: "2px solid #ff4b4b", color: "#ff4b4b", cursor: "pointer",
+              fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+              display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2,
+            }}>
+              <span style={{ fontSize: 24 }}>👎</span>
+              <div style={{ fontSize: 14, fontWeight: 700 }}>Sbagliato!</div>
+              <div style={{ fontSize: 10, fontStyle: "italic", opacity: 0.6 }}>Wrong</div>
+            </button>
+          </div>
+        )
+      }
+    </>
+  );
+}
+
+// ─── TIPO: completa_risposta ─────────────────────────────────────────────────
+function DomandaCompletaRisposta({ q, onAnswer }) {
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+
+  function renderRisposta(frase, selectedOpt) {
+    const parts = frase.split("_____");
+    if (parts.length < 2) return <span>{frase}</span>;
+    return (
+      <span>
+        {parts[0]}
+        <span style={{
+          display: "inline-block", minWidth: 80,
+          borderBottom: `2px solid ${confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)"}`,
+          color: confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)",
+          fontWeight: 700, textAlign: "center", padding: "0 8px",
+        }}>
+          {selectedOpt ? selectedOpt.it : "_____"}
+        </span>
+        {parts[1]}
+      </span>
+    );
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
+        {/* Contesto: qualcuno dice qualcosa */}
+        <div style={{ background: "var(--bg)", border: "1px solid var(--border)", borderRadius: "var(--r)", padding: 14 }}>
+          <div style={{ fontSize: 12, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>
+            {q.contesto_it} / {q.contesto_en}
+          </div>
+          <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)" }}>"{q.frase_contesto_it}"</div>
+          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 2 }}>"{q.frase_contesto_en}"</div>
+        </div>
+        {/* Freccia → Tu rispondi */}
+        <div style={{ textAlign: "center", fontSize: 13, color: "var(--text3)" }}>
+          <div>↓ Tu rispondi:</div>
+          <div style={{ fontStyle: "italic", opacity: 0.7 }}>You reply:</div>
+        </div>
+        {/* Risposta con buco */}
+        <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
+          <div style={{ fontSize: 17, fontWeight: 700, color: "var(--text)", lineHeight: 1.5 }}>
+            {renderRisposta(q.risposta_it, selected !== null ? q.opzioni[selected] : null)}
+          </div>
+          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 4 }}>{q.risposta_en}</div>
+        </div>
+        {/* Opzioni */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+          {q.opzioni.map((opt, i) => {
+            const isSel = selected === i;
+            const ok = confirmed && i === q.correct;
+            const err = confirmed && isSel && !isCorrect;
+            const bg = ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : isSel ? "var(--opt-sel-bg)" : "var(--card)";
+            const border = ok ? "var(--ok-text)" : err ? "var(--err-text)" : isSel ? "var(--opt-sel-b)" : "var(--border)";
+            return (
+              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
+                flex: "1 1 45%", background: bg, border: `1.5px solid ${border}`,
+                borderBottom: `4px solid ${border}`, borderRadius: 10, padding: "8px 12px",
+                cursor: confirmed ? "default" : "pointer", fontFamily: "inherit",
+                textTransform: "none", letterSpacing: "normal", textAlign: "center",
+              }}>
+                <div style={{ fontSize: 16, fontWeight: 700, color: ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--text)" }}>{opt.it}</div>
+                <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", opacity: 0.7 }}>{opt.en}</div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {confirmed
+        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+        : <CheckBar disabled={selected === null} onCheck={() => { setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); }} />
+      }
+    </>
+  );
+}
+
+// ─── TIPO: ascolta_ripeti ───────────────────────────────────────────────────
+function DomandaAscoltaRipeti({ q, onAnswer }) {
+  const [hasListened, setHasListened] = useState(false);
+  const [selected, setSelected] = useState(null);
+  const [confirmed, setConfirmed] = useState(false);
+  const isCorrect = selected === q.correct;
+  const intro = getIntroBilingual(q);
+  const audioOn = typeof window !== "undefined" && localStorage.getItem("ics_audio") !== "false";
+
+  function handleListen() {
+    pronounce(q.audio_it, "it-IT");
+    setHasListened(true);
+  }
+
+  function handleSelect(idx) {
+    if (confirmed) return;
+    setSelected(idx);
+    setConfirmed(true);
+    playSound(idx === q.correct ? "correct" : "wrong");
+    if (idx === q.correct) pronounce(q.opzioni[idx].it, "it-IT");
+  }
+
+  return (
+    <>
+      <div className="app-body">
+        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!hasListened && audioOn} />
+
+        {audioOn ? (
+          <>
+            <div style={{ textAlign: "center", margin: "8px 0" }}>
+              <button onClick={handleListen} style={{
+                width: 72, height: 72, borderRadius: "50%", border: "3px solid var(--special)",
+                background: "rgba(255,149,0,0.1)", fontSize: 32, cursor: "pointer",
+                display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto",
+                animation: !hasListened ? "pulse-ok 2s ease-in-out infinite" : "none",
+              }}>🔊</button>
+              <div style={{ fontSize: 13, color: "var(--text3)", marginTop: 6 }}>
+                {hasListened ? "Tocca per riascoltare" : "Ascolta la frase! · Listen!"}
+              </div>
+            </div>
+          </>
+        ) : (
+          <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio], textAlign: "center" }}>
+            <div style={{ fontSize: 12, color: "var(--text3)", textTransform: "uppercase", marginBottom: 6 }}>Leggi e scegli! · Read and choose!</div>
+            <div style={{ fontSize: 18, fontWeight: 800, color: "var(--text)" }}>{q.audio_it}</div>
+          </div>
+        )}
+
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {q.opzioni.map((opt, i) => {
+            const isSel = selected === i;
+            const ok = confirmed && i === q.correct;
+            const err = confirmed && isSel && !isCorrect;
+            return (
+              <button key={i} onClick={() => (hasListened || !audioOn) && handleSelect(i)} style={{
+                background: ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : "var(--card)",
+                border: `1.5px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
+                borderRadius: "var(--r)", padding: "12px 16px", cursor: (hasListened || !audioOn) && !confirmed ? "pointer" : "default",
+                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "left",
+                opacity: (!hasListened && audioOn) ? 0.4 : 1,
+                animation: err ? "shake-err 0.4s ease" : "none",
+              }}>
+                <div style={{ fontSize: 15, fontWeight: 600, color: ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--text)" }}>{opt.it}</div>
+                <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)" }}>{opt.en}</div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {confirmed && (
+        <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
+      )}
+    </>
+  );
+}
+
 function DomandaRouter({ q, onAnswer }) {
   if (!q) return null;
   switch (q.tipo) {
-    case "vero_falso":     return <DomandaVeroFalso key={q.domanda?.it} q={q} onAnswer={onAnswer} />;
-    case "ascolta_scegli": return <DomandaAscolta   key={q.domanda?.it} q={q} onAnswer={onAnswer} />;
-    case "word_bank":      return <DomandaWordBank   key={q.domanda?.it} q={q} onAnswer={onAnswer} />;
-    case "abbina_coppia":  return <DomandaAbbina     key={q.domanda?.it} q={q} onAnswer={onAnswer} />;
-    default:               return <DomandaMultipla   key={q.domanda?.it} q={q} onAnswer={onAnswer} />;
+    case "vero_falso":         return <DomandaVeroFalso        key={q.domanda?.it || q.id} q={q} onAnswer={onAnswer} />;
+    case "ascolta_scegli":     return <DomandaAscolta          key={q.domanda?.it || q.id} q={q} onAnswer={onAnswer} />;
+    case "word_bank":          return <DomandaWordBank         key={q.domanda?.it || q.id} q={q} onAnswer={onAnswer} />;
+    case "abbina_coppia":      return <DomandaAbbina           key={q.domanda?.it || q.id} q={q} onAnswer={onAnswer} />;
+    case "fill_blank":         return <DomandaFillBlank        key={q.frase_it   || q.id} q={q} onAnswer={onAnswer} />;
+    case "dialogo":            return <DomandaDialogo          key={q.id}                  q={q} onAnswer={onAnswer} />;
+    case "ascolta_giudica":    return <DomandaAscoltoGiudica   key={q.audio_it   || q.id} q={q} onAnswer={onAnswer} />;
+    case "tap_right":          return <DomandaTapRight         key={q.contesto_it || q.id} q={q} onAnswer={onAnswer} />;
+    case "giusto_o_no":        return <DomandaGiustoONo        key={q.frase_it   || q.id} q={q} onAnswer={onAnswer} />;
+    case "completa_risposta":  return <DomandaCompletaRisposta key={q.risposta_it || q.id} q={q} onAnswer={onAnswer} />;
+    case "ascolta_ripeti":     return <DomandaAscoltaRipeti    key={q.audio_it   || q.id} q={q} onAnswer={onAnswer} />;
+    default:                   return <DomandaMultipla         key={q.domanda?.it || q.id} q={q} onAnswer={onAnswer} />;
   }
 }
 
@@ -862,7 +1483,32 @@ export default function LessonPage() {
     const lessonId = lezione === "boss" ? "boss" : parseInt(lezione);
     const tipo = lezione === "boss" ? "boss" : "lezione";
     const r = salvaProgressi({ tipo, lessonId, corrette, totDomande: lesson.questions.length, lessonReward: lesson.reward, unita });
-    setReward(r); setFase("done");
+    setReward(r); setFase("popup");
+  }
+
+  if (fase === "popup" && reward) {
+    const totale = lesson.questions.length;
+    const corrette = reward.corrette ?? 0;
+    const msg = getMessaggioMario(corrette, totale);
+    const lessonIndex = lezione === "boss" ? 5 : Math.max(0, (parseInt(lezione) || 1) - 1);
+    return (
+      <LessonCompletePopup
+        reward={{
+          emoji: reward.ciboEmoji,
+          nome_it: reward.ciboNome,
+          nome_en: reward.ciboNomeEN,
+        }}
+        corrette={corrette}
+        totale={totale}
+        crediti={reward.crediti ?? 0}
+        energia={reward.energia ?? 0}
+        lessonIndex={lessonIndex}
+        messaggioIT={msg.it}
+        messaggioEN={msg.en}
+        onHome={() => router.push("/")}
+        onContinua={() => setFase("done")}
+      />
+    );
   }
 
   if (fase === "done" && reward) return <LessonComplete reward={reward} livello={livello} unita={unita} lezione={lezione} onHome={() => router.push("/")} />;

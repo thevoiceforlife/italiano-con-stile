@@ -8,7 +8,11 @@
     "type": "slot",
     "name": "pizza",
     "credits": 8,
-    "pool": ["🍕 Pizza margherita", "🍕 Pizza marinara", "🍕 Pizza napoletana"]
+    "pool": [
+      "🍕 Pizza margherita",
+      "🍕 Pizza marinara",
+      "🍕 Pizza napoletana"
+    ]
   },
   "vocab": [
     {
@@ -48,9 +52,9 @@
       "domanda_en": "Why ho 30 anni and not sono 30 anni?",
       "titolo_it": "Avere vs Essere — l'età in italiano",
       "titolo_en": "Avere vs Essere — age in Italian",
-      "corpo_it": "In inglese dici I AM 30 years old — usi il verbo essere. In italiano usi AVERE — ho 30 anni. Letteralmente: I HAVE 30 years. Strana differenza, vero? Ma è così in tutta Europa romanza!",
-      "corpo_en": "In English you say I AM 30 years old — you use to be. In Italian you use AVERE — ho 30 anni. Literally: I HAVE 30 years. Strange difference, right? But it is the same across Romance Europe!",
-      "esempio_it": "🇬🇧 I am 30 years old → 🇮🇹 Ho 30 anni",
+      "corpo_it": "In inglese dici I AM 30 years old — usi il verbo essere. In italiano usi AVERE — ho 30 anni. Letteralmente: I HAVE 30 years.",
+      "corpo_en": "In English you say I AM 30 years old — you use to be. In Italian you use AVERE — ho 30 anni. Literally: I HAVE 30 years.",
+      "esempio_it": "🇬🇧 I am 30 → 🇮🇹 Ho 30 anni",
       "esempio_en": "English: to be + age → Italian: to have + age"
     },
     {
@@ -61,140 +65,288 @@
       "domanda_en": "Tu or Lei — when to be formal?",
       "titolo_it": "Il Lei formale italiano",
       "titolo_en": "The formal Italian Lei",
-      "corpo_it": "In italiano hai due modi per dire you: TU informale con amici e famiglia e LEI formale con sconosciuti, professori e dottori. A Napoli si è più informali — ma con i professori, sempre LEI!",
-      "corpo_en": "In Italian you have two ways to say you: TU informal with friends and family and LEI formal with strangers, professors and doctors. Naples is more informal — but with professors, always LEI!",
+      "corpo_it": "In italiano hai due modi per dire you: TU informale con amici e LEI formale con sconosciuti e professori.",
+      "corpo_en": "In Italian you have two ways to say you: TU informal with friends and LEI formal with strangers and professors.",
       "esempio_it": "👫 Tu come ti chiami? → 👔 Lei come si chiama?",
-      "esempio_en": "Informal: Tu → Formal: Lei used for respect"
+      "esempio_en": "Informal: Tu → Formal: Lei"
     }
   ],
   "questions": [
     {
       "id": "q1",
       "personaggio": "matilde",
-      "tipo": "multipla",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "introIT": "Benvenuti in classe!",
-      "intro_en": "Welcome to class!",
-      "domanda": { "it": "Come dici I am Italian in italiano?", "en": "How do you say I am Italian in Italian?" },
+      "introIT": "Ascolta Matilde!",
+      "intro_en": "Listen to Matilde!",
+      "audio": "Ho trent'anni.",
+      "domanda": {
+        "it": "Cosa significa?",
+        "en": "What does it mean?"
+      },
       "opzioni": [
-        { "it": "Ho italiano.", "en": "I have Italian." },
-        { "it": "Sono italiano.", "en": "I am Italian." },
-        { "it": "Mi chiamo italiano.", "en": "My name is Italian." },
-        { "it": "Lavoro italiano.", "en": "I work Italian." }
+        {
+          "it": "La sua età",
+          "en": "Her age"
+        },
+        {
+          "it": "Il suo lavoro",
+          "en": "Her job"
+        },
+        {
+          "it": "Il suo nome",
+          "en": "Her name"
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Esatto! Sono è il verbo essere alla prima persona.", "en": "Correct! Sono is the verb to be in first person." },
-      "feedbackErr": { "it": "Sono italiano — il verbo essere si usa per nazionalità!", "en": "Sono italiano — the verb to be is used for nationality!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Ho trent'anni = I am 30 years old!",
+        "en": "Correct! Ho trent'anni = I am 30 years old!"
+      },
+      "feedbackErr": {
+        "it": "Ho trent'anni = la sua età!",
+        "en": "Ho trent'anni = her age!"
+      }
     },
     {
       "id": "q2",
       "personaggio": "matilde",
-      "tipo": "multipla",
+      "tipo": "fill_blank",
       "fase": "riconoscimento",
-      "introIT": "Attenzione — questa è diversa dall'inglese!",
-      "intro_en": "Careful — this is different from English!",
-      "domanda": { "it": "Come dici I am 25 years old in italiano?", "en": "How do you say I am 25 years old in Italian?" },
+      "introIT": "Riempi il buco!",
+      "intro_en": "Fill the blank!",
+      "frase_it": "_____ 30 anni.",
+      "frase_en": "I _____ 30 years old.",
       "opzioni": [
-        { "it": "Sono 25 anni.", "en": "I am 25 years." },
-        { "it": "Ho 25 anni.", "en": "I have 25 years." },
-        { "it": "Mi chiamo 25 anni.", "en": "My name is 25 years." },
-        { "it": "Lavoro 25 anni.", "en": "I work 25 years." }
+        {
+          "it": "Ho",
+          "en": "have"
+        },
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Mi chiamo",
+          "en": "my name is"
+        },
+        {
+          "it": "Lavoro",
+          "en": "work"
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Perfetto! In italiano l'età si ha, non si è!", "en": "Perfect! In Italian you have age, not are it!" },
-      "feedbackErr": { "it": "Ho 25 anni — in italiano si usa avere per l'età!", "en": "Ho 25 anni — in Italian you use avere for age!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! HO 30 anni — avere per l'età!",
+        "en": "Correct! HO 30 anni — avere for age!"
+      },
+      "feedbackErr": {
+        "it": "Si usa HO — ho 30 anni!",
+        "en": "Use HO — ho 30 anni!"
+      }
     },
     {
       "id": "q3",
       "personaggio": "matilde",
-      "tipo": "vero_falso",
+      "tipo": "fill_blank",
       "fase": "comprensione",
-      "introIT": "Vero o falso con Matilde!",
-      "intro_en": "True or false with Matilde!",
-      "domanda": { "it": "In italiano si dice sono 30 anni come in inglese.", "en": "In Italian you say sono 30 anni just like in English." },
-      "correct": false,
-      "feedbackOk": { "it": "Esatto! In italiano si dice HO 30 anni, non sono!", "en": "Correct! In Italian you say HO 30 anni, not sono!" },
-      "feedbackErr": { "it": "No! In italiano l'età usa avere: ho 30 anni!", "en": "No! In Italian age uses avere: ho 30 anni!" }
+      "introIT": "Ancora un buco!",
+      "intro_en": "Another blank!",
+      "frase_it": "Lavoro _____ insegnante.",
+      "frase_en": "I work _____ a teacher.",
+      "opzioni": [
+        {
+          "it": "come",
+          "en": "as"
+        },
+        {
+          "it": "di",
+          "en": "of"
+        },
+        {
+          "it": "per",
+          "en": "for"
+        },
+        {
+          "it": "con",
+          "en": "with"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Lavoro COME + professione!",
+        "en": "Perfect! Lavoro COME + profession!"
+      },
+      "feedbackErr": {
+        "it": "Lavoro COME insegnante!",
+        "en": "Lavoro COME insegnante!"
+      }
     },
     {
       "id": "q4",
-      "personaggio": "matilde",
-      "tipo": "multipla",
+      "personaggio": "sofia",
+      "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "Situazione in classe!",
-      "intro_en": "Classroom situation!",
-      "domanda": { "it": "Matilde chiede: Lei come si chiama? Cosa sta usando?", "en": "Matilde asks: Lei come si chiama? What is she using?" },
+      "introIT": "Ascolta Sofia!",
+      "intro_en": "Listen to Sofia!",
+      "audio": "Sono italiano.",
+      "domanda": {
+        "it": "Qual è la traduzione corretta?",
+        "en": "Which is the correct translation?"
+      },
       "opzioni": [
-        { "it": "Il tu informale", "en": "The informal tu" },
-        { "it": "Il Lei formale", "en": "The formal Lei" },
-        { "it": "Il voi plurale", "en": "The plural voi" },
-        { "it": "Il noi", "en": "The we" }
+        {
+          "it": "I am Italian.",
+          "en": "I am Italian."
+        },
+        {
+          "it": "I have Italian.",
+          "en": "I have Italian."
+        },
+        {
+          "it": "I work Italian.",
+          "en": "I work Italian."
+        }
       ],
-      "correct": 1,
-      "feedbackOk": { "it": "Esatto! Lei formale — usato con rispetto.", "en": "Correct! Formal Lei — used with respect." },
-      "feedbackErr": { "it": "Lei come si chiama? usa il LEI formale — rispettoso!", "en": "Lei come si chiama? uses the formal LEI — respectful!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Sono = I am per nazionalità!",
+        "en": "Yes! Sono = I am for nationality!"
+      },
+      "feedbackErr": {
+        "it": "Sono italiano = I am Italian!",
+        "en": "Sono italiano = I am Italian!"
+      }
     },
     {
       "id": "q5",
-      "personaggio": "sofia",
-      "tipo": "multipla",
+      "personaggio": "matilde",
+      "tipo": "fill_blank",
       "fase": "comprensione",
-      "introIT": "Sofia aiuta Matilde!",
-      "intro_en": "Sofia helps Matilde!",
-      "domanda": { "it": "Come dici il tuo lavoro in italiano?", "en": "How do you say your job in Italian?" },
+      "introIT": "Completa!",
+      "intro_en": "Complete!",
+      "frase_it": "_____ dell'Inghilterra.",
+      "frase_en": "I _____ from England.",
       "opzioni": [
-        { "it": "Sono come insegnante.", "en": "I am as a teacher." },
-        { "it": "Ho insegnante.", "en": "I have teacher." },
-        { "it": "Lavoro come insegnante.", "en": "I work as a teacher." },
-        { "it": "Mi chiamo insegnante.", "en": "My name is teacher." }
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Ho",
+          "en": "have"
+        },
+        {
+          "it": "Mi chiamo",
+          "en": "my name is"
+        },
+        {
+          "it": "Lavoro",
+          "en": "work"
+        }
       ],
-      "correct": 2,
-      "feedbackOk": { "it": "Perfetto! Lavoro come... è la formula giusta.", "en": "Perfect! Lavoro come... is the right formula." },
-      "feedbackErr": { "it": "Lavoro come insegnante — lavoro come + professione!", "en": "Lavoro come insegnante — lavoro come + profession!" }
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Sono di + paese!",
+        "en": "Perfect! Sono di + country!"
+      },
+      "feedbackErr": {
+        "it": "SONO dell'Inghilterra — sono per origine!",
+        "en": "SONO dell'Inghilterra — sono for origin!"
+      }
     },
     {
       "id": "q6",
       "personaggio": "matilde",
       "tipo": "multipla",
       "fase": "produzione",
-      "introIT": "Metti in pratica!",
-      "intro_en": "Put it into practice!",
-      "domanda": { "it": "Presenti te stesso completamente. Quale frase è corretta?", "en": "You introduce yourself fully. Which sentence is correct?" },
+      "introIT": "Parla con Matilde!",
+      "intro_en": "Talk to Matilde!",
+      "domanda": {
+        "it": "Come ti chiami?",
+        "en": "What is your name?"
+      },
       "opzioni": [
-        { "it": "Mi chiamo Sofia, sono italiana e ho 28 anni.", "en": "My name is Sofia, I am Italian and I am 28." },
-        { "it": "Mi chiamo Sofia, sono italiana e sono 28 anni.", "en": "My name is Sofia, I am Italian and I am 28 years." },
-        { "it": "Chiamo Sofia, italiana e ho 28.", "en": "Call Sofia, Italian and have 28." },
-        { "it": "Sofia sono, italiana ho, anni 28.", "en": "Sofia am, Italian have, years 28." }
+        {
+          "it": "Mi chiamo ..., piacere!",
+          "en": "My name is ..., nice to meet you!"
+        },
+        {
+          "it": "Ho 30 anni.",
+          "en": "I am 30."
+        },
+        {
+          "it": "Vorrei un caffè.",
+          "en": "I would like a coffee."
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Perfetto! Presentazione completa e corretta!", "en": "Perfect! Complete and correct introduction!" },
-      "feedbackErr": { "it": "Mi chiamo + sono + ho anni — tre verbi diversi!", "en": "Mi chiamo + sono + ho anni — three different verbs!" }
+      "feedbackOk": {
+        "it": "Eccellente! Presentazione completa!",
+        "en": "Excellent! Complete introduction!"
+      },
+      "feedbackErr": {
+        "it": "Riprova!",
+        "en": "Try again!"
+      }
     },
     {
       "id": "q7",
-      "personaggio": "matilde",
-      "tipo": "vero_falso",
+      "personaggio": "diego",
+      "tipo": "giusto_o_no",
       "fase": "produzione",
-      "introIT": "Ultima domanda teorica!",
-      "intro_en": "Last theory question!",
-      "domanda": { "it": "Lavoro come medico è corretto in italiano.", "en": "Lavoro come medico is correct in Italian." },
-      "correct": true,
-      "feedbackOk": { "it": "Sì! Lavoro come + professione — sempre corretto.", "en": "Yes! Lavoro come + profession — always correct." },
-      "feedbackErr": { "it": "Sì, è corretto! Lavoro come medico funziona benissimo.", "en": "Yes, it is correct! Lavoro come medico works perfectly." }
+      "introIT": "Giusto o sbagliato?",
+      "intro_en": "Right or wrong?",
+      "scena_it": "Diego risponde alla domanda sull'età:",
+      "scena_en": "Diego answers the age question:",
+      "frase_it": "Sono 25 anni.",
+      "frase_en": "I am 25 years.",
+      "correct": false,
+      "feedbackOk": {
+        "it": "Esatto! Si dice HO 25 anni, non sono!",
+        "en": "Correct! You say HO 25 anni, not sono!"
+      },
+      "feedbackErr": {
+        "it": "Sbagliato! In italiano l'età usa AVERE: ho 25 anni!",
+        "en": "Wrong! In Italian age uses AVERE: ho 25 anni!"
+      }
     },
     {
       "id": "q8",
       "personaggio": "matilde",
       "tipo": "word_bank",
       "fase": "produzione",
-      "introIT": "La sfida finale di Matilde!",
-      "intro_en": "Matilde's final challenge!",
-      "domanda": { "it": "Componi la presentazione di Matilde!", "en": "Build Matilde's introduction!" },
+      "introIT": "Sfida finale!",
+      "intro_en": "Final challenge!",
+      "domanda": {
+        "it": "Componi la presentazione di Matilde!",
+        "en": "Build Matilde's introduction!"
+      },
       "soluzione": "Sono Matilde e ho quarantanni",
-      "parole": ["Sono", "Matilde", "e", "ho", "quarantanni"],
-      "distrattori": ["piacere", "ciao", "lavoro"],
-      "feedbackOk": { "it": "Eccellente! Matilde è orgogliosa di te!", "en": "Excellent! Matilde is proud of you!" },
-      "feedbackErr": { "it": "Sono Matilde e ho quarantanni — essere + avere!", "en": "Sono Matilde e ho quarantanni — essere + avere!" }
+      "parole": [
+        "Sono",
+        "Matilde",
+        "e",
+        "ho",
+        "quarantanni"
+      ],
+      "distrattori": [
+        "piacere",
+        "ciao",
+        "lavoro"
+      ],
+      "feedbackOk": {
+        "it": "Eccellente! Matilde è orgogliosa!",
+        "en": "Excellent! Matilde is proud!"
+      },
+      "feedbackErr": {
+        "it": "Sono Matilde e ho quarantanni!",
+        "en": "Sono Matilde e ho quarantanni!"
+      }
     }
   ]
 }

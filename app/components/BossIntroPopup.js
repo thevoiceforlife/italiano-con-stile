@@ -105,14 +105,12 @@ export default function BossIntroPopup({ onStart }) {
         </div>
 
         {/* Pulsante */}
-        <button onClick={onStart} style={{
-          width: "100%", height: 64, background: "#ffd700", color: "#1a1a1a",
-          borderRadius: 14, border: "none", borderBottom: "4px solid #b8920b",
-          display: "flex", flexDirection: "column", alignItems: "center",
-          justifyContent: "center", gap: 3, cursor: "pointer", fontFamily: "inherit",
+        <button onClick={onStart} className="btn-cta" style={{
+          height: 64, background: "#ffd700", color: "#1a1a1a",
+          borderBottom: "4px solid #b8920b",
         }}>
-          <span style={{ fontSize: 16, fontWeight: 900 }}>🥊 Inizia la sfida!</span>
-          <span style={{ fontSize: 12, fontStyle: "italic", opacity: 0.6 }}>Start the challenge!</span>
+          <span className="btn-it">🥊 Inizia la sfida!</span>
+          <span className="btn-en">Start the challenge!</span>
         </button>
       </div>
     </div>
