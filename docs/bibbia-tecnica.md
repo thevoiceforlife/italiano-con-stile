@@ -1,3 +1,50 @@
+# ⚠️ REGOLE PEDAGOGICHE FONDAMENTALI
+
+## Principio 1 — Il boss non introduce nulla di nuovo
+Il boss testa SOLO vocabolario e strutture
+già viste nelle 5 lezioni precedenti.
+MAI concetti, parole o strutture nuove.
+Prima di scrivere il boss, verifica
+lesson1-5 della stessa unità.
+
+## Principio 2 — L'utente deve vincere
+Target successo per domanda:
+Q1-Q2: 95% corretto (quasi impossibile sbagliare)
+Q3-Q5: 80% corretto
+Q6-Q7: 70% corretto
+Q8+:   65% corretto
+Se l'utente sbaglia spesso → abbandona.
+
+## Principio 3 — A1 = zero grammatica esplicita
+Le regole grammaticali emergono dall'uso
+ripetuto — non dalla spiegazione.
+La grammatica va SOLO nelle pillole
+culturali opzionali — mai negli esercizi.
+Feedback OK: max 1 riga celebrativa.
+Feedback ERR: max 1 riga semplice.
+
+## Principio 4 — Complessità per fase
+A1.1 (Temi 1-3): max 4 parole nuove/lezione
+  frasi max 4 parole, solo multipla+tap
+A1.2 (Temi 4-8): max 5 parole nuove/lezione
+  frasi max 6 parole, introduce fill_blank
+A1.3 (Temi 9-15): max 6 parole nuove/lezione
+  frasi max 8 parole, introduce word_bank
+
+## Principio 5 — Finally someone explains why
+Le spiegazioni culturali e grammaticali
+vanno DOPO il successo, nelle pillole.
+Durante l'esercizio: solo FARE.
+Nella pillola: capire PERCHÉ.
+
+## Principio 6 — Il boss è identico alle lezioni
+Stesso vocabolario, stesse strutture,
+stessi tipi di domanda già visti.
+Cambia solo: il personaggio (boss character)
+e il contesto narrativo.
+
+---
+
 # Italiano con Stile — Bibbia Tecnica
 
 ## Progetto
