@@ -4,14 +4,14 @@
   "title_en": "Quick recap",
   "type": "speedround",
   "icon": "🎯",
+  "unita_tipo": "consolidamento",
   "reward": {
     "type": "slot",
-    "name": "pasta",
     "credits": 10,
     "pool": [
       "🍝 Spaghetti al pomodoro",
-      "🍝 Pasta alla norma",
-      "🍜 Pasta e fagioli"
+      "🍕 Pizza margherita",
+      "☕ Caffè espresso"
     ]
   },
   "vocab": [],
@@ -22,9 +22,10 @@
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "introIT": "Veloce!",
-      "intro_en": "Quick!",
-      "audio": "Buongiorno!",
+      "introIT": "Ascolta e scegli!",
+      "intro_en": "Listen and choose!",
+      "audio_it": "Buongiorno!",
+      "audio_en": "Good morning!",
       "domanda": {
         "it": "Quando si usa?",
         "en": "When is it used?"
@@ -45,62 +46,103 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì!",
-        "en": "Yes!"
+        "it": "Sì! Buongiorno fino alle 13:00.",
+        "en": "Yes! Buongiorno until 1 PM."
       },
       "feedbackErr": {
-        "it": "Buongiorno = mattina!",
-        "en": "Buongiorno = morning!"
+        "it": "Buongiorno si usa la mattina — fino alle 13. Poi si dice Buon pomeriggio o Buonasera!",
+        "en": "Buongiorno is used in the morning — until 1 PM. Then Buon pomeriggio or Buonasera!"
       }
     },
     {
       "id": "q2",
-      "personaggio": "diego",
-      "tipo": "ascolta_scegli",
+      "personaggio": "mario",
+      "tipo": "tap_right",
       "fase": "riconoscimento",
-      "introIT": "Ancora!",
-      "intro_en": "Again!",
-      "audio": "Mi chiamo Diego.",
+      "introIT": "Situazione veloce!",
+      "intro_en": "Quick situation!",
+      "contesto_it": "🤝 Primo incontro",
+      "contesto_en": "🤝 First meeting",
       "domanda": {
-        "it": "Cosa sta facendo Diego?",
-        "en": "What is Diego doing?"
+        "it": "Cosa dici?",
+        "en": "What do you say?"
       },
       "opzioni": [
         {
-          "it": "Si presenta",
-          "en": "He introduces himself"
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
         },
         {
-          "it": "Ordina",
-          "en": "He orders"
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
         },
         {
-          "it": "Saluta",
-          "en": "He greets"
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto!",
-        "en": "Correct!"
+        "it": "Sì! Piacere — al primo incontro!",
+        "en": "Yes! Piacere — at the first meeting!"
       },
       "feedbackErr": {
-        "it": "Mi chiamo = si presenta!",
-        "en": "Mi chiamo = introduction!"
+        "it": "Piacere viene dal verbo piacere — to please. Dici letteralmente: mi fa piacere conoscerti!",
+        "en": "Piacere comes from the verb to please. You literally say: it pleases me to meet you!"
       }
     },
     {
       "id": "q3",
-      "personaggio": "sofia",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Riempi il buco!",
+      "intro_en": "Fill in the blank!",
+      "frase_it": "Mi _____ Mario.",
+      "frase_en": "My name is Mario.",
+      "opzioni": [
+        {
+          "it": "chiamo",
+          "en": "call"
+        },
+        {
+          "it": "sono",
+          "en": "am"
+        },
+        {
+          "it": "ho",
+          "en": "have"
+        },
+        {
+          "it": "vado",
+          "en": "go"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Mi chiamo = I call myself.",
+        "en": "Correct! Mi chiamo = I call myself."
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo viene da chiamarsi — chiamare se stesso. È un verbo riflessivo: l'azione torna su di te!",
+        "en": "Mi chiamo comes from chiamarsi — to call oneself. It is a reflexive verb: the action comes back to you!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
       "tipo": "tap_right",
       "fase": "comprensione",
-      "introIT": "Veloce!",
-      "intro_en": "Quick!",
-      "contesto_it": "Sono le 20:00. 🌆",
-      "contesto_en": "It is 8 PM. 🌆",
+      "introIT": "Tocca subito!",
+      "intro_en": "Tap right away!",
+      "contesto_it": "🌆 Sono le 20:00",
+      "contesto_en": "🌆 It is 8 PM",
       "domanda": {
-        "it": "Entri al ristorante. Cosa dici?",
-        "en": "You enter the restaurant. What do you say?"
+        "it": "Entri al ristorante.",
+        "en": "You enter the restaurant."
       },
       "opzioni": [
         {
@@ -121,124 +163,86 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Buonasera la sera!",
-        "en": "Yes! Buonasera in the evening!"
+        "it": "Perfetto! Dopo le 18:00 → Buonasera!",
+        "en": "Perfect! After 6 PM → Buonasera!"
       },
       "feedbackErr": {
-        "it": "Le 20:00 = sera = Buonasera!",
-        "en": "8 PM = evening = Buonasera!"
-      }
-    },
-    {
-      "id": "q4",
-      "personaggio": "matilde",
-      "tipo": "fill_blank",
-      "fase": "comprensione",
-      "introIT": "Completa!",
-      "intro_en": "Complete!",
-      "frase_it": "_____, mi chiamo ...",
-      "frase_en": "_____, my name is ...",
-      "opzioni": [
-        {
-          "it": "Piacere",
-          "en": "Nice to meet you"
-        },
-        {
-          "it": "Grazie",
-          "en": "Thank you"
-        },
-        {
-          "it": "Ciao",
-          "en": "Hello"
-        },
-        {
-          "it": "Arrivederci",
-          "en": "Goodbye"
-        }
-      ],
-      "correct": 0,
-      "feedbackOk": {
-        "it": "Sì!",
-        "en": "Yes!"
-      },
-      "feedbackErr": {
-        "it": "Piacere per presentarsi!",
-        "en": "Piacere to introduce yourself!"
+        "it": "Sono le 20:00 — è sera! Buonasera si usa dalle 18:00. Buonanotte invece si dice solo prima di dormire.",
+        "en": "It is 8 PM — it is evening! Buonasera is used from 6 PM. Buonanotte is only said before sleeping."
       }
     },
     {
       "id": "q5",
-      "personaggio": "diego",
-      "tipo": "multipla",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
       "fase": "comprensione",
-      "introIT": "Parla con Diego!",
-      "intro_en": "Talk to Diego!",
-      "domanda": {
-        "it": "Di dove sei?",
-        "en": "Where are you from?"
-      },
+      "introIT": "Veloce!",
+      "intro_en": "Quick!",
+      "frase_it": "_____ di Londra.",
+      "frase_en": "I am from London.",
       "opzioni": [
         {
-          "it": "Sono dell'Inghilterra.",
-          "en": "I am from England."
+          "it": "Sono",
+          "en": "am"
         },
         {
-          "it": "Ho Inghilterra.",
-          "en": "I have England."
+          "it": "Ho",
+          "en": "have"
         },
         {
-          "it": "Buonanotte!",
-          "en": "Good night!"
+          "it": "Piacere",
+          "en": "nice to meet you"
         },
         {
-          "it": "Buonanotte!",
-          "en": "Good night!"
+          "it": "Ciao",
+          "en": "hi"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto!",
-        "en": "Perfect!"
+        "it": "Sì! Sono di + città — l'origine!",
+        "en": "Yes! Sono di + city — the origin!"
       },
       "feedbackErr": {
-        "it": "Riprova!",
-        "en": "Try again!"
+        "it": "Sono di Londra — il verbo essere indica l'origine. Come in inglese: I am FROM London. Sono = I am, di = from!",
+        "en": "Sono di Londra — the verb essere shows origin. Like in English: I am FROM London. Sono = I am, di = from!"
       }
     },
     {
       "id": "q6",
-      "personaggio": "matilde",
+      "personaggio": "mario",
       "tipo": "ascolta_scegli",
-      "fase": "produzione",
-      "introIT": "Ascolta!",
-      "intro_en": "Listen!",
-      "audio": "Ho venticinque anni.",
+      "fase": "comprensione",
+      "introIT": "Ascolta bene!",
+      "intro_en": "Listen carefully!",
+      "audio_it": "Ho venticinque anni.",
+      "audio_en": "I am twenty-five years old.",
       "domanda": {
         "it": "Cosa ha detto?",
         "en": "What did she say?"
       },
       "opzioni": [
         {
-          "it": "La sua età: 25 anni",
-          "en": "Her age: 25 years"
+          "it": "La sua età",
+          "en": "Her age"
         },
         {
           "it": "Il suo nome",
           "en": "Her name"
         },
         {
-          "it": "Il suo lavoro",
-          "en": "Her job"
+          "it": "La sua origine",
+          "en": "Her origin"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto!",
-        "en": "Correct!"
+        "it": "Sì! Ho venticinque anni = 25 anni!",
+        "en": "Yes! Ho venticinque anni = 25 years old!"
       },
       "feedbackErr": {
-        "it": "Ho venticinque anni = la sua età!",
-        "en": "Ho venticinque anni = her age!"
+        "it": "Ho venticinque anni — in italiano l'età usa AVERE. In inglese I AM 25, in italiano HO 25 anni. Hai gli anni come se fossero un oggetto!",
+        "en": "Ho venticinque anni — in Italian age uses AVERE. In English I AM 25, in Italian HO 25 anni. You HAVE the years like an object!"
       }
     },
     {
@@ -248,29 +252,29 @@
       "fase": "produzione",
       "introIT": "Giusto o sbagliato?",
       "intro_en": "Right or wrong?",
-      "scena_it": "Mario parla con il professore:",
-      "scena_en": "Mario talks to the professor:",
+      "scena_it": "Mario scrive un messaggio al professore:",
+      "scena_en": "Mario writes a message to the professor:",
       "frase_it": "Ciao prof, come stai?",
       "frase_en": "Hi prof, how are you?",
       "correct": false,
       "feedbackOk": {
-        "it": "Esatto! Mai Ciao con il professore!",
-        "en": "Correct! Never Ciao with the professor!"
+        "it": "Esatto! Con i professori è preferibile Buongiorno, come sta? — il Lei è più rispettoso.",
+        "en": "Correct! With professors Buongiorno, come sta? is better — Lei is more respectful."
       },
       "feedbackErr": {
-        "it": "Con i professori: Buongiorno, come sta?",
-        "en": "With professors: Buongiorno, come sta?"
+        "it": "Con i professori di solito si usa il LEI formale: Buongiorno, come sta? Il Ciao è molto informale — va bene tra amici!",
+        "en": "With professors you usually use the formal LEI: Buongiorno, come sta? Ciao is very informal — fine between friends!"
       }
     },
     {
       "id": "q8",
-      "personaggio": "matilde",
+      "personaggio": "mario",
       "tipo": "fill_blank",
       "fase": "produzione",
-      "introIT": "Completa!",
-      "intro_en": "Complete!",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
       "frase_it": "Lavoro _____ medico.",
-      "frase_en": "I work _____ a doctor.",
+      "frase_en": "I work as a doctor.",
       "opzioni": [
         {
           "it": "come",
@@ -291,22 +295,23 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì!",
-        "en": "Yes!"
+        "it": "Perfetto! Lavoro come + professione!",
+        "en": "Perfect! Lavoro come + profession!"
       },
       "feedbackErr": {
-        "it": "Lavoro COME medico!",
-        "en": "Lavoro COME medico!"
+        "it": "Lavoro COME medico — la preposizione come introduce la professione. Come in inglese: I work AS a doctor. Come = as!",
+        "en": "Lavoro COME medico — the preposition come introduces the profession. Like in English: I work AS a doctor. Come = as!"
       }
     },
     {
       "id": "q9",
-      "personaggio": "sofia",
+      "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "produzione",
-      "introIT": "Ascolta!",
-      "intro_en": "Listen!",
-      "audio": "Sono dell'Inghilterra.",
+      "introIT": "Ultima ascolto!",
+      "intro_en": "Last listening!",
+      "audio_it": "Sono dell'Inghilterra.",
+      "audio_en": "I am from England.",
       "domanda": {
         "it": "Cosa sta dicendo?",
         "en": "What is she saying?"
@@ -321,55 +326,49 @@
           "en": "Her age"
         },
         {
-          "it": "Il suo lavoro",
-          "en": "Her job"
+          "it": "Il suo nome",
+          "en": "Her name"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì!",
-        "en": "Yes!"
+        "it": "Sì! Sono dell'Inghilterra = origine!",
+        "en": "Yes! Sono dell'Inghilterra = origin!"
       },
       "feedbackErr": {
-        "it": "Sono dell'Inghilterra = origine!",
-        "en": "Sono dell'Inghilterra = origin!"
+        "it": "Sono dell'Inghilterra dice da dove viene. Dell' = di + l'. In italiano si usa di + articolo: della Francia, del Brasile, dell'Italia!",
+        "en": "Sono dell'Inghilterra says where she is from. Dell' = di + l'. In Italian: di + article: della Francia, del Brasile, dell'Italia!"
       }
     },
     {
       "id": "q10",
-      "personaggio": "sofia",
+      "personaggio": "mario",
       "tipo": "word_bank",
       "fase": "produzione",
       "introIT": "Ultima sfida!",
       "intro_en": "Final challenge!",
       "domanda": {
-        "it": "Presentazione completa!",
-        "en": "Full introduction!"
+        "it": "Presentati a Mario!",
+        "en": "Introduce yourself to Mario!"
       },
-      "soluzione": "Mi chiamo Sofia sono italiana e ho ventotto anni",
+      "soluzione": "Piacere sono di Londra",
       "parole": [
-        "Mi",
-        "chiamo",
-        "Sofia",
+        "Piacere",
         "sono",
-        "italiana",
-        "e",
-        "ho",
-        "ventotto",
-        "anni"
+        "di",
+        "Londra"
       ],
       "distrattori": [
-        "piacere",
-        "lavoro",
-        "ciao"
+        "ciao",
+        "ho"
       ],
       "feedbackOk": {
-        "it": "Perfetto! Sei pronto per l'Italia!",
-        "en": "Perfect! You are ready for Italy!"
+        "it": "Perfetto! Piacere + sono di — presentazione completa!",
+        "en": "Perfect! Piacere + sono di — complete introduction!"
       },
       "feedbackErr": {
-        "it": "Mi chiamo + sono + ho anni!",
-        "en": "Mi chiamo + sono + ho anni!"
+        "it": "Piacere sono di Londra — piacere per il saluto, sono di per l'origine. Semplice!",
+        "en": "Piacere sono di Londra — piacere for the greeting, sono di for the origin. Simple!"
       }
     }
   ]

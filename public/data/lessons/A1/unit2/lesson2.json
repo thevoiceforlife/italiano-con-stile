@@ -66,7 +66,8 @@
       "fase": "riconoscimento",
       "introIT": "Ascolta Sofia!",
       "intro_en": "Listen to Sofia!",
-      "audio": "Mi chiamo Sofia.",
+      "audio_it": "Mi chiamo Sofia.",
+      "audio_en": "My name is Sofia.",
       "domanda": {
         "it": "Cosa ha detto Sofia?",
         "en": "What did Sofia say?"
@@ -102,7 +103,8 @@
       "fase": "riconoscimento",
       "introIT": "Ascolta Diego!",
       "intro_en": "Listen to Diego!",
-      "audio": "Di dove sei?",
+      "audio_it": "Di dove sei?",
+      "audio_en": "Where are you from?",
       "domanda": {
         "it": "Cosa sta chiedendo Diego?",
         "en": "What is Diego asking?"
@@ -166,8 +168,8 @@
         "en": "Dialogue completed with Diego!"
       },
       "feedbackErr": {
-        "it": "Riprova!",
-        "en": "Try again!"
+        "it": "In italiano piacere si usa anche come saluto al primo incontro — non solo come sostantivo!",
+        "en": "In Italian piacere is also used as a greeting when you first meet someone!"
       }
     },
     {
@@ -218,7 +220,7 @@
       "introIT": "Completa!",
       "intro_en": "Complete!",
       "frase_it": "_____, mi chiamo Sofia!",
-      "frase_en": "_____, my name is Sofia!",
+      "frase_en": "Nice to meet you, my name is Sofia!",
       "opzioni": [
         {
           "it": "Piacere",
@@ -260,12 +262,12 @@
       "frase_en": "Hi prof!",
       "correct": false,
       "feedbackOk": {
-        "it": "Esatto! Con la professoressa si usa Buongiorno!",
-        "en": "Correct! With the professor use Buongiorno!"
+        "it": "Esatto! Con i professori di solito si usa Buongiorno o Salve — è più rispettoso.",
+        "en": "Correct! With professors Buongiorno or Salve is usually more respectful."
       },
       "feedbackErr": {
-        "it": "No! Con la professoressa mai Ciao — troppo informale!",
-        "en": "No! With the professor never Ciao — too informal!"
+        "it": "Con i professori è preferibile Buongiorno o Salve — il Ciao è molto informale.",
+        "en": "With professors Buongiorno or Salve is better — Ciao is very informal."
       }
     },
     {
@@ -293,8 +295,8 @@
           "en": "Good night!"
         },
         {
-          "it": "Buonanotte!",
-          "en": "Good night!"
+          "it": "Buonasera!",
+          "en": "Good evening!"
         }
       ],
       "correct": 0,

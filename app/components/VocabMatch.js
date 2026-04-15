@@ -179,65 +179,67 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
             pulseUntilClick={false}
           />
 
-          {/* Prompt card */}
+          {/* Prompt card centrale */}
           <div style={{
-            background: "var(--card)", border: "2px solid var(--border)", borderRadius: 16,
-            padding: "24px 16px", textAlign: "center",
+            background: "var(--bg-card)", border: "1.5px solid var(--border-soft)",
+            borderRadius: "var(--r-lg)", padding: "24px 20px", textAlign: "center",
+            marginBottom: 16,
             display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8,
           }}>
-            <span style={{ fontSize: 48, lineHeight: 1 }}>{currentWord.emoji}</span>
+            <span style={{ fontSize: 52, lineHeight: 1, marginBottom: 8 }}>{currentWord.emoji}</span>
 
             {round === 1 ? (
               <>
-                <div style={{ fontSize: 24, fontWeight: 900, color: "var(--text)" }}>{currentWord.it}</div>
+                <div style={{ fontSize: 26, fontWeight: 700, color: "var(--text)" }}>{currentWord.it}</div>
                 <button
                   onClick={() => pronounce(currentWord.audio_text || currentWord.it, "it-IT")}
                   style={{
-                    background: "none", border: "1px solid var(--border)", borderRadius: 8,
-                    padding: "4px 12px", fontSize: 13, color: "var(--special)",
+                    background: "none", border: "1px solid var(--border-accent)",
+                    borderRadius: "var(--r-sm)",
+                    padding: "4px 14px", fontSize: 13, color: "var(--accent)",
+                    marginTop: 8,
                     cursor: "pointer", fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
                   }}
                 >🔊 Ascolta · Listen</button>
               </>
             ) : (
-              <div style={{ fontSize: 24, fontWeight: 900, color: "var(--text)" }}>{currentWord.en}</div>
+              <div style={{ fontSize: 26, fontWeight: 700, color: "var(--text)" }}>{currentWord.en}</div>
             )}
           </div>
 
-          {/* Options */}
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {/* Options — grid 3 colonne */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
             {options.map((opt, i) => {
               const isSel = selected === i;
               const ok = confirmed && opt.correct;
               const err = confirmed && isSel && !opt.correct;
               const wrongAnswered = confirmed && !options[selected]?.correct;
-              // Mostra 🔊 accanto alla corretta solo in Round 2 quando l'utente ha sbagliato
               const showAudio = round === 2 && opt.correct && wrongAnswered;
+              const bg     = ok ? "rgba(88,204,2,0.08)" : err ? "rgba(255,75,75,0.06)" : "var(--bg-el)";
+              const border = ok ? "var(--green)"        : err ? "var(--red)"           : "var(--border-soft)";
+              const col    = ok ? "var(--green)"        : err ? "var(--red)"           : "var(--text)";
               return (
                 <div key={`${round}-${currentIdx}-${i}`} onClick={() => handleSelect(i)} style={{
-                  minHeight: 56, padding: "10px 14px", borderRadius: "var(--r)",
-                  background: ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : "var(--card)",
-                  border: `2px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
-                  borderBottom: `4px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
+                  background: bg, border: `1.5px solid ${border}`,
+                  borderRadius: "var(--r)", padding: "12px 8px",
+                  textAlign: "center", minHeight: 56,
+                  display: "flex", alignItems: "center", justifyContent: "center",
                   cursor: confirmed ? "default" : "pointer",
                   fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
-                  display: "flex", alignItems: "center", gap: 8,
-                  animation: err ? "shake-err 0.4s ease" : ok ? "pulse-ok 0.4s ease" : "none",
+                  fontSize: 14, fontWeight: 700, color: col,
+                  position: "relative",
+                  animation: err ? "shake 0.3s ease" : "none",
+                  transition: "all 0.15s",
                 }}>
-                  <span style={{
-                    flex: 1, fontSize: 16, fontWeight: 600,
-                    color: ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--text)",
-                    textAlign: "left",
-                  }}>
-                    {capitalizza(opt.text)}
-                  </span>
+                  <span>{capitalizza(opt.text)}</span>
                   {showAudio && (
                     <button
                       onClick={(e) => { e.stopPropagation(); pronounce(currentWord.audio_text || currentWord.it, "it-IT"); }}
                       style={{
-                        background: "none", border: "1px solid var(--ok-text)", borderRadius: 6,
-                        padding: "3px 8px", fontSize: 13, color: "var(--ok-text)",
-                        cursor: "pointer", fontFamily: "inherit", flexShrink: 0,
+                        position: "absolute", top: 4, right: 4,
+                        background: "none", border: "1px solid var(--green)", borderRadius: 6,
+                        padding: "2px 6px", fontSize: 11, color: "var(--green)",
+                        cursor: "pointer", fontFamily: "inherit",
                         textTransform: "none", letterSpacing: "normal",
                       }}
                     >🔊</button>
@@ -259,16 +261,16 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
             </button>
           ) : esito === "ok" ? (
             <button onClick={handleNext} className="btn-cta btn-primary" style={{
-              background: "#58cc02", color: "#fff",
-              borderBottom: "4px solid #3fa001",
+              background: "var(--green)", color: "#fff",
+              borderBottom: "4px solid var(--green-dark)",
             }}>
               <span className="btn-it">AVANTI →</span>
               <span className="btn-en">Next</span>
             </button>
           ) : (
             <button onClick={handleRetry} className="btn-cta btn-primary" style={{
-              background: "#ff9b42", color: "#fff",
-              borderBottom: "4px solid #cc6f1e",
+              background: "var(--accent)", color: "#fff",
+              borderBottom: "4px solid var(--accent-dark)",
             }}>
               <span className="btn-it">RIPROVA</span>
               <span className="btn-en">Try again</span>

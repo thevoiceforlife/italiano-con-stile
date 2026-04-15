@@ -1,190 +1,403 @@
 {
-  "id": 5,
-  "title": "Speed Round — Giornata a Napoli",
-  "titleEN": "Speed Round — A Day in Naples",
-  "subtitle": "Tutto quello che hai imparato — veloce!",
-  "subtitleEN": "Everything you learned — fast!",
-  "livello": "Turista",
+  "id": "A1-unit1-lesson5",
+  "title": "Saluti — ripasso veloce",
+  "title_en": "Greetings — quick recap",
   "type": "speedround",
   "icon": "🎯",
+  "unita_tipo": "scopri",
   "reward": {
-    "slot": "cena",
-    "crediti": 10,
+    "type": "slot",
+    "credits": 8,
     "pool": [
-      { "emoji": "🍕", "nome": "Pizza margherita", "nomeEN": "Margherita pizza" },
-      { "emoji": "🐟", "nome": "Branzino al forno", "nomeEN": "Baked sea bass" },
-      { "emoji": "🍖", "nome": "Secondi napoletani", "nomeEN": "Neapolitan main courses" },
-      { "emoji": "🥗", "nome": "Insalata di mare", "nomeEN": "Seafood salad" }
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
     ]
   },
   "vocab": [],
+  "pillole": [],
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "tap_right",
       "fase": "riconoscimento",
-      "intro": "Ripasso veloce! / Quick recap!",
-      "introIT": "Ripasso veloce!",
-      "intro_en": "Quick recap!",
-      "domanda": {
-        "it": "Come si dice 'Thank you' in italiano?",
-        "en": "How do you say 'Thank you' in Italian?"
-      },
-      "opzioni": [{"it":"Prego","en":"You're welcome"},{"it":"Ciao","en":"Hello/Bye"},{"it":"Grazie","en":"Thank you"},{"it":"Scusa","en":"Sorry"}],
-      "correct": 2,
-      "feedbackOk": { "it": "Velocissimo! Grazie!", "en": "Super fast! Grazie!" },
-      "feedbackErr": { "it": "'Grazie' = Thank you!", "en": "'Grazie' = Thank you!" }
-    },
-    {
-      "id": 2,
-      "personaggio": "sofia",
-      "tipo": "vero_falso",
-      "fase": "riconoscimento",
-      "intro": "Quick! / Veloce!",
       "introIT": "Veloce!",
       "intro_en": "Quick!",
+      "contesto_it": "☀️ Sono le 8:00",
+      "contesto_en": "☀️ It is 8 AM",
       "domanda": {
-        "it": "'Ciao' si usa solo per salutare quando si arriva.",
-        "en": "'Ciao' is only used when arriving."
+        "it": "Cosa dici?",
+        "en": "What do you say?"
       },
-      "correct": false,
-      "feedbackOk": { "it": "Esatto! 'Ciao' = sia ciao che arrivederci!", "en": "Right! 'Ciao' = both hello and goodbye!" },
-      "feedbackErr": { "it": "'Ciao' si usa SIA per arrivare CHE per andare!", "en": "'Ciao' is used for BOTH hello AND goodbye!" }
+      "opzioni": [
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "No! Le 8 → Buongiorno!",
+        "en": "No! 8 AM → Buongiorno!"
+      }
     },
     {
-      "id": 3,
-      "personaggio": "diego",
-      "tipo": "multipla",
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "intro": "Ordina! / Order!",
-      "introIT": "Ordina al bar!",
-      "intro_en": "Order at the bar!",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio_it": "Piacere",
+      "audio_en": "Nice to meet you",
       "domanda": {
-        "it": "Come ordini un caffè educatamente?",
-        "en": "How do you order a coffee politely?"
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
       },
-      "opzioni": [{"it":"Caffè!","en":"Coffee!"},{"it":"Vorrei un caffè, per favore","en":"I'd like a coffee, please"},{"it":"Un caffè, subito!","en":"A coffee, now!"},{"it":"Quanto costa?","en":"How much is it?"}],
-      "correct": 1,
-      "feedbackOk": { "it": "Perfetto! 'Vorrei... per favore'!", "en": "Perfect! 'Vorrei... per favore'!" },
-      "feedbackErr": { "it": "'Vorrei un caffè, per favore' — sempre educato!", "en": "'Vorrei un caffè, per favore' — always polite!" }
+      "opzioni": [
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Era Piacere!",
+        "en": "It was Piacere!"
+      }
     },
     {
-      "id": 4,
+      "id": "q3",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Riempi!",
+      "intro_en": "Fill it!",
+      "frase_it": "Mi _____ Mario.",
+      "frase_en": "My name is Mario.",
+      "opzioni": [
+        {
+          "it": "chiamo",
+          "en": "call"
+        },
+        {
+          "it": "sono",
+          "en": "am"
+        },
+        {
+          "it": "piace",
+          "en": "like"
+        },
+        {
+          "it": "vado",
+          "en": "go"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo!",
+        "en": "Mi chiamo!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
       "fase": "comprensione",
-      "intro": "Directions! / Indicazioni!",
-      "introIT": "Indicazioni!",
-      "intro_en": "Directions!",
+      "introIT": "Tocca!",
+      "intro_en": "Tap!",
+      "contesto_it": "🤝 Primo incontro",
+      "contesto_en": "🤝 First meeting",
       "domanda": {
-        "it": "'A sinistra' significa...",
-        "en": "'A sinistra' means..."
+        "it": "Cosa dici?",
+        "en": "What do you say?"
       },
-      "opzioni": [{"it":"A destra","en":"On the right"},{"it":"A sinistra","en":"On the left"},{"it":"Sempre dritto","en":"Straight ahead"},{"it":"Torna indietro","en":"Go back"}],
+      "opzioni": [
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
+      ],
       "correct": 1,
-      "feedbackOk": { "it": "Esatto! A sinistra = on the left!", "en": "Correct! A sinistra = on the left!" },
-      "feedbackErr": { "it": "'A sinistra' = on the left. 'A destra' = on the right.", "en": "'A sinistra' = on the left. 'A destra' = on the right." }
-    },
-    {
-      "id": 5,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Food culture! / Cultura del cibo!",
-      "introIT": "Cultura del cibo!",
-      "intro_en": "Food culture!",
-      "domanda": {
-        "it": "Dopo il primo piatto, cosa viene?",
-        "en": "After the first course, what comes next?"
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
       },
-      "opzioni": [{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"},{"it":"Il secondo","en":"Second course"},{"it":"Il caffè","en":"Coffee"}],
-      "correct": 2,
-      "feedbackOk": { "it": "Esatto! Primo → Secondo!", "en": "Correct! Primo → Secondo!" },
-      "feedbackErr": { "it": "Dopo il primo viene il secondo (carne/pesce)!", "en": "After the primo comes il secondo (meat/fish)!" }
+      "feedbackErr": {
+        "it": "Primo incontro → Piacere!",
+        "en": "First meeting → Piacere!"
+      }
     },
     {
-      "id": 6,
+      "id": "q5",
       "personaggio": "mario",
-      "tipo": "vero_falso",
+      "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "intro": "Naples fact! / Fatto napoletano!",
-      "introIT": "Fatto napoletano!",
-      "intro_en": "Naples fact!",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio_it": "Sono di Londra",
+      "audio_en": "I am from London",
       "domanda": {
-        "it": "A Napoli, il caffè al banco costa meno che al tavolo.",
-        "en": "In Naples, coffee at the counter costs less than at the table."
+        "it": "Cosa dice?",
+        "en": "What does he say?"
       },
-      "correct": true,
-      "feedbackOk": { "it": "Bravo! Al banco si risparmia sempre!", "en": "Right! At the counter you always save!" },
-      "feedbackErr": { "it": "È vero! Al banco il caffè costa meno — ordina al banco come un vero napoletano!", "en": "It's true! Counter coffee costs less — order like a real Neapolitan!" }
-    },
-    {
-      "id": 7,
-      "personaggio": "sofia",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Mix it up! / Mescola tutto!",
-      "introIT": "Mescola tutto!",
-      "intro_en": "Mix it up!",
-      "domanda": {
-        "it": "Come chiedi 'Where is the museum?' in italiano?",
-        "en": "How do you ask 'Where is the museum?' in Italian?"
-      },
-      "opzioni": [{"it":"Quanto costa il museo?","en":"How much is the museum?"},{"it":"Dov'è il museo?","en":"Where is the museum?"},{"it":"Vorrei il museo","en":"I'd like the museum"},{"it":"Il museo è a destra","en":"The museum is on the right"}],
+      "opzioni": [
+        {
+          "it": "Il suo nome",
+          "en": "His name"
+        },
+        {
+          "it": "La sua origine",
+          "en": "His origin"
+        },
+        {
+          "it": "Il suo lavoro",
+          "en": "His job"
+        }
+      ],
       "correct": 1,
-      "feedbackOk": { "it": "Perfetto! 'Dov'è...?' per chiedere dove!", "en": "Perfect! 'Dov'è...?' to ask where!" },
-      "feedbackErr": { "it": "'Dov'è il museo?' = Where is the museum?", "en": "'Dov'è il museo?' = Where is the museum?" }
-    },
-    {
-      "id": 8,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Quasi alla fine! / Almost there!",
-      "introIT": "Quasi alla fine!",
-      "intro_en": "Almost there!",
-      "domanda": {
-        "it": "Qualcuno dice 'Grazie'. Tu rispondi...",
-        "en": "Someone says 'Grazie'. You reply..."
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
       },
-      "opzioni": [{"it":"Ciao","en":"Hello/Bye"},{"it":"Buongiorno","en":"Good morning"},{"it":"Prego","en":"You're welcome"},{"it":"Scusa","en":"Sorry"}],
-      "correct": 2,
-      "feedbackOk": { "it": "Perfetto! 'Prego' = You're welcome!", "en": "Perfect! 'Prego' = You're welcome!" },
-      "feedbackErr": { "it": "'Prego' è la risposta automatica a 'Grazie'!", "en": "'Prego' is the automatic reply to 'Grazie'!" }
+      "feedbackErr": {
+        "it": "Sono di → origine!",
+        "en": "Sono di → origin!"
+      }
     },
     {
-      "id": 9,
-      "personaggio": "diego",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Greetings! / Saluti!",
-      "introIT": "Saluti!",
-      "intro_en": "Greetings!",
-      "domanda": {
-        "it": "Sono le 9 di mattina. Come saluti?",
-        "en": "It's 9 AM. How do you greet?"
-      },
-      "opzioni": [{"it":"Buonasera","en":"Good evening"},{"it":"Buonanotte","en":"Good night"},{"it":"Buongiorno","en":"Good morning"},{"it":"Arrivederci","en":"Goodbye"}],
-      "correct": 2,
-      "feedbackOk": { "it": "Esatto! Buongiorno la mattina!", "en": "Correct! Buongiorno in the morning!" },
-      "feedbackErr": { "it": "'Buongiorno' la mattina, 'Buonasera' la sera!", "en": "'Buongiorno' in the morning, 'Buonasera' in the evening!" }
-    },
-    {
-      "id": 10,
+      "id": "q6",
       "personaggio": "mario",
-      "tipo": "vero_falso",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Quick!",
+      "frase_it": "_____ di Roma.",
+      "frase_en": "I am from Rome.",
+      "opzioni": [
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Piacere",
+          "en": "nice to meet you"
+        },
+        {
+          "it": "Ciao",
+          "en": "hi"
+        },
+        {
+          "it": "Vado",
+          "en": "go"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Sono di Roma!",
+        "en": "Sono di Roma!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "intro": "Final one! / Ultima!",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🌆 Sono le 19:00",
+      "contesto_en": "🌆 It is 7 PM",
+      "domanda": {
+        "it": "Cosa dici?",
+        "en": "What do you say?"
+      },
+      "opzioni": [
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Le 19 → Buonasera!",
+        "en": "7 PM → Buonasera!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio_it": "Arrivederci",
+      "audio_en": "Goodbye",
+      "domanda": {
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        },
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Era Arrivederci!",
+        "en": "It was Arrivederci!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
+      "frase_it": "Piacere! _____ chiamo Sofia.",
+      "frase_en": "Nice to meet you! My name is Sofia.",
+      "opzioni": [
+        {
+          "it": "mi",
+          "en": "myself"
+        },
+        {
+          "it": "ti",
+          "en": "yourself"
+        },
+        {
+          "it": "si",
+          "en": "himself"
+        },
+        {
+          "it": "vi",
+          "en": "yourselves"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Mi chiamo!",
+        "en": "Mi chiamo!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
       "introIT": "Ultima!",
-      "intro_en": "Final one!",
+      "intro_en": "Last one!",
+      "contesto_it": "🏥 Dal dottore",
+      "contesto_en": "🏥 At the doctor",
       "domanda": {
-        "it": "'Cornetto' è la parola italiana per 'croissant'.",
-        "en": "'Cornetto' is the Italian word for 'croissant'."
+        "it": "Come saluti?",
+        "en": "How do you greet?"
       },
-      "correct": true,
-      "feedbackOk": { "it": "Bravissimo! Speed Round completato!", "en": "Excellent! Speed Round complete!" },
-      "feedbackErr": { "it": "Si! 'Cornetto' = croissant in italiano!", "en": "Yes! 'Cornetto' = croissant in Italian!" }
+      "opzioni": [
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "👔"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Perfetto!",
+        "en": "Perfect!"
+      },
+      "feedbackErr": {
+        "it": "Dal dottore → Buongiorno!",
+        "en": "At the doctor → Buongiorno!"
+      }
     }
   ]
 }

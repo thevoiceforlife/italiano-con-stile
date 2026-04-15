@@ -31,137 +31,70 @@ export default function BarraSecondaria({
   unitType = null,
 }) {
   return (
-    <div
-      className="barra-secondaria"
-      style={{
-        padding: "8px 0",
-        flexShrink: 0,
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "flex-start",
-          justifyContent: "space-between",
-          gap: 10,
-          minHeight: 40,
-        }}
-      >
+    <div className="barra-secondaria" style={{ padding: "10px 0 6px", flexShrink: 0 }}>
+      <div style={{
+        display: "flex", alignItems: "center", justifyContent: "space-between",
+        gap: 10, minHeight: 28,
+      }}>
         {/* Sinistra: counter */}
         <div style={{ lineHeight: 1.2, flexShrink: 0 }}>
-          <div
-            style={{
-              fontSize: 13,
-              fontWeight: 900,
-              color: "var(--primary)",
-              textTransform: "uppercase",
-              letterSpacing: "1px",
-            }}
-          >
-            {labelIT} {current}/{total}
+          <div style={{
+            fontSize: 11, fontWeight: 700, color: "var(--green)",
+            letterSpacing: "0.3px",
+          }}>
+            {labelIT.toUpperCase()} {current}/{total}
           </div>
-          <div
-            style={{
-              fontSize: 11,
-              fontWeight: 700,
-              color: "var(--text3)",
-              textTransform: "uppercase",
-              letterSpacing: "1px",
-              fontStyle: "italic",
-            }}
-          >
+          <div style={{
+            fontSize: 10, color: "var(--text3)", fontStyle: "italic",
+          }}>
             {labelEN} {current}/{total}
           </div>
         </div>
 
-        {/* Destra: fase + badge unità */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "flex-end",
-            gap: 4,
-            minWidth: 0,
-          }}
-        >
+        {/* Destra: fase badge + unitType */}
+        <div style={{
+          display: "flex", alignItems: "center", gap: 6, flexShrink: 0,
+        }}>
           {fase && fase.it && (
-            <div style={{ textAlign: "right", lineHeight: 1.15 }}>
-              <div
-                style={{
-                  color: "var(--text2)",
-                  fontWeight: 700,
-                  fontSize: 12,
-                  textTransform: "none",
-                  letterSpacing: "normal",
-                }}
-              >
-                {fase.it}
-              </div>
-              {fase.en && (
-                <div
-                  style={{
-                    color: "var(--text3)",
-                    fontWeight: 600,
-                    fontSize: 10,
-                    fontStyle: "italic",
-                    textTransform: "none",
-                    letterSpacing: "normal",
-                  }}
-                >
-                  {fase.en}
-                </div>
-              )}
+            <div style={{
+              fontSize: 10, fontWeight: 700,
+              padding: "3px 10px", borderRadius: 20,
+              background: "rgba(28,176,246,0.15)",
+              color: "var(--blue)",
+              border: "1px solid rgba(28,176,246,0.25)",
+              textTransform: "none", letterSpacing: "normal",
+              whiteSpace: "nowrap",
+            }}>
+              {fase.it}
             </div>
           )}
           {unitType && (
-            <div
-              style={{
-                fontSize: 11,
-                fontWeight: 800,
-                color: unitType.color,
-                background: `${unitType.color}22`,
-                border: `1px solid ${unitType.color}55`,
-                borderRadius: 99,
-                padding: "2px 8px",
-                textAlign: "center",
-                lineHeight: 1.15,
-                textTransform: "none",
-                letterSpacing: "normal",
-                whiteSpace: "nowrap",
-              }}
-            >
-              <div>
-                {unitType.emoji} {unitType.it}
-              </div>
-              {unitType.en && (
-                <div style={{ fontSize: 9, fontStyle: "italic", opacity: 0.85, fontWeight: 600 }}>
-                  {unitType.en}
-                </div>
-              )}
+            <div style={{
+              fontSize: 10, fontWeight: 800,
+              color: unitType.color,
+              background: `${unitType.color}22`,
+              border: `1px solid ${unitType.color}55`,
+              borderRadius: 20,
+              padding: "3px 8px",
+              textTransform: "none", letterSpacing: "normal",
+              whiteSpace: "nowrap",
+            }}>
+              {unitType.emoji} {unitType.it}
             </div>
           )}
         </div>
       </div>
 
-      {/* Progress bar: 4px */}
-      <div
-        style={{
-          height: 4,
-          background: "var(--border)",
-          borderRadius: 99,
-          overflow: "hidden",
-          marginTop: 8,
-        }}
-      >
-        <div
-          style={{
-            width: `${Math.max(0, Math.min(100, progress))}%`,
-            height: "100%",
-            background: "var(--primary)",
-            borderRadius: 99,
-            transition: "width 0.4s ease",
-          }}
-        />
+      {/* Progress bar: 6px */}
+      <div style={{
+        height: 6, background: "var(--border-soft)",
+        borderRadius: 3, overflow: "hidden", marginTop: 8,
+      }}>
+        <div style={{
+          width: `${Math.max(0, Math.min(100, progress))}%`,
+          height: "100%", background: "var(--green)", borderRadius: 3,
+          transition: "width 0.4s ease",
+        }} />
       </div>
     </div>
   );

@@ -1,255 +1,254 @@
 {
-  "id": 4,
-  "title": "La Cultura del Cibo",
-  "titleEN": "The Culture of Food",
-  "subtitle": "L'ordine dei piatti — sacro e intoccabile",
-  "subtitleEN": "The order of courses — sacred and untouchable",
-  "livello": "Turista",
+  "id": "A1-unit1-lesson4",
+  "title": "Saluti — ascolta",
+  "title_en": "Greetings — listen",
   "type": "ascolto",
   "icon": "🎧",
+  "unita_tipo": "scopri",
   "reward": {
-    "slot": "aperitivo",
-    "crediti": 8,
-    "pool": [
-      { "emoji": "🍹", "nome": "Aperol Spritz", "nomeEN": "Aperol Spritz" },
-      { "emoji": "🍋", "nome": "Limoncello", "nomeEN": "Limoncello" },
-      { "emoji": "🥂", "nome": "Prosecco", "nomeEN": "Prosecco" },
-      { "emoji": "🍷", "nome": "Negroni", "nomeEN": "Negroni" }
-    ]
+    "type": "slot",
+    "credits": 5,
+    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
   },
-  "vocab": [
+  "vocab": [],
+  "pillole": [
     {
-      "id": "primo",
-      "emoji": "🍝",
-      "it": "Il primo (piatto)",
-      "en": "The first course (pasta/soup)",
-      "audio_text": "Il primo piatto",
-      "mario_it": "Il primo è la pasta o la zuppa. A Napoli il primo è sacro — non si salta mai!",
-      "mario_en": "The first course is pasta or soup. In Naples, the primo is sacred — never skip it!"
-    },
-    {
-      "id": "secondo",
-      "emoji": "🥩",
-      "it": "Il secondo (piatto)",
-      "en": "The second course (meat/fish)",
-      "audio_text": "Il secondo piatto",
-      "mario_it": "Il secondo è carne o pesce. Viene dopo il primo, mai insieme!",
-      "mario_en": "The second course is meat or fish. It comes after the primo, never together!"
-    },
-    {
-      "id": "contorno",
-      "emoji": "🥗",
-      "it": "Il contorno",
-      "en": "The side dish",
-      "audio_text": "Il contorno",
-      "mario_it": "Il contorno accompagna il secondo. Insalata, patate, verdure grigliate!",
-      "mario_en": "The contorno is the vegetable side dish. Salad, potatoes, grilled vegetables!"
-    },
-    {
-      "id": "dolce",
-      "emoji": "🍰",
-      "it": "Il dolce",
-      "en": "The dessert",
-      "audio_text": "Il dolce",
-      "mario_it": "Il dolce chiude il pasto. A Napoli il babà è il re dei dolci!",
-      "mario_en": "Dessert closes the meal. In Naples, babà is the king of desserts!"
-    },
-    {
-      "id": "antipasto",
-      "emoji": "🧀",
-      "it": "L'antipasto",
-      "en": "The appetizer",
-      "audio_text": "L'antipasto",
-      "mario_it": "L'antipasto viene prima del primo. Bruschette, mozzarella, salumi!",
-      "mario_en": "The antipasto comes before the primo. Bruschetta, mozzarella, cold cuts!"
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché l'italiano suona così musicale?",
+      "domanda_en": "Why does Italian sound so musical?",
+      "titolo_it": "La musicalità dell'italiano",
+      "titolo_en": "The musicality of Italian",
+      "corpo_it": "L'italiano finisce quasi sempre con una vocale — questo crea un flusso melodico naturale. Non è un caso che l'opera sia nata in Italia! Ogni parola respira e risuona.",
+      "corpo_en": "Italian almost always ends with a vowel — this creates a natural melodic flow. It is no coincidence that opera was born in Italy! Every word breathes and resonates.",
+      "esempio_it": "Bu-on-gior-no · Ar-ri-ve-der-ci · Pia-ce-re",
+      "esempio_en": "Every syllable sings — that is Italian!"
     }
   ],
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "intro": "Time to eat! / Ora si mangia!",
-      "introIT": "Ora si mangia!",
-      "intro_en": "Time to eat!",
+      "introIT": "Ascolta e scegli!",
+      "intro_en": "Listen and choose!",
+      "audio_it": "Buongiorno",
+      "audio_en": "Good morning",
       "domanda": {
-        "it": "Qual è l'ordine corretto dei piatti in un pasto italiano?",
-        "en": "What is the correct order of courses in an Italian meal?"
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
       },
       "opzioni": [
-        {"it":"Secondo → Primo → Dolce","en":"Second → First → Dessert"},
-        {"it":"Antipasto → Primo → Secondo → Dolce","en":"Appetizer → First → Second → Dessert"},
-        {"it":"Dolce → Primo → Secondo","en":"Dessert → First → Second"},
-        {"it":"Primo → Antipasto → Dolce → Secondo","en":"First → Appetizer → Dessert → Second"}
+        { "it": "Buongiorno", "en": "Good morning" },
+        { "it": "Buonasera", "en": "Good evening" },
+        { "it": "Buonanotte", "en": "Good night" }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Antipasto → Primo → Secondo (+ Contorno) → Dolce. L'ordine è sacro!",
-        "en": "Perfect! Antipasto → Primo → Secondo (+ Contorno) → Dolce. The order is sacred!"
+        "it": "Esatto! Hai sentito Buongiorno!",
+        "en": "Correct! You heard Buongiorno!"
       },
       "feedbackErr": {
-        "it": "L'ordine corretto è: Antipasto → Primo → Secondo → Dolce. Mai mischiare!",
-        "en": "The correct order is: Antipasto → Primo → Secondo → Dolce. Never mix!"
+        "it": "No! Era Buongiorno — ascolta ancora!",
+        "en": "No! It was Buongiorno — listen again!"
       }
     },
     {
-      "id": 2,
+      "id": "q2",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "intro": "What's the primo? / Cos'è il primo?",
-      "introIT": "Cos'è il primo?",
-      "intro_en": "What's the primo?",
+      "introIT": "Ancora — ascolta bene!",
+      "intro_en": "Again — listen carefully!",
+      "audio_it": "Arrivederci",
+      "audio_en": "Goodbye",
       "domanda": {
-        "it": "'Il primo' in un pasto italiano è...",
-        "en": "'Il primo' in an Italian meal is..."
+        "it": "Cosa ha detto Mario?",
+        "en": "What did Mario say?"
       },
-      "opzioni": [{"it":"Carne o pesce","en":"Meat or fish"},{"it":"Pasta o minestra","en":"Pasta or soup"},{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Esatto! Il primo = pasta o zuppa. Il piatto piu importante per ogni italiano!",
-        "en": "Correct! Il primo = pasta or soup. The most important dish for every Italian!"
-      },
-      "feedbackErr": {
-        "it": "Il primo è la pasta o la zuppa. La carne o il pesce è il 'secondo'.",
-        "en": "Il primo is pasta or soup. Meat or fish is 'il secondo'."
-      }
-    },
-    {
-      "id": 3,
-      "personaggio": "sofia",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Vero o falso? / True or false?",
-      "introIT": "Vero o falso?",
-      "intro_en": "True or false?",
-      "domanda": {
-        "it": "In Italia, primo e secondo si servono nello stesso piatto.",
-        "en": "In Italy, first and second course are served on the same plate."
-      },
-      "correct": false,
-      "feedbackOk": {
-        "it": "Esatto! MAI nello stesso piatto. Primo e secondo sono due piatti separati.",
-        "en": "Correct! NEVER on the same plate. Primo and secondo are two separate courses."
-      },
-      "feedbackErr": {
-        "it": "Falso! In Italia il primo e il secondo sono SEMPRE separati. Mai mescolarli!",
-        "en": "False! In Italy primo and secondo are ALWAYS separate. Never mix them!"
-      }
-    },
-    {
-      "id": 4,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "A food history question! / Una domanda di storia del cibo!",
-      "introIT": "Sai cosa significa 'antipasto'?",
-      "intro_en": "Do you know what 'antipasto' means?",
-      "domanda": {
-        "it": "'Antipasto' letteralmente significa...",
-        "en": "'Antipasto' literally means..."
-      },
-      "opzioni": ["After the meal", "Before the meal", "Without a meal", "The main meal"],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Bravo! 'Anti' = before, 'pasto' = meal. L'antipasto viene prima di tutto!",
-        "en": "Well done! 'Anti' = before, 'pasto' = meal. The antipasto comes before everything!"
-      },
-      "feedbackErr": {
-        "it": "'Anti' = before, 'pasto' = meal. Quindi 'antipasto' = before the meal!",
-        "en": "'Anti' = before, 'pasto' = meal. So 'antipasto' = before the meal!"
-      }
-    },
-    {
-      "id": 5,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "What's the contorno? / Cos'è il contorno?",
-      "introIT": "È il contorno?",
-      "intro_en": "And the contorno?",
-      "domanda": {
-        "it": "Il contorno è...",
-        "en": "The contorno is..."
-      },
-      "opzioni": [{"it":"Il piatto principale","en":"The main course"},{"it":"L'antipasto","en":"The appetizer"},{"it":"Il contorno","en":"The side dish"},{"it":"Il dolce","en":"The dessert"}],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Esatto! Il contorno sono le verdure che accompagnano il secondo.",
-        "en": "Correct! The contorno is the vegetables that accompany the second course."
-      },
-      "feedbackErr": {
-        "it": "Il contorno è il piatto di verdure accanto al secondo. Insalata, patate, verdure grigliate.",
-        "en": "The contorno is the vegetable dish alongside the secondo. Salad, potatoes, grilled vegetables."
-      }
-    },
-    {
-      "id": 6,
-      "personaggio": "diego",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Questa è culturale! / This is a cultural one!",
-      "introIT": "Questa è culturale!",
-      "intro_en": "This is a cultural one!",
-      "domanda": {
-        "it": "A Napoli, il babà è considerato il re dei dolci.",
-        "en": "In Naples, babà is considered the king of desserts."
-      },
-      "correct": true,
-      "feedbackOk": {
-        "it": "Esatto! Il babà napoletano è leggendario — imbevuto di rum e irresistibile!",
-        "en": "Correct! Neapolitan babà is legendary — soaked in rum and irresistible!"
-      },
-      "feedbackErr": {
-        "it": "È vero! Il babà è il dolce più iconico di Napoli — da provare assolutamente!",
-        "en": "It's true! Baba is the most iconic dessert of Naples — a must-try!"
-      }
-    },
-    {
-      "id": 7,
-      "personaggio": "mario",
-      "tipo": "abbina_coppia",
-      "fase": "produzione",
-      "intro": "Match the courses! / Abbina i piatti!",
-      "introIT": "Abbina i piatti al significato!",
-      "intro_en": "Match the courses to their meaning!",
-      "domanda": {
-        "it": "Abbina ogni piatto alla sua categoria.",
-        "en": "Match each dish to its category."
-      },
-      "coppie": [
-        { "it": "Il primo", "en": "Pasta or soup" },
-        { "it": "Il secondo", "en": "Meat or fish" },
-        { "it": "Il contorno", "en": "Side dish" },
-        { "it": "Il dolce", "en": "Dessert" }
+      "opzioni": [
+        { "it": "Piacere", "en": "Nice to meet you" },
+        { "it": "Arrivederci", "en": "Goodbye" },
+        { "it": "Buongiorno", "en": "Good morning" }
       ],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! Ora conosci l'ordine sacro del pasto italiano!",
-        "en": "Perfect! Now you know the sacred order of the Italian meal!"
+        "it": "Sì! Arrivederci — hai un orecchio fino!",
+        "en": "Yes! Arrivederci — you have a good ear!"
+      },
+      "feedbackErr": {
+        "it": "No! Era Arrivederci — riascolta!",
+        "en": "No! It was Arrivederci — listen again!"
       }
     },
     {
-      "id": 8,
+      "id": "q3",
       "personaggio": "mario",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Final question! / Ultima domanda!",
-      "introIT": "Ultima domanda!",
-      "intro_en": "Final question!",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Concentrati!",
+      "intro_en": "Focus!",
+      "audio_it": "Piacere",
+      "audio_en": "Nice to meet you",
       "domanda": {
-        "it": "Sei al ristorante. Hai finito il primo. Cosa viene dopo?",
-        "en": "You're at the restaurant. You finished the primo. What comes next?"
+        "it": "Quale parola hai sentito?",
+        "en": "Which word did you hear?"
       },
-      "opzioni": [{"it":"Il dolce","en":"Dessert"},{"it":"L'antipasto","en":"Appetizer"},{"it":"Il secondo","en":"Second course"},{"it":"Il caffè","en":"Coffee"}],
-      "correct": 2,
+      "opzioni": [
+        { "it": "Piacere", "en": "Nice to meet you" },
+        { "it": "Per favore", "en": "Please" },
+        { "it": "Arrivederci", "en": "Goodbye" }
+      ],
+      "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Dopo il primo viene il secondo (carne o pesce), poi il dolce, poi il caffè!",
-        "en": "Correct! After the primo comes il secondo (meat or fish), then dessert, then coffee!"
+        "it": "Bravo! Piacere — al primo incontro!",
+        "en": "Well done! Piacere — at the first meeting!"
       },
       "feedbackErr": {
-        "it": "Dopo il primo viene il secondo! L'ordine: Antipasto → Primo → Secondo → Dolce → Caffe.",
-        "en": "After the primo comes il secondo! The order: Antipasto → Primo → Secondo → Dolce → Coffee."
+        "it": "No! Era Piacere — ascolta la differenza!",
+        "en": "No! It was Piacere — listen to the difference!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Frase intera — ascolta!",
+      "intro_en": "Full phrase — listen!",
+      "audio_it": "Mi chiamo Mario",
+      "audio_en": "My name is Mario",
+      "domanda": {
+        "it": "Cosa sta dicendo Mario?",
+        "en": "What is Mario saying?"
+      },
+      "opzioni": [
+        { "it": "Si sta presentando", "en": "He is introducing himself" },
+        { "it": "Sta salutando", "en": "He is greeting" },
+        { "it": "Sta andando via", "en": "He is leaving" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Mi chiamo — si sta presentando!",
+        "en": "Correct! Mi chiamo — he is introducing himself!"
+      },
+      "feedbackErr": {
+        "it": "No! Mi chiamo Mario — si presenta!",
+        "en": "No! Mi chiamo Mario — he is introducing himself!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta la situazione!",
+      "intro_en": "Listen to the situation!",
+      "audio_it": "Sono di Napoli",
+      "audio_en": "I am from Naples",
+      "domanda": {
+        "it": "Cosa sta dicendo Mario?",
+        "en": "What is Mario saying?"
+      },
+      "opzioni": [
+        { "it": "Dice il suo nome", "en": "He is saying his name" },
+        { "it": "Dice da dove viene", "en": "He is saying where he is from" },
+        { "it": "Sta salutando", "en": "He is greeting" }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Sono di Napoli — dice la sua origine!",
+        "en": "Yes! Sono di Napoli — he is saying his origin!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono di Napoli — dice da dove viene!",
+        "en": "No! Sono di Napoli — he is saying where he is from!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Frase completa!",
+      "intro_en": "Full sentence!",
+      "audio_it": "Piacere mi chiamo Sofia",
+      "audio_en": "Nice to meet you my name is Sofia",
+      "domanda": {
+        "it": "Quante informazioni ha dato Sofia?",
+        "en": "How much information did Sofia give?"
+      },
+      "opzioni": [
+        { "it": "Solo il saluto", "en": "Only the greeting" },
+        { "it": "Saluto e nome", "en": "Greeting and name" },
+        { "it": "Nome e origine", "en": "Name and origin" }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Perfetto! Piacere + mi chiamo — saluto e nome!",
+        "en": "Perfect! Piacere + mi chiamo — greeting and name!"
+      },
+      "feedbackErr": {
+        "it": "No! Piacere = saluto, mi chiamo = nome — due info!",
+        "en": "No! Piacere = greeting, mi chiamo = name — two info!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ascolta e rispondi!",
+      "intro_en": "Listen and reply!",
+      "audio_it": "Di dove sei",
+      "audio_en": "Where are you from",
+      "domanda": {
+        "it": "Mario ti ha chiesto...?",
+        "en": "Mario asked you...?"
+      },
+      "opzioni": [
+        { "it": "Come ti chiami", "en": "What your name is" },
+        { "it": "Da dove vieni", "en": "Where you are from" },
+        { "it": "Come stai", "en": "How you are" }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Di dove sei — chiede la tua origine!",
+        "en": "Correct! Di dove sei — asks your origin!"
+      },
+      "feedbackErr": {
+        "it": "No! Di dove sei chiede la tua origine!",
+        "en": "No! Di dove sei asks your origin!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you have got this!",
+      "audio_it": "Buonasera piacere sono di Londra",
+      "audio_en": "Good evening nice to meet you I am from London",
+      "domanda": {
+        "it": "Quante informazioni hai sentito?",
+        "en": "How many pieces of information did you hear?"
+      },
+      "opzioni": [
+        { "it": "Una — solo il saluto", "en": "One — only the greeting" },
+        { "it": "Due — saluto e origine", "en": "Two — greeting and origin" },
+        { "it": "Tre — saluto, presentazione e origine", "en": "Three — greeting, introduction and origin" }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Perfetto! Buonasera + piacere + sono di Londra — tre info!",
+        "en": "Perfect! Buonasera + piacere + sono di Londra — three pieces!"
+      },
+      "feedbackErr": {
+        "it": "No! Buonasera, piacere, sono di Londra — tre informazioni!",
+        "en": "No! Buonasera, piacere, sono di Londra — three pieces of information!"
       }
     }
   ]

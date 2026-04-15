@@ -99,7 +99,8 @@
       "fase": "comprensione",
       "introIT": "Ascolta la Nonna!",
       "intro_en": "Listen to Nonna!",
-      "audio": "Benvenuto! Prego, si accomodi!",
+      "audio_it": "Benvenuto! Prego, si accomodi!",
+      "audio_en": "Welcome! Please, have a seat!",
       "domanda": {
         "it": "Cosa sta dicendo la Nonna?",
         "en": "What is Nonna saying?"
@@ -136,7 +137,7 @@
       "introIT": "Completa!",
       "intro_en": "Complete!",
       "frase_it": "Grazie _____, Nonna!",
-      "frase_en": "Thank you _____, Nonna!",
+      "frase_en": "Thank you very much, Nonna!",
       "opzioni": [
         {
           "it": "mille",
@@ -196,12 +197,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "La Nonna applaude! Perfetto!",
-        "en": "Nonna applauds! Perfect!"
+        "it": "Piacere + mi chiamo — una formula molto comune per presentarsi!",
+        "en": "Piacere + mi chiamo — a very common formula for introductions!"
       },
       "feedbackErr": {
-        "it": "Piacere + mi chiamo — sempre così!",
-        "en": "Piacere + mi chiamo — always like this!"
+        "it": "Piacere + mi chiamo — una formula molto comune per presentarsi!",
+        "en": "Piacere + mi chiamo — a very common formula for introductions!"
       }
     },
     {
@@ -211,7 +212,8 @@
       "fase": "comprensione",
       "introIT": "Ascolta Marco!",
       "intro_en": "Listen to Marco!",
-      "audio": "Piacere, mi chiamo Marco.",
+      "audio_it": "Piacere, mi chiamo Marco.",
+      "audio_en": "Nice to meet you, my name is Marco.",
       "domanda": {
         "it": "Cosa ha detto Marco?",
         "en": "What did Marco say?"
@@ -248,7 +250,7 @@
       "introIT": "Completa per la Nonna!",
       "intro_en": "Complete for Nonna!",
       "frase_it": "Lavoro _____ insegnante.",
-      "frase_en": "I work _____ a teacher.",
+      "frase_en": "I work as a teacher.",
       "opzioni": [
         {
           "it": "come",
@@ -309,12 +311,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "La Nonna è felice!",
-        "en": "Nonna is happy!"
+        "it": "La Nonna è felicissima! Accettare è un gesto di calore in Italia.",
+        "en": "Nonna is so happy! Accepting is a warm gesture in Italy."
       },
       "feedbackErr": {
-        "it": "Con la Nonna si accetta sempre!",
-        "en": "With Nonna you always accept!"
+        "it": "Accettare il cibo offerto è un gesto di gentilezza molto apprezzato in Italia.",
+        "en": "Accepting offered food is a very appreciated gesture of kindness in Italy."
       }
     },
     {

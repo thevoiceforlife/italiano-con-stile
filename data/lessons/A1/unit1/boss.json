@@ -1,254 +1,311 @@
 {
-  "id": "boss",
-  "title": "Sfida la Nonna",
-  "titleEN": "Challenge the Grandma",
-  "subtitle": "10 domande — il gelato ti aspetta!",
-  "subtitleEN": "10 questions — gelato awaits!",
-  "livello": "Turista",
+  "id": "A1-unit1-boss",
+  "title": "Sfida la Nonna Vittoria",
+  "title_en": "Challenge Nonna Vittoria",
   "type": "boss",
   "icon": "🏆",
+  "unita_tipo": "scopri",
   "reward": {
     "type": "gelato_nonna",
-    "slot": "dolce",
-    "crediti": 30,
     "tiers": [
-      { "min": 0,  "max": 10, "gusti": 1, "icon": "🍦", "energia": 5,  "label_it": "1 gusto",            "label_en": "1 flavour" },
-      { "min": 11, "max": 20, "gusti": 2, "icon": "🍨", "energia": 12, "label_it": "2 gusti",            "label_en": "2 flavours" },
-      { "min": 21, "max": 99, "gusti": 3, "icon": "🍧", "energia": 20, "label_it": "3 gusti con panna", "label_en": "3 flavours with cream" }
+      {
+        "min": 0,
+        "max": 10,
+        "gusti": 1,
+        "icon": "🍦",
+        "energia": 5,
+        "label_it": "1 gusto",
+        "label_en": "1 flavour"
+      },
+      {
+        "min": 11,
+        "max": 20,
+        "gusti": 2,
+        "icon": "🍨",
+        "energia": 12,
+        "label_it": "2 gusti",
+        "label_en": "2 flavours"
+      },
+      {
+        "min": 21,
+        "max": 99,
+        "gusti": 3,
+        "icon": "🍧",
+        "energia": 20,
+        "label_it": "3 gusti con panna",
+        "label_en": "3 flavours with cream"
+      }
     ]
   },
   "vocab": [],
+  "pillole": [],
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "personaggio": "vittoria",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Vediamo se hai imparato qualcosa! / Let's see if you learned something!",
-      "introIT": "Vediamo se hai imparato qualcosa!",
-      "intro_en": "Let's see if you learned something!",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Vediamo cosa hai imparato!",
+      "intro_en": "Let us see what you have learned!",
+      "contesto_it": "🌅 Sono le 9 di mattina",
+      "contesto_en": "🌅 It is 9 in the morning",
       "domanda": {
-        "it": "Entri in un bar a Napoli la mattina. Cosa dici?",
-        "en": "You enter a bar in Naples in the morning. What do you say?"
-      },
-      "opzioni": [{"it":"Buonasera!","en":"Good evening!"},{"it":"Ciao, vorrei un caffè","en":"Hi, I'd like a coffee"},{"it":"Buongiorno, vorrei un caffè, per favore","en":"Good morning, I'd like a coffee, please"},{"it":"Caffè!","en":"Coffee!"}],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Bene! 'Buongiorno' la mattina + 'vorrei' + 'per favore'. Perfetto!",
-        "en": "Good! 'Buongiorno' in the morning + 'vorrei' + 'per favore'. Perfect!"
-      },
-      "feedbackErr": {
-        "it": "La mattina si dice 'Buongiorno' e si ordina con 'vorrei... per favore'.",
-        "en": "In the morning you say 'Buongiorno' and order with 'vorrei... per favore'."
-      }
-    },
-    {
-      "id": 2,
-      "personaggio": "vittoria",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Il caffè a Napoli... / Coffee in Naples...",
-      "introIT": "Il caffè a Napoli...",
-      "intro_en": "Coffee in Naples...",
-      "domanda": {
-        "it": "A Napoli, 'un caffè' significa un cappuccino grande.",
-        "en": "In Naples, 'un caffè' means a large cappuccino."
-      },
-      "correct": false,
-      "feedbackOk": {
-        "it": "Brava! A Napoli 'un caffè' è SEMPRE un espresso!",
-        "en": "Good! In Naples 'un caffè' is ALWAYS an espresso!"
-      },
-      "feedbackErr": {
-        "it": "No! A Napoli 'un caffè' = espresso, sempre. Il cappuccino si chiede a parte.",
-        "en": "No! In Naples 'un caffè' = espresso, always. Cappuccino is ordered separately."
-      }
-    },
-    {
-      "id": 3,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Direzioni! / Directions!",
-      "introIT": "Sai orientarti?",
-      "intro_en": "Can you find your way?",
-      "domanda": {
-        "it": "Come chiedi dove si trova la stazione?",
-        "en": "How do you ask where the station is?"
-      },
-      "opzioni": [{"it":"Quanto costa la stazione?","en":"How much is the station?"},{"it":"Dov'è la stazione?","en":"Where is the station?"},{"it":"Vorrei la stazione","en":"I'd like the station"},{"it":"A destra stazione","en":"Right station"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Bene! 'Dov'è...?' è la domanda giusta per chiedere un luogo.",
-        "en": "Good! 'Dov'è...?' is the right question to ask for a place."
-      },
-      "feedbackErr": {
-        "it": "'Dov'è la stazione?' — 'Dov'è' per chiedere dove si trova qualcosa.",
-        "en": "'Dov'è la stazione?' — 'Dov'è' to ask where something is."
-      }
-    },
-    {
-      "id": 4,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "I piatti italiani! / Italian courses!",
-      "introIT": "I piatti italiani!",
-      "intro_en": "Italian courses!",
-      "domanda": {
-        "it": "Qual è l'ordine corretto del pasto italiano?",
-        "en": "What's the correct order of an Italian meal?"
+        "it": "La Nonna ti accoglie. Cosa dici?",
+        "en": "Nonna welcomes you. What do you say?"
       },
       "opzioni": [
-        {"it":"Secondo → Primo → Dolce","en":"Second → First → Dessert"},
-        {"it":"Antipasto → Primo → Secondo → Dolce","en":"Appetizer → First → Second → Dessert"},
-        {"it":"Dolce → Primo → Secondo","en":"Dessert → First → Second"},
-        {"it":"Primo → Antipasto → Secondo","en":"First → Appetizer → Second"}
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "La Nonna sorride! Buongiorno — perfetto!",
+        "en": "Nonna smiles! Buongiorno — perfect!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono le 9 — Buongiorno!",
+        "en": "No! It is 9 AM — Buongiorno!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "La Nonna vuole sapere il tuo nome!",
+      "intro_en": "Nonna wants to know your name!",
+      "frase_it": "Piacere! Mi _____ Sofia.",
+      "frase_en": "Nice to meet you! My name is Sofia.",
+      "opzioni": [
+        {
+          "it": "chiamo",
+          "en": "call"
+        },
+        {
+          "it": "sono",
+          "en": "am"
+        },
+        {
+          "it": "vado",
+          "en": "go"
+        },
+        {
+          "it": "piace",
+          "en": "like"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "La Nonna annuisce! Mi chiamo — corretto!",
+        "en": "Nonna nods! Mi chiamo — correct!"
+      },
+      "feedbackErr": {
+        "it": "No! Mi chiamo Sofia — mi chiamo per il nome!",
+        "en": "No! Mi chiamo Sofia — mi chiamo for your name!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "La Nonna è curiosa!",
+      "intro_en": "Nonna is curious!",
+      "frase_it": "_____ di Londra.",
+      "frase_en": "I am from London.",
+      "opzioni": [
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Piacere",
+          "en": "nice to meet you"
+        },
+        {
+          "it": "Ciao",
+          "en": "hi"
+        },
+        {
+          "it": "Vado",
+          "en": "go"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "La Nonna è colpita! Sono di Londra — perfetto!",
+        "en": "Nonna is impressed! Sono di Londra — perfect!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono di Londra — sono di + città!",
+        "en": "No! Sono di Londra — sono di + city!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "La Nonna ti presenta a qualcuno!",
+      "intro_en": "Nonna introduces you to someone!",
+      "contesto_it": "🤝 Incontri l'amica della Nonna",
+      "contesto_en": "🤝 You meet Nonna's friend",
+      "domanda": {
+        "it": "Cosa dici alla nuova persona?",
+        "en": "What do you say to the new person?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! Antipasto → Primo → Secondo (+ Contorno) → Dolce!",
-        "en": "Perfect! Antipasto → Primo → Secondo (+ Contorno) → Dolce!"
+        "it": "Bravissimo! Piacere — primo incontro!",
+        "en": "Excellent! Piacere — first meeting!"
       },
       "feedbackErr": {
-        "it": "L'ordine sacro: Antipasto → Primo → Secondo → Dolce!",
-        "en": "The sacred order: Antipasto → Primo → Secondo → Dolce!"
+        "it": "No! Al primo incontro: Piacere!",
+        "en": "No! At the first meeting: Piacere!"
       }
     },
     {
-      "id": 5,
+      "id": "q5",
       "personaggio": "vittoria",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Una domanda sulla cultura! / A cultural question!",
-      "introIT": "Una domanda sulla cultura!",
-      "intro_en": "A cultural question!",
-      "domanda": {
-        "it": "'Ciao' si puo usare sia per salutare che per congedarsi.",
-        "en": "'Ciao' can be used both for greeting and saying goodbye."
-      },
-      "correct": true,
-      "feedbackOk": {
-        "it": "Esatto! 'Ciao' = hello AND goodbye. Comodissimo!",
-        "en": "Correct! 'Ciao' = hello AND goodbye. Very handy!"
-      },
-      "feedbackErr": {
-        "it": "Si! 'Ciao' funziona sia per arrivare che per andare.",
-        "en": "Yes! 'Ciao' works for both arriving and leaving."
-      }
-    },
-    {
-      "id": 6,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "ascolta_scegli",
       "fase": "produzione",
-      "intro": "Rispondi alla Nonna! / Answer Grandma!",
-      "introIT": "Rispondi alla Nonna!",
-      "intro_en": "Answer Grandma!",
+      "introIT": "La Nonna parla — ascolta!",
+      "intro_en": "Nonna speaks — listen!",
+      "audio_it": "Di dove sei",
+      "audio_en": "Where are you from",
       "domanda": {
-        "it": "La Nonna ti offre il caffè. Tu rispondi 'Grazie!' Lei dice...",
-        "en": "Grandma offers you coffee. You say 'Grazie!' She says..."
+        "it": "Cosa ti ha chiesto la Nonna?",
+        "en": "What did Nonna ask you?"
       },
-      "opzioni": [{"it":"Ciao!","en":"Hello!"},{"it":"Buongiorno!","en":"Good morning!"},{"it":"Prego!","en":"You're welcome!"},{"it":"Scusa!","en":"Sorry!"}],
-      "correct": 2,
+      "opzioni": [
+        {
+          "it": "Il tuo nome",
+          "en": "Your name"
+        },
+        {
+          "it": "La tua origine",
+          "en": "Your origin"
+        },
+        {
+          "it": "La tua età",
+          "en": "Your age"
+        }
+      ],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Brava! 'Prego' = you're welcome. La risposta automatica a 'Grazie'.",
-        "en": "Good! 'Prego' = you're welcome. The automatic reply to 'Grazie'."
+        "it": "Sì! Di dove sei — la tua origine!",
+        "en": "Yes! Di dove sei — your origin!"
       },
       "feedbackErr": {
-        "it": "Dopo 'Grazie' si risponde 'Prego!' — come 'you're welcome'.",
-        "en": "After 'Grazie' you reply 'Prego!' — like 'you're welcome'."
+        "it": "No! Di dove sei chiede la tua origine!",
+        "en": "No! Di dove sei asks your origin!"
       }
     },
     {
-      "id": 7,
+      "id": "q6",
       "personaggio": "vittoria",
-      "tipo": "multipla",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "intro": "Al bar della Nonna! / At Grandma's bar!",
-      "introIT": "Al bar della Nonna!",
-      "intro_en": "At Grandma's bar!",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
+      "contesto_it": "🌆 Sono le 20:00",
+      "contesto_en": "🌆 It is 8 PM",
       "domanda": {
-        "it": "Vuoi sapere il prezzo del cornetto. Come chiedi?",
-        "en": "You want to know the price of the croissant. How do you ask?"
+        "it": "La Nonna ti saluta. Come risponde?",
+        "en": "Nonna greets you. How do you reply?"
       },
-      "opzioni": [{"it":"Dov'è il cornetto?","en":"Where is the croissant?"},{"it":"Vorrei il cornetto","en":"I'd like the croissant"},{"it":"Quanto costa il cornetto?","en":"How much is the croissant?"},{"it":"Il cornetto, prego","en":"The croissant, please"}],
-      "correct": 2,
+      "opzioni": [
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
+        }
+      ],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! 'Quanto costa?' = How much does it cost?",
-        "en": "Perfect! 'Quanto costa?' = How much does it cost?"
+        "it": "La Nonna approva! Buonasera — corretto!",
+        "en": "Nonna approves! Buonasera — correct!"
       },
       "feedbackErr": {
-        "it": "'Quanto costa il cornetto?' — 'Quanto costa' per chiedere il prezzo.",
-        "en": "'Quanto costa il cornetto?' — 'Quanto costa' to ask the price."
+        "it": "No! Sono le 20:00 — Buonasera!",
+        "en": "No! It is 8 PM — Buonasera!"
       }
     },
     {
-      "id": 8,
+      "id": "q7",
       "personaggio": "vittoria",
-      "tipo": "vero_falso",
+      "tipo": "fill_blank",
       "fase": "produzione",
-      "intro": "Il secondo piatto... / The second course...",
-      "introIT": "Il secondo piatto...",
-      "intro_en": "The second course...",
-      "domanda": {
-        "it": "'Il secondo' in un pasto italiano è la pasta.",
-        "en": "'Il secondo' in an Italian meal is the pasta."
-      },
-      "correct": false,
+      "introIT": "Ultima domanda della Nonna!",
+      "intro_en": "Nonna's last question!",
+      "frase_it": "Mi chiamo Sofia. _____ di Londra.",
+      "frase_en": "My name is Sofia. I am from London.",
+      "opzioni": [
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Piacere",
+          "en": "nice to meet you"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "goodbye"
+        },
+        {
+          "it": "Ciao",
+          "en": "hi"
+        }
+      ],
+      "correct": 0,
       "feedbackOk": {
-        "it": "Brava! La pasta è il PRIMO. Il secondo è carne o pesce.",
-        "en": "Good! Pasta is the PRIMO. Il secondo is meat or fish."
+        "it": "La Nonna è conquistata! Sei pronto per Napoli!",
+        "en": "Nonna is won over! You are ready for Naples!"
       },
       "feedbackErr": {
-        "it": "No! La pasta è il primo. Il secondo è la carne o il pesce.",
-        "en": "No! Pasta is the primo. Il secondo is meat or fish."
-      }
-    },
-    {
-      "id": 9,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "Perso a Napoli! / Lost in Naples!",
-      "introIT": "Sei perso a Napoli!",
-      "intro_en": "You're lost in Naples!",
-      "domanda": {
-        "it": "Un napoletano dice 'sempre dritto'. Cosa significa?",
-        "en": "A Neapolitan says 'sempre dritto'. What does it mean?"
-      },
-      "opzioni": [{"it":"Gira a destra","en":"Turn right"},{"it":"Torna indietro","en":"Go back"},{"it":"Sempre dritto","en":"Straight ahead"},{"it":"Gira a sinistra","en":"Turn left"}],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Esatto! 'Sempre dritto' = straight ahead!",
-        "en": "Correct! 'Sempre dritto' = straight ahead!"
-      },
-      "feedbackErr": {
-        "it": "'Sempre dritto' = straight ahead. 'Sempre' = always, 'dritto' = straight.",
-        "en": "'Sempre dritto' = straight ahead. 'Sempre' = always, 'dritto' = straight."
-      }
-    },
-    {
-      "id": 10,
-      "personaggio": "vittoria",
-      "tipo": "multipla",
-      "fase": "produzione",
-      "intro": "L'ultima della Nonna! / Grandma's last one!",
-      "introIT": "L'ultima della Nonna!",
-      "intro_en": "Grandma's last question!",
-      "domanda": {
-        "it": "Sono le 20:00. Come saluti quando entri in un ristorante?",
-        "en": "It's 8 PM. How do you greet when entering a restaurant?"
-      },
-      "opzioni": [{"it":"Buongiorno","en":"Good morning"},{"it":"Buonanotte","en":"Good night"},{"it":"Buonasera","en":"Good evening"},{"it":"Ciao bello","en":"Hey handsome"}],
-      "correct": 2,
-      "feedbackOk": {
-        "it": "Perfetto! 'Buonasera' dal pomeriggio in poi. Sei pronto per Napoli!",
-        "en": "Perfect! 'Buonasera' from the afternoon onwards. You're ready for Naples!"
-      },
-      "feedbackErr": {
-        "it": "La sera si dice 'Buonasera'. 'Buonanotte' solo prima di dormire!",
-        "en": "In the evening you say 'Buonasera'. 'Buonanotte' only before sleeping!"
+        "it": "No! Sono di Londra — sono di + città!",
+        "en": "No! Sono di Londra — sono di + city!"
       }
     }
   ]

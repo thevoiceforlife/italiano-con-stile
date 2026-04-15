@@ -44,11 +44,20 @@ export default function LessonTopbar({ unita, lezione, confirmMsg }) {
     if (!nuovo) window.speechSynthesis?.cancel();
   }
 
+  const iconBtnStyle = {
+    width: 32, height: 32, borderRadius: "50%",
+    background: "var(--bg-el)", border: "1px solid var(--border-soft)",
+    fontSize: 14, cursor: "pointer",
+    display: "flex", alignItems: "center", justifyContent: "center",
+    flexShrink: 0,
+    fontFamily: "inherit",
+  };
   return (
-    <div className="app-topbar">
-      <button className="lesson-topbar__home" onClick={handleHome} aria-label="Home">
-        🏠
-      </button>
+    <div className="app-topbar" style={{
+      background: "var(--bg-deep)",
+      borderBottom: "1px solid var(--border-soft)",
+    }}>
+      <button onClick={handleHome} aria-label="Home" style={iconBtnStyle}>🏠</button>
       <div className="lesson-topbar__title">
         {isMobile ? (
           <div className="lesson-topbar__title-mobile">{titleMobile}</div>
@@ -60,9 +69,8 @@ export default function LessonTopbar({ unita, lezione, confirmMsg }) {
         )}
       </div>
       <button onClick={toggleAudio} title={audioOn ? "Audio on" : "Audio off"} style={{
-        background: "none", border: "1px solid var(--border)", borderRadius: 8,
-        padding: "4px 8px", fontSize: 16, cursor: "pointer",
-        color: audioOn ? "var(--special)" : "var(--text3)", flexShrink: 0,
+        ...iconBtnStyle,
+        color: audioOn ? "var(--accent)" : "var(--text3)",
       }}>
         {audioOn ? "🔊" : "🔕"}
       </button>

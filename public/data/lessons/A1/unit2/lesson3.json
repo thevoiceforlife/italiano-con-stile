@@ -79,7 +79,8 @@
       "fase": "riconoscimento",
       "introIT": "Ascolta Matilde!",
       "intro_en": "Listen to Matilde!",
-      "audio": "Ho trent'anni.",
+      "audio_it": "Ho trentanni.",
+      "audio_en": "I am thirty years old.",
       "domanda": {
         "it": "Cosa significa?",
         "en": "What does it mean?"
@@ -116,7 +117,7 @@
       "introIT": "Riempi il buco!",
       "intro_en": "Fill the blank!",
       "frase_it": "_____ 30 anni.",
-      "frase_en": "I _____ 30 years old.",
+      "frase_en": "I am 30 years old.",
       "opzioni": [
         {
           "it": "Ho",
@@ -141,8 +142,8 @@
         "en": "Correct! HO 30 anni — avere for age!"
       },
       "feedbackErr": {
-        "it": "Si usa HO — ho 30 anni!",
-        "en": "Use HO — ho 30 anni!"
+        "it": "In italiano l'età usa il verbo AVERE: ho 30 anni. In inglese si usa to be — I am 30. È una differenza importante!",
+        "en": "In Italian age uses the verb AVERE: ho 30 anni. In English you use to be — I am 30. An important difference!"
       }
     },
     {
@@ -153,7 +154,7 @@
       "introIT": "Ancora un buco!",
       "intro_en": "Another blank!",
       "frase_it": "Lavoro _____ insegnante.",
-      "frase_en": "I work _____ a teacher.",
+      "frase_en": "I work as a teacher.",
       "opzioni": [
         {
           "it": "come",
@@ -178,8 +179,8 @@
         "en": "Perfect! Lavoro COME + profession!"
       },
       "feedbackErr": {
-        "it": "Lavoro COME insegnante!",
-        "en": "Lavoro COME insegnante!"
+        "it": "Lavoro COME insegnante — la preposizione come introduce la professione in italiano, come as in English!",
+        "en": "Lavoro COME insegnante — the preposition come introduces the profession, like as in English!"
       }
     },
     {
@@ -189,7 +190,8 @@
       "fase": "comprensione",
       "introIT": "Ascolta Sofia!",
       "intro_en": "Listen to Sofia!",
-      "audio": "Sono italiano.",
+      "audio_it": "Sono italiano.",
+      "audio_en": "I am Italian.",
       "domanda": {
         "it": "Qual è la traduzione corretta?",
         "en": "Which is the correct translation?"
@@ -226,7 +228,7 @@
       "introIT": "Completa!",
       "intro_en": "Complete!",
       "frase_it": "_____ dell'Inghilterra.",
-      "frase_en": "I _____ from England.",
+      "frase_en": "I am from England.",
       "opzioni": [
         {
           "it": "Sono",
@@ -326,13 +328,13 @@
         "it": "Componi la presentazione di Matilde!",
         "en": "Build Matilde's introduction!"
       },
-      "soluzione": "Sono Matilde e ho quarantanni",
+      "soluzione": "Sono Matilde e ho quarant'anni",
       "parole": [
         "Sono",
         "Matilde",
         "e",
         "ho",
-        "quarantanni"
+        "quarant'anni"
       ],
       "distrattori": [
         "piacere",
@@ -344,8 +346,8 @@
         "en": "Excellent! Matilde is proud!"
       },
       "feedbackErr": {
-        "it": "Sono Matilde e ho quarantanni!",
-        "en": "Sono Matilde e ho quarantanni!"
+        "it": "Sono Matilde e ho quarant'anni!",
+        "en": "Sono Matilde e ho quarant'anni!"
       }
     }
   ]

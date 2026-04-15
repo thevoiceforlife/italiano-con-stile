@@ -129,7 +129,8 @@
       "fase": "comprensione",
       "introIT": "Ascolta!",
       "intro_en": "Listen!",
-      "audio": "Piacere di conoscerti!",
+      "audio_it": "Piacere di conoscerti!",
+      "audio_en": "Nice to meet you!",
       "domanda": {
         "it": "Quando si usa questa frase?",
         "en": "When do you use this phrase?"
@@ -205,11 +206,11 @@
       "introIT": "Completa!",
       "intro_en": "Complete!",
       "frase_it": "Sono _____ Inghilterra.",
-      "frase_en": "I am _____ England.",
+      "frase_en": "I am from England.",
       "opzioni": [
         {
           "it": "dell'",
-          "en": "from"
+          "en": "of the"
         },
         {
           "it": "di",
@@ -230,69 +231,87 @@
         "en": "Perfect! Sono dell'Inghilterra!"
       },
       "feedbackErr": {
-        "it": "Sono DELL'Inghilterra — dell' per i paesi!",
-        "en": "Sono DELL'Inghilterra — dell' for countries!"
+        "it": "Sono dell'Inghilterra — di + articolo: dell' prima di vocale, della per femminile, del per maschile.",
+        "en": "Sono dell'Inghilterra — di + article: dell' before vowels, della for feminine, del for masculine."
       }
     },
     {
       "id": "q6",
       "personaggio": "gino",
-      "tipo": "giusto_o_no",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "introIT": "Giusto o sbagliato?",
-      "intro_en": "Right or wrong?",
-      "scena_it": "Ti offrono la pizza alla festa:",
-      "scena_en": "They offer you pizza at the party:",
-      "frase_it": "No grazie, non ho fame.",
-      "frase_en": "No thanks, I am not hungry.",
-      "correct": false,
+      "introIT": "Gino ti fa una domanda!",
+      "intro_en": "Gino asks you a question!",
+      "contesto_it": "Gino chiede quanti anni hai. 🎂",
+      "contesto_en": "Gino asks how old you are. 🎂",
+      "domanda": {
+        "it": "Come rispondi a Gino?",
+        "en": "How do you reply to Gino?"
+      },
+      "opzioni": [
+        {
+          "it": "Ho 30 anni.",
+          "en": "I am 30 years old.",
+          "emoji": "🎂"
+        },
+        {
+          "it": "Sono 30 anni.",
+          "en": "I am 30 years.",
+          "emoji": "❌"
+        },
+        {
+          "it": "Mi chiamo 30.",
+          "en": "My name is 30.",
+          "emoji": "❓"
+        }
+      ],
+      "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! In Italia rifiutare il cibo è scortese — accetta sempre!",
-        "en": "Correct! In Italy refusing food is rude — always accept!"
+        "it": "Esatto! HO 30 anni — avere per l'età!",
+        "en": "Correct! HO 30 anni — avere for age!"
       },
       "feedbackErr": {
-        "it": "In Italia il cibo è sacro — rifiutarlo è quasi un insulto!",
-        "en": "In Italy food is sacred — refusing it is almost an insult!"
+        "it": "In italiano l'età usa AVERE: ho 30 anni. Non essere come in inglese!",
+        "en": "In Italian age uses AVERE: ho 30 anni. Not essere like in English!"
       }
     },
     {
       "id": "q7",
       "personaggio": "gino",
-      "tipo": "tap_right",
+      "tipo": "multipla",
       "fase": "produzione",
-      "introIT": "Scegli!",
-      "intro_en": "Choose!",
-      "contesto_it": "Gino ti offre un bicchiere di vino. 🍷",
-      "contesto_en": "Gino offers you a glass of wine. 🍷",
+      "introIT": "Gino chiede il tuo lavoro!",
+      "intro_en": "Gino asks about your job!",
       "domanda": {
-        "it": "Cosa fai?",
-        "en": "What do you do?"
+        "it": "Gino chiede: Cosa fai di lavoro? Come rispondi?",
+        "en": "Gino asks: What do you do for work? How do you reply?"
       },
       "opzioni": [
         {
-          "it": "Accetti con Grazie!",
-          "en": "Accept with Thank you!",
-          "emoji": "🍷"
+          "it": "Lavoro come insegnante.",
+          "en": "I work as a teacher."
         },
         {
-          "it": "Rifiuti educatamente",
-          "en": "Politely decline",
-          "emoji": "🚫"
+          "it": "Sono come insegnante.",
+          "en": "I am as a teacher."
         },
         {
-          "it": "Chiedi il conto",
-          "en": "Ask for the bill",
-          "emoji": "🧾"
+          "it": "Ho insegnante.",
+          "en": "I have teacher."
+        },
+        {
+          "it": "Mi chiamo insegnante.",
+          "en": "My name is teacher."
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Accettare è la scelta giusta!",
-        "en": "Perfect! Accepting is the right choice!"
+        "it": "Perfetto! Lavoro come + professione — sempre!",
+        "en": "Perfect! Lavoro come + profession — always!"
       },
       "feedbackErr": {
-        "it": "In Italia si accetta sempre — con Grazie!",
-        "en": "In Italy you always accept — with Grazie!"
+        "it": "Lavoro COME insegnante — la preposizione come introduce la professione!",
+        "en": "Lavoro COME insegnante — the preposition come introduces the profession!"
       }
     },
     {
@@ -306,14 +325,14 @@
         "it": "Presentati a Gino in modo completo!",
         "en": "Introduce yourself to Gino completely!"
       },
-      "soluzione": "Piacere sono inglese e ho trentanni",
+      "soluzione": "Piacere sono inglese e ho trent'anni",
       "parole": [
         "Piacere",
         "sono",
         "inglese",
         "e",
         "ho",
-        "trentanni"
+        "trent'anni"
       ],
       "distrattori": [
         "ciao",

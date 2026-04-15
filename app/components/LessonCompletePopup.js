@@ -49,7 +49,7 @@ export default function LessonCompletePopup({
         zIndex: 200, padding: "0 16px",
       }}>
         <div style={{
-          background: "#1e2d3d", borderRadius: 20, padding: "28px 24px",
+          background: "var(--bg-el)", borderRadius: 20, padding: "28px 24px",
           maxWidth: 380, width: "100%", border: "2px solid var(--accent)",
           animation: "popIn 0.5s ease-out forwards",
         }}>
@@ -79,18 +79,18 @@ export default function LessonCompletePopup({
             display: "grid", gridTemplateColumns: "1fr 1fr 1fr",
             gap: 8, marginBottom: 20,
           }}>
-            <div style={{ background: "#152535", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
-              <div style={{ fontSize: 20, fontWeight: 900, color: "#58cc02" }}>{corrette}/{totale}</div>
+            <div style={{ background: "var(--bg-card)", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
+              <div style={{ fontSize: 20, fontWeight: 900, color: "var(--green)" }}>{corrette}/{totale}</div>
               <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginTop: 3 }}>Corrette</div>
               <div style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", fontStyle: "italic" }}>Correct</div>
             </div>
-            <div style={{ background: "#152535", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
-              <div style={{ fontSize: 20, fontWeight: 900, color: "#ff9b42" }}>🎫 +{crediti}</div>
+            <div style={{ background: "var(--bg-card)", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
+              <div style={{ fontSize: 20, fontWeight: 900, color: "var(--accent)" }}>🎫 +{crediti}</div>
               <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginTop: 3 }}>Crediti</div>
               <div style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", fontStyle: "italic" }}>Credits</div>
             </div>
-            <div style={{ background: "#152535", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
-              <div style={{ fontSize: 20, fontWeight: 900, color: "#1cb0f6" }}>⚡ +{energia}%</div>
+            <div style={{ background: "var(--bg-card)", borderRadius: 10, padding: "10px 8px", textAlign: "center" }}>
+              <div style={{ fontSize: 20, fontWeight: 900, color: "var(--blue)" }}>⚡ +{energia}%</div>
               <div style={{ fontSize: 10, color: "rgba(255,255,255,0.4)", marginTop: 3 }}>Energia</div>
               <div style={{ fontSize: 9, color: "rgba(255,255,255,0.25)", fontStyle: "italic" }}>Energy</div>
             </div>
@@ -116,7 +116,7 @@ export default function LessonCompletePopup({
                     height: corrente ? 14 : 10,
                     borderRadius: "50%",
                     background: completata
-                      ? "#58cc02"
+                      ? "var(--green)"
                       : corrente
                         ? "var(--accent)"
                         : "rgba(255,255,255,0.15)",
@@ -137,7 +137,7 @@ export default function LessonCompletePopup({
 
           {/* MESSAGGIO MARIO */}
           <div style={{
-            background: "#152535", borderRadius: 12, padding: "12px 16px",
+            background: "var(--bg-card)", borderRadius: 12, padding: "12px 16px",
             marginBottom: 20, textAlign: "center",
           }}>
             <div style={{ fontSize: 14, fontWeight: 700, color: "#fff", marginBottom: 3 }}>
@@ -165,8 +165,8 @@ export default function LessonCompletePopup({
               onClick={onContinua}
               className="btn-cta"
               style={{
-                background: "#58cc02", color: "#fff",
-                borderBottom: "4px solid #46a302",
+                background: "var(--green)", color: "#fff",
+                borderBottom: "4px solid var(--green-dark)",
                 borderRadius: 12, height: 52,
               }}
             >

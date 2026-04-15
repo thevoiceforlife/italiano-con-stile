@@ -30,8 +30,8 @@
       "it": "Un caffè",
       "en": "An espresso",
       "audio_text": "Un caffè",
-      "mario_it": "Al banco, sempre!",
-      "mario_en": "At the counter, always!"
+      "mario_it": "Al banco è più veloce e spesso costa meno!",
+      "mario_en": "At the counter it is quicker and often cheaper!"
     },
     {
       "id": "v3",
@@ -66,7 +66,8 @@
       "fase": "riconoscimento",
       "introIT": "Ascolta Mario!",
       "intro_en": "Listen to Mario!",
-      "audio": "Buongiorno!",
+      "audio_it": "Buongiorno!",
+      "audio_en": "Good morning!",
       "domanda": {
         "it": "Quando si usa questo saluto?",
         "en": "When do you use this greeting?"
@@ -102,7 +103,8 @@
       "fase": "riconoscimento",
       "introIT": "Ascolta ancora!",
       "intro_en": "Listen again!",
-      "audio": "Vorrei un caffè, per favore.",
+      "audio_it": "Vorrei un caffè, per favore.",
+      "audio_en": "I would like a coffee, please.",
       "domanda": {
         "it": "Cosa sta facendo?",
         "en": "What is he doing?"
@@ -138,7 +140,8 @@
       "fase": "riconoscimento",
       "introIT": "Un'altra frase!",
       "intro_en": "Another phrase!",
-      "audio": "Il conto, per favore.",
+      "audio_it": "Il conto, per favore.",
+      "audio_en": "The bill, please.",
       "domanda": {
         "it": "Cosa significa?",
         "en": "What does it mean?"
@@ -192,8 +195,8 @@
           "en": "Where is the station?"
         },
         {
-          "it": "Buonanotte!",
-          "en": "Good night!"
+          "it": "Buonasera!",
+          "en": "Good evening!"
         }
       ],
       "correct": 0,
@@ -254,7 +257,7 @@
       "introIT": "Completa la frase!",
       "intro_en": "Complete the sentence!",
       "frase_it": "_____ un caffè, per favore.",
-      "frase_en": "I _____ a coffee, please.",
+      "frase_en": "I would like a coffee, please.",
       "opzioni": [
         {
           "it": "Vorrei",
@@ -300,8 +303,8 @@
         "en": "Correct! With the doctor use Buongiorno, not Ciao!"
       },
       "feedbackErr": {
-        "it": "No! Con il dottore mai Ciao — usa Buongiorno!",
-        "en": "No! With the doctor never Ciao — use Buongiorno!"
+        "it": "Con il dottore è preferibile Buongiorno — è più rispettoso in contesti formali.",
+        "en": "With the doctor Buongiorno is better — it is more respectful in formal situations."
       }
     },
     {

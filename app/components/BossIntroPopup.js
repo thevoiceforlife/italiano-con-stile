@@ -15,7 +15,7 @@ export default function BossIntroPopup({ onStart }) {
       zIndex: 200, padding: "0 16px",
     }}>
       <div style={{
-        background: "#1e2d3d", borderRadius: 20, padding: "28px 24px",
+        background: "var(--bg-el)", borderRadius: 20, padding: "28px 24px",
         maxWidth: 380, width: "100%", border: "2px solid #ffd700",
         animation: "popIn 0.5s ease-out forwards",
         display: "flex", flexDirection: "column", alignItems: "center", gap: 16,
@@ -25,7 +25,7 @@ export default function BossIntroPopup({ onStart }) {
         <div style={{ position: "relative", width: 90, height: 90 }}>
           <div style={{
             width: 90, height: 90, borderRadius: "50%", border: "4px solid #ffd700",
-            overflow: "hidden", background: "#2c3e4a",
+            overflow: "hidden", background: "var(--bg-el2)",
             animation: "float 2s ease-in-out infinite",
             display: "flex", alignItems: "center", justifyContent: "center",
           }}>
@@ -77,7 +77,7 @@ export default function BossIntroPopup({ onStart }) {
             { emoji: "🗺️", it: "Sblocchi Unità 2", en: "Unlocks Unit 2", val: "🔓", delay: "0.7s" },
           ].map((p, i) => (
             <div key={i} style={{
-              background: "#152535", borderRadius: 12, padding: "12px 14px",
+              background: "var(--bg-card)", borderRadius: 12, padding: "12px 14px",
               display: "flex", alignItems: "center", gap: 12,
               animation: `slideUp 0.4s ${p.delay} ease-out both`,
             }}>

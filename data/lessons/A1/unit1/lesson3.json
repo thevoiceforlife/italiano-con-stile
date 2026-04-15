@@ -1,239 +1,342 @@
 {
-  "id": 3,
-  "title": "Mario da le Indicazioni",
-  "titleEN": "Mario Gives Directions",
-  "subtitle": "Preposizioni di luogo in contesto",
-  "subtitleEN": "Prepositions of place in context",
-  "livello": "Turista",
+  "id": "A1-unit1-lesson3",
+  "title": "Saluti — in pratica",
+  "title_en": "Greetings — in practice",
   "type": "pratica",
   "icon": "💪",
+  "unita_tipo": "scopri",
   "reward": {
-    "slot": "pranzo",
-    "crediti": 8,
+    "type": "slot",
+    "credits": 5,
     "pool": [
-      { "emoji": "🍝", "nome": "Spaghetti al pomodoro", "nomeEN": "Spaghetti with tomato sauce" },
-      { "emoji": "🍜", "nome": "Pasta e fagioli", "nomeEN": "Pasta and beans" },
-      { "emoji": "🍝", "nome": "Pasta al ragu", "nomeEN": "Pasta with meat sauce" },
-      { "emoji": "🫙", "nome": "Minestra napoletana", "nomeEN": "Neapolitan soup" }
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
     ]
   },
-  "vocab": [
+  "vocab": [],
+  "pillole": [
     {
-      "id": "dov_e",
-      "emoji": "📍",
-      "it": "Dov'è...?",
-      "en": "Where is...?",
-      "audio_text": "Dov'è",
-      "mario_it": "'Dov'è' è la domanda più utile per un turista. Dov'è il bagno? Dov'è la stazione?",
-      "mario_en": "'Dov'è' is the most useful question for a tourist. Where's the bathroom? Where's the station?",
-      "mario": "'Dov'è' è la domanda più utile per un turista."
-    },
-    {
-      "id": "a_destra",
-      "emoji": "👉",
-      "it": "A destra",
-      "en": "On the right",
-      "audio_text": "A destra",
-      "mario_it": "A destra — la mano con cui mangi, di solito!",
-      "mario_en": "On the right — the hand you eat with, usually!",
-      "mario": "A destra — la mano con cui mangi, di solito!"
-    },
-    {
-      "id": "sempre_dritto",
-      "emoji": "⬆️",
-      "it": "Sempre dritto",
-      "en": "Straight ahead",
-      "audio_text": "Sempre dritto",
-      "mario_it": "Sempre dritto — la direzione più facile! Ma a Napoli le strade non sono mai dritte...",
-      "mario_en": "Straight ahead — the easiest direction! But in Naples the streets are never straight...",
-      "mario": "Sempre dritto — la direzione più facile!"
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Tu o Lei — quando essere formali?",
+      "domanda_en": "Tu or Lei — when to be formal?",
+      "titolo_it": "Formale vs informale in italiano",
+      "titolo_en": "Formal vs informal in Italian",
+      "corpo_it": "In italiano hai due modi per dire you. TU con amici e famiglia. LEI con sconosciuti, professori e dottori. A Napoli si è più informali che al Nord — ma con i professori sempre LEI!",
+      "corpo_en": "In Italian you have two ways to say you. TU with friends and family. LEI with strangers, professors and doctors. Naples is more informal than the North — but with professors always LEI!",
+      "esempio_it": "👫 Ciao, come stai? → TU · 👔 Buongiorno, come sta? → LEI",
+      "esempio_en": "Friends: Tu · Strangers/professors: Lei"
     }
   ],
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "tap_right",
       "fase": "riconoscimento",
-      "intro": "Sei perso a Napoli! / You're lost in Naples!",
-      "introIT": "Sei perso a Napoli!",
-      "intro_en": "You're lost in Naples!",
+      "introIT": "Tocca la risposta giusta!",
+      "intro_en": "Tap the right answer!",
+      "contesto_it": "Sono le 9 di mattina. ☀️",
+      "contesto_en": "It is 9 in the morning. ☀️",
       "domanda": {
-        "it": "Come chiedi dove si trova la stazione?",
-        "en": "How do you ask where the station is?"
+        "it": "Entri al bar. Cosa dici?",
+        "en": "You enter the bar. What do you say?"
       },
-      "opzioni": [{"it":"Quanto costa la stazione?","en":"How much is the station?"},{"it":"Dov'è la stazione?","en":"Where is the station?"},{"it":"Vorrei la stazione","en":"I'd like the station"},{"it":"Grazie stazione","en":"Thanks station"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Perfetto! 'Dov'è la stazione?' — la domanda salvavita del turista!",
-        "en": "Perfect! 'Dov'è la stazione?' — the tourist's lifesaving question!"
-      },
-      "feedbackErr": {
-        "it": "'Dov'è...?' è la formula per chiedere dove si trova qualcosa.",
-        "en": "'Dov'è...?' is the formula to ask where something is."
-      }
-    },
-    {
-      "id": 2,
-      "personaggio": "mario",
-      "tipo": "multipla",
-      "fase": "riconoscimento",
-      "intro": "Mario ti indica la strada! / Mario shows you the way!",
-      "introIT": "Mario ti indica la strada!",
-      "intro_en": "Mario shows you the way!",
-      "domanda": {
-        "it": "Mario dice 'Vai a destra'. Dove vai?",
-        "en": "Mario says 'Go right'. Where do you go?"
-      },
-      "opzioni": [{"it":"A sinistra","en":"Left"},{"it":"A destra","en":"Right"},{"it":"Sempre dritto","en":"Straight ahead"},{"it":"Indietro","en":"Back"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Esatto! 'A destra' = right. 'A sinistra' = left.",
-        "en": "Correct! 'A destra' = right. 'A sinistra' = left."
-      },
-      "feedbackErr": {
-        "it": "'A destra' significa 'to the right'. 'A sinistra' è 'to the left'.",
-        "en": "'A destra' means 'to the right'. 'A sinistra' is 'to the left'."
-      }
-    },
-    {
-      "id": 3,
-      "personaggio": "mario",
-      "tipo": "vero_falso",
-      "fase": "comprensione",
-      "intro": "Attenzione alla traduzione! / Watch the translation!",
-      "introIT": "Attenzione alla traduzione!",
-      "intro_en": "Watch the translation!",
-      "domanda": {
-        "it": "'Sempre dritto' significa 'always turn'.",
-        "en": "'Sempre dritto' means 'always turn'."
-      },
-      "correct": false,
-      "feedbackOk": {
-        "it": "Bravo! 'Sempre dritto' = straight ahead, non 'always turn'!",
-        "en": "Good! 'Sempre dritto' = straight ahead, not 'always turn'!"
-      },
-      "feedbackErr": {
-        "it": "'Sempre dritto' significa 'straight ahead' — sempre = always, dritto = straight.",
-        "en": "'Sempre dritto' means 'straight ahead' — sempre = always, dritto = straight."
-      }
-    },
-    {
-      "id": 4,
-      "personaggio": "sofia",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Ascolta bene le indicazioni! / Listen carefully to directions!",
-      "introIT": "Ascolta bene!",
-      "intro_en": "Listen carefully!",
-      "domanda": {
-        "it": "Mario dice: 'La pizzeria è vicino alla stazione.' Cosa significa 'vicino a'?",
-        "en": "Mario says: 'The pizzeria is near the station.' What does 'vicino a' mean?"
-      },
-      "opzioni": [{"it":"Lontano da","en":"Far from"},{"it":"Vicino a","en":"Near"},{"it":"Dietro","en":"Behind"},{"it":"Davanti a","en":"In front of"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Esatto! 'Vicino a' = near. L'opposto e 'lontano da' = far from.",
-        "en": "Correct! 'Vicino a' = near. The opposite is 'lontano da' = far from."
-      },
-      "feedbackErr": {
-        "it": "'Vicino a' = near. 'Lontano da' = far from.",
-        "en": "'Vicino a' = near. 'Lontano da' = far from."
-      }
-    },
-    {
-      "id": 5,
-      "personaggio": "diego",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Fai il turista! / Play the tourist!",
-      "introIT": "Fai il turista a Napoli!",
-      "intro_en": "Play the tourist in Naples!",
-      "domanda": {
-        "it": "Un napoletano ti dice 'è vicino — cinque minuti'. In realtà quanto ci vuole?",
-        "en": "A Neapolitan tells you 'it's close — five minutes'. How long does it really take?"
-      },
-      "opzioni": [{"it":"5 minuti","en":"5 minutes"},{"it":"Probabilmente 15-20 minuti","en":"Probably 15-20 minutes"},{"it":"Dipende dal traffico","en":"Depends on traffic"},{"it":"Molto lontano","en":"Very far"}],
-      "correct": 1,
-      "feedbackOk": {
-        "it": "Bravo! A Napoli 'cinque minuti' vuol dire almeno 15-20. Tutto è 'vicino'!",
-        "en": "Right! In Naples 'five minutes' means at least 15-20. Everything is 'close'!"
-      },
-      "feedbackErr": {
-        "it": "A Napoli le distanze sono... ottimiste! 'Cinque minuti' = probabilmente 15-20.",
-        "en": "In Naples distances are... optimistic! 'Five minutes' = probably 15-20."
-      }
-    },
-    {
-      "id": 6,
-      "personaggio": "gino",
-      "tipo": "multipla",
-      "fase": "comprensione",
-      "intro": "Le preposizioni sono la chiave! / Prepositions are the key!",
-      "introIT": "Le preposizioni sono la chiave della lingua.",
-      "intro_en": "Prepositions are the key to the language.",
-      "domanda": {
-        "it": "Quale frase è corretta per dire 'The museum is on the left'?",
-        "en": "Which sentence correctly says 'The museum is on the left'?"
-      },
-      "opzioni": [{"it":"Il museo è a sinistra","en":"The museum is on the left"},{"it":"Il museo è in destra","en":"The museum is in right"},{"it":"Il museo è di sinistra","en":"The museum is of left"},{"it":"Il museo è per sinistra","en":"The museum is for left"}],
+      "opzioni": [
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
+      ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! 'A sinistra' e 'a destra' — sempre con la preposizione 'a'.",
-        "en": "Perfect! 'A sinistra' and 'a destra' — always with the preposition 'a'."
+        "it": "Esatto! La mattina si dice Buongiorno!",
+        "en": "Correct! In the morning say Buongiorno!"
       },
       "feedbackErr": {
-        "it": "Si dice 'a sinistra' e 'a destra' — la preposizione giusta è sempre 'a'.",
-        "en": "You say 'a sinistra' and 'a destra' — the right preposition is always 'a'."
+        "it": "No! Sono le 9 — si dice Buongiorno!",
+        "en": "No! It is 9 AM — say Buongiorno!"
       }
     },
     {
-      "id": 7,
+      "id": "q2",
       "personaggio": "mario",
-      "tipo": "abbina_coppia",
-      "fase": "produzione",
-      "intro": "Match the directions! / Abbina le direzioni!",
-      "introIT": "Abbina le direzioni!",
-      "intro_en": "Match the directions!",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Situazione veloce!",
+      "intro_en": "Quick situation!",
+      "contesto_it": "Incontri qualcuno per la prima volta. 🤝",
+      "contesto_en": "You meet someone for the first time. 🤝",
       "domanda": {
-        "it": "Abbina le parole italiane alla traduzione inglese.",
-        "en": "Match the Italian words to the English translation."
+        "it": "Cosa dici?",
+        "en": "What do you say?"
       },
-      "coppie": [
-        { "it": "A destra", "en": "On the right" },
-        { "it": "A sinistra", "en": "On the left" },
-        { "it": "Sempre dritto", "en": "Straight ahead" },
-        { "it": "Vicino a", "en": "Near" }
+      "opzioni": [
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Tutte giuste! Ora sai orientarti a Napoli!",
-        "en": "All correct! Now you can navigate Naples!"
+        "it": "Perfetto! Piacere al primo incontro!",
+        "en": "Perfect! Piacere at the first meeting!"
+      },
+      "feedbackErr": {
+        "it": "No! Al primo incontro: Piacere!",
+        "en": "No! At the first meeting: Piacere!"
       }
     },
     {
-      "id": 8,
+      "id": "q3",
       "personaggio": "mario",
-      "tipo": "word_bank",
-      "fase": "produzione",
-      "intro": "Ask for directions! / Chiedi indicazioni!",
-      "introIT": "Chiedi indicazioni!",
-      "intro_en": "Ask for directions!",
-      "domanda": {
-        "it": "Chiedi dove si trova il museo.",
-        "en": "Ask where the museum is."
-      },
-      "soluzione": "Scusi, dov'è il museo?",
-      "parole": ["Scusi", "dov'è", "il", "museo"],
-      "distrattori": ["quanto", "costa", "vorrei"],
-      "hint_it": "Inizia con 'Scusi' (formale) e usa 'dov'è'",
-      "hint_en": "Start with 'Scusi' (formal) and use 'dov'è'",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Riempi il buco!",
+      "intro_en": "Fill in the blank!",
+      "frase_it": "_____, mi chiamo Mario!",
+      "frase_en": "Nice to meet you, my name is Mario!",
+      "opzioni": [
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        },
+        {
+          "it": "Buonanotte",
+          "en": "Good night"
+        },
+        {
+          "it": "Buonasera",
+          "en": "Good evening"
+        }
+      ],
+      "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! 'Scusi, dov'è il museo?' — educato e chiaro!",
-        "en": "Perfect! 'Scusi, dov'è il museo?' — polite and clear!"
+        "it": "Esatto! Piacere + mi chiamo — presentazione!",
+        "en": "Correct! Piacere + mi chiamo — introduction!"
       },
       "feedbackErr": {
-        "it": "L'ordine corretto è: 'Scusi, dov'è il museo?'",
-        "en": "The correct order is: 'Scusi, dov'è il museo?'"
+        "it": "No! Piacere, mi chiamo Mario — al primo incontro!",
+        "en": "No! Piacere, mi chiamo Mario — at first meeting!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Ancora un buco!",
+      "intro_en": "Another blank!",
+      "frase_it": "_____ di Napoli.",
+      "frase_en": "I am from Naples.",
+      "opzioni": [
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Mi chiamo",
+          "en": "my name is"
+        },
+        {
+          "it": "Piacere",
+          "en": "nice to meet you"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "goodbye"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Sono di + città — sempre!",
+        "en": "Perfect! Sono di + city — always!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono di Napoli — sono di + città!",
+        "en": "No! Sono di Napoli — sono di + city!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Tocca subito!",
+      "intro_en": "Tap right away!",
+      "contesto_it": "Sono le 20:00. 🌆",
+      "contesto_en": "It is 8 PM. 🌆",
+      "domanda": {
+        "it": "Entri al ristorante. Cosa dici?",
+        "en": "You enter the restaurant. What do you say?"
+      },
+      "opzioni": [
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Dopo le 18:00 si dice Buonasera!",
+        "en": "Correct! After 6 PM say Buonasera!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono le 20:00 — si dice Buonasera!",
+        "en": "No! It is 8 PM — say Buonasera!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Come rispondi?",
+      "intro_en": "How do you reply?",
+      "frase_it": "Mi chiamo Oliver. _____ di Londra.",
+      "frase_en": "My name is Oliver. I am from London.",
+      "opzioni": [
+        {
+          "it": "Sono",
+          "en": "am"
+        },
+        {
+          "it": "Piacere",
+          "en": "nice to meet you"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "good morning"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "goodbye"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Ottimo! Sono di Londra — origine!",
+        "en": "Great! Sono di Londra — origin!"
+      },
+      "feedbackErr": {
+        "it": "No! Sono di Londra — sono di + città!",
+        "en": "No! Sono di Londra — sono di + city!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione formale!",
+      "intro_en": "Formal situation!",
+      "contesto_it": "Sei dal dottore. 🏥",
+      "contesto_en": "You are at the doctor's. 🏥",
+      "domanda": {
+        "it": "Come saluti il dottore?",
+        "en": "How do you greet the doctor?"
+      },
+      "opzioni": [
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "👔"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Con il dottore: Buongiorno — formale!",
+        "en": "Correct! With the doctor: Buongiorno — formal!"
+      },
+      "feedbackErr": {
+        "it": "No! Con il dottore mai Ciao — Buongiorno!",
+        "en": "No! With the doctor never Ciao — Buongiorno!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Ultima sfida!",
+      "intro_en": "Final challenge!",
+      "frase_it": "Mi _____ Sofia. Piacere!",
+      "frase_en": "My name is Sofia. Nice to meet you!",
+      "opzioni": [
+        {
+          "it": "chiamo",
+          "en": "call"
+        },
+        {
+          "it": "sono",
+          "en": "am"
+        },
+        {
+          "it": "piace",
+          "en": "like"
+        },
+        {
+          "it": "vado",
+          "en": "go"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Mi chiamo — per il nome!",
+        "en": "Perfect! Mi chiamo — for your name!"
+      },
+      "feedbackErr": {
+        "it": "No! Mi chiamo Sofia — mi chiamo per il nome!",
+        "en": "No! Mi chiamo Sofia — mi chiamo for your name!"
       }
     }
   ]

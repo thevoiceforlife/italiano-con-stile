@@ -6,7 +6,7 @@ import BarraSecondaria from "../../../../components/BarraSecondaria";
 import LessonComplete from "../../../../components/LessonComplete";
 import LessonTopbar from "../../../../components/LessonTopbar";
 import TricoloreBar from "../../../../components/TricoloreBar";
-import { pronounce, cleanForTTS } from "../../../../components/pronounce";
+import { pronounce, cleanForTTS, isAudioOn } from "../../../../components/pronounce";
 import { salvaProgressi } from "../../../../components/saveProgress";
 import { FraseAnnotata } from "../../../../components/WordPopup";
 import VocabMatch from "../../../../components/VocabMatch";
@@ -160,25 +160,35 @@ function QBox({ q }) {
 }
 
 function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
-  const col = isCorrect ? "var(--ok-text)" : "var(--err-text)";
+  const titoloCol = isCorrect ? "var(--green)" : "var(--red)";
+  const bg     = isCorrect ? "rgba(88,204,2,0.1)"  : "rgba(255,75,75,0.08)";
+  const border = isCorrect ? "rgba(88,204,2,0.3)"  : "var(--border-red)";
   return (
-    <div className="app-bottom app-bottom--feedback" style={{ background: isCorrect ? "var(--ok-bar)" : "var(--err-bar)", borderTop: `2px solid ${col}` }}>
-      <div>
-        <div style={{ fontSize: 16, fontWeight: 900, color: col, lineHeight: 1.2, textTransform: "none", letterSpacing: "normal" }}>
-          {isCorrect ? "✅ Esatto!" : "❌ Sbagliato!"}
+    <div className="app-bottom app-bottom--feedback" style={{
+      background: "var(--bg-deep)", borderTop: "1px solid var(--border-soft)",
+    }}>
+      <div style={{
+        background: bg, border: `1.5px solid ${border}`,
+        borderRadius: "var(--r)", padding: "12px 14px", marginBottom: 12,
+        animation: "fadeIn 0.2s ease",
+      }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: titoloCol }}>
+          {isCorrect ? "✅ Esatto! · Correct!" : "❌ Sbagliato! · Wrong!"}
         </div>
-        <div style={{ fontSize: 12, fontWeight: 600, fontStyle: "italic", color: col, opacity: 0.8, lineHeight: 1.2 }}>
-          {isCorrect ? "Correct!" : "Wrong!"}
-        </div>
-        <div style={{ fontSize: 14, fontWeight: 700, color: col, opacity: 0.95, lineHeight: 1.35, marginTop: 4 }}>
+        <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.5, marginTop: 3 }}>
           {isCorrect ? feedbackOk?.it : feedbackErr?.it}
         </div>
-        <div style={{ fontSize: 13, color: col, opacity: 0.7, marginTop: 2, fontStyle: "italic", lineHeight: 1.35 }}>
+        <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>
           {isCorrect ? feedbackOk?.en : feedbackErr?.en}
         </div>
       </div>
-      <button onClick={onNext} className={isCorrect ? "btn-primary" : "btn-primary btn-primary--err"}>
-        Avanti · Next →
+      <button onClick={onNext} className="btn-cta btn-primary" style={{
+        background: isCorrect ? "var(--green)" : "var(--accent)",
+        color: "#fff",
+        borderBottom: `4px solid ${isCorrect ? "var(--green-dark)" : "var(--accent-dark)"}`,
+      }}>
+        <span className="btn-it">AVANTI →</span>
+        <span className="btn-en">Next</span>
       </button>
     </div>
   );
@@ -226,23 +236,25 @@ function DomandaMultipla({ q, onAnswer }) {
           </div>
         )}
         {!q.contesto_it && !q.gesture && <QBox q={q} />}
-        <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
           {shuffled.map(({ o: opt }, si) => {
             const isThisCorrect = si === newCorrect;
-            const styleExtra = {};
-            if (confirmed) {
-              styleExtra.boxShadow = "none";
-              if (isThisCorrect) { styleExtra.background = "var(--ok-bar)"; styleExtra.borderColor = "var(--ok-text)"; styleExtra.color = "var(--ok-text)"; }
-              else if (si === selected) { styleExtra.background = "var(--err-bar)"; styleExtra.borderColor = "var(--err-text)"; styleExtra.color = "var(--err-text)"; }
-            } else if (selected === si) {
-              styleExtra.background = "var(--opt-sel-bg)";
-              styleExtra.borderColor = "var(--opt-sel-b)";
-              styleExtra.color = "var(--opt-sel-text)";
-              styleExtra.boxShadow = "0 4px 0 var(--opt-sel-b)";
-            } else {
-              styleExtra.boxShadow = "0 4px 0 var(--border)";
-            }
+            const isOk  = confirmed && isThisCorrect;
+            const isErr = confirmed && si === selected && !isThisCorrect;
+            const isSel = !confirmed && selected === si;
             const optIt = getOptIt(opt);
+            const optEn = getOptEn(opt);
+            const lettere = ["A", "B", "C", "D"];
+            const lettera = lettere[si] || String(si + 1);
+
+            // STATI border/bg
+            const bg     = isOk ? "rgba(88,204,2,0.08)" : isErr ? "rgba(255,75,75,0.06)" : isSel ? "rgba(28,176,246,0.08)" : "var(--bg-el)";
+            const border = isOk ? "var(--green)"        : isErr ? "var(--red)"           : isSel ? "var(--blue)"           : "var(--border-soft)";
+            // Letter badge
+            const lBg    = isOk ? "rgba(88,204,2,0.2)" : isErr ? "rgba(255,75,75,0.15)" : isSel ? "rgba(28,176,246,0.2)" : "rgba(255,255,255,0.06)";
+            const lCol   = isOk ? "var(--green)"       : isErr ? "var(--red)"           : isSel ? "var(--blue)"          : "var(--text4)";
+            const itCol  = isOk ? "var(--green)"       : isErr ? "var(--red)"           : "var(--text)";
+
             return (
               <button
                 key={si}
@@ -251,14 +263,28 @@ function DomandaMultipla({ q, onAnswer }) {
                   if (optIt) pronounce(optIt);
                   setSelected(si);
                 }}
-                className="opt-card"
-                style={{ ...styleExtra, position: "relative", cursor: confirmed ? "default" : "pointer" }}
+                style={{
+                  display: "flex", alignItems: "center", gap: 12,
+                  background: bg, border: `1.5px solid ${border}`,
+                  borderRadius: "var(--r)", padding: "12px 14px",
+                  cursor: confirmed ? "default" : "pointer",
+                  minHeight: 60, width: "100%",
+                  fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "left",
+                  transition: "all 0.15s",
+                  animation: isErr ? "shake 0.3s ease" : "none",
+                }}
               >
-                <div className="opt-card__it" style={styleExtra.color ? { color: styleExtra.color } : undefined}>{optIt}</div>
-                {getOptEn(opt) && <div className="opt-card__en" style={styleExtra.color ? { color: styleExtra.color, opacity: 0.75 } : undefined}>{getOptEn(opt)}</div>}
-                {!confirmed && (
-                  <span aria-hidden="true" style={{ position: "absolute", bottom: 4, right: 6, fontSize: 11, opacity: 0.55, pointerEvents: "none" }}>🔊</span>
-                )}
+                <div style={{
+                  width: 28, height: 28, borderRadius: 8,
+                  background: lBg, color: lCol,
+                  fontSize: 12, fontWeight: 700, flexShrink: 0,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>{lettera}</div>
+                <div style={{ flex: 1, textAlign: "left" }}>
+                  <div style={{ fontSize: 14, fontWeight: 700, color: itCol }}>{optIt}</div>
+                  {optEn && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
+                </div>
+                {isOk && <span style={{ color: "var(--green)", fontSize: 16, flexShrink: 0 }}>✓</span>}
               </button>
             );
           })}
@@ -344,26 +370,30 @@ function DomandaVeroFalso({ q, onAnswer }) {
 }
 
 function DomandaAscolta({ q, onAnswer }) {
-  const seed = (q.audio || "").length * 3 + 5;
+  const audioText = q.audio_it || q.audio || "";
+  const seed = audioText.length * 3 + 5;
   const shuffled = useRef(stableShuffle(q.opzioni, seed)).current;
   const newCorrect = shuffled.findIndex(x => x.i === q.correct);
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
-  const [audioLabelIT, setAudioLabelIT] = useState("Clicca 🔊 per ascoltare");
-  const [audioLabelEN, setAudioLabelEN] = useState("Click 🔊 to listen");
+  const [hasListened, setHasListened] = useState(false);
   const isCorrect = selected === newCorrect;
   const intro = getIntroBilingual(q);
   useEffect(() => { return () => window.speechSynthesis?.cancel(); }, []);
   function playAudio(slow = false) {
-    if (!q.audio) return;
-    // TTS legge SOLO q.audio che per definizione è italiano
+    if (!isAudioOn()) return;
+    if (!audioText) return;
     window.speechSynthesis?.cancel();
     setTimeout(() => {
-      const u = new SpeechSynthesisUtterance(cleanForTTS(q.audio));
-      u.lang = "it-IT"; u.rate = slow ? 0.4 : 0.9;
+      const u = new SpeechSynthesisUtterance(cleanForTTS(audioText));
+      u.lang = "it-IT";
+      u.rate = slow ? 0.4 : 0.9;
+      const voci = window.speechSynthesis?.getVoices() || [];
+      const voce = voci.find(v => v.lang === "it-IT")
+                || voci.find(v => v.lang.startsWith("it"));
+      if (voce) u.voice = voce;
       window.speechSynthesis.speak(u);
-      setAudioLabelIT((slow ? "🐢 " : "🔊 ") + `"${q.audio}"`);
-      setAudioLabelEN("");
+      setHasListened(true);
     }, 50);
   }
   const getOptIt = (opt) => typeof opt === "string" ? opt : opt.it;
@@ -372,41 +402,109 @@ function DomandaAscolta({ q, onAnswer }) {
     <>
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
-        <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
-            <button onClick={() => playAudio(false)} style={{ background: "#FF9B42", border: "none", borderRadius: "99px", width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: 18, flexShrink: 0, textTransform: "none", letterSpacing: "normal" }}>🔊</button>
-            <button onClick={() => playAudio(true)} style={{ background: "#1CB0F622", border: "1.5px solid #1CB0F644", borderRadius: "99px", padding: "6px 12px", fontWeight: 700, color: "var(--secondary)", cursor: "pointer", fontFamily: "inherit", lineHeight: 1.15, textAlign: "center", textTransform: "none", letterSpacing: "normal" }}>
-              <div style={{ fontSize: 13 }}>🐢 Lento</div>
-              <div style={{ fontSize: 10, fontStyle: "italic", opacity: 0.85, fontWeight: 600 }}>Slow</div>
-            </button>
-            <div style={{ flex: 1, lineHeight: 1.25, minWidth: 0 }}>
-              <div style={{ fontSize: 13, color: "var(--text2)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{audioLabelIT}</div>
-              {audioLabelEN && <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic" }}>{audioLabelEN}</div>}
+
+        {/* AUDIO BAR — pulsante principale + pulsante lento */}
+        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
+          <button onClick={() => playAudio(false)} style={{
+            flex: 1,
+            background: "var(--bg-el)",
+            border: "1.5px solid var(--border-blue)",
+            borderRadius: "var(--r)",
+            padding: 14,
+            display: "flex", alignItems: "center", gap: 10,
+            cursor: "pointer",
+            fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+          }}>
+            <div style={{
+              width: 40, height: 40, borderRadius: "50%",
+              background: "rgba(28,176,246,0.15)", fontSize: 20,
+              display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+            }}>🔊</div>
+            <div style={{ textAlign: "left" }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: "var(--blue)" }}>Ascolta</div>
+              <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>Listen</div>
+            </div>
+          </button>
+          <button onClick={() => playAudio(true)} style={{
+            background: "var(--bg-el)",
+            border: "1.5px solid var(--border-soft)",
+            borderRadius: "var(--r)",
+            padding: "12px 10px",
+            display: "flex", flexDirection: "column", alignItems: "center", gap: 3,
+            minWidth: 60, cursor: "pointer",
+            fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+          }}>
+            <span style={{ fontSize: 16 }}>🐢</span>
+            <span style={{ fontSize: 9, color: "var(--text3)", fontWeight: 700 }}>LENTO</span>
+          </button>
+        </div>
+
+        {/* RISULTATO AUDIO — mostra frase IT + EN dopo il primo click */}
+        {hasListened ? (
+          <div style={{
+            background: "var(--bg-deep)", borderRadius: 10,
+            padding: "10px 12px", marginBottom: 12, textAlign: "center",
+          }}>
+            <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>"{audioText}"</div>
+            {q.audio_en && (
+              <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>"{q.audio_en}"</div>
+            )}
+          </div>
+        ) : (
+          <div style={{
+            background: "var(--bg-deep)", borderRadius: 10,
+            padding: "10px 12px", marginBottom: 12, textAlign: "center",
+          }}>
+            <div style={{ fontSize: 13, color: "var(--text3)", fontStyle: "italic" }}>
+              Clicca 🔊 per ascoltare<br/>
+              <span style={{ fontSize: 11 }}>Click 🔊 to listen</span>
             </div>
           </div>
-          <div className="q-card__it">{q.domanda.it}</div>
-          <div className="q-card__en">{q.domanda.en}</div>
-        </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: 9 }}>
+        )}
+
+        {/* DOMANDA */}
+        <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)", marginBottom: 4 }}>{q.domanda.it}</div>
+        <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginBottom: 8 }}>{q.domanda.en}</div>
+
+        {/* OPZIONI con lettera A/B/C/D */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
           {shuffled.map(({ o: opt }, si) => {
             const isThisCorrect = si === newCorrect;
-            const styleExtra = {};
-            if (confirmed) {
-              styleExtra.boxShadow = "none";
-              if (isThisCorrect) { styleExtra.background = "var(--ok-bar)"; styleExtra.borderColor = "var(--ok-text)"; styleExtra.color = "var(--ok-text)"; }
-              else if (si === selected) { styleExtra.background = "var(--err-bar)"; styleExtra.borderColor = "var(--err-text)"; styleExtra.color = "var(--err-text)"; }
-            } else if (selected === si) {
-              styleExtra.background = "var(--opt-sel-bg)";
-              styleExtra.borderColor = "var(--opt-sel-b)";
-              styleExtra.color = "var(--opt-sel-text)";
-              styleExtra.boxShadow = "0 4px 0 var(--opt-sel-b)";
-            } else {
-              styleExtra.boxShadow = "0 4px 0 var(--border)";
-            }
+            const isOk  = confirmed && isThisCorrect;
+            const isErr = confirmed && si === selected && !isCorrect;
+            const isSel = !confirmed && selected === si;
+            const optIt = getOptIt(opt);
+            const optEn = getOptEn(opt);
+            const lettera = ["A", "B", "C", "D"][si] || String(si + 1);
+
+            const bg     = isOk ? "rgba(88,204,2,0.08)" : isErr ? "rgba(255,75,75,0.06)" : isSel ? "rgba(28,176,246,0.08)" : "var(--bg-el)";
+            const border = isOk ? "var(--green)"        : isErr ? "var(--red)"           : isSel ? "var(--blue)"           : "var(--border-soft)";
+            const lBg    = isOk ? "rgba(88,204,2,0.2)" : isErr ? "rgba(255,75,75,0.15)" : isSel ? "rgba(28,176,246,0.2)" : "rgba(255,255,255,0.06)";
+            const lCol   = isOk ? "var(--green)"       : isErr ? "var(--red)"           : isSel ? "var(--blue)"          : "var(--text4)";
+            const itCol  = isOk ? "var(--green)"       : isErr ? "var(--red)"           : "var(--text)";
+
             return (
-              <button key={si} onClick={() => !confirmed && setSelected(si)} className="opt-card" style={{ ...styleExtra, cursor: confirmed ? "default" : "pointer" }}>
-                <div className="opt-card__it" style={styleExtra.color ? { color: styleExtra.color } : undefined}>{getOptIt(opt)}</div>
-                {getOptEn(opt) && <div className="opt-card__en" style={styleExtra.color ? { color: styleExtra.color, opacity: 0.75 } : undefined}>{getOptEn(opt)}</div>}
+              <button key={si} onClick={() => !confirmed && setSelected(si)} style={{
+                display: "flex", alignItems: "center", gap: 12,
+                background: bg, border: `1.5px solid ${border}`,
+                borderRadius: "var(--r)", padding: "12px 14px",
+                cursor: confirmed ? "default" : "pointer",
+                minHeight: 60, width: "100%",
+                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "left",
+                transition: "all 0.15s",
+                animation: isErr ? "shake 0.3s ease" : "none",
+              }}>
+                <div style={{
+                  width: 28, height: 28, borderRadius: 8,
+                  background: lBg, color: lCol,
+                  fontSize: 12, fontWeight: 700, flexShrink: 0,
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                }}>{lettera}</div>
+                <div style={{ flex: 1, textAlign: "left" }}>
+                  <div style={{ fontSize: 14, fontWeight: 700, color: itCol }}>{optIt}</div>
+                  {optEn && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
+                </div>
+                {isOk && <span style={{ color: "var(--green)", fontSize: 16, flexShrink: 0 }}>✓</span>}
               </button>
             );
           })}
@@ -491,13 +589,12 @@ function DomandaWordBank({ q, onAnswer }) {
     }
   }
 
-  const compBorderStyle = fase === "corretto" ? "solid" : (fase === "soluzione" && showSolution) ? "solid" : selectedWords.length > 0 ? "solid" : "dashed";
-  const compBorderColor = fase === "corretto" ? "var(--ok-text)" : (fase === "soluzione" && showSolution) ? "var(--ok-text)" : shakeTrigger ? "var(--err-text)" : fase === "soluzione" ? "var(--special)" : selectedWords.length > 0 ? "#C8A0E8" : "var(--border)";
+  const compBorderColor = fase === "corretto" ? "var(--green)" : (fase === "soluzione" && showSolution) ? "var(--green)" : shakeTrigger ? "var(--red)" : "var(--border-soft)";
   const feedbackAnim = fase === "corretto" ? "ok" : (shakeTrigger ? "err" : null);
-  const tentativiColor = tentativi >= 2 ? "var(--err-text)" : "var(--text3)";
+  const tentativiColor = tentativi >= 2 ? "var(--red)" : "var(--text3)";
 
-  // Stile condiviso per ogni chip parola (garantisce display block per flex gap)
-  const chipBase = { display: "inline-block", borderRadius: 8, padding: "4px 10px", fontSize: 15, fontWeight: 600 };
+  // Stile condiviso per ogni chip parola
+  const chipBase = { display: "inline-block", borderRadius: 8, padding: "8px 14px", fontSize: 13, fontWeight: 700 };
 
   return (
     <>
@@ -509,6 +606,20 @@ function DomandaWordBank({ q, onAnswer }) {
           feedback={feedbackAnim}
           pulseUntilClick={false}
         />
+
+        {/* Contesto EN fisso — significato idiomatico sempre visibile */}
+        {(q.domanda?.en || q.frase_en) && (
+          <div style={{
+            fontSize: 13,
+            color: "rgba(255,255,255,0.4)",
+            fontStyle: "italic",
+            textAlign: "center",
+            marginBottom: 8,
+            padding: "6px 0",
+          }}>
+            {q.domanda?.en || q.frase_en || ""}
+          </div>
+        )}
 
         {/* FIX 4: Pulsante ascolto SEMPRE visibile + contatore */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
@@ -523,61 +634,59 @@ function DomandaWordBank({ q, onAnswer }) {
           )}
         </div>
 
-        {/* Zona composizione — FIX 1: display flex + gap 8 + ogni parola è un div inline-block */}
+        {/* Zona composizione — slots area */}
         <div style={{
-          minHeight: 56, border: `2px ${compBorderStyle} ${compBorderColor}`, borderRadius: "var(--r)",
-          padding: "12px 16px", display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center",
-          transition: "border-color 0.3s", background: "var(--bg)",
-          animation: shakeTrigger ? "shake-err 0.4s ease" : fase === "corretto" ? "pulse-ok 0.4s ease" : "none",
+          minHeight: 44, border: `1.5px solid ${compBorderColor}`, borderRadius: 10,
+          padding: 8, display: "flex", flexWrap: "wrap", gap: 6, alignItems: "center",
+          transition: "border-color 0.3s", background: "var(--bg-deep)",
+          marginBottom: 10,
+          animation: shakeTrigger ? "shake 0.3s ease" : "none",
         }}>
           {(fase === "soluzione" && showSolution) ? (
             <>
               {wordsOnly.map((w, i) => (
-                <div key={i} style={{ ...chipBase, background: "rgba(88,204,2,0.12)", border: "1.5px solid var(--ok-text)", color: "var(--ok-text)", fontWeight: 700 }}>{w}</div>
+                <div key={i} style={{ ...chipBase, background: "var(--bg-el)", border: "1.5px solid var(--green)", color: "var(--green)" }}>{w}</div>
               ))}
-              <div style={{ color: "var(--ok-text)", fontWeight: 700, fontSize: 16, marginLeft: "auto" }}>{punteggiatura}</div>
+              <div style={{ color: "var(--green)", fontWeight: 700, fontSize: 14, marginLeft: "auto" }}>{punteggiatura}</div>
             </>
           ) : selectedWords.length === 0 ? (
             <>
-              <div style={{ color: "var(--text3)", fontSize: 14 }}>
-                <div>Tocca le parole qui sotto</div>
-                <div style={{ fontStyle: "italic", fontSize: 13, opacity: 0.8 }}>Tap words below</div>
+              <div style={{ color: "var(--text3)", fontSize: 13, fontStyle: "italic" }}>
+                Tocca le parole qui sotto · Tap words below
               </div>
-              <div style={{ color: "var(--text3)", fontWeight: 700, fontSize: 16, marginLeft: "auto", opacity: 0.4 }}>{punteggiatura}</div>
             </>
           ) : (
             <>
               {selectedWords.map((w, i) => (
                 <div key={w.id} onClick={() => rimuoviParola(i)} style={{
                   ...chipBase,
-                  background: fase === "corretto" ? "rgba(88,204,2,0.12)" : "#C8A0E818",
-                  border: `1.5px solid ${fase === "corretto" ? "var(--ok-text)" : "#C8A0E8"}`,
-                  borderBottom: `4px solid ${fase === "corretto" ? "var(--ok-text)" : "#C8A0E8"}`,
+                  background: "var(--bg-el)",
+                  border: `1.5px solid var(--green)`,
                   cursor: fase === "corretto" ? "default" : "pointer",
-                  color: fase === "corretto" ? "var(--ok-text)" : "#C8A0E8",
+                  color: "var(--green)",
                 }}>{w.testo}</div>
               ))}
-              <div style={{ color: fase === "corretto" ? "var(--ok-text)" : "#C8A0E8", fontWeight: 700, fontSize: 16, marginLeft: "auto" }}>{punteggiatura}</div>
+              <div style={{ color: "var(--green)", fontWeight: 700, fontSize: 14, marginLeft: "auto" }}>{punteggiatura}</div>
             </>
           )}
         </div>
 
-        {/* Word bank — FIX 1: display flex + gap 8 + ogni parola è un div inline-block */}
+        {/* Words pool */}
         {canEdit && (
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
             {bankWords.map(w => {
               const isUsed = usedIds.has(w.id);
               const isCorrectWord = fase === "soluzione" && wordsOnly.includes(w.testo);
               return (
                 <div key={w.id} onClick={() => !isUsed && aggiungiParola(w)} style={{
                   ...chipBase,
-                  background: isCorrectWord ? "rgba(88,204,2,0.1)" : "var(--card)",
-                  border: `1.5px solid ${isCorrectWord ? "#58cc02" : "var(--border)"}`,
-                  borderBottom: `4px solid ${isCorrectWord ? "#58cc02" : "var(--border)"}`,
-                  color: isCorrectWord ? "#58cc02" : "var(--text)",
-                  cursor: isUsed ? "default" : "pointer", opacity: isUsed ? 0.3 : 1,
+                  background: "var(--bg-el)",
+                  border: `1.5px solid ${isCorrectWord ? "var(--green)" : "var(--border-soft)"}`,
+                  color: isCorrectWord ? "var(--green)" : "var(--text)",
+                  cursor: isUsed ? "default" : "pointer",
+                  opacity: isUsed ? 0.2 : 1,
                   pointerEvents: isUsed ? "none" : "auto",
-                  transition: "opacity 0.15s, border-color 0.3s, background 0.3s",
+                  transition: "opacity 0.15s, border-color 0.15s",
                   textTransform: "none", letterSpacing: "normal",
                 }}>{w.testo}</div>
               );
@@ -622,7 +731,22 @@ function DomandaAbbina({ q, onAnswer }) {
   const shuffEN = useRef([...q.coppie].sort(() => Math.random() - 0.5));
   const allMatched = Object.keys(matched).length === q.coppie.length;
   const intro = getIntroBilingual(q);
-  useEffect(() => { if (allMatched && !done) { setDone(true); playSound("correct"); } }, [matched]);
+  useEffect(() => {
+    if (allMatched && !done) {
+      setDone(true);
+      playSound("correct");
+      // Pronuncia ogni parola IT della coppia in sequenza (1200ms di delay).
+      // coppia.en contiene la parola IT da imparare in modalità situazione;
+      // in modalità classica coppia.it è la parola IT e coppia.en è la traduzione EN.
+      const hasSituationMode = q.coppie.some(p => p.situazione_en);
+      q.coppie.forEach((coppia, i) => {
+        setTimeout(() => {
+          const parolaIT = hasSituationMode ? coppia.en : coppia.it;
+          pronounce(parolaIT, "it-IT");
+        }, i * 1200);
+      });
+    }
+  }, [matched]);
   function handleIT(it) { if (matched[it] || done) return; setSelIT(it); if (selEN !== null) tryMatch(it, selEN); }
   function handleEN(en) { if (Object.values(matched).includes(en) || done) return; setSelEN(en); if (selIT !== null) tryMatch(selIT, en); }
   function tryMatch(it, en) {
@@ -654,20 +778,21 @@ function DomandaAbbina({ q, onAnswer }) {
 
             // STATI BOX SINISTRO
             const itMatched = !!matched[it], itSel = selIT === it, itWrong = wrong?.it === it;
-            let bgL = "var(--card)", brL = "var(--border)", colL = "var(--text)";
-            if (itMatched) { bgL = "var(--ok-bar)"; brL = "var(--ok-text)"; colL = "var(--ok-text)"; }
-            else if (itWrong) { bgL = "var(--err-bar)"; brL = "var(--err-text)"; colL = "var(--err-text)"; }
-            else if (itSel) { bgL = "var(--opt-sel-bg)"; brL = "var(--opt-sel-b)"; colL = "var(--opt-sel-text)"; }
+            let bgL = "var(--bg-el)", brL = "var(--border-soft)", colL = "var(--text)";
+            if (itMatched) { bgL = "rgba(88,204,2,0.08)"; brL = "var(--green)"; colL = "var(--green)"; }
+            else if (itWrong) { bgL = "rgba(255,75,75,0.06)"; brL = "var(--red)"; colL = "var(--red)"; }
+            else if (itSel) { bgL = "rgba(28,176,246,0.08)"; brL = "var(--blue)"; colL = "var(--blue)"; }
 
             // STATI BOX DESTRO
             const enMatched = Object.values(matched).includes(en), enSel = selEN === en, enWrong = wrong?.en === en;
-            let bgR = "var(--card)", brR = "var(--border)", colR = "var(--text)";
-            if (enMatched) { bgR = "var(--ok-bar)"; brR = "var(--ok-text)"; colR = "var(--ok-text)"; }
-            else if (enWrong) { bgR = "var(--err-bar)"; brR = "var(--err-text)"; colR = "var(--err-text)"; }
-            else if (enSel) { bgR = "var(--opt-sel-bg)"; brR = "var(--opt-sel-b)"; colR = "var(--opt-sel-text)"; }
+            let bgR = "var(--bg-el)", brR = "var(--border-soft)", colR = "var(--text)";
+            if (enMatched) { bgR = "rgba(88,204,2,0.08)"; brR = "var(--green)"; colR = "var(--green)"; }
+            else if (enWrong) { bgR = "rgba(255,75,75,0.06)"; brR = "var(--red)"; colR = "var(--red)"; }
+            else if (enSel) { bgR = "rgba(28,176,246,0.08)"; brR = "var(--blue)"; colR = "var(--blue)"; }
 
             const boxBaseStyle = {
               position: "relative",
+              minHeight: 72,
               padding: "12px 14px 28px 14px",
               display: "flex",
               flexDirection: "column",
@@ -684,8 +809,8 @@ function DomandaAbbina({ q, onAnswer }) {
               position: "absolute",
               bottom: 6,
               right: 8,
-              fontSize: 13,
-              opacity: 0.4,
+              fontSize: 12,
+              opacity: 0.35,
               cursor: "pointer",
               padding: 4,
               lineHeight: 1,
@@ -700,22 +825,22 @@ function DomandaAbbina({ q, onAnswer }) {
                   className="match-card"
                   style={{
                     ...boxBaseStyle,
-                    background: bgL, border: `2px solid ${brL}`, color: colL,
+                    background: bgL, border: `1.5px solid ${brL}`, color: colL,
                     cursor: itMatched ? "default" : "pointer",
                   }}
                 >
-                  <div style={{ fontSize: 15, fontWeight: 700, color: colL, lineHeight: 1.3, textAlign: "left" }}>
+                  <div style={{ fontSize: 14, fontWeight: 700, color: colL, lineHeight: 1.3, textAlign: "left" }}>
                     {leftTopIT}
                   </div>
                   {leftSubEN && (
-                    <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(255,255,255,0.45)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
+                    <div style={{ fontSize: 11, fontStyle: "italic", color: "var(--text3)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
                       {leftSubEN}
                     </div>
                   )}
                   <div
                     onClick={(e) => { e.stopPropagation(); pronounce(it, "it-IT"); }}
                     onMouseEnter={(e) => { e.currentTarget.style.opacity = 1; }}
-                    onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.4; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.35; }}
                     style={audioIconStyle}
                     aria-label="Ascolta"
                     role="button"
@@ -728,12 +853,12 @@ function DomandaAbbina({ q, onAnswer }) {
                   className="match-card"
                   style={{
                     ...boxBaseStyle,
-                    background: bgR, border: `2px solid ${brR}`, color: colR,
+                    background: bgR, border: `1.5px solid ${brR}`, color: colR,
                     cursor: enMatched ? "default" : "pointer",
                   }}
                 >
                   <div style={{
-                    fontSize: 15,
+                    fontSize: 14,
                     fontWeight: 700,
                     color: colR,
                     lineHeight: 1.3,
@@ -743,7 +868,7 @@ function DomandaAbbina({ q, onAnswer }) {
                     {rightTopIT}
                   </div>
                   {rightSubEN && (
-                    <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(255,255,255,0.45)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
+                    <div style={{ fontSize: 11, fontStyle: "italic", color: "var(--text3)", marginTop: 3, lineHeight: 1.3, textAlign: "left" }}>
                       {rightSubEN}
                     </div>
                   )}
@@ -751,7 +876,7 @@ function DomandaAbbina({ q, onAnswer }) {
                     <div
                       onClick={(e) => { e.stopPropagation(); pronounce(en, "it-IT"); }}
                       onMouseEnter={(e) => { e.currentTarget.style.opacity = 1; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.4; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.opacity = 0.35; }}
                       style={audioIconStyle}
                       aria-label="Ascolta"
                       role="button"
@@ -763,11 +888,16 @@ function DomandaAbbina({ q, onAnswer }) {
           })}
         </div>
         {allMatched && (
-          <div style={{ background: "var(--ok-bar)", border: "1.5px solid var(--ok-text)", borderRadius: "var(--r)", padding: "11px 14px" }}>
-            <div style={{ fontSize: 16, fontWeight: 900, color: "var(--ok-text)", lineHeight: 1.2 }}>✅ Esatto!</div>
-            <div style={{ fontSize: 12, fontWeight: 600, color: "var(--ok-text)", fontStyle: "italic", opacity: 0.75, marginBottom: 4 }}>Correct!</div>
-            <div style={{ fontSize: 15, color: "var(--ok-text)", lineHeight: 1.4 }}>{q.feedbackOk?.it}</div>
-            <div style={{ fontSize: 13, color: "var(--ok-text)", opacity: 0.7, fontStyle: "italic", marginTop: 2, lineHeight: 1.4 }}>{q.feedbackOk?.en}</div>
+          <div style={{
+            background: "rgba(88,204,2,0.1)", border: "1.5px solid rgba(88,204,2,0.3)",
+            borderRadius: "var(--r)", padding: "12px 14px",
+            marginTop: 12, animation: "fadeIn 0.2s ease",
+          }}>
+            <div style={{ fontSize: 13, fontWeight: 700, color: "var(--green)" }}>✅ Esatto! · Correct!</div>
+            <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.5, marginTop: 3 }}>{q.feedbackOk?.it}</div>
+            {q.feedbackOk?.en && (
+              <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>{q.feedbackOk?.en}</div>
+            )}
           </div>
         )}
       </div>
@@ -851,65 +981,192 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
 
 // ─── TIPO: fill_blank ────────────────────────────────────────────────────────
 function DomandaFillBlank({ q, onAnswer }) {
-  const [selected, setSelected] = useState(null);
-  const [confirmed, setConfirmed] = useState(false);
-  const isCorrect = selected === q.correct;
-  const intro = getIntroBilingual(q);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [corretto, setCorretto] = useState(false);
+  const [sbagliato, setSbagliato] = useState(false);
 
-  function renderFrase(frase, selectedOpt) {
-    const parts = frase.split("___");
-    return (
-      <span>
-        {parts[0]}
-        <span style={{
-          display: "inline-block", minWidth: 80, borderBottom: `2px solid ${confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)"}`,
-          color: confirmed ? (isCorrect ? "var(--ok-text)" : "var(--err-text)") : "var(--special)",
-          fontWeight: 700, textAlign: "center", padding: "0 8px", transition: "color 0.2s, border-color 0.2s",
-        }}>
-          {selectedOpt ? selectedOpt.it : "___"}
-        </span>
-        {parts[1] || ""}
-      </span>
-    );
+  // Parsing frase su run di 3+ underscore → array alternato di testo + "___"
+  // Robusto a "___", "_____", "_______" etc — qualsiasi lunghezza del placeholder.
+  function parseFrase(frase) {
+    return (frase || "").split(/_{3,}/)
+      .flatMap((p, i, arr) => i < arr.length - 1 ? [p, "___"] : [p])
+      .filter(p => p !== "");
+  }
+  const partiIT = parseFrase(q.frase_it);
+
+  function selectOption(opt) {
+    if (corretto) return;
+    setSelectedOption(opt);
+    // Un nuovo click dopo uno sbagliato resetta lo stato errore
+    if (sbagliato) setSbagliato(false);
+  }
+
+  function controlla() {
+    if (!selectedOption) return;
+    const rispostaCorretta = q.opzioni[q.correct];
+    if (selectedOption.it === rispostaCorretta.it) {
+      setCorretto(true);
+      playSound("correct");
+      // Pronuncia la frase IT completa con la parola inserita al posto del buco
+      const fraseCompleta = (q.frase_it || "").replace(/_{3,}/, selectedOption.it);
+      pronounce(fraseCompleta, "it-IT");
+    } else {
+      setSbagliato(true);
+      playSound("wrong");
+    }
+  }
+
+  function riprova() {
+    setSelectedOption(null);
+    setCorretto(false);
+    setSbagliato(false);
+  }
+
+  function avanti() {
+    window.speechSynthesis?.cancel();
+    onAnswer(true);
   }
 
   return (
     <>
       <div className="app-body">
-        <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
-        <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
-          <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text)", lineHeight: 1.5 }}>
-            {renderFrase(q.frase_it, selected !== null ? q.opzioni[selected] : null)}
+        <PersonaggioBubble
+          character={q.personaggio}
+          textIT="Inserisci la parola mancante!"
+          textEN="Fill in the missing word!"
+          feedback={corretto ? "ok" : sbagliato ? "err" : null}
+          pulseUntilClick={!corretto && !sbagliato}
+        />
+
+        {/* FRASE BOX */}
+        <div style={{
+          background: "var(--bg-deep)", borderRadius: "var(--r)", padding: "14px", marginBottom: 12,
+          border: corretto
+            ? "1.5px solid var(--border-green)"
+            : sbagliato
+              ? "1.5px solid var(--border-red)"
+              : "1.5px solid var(--border-soft)",
+          transition: "border 0.2s",
+        }}>
+          {/* FRASE IT — testo grande con buco inline (whiteSpace preserva gli spazi) */}
+          <div style={{
+            fontSize: 20, fontWeight: 700, color: "#fff",
+            lineHeight: 1.6, marginBottom: 8,
+            display: "flex", flexWrap: "wrap", alignItems: "center", gap: 4,
+          }}>
+            {partiIT.map((parte, i) => (
+              parte === "___" ? (
+                <span key={i} style={{
+                  display: "inline-flex", alignItems: "center", justifyContent: "center",
+                  minWidth: 90, height: 34, borderRadius: "var(--r-sm)",
+                  border: corretto
+                    ? "2px solid var(--green)"
+                    : sbagliato
+                      ? "2px solid var(--red)"
+                      : "2px dashed rgba(255,149,0,0.6)",
+                  background: corretto
+                    ? "rgba(88,204,2,0.08)"
+                    : sbagliato
+                      ? "rgba(255,75,75,0.06)"
+                      : "rgba(255,149,0,0.06)",
+                  color: corretto
+                    ? "var(--green)"
+                    : sbagliato
+                      ? "var(--red)"
+                      : selectedOption
+                        ? "var(--accent)"
+                        : "rgba(255,149,0,0.5)",
+                  fontWeight: 700, fontSize: 16, padding: "0 10px",
+                  animation: sbagliato ? "shake 0.3s ease" : "none",
+                  transition: "all 0.2s",
+                }}>
+                  {selectedOption?.it || "___"}
+                </span>
+              ) : (
+                <span key={i} style={{ whiteSpace: "pre-wrap" }}>{parte}</span>
+              )
+            ))}
           </div>
-          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 6 }}>
-            {q.frase_en}
-          </div>
+
+          {/* FRASE EN — significato idiomatico completo */}
+          {q.frase_en && (
+            <div style={{
+              fontSize: 12,
+              color: "var(--text3)",
+              fontStyle: "italic",
+              marginTop: 6,
+              lineHeight: 1.5,
+            }}>
+              {"= " + q.frase_en.replace(/_{3,}/g, "...")}
+            </div>
+          )}
         </div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+
+        {/* PILL OPZIONI */}
+        <div style={{
+          display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 16,
+        }}>
           {q.opzioni.map((opt, i) => {
-            const isSel = selected === i;
-            const bg = confirmed && i === q.correct ? "var(--ok-bar)" : confirmed && isSel ? "var(--err-bar)" : isSel ? "var(--opt-sel-bg)" : "var(--card)";
-            const border = confirmed && i === q.correct ? "var(--ok-text)" : confirmed && isSel ? "var(--err-text)" : isSel ? "var(--opt-sel-b)" : "var(--border)";
-            const color = confirmed && i === q.correct ? "var(--ok-text)" : confirmed && isSel ? "var(--err-text)" : isSel ? "var(--opt-sel-text)" : "var(--text)";
+            const isUsed = selectedOption?.it === opt.it;
             return (
-              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
-                flex: "1 1 45%", minWidth: 80, minHeight: 56,
-                background: bg, border: `1.5px solid ${border}`, borderBottom: `4px solid ${border}`,
-                borderRadius: 10, padding: "8px 12px", cursor: confirmed ? "default" : "pointer",
-                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal", textAlign: "center",
-                display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
-              }}>
-                <div style={{ fontSize: 16, fontWeight: 700, color }}>{opt.it}</div>
-                <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", opacity: 0.7, minHeight: 15 }}>{opt.en}</div>
-              </button>
+              <div
+                key={i}
+                onClick={() => !isUsed && !corretto && selectOption(opt)}
+                style={{
+                  background: "var(--bg-el)",
+                  border: isUsed ? "1.5px solid var(--border-accent)" : "1.5px solid var(--border-soft)",
+                  borderRadius: 10, padding: "12px 16px",
+                  cursor: isUsed || corretto ? "default" : "pointer",
+                  opacity: isUsed ? 0.3 : 1,
+                  pointerEvents: isUsed ? "none" : "auto",
+                  display: "flex", alignItems: "center", justifyContent: "center",
+                  flex: 1, minWidth: 70, textAlign: "center",
+                  transition: "all 0.15s",
+                }}
+              >
+                <div style={{ fontSize: 14, fontWeight: 700, color: "var(--text)" }}>{opt.it}</div>
+              </div>
             );
           })}
         </div>
       </div>
-      {confirmed
-        ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
-        : <CheckBar disabled={selected === null} onCheck={() => { setConfirmed(true); playSound(isCorrect ? "correct" : "wrong"); if (isCorrect) pronounce(q.opzioni[q.correct].it); }} />
-      }
+
+      {/* BOTTONE BOTTOM — 4 stati */}
+      <div className="app-bottom">
+        {corretto ? (
+          <button onClick={avanti} className="btn-cta btn-primary" style={{
+            background: "var(--green)", color: "#fff",
+            borderBottom: "4px solid var(--green-dark)",
+          }}>
+            <span className="btn-it">AVANTI →</span>
+            <span className="btn-en">Next</span>
+          </button>
+        ) : sbagliato ? (
+          <button onClick={riprova} className="btn-cta btn-primary" style={{
+            background: "var(--accent)", color: "#fff",
+            borderBottom: "4px solid var(--accent-dark)",
+          }}>
+            <span className="btn-it">RIPROVA</span>
+            <span className="btn-en">Try again</span>
+          </button>
+        ) : selectedOption ? (
+          <button onClick={controlla} className="btn-cta btn-primary" style={{
+            background: "var(--green)", color: "#fff",
+            borderBottom: "4px solid var(--green-dark)",
+          }}>
+            <span className="btn-it">CONTROLLA</span>
+            <span className="btn-en">Check</span>
+          </button>
+        ) : (
+          <button disabled className="btn-cta btn-primary" style={{
+            background: "var(--card)", color: "var(--muted)",
+            borderBottom: "4px solid var(--border)", opacity: 0.6,
+          }}>
+            <span className="btn-it">CONTROLLA</span>
+            <span className="btn-en">Check</span>
+          </button>
+        )}
+      </div>
     </>
   );
 }
@@ -1111,34 +1368,51 @@ function DomandaTapRight({ q, onAnswer }) {
     <>
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
-        {q.contesto_it && (
-          <div style={{ background: "var(--bg)", borderLeft: "3px solid var(--special)", borderRadius: "0 var(--r) var(--r) 0", padding: 12 }}>
-            <div style={{ fontSize: 15, fontWeight: 700, color: "var(--text)" }}>{q.contesto_it}</div>
-            <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginTop: 2 }}>{q.contesto_en}</div>
-          </div>
-        )}
+        {q.contesto_it && (() => {
+          // Estrai l'emoji (prima occorrenza) e rimuovila dai testi IT/EN
+          const emojiRegex = /\p{Extended_Pictographic}/u;
+          const emojiGlobal = /\p{Extended_Pictographic}/gu;
+          const emoji = q.contesto_emoji
+            || (q.contesto_it.match(emojiRegex)?.[0])
+            || (q.contesto_en?.match(emojiRegex)?.[0])
+            || "";
+          const itClean = q.contesto_it.replace(emojiGlobal, "").trim();
+          const enClean = (q.contesto_en || "").replace(emojiGlobal, "").trim();
+          return (
+            <div style={{ background: "var(--bg)", borderLeft: "3px solid var(--special)", borderRadius: "0 var(--r) var(--r) 0", padding: 12 }}>
+              {emoji && (
+                <div style={{ fontSize: 24, textAlign: "center", marginBottom: 6 }}>{emoji}</div>
+              )}
+              <div style={{ fontSize: 14, fontWeight: 700, color: "var(--text)", textAlign: "center" }}>{itClean}</div>
+              {enClean && (
+                <div style={{ fontSize: 12, fontStyle: "italic", color: "rgba(255,255,255,0.4)", textAlign: "center", marginTop: 2 }}>{enClean}</div>
+              )}
+            </div>
+          );
+        })()}
         <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>{q.domanda.it}</div>
         <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginTop: -8 }}>{q.domanda.en}</div>
-        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
           {q.opzioni.map((opt, i) => {
-            const isSel = selected === i;
-            const ok = confirmed && i === q.correct;
-            const err = confirmed && isSel && !isCorrect;
+            const isSel = !confirmed && selected === i;
+            const ok   = confirmed && i === q.correct;
+            const err  = confirmed && selected === i && !isCorrect;
+            const bg     = ok ? "rgba(88,204,2,0.08)" : err ? "rgba(255,75,75,0.06)" : isSel ? "rgba(28,176,246,0.08)" : "var(--bg-el)";
+            const border = ok ? "var(--green)"        : err ? "var(--red)"           : isSel ? "var(--blue)"           : "var(--border-soft)";
+            const itCol  = ok ? "var(--green)"        : err ? "var(--red)"           : "var(--text)";
             return (
               <button key={i} onClick={() => handleTap(i)} style={{
-                display: "flex", alignItems: "center", gap: 14, minHeight: 72,
-                padding: "10px 16px", borderRadius: "var(--r)",
-                background: ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : "var(--card)",
-                border: `2px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
-                cursor: confirmed ? "default" : "pointer", fontFamily: "inherit",
-                textTransform: "none", letterSpacing: "normal", width: "100%",
-                animation: err ? "shake-err 0.4s ease" : "none",
+                background: bg, border: `1.5px solid ${border}`, borderRadius: 14,
+                padding: "14px 8px", textAlign: "center",
+                display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
+                minHeight: 90, cursor: confirmed ? "default" : "pointer",
+                fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+                transition: "all 0.15s",
+                animation: err ? "shake 0.3s ease" : "none",
               }}>
-                <span style={{ fontSize: 32, flexShrink: 0 }}>{opt.emoji || ""}</span>
-                <div style={{ flex: 1, textAlign: "left" }}>
-                  <div style={{ fontSize: 16, fontWeight: 700, color: ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--text)" }}>{opt.it}</div>
-                  <div style={{ fontSize: 12, fontStyle: "italic", color: "var(--text3)", minHeight: 15 }}>{opt.en}</div>
-                </div>
+                {opt.emoji && <span style={{ fontSize: 28 }}>{opt.emoji}</span>}
+                <div style={{ fontSize: 13, fontWeight: 700, color: itCol, lineHeight: 1.2 }}>{opt.it}</div>
+                {opt.en && <div style={{ fontSize: 10, fontStyle: "italic", color: "var(--text3)", lineHeight: 1.2 }}>{opt.en}</div>}
               </button>
             );
           })}
@@ -1169,43 +1443,52 @@ function DomandaGiustoONo({ q, onAnswer }) {
     <>
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
-        {/* Scena */}
-        <div style={{ fontSize: 13, color: "var(--text3)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-          <div>{q.scena_it}</div>
-          <div style={{ fontStyle: "italic", opacity: 0.7 }}>{q.scena_en}</div>
-        </div>
-        {/* Frase nel fumetto */}
+        {/* Scena box */}
         <div style={{
-          background: "var(--card)", border: `2px solid ${CHAR_COLOR[q.personaggio] || "var(--border)"}`,
-          borderRadius: "12px 12px 12px 0", padding: "14px 18px", position: "relative",
+          background: "var(--bg-deep)", borderRadius: "var(--r)",
+          padding: "14px 16px", marginBottom: 14,
+          border: "1.5px solid var(--border-soft)",
         }}>
-          <div style={{ fontSize: 20, fontWeight: 800, color: "var(--text)", lineHeight: 1.3 }}>"{q.frase_it}"</div>
-          <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 4 }}>"{q.frase_en}"</div>
+          {q.scena_it && (
+            <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginBottom: 6 }}>
+              {q.scena_it}{q.scena_en ? ` · ${q.scena_en}` : ""}
+            </div>
+          )}
+          <div style={{ fontSize: 18, fontWeight: 700, color: "var(--text)", lineHeight: 1.4 }}>"{q.frase_it}"</div>
+          {q.frase_en && (
+            <div style={{ fontSize: 13, color: "var(--text3)", fontStyle: "italic", marginTop: 4 }}>"{q.frase_en}"</div>
+          )}
         </div>
       </div>
       {confirmed
         ? <FeedbackBar isCorrect={isCorrect} feedbackOk={q.feedbackOk} feedbackErr={q.feedbackErr} onNext={() => { window.speechSynthesis?.cancel(); onAnswer(isCorrect); }} />
         : (
-          <div className="app-bottom" style={{ display: "flex", gap: 8 }}>
+          <div className="app-bottom" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
             <button onClick={() => handleAnswer(true)} style={{
-              flex: 1, height: 64, borderRadius: "var(--r)", background: "var(--card)",
-              border: "2px solid #58cc02", color: "#58cc02", cursor: "pointer",
+              background: "rgba(88,204,2,0.1)",
+              border: "1.5px solid rgba(88,204,2,0.3)",
+              borderRadius: "var(--r)", padding: 16,
+              display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
+              cursor: "pointer",
               fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
-              display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2,
+              transition: "background 0.15s",
             }}>
-              <span style={{ fontSize: 24 }}>👍</span>
-              <div style={{ fontSize: 14, fontWeight: 700 }}>Giusto!</div>
-              <div style={{ fontSize: 10, fontStyle: "italic", opacity: 0.6 }}>Right</div>
+              <span style={{ fontSize: 28 }}>👍</span>
+              <div style={{ fontSize: 14, fontWeight: 700, color: "var(--green)" }}>Giusto!</div>
+              <div style={{ fontSize: 11, fontStyle: "italic", color: "rgba(88,204,2,0.6)" }}>Right</div>
             </button>
             <button onClick={() => handleAnswer(false)} style={{
-              flex: 1, height: 64, borderRadius: "var(--r)", background: "var(--card)",
-              border: "2px solid #ff4b4b", color: "#ff4b4b", cursor: "pointer",
+              background: "rgba(255,75,75,0.08)",
+              border: "1.5px solid rgba(255,75,75,0.25)",
+              borderRadius: "var(--r)", padding: 16,
+              display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
+              cursor: "pointer",
               fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
-              display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2,
+              transition: "background 0.15s",
             }}>
-              <span style={{ fontSize: 24 }}>👎</span>
-              <div style={{ fontSize: 14, fontWeight: 700 }}>Sbagliato!</div>
-              <div style={{ fontSize: 10, fontStyle: "italic", opacity: 0.6 }}>Wrong</div>
+              <span style={{ fontSize: 28 }}>👎</span>
+              <div style={{ fontSize: 14, fontWeight: 700, color: "var(--red)" }}>Sbagliato!</div>
+              <div style={{ fontSize: 11, fontStyle: "italic", color: "rgba(255,75,75,0.6)" }}>Wrong</div>
             </button>
           </div>
         )
