@@ -8,11 +8,7 @@
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": [
-      "☕ Caffè espresso",
-      "🥐 Cornetto",
-      "🍵 Tè caldo"
-    ]
+    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
   },
   "vocab": [],
   "pillole": [
@@ -22,12 +18,12 @@
       "icon": "💡",
       "domanda_it": "Tu o Lei — quando essere formali?",
       "domanda_en": "Tu or Lei — when to be formal?",
-      "titolo_it": "Formale vs informale in italiano",
-      "titolo_en": "Formal vs informal in Italian",
-      "corpo_it": "In italiano hai due modi per dire you. TU con amici e famiglia. LEI con sconosciuti, professori e dottori. A Napoli si è più informali che al Nord — ma con i professori sempre LEI!",
-      "corpo_en": "In Italian you have two ways to say you. TU with friends and family. LEI with strangers, professors and doctors. Naples is more informal than the North — but with professors always LEI!",
+      "titolo_it": "Il registro in italiano",
+      "titolo_en": "Formal register in Italian",
+      "corpo_it": "In italiano hai due modi per dire you. TU con amici e famiglia. LEI con sconosciuti e professori. A Napoli si è più informali — ma con i dottori sempre LEI!",
+      "corpo_en": "In Italian you have two ways to say you. TU with friends. LEI with strangers and professors. Naples is informal — but with doctors always LEI!",
       "esempio_it": "👫 Ciao, come stai? → TU · 👔 Buongiorno, come sta? → LEI",
-      "esempio_en": "Friends: Tu · Strangers/professors: Lei"
+      "esempio_en": "Friends: Tu · Strangers: Lei"
     }
   ],
   "questions": [
@@ -36,39 +32,27 @@
       "personaggio": "mario",
       "tipo": "tap_right",
       "fase": "riconoscimento",
-      "introIT": "Tocca la risposta giusta!",
-      "intro_en": "Tap the right answer!",
-      "contesto_it": "Sono le 9 di mattina. ☀️",
-      "contesto_en": "It is 9 in the morning. ☀️",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "☀️ Sono le 9:00",
+      "contesto_en": "☀️ It is 9 AM",
       "domanda": {
-        "it": "Entri al bar. Cosa dici?",
-        "en": "You enter the bar. What do you say?"
+        "it": "Entri al bar. Cosa dici a Mario?",
+        "en": "You enter the bar. What do you say to Mario?"
       },
       "opzioni": [
-        {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
-          "it": "Buonasera!",
-          "en": "Good evening!",
-          "emoji": "🌆"
-        },
-        {
-          "it": "Buonanotte!",
-          "en": "Good night!",
-          "emoji": "🌙"
-        }
+        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
+        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
+        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! La mattina si dice Buongiorno!",
-        "en": "Correct! In the morning say Buongiorno!"
+        "it": "Sì! Le 9 → Buongiorno! ☀️",
+        "en": "Yes! 9 AM → Buongiorno! ☀️"
       },
       "feedbackErr": {
-        "it": "No! Sono le 9 — si dice Buongiorno!",
-        "en": "No! It is 9 AM — say Buongiorno!"
+        "it": "Sono le 9 — mattina! La mattina → Buongiorno!",
+        "en": "It is 9 AM — morning! Morning → Buongiorno!"
       }
     },
     {
@@ -76,39 +60,27 @@
       "personaggio": "mario",
       "tipo": "tap_right",
       "fase": "riconoscimento",
-      "introIT": "Situazione veloce!",
-      "intro_en": "Quick situation!",
-      "contesto_it": "Incontri qualcuno per la prima volta. 🤝",
-      "contesto_en": "You meet someone for the first time. 🤝",
+      "introIT": "Ancora!",
+      "intro_en": "Again!",
+      "contesto_it": "🤝 Incontri Sofia per la prima volta",
+      "contesto_en": "🤝 You meet Sofia for the first time",
       "domanda": {
-        "it": "Cosa dici?",
-        "en": "What do you say?"
+        "it": "Cosa dici a Sofia?",
+        "en": "What do you say to Sofia?"
       },
       "opzioni": [
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        },
-        {
-          "it": "Piacere!",
-          "en": "Nice to meet you!",
-          "emoji": "🤝"
-        },
-        {
-          "it": "Buonanotte!",
-          "en": "Good night!",
-          "emoji": "🌙"
-        }
+        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
+        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
+        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! Piacere al primo incontro!",
-        "en": "Perfect! Piacere at the first meeting!"
+        "it": "Perfetto! Prima volta → Piacere! 🤝",
+        "en": "Perfect! First time → Piacere! 🤝"
       },
       "feedbackErr": {
-        "it": "No! Al primo incontro: Piacere!",
-        "en": "No! At the first meeting: Piacere!"
+        "it": "Prima volta → Piacere! Ti fa piacere conoscere Sofia!",
+        "en": "First time → Piacere! You are pleased to meet Sofia!"
       }
     },
     {
@@ -116,36 +88,23 @@
       "personaggio": "mario",
       "tipo": "fill_blank",
       "fase": "riconoscimento",
-      "introIT": "Riempi il buco!",
-      "intro_en": "Fill in the blank!",
+      "introIT": "Inserisci la parola mancante!",
+      "intro_en": "Fill in the missing word!",
       "frase_it": "_____, mi chiamo Mario!",
-      "frase_en": "Nice to meet you, my name is Mario!",
+      "frase_en": "= Nice to meet you, my name is Mario!",
       "opzioni": [
-        {
-          "it": "Piacere",
-          "en": "Nice to meet you"
-        },
-        {
-          "it": "Arrivederci",
-          "en": "Goodbye"
-        },
-        {
-          "it": "Buonanotte",
-          "en": "Good night"
-        },
-        {
-          "it": "Buonasera",
-          "en": "Good evening"
-        }
+        { "it": "Piacere" },
+        { "it": "Arrivederci" },
+        { "it": "Buonanotte" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Piacere + mi chiamo — presentazione!",
-        "en": "Correct! Piacere + mi chiamo — introduction!"
+        "it": "Esatto! Piacere + mi chiamo — presentazione! 🙋",
+        "en": "Correct! Piacere + mi chiamo — introduction! 🙋"
       },
       "feedbackErr": {
-        "it": "No! Piacere, mi chiamo Mario — al primo incontro!",
-        "en": "No! Piacere, mi chiamo Mario — at first meeting!"
+        "it": "Piacere, mi chiamo Mario! Piacere = nice to meet you, mi chiamo = my name is.",
+        "en": "Piacere, mi chiamo Mario! Piacere = nice to meet you, mi chiamo = my name is."
       }
     },
     {
@@ -155,34 +114,21 @@
       "fase": "comprensione",
       "introIT": "Ancora un buco!",
       "intro_en": "Another blank!",
-      "frase_it": "_____ di Napoli.",
-      "frase_en": "I am from Naples.",
+      "frase_it": "Sono _____ Napoli.",
+      "frase_en": "= I am from Naples.",
       "opzioni": [
-        {
-          "it": "Sono",
-          "en": "am"
-        },
-        {
-          "it": "Mi chiamo",
-          "en": "my name is"
-        },
-        {
-          "it": "Piacere",
-          "en": "nice to meet you"
-        },
-        {
-          "it": "Arrivederci",
-          "en": "goodbye"
-        }
+        { "it": "di" },
+        { "it": "mi" },
+        { "it": "ho" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Sono di + città — sempre!",
-        "en": "Perfect! Sono di + city — always!"
+        "it": "Perfetto! Sono di Napoli! Di = from. 📍",
+        "en": "Perfect! Sono di Napoli! Di = from. 📍"
       },
       "feedbackErr": {
-        "it": "No! Sono di Napoli — sono di + città!",
-        "en": "No! Sono di Napoli — sono di + city!"
+        "it": "Sono DI Napoli! Di = from — come from in inglese!",
+        "en": "Sono DI Napoli! Di = from — like from in English!"
       }
     },
     {
@@ -190,39 +136,27 @@
       "personaggio": "mario",
       "tipo": "tap_right",
       "fase": "comprensione",
-      "introIT": "Tocca subito!",
-      "intro_en": "Tap right away!",
-      "contesto_it": "Sono le 20:00. 🌆",
-      "contesto_en": "It is 8 PM. 🌆",
+      "introIT": "Situazione reale!",
+      "intro_en": "Real situation!",
+      "contesto_it": "🌆 Sono le 20:00",
+      "contesto_en": "🌆 It is 8 PM",
       "domanda": {
         "it": "Entri al ristorante. Cosa dici?",
         "en": "You enter the restaurant. What do you say?"
       },
       "opzioni": [
-        {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
-          "it": "Buonasera!",
-          "en": "Good evening!",
-          "emoji": "🌆"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        }
+        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
+        { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
+        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Dopo le 18:00 si dice Buonasera!",
-        "en": "Correct! After 6 PM say Buonasera!"
+        "it": "Sì! Dopo le 18:00 → Buonasera! 🌆",
+        "en": "Yes! After 6 PM → Buonasera! 🌆"
       },
       "feedbackErr": {
-        "it": "No! Sono le 20:00 — si dice Buonasera!",
-        "en": "No! It is 8 PM — say Buonasera!"
+        "it": "Sono le 20:00 — è sera! Dopo le 18 si dice Buonasera!",
+        "en": "It is 8 PM — it is evening! After 6 PM say Buonasera!"
       }
     },
     {
@@ -232,34 +166,21 @@
       "fase": "comprensione",
       "introIT": "Come rispondi?",
       "intro_en": "How do you reply?",
-      "frase_it": "Mi chiamo Oliver. _____ di Londra.",
-      "frase_en": "My name is Oliver. I am from London.",
+      "frase_it": "Mi _____ Sofia.",
+      "frase_en": "= My name is Sofia.",
       "opzioni": [
-        {
-          "it": "Sono",
-          "en": "am"
-        },
-        {
-          "it": "Piacere",
-          "en": "nice to meet you"
-        },
-        {
-          "it": "Buongiorno",
-          "en": "good morning"
-        },
-        {
-          "it": "Arrivederci",
-          "en": "goodbye"
-        }
+        { "it": "chiamo" },
+        { "it": "sono" },
+        { "it": "ho" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Ottimo! Sono di Londra — origine!",
-        "en": "Great! Sono di Londra — origin!"
+        "it": "Perfetto! Mi chiamo Sofia! 🙋",
+        "en": "Perfect! Mi chiamo Sofia! 🙋"
       },
       "feedbackErr": {
-        "it": "No! Sono di Londra — sono di + città!",
-        "en": "No! Sono di Londra — sono di + city!"
+        "it": "Mi CHIAMO Sofia! Mi chiamo = I call myself. Letteralmente: I call myself Sofia!",
+        "en": "Mi CHIAMO Sofia! Mi chiamo = I call myself. Literally: I call myself Sofia!"
       }
     },
     {
@@ -269,37 +190,25 @@
       "fase": "produzione",
       "introIT": "Situazione formale!",
       "intro_en": "Formal situation!",
-      "contesto_it": "Sei dal dottore. 🏥",
-      "contesto_en": "You are at the doctor's. 🏥",
+      "contesto_it": "🏥 Sei dal dottore",
+      "contesto_en": "🏥 You are at the doctor",
       "domanda": {
         "it": "Come saluti il dottore?",
         "en": "How do you greet the doctor?"
       },
       "opzioni": [
-        {
-          "it": "Ciao!",
-          "en": "Hi!",
-          "emoji": "😊"
-        },
-        {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "👔"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        }
+        { "it": "Ciao!", "en": "Hi!", "emoji": "😊" },
+        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "👔" },
+        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Con il dottore: Buongiorno — formale!",
-        "en": "Correct! With the doctor: Buongiorno — formal!"
+        "it": "Esatto! Con il dottore → Buongiorno! Più rispettoso. 👔",
+        "en": "Correct! With the doctor → Buongiorno! More respectful. 👔"
       },
       "feedbackErr": {
-        "it": "No! Con il dottore mai Ciao — Buongiorno!",
-        "en": "No! With the doctor never Ciao — Buongiorno!"
+        "it": "Con il dottore è preferibile Buongiorno — il Ciao è tra amici!",
+        "en": "With the doctor Buongiorno is better — Ciao is between friends!"
       }
     },
     {
@@ -309,34 +218,21 @@
       "fase": "produzione",
       "introIT": "Ultima sfida!",
       "intro_en": "Final challenge!",
-      "frase_it": "Mi _____ Sofia. Piacere!",
-      "frase_en": "My name is Sofia. Nice to meet you!",
+      "frase_it": "_____ di dove sei?",
+      "frase_en": "= And where are you from?",
       "opzioni": [
-        {
-          "it": "chiamo",
-          "en": "call"
-        },
-        {
-          "it": "sono",
-          "en": "am"
-        },
-        {
-          "it": "piace",
-          "en": "like"
-        },
-        {
-          "it": "vado",
-          "en": "go"
-        }
+        { "it": "E" },
+        { "it": "Mi" },
+        { "it": "Ho" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Mi chiamo — per il nome!",
-        "en": "Perfect! Mi chiamo — for your name!"
+        "it": "Bravissimo! E di dove sei? E = and! 🌍",
+        "en": "Excellent! E di dove sei? E = and! 🌍"
       },
       "feedbackErr": {
-        "it": "No! Mi chiamo Sofia — mi chiamo per il nome!",
-        "en": "No! Mi chiamo Sofia — mi chiamo for your name!"
+        "it": "E di dove sei? E = and — come in inglese! And where are you from?",
+        "en": "E di dove sei? E = and — same as in English! And where are you from?"
       }
     }
   ]

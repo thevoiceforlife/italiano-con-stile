@@ -1,18 +1,14 @@
 {
   "id": "A1-unit1-lesson2",
-  "title": "Saluti — in contesto",
-  "title_en": "Greetings — in context",
+  "title": "Presentarsi",
+  "title_en": "Introducing yourself",
   "type": "contesto",
   "icon": "📖",
   "unita_tipo": "scopri",
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": [
-      "☕ Caffè espresso",
-      "🥐 Cornetto",
-      "🍵 Tè caldo"
-    ]
+    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
   },
   "vocab": [],
   "pillole": [
@@ -20,14 +16,14 @@
       "id": "pill1",
       "trigger": "after_lesson",
       "icon": "💡",
-      "domanda_it": "Perché Buongiorno e non Buonanotte?",
-      "domanda_en": "Why Buongiorno and not Buonanotte?",
-      "titolo_it": "I saluti italiani e l'orario",
-      "titolo_en": "Italian greetings and time of day",
-      "corpo_it": "In italiano il saluto cambia con l'ora. Buongiorno fino alle 13. Buon pomeriggio dalle 13 alle 18. Buonasera dalle 18. Buonanotte solo prima di dormire — non è un saluto ma un augurio!",
-      "corpo_en": "In Italian the greeting changes with the time. Buongiorno until 1 PM. Buon pomeriggio from 1 to 6 PM. Buonasera from 6 PM. Buonanotte only before sleeping — it is not a greeting but a wish!",
-      "esempio_it": "☀️ 09:00 Buongiorno · 🌤️ 15:00 Buon pomeriggio · 🌆 19:00 Buonasera · 🌙 Dormire Buonanotte",
-      "esempio_en": "09:00 Good morning · 15:00 Good afternoon · 19:00 Good evening · Sleeping Good night"
+      "domanda_it": "Perché si dice mi chiamo e non sono?",
+      "domanda_en": "Why mi chiamo and not sono?",
+      "titolo_it": "Mi chiamo = I call myself",
+      "titolo_en": "Mi chiamo = I call myself",
+      "corpo_it": "Mi chiamo viene da chiamarsi — chiamare se stesso. Letteralmente: I call myself Mario. È più personale di I am Mario!",
+      "corpo_en": "Mi chiamo comes from calling yourself. Literally: I call myself Mario. More personal than I am Mario!",
+      "esempio_it": "Mi chiamo Sofia. = I call myself Sofia.",
+      "esempio_en": "My name is Sofia — but literally: I call myself Sofia!"
     }
   ],
   "questions": [
@@ -36,38 +32,25 @@
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "introIT": "Sono le 8 di mattina al bar!",
-      "intro_en": "It is 8 in the morning at the bar!",
+      "introIT": "Mario si presenta!",
+      "intro_en": "Mario introduces himself!",
       "domanda": {
-        "it": "Mario apre il bar. Come saluta i clienti?",
-        "en": "Mario opens the bar. How does he greet the customers?"
+        "it": "Mario vuole dire il suo nome. Cosa dice?",
+        "en": "Mario wants to say his name. What does he say?"
       },
       "opzioni": [
-        {
-          "it": "Buonasera!",
-          "en": "Good evening!"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!"
-        },
-        {
-          "it": "Buongiorno!",
-          "en": "Good morning!"
-        },
-        {
-          "it": "Piacere!",
-          "en": "Nice to meet you!"
-        }
+        { "it": "Mi chiamo Mario.", "en": "My name is Mario." },
+        { "it": "Buongiorno Mario.", "en": "Good morning Mario." },
+        { "it": "Piacere Mario.", "en": "Nice to meet you Mario." }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Le 8 di mattina — Buongiorno!",
-        "en": "Correct! 8 in the morning — Buongiorno!"
+        "it": "Esatto! Mi chiamo Mario. 🙋",
+        "en": "Correct! Mi chiamo Mario. 🙋"
       },
       "feedbackErr": {
-        "it": "No! La mattina si dice Buongiorno!",
-        "en": "No! In the morning say Buongiorno!"
+        "it": "Per il nome si dice Mi chiamo! Mi chiamo = my name is.",
+        "en": "For your name say Mi chiamo! Mi chiamo = my name is."
       }
     },
     {
@@ -75,137 +58,98 @@
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "riconoscimento",
-      "introIT": "Oliver entra al bar!",
-      "intro_en": "Oliver enters the bar!",
+      "introIT": "Mario è curioso!",
+      "intro_en": "Mario is curious!",
       "domanda": {
-        "it": "Oliver entra al bar per la prima volta. Vede Mario. Cosa dice?",
-        "en": "Oliver enters the bar for the first time. He sees Mario. What does he say?"
+        "it": "Mario vuole sapere il nome di Oliver. Cosa chiede?",
+        "en": "Mario wants to know Oliver's name. What does he ask?"
       },
       "opzioni": [
-        {
-          "it": "Arrivederci Mario.",
-          "en": "Goodbye Mario."
-        },
-        {
-          "it": "Buongiorno e piacere.",
-          "en": "Good morning and nice to meet you."
-        },
-        {
-          "it": "Sono di Londra.",
-          "en": "I am from London."
-        },
-        {
-          "it": "Mi chiamo Oliver.",
-          "en": "My name is Oliver."
-        }
+        { "it": "Arrivederci!", "en": "Goodbye!" },
+        { "it": "Di dove sei?", "en": "Where are you from?" },
+        { "it": "Mi chiamo...?", "en": "My name is...?" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! Buongiorno + piacere — mattina e primo incontro!",
-        "en": "Perfect! Buongiorno + piacere — morning and first meeting!"
+        "it": "No aspetta — questa è la domanda sull'origine! Mario vuole il nome, non l'origine. Ci riprovi?",
+        "en": "Wait — this asks about origin! Mario wants the name. Try again?"
       },
       "feedbackErr": {
-        "it": "No! Mattina = Buongiorno. Primo incontro = Piacere!",
-        "en": "No! Morning = Buongiorno. First meeting = Piacere!"
+        "it": "Hmm — Di dove sei chiede l'origine, non il nome! Per il nome si chiede: Come ti chiami?",
+        "en": "Di dove sei asks about origin, not name! For the name ask: Come ti chiami?"
       }
     },
     {
       "id": "q3",
       "personaggio": "mario",
-      "tipo": "vero_falso",
+      "tipo": "multipla",
       "fase": "riconoscimento",
-      "introIT": "Vero o falso?",
-      "intro_en": "True or false?",
+      "introIT": "Oliver risponde!",
+      "intro_en": "Oliver replies!",
       "domanda": {
-        "it": "Arrivederci si usa solo la sera.",
-        "en": "Arrivederci is only used in the evening."
+        "it": "Mario chiede da dove viene Oliver. Quale frase usa Mario?",
+        "en": "Mario asks where Oliver is from. Which phrase does Mario use?"
       },
-      "correct": false,
+      "opzioni": [
+        { "it": "Mi chiamo...?", "en": "My name is...?" },
+        { "it": "Piacere!", "en": "Nice to meet you!" },
+        { "it": "Di dove sei?", "en": "Where are you from?" }
+      ],
+      "correct": 2,
       "feedbackOk": {
-        "it": "Esatto! Arrivederci si usa a qualsiasi ora!",
-        "en": "Correct! Arrivederci is used at any time!"
+        "it": "Sì! Di dove sei? = Where are you from? 🌍",
+        "en": "Yes! Di dove sei? = Where are you from? 🌍"
       },
       "feedbackErr": {
-        "it": "No! Arrivederci si usa sempre — mattina, pomeriggio e sera!",
-        "en": "No! Arrivederci is used anytime — morning, afternoon and evening!"
+        "it": "Di dove sei? chiede l'origine! Di = from, dove = where, sei = are you.",
+        "en": "Di dove sei? asks about origin! Di = from, dove = where, sei = are you."
       }
     },
     {
       "id": "q4",
       "personaggio": "mario",
       "tipo": "multipla",
-      "fase": "comprensione",
-      "introIT": "Situazione reale!",
-      "intro_en": "Real situation!",
+      "fase": "riconoscimento",
+      "introIT": "Oliver risponde a Mario!",
+      "intro_en": "Oliver replies to Mario!",
       "domanda": {
-        "it": "Sono le 20:00. Entri in un ristorante. Cosa dici?",
-        "en": "It is 8 PM. You enter a restaurant. What do you say?"
+        "it": "Oliver è di Londra. Come risponde?",
+        "en": "Oliver is from London. How does he reply?"
       },
       "opzioni": [
-        {
-          "it": "Buongiorno!",
-          "en": "Good morning!"
-        },
-        {
-          "it": "Buonasera!",
-          "en": "Good evening!"
-        },
-        {
-          "it": "Buonanotte!",
-          "en": "Good night!"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!"
-        }
+        { "it": "Mi chiamo Londra.", "en": "My name is London." },
+        { "it": "Sono di Londra.", "en": "I am from London." },
+        { "it": "Piacere Londra.", "en": "Nice to meet you London." }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Dopo le 18:00 si dice Buonasera!",
-        "en": "Correct! After 6 PM you say Buonasera!"
+        "it": "Perfetto! Sono di Londra. Di = from! 📍",
+        "en": "Perfect! Sono di Londra. Di = from! 📍"
       },
       "feedbackErr": {
-        "it": "No! Dopo le 18:00 si dice Buonasera!",
-        "en": "No! After 6 PM say Buonasera!"
+        "it": "Sono di Londra! Sono = I am, di = from. Sono di + città = I am from + city!",
+        "en": "Sono di Londra! Sono = I am, di = from. Sono di + city = I am from + city!"
       }
     },
     {
       "id": "q5",
       "personaggio": "mario",
-      "tipo": "multipla",
+      "tipo": "vero_falso",
       "fase": "comprensione",
-      "introIT": "Mario conosce Oliver!",
-      "intro_en": "Mario meets Oliver!",
+      "introIT": "Vero o falso?",
+      "intro_en": "True or false?",
       "domanda": {
-        "it": "Mario incontra Oliver per la prima volta. Cosa dice Mario?",
-        "en": "Mario meets Oliver for the first time. What does Mario say?"
+        "it": "Sono di Milano. — Questa frase dice da dove vengo.",
+        "en": "Sono di Milano. — This sentence says where I am from."
       },
-      "opzioni": [
-        {
-          "it": "Arrivederci Oliver.",
-          "en": "Goodbye Oliver."
-        },
-        {
-          "it": "Buonanotte Oliver.",
-          "en": "Good night Oliver."
-        },
-        {
-          "it": "Piacere Oliver. Mi chiamo Mario.",
-          "en": "Nice to meet you Oliver. My name is Mario."
-        },
-        {
-          "it": "Di dove sei Oliver?",
-          "en": "Where are you from Oliver?"
-        }
-      ],
-      "correct": 2,
+      "correct": true,
       "feedbackOk": {
-        "it": "Perfetto! Piacere + mi chiamo — presentazione completa!",
-        "en": "Perfect! Piacere + mi chiamo — complete introduction!"
+        "it": "Sì! Sono di + città = I am from + city. Sono di Milano = I am from Milan!",
+        "en": "Yes! Sono di + city = I am from + city. Sono di Milano = I am from Milan!"
       },
       "feedbackErr": {
-        "it": "No! Al primo incontro: Piacere + mi chiamo!",
-        "en": "No! At first meeting: Piacere + mi chiamo!"
+        "it": "È vero! Sono di Milano dice da dove vieni. Sono di = I am from!",
+        "en": "It is true! Sono di Milano says where you are from. Sono di = I am from!"
       }
     },
     {
@@ -213,59 +157,53 @@
       "personaggio": "mario",
       "tipo": "multipla",
       "fase": "comprensione",
-      "introIT": "Oliver è curioso!",
-      "intro_en": "Oliver is curious!",
+      "introIT": "Presentazione completa!",
+      "intro_en": "Full introduction!",
       "domanda": {
-        "it": "Oliver vuole sapere da dove viene Mario. Cosa chiede?",
-        "en": "Oliver wants to know where Mario is from. What does he ask?"
+        "it": "Oliver si presenta a Gino. Cosa dice Oliver?",
+        "en": "Oliver introduces himself to Gino. What does Oliver say?"
       },
       "opzioni": [
-        {
-          "it": "Buongiorno Mario!",
-          "en": "Good morning Mario!"
-        },
-        {
-          "it": "Piacere Mario.",
-          "en": "Nice to meet you Mario."
-        },
-        {
-          "it": "Arrivederci Mario.",
-          "en": "Goodbye Mario."
-        },
-        {
-          "it": "Di dove sei Mario?",
-          "en": "Where are you from Mario?"
-        }
+        { "it": "Piacere, sono di Londra.", "en": "Nice to meet you, I am from London." },
+        { "it": "Arrivederci, mi chiamo Oliver.", "en": "Goodbye, my name is Oliver." },
+        { "it": "Buongiorno, di dove sei?", "en": "Good morning, where are you from?" }
       ],
-      "correct": 3,
+      "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Di dove sei? — chiede l'origine!",
-        "en": "Yes! Di dove sei? — asks about origin!"
+        "it": "Esatto! Piacere + sono di = presentazione perfetta! 🤝",
+        "en": "Correct! Piacere + sono di = perfect introduction! 🤝"
       },
       "feedbackErr": {
-        "it": "No! Per l'origine: Di dove sei?",
-        "en": "No! For origin: Di dove sei?"
+        "it": "Piacere, sono di Londra! Piacere = nice to meet you, sono di = I am from.",
+        "en": "Piacere, sono di Londra! Piacere = nice to meet you, sono di = I am from."
       }
     },
     {
       "id": "q7",
       "personaggio": "mario",
-      "tipo": "vero_falso",
+      "tipo": "tap_right",
       "fase": "produzione",
-      "introIT": "Mario risponde a Oliver!",
-      "intro_en": "Mario replies to Oliver!",
+      "introIT": "Completa la presentazione!",
+      "intro_en": "Complete the introduction!",
+      "contesto_it": "🙋 Ti presenti al bar di Mario",
+      "contesto_en": "🙋 You introduce yourself at Mario's bar",
       "domanda": {
-        "it": "Mario risponde: Sono di Napoli. È corretto?",
-        "en": "Mario replies: Sono di Napoli. Is this correct?"
+        "it": "Vuoi dire da dove vieni. Quale frase usi?",
+        "en": "You want to say where you are from. Which phrase do you use?"
       },
-      "correct": true,
+      "opzioni": [
+        { "it": "Mi chiamo...", "en": "My name is...", "emoji": "🙋" },
+        { "it": "Sono di...", "en": "I am from...", "emoji": "📍" },
+        { "it": "Di dove sei?", "en": "Where are you from?", "emoji": "🌍" }
+      ],
+      "correct": 1,
       "feedbackOk": {
-        "it": "Sì! Sono di + città — sempre corretto!",
-        "en": "Yes! Sono di + city — always correct!"
+        "it": "Perfetto! Sono di + città! 📍",
+        "en": "Perfect! Sono di + city! 📍"
       },
       "feedbackErr": {
-        "it": "Sì, è corretto! Sono di Napoli — sono di + città!",
-        "en": "Yes, it is correct! Sono di Napoli — sono di + city!"
+        "it": "Per l'origine: Sono di + città! Sono di Roma, Sono di Londra!",
+        "en": "For your origin: Sono di + city! Sono di Roma, Sono di Londra!"
       }
     },
     {
@@ -273,35 +211,35 @@
       "personaggio": "mario",
       "tipo": "abbina_coppia",
       "fase": "produzione",
-      "introIT": "Abbina la situazione al saluto giusto!",
-      "intro_en": "Match the situation to the right greeting!",
+      "introIT": "Abbina tutto!",
+      "intro_en": "Match everything!",
       "domanda": {
-        "it": "Abbina ogni situazione al saluto giusto.",
-        "en": "Match each situation to the right greeting."
+        "it": "Abbina la situazione alla frase giusta.",
+        "en": "Match the situation to the right phrase."
       },
       "coppie": [
         {
-          "it": "Sono le 9:00",
-          "situazione_en": "It is 9 AM",
-          "en": "Buongiorno",
-          "traduzione_en": "Good morning"
+          "it": "Dire il tuo nome",
+          "situazione_en": "Saying your name",
+          "en": "Mi chiamo...",
+          "traduzione_en": "My name is..."
         },
         {
-          "it": "Primo incontro",
-          "situazione_en": "First meeting",
-          "en": "Piacere",
-          "traduzione_en": "Nice to meet you"
+          "it": "Dire da dove vieni",
+          "situazione_en": "Saying where you are from",
+          "en": "Sono di...",
+          "traduzione_en": "I am from..."
         },
         {
-          "it": "Fine della visita",
-          "situazione_en": "End of the visit",
-          "en": "Arrivederci",
-          "traduzione_en": "Goodbye"
+          "it": "Chiedere l'origine",
+          "situazione_en": "Asking about origin",
+          "en": "Di dove sei?",
+          "traduzione_en": "Where are you from?"
         }
       ],
       "feedbackOk": {
-        "it": "Bravissimo! Lezione 2 completata!",
-        "en": "Excellent! Lesson 2 complete!"
+        "it": "Bravissimo! Lezione 2 completata! 🎉",
+        "en": "Excellent! Lesson 2 complete! 🎉"
       },
       "feedbackErr": {
         "it": "Quasi! Riprova — guarda bene le situazioni.",

@@ -20,10 +20,10 @@
       "domanda_en": "Why does Italian sound so musical?",
       "titolo_it": "La musicalità dell'italiano",
       "titolo_en": "The musicality of Italian",
-      "corpo_it": "L'italiano finisce quasi sempre con una vocale — questo crea un flusso melodico naturale. Non è un caso che l'opera sia nata in Italia! Ogni parola respira e risuona.",
-      "corpo_en": "Italian almost always ends with a vowel — this creates a natural melodic flow. It is no coincidence that opera was born in Italy! Every word breathes and resonates.",
-      "esempio_it": "Bu-on-gior-no · Ar-ri-ve-der-ci · Pia-ce-re",
-      "esempio_en": "Every syllable sings — that is Italian!"
+      "corpo_it": "L'italiano finisce quasi sempre con una vocale — questo crea un flusso melodico naturale. Bu-on-gior-no. Ar-ri-ve-der-ci. Ogni sillaba respira!",
+      "corpo_en": "Italian almost always ends with a vowel — this creates natural melody. Bu-on-gior-no. Ar-ri-ve-der-ci. Every syllable breathes!",
+      "esempio_it": "☀️ Buon-gior-no · 👋 Ar-ri-ve-der-ci · 🤝 Pia-ce-re",
+      "esempio_en": "Each word ends with a vowel — that is why Italian sings!"
     }
   ],
   "questions": [
@@ -43,16 +43,16 @@
       "opzioni": [
         { "it": "Buongiorno", "en": "Good morning" },
         { "it": "Buonasera", "en": "Good evening" },
-        { "it": "Buonanotte", "en": "Good night" }
+        { "it": "Arrivederci", "en": "Goodbye" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Hai sentito Buongiorno!",
-        "en": "Correct! You heard Buongiorno!"
+        "it": "Sì! Buongiorno — la mattina! ☀️",
+        "en": "Yes! Buongiorno — the morning! ☀️"
       },
       "feedbackErr": {
-        "it": "No! Era Buongiorno — ascolta ancora!",
-        "en": "No! It was Buongiorno — listen again!"
+        "it": "Era Buongiorno! Buono + giorno = good day!",
+        "en": "It was Buongiorno! Buono + giorno = good day!"
       }
     },
     {
@@ -60,8 +60,8 @@
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "riconoscimento",
-      "introIT": "Ancora — ascolta bene!",
-      "intro_en": "Again — listen carefully!",
+      "introIT": "Ancora — ascolta!",
+      "intro_en": "Again — listen!",
       "audio_it": "Arrivederci",
       "audio_en": "Goodbye",
       "domanda": {
@@ -70,17 +70,17 @@
       },
       "opzioni": [
         { "it": "Piacere", "en": "Nice to meet you" },
-        { "it": "Arrivederci", "en": "Goodbye" },
-        { "it": "Buongiorno", "en": "Good morning" }
+        { "it": "Buongiorno", "en": "Good morning" },
+        { "it": "Arrivederci", "en": "Goodbye" }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
-        "it": "Sì! Arrivederci — hai un orecchio fino!",
-        "en": "Yes! Arrivederci — you have a good ear!"
+        "it": "Sì! Arrivederci — a presto! 👋",
+        "en": "Yes! Arrivederci — see you soon! 👋"
       },
       "feedbackErr": {
-        "it": "No! Era Arrivederci — riascolta!",
-        "en": "No! It was Arrivederci — listen again!"
+        "it": "Era Arrivederci! A + rivederci = until we see each other again!",
+        "en": "It was Arrivederci! It means until we see each other again!"
       }
     },
     {
@@ -99,16 +99,16 @@
       "opzioni": [
         { "it": "Piacere", "en": "Nice to meet you" },
         { "it": "Per favore", "en": "Please" },
-        { "it": "Arrivederci", "en": "Goodbye" }
+        { "it": "Buongiorno", "en": "Good morning" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Bravo! Piacere — al primo incontro!",
-        "en": "Well done! Piacere — at the first meeting!"
+        "it": "Bravo! Piacere — al primo incontro! 🤝",
+        "en": "Well done! Piacere — at the first meeting! 🤝"
       },
       "feedbackErr": {
-        "it": "No! Era Piacere — ascolta la differenza!",
-        "en": "No! It was Piacere — listen to the difference!"
+        "it": "Era Piacere! Piacere = nice to meet you. Viene da to please!",
+        "en": "It was Piacere! Piacere = nice to meet you. It comes from to please!"
       }
     },
     {
@@ -116,8 +116,8 @@
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "Frase intera — ascolta!",
-      "intro_en": "Full phrase — listen!",
+      "introIT": "Frase intera!",
+      "intro_en": "Full phrase!",
       "audio_it": "Mi chiamo Mario",
       "audio_en": "My name is Mario",
       "domanda": {
@@ -126,17 +126,17 @@
       },
       "opzioni": [
         { "it": "Si sta presentando", "en": "He is introducing himself" },
-        { "it": "Sta salutando", "en": "He is greeting" },
-        { "it": "Sta andando via", "en": "He is leaving" }
+        { "it": "Sta salutando", "en": "He is saying goodbye" },
+        { "it": "Sta chiedendo il nome", "en": "He is asking for a name" }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Mi chiamo — si sta presentando!",
-        "en": "Correct! Mi chiamo — he is introducing himself!"
+        "it": "Esatto! Mi chiamo Mario — si presenta! 🙋",
+        "en": "Correct! Mi chiamo Mario — he introduces himself! 🙋"
       },
       "feedbackErr": {
-        "it": "No! Mi chiamo Mario — si presenta!",
-        "en": "No! Mi chiamo Mario — he is introducing himself!"
+        "it": "Mi chiamo Mario — si sta presentando! Mi chiamo = my name is.",
+        "en": "Mi chiamo Mario — he is introducing himself! Mi chiamo = my name is."
       }
     },
     {
@@ -144,8 +144,8 @@
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "Ascolta la situazione!",
-      "intro_en": "Listen to the situation!",
+      "introIT": "Ascolta bene!",
+      "intro_en": "Listen carefully!",
       "audio_it": "Sono di Napoli",
       "audio_en": "I am from Naples",
       "domanda": {
@@ -153,18 +153,18 @@
         "en": "What is Mario saying?"
       },
       "opzioni": [
-        { "it": "Dice il suo nome", "en": "He is saying his name" },
-        { "it": "Dice da dove viene", "en": "He is saying where he is from" },
+        { "it": "Dice il suo nome", "en": "He says his name" },
+        { "it": "Dice da dove viene", "en": "He says where he is from" },
         { "it": "Sta salutando", "en": "He is greeting" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Sì! Sono di Napoli — dice la sua origine!",
-        "en": "Yes! Sono di Napoli — he is saying his origin!"
+        "it": "Sì! Sono di Napoli — dice la sua origine! 📍",
+        "en": "Yes! Sono di Napoli — he says his origin! 📍"
       },
       "feedbackErr": {
-        "it": "No! Sono di Napoli — dice da dove viene!",
-        "en": "No! Sono di Napoli — he is saying where he is from!"
+        "it": "Sono di Napoli — dice da dove viene! Sono di = I am from.",
+        "en": "Sono di Napoli — he says where he is from! Sono di = I am from."
       }
     },
     {
@@ -172,27 +172,27 @@
       "personaggio": "mario",
       "tipo": "ascolta_scegli",
       "fase": "comprensione",
-      "introIT": "Frase completa!",
-      "intro_en": "Full sentence!",
-      "audio_it": "Piacere mi chiamo Sofia",
-      "audio_en": "Nice to meet you my name is Sofia",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "audio_it": "Di dove sei",
+      "audio_en": "Where are you from",
       "domanda": {
-        "it": "Quante informazioni ha dato Sofia?",
-        "en": "How much information did Sofia give?"
+        "it": "Mario ti ha chiesto...?",
+        "en": "Mario asked you...?"
       },
       "opzioni": [
-        { "it": "Solo il saluto", "en": "Only the greeting" },
-        { "it": "Saluto e nome", "en": "Greeting and name" },
-        { "it": "Nome e origine", "en": "Name and origin" }
+        { "it": "Il tuo nome", "en": "Your name" },
+        { "it": "Da dove vieni", "en": "Where you are from" },
+        { "it": "Come stai", "en": "How you are" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Perfetto! Piacere + mi chiamo — saluto e nome!",
-        "en": "Perfect! Piacere + mi chiamo — greeting and name!"
+        "it": "Esatto! Di dove sei = where are you from! 🌍",
+        "en": "Correct! Di dove sei = where are you from! 🌍"
       },
       "feedbackErr": {
-        "it": "No! Piacere = saluto, mi chiamo = nome — due info!",
-        "en": "No! Piacere = greeting, mi chiamo = name — two info!"
+        "it": "Di dove sei chiede l'origine! Di = from, dove = where.",
+        "en": "Di dove sei asks about origin! Di = from, dove = where."
       }
     },
     {
@@ -202,25 +202,25 @@
       "fase": "produzione",
       "introIT": "Ascolta e rispondi!",
       "intro_en": "Listen and reply!",
-      "audio_it": "Di dove sei",
-      "audio_en": "Where are you from",
+      "audio_it": "Piacere mi chiamo Sofia",
+      "audio_en": "Nice to meet you my name is Sofia",
       "domanda": {
-        "it": "Mario ti ha chiesto...?",
-        "en": "Mario asked you...?"
+        "it": "Quante informazioni ha dato Sofia?",
+        "en": "How many pieces of information did Sofia give?"
       },
       "opzioni": [
-        { "it": "Come ti chiami", "en": "What your name is" },
-        { "it": "Da dove vieni", "en": "Where you are from" },
-        { "it": "Come stai", "en": "How you are" }
+        { "it": "Una sola", "en": "Just one" },
+        { "it": "Due — saluto e nome", "en": "Two — greeting and name" },
+        { "it": "Tre", "en": "Three" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "Esatto! Di dove sei — chiede la tua origine!",
-        "en": "Correct! Di dove sei — asks your origin!"
+        "it": "Perfetto! Piacere + mi chiamo — due informazioni! 🙋",
+        "en": "Perfect! Piacere + mi chiamo — two pieces of info! 🙋"
       },
       "feedbackErr": {
-        "it": "No! Di dove sei chiede la tua origine!",
-        "en": "No! Di dove sei asks your origin!"
+        "it": "Piacere = saluto, mi chiamo = nome — sono due informazioni!",
+        "en": "Piacere = greeting, mi chiamo = name — that is two pieces of info!"
       }
     },
     {
@@ -229,7 +229,7 @@
       "tipo": "ascolta_scegli",
       "fase": "produzione",
       "introIT": "Ultima — ce la fai!",
-      "intro_en": "Last one — you have got this!",
+      "intro_en": "Last one — you've got this!",
       "audio_it": "Buonasera piacere sono di Londra",
       "audio_en": "Good evening nice to meet you I am from London",
       "domanda": {
@@ -237,18 +237,18 @@
         "en": "How many pieces of information did you hear?"
       },
       "opzioni": [
-        { "it": "Una — solo il saluto", "en": "One — only the greeting" },
-        { "it": "Due — saluto e origine", "en": "Two — greeting and origin" },
+        { "it": "Una", "en": "One" },
+        { "it": "Due", "en": "Two" },
         { "it": "Tre — saluto, presentazione e origine", "en": "Three — greeting, introduction and origin" }
       ],
       "correct": 2,
       "feedbackOk": {
-        "it": "Perfetto! Buonasera + piacere + sono di Londra — tre info!",
-        "en": "Perfect! Buonasera + piacere + sono di Londra — three pieces!"
+        "it": "Perfetto! Buonasera + piacere + sono di Londra — tre! 🎉",
+        "en": "Perfect! Buonasera + piacere + sono di Londra — three! 🎉"
       },
       "feedbackErr": {
-        "it": "No! Buonasera, piacere, sono di Londra — tre informazioni!",
-        "en": "No! Buonasera, piacere, sono di Londra — three pieces of information!"
+        "it": "Buonasera = saluto, piacere = presentazione, sono di Londra = origine. Tre informazioni!",
+        "en": "Buonasera = greeting, piacere = introduction, sono di Londra = origin. Three pieces!"
       }
     }
   ]
