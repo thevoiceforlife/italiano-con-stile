@@ -1,0 +1,292 @@
+{
+  "id": "A1-unit3-lesson2",
+  "title": "Grazie e prego",
+  "title_en": "Thank you and you are welcome",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      { "emoji": "🥐", "nome": "Cornetto alla crema", "nomeEN": "Cream croissant" },
+      { "emoji": "🧇", "nome": "Brioche col tuppo", "nomeEN": "Sicilian brioche" },
+      { "emoji": "🍫", "nome": "Cioccolata calda", "nomeEN": "Hot chocolate" },
+      { "emoji": "🥐", "nome": "Sfogliatella", "nomeEN": "Sfogliatella pastry" }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Grazie",
+      "en": "Thank you",
+      "emoji": "🙏",
+      "audio_text": "Grazie",
+      "mario_it": "Grazie — sempre con il sorriso!",
+      "mario_en": "Grazie — always with a smile!"
+    },
+    {
+      "id": "v5",
+      "it": "Prego",
+      "en": "You are welcome",
+      "emoji": "😊",
+      "audio_text": "Prego",
+      "mario_it": "Prego — la risposta gentile a grazie!",
+      "mario_en": "Prego — the polite reply to grazie!"
+    },
+    {
+      "id": "v6",
+      "it": "Ecco a lei",
+      "en": "Here you are",
+      "emoji": "🤲",
+      "audio_text": "Ecco a lei",
+      "mario_it": "Ecco a lei — quando porgo qualcosa!",
+      "mario_en": "Ecco a lei — when I hand something over!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché prego significa anche please?",
+      "domanda_en": "Why does prego also mean please?",
+      "titolo_it": "Prego — la parola che fa tutto",
+      "titolo_en": "Prego — the word that does everything",
+      "corpo_it": "Prego viene dal verbo pregare — chiedere con rispetto. Al bar significa you are welcome. Ma prego significa anche after you, come in e go ahead. Una parola, tre usi!",
+      "corpo_en": "Prego comes from pregare — to ask with respect. At the bar it means you are welcome. But prego also means after you and go ahead. One word, three uses!",
+      "esempio_it": "🙏 Grazie! — 😊 Prego! — 🤲 Ecco a lei!",
+      "esempio_en": "🙏 Grazie! — 😊 Prego! — 🤲 Here you are!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Hans è al bar!",
+      "intro_en": "Hans is at the bar!",
+      "domanda": {
+        "it": "Mario porta il caffè. Hans è felice. Cosa dice?",
+        "en": "Mario brings the coffee. Hans is happy. What does he say?"
+      },
+      "opzioni": [
+        { "it": "Grazie!", "en": "Thank you!" },
+        { "it": "Per favore!", "en": "Please!" },
+        { "it": "Il conto!", "en": "The bill!" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Grazie = thank you! 🙏",
+        "en": "Correct! Grazie = thank you! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Grazie = thank you! Si dice dopo aver ricevuto qualcosa.",
+        "en": "Grazie = thank you! You say it after receiving something."
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Mario risponde!",
+      "intro_en": "Mario replies!",
+      "domanda": {
+        "it": "Hans dice grazie. Mario risponde...",
+        "en": "Hans says grazie. Mario replies..."
+      },
+      "opzioni": [
+        { "it": "Prego!", "en": "You are welcome!" },
+        { "it": "Quanto costa?", "en": "How much is it?" },
+        { "it": "Arrivederci!", "en": "Goodbye!" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Prego = you are welcome! 😊",
+        "en": "Yes! Prego = you are welcome! 😊"
+      },
+      "feedbackErr": {
+        "it": "Prego! È la risposta a grazie — come you are welcome!",
+        "en": "Prego! It is the reply to grazie — like you are welcome!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Mario porta il conto!",
+      "intro_en": "Mario brings the bill!",
+      "domanda": {
+        "it": "Mario dà il conto a Hans. Cosa dice?",
+        "en": "Mario hands the bill to Hans. What does he say?"
+      },
+      "opzioni": [
+        { "it": "Ecco a lei!", "en": "Here you are!" },
+        { "it": "Grazie!", "en": "Thank you!" },
+        { "it": "Per favore!", "en": "Please!" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Ecco a lei = here you are! 🤲",
+        "en": "Perfect! Ecco a lei = here you are! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Ecco a lei! Si dice quando si porge qualcosa — here you are!",
+        "en": "Ecco a lei! You say it when handing something over — here you are!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "hans",
+      "tipo": "vero_falso",
+      "fase": "riconoscimento",
+      "introIT": "Vero o falso?",
+      "intro_en": "True or false?",
+      "contesto_it": "🧾 Mario dà il conto a Hans e dice: Ecco a lei!",
+      "contesto_en": "🧾 Mario gives the bill to Hans and says: Ecco a lei!",
+      "domanda": {
+        "it": "Ecco a lei significa here you are.",
+        "en": "Ecco a lei means here you are."
+      },
+      "opzioni": [
+        { "it": "Vero", "en": "True" },
+        { "it": "Falso", "en": "False" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Ecco a lei = here you are! 🤲",
+        "en": "Correct! Ecco a lei = here you are! 🤲"
+      },
+      "feedbackErr": {
+        "it": "È vero! Ecco a lei = here you are — quando si porge qualcosa.",
+        "en": "It is true! Ecco a lei = here you are — when handing something over."
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "comprensione",
+      "introIT": "Abbina le parole!",
+      "intro_en": "Match the words!",
+      "domanda": {
+        "it": "Abbina ogni situazione alla parola giusta.",
+        "en": "Match each situation to the right word."
+      },
+      "coppie": [
+        {
+          "it": "Ricevi il caffè",
+          "situazione_en": "You receive the coffee",
+          "en": "Grazie",
+          "traduzione_en": "Thank you"
+        },
+        {
+          "it": "Rispondi a grazie",
+          "situazione_en": "You reply to grazie",
+          "en": "Prego",
+          "traduzione_en": "You are welcome"
+        },
+        {
+          "it": "Porgi il resto",
+          "situazione_en": "You hand over the change",
+          "en": "Ecco a lei",
+          "traduzione_en": "Here you are"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo! Tutte e tre giuste! 🎉",
+        "en": "Excellent! All three correct! 🎉"
+      },
+      "feedbackErr": {
+        "it": "Quasi! Pensa alla situazione — chi parla e cosa fa?",
+        "en": "Almost! Think about the situation — who speaks and what do they do?"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "vero_falso",
+      "fase": "comprensione",
+      "introIT": "Hans paga!",
+      "intro_en": "Hans pays!",
+      "contesto_it": "💶 Hans paga. Mario sorride e dice: Grazie!",
+      "contesto_en": "💶 Hans pays. Mario smiles and says: Grazie!",
+      "domanda": {
+        "it": "Mario dice grazie perché Hans paga.",
+        "en": "Mario says grazie because Hans pays."
+      },
+      "opzioni": [
+        { "it": "Vero", "en": "True" },
+        { "it": "Falso", "en": "False" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Grazie si dice dopo aver ricevuto qualcosa! 🙏",
+        "en": "Correct! Grazie is said after receiving something! 🙏"
+      },
+      "feedbackErr": {
+        "it": "È vero! Mario riceve i soldi e dice grazie = thank you!",
+        "en": "It is true! Mario receives the money and says grazie = thank you!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Hans risponde!",
+      "intro_en": "Hans replies!",
+      "contesto_it": "😊 Mario dice a Hans: Prego!",
+      "contesto_en": "😊 Mario says to Hans: Prego!",
+      "domanda": {
+        "it": "Cosa ha detto Hans prima?",
+        "en": "What did Hans say before?"
+      },
+      "opzioni": [
+        { "it": "Grazie!", "en": "Thank you!" },
+        { "it": "Il conto!", "en": "The bill!" },
+        { "it": "Quanto costa?", "en": "How much is it?" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Grazie → Prego! La coppia perfetta! 🙏😊",
+        "en": "Perfect! Grazie → Prego! The perfect pair! 🙏😊"
+      },
+      "feedbackErr": {
+        "it": "Prego è la risposta a grazie! Hans ha detto grazie prima.",
+        "en": "Prego is the reply to grazie! Hans said grazie first."
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "contesto_it": "🤲 Mario dà il resto a Hans.",
+      "contesto_en": "🤲 Mario gives the change to Hans.",
+      "domanda": {
+        "it": "Cosa dice Mario a Hans?",
+        "en": "What does Mario say to Hans?"
+      },
+      "opzioni": [
+        { "it": "Ecco a lei!", "en": "Here you are!" },
+        { "it": "Per favore!", "en": "Please!" },
+        { "it": "Quanto costa?", "en": "How much is it?" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravissimo! Ecco a lei — proprio come Mario! 🤲",
+        "en": "Excellent! Ecco a lei — just like Mario! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Quando porgi qualcosa dici Ecco a lei! = Here you are!",
+        "en": "When handing something over say Ecco a lei! = Here you are!"
+      }
+    }
+  ]
+}
