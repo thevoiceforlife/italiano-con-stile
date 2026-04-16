@@ -40,5 +40,12 @@
     "colore": "#E5B700",
     "ruolo_it": "La Nonna",
     "ruolo_en": "The Grandma"
+  },
+  "emma": {
+    "nome": "Emma",
+    "avatar": "/images/emma.png",
+    "colore": "#EC4899",
+    "ruolo_it": "Pensionata ex avvocata",
+    "ruolo_en": "Retired lawyer"
   }
 }
