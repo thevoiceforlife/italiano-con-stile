@@ -31,6 +31,19 @@ const UNITS = [
     ],
     boss: { titleIT: "La Nonna presenta", titleEN: "Nonna introduces you" },
   },
+  {
+    id: 3, livello: 'A1',
+    titleIT: 'Al bar: pagare e chiedere', titleEN: 'At the bar: paying and asking',
+    tipo: 'esplorazione', icon: '🗺️', color: '#27AE60',
+    lessons: [
+      { id: 1, emoji: '⭐', titleIT: 'Il conto',        titleEN: 'The bill' },
+      { id: 2, emoji: '📖', titleIT: 'Grazie e prego',  titleEN: 'Thank you and welcome' },
+      { id: 3, emoji: '💪', titleIT: 'Pratica al bar',  titleEN: 'Practice at the bar' },
+      { id: 4, emoji: '🎧', titleIT: 'Ascolta al bar',  titleEN: 'Listen at the bar' },
+      { id: 5, emoji: '🎯', titleIT: 'Tutto veloce!',   titleEN: 'All speed!' },
+    ],
+    boss: { titleIT: 'Sfida la Nonna', titleEN: 'Challenge the Grandma' },
+  },
 ];
 
 function ckey(unitId, lessonId) { return `u${unitId}-${lessonId}`; }
