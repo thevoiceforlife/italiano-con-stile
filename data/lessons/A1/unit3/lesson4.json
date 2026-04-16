@@ -1,0 +1,340 @@
+{
+  "id": "A1-unit3-lesson4",
+  "title": "Ascolta al bar",
+  "title_en": "Listen at the bar",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché gli italiani parlano così veloce?",
+      "domanda_en": "Why do Italians speak so fast?",
+      "titolo_it": "Il ritmo italiano — sillaba per sillaba",
+      "titolo_en": "The Italian rhythm — syllable by syllable",
+      "corpo_it": "In italiano ogni sillaba si pronuncia sempre. GRA-zie fa 2 sillabe. PER-fa-VO-re fa 4. EC-co-a-LEI fa 4. Ascolta le sillabe — non le parole!",
+      "corpo_en": "In Italian every syllable is always pronounced. GRA-zie has 2 syllables. PER-fa-VO-re has 4. EC-co-a-LEI has 4. Listen to the syllables — not the words!",
+      "esempio_it": "🎧 GRA-zie · PRE-go · EC-co-a-LEI — prova ad ascoltare!",
+      "esempio_en": "🎧 GRA-zie · PRE-go · EC-co-a-LEI — try listening syllable by syllable!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Grazie",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Hai sentito Grazie! 🙏",
+        "en": "Yes! You heard Grazie! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Era Grazie! = thank you. Riascolta!",
+        "en": "It was Grazie! = thank you. Listen again!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Di nuovo!",
+      "intro_en": "Again!",
+      "audio": "Prego",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        },
+        {
+          "it": "Il conto",
+          "en": "The bill"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Hai sentito Prego! 😊",
+        "en": "Perfect! You heard Prego! 😊"
+      },
+      "feedbackErr": {
+        "it": "Era Prego! = you are welcome. Ascolta bene!",
+        "en": "It was Prego! = you are welcome. Listen carefully!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Concentrati!",
+      "intro_en": "Focus!",
+      "audio": "Ecco a lei",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Ecco a lei",
+          "en": "Here you are"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Ecco a lei! 🤲",
+        "en": "Correct! Ecco a lei! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Era Ecco a lei! = here you are. Riascolta!",
+        "en": "It was Ecco a lei! = here you are. Listen again!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Emma ascolta!",
+      "intro_en": "Emma listens!",
+      "audio": "Il conto, per favore",
+      "domanda": {
+        "it": "Cosa vuole Emma?",
+        "en": "What does Emma want?"
+      },
+      "opzioni": [
+        {
+          "it": "Pagare",
+          "en": "To pay"
+        },
+        {
+          "it": "Un caffè",
+          "en": "A coffee"
+        },
+        {
+          "it": "Sapere il prezzo",
+          "en": "To know the price"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il conto → vuole pagare! 🧾",
+        "en": "Yes! Il conto → she wants to pay! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Il conto, per favore = the bill, please → vuole pagare!",
+        "en": "Il conto, per favore = the bill, please → she wants to pay!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta Mario!",
+      "intro_en": "Listen to Mario!",
+      "audio": "Quanto costa?",
+      "domanda": {
+        "it": "Cosa chiede Mario?",
+        "en": "What does Mario ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Il prezzo",
+          "en": "The price"
+        },
+        {
+          "it": "Il nome",
+          "en": "The name"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Quanto costa? chiede il prezzo! 💶",
+        "en": "Correct! Quanto costa? asks for the price! 💶"
+      },
+      "feedbackErr": {
+        "it": "Quanto costa? = how much is it? — chiede il prezzo!",
+        "en": "Quanto costa? = how much is it? — asks for the price!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Bello!",
+      "intro_en": "Nice!",
+      "audio": "Per favore",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Per favore = please! 🙏",
+        "en": "Yes! Per favore = please! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Era Per favore! 4 sillabe: per-fa-vo-re. Riascolta!",
+        "en": "It was Per favore! 4 syllables: per-fa-vo-re. Listen again!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Emma capisce!",
+      "intro_en": "Emma understands!",
+      "contesto_it": "🤲 Mario dice: Ecco a lei! — e dà il caffè a Emma.",
+      "contesto_en": "🤲 Mario says: Ecco a lei! — and gives the coffee to Emma.",
+      "domanda": {
+        "it": "Emma risponde...",
+        "en": "Emma replies..."
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Brava Emma! Riceve → Grazie! 🙏",
+        "en": "Well done Emma! Receives → Grazie! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Emma riceve il caffè → dice Grazie! = thank you!",
+        "en": "Emma receives the coffee → says Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you can do it!",
+      "audio": "Grazie, Mario!",
+      "domanda": {
+        "it": "Mario risponde...",
+        "en": "Mario replies..."
+      },
+      "opzioni": [
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Grazie → Prego! Sempre! 😊",
+        "en": "Perfect! Grazie → Prego! Always! 😊"
+      },
+      "feedbackErr": {
+        "it": "Dopo Grazie, Mario risponde Prego! = you are welcome!",
+        "en": "After Grazie, Mario replies Prego! = you are welcome!"
+      }
+    }
+  ]
+}

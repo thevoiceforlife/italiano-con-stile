@@ -1,0 +1,281 @@
+{
+  "id": "A1-unit3-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Benvenuto! Sono Nonna Vittoria.",
+      "intro_en": "Welcome! I am Nonna Vittoria.",
+      "contesto_it": "☕ La Nonna ti porta un caffè.",
+      "contesto_en": "☕ Nonna brings you a coffee.",
+      "domanda": {
+        "it": "Cosa dici alla Nonna?",
+        "en": "What do you say to Nonna?"
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride! 🙏",
+        "en": "Well done! Nonna smiles! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Ricevi qualcosa → Grazie! = thank you!",
+        "en": "You receive something → Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing you!",
+      "frase_it": "Tu dici grazie. La Nonna risponde: ___!",
+      "frase_en": "You say grazie. Nonna replies: ___!",
+      "opzioni": [
+        "Prego",
+        "Grazie",
+        "Il conto"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Grazie → Prego! 😊",
+        "en": "Correct! Grazie → Prego! 😊"
+      },
+      "feedbackErr": {
+        "it": "La risposta a grazie è sempre Prego! = you are welcome!",
+        "en": "The reply to grazie is always Prego! = you are welcome!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna parla!",
+      "intro_en": "Nonna speaks!",
+      "audio": "Quanto costa?",
+      "domanda": {
+        "it": "Cosa chiede la Nonna?",
+        "en": "What does Nonna ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Il prezzo",
+          "en": "The price"
+        },
+        {
+          "it": "Il nome",
+          "en": "The name"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Quanto costa? = il prezzo! 💶",
+        "en": "Yes! Quanto costa? = the price! 💶"
+      },
+      "feedbackErr": {
+        "it": "Quanto costa? chiede il prezzo = how much is it?",
+        "en": "Quanto costa? asks the price = how much is it?"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Brava la Nonna!",
+      "intro_en": "Well done Nonna!",
+      "contesto_it": "🤲 La Nonna dice: Ecco a lei! — e ti dà il dolce.",
+      "contesto_en": "🤲 Nonna says: Ecco a lei! — and gives you the dessert.",
+      "domanda": {
+        "it": "Tu rispondi...",
+        "en": "You reply..."
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! La Nonna è felice! 🙏",
+        "en": "Perfect! Nonna is happy! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Ricevi qualcosa → sempre Grazie! = thank you!",
+        "en": "You receive something → always Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
+      "frase_it": "Vuoi pagare: Il ___, per favore!",
+      "frase_en": "You want to pay: Il ___, per favore!",
+      "opzioni": [
+        "conto",
+        "caffè",
+        "prego"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il conto, per favore! 🧾",
+        "en": "Correct! Il conto, per favore! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Per pagare: Il CONTO, per favore! = the bill, please!",
+        "en": "To pay: Il CONTO, per favore! = the bill, please!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ascolta la Nonna!",
+      "intro_en": "Listen to Nonna!",
+      "audio": "Prego",
+      "domanda": {
+        "it": "Cosa ha detto la Nonna?",
+        "en": "What did Nonna say?"
+      },
+      "opzioni": [
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        },
+        {
+          "it": "Ecco a lei",
+          "en": "Here you are"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Prego! = you are welcome! 😊",
+        "en": "Yes! Prego! = you are welcome! 😊"
+      },
+      "feedbackErr": {
+        "it": "La Nonna ha detto Prego! = you are welcome!",
+        "en": "Nonna said Prego! = you are welcome!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "🧾 Hai finito il caffè. Vuoi pagare la Nonna.",
+      "contesto_en": "🧾 You finished your coffee. You want to pay Nonna.",
+      "domanda": {
+        "it": "Cosa dici?",
+        "en": "What do you say?"
+      },
+      "opzioni": [
+        {
+          "it": "Il conto, per favore!",
+          "en": "The bill, please!",
+          "emoji": "🧾"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?",
+          "emoji": "💶"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa! 🏆🍦",
+        "en": "EXCELLENT! Nonna is proud of you! 🏆🍦"
+      },
+      "feedbackErr": {
+        "it": "Per pagare: Il conto, per favore! = the bill, please!",
+        "en": "To pay: Il conto, per favore! = the bill, please!"
+      }
+    }
+  ]
+}

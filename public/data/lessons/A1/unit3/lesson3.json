@@ -1,0 +1,315 @@
+{
+  "id": "A1-unit3-lesson3",
+  "title": "Pratica al bar",
+  "title_en": "Practice at the bar",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché si dice ecco a lei e non ecco a te?",
+      "domanda_en": "Why ecco a lei and not ecco a te?",
+      "titolo_it": "Lei — il rispetto formale",
+      "titolo_en": "Lei — formal respect",
+      "corpo_it": "Al bar il barista usa lei — la forma formale. Lei viene da Sua Signoria, come dire Your Lordship! Oggi è solo cortesia — ma fa una bella impressione.",
+      "corpo_en": "At the bar the barman uses lei — the formal form. Lei comes from Your Lordship. Today it simply means being polite — but it makes a great impression.",
+      "esempio_it": "🤲 Ecco a lei! — formale, gentile, italiano vero.",
+      "esempio_en": "🤲 Ecco a lei! — formal, polite, true Italian."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Oliver è al bar!",
+      "intro_en": "Oliver is at the bar!",
+      "domanda": {
+        "it": "Mario porta il caffè a Oliver. Oliver dice...",
+        "en": "Mario brings the coffee to Oliver. Oliver says..."
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Ricevi qualcosa → Grazie! 🙏",
+        "en": "Correct! You receive something → Grazie! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Quando ricevi qualcosa dici Grazie! = thank you!",
+        "en": "When you receive something say Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Mario risponde!",
+      "intro_en": "Mario replies!",
+      "contesto_it": "🙏 Oliver dice: Grazie, Mario!",
+      "contesto_en": "🙏 Oliver says: Grazie, Mario!",
+      "domanda": {
+        "it": "Cosa risponde Mario?",
+        "en": "What does Mario reply?"
+      },
+      "opzioni": [
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Grazie → Prego! Sempre! 😊",
+        "en": "Perfect! Grazie → Prego! Always! 😊"
+      },
+      "feedbackErr": {
+        "it": "Prego è la risposta a grazie! = you are welcome!",
+        "en": "Prego is the reply to grazie! = you are welcome!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Completa!",
+      "intro_en": "Fill in the blank!",
+      "frase_it": "Mario dà il resto: Ecco ___ lei!",
+      "frase_en": "Mario gives the change: Ecco ___ lei!",
+      "opzioni": [
+        "a",
+        "di",
+        "per"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Ecco a lei — here you are! 🤲",
+        "en": "Yes! Ecco a lei — here you are! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Ecco A lei! La piccola parola a fa tutta la differenza.",
+        "en": "Ecco A lei! The small word a makes all the difference."
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Oliver chiede!",
+      "intro_en": "Oliver asks!",
+      "frase_it": "Oliver chiede il prezzo: ___ costa?",
+      "frase_en": "Oliver asks the price: ___ costa?",
+      "opzioni": [
+        "Quanto",
+        "Come",
+        "Dove"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Quanto costa? = How much is it? 💶",
+        "en": "Correct! Quanto costa? = How much is it? 💶"
+      },
+      "feedbackErr": {
+        "it": "QUANTO costa! Quanto = how much — come how much in inglese!",
+        "en": "QUANTO costa! Quanto = how much — just like how much in English!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "💶 Oliver vuole sapere il prezzo del caffè.",
+      "contesto_en": "💶 Oliver wants to know the price of the coffee.",
+      "domanda": {
+        "it": "Cosa dice Oliver?",
+        "en": "What does Oliver say?"
+      },
+      "opzioni": [
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?",
+          "emoji": "💶"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Per il prezzo → Quanto costa? 💶",
+        "en": "Perfect! For the price → Quanto costa? 💶"
+      },
+      "feedbackErr": {
+        "it": "Per chiedere il prezzo: Quanto costa? = how much is it?",
+        "en": "To ask the price: Quanto costa? = how much is it?"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario serve Oliver!",
+      "intro_en": "Mario serves Oliver!",
+      "contesto_it": "🤲 Mario porta il caffè e dice: Ecco a lei!",
+      "contesto_en": "🤲 Mario brings the coffee and says: Ecco a lei!",
+      "domanda": {
+        "it": "Oliver risponde...",
+        "en": "Oliver replies..."
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Riceve il caffè → Grazie! 🙏",
+        "en": "Yes! Receives the coffee → Grazie! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Oliver riceve il caffè → dice Grazie! = thank you!",
+        "en": "Oliver receives the coffee → says Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Oliver paga!",
+      "intro_en": "Oliver pays!",
+      "frase_it": "Oliver vuole pagare: Il conto, ___ favore!",
+      "frase_en": "Oliver wants to pay: Il conto, ___ favore!",
+      "opzioni": [
+        "per",
+        "con",
+        "dal"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravissimo! Il conto, per favore! 🧾",
+        "en": "Excellent! Il conto, per favore! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Il conto, PER favore! Per = for — come for in inglese!",
+        "en": "Il conto, PER favore! Per = for — just like for in English!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you can do it!",
+      "contesto_it": "🤲 Mario dà il resto a Oliver: Ecco a lei!",
+      "contesto_en": "🤲 Mario gives change to Oliver: Ecco a lei!",
+      "domanda": {
+        "it": "Cosa dice Oliver?",
+        "en": "What does Oliver say?"
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravissimo! Riceve qualcosa → Grazie! 🙏",
+        "en": "Excellent! Receives something → Grazie! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Oliver riceve qualcosa → Grazie! = thank you!",
+        "en": "Oliver receives something → Grazie! = thank you!"
+      }
+    }
+  ]
+}

@@ -47,5 +47,19 @@
     "colore": "#EC4899",
     "ruolo_it": "Pensionata ex avvocata",
     "ruolo_en": "Retired lawyer"
+  },
+  "hans": {
+    "nome": "Hans",
+    "avatar": "/images/hans.png",
+    "colore": "#64748B",
+    "ruolo_it": "Ingegnere in sabbatico",
+    "ruolo_en": "Engineer on sabbatical"
+  },
+  "oliver": {
+    "nome": "Oliver",
+    "avatar": "/images/oliver.png",
+    "colore": "#8B5CF6",
+    "ruolo_it": "Architetto freelance",
+    "ruolo_en": "Freelance architect"
   }
 }

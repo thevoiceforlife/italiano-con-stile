@@ -1,0 +1,377 @@
+{
+  "id": "A1-unit3-lesson5",
+  "title": "Tutto veloce!",
+  "title_en": "All speed!",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il conto = ?",
+        "en": "Il conto = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The bill",
+          "en": "The bill"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        },
+        {
+          "it": "Please",
+          "en": "Please"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 🧾",
+        "en": "Yes! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Il conto = the bill! 🧾",
+        "en": "Il conto = the bill! 🧾"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Vai!",
+      "intro_en": "Go!",
+      "domanda": {
+        "it": "Grazie = ?",
+        "en": "Grazie = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Thank you",
+          "en": "Thank you"
+        },
+        {
+          "it": "You are welcome",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Here you are",
+          "en": "Here you are"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 🙏",
+        "en": "Correct! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Grazie = thank you! 🙏",
+        "en": "Grazie = thank you! 🙏"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Tocca!",
+      "intro_en": "Tap!",
+      "contesto_it": "☕ Mario porta il caffè.",
+      "contesto_en": "☕ Mario brings the coffee.",
+      "domanda": {
+        "it": "Tu dici...",
+        "en": "You say..."
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much?",
+          "emoji": "💶"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 🙏",
+        "en": "Yes! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Grazie! = thank you!",
+        "en": "Grazie! = thank you!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Per favore",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 🙏",
+        "en": "Yes! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Era Per favore! = please.",
+        "en": "It was Per favore! = please."
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Completa!",
+      "intro_en": "Complete!",
+      "frase_it": "Il conto, ___ favore!",
+      "frase_en": "Il conto, ___ favore!",
+      "opzioni": [
+        "per",
+        "con",
+        "dal"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! 🙏",
+        "en": "Perfect! 🙏"
+      },
+      "feedbackErr": {
+        "it": "PER favore! Per = for.",
+        "en": "PER favore! Per = for."
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Vai!",
+      "intro_en": "Go!",
+      "domanda": {
+        "it": "Prego = ?",
+        "en": "Prego = ?"
+      },
+      "opzioni": [
+        {
+          "it": "You are welcome",
+          "en": "You are welcome"
+        },
+        {
+          "it": "Thank you",
+          "en": "Thank you"
+        },
+        {
+          "it": "Please",
+          "en": "Please"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 😊",
+        "en": "Yes! 😊"
+      },
+      "feedbackErr": {
+        "it": "Prego = you are welcome! 😊",
+        "en": "Prego = you are welcome! 😊"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Tocca!",
+      "intro_en": "Tap!",
+      "contesto_it": "🤲 Mario dà il resto.",
+      "contesto_en": "🤲 Mario gives the change.",
+      "domanda": {
+        "it": "Mario dice...",
+        "en": "Mario says..."
+      },
+      "opzioni": [
+        {
+          "it": "Ecco a lei!",
+          "en": "Here you are!",
+          "emoji": "🤲"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! 🤲",
+        "en": "Correct! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Ecco a lei = here you are!",
+        "en": "Ecco a lei = here you are!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Quanto costa?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        },
+        {
+          "it": "Il conto",
+          "en": "The bill"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 💶",
+        "en": "Yes! 💶"
+      },
+      "feedbackErr": {
+        "it": "Era Quanto costa? = how much is it?",
+        "en": "It was Quanto costa? = how much is it?"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Quasi fatto!",
+      "intro_en": "Almost done!",
+      "frase_it": "___ costa il caffè?",
+      "frase_en": "___ costa il caffè?",
+      "opzioni": [
+        "Quanto",
+        "Come",
+        "Dove"
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Quanto! 💶",
+        "en": "Yes! Quanto! 💶"
+      },
+      "feedbackErr": {
+        "it": "QUANTO costa! Quanto = how much!",
+        "en": "QUANTO costa! Quanto = how much!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ultima!",
+      "intro_en": "Last one!",
+      "audio": "Ecco a lei",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Ecco a lei",
+          "en": "Here you are"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravissimo! 🤲",
+        "en": "Excellent! 🤲"
+      },
+      "feedbackErr": {
+        "it": "Era Ecco a lei! = here you are!",
+        "en": "It was Ecco a lei! = here you are!"
+      }
+    }
+  ]
+}
