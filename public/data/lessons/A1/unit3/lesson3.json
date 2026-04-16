@@ -90,7 +90,7 @@
       "introIT": "Mario risponde!",
       "intro_en": "Mario replies!",
       "contesto_it": "🙏 Oliver dice: Grazie, Mario!",
-      "contesto_en": "🙏 Oliver says: Grazie, Mario!",
+      "contesto_en": "Oliver says: Grazie, Mario!",
       "domanda": {
         "it": "Cosa risponde Mario?",
         "en": "What does Mario reply?"
@@ -178,7 +178,7 @@
       "introIT": "Situazione!",
       "intro_en": "Situation!",
       "contesto_it": "💶 Oliver vuole sapere il prezzo del caffè.",
-      "contesto_en": "💶 Oliver wants to know the price of the coffee.",
+      "contesto_en": "Oliver wants to know the price of the coffee.",
       "domanda": {
         "it": "Cosa dice Oliver?",
         "en": "What does Oliver say?"
@@ -218,7 +218,7 @@
       "introIT": "Mario serve Oliver!",
       "intro_en": "Mario serves Oliver!",
       "contesto_it": "🤲 Mario porta il caffè e dice: Ecco a lei!",
-      "contesto_en": "🤲 Mario brings the coffee and says: Ecco a lei!",
+      "contesto_en": "Mario brings the coffee and says: Ecco a lei!",
       "domanda": {
         "it": "Oliver risponde...",
         "en": "Oliver replies..."
@@ -279,7 +279,7 @@
       "introIT": "Ultima — ce la fai!",
       "intro_en": "Last one — you can do it!",
       "contesto_it": "🤲 Mario dà il resto a Oliver: Ecco a lei!",
-      "contesto_en": "🤲 Mario gives change to Oliver: Ecco a lei!",
+      "contesto_en": "Mario gives change to Oliver: Ecco a lei!",
       "domanda": {
         "it": "Cosa dice Oliver?",
         "en": "What does Oliver say?"

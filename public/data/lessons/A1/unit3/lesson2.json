@@ -299,7 +299,7 @@
       "introIT": "Hans risponde!",
       "intro_en": "Hans replies!",
       "contesto_it": "😊 Mario dice a Hans: Prego!",
-      "contesto_en": "😊 Mario says to Hans: Prego!",
+      "contesto_en": "Mario says to Hans: Prego!",
       "domanda": {
         "it": "Cosa ha detto Hans prima?",
         "en": "What did Hans say before?"
@@ -336,7 +336,7 @@
       "introIT": "Ultima — ce la fai!",
       "intro_en": "Last one — you've got this!",
       "contesto_it": "🤲 Mario dà il resto a Hans.",
-      "contesto_en": "🤲 Mario gives the change to Hans.",
+      "contesto_en": "Mario gives the change to Hans.",
       "domanda": {
         "it": "Cosa dice Mario a Hans?",
         "en": "What does Mario say to Hans?"

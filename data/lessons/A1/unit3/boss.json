@@ -45,7 +45,7 @@
       "introIT": "Benvenuto! Sono Nonna Vittoria.",
       "intro_en": "Welcome! I am Nonna Vittoria.",
       "contesto_it": "☕ La Nonna ti porta un caffè.",
-      "contesto_en": "☕ Nonna brings you a coffee.",
+      "contesto_en": "Nonna brings you a coffee.",
       "domanda": {
         "it": "Cosa dici alla Nonna?",
         "en": "What do you say to Nonna?"
@@ -145,7 +145,7 @@
       "introIT": "Brava la Nonna!",
       "intro_en": "Well done Nonna!",
       "contesto_it": "🤲 La Nonna dice: Ecco a lei! — e ti dà il dolce.",
-      "contesto_en": "🤲 Nonna says: Ecco a lei! — and gives you the dessert.",
+      "contesto_en": "Nonna says: Ecco a lei! — and gives you the dessert.",
       "domanda": {
         "it": "Tu rispondi...",
         "en": "You reply..."
@@ -245,7 +245,7 @@
       "introIT": "Ultima — la Nonna aspetta!",
       "intro_en": "Last one — Nonna is waiting!",
       "contesto_it": "🧾 Hai finito il caffè. Vuoi pagare la Nonna.",
-      "contesto_en": "🧾 You finished your coffee. You want to pay Nonna.",
+      "contesto_en": "You finished your coffee. You want to pay Nonna.",
       "domanda": {
         "it": "Cosa dici?",
         "en": "What do you say?"

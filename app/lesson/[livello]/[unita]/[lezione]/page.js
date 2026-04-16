@@ -238,12 +238,16 @@ function DomandaMultipla({ q, onAnswer }) {
         )}
         {q.contesto_it && (
           <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
-            <div style={{ fontSize: 13, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico · False friend</div>
+            {q.tipo_contesto === "falso_amico" && (
+              <div style={{ fontSize: 13, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico · False friend</div>
+            )}
             <div className="q-card__it">{q.domanda.it}</div>
             <div className="q-card__en">{q.domanda.en}</div>
             <div style={{ background: "var(--bg)", borderRadius: 8, padding: "8px 11px", marginTop: 10 }}>
               <div style={{ fontSize: 16, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
-              <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 3 }}>{q.contesto_en}</div>
+              {q.contesto_en && q.contesto_en !== q.contesto_it && (
+                <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 3 }}>{q.contesto_en}</div>
+              )}
             </div>
           </div>
         )}

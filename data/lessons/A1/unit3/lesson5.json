@@ -110,7 +110,7 @@
       "introIT": "Tocca!",
       "intro_en": "Tap!",
       "contesto_it": "☕ Mario porta il caffè.",
-      "contesto_en": "☕ Mario brings the coffee.",
+      "contesto_en": "Mario brings the coffee.",
       "domanda": {
         "it": "Tu dici...",
         "en": "You say..."
@@ -245,7 +245,7 @@
       "introIT": "Tocca!",
       "intro_en": "Tap!",
       "contesto_it": "🤲 Mario dà il resto.",
-      "contesto_en": "🤲 Mario gives the change.",
+      "contesto_en": "Mario gives the change.",
       "domanda": {
         "it": "Mario dice...",
         "en": "Mario says..."
