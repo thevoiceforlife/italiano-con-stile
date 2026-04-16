@@ -87,9 +87,18 @@
       "frase_it": "Tu dici grazie. La Nonna risponde: ___!",
       "frase_en": "You say grazie. Nonna replies: ___!",
       "opzioni": [
-        "Prego",
-        "Grazie",
-        "Il conto"
+        {
+          "it": "Prego",
+          "en": "Prego"
+        },
+        {
+          "it": "Grazie",
+          "en": "Grazie"
+        },
+        {
+          "it": "Il conto",
+          "en": "Il conto"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -187,9 +196,18 @@
       "frase_it": "Vuoi pagare: Il ___, per favore!",
       "frase_en": "You want to pay: Il ___, per favore!",
       "opzioni": [
-        "conto",
-        "caffè",
-        "prego"
+        {
+          "it": "conto",
+          "en": "conto"
+        },
+        {
+          "it": "caffè",
+          "en": "caffè"
+        },
+        {
+          "it": "prego",
+          "en": "prego"
+        }
       ],
       "correct": 0,
       "feedbackOk": {

@@ -188,9 +188,18 @@
       "frase_it": "Il conto, ___ favore!",
       "frase_en": "Il conto, ___ favore!",
       "opzioni": [
-        "per",
-        "con",
-        "dal"
+        {
+          "it": "per",
+          "en": "per"
+        },
+        {
+          "it": "con",
+          "en": "con"
+        },
+        {
+          "it": "dal",
+          "en": "dal"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -323,9 +332,18 @@
       "frase_it": "___ costa il caffè?",
       "frase_en": "___ costa il caffè?",
       "opzioni": [
-        "Quanto",
-        "Come",
-        "Dove"
+        {
+          "it": "Quanto",
+          "en": "Quanto"
+        },
+        {
+          "it": "Come",
+          "en": "Come"
+        },
+        {
+          "it": "Dove",
+          "en": "Dove"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
