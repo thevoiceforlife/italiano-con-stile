@@ -130,6 +130,15 @@ function renderText(text) {
   );
 }
 
+
+// Rimuove emoji iniziali dal testo EN se già presenti in IT (evita duplicati visivi)
+function stripLeadingEmoji(enText, itText) {
+  if (!enText || !itText) return enText;
+  const emojiRe = /^[🀀-🿿☀-➿🌀-🫿🤀-🧿🤲💶🧾🙏😊☕⚠️🌆🎉👋☀️🤝]+s*/u;
+  const itEmoji = (itText.match(emojiRe) || [''])[0].trim();
+  if (itEmoji && enText.startsWith(itEmoji)) return enText.slice(itEmoji.length).trim();
+  return enText;
+}
 function QBox({ q }) {
   const c = CHAR_COLOR[q?.personaggio] || "#1CB0F6";
   const domandaIT = q.domanda?.it || "";
@@ -242,7 +251,7 @@ function DomandaMultipla({ q, onAnswer }) {
               <div style={{ fontSize: 13, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico · False friend</div>
             )}
             <div className="q-card__it">{q.domanda.it}</div>
-            <div className="q-card__en">{q.domanda.en}</div>
+            <div className="q-card__en">{stripLeadingEmoji(q.domanda?.en, q.domanda?.it)}</div>
             <div style={{ background: "var(--bg)", borderRadius: 8, padding: "8px 11px", marginTop: 10 }}>
               <div style={{ fontSize: 16, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
               {q.contesto_en && q.contesto_en !== q.contesto_it && (
@@ -340,7 +349,7 @@ function DomandaVeroFalso({ q, onAnswer }) {
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
         <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
           <div className="q-card__it">{q.domanda.it}</div>
-          <div className="q-card__en">{q.domanda.en}</div>
+          <div className="q-card__en">{stripLeadingEmoji(q.domanda?.en, q.domanda?.it)}</div>
         </div>
       </div>
       {confirmed ? (
@@ -1336,7 +1345,7 @@ function DomandaAscoltoGiudica({ q, onAnswer }) {
         {/* Domanda */}
         <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio], textAlign: "center" }}>
           <div className="q-card__it">{q.domanda.it}</div>
-          <div className="q-card__en">{q.domanda.en}</div>
+          <div className="q-card__en">{stripLeadingEmoji(q.domanda?.en, q.domanda?.it)}</div>
         </div>
       </div>
 
