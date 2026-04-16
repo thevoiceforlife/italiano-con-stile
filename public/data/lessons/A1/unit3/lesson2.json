@@ -259,34 +259,36 @@
     {
       "id": "q6",
       "personaggio": "hans",
-      "tipo": "vero_falso",
+      "tipo": "multipla",
       "fase": "comprensione",
       "introIT": "Hans paga!",
       "intro_en": "Hans pays!",
-      "contesto_it": "💶 Hans paga. Mario sorride e dice: Grazie!",
-      "contesto_en": "💶 Hans pays. Mario smiles and says: Grazie!",
       "domanda": {
-        "it": "Mario dice grazie perché Hans paga.",
-        "en": "Mario says grazie because Hans pays."
+        "it": "💶 Hans paga il caffè. Mario riceve i soldi. Cosa dice Mario?",
+        "en": "💶 Hans pays for the coffee. Mario receives the money. What does Mario say?"
       },
       "opzioni": [
         {
-          "it": "Vero",
-          "en": "True"
+          "it": "Grazie!",
+          "en": "Thank you!"
         },
         {
-          "it": "Falso",
-          "en": "False"
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Ecco a lei!",
+          "en": "Here you are!"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Grazie si dice dopo aver ricevuto qualcosa! 🙏",
-        "en": "Correct! Grazie is said after receiving something! 🙏"
+        "it": "Esatto! Riceve qualcosa → «Grazie»! 🙏",
+        "en": "Correct! He receives something → «Grazie»! 🙏"
       },
       "feedbackErr": {
-        "it": "È vero! Mario riceve i soldi e dice grazie = thank you!",
-        "en": "It is true! Mario receives the money and says grazie = thank you!"
+        "it": "Mario riceve i soldi → dice «Grazie»! = thank you!",
+        "en": "Mario receives the money → says «Grazie»! = thank you!"
       }
     },
     {
