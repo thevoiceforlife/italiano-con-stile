@@ -8,7 +8,11 @@
   "reward": {
     "type": "slot",
     "credits": 8,
-    "pool": ["☕ Caffè espresso", "🍕 Pizza margherita", "🥐 Cornetto"]
+    "pool": [
+      "☕ Caffè espresso",
+      "🍕 Pizza margherita",
+      "🥐 Cornetto"
+    ]
   },
   "vocab": [],
   "pillole": [],
@@ -21,16 +25,37 @@
       "introIT": "Veloce!",
       "intro_en": "Quick!",
       "contesto_it": "☀️ Sono le 8:00",
-      "contesto_en": "☀️ It is 8 AM",
-      "domanda": { "it": "Cosa dici?", "en": "What do you say?" },
+      "contesto_en": "️ It is 8 AM",
+      "domanda": {
+        "it": "Cosa dici?",
+        "en": "What do you say?"
+      },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Le 8 → Buongiorno! ☀️", "en": "Yes! 8 AM → Buongiorno! ☀️" },
-      "feedbackErr": { "it": "Le 8 → Buongiorno! Mattina!", "en": "8 AM → Buongiorno! Morning!" }
+      "feedbackOk": {
+        "it": "Sì! Le 8 → Buongiorno! ☀️",
+        "en": "Yes! 8 AM → Buongiorno! ☀️"
+      },
+      "feedbackErr": {
+        "it": "Le 8 → Buongiorno! Mattina!",
+        "en": "8 AM → Buongiorno! Morning!"
+      }
     },
     {
       "id": "q2",
@@ -41,15 +66,33 @@
       "intro_en": "Listen!",
       "audio_it": "Piacere",
       "audio_en": "Nice to meet you",
-      "domanda": { "it": "Cosa hai sentito?", "en": "What did you hear?" },
+      "domanda": {
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
+      },
       "opzioni": [
-        { "it": "Piacere", "en": "Nice to meet you" },
-        { "it": "Per favore", "en": "Please" },
-        { "it": "Buongiorno", "en": "Good morning" }
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Piacere! 🤝", "en": "Yes! Piacere! 🤝" },
-      "feedbackErr": { "it": "Era Piacere!", "en": "It was Piacere!" }
+      "feedbackOk": {
+        "it": "Sì! Piacere! 🤝",
+        "en": "Yes! Piacere! 🤝"
+      },
+      "feedbackErr": {
+        "it": "Era Piacere!",
+        "en": "It was Piacere!"
+      }
     },
     {
       "id": "q3",
@@ -61,13 +104,25 @@
       "frase_it": "Mi _____ Mario.",
       "frase_en": "= My name is Mario.",
       "opzioni": [
-        { "it": "chiamo" },
-        { "it": "sono" },
-        { "it": "ho" }
+        {
+          "it": "chiamo"
+        },
+        {
+          "it": "sono"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Mi chiamo! 🙋", "en": "Yes! Mi chiamo! 🙋" },
-      "feedbackErr": { "it": "Mi CHIAMO Mario! My name is Mario.", "en": "Mi CHIAMO Mario! My name is Mario." }
+      "feedbackOk": {
+        "it": "Sì! Mi chiamo! 🙋",
+        "en": "Yes! Mi chiamo! 🙋"
+      },
+      "feedbackErr": {
+        "it": "Mi CHIAMO Mario! My name is Mario.",
+        "en": "Mi CHIAMO Mario! My name is Mario."
+      }
     },
     {
       "id": "q4",
@@ -77,16 +132,37 @@
       "introIT": "Tocca!",
       "intro_en": "Tap!",
       "contesto_it": "🤝 Primo incontro",
-      "contesto_en": "🤝 First meeting",
-      "domanda": { "it": "Cosa dici?", "en": "What do you say?" },
+      "contesto_en": "First meeting",
+      "domanda": {
+        "it": "Cosa dici?",
+        "en": "What do you say?"
+      },
       "opzioni": [
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
-        { "it": "Buonanotte!", "en": "Good night!", "emoji": "🌙" }
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
       "correct": 1,
-      "feedbackOk": { "it": "Sì! Piacere! 🤝", "en": "Yes! Piacere! 🤝" },
-      "feedbackErr": { "it": "Primo incontro → Piacere!", "en": "First meeting → Piacere!" }
+      "feedbackOk": {
+        "it": "Sì! Piacere! 🤝",
+        "en": "Yes! Piacere! 🤝"
+      },
+      "feedbackErr": {
+        "it": "Primo incontro → Piacere!",
+        "en": "First meeting → Piacere!"
+      }
     },
     {
       "id": "q5",
@@ -97,15 +173,33 @@
       "intro_en": "Listen!",
       "audio_it": "Sono di Londra",
       "audio_en": "I am from London",
-      "domanda": { "it": "Cosa dice?", "en": "What does he say?" },
+      "domanda": {
+        "it": "Cosa dice?",
+        "en": "What does he say?"
+      },
       "opzioni": [
-        { "it": "Il suo nome", "en": "His name" },
-        { "it": "La sua origine", "en": "His origin" },
-        { "it": "Un saluto", "en": "A greeting" }
+        {
+          "it": "Il suo nome",
+          "en": "His name"
+        },
+        {
+          "it": "La sua origine",
+          "en": "His origin"
+        },
+        {
+          "it": "Un saluto",
+          "en": "A greeting"
+        }
       ],
       "correct": 1,
-      "feedbackOk": { "it": "Sì! Sono di = I am from! 📍", "en": "Yes! Sono di = I am from! 📍" },
-      "feedbackErr": { "it": "Sono di → origine! I am from London.", "en": "Sono di → origin! I am from London." }
+      "feedbackOk": {
+        "it": "Sì! Sono di = I am from! 📍",
+        "en": "Yes! Sono di = I am from! 📍"
+      },
+      "feedbackErr": {
+        "it": "Sono di → origine! I am from London.",
+        "en": "Sono di → origin! I am from London."
+      }
     },
     {
       "id": "q6",
@@ -117,13 +211,25 @@
       "frase_it": "Sono _____ Roma.",
       "frase_en": "= I am from Rome.",
       "opzioni": [
-        { "it": "di" },
-        { "it": "mi" },
-        { "it": "ho" }
+        {
+          "it": "di"
+        },
+        {
+          "it": "mi"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Sono di Roma! 📍", "en": "Yes! Sono di Roma! 📍" },
-      "feedbackErr": { "it": "Sono DI Roma! Di = from!", "en": "Sono DI Roma! Di = from!" }
+      "feedbackOk": {
+        "it": "Sì! Sono di Roma! 📍",
+        "en": "Yes! Sono di Roma! 📍"
+      },
+      "feedbackErr": {
+        "it": "Sono DI Roma! Di = from!",
+        "en": "Sono DI Roma! Di = from!"
+      }
     },
     {
       "id": "q7",
@@ -133,16 +239,37 @@
       "introIT": "Situazione!",
       "intro_en": "Situation!",
       "contesto_it": "🌆 Sono le 19:00",
-      "contesto_en": "🌆 It is 7 PM",
-      "domanda": { "it": "Cosa dici?", "en": "What do you say?" },
+      "contesto_en": "It is 7 PM",
+      "domanda": {
+        "it": "Cosa dici?",
+        "en": "What do you say?"
+      },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
-        { "it": "Buonanotte!", "en": "Good night!", "emoji": "🌙" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
       "correct": 1,
-      "feedbackOk": { "it": "Sì! Le 19 → Buonasera! 🌆", "en": "Yes! 7 PM → Buonasera! 🌆" },
-      "feedbackErr": { "it": "Le 19 → Buonasera! È sera!", "en": "7 PM → Buonasera! It is evening!" }
+      "feedbackOk": {
+        "it": "Sì! Le 19 → Buonasera! 🌆",
+        "en": "Yes! 7 PM → Buonasera! 🌆"
+      },
+      "feedbackErr": {
+        "it": "Le 19 → Buonasera! È sera!",
+        "en": "7 PM → Buonasera! It is evening!"
+      }
     },
     {
       "id": "q8",
@@ -153,15 +280,33 @@
       "intro_en": "Listen!",
       "audio_it": "Arrivederci",
       "audio_en": "Goodbye",
-      "domanda": { "it": "Cosa hai sentito?", "en": "What did you hear?" },
+      "domanda": {
+        "it": "Cosa hai sentito?",
+        "en": "What did you hear?"
+      },
       "opzioni": [
-        { "it": "Arrivederci", "en": "Goodbye" },
-        { "it": "Buongiorno", "en": "Good morning" },
-        { "it": "Piacere", "en": "Nice to meet you" }
+        {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        },
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Arrivederci! 👋", "en": "Yes! Arrivederci! 👋" },
-      "feedbackErr": { "it": "Era Arrivederci!", "en": "It was Arrivederci!" }
+      "feedbackOk": {
+        "it": "Sì! Arrivederci! 👋",
+        "en": "Yes! Arrivederci! 👋"
+      },
+      "feedbackErr": {
+        "it": "Era Arrivederci!",
+        "en": "It was Arrivederci!"
+      }
     },
     {
       "id": "q9",
@@ -173,13 +318,25 @@
       "frase_it": "Piacere! Mi _____ Sofia.",
       "frase_en": "= Nice to meet you! My name is Sofia.",
       "opzioni": [
-        { "it": "chiamo" },
-        { "it": "sono" },
-        { "it": "ho" }
+        {
+          "it": "chiamo"
+        },
+        {
+          "it": "sono"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
-      "feedbackOk": { "it": "Sì! Mi chiamo Sofia! 🙋", "en": "Yes! Mi chiamo Sofia! 🙋" },
-      "feedbackErr": { "it": "Mi CHIAMO Sofia! My name is Sofia.", "en": "Mi CHIAMO Sofia! My name is Sofia." }
+      "feedbackOk": {
+        "it": "Sì! Mi chiamo Sofia! 🙋",
+        "en": "Yes! Mi chiamo Sofia! 🙋"
+      },
+      "feedbackErr": {
+        "it": "Mi CHIAMO Sofia! My name is Sofia.",
+        "en": "Mi CHIAMO Sofia! My name is Sofia."
+      }
     },
     {
       "id": "q10",
@@ -189,16 +346,37 @@
       "introIT": "Ultima!",
       "intro_en": "Last one!",
       "contesto_it": "🏥 Dal dottore",
-      "contesto_en": "🏥 At the doctor",
-      "domanda": { "it": "Come saluti?", "en": "How do you greet?" },
+      "contesto_en": "At the doctor",
+      "domanda": {
+        "it": "Come saluti?",
+        "en": "How do you greet?"
+      },
       "opzioni": [
-        { "it": "Ciao!", "en": "Hi!", "emoji": "😊" },
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "👔" },
-        { "it": "Buonanotte!", "en": "Good night!", "emoji": "🌙" }
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "👔"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
+        }
       ],
       "correct": 1,
-      "feedbackOk": { "it": "Perfetto! Dal dottore → Buongiorno! 👔", "en": "Perfect! At the doctor → Buongiorno! 👔" },
-      "feedbackErr": { "it": "Dal dottore → Buongiorno! Il Ciao è tra amici.", "en": "At the doctor → Buongiorno! Ciao is between friends." }
+      "feedbackOk": {
+        "it": "Perfetto! Dal dottore → Buongiorno! 👔",
+        "en": "Perfect! At the doctor → Buongiorno! 👔"
+      },
+      "feedbackErr": {
+        "it": "Dal dottore → Buongiorno! Il Ciao è tra amici.",
+        "en": "At the doctor → Buongiorno! Ciao is between friends."
+      }
     }
   ]
 }

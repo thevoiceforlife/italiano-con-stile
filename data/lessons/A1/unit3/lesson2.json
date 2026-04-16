@@ -190,7 +190,7 @@
       "intro_en": "Mario serves Hans!",
       "domanda": {
         "it": "🤲 Mario dà il caffè a Hans e dice: «Ecco a lei»! Cosa fa Mario?",
-        "en": "🤲 Mario gives the coffee to Hans and says: «Ecco a lei»! What is Mario doing?"
+        "en": "Mario gives the coffee to Hans and says: «Ecco a lei»! What is Mario doing?"
       },
       "opzioni": [
         {
@@ -265,7 +265,7 @@
       "intro_en": "Hans pays!",
       "domanda": {
         "it": "💶 Hans paga il caffè. Mario riceve i soldi. Cosa dice Mario?",
-        "en": "💶 Hans pays for the coffee. Mario receives the money. What does Mario say?"
+        "en": "Hans pays for the coffee. Mario receives the money. What does Mario say?"
       },
       "opzioni": [
         {

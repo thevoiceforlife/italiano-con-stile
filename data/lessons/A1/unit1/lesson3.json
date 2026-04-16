@@ -8,7 +8,11 @@
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
+    "pool": [
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
+    ]
   },
   "vocab": [],
   "pillole": [
@@ -35,15 +39,27 @@
       "introIT": "Situazione!",
       "intro_en": "Situation!",
       "contesto_it": "☀️ Sono le 9:00",
-      "contesto_en": "☀️ It is 9 AM",
+      "contesto_en": "️ It is 9 AM",
       "domanda": {
         "it": "Entri al bar. Cosa dici a Mario?",
         "en": "You enter the bar. What do you say to Mario?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -63,15 +79,27 @@
       "introIT": "Ancora!",
       "intro_en": "Again!",
       "contesto_it": "🤝 Incontri Sofia per la prima volta",
-      "contesto_en": "🤝 You meet Sofia for the first time",
+      "contesto_en": "You meet Sofia for the first time",
       "domanda": {
         "it": "Cosa dici a Sofia?",
         "en": "What do you say to Sofia?"
       },
       "opzioni": [
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" }
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -93,9 +121,15 @@
       "frase_it": "_____, mi chiamo Mario!",
       "frase_en": "= Nice to meet you, my name is Mario!",
       "opzioni": [
-        { "it": "Piacere" },
-        { "it": "Arrivederci" },
-        { "it": "Buonanotte" }
+        {
+          "it": "Piacere"
+        },
+        {
+          "it": "Arrivederci"
+        },
+        {
+          "it": "Buonanotte"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -117,9 +151,15 @@
       "frase_it": "Sono _____ Napoli.",
       "frase_en": "= I am from Naples.",
       "opzioni": [
-        { "it": "di" },
-        { "it": "mi" },
-        { "it": "ho" }
+        {
+          "it": "di"
+        },
+        {
+          "it": "mi"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -139,15 +179,27 @@
       "introIT": "Situazione reale!",
       "intro_en": "Real situation!",
       "contesto_it": "🌆 Sono le 20:00",
-      "contesto_en": "🌆 It is 8 PM",
+      "contesto_en": "It is 8 PM",
       "domanda": {
         "it": "Entri al ristorante. Cosa dici?",
         "en": "You enter the restaurant. What do you say?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -169,9 +221,15 @@
       "frase_it": "Mi _____ Sofia.",
       "frase_en": "= My name is Sofia.",
       "opzioni": [
-        { "it": "chiamo" },
-        { "it": "sono" },
-        { "it": "ho" }
+        {
+          "it": "chiamo"
+        },
+        {
+          "it": "sono"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -191,15 +249,27 @@
       "introIT": "Situazione formale!",
       "intro_en": "Formal situation!",
       "contesto_it": "🏥 Sei dal dottore",
-      "contesto_en": "🏥 You are at the doctor",
+      "contesto_en": "You are at the doctor",
       "domanda": {
         "it": "Come saluti il dottore?",
         "en": "How do you greet the doctor?"
       },
       "opzioni": [
-        { "it": "Ciao!", "en": "Hi!", "emoji": "😊" },
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "👔" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "👔"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -221,9 +291,15 @@
       "frase_it": "_____ di dove sei?",
       "frase_en": "= And where are you from?",
       "opzioni": [
-        { "it": "E" },
-        { "it": "Mi" },
-        { "it": "Ho" }
+        {
+          "it": "E"
+        },
+        {
+          "it": "Mi"
+        },
+        {
+          "it": "Ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {

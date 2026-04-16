@@ -8,7 +8,11 @@
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
+    "pool": [
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
+    ]
   },
   "vocab": [
     {
@@ -67,9 +71,18 @@
         "en": "Mario opens the bar in the morning. What does he say?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Piacere!", "en": "Nice to meet you!" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -93,9 +106,18 @@
         "en": "Mario closes the bar. What does he say to the customers?"
       },
       "opzioni": [
-        { "it": "Piacere!", "en": "Nice to meet you!" },
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Buongiorno!", "en": "Good morning!" }
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -119,9 +141,18 @@
         "en": "Oliver meets Mario for the first time. What does he say?"
       },
       "opzioni": [
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Piacere!", "en": "Nice to meet you!" }
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        }
       ],
       "correct": 2,
       "feedbackOk": {
@@ -185,9 +216,18 @@
         "en": "It is 9 in the morning. You enter the bar. What do you say?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Piacere!", "en": "Nice to meet you!" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -211,9 +251,18 @@
         "en": "Oliver leaves the bar. What does he say to Mario?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!" },
-        { "it": "Piacere!", "en": "Nice to meet you!" },
-        { "it": "Arrivederci!", "en": "Goodbye!" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        }
       ],
       "correct": 2,
       "feedbackOk": {
@@ -233,15 +282,27 @@
       "introIT": "Tocca subito!",
       "intro_en": "Tap right away!",
       "contesto_it": "🤝 Mario presenta Oliver al Prof. Gino",
-      "contesto_en": "🤝 Mario introduces Oliver to Prof. Gino",
+      "contesto_en": "Mario introduces Oliver to Prof. Gino",
       "domanda": {
         "it": "Oliver incontra Gino per la prima volta.",
         "en": "Oliver meets Gino for the first time."
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -261,15 +322,27 @@
       "introIT": "Ultima — ce la fai!",
       "intro_en": "Last one — you've got this!",
       "contesto_it": "🌆 Sono le 20:00 — il bar chiude",
-      "contesto_en": "🌆 It is 8 PM — the bar closes",
+      "contesto_en": "It is 8 PM — the bar closes",
       "domanda": {
         "it": "Mario saluta i clienti. Cosa dice?",
         "en": "Mario greets the customers goodbye. What does he say?"
       },
       "opzioni": [
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
       ],
       "correct": 2,
       "feedbackOk": {

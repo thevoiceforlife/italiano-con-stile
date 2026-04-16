@@ -9,22 +9,28 @@
     "type": "gelato_nonna",
     "tiers": [
       {
-        "min": 0, "max": 3,
-        "gusti": 1, "icon": "🍦",
+        "min": 0,
+        "max": 3,
+        "gusti": 1,
+        "icon": "🍦",
         "energia": 5,
         "label_it": "1 gusto",
         "label_en": "1 flavour"
       },
       {
-        "min": 4, "max": 5,
-        "gusti": 2, "icon": "🍨",
+        "min": 4,
+        "max": 5,
+        "gusti": 2,
+        "icon": "🍨",
         "energia": 12,
         "label_it": "2 gusti",
         "label_en": "2 flavours"
       },
       {
-        "min": 6, "max": 7,
-        "gusti": 3, "icon": "🍧",
+        "min": 6,
+        "max": 7,
+        "gusti": 3,
+        "icon": "🍧",
         "energia": 20,
         "label_it": "3 gusti con panna",
         "label_en": "3 flavours with cream"
@@ -42,15 +48,27 @@
       "introIT": "Vediamo cosa hai imparato!",
       "intro_en": "Let us see what you have learned!",
       "contesto_it": "☀️ Sono le 9 di mattina",
-      "contesto_en": "☀️ It is 9 in the morning",
+      "contesto_en": "️ It is 9 in the morning",
       "domanda": {
         "it": "La Nonna ti accoglie. Cosa dici?",
         "en": "Nonna welcomes you. What do you say?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -70,15 +88,27 @@
       "introIT": "La Nonna ti presenta a qualcuno!",
       "intro_en": "Nonna introduces you to someone!",
       "contesto_it": "🤝 Incontri l'amica della Nonna",
-      "contesto_en": "🤝 You meet Nonna's friend",
+      "contesto_en": "You meet Nonna's friend",
       "domanda": {
         "it": "Cosa dici alla nuova persona?",
         "en": "What do you say to the new person?"
       },
       "opzioni": [
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" },
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" }
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -100,9 +130,15 @@
       "frase_it": "Mi _____ Sofia.",
       "frase_en": "= My name is Sofia.",
       "opzioni": [
-        { "it": "chiamo" },
-        { "it": "sono" },
-        { "it": "ho" }
+        {
+          "it": "chiamo"
+        },
+        {
+          "it": "sono"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -124,9 +160,15 @@
       "frase_it": "Sono _____ Londra.",
       "frase_en": "= I am from London.",
       "opzioni": [
-        { "it": "di" },
-        { "it": "mi" },
-        { "it": "ho" }
+        {
+          "it": "di"
+        },
+        {
+          "it": "mi"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -152,9 +194,18 @@
         "en": "What did Nonna ask you?"
       },
       "opzioni": [
-        { "it": "Il tuo nome", "en": "Your name" },
-        { "it": "La tua origine", "en": "Your origin" },
-        { "it": "Come stai", "en": "How you are" }
+        {
+          "it": "Il tuo nome",
+          "en": "Your name"
+        },
+        {
+          "it": "La tua origine",
+          "en": "Your origin"
+        },
+        {
+          "it": "Come stai",
+          "en": "How you are"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -174,15 +225,27 @@
       "introIT": "Quasi finito!",
       "intro_en": "Almost done!",
       "contesto_it": "🌆 Sono le 20:00",
-      "contesto_en": "🌆 It is 8 PM",
+      "contesto_en": "It is 8 PM",
       "domanda": {
         "it": "La Nonna ti saluta. Come rispondi?",
         "en": "Nonna greets you. How do you reply?"
       },
       "opzioni": [
-        { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
-        { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
-        { "it": "Piacere!", "en": "Nice to meet you!", "emoji": "🤝" }
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!",
+          "emoji": "🤝"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -204,9 +267,15 @@
       "frase_it": "Piacere! Mi chiamo Sofia. Sono _____ Londra.",
       "frase_en": "= Nice to meet you! My name is Sofia. I am from London.",
       "opzioni": [
-        { "it": "di" },
-        { "it": "mi" },
-        { "it": "ho" }
+        {
+          "it": "di"
+        },
+        {
+          "it": "mi"
+        },
+        {
+          "it": "ho"
+        }
       ],
       "correct": 0,
       "feedbackOk": {

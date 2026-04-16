@@ -1257,3 +1257,9 @@ parte IT che EN della stessa domanda.
 - SE si usa: verificare SEMPRE che correct=0 per Vero e correct=1 per Falso
 - PREFERIRE multipla situazionale: "cosa fa X?" con 3 azioni narrative
   è sempre più efficace pedagogicamente di "vero o falso?"
+
+### REGOLA EMOJI NEI JSON
+- Emoji SOLO nei campi italiani: domanda.it, contesto_it, intro_it
+- MAI in domanda.en, contesto_en, intro_en — verranno mostrate dalla parte IT
+- Unica eccezione: emoji standalone come feedback (es. "Correct! 🎉")
+  che non hanno corrispondente IT
