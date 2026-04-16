@@ -9,9 +9,21 @@
     "type": "slot",
     "credits": 5,
     "pool": [
-      { "emoji": "☕", "nome": "Caffè espresso", "nomeEN": "Espresso coffee" },
-      { "emoji": "☕", "nome": "Cappuccino", "nomeEN": "Cappuccino" },
-      { "emoji": "🍊", "nome": "Spremuta d'arancia", "nomeEN": "Fresh orange juice" }
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
     ]
   },
   "vocab": [
@@ -71,9 +83,18 @@
         "en": "Mario brings something to Emma. What is «il conto»?"
       },
       "opzioni": [
-        { "it": "La bolletta da pagare", "en": "The bill to pay" },
-        { "it": "Il caffè", "en": "The coffee" },
-        { "it": "Il tavolo", "en": "The table" }
+        {
+          "it": "La bolletta da pagare",
+          "en": "The bill to pay"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
+          "it": "Il tavolo",
+          "en": "The table"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -97,9 +118,18 @@
         "en": "Emma wants to know the price. What does she say?"
       },
       "opzioni": [
-        { "it": "Quanto costa?", "en": "How much is it?" },
-        { "it": "Per favore", "en": "Please" },
-        { "it": "Il conto", "en": "The bill" }
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Il conto",
+          "en": "The bill"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -123,9 +153,18 @@
         "en": "What does «per favore» mean?"
       },
       "opzioni": [
-        { "it": "Please", "en": "Please" },
-        { "it": "Thank you", "en": "Thank you" },
-        { "it": "Goodbye", "en": "Goodbye" }
+        {
+          "it": "Please",
+          "en": "Please"
+        },
+        {
+          "it": "Thank you",
+          "en": "Thank you"
+        },
+        {
+          "it": "Goodbye",
+          "en": "Goodbye"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -151,21 +190,15 @@
       "coppie": [
         {
           "it": "Il conto",
-          "situazione_en": "Il conto",
-          "en": "The bill",
-          "traduzione_en": "The bill"
+          "en": "The bill"
         },
         {
           "it": "Quanto costa?",
-          "situazione_en": "Quanto costa?",
-          "en": "How much is it?",
-          "traduzione_en": "How much is it?"
+          "en": "How much is it?"
         },
         {
           "it": "Per favore",
-          "situazione_en": "Per favore",
-          "en": "Please",
-          "traduzione_en": "Please"
+          "en": "Please"
         }
       ],
       "feedbackOk": {
@@ -189,9 +222,18 @@
         "en": "Emma says: «il conto, per favore». What does she want?"
       },
       "opzioni": [
-        { "it": "Pagare", "en": "To pay" },
-        { "it": "Un caffè", "en": "A coffee" },
-        { "it": "Salutare", "en": "To say goodbye" }
+        {
+          "it": "Pagare",
+          "en": "To pay"
+        },
+        {
+          "it": "Un caffè",
+          "en": "A coffee"
+        },
+        {
+          "it": "Salutare",
+          "en": "To say goodbye"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -215,9 +257,18 @@
         "en": "Mario says: due euro. What did Emma ask?"
       },
       "opzioni": [
-        { "it": "Quanto costa?", "en": "How much is it?" },
-        { "it": "Il conto", "en": "The bill" },
-        { "it": "Per favore", "en": "Please" }
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        },
+        {
+          "it": "Il conto",
+          "en": "The bill"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -243,9 +294,21 @@
         "en": "Emma is polite. What does she add?"
       },
       "opzioni": [
-        { "it": "Per favore!", "en": "Please!", "emoji": "🙏" },
-        { "it": "Quanto costa?", "en": "How much?", "emoji": "💶" },
-        { "it": "Il conto!", "en": "The bill!", "emoji": "🧾" }
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much?",
+          "emoji": "💶"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -271,9 +334,21 @@
         "en": "What does Emma say to Mario?"
       },
       "opzioni": [
-        { "it": "Il conto, per favore!", "en": "The bill, please!", "emoji": "🧾" },
-        { "it": "Quanto costa?", "en": "How much is it?", "emoji": "💶" },
-        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+        {
+          "it": "Il conto, per favore!",
+          "en": "The bill, please!",
+          "emoji": "🧾"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?",
+          "emoji": "💶"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
