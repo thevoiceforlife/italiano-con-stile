@@ -1211,3 +1211,35 @@ Nota: anche la prima lezione della prima unità è random — non esiste un cibo
 **Regole**:
 - Occhi sempre verso l'utente
 - Mario: **3 pose già generate e processate**
+
+---
+
+## Regole Audio e Evidenziazione — Aprile 2026
+
+### REGOLA AUDIO — Solo italiano, mai inglese
+- Il TTS parla SOLO la parte italiana di qualsiasi testo bilingue
+- Le opzioni di risposta vengono pronunciate SOLO se `opt.it !== opt.en`
+  (se sono uguali, l'opzione è in inglese e non va pronunciata)
+- PersonaggioBubble usa sempre `u.lang = "it-IT"` — invariato
+- QBox parla solo `domandaIT` — invariato
+- Fix in DomandaMultipla: `if (optIt && optIt !== optEn) pronounce(optIt)`
+
+### REGOLA EVIDENZIAZIONE — Termini italiani in testo bilingue
+Quando un termine italiano appare nel testo inglese (o in una domanda
+bilingue dove il focus è su una parola italiana), usare la convenzione
+`«termine»` nel JSON.
+
+Il componente `renderText()` converte automaticamente `«termine»` in
+`<u>termine</u>` con sottolineatura evidenziata.
+
+**Esempi corretti nel JSON:**
+- `"en": "What does «per favore» mean?"`
+- `"en": "Mario says: «ecco a lei»!"`
+- `"en": "«Grazie» → «Prego»! The perfect pair!"`
+- `"it": "Cosa significa «per favore»?"`
+
+**Regola**: se una parola/frase italiana appare come focus della domanda
+o come termine da riconoscere, va sempre marcata con «» — sia nella
+parte IT che EN della stessa domanda.
+
+**Non marcare**: parole di contorno, nomi propri, emoji.
