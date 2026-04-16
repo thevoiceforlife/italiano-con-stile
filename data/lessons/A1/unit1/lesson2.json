@@ -59,7 +59,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Mi chiamo Mario. 🙋",
-        "en": "Correct! Mi chiamo Mario. 🙋"
+        "en": "Correct! Mi chiamo Mario."
       },
       "feedbackErr": {
         "it": "Per il nome si dice Mi chiamo! Mi chiamo = my name is.",
@@ -94,7 +94,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Di dove sei? = Where are you from? 🌍",
-        "en": "Yes! Di dove sei? = Where are you from? 🌍"
+        "en": "Yes! Di dove sei? = Where are you from?"
       },
       "feedbackErr": {
         "it": "Di dove sei? chiede l'origine! Di = from, dove = where.",
@@ -129,7 +129,7 @@
       "correct": 2,
       "feedbackOk": {
         "it": "Sì! Di dove sei? = Where are you from? 🌍",
-        "en": "Yes! Di dove sei? = Where are you from? 🌍"
+        "en": "Yes! Di dove sei? = Where are you from?"
       },
       "feedbackErr": {
         "it": "Di dove sei? chiede l'origine! Di = from, dove = where, sei = are you.",
@@ -164,7 +164,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Sono di Londra. Di = from! 📍",
-        "en": "Perfect! Sono di Londra. Di = from! 📍"
+        "en": "Perfect! Sono di Londra. Di = from!"
       },
       "feedbackErr": {
         "it": "Sono di Londra! Sono = I am, di = from. Sono di + città = I am from + city!",
@@ -220,7 +220,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Piacere + sono di = presentazione perfetta! 🤝",
-        "en": "Correct! Piacere + sono di = perfect introduction! 🤝"
+        "en": "Correct! Piacere + sono di = perfect introduction!"
       },
       "feedbackErr": {
         "it": "Piacere, sono di Londra! Piacere = nice to meet you, sono di = I am from.",
@@ -260,7 +260,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Sono di + città! 📍",
-        "en": "Perfect! Sono di + city! 📍"
+        "en": "Perfect! Sono di + city!"
       },
       "feedbackErr": {
         "it": "Per l'origine: Sono di + città! Sono di Roma, Sono di Londra!",
@@ -300,7 +300,7 @@
       ],
       "feedbackOk": {
         "it": "Bravissimo! Lezione 2 completata! 🎉",
-        "en": "Excellent! Lesson 2 complete! 🎉"
+        "en": "Excellent! Lesson 2 complete!"
       },
       "feedbackErr": {
         "it": "Quasi! Riprova — guarda bene le situazioni.",

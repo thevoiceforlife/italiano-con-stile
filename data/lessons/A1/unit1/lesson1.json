@@ -122,7 +122,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Arrivederci — a presto! 👋",
-        "en": "Yes! Arrivederci — see you soon! 👋"
+        "en": "Yes! Arrivederci — see you soon!"
       },
       "feedbackErr": {
         "it": "Per salutare alla fine si dice Arrivederci! A + rivederci = until we see each other again!",
@@ -157,7 +157,7 @@
       "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Piacere — al primo incontro! 🤝",
-        "en": "Perfect! Piacere — when you first meet! 🤝"
+        "en": "Perfect! Piacere — when you first meet!"
       },
       "feedbackErr": {
         "it": "Al primo incontro si dice Piacere! Viene da piacere = to please. Ti fa piacere conoscere qualcuno!",
@@ -197,7 +197,7 @@
       ],
       "feedbackOk": {
         "it": "Perfetto! Tutte e tre corrette! 🎉",
-        "en": "Perfect! All three correct! 🎉"
+        "en": "Perfect! All three correct!"
       },
       "feedbackErr": {
         "it": "Quasi! Riprova — guarda la situazione.",
@@ -267,7 +267,7 @@
       "correct": 2,
       "feedbackOk": {
         "it": "Esatto! Se ne va → Arrivederci! 👋",
-        "en": "Correct! Leaving → Arrivederci! 👋"
+        "en": "Correct! Leaving → Arrivederci!"
       },
       "feedbackErr": {
         "it": "Oliver se ne va — dice Arrivederci! A + rivederci = until we see each other again!",
@@ -307,7 +307,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Primo incontro → Piacere! 🤝",
-        "en": "Perfect! First meeting → Piacere! 🤝"
+        "en": "Perfect! First meeting → Piacere!"
       },
       "feedbackErr": {
         "it": "Primo incontro → Piacere! Ti fa piacere conoscere Gino!",
@@ -347,7 +347,7 @@
       "correct": 2,
       "feedbackOk": {
         "it": "Bravissimo! Il bar chiude → Arrivederci! 👋",
-        "en": "Excellent! Bar closes → Arrivederci! 👋"
+        "en": "Excellent! Bar closes → Arrivederci!"
       },
       "feedbackErr": {
         "it": "Il bar chiude → Arrivederci! Non Buongiorno — quello è per la mattina!",

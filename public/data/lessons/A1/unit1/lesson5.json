@@ -87,7 +87,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Piacere! 🤝",
-        "en": "Yes! Piacere! 🤝"
+        "en": "Yes! Piacere!"
       },
       "feedbackErr": {
         "it": "Era Piacere!",
@@ -117,7 +117,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Mi chiamo! 🙋",
-        "en": "Yes! Mi chiamo! 🙋"
+        "en": "Yes! Mi chiamo!"
       },
       "feedbackErr": {
         "it": "Mi CHIAMO Mario! My name is Mario.",
@@ -157,7 +157,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Piacere! 🤝",
-        "en": "Yes! Piacere! 🤝"
+        "en": "Yes! Piacere!"
       },
       "feedbackErr": {
         "it": "Primo incontro → Piacere!",
@@ -194,7 +194,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Sono di = I am from! 📍",
-        "en": "Yes! Sono di = I am from! 📍"
+        "en": "Yes! Sono di = I am from!"
       },
       "feedbackErr": {
         "it": "Sono di → origine! I am from London.",
@@ -224,7 +224,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Sono di Roma! 📍",
-        "en": "Yes! Sono di Roma! 📍"
+        "en": "Yes! Sono di Roma!"
       },
       "feedbackErr": {
         "it": "Sono DI Roma! Di = from!",
@@ -264,7 +264,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Le 19 → Buonasera! 🌆",
-        "en": "Yes! 7 PM → Buonasera! 🌆"
+        "en": "Yes! 7 PM → Buonasera!"
       },
       "feedbackErr": {
         "it": "Le 19 → Buonasera! È sera!",
@@ -301,7 +301,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrivederci! 👋",
-        "en": "Yes! Arrivederci! 👋"
+        "en": "Yes! Arrivederci!"
       },
       "feedbackErr": {
         "it": "Era Arrivederci!",
@@ -331,7 +331,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Mi chiamo Sofia! 🙋",
-        "en": "Yes! Mi chiamo Sofia! 🙋"
+        "en": "Yes! Mi chiamo Sofia!"
       },
       "feedbackErr": {
         "it": "Mi CHIAMO Sofia! My name is Sofia.",
@@ -371,7 +371,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Dal dottore → Buongiorno! 👔",
-        "en": "Perfect! At the doctor → Buongiorno! 👔"
+        "en": "Perfect! At the doctor → Buongiorno!"
       },
       "feedbackErr": {
         "it": "Dal dottore → Buongiorno! Il Ciao è tra amici.",

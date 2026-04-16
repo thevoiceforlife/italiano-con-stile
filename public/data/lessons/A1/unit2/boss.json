@@ -287,7 +287,7 @@
       "introIT": "La Nonna offre il dolce!",
       "intro_en": "Nonna offers dessert!",
       "contesto_it": "La Nonna ti offre il dolce. 🍰",
-      "contesto_en": "Nonna offers you dessert. 🍰",
+      "contesto_en": "Nonna offers you dessert.",
       "domanda": {
         "it": "Cosa fai?",
         "en": "What do you do?"

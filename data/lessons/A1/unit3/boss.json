@@ -70,7 +70,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride! 🙏",
-        "en": "Well done! Nonna smiles! 🙏"
+        "en": "Well done! Nonna smiles!"
       },
       "feedbackErr": {
         "it": "Ricevi qualcosa → Grazie! = thank you!",
@@ -94,7 +94,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Grazie → Prego! 😊",
-        "en": "Correct! Grazie → Prego! 😊"
+        "en": "Correct! Grazie → Prego!"
       },
       "feedbackErr": {
         "it": "La risposta a grazie è sempre «Prego»! = you are welcome!",
@@ -130,7 +130,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto costa? = il prezzo! 💶",
-        "en": "Yes! «Quanto costa»? = the price! 💶"
+        "en": "Yes! «Quanto costa»? = the price!"
       },
       "feedbackErr": {
         "it": "Quanto costa? chiede il prezzo = how much is it?",
@@ -170,7 +170,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! La Nonna è felice! 🙏",
-        "en": "Perfect! Nonna is happy! 🙏"
+        "en": "Perfect! Nonna is happy!"
       },
       "feedbackErr": {
         "it": "Ricevi qualcosa → sempre Grazie! = thank you!",
@@ -194,7 +194,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il conto, per favore! 🧾",
-        "en": "Correct! Il conto, per favore! 🧾"
+        "en": "Correct! Il conto, per favore!"
       },
       "feedbackErr": {
         "it": "Per pagare: Il CONTO, per favore! = the bill, please!",
@@ -230,7 +230,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Prego»! = you are welcome! 😊",
-        "en": "Yes! «Prego»! = you are welcome! 😊"
+        "en": "Yes! «Prego»! = you are welcome!"
       },
       "feedbackErr": {
         "it": "La Nonna ha detto «Prego»! = you are welcome!",
@@ -270,7 +270,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa! 🏆🍦",
-        "en": "EXCELLENT! Nonna is proud of you! 🏆🍦"
+        "en": "EXCELLENT! Nonna is proud of you!"
       },
       "feedbackErr": {
         "it": "Per pagare: «Il conto, per favore»! = the bill, please!",

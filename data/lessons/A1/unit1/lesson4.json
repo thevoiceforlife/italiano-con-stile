@@ -8,7 +8,11 @@
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
+    "pool": [
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
+    ]
   },
   "vocab": [],
   "pillole": [
@@ -41,9 +45,18 @@
         "en": "What did you hear?"
       },
       "opzioni": [
-        { "it": "Buongiorno", "en": "Good morning" },
-        { "it": "Buonasera", "en": "Good evening" },
-        { "it": "Arrivederci", "en": "Goodbye" }
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        },
+        {
+          "it": "Buonasera",
+          "en": "Good evening"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -69,14 +82,23 @@
         "en": "What did Mario say?"
       },
       "opzioni": [
-        { "it": "Piacere", "en": "Nice to meet you" },
-        { "it": "Buongiorno", "en": "Good morning" },
-        { "it": "Arrivederci", "en": "Goodbye" }
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        },
+        {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        }
       ],
       "correct": 2,
       "feedbackOk": {
         "it": "Sì! Arrivederci — a presto! 👋",
-        "en": "Yes! Arrivederci — see you soon! 👋"
+        "en": "Yes! Arrivederci — see you soon!"
       },
       "feedbackErr": {
         "it": "Era Arrivederci! A + rivederci = until we see each other again!",
@@ -97,14 +119,23 @@
         "en": "Which word did you hear?"
       },
       "opzioni": [
-        { "it": "Piacere", "en": "Nice to meet you" },
-        { "it": "Per favore", "en": "Please" },
-        { "it": "Buongiorno", "en": "Good morning" }
+        {
+          "it": "Piacere",
+          "en": "Nice to meet you"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
+          "it": "Buongiorno",
+          "en": "Good morning"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
         "it": "Bravo! Piacere — al primo incontro! 🤝",
-        "en": "Well done! Piacere — at the first meeting! 🤝"
+        "en": "Well done! Piacere — at the first meeting!"
       },
       "feedbackErr": {
         "it": "Era Piacere! Piacere = nice to meet you. Viene da to please!",
@@ -125,14 +156,23 @@
         "en": "What is Mario saying?"
       },
       "opzioni": [
-        { "it": "Si sta presentando", "en": "He is introducing himself" },
-        { "it": "Sta salutando", "en": "He is saying goodbye" },
-        { "it": "Sta chiedendo il nome", "en": "He is asking for a name" }
+        {
+          "it": "Si sta presentando",
+          "en": "He is introducing himself"
+        },
+        {
+          "it": "Sta salutando",
+          "en": "He is saying goodbye"
+        },
+        {
+          "it": "Sta chiedendo il nome",
+          "en": "He is asking for a name"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Mi chiamo Mario — si presenta! 🙋",
-        "en": "Correct! Mi chiamo Mario — he introduces himself! 🙋"
+        "en": "Correct! Mi chiamo Mario — he introduces himself!"
       },
       "feedbackErr": {
         "it": "Mi chiamo Mario — si sta presentando! Mi chiamo = my name is.",
@@ -153,14 +193,23 @@
         "en": "What is Mario saying?"
       },
       "opzioni": [
-        { "it": "Dice il suo nome", "en": "He says his name" },
-        { "it": "Dice da dove viene", "en": "He says where he is from" },
-        { "it": "Sta salutando", "en": "He is greeting" }
+        {
+          "it": "Dice il suo nome",
+          "en": "He says his name"
+        },
+        {
+          "it": "Dice da dove viene",
+          "en": "He says where he is from"
+        },
+        {
+          "it": "Sta salutando",
+          "en": "He is greeting"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Sono di Napoli — dice la sua origine! 📍",
-        "en": "Yes! Sono di Napoli — he says his origin! 📍"
+        "en": "Yes! Sono di Napoli — he says his origin!"
       },
       "feedbackErr": {
         "it": "Sono di Napoli — dice da dove viene! Sono di = I am from.",
@@ -181,14 +230,23 @@
         "en": "Mario asked you...?"
       },
       "opzioni": [
-        { "it": "Il tuo nome", "en": "Your name" },
-        { "it": "Da dove vieni", "en": "Where you are from" },
-        { "it": "Come stai", "en": "How you are" }
+        {
+          "it": "Il tuo nome",
+          "en": "Your name"
+        },
+        {
+          "it": "Da dove vieni",
+          "en": "Where you are from"
+        },
+        {
+          "it": "Come stai",
+          "en": "How you are"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Di dove sei = where are you from! 🌍",
-        "en": "Correct! Di dove sei = where are you from! 🌍"
+        "en": "Correct! Di dove sei = where are you from!"
       },
       "feedbackErr": {
         "it": "Di dove sei chiede l'origine! Di = from, dove = where.",
@@ -209,14 +267,23 @@
         "en": "How many pieces of information did Sofia give?"
       },
       "opzioni": [
-        { "it": "Una sola", "en": "Just one" },
-        { "it": "Due — saluto e nome", "en": "Two — greeting and name" },
-        { "it": "Tre", "en": "Three" }
+        {
+          "it": "Una sola",
+          "en": "Just one"
+        },
+        {
+          "it": "Due — saluto e nome",
+          "en": "Two — greeting and name"
+        },
+        {
+          "it": "Tre",
+          "en": "Three"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Piacere + mi chiamo — due informazioni! 🙋",
-        "en": "Perfect! Piacere + mi chiamo — two pieces of info! 🙋"
+        "en": "Perfect! Piacere + mi chiamo — two pieces of info!"
       },
       "feedbackErr": {
         "it": "Piacere = saluto, mi chiamo = nome — sono due informazioni!",
@@ -237,14 +304,23 @@
         "en": "How many pieces of information did you hear?"
       },
       "opzioni": [
-        { "it": "Una", "en": "One" },
-        { "it": "Due", "en": "Two" },
-        { "it": "Tre — saluto, presentazione e origine", "en": "Three — greeting, introduction and origin" }
+        {
+          "it": "Una",
+          "en": "One"
+        },
+        {
+          "it": "Due",
+          "en": "Two"
+        },
+        {
+          "it": "Tre — saluto, presentazione e origine",
+          "en": "Three — greeting, introduction and origin"
+        }
       ],
       "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Buonasera + piacere + sono di Londra — tre! 🎉",
-        "en": "Perfect! Buonasera + piacere + sono di Londra — three! 🎉"
+        "en": "Perfect! Buonasera + piacere + sono di Londra — three!"
       },
       "feedbackErr": {
         "it": "Buonasera = saluto, piacere = presentazione, sono di Londra = origine. Tre informazioni!",

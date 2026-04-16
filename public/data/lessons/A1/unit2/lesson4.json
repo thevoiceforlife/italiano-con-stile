@@ -243,7 +243,7 @@
       "introIT": "Gino ti fa una domanda!",
       "intro_en": "Gino asks you a question!",
       "contesto_it": "Gino chiede quanti anni hai. 🎂",
-      "contesto_en": "Gino asks how old you are. 🎂",
+      "contesto_en": "Gino asks how old you are.",
       "domanda": {
         "it": "Come rispondi a Gino?",
         "en": "How do you reply to Gino?"

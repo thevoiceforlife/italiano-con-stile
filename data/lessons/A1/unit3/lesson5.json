@@ -60,11 +60,11 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🧾",
-        "en": "Yes! 🧾"
+        "en": "Yes!"
       },
       "feedbackErr": {
         "it": "Il conto = the bill! 🧾",
-        "en": "Il conto = the bill! 🧾"
+        "en": "Il conto = the bill!"
       }
     },
     {
@@ -95,11 +95,11 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! 🙏",
-        "en": "Correct! 🙏"
+        "en": "Correct!"
       },
       "feedbackErr": {
         "it": "Grazie = thank you! 🙏",
-        "en": "Grazie = thank you! 🙏"
+        "en": "Grazie = thank you!"
       }
     },
     {
@@ -135,7 +135,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🙏",
-        "en": "Yes! 🙏"
+        "en": "Yes!"
       },
       "feedbackErr": {
         "it": "Grazie! = thank you!",
@@ -171,7 +171,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🙏",
-        "en": "Yes! 🙏"
+        "en": "Yes!"
       },
       "feedbackErr": {
         "it": "Era Per favore! = please.",
@@ -195,7 +195,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! 🙏",
-        "en": "Perfect! 🙏"
+        "en": "Perfect!"
       },
       "feedbackErr": {
         "it": "«PER favore»! Per = for.",
@@ -230,11 +230,11 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! 😊",
-        "en": "Yes! 😊"
+        "en": "Yes!"
       },
       "feedbackErr": {
         "it": "Prego = you are welcome! 😊",
-        "en": "Prego = you are welcome! 😊"
+        "en": "Prego = you are welcome!"
       }
     },
     {
@@ -270,7 +270,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! 🤲",
-        "en": "Correct! 🤲"
+        "en": "Correct!"
       },
       "feedbackErr": {
         "it": "«Ecco a lei» = here you are!",
@@ -306,7 +306,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! 💶",
-        "en": "Yes! 💶"
+        "en": "Yes!"
       },
       "feedbackErr": {
         "it": "Era «Quanto costa»? = how much is it?",
@@ -330,7 +330,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto! 💶",
-        "en": "Yes! Quanto! 💶"
+        "en": "Yes! Quanto!"
       },
       "feedbackErr": {
         "it": "«QUANTO costa»! Quanto = how much!",
@@ -366,7 +366,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! 🤲",
-        "en": "Excellent! 🤲"
+        "en": "Excellent!"
       },
       "feedbackErr": {
         "it": "Era Ecco a lei! = here you are!",

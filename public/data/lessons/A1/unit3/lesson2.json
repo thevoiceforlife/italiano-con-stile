@@ -104,7 +104,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Grazie = thank you! 🙏",
-        "en": "Correct! Grazie = thank you! 🙏"
+        "en": "Correct! Grazie = thank you!"
       },
       "feedbackErr": {
         "it": "Grazie = thank you! Si dice dopo aver ricevuto qualcosa.",
@@ -139,7 +139,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Prego = you are welcome! 😊",
-        "en": "Yes! Prego = you are welcome! 😊"
+        "en": "Yes! Prego = you are welcome!"
       },
       "feedbackErr": {
         "it": "Prego! È la risposta a grazie — come you are welcome!",
@@ -174,7 +174,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Ecco a lei = here you are! 🤲",
-        "en": "Perfect! Ecco a lei = here you are! 🤲"
+        "en": "Perfect! Ecco a lei = here you are!"
       },
       "feedbackErr": {
         "it": "Ecco a lei! Si dice quando si porge qualcosa — here you are!",
@@ -209,7 +209,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Ecco a lei — quando porgi qualcosa! 🤲",
-        "en": "Correct! «Ecco a lei» — when handing something over! 🤲"
+        "en": "Correct! «Ecco a lei» — when handing something over!"
       },
       "feedbackErr": {
         "it": "Mario porge il caffè → dice «Ecco a lei»! = here you are!",
@@ -249,7 +249,7 @@
       ],
       "feedbackOk": {
         "it": "Bravissimo! Tutte e tre giuste! 🎉",
-        "en": "Excellent! All three correct! 🎉"
+        "en": "Excellent! All three correct!"
       },
       "feedbackErr": {
         "it": "Quasi! Pensa alla situazione — chi parla e cosa fa?",
@@ -284,7 +284,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Riceve qualcosa → «Grazie»! 🙏",
-        "en": "Correct! He receives something → «Grazie»! 🙏"
+        "en": "Correct! He receives something → «Grazie»!"
       },
       "feedbackErr": {
         "it": "Mario riceve i soldi → dice «Grazie»! = thank you!",
@@ -321,7 +321,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Grazie → Prego! La coppia perfetta! 🙏😊",
-        "en": "Perfect! Grazie → Prego! The perfect pair! 🙏😊"
+        "en": "Perfect! Grazie → Prego! The perfect pair!"
       },
       "feedbackErr": {
         "it": "Prego è la risposta a grazie! Hans ha detto grazie prima.",
@@ -358,7 +358,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Ecco a lei — proprio come Mario! 🤲",
-        "en": "Excellent! Ecco a lei — just like Mario! 🤲"
+        "en": "Excellent! Ecco a lei — just like Mario!"
       },
       "feedbackErr": {
         "it": "Quando porgi qualcosa dici Ecco a lei! = Here you are!",

@@ -99,7 +99,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il conto = the bill! 🧾",
-        "en": "Correct! Il conto = the bill! 🧾"
+        "en": "Correct! Il conto = the bill!"
       },
       "feedbackErr": {
         "it": "Il conto = the bill! Viene da contare — si contano i soldi!",
@@ -134,7 +134,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto costa? = How much is it? 💶",
-        "en": "Yes! Quanto costa? = How much is it? 💶"
+        "en": "Yes! Quanto costa? = How much is it?"
       },
       "feedbackErr": {
         "it": "Per il prezzo: Quanto costa? Quanto = how much, costa = costs!",
@@ -169,7 +169,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Per favore = please! 🙏",
-        "en": "Perfect! Per favore = please! 🙏"
+        "en": "Perfect! Per favore = please!"
       },
       "feedbackErr": {
         "it": "Per favore = please! Letteralmente: for a favour — come in inglese!",
@@ -203,7 +203,7 @@
       ],
       "feedbackOk": {
         "it": "Bravissimo! Tutte e tre giuste! 🎉",
-        "en": "Excellent! All three correct! 🎉"
+        "en": "Excellent! All three correct!"
       },
       "feedbackErr": {
         "it": "Quasi! Riprova — guarda bene le traduzioni.",
@@ -238,7 +238,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il conto → vuole pagare! 🧾",
-        "en": "Correct! Il conto → she wants to pay! 🧾"
+        "en": "Correct! Il conto → she wants to pay!"
       },
       "feedbackErr": {
         "it": "Il conto, per favore = the bill, please. Vuole pagare!",
@@ -273,7 +273,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto costa? → Mario risponde con il prezzo! 💶",
-        "en": "Yes! Quanto costa? → Mario replies with the price! 💶"
+        "en": "Yes! Quanto costa? → Mario replies with the price!"
       },
       "feedbackErr": {
         "it": "Mario dà il prezzo → Emma ha chiesto Quanto costa? = How much?",
@@ -313,7 +313,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Un caffè, per favore — che stile! 🙏",
-        "en": "Perfect! Un caffè, per favore — so classy! 🙏"
+        "en": "Perfect! Un caffè, per favore — so classy!"
       },
       "feedbackErr": {
         "it": "Per essere gentile si dice per favore! = please!",
@@ -353,7 +353,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissima! Il conto, per favore — proprio come un'italiana! 🧾",
-        "en": "Excellent! Il conto, per favore — just like an Italian! 🧾"
+        "en": "Excellent! Il conto, per favore — just like an Italian!"
       },
       "feedbackErr": {
         "it": "Per pagare si dice Il conto, per favore! = The bill, please!",

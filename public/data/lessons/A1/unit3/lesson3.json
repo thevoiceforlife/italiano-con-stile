@@ -75,7 +75,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Ricevi qualcosa → Grazie! 🙏",
-        "en": "Correct! You receive something → Grazie! 🙏"
+        "en": "Correct! You receive something → Grazie!"
       },
       "feedbackErr": {
         "it": "Quando ricevi qualcosa dici Grazie! = thank you!",
@@ -115,7 +115,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Grazie → Prego! Sempre! 😊",
-        "en": "Perfect! Grazie → Prego! Always! 😊"
+        "en": "Perfect! Grazie → Prego! Always!"
       },
       "feedbackErr": {
         "it": "Prego è la risposta a grazie! = you are welcome!",
@@ -139,7 +139,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Ecco a lei — here you are! 🤲",
-        "en": "Yes! Ecco a lei — here you are! 🤲"
+        "en": "Yes! Ecco a lei — here you are!"
       },
       "feedbackErr": {
         "it": "Ecco A lei! La piccola parola a fa tutta la differenza.",
@@ -163,7 +163,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Quanto costa? = How much is it? 💶",
-        "en": "Correct! Quanto costa? = How much is it? 💶"
+        "en": "Correct! Quanto costa? = How much is it?"
       },
       "feedbackErr": {
         "it": "QUANTO costa! Quanto = how much — come how much in inglese!",
@@ -203,7 +203,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Per il prezzo → Quanto costa? 💶",
-        "en": "Perfect! For the price → Quanto costa? 💶"
+        "en": "Perfect! For the price → Quanto costa?"
       },
       "feedbackErr": {
         "it": "Per chiedere il prezzo: «Quanto costa»? = how much is it?",
@@ -240,7 +240,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Riceve il caffè → Grazie! 🙏",
-        "en": "Yes! Receives the coffee → Grazie! 🙏"
+        "en": "Yes! Receives the coffee → Grazie!"
       },
       "feedbackErr": {
         "it": "Oliver riceve il caffè → dice Grazie! = thank you!",
@@ -264,7 +264,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! «Il conto, per favore»! 🧾",
-        "en": "Excellent! «Il conto, per favore»! 🧾"
+        "en": "Excellent! «Il conto, per favore»!"
       },
       "feedbackErr": {
         "it": "Il conto, PER favore! Per = for — come for in inglese!",
@@ -304,7 +304,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Riceve qualcosa → Grazie! 🙏",
-        "en": "Excellent! Receives something → Grazie! 🙏"
+        "en": "Excellent! Receives something → Grazie!"
       },
       "feedbackErr": {
         "it": "Oliver riceve qualcosa → Grazie! = thank you!",

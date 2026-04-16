@@ -104,7 +104,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Prima volta → Piacere! 🤝",
-        "en": "Perfect! First time → Piacere! 🤝"
+        "en": "Perfect! First time → Piacere!"
       },
       "feedbackErr": {
         "it": "Prima volta → Piacere! Ti fa piacere conoscere Sofia!",
@@ -134,7 +134,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Piacere + mi chiamo — presentazione! 🙋",
-        "en": "Correct! Piacere + mi chiamo — introduction! 🙋"
+        "en": "Correct! Piacere + mi chiamo — introduction!"
       },
       "feedbackErr": {
         "it": "Piacere, mi chiamo Mario! Piacere = nice to meet you, mi chiamo = my name is.",
@@ -164,7 +164,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Sono di Napoli! Di = from. 📍",
-        "en": "Perfect! Sono di Napoli! Di = from. 📍"
+        "en": "Perfect! Sono di Napoli! Di = from."
       },
       "feedbackErr": {
         "it": "Sono DI Napoli! Di = from — come from in inglese!",
@@ -204,7 +204,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Dopo le 18:00 → Buonasera! 🌆",
-        "en": "Yes! After 6 PM → Buonasera! 🌆"
+        "en": "Yes! After 6 PM → Buonasera!"
       },
       "feedbackErr": {
         "it": "Sono le 20:00 — è sera! Dopo le 18 si dice Buonasera!",
@@ -234,7 +234,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Mi chiamo Sofia! 🙋",
-        "en": "Perfect! Mi chiamo Sofia! 🙋"
+        "en": "Perfect! Mi chiamo Sofia!"
       },
       "feedbackErr": {
         "it": "Mi CHIAMO Sofia! Mi chiamo = I call myself. Letteralmente: I call myself Sofia!",
@@ -274,7 +274,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Con il dottore → Buongiorno! Più rispettoso. 👔",
-        "en": "Correct! With the doctor → Buongiorno! More respectful. 👔"
+        "en": "Correct! With the doctor → Buongiorno! More respectful."
       },
       "feedbackErr": {
         "it": "Con il dottore è preferibile Buongiorno — il Ciao è tra amici!",
@@ -304,7 +304,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! E di dove sei? E = and! 🌍",
-        "en": "Excellent! E di dove sei? E = and! 🌍"
+        "en": "Excellent! E di dove sei? E = and!"
       },
       "feedbackErr": {
         "it": "E di dove sei? E = and — come in inglese! And where are you from?",

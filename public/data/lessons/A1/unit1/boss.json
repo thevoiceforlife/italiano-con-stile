@@ -113,7 +113,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Bravissimo! Primo incontro → Piacere! 🤝",
-        "en": "Excellent! First meeting → Piacere! 🤝"
+        "en": "Excellent! First meeting → Piacere!"
       },
       "feedbackErr": {
         "it": "Primo incontro → Piacere! Ti fa piacere conoscerla!",
@@ -143,7 +143,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "La Nonna annuisce! Mi chiamo Sofia! 🙋",
-        "en": "Nonna nods! Mi chiamo Sofia! 🙋"
+        "en": "Nonna nods! Mi chiamo Sofia!"
       },
       "feedbackErr": {
         "it": "Mi CHIAMO Sofia! Mi chiamo = my name is. Già visto in lezione 3!",
@@ -173,7 +173,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "La Nonna è colpita! Sono di Londra! 📍",
-        "en": "Nonna is impressed! Sono di Londra! 📍"
+        "en": "Nonna is impressed! Sono di Londra!"
       },
       "feedbackErr": {
         "it": "Sono DI Londra! Di = from. Già visto in lezione 3!",
@@ -210,7 +210,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "Sì! Di dove sei = where are you from! 🌍",
-        "en": "Yes! Di dove sei = where are you from! 🌍"
+        "en": "Yes! Di dove sei = where are you from!"
       },
       "feedbackErr": {
         "it": "Di dove sei chiede l'origine! Già sentito in lezione 4!",
@@ -250,7 +250,7 @@
       "correct": 1,
       "feedbackOk": {
         "it": "La Nonna approva! Le 20 → Buonasera! 🌆",
-        "en": "Nonna approves! 8 PM → Buonasera! 🌆"
+        "en": "Nonna approves! 8 PM → Buonasera!"
       },
       "feedbackErr": {
         "it": "Sono le 20:00 → Buonasera! Dopo le 18 è sera!",
@@ -280,7 +280,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "La Nonna è conquistata! Sei pronto per Napoli! 🎉",
-        "en": "Nonna is won over! You are ready for Naples! 🎉"
+        "en": "Nonna is won over! You are ready for Naples!"
       },
       "feedbackErr": {
         "it": "Sono DI Londra! Di = from. Piacere + mi chiamo + sono di = presentazione completa!",

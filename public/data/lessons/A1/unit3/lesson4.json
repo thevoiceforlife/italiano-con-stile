@@ -76,7 +76,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Hai sentito Grazie! 🙏",
-        "en": "Yes! You heard Grazie! 🙏"
+        "en": "Yes! You heard Grazie!"
       },
       "feedbackErr": {
         "it": "Era Grazie! = thank you. Riascolta!",
@@ -112,7 +112,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Hai sentito Prego! 😊",
-        "en": "Perfect! You heard Prego! 😊"
+        "en": "Perfect! You heard Prego!"
       },
       "feedbackErr": {
         "it": "Era «Prego»! = you are welcome. Ascolta bene!",
@@ -148,7 +148,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Ecco a lei! 🤲",
-        "en": "Correct! Ecco a lei! 🤲"
+        "en": "Correct! Ecco a lei!"
       },
       "feedbackErr": {
         "it": "Era «Ecco a lei»! = here you are. Riascolta!",
@@ -184,7 +184,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il conto → vuole pagare! 🧾",
-        "en": "Yes! Il conto → she wants to pay! 🧾"
+        "en": "Yes! Il conto → she wants to pay!"
       },
       "feedbackErr": {
         "it": "Il conto, per favore = the bill, please → vuole pagare!",
@@ -220,7 +220,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Quanto costa? chiede il prezzo! 💶",
-        "en": "Correct! «Quanto costa»? asks for the price! 💶"
+        "en": "Correct! «Quanto costa»? asks for the price!"
       },
       "feedbackErr": {
         "it": "«Quanto costa»? = how much is it? — chiede il prezzo!",
@@ -256,7 +256,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Per favore = please! 🙏",
-        "en": "Yes! Per favore = please! 🙏"
+        "en": "Yes! Per favore = please!"
       },
       "feedbackErr": {
         "it": "Era Per favore! 4 sillabe: per-fa-vo-re. Riascolta!",
@@ -293,7 +293,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Brava Emma! Riceve → Grazie! 🙏",
-        "en": "Well done Emma! Receives → Grazie! 🙏"
+        "en": "Well done Emma! Receives → Grazie!"
       },
       "feedbackErr": {
         "it": "Emma riceve il caffè → dice Grazie! = thank you!",
@@ -329,7 +329,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Grazie → Prego! Sempre! 😊",
-        "en": "Perfect! Grazie → Prego! Always! 😊"
+        "en": "Perfect! Grazie → Prego! Always!"
       },
       "feedbackErr": {
         "it": "Dopo Grazie, Mario risponde «Prego»! = you are welcome!",

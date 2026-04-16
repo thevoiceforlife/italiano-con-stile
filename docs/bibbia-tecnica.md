@@ -1261,5 +1261,6 @@ parte IT che EN della stessa domanda.
 ### REGOLA EMOJI NEI JSON
 - Emoji SOLO nei campi italiani: domanda.it, contesto_it, intro_it
 - MAI in domanda.en, contesto_en, intro_en — verranno mostrate dalla parte IT
+- MAI emoji trailing in feedbackOk.en e feedbackErr.en
 - Unica eccezione: emoji standalone come feedback (es. "Correct! 🎉")
   che non hanno corrispondente IT
