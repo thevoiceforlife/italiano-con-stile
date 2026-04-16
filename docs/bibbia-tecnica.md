@@ -1250,3 +1250,10 @@ parte IT che EN della stessa domanda.
   Es: "What does «per favore» mean?"
 - Parole di **contesto/narrativa** non ancora insegnate → sempre tradotte
   Es: "Mario says: two euros." (due euro non è nel vocab dell'unità)
+
+### REGOLA vero_falso — quando usarlo e quando no
+- MAI usare vero_falso se la risposta è ovviamente vera (es. definizione appena insegnata)
+- MAI mettere termini inglesi nella frase italiana del vero_falso
+- SE si usa: verificare SEMPRE che correct=0 per Vero e correct=1 per Falso
+- PREFERIRE multipla situazionale: "cosa fa X?" con 3 azioni narrative
+  è sempre più efficace pedagogicamente di "vero o falso?"
