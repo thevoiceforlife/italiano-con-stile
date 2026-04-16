@@ -118,6 +118,18 @@ const CHAR_COLOR = {
   gino: "#E5B700", matilde: "#1CB0F6", vittoria: "#E5B700",
 };
 
+
+// Converte «termine» → <u>termine</u> per evidenziare termini IT in testo bilingue
+function renderText(text) {
+  if (!text || !text.includes('«')) return text;
+  const parts = text.split(/(«[^»]+»)/g);
+  return parts.map((part, i) =>
+    part.startsWith('«')
+      ? <u key={i} style={{ fontWeight: 700, textDecorationColor: 'var(--special)', textDecorationThickness: 2 }}>{part.slice(1, -1)}</u>
+      : part
+  );
+}
+
 function QBox({ q }) {
   const c = CHAR_COLOR[q?.personaggio] || "#1CB0F6";
   const domandaIT = q.domanda?.it || "";
@@ -151,7 +163,7 @@ function QBox({ q }) {
       <div className="q-card__it">
         <FraseAnnotata testo={domandaIT} annotazioni={q.annotazioni_domanda || []} />
       </div>
-      <div className="q-card__en">{q.domanda?.en || ""}</div>
+      <div className="q-card__en">{renderText(q.domanda?.en || "")}</div>
       {domandaIT && (
         <span aria-hidden="true" style={{ position: "absolute", bottom: 6, right: 8, fontSize: 11, opacity: 0.55, pointerEvents: "none" }}>🔊</span>
       )}
@@ -260,7 +272,7 @@ function DomandaMultipla({ q, onAnswer }) {
                 key={si}
                 onClick={() => {
                   if (confirmed) return;
-                  if (optIt) pronounce(optIt);
+                  if (optIt && optIt !== optEn) pronounce(optIt); // NO audio su testo EN-only
                   setSelected(si);
                 }}
                 style={{

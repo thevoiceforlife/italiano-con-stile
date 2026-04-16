@@ -95,7 +95,7 @@
       "intro_en": "Mario replies!",
       "domanda": {
         "it": "Hans dice grazie. Mario risponde...",
-        "en": "Hans says grazie. Mario replies..."
+        "en": "Hans says «grazie». Mario replies..."
       },
       "opzioni": [
         { "it": "Prego!", "en": "You are welcome!" },
@@ -257,7 +257,7 @@
       },
       "feedbackErr": {
         "it": "Prego è la risposta a grazie! Hans ha detto grazie prima.",
-        "en": "Prego is the reply to grazie! Hans said grazie first."
+        "en": "«Prego» is the reply to «grazie»! Hans said grazie first."
       }
     },
     {

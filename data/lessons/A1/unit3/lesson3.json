@@ -206,8 +206,8 @@
         "en": "Perfect! For the price → Quanto costa? 💶"
       },
       "feedbackErr": {
-        "it": "Per chiedere il prezzo: Quanto costa? = how much is it?",
-        "en": "To ask the price: Quanto costa? = how much is it?"
+        "it": "Per chiedere il prezzo: «Quanto costa»? = how much is it?",
+        "en": "To ask the price: «Quanto costa»? = how much is it?"
       }
     },
     {
@@ -263,8 +263,8 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Bravissimo! Il conto, per favore! 🧾",
-        "en": "Excellent! Il conto, per favore! 🧾"
+        "it": "Bravissimo! «Il conto, per favore»! 🧾",
+        "en": "Excellent! «Il conto, per favore»! 🧾"
       },
       "feedbackErr": {
         "it": "Il conto, PER favore! Per = for — come for in inglese!",

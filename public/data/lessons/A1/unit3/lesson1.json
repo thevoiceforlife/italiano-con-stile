@@ -68,7 +68,7 @@
       "intro_en": "Emma is at the bar!",
       "domanda": {
         "it": "Mario porta qualcosa a Emma. Cos'è il conto?",
-        "en": "Mario brings something to Emma. What is il conto?"
+        "en": "Mario brings something to Emma. What is «il conto»?"
       },
       "opzioni": [
         { "it": "La bolletta da pagare", "en": "The bill to pay" },
@@ -119,8 +119,8 @@
       "introIT": "Emma è gentile!",
       "intro_en": "Emma is polite!",
       "domanda": {
-        "it": "Cosa significa per favore?",
-        "en": "What does per favore mean?"
+        "it": "Cosa significa «per favore»?",
+        "en": "What does «per favore» mean?"
       },
       "opzioni": [
         { "it": "Please", "en": "Please" },
@@ -186,7 +186,7 @@
       "intro_en": "Emma understands!",
       "domanda": {
         "it": "Emma dice: il conto, per favore. Cosa vuole?",
-        "en": "Emma says: il conto, per favore. What does she want?"
+        "en": "Emma says: «il conto, per favore». What does she want?"
       },
       "opzioni": [
         { "it": "Pagare", "en": "To pay" },

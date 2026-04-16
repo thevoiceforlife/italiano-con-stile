@@ -198,8 +198,8 @@
         "en": "Perfect! 🙏"
       },
       "feedbackErr": {
-        "it": "PER favore! Per = for.",
-        "en": "PER favore! Per = for."
+        "it": "«PER favore»! Per = for.",
+        "en": "«PER favore»! Per = for."
       }
     },
     {
@@ -273,8 +273,8 @@
         "en": "Correct! 🤲"
       },
       "feedbackErr": {
-        "it": "Ecco a lei = here you are!",
-        "en": "Ecco a lei = here you are!"
+        "it": "«Ecco a lei» = here you are!",
+        "en": "«Ecco a lei» = here you are!"
       }
     },
     {
@@ -309,8 +309,8 @@
         "en": "Yes! 💶"
       },
       "feedbackErr": {
-        "it": "Era Quanto costa? = how much is it?",
-        "en": "It was Quanto costa? = how much is it?"
+        "it": "Era «Quanto costa»? = how much is it?",
+        "en": "It was «Quanto costa»? = how much is it?"
       }
     },
     {
@@ -333,8 +333,8 @@
         "en": "Yes! Quanto! 💶"
       },
       "feedbackErr": {
-        "it": "QUANTO costa! Quanto = how much!",
-        "en": "QUANTO costa! Quanto = how much!"
+        "it": "«QUANTO costa»! Quanto = how much!",
+        "en": "«QUANTO costa»! Quanto = how much!"
       }
     },
     {

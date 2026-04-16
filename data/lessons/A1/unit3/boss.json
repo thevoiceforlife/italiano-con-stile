@@ -97,8 +97,8 @@
         "en": "Correct! Grazie → Prego! 😊"
       },
       "feedbackErr": {
-        "it": "La risposta a grazie è sempre Prego! = you are welcome!",
-        "en": "The reply to grazie is always Prego! = you are welcome!"
+        "it": "La risposta a grazie è sempre «Prego»! = you are welcome!",
+        "en": "The reply to grazie is always «Prego»! = you are welcome!"
       }
     },
     {
@@ -130,7 +130,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto costa? = il prezzo! 💶",
-        "en": "Yes! Quanto costa? = the price! 💶"
+        "en": "Yes! «Quanto costa»? = the price! 💶"
       },
       "feedbackErr": {
         "it": "Quanto costa? chiede il prezzo = how much is it?",
@@ -198,7 +198,7 @@
       },
       "feedbackErr": {
         "it": "Per pagare: Il CONTO, per favore! = the bill, please!",
-        "en": "To pay: Il CONTO, per favore! = the bill, please!"
+        "en": "To pay: «Il conto, per favore»! = the bill, please!"
       }
     },
     {
@@ -229,12 +229,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Prego! = you are welcome! 😊",
-        "en": "Yes! Prego! = you are welcome! 😊"
+        "it": "Sì! «Prego»! = you are welcome! 😊",
+        "en": "Yes! «Prego»! = you are welcome! 😊"
       },
       "feedbackErr": {
-        "it": "La Nonna ha detto Prego! = you are welcome!",
-        "en": "Nonna said Prego! = you are welcome!"
+        "it": "La Nonna ha detto «Prego»! = you are welcome!",
+        "en": "Nonna said «Prego»! = you are welcome!"
       }
     },
     {
@@ -273,8 +273,8 @@
         "en": "EXCELLENT! Nonna is proud of you! 🏆🍦"
       },
       "feedbackErr": {
-        "it": "Per pagare: Il conto, per favore! = the bill, please!",
-        "en": "To pay: Il conto, per favore! = the bill, please!"
+        "it": "Per pagare: «Il conto, per favore»! = the bill, please!",
+        "en": "To pay: «Il conto, per favore»! = the bill, please!"
       }
     }
   ]
