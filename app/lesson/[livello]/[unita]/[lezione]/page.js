@@ -294,7 +294,7 @@ function DomandaMultipla({ q, onAnswer }) {
                 }}>{lettera}</div>
                 <div style={{ flex: 1, textAlign: "left" }}>
                   <div style={{ fontSize: 14, fontWeight: 700, color: itCol }}>{optIt}</div>
-                  {optEn && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
+                  {optEn && optEn !== optIt && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
                 </div>
                 {isOk && <span style={{ color: "var(--green)", fontSize: 16, flexShrink: 0 }}>✓</span>}
               </button>
@@ -516,7 +516,7 @@ function DomandaAscolta({ q, onAnswer }) {
                 }}>{lettera}</div>
                 <div style={{ flex: 1, textAlign: "left" }}>
                   <div style={{ fontSize: 14, fontWeight: 700, color: itCol }}>{optIt}</div>
-                  {optEn && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
+                  {optEn && optEn !== optIt && <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 1 }}>{optEn}</div>}
                 </div>
                 {isOk && <span style={{ color: "var(--green)", fontSize: 16, flexShrink: 0 }}>✓</span>}
               </button>
