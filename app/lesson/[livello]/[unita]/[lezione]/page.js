@@ -381,8 +381,11 @@ function DomandaAscolta({ q, onAnswer }) {
   const intro = getIntroBilingual(q);
   useEffect(() => { return () => window.speechSynthesis?.cancel(); }, []);
   function playAudio(slow = false) {
-    if (!isAudioOn()) return;
     if (!audioText) return;
+    // Mostra sempre il testo al click — indipendente da isAudioOn()
+    setHasListened(true);
+    // Se audio è OFF, nessuna pronuncia TTS ma il testo resta visibile
+    if (!isAudioOn()) return;
     window.speechSynthesis?.cancel();
     setTimeout(() => {
       const u = new SpeechSynthesisUtterance(cleanForTTS(audioText));
@@ -393,7 +396,6 @@ function DomandaAscolta({ q, onAnswer }) {
                 || voci.find(v => v.lang.startsWith("it"));
       if (voce) u.voice = voce;
       window.speechSynthesis.speak(u);
-      setHasListened(true);
     }, 50);
   }
   const getOptIt = (opt) => typeof opt === "string" ? opt : opt.it;

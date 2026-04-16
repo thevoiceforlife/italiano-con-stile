@@ -45,6 +45,65 @@ e il contesto narrativo.
 
 ---
 
+## STATO ATTUALE — Aprile 2026
+
+### Completato ✅
+- Unit1 completa (L1-L5 + Boss) — matrice v2
+- Unit2 completa (L1-L5 + Boss) — matrice v2
+- Design system unificato implementato
+- VocabMatch ridisegnato (Round 1+2)
+- DomandaFillBlank nuovo design
+- DomandaAbbinaCoppia bilingue + audio on demand
+- DomandaAscoltaScegli — testo visibile anche con audio OFF
+- LessonCompletePopup
+- BossIntroPopup
+- Sistema reward (gelato Nonna, slot food)
+- Audio TTS con toggle 🔊/🔕
+- Bilingue completo IT+EN verificato
+- Deploy su Vercel: italiano-con-stile.vercel.app
+- Repo: github.com/thevoiceforlife/italiano-con-stile
+- Ultimo commit: main
+
+### Da fare ❌
+- Unit3 A1.1 — Tema 3 (Al bar — pagare)
+- Unit4 A1.2 — Tema 4 (In giro — indicazioni)
+- Unit5 A1.2 — Tema 5 (In giro — luoghi)
+- Unit6-15 — Temi 6-15 Napoli
+- Generatore JSON automatico
+- Avatar chibi 15 personaggi
+- Sistema freemium + Stripe
+- Landing page
+- Test su utenti reali
+
+### Prossimo tema da scrivere
+TEMA 3 — Al bar: pagare e chiedere
+Vocabolario 6 parole:
+1. Il conto → The bill
+2. Quanto costa? → How much is it?
+3. Per favore → Please
+4. Grazie → Thank you
+5. Prego → You are welcome
+6. Ecco a lei → Here you are
+
+### Personaggi attivi Unit3
+Fisso: Mario
+L1: Mario + Patricia (prima volta al bar)
+L2: Mario + Hans (vuole pagare)
+L3: Mario + Oliver (non capisce il coperto)
+L4: Mario + Patricia (ascolta i prezzi)
+L5: Mario solo (speedround)
+Boss: Nonna Vittoria
+
+### Note tecniche importanti
+- Stack: Next.js 16, React 19, Vercel
+- Dev: cd ~/Desktop/italiano-con-stile && npm run dev
+- JSON path: data/lessons/A1/unit{N}/lesson{N}.json
+- Copia sempre anche in public/data/lessons/
+- Build check: npx next build — zero errori
+- Commit sempre dopo ogni modifica
+
+---
+
 # Italiano con Stile — Bibbia Tecnica
 
 ## Progetto

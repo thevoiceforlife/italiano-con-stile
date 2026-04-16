@@ -284,7 +284,7 @@ ERR: "Con i professori è preferibile
 
 [x] Matrice scritta e approvata ✅
 [x] Unit1 A1.1 riscritta con v2
-[ ] Unit2 A1.1 riscritta con v2
+[x] Unit2 A1.1 riscritta con v2
 [ ] Test su utente reale
 [ ] Unit3-5 scritte con v2
 [ ] Generatore automatico basato su v2
