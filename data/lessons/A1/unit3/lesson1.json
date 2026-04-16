@@ -1,0 +1,289 @@
+{
+  "id": "A1-unit3-lesson1",
+  "title": "Al bar: il conto",
+  "title_en": "At the bar: the bill",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      { "emoji": "☕", "nome": "Caffè espresso", "nomeEN": "Espresso coffee" },
+      { "emoji": "☕", "nome": "Cappuccino", "nomeEN": "Cappuccino" },
+      { "emoji": "🍊", "nome": "Spremuta d'arancia", "nomeEN": "Fresh orange juice" }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Il conto",
+      "en": "The bill",
+      "emoji": "🧾",
+      "audio_text": "Il conto",
+      "mario_it": "Il conto — alla fine si paga!",
+      "mario_en": "Il conto — at the end you pay!"
+    },
+    {
+      "id": "v2",
+      "it": "Quanto costa?",
+      "en": "How much is it?",
+      "emoji": "💶",
+      "audio_text": "Quanto costa?",
+      "mario_it": "Quanto costa? — per chiedere il prezzo!",
+      "mario_en": "Quanto costa? — to ask the price!"
+    },
+    {
+      "id": "v3",
+      "it": "Per favore",
+      "en": "Please",
+      "emoji": "🙏",
+      "audio_text": "Per favore",
+      "mario_it": "Per favore — sempre gentili al bar!",
+      "mario_en": "Per favore — always polite at the bar!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché si paga alla cassa e non al tavolo?",
+      "domanda_en": "Why do you pay at the counter, not at the table?",
+      "titolo_it": "Il bar italiano — le regole non scritte",
+      "titolo_en": "The Italian bar — unwritten rules",
+      "corpo_it": "Al bar italiano non esiste il cameriere che porta il conto. Si va alla cassa e si dice il conto, per favore. Al bancone si paga subito dopo aver ordinato. Al tavolo si aspetta e poi si va a pagare.",
+      "corpo_en": "At an Italian bar there is no waiter who brings the bill. You go to the counter and say il conto, per favore. Standing at the bar, you pay right after ordering. Sitting at a table, you wait and then go to the counter.",
+      "esempio_it": "🧾 Il conto, per favore! — Mario sorride e dice: Subito!",
+      "esempio_en": "🧾 Il conto, per favore! — Mario smiles and says: Right away!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Emma è al bar!",
+      "intro_en": "Emma is at the bar!",
+      "domanda": {
+        "it": "Mario porta qualcosa a Emma. Cos'è il conto?",
+        "en": "Mario brings something to Emma. What is il conto?"
+      },
+      "opzioni": [
+        { "it": "La bolletta da pagare", "en": "The bill to pay" },
+        { "it": "Il caffè", "en": "The coffee" },
+        { "it": "Il tavolo", "en": "The table" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il conto = the bill! 🧾",
+        "en": "Correct! Il conto = the bill! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Il conto = the bill! Viene da contare — si contano i soldi!",
+        "en": "Il conto = the bill! From contare — you count the money!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Bene! Continua.",
+      "intro_en": "Good! Keep going.",
+      "domanda": {
+        "it": "Emma vuole sapere il prezzo. Cosa dice?",
+        "en": "Emma wants to know the price. What does she say?"
+      },
+      "opzioni": [
+        { "it": "Quanto costa?", "en": "How much is it?" },
+        { "it": "Per favore", "en": "Please" },
+        { "it": "Il conto", "en": "The bill" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Quanto costa? = How much is it? 💶",
+        "en": "Yes! Quanto costa? = How much is it? 💶"
+      },
+      "feedbackErr": {
+        "it": "Per il prezzo: Quanto costa? Quanto = how much, costa = costs!",
+        "en": "For the price say: Quanto costa? Quanto = how much, costa = costs!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Emma è gentile!",
+      "intro_en": "Emma is polite!",
+      "domanda": {
+        "it": "Cosa significa per favore?",
+        "en": "What does per favore mean?"
+      },
+      "opzioni": [
+        { "it": "Please", "en": "Please" },
+        { "it": "Thank you", "en": "Thank you" },
+        { "it": "Goodbye", "en": "Goodbye" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Per favore = please! 🙏",
+        "en": "Perfect! Per favore = please! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Per favore = please! Letteralmente: for a favour — come in inglese!",
+        "en": "Per favore = please! Literally: for a favour — just like in English!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina le parole!",
+      "intro_en": "Match the words!",
+      "domanda": {
+        "it": "Abbina ogni parola italiana alla traduzione giusta.",
+        "en": "Match each Italian word to the correct translation."
+      },
+      "coppie": [
+        {
+          "it": "Il conto",
+          "situazione_en": "Il conto",
+          "en": "The bill",
+          "traduzione_en": "The bill"
+        },
+        {
+          "it": "Quanto costa?",
+          "situazione_en": "Quanto costa?",
+          "en": "How much is it?",
+          "traduzione_en": "How much is it?"
+        },
+        {
+          "it": "Per favore",
+          "situazione_en": "Per favore",
+          "en": "Please",
+          "traduzione_en": "Please"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo! Tutte e tre giuste! 🎉",
+        "en": "Excellent! All three correct! 🎉"
+      },
+      "feedbackErr": {
+        "it": "Quasi! Riprova — guarda bene le traduzioni.",
+        "en": "Almost! Try again — look carefully at the translations."
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Emma capisce!",
+      "intro_en": "Emma understands!",
+      "domanda": {
+        "it": "Emma dice: il conto, per favore. Cosa vuole?",
+        "en": "Emma says: il conto, per favore. What does she want?"
+      },
+      "opzioni": [
+        { "it": "Pagare", "en": "To pay" },
+        { "it": "Un caffè", "en": "A coffee" },
+        { "it": "Salutare", "en": "To say goodbye" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il conto → vuole pagare! 🧾",
+        "en": "Correct! Il conto → she wants to pay! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Il conto, per favore = the bill, please. Vuole pagare!",
+        "en": "Il conto, per favore = the bill, please. She wants to pay!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario risponde!",
+      "intro_en": "Mario replies!",
+      "domanda": {
+        "it": "Mario dice: due euro. Cosa ha chiesto Emma?",
+        "en": "Mario says: due euro. What did Emma ask?"
+      },
+      "opzioni": [
+        { "it": "Quanto costa?", "en": "How much is it?" },
+        { "it": "Il conto", "en": "The bill" },
+        { "it": "Per favore", "en": "Please" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Quanto costa? → Mario risponde con il prezzo! 💶",
+        "en": "Yes! Quanto costa? → Mario replies with the price! 💶"
+      },
+      "feedbackErr": {
+        "it": "Mario dà il prezzo → Emma ha chiesto Quanto costa? = How much?",
+        "en": "Mario gives the price → Emma asked Quanto costa? = How much?"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Tocca subito!",
+      "intro_en": "Tap right away!",
+      "contesto_it": "☕ Emma ordina un caffè al bar di Mario",
+      "contesto_en": "☕ Emma orders a coffee at Mario's bar",
+      "domanda": {
+        "it": "Emma è gentile. Cosa aggiunge?",
+        "en": "Emma is polite. What does she add?"
+      },
+      "opzioni": [
+        { "it": "Per favore!", "en": "Please!", "emoji": "🙏" },
+        { "it": "Quanto costa?", "en": "How much?", "emoji": "💶" },
+        { "it": "Il conto!", "en": "The bill!", "emoji": "🧾" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Un caffè, per favore — che stile! 🙏",
+        "en": "Perfect! Un caffè, per favore — so classy! 🙏"
+      },
+      "feedbackErr": {
+        "it": "Per essere gentile si dice per favore! = please!",
+        "en": "To be polite say per favore! = please!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "contesto_it": "🧾 Emma ha finito il caffè. Vuole pagare.",
+      "contesto_en": "🧾 Emma has finished her coffee. She wants to pay.",
+      "domanda": {
+        "it": "Cosa dice Emma a Mario?",
+        "en": "What does Emma say to Mario?"
+      },
+      "opzioni": [
+        { "it": "Il conto, per favore!", "en": "The bill, please!", "emoji": "🧾" },
+        { "it": "Quanto costa?", "en": "How much is it?", "emoji": "💶" },
+        { "it": "Arrivederci!", "en": "Goodbye!", "emoji": "👋" }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravissima! Il conto, per favore — proprio come un'italiana! 🧾",
+        "en": "Excellent! Il conto, per favore — just like an Italian! 🧾"
+      },
+      "feedbackErr": {
+        "it": "Per pagare si dice Il conto, per favore! = The bill, please!",
+        "en": "To pay say Il conto, per favore! = The bill, please!"
+      }
+    }
+  ]
+}
