@@ -1243,3 +1243,10 @@ o come termine da riconoscere, va sempre marcata con «» — sia nella
 parte IT che EN della stessa domanda.
 
 **Non marcare**: parole di contorno, nomi propri, emoji.
+
+### REGOLA BILINGUE — Tradurre o tenere in italiano?
+- Parole del **vocabolario attivo** della lezione → restano in italiano
+  nel testo EN + marcate con «» per evidenziarle
+  Es: "What does «per favore» mean?"
+- Parole di **contesto/narrativa** non ancora insegnate → sempre tradotte
+  Es: "Mario says: two euros." (due euro non è nel vocab dell'unità)
