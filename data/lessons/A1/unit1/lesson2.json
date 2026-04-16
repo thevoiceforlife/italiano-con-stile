@@ -8,7 +8,11 @@
   "reward": {
     "type": "slot",
     "credits": 5,
-    "pool": ["☕ Caffè espresso", "🥐 Cornetto", "🍵 Tè caldo"]
+    "pool": [
+      "☕ Caffè espresso",
+      "🥐 Cornetto",
+      "🍵 Tè caldo"
+    ]
   },
   "vocab": [],
   "pillole": [
@@ -39,9 +43,18 @@
         "en": "Mario wants to say his name. What does he say?"
       },
       "opzioni": [
-        { "it": "Mi chiamo Mario.", "en": "My name is Mario." },
-        { "it": "Buongiorno Mario.", "en": "Good morning Mario." },
-        { "it": "Piacere Mario.", "en": "Nice to meet you Mario." }
+        {
+          "it": "Mi chiamo Mario.",
+          "en": "My name is Mario."
+        },
+        {
+          "it": "Buongiorno Mario.",
+          "en": "Good morning Mario."
+        },
+        {
+          "it": "Piacere Mario.",
+          "en": "Nice to meet you Mario."
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -65,9 +78,18 @@
         "en": "Mario wants to know where Oliver is from. What does he ask?"
       },
       "opzioni": [
-        { "it": "Arrivederci!", "en": "Goodbye!" },
-        { "it": "Di dove sei?", "en": "Where are you from?" },
-        { "it": "Buongiorno!", "en": "Good morning!" }
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
+          "it": "Di dove sei?",
+          "en": "Where are you from?"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -91,9 +113,18 @@
         "en": "Mario asks where Oliver is from. Which phrase does Mario use?"
       },
       "opzioni": [
-        { "it": "Mi chiamo...?", "en": "My name is...?" },
-        { "it": "Piacere!", "en": "Nice to meet you!" },
-        { "it": "Di dove sei?", "en": "Where are you from?" }
+        {
+          "it": "Mi chiamo...?",
+          "en": "My name is...?"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        },
+        {
+          "it": "Di dove sei?",
+          "en": "Where are you from?"
+        }
       ],
       "correct": 2,
       "feedbackOk": {
@@ -117,9 +148,18 @@
         "en": "Oliver is from London. How does he reply?"
       },
       "opzioni": [
-        { "it": "Mi chiamo Londra.", "en": "My name is London." },
-        { "it": "Sono di Londra.", "en": "I am from London." },
-        { "it": "Piacere Londra.", "en": "Nice to meet you London." }
+        {
+          "it": "Mi chiamo Londra.",
+          "en": "My name is London."
+        },
+        {
+          "it": "Sono di Londra.",
+          "en": "I am from London."
+        },
+        {
+          "it": "Piacere Londra.",
+          "en": "Nice to meet you London."
+        }
       ],
       "correct": 1,
       "feedbackOk": {
@@ -140,7 +180,7 @@
       "intro_en": "True or false?",
       "domanda": {
         "it": "Sono di Milano. — Questa frase dice da dove vengo.",
-        "en": "Sono di Milano. — This sentence says where I am from."
+        "en": "I am from Milan. — This sentence says where I am from."
       },
       "correct": true,
       "feedbackOk": {
@@ -164,9 +204,18 @@
         "en": "Oliver introduces himself to Gino. What does Oliver say?"
       },
       "opzioni": [
-        { "it": "Piacere, sono di Londra.", "en": "Nice to meet you, I am from London." },
-        { "it": "Arrivederci, mi chiamo Oliver.", "en": "Goodbye, my name is Oliver." },
-        { "it": "Buongiorno, di dove sei?", "en": "Good morning, where are you from?" }
+        {
+          "it": "Piacere, sono di Londra.",
+          "en": "Nice to meet you, I am from London."
+        },
+        {
+          "it": "Arrivederci, mi chiamo Oliver.",
+          "en": "Goodbye, my name is Oliver."
+        },
+        {
+          "it": "Buongiorno, di dove sei?",
+          "en": "Good morning, where are you from?"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -192,9 +241,21 @@
         "en": "You want to say where you are from. Which phrase do you use?"
       },
       "opzioni": [
-        { "it": "Mi chiamo...", "en": "My name is...", "emoji": "🙋" },
-        { "it": "Sono di...", "en": "I am from...", "emoji": "📍" },
-        { "it": "Di dove sei?", "en": "Where are you from?", "emoji": "🌍" }
+        {
+          "it": "Mi chiamo...",
+          "en": "My name is...",
+          "emoji": "🙋"
+        },
+        {
+          "it": "Sono di...",
+          "en": "I am from...",
+          "emoji": "📍"
+        },
+        {
+          "it": "Di dove sei?",
+          "en": "Where are you from?",
+          "emoji": "🌍"
+        }
       ],
       "correct": 1,
       "feedbackOk": {
