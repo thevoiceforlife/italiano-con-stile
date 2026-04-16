@@ -61,22 +61,22 @@
       "introIT": "Mario è curioso!",
       "intro_en": "Mario is curious!",
       "domanda": {
-        "it": "Mario vuole sapere il nome di Oliver. Cosa chiede?",
-        "en": "Mario wants to know Oliver's name. What does he ask?"
+        "it": "Mario vuole sapere da dove viene Oliver. Cosa chiede?",
+        "en": "Mario wants to know where Oliver is from. What does he ask?"
       },
       "opzioni": [
         { "it": "Arrivederci!", "en": "Goodbye!" },
         { "it": "Di dove sei?", "en": "Where are you from?" },
-        { "it": "Mi chiamo...?", "en": "My name is...?" }
+        { "it": "Buongiorno!", "en": "Good morning!" }
       ],
       "correct": 1,
       "feedbackOk": {
-        "it": "No aspetta — questa è la domanda sull'origine! Mario vuole il nome, non l'origine. Ci riprovi?",
-        "en": "Wait — this asks about origin! Mario wants the name. Try again?"
+        "it": "Sì! Di dove sei? = Where are you from? 🌍",
+        "en": "Yes! Di dove sei? = Where are you from? 🌍"
       },
       "feedbackErr": {
-        "it": "Hmm — Di dove sei chiede l'origine, non il nome! Per il nome si chiede: Come ti chiami?",
-        "en": "Di dove sei asks about origin, not name! For the name ask: Come ti chiami?"
+        "it": "Di dove sei? chiede l'origine! Di = from, dove = where.",
+        "en": "Di dove sei? asks about origin! Di = from, dove = where."
       }
     },
     {
