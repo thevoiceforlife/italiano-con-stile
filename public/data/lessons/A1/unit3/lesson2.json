@@ -9,10 +9,26 @@
     "type": "slot",
     "credits": 5,
     "pool": [
-      { "emoji": "🥐", "nome": "Cornetto alla crema", "nomeEN": "Cream croissant" },
-      { "emoji": "🧇", "nome": "Brioche col tuppo", "nomeEN": "Sicilian brioche" },
-      { "emoji": "🍫", "nome": "Cioccolata calda", "nomeEN": "Hot chocolate" },
-      { "emoji": "🥐", "nome": "Sfogliatella", "nomeEN": "Sfogliatella pastry" }
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
     ]
   },
   "vocab": [
@@ -72,9 +88,18 @@
         "en": "Mario brings the coffee. Hans is happy. What does he say?"
       },
       "opzioni": [
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Per favore!", "en": "Please!" },
-        { "it": "Il conto!", "en": "The bill!" }
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -98,9 +123,18 @@
         "en": "Hans says «grazie». Mario replies..."
       },
       "opzioni": [
-        { "it": "Prego!", "en": "You are welcome!" },
-        { "it": "Quanto costa?", "en": "How much is it?" },
-        { "it": "Arrivederci!", "en": "Goodbye!" }
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -124,9 +158,18 @@
         "en": "Mario hands the bill to Hans. What does he say?"
       },
       "opzioni": [
-        { "it": "Ecco a lei!", "en": "Here you are!" },
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Per favore!", "en": "Please!" }
+        {
+          "it": "Ecco a lei!",
+          "en": "Here you are!"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -141,28 +184,36 @@
     {
       "id": "q4",
       "personaggio": "hans",
-      "tipo": "vero_falso",
-      "fase": "riconoscimento",
-      "introIT": "Vero o falso?",
-      "intro_en": "True or false?",
-      "contesto_it": "🧾 Mario dà il conto a Hans e dice: Ecco a lei!",
-      "contesto_en": "🧾 Mario gives the bill to Hans and says: Ecco a lei!",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario serve Hans!",
+      "intro_en": "Mario serves Hans!",
       "domanda": {
-        "it": "Ecco a lei significa here you are.",
-        "en": "Ecco a lei means here you are."
+        "it": "🤲 Mario dà il caffè a Hans e dice: «Ecco a lei»! Cosa fa Mario?",
+        "en": "🤲 Mario gives the coffee to Hans and says: «Ecco a lei»! What is Mario doing?"
       },
       "opzioni": [
-        { "it": "Vero", "en": "True" },
-        { "it": "Falso", "en": "False" }
+        {
+          "it": "Porge qualcosa a Hans",
+          "en": "He is handing something over"
+        },
+        {
+          "it": "Chiede il prezzo",
+          "en": "He is asking the price"
+        },
+        {
+          "it": "Saluta e se ne va",
+          "en": "He is saying goodbye"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Ecco a lei = here you are! 🤲",
-        "en": "Correct! Ecco a lei = here you are! 🤲"
+        "it": "Esatto! Ecco a lei — quando porgi qualcosa! 🤲",
+        "en": "Correct! «Ecco a lei» — when handing something over! 🤲"
       },
       "feedbackErr": {
-        "it": "È vero! Ecco a lei = here you are — quando si porge qualcosa.",
-        "en": "It is true! Ecco a lei = here you are — when handing something over."
+        "it": "Mario porge il caffè → dice «Ecco a lei»! = here you are!",
+        "en": "Mario hands over the coffee → says «Ecco a lei»! = here you are!"
       }
     },
     {
@@ -219,8 +270,14 @@
         "en": "Mario says grazie because Hans pays."
       },
       "opzioni": [
-        { "it": "Vero", "en": "True" },
-        { "it": "Falso", "en": "False" }
+        {
+          "it": "Vero",
+          "en": "True"
+        },
+        {
+          "it": "Falso",
+          "en": "False"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -246,9 +303,18 @@
         "en": "What did Hans say before?"
       },
       "opzioni": [
-        { "it": "Grazie!", "en": "Thank you!" },
-        { "it": "Il conto!", "en": "The bill!" },
-        { "it": "Quanto costa?", "en": "How much is it?" }
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
@@ -274,9 +340,18 @@
         "en": "What does Mario say to Hans?"
       },
       "opzioni": [
-        { "it": "Ecco a lei!", "en": "Here you are!" },
-        { "it": "Per favore!", "en": "Please!" },
-        { "it": "Quanto costa?", "en": "How much is it?" }
+        {
+          "it": "Ecco a lei!",
+          "en": "Here you are!"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?"
+        }
       ],
       "correct": 0,
       "feedbackOk": {
