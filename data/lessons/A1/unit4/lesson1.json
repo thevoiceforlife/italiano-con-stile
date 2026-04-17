@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit4-lesson1",
+  "title": "Destra, sinistra, dritto",
+  "title_en": "Right, left, straight",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "A destra",
+      "en": "To the right",
+      "emoji": "➡️",
+      "audio_text": "A destra",
+      "mario_it": "A destra — giri a destra!",
+      "mario_en": "A destra — you turn right!"
+    },
+    {
+      "id": "v2",
+      "it": "A sinistra",
+      "en": "To the left",
+      "emoji": "⬅️",
+      "audio_text": "A sinistra",
+      "mario_it": "A sinistra — giri a sinistra!",
+      "mario_en": "A sinistra — you turn left!"
+    },
+    {
+      "id": "v3",
+      "it": "Dritto",
+      "en": "Straight ahead",
+      "emoji": "⬆️",
+      "audio_text": "Dritto",
+      "mario_it": "Dritto — vai avanti!",
+      "mario_en": "Dritto — go straight ahead!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché si dice vai dritto e non vai avanti?",
+      "domanda_en": "Why do Italians say vai dritto and not vai avanti?",
+      "titolo_it": "Dritto — la parola che non ti aspetti",
+      "titolo_en": "Dritto — the word you did not expect",
+      "corpo_it": "In italiano dritto significa straight — letteralmente diritto, in linea retta. Vai avanti esiste ma è meno preciso. A Napoli senti spesso: sempre dritto! — sempre dritto, non puoi sbagliare!",
+      "corpo_en": "In Italian dritto means straight — literally in a straight line. Vai avanti exists but is less precise. In Naples you often hear: sempre dritto! — always straight, you cannot go wrong!",
+      "esempio_it": "➡️ A destra · ⬅️ A sinistra · ⬆️ Dritto — le tre direzioni base!",
+      "esempio_en": "Three basic directions — right, left, straight ahead!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Emma è in giro!",
+      "intro_en": "Emma is out and about!",
+      "domanda": {
+        "it": "Mario dice: vai a destra! A destra significa?",
+        "en": "Mario says: go right! What does «a destra» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "To the left",
+          "en": "To the left"
+        },
+        {
+          "it": "To the right",
+          "en": "To the right"
+        },
+        {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! A destra = to the right!",
+        "en": "Correct! «A destra» = to the right!"
+      },
+      "feedbackErr": {
+        "it": "A destra = to the right! Destra come right — pensa alla mano destra!",
+        "en": "«A destra» = to the right! Think of your right hand!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Bene! Continua.",
+      "intro_en": "Good! Keep going.",
+      "domanda": {
+        "it": "A sinistra significa?",
+        "en": "What does «a sinistra» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "To the right",
+          "en": "To the right"
+        },
+        {
+          "it": "To the left",
+          "en": "To the left"
+        },
+        {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! A sinistra = to the left!",
+        "en": "Yes! «A sinistra» = to the left!"
+      },
+      "feedbackErr": {
+        "it": "A sinistra = to the left! Sinistra è il contrario di destra!",
+        "en": "«A sinistra» = to the left! It is the opposite of destra!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Terza parola!",
+      "intro_en": "Third word!",
+      "domanda": {
+        "it": "Dritto significa?",
+        "en": "What does «dritto» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "To the left",
+          "en": "To the left"
+        },
+        {
+          "it": "To the right",
+          "en": "To the right"
+        },
+        {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Dritto = straight ahead!",
+        "en": "Perfect! «Dritto» = straight ahead!"
+      },
+      "feedbackErr": {
+        "it": "Dritto = straight ahead! Come straight in inglese — vai dritto, in linea retta!",
+        "en": "«Dritto» = straight ahead! Like going straight in English!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina le direzioni!",
+      "intro_en": "Match the directions!",
+      "domanda": {
+        "it": "Abbina ogni direzione alla traduzione giusta.",
+        "en": "Match each direction to the correct translation."
+      },
+      "coppie": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo! Tutte e tre giuste!",
+        "en": "Excellent! All three correct!"
+      },
+      "feedbackErr": {
+        "it": "Quasi! Riprova — pensa alla mano destra e sinistra.",
+        "en": "Almost! Try again — think of your right and left hand."
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Emma arriva a un incrocio!",
+      "intro_en": "Emma reaches a crossroads!",
+      "domanda": {
+        "it": "Mario dice: vai avanti, non girare! Quale direzione?",
+        "en": "Mario says: go forward, do not turn! Which direction?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Vai avanti = dritto!",
+        "en": "Correct! Go forward = «dritto»!"
+      },
+      "feedbackErr": {
+        "it": "Vai avanti senza girare = dritto! Sempre in linea retta!",
+        "en": "Go forward without turning = «dritto»! Always in a straight line!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario guida Emma!",
+      "intro_en": "Mario guides Emma!",
+      "domanda": {
+        "it": "Mario indica la sua destra. Cosa dice a Emma?",
+        "en": "Mario points to his right. What does he say to Emma?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra!",
+          "en": "To the left!"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight ahead!"
+        },
+        {
+          "it": "A destra!",
+          "en": "To the right!"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Indica a destra → dice a destra!",
+        "en": "Yes! Points right → says «a destra»!"
+      },
+      "feedbackErr": {
+        "it": "Indica la sua destra → dice a destra! La mano destra = to the right!",
+        "en": "Points to his right → says «a destra»! Right hand = to the right!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Tocca subito!",
+      "intro_en": "Tap right away!",
+      "contesto_it": "⬅️ Emma deve girare a sinistra al semaforo.",
+      "contesto_en": "Emma must turn left at the traffic light.",
+      "domanda": {
+        "it": "Cosa dice Mario a Emma?",
+        "en": "What does Mario say to Emma?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight!",
+          "emoji": "⬆️"
+        },
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Gira a sinistra → a sinistra!",
+        "en": "Perfect! Turn left → «a sinistra»!"
+      },
+      "feedbackErr": {
+        "it": "Deve girare a sinistra → a sinistra! Il contrario di destra!",
+        "en": "She must turn left → «a sinistra»! The opposite of right!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "contesto_it": "➡️ Emma deve girare a destra dopo il bar.",
+      "contesto_en": "Emma must turn right after the bar.",
+      "domanda": {
+        "it": "Cosa dice Mario?",
+        "en": "What does Mario say?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        },
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight!",
+          "emoji": "⬆️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravissima! Gira a destra → a destra!",
+        "en": "Excellent! Turn right → «a destra»!"
+      },
+      "feedbackErr": {
+        "it": "Deve girare a destra → a destra! Come right hand!",
+        "en": "She must turn right → «a destra»! Like your right hand!"
+      }
+    }
+  ]
+}

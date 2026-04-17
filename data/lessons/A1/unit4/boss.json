@@ -1,0 +1,301 @@
+{
+  "id": "A1-unit4-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Benvenuto! Sono Nonna Vittoria.",
+      "intro_en": "Welcome! I am Nonna Vittoria.",
+      "contesto_it": "➡️ La Nonna indica la sua destra.",
+      "contesto_en": "Nonna points to her right.",
+      "domanda": {
+        "it": "Cosa dice la Nonna?",
+        "en": "What does Nonna say?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight!",
+          "emoji": "⬆️"
+        },
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Indica la sua destra → a destra! = to the right!",
+        "en": "Points right → «a destra»! = to the right!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing you!",
+      "frase_it": "La Nonna chiede: ___ il Bar di Mario?",
+      "frase_en": "Nonna asks: ___ Mario's bar?",
+      "opzioni": [
+        {
+          "it": "Quanto",
+          "en": "How much"
+        },
+        {
+          "it": "Perché",
+          "en": "Why is"
+        },
+        {
+          "it": "Dov'è",
+          "en": "Where is"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! «Dov'è» = where is?",
+        "en": "Correct! «Dov'è» = where is?"
+      },
+      "feedbackErr": {
+        "it": "«Dov'è» il bar? = where is the bar? Dove + è!",
+        "en": "«Dov'è» il bar? = where is the bar? Dove + è!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna parla!",
+      "intro_en": "Nonna speaks!",
+      "audio": "Vicino",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Vicino» = near!",
+        "en": "Yes! «Vicino» = near!"
+      },
+      "feedbackErr": {
+        "it": "La Nonna ha detto «vicino»! = near!",
+        "en": "Nonna said «vicino»! = near!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna aspetta!",
+      "intro_en": "Nonna is waiting!",
+      "contesto_it": "⬆️ La Nonna dice ad Emma: vai avanti senza girare!",
+      "contesto_en": "Nonna tells Emma: go forward without turning!",
+      "domanda": {
+        "it": "Quale direzione?",
+        "en": "Which direction?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight ahead!",
+          "emoji": "⬆️"
+        },
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Perfetto! Vai avanti = dritto!",
+        "en": "Perfect! Go forward = «dritto»!"
+      },
+      "feedbackErr": {
+        "it": "Vai avanti senza girare = dritto! In linea retta!",
+        "en": "Go forward without turning = «dritto»! In a straight line!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
+      "domanda": {
+        "it": "La Nonna dice: il bar è a 30 km! È vicino o lontano?",
+        "en": "Nonna says: the bar is 30 km away! Is it near or far?"
+      },
+      "opzioni": [
+        {
+          "it": "È dritto",
+          "en": "It is straight"
+        },
+        {
+          "it": "È vicino",
+          "en": "It is near"
+        },
+        {
+          "it": "È lontano",
+          "en": "It is far"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! 30 km = lontano!",
+        "en": "Correct! 30 km = «lontano»!"
+      },
+      "feedbackErr": {
+        "it": "30 km → è lontano! Vicino è solo a pochi minuti!",
+        "en": "30 km → it is «lontano»! «Vicino» is just a few minutes away!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ascolta la Nonna!",
+      "intro_en": "Listen to Nonna!",
+      "audio": "A sinistra",
+      "domanda": {
+        "it": "Dove devo girare?",
+        "en": "Where must I turn?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «A sinistra» = to the left!",
+        "en": "Yes! «A sinistra» = to the left!"
+      },
+      "feedbackErr": {
+        "it": "La Nonna ha detto «a sinistra»! = to the left!",
+        "en": "Nonna said «a sinistra»! = to the left!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "📍 Non sai dove è la pizzeria della Nonna.",
+      "contesto_en": "You do not know where Nonna's pizzeria is.",
+      "domanda": {
+        "it": "Cosa chiedi alla Nonna?",
+        "en": "What do you ask Nonna?"
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Dov'è la pizzeria?",
+          "en": "Where is the pizzeria?",
+          "emoji": "📍"
+        },
+        {
+          "it": "È vicino!",
+          "en": "It is near!",
+          "emoji": "📌"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud of you!"
+      },
+      "feedbackErr": {
+        "it": "Non sai dove → «dov'è» la pizzeria? = where is the pizzeria?",
+        "en": "Do not know where → «dov'è» la pizzeria? = where is the pizzeria?"
+      }
+    }
+  ]
+}

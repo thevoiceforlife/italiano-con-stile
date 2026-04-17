@@ -1,0 +1,395 @@
+{
+  "id": "A1-unit4-lesson5",
+  "title": "Tutto veloce!",
+  "title_en": "All speed!",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "A destra = ?",
+        "en": "«A destra» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "To the left",
+          "en": "To the left"
+        },
+        {
+          "it": "To the right",
+          "en": "To the right"
+        },
+        {
+          "it": "Straight",
+          "en": "Straight"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "A destra = to the right!",
+        "en": "«A destra» = to the right!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Vai!",
+      "intro_en": "Go!",
+      "domanda": {
+        "it": "Vicino = ?",
+        "en": "«Vicino» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Near",
+          "en": "Near"
+        },
+        {
+          "it": "Straight",
+          "en": "Straight"
+        },
+        {
+          "it": "Far",
+          "en": "Far"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Vicino = near!",
+        "en": "«Vicino» = near!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Tocca!",
+      "intro_en": "Tap!",
+      "contesto_it": "⬆️ Mario dice ad Emma di andare avanti.",
+      "contesto_en": "Mario tells Emma to go forward.",
+      "domanda": {
+        "it": "Cosa dice Mario?",
+        "en": "What does Mario say?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra!",
+          "en": "Left!",
+          "emoji": "⬅️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight!",
+          "emoji": "⬆️"
+        },
+        {
+          "it": "A destra!",
+          "en": "Right!",
+          "emoji": "➡️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Vai avanti = dritto!",
+        "en": "Go forward = «dritto»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Dov'è?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Dov'è?",
+          "en": "Where is it?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Era «dov'è»? = where is it?",
+        "en": "It was «dov'è»? = where is it?"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Completa!",
+      "intro_en": "Complete!",
+      "frase_it": "Gira a ___ al semaforo!",
+      "frase_en": "Turn ___ at the traffic light!",
+      "opzioni": [
+        {
+          "it": "dritto",
+          "en": "straight"
+        },
+        {
+          "it": "destra",
+          "en": "right"
+        },
+        {
+          "it": "vicino",
+          "en": "near"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! A destra!",
+        "en": "Yes! «A destra»!"
+      },
+      "feedbackErr": {
+        "it": "A destra! Si gira a destra = turn right!",
+        "en": "«A destra»! Turn right!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Vai!",
+      "intro_en": "Go!",
+      "domanda": {
+        "it": "Lontano = ?",
+        "en": "«Lontano» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Near",
+          "en": "Near"
+        },
+        {
+          "it": "Straight",
+          "en": "Straight"
+        },
+        {
+          "it": "Far",
+          "en": "Far"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Lontano = far!",
+        "en": "«Lontano» = far!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "A sinistra",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Dritto",
+          "en": "Straight"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Era «a sinistra»! = to the left!",
+        "en": "It was «a sinistra»! = to the left!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Tocca!",
+      "intro_en": "Tap!",
+      "contesto_it": "📍 Emma non sa dove è la stazione.",
+      "contesto_en": "Emma does not know where the station is.",
+      "domanda": {
+        "it": "Cosa chiede Emma?",
+        "en": "What does Emma ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?",
+          "emoji": "📍"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Non sa dove → «dov'è»?",
+        "en": "Does not know where → «dov'è»?"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Quasi finito!",
+      "intro_en": "Almost done!",
+      "frase_it": "Il bar è a 1 minuto — è molto ___!",
+      "frase_en": "The bar is 1 minute away — it is very ___!",
+      "opzioni": [
+        {
+          "it": "vicino",
+          "en": "near"
+        },
+        {
+          "it": "lontano",
+          "en": "far"
+        },
+        {
+          "it": "dritto",
+          "en": "straight"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! 1 minuto = vicino!",
+        "en": "Yes! 1 minute = «vicino»!"
+      },
+      "feedbackErr": {
+        "it": "1 minuto = vicino! = near!",
+        "en": "1 minute = «vicino»! = near!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ultima!",
+      "intro_en": "Last one!",
+      "audio": "È lontano",
+      "domanda": {
+        "it": "Come è?",
+        "en": "How far is it?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Era «lontano»! = far!",
+        "en": "It was «lontano»! = far!"
+      }
+    }
+  ]
+}

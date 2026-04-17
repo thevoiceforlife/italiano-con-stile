@@ -44,6 +44,19 @@ const UNITS = [
     ],
     boss: { titleIT: 'Sfida la Nonna', titleEN: 'Challenge the Grandma' },
   },
+  {
+    id: 4, livello: 'A1',
+    titleIT: 'In giro per Napoli', titleEN: 'Around Naples',
+    tipo: 'esplorazione', icon: '🗺️', color: '#27AE60',
+    lessons: [
+      { id: 1, emoji: '⭐', titleIT: 'Destra, sinistra, dritto', titleEN: 'Right, left, straight' },
+      { id: 2, emoji: '📖', titleIT: "Dov'è il bar?",            titleEN: 'Where is the bar?' },
+      { id: 3, emoji: '💪', titleIT: 'In giro con Oliver',        titleEN: 'Out and about with Oliver' },
+      { id: 4, emoji: '🎧', titleIT: 'Ascolta le direzioni',      titleEN: 'Listen to the directions' },
+      { id: 5, emoji: '🎯', titleIT: 'Tutto veloce!',             titleEN: 'All speed!' },
+    ],
+    boss: { titleIT: 'Sfida la Nonna', titleEN: 'Challenge the Grandma' },
+  },
 ];
 
 function ckey(unitId, lessonId) { return `u${unitId}-${lessonId}`; }

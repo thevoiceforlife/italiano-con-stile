@@ -1,0 +1,363 @@
+{
+  "id": "A1-unit4-lesson2",
+  "title": "Dov'è il bar?",
+  "title_en": "Where is the bar?",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Dov'è?",
+      "en": "Where is it?",
+      "emoji": "📍",
+      "audio_text": "Dov'è?",
+      "mario_it": "Dov'è? — per chiedere dove si trova qualcosa!",
+      "mario_en": "Dov'è? — to ask where something is!"
+    },
+    {
+      "id": "v5",
+      "it": "Vicino",
+      "en": "Near",
+      "emoji": "📌",
+      "audio_text": "Vicino",
+      "mario_it": "Vicino — a pochi passi!",
+      "mario_en": "Vicino — just a few steps away!"
+    },
+    {
+      "id": "v6",
+      "it": "Lontano",
+      "en": "Far",
+      "emoji": "🗺️",
+      "audio_text": "Lontano",
+      "mario_it": "Lontano — ci vuole tempo!",
+      "mario_en": "Lontano — it takes some time!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché i napoletani dicono sempre è vicino anche quando è lontano?",
+      "domanda_en": "Why do Neapolitans always say it is near even when it is far?",
+      "titolo_it": "Il vicino napoletano",
+      "titolo_en": "The Neapolitan near",
+      "corpo_it": "A Napoli tutto è vicino. Anche 20 minuti a piedi è vicino vicino! È ottimismo napoletano: la distanza si misura in simpatia, non in metri. Se un napoletano dice è un attimo, preparati a camminare!",
+      "corpo_en": "In Naples everything is near. Even 20 minutes on foot is vicino vicino! It is Neapolitan optimism: distance is measured in friendliness, not metres. If a Neapolitan says it is a moment away, get ready to walk!",
+      "esempio_it": "📍 Dov'è il Vesuvio? — È vicino! (30 km)",
+      "esempio_en": "Where is Vesuvius? — It is near! (30 km away)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Hans cerca il bar!",
+      "intro_en": "Hans is looking for the bar!",
+      "domanda": {
+        "it": "Hans chiede a Mario: «Dov'è» il bar? Cosa chiede?",
+        "en": "Hans asks Mario: «dov'è» il bar? What is he asking?"
+      },
+      "opzioni": [
+        {
+          "it": "How much is the bar?",
+          "en": "How much is the bar?"
+        },
+        {
+          "it": "Where is the bar?",
+          "en": "Where is the bar?"
+        },
+        {
+          "it": "Is the bar open?",
+          "en": "Is the bar open?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! «Dov'è»? = where is it?",
+        "en": "Correct! «Dov'è»? = where is it?"
+      },
+      "feedbackErr": {
+        "it": "«Dov'è»? = where is it? Dove = where, è = is — dove + è!",
+        "en": "«Dov'è»? = where is it? Dove = where, è = is — put them together!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Mario risponde!",
+      "intro_en": "Mario replies!",
+      "domanda": {
+        "it": "Mario dice: il bar è vicino! Vicino significa?",
+        "en": "Mario says: the bar is near! What does «vicino» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
+        },
+        {
+          "it": "Near",
+          "en": "Near"
+        },
+        {
+          "it": "Far",
+          "en": "Far"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Vicino = near!",
+        "en": "Yes! «Vicino» = near!"
+      },
+      "feedbackErr": {
+        "it": "Vicino = near! Come vicinity in inglese — è nelle vicinanze!",
+        "en": "«Vicino» = near! Like vicinity in English — it is in the vicinity!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "E il Vesuvio?",
+      "intro_en": "What about Vesuvius?",
+      "domanda": {
+        "it": "Hans chiede del Vesuvio. Mario dice: è lontano! Lontano = ?",
+        "en": "Hans asks about Vesuvius. Mario says: it is far! «Lontano» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Near",
+          "en": "Near"
+        },
+        {
+          "it": "To the right",
+          "en": "To the right"
+        },
+        {
+          "it": "Far",
+          "en": "Far"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! Lontano = far!",
+        "en": "Perfect! «Lontano» = far!"
+      },
+      "feedbackErr": {
+        "it": "Lontano = far! Il contrario di vicino — near vs far!",
+        "en": "«Lontano» = far! The opposite of vicino — near vs far!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "hans",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Completa!",
+      "intro_en": "Fill in the blank!",
+      "frase_it": "Hans chiede: ___ il bar di Mario?",
+      "frase_en": "Hans asks: ___ is Mario's bar?",
+      "opzioni": [
+        {
+          "it": "Quanto",
+          "en": "How much"
+        },
+        {
+          "it": "Quando",
+          "en": "When"
+        },
+        {
+          "it": "Dov'è",
+          "en": "Where"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! «Dov'è» il bar? = Where is the bar?",
+        "en": "Correct! «Dov'è» il bar? = Where is the bar?"
+      },
+      "feedbackErr": {
+        "it": "«Dov'è»! Dove = where + è = is — dov'è!",
+        "en": "«Dov'è»! Dove = where + è = is — put them together!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Mario conosce Napoli!",
+      "intro_en": "Mario knows Naples!",
+      "domanda": {
+        "it": "Mario dice: il bar è a due minuti a piedi. Il bar è...?",
+        "en": "Mario says: the bar is two minutes on foot. The bar is...?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Due minuti = vicino!",
+        "en": "Yes! Two minutes = «vicino»!"
+      },
+      "feedbackErr": {
+        "it": "Due minuti a piedi → è vicino! Lontano è quando ci vuole molto tempo!",
+        "en": "Two minutes on foot → it is «vicino»! «Lontano» is when it takes a long time!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Hans capisce!",
+      "intro_en": "Hans understands!",
+      "domanda": {
+        "it": "Hans non sa dove andare. Cosa chiede a Mario?",
+        "en": "Hans does not know where to go. What does he ask Mario?"
+      },
+      "opzioni": [
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
+          "it": "Dov'è il bar?",
+          "en": "Where is the bar?"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Non sa dove andare → chiede «dov'è»!",
+        "en": "Correct! Does not know where → asks «dov'è»!"
+      },
+      "feedbackErr": {
+        "it": "Per chiedere dove si trova qualcosa → «dov'è»? = where is it?",
+        "en": "To ask where something is → «dov'è»? = where is it?"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Mario spiega!",
+      "intro_en": "Mario explains!",
+      "domanda": {
+        "it": "Il bar è a 5 km. Mario dice: il bar è molto...?",
+        "en": "The bar is 5 km away. Mario says: the bar is very...?"
+      },
+      "opzioni": [
+        {
+          "it": "Dritto",
+          "en": "Straight"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! 5 km = lontano!",
+        "en": "Yes! 5 km = «lontano»!"
+      },
+      "feedbackErr": {
+        "it": "5 km → è lontano! Vicino è quando è a pochi passi!",
+        "en": "5 km → it is «lontano»! «Vicino» is when it is just a few steps away!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "contesto_it": "📍 Hans non sa dove è il Bar di Mario.",
+      "contesto_en": "Hans does not know where Mario's bar is.",
+      "domanda": {
+        "it": "Cosa chiede Hans a un passante?",
+        "en": "What does Hans ask a passer-by?"
+      },
+      "opzioni": [
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "Dov'è il bar?",
+          "en": "Where is the bar?",
+          "emoji": "📍"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravissimo! Non sa dove → chiede «dov'è»!",
+        "en": "Excellent! Does not know where → asks «dov'è»!"
+      },
+      "feedbackErr": {
+        "it": "Non sa dove → chiede «dov'è» il bar? = where is the bar?",
+        "en": "Does not know where → asks «dov'è» il bar? = where is the bar?"
+      }
+    }
+  ]
+}

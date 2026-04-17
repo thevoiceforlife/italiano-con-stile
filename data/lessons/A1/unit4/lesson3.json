@@ -1,0 +1,340 @@
+{
+  "id": "A1-unit4-lesson3",
+  "title": "In giro con Oliver",
+  "title_en": "Out and about with Oliver",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché in italiano si dice «vai» e non «tu vai»?",
+      "domanda_en": "Why do Italians say «vai» and not «tu vai»?",
+      "titolo_it": "Io, tu — quando si usano i pronomi?",
+      "titolo_en": "Io, tu — when do you use pronouns?",
+      "corpo_it": "In italiano il verbo include già il pronome. Vai dritto = tu vai dritto — ma il tu è già dentro il vai! Si aggiunge tu solo per enfasi: TU vai a destra, io vado a sinistra. In inglese you go è obbligatorio, in italiano è opzionale.",
+      "corpo_en": "In Italian the verb already includes the pronoun. Vai dritto = you go straight — but the you is already inside vai! You add tu only for emphasis: YOU go right, I go left. In English you go is required, in Italian it is optional.",
+      "esempio_it": "⬆️ Vai dritto! = You go straight! — il tu è nascosto nel verbo!",
+      "esempio_en": "Vai dritto! = You go straight! — the you is hidden inside the verb!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Oliver è in giro!",
+      "intro_en": "Oliver is out and about!",
+      "contesto_it": "⬆️ Mario dice ad Oliver di andare avanti.",
+      "contesto_en": "Mario tells Oliver to go straight ahead.",
+      "domanda": {
+        "it": "Cosa dice Mario?",
+        "en": "What does Mario say?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        },
+        {
+          "it": "Dritto!",
+          "en": "Straight ahead!",
+          "emoji": "⬆️"
+        },
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Vai avanti = dritto!",
+        "en": "Correct! Go forward = «dritto»!"
+      },
+      "feedbackErr": {
+        "it": "Mario dice di andare avanti → dritto! In linea retta!",
+        "en": "Mario says go forward → «dritto»! In a straight line!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Oliver chiede!",
+      "intro_en": "Oliver asks!",
+      "frase_it": "Oliver non sa dove andare: ___ il bar?",
+      "frase_en": "Oliver does not know where to go: ___ the bar?",
+      "opzioni": [
+        {
+          "it": "Quanto",
+          "en": "How much"
+        },
+        {
+          "it": "Quando",
+          "en": "When is"
+        },
+        {
+          "it": "Dov'è",
+          "en": "Where is"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Dov'è» il bar? = Where is the bar?",
+        "en": "Yes! «Dov'è» il bar? = Where is the bar?"
+      },
+      "feedbackErr": {
+        "it": "Per chiedere dove → «dov'è»! Dove + è = dov'è!",
+        "en": "To ask where → «dov'è»! Dove + è = dov'è!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Mario spiega!",
+      "intro_en": "Mario explains!",
+      "domanda": {
+        "it": "Mario: il bar è a 2 minuti. È vicino o lontano?",
+        "en": "Mario: the bar is 2 minutes away. Is it «vicino» or «lontano»?"
+      },
+      "opzioni": [
+        {
+          "it": "È lontano",
+          "en": "It is far"
+        },
+        {
+          "it": "È dritto",
+          "en": "It is straight"
+        },
+        {
+          "it": "È vicino",
+          "en": "It is near"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Perfetto! 2 minuti = vicino!",
+        "en": "Perfect! 2 minutes = «vicino»!"
+      },
+      "feedbackErr": {
+        "it": "2 minuti a piedi = vicino! Lontano è quando ci vuole molto!",
+        "en": "2 minutes on foot = «vicino»! «Lontano» is when it takes a long time!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Completa!",
+      "intro_en": "Fill in the blank!",
+      "frase_it": "Gira a ___ al semaforo!",
+      "frase_en": "Turn ___ at the traffic light!",
+      "opzioni": [
+        {
+          "it": "dritto",
+          "en": "straight"
+        },
+        {
+          "it": "vicino",
+          "en": "near"
+        },
+        {
+          "it": "sinistra",
+          "en": "left"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Gira a sinistra = turn left!",
+        "en": "Correct! Gira a «sinistra» = turn left!"
+      },
+      "feedbackErr": {
+        "it": "A sinistra! Si gira — quindi sinistra o destra, non dritto!",
+        "en": "«A sinistra»! You are turning — so left or right, not straight!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Mario guida Oliver!",
+      "intro_en": "Mario guides Oliver!",
+      "contesto_it": "➡️ Oliver deve girare a destra dopo la piazza.",
+      "contesto_en": "Oliver must turn right after the square.",
+      "domanda": {
+        "it": "Cosa dice Mario?",
+        "en": "What does Mario say?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        },
+        {
+          "it": "Lontano!",
+          "en": "Far!",
+          "emoji": "🗺️"
+        },
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Gira a destra → a destra!",
+        "en": "Yes! Turn right → «a destra»!"
+      },
+      "feedbackErr": {
+        "it": "Deve girare a destra → a destra! La mano destra!",
+        "en": "He must turn right → «a destra»! Your right hand!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Oliver capisce!",
+      "intro_en": "Oliver understands!",
+      "domanda": {
+        "it": "Oliver chiede: il Vesuvio è vicino? Mario: No, è molto...?",
+        "en": "Oliver asks: is Vesuvius near? Mario: No, it is very...?"
+      },
+      "opzioni": [
+        {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Non è vicino → è lontano!",
+        "en": "Yes! Not near → it is «lontano»!"
+      },
+      "feedbackErr": {
+        "it": "Non vicino = lontano! Sono gli opposti — near vs far!",
+        "en": "Not near = «lontano»! They are opposites — near vs far!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Ora produci!",
+      "intro_en": "Now produce!",
+      "frase_it": "Vai sempre ___ per 200 metri!",
+      "frase_en": "Always go ___ for 200 metres!",
+      "opzioni": [
+        {
+          "it": "vicino",
+          "en": "near"
+        },
+        {
+          "it": "lontano",
+          "en": "far"
+        },
+        {
+          "it": "dritto",
+          "en": "straight"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Perfetto! Vai dritto = go straight!",
+        "en": "Perfect! Vai «dritto» = go straight!"
+      },
+      "feedbackErr": {
+        "it": "Vai dritto! Per andare avanti in linea retta — straight!",
+        "en": "Vai «dritto»! To go forward in a straight line — straight!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "contesto_it": "📍 Oliver chiede dove si trova la stazione.",
+      "contesto_en": "Oliver asks where the station is.",
+      "domanda": {
+        "it": "Cosa chiede Oliver?",
+        "en": "What does Oliver ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Dov'è la stazione?",
+          "en": "Where is the station?",
+          "emoji": "📍"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
+        },
+        {
+          "it": "È vicino!",
+          "en": "It is near!",
+          "emoji": "📌"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravissimo! Non sa dove → «dov'è»?",
+        "en": "Excellent! Does not know where → «dov'è»?"
+      },
+      "feedbackErr": {
+        "it": "Chiede dove → «dov'è» la stazione? = where is the station?",
+        "en": "Asks where → «dov'è» la stazione? = where is the station?"
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": "A1-unit4-lesson4",
+  "title": "Ascolta le direzioni",
+  "title_en": "Listen to the directions",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Perché a Napoli le indicazioni sembrano sempre diverse?",
+      "domanda_en": "Why do directions in Naples always seem different?",
+      "titolo_it": "Le indicazioni napoletane",
+      "titolo_en": "Neapolitan directions",
+      "corpo_it": "A Napoli le indicazioni usano i punti di riferimento: vai dove c'era la pizzeria, gira al palazzo giallo! Non è destra o sinistra — è la città vissuta. I napoletani conoscono ogni angolo e lo usano come mappa!",
+      "corpo_en": "In Naples directions use landmarks: go where the pizzeria used to be, turn at the yellow building! It is not right or left — it is the lived city. Neapolitans know every corner and use it as a map!",
+      "esempio_it": "⬆️ Vai dritto fino alla fontana, poi a destra!",
+      "esempio_en": "Go straight to the fountain, then right!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "A destra",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Hai sentito «a destra»!",
+        "en": "Yes! You heard «a destra»!"
+      },
+      "feedbackErr": {
+        "it": "Era «a destra»! = to the right. Riascolta!",
+        "en": "It was «a destra»! = to the right. Listen again!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ancora!",
+      "intro_en": "Again!",
+      "audio": "A sinistra",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Perfetto! «A sinistra»!",
+        "en": "Perfect! «A sinistra»!"
+      },
+      "feedbackErr": {
+        "it": "Era «a sinistra»! = to the left. Ascolta bene!",
+        "en": "It was «a sinistra»! = to the left. Listen carefully!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Concentrati!",
+      "intro_en": "Focus!",
+      "audio": "Dritto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! «Dritto»!",
+        "en": "Correct! «Dritto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «dritto»! = straight ahead. Riascolta!",
+        "en": "It was «dritto»! = straight ahead. Listen again!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Emma ascolta!",
+      "intro_en": "Emma listens!",
+      "audio": "Dov'è il bar?",
+      "domanda": {
+        "it": "Cosa chiede Emma?",
+        "en": "What does Emma ask?"
+      },
+      "opzioni": [
+        {
+          "it": "Quanto costa il bar",
+          "en": "How much the bar costs"
+        },
+        {
+          "it": "Se il bar è aperto",
+          "en": "Whether the bar is open"
+        },
+        {
+          "it": "Dove si trova il bar",
+          "en": "Where the bar is"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Dov'è»? chiede dove si trova!",
+        "en": "Yes! «Dov'è»? asks where something is!"
+      },
+      "feedbackErr": {
+        "it": "«Dov'è il bar»? = where is the bar? Chiede la posizione!",
+        "en": "«Dov'è il bar»? = where is the bar? Asks for the location!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta Mario!",
+      "intro_en": "Listen to Mario!",
+      "audio": "È vicino",
+      "domanda": {
+        "it": "Come è il bar?",
+        "en": "How far is the bar?"
+      },
+      "opzioni": [
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! «Vicino» = near!",
+        "en": "Correct! «Vicino» = near!"
+      },
+      "feedbackErr": {
+        "it": "Mario ha detto «è vicino» = it is near!",
+        "en": "Mario said «è vicino» = it is near!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ancora!",
+      "intro_en": "Again!",
+      "audio": "Lontano",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Lontano» = far!",
+        "en": "Yes! «Lontano» = far!"
+      },
+      "feedbackErr": {
+        "it": "Era «lontano»! = far. Il contrario di vicino!",
+        "en": "It was «lontano»! = far. The opposite of vicino!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Emma capisce!",
+      "intro_en": "Emma understands!",
+      "contesto_it": "⬆️ Mario dice: vai dritto, poi a destra!",
+      "contesto_en": "Mario says: go straight, then right!",
+      "domanda": {
+        "it": "Quale direzione fa Emma prima?",
+        "en": "Which direction does Emma take first?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Prima dritto, poi a destra!",
+        "en": "Correct! First straight, then right!"
+      },
+      "feedbackErr": {
+        "it": "Mario dice prima dritto — poi a destra! Prima = first!",
+        "en": "Mario says first «dritto» — then «a destra»! Prima = first!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Ultima — ce la fai!",
+      "intro_en": "Last one — you've got this!",
+      "audio": "Vai a sinistra",
+      "domanda": {
+        "it": "Dove va Emma?",
+        "en": "Where does Emma go?"
+      },
+      "opzioni": [
+        {
+          "it": "A destra",
+          "en": "To the right"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight ahead"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravissima! «Vai a sinistra» = go left!",
+        "en": "Excellent! «Vai a sinistra» = go left!"
+      },
+      "feedbackErr": {
+        "it": "«Vai a sinistra» = go to the left! Sinistra = left!",
+        "en": "«Vai a sinistra» = go to the left! Sinistra = left!"
+      }
+    }
+  ]
+}

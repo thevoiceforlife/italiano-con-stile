@@ -1368,3 +1368,25 @@ Lo studente li impara usandoli, mai studiandoli come lista.
 - TU vs LEI formale: anglofoni non hanno il formale → pillola culturale in Tema 4
 - VOI plurale: "you all" non esiste in EN → pillola culturale in Tema 7
 - LORO per persone E cose: "they" funziona uguale → feedback rassicurante
+
+### STATO UNIT4 ✅ — Aprile 2026
+- lesson1.json ✅ (A destra / A sinistra / Dritto · Emma)
+- lesson2.json ✅ (Dov'è? / Vicino / Lontano · Hans)
+- lesson3.json ✅ (Pratica · Oliver) — pronomi io/tu introdotti nel feedback
+- lesson4.json ✅ (Ascolto · Emma)
+- lesson5.json ✅ (Speedround · Mario solo — word_bank A1.2)
+- boss.json ✅ (Sfida la Nonna · Vittoria)
+- percorso/page.js ✅ (Unit4 visibile nel percorso)
+
+### Vocabolario Unit4 — Tema 4
+1. A destra → To the right
+2. A sinistra → To the left
+3. Dritto → Straight ahead
+4. Dov'è? → Where is it?
+5. Vicino → Near
+6. Lontano → Far
+
+### Pronomi integrati (piano Opzione A)
+- Tema 4: io/tu introdotti implicitamente nel feedback
+  "VAI = tu vai — come you go in inglese!"
+- Pillola L3: spiega perché tu è opzionale in italiano
