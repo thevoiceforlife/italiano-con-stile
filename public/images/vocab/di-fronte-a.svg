@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Di fronte a — In front of</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M35,85 L35,48 L58,37 L58,74 Z" fill="#1A7A35"/>
+  <path d="M58,74 L58,37 L80,48 L80,85 Z" fill="#3AAD55"/>
+  <path d="M35,48 L58,37 L80,48 L58,59 Z" fill="#5BC875"/>
+  <path d="M62,85 L62,72 Q67,68 72,72 L72,85 Z" fill="#1A4A25"/>
+  <rect x="52" y="88" width="10" height="12" rx="3" fill="#F5C842"/>
+  <circle cx="57" cy="84" r="6" fill="#F5A042"/>
+  <path d="M57,78 L57,70 L53,74 M57,70 L61,74" fill="none" stroke="#F5EDD0" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

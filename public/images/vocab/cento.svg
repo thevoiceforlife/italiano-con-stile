@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Cento — One hundred</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M15,85 L15,40 L60,22 L60,67 Z" fill="#A82020"/>
+  <path d="M60,67 L60,22 L105,40 L105,85 Z" fill="#D44040"/>
+  <path d="M15,40 L60,22 L105,40 L60,58 Z" fill="#F57070"/>
+  <text x="60" y="58" text-anchor="middle" font-size="22" fill="white" font-family="sans-serif" font-weight="bold">100</text>
+  <path d="M60,18 L63,10 L66,18 L74,18 L68,23 L70,31 L60,26 L50,31 L52,23 L46,18 L54,18 Z" fill="#F5C842"/>
+</svg>

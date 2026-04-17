@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Quanti — How many</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M20,90 L20,45 L60,28 L60,73 Z" fill="#1A6FA8"/>
+  <path d="M60,73 L60,28 L100,45 L100,90 Z" fill="#3A94D4"/>
+  <path d="M20,45 L60,28 L100,45 L60,62 Z" fill="#5BB8F5"/>
+  <text x="60" y="68" text-anchor="middle" font-size="36" fill="white" font-family="sans-serif" font-weight="bold">?</text>
+</svg>

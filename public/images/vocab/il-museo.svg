@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Il museo — The museum</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M15,88 L15,55 L45,42 L45,75 Z" fill="#7040A8"/>
+  <path d="M45,75 L45,42 L75,55 L75,88 Z" fill="#A070C8"/>
+  <path d="M15,55 L45,42 L75,55 L45,68 Z" fill="#C8A0E8"/>
+  <path d="M50,88 L50,52 L54,50 L54,86 Z" fill="#7040A8" opacity="0.8"/>
+  <path d="M54,86 L54,50 L58,52 L58,88 Z" fill="#9060C0" opacity="0.8"/>
+  <path d="M60,88 L60,52 L64,50 L64,86 Z" fill="#7040A8" opacity="0.8"/>
+  <path d="M64,86 L64,50 L68,52 L68,88 Z" fill="#9060C0" opacity="0.8"/>
+  <path d="M12,55 L45,38 L78,55" fill="#7040A8" opacity="0.9"/>
+  <path d="M12,88 L12,93 L78,93 L78,88" fill="none" stroke="#9060C0" stroke-width="4"/>
+</svg>

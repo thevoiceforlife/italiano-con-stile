@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Venti — Twenty</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M10,70 L10,45 L60,32 L60,57 Z" fill="#1A7A35" opacity="0.7"/>
+  <path d="M60,57 L60,32 L110,45 L110,70 Z" fill="#3AAD55" opacity="0.7"/>
+  <path d="M10,45 L60,32 L110,45 L60,58 Z" fill="#5BC875"/>
+  <text x="60" y="50" text-anchor="middle" font-size="16" fill="white" font-family="sans-serif" font-weight="bold">20&#8364;</text>
+</svg>
