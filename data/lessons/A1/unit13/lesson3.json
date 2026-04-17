@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "🛒 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🛒 Emma è al mercato. Vuole comprare pomodori freschi.",
+      "contesto_en": "Emma is at the market. She wants fresh tomatoes.",
       "domanda": {
-        "it": "«Il mercato» = ?",
-        "en": "«Il mercato» = ?"
+        "it": "Cosa dice Emma al venditore?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "Un chilo",
-          "en": "A kilo",
-          "emoji": "⚖️"
-        },
-        {
-          "it": "Il mercato",
-          "en": "The market",
+          "it": "Posso avere i pomodori?",
+          "en": "Can I have the tomatoes?",
           "emoji": "🛒"
         },
         {
-          "it": "Fresco",
-          "en": "Fresh",
-          "emoji": "🌿"
+          "it": "Quanto costa il museo?",
+          "en": "How much is the museum?",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Il mercato!",
-        "en": "Yes! «Il mercato»!"
+        "it": "Esatto! Al mercato → posso avere?",
+        "en": "Correct! At the market → posso avere?"
       },
       "feedbackErr": {
-        "it": "Il mercato = the market!",
-        "en": "«Il mercato» = the market!"
+        "it": "Al mercato si chiede posso avere?",
+        "en": "At the market you ask posso avere?"
       }
     },
     {

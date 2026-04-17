@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "💇 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📏 Oliver è un architetto alto e giovane con capelli scuri.",
+      "contesto_en": "Oliver is a tall young architect with dark hair.",
       "domanda": {
-        "it": "«I capelli» = ?",
-        "en": "«I capelli» = ?"
+        "it": "Come è Oliver?",
+        "en": "What is Oliver like?"
       },
       "opzioni": [
         {
-          "it": "The hair",
-          "en": "The hair",
-          "emoji": "💇"
+          "it": "Alto e giovane",
+          "en": "Tall and young",
+          "emoji": "📏"
         },
         {
-          "it": "Nice",
-          "en": "Nice",
-          "emoji": "😊"
+          "it": "Basso e vecchio",
+          "en": "Short and old",
+          "emoji": "🐾"
         },
         {
-          "it": "What are you like?",
-          "en": "What are you like?",
-          "emoji": "🪞"
+          "it": "Simpatico e basso",
+          "en": "Nice and short",
+          "emoji": "😄"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! I capelli!",
-        "en": "Yes! «I capelli»!"
+        "it": "Esatto! Oliver è alto e giovane!",
+        "en": "Correct! Oliver is tall and young!"
       },
       "feedbackErr": {
-        "it": "I capelli = the hair!",
-        "en": "«I capelli» = the hair!"
+        "it": "Alto = tall, giovane = young!",
+        "en": "Alto = tall, giovane = young!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "😊 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🪞 Emma si guarda allo specchio e descrive i suoi capelli lunghi.",
+      "contesto_en": "Emma looks in the mirror and describes her long hair.",
       "domanda": {
-        "it": "«Simpatico» = ?",
-        "en": "«Simpatico» = ?"
+        "it": "Di cosa parla Emma?",
+        "en": "What is Emma talking about?"
       },
       "opzioni": [
         {
-          "it": "Nice",
-          "en": "Nice",
-          "emoji": "😊"
-        },
-        {
-          "it": "The hair",
+          "it": "I capelli",
           "en": "The hair",
           "emoji": "💇"
         },
         {
-          "it": "What are you like?",
-          "en": "What are you like?",
-          "emoji": "🪞"
+          "it": "Gli occhi",
+          "en": "The eyes",
+          "emoji": "👁️"
+        },
+        {
+          "it": "Le mani",
+          "en": "The hands",
+          "emoji": "🤲"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Simpatico!",
-        "en": "Yes! «Simpatico»!"
+        "it": "Esatto! Allo specchio → parla dei capelli!",
+        "en": "Correct! Mirror → she talks about i capelli!"
       },
       "feedbackErr": {
-        "it": "Simpatico = nice!",
-        "en": "«Simpatico» = nice!"
+        "it": "Allo specchio descrive i capelli!",
+        "en": "In the mirror she describes i capelli!"
       }
     }
   ],

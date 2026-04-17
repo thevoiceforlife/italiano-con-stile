@@ -1610,3 +1610,37 @@ def rotate(questions):
 [ ] Risposta corretta = primo elemento di opzioni[]
 [ ] Nessuna funzione rotate() o shuffle() nel generatore
 [ ] Lo shuffle avviene SOLO nel componente React a runtime
+
+
+---
+
+## Struttura Q7/Q8 — Produzione (tap_right)
+
+### Principio
+Q7 e Q8 sono le domande di PRODUZIONE — la difficoltà massima della lezione.
+NON sono traduzioni. NON sono definizioni. Sono situazioni narrative.
+
+### Regole Q7/Q8
+
+1. contesto_it DEVE essere una situazione narrativa concreta
+2. La domanda chiede COSA FA il personaggio o DOVE SI TROVA
+3. Le opzioni hanno emoji DIVERSE e COERENTI
+4. Q8 deve essere più difficile di Q7
+5. correct = 0 sempre (risposta corretta = prima opzione)
+
+### Template narrativo per ogni tema
+
+| Tema | Q7 scenario | Q8 scenario |
+|------|-------------|-------------|
+| Luoghi | Descrizione visiva del posto | Cosa fa/dice il personaggio nel posto |
+| Numeri | Mario conta qualcosa | Hans paga e deve dire la cifra |
+| Orari | Situazione oraria | Saluto corretto per quell'ora |
+| Cibo | Personaggio a tavola vuole ordinare | Descrive il piatto ricevuto |
+| Persone | Descrizione fisica di qualcuno | Domanda sulla personalita |
+| Famiglia | Chi e questo parente | Relazione tra personaggi |
+| Colori | Oggetto da descrivere | Outfit o monumento da completare |
+| Telefono | Squilla il telefono | Lasciare un messaggio |
+| Spesa | Al mercato con lista | Troppo caro / giusto prezzo |
+| Tempo | Fuori piove / c'e il sole | Cosa si indossa |
+| Emozioni | Come si sente un personaggio | Come rispondere a qualcuno triste |
+

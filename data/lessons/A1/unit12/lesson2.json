@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "💬 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📞 Il telefono squilla. Emma risponde.",
+      "contesto_en": "The phone rings. Emma answers.",
       "domanda": {
-        "it": "«Il messaggio» = ?",
-        "en": "«Il messaggio» = ?"
+        "it": "Cosa dice Emma?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "The message",
-          "en": "The message",
-          "emoji": "💬"
+          "it": "Pronto!",
+          "en": "Hello!",
+          "emoji": "📞"
         },
         {
-          "it": "To call back",
-          "en": "To call back",
-          "emoji": "📱"
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
         },
         {
-          "it": "The number",
-          "en": "The number",
-          "emoji": "🔢"
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Il messaggio!",
-        "en": "Yes! «Il messaggio»!"
+        "it": "Esatto! Al telefono → pronto!",
+        "en": "Correct! On the phone → pronto!"
       },
       "feedbackErr": {
-        "it": "Il messaggio = the message!",
-        "en": "«Il messaggio» = the message!"
+        "it": "Al telefono si dice pronto!",
+        "en": "On the phone you say pronto!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "📱 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📲 Mario non è disponibile. Hans vuole che Mario lo richiami.",
+      "contesto_en": "Mario is not available. Hans wants Mario to call back.",
       "domanda": {
-        "it": "«Richiamare» = ?",
-        "en": "«Richiamare» = ?"
+        "it": "Cosa chiede Hans?",
+        "en": "What does Hans ask?"
       },
       "opzioni": [
         {
-          "it": "To call back",
-          "en": "To call back",
-          "emoji": "📱"
+          "it": "Può richiamare?",
+          "en": "Can he call back?",
+          "emoji": "📲"
         },
         {
-          "it": "The message",
-          "en": "The message",
-          "emoji": "💬"
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "🌅"
         },
         {
-          "it": "The number",
-          "en": "The number",
-          "emoji": "🔢"
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Richiamare!",
-        "en": "Yes! «Richiamare»!"
+        "it": "Esatto! Non disponibile → richiamare!",
+        "en": "Correct! Not available → richiamare!"
       },
       "feedbackErr": {
-        "it": "Richiamare = to call back!",
-        "en": "«Richiamare» = to call back!"
+        "it": "Non disponibile → può richiamare?",
+        "en": "Not available → can he call back?"
       }
     }
   ],

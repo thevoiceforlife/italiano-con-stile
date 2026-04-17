@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "👍 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "😊 Emma riceve un regalo da Mario. Sorride e salta di gioia.",
+      "contesto_en": "Emma receives a gift from Mario. She smiles and jumps for joy.",
       "domanda": {
-        "it": "«Sto bene» = ?",
-        "en": "«Sto bene» = ?"
+        "it": "Come si sente Emma?",
+        "en": "How does Emma feel?"
       },
       "opzioni": [
         {
-          "it": "I am fine",
-          "en": "I am fine",
-          "emoji": "👍"
+          "it": "Felice!",
+          "en": "Happy!",
+          "emoji": "😊"
         },
         {
-          "it": "Angry",
-          "en": "Angry",
+          "it": "Triste!",
+          "en": "Sad!",
+          "emoji": "😢"
+        },
+        {
+          "it": "Arrabbiata!",
+          "en": "Angry!",
           "emoji": "😠"
-        },
-        {
-          "it": "How are you?",
-          "en": "How are you?",
-          "emoji": "🤔"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Sto bene!",
-        "en": "Yes! «Sto bene»!"
+        "it": "Esatto! Regalo e sorriso → felice!",
+        "en": "Correct! Gift and smile → felice!"
       },
       "feedbackErr": {
-        "it": "Sto bene = i am fine!",
-        "en": "«Sto bene» = i am fine!"
+        "it": "Sorride → è felice!",
+        "en": "Smiles → è felice!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "😠 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "😴 Hans lavora tutto il giorno senza pausa. La sera non riesce ad alzarsi.",
+      "contesto_en": "Hans works all day without a break. He cannot get up.",
       "domanda": {
-        "it": "«Arrabbiato» = ?",
-        "en": "«Arrabbiato» = ?"
+        "it": "Come si sente Hans?",
+        "en": "How does Hans feel?"
       },
       "opzioni": [
         {
-          "it": "Angry",
-          "en": "Angry",
+          "it": "Stanco!",
+          "en": "Tired!",
+          "emoji": "😴"
+        },
+        {
+          "it": "Felice!",
+          "en": "Happy!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Arrabbiato!",
+          "en": "Angry!",
           "emoji": "😠"
-        },
-        {
-          "it": "I am fine",
-          "en": "I am fine",
-          "emoji": "👍"
-        },
-        {
-          "it": "How are you?",
-          "en": "How are you?",
-          "emoji": "🤔"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Arrabbiato!",
-        "en": "Yes! «Arrabbiato»!"
+        "it": "Esatto! Lavora tutto il giorno → stanco!",
+        "en": "Correct! Works all day → stanco!"
       },
       "feedbackErr": {
-        "it": "Arrabbiato = angry!",
-        "en": "«Arrabbiato» = angry!"
+        "it": "Lavora senza pausa → stanco!",
+        "en": "Works without break → stanco!"
       }
     }
   ],

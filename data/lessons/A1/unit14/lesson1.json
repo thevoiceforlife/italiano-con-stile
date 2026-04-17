@@ -272,37 +272,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🌧️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🌧️ Emma guarda fuori dalla finestra. Cade acqua dal cielo.",
+      "contesto_en": "Emma looks out the window. Water falls from the sky.",
       "domanda": {
-        "it": "«Piove» = ?",
-        "en": "«Piove» = ?"
+        "it": "Che tempo fa?",
+        "en": "What is the weather like?"
       },
       "opzioni": [
         {
-          "it": "It is raining",
-          "en": "It is raining",
+          "it": "Piove!",
+          "en": "It is raining!",
           "emoji": "🌧️"
         },
         {
-          "it": "It is hot",
-          "en": "It is hot",
-          "emoji": "🌞"
+          "it": "Fa caldo!",
+          "en": "It is hot!",
+          "emoji": "🌡️"
         },
         {
-          "it": "It is cold",
-          "en": "It is cold",
-          "emoji": "🥶"
+          "it": "C'è il sole!",
+          "en": "It is sunny!",
+          "emoji": "☀️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Piove!",
-        "en": "Yes! «Piove»!"
+        "it": "Esatto! Acqua dal cielo → piove!",
+        "en": "Correct! Water from the sky → piove!"
       },
       "feedbackErr": {
-        "it": "Piove = it is raining!",
-        "en": "«Piove» = it is raining!"
+        "it": "Acqua dal cielo → piove!",
+        "en": "Water from the sky → piove!"
       }
     },
     {
@@ -312,37 +312,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🌞 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🥶 Hans esce dal bar. Trema di freddo. Zero gradi.",
+      "contesto_en": "Hans leaves the bar. He shivers. Zero degrees.",
       "domanda": {
-        "it": "«Fa caldo» = ?",
-        "en": "«Fa caldo» = ?"
+        "it": "Che tempo fa?",
+        "en": "What is the weather like?"
       },
       "opzioni": [
         {
-          "it": "It is hot",
-          "en": "It is hot",
-          "emoji": "🌞"
-        },
-        {
-          "it": "It is raining",
-          "en": "It is raining",
-          "emoji": "🌧️"
-        },
-        {
-          "it": "It is cold",
-          "en": "It is cold",
+          "it": "Fa freddo!",
+          "en": "It is cold!",
           "emoji": "🥶"
+        },
+        {
+          "it": "Fa caldo!",
+          "en": "It is hot!",
+          "emoji": "🌡️"
+        },
+        {
+          "it": "È nuvoloso!",
+          "en": "It is cloudy!",
+          "emoji": "☁️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Fa caldo!",
-        "en": "Yes! «Fa caldo»!"
+        "it": "Esatto! Zero gradi → fa freddo!",
+        "en": "Correct! Zero degrees → fa freddo!"
       },
       "feedbackErr": {
-        "it": "Fa caldo = it is hot!",
-        "en": "«Fa caldo» = it is hot!"
+        "it": "Zero gradi → fa freddo!",
+        "en": "Zero degrees → fa freddo!"
       }
     }
   ],

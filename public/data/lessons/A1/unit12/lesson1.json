@@ -272,37 +272,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "⏱️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📞 Il telefono squilla. Emma risponde.",
+      "contesto_en": "The phone rings. Emma answers.",
       "domanda": {
-        "it": "«Un momento» = ?",
-        "en": "«Un momento» = ?"
+        "it": "Cosa dice Emma?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "One moment",
-          "en": "One moment",
-          "emoji": "⏱️"
-        },
-        {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)",
+          "it": "Pronto!",
+          "en": "Hello!",
           "emoji": "📞"
         },
         {
-          "it": "Who is speaking?",
-          "en": "Who is speaking?",
-          "emoji": "🗣️"
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Un momento!",
-        "en": "Yes! «Un momento»!"
+        "it": "Esatto! Al telefono → pronto!",
+        "en": "Correct! On the phone → pronto!"
       },
       "feedbackErr": {
-        "it": "Un momento = one moment!",
-        "en": "«Un momento» = one moment!"
+        "it": "Al telefono si dice pronto!",
+        "en": "On the phone you say pronto!"
       }
     },
     {
@@ -312,37 +312,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "📞 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📲 Mario non è disponibile. Hans vuole che Mario lo richiami.",
+      "contesto_en": "Mario is not available. Hans wants Mario to call back.",
       "domanda": {
-        "it": "«Pronto» = ?",
-        "en": "«Pronto» = ?"
+        "it": "Cosa chiede Hans?",
+        "en": "What does Hans ask?"
       },
       "opzioni": [
         {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)",
-          "emoji": "📞"
+          "it": "Può richiamare?",
+          "en": "Can he call back?",
+          "emoji": "📲"
         },
         {
-          "it": "One moment",
-          "en": "One moment",
-          "emoji": "⏱️"
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "🌅"
         },
         {
-          "it": "Who is speaking?",
-          "en": "Who is speaking?",
-          "emoji": "🗣️"
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Pronto!",
-        "en": "Yes! «Pronto»!"
+        "it": "Esatto! Non disponibile → richiamare!",
+        "en": "Correct! Not available → richiamare!"
       },
       "feedbackErr": {
-        "it": "Pronto = hello (phone)!",
-        "en": "«Pronto» = hello (phone)!"
+        "it": "Non disponibile → può richiamare?",
+        "en": "Not available → can he call back?"
       }
     }
   ],

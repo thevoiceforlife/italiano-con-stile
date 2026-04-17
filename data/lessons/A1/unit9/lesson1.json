@@ -272,37 +272,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🌱 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📏 Oliver è un architetto alto e giovane con capelli scuri.",
+      "contesto_en": "Oliver is a tall young architect with dark hair.",
       "domanda": {
-        "it": "«Giovane» = ?",
-        "en": "«Giovane» = ?"
+        "it": "Come è Oliver?",
+        "en": "What is Oliver like?"
       },
       "opzioni": [
         {
-          "it": "Young",
-          "en": "Young",
-          "emoji": "🌱"
-        },
-        {
-          "it": "Tall",
-          "en": "Tall",
+          "it": "Alto e giovane",
+          "en": "Tall and young",
           "emoji": "📏"
         },
         {
-          "it": "Short",
-          "en": "Short",
-          "emoji": "📏"
+          "it": "Basso e vecchio",
+          "en": "Short and old",
+          "emoji": "🐾"
+        },
+        {
+          "it": "Simpatico e basso",
+          "en": "Nice and short",
+          "emoji": "😄"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Giovane!",
-        "en": "Yes! «Giovane»!"
+        "it": "Esatto! Oliver è alto e giovane!",
+        "en": "Correct! Oliver is tall and young!"
       },
       "feedbackErr": {
-        "it": "Giovane = young!",
-        "en": "«Giovane» = young!"
+        "it": "Alto = tall, giovane = young!",
+        "en": "Alto = tall, giovane = young!"
       }
     },
     {
@@ -312,37 +312,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "📏 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🪞 Emma si guarda allo specchio e descrive i suoi capelli lunghi.",
+      "contesto_en": "Emma looks in the mirror and describes her long hair.",
       "domanda": {
-        "it": "«Alto» = ?",
-        "en": "«Alto» = ?"
+        "it": "Di cosa parla Emma?",
+        "en": "What is Emma talking about?"
       },
       "opzioni": [
         {
-          "it": "Tall",
-          "en": "Tall",
-          "emoji": "📏"
+          "it": "I capelli",
+          "en": "The hair",
+          "emoji": "💇"
         },
         {
-          "it": "Young",
-          "en": "Young",
-          "emoji": "🌱"
+          "it": "Gli occhi",
+          "en": "The eyes",
+          "emoji": "👁️"
         },
         {
-          "it": "Short",
-          "en": "Short",
-          "emoji": "📏"
+          "it": "Le mani",
+          "en": "The hands",
+          "emoji": "🤲"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Alto!",
-        "en": "Yes! «Alto»!"
+        "it": "Esatto! Allo specchio → parla dei capelli!",
+        "en": "Correct! Mirror → she talks about i capelli!"
       },
       "feedbackErr": {
-        "it": "Alto = tall!",
-        "en": "«Alto» = tall!"
+        "it": "Allo specchio descrive i capelli!",
+        "en": "In the mirror she describes i capelli!"
       }
     }
   ],

@@ -287,37 +287,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🌆 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🌅 Sono le 8 di mattina. Oliver entra al bar di Mario.",
+      "contesto_en": "It is 8 in the morning. Oliver enters Mario's bar.",
       "domanda": {
-        "it": "«La sera» = ?",
-        "en": "«La sera» = ?"
+        "it": "Cosa dice Mario a Oliver?",
+        "en": "What does Mario say to Oliver?"
       },
       "opzioni": [
         {
-          "it": "The evening",
-          "en": "The evening",
-          "emoji": "🌆"
-        },
-        {
-          "it": "The morning",
-          "en": "The morning",
+          "it": "Buongiorno!",
+          "en": "Good morning!",
           "emoji": "🌅"
         },
         {
-          "it": "The afternoon",
-          "en": "The afternoon",
-          "emoji": "☀️"
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
+        },
+        {
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La sera!",
-        "en": "Yes! «La sera»!"
+        "it": "Esatto! Le 8 di mattina → buongiorno!",
+        "en": "Correct! 8 AM → buongiorno!"
       },
       "feedbackErr": {
-        "it": "La sera = the evening!",
-        "en": "«La sera» = the evening!"
+        "it": "Le 8 = la mattina → buongiorno!",
+        "en": "8 AM = morning → buongiorno!"
       }
     },
     {
@@ -327,37 +327,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🌅 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🗓️ Emma vuole fissare un appuntamento con Mario per il giorno successivo.",
+      "contesto_en": "Emma wants an appointment with Mario for the next day.",
       "domanda": {
-        "it": "«La mattina» = ?",
-        "en": "«La mattina» = ?"
+        "it": "Emma dice: ci vediamo ___!",
+        "en": "Emma says: see you ___!"
       },
       "opzioni": [
         {
-          "it": "The morning",
-          "en": "The morning",
-          "emoji": "🌅"
+          "it": "Domani!",
+          "en": "Tomorrow!",
+          "emoji": "🗓️"
         },
         {
-          "it": "The evening",
-          "en": "The evening",
+          "it": "Oggi!",
+          "en": "Today!",
+          "emoji": "📆"
+        },
+        {
+          "it": "La sera!",
+          "en": "This evening!",
           "emoji": "🌆"
-        },
-        {
-          "it": "The afternoon",
-          "en": "The afternoon",
-          "emoji": "☀️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La mattina!",
-        "en": "Yes! «La mattina»!"
+        "it": "Perfetto! Il giorno successivo → domani!",
+        "en": "Perfect! The next day → domani!"
       },
       "feedbackErr": {
-        "it": "La mattina = the morning!",
-        "en": "«La mattina» = the morning!"
+        "it": "Il giorno dopo = domani!",
+        "en": "The next day = domani!"
       }
     }
   ]

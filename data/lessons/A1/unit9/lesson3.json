@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "📏 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📏 Oliver è un architetto alto e giovane con capelli scuri.",
+      "contesto_en": "Oliver is a tall young architect with dark hair.",
       "domanda": {
-        "it": "«Alto» = ?",
-        "en": "«Alto» = ?"
+        "it": "Come è Oliver?",
+        "en": "What is Oliver like?"
       },
       "opzioni": [
         {
-          "it": "Basso",
-          "en": "Short",
+          "it": "Alto e giovane",
+          "en": "Tall and young",
           "emoji": "📏"
         },
         {
-          "it": "Alto",
-          "en": "Tall",
-          "emoji": "📏"
+          "it": "Basso e vecchio",
+          "en": "Short and old",
+          "emoji": "🐾"
         },
         {
-          "it": "Giovane",
-          "en": "Young",
-          "emoji": "🌱"
+          "it": "Simpatico e basso",
+          "en": "Nice and short",
+          "emoji": "😄"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Alto!",
-        "en": "Yes! «Alto»!"
+        "it": "Esatto! Oliver è alto e giovane!",
+        "en": "Correct! Oliver is tall and young!"
       },
       "feedbackErr": {
-        "it": "Alto = tall!",
-        "en": "«Alto» = tall!"
+        "it": "Alto = tall, giovane = young!",
+        "en": "Alto = tall, giovane = young!"
       }
     },
     {

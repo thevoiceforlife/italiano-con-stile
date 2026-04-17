@@ -287,37 +287,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🏛️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "⛲ Emma cammina in centro e vede uno spazio aperto con una fontana e tanta gente.",
+      "contesto_en": "Emma walks in the centre and sees an open space with a fountain and many people.",
       "domanda": {
-        "it": "«Il museo» = ?",
-        "en": "«Il museo» = ?"
+        "it": "Dove si trova Emma?",
+        "en": "Where is Emma?"
       },
       "opzioni": [
         {
-          "it": "The museum",
-          "en": "The museum",
-          "emoji": "🏛️"
+          "it": "In piazza",
+          "en": "In the square",
+          "emoji": "⛲"
         },
         {
-          "it": "The square",
-          "en": "The square",
-          "emoji": "🏛️"
-        },
-        {
-          "it": "The church",
-          "en": "The church",
+          "it": "In chiesa",
+          "en": "At the church",
           "emoji": "⛪"
+        },
+        {
+          "it": "Al museo",
+          "en": "At the museum",
+          "emoji": "🏛️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Il museo!",
-        "en": "Yes! «Il museo»!"
+        "it": "Esatto! Spazio aperto con fontana → la piazza!",
+        "en": "Correct! Open space with fountain → the square!"
       },
       "feedbackErr": {
-        "it": "Il museo = the museum!",
-        "en": "«Il museo» = the museum!"
+        "it": "Spazio aperto con fontana → la piazza!",
+        "en": "Open space with fountain → the square!"
       }
     },
     {
@@ -327,37 +327,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🏛️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "⛪ Hans sente musica d'organo e vede una cupola con una croce.",
+      "contesto_en": "Hans hears organ music and sees a dome with a cross.",
       "domanda": {
-        "it": "«La piazza» = ?",
-        "en": "«La piazza» = ?"
+        "it": "Dove si trova Hans?",
+        "en": "Where is Hans?"
       },
       "opzioni": [
         {
-          "it": "The square",
-          "en": "The square",
-          "emoji": "🏛️"
-        },
-        {
-          "it": "The museum",
-          "en": "The museum",
-          "emoji": "🏛️"
-        },
-        {
-          "it": "The church",
-          "en": "The church",
+          "it": "In chiesa",
+          "en": "At the church",
           "emoji": "⛪"
+        },
+        {
+          "it": "In piazza",
+          "en": "In the square",
+          "emoji": "⛲"
+        },
+        {
+          "it": "Al museo",
+          "en": "At the museum",
+          "emoji": "🏛️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La piazza!",
-        "en": "Yes! «La piazza»!"
+        "it": "Perfetto! Organo e croce → la chiesa!",
+        "en": "Perfect! Organ and cross → the church!"
       },
       "feedbackErr": {
-        "it": "La piazza = the square!",
-        "en": "«La piazza» = the square!"
+        "it": "Musica d'organo e croce → la chiesa!",
+        "en": "Organ music and cross → the church!"
       }
     }
   ]

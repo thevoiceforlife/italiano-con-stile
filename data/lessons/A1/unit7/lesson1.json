@@ -287,37 +287,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🕐 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🌅 Sono le 8 di mattina. Oliver entra al bar di Mario.",
+      "contesto_en": "It is 8 in the morning. Oliver enters Mario's bar.",
       "domanda": {
-        "it": "«Che ore sono?» = ?",
-        "en": "«Che ore sono?» = ?"
+        "it": "Cosa dice Mario a Oliver?",
+        "en": "What does Mario say to Oliver?"
       },
       "opzioni": [
         {
-          "it": "What time is it?",
-          "en": "What time is it?",
-          "emoji": "🕐"
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "🌅"
         },
         {
-          "it": "Today",
-          "en": "Today",
-          "emoji": "📅"
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
         },
         {
-          "it": "Tomorrow",
-          "en": "Tomorrow",
-          "emoji": "📅"
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Che ore sono?!",
-        "en": "Yes! «Che ore sono?»!"
+        "it": "Esatto! Le 8 di mattina → buongiorno!",
+        "en": "Correct! 8 AM → buongiorno!"
       },
       "feedbackErr": {
-        "it": "Che ore sono? = what time is it?!",
-        "en": "«Che ore sono?» = what time is it?!"
+        "it": "Le 8 = la mattina → buongiorno!",
+        "en": "8 AM = morning → buongiorno!"
       }
     },
     {
@@ -327,37 +327,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "📅 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🗓️ Emma vuole fissare un appuntamento con Mario per il giorno successivo.",
+      "contesto_en": "Emma wants an appointment with Mario for the next day.",
       "domanda": {
-        "it": "«Oggi» = ?",
-        "en": "«Oggi» = ?"
+        "it": "Emma dice: ci vediamo ___!",
+        "en": "Emma says: see you ___!"
       },
       "opzioni": [
         {
-          "it": "Today",
-          "en": "Today",
-          "emoji": "📅"
+          "it": "Domani!",
+          "en": "Tomorrow!",
+          "emoji": "🗓️"
         },
         {
-          "it": "What time is it?",
-          "en": "What time is it?",
-          "emoji": "🕐"
+          "it": "Oggi!",
+          "en": "Today!",
+          "emoji": "📆"
         },
         {
-          "it": "Tomorrow",
-          "en": "Tomorrow",
-          "emoji": "📅"
+          "it": "La sera!",
+          "en": "This evening!",
+          "emoji": "🌆"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Oggi!",
-        "en": "Yes! «Oggi»!"
+        "it": "Perfetto! Il giorno successivo → domani!",
+        "en": "Perfect! The next day → domani!"
       },
       "feedbackErr": {
-        "it": "Oggi = today!",
-        "en": "«Oggi» = today!"
+        "it": "Il giorno dopo = domani!",
+        "en": "The next day = domani!"
       }
     }
   ]

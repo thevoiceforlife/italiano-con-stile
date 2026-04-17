@@ -263,18 +263,13 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "🔴 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🍅 Mario mostra un pomodoro a Emma.",
+      "contesto_en": "Mario shows a tomato to Emma.",
       "domanda": {
-        "it": "«Rosso» = ?",
-        "en": "«Rosso» = ?"
+        "it": "Di che colore è il pomodoro?",
+        "en": "What colour is the tomato?"
       },
       "opzioni": [
-        {
-          "it": "Blu",
-          "en": "Blue",
-          "emoji": "🔵"
-        },
         {
           "it": "Rosso",
           "en": "Red",
@@ -284,16 +279,21 @@
           "it": "Verde",
           "en": "Green",
           "emoji": "🟢"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Rosso!",
-        "en": "Yes! «Rosso»!"
+        "it": "Esatto! Il pomodoro è rosso!",
+        "en": "Correct! The tomato is rosso — red!"
       },
       "feedbackErr": {
-        "it": "Rosso = red!",
-        "en": "«Rosso» = red!"
+        "it": "Il pomodoro è rosso! = red!",
+        "en": "The tomato is rosso! = red!"
       }
     },
     {

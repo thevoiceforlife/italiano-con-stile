@@ -287,37 +287,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "2️⃣0️⃣ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🎂 Mario chiede ad Emma: quanti anni hai? Emma ha venticinque anni.",
+      "contesto_en": "Mario asks Emma: how old are you? Emma is twenty-five.",
       "domanda": {
-        "it": "«Venti» = ?",
-        "en": "«Venti» = ?"
+        "it": "Come risponde Emma?",
+        "en": "How does Emma reply?"
       },
       "opzioni": [
         {
-          "it": "Twenty",
-          "en": "Twenty",
-          "emoji": "2️⃣0️⃣"
+          "it": "Ho venticinque anni",
+          "en": "I have twenty-five years",
+          "emoji": "🎂"
         },
         {
-          "it": "One",
-          "en": "One",
-          "emoji": "1️⃣"
+          "it": "Sono venticinque anni",
+          "en": "I am twenty-five years",
+          "emoji": "❌"
         },
         {
-          "it": "Ten",
-          "en": "Ten",
-          "emoji": "🔟"
+          "it": "Vado venticinque anni",
+          "en": "I go twenty-five years",
+          "emoji": "❌"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Venti!",
-        "en": "Yes! «Venti»!"
+        "it": "Esatto! HO venticinque anni!",
+        "en": "Correct! HO venticinque anni — age is HAD!"
       },
       "feedbackErr": {
-        "it": "Venti = twenty!",
-        "en": "«Venti» = twenty!"
+        "it": "HO venticinque anni! Non sono!",
+        "en": "HO venticinque anni! Not sono!"
       }
     },
     {
@@ -327,37 +327,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "1️⃣ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "💶 Il cappuccino costa uno euro e cinquanta. Hans ha due euro.",
+      "contesto_en": "The cappuccino costs one euro fifty. Hans has two euros.",
       "domanda": {
-        "it": "«Uno» = ?",
-        "en": "«Uno» = ?"
+        "it": "Quanti euro di resto riceve Hans?",
+        "en": "How much change does Hans get?"
       },
       "opzioni": [
         {
-          "it": "One",
-          "en": "One",
-          "emoji": "1️⃣"
+          "it": "Cinquanta centesimi",
+          "en": "Fifty cents",
+          "emoji": "🪙"
         },
         {
-          "it": "Twenty",
-          "en": "Twenty",
-          "emoji": "2️⃣0️⃣"
+          "it": "Uno euro",
+          "en": "One euro",
+          "emoji": "💶"
         },
         {
-          "it": "Ten",
-          "en": "Ten",
-          "emoji": "🔟"
+          "it": "Venti centesimi",
+          "en": "Twenty cents",
+          "emoji": "🪙"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Uno!",
-        "en": "Yes! «Uno»!"
+        "it": "Esatto! Due meno uno e cinquanta = cinquanta centesimi!",
+        "en": "Correct! Two minus one fifty = fifty cents!"
       },
       "feedbackErr": {
-        "it": "Uno = one!",
-        "en": "«Uno» = one!"
+        "it": "Due euro − uno e cinquanta = cinquanta centesimi!",
+        "en": "Two euros − one fifty = fifty cents!"
       }
     }
   ]

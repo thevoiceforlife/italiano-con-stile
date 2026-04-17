@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🙋 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "☕ Hans entra al bar. Vuole un caffè. È gentile.",
+      "contesto_en": "Hans enters the bar. He wants a coffee. He is polite.",
       "domanda": {
-        "it": "«Vorrei» = ?",
-        "en": "«Vorrei» = ?"
+        "it": "Cosa dice Hans a Mario?",
+        "en": "What does Hans say to Mario?"
       },
       "opzioni": [
         {
-          "it": "I would like",
-          "en": "I would like",
-          "emoji": "🙋"
+          "it": "Vorrei un caffè!",
+          "en": "I would like a coffee!",
+          "emoji": "☕"
         },
         {
-          "it": "Good",
-          "en": "Good",
-          "emoji": "👍"
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
         },
         {
-          "it": "Delicious",
-          "en": "Delicious",
-          "emoji": "😋"
+          "it": "Quanto costa?",
+          "en": "How much?",
+          "emoji": "💰"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Vorrei!",
-        "en": "Yes! «Vorrei»!"
+        "it": "Esatto! Vuole ordinare → vorrei!",
+        "en": "Correct! Wants to order → vorrei!"
       },
       "feedbackErr": {
-        "it": "Vorrei = i would like!",
-        "en": "«Vorrei» = i would like!"
+        "it": "Vuole ordinare → vorrei!",
+        "en": "Wants to order → vorrei!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "👍 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🍕 Mario porta la pizza a Emma. Emma la assaggia e sorride.",
+      "contesto_en": "Mario brings pizza to Emma. She tastes it and smiles.",
       "domanda": {
-        "it": "«Buono» = ?",
-        "en": "«Buono» = ?"
+        "it": "Cosa dice Emma sulla pizza?",
+        "en": "What does Emma say about the pizza?"
       },
       "opzioni": [
         {
-          "it": "Good",
-          "en": "Good",
-          "emoji": "👍"
+          "it": "Deliziosa!",
+          "en": "Delicious!",
+          "emoji": "😍"
         },
         {
-          "it": "I would like",
-          "en": "I would like",
-          "emoji": "🙋"
+          "it": "Lontana!",
+          "en": "Far!",
+          "emoji": "🔴"
         },
         {
-          "it": "Delicious",
-          "en": "Delicious",
-          "emoji": "😋"
+          "it": "Domani!",
+          "en": "Tomorrow!",
+          "emoji": "🗓️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Buono!",
-        "en": "Yes! «Buono»!"
+        "it": "Bravissima! Le piace → deliziosa!",
+        "en": "Excellent! She likes it → deliziosa!"
       },
       "feedbackErr": {
-        "it": "Buono = good!",
-        "en": "«Buono» = good!"
+        "it": "Le piace → deliziosa!",
+        "en": "She likes it → deliziosa!"
       }
     }
   ],

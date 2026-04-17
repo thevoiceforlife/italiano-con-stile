@@ -272,37 +272,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🥐 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "☕ Hans entra al bar. Vuole un caffè. È gentile.",
+      "contesto_en": "Hans enters the bar. He wants a coffee. He is polite.",
       "domanda": {
-        "it": "«Il cornetto» = ?",
-        "en": "«Il cornetto» = ?"
+        "it": "Cosa dice Hans a Mario?",
+        "en": "What does Hans say to Mario?"
       },
       "opzioni": [
         {
-          "it": "The croissant",
-          "en": "The croissant",
-          "emoji": "🥐"
-        },
-        {
-          "it": "The pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
-        },
-        {
-          "it": "The coffee",
-          "en": "The coffee",
+          "it": "Vorrei un caffè!",
+          "en": "I would like a coffee!",
           "emoji": "☕"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much?",
+          "emoji": "💰"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Il cornetto!",
-        "en": "Yes! «Il cornetto»!"
+        "it": "Esatto! Vuole ordinare → vorrei!",
+        "en": "Correct! Wants to order → vorrei!"
       },
       "feedbackErr": {
-        "it": "Il cornetto = the croissant!",
-        "en": "«Il cornetto» = the croissant!"
+        "it": "Vuole ordinare → vorrei!",
+        "en": "Wants to order → vorrei!"
       }
     },
     {
@@ -312,37 +312,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🍕 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🍕 Mario porta la pizza a Emma. Emma la assaggia e sorride.",
+      "contesto_en": "Mario brings pizza to Emma. She tastes it and smiles.",
       "domanda": {
-        "it": "«La pizza» = ?",
-        "en": "«La pizza» = ?"
+        "it": "Cosa dice Emma sulla pizza?",
+        "en": "What does Emma say about the pizza?"
       },
       "opzioni": [
         {
-          "it": "The pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
+          "it": "Deliziosa!",
+          "en": "Delicious!",
+          "emoji": "😍"
         },
         {
-          "it": "The croissant",
-          "en": "The croissant",
-          "emoji": "🥐"
+          "it": "Lontana!",
+          "en": "Far!",
+          "emoji": "🔴"
         },
         {
-          "it": "The coffee",
-          "en": "The coffee",
-          "emoji": "☕"
+          "it": "Domani!",
+          "en": "Tomorrow!",
+          "emoji": "🗓️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La pizza!",
-        "en": "Yes! «La pizza»!"
+        "it": "Bravissima! Le piace → deliziosa!",
+        "en": "Excellent! She likes it → deliziosa!"
       },
       "feedbackErr": {
-        "it": "La pizza = the pizza!",
-        "en": "«La pizza» = the pizza!"
+        "it": "Le piace → deliziosa!",
+        "en": "She likes it → deliziosa!"
       }
     }
   ],

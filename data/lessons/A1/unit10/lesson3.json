@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "👩 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "👩 Mario parla di sua madre. Lei cucina la pizza napoletana.",
+      "contesto_en": "Mario talks about his mother. She cooks Neapolitan pizza.",
       "domanda": {
-        "it": "«La mamma» = ?",
-        "en": "«La mamma» = ?"
+        "it": "Di chi parla Mario?",
+        "en": "Who is Mario talking about?"
       },
       "opzioni": [
-        {
-          "it": "Il papà",
-          "en": "The dad",
-          "emoji": "👨"
-        },
         {
           "it": "La mamma",
           "en": "The mum",
           "emoji": "👩"
         },
         {
-          "it": "Il fratello",
-          "en": "The brother",
-          "emoji": "👦"
+          "it": "La sorella",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "La nonna",
+          "en": "The grandmother",
+          "emoji": "👴"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La mamma!",
-        "en": "Yes! «La mamma»!"
+        "it": "Esatto! Sua madre → la mamma!",
+        "en": "Correct! His mother → la mamma!"
       },
       "feedbackErr": {
-        "it": "La mamma = the mum!",
-        "en": "«La mamma» = the mum!"
+        "it": "Sua madre = la mamma!",
+        "en": "His mother = la mamma!"
       }
     },
     {

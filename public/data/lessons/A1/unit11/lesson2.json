@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "✨ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🍅 Mario mostra un pomodoro a Emma.",
+      "contesto_en": "Mario shows a tomato to Emma.",
       "domanda": {
-        "it": "«Bello» = ?",
-        "en": "«Bello» = ?"
+        "it": "Di che colore è il pomodoro?",
+        "en": "What colour is the tomato?"
       },
       "opzioni": [
         {
-          "it": "Beautiful",
-          "en": "Beautiful",
-          "emoji": "✨"
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
         },
         {
-          "it": "White",
-          "en": "White",
-          "emoji": "⚪"
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
         },
         {
-          "it": "Black",
-          "en": "Black",
-          "emoji": "⚫"
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Bello!",
-        "en": "Yes! «Bello»!"
+        "it": "Esatto! Il pomodoro è rosso!",
+        "en": "Correct! The tomato is rosso — red!"
       },
       "feedbackErr": {
-        "it": "Bello = beautiful!",
-        "en": "«Bello» = beautiful!"
+        "it": "Il pomodoro è rosso! = red!",
+        "en": "The tomato is rosso! = red!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "⚪ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🌿 Oliver descrive un parco. Gli alberi e l'erba hanno questo colore.",
+      "contesto_en": "Oliver describes a park. The trees and grass have this colour.",
       "domanda": {
-        "it": "«Bianco» = ?",
-        "en": "«Bianco» = ?"
+        "it": "Di che colore sono gli alberi?",
+        "en": "What colour are the trees?"
       },
       "opzioni": [
         {
-          "it": "White",
-          "en": "White",
-          "emoji": "⚪"
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
         },
         {
-          "it": "Beautiful",
-          "en": "Beautiful",
-          "emoji": "✨"
-        },
-        {
-          "it": "Black",
+          "it": "Nero",
           "en": "Black",
-          "emoji": "⚫"
+          "emoji": "⬛"
+        },
+        {
+          "it": "Bianco",
+          "en": "White",
+          "emoji": "⬜"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Bianco!",
-        "en": "Yes! «Bianco»!"
+        "it": "Perfetto! Alberi e erba → verde!",
+        "en": "Perfect! Trees and grass → verde — green!"
       },
       "feedbackErr": {
-        "it": "Bianco = white!",
-        "en": "«Bianco» = white!"
+        "it": "Alberi e erba = verde!",
+        "en": "Trees and grass = verde!"
       }
     }
   ],

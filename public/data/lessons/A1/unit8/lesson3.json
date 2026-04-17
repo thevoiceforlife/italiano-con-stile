@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "🍕 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "☕ Hans entra al bar. Vuole un caffè. È gentile.",
+      "contesto_en": "Hans enters the bar. He wants a coffee. He is polite.",
       "domanda": {
-        "it": "«La pizza» = ?",
-        "en": "«La pizza» = ?"
+        "it": "Cosa dice Hans a Mario?",
+        "en": "What does Hans say to Mario?"
       },
       "opzioni": [
         {
-          "it": "Il caffè",
-          "en": "The coffee",
+          "it": "Vorrei un caffè!",
+          "en": "I would like a coffee!",
           "emoji": "☕"
         },
         {
-          "it": "La pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
         },
         {
-          "it": "Il cornetto",
-          "en": "The croissant",
-          "emoji": "🥐"
+          "it": "Quanto costa?",
+          "en": "How much?",
+          "emoji": "💰"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La pizza!",
-        "en": "Yes! «La pizza»!"
+        "it": "Esatto! Vuole ordinare → vorrei!",
+        "en": "Correct! Wants to order → vorrei!"
       },
       "feedbackErr": {
-        "it": "La pizza = the pizza!",
-        "en": "«La pizza» = the pizza!"
+        "it": "Vuole ordinare → vorrei!",
+        "en": "Wants to order → vorrei!"
       }
     },
     {

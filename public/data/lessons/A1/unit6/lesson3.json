@@ -273,37 +273,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "1️⃣ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🎂 Mario chiede ad Emma: quanti anni hai? Emma ha venticinque anni.",
+      "contesto_en": "Mario asks Emma: how old are you? Emma is twenty-five.",
       "domanda": {
-        "it": "«Uno» = ?",
-        "en": "«Uno» = ?"
+        "it": "Come risponde Emma?",
+        "en": "How does Emma reply?"
       },
       "opzioni": [
         {
-          "it": "Dieci",
-          "en": "Ten",
-          "emoji": "🔟"
+          "it": "Ho venticinque anni",
+          "en": "I have twenty-five years",
+          "emoji": "🎂"
         },
         {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
+          "it": "Sono venticinque anni",
+          "en": "I am twenty-five years",
+          "emoji": "❌"
         },
         {
-          "it": "Venti",
-          "en": "Twenty",
-          "emoji": "2️⃣0️⃣"
+          "it": "Vado venticinque anni",
+          "en": "I go twenty-five years",
+          "emoji": "❌"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Uno!",
-        "en": "Yes! «Uno»!"
+        "it": "Esatto! HO venticinque anni!",
+        "en": "Correct! HO venticinque anni — age is HAD!"
       },
       "feedbackErr": {
-        "it": "Uno = one!",
-        "en": "«Uno» = one!"
+        "it": "HO venticinque anni! Non sono!",
+        "en": "HO venticinque anni! Not sono!"
       }
     },
     {

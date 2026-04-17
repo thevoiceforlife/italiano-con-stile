@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "😊 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "😊 Emma riceve un regalo da Mario. Sorride e salta di gioia.",
+      "contesto_en": "Emma receives a gift from Mario. She smiles and jumps for joy.",
       "domanda": {
-        "it": "«Felice» = ?",
-        "en": "«Felice» = ?"
+        "it": "Come si sente Emma?",
+        "en": "How does Emma feel?"
       },
       "opzioni": [
         {
-          "it": "Triste",
-          "en": "Sad",
-          "emoji": "😢"
-        },
-        {
-          "it": "Felice",
-          "en": "Happy",
+          "it": "Felice!",
+          "en": "Happy!",
           "emoji": "😊"
         },
         {
-          "it": "Stanco",
-          "en": "Tired",
-          "emoji": "😴"
+          "it": "Triste!",
+          "en": "Sad!",
+          "emoji": "😢"
+        },
+        {
+          "it": "Arrabbiata!",
+          "en": "Angry!",
+          "emoji": "😠"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Felice!",
-        "en": "Yes! «Felice»!"
+        "it": "Esatto! Regalo e sorriso → felice!",
+        "en": "Correct! Gift and smile → felice!"
       },
       "feedbackErr": {
-        "it": "Felice = happy!",
-        "en": "«Felice» = happy!"
+        "it": "Sorride → è felice!",
+        "en": "Smiles → è felice!"
       }
     },
     {

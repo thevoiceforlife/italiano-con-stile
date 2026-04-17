@@ -272,37 +272,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "😴 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "😊 Emma riceve un regalo da Mario. Sorride e salta di gioia.",
+      "contesto_en": "Emma receives a gift from Mario. She smiles and jumps for joy.",
       "domanda": {
-        "it": "«Stanco» = ?",
-        "en": "«Stanco» = ?"
+        "it": "Come si sente Emma?",
+        "en": "How does Emma feel?"
       },
       "opzioni": [
         {
-          "it": "Tired",
-          "en": "Tired",
-          "emoji": "😴"
-        },
-        {
-          "it": "Happy",
-          "en": "Happy",
+          "it": "Felice!",
+          "en": "Happy!",
           "emoji": "😊"
         },
         {
-          "it": "Sad",
-          "en": "Sad",
+          "it": "Triste!",
+          "en": "Sad!",
           "emoji": "😢"
+        },
+        {
+          "it": "Arrabbiata!",
+          "en": "Angry!",
+          "emoji": "😠"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Stanco!",
-        "en": "Yes! «Stanco»!"
+        "it": "Esatto! Regalo e sorriso → felice!",
+        "en": "Correct! Gift and smile → felice!"
       },
       "feedbackErr": {
-        "it": "Stanco = tired!",
-        "en": "«Stanco» = tired!"
+        "it": "Sorride → è felice!",
+        "en": "Smiles → è felice!"
       }
     },
     {
@@ -312,37 +312,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "😊 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "😴 Hans lavora tutto il giorno senza pausa. La sera non riesce ad alzarsi.",
+      "contesto_en": "Hans works all day without a break. He cannot get up.",
       "domanda": {
-        "it": "«Felice» = ?",
-        "en": "«Felice» = ?"
+        "it": "Come si sente Hans?",
+        "en": "How does Hans feel?"
       },
       "opzioni": [
         {
-          "it": "Happy",
-          "en": "Happy",
-          "emoji": "😊"
-        },
-        {
-          "it": "Tired",
-          "en": "Tired",
+          "it": "Stanco!",
+          "en": "Tired!",
           "emoji": "😴"
         },
         {
-          "it": "Sad",
-          "en": "Sad",
-          "emoji": "😢"
+          "it": "Felice!",
+          "en": "Happy!",
+          "emoji": "😊"
+        },
+        {
+          "it": "Arrabbiato!",
+          "en": "Angry!",
+          "emoji": "😠"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Felice!",
-        "en": "Yes! «Felice»!"
+        "it": "Esatto! Lavora tutto il giorno → stanco!",
+        "en": "Correct! Works all day → stanco!"
       },
       "feedbackErr": {
-        "it": "Felice = happy!",
-        "en": "«Felice» = happy!"
+        "it": "Lavora senza pausa → stanco!",
+        "en": "Works without break → stanco!"
       }
     }
   ],

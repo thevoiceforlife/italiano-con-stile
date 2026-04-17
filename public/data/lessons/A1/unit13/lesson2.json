@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "💸 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🛒 Emma è al mercato. Vuole comprare pomodori freschi.",
+      "contesto_en": "Emma is at the market. She wants fresh tomatoes.",
       "domanda": {
-        "it": "«Costa troppo» = ?",
-        "en": "«Costa troppo» = ?"
+        "it": "Cosa dice Emma al venditore?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "It costs too much",
-          "en": "It costs too much",
-          "emoji": "💸"
+          "it": "Posso avere i pomodori?",
+          "en": "Can I have the tomatoes?",
+          "emoji": "🛒"
         },
         {
-          "it": "Can I have?",
-          "en": "Can I have?",
-          "emoji": "🙋"
+          "it": "Quanto costa il museo?",
+          "en": "How much is the museum?",
+          "emoji": "🏛️"
         },
         {
-          "it": "The change",
-          "en": "The change",
-          "emoji": "💰"
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Costa troppo!",
-        "en": "Yes! «Costa troppo»!"
+        "it": "Esatto! Al mercato → posso avere?",
+        "en": "Correct! At the market → posso avere?"
       },
       "feedbackErr": {
-        "it": "Costa troppo = it costs too much!",
-        "en": "«Costa troppo» = it costs too much!"
+        "it": "Al mercato si chiede posso avere?",
+        "en": "At the market you ask posso avere?"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "🙋 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "💸 Il venditore chiede 20 euro per un chilo. Emma pensa: troppo!",
+      "contesto_en": "The seller asks 20 euros for a kilo. Emma thinks: too much!",
       "domanda": {
-        "it": "«Posso avere?» = ?",
-        "en": "«Posso avere?» = ?"
+        "it": "Cosa dice Emma?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "Can I have?",
-          "en": "Can I have?",
-          "emoji": "🙋"
-        },
-        {
-          "it": "It costs too much",
-          "en": "It costs too much",
+          "it": "Costa troppo!",
+          "en": "It costs too much!",
           "emoji": "💸"
         },
         {
-          "it": "The change",
-          "en": "The change",
-          "emoji": "💰"
+          "it": "Delizioso!",
+          "en": "Delicious!",
+          "emoji": "😍"
+        },
+        {
+          "it": "Fresco!",
+          "en": "Fresh!",
+          "emoji": "🥬"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Posso avere?!",
-        "en": "Yes! «Posso avere?»!"
+        "it": "Esatto! Troppo caro → costa troppo!",
+        "en": "Correct! Too expensive → costa troppo!"
       },
       "feedbackErr": {
-        "it": "Posso avere? = can i have?!",
-        "en": "«Posso avere?» = can i have?!"
+        "it": "20 euro → costa troppo!",
+        "en": "20 euros → costa troppo!"
       }
     }
   ],

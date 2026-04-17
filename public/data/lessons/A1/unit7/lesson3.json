@@ -273,37 +273,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "📅 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "🌅 Sono le 8 di mattina. Oliver entra al bar di Mario.",
+      "contesto_en": "It is 8 in the morning. Oliver enters Mario's bar.",
       "domanda": {
-        "it": "«Oggi» = ?",
-        "en": "«Oggi» = ?"
+        "it": "Cosa dice Mario a Oliver?",
+        "en": "What does Mario say to Oliver?"
       },
       "opzioni": [
         {
-          "it": "Domani",
-          "en": "Tomorrow",
-          "emoji": "📅"
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "🌅"
         },
         {
-          "it": "Oggi",
-          "en": "Today",
-          "emoji": "📅"
+          "it": "Buonasera!",
+          "en": "Good evening!",
+          "emoji": "🌆"
         },
         {
-          "it": "Che ore sono?",
-          "en": "What time is it?",
-          "emoji": "🕐"
+          "it": "Buonanotte!",
+          "en": "Good night!",
+          "emoji": "🌙"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Oggi!",
-        "en": "Yes! «Oggi»!"
+        "it": "Esatto! Le 8 di mattina → buongiorno!",
+        "en": "Correct! 8 AM → buongiorno!"
       },
       "feedbackErr": {
-        "it": "Oggi = today!",
-        "en": "«Oggi» = today!"
+        "it": "Le 8 = la mattina → buongiorno!",
+        "en": "8 AM = morning → buongiorno!"
       }
     },
     {

@@ -287,37 +287,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "↔️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "⛲ Emma cammina in centro e vede uno spazio aperto con una fontana e tanta gente.",
+      "contesto_en": "Emma walks in the centre and sees an open space with a fountain and many people.",
       "domanda": {
-        "it": "«Accanto a» = ?",
-        "en": "«Accanto a» = ?"
+        "it": "Dove si trova Emma?",
+        "en": "Where is Emma?"
       },
       "opzioni": [
         {
-          "it": "Next to",
-          "en": "Next to",
-          "emoji": "↔️"
+          "it": "In piazza",
+          "en": "In the square",
+          "emoji": "⛲"
         },
         {
-          "it": "In front of",
-          "en": "In front of",
-          "emoji": "👁️"
+          "it": "In chiesa",
+          "en": "At the church",
+          "emoji": "⛪"
         },
         {
-          "it": "Behind",
-          "en": "Behind",
-          "emoji": "👀"
+          "it": "Al museo",
+          "en": "At the museum",
+          "emoji": "🏛️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Accanto a!",
-        "en": "Yes! «Accanto a»!"
+        "it": "Esatto! Spazio aperto con fontana → la piazza!",
+        "en": "Correct! Open space with fountain → the square!"
       },
       "feedbackErr": {
-        "it": "Accanto a = next to!",
-        "en": "«Accanto a» = next to!"
+        "it": "Spazio aperto con fontana → la piazza!",
+        "en": "Open space with fountain → the square!"
       }
     },
     {
@@ -327,37 +327,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "👁️ Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "⛪ Hans sente musica d'organo e vede una cupola con una croce.",
+      "contesto_en": "Hans hears organ music and sees a dome with a cross.",
       "domanda": {
-        "it": "«Di fronte a» = ?",
-        "en": "«Di fronte a» = ?"
+        "it": "Dove si trova Hans?",
+        "en": "Where is Hans?"
       },
       "opzioni": [
         {
-          "it": "In front of",
-          "en": "In front of",
-          "emoji": "👁️"
+          "it": "In chiesa",
+          "en": "At the church",
+          "emoji": "⛪"
         },
         {
-          "it": "Next to",
-          "en": "Next to",
-          "emoji": "↔️"
+          "it": "In piazza",
+          "en": "In the square",
+          "emoji": "⛲"
         },
         {
-          "it": "Behind",
-          "en": "Behind",
-          "emoji": "👀"
+          "it": "Al museo",
+          "en": "At the museum",
+          "emoji": "🏛️"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Di fronte a!",
-        "en": "Yes! «Di fronte a»!"
+        "it": "Perfetto! Organo e croce → la chiesa!",
+        "en": "Perfect! Organ and cross → the church!"
       },
       "feedbackErr": {
-        "it": "Di fronte a = in front of!",
-        "en": "«Di fronte a» = in front of!"
+        "it": "Musica d'organo e croce → la chiesa!",
+        "en": "Organ music and cross → the church!"
       }
     }
   ]

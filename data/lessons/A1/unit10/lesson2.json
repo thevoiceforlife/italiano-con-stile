@@ -277,37 +277,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "👨‍👩‍👧‍👦 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "👩 Mario parla di sua madre. Lei cucina la pizza napoletana.",
+      "contesto_en": "Mario talks about his mother. She cooks Neapolitan pizza.",
       "domanda": {
-        "it": "«La famiglia» = ?",
-        "en": "«La famiglia» = ?"
+        "it": "Di chi parla Mario?",
+        "en": "Who is Mario talking about?"
       },
       "opzioni": [
         {
-          "it": "The family",
-          "en": "The family",
-          "emoji": "👨‍👩‍👧‍👦"
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
         },
         {
-          "it": "The sister",
+          "it": "La sorella",
           "en": "The sister",
           "emoji": "👧"
         },
         {
-          "it": "The grandparents",
-          "en": "The grandparents",
-          "emoji": "👴👵"
+          "it": "La nonna",
+          "en": "The grandmother",
+          "emoji": "👴"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La famiglia!",
-        "en": "Yes! «La famiglia»!"
+        "it": "Esatto! Sua madre → la mamma!",
+        "en": "Correct! His mother → la mamma!"
       },
       "feedbackErr": {
-        "it": "La famiglia = the family!",
-        "en": "«La famiglia» = the family!"
+        "it": "Sua madre = la mamma!",
+        "en": "His mother = la mamma!"
       }
     },
     {
@@ -317,37 +317,37 @@
       "fase": "produzione",
       "introIT": "Situazione!",
       "intro_en": "Situation!",
-      "contesto_it": "👧 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "👨‍👩‍👧‍👦 Emma descrive la sua famiglia: mamma, papà, fratello e sorella.",
+      "contesto_en": "Emma describes her family: mum, dad, brother and sister.",
       "domanda": {
-        "it": "«La sorella» = ?",
-        "en": "«La sorella» = ?"
+        "it": "Quante persone ha la famiglia?",
+        "en": "How many people in the family?"
       },
       "opzioni": [
         {
-          "it": "The sister",
-          "en": "The sister",
-          "emoji": "👧"
-        },
-        {
-          "it": "The family",
-          "en": "The family",
+          "it": "Quattro",
+          "en": "Four",
           "emoji": "👨‍👩‍👧‍👦"
         },
         {
-          "it": "The grandparents",
-          "en": "The grandparents",
-          "emoji": "👴👵"
+          "it": "Due",
+          "en": "Two",
+          "emoji": "👫"
+        },
+        {
+          "it": "Cinque",
+          "en": "Five",
+          "emoji": "👨‍👩‍👧‍👦"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! La sorella!",
-        "en": "Yes! «La sorella»!"
+        "it": "Esatto! Mamma + papà + fratello + sorella = quattro!",
+        "en": "Correct! Four people!"
       },
       "feedbackErr": {
-        "it": "La sorella = the sister!",
-        "en": "«La sorella» = the sister!"
+        "it": "Mamma + papà + fratello + sorella = quattro!",
+        "en": "Four people!"
       }
     }
   ],

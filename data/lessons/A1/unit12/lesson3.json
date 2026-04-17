@@ -263,37 +263,37 @@
       "fase": "produzione",
       "introIT": "Pratica!",
       "intro_en": "Practice!",
-      "contesto_it": "📞 Situazione.",
-      "contesto_en": "Situation.",
+      "contesto_it": "📞 Il telefono squilla. Emma risponde.",
+      "contesto_en": "The phone rings. Emma answers.",
       "domanda": {
-        "it": "«Pronto» = ?",
-        "en": "«Pronto» = ?"
+        "it": "Cosa dice Emma?",
+        "en": "What does Emma say?"
       },
       "opzioni": [
         {
-          "it": "Chi parla?",
-          "en": "Who is speaking?",
-          "emoji": "🗣️"
-        },
-        {
-          "it": "Pronto",
-          "en": "Hello (phone)",
+          "it": "Pronto!",
+          "en": "Hello!",
           "emoji": "📞"
         },
         {
-          "it": "Un momento",
-          "en": "One moment",
-          "emoji": "⏱️"
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
+          "it": "Per favore!",
+          "en": "Please!",
+          "emoji": "🙏"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Pronto!",
-        "en": "Yes! «Pronto»!"
+        "it": "Esatto! Al telefono → pronto!",
+        "en": "Correct! On the phone → pronto!"
       },
       "feedbackErr": {
-        "it": "Pronto = hello (phone)!",
-        "en": "«Pronto» = hello (phone)!"
+        "it": "Al telefono si dice pronto!",
+        "en": "On the phone you say pronto!"
       }
     },
     {
