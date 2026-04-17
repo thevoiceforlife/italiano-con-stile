@@ -92,7 +92,7 @@
           "en": "Far"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -132,7 +132,7 @@
           "emoji": "➡️"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -236,7 +236,7 @@
           "en": "Far"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -272,7 +272,7 @@
           "en": "To the right"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -312,7 +312,7 @@
           "emoji": "🙏"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -381,7 +381,7 @@
           "en": "Near"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Bravissimo!",
         "en": "Excellent!"

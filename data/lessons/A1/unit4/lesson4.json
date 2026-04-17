@@ -109,7 +109,7 @@
           "en": "Straight ahead"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! «A sinistra»!",
         "en": "Perfect! «A sinistra»!"
@@ -145,7 +145,7 @@
           "en": "Near"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! «Dritto»!",
         "en": "Correct! «Dritto»!"
@@ -217,7 +217,7 @@
           "en": "Near"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Esatto! «Vicino» = near!",
         "en": "Correct! «Vicino» = near!"
@@ -253,7 +253,7 @@
           "en": "To the right"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! «Lontano» = far!",
         "en": "Yes! «Lontano» = far!"
@@ -290,7 +290,7 @@
           "en": "To the left"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Prima dritto, poi a destra!",
         "en": "Correct! First straight, then right!"

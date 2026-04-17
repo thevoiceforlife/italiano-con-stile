@@ -131,7 +131,7 @@
           "en": "Straight ahead"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! A sinistra = to the left!",
         "en": "Yes! «A sinistra» = to the left!"
@@ -166,7 +166,7 @@
           "en": "Straight ahead"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Dritto = straight ahead!",
         "en": "Perfect! «Dritto» = straight ahead!"
@@ -235,7 +235,7 @@
           "en": "To the left"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Vai avanti = dritto!",
         "en": "Correct! Go forward = «dritto»!"
@@ -270,7 +270,7 @@
           "en": "To the right!"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! Indica a destra → dice a destra!",
         "en": "Yes! Points right → says «a destra»!"
@@ -310,7 +310,7 @@
           "emoji": "⬅️"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Gira a sinistra → a sinistra!",
         "en": "Perfect! Turn left → «a sinistra»!"
@@ -350,7 +350,7 @@
           "emoji": "⬆️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissima! Gira a destra → a destra!",
         "en": "Excellent! Turn right → «a destra»!"

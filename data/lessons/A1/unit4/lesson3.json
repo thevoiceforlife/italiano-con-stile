@@ -145,7 +145,7 @@
           "en": "It is near"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! 2 minuti = vicino!",
         "en": "Perfect! 2 minutes = «vicino»!"
@@ -218,7 +218,7 @@
           "emoji": "➡️"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! Gira a destra → a destra!",
         "en": "Yes! Turn right → «a destra»!"
@@ -253,7 +253,7 @@
           "en": "Far"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! Non è vicino → è lontano!",
         "en": "Yes! Not near → it is «lontano»!"
@@ -326,7 +326,7 @@
           "emoji": "📌"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Non sa dove → «dov'è»?",
         "en": "Excellent! Does not know where → «dov'è»?"

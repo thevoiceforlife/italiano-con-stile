@@ -67,7 +67,7 @@
           "emoji": "➡️"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -136,7 +136,7 @@
           "en": "To the right"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! «Vicino» = near!",
         "en": "Yes! «Vicino» = near!"
@@ -176,7 +176,7 @@
           "emoji": "⬅️"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Vai avanti = dritto!",
         "en": "Perfect! Go forward = «dritto»!"
@@ -211,7 +211,7 @@
           "en": "It is far"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Esatto! 30 km = lontano!",
         "en": "Correct! 30 km = «lontano»!"
@@ -247,7 +247,7 @@
           "en": "To the left"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! «A sinistra» = to the left!",
         "en": "Yes! «A sinistra» = to the left!"
@@ -287,7 +287,7 @@
           "emoji": "📌"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa!",
         "en": "EXCELLENT! Nonna is proud of you!"

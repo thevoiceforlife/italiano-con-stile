@@ -136,7 +136,7 @@
           "en": "Far"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Vicino = near!",
         "en": "Yes! «Vicino» = near!"
@@ -171,7 +171,7 @@
           "en": "Far"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Lontano = far!",
         "en": "Perfect! «Lontano» = far!"
@@ -239,7 +239,7 @@
           "en": "Near"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! Due minuti = vicino!",
         "en": "Yes! Two minutes = «vicino»!"
@@ -274,7 +274,7 @@
           "en": "Please!"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Non sa dove andare → chiede «dov'è»!",
         "en": "Correct! Does not know where → asks «dov'è»!"
@@ -309,7 +309,7 @@
           "en": "Near"
         }
       ],
-      "correct": 2,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! 5 km = lontano!",
         "en": "Yes! 5 km = «lontano»!"
@@ -349,7 +349,7 @@
           "emoji": "📍"
         }
       ],
-      "correct": 1,
+      "correct": 2,
       "feedbackOk": {
         "it": "Bravissimo! Non sa dove → chiede «dov'è»!",
         "en": "Excellent! Does not know where → asks «dov'è»!"
