@@ -156,7 +156,7 @@ export function salvaProgressi({ tipo, lessonId, corrette, totDomande, lessonRew
   let reward = {};
   // Composite key per multi-unit: "u2-3" o fallback al vecchio formato per unit 1
   const unitNum = parseInt(unita) || 1;
-  function ckey(id) { return unitNum > 1 ? `u${unitNum}-${id}` : id; }
+  function ckey(id) { return `u${unitNum}-${id}`; }
 
   if (tipo === 'lezione') {
     const lid      = typeof lessonId === 'string' ? lessonId : parseInt(lessonId);
