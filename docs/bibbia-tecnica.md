@@ -1264,3 +1264,59 @@ parte IT che EN della stessa domanda.
 - MAI emoji trailing in feedbackOk.en e feedbackErr.en
 - Unica eccezione: emoji standalone come feedback (es. "Correct! 🎉")
   che non hanno corrispondente IT
+
+---
+
+## Regole emerse — Sessione Aprile 2026 (Unit3)
+
+### AUDIO — Regole definitive
+- TTS parla SOLO italiano — mai testo inglese
+- Opzioni multipla/tap_right: `if (optIt && optIt !== optEn) pronounce(optIt)`
+- PersonaggioBubble: sempre `u.lang = "it-IT"` — invariato
+- AbbinaCoppia: 🔊 solo sulla colonna IT, mai sulla colonna EN
+- Il testo EN è sempre silenzioso — l'utente lo legge, non lo ascolta
+
+### EMOJI — Regole definitive
+- Emoji SOLO nei campi IT: domanda.it, contesto_it, intro_it, frase_it
+- MAI in campi EN: domanda.en, contesto_en, intro_en, frase_en, feedbackOk.en, feedbackErr.en
+- Unica eccezione ammessa: emoji di celebrazione SOLO in feedbackOk.it (es. 🎉🏆)
+- Il componente NON deve strippare emoji a runtime — il JSON deve essere pulito alla fonte
+
+### BILINGUE — Regole definitive
+- Parole del vocabolario attivo → restano in italiano nel testo EN + marcate con «»
+  Es: `"en": "What does «per favore» mean?"`
+- Parole di contesto/narrativa non insegnate → sempre tradotte in inglese
+  Es: `"en": "Mario says: two euros."` (due euro non è nel vocab dell'unità)
+- «termine» nel JSON → renderText() converte in <u>termine</u> sottolineato
+
+### VERO_FALSO — Regole definitive
+- MAI usare se la risposta è ovviamente vera (definizione appena insegnata)
+- MAI mettere termini inglesi nella parte italiana della frase
+- Verificare SEMPRE: correct=0 per Vero, correct=1 per Falso
+- PREFERIRE multipla situazionale: "cosa fa X?" con 3 azioni narrative discriminanti
+
+### CORRECT INDEX — Regola definitiva
+- La risposta corretta NON deve essere sempre in posizione 0
+- Distribuzione target per lezione: variare tra 0, 1, 2 senza pattern ripetitivo
+- Pattern consigliato per 3 opzioni: [1, 2, 0, 2, 1, 0, 2, 1, 0, ...]
+- Mai due correct=0 consecutivi nella stessa lezione
+
+### ABBINA_COPPIA — Modalità corrette
+- Classic mode: `{it: "parola IT", en: "traduzione EN"}` — colonna sx IT con 🔊, colonna dx EN senza 🔊
+- Situation mode: aggiunge `situazione_en` e `traduzione_en` — usare solo per abbinamenti contestuali
+- MAI usare situation mode per semplici traduzioni diretta → usa classic mode
+
+### CONTESTO — Regole definitive
+- `tipo_contesto: "falso_amico"` → mostra banner ⚠️ giallo
+- Senza tipo_contesto → contesto normale senza banner
+- contesto_en non deve ripetere l'emoji già presente in contesto_it
+
+### STATO UNIT3 ✅ — Aprile 2026
+- lesson1.json ✅ (Il conto / Quanto costa? / Per favore · Emma)
+- lesson2.json ✅ (Grazie / Prego / Ecco a lei · Hans)
+- lesson3.json ✅ (Pratica · Oliver)
+- lesson4.json ✅ (Ascolto · Emma)
+- lesson5.json ✅ (Speedround · Mario solo)
+- boss.json ✅ (Sfida la Nonna · Vittoria)
+- personaggi.json ✅ (Emma + Hans + Oliver aggiunti)
+- percorso/page.js ✅ (Unit3 visibile nel percorso)
