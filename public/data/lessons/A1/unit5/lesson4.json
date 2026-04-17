@@ -1,0 +1,336 @@
+{
+  "id": "A1-unit5-lesson4",
+  "title": "In giro: luoghi",
+  "title_en": "In giro: luoghi",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di in giro: luoghi",
+      "domanda_en": "The secret of in giro: luoghi",
+      "titolo_it": "In giro: luoghi",
+      "titolo_en": "In giro: luoghi",
+      "corpo_it": "io/tu — il verbo cambia con la persona",
+      "corpo_en": "io/tu — il verbo cambia con la persona",
+      "esempio_it": "🏛️ La piazza · 👁️ Di fronte a",
+      "esempio_en": "The square · In front of"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La piazza",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «La piazza»!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La piazza»!",
+        "en": "It was «La piazza»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La chiesa",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «La chiesa»!",
+        "en": "Yes! «La chiesa»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La chiesa»!",
+        "en": "It was «La chiesa»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il museo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Il museo»!",
+        "en": "Yes! «Il museo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il museo»!",
+        "en": "It was «Il museo»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Di fronte a",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Di fronte a",
+          "en": "In front of"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Di fronte a»!",
+        "en": "Yes! «Di fronte a»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Di fronte a»!",
+        "en": "It was «Di fronte a»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Dietro",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Dietro",
+          "en": "Behind"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Dietro»!",
+        "en": "Yes! «Dietro»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Dietro»!",
+        "en": "It was «Dietro»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Accanto a",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Accanto a",
+          "en": "Next to"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Accanto a»!",
+        "en": "Yes! «Accanto a»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Accanto a»!",
+        "en": "It was «Accanto a»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🏛️ Mario dice: la piazza!",
+      "contesto_en": "Mario says: the square!",
+      "domanda": {
+        "it": "«La piazza» = ?",
+        "en": "«La piazza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «La piazza»!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La piazza»!",
+        "en": "It was «La piazza»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "⛪ Mario dice: la chiesa!",
+      "contesto_en": "Mario says: the church!",
+      "domanda": {
+        "it": "«La chiesa» = ?",
+        "en": "«La chiesa» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «La chiesa»!",
+        "en": "Yes! «La chiesa»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La chiesa»!",
+        "en": "It was «La chiesa»!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit6-lesson1",
+  "title": "I numeri 1-100",
+  "title_en": "I numeri 1-100",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Uno",
+      "en": "One",
+      "emoji": "1️⃣",
+      "audio_text": "Uno",
+      "mario_it": "Uno — one!",
+      "mario_en": "Uno — one!"
+    },
+    {
+      "id": "v2",
+      "it": "Dieci",
+      "en": "Ten",
+      "emoji": "🔟",
+      "audio_text": "Dieci",
+      "mario_it": "Dieci — ten!",
+      "mario_en": "Dieci — ten!"
+    },
+    {
+      "id": "v3",
+      "it": "Venti",
+      "en": "Twenty",
+      "emoji": "2️⃣0️⃣",
+      "audio_text": "Venti",
+      "mario_it": "Venti — twenty!",
+      "mario_en": "Venti — twenty!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di i numeri 1-100",
+      "domanda_en": "The secret of i numeri 1-100",
+      "titolo_it": "I numeri 1-100",
+      "titolo_en": "I numeri 1-100",
+      "corpo_it": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "corpo_en": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "esempio_it": "1️⃣ Uno · 5️⃣0️⃣ Cinquanta",
+      "esempio_en": "One · Fifty"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Uno» significa?",
+        "en": "What does «uno» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Uno = one!",
+        "en": "Correct! «Uno» = one!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Dieci» significa?",
+        "en": "What does «dieci» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Dieci = ten!",
+        "en": "Correct! «Dieci» = ten!"
+      },
+      "feedbackErr": {
+        "it": "Dieci = ten!",
+        "en": "«Dieci» = ten!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Venti» significa?",
+        "en": "What does «venti» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Venti = twenty!",
+        "en": "Correct! «Venti» = twenty!"
+      },
+      "feedbackErr": {
+        "it": "Venti = twenty!",
+        "en": "«Venti» = twenty!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina.",
+        "en": "Match."
+      },
+      "coppie": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Uno» = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Uno!",
+        "en": "Yes! «Uno»!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Dieci» = ?",
+        "en": "«Dieci» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Dieci!",
+        "en": "Yes! «Dieci»!"
+      },
+      "feedbackErr": {
+        "it": "Dieci = ten!",
+        "en": "«Dieci» = ten!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "2️⃣0️⃣ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Venti» = ?",
+        "en": "«Venti» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty",
+          "emoji": "2️⃣0️⃣"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten",
+          "emoji": "🔟"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Venti!",
+        "en": "Yes! «Venti»!"
+      },
+      "feedbackErr": {
+        "it": "Venti = twenty!",
+        "en": "«Venti» = twenty!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "1️⃣ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Uno» = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty",
+          "emoji": "2️⃣0️⃣"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten",
+          "emoji": "🔟"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Uno!",
+        "en": "Yes! «Uno»!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    }
+  ]
+}

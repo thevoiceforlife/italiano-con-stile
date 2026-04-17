@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit9-lesson1",
+  "title": "Descrivere persone",
+  "title_en": "Descrivere persone",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Alto",
+      "en": "Tall",
+      "emoji": "📏",
+      "audio_text": "Alto",
+      "mario_it": "Alto — tall!",
+      "mario_en": "Alto — tall!"
+    },
+    {
+      "id": "v2",
+      "it": "Basso",
+      "en": "Short",
+      "emoji": "📏",
+      "audio_text": "Basso",
+      "mario_it": "Basso — short!",
+      "mario_en": "Basso — short!"
+    },
+    {
+      "id": "v3",
+      "it": "Giovane",
+      "en": "Young",
+      "emoji": "🌱",
+      "audio_text": "Giovane",
+      "mario_it": "Giovane — young!",
+      "mario_en": "Giovane — young!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Alto» significa?",
+        "en": "What does «alto» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Alto = tall!",
+        "en": "Correct! «Alto» = tall!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Basso» significa?",
+        "en": "What does «basso» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Basso = short!",
+        "en": "Correct! «Basso» = short!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Giovane» significa?",
+        "en": "What does «giovane» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Giovane = young!",
+        "en": "Correct! «Giovane» = young!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Alto!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Basso» = ?",
+        "en": "«Basso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Basso!",
+        "en": "Yes! «Basso»!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🌱 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Giovane» = ?",
+        "en": "«Giovane» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Young",
+          "en": "Young",
+          "emoji": "🌱"
+        },
+        {
+          "it": "Short",
+          "en": "Short",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Giovane!",
+        "en": "Yes! «Giovane»!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "📏 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Young",
+          "en": "Young",
+          "emoji": "🌱"
+        },
+        {
+          "it": "Short",
+          "en": "Short",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Alto!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di alto",
+      "domanda_en": "The secret of tall",
+      "titolo_it": "Descrivere persone",
+      "titolo_en": "Descrivere persone",
+      "corpo_it": "Tema: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "corpo_en": "Theme: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "esempio_it": "📏 Alto · 😊 Simpatico",
+      "esempio_en": "Tall · Nice"
+    }
+  ]
+}

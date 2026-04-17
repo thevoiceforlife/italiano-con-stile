@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit8-lesson3",
+  "title": "Pratica — Il cibo napoletano",
+  "title_en": "Il cibo napoletano",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🍕 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La pizza» = ?",
+        "en": "«La pizza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant",
+          "emoji": "🥐"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! La pizza!",
+        "en": "Yes! «La pizza»!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Il caffè!",
+        "en": "Yes! «Il caffè»!"
+      },
+      "feedbackErr": {
+        "it": "Il caffè = the coffee!",
+        "en": "«Il caffè» = the coffee!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Il cornetto» = ?",
+        "en": "«Il cornetto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il cornetto!",
+        "en": "Yes! «Il cornetto»!"
+      },
+      "feedbackErr": {
+        "it": "Il cornetto = the croissant!",
+        "en": "«Il cornetto» = the croissant!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "👍 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Buono» = ?",
+        "en": "«Buono» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Buono",
+          "en": "Good",
+          "emoji": "👍"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Buono!",
+        "en": "Yes! «Buono»!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Delizioso",
+          "en": "Delicious"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Delizioso!",
+        "en": "Yes! «Delizioso»!"
+      },
+      "feedbackErr": {
+        "it": "Delizioso = delicious!",
+        "en": "«Delizioso» = delicious!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Vorrei» = ?",
+        "en": "«Vorrei» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Vorrei",
+          "en": "I would like"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Vorrei!",
+        "en": "Yes! «Vorrei»!"
+      },
+      "feedbackErr": {
+        "it": "Vorrei = i would like!",
+        "en": "«Vorrei» = i would like!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🍕 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La pizza» = ?",
+        "en": "«La pizza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant",
+          "emoji": "🥐"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La pizza!",
+        "en": "Yes! «La pizza»!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il caffè!",
+        "en": "Yes! «Il caffè»!"
+      },
+      "feedbackErr": {
+        "it": "Il caffè = the coffee!",
+        "en": "«Il caffè» = the coffee!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la pizza",
+      "domanda_en": "The secret of the pizza",
+      "titolo_it": "Il cibo napoletano",
+      "titolo_en": "Il cibo napoletano",
+      "corpo_it": "Tema: Il cibo napoletano. Genere: il/la — ogni parola è maschio o femmina",
+      "corpo_en": "Theme: Il cibo napoletano. Genere: il/la — ogni parola è maschio o femmina",
+      "esempio_it": "🍕 La pizza · 👍 Buono",
+      "esempio_en": "The pizza · Good"
+    }
+  ]
+}

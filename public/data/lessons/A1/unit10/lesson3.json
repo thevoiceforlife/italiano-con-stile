@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit10-lesson3",
+  "title": "Pratica — La famiglia",
+  "title_en": "La famiglia",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "👩 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother",
+          "emoji": "👦"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! La mamma!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Il papà!",
+        "en": "Yes! «Il papà»!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Il fratello» = ?",
+        "en": "«Il fratello» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il fratello!",
+        "en": "Yes! «Il fratello»!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "👧 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La sorella» = ?",
+        "en": "«La sorella» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La sorella",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La sorella!",
+        "en": "Yes! «La sorella»!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "I nonni",
+          "en": "The grandparents"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! I nonni!",
+        "en": "Yes! «I nonni»!"
+      },
+      "feedbackErr": {
+        "it": "I nonni = the grandparents!",
+        "en": "«I nonni» = the grandparents!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«La famiglia» = ?",
+        "en": "«La famiglia» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "La famiglia",
+          "en": "The family"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! La famiglia!",
+        "en": "Yes! «La famiglia»!"
+      },
+      "feedbackErr": {
+        "it": "La famiglia = the family!",
+        "en": "«La famiglia» = the family!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "👩 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother",
+          "emoji": "👦"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La mamma!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il papà!",
+        "en": "Yes! «Il papà»!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la mamma",
+      "domanda_en": "The secret of the mum",
+      "titolo_it": "La famiglia",
+      "titolo_en": "La famiglia",
+      "corpo_it": "Tema: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "corpo_en": "Theme: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "esempio_it": "👩 La mamma · 👧 La sorella",
+      "esempio_en": "The mum · The sister"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit10-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "👩 La Nonna mostra la mamma.",
+      "contesto_en": "Nonna shows the mum.",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother",
+          "emoji": "👦"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Il papà» = ?",
+        "en": "«Il papà» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Il fratello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "👧 La Nonna mostra la sorella.",
+      "contesto_en": "Nonna shows the sister.",
+      "domanda": {
+        "it": "«La sorella» = ?",
+        "en": "«La sorella» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La sorella",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«I nonni» = ?",
+        "en": "«I nonni» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "I nonni = the grandparents!",
+        "en": "«I nonni» = the grandparents!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "La famiglia",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "La famiglia",
+          "en": "The family"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "La famiglia = the family!",
+        "en": "«La famiglia» = the family!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "👩 La Nonna mostra la mamma.",
+      "contesto_en": "Nonna shows the mum.",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother",
+          "emoji": "👦"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    }
+  ]
+}

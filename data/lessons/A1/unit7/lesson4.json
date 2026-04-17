@@ -1,0 +1,336 @@
+{
+  "id": "A1-unit7-lesson4",
+  "title": "Giorni e orari",
+  "title_en": "Giorni e orari",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di giorni e orari",
+      "domanda_en": "The secret of giorni e orari",
+      "titolo_it": "Giorni e orari",
+      "titolo_en": "Giorni e orari",
+      "corpo_it": "ESSERE base: sono le tre, è l'una",
+      "corpo_en": "ESSERE base: sono le tre, è l'una",
+      "esempio_it": "📅 Oggi · 🌅 La mattina",
+      "esempio_en": "Today · The morning"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Oggi",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Oggi»!",
+        "en": "Yes! «Oggi»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Oggi»!",
+        "en": "It was «Oggi»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Domani",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Oggi",
+          "en": "Today"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Domani»!",
+        "en": "Yes! «Domani»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Domani»!",
+        "en": "It was «Domani»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Che ore sono?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Che ore sono?»!",
+        "en": "Yes! «Che ore sono?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Che ore sono?»!",
+        "en": "It was «Che ore sono?»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La mattina",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mattina",
+          "en": "The morning"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Oggi",
+          "en": "Today"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «La mattina»!",
+        "en": "Yes! «La mattina»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La mattina»!",
+        "en": "It was «La mattina»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il pomeriggio",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il pomeriggio",
+          "en": "The afternoon"
+        },
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Il pomeriggio»!",
+        "en": "Yes! «Il pomeriggio»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il pomeriggio»!",
+        "en": "It was «Il pomeriggio»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La sera",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "La sera",
+          "en": "The evening"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «La sera»!",
+        "en": "Yes! «La sera»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La sera»!",
+        "en": "It was «La sera»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "📅 Mario dice: oggi!",
+      "contesto_en": "Mario says: today!",
+      "domanda": {
+        "it": "«Oggi» = ?",
+        "en": "«Oggi» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Oggi»!",
+        "en": "Yes! «Oggi»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Oggi»!",
+        "en": "It was «Oggi»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "📅 Mario dice: domani!",
+      "contesto_en": "Mario says: tomorrow!",
+      "domanda": {
+        "it": "«Domani» = ?",
+        "en": "«Domani» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Domani»!",
+        "en": "Yes! «Domani»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Domani»!",
+        "en": "It was «Domani»!"
+      }
+    }
+  ]
+}

@@ -1544,3 +1544,16 @@ Prima di scrivere ogni unità con struttura grammaticale:
 [ ] Le altre 7 domande hanno feedback celebrativi senza grammatica?
 [ ] Il termine tecnico è sempre accompagnato da spiegazione immediata?
 
+
+### STATO UNIT5-15 ✅ — Aprile 2026
+- Unit5  ✅ In giro: luoghi (piazza/chiesa/museo + di fronte/dietro/accanto · io/tu)
+- Unit6  ✅ I numeri (uno/dieci/venti/cinquanta/cento/quanti · AVERE età)
+- Unit7  ✅ Giorni e orari (oggi/domani/che ore sono/mattina/pomeriggio/sera · ESSERE)
+- Unit8  ✅ Il cibo napoletano (pizza/caffè/cornetto/buono/delizioso/vorrei · genere)
+- Unit9  ✅ Descrivere persone (alto/basso/giovane/simpatico/come sei/capelli · lui/lei)
+- Unit10 ✅ La famiglia (mamma/papà/fratello/sorella/nonni/famiglia · plurale)
+- Unit11 ✅ I colori (rosso/blu/verde/bianco/nero/bello · noi/voi)
+- Unit12 ✅ Al telefono (pronto/chi parla/un momento/richiamare/numero/messaggio · loro)
+- Unit13 ✅ Fare la spesa (mercato/chilo/fresco/posso avere/resto/costa troppo · articoli)
+- Unit14 ✅ Il tempo (fa caldo/freddo/piove/c'è il sole/che tempo fa/nuvoloso · accordo)
+- Unit15 ✅ Le emozioni (felice/triste/stanco/arrabbiato/come stai/sto bene · riflessivi)

@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit12-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "📞 La Nonna mostra pronto.",
+      "contesto_en": "Nonna shows hello (phone).",
+      "domanda": {
+        "it": "«Pronto» = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment",
+          "emoji": "⏱️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Chi parla?» = ?",
+        "en": "«Chi parla?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Chi parla? = who is speaking?!",
+        "en": "«Chi parla?» = who is speaking?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Un momento",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Un momento = one moment!",
+        "en": "«Un momento» = one moment!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "📱 La Nonna mostra richiamare.",
+      "contesto_en": "Nonna shows to call back.",
+      "domanda": {
+        "it": "«Richiamare» = ?",
+        "en": "«Richiamare» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Richiamare",
+          "en": "To call back",
+          "emoji": "📱"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Il numero» = ?",
+        "en": "«Il numero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The number",
+          "en": "The number"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il numero = the number!",
+        "en": "«Il numero» = the number!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Il messaggio",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Il messaggio",
+          "en": "The message"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il messaggio = the message!",
+        "en": "«Il messaggio» = the message!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "📞 La Nonna mostra pronto.",
+      "contesto_en": "Nonna shows hello (phone).",
+      "domanda": {
+        "it": "«Pronto» = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment",
+          "emoji": "⏱️"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    }
+  ]
+}

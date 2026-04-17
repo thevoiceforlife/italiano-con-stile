@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit8-lesson2",
+  "title": "Il cibo napoletano",
+  "title_en": "Il cibo napoletano",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Buono",
+      "en": "Good",
+      "emoji": "👍",
+      "audio_text": "Buono",
+      "mario_it": "Buono — good!",
+      "mario_en": "Buono — good!"
+    },
+    {
+      "id": "v5",
+      "it": "Delizioso",
+      "en": "Delicious",
+      "emoji": "😋",
+      "audio_text": "Delizioso",
+      "mario_it": "Delizioso — delicious!",
+      "mario_en": "Delizioso — delicious!"
+    },
+    {
+      "id": "v6",
+      "it": "Vorrei",
+      "en": "I would like",
+      "emoji": "🙋",
+      "audio_text": "Vorrei",
+      "mario_it": "Vorrei — i would like!",
+      "mario_en": "Vorrei — i would like!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Buono» significa?",
+        "en": "What does «buono» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Good",
+          "en": "Good"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Buono = good!",
+        "en": "Correct! «Buono» = good!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Delizioso» significa?",
+        "en": "What does «delizioso» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like"
+        },
+        {
+          "it": "Good",
+          "en": "Good"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Delizioso = delicious!",
+        "en": "Correct! «Delizioso» = delicious!"
+      },
+      "feedbackErr": {
+        "it": "Delizioso = delicious!",
+        "en": "«Delizioso» = delicious!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Vorrei» significa?",
+        "en": "What does «vorrei» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Good",
+          "en": "Good"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Vorrei = i would like!",
+        "en": "Correct! «Vorrei» = i would like!"
+      },
+      "feedbackErr": {
+        "it": "Vorrei = i would like!",
+        "en": "«Vorrei» = i would like!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Buono",
+          "en": "Good"
+        },
+        {
+          "it": "Delizioso",
+          "en": "Delicious"
+        },
+        {
+          "it": "Vorrei",
+          "en": "I would like"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Buono» = ?",
+        "en": "«Buono» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Good",
+          "en": "Good"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Buono!",
+        "en": "Yes! «Buono»!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Delizioso» = ?",
+        "en": "«Delizioso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        },
+        {
+          "it": "Good",
+          "en": "Good"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Delizioso!",
+        "en": "Yes! «Delizioso»!"
+      },
+      "feedbackErr": {
+        "it": "Delizioso = delicious!",
+        "en": "«Delizioso» = delicious!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🙋 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Vorrei» = ?",
+        "en": "«Vorrei» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Good",
+          "en": "Good",
+          "emoji": "👍"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like",
+          "emoji": "🙋"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious",
+          "emoji": "😋"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Vorrei!",
+        "en": "Yes! «Vorrei»!"
+      },
+      "feedbackErr": {
+        "it": "Vorrei = i would like!",
+        "en": "«Vorrei» = i would like!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👍 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Buono» = ?",
+        "en": "«Buono» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Good",
+          "en": "Good",
+          "emoji": "👍"
+        },
+        {
+          "it": "I would like",
+          "en": "I would like",
+          "emoji": "🙋"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious",
+          "emoji": "😋"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Buono!",
+        "en": "Yes! «Buono»!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la pizza",
+      "domanda_en": "The secret of the pizza",
+      "titolo_it": "Il cibo napoletano",
+      "titolo_en": "Il cibo napoletano",
+      "corpo_it": "Tema: Il cibo napoletano. Genere: il/la — ogni parola è maschio o femmina",
+      "corpo_en": "Theme: Il cibo napoletano. Genere: il/la — ogni parola è maschio o femmina",
+      "esempio_it": "🍕 La pizza · 👍 Buono",
+      "esempio_en": "The pizza · Good"
+    }
+  ]
+}

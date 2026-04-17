@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit11-lesson1",
+  "title": "I colori e aggettivi",
+  "title_en": "I colori e aggettivi",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Rosso",
+      "en": "Red",
+      "emoji": "🔴",
+      "audio_text": "Rosso",
+      "mario_it": "Rosso — red!",
+      "mario_en": "Rosso — red!"
+    },
+    {
+      "id": "v2",
+      "it": "Blu",
+      "en": "Blue",
+      "emoji": "🔵",
+      "audio_text": "Blu",
+      "mario_it": "Blu — blue!",
+      "mario_en": "Blu — blue!"
+    },
+    {
+      "id": "v3",
+      "it": "Verde",
+      "en": "Green",
+      "emoji": "🟢",
+      "audio_text": "Verde",
+      "mario_it": "Verde — green!",
+      "mario_en": "Verde — green!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Rosso» significa?",
+        "en": "What does «rosso» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Rosso = red!",
+        "en": "Correct! «Rosso» = red!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Blu» significa?",
+        "en": "What does «blu» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Blu = blue!",
+        "en": "Correct! «Blu» = blue!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Verde» significa?",
+        "en": "What does «verde» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Verde = green!",
+        "en": "Correct! «Verde» = green!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Rosso!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Blu» = ?",
+        "en": "«Blu» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Blu!",
+        "en": "Yes! «Blu»!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🟢 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Verde» = ?",
+        "en": "«Verde» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Green",
+          "en": "Green",
+          "emoji": "🟢"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue",
+          "emoji": "🔵"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Verde!",
+        "en": "Yes! «Verde»!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🔴 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Green",
+          "en": "Green",
+          "emoji": "🟢"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue",
+          "emoji": "🔵"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Rosso!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di rosso",
+      "domanda_en": "The secret of red",
+      "titolo_it": "I colori e aggettivi",
+      "titolo_en": "I colori e aggettivi",
+      "corpo_it": "Tema: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "corpo_en": "Theme: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "esempio_it": "🔴 Rosso · ⚪ Bianco",
+      "esempio_en": "Red · White"
+    }
+  ]
+}

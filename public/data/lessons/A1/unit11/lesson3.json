@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit11-lesson3",
+  "title": "Pratica — I colori e aggettivi",
+  "title_en": "I colori e aggettivi",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🔴 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Rosso!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Blu!",
+        "en": "Yes! «Blu»!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Verde» = ?",
+        "en": "«Verde» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Verde!",
+        "en": "Yes! «Verde»!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "⚪ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Bianco» = ?",
+        "en": "«Bianco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Bianco",
+          "en": "White",
+          "emoji": "⚪"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Bianco!",
+        "en": "Yes! «Bianco»!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Nero",
+          "en": "Black"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Nero!",
+        "en": "Yes! «Nero»!"
+      },
+      "feedbackErr": {
+        "it": "Nero = black!",
+        "en": "«Nero» = black!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Bello» = ?",
+        "en": "«Bello» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Bello",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Bello!",
+        "en": "Yes! «Bello»!"
+      },
+      "feedbackErr": {
+        "it": "Bello = beautiful!",
+        "en": "«Bello» = beautiful!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🔴 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Rosso!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Blu!",
+        "en": "Yes! «Blu»!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di rosso",
+      "domanda_en": "The secret of red",
+      "titolo_it": "I colori e aggettivi",
+      "titolo_en": "I colori e aggettivi",
+      "corpo_it": "Tema: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "corpo_en": "Theme: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "esempio_it": "🔴 Rosso · ⚪ Bianco",
+      "esempio_en": "Red · White"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit15-lesson1",
+  "title": "Le emozioni base",
+  "title_en": "Le emozioni base",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Felice",
+      "en": "Happy",
+      "emoji": "😊",
+      "audio_text": "Felice",
+      "mario_it": "Felice — happy!",
+      "mario_en": "Felice — happy!"
+    },
+    {
+      "id": "v2",
+      "it": "Triste",
+      "en": "Sad",
+      "emoji": "😢",
+      "audio_text": "Triste",
+      "mario_it": "Triste — sad!",
+      "mario_en": "Triste — sad!"
+    },
+    {
+      "id": "v3",
+      "it": "Stanco",
+      "en": "Tired",
+      "emoji": "😴",
+      "audio_text": "Stanco",
+      "mario_it": "Stanco — tired!",
+      "mario_en": "Stanco — tired!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Felice» significa?",
+        "en": "What does «felice» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Felice = happy!",
+        "en": "Correct! «Felice» = happy!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Triste» significa?",
+        "en": "What does «triste» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Triste = sad!",
+        "en": "Correct! «Triste» = sad!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Stanco» significa?",
+        "en": "What does «stanco» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Stanco = tired!",
+        "en": "Correct! «Stanco» = tired!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Felice!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Triste» = ?",
+        "en": "«Triste» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Triste!",
+        "en": "Yes! «Triste»!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "😴 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Stanco» = ?",
+        "en": "«Stanco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired",
+          "emoji": "😴"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad",
+          "emoji": "😢"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Stanco!",
+        "en": "Yes! «Stanco»!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired",
+          "emoji": "😴"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad",
+          "emoji": "😢"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Felice!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di felice",
+      "domanda_en": "The secret of happy",
+      "titolo_it": "Le emozioni base",
+      "titolo_en": "Le emozioni base",
+      "corpo_it": "Tema: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "corpo_en": "Theme: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "esempio_it": "😊 Felice · 😠 Arrabbiato",
+      "esempio_en": "Happy · Angry"
+    }
+  ]
+}

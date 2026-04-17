@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit9-lesson2",
+  "title": "Descrivere persone",
+  "title_en": "Descrivere persone",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Simpatico",
+      "en": "Nice",
+      "emoji": "😊",
+      "audio_text": "Simpatico",
+      "mario_it": "Simpatico — nice!",
+      "mario_en": "Simpatico — nice!"
+    },
+    {
+      "id": "v5",
+      "it": "Come sei?",
+      "en": "What are you like?",
+      "emoji": "🪞",
+      "audio_text": "Come sei?",
+      "mario_it": "Come sei? — what are you like?!",
+      "mario_en": "Come sei? — what are you like?!"
+    },
+    {
+      "id": "v6",
+      "it": "I capelli",
+      "en": "The hair",
+      "emoji": "💇",
+      "audio_text": "I capelli",
+      "mario_it": "I capelli — the hair!",
+      "mario_en": "I capelli — the hair!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Simpatico» significa?",
+        "en": "What does «simpatico» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Nice",
+          "en": "Nice"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Simpatico = nice!",
+        "en": "Correct! «Simpatico» = nice!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Come sei?» significa?",
+        "en": "What does «come sei?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair"
+        },
+        {
+          "it": "Nice",
+          "en": "Nice"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Come sei? = what are you like?!",
+        "en": "Correct! «Come sei?» = what are you like?!"
+      },
+      "feedbackErr": {
+        "it": "Come sei? = what are you like?!",
+        "en": "«Come sei?» = what are you like?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«I capelli» significa?",
+        "en": "What does «i capelli» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Nice",
+          "en": "Nice"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! I capelli = the hair!",
+        "en": "Correct! «I capelli» = the hair!"
+      },
+      "feedbackErr": {
+        "it": "I capelli = the hair!",
+        "en": "«I capelli» = the hair!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Simpatico",
+          "en": "Nice"
+        },
+        {
+          "it": "Come sei?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "I capelli",
+          "en": "The hair"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Simpatico» = ?",
+        "en": "«Simpatico» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Nice",
+          "en": "Nice"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Simpatico!",
+        "en": "Yes! «Simpatico»!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Come sei?» = ?",
+        "en": "«Come sei?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "Nice",
+          "en": "Nice"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Come sei?!",
+        "en": "Yes! «Come sei?»!"
+      },
+      "feedbackErr": {
+        "it": "Come sei? = what are you like?!",
+        "en": "«Come sei?» = what are you like?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "💇 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«I capelli» = ?",
+        "en": "«I capelli» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Nice",
+          "en": "Nice",
+          "emoji": "😊"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair",
+          "emoji": "💇"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?",
+          "emoji": "🪞"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! I capelli!",
+        "en": "Yes! «I capelli»!"
+      },
+      "feedbackErr": {
+        "it": "I capelli = the hair!",
+        "en": "«I capelli» = the hair!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Simpatico» = ?",
+        "en": "«Simpatico» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Nice",
+          "en": "Nice",
+          "emoji": "😊"
+        },
+        {
+          "it": "The hair",
+          "en": "The hair",
+          "emoji": "💇"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?",
+          "emoji": "🪞"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Simpatico!",
+        "en": "Yes! «Simpatico»!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di alto",
+      "domanda_en": "The secret of tall",
+      "titolo_it": "Descrivere persone",
+      "titolo_en": "Descrivere persone",
+      "corpo_it": "Tema: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "corpo_en": "Theme: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "esempio_it": "📏 Alto · 😊 Simpatico",
+      "esempio_en": "Tall · Nice"
+    }
+  ]
+}

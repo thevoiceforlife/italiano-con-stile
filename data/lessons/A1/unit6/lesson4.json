@@ -1,0 +1,336 @@
+{
+  "id": "A1-unit6-lesson4",
+  "title": "I numeri 1-100",
+  "title_en": "I numeri 1-100",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di i numeri 1-100",
+      "domanda_en": "The secret of i numeri 1-100",
+      "titolo_it": "I numeri 1-100",
+      "titolo_en": "I numeri 1-100",
+      "corpo_it": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "corpo_en": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "esempio_it": "1️⃣ Uno · 5️⃣0️⃣ Cinquanta",
+      "esempio_en": "One · Fifty"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Uno",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Uno»!",
+        "en": "Yes! «Uno»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Uno»!",
+        "en": "It was «Uno»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Dieci",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Uno",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Dieci»!",
+        "en": "Yes! «Dieci»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Dieci»!",
+        "en": "It was «Dieci»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Venti",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Venti»!",
+        "en": "Yes! «Venti»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Venti»!",
+        "en": "It was «Venti»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Cinquanta",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Cinquanta",
+          "en": "Fifty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Uno",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Cinquanta»!",
+        "en": "Yes! «Cinquanta»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Cinquanta»!",
+        "en": "It was «Cinquanta»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Cento",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Cento",
+          "en": "One hundred"
+        },
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Cento»!",
+        "en": "Yes! «Cento»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Cento»!",
+        "en": "It was «Cento»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Quanti?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Quanti?",
+          "en": "How many?"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Quanti?»!",
+        "en": "Yes! «Quanti?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Quanti?»!",
+        "en": "It was «Quanti?»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "1️⃣ Mario dice: uno!",
+      "contesto_en": "Mario says: one!",
+      "domanda": {
+        "it": "«Uno» = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Uno»!",
+        "en": "Yes! «Uno»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Uno»!",
+        "en": "It was «Uno»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🔟 Mario dice: dieci!",
+      "contesto_en": "Mario says: ten!",
+      "domanda": {
+        "it": "«Dieci» = ?",
+        "en": "«Dieci» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Dieci»!",
+        "en": "Yes! «Dieci»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Dieci»!",
+        "en": "It was «Dieci»!"
+      }
+    }
+  ]
+}

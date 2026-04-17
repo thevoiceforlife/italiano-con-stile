@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit13-lesson1",
+  "title": "Fare la spesa",
+  "title_en": "Fare la spesa",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Il mercato",
+      "en": "The market",
+      "emoji": "🛒",
+      "audio_text": "Il mercato",
+      "mario_it": "Il mercato — the market!",
+      "mario_en": "Il mercato — the market!"
+    },
+    {
+      "id": "v2",
+      "it": "Un chilo",
+      "en": "A kilo",
+      "emoji": "⚖️",
+      "audio_text": "Un chilo",
+      "mario_it": "Un chilo — a kilo!",
+      "mario_en": "Un chilo — a kilo!"
+    },
+    {
+      "id": "v3",
+      "it": "Fresco",
+      "en": "Fresh",
+      "emoji": "🌿",
+      "audio_text": "Fresco",
+      "mario_it": "Fresco — fresh!",
+      "mario_en": "Fresco — fresh!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Il mercato» significa?",
+        "en": "What does «il mercato» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Il mercato = the market!",
+        "en": "Correct! «Il mercato» = the market!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Un chilo» significa?",
+        "en": "What does «un chilo» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Un chilo = a kilo!",
+        "en": "Correct! «Un chilo» = a kilo!"
+      },
+      "feedbackErr": {
+        "it": "Un chilo = a kilo!",
+        "en": "«Un chilo» = a kilo!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Fresco» significa?",
+        "en": "What does «fresco» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Fresco = fresh!",
+        "en": "Correct! «Fresco» = fresh!"
+      },
+      "feedbackErr": {
+        "it": "Fresco = fresh!",
+        "en": "«Fresco» = fresh!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Il mercato!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Un chilo» = ?",
+        "en": "«Un chilo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Un chilo!",
+        "en": "Yes! «Un chilo»!"
+      },
+      "feedbackErr": {
+        "it": "Un chilo = a kilo!",
+        "en": "«Un chilo» = a kilo!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🌿 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Fresco» = ?",
+        "en": "«Fresco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The market",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh",
+          "emoji": "🌿"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Fresco!",
+        "en": "Yes! «Fresco»!"
+      },
+      "feedbackErr": {
+        "it": "Fresco = fresh!",
+        "en": "«Fresco» = fresh!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🛒 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The market",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh",
+          "emoji": "🌿"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Il mercato!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di il mercato",
+      "domanda_en": "The secret of the market",
+      "titolo_it": "Fare la spesa",
+      "titolo_en": "Fare la spesa",
+      "corpo_it": "Tema: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "corpo_en": "Theme: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "esempio_it": "🛒 Il mercato · 🙋 Posso avere?",
+      "esempio_en": "The market · Can I have?"
+    }
+  ]
+}

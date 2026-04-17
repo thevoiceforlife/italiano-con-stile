@@ -1,0 +1,293 @@
+{
+  "id": "A1-unit7-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato",
+        "nomeEN": "Gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà",
+        "nomeEN": "Babà"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "contesto_it": "📅 La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«Oggi» = ?",
+        "en": "«Oggi» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?",
+          "emoji": "🕐"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Oggi = today!",
+        "en": "«Oggi» = today!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "domanda": {
+        "it": "«Domani» = ?",
+        "en": "«Domani» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Today",
+          "en": "Today"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Domani = tomorrow!",
+        "en": "«Domani» = tomorrow!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "audio": "Che ore sono?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Che ore sono? = what time is it?!",
+        "en": "«Che ore sono?» = what time is it?!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "contesto_it": "🌅 La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«La mattina» = ?",
+        "en": "«La mattina» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mattina",
+          "en": "The morning",
+          "emoji": "🌅"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        },
+        {
+          "it": "Oggi",
+          "en": "Today",
+          "emoji": "📅"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "La mattina = the morning!",
+        "en": "«La mattina» = the morning!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "domanda": {
+        "it": "«Il pomeriggio» = ?",
+        "en": "«Il pomeriggio» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        },
+        {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Il pomeriggio = the afternoon!",
+        "en": "«Il pomeriggio» = the afternoon!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "audio": "La sera",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "La sera",
+          "en": "The evening"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "La sera = the evening!",
+        "en": "«La sera» = the evening!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima!",
+      "intro_en": "Last one!",
+      "contesto_it": "📅 La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«Oggi» = ?",
+        "en": "«Oggi» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Oggi",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?",
+          "emoji": "🕐"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO!",
+        "en": "EXCELLENT!"
+      },
+      "feedbackErr": {
+        "it": "Oggi = today!",
+        "en": "«Oggi» = today!"
+      }
+    }
+  ]
+}

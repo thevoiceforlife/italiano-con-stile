@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit15-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "😊 La Nonna mostra felice.",
+      "contesto_en": "Nonna shows happy.",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired",
+          "emoji": "😴"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Triste» = ?",
+        "en": "«Triste» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Stanco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "😠 La Nonna mostra arrabbiato.",
+      "contesto_en": "Nonna shows angry.",
+      "domanda": {
+        "it": "«Arrabbiato» = ?",
+        "en": "«Arrabbiato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry",
+          "emoji": "😠"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Come stai?» = ?",
+        "en": "«Come stai?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Come stai? = how are you?!",
+        "en": "«Come stai?» = how are you?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Sto bene",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Sto bene",
+          "en": "I am fine"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Sto bene = i am fine!",
+        "en": "«Sto bene» = i am fine!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "😊 La Nonna mostra felice.",
+      "contesto_en": "Nonna shows happy.",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired",
+          "emoji": "😴"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    }
+  ]
+}

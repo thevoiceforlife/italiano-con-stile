@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit8-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "🍕 La Nonna mostra la pizza.",
+      "contesto_en": "Nonna shows the pizza.",
+      "domanda": {
+        "it": "«La pizza» = ?",
+        "en": "«La pizza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant",
+          "emoji": "🥐"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Il caffè» = ?",
+        "en": "«Il caffè» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        },
+        {
+          "it": "The croissant",
+          "en": "The croissant"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il caffè = the coffee!",
+        "en": "«Il caffè» = the coffee!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Il cornetto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il cornetto = the croissant!",
+        "en": "«Il cornetto» = the croissant!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "👍 La Nonna mostra buono.",
+      "contesto_en": "Nonna shows good.",
+      "domanda": {
+        "it": "«Buono» = ?",
+        "en": "«Buono» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Buono",
+          "en": "Good",
+          "emoji": "👍"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Delizioso» = ?",
+        "en": "«Delizioso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Delizioso = delicious!",
+        "en": "«Delizioso» = delicious!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Vorrei",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Vorrei",
+          "en": "I would like"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Vorrei = i would like!",
+        "en": "«Vorrei» = i would like!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "🍕 La Nonna mostra la pizza.",
+      "contesto_en": "Nonna shows the pizza.",
+      "domanda": {
+        "it": "«La pizza» = ?",
+        "en": "«La pizza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant",
+          "emoji": "🥐"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit11-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "🔴 La Nonna mostra rosso.",
+      "contesto_en": "Nonna shows red.",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Blu» = ?",
+        "en": "«Blu» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Verde",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "⚪ La Nonna mostra bianco.",
+      "contesto_en": "Nonna shows white.",
+      "domanda": {
+        "it": "«Bianco» = ?",
+        "en": "«Bianco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Bianco",
+          "en": "White",
+          "emoji": "⚪"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Nero» = ?",
+        "en": "«Nero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Black",
+          "en": "Black"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Nero = black!",
+        "en": "«Nero» = black!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Bello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Bello",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Bello = beautiful!",
+        "en": "«Bello» = beautiful!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "🔴 La Nonna mostra rosso.",
+      "contesto_en": "Nonna shows red.",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    }
+  ]
+}

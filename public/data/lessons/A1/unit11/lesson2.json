@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit11-lesson2",
+  "title": "I colori e aggettivi",
+  "title_en": "I colori e aggettivi",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Bianco",
+      "en": "White",
+      "emoji": "⚪",
+      "audio_text": "Bianco",
+      "mario_it": "Bianco — white!",
+      "mario_en": "Bianco — white!"
+    },
+    {
+      "id": "v5",
+      "it": "Nero",
+      "en": "Black",
+      "emoji": "⚫",
+      "audio_text": "Nero",
+      "mario_it": "Nero — black!",
+      "mario_en": "Nero — black!"
+    },
+    {
+      "id": "v6",
+      "it": "Bello",
+      "en": "Beautiful",
+      "emoji": "✨",
+      "audio_text": "Bello",
+      "mario_it": "Bello — beautiful!",
+      "mario_en": "Bello — beautiful!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Bianco» significa?",
+        "en": "What does «bianco» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "White",
+          "en": "White"
+        },
+        {
+          "it": "Black",
+          "en": "Black"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Bianco = white!",
+        "en": "Correct! «Bianco» = white!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Nero» significa?",
+        "en": "What does «nero» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Black",
+          "en": "Black"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful"
+        },
+        {
+          "it": "White",
+          "en": "White"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Nero = black!",
+        "en": "Correct! «Nero» = black!"
+      },
+      "feedbackErr": {
+        "it": "Nero = black!",
+        "en": "«Nero» = black!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Bello» significa?",
+        "en": "What does «bello» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "White",
+          "en": "White"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Black",
+          "en": "Black"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Bello = beautiful!",
+        "en": "Correct! «Bello» = beautiful!"
+      },
+      "feedbackErr": {
+        "it": "Bello = beautiful!",
+        "en": "«Bello» = beautiful!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Bianco",
+          "en": "White"
+        },
+        {
+          "it": "Nero",
+          "en": "Black"
+        },
+        {
+          "it": "Bello",
+          "en": "Beautiful"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Bianco» = ?",
+        "en": "«Bianco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "White",
+          "en": "White"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Black",
+          "en": "Black"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Bianco!",
+        "en": "Yes! «Bianco»!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Nero» = ?",
+        "en": "«Nero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Black",
+          "en": "Black"
+        },
+        {
+          "it": "White",
+          "en": "White"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Nero!",
+        "en": "Yes! «Nero»!"
+      },
+      "feedbackErr": {
+        "it": "Nero = black!",
+        "en": "«Nero» = black!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "✨ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Bello» = ?",
+        "en": "«Bello» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "White",
+          "en": "White",
+          "emoji": "⚪"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful",
+          "emoji": "✨"
+        },
+        {
+          "it": "Black",
+          "en": "Black",
+          "emoji": "⚫"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Bello!",
+        "en": "Yes! «Bello»!"
+      },
+      "feedbackErr": {
+        "it": "Bello = beautiful!",
+        "en": "«Bello» = beautiful!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "⚪ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Bianco» = ?",
+        "en": "«Bianco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "White",
+          "en": "White",
+          "emoji": "⚪"
+        },
+        {
+          "it": "Beautiful",
+          "en": "Beautiful",
+          "emoji": "✨"
+        },
+        {
+          "it": "Black",
+          "en": "Black",
+          "emoji": "⚫"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Bianco!",
+        "en": "Yes! «Bianco»!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di rosso",
+      "domanda_en": "The secret of red",
+      "titolo_it": "I colori e aggettivi",
+      "titolo_en": "I colori e aggettivi",
+      "corpo_it": "Tema: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "corpo_en": "Theme: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "esempio_it": "🔴 Rosso · ⚪ Bianco",
+      "esempio_en": "Red · White"
+    }
+  ]
+}

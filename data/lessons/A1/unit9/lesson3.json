@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit9-lesson3",
+  "title": "Pratica — Descrivere persone",
+  "title_en": "Descrivere persone",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "📏 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young",
+          "emoji": "🌱"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Alto!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Basso!",
+        "en": "Yes! «Basso»!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Giovane» = ?",
+        "en": "«Giovane» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Giovane!",
+        "en": "Yes! «Giovane»!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Simpatico» = ?",
+        "en": "«Simpatico» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Simpatico",
+          "en": "Nice",
+          "emoji": "😊"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Simpatico!",
+        "en": "Yes! «Simpatico»!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Come sei?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Come sei?!",
+        "en": "Yes! «Come sei?»!"
+      },
+      "feedbackErr": {
+        "it": "Come sei? = what are you like?!",
+        "en": "«Come sei?» = what are you like?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«I capelli» = ?",
+        "en": "«I capelli» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "I capelli",
+          "en": "The hair"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! I capelli!",
+        "en": "Yes! «I capelli»!"
+      },
+      "feedbackErr": {
+        "it": "I capelli = the hair!",
+        "en": "«I capelli» = the hair!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "📏 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young",
+          "emoji": "🌱"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Alto!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Basso!",
+        "en": "Yes! «Basso»!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di alto",
+      "domanda_en": "The secret of tall",
+      "titolo_it": "Descrivere persone",
+      "titolo_en": "Descrivere persone",
+      "corpo_it": "Tema: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "corpo_en": "Theme: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "esempio_it": "📏 Alto · 😊 Simpatico",
+      "esempio_en": "Tall · Nice"
+    }
+  ]
+}

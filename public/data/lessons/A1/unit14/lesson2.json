@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit14-lesson2",
+  "title": "Il tempo atmosferico",
+  "title_en": "Il tempo atmosferico",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "C'è il sole",
+      "en": "It is sunny",
+      "emoji": "☀️",
+      "audio_text": "C'è il sole",
+      "mario_it": "C'è il sole — it is sunny!",
+      "mario_en": "C'è il sole — it is sunny!"
+    },
+    {
+      "id": "v5",
+      "it": "Che tempo fa?",
+      "en": "What is the weather like?",
+      "emoji": "🌤️",
+      "audio_text": "Che tempo fa?",
+      "mario_it": "Che tempo fa? — what is the weather like?!",
+      "mario_en": "Che tempo fa? — what is the weather like?!"
+    },
+    {
+      "id": "v6",
+      "it": "Nuvoloso",
+      "en": "Cloudy",
+      "emoji": "☁️",
+      "audio_text": "Nuvoloso",
+      "mario_it": "Nuvoloso — cloudy!",
+      "mario_en": "Nuvoloso — cloudy!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«C'è il sole» significa?",
+        "en": "What does «c'è il sole» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! C'è il sole = it is sunny!",
+        "en": "Correct! «C'è il sole» = it is sunny!"
+      },
+      "feedbackErr": {
+        "it": "C'è il sole = it is sunny!",
+        "en": "«C'è il sole» = it is sunny!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Che tempo fa?» significa?",
+        "en": "What does «che tempo fa?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy"
+        },
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Che tempo fa? = what is the weather like?!",
+        "en": "Correct! «Che tempo fa?» = what is the weather like?!"
+      },
+      "feedbackErr": {
+        "it": "Che tempo fa? = what is the weather like?!",
+        "en": "«Che tempo fa?» = what is the weather like?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Nuvoloso» significa?",
+        "en": "What does «nuvoloso» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Nuvoloso = cloudy!",
+        "en": "Correct! «Nuvoloso» = cloudy!"
+      },
+      "feedbackErr": {
+        "it": "Nuvoloso = cloudy!",
+        "en": "«Nuvoloso» = cloudy!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "C'è il sole",
+          "en": "It is sunny"
+        },
+        {
+          "it": "Che tempo fa?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "Nuvoloso",
+          "en": "Cloudy"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«C'è il sole» = ?",
+        "en": "«C'è il sole» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! C'è il sole!",
+        "en": "Yes! «C'è il sole»!"
+      },
+      "feedbackErr": {
+        "it": "C'è il sole = it is sunny!",
+        "en": "«C'è il sole» = it is sunny!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Che tempo fa?» = ?",
+        "en": "«Che tempo fa?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Che tempo fa?!",
+        "en": "Yes! «Che tempo fa?»!"
+      },
+      "feedbackErr": {
+        "it": "Che tempo fa? = what is the weather like?!",
+        "en": "«Che tempo fa?» = what is the weather like?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "☁️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Nuvoloso» = ?",
+        "en": "«Nuvoloso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "It is sunny",
+          "en": "It is sunny",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy",
+          "emoji": "☁️"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?",
+          "emoji": "🌤️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Nuvoloso!",
+        "en": "Yes! «Nuvoloso»!"
+      },
+      "feedbackErr": {
+        "it": "Nuvoloso = cloudy!",
+        "en": "«Nuvoloso» = cloudy!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "☀️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«C'è il sole» = ?",
+        "en": "«C'è il sole» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "It is sunny",
+          "en": "It is sunny",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Cloudy",
+          "en": "Cloudy",
+          "emoji": "☁️"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?",
+          "emoji": "🌤️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! C'è il sole!",
+        "en": "Yes! «C'è il sole»!"
+      },
+      "feedbackErr": {
+        "it": "C'è il sole = it is sunny!",
+        "en": "«C'è il sole» = it is sunny!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di fa caldo",
+      "domanda_en": "The secret of it is hot",
+      "titolo_it": "Il tempo atmosferico",
+      "titolo_en": "Il tempo atmosferico",
+      "corpo_it": "Tema: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "corpo_en": "Theme: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "esempio_it": "🌞 Fa caldo · ☀️ C'è il sole",
+      "esempio_en": "It is hot · It is sunny"
+    }
+  ]
+}

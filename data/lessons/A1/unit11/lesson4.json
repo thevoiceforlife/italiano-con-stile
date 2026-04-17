@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit11-lesson4",
+  "title": "Ascolta — I colori e aggettivi",
+  "title_en": "I colori e aggettivi",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Rosso",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Rosso»!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Rosso»!",
+        "en": "It was «Rosso»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Blu",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Blu»!",
+        "en": "Yes! «Blu»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Blu»!",
+        "en": "It was «Blu»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Verde",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Verde»!",
+        "en": "Yes! «Verde»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Verde»!",
+        "en": "It was «Verde»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Bianco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Bianco",
+          "en": "White"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Bianco»!",
+        "en": "Yes! «Bianco»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Bianco»!",
+        "en": "It was «Bianco»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Nero",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Nero",
+          "en": "Black"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Nero»!",
+        "en": "Yes! «Nero»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Nero»!",
+        "en": "It was «Nero»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Bello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Bello",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Bello»!",
+        "en": "Yes! «Bello»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Bello»!",
+        "en": "It was «Bello»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🔴 Mario dice: rosso!",
+      "contesto_en": "Mario says: red!",
+      "domanda": {
+        "it": "«Rosso» = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Rosso»!",
+        "en": "Yes! «Rosso»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Rosso»!",
+        "en": "It was «Rosso»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🔵 Mario dice: blu!",
+      "contesto_en": "Mario says: blue!",
+      "domanda": {
+        "it": "«Blu» = ?",
+        "en": "«Blu» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Blu»!",
+        "en": "Yes! «Blu»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Blu»!",
+        "en": "It was «Blu»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di rosso",
+      "domanda_en": "The secret of red",
+      "titolo_it": "I colori e aggettivi",
+      "titolo_en": "I colori e aggettivi",
+      "corpo_it": "Tema: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "corpo_en": "Theme: I colori e aggettivi. Noi/voi: siamo napoletani, siete in vacanza",
+      "esempio_it": "🔴 Rosso · ⚪ Bianco",
+      "esempio_en": "Red · White"
+    }
+  ]
+}

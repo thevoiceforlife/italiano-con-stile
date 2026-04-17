@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit10-lesson5",
+  "title": "Tutto veloce! — La famiglia",
+  "title_en": "La famiglia",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "La mamma = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il papà = ?",
+        "en": "«Il papà» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Il fratello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "👧 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "La sorella = ?",
+        "en": "«La sorella» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La sorella",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "I nonni = ?",
+        "en": "«I nonni» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "I nonni = the grandparents!",
+        "en": "«I nonni» = the grandparents!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "La famiglia",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "La famiglia",
+          "en": "The family"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La famiglia = the family!",
+        "en": "«La famiglia» = the family!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "👨 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Il papà = ?",
+        "en": "«Il papà» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother",
+          "emoji": "👦"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il fratello = ?",
+        "en": "«Il fratello» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "La sorella",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La sorella",
+          "en": "The sister"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    }
+  ]
+}

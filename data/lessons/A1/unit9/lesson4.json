@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit9-lesson4",
+  "title": "Ascolta — Descrivere persone",
+  "title_en": "Descrivere persone",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Alto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Alto»!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Alto»!",
+        "en": "It was «Alto»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Basso",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Basso»!",
+        "en": "Yes! «Basso»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Basso»!",
+        "en": "It was «Basso»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Giovane",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Giovane»!",
+        "en": "Yes! «Giovane»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Giovane»!",
+        "en": "It was «Giovane»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Simpatico",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Simpatico",
+          "en": "Nice"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Simpatico»!",
+        "en": "Yes! «Simpatico»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Simpatico»!",
+        "en": "It was «Simpatico»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Come sei?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Come sei?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Come sei?»!",
+        "en": "Yes! «Come sei?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Come sei?»!",
+        "en": "It was «Come sei?»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "I capelli",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "I capelli",
+          "en": "The hair"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «I capelli»!",
+        "en": "Yes! «I capelli»!"
+      },
+      "feedbackErr": {
+        "it": "Era «I capelli»!",
+        "en": "It was «I capelli»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "📏 Mario dice: alto!",
+      "contesto_en": "Mario says: tall!",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Alto»!",
+        "en": "Yes! «Alto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Alto»!",
+        "en": "It was «Alto»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "📏 Mario dice: basso!",
+      "contesto_en": "Mario says: short!",
+      "domanda": {
+        "it": "«Basso» = ?",
+        "en": "«Basso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Basso»!",
+        "en": "Yes! «Basso»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Basso»!",
+        "en": "It was «Basso»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di alto",
+      "domanda_en": "The secret of tall",
+      "titolo_it": "Descrivere persone",
+      "titolo_en": "Descrivere persone",
+      "corpo_it": "Tema: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "corpo_en": "Theme: Descrivere persone. Lui/lei + aggettivo concorde: stancO/stancA",
+      "esempio_it": "📏 Alto · 😊 Simpatico",
+      "esempio_en": "Tall · Nice"
+    }
+  ]
+}

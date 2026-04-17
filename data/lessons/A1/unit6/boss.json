@@ -1,0 +1,293 @@
+{
+  "id": "A1-unit6-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato",
+        "nomeEN": "Gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà",
+        "nomeEN": "Babà"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "contesto_it": "1️⃣ La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«Uno» = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty",
+          "emoji": "2️⃣0️⃣"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "domanda": {
+        "it": "«Dieci» = ?",
+        "en": "«Dieci» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Dieci = ten!",
+        "en": "«Dieci» = ten!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "audio": "Venti",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Venti = twenty!",
+        "en": "«Venti» = twenty!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "contesto_it": "5️⃣0️⃣ La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«Cinquanta» = ?",
+        "en": "«Cinquanta» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Cinquanta",
+          "en": "Fifty",
+          "emoji": "5️⃣0️⃣"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "domanda": {
+        "it": "«Cento» = ?",
+        "en": "«Cento» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Cento = one hundred!",
+        "en": "«Cento» = one hundred!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna tests!",
+      "audio": "Quanti?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Quanti?",
+          "en": "How many?"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo!",
+        "en": "Well done!"
+      },
+      "feedbackErr": {
+        "it": "Quanti? = how many?!",
+        "en": "«Quanti?» = how many?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima!",
+      "intro_en": "Last one!",
+      "contesto_it": "1️⃣ La Nonna mostra.",
+      "contesto_en": "Nonna shows.",
+      "domanda": {
+        "it": "«Uno» = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty",
+          "emoji": "2️⃣0️⃣"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO!",
+        "en": "EXCELLENT!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    }
+  ]
+}

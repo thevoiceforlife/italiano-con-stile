@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit15-lesson2",
+  "title": "Le emozioni base",
+  "title_en": "Le emozioni base",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Arrabbiato",
+      "en": "Angry",
+      "emoji": "😠",
+      "audio_text": "Arrabbiato",
+      "mario_it": "Arrabbiato — angry!",
+      "mario_en": "Arrabbiato — angry!"
+    },
+    {
+      "id": "v5",
+      "it": "Come stai?",
+      "en": "How are you?",
+      "emoji": "🤔",
+      "audio_text": "Come stai?",
+      "mario_it": "Come stai? — how are you?!",
+      "mario_en": "Come stai? — how are you?!"
+    },
+    {
+      "id": "v6",
+      "it": "Sto bene",
+      "en": "I am fine",
+      "emoji": "👍",
+      "audio_text": "Sto bene",
+      "mario_it": "Sto bene — i am fine!",
+      "mario_en": "Sto bene — i am fine!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Arrabbiato» significa?",
+        "en": "What does «arrabbiato» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Angry",
+          "en": "Angry"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Arrabbiato = angry!",
+        "en": "Correct! «Arrabbiato» = angry!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Come stai?» significa?",
+        "en": "What does «come stai?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine"
+        },
+        {
+          "it": "Angry",
+          "en": "Angry"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Come stai? = how are you?!",
+        "en": "Correct! «Come stai?» = how are you?!"
+      },
+      "feedbackErr": {
+        "it": "Come stai? = how are you?!",
+        "en": "«Come stai?» = how are you?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Sto bene» significa?",
+        "en": "What does «sto bene» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Angry",
+          "en": "Angry"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Sto bene = i am fine!",
+        "en": "Correct! «Sto bene» = i am fine!"
+      },
+      "feedbackErr": {
+        "it": "Sto bene = i am fine!",
+        "en": "«Sto bene» = i am fine!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry"
+        },
+        {
+          "it": "Come stai?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Sto bene",
+          "en": "I am fine"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Arrabbiato» = ?",
+        "en": "«Arrabbiato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Angry",
+          "en": "Angry"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Arrabbiato!",
+        "en": "Yes! «Arrabbiato»!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Come stai?» = ?",
+        "en": "«Come stai?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Angry",
+          "en": "Angry"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Come stai?!",
+        "en": "Yes! «Come stai?»!"
+      },
+      "feedbackErr": {
+        "it": "Come stai? = how are you?!",
+        "en": "«Come stai?» = how are you?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👍 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Sto bene» = ?",
+        "en": "«Sto bene» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Angry",
+          "en": "Angry",
+          "emoji": "😠"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine",
+          "emoji": "👍"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?",
+          "emoji": "🤔"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Sto bene!",
+        "en": "Yes! «Sto bene»!"
+      },
+      "feedbackErr": {
+        "it": "Sto bene = i am fine!",
+        "en": "«Sto bene» = i am fine!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "😠 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Arrabbiato» = ?",
+        "en": "«Arrabbiato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Angry",
+          "en": "Angry",
+          "emoji": "😠"
+        },
+        {
+          "it": "I am fine",
+          "en": "I am fine",
+          "emoji": "👍"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?",
+          "emoji": "🤔"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Arrabbiato!",
+        "en": "Yes! «Arrabbiato»!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di felice",
+      "domanda_en": "The secret of happy",
+      "titolo_it": "Le emozioni base",
+      "titolo_en": "Le emozioni base",
+      "corpo_it": "Tema: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "corpo_en": "Theme: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "esempio_it": "😊 Felice · 😠 Arrabbiato",
+      "esempio_en": "Happy · Angry"
+    }
+  ]
+}

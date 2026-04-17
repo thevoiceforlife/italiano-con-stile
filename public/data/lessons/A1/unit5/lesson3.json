@@ -1,0 +1,347 @@
+{
+  "id": "A1-unit5-lesson3",
+  "title": "In giro: luoghi",
+  "title_en": "In giro: luoghi",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di in giro: luoghi",
+      "domanda_en": "The secret of in giro: luoghi",
+      "titolo_it": "In giro: luoghi",
+      "titolo_en": "In giro: luoghi",
+      "corpo_it": "io/tu — il verbo cambia con la persona",
+      "corpo_en": "io/tu — il verbo cambia con la persona",
+      "esempio_it": "🏛️ La piazza · 👁️ Di fronte a",
+      "esempio_en": "The square · In front of"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🏛️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La piazza» = ?",
+        "en": "«La piazza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church",
+          "emoji": "⛪"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum",
+          "emoji": "🏛️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! La piazza!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "La piazza = the square!",
+        "en": "«La piazza» = the square!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La chiesa!",
+        "en": "Yes! «La chiesa»!"
+      },
+      "feedbackErr": {
+        "it": "La chiesa = the church!",
+        "en": "«La chiesa» = the church!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Il museo» = ?",
+        "en": "«Il museo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il museo!",
+        "en": "Yes! «Il museo»!"
+      },
+      "feedbackErr": {
+        "it": "Il museo = the museum!",
+        "en": "«Il museo» = the museum!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "👁️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Di fronte a» = ?",
+        "en": "«Di fronte a» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Di fronte a",
+          "en": "In front of",
+          "emoji": "👁️"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church",
+          "emoji": "⛪"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Di fronte a!",
+        "en": "Yes! «Di fronte a»!"
+      },
+      "feedbackErr": {
+        "it": "Di fronte a = in front of!",
+        "en": "«Di fronte a» = in front of!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Dietro",
+          "en": "Behind"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Dietro!",
+        "en": "Yes! «Dietro»!"
+      },
+      "feedbackErr": {
+        "it": "Dietro = behind!",
+        "en": "«Dietro» = behind!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Accanto a» = ?",
+        "en": "«Accanto a» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Accanto a",
+          "en": "Next to"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Accanto a!",
+        "en": "Yes! «Accanto a»!"
+      },
+      "feedbackErr": {
+        "it": "Accanto a = next to!",
+        "en": "«Accanto a» = next to!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🏛️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La piazza» = ?",
+        "en": "«La piazza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church",
+          "emoji": "⛪"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La piazza!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "La piazza = the square!",
+        "en": "«La piazza» = the square!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! La chiesa!",
+        "en": "Yes! «La chiesa»!"
+      },
+      "feedbackErr": {
+        "it": "La chiesa = the church!",
+        "en": "«La chiesa» = the church!"
+      }
+    }
+  ]
+}

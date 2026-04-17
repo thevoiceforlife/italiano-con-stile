@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit7-lesson1",
+  "title": "Giorni e orari",
+  "title_en": "Giorni e orari",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Oggi",
+      "en": "Today",
+      "emoji": "📅",
+      "audio_text": "Oggi",
+      "mario_it": "Oggi — today!",
+      "mario_en": "Oggi — today!"
+    },
+    {
+      "id": "v2",
+      "it": "Domani",
+      "en": "Tomorrow",
+      "emoji": "📅",
+      "audio_text": "Domani",
+      "mario_it": "Domani — tomorrow!",
+      "mario_en": "Domani — tomorrow!"
+    },
+    {
+      "id": "v3",
+      "it": "Che ore sono?",
+      "en": "What time is it?",
+      "emoji": "🕐",
+      "audio_text": "Che ore sono?",
+      "mario_it": "Che ore sono? — what time is it?!",
+      "mario_en": "Che ore sono? — what time is it?!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di giorni e orari",
+      "domanda_en": "The secret of giorni e orari",
+      "titolo_it": "Giorni e orari",
+      "titolo_en": "Giorni e orari",
+      "corpo_it": "ESSERE base: sono le tre, è l'una",
+      "corpo_en": "ESSERE base: sono le tre, è l'una",
+      "esempio_it": "📅 Oggi · 🌅 La mattina",
+      "esempio_en": "Today · The morning"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Oggi» significa?",
+        "en": "What does «oggi» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Oggi = today!",
+        "en": "Correct! «Oggi» = today!"
+      },
+      "feedbackErr": {
+        "it": "Oggi = today!",
+        "en": "«Oggi» = today!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Domani» significa?",
+        "en": "What does «domani» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Today",
+          "en": "Today"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Domani = tomorrow!",
+        "en": "Correct! «Domani» = tomorrow!"
+      },
+      "feedbackErr": {
+        "it": "Domani = tomorrow!",
+        "en": "«Domani» = tomorrow!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Che ore sono?» significa?",
+        "en": "What does «che ore sono?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Che ore sono? = what time is it?!",
+        "en": "Correct! «Che ore sono?» = what time is it?!"
+      },
+      "feedbackErr": {
+        "it": "Che ore sono? = what time is it?!",
+        "en": "«Che ore sono?» = what time is it?!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina.",
+        "en": "Match."
+      },
+      "coppie": [
+        {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Che ore sono?",
+          "en": "What time is it?"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Oggi» = ?",
+        "en": "«Oggi» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Oggi!",
+        "en": "Yes! «Oggi»!"
+      },
+      "feedbackErr": {
+        "it": "Oggi = today!",
+        "en": "«Oggi» = today!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Domani» = ?",
+        "en": "«Domani» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow"
+        },
+        {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Domani!",
+        "en": "Yes! «Domani»!"
+      },
+      "feedbackErr": {
+        "it": "Domani = tomorrow!",
+        "en": "«Domani» = tomorrow!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🕐 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Che ore sono?» = ?",
+        "en": "«Che ore sono?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Today",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?",
+          "emoji": "🕐"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Che ore sono?!",
+        "en": "Yes! «Che ore sono?»!"
+      },
+      "feedbackErr": {
+        "it": "Che ore sono? = what time is it?!",
+        "en": "«Che ore sono?» = what time is it?!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "📅 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Oggi» = ?",
+        "en": "«Oggi» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Today",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
+          "it": "What time is it?",
+          "en": "What time is it?",
+          "emoji": "🕐"
+        },
+        {
+          "it": "Tomorrow",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Oggi!",
+        "en": "Yes! «Oggi»!"
+      },
+      "feedbackErr": {
+        "it": "Oggi = today!",
+        "en": "«Oggi» = today!"
+      }
+    }
+  ]
+}

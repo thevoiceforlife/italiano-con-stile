@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit12-lesson2",
+  "title": "Al telefono",
+  "title_en": "Al telefono",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Richiamare",
+      "en": "To call back",
+      "emoji": "📱",
+      "audio_text": "Richiamare",
+      "mario_it": "Richiamare — to call back!",
+      "mario_en": "Richiamare — to call back!"
+    },
+    {
+      "id": "v5",
+      "it": "Il numero",
+      "en": "The number",
+      "emoji": "🔢",
+      "audio_text": "Il numero",
+      "mario_it": "Il numero — the number!",
+      "mario_en": "Il numero — the number!"
+    },
+    {
+      "id": "v6",
+      "it": "Il messaggio",
+      "en": "The message",
+      "emoji": "💬",
+      "audio_text": "Il messaggio",
+      "mario_it": "Il messaggio — the message!",
+      "mario_en": "Il messaggio — the message!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Richiamare» significa?",
+        "en": "What does «richiamare» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "To call back",
+          "en": "To call back"
+        },
+        {
+          "it": "The number",
+          "en": "The number"
+        },
+        {
+          "it": "The message",
+          "en": "The message"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Richiamare = to call back!",
+        "en": "Correct! «Richiamare» = to call back!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Il numero» significa?",
+        "en": "What does «il numero» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The number",
+          "en": "The number"
+        },
+        {
+          "it": "The message",
+          "en": "The message"
+        },
+        {
+          "it": "To call back",
+          "en": "To call back"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il numero = the number!",
+        "en": "Correct! «Il numero» = the number!"
+      },
+      "feedbackErr": {
+        "it": "Il numero = the number!",
+        "en": "«Il numero» = the number!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Il messaggio» significa?",
+        "en": "What does «il messaggio» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "To call back",
+          "en": "To call back"
+        },
+        {
+          "it": "The message",
+          "en": "The message"
+        },
+        {
+          "it": "The number",
+          "en": "The number"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il messaggio = the message!",
+        "en": "Correct! «Il messaggio» = the message!"
+      },
+      "feedbackErr": {
+        "it": "Il messaggio = the message!",
+        "en": "«Il messaggio» = the message!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Richiamare",
+          "en": "To call back"
+        },
+        {
+          "it": "Il numero",
+          "en": "The number"
+        },
+        {
+          "it": "Il messaggio",
+          "en": "The message"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Richiamare» = ?",
+        "en": "«Richiamare» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "To call back",
+          "en": "To call back"
+        },
+        {
+          "it": "The message",
+          "en": "The message"
+        },
+        {
+          "it": "The number",
+          "en": "The number"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Richiamare!",
+        "en": "Yes! «Richiamare»!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Il numero» = ?",
+        "en": "«Il numero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The number",
+          "en": "The number"
+        },
+        {
+          "it": "To call back",
+          "en": "To call back"
+        },
+        {
+          "it": "The message",
+          "en": "The message"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il numero!",
+        "en": "Yes! «Il numero»!"
+      },
+      "feedbackErr": {
+        "it": "Il numero = the number!",
+        "en": "«Il numero» = the number!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "💬 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il messaggio» = ?",
+        "en": "«Il messaggio» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "To call back",
+          "en": "To call back",
+          "emoji": "📱"
+        },
+        {
+          "it": "The message",
+          "en": "The message",
+          "emoji": "💬"
+        },
+        {
+          "it": "The number",
+          "en": "The number",
+          "emoji": "🔢"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il messaggio!",
+        "en": "Yes! «Il messaggio»!"
+      },
+      "feedbackErr": {
+        "it": "Il messaggio = the message!",
+        "en": "«Il messaggio» = the message!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "📱 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Richiamare» = ?",
+        "en": "«Richiamare» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "To call back",
+          "en": "To call back",
+          "emoji": "📱"
+        },
+        {
+          "it": "The message",
+          "en": "The message",
+          "emoji": "💬"
+        },
+        {
+          "it": "The number",
+          "en": "The number",
+          "emoji": "🔢"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Richiamare!",
+        "en": "Yes! «Richiamare»!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di pronto",
+      "domanda_en": "The secret of hello (phone)",
+      "titolo_it": "Al telefono",
+      "titolo_en": "Al telefono",
+      "corpo_it": "Tema: Al telefono. Loro: loro sono, loro hanno",
+      "corpo_en": "Theme: Al telefono. Loro: loro sono, loro hanno",
+      "esempio_it": "📞 Pronto · 📱 Richiamare",
+      "esempio_en": "Hello (phone) · To call back"
+    }
+  ]
+}

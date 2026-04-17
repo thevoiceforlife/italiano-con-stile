@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit13-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "🛒 La Nonna mostra il mercato.",
+      "contesto_en": "Nonna shows the market.",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh",
+          "emoji": "🌿"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Un chilo» = ?",
+        "en": "«Un chilo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresh",
+          "en": "Fresh"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Un chilo = a kilo!",
+        "en": "«Un chilo» = a kilo!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Fresco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Fresco = fresh!",
+        "en": "«Fresco» = fresh!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "🙋 La Nonna mostra posso avere?.",
+      "contesto_en": "Nonna shows can i have?.",
+      "domanda": {
+        "it": "«Posso avere?» = ?",
+        "en": "«Posso avere?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Posso avere?",
+          "en": "Can I have?",
+          "emoji": "🙋"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Posso avere? = can i have?!",
+        "en": "«Posso avere?» = can i have?!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Il resto» = ?",
+        "en": "«Il resto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The change",
+          "en": "The change"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
+          "it": "A kilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Il resto = the change!",
+        "en": "«Il resto» = the change!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Costa troppo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Costa troppo",
+          "en": "It costs too much"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Costa troppo = it costs too much!",
+        "en": "«Costa troppo» = it costs too much!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "🛒 La Nonna mostra il mercato.",
+      "contesto_en": "Nonna shows the market.",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh",
+          "emoji": "🌿"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    }
+  ]
+}

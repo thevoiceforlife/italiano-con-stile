@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit10-lesson4",
+  "title": "Ascolta — La famiglia",
+  "title_en": "La famiglia",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La mamma",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «La mamma»!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La mamma»!",
+        "en": "It was «La mamma»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il papà",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Il papà»!",
+        "en": "Yes! «Il papà»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il papà»!",
+        "en": "It was «Il papà»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il fratello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Il fratello»!",
+        "en": "Yes! «Il fratello»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il fratello»!",
+        "en": "It was «Il fratello»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La sorella",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La sorella",
+          "en": "The sister"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «La sorella»!",
+        "en": "Yes! «La sorella»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La sorella»!",
+        "en": "It was «La sorella»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "I nonni",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "I nonni",
+          "en": "The grandparents"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «I nonni»!",
+        "en": "Yes! «I nonni»!"
+      },
+      "feedbackErr": {
+        "it": "Era «I nonni»!",
+        "en": "It was «I nonni»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "La famiglia",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "La famiglia",
+          "en": "The family"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «La famiglia»!",
+        "en": "Yes! «La famiglia»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La famiglia»!",
+        "en": "It was «La famiglia»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "👩 Mario dice: la mamma!",
+      "contesto_en": "Mario says: the mum!",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «La mamma»!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "Era «La mamma»!",
+        "en": "It was «La mamma»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "👨 Mario dice: il papà!",
+      "contesto_en": "Mario says: the dad!",
+      "domanda": {
+        "it": "«Il papà» = ?",
+        "en": "«Il papà» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Il papà»!",
+        "en": "Yes! «Il papà»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il papà»!",
+        "en": "It was «Il papà»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la mamma",
+      "domanda_en": "The secret of the mum",
+      "titolo_it": "La famiglia",
+      "titolo_en": "La famiglia",
+      "corpo_it": "Tema: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "corpo_en": "Theme: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "esempio_it": "👩 La mamma · 👧 La sorella",
+      "esempio_en": "The mum · The sister"
+    }
+  ]
+}

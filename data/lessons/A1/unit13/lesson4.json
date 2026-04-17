@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit13-lesson4",
+  "title": "Ascolta — Fare la spesa",
+  "title_en": "Fare la spesa",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il mercato",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Il mercato»!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il mercato»!",
+        "en": "It was «Il mercato»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Un chilo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Un chilo»!",
+        "en": "Yes! «Un chilo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Un chilo»!",
+        "en": "It was «Un chilo»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Fresco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Fresco»!",
+        "en": "Yes! «Fresco»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Fresco»!",
+        "en": "It was «Fresco»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Posso avere?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Posso avere?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Posso avere?»!",
+        "en": "Yes! «Posso avere?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Posso avere?»!",
+        "en": "It was «Posso avere?»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il resto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il resto",
+          "en": "The change"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Il resto»!",
+        "en": "Yes! «Il resto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il resto»!",
+        "en": "It was «Il resto»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Costa troppo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Costa troppo",
+          "en": "It costs too much"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Costa troppo»!",
+        "en": "Yes! «Costa troppo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Costa troppo»!",
+        "en": "It was «Costa troppo»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🛒 Mario dice: il mercato!",
+      "contesto_en": "Mario says: the market!",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Il mercato»!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il mercato»!",
+        "en": "It was «Il mercato»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "⚖️ Mario dice: un chilo!",
+      "contesto_en": "Mario says: a kilo!",
+      "domanda": {
+        "it": "«Un chilo» = ?",
+        "en": "«Un chilo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Un chilo»!",
+        "en": "Yes! «Un chilo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Un chilo»!",
+        "en": "It was «Un chilo»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di il mercato",
+      "domanda_en": "The secret of the market",
+      "titolo_it": "Fare la spesa",
+      "titolo_en": "Fare la spesa",
+      "corpo_it": "Tema: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "corpo_en": "Theme: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "esempio_it": "🛒 Il mercato · 🙋 Posso avere?",
+      "esempio_en": "The market · Can I have?"
+    }
+  ]
+}

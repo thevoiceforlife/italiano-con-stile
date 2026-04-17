@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit15-lesson4",
+  "title": "Ascolta — Le emozioni base",
+  "title_en": "Le emozioni base",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Felice",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Felice»!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Felice»!",
+        "en": "It was «Felice»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Triste",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Triste»!",
+        "en": "Yes! «Triste»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Triste»!",
+        "en": "It was «Triste»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Stanco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Stanco»!",
+        "en": "Yes! «Stanco»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Stanco»!",
+        "en": "It was «Stanco»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Arrabbiato",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Arrabbiato»!",
+        "en": "Yes! «Arrabbiato»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Arrabbiato»!",
+        "en": "It was «Arrabbiato»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Come stai?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Come stai?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Come stai?»!",
+        "en": "Yes! «Come stai?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Come stai?»!",
+        "en": "It was «Come stai?»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Sto bene",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Sto bene",
+          "en": "I am fine"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Sto bene»!",
+        "en": "Yes! «Sto bene»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Sto bene»!",
+        "en": "It was «Sto bene»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "😊 Mario dice: felice!",
+      "contesto_en": "Mario says: happy!",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Felice»!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Felice»!",
+        "en": "It was «Felice»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "😢 Mario dice: triste!",
+      "contesto_en": "Mario says: sad!",
+      "domanda": {
+        "it": "«Triste» = ?",
+        "en": "«Triste» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Triste»!",
+        "en": "Yes! «Triste»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Triste»!",
+        "en": "It was «Triste»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di felice",
+      "domanda_en": "The secret of happy",
+      "titolo_it": "Le emozioni base",
+      "titolo_en": "Le emozioni base",
+      "corpo_it": "Tema: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "corpo_en": "Theme: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "esempio_it": "😊 Felice · 😠 Arrabbiato",
+      "esempio_en": "Happy · Angry"
+    }
+  ]
+}

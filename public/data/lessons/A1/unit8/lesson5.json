@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit8-lesson5",
+  "title": "Tutto veloce! — Il cibo napoletano",
+  "title_en": "Il cibo napoletano",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "La pizza = ?",
+        "en": "«La pizza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        },
+        {
+          "it": "The croissant",
+          "en": "The croissant"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il caffè = ?",
+        "en": "«Il caffè» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        },
+        {
+          "it": "The croissant",
+          "en": "The croissant"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il caffè = the coffee!",
+        "en": "«Il caffè» = the coffee!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Il cornetto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il cornetto = the croissant!",
+        "en": "«Il cornetto» = the croissant!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "👍 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Buono = ?",
+        "en": "«Buono» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Buono",
+          "en": "Good",
+          "emoji": "👍"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Delizioso = ?",
+        "en": "«Delizioso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Delicious",
+          "en": "Delicious"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Delizioso = delicious!",
+        "en": "«Delizioso» = delicious!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Vorrei",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Vorrei",
+          "en": "I would like"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Vorrei = i would like!",
+        "en": "«Vorrei» = i would like!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "La pizza = the pizza!",
+        "en": "«La pizza» = the pizza!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "☕ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Il caffè = ?",
+        "en": "«Il caffè» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
+          "it": "Il cornetto",
+          "en": "The croissant",
+          "emoji": "🥐"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il caffè = the coffee!",
+        "en": "«Il caffè» = the coffee!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il cornetto = ?",
+        "en": "«Il cornetto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
+          "it": "The croissant",
+          "en": "The croissant"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il cornetto = the croissant!",
+        "en": "«Il cornetto» = the croissant!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Buono",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Buono",
+          "en": "Good"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Buono = good!",
+        "en": "«Buono» = good!"
+      }
+    }
+  ]
+}

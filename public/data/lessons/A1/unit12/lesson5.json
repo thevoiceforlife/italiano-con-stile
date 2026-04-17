@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit12-lesson5",
+  "title": "Tutto veloce! — Al telefono",
+  "title_en": "Al telefono",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Pronto = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Chi parla? = ?",
+        "en": "«Chi parla?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Chi parla? = who is speaking?!",
+        "en": "«Chi parla?» = who is speaking?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Un momento",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Un momento = one moment!",
+        "en": "«Un momento» = one moment!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "📱 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Richiamare = ?",
+        "en": "«Richiamare» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Richiamare",
+          "en": "To call back",
+          "emoji": "📱"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Il numero = ?",
+        "en": "«Il numero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The number",
+          "en": "The number"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il numero = the number!",
+        "en": "«Il numero» = the number!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Il messaggio",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Il messaggio",
+          "en": "The message"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Il messaggio = the message!",
+        "en": "«Il messaggio» = the message!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "🗣️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Chi parla? = ?",
+        "en": "«Chi parla?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment",
+          "emoji": "⏱️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Chi parla? = who is speaking?!",
+        "en": "«Chi parla?» = who is speaking?!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Un momento = ?",
+        "en": "«Un momento» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Un momento = one moment!",
+        "en": "«Un momento» = one moment!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Richiamare",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Richiamare",
+          "en": "To call back"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Richiamare = to call back!",
+        "en": "«Richiamare» = to call back!"
+      }
+    }
+  ]
+}

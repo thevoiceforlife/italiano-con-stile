@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit14-lesson3",
+  "title": "Pratica — Il tempo atmosferico",
+  "title_en": "Il tempo atmosferico",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🌞 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Fa caldo» = ?",
+        "en": "«Fa caldo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot",
+          "emoji": "🌞"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold",
+          "emoji": "🥶"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining",
+          "emoji": "🌧️"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Fa caldo!",
+        "en": "Yes! «Fa caldo»!"
+      },
+      "feedbackErr": {
+        "it": "Fa caldo = it is hot!",
+        "en": "«Fa caldo» = it is hot!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Fa freddo!",
+        "en": "Yes! «Fa freddo»!"
+      },
+      "feedbackErr": {
+        "it": "Fa freddo = it is cold!",
+        "en": "«Fa freddo» = it is cold!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Piove» = ?",
+        "en": "«Piove» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Piove!",
+        "en": "Yes! «Piove»!"
+      },
+      "feedbackErr": {
+        "it": "Piove = it is raining!",
+        "en": "«Piove» = it is raining!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "☀️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«C'è il sole» = ?",
+        "en": "«C'è il sole» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "C'è il sole",
+          "en": "It is sunny",
+          "emoji": "☀️"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold",
+          "emoji": "🥶"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot",
+          "emoji": "🌞"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! C'è il sole!",
+        "en": "Yes! «C'è il sole»!"
+      },
+      "feedbackErr": {
+        "it": "C'è il sole = it is sunny!",
+        "en": "«C'è il sole» = it is sunny!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Che tempo fa?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Che tempo fa?!",
+        "en": "Yes! «Che tempo fa?»!"
+      },
+      "feedbackErr": {
+        "it": "Che tempo fa? = what is the weather like?!",
+        "en": "«Che tempo fa?» = what is the weather like?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Nuvoloso» = ?",
+        "en": "«Nuvoloso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Nuvoloso",
+          "en": "Cloudy"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Nuvoloso!",
+        "en": "Yes! «Nuvoloso»!"
+      },
+      "feedbackErr": {
+        "it": "Nuvoloso = cloudy!",
+        "en": "«Nuvoloso» = cloudy!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🌞 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Fa caldo» = ?",
+        "en": "«Fa caldo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot",
+          "emoji": "🌞"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining",
+          "emoji": "🌧️"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold",
+          "emoji": "🥶"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Fa caldo!",
+        "en": "Yes! «Fa caldo»!"
+      },
+      "feedbackErr": {
+        "it": "Fa caldo = it is hot!",
+        "en": "«Fa caldo» = it is hot!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Fa freddo!",
+        "en": "Yes! «Fa freddo»!"
+      },
+      "feedbackErr": {
+        "it": "Fa freddo = it is cold!",
+        "en": "«Fa freddo» = it is cold!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di fa caldo",
+      "domanda_en": "The secret of it is hot",
+      "titolo_it": "Il tempo atmosferico",
+      "titolo_en": "Il tempo atmosferico",
+      "corpo_it": "Tema: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "corpo_en": "Theme: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "esempio_it": "🌞 Fa caldo · ☀️ C'è il sole",
+      "esempio_en": "It is hot · It is sunny"
+    }
+  ]
+}

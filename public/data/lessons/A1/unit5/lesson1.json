@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit5-lesson1",
+  "title": "In giro: luoghi",
+  "title_en": "In giro: luoghi",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "La piazza",
+      "en": "The square",
+      "emoji": "🏛️",
+      "audio_text": "La piazza",
+      "mario_it": "La piazza — the square!",
+      "mario_en": "La piazza — the square!"
+    },
+    {
+      "id": "v2",
+      "it": "La chiesa",
+      "en": "The church",
+      "emoji": "⛪",
+      "audio_text": "La chiesa",
+      "mario_it": "La chiesa — the church!",
+      "mario_en": "La chiesa — the church!"
+    },
+    {
+      "id": "v3",
+      "it": "Il museo",
+      "en": "The museum",
+      "emoji": "🏛️",
+      "audio_text": "Il museo",
+      "mario_it": "Il museo — the museum!",
+      "mario_en": "Il museo — the museum!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di in giro: luoghi",
+      "domanda_en": "The secret of in giro: luoghi",
+      "titolo_it": "In giro: luoghi",
+      "titolo_en": "In giro: luoghi",
+      "corpo_it": "io/tu — il verbo cambia con la persona",
+      "corpo_en": "io/tu — il verbo cambia con la persona",
+      "esempio_it": "🏛️ La piazza · 👁️ Di fronte a",
+      "esempio_en": "The square · In front of"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La piazza» significa?",
+        "en": "What does «la piazza» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The square",
+          "en": "The square"
+        },
+        {
+          "it": "The church",
+          "en": "The church"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! La piazza = the square!",
+        "en": "Correct! «La piazza» = the square!"
+      },
+      "feedbackErr": {
+        "it": "La piazza = the square!",
+        "en": "«La piazza» = the square!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La chiesa» significa?",
+        "en": "What does «la chiesa» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The church",
+          "en": "The church"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum"
+        },
+        {
+          "it": "The square",
+          "en": "The square"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! La chiesa = the church!",
+        "en": "Correct! «La chiesa» = the church!"
+      },
+      "feedbackErr": {
+        "it": "La chiesa = the church!",
+        "en": "«La chiesa» = the church!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Il museo» significa?",
+        "en": "What does «il museo» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The square",
+          "en": "The square"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum"
+        },
+        {
+          "it": "The church",
+          "en": "The church"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il museo = the museum!",
+        "en": "Correct! «Il museo» = the museum!"
+      },
+      "feedbackErr": {
+        "it": "Il museo = the museum!",
+        "en": "«Il museo» = the museum!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina.",
+        "en": "Match."
+      },
+      "coppie": [
+        {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
+          "it": "Il museo",
+          "en": "The museum"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«La piazza» = ?",
+        "en": "«La piazza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The square",
+          "en": "The square"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum"
+        },
+        {
+          "it": "The church",
+          "en": "The church"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La piazza!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "La piazza = the square!",
+        "en": "«La piazza» = the square!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«La chiesa» = ?",
+        "en": "«La chiesa» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The church",
+          "en": "The church"
+        },
+        {
+          "it": "The square",
+          "en": "The square"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! La chiesa!",
+        "en": "Yes! «La chiesa»!"
+      },
+      "feedbackErr": {
+        "it": "La chiesa = the church!",
+        "en": "«La chiesa» = the church!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🏛️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il museo» = ?",
+        "en": "«Il museo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The square",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "The church",
+          "en": "The church",
+          "emoji": "⛪"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il museo!",
+        "en": "Yes! «Il museo»!"
+      },
+      "feedbackErr": {
+        "it": "Il museo = the museum!",
+        "en": "«Il museo» = the museum!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🏛️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La piazza» = ?",
+        "en": "«La piazza» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The square",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "The museum",
+          "en": "The museum",
+          "emoji": "🏛️"
+        },
+        {
+          "it": "The church",
+          "en": "The church",
+          "emoji": "⛪"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La piazza!",
+        "en": "Yes! «La piazza»!"
+      },
+      "feedbackErr": {
+        "it": "La piazza = the square!",
+        "en": "«La piazza» = the square!"
+      }
+    }
+  ]
+}

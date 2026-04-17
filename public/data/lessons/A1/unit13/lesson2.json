@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit13-lesson2",
+  "title": "Fare la spesa",
+  "title_en": "Fare la spesa",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Posso avere?",
+      "en": "Can I have?",
+      "emoji": "🙋",
+      "audio_text": "Posso avere?",
+      "mario_it": "Posso avere? — can i have?!",
+      "mario_en": "Posso avere? — can i have?!"
+    },
+    {
+      "id": "v5",
+      "it": "Il resto",
+      "en": "The change",
+      "emoji": "💰",
+      "audio_text": "Il resto",
+      "mario_it": "Il resto — the change!",
+      "mario_en": "Il resto — the change!"
+    },
+    {
+      "id": "v6",
+      "it": "Costa troppo",
+      "en": "It costs too much",
+      "emoji": "💸",
+      "audio_text": "Costa troppo",
+      "mario_it": "Costa troppo — it costs too much!",
+      "mario_en": "Costa troppo — it costs too much!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Posso avere?» significa?",
+        "en": "What does «posso avere?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "The change",
+          "en": "The change"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Posso avere? = can i have?!",
+        "en": "Correct! «Posso avere?» = can i have?!"
+      },
+      "feedbackErr": {
+        "it": "Posso avere? = can i have?!",
+        "en": "«Posso avere?» = can i have?!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Il resto» significa?",
+        "en": "What does «il resto» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The change",
+          "en": "The change"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much"
+        },
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il resto = the change!",
+        "en": "Correct! «Il resto» = the change!"
+      },
+      "feedbackErr": {
+        "it": "Il resto = the change!",
+        "en": "«Il resto» = the change!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Costa troppo» significa?",
+        "en": "What does «costa troppo» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much"
+        },
+        {
+          "it": "The change",
+          "en": "The change"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Costa troppo = it costs too much!",
+        "en": "Correct! «Costa troppo» = it costs too much!"
+      },
+      "feedbackErr": {
+        "it": "Costa troppo = it costs too much!",
+        "en": "«Costa troppo» = it costs too much!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Posso avere?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "Il resto",
+          "en": "The change"
+        },
+        {
+          "it": "Costa troppo",
+          "en": "It costs too much"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Posso avere?» = ?",
+        "en": "«Posso avere?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much"
+        },
+        {
+          "it": "The change",
+          "en": "The change"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Posso avere?!",
+        "en": "Yes! «Posso avere?»!"
+      },
+      "feedbackErr": {
+        "it": "Posso avere? = can i have?!",
+        "en": "«Posso avere?» = can i have?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Il resto» = ?",
+        "en": "«Il resto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The change",
+          "en": "The change"
+        },
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il resto!",
+        "en": "Yes! «Il resto»!"
+      },
+      "feedbackErr": {
+        "it": "Il resto = the change!",
+        "en": "«Il resto» = the change!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "💸 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Costa troppo» = ?",
+        "en": "«Costa troppo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Can I have?",
+          "en": "Can I have?",
+          "emoji": "🙋"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much",
+          "emoji": "💸"
+        },
+        {
+          "it": "The change",
+          "en": "The change",
+          "emoji": "💰"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Costa troppo!",
+        "en": "Yes! «Costa troppo»!"
+      },
+      "feedbackErr": {
+        "it": "Costa troppo = it costs too much!",
+        "en": "«Costa troppo» = it costs too much!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🙋 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Posso avere?» = ?",
+        "en": "«Posso avere?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Can I have?",
+          "en": "Can I have?",
+          "emoji": "🙋"
+        },
+        {
+          "it": "It costs too much",
+          "en": "It costs too much",
+          "emoji": "💸"
+        },
+        {
+          "it": "The change",
+          "en": "The change",
+          "emoji": "💰"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Posso avere?!",
+        "en": "Yes! «Posso avere?»!"
+      },
+      "feedbackErr": {
+        "it": "Posso avere? = can i have?!",
+        "en": "«Posso avere?» = can i have?!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di il mercato",
+      "domanda_en": "The secret of the market",
+      "titolo_it": "Fare la spesa",
+      "titolo_en": "Fare la spesa",
+      "corpo_it": "Tema: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "corpo_en": "Theme: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "esempio_it": "🛒 Il mercato · 🙋 Posso avere?",
+      "esempio_en": "The market · Can I have?"
+    }
+  ]
+}

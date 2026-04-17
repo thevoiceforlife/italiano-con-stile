@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit15-lesson5",
+  "title": "Tutto veloce! — Le emozioni base",
+  "title_en": "Le emozioni base",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Felice = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Triste = ?",
+        "en": "«Triste» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Sad",
+          "en": "Sad"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Stanco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "😠 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Arrabbiato = ?",
+        "en": "«Arrabbiato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry",
+          "emoji": "😠"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Come stai? = ?",
+        "en": "«Come stai?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "How are you?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Come stai? = how are you?!",
+        "en": "«Come stai?» = how are you?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Sto bene",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Sto bene",
+          "en": "I am fine"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Sto bene = i am fine!",
+        "en": "«Sto bene» = i am fine!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "😢 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Triste = ?",
+        "en": "«Triste» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired",
+          "emoji": "😴"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Stanco = ?",
+        "en": "«Stanco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
+          "it": "Tired",
+          "en": "Tired"
+        },
+        {
+          "it": "Sad",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Arrabbiato",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    }
+  ]
+}

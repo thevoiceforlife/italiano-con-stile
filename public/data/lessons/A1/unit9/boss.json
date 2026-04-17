@@ -1,0 +1,303 @@
+{
+  "id": "A1-unit9-boss",
+  "title": "Sfida la Nonna!",
+  "title_en": "Challenge Nonna!",
+  "type": "boss",
+  "icon": "🏆",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 30,
+    "pool": [
+      {
+        "emoji": "🍦",
+        "nome": "Gelato alla crema",
+        "nomeEN": "Cream gelato"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Babà napoletano",
+        "nomeEN": "Neapolitan babà"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cannolo siciliano",
+        "nomeEN": "Sicilian cannolo"
+      },
+      {
+        "emoji": "🍰",
+        "nome": "Tiramisù",
+        "nomeEN": "Tiramisù"
+      },
+      {
+        "emoji": "🍮",
+        "nome": "Panna cotta",
+        "nomeEN": "Panna cotta"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "📏 La Nonna mostra alto.",
+      "contesto_en": "Nonna shows tall.",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young",
+          "emoji": "🌱"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Basso» = ?",
+        "en": "«Basso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "Giovane",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "contesto_it": "😊 La Nonna mostra simpatico.",
+      "contesto_en": "Nonna shows nice.",
+      "domanda": {
+        "it": "«Simpatico» = ?",
+        "en": "«Simpatico» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Simpatico",
+          "en": "Nice",
+          "emoji": "😊"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "vittoria",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "domanda": {
+        "it": "«Come sei?» = ?",
+        "en": "«Come sei?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "Come sei? = what are you like?!",
+        "en": "«Come sei?» = what are you like?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "vittoria",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "La Nonna testa!",
+      "intro_en": "Nonna is testing!",
+      "audio": "I capelli",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "I capelli",
+          "en": "The hair"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Bravo! La Nonna sorride!",
+        "en": "Well done! Nonna smiles!"
+      },
+      "feedbackErr": {
+        "it": "I capelli = the hair!",
+        "en": "«I capelli» = the hair!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "vittoria",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Ultima — la Nonna aspetta!",
+      "intro_en": "Last one — Nonna is waiting!",
+      "contesto_it": "📏 La Nonna mostra alto.",
+      "contesto_en": "Nonna shows tall.",
+      "domanda": {
+        "it": "«Alto» = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young",
+          "emoji": "🌱"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "BRAVISSIMO! La Nonna è orgogliosa!",
+        "en": "EXCELLENT! Nonna is proud!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    }
+  ]
+}

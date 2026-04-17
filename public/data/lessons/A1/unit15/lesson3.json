@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit15-lesson3",
+  "title": "Pratica — Le emozioni base",
+  "title_en": "Le emozioni base",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired",
+          "emoji": "😴"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Felice!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Triste!",
+        "en": "Yes! «Triste»!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Stanco» = ?",
+        "en": "«Stanco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Stanco!",
+        "en": "Yes! «Stanco»!"
+      },
+      "feedbackErr": {
+        "it": "Stanco = tired!",
+        "en": "«Stanco» = tired!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "😠 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Arrabbiato» = ?",
+        "en": "«Arrabbiato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Arrabbiato",
+          "en": "Angry",
+          "emoji": "😠"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Arrabbiato!",
+        "en": "Yes! «Arrabbiato»!"
+      },
+      "feedbackErr": {
+        "it": "Arrabbiato = angry!",
+        "en": "«Arrabbiato» = angry!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Come stai?",
+          "en": "How are you?"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Come stai?!",
+        "en": "Yes! «Come stai?»!"
+      },
+      "feedbackErr": {
+        "it": "Come stai? = how are you?!",
+        "en": "«Come stai?» = how are you?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Sto bene» = ?",
+        "en": "«Sto bene» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Sto bene",
+          "en": "I am fine"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Sto bene!",
+        "en": "Yes! «Sto bene»!"
+      },
+      "feedbackErr": {
+        "it": "Sto bene = i am fine!",
+        "en": "«Sto bene» = i am fine!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Felice» = ?",
+        "en": "«Felice» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired",
+          "emoji": "😴"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Felice!",
+        "en": "Yes! «Felice»!"
+      },
+      "feedbackErr": {
+        "it": "Felice = happy!",
+        "en": "«Felice» = happy!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
+          "it": "Stanco",
+          "en": "Tired"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Triste!",
+        "en": "Yes! «Triste»!"
+      },
+      "feedbackErr": {
+        "it": "Triste = sad!",
+        "en": "«Triste» = sad!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di felice",
+      "domanda_en": "The secret of happy",
+      "titolo_it": "Le emozioni base",
+      "titolo_en": "Le emozioni base",
+      "corpo_it": "Tema: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "corpo_en": "Theme: Le emozioni base. Verbi riflessivi: mi chiamo = I call myself",
+      "esempio_it": "😊 Felice · 😠 Arrabbiato",
+      "esempio_en": "Happy · Angry"
+    }
+  ]
+}

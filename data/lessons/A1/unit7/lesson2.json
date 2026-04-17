@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit7-lesson2",
+  "title": "Giorni e orari",
+  "title_en": "Giorni e orari",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "La mattina",
+      "en": "The morning",
+      "emoji": "🌅",
+      "audio_text": "La mattina",
+      "mario_it": "La mattina — the morning!",
+      "mario_en": "La mattina — the morning!"
+    },
+    {
+      "id": "v5",
+      "it": "Il pomeriggio",
+      "en": "The afternoon",
+      "emoji": "☀️",
+      "audio_text": "Il pomeriggio",
+      "mario_it": "Il pomeriggio — the afternoon!",
+      "mario_en": "Il pomeriggio — the afternoon!"
+    },
+    {
+      "id": "v6",
+      "it": "La sera",
+      "en": "The evening",
+      "emoji": "🌆",
+      "audio_text": "La sera",
+      "mario_it": "La sera — the evening!",
+      "mario_en": "La sera — the evening!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di giorni e orari",
+      "domanda_en": "The secret of giorni e orari",
+      "titolo_it": "Giorni e orari",
+      "titolo_en": "Giorni e orari",
+      "corpo_it": "ESSERE base: sono le tre, è l'una",
+      "corpo_en": "ESSERE base: sono le tre, è l'una",
+      "esempio_it": "📅 Oggi · 🌅 La mattina",
+      "esempio_en": "Today · The morning"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La mattina» significa?",
+        "en": "What does «la mattina» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The morning",
+          "en": "The morning"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! La mattina = the morning!",
+        "en": "Correct! «La mattina» = the morning!"
+      },
+      "feedbackErr": {
+        "it": "La mattina = the morning!",
+        "en": "«La mattina» = the morning!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Il pomeriggio» significa?",
+        "en": "What does «il pomeriggio» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening"
+        },
+        {
+          "it": "The morning",
+          "en": "The morning"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il pomeriggio = the afternoon!",
+        "en": "Correct! «Il pomeriggio» = the afternoon!"
+      },
+      "feedbackErr": {
+        "it": "Il pomeriggio = the afternoon!",
+        "en": "«Il pomeriggio» = the afternoon!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La sera» significa?",
+        "en": "What does «la sera» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The morning",
+          "en": "The morning"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! La sera = the evening!",
+        "en": "Correct! «La sera» = the evening!"
+      },
+      "feedbackErr": {
+        "it": "La sera = the evening!",
+        "en": "«La sera» = the evening!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina.",
+        "en": "Match."
+      },
+      "coppie": [
+        {
+          "it": "La mattina",
+          "en": "The morning"
+        },
+        {
+          "it": "Il pomeriggio",
+          "en": "The afternoon"
+        },
+        {
+          "it": "La sera",
+          "en": "The evening"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«La mattina» = ?",
+        "en": "«La mattina» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The morning",
+          "en": "The morning"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La mattina!",
+        "en": "Yes! «La mattina»!"
+      },
+      "feedbackErr": {
+        "it": "La mattina = the morning!",
+        "en": "«La mattina» = the morning!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Il pomeriggio» = ?",
+        "en": "«Il pomeriggio» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
+        },
+        {
+          "it": "The morning",
+          "en": "The morning"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il pomeriggio!",
+        "en": "Yes! «Il pomeriggio»!"
+      },
+      "feedbackErr": {
+        "it": "Il pomeriggio = the afternoon!",
+        "en": "«Il pomeriggio» = the afternoon!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🌆 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La sera» = ?",
+        "en": "«La sera» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The morning",
+          "en": "The morning",
+          "emoji": "🌅"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening",
+          "emoji": "🌆"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon",
+          "emoji": "☀️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! La sera!",
+        "en": "Yes! «La sera»!"
+      },
+      "feedbackErr": {
+        "it": "La sera = the evening!",
+        "en": "«La sera» = the evening!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🌅 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La mattina» = ?",
+        "en": "«La mattina» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The morning",
+          "en": "The morning",
+          "emoji": "🌅"
+        },
+        {
+          "it": "The evening",
+          "en": "The evening",
+          "emoji": "🌆"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon",
+          "emoji": "☀️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La mattina!",
+        "en": "Yes! «La mattina»!"
+      },
+      "feedbackErr": {
+        "it": "La mattina = the morning!",
+        "en": "«La mattina» = the morning!"
+      }
+    }
+  ]
+}

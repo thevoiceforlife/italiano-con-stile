@@ -1,0 +1,397 @@
+{
+  "id": "A1-unit6-lesson5",
+  "title": "I numeri 1-100",
+  "title_en": "I numeri 1-100",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "pillole": [],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Uno = ?",
+        "en": "«Uno» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Dieci = ?",
+        "en": "«Dieci» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Ten",
+          "en": "Ten"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Dieci = ten!",
+        "en": "«Dieci» = ten!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Venti",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Venti = twenty!",
+        "en": "«Venti» = twenty!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "5️⃣0️⃣ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Cinquanta = ?",
+        "en": "«Cinquanta» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Cinquanta",
+          "en": "Fifty",
+          "emoji": "5️⃣0️⃣"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Cento = ?",
+        "en": "«Cento» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        },
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Cento = one hundred!",
+        "en": "«Cento» = one hundred!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Quanti?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Quanti?",
+          "en": "How many?"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Quanti? = how many?!",
+        "en": "«Quanti?» = how many?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Uno = one!",
+        "en": "«Uno» = one!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "🔟 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Dieci = ?",
+        "en": "«Dieci» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
+          "it": "Venti",
+          "en": "Twenty",
+          "emoji": "2️⃣0️⃣"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Dieci = ten!",
+        "en": "«Dieci» = ten!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Venti = ?",
+        "en": "«Venti» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One",
+          "en": "One"
+        },
+        {
+          "it": "Twenty",
+          "en": "Twenty"
+        },
+        {
+          "it": "Ten",
+          "en": "Ten"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Venti = twenty!",
+        "en": "«Venti» = twenty!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Cinquanta",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Cinquanta",
+          "en": "Fifty"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
+          "it": "Uno",
+          "en": "One"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    }
+  ]
+}

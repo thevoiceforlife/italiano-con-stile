@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit12-lesson1",
+  "title": "Al telefono",
+  "title_en": "Al telefono",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "Pronto",
+      "en": "Hello (phone)",
+      "emoji": "📞",
+      "audio_text": "Pronto",
+      "mario_it": "Pronto — hello (phone)!",
+      "mario_en": "Pronto — hello (phone)!"
+    },
+    {
+      "id": "v2",
+      "it": "Chi parla?",
+      "en": "Who is speaking?",
+      "emoji": "🗣️",
+      "audio_text": "Chi parla?",
+      "mario_it": "Chi parla? — who is speaking?!",
+      "mario_en": "Chi parla? — who is speaking?!"
+    },
+    {
+      "id": "v3",
+      "it": "Un momento",
+      "en": "One moment",
+      "emoji": "⏱️",
+      "audio_text": "Un momento",
+      "mario_it": "Un momento — one moment!",
+      "mario_en": "Un momento — one moment!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Pronto» significa?",
+        "en": "What does «pronto» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Pronto = hello (phone)!",
+        "en": "Correct! «Pronto» = hello (phone)!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Chi parla?» significa?",
+        "en": "What does «chi parla?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Chi parla? = who is speaking?!",
+        "en": "Correct! «Chi parla?» = who is speaking?!"
+      },
+      "feedbackErr": {
+        "it": "Chi parla? = who is speaking?!",
+        "en": "«Chi parla?» = who is speaking?!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Un momento» significa?",
+        "en": "What does «un momento» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Un momento = one moment!",
+        "en": "Correct! «Un momento» = one moment!"
+      },
+      "feedbackErr": {
+        "it": "Un momento = one moment!",
+        "en": "«Un momento» = one moment!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Pronto» = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Pronto!",
+        "en": "Yes! «Pronto»!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Chi parla?» = ?",
+        "en": "«Chi parla?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Chi parla?!",
+        "en": "Yes! «Chi parla?»!"
+      },
+      "feedbackErr": {
+        "it": "Chi parla? = who is speaking?!",
+        "en": "«Chi parla?» = who is speaking?!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "⏱️ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Un momento» = ?",
+        "en": "«Un momento» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment",
+          "emoji": "⏱️"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Un momento!",
+        "en": "Yes! «Un momento»!"
+      },
+      "feedbackErr": {
+        "it": "Un momento = one moment!",
+        "en": "«Un momento» = one moment!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "📞 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Pronto» = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
+          "it": "One moment",
+          "en": "One moment",
+          "emoji": "⏱️"
+        },
+        {
+          "it": "Who is speaking?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Pronto!",
+        "en": "Yes! «Pronto»!"
+      },
+      "feedbackErr": {
+        "it": "Pronto = hello (phone)!",
+        "en": "«Pronto» = hello (phone)!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di pronto",
+      "domanda_en": "The secret of hello (phone)",
+      "titolo_it": "Al telefono",
+      "titolo_en": "Al telefono",
+      "corpo_it": "Tema: Al telefono. Loro: loro sono, loro hanno",
+      "corpo_en": "Theme: Al telefono. Loro: loro sono, loro hanno",
+      "esempio_it": "📞 Pronto · 📱 Richiamare",
+      "esempio_en": "Hello (phone) · To call back"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit9-lesson5",
+  "title": "Tutto veloce! — Descrivere persone",
+  "title_en": "Descrivere persone",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Alto = ?",
+        "en": "«Alto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Basso = ?",
+        "en": "«Basso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Short",
+          "en": "Short"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Giovane",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "😊 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Simpatico = ?",
+        "en": "«Simpatico» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Simpatico",
+          "en": "Nice",
+          "emoji": "😊"
+        },
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Come sei? = ?",
+        "en": "«Come sei?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Come sei? = what are you like?!",
+        "en": "«Come sei?» = what are you like?!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "I capelli",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "I capelli",
+          "en": "The hair"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "I capelli = the hair!",
+        "en": "«I capelli» = the hair!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Alto = tall!",
+        "en": "«Alto» = tall!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "📏 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Basso = ?",
+        "en": "«Basso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
+          "it": "Giovane",
+          "en": "Young",
+          "emoji": "🌱"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Basso = short!",
+        "en": "«Basso» = short!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Giovane = ?",
+        "en": "«Giovane» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
+          "it": "Young",
+          "en": "Young"
+        },
+        {
+          "it": "Short",
+          "en": "Short"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Giovane = young!",
+        "en": "«Giovane» = young!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Simpatico",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Simpatico",
+          "en": "Nice"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Simpatico = nice!",
+        "en": "«Simpatico» = nice!"
+      }
+    }
+  ]
+}

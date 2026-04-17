@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit10-lesson1",
+  "title": "La famiglia",
+  "title_en": "La famiglia",
+  "type": "vocabolario",
+  "icon": "⭐",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè espresso",
+        "nomeEN": "Espresso coffee"
+      },
+      {
+        "emoji": "☕",
+        "nome": "Cappuccino",
+        "nomeEN": "Cappuccino"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta d'arancia",
+        "nomeEN": "Fresh orange juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v1",
+      "it": "La mamma",
+      "en": "The mum",
+      "emoji": "👩",
+      "audio_text": "La mamma",
+      "mario_it": "La mamma — the mum!",
+      "mario_en": "La mamma — the mum!"
+    },
+    {
+      "id": "v2",
+      "it": "Il papà",
+      "en": "The dad",
+      "emoji": "👨",
+      "audio_text": "Il papà",
+      "mario_it": "Il papà — the dad!",
+      "mario_en": "Il papà — the dad!"
+    },
+    {
+      "id": "v3",
+      "it": "Il fratello",
+      "en": "The brother",
+      "emoji": "👦",
+      "audio_text": "Il fratello",
+      "mario_it": "Il fratello — the brother!",
+      "mario_en": "Il fratello — the brother!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La mamma» significa?",
+        "en": "What does «la mamma» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! La mamma = the mum!",
+        "en": "Correct! «La mamma» = the mum!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Il papà» significa?",
+        "en": "What does «il papà» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Il papà = the dad!",
+        "en": "Correct! «Il papà» = the dad!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«Il fratello» significa?",
+        "en": "What does «il fratello» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Il fratello = the brother!",
+        "en": "Correct! «Il fratello» = the brother!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
+          "it": "Il fratello",
+          "en": "The brother"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La mamma!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Il papà» = ?",
+        "en": "«Il papà» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The dad",
+          "en": "The dad"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il papà!",
+        "en": "Yes! «Il papà»!"
+      },
+      "feedbackErr": {
+        "it": "Il papà = the dad!",
+        "en": "«Il papà» = the dad!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👦 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il fratello» = ?",
+        "en": "«Il fratello» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother",
+          "emoji": "👦"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad",
+          "emoji": "👨"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Il fratello!",
+        "en": "Yes! «Il fratello»!"
+      },
+      "feedbackErr": {
+        "it": "Il fratello = the brother!",
+        "en": "«Il fratello» = the brother!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👩 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La mamma» = ?",
+        "en": "«La mamma» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The mum",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
+          "it": "The brother",
+          "en": "The brother",
+          "emoji": "👦"
+        },
+        {
+          "it": "The dad",
+          "en": "The dad",
+          "emoji": "👨"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La mamma!",
+        "en": "Yes! «La mamma»!"
+      },
+      "feedbackErr": {
+        "it": "La mamma = the mum!",
+        "en": "«La mamma» = the mum!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la mamma",
+      "domanda_en": "The secret of the mum",
+      "titolo_it": "La famiglia",
+      "titolo_en": "La famiglia",
+      "corpo_it": "Tema: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "corpo_en": "Theme: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "esempio_it": "👩 La mamma · 👧 La sorella",
+      "esempio_en": "The mum · The sister"
+    }
+  ]
+}

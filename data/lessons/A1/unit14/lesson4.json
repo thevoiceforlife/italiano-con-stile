@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit14-lesson4",
+  "title": "Ascolta — Il tempo atmosferico",
+  "title_en": "Il tempo atmosferico",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Fa caldo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Fa caldo»!",
+        "en": "Yes! «Fa caldo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Fa caldo»!",
+        "en": "It was «Fa caldo»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Fa freddo",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Fa freddo»!",
+        "en": "Yes! «Fa freddo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Fa freddo»!",
+        "en": "It was «Fa freddo»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Piove",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Piove»!",
+        "en": "Yes! «Piove»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Piove»!",
+        "en": "It was «Piove»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "C'è il sole",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "C'è il sole",
+          "en": "It is sunny"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «C'è il sole»!",
+        "en": "Yes! «C'è il sole»!"
+      },
+      "feedbackErr": {
+        "it": "Era «C'è il sole»!",
+        "en": "It was «C'è il sole»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Che tempo fa?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Che tempo fa?",
+          "en": "What is the weather like?"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Che tempo fa?»!",
+        "en": "Yes! «Che tempo fa?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Che tempo fa?»!",
+        "en": "It was «Che tempo fa?»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Nuvoloso",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Nuvoloso",
+          "en": "Cloudy"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Nuvoloso»!",
+        "en": "Yes! «Nuvoloso»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Nuvoloso»!",
+        "en": "It was «Nuvoloso»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🌞 Mario dice: fa caldo!",
+      "contesto_en": "Mario says: it is hot!",
+      "domanda": {
+        "it": "«Fa caldo» = ?",
+        "en": "«Fa caldo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Fa caldo»!",
+        "en": "Yes! «Fa caldo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Fa caldo»!",
+        "en": "It was «Fa caldo»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🥶 Mario dice: fa freddo!",
+      "contesto_en": "Mario says: it is cold!",
+      "domanda": {
+        "it": "«Fa freddo» = ?",
+        "en": "«Fa freddo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
+          "it": "Piove",
+          "en": "It is raining"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Fa freddo»!",
+        "en": "Yes! «Fa freddo»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Fa freddo»!",
+        "en": "It was «Fa freddo»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di fa caldo",
+      "domanda_en": "The secret of it is hot",
+      "titolo_it": "Il tempo atmosferico",
+      "titolo_en": "Il tempo atmosferico",
+      "corpo_it": "Tema: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "corpo_en": "Theme: Il tempo atmosferico. Accordo aggettivo plurale: -o/-a → -i/-e",
+      "esempio_it": "🌞 Fa caldo · ☀️ C'è il sole",
+      "esempio_en": "It is hot · It is sunny"
+    }
+  ]
+}

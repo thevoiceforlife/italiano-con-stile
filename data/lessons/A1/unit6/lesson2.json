@@ -1,0 +1,364 @@
+{
+  "id": "A1-unit6-lesson2",
+  "title": "I numeri 1-100",
+  "title_en": "I numeri 1-100",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "☕",
+        "nome": "Caffè",
+        "nomeEN": "Coffee"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto",
+        "nomeEN": "Croissant"
+      },
+      {
+        "emoji": "🍊",
+        "nome": "Spremuta",
+        "nomeEN": "Juice"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "Cinquanta",
+      "en": "Fifty",
+      "emoji": "5️⃣0️⃣",
+      "audio_text": "Cinquanta",
+      "mario_it": "Cinquanta — fifty!",
+      "mario_en": "Cinquanta — fifty!"
+    },
+    {
+      "id": "v5",
+      "it": "Cento",
+      "en": "One hundred",
+      "emoji": "💯",
+      "audio_text": "Cento",
+      "mario_it": "Cento — one hundred!",
+      "mario_en": "Cento — one hundred!"
+    },
+    {
+      "id": "v6",
+      "it": "Quanti?",
+      "en": "How many?",
+      "emoji": "🔢",
+      "audio_text": "Quanti?",
+      "mario_it": "Quanti? — how many?!",
+      "mario_en": "Quanti? — how many?!"
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di i numeri 1-100",
+      "domanda_en": "The secret of i numeri 1-100",
+      "titolo_it": "I numeri 1-100",
+      "titolo_en": "I numeri 1-100",
+      "corpo_it": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "corpo_en": "AVERE per l'età: HO 30 anni, non I AM 30",
+      "esempio_it": "1️⃣ Uno · 5️⃣0️⃣ Cinquanta",
+      "esempio_en": "One · Fifty"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Cinquanta» significa?",
+        "en": "What does «cinquanta» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Fifty",
+          "en": "Fifty"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! Cinquanta = fifty!",
+        "en": "Correct! «Cinquanta» = fifty!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Cento» significa?",
+        "en": "What does «cento» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?"
+        },
+        {
+          "it": "Fifty",
+          "en": "Fifty"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! Cento = one hundred!",
+        "en": "Correct! «Cento» = one hundred!"
+      },
+      "feedbackErr": {
+        "it": "Cento = one hundred!",
+        "en": "«Cento» = one hundred!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«Quanti?» significa?",
+        "en": "What does «quanti?» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "Fifty",
+          "en": "Fifty"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! Quanti? = how many?!",
+        "en": "Correct! «Quanti?» = how many?!"
+      },
+      "feedbackErr": {
+        "it": "Quanti? = how many?!",
+        "en": "«Quanti?» = how many?!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina.",
+        "en": "Match."
+      },
+      "coppie": [
+        {
+          "it": "Cinquanta",
+          "en": "Fifty"
+        },
+        {
+          "it": "Cento",
+          "en": "One hundred"
+        },
+        {
+          "it": "Quanti?",
+          "en": "How many?"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Cinquanta» = ?",
+        "en": "«Cinquanta» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fifty",
+          "en": "Fifty"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Cinquanta!",
+        "en": "Yes! «Cinquanta»!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«Cento» = ?",
+        "en": "«Cento» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "One hundred",
+          "en": "One hundred"
+        },
+        {
+          "it": "Fifty",
+          "en": "Fifty"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Cento!",
+        "en": "Yes! «Cento»!"
+      },
+      "feedbackErr": {
+        "it": "Cento = one hundred!",
+        "en": "«Cento» = one hundred!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "🔢 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Quanti?» = ?",
+        "en": "«Quanti?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fifty",
+          "en": "Fifty",
+          "emoji": "5️⃣0️⃣"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?",
+          "emoji": "🔢"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred",
+          "emoji": "💯"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Quanti?!",
+        "en": "Yes! «Quanti?»!"
+      },
+      "feedbackErr": {
+        "it": "Quanti? = how many?!",
+        "en": "«Quanti?» = how many?!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "5️⃣0️⃣ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Cinquanta» = ?",
+        "en": "«Cinquanta» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Fifty",
+          "en": "Fifty",
+          "emoji": "5️⃣0️⃣"
+        },
+        {
+          "it": "How many?",
+          "en": "How many?",
+          "emoji": "🔢"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred",
+          "emoji": "💯"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Cinquanta!",
+        "en": "Yes! «Cinquanta»!"
+      },
+      "feedbackErr": {
+        "it": "Cinquanta = fifty!",
+        "en": "«Cinquanta» = fifty!"
+      }
+    }
+  ]
+}

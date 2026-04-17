@@ -1,0 +1,352 @@
+{
+  "id": "A1-unit13-lesson3",
+  "title": "Pratica — Fare la spesa",
+  "title_en": "Fare la spesa",
+  "type": "pratica",
+  "icon": "💪",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍝",
+        "nome": "Spaghetti al pomodoro",
+        "nomeEN": "Spaghetti with tomato"
+      },
+      {
+        "emoji": "🍜",
+        "nome": "Pasta e fagioli",
+        "nomeEN": "Pasta and beans"
+      },
+      {
+        "emoji": "🍝",
+        "nome": "Pasta al ragù",
+        "nomeEN": "Pasta with meat sauce"
+      },
+      {
+        "emoji": "🫙",
+        "nome": "Minestra napoletana",
+        "nomeEN": "Neapolitan soup"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🛒 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh",
+          "emoji": "🌿"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il mercato!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Un chilo!",
+        "en": "Yes! «Un chilo»!"
+      },
+      "feedbackErr": {
+        "it": "Un chilo = a kilo!",
+        "en": "«Un chilo» = a kilo!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Fresco» = ?",
+        "en": "«Fresco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Fresco!",
+        "en": "Yes! «Fresco»!"
+      },
+      "feedbackErr": {
+        "it": "Fresco = fresh!",
+        "en": "«Fresco» = fresh!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "oliver",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🙋 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Posso avere?» = ?",
+        "en": "«Posso avere?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Posso avere?",
+          "en": "Can I have?",
+          "emoji": "🙋"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Posso avere?!",
+        "en": "Yes! «Posso avere?»!"
+      },
+      "feedbackErr": {
+        "it": "Posso avere? = can i have?!",
+        "en": "«Posso avere?» = can i have?!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Il resto",
+          "en": "The change"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Il resto!",
+        "en": "Yes! «Il resto»!"
+      },
+      "feedbackErr": {
+        "it": "Il resto = the change!",
+        "en": "«Il resto» = the change!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "oliver",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "domanda": {
+        "it": "«Costa troppo» = ?",
+        "en": "«Costa troppo» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Costa troppo",
+          "en": "It costs too much"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! Costa troppo!",
+        "en": "Yes! «Costa troppo»!"
+      },
+      "feedbackErr": {
+        "it": "Costa troppo = it costs too much!",
+        "en": "«Costa troppo» = it costs too much!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "contesto_it": "🛒 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«Il mercato» = ?",
+        "en": "«Il mercato» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh",
+          "emoji": "🌿"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! Il mercato!",
+        "en": "Yes! «Il mercato»!"
+      },
+      "feedbackErr": {
+        "it": "Il mercato = the market!",
+        "en": "«Il mercato» = the market!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "oliver",
+      "tipo": "fill_blank",
+      "fase": "produzione",
+      "introIT": "Pratica!",
+      "intro_en": "Practice!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
+          "it": "Fresco",
+          "en": "Fresh"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! Un chilo!",
+        "en": "Yes! «Un chilo»!"
+      },
+      "feedbackErr": {
+        "it": "Un chilo = a kilo!",
+        "en": "«Un chilo» = a kilo!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di il mercato",
+      "domanda_en": "The secret of the market",
+      "titolo_it": "Fare la spesa",
+      "titolo_en": "Fare la spesa",
+      "corpo_it": "Tema: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "corpo_en": "Theme: Fare la spesa. Articoli determinativi: il/la/i/le",
+      "esempio_it": "🛒 Il mercato · 🙋 Posso avere?",
+      "esempio_en": "The market · Can I have?"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "id": "A1-unit12-lesson4",
+  "title": "Ascolta — Al telefono",
+  "title_en": "Al telefono",
+  "type": "ascolto",
+  "icon": "🎧",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 8,
+    "pool": [
+      {
+        "emoji": "🍹",
+        "nome": "Aperol Spritz",
+        "nomeEN": "Aperol Spritz"
+      },
+      {
+        "emoji": "🍋",
+        "nome": "Limoncello",
+        "nomeEN": "Limoncello"
+      },
+      {
+        "emoji": "🥂",
+        "nome": "Prosecco",
+        "nomeEN": "Prosecco"
+      },
+      {
+        "emoji": "🍷",
+        "nome": "Negroni",
+        "nomeEN": "Negroni"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Pronto",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Pronto»!",
+        "en": "Yes! «Pronto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Pronto»!",
+        "en": "It was «Pronto»!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Chi parla?",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Chi parla?»!",
+        "en": "Yes! «Chi parla?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Chi parla?»!",
+        "en": "It was «Chi parla?»!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Un momento",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Un momento»!",
+        "en": "Yes! «Un momento»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Un momento»!",
+        "en": "It was «Un momento»!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Richiamare",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Richiamare",
+          "en": "To call back"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Richiamare»!",
+        "en": "Yes! «Richiamare»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Richiamare»!",
+        "en": "It was «Richiamare»!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il numero",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Il numero",
+          "en": "The number"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Il numero»!",
+        "en": "Yes! «Il numero»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il numero»!",
+        "en": "It was «Il numero»!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "audio": "Il messaggio",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Il messaggio",
+          "en": "The message"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! «Il messaggio»!",
+        "en": "Yes! «Il messaggio»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Il messaggio»!",
+        "en": "It was «Il messaggio»!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "📞 Mario dice: pronto!",
+      "contesto_en": "Mario says: hello (phone)!",
+      "domanda": {
+        "it": "«Pronto» = ?",
+        "en": "«Pronto» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! «Pronto»!",
+        "en": "Yes! «Pronto»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Pronto»!",
+        "en": "It was «Pronto»!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "emma",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Ascolta!",
+      "intro_en": "Listen!",
+      "contesto_it": "🗣️ Mario dice: chi parla?!",
+      "contesto_en": "Mario says: who is speaking?!",
+      "domanda": {
+        "it": "«Chi parla?» = ?",
+        "en": "«Chi parla?» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
+          "it": "Un momento",
+          "en": "One moment"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! «Chi parla?»!",
+        "en": "Yes! «Chi parla?»!"
+      },
+      "feedbackErr": {
+        "it": "Era «Chi parla?»!",
+        "en": "It was «Chi parla?»!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di pronto",
+      "domanda_en": "The secret of hello (phone)",
+      "titolo_it": "Al telefono",
+      "titolo_en": "Al telefono",
+      "corpo_it": "Tema: Al telefono. Loro: loro sono, loro hanno",
+      "corpo_en": "Theme: Al telefono. Loro: loro sono, loro hanno",
+      "esempio_it": "📞 Pronto · 📱 Richiamare",
+      "esempio_en": "Hello (phone) · To call back"
+    }
+  ]
+}

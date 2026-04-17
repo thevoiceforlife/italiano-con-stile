@@ -1,0 +1,401 @@
+{
+  "id": "A1-unit11-lesson5",
+  "title": "Tutto veloce! — I colori e aggettivi",
+  "title_en": "I colori e aggettivi",
+  "type": "speedround",
+  "icon": "🎯",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 10,
+    "pool": [
+      {
+        "emoji": "🍕",
+        "nome": "Pizza margherita",
+        "nomeEN": "Margherita pizza"
+      },
+      {
+        "emoji": "🐟",
+        "nome": "Branzino al forno",
+        "nomeEN": "Baked sea bass"
+      },
+      {
+        "emoji": "🍖",
+        "nome": "Secondi napoletani",
+        "nomeEN": "Neapolitan main course"
+      },
+      {
+        "emoji": "🥗",
+        "nome": "Insalata di mare",
+        "nomeEN": "Seafood salad"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Rosso = ?",
+        "en": "«Rosso» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Blu = ?",
+        "en": "«Blu» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Blue",
+          "en": "Blue"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "riconoscimento",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Verde",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "⚪ Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Bianco = ?",
+        "en": "«Bianco» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Bianco",
+          "en": "White",
+          "emoji": "⚪"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Nero = ?",
+        "en": "«Nero» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Black",
+          "en": "Black"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Nero = black!",
+        "en": "«Nero» = black!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Bello",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Bello",
+          "en": "Beautiful"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Bello = beautiful!",
+        "en": "«Bello» = beautiful!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "mario",
+      "tipo": "fill_blank",
+      "fase": "comprensione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "frase_it": "Mario dice: ___!",
+      "frase_en": "Mario says: ___!",
+      "domanda": {
+        "it": "Completa!",
+        "en": "Complete!"
+      },
+      "opzioni": [
+        {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
+          "it": "Verde",
+          "en": "Green"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Rosso = red!",
+        "en": "«Rosso» = red!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "mario",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "contesto_it": "🔵 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "Blu = ?",
+        "en": "«Blu» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
+          "it": "Verde",
+          "en": "Green",
+          "emoji": "🟢"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Blu = blue!",
+        "en": "«Blu» = blue!"
+      }
+    },
+    {
+      "id": "q9",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "domanda": {
+        "it": "Verde = ?",
+        "en": "«Verde» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
+          "it": "Green",
+          "en": "Green"
+        },
+        {
+          "it": "Blue",
+          "en": "Blue"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Verde = green!",
+        "en": "«Verde» = green!"
+      }
+    },
+    {
+      "id": "q10",
+      "personaggio": "mario",
+      "tipo": "ascolta_scegli",
+      "fase": "produzione",
+      "introIT": "Veloce!",
+      "intro_en": "Fast!",
+      "audio": "Bianco",
+      "domanda": {
+        "it": "Cosa senti?",
+        "en": "What do you hear?"
+      },
+      "opzioni": [
+        {
+          "it": "Bianco",
+          "en": "White"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì!",
+        "en": "Yes!"
+      },
+      "feedbackErr": {
+        "it": "Bianco = white!",
+        "en": "«Bianco» = white!"
+      }
+    }
+  ]
+}

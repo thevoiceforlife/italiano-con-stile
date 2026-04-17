@@ -1,0 +1,369 @@
+{
+  "id": "A1-unit10-lesson2",
+  "title": "La famiglia",
+  "title_en": "La famiglia",
+  "type": "lettura",
+  "icon": "📖",
+  "unita_tipo": "scopri",
+  "reward": {
+    "type": "slot",
+    "credits": 5,
+    "pool": [
+      {
+        "emoji": "🥐",
+        "nome": "Cornetto alla crema",
+        "nomeEN": "Cream croissant"
+      },
+      {
+        "emoji": "🧇",
+        "nome": "Brioche col tuppo",
+        "nomeEN": "Sicilian brioche"
+      },
+      {
+        "emoji": "🍫",
+        "nome": "Cioccolata calda",
+        "nomeEN": "Hot chocolate"
+      },
+      {
+        "emoji": "🥐",
+        "nome": "Sfogliatella",
+        "nomeEN": "Sfogliatella pastry"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "id": "v4",
+      "it": "La sorella",
+      "en": "The sister",
+      "emoji": "👧",
+      "audio_text": "La sorella",
+      "mario_it": "La sorella — the sister!",
+      "mario_en": "La sorella — the sister!"
+    },
+    {
+      "id": "v5",
+      "it": "I nonni",
+      "en": "The grandparents",
+      "emoji": "👴👵",
+      "audio_text": "I nonni",
+      "mario_it": "I nonni — the grandparents!",
+      "mario_en": "I nonni — the grandparents!"
+    },
+    {
+      "id": "v6",
+      "it": "La famiglia",
+      "en": "The family",
+      "emoji": "👨‍👩‍👧‍👦",
+      "audio_text": "La famiglia",
+      "mario_it": "La famiglia — the family!",
+      "mario_en": "La famiglia — the family!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Impara!",
+      "intro_en": "Learn!",
+      "domanda": {
+        "it": "«La sorella» significa?",
+        "en": "What does «la sorella» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The sister",
+          "en": "The sister"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        },
+        {
+          "it": "The family",
+          "en": "The family"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Esatto! La sorella = the sister!",
+        "en": "Correct! «La sorella» = the sister!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    },
+    {
+      "id": "q2",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«I nonni» significa?",
+        "en": "What does «i nonni» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        },
+        {
+          "it": "The family",
+          "en": "The family"
+        },
+        {
+          "it": "The sister",
+          "en": "The sister"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Esatto! I nonni = the grandparents!",
+        "en": "Correct! «I nonni» = the grandparents!"
+      },
+      "feedbackErr": {
+        "it": "I nonni = the grandparents!",
+        "en": "«I nonni» = the grandparents!"
+      }
+    },
+    {
+      "id": "q3",
+      "personaggio": "mario",
+      "tipo": "multipla",
+      "fase": "riconoscimento",
+      "introIT": "Continua!",
+      "intro_en": "Continue!",
+      "domanda": {
+        "it": "«La famiglia» significa?",
+        "en": "What does «la famiglia» mean?"
+      },
+      "opzioni": [
+        {
+          "it": "The sister",
+          "en": "The sister"
+        },
+        {
+          "it": "The family",
+          "en": "The family"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Esatto! La famiglia = the family!",
+        "en": "Correct! «La famiglia» = the family!"
+      },
+      "feedbackErr": {
+        "it": "La famiglia = the family!",
+        "en": "«La famiglia» = the family!"
+      }
+    },
+    {
+      "id": "q4",
+      "personaggio": "mario",
+      "tipo": "abbina_coppia",
+      "fase": "riconoscimento",
+      "introIT": "Abbina!",
+      "intro_en": "Match!",
+      "domanda": {
+        "it": "Abbina alla traduzione.",
+        "en": "Match to the translation."
+      },
+      "coppie": [
+        {
+          "it": "La sorella",
+          "en": "The sister"
+        },
+        {
+          "it": "I nonni",
+          "en": "The grandparents"
+        },
+        {
+          "it": "La famiglia",
+          "en": "The family"
+        }
+      ],
+      "feedbackOk": {
+        "it": "Bravissimo!",
+        "en": "Excellent!"
+      },
+      "feedbackErr": {
+        "it": "Quasi!",
+        "en": "Almost!"
+      }
+    },
+    {
+      "id": "q5",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«La sorella» = ?",
+        "en": "«La sorella» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The sister",
+          "en": "The sister"
+        },
+        {
+          "it": "The family",
+          "en": "The family"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La sorella!",
+        "en": "Yes! «La sorella»!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    },
+    {
+      "id": "q6",
+      "personaggio": "hans",
+      "tipo": "multipla",
+      "fase": "comprensione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "domanda": {
+        "it": "«I nonni» = ?",
+        "en": "«I nonni» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
+        },
+        {
+          "it": "The sister",
+          "en": "The sister"
+        },
+        {
+          "it": "The family",
+          "en": "The family"
+        }
+      ],
+      "correct": 1,
+      "feedbackOk": {
+        "it": "Sì! I nonni!",
+        "en": "Yes! «I nonni»!"
+      },
+      "feedbackErr": {
+        "it": "I nonni = the grandparents!",
+        "en": "«I nonni» = the grandparents!"
+      }
+    },
+    {
+      "id": "q7",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👨‍👩‍👧‍👦 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La famiglia» = ?",
+        "en": "«La famiglia» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The sister",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "The family",
+          "en": "The family",
+          "emoji": "👨‍👩‍👧‍👦"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents",
+          "emoji": "👴👵"
+        }
+      ],
+      "correct": 0,
+      "feedbackOk": {
+        "it": "Sì! La famiglia!",
+        "en": "Yes! «La famiglia»!"
+      },
+      "feedbackErr": {
+        "it": "La famiglia = the family!",
+        "en": "«La famiglia» = the family!"
+      }
+    },
+    {
+      "id": "q8",
+      "personaggio": "hans",
+      "tipo": "tap_right",
+      "fase": "produzione",
+      "introIT": "Situazione!",
+      "intro_en": "Situation!",
+      "contesto_it": "👧 Situazione.",
+      "contesto_en": "Situation.",
+      "domanda": {
+        "it": "«La sorella» = ?",
+        "en": "«La sorella» = ?"
+      },
+      "opzioni": [
+        {
+          "it": "The sister",
+          "en": "The sister",
+          "emoji": "👧"
+        },
+        {
+          "it": "The family",
+          "en": "The family",
+          "emoji": "👨‍👩‍👧‍👦"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents",
+          "emoji": "👴👵"
+        }
+      ],
+      "correct": 2,
+      "feedbackOk": {
+        "it": "Sì! La sorella!",
+        "en": "Yes! «La sorella»!"
+      },
+      "feedbackErr": {
+        "it": "La sorella = the sister!",
+        "en": "«La sorella» = the sister!"
+      }
+    }
+  ],
+  "pillole": [
+    {
+      "id": "pill1",
+      "trigger": "after_lesson",
+      "icon": "💡",
+      "domanda_it": "Il segreto di la mamma",
+      "domanda_en": "The secret of the mum",
+      "titolo_it": "La famiglia",
+      "titolo_en": "La famiglia",
+      "corpo_it": "Tema: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "corpo_en": "Theme: La famiglia. Plurale: il→i, la→le, -o→-i, -a→-e",
+      "esempio_it": "👩 La mamma · 👧 La sorella",
+      "esempio_en": "The mum · The sister"
+    }
+  ]
+}
