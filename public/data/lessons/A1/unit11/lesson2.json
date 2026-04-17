@@ -36,7 +36,7 @@
       "id": "v4",
       "it": "Bianco",
       "en": "White",
-      "emoji": "⚪",
+      "emoji": "⬜",
       "audio_text": "Bianco",
       "mario_it": "Bianco — white!",
       "mario_en": "Bianco — white!"
@@ -45,7 +45,7 @@
       "id": "v5",
       "it": "Nero",
       "en": "Black",
-      "emoji": "⚫",
+      "emoji": "⬛",
       "audio_text": "Nero",
       "mario_it": "Nero — black!",
       "mario_en": "Nero — black!"

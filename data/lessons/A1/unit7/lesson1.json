@@ -31,7 +31,7 @@
       "id": "v1",
       "it": "Oggi",
       "en": "Today",
-      "emoji": "📅",
+      "emoji": "📆",
       "audio_text": "Oggi",
       "mario_it": "Oggi — today!",
       "mario_en": "Oggi — today!"
@@ -40,7 +40,7 @@
       "id": "v2",
       "it": "Domani",
       "en": "Tomorrow",
-      "emoji": "📅",
+      "emoji": "🗓️",
       "audio_text": "Domani",
       "mario_it": "Domani — tomorrow!",
       "mario_en": "Domani — tomorrow!"

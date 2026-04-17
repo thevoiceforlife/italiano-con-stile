@@ -45,7 +45,7 @@
       "id": "v5",
       "it": "Vicino",
       "en": "Near",
-      "emoji": "📌",
+      "emoji": "🔵",
       "audio_text": "Vicino",
       "mario_it": "Vicino — a pochi passi!",
       "mario_en": "Vicino — just a few steps away!"
@@ -54,7 +54,7 @@
       "id": "v6",
       "it": "Lontano",
       "en": "Far",
-      "emoji": "🗺️",
+      "emoji": "🔴",
       "audio_text": "Lontano",
       "mario_it": "Lontano — ci vuole tempo!",
       "mario_en": "Lontano — it takes some time!"

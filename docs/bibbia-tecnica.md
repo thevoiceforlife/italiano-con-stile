@@ -1557,3 +1557,18 @@ Prima di scrivere ogni unità con struttura grammaticale:
 - Unit13 ✅ Fare la spesa (mercato/chilo/fresco/posso avere/resto/costa troppo · articoli)
 - Unit14 ✅ Il tempo (fa caldo/freddo/piove/c'è il sole/che tempo fa/nuvoloso · accordo)
 - Unit15 ✅ Le emozioni (felice/triste/stanco/arrabbiato/come stai/sto bene · riflessivi)
+
+---
+
+## Regole Emoji Vocabolario
+
+### Principi
+- Ogni parola del vocabolario ha una emoji UNICA nell'unità — mai due parole con la stessa emoji
+- La emoji deve mostrare il concetto visivamente, non essere generica
+- Preferire emoji concrete sull'astratto: 🧾 per "il conto", non 📄
+- Emoji identiche tra unità diverse sono OK solo se il significato è uguale
+
+### Checklist pre-scrittura JSON
+- Nessuna emoji ripetuta nella stessa unità
+- Emoji coerente con il significato visivo
+- Emoji diversa per antonimi (vicino/lontano, alto/basso, oggi/domani)
