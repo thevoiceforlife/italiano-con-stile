@@ -120,6 +120,14 @@ const CHAR_COLOR = {
 
 
 // Converte «termine» → <u>termine</u> per evidenziare termini IT in testo bilingue
+
+// Pronuncia l'opzione solo se è testo italiano (it !== en)
+function pronounceOpt(opt) {
+  const it = typeof opt === "string" ? opt : opt?.it;
+  const en = typeof opt === "object" ? opt?.en : null;
+  if (it && it !== en) pronounce(it);
+}
+
 function renderText(text) {
   if (!text || !text.includes('«')) return text;
   const parts = text.split(/(«[^»]+»)/g);
@@ -325,9 +333,7 @@ function DomandaMultipla({ q, onAnswer }) {
             setConfirmed(true);
             playSound(isCorrect ? "correct" : "wrong");
             if (isCorrect && selected !== null) {
-              const correctOpt = shuffled[newCorrect]?.o;
-              const it = typeof correctOpt === "string" ? correctOpt : correctOpt?.it;
-              if (it) pronounce(it);
+              pronounceOpt(shuffled[newCorrect]?.o);
             }
           }} />}
     </>
@@ -547,9 +553,7 @@ function DomandaAscolta({ q, onAnswer }) {
             setConfirmed(true);
             playSound(isCorrect ? "correct" : "wrong");
             if (isCorrect && selected !== null) {
-              const correctOpt = shuffled[newCorrect]?.o;
-              const it = typeof correctOpt === "string" ? correctOpt : correctOpt?.it;
-              if (it) pronounce(it);
+              pronounceOpt(shuffled[newCorrect]?.o);
             }
           }} />}
     </>
@@ -1392,7 +1396,7 @@ function DomandaTapRight({ q, onAnswer }) {
     setSelected(idx);
     setConfirmed(true);
     playSound(idx === q.correct ? "correct" : "wrong");
-    if (idx === q.correct) pronounce(q.opzioni[idx].it, "it-IT");
+    if (idx === q.correct) pronounceOpt(q.opzioni[idx]);
   }
 
   return (
