@@ -286,6 +286,7 @@ ERR: "Con i professori è preferibile
 [x] Unit1 A1.1 riscritta con v2
 [x] Unit2 A1.1 riscritta con v2
 [ ] Test su utente reale
-[ ] Unit3-5 scritte con v2
-[ ] Generatore automatico basato su v2
-[ ] Unit6-15 generate automaticamente
+[x] Unit3-5 scritte con v2
+[x] Generatore automatico basato su v2
+[x] Unit6-15 generate automaticamente
+[x] A1 completo — 15 unità × 6 file = 90 lezioni (aprile 2026)
