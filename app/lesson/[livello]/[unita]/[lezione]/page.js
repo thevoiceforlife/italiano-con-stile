@@ -235,6 +235,14 @@ function DomandaMultipla({ q, onAnswer }) {
   const getOptIt = (opt) => typeof opt === "string" ? opt : opt.it;
   const getOptEn = (opt) => typeof opt === "object" ? opt.en : null;
   const intro = getIntroBilingual(q);
+
+  function handleSelect(opt, si) {
+    if (confirmed) return;
+    const it = getOptIt(opt);
+    const en = getOptEn(opt);
+    if (it && it !== en) pronounce(it);
+    setSelected(si);
+  }
   return (
     <>
       <div className="app-body">
@@ -283,11 +291,7 @@ function DomandaMultipla({ q, onAnswer }) {
             return (
               <button
                 key={si}
-                onClick={() => {
-                  if (confirmed) return;
-                  if (optIt && optIt !== optEn) pronounce(optIt); // NO audio su testo EN-only
-                  setSelected(si);
-                }}
+                onClick={() => handleSelect(opt, si)}
                 style={{
                   display: "flex", alignItems: "center", gap: 12,
                   background: bg, border: `1.5px solid ${border}`,
