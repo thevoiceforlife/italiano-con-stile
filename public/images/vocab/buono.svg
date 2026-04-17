@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Buono</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M58,77 L58,42 L82,55 L82,90 Z" fill="#3AAD55"/>
+  <path d="M30,55 L58,42 L82,55 L58,68 Z" fill="#5BC875"/>
+  <path d="M42,42 Q42,25 56,22 Q65,20 65,32 L65,42 L75,42 Q82,42 82,50 L82,70 Q82,78 74,78 L45,78 Q35,78 35,68 L35,50 Q35,42 42,42 Z" fill="#F5A042"/>
+  <path d="M42,42 L42,25 Q50,18 58,22 L58,42 Z" fill="#F5C080"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Alto</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M42,100 L42,10 L58,4 L58,94 Z" fill="#1A6FA8"/>
+  <path d="M58,94 L58,4 L74,10 L74,100 Z" fill="#3A94D4"/>
+  <path d="M42,10 L58,4 L74,10 L58,16 Z" fill="#5BB8F5"/>
+  <path d="M88,50 L88,20 L82,28 M88,20 L94,28" fill="none" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

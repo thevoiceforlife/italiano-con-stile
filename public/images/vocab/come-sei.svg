@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Come sei</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M25,90 L25,25 L45,18 L45,83 Z" fill="#406080"/>
+  <path d="M45,83 L45,18 L85,32 L85,97 Z" fill="#6090B0"/>
+  <circle cx="55" cy="48" r="8" fill="#F5C080" opacity="0.7"/>
+  <rect x="50" y="58" width="10" height="14" rx="3" fill="#3A94D4" opacity="0.7"/>
+  <rect x="28" y="22" width="52" height="65" rx="3" fill="none" stroke="#F5C842" stroke-width="1.5"/>
+</svg>

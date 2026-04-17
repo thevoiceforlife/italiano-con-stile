@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Oggi</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M15,90 L15,42 L60,28 L60,76 Z" fill="#A82020"/>
+  <path d="M60,76 L60,28 L105,42 L105,90 Z" fill="#D44040"/>
+  <path d="M15,42 L60,28 L105,42 L60,56 Z" fill="#F57070"/>
+  <line x1="35" y1="28" x2="35" y2="20" stroke="#F5EDD0" stroke-width="2.5"/>
+  <line x1="85" y1="35" x2="85" y2="27" stroke="#F5EDD0" stroke-width="2.5"/>
+  <circle cx="42" cy="68" r="12" fill="#F5C842"/>
+  <text x="42" y="73" text-anchor="middle" font-size="14" fill="#A82020" font-family="sans-serif" font-weight="bold">OG</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Simpatico</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <circle cx="60" cy="58" r="34" fill="#F5C842"/>
+  <circle cx="60" cy="58" r="27" fill="#F5EDD0"/>
+  <path d="M44,50 Q50,44 56,50" fill="none" stroke="#D4A820" stroke-width="3" stroke-linecap="round"/>
+  <path d="M64,50 Q70,44 76,50" fill="none" stroke="#D4A820" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38,66 Q60,82 82,66" fill="none" stroke="#D4A820" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

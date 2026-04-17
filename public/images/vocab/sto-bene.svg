@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Sto bene</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#406080"/>
+  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#6090B0"/>
+  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#A0B8D0"/>
+  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Sto bene</text>
+</svg>
