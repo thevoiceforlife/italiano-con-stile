@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Lontano — Far</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M8,88 L8,72 L20,66 L20,82 Z" fill="#1A6FA8"/>
+  <path d="M20,82 L20,66 L32,72 L32,88 Z" fill="#3A94D4"/>
+  <path d="M8,72 L20,66 L32,72 L20,78 Z" fill="#5BB8F5"/>
+  <path d="M32,88 L60,105 L88,95" fill="none" stroke="#6090B0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M72,80 L72,40 L95,28 L95,68 Z" fill="#A82020"/>
+  <path d="M95,68 L95,28 L118,40 L118,80 Z" fill="#D44040"/>
+  <path d="M72,40 L95,28 L118,40 L95,52 Z" fill="#F57070"/>
+  <line x1="32" y1="78" x2="72" y2="60" stroke="#F5C842" stroke-width="1" stroke-dasharray="4,3"/>
+</svg>

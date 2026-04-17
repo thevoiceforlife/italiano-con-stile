@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Dritto — Straight ahead</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+  <path d="M10,90 L60,105 L110,90 L110,70 L60,85 L10,70 Z" fill="#406080" opacity="0.8"/>
+  <path d="M10,70 L60,85 L110,70 L110,65 L60,80 L10,65 Z" fill="#6090B0"/>
+  <line x1="60" y1="83" x2="60" y2="73" stroke="#F5EDD0" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M48,80 L48,30 L36,30 L60,10 L84,30 L72,30 L72,80 Z" fill="#5BC875" stroke="#1A7A35" stroke-width="1"/>
+</svg>
