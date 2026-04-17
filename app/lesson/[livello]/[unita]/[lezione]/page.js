@@ -484,7 +484,7 @@ function DomandaAscolta({ q, onAnswer }) {
           }}>
             <div style={{ fontSize: 13, color: "var(--text3)", fontStyle: "italic" }}>
               Clicca 🔊 per ascoltare<br/>
-              <span style={{ fontSize: 11 }}>Click 🔊 to listen</span>
+              <span style={{ fontSize: 11 }}>Click to listen</span>
             </div>
           </div>
         )}
