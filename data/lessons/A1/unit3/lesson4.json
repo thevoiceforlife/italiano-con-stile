@@ -61,19 +61,19 @@
       },
       "opzioni": [
         {
-          "it": "Grazie",
-          "en": "Thank you"
-        },
-        {
           "it": "Prego",
           "en": "You are welcome"
+        },
+        {
+          "it": "Grazie",
+          "en": "Thank you"
         },
         {
           "it": "Per favore",
           "en": "Please"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Hai sentito Grazie! 🙏",
         "en": "Yes! You heard Grazie!"
@@ -97,19 +97,19 @@
       },
       "opzioni": [
         {
-          "it": "Prego",
-          "en": "You are welcome"
-        },
-        {
           "it": "Grazie",
           "en": "Thank you"
         },
         {
           "it": "Il conto",
           "en": "The bill"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Hai sentito Prego! 😊",
         "en": "Perfect! You heard Prego!"
@@ -133,19 +133,19 @@
       },
       "opzioni": [
         {
-          "it": "Ecco a lei",
-          "en": "Here you are"
-        },
-        {
           "it": "Per favore",
           "en": "Please"
+        },
+        {
+          "it": "Ecco a lei",
+          "en": "Here you are"
         },
         {
           "it": "Quanto costa?",
           "en": "How much is it?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Ecco a lei! 🤲",
         "en": "Correct! Ecco a lei!"
@@ -169,19 +169,19 @@
       },
       "opzioni": [
         {
-          "it": "Pagare",
-          "en": "To pay"
-        },
-        {
           "it": "Un caffè",
           "en": "A coffee"
         },
         {
           "it": "Sapere il prezzo",
           "en": "To know the price"
+        },
+        {
+          "it": "Pagare",
+          "en": "To pay"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Sì! Il conto → vuole pagare! 🧾",
         "en": "Yes! Il conto → she wants to pay!"
@@ -205,19 +205,19 @@
       },
       "opzioni": [
         {
-          "it": "Il prezzo",
-          "en": "The price"
-        },
-        {
           "it": "Il nome",
           "en": "The name"
+        },
+        {
+          "it": "Il prezzo",
+          "en": "The price"
         },
         {
           "it": "Il caffè",
           "en": "The coffee"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Quanto costa? chiede il prezzo! 💶",
         "en": "Correct! «Quanto costa»? asks for the price!"
@@ -241,19 +241,19 @@
       },
       "opzioni": [
         {
-          "it": "Per favore",
-          "en": "Please"
-        },
-        {
           "it": "Prego",
           "en": "You are welcome"
+        },
+        {
+          "it": "Per favore",
+          "en": "Please"
         },
         {
           "it": "Grazie",
           "en": "Thank you"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Per favore = please! 🙏",
         "en": "Yes! Per favore = please!"
@@ -278,19 +278,19 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!"
         },
         {
           "it": "Il conto!",
           "en": "The bill!"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Brava Emma! Riceve → Grazie! 🙏",
         "en": "Well done Emma! Receives → Grazie!"
@@ -314,19 +314,19 @@
       },
       "opzioni": [
         {
-          "it": "Prego!",
-          "en": "You are welcome!"
-        },
-        {
           "it": "Grazie!",
           "en": "Thank you!"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!"
         },
         {
           "it": "Il conto!",
           "en": "The bill!"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Grazie → Prego! Sempre! 😊",
         "en": "Perfect! Grazie → Prego! Always!"

@@ -52,14 +52,14 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!",
-          "emoji": "🙏"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!",
           "emoji": "😊"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
         },
         {
           "it": "Il conto!",
@@ -67,7 +67,7 @@
           "emoji": "🧾"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride! 🙏",
         "en": "Well done! Nonna smiles!"
@@ -88,19 +88,19 @@
       "frase_en": "You say grazie. Nonna replies: ___!",
       "opzioni": [
         {
-          "it": "Prego",
-          "en": "Prego"
-        },
-        {
           "it": "Grazie",
           "en": "Grazie"
         },
         {
           "it": "Il conto",
           "en": "Il conto"
+        },
+        {
+          "it": "Prego",
+          "en": "Prego"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Esatto! Grazie → Prego! 😊",
         "en": "Correct! Grazie → Prego!"
@@ -124,19 +124,19 @@
       },
       "opzioni": [
         {
-          "it": "Il prezzo",
-          "en": "The price"
-        },
-        {
           "it": "Il nome",
           "en": "The name"
+        },
+        {
+          "it": "Il prezzo",
+          "en": "The price"
         },
         {
           "it": "Il caffè",
           "en": "The coffee"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Quanto costa? = il prezzo! 💶",
         "en": "Yes! «Quanto costa»? = the price!"
@@ -161,11 +161,6 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!",
-          "emoji": "🙏"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!",
           "emoji": "😊"
@@ -174,9 +169,14 @@
           "it": "Per favore!",
           "en": "Please!",
           "emoji": "🙏"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! La Nonna è felice! 🙏",
         "en": "Perfect! Nonna is happy!"
@@ -197,19 +197,19 @@
       "frase_en": "You want to pay: Il ___, per favore!",
       "opzioni": [
         {
-          "it": "conto",
-          "en": "conto"
-        },
-        {
           "it": "caffè",
           "en": "caffè"
+        },
+        {
+          "it": "conto",
+          "en": "conto"
         },
         {
           "it": "prego",
           "en": "prego"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Il conto, per favore! 🧾",
         "en": "Correct! Il conto, per favore!"
@@ -233,19 +233,19 @@
       },
       "opzioni": [
         {
-          "it": "Prego",
-          "en": "You are welcome"
-        },
-        {
           "it": "Grazie",
           "en": "Thank you"
+        },
+        {
+          "it": "Prego",
+          "en": "You are welcome"
         },
         {
           "it": "Ecco a lei",
           "en": "Here you are"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! «Prego»! = you are welcome! 😊",
         "en": "Yes! «Prego»! = you are welcome!"
@@ -270,11 +270,6 @@
       },
       "opzioni": [
         {
-          "it": "Il conto, per favore!",
-          "en": "The bill, please!",
-          "emoji": "🧾"
-        },
-        {
           "it": "Grazie!",
           "en": "Thank you!",
           "emoji": "🙏"
@@ -283,9 +278,14 @@
           "it": "Quanto costa?",
           "en": "How much is it?",
           "emoji": "💶"
+        },
+        {
+          "it": "Il conto, per favore!",
+          "en": "The bill, please!",
+          "emoji": "🧾"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa! 🏆🍦",
         "en": "EXCELLENT! Nonna is proud of you!"

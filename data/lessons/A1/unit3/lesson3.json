@@ -60,19 +60,19 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
         },
         {
           "it": "Il conto!",
           "en": "The bill!"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Ricevi qualcosa → Grazie! 🙏",
         "en": "Correct! You receive something → Grazie!"
@@ -97,11 +97,6 @@
       },
       "opzioni": [
         {
-          "it": "Prego!",
-          "en": "You are welcome!",
-          "emoji": "😊"
-        },
-        {
           "it": "Grazie!",
           "en": "Thank you!",
           "emoji": "🙏"
@@ -110,9 +105,14 @@
           "it": "Il conto!",
           "en": "The bill!",
           "emoji": "🧾"
+        },
+        {
+          "it": "Prego!",
+          "en": "You are welcome!",
+          "emoji": "😊"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Perfetto! Grazie → Prego! Sempre! 😊",
         "en": "Perfect! Grazie → Prego! Always!"
@@ -133,19 +133,19 @@
       "frase_en": "Mario gives the change: Ecco ___ lei!",
       "opzioni": [
         {
-          "it": "a",
-          "en": "a"
-        },
-        {
           "it": "di",
           "en": "di"
+        },
+        {
+          "it": "a",
+          "en": "a"
         },
         {
           "it": "per",
           "en": "per"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Ecco a lei — here you are! 🤲",
         "en": "Yes! Ecco a lei — here you are!"
@@ -166,19 +166,19 @@
       "frase_en": "Oliver asks the price: ___ costa?",
       "opzioni": [
         {
-          "it": "Quanto",
-          "en": "Quanto"
-        },
-        {
           "it": "Come",
           "en": "Come"
         },
         {
           "it": "Dove",
           "en": "Dove"
+        },
+        {
+          "it": "Quanto",
+          "en": "Quanto"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Esatto! Quanto costa? = How much is it? 💶",
         "en": "Correct! Quanto costa? = How much is it?"
@@ -203,14 +203,14 @@
       },
       "opzioni": [
         {
-          "it": "Quanto costa?",
-          "en": "How much is it?",
-          "emoji": "💶"
-        },
-        {
           "it": "Per favore!",
           "en": "Please!",
           "emoji": "🙏"
+        },
+        {
+          "it": "Quanto costa?",
+          "en": "How much is it?",
+          "emoji": "💶"
         },
         {
           "it": "Grazie!",
@@ -218,7 +218,7 @@
           "emoji": "🙏"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Perfetto! Per il prezzo → Quanto costa? 💶",
         "en": "Perfect! For the price → Quanto costa?"
@@ -243,19 +243,19 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
         },
         {
           "it": "Quanto costa?",
           "en": "How much is it?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Riceve il caffè → Grazie! 🙏",
         "en": "Yes! Receives the coffee → Grazie!"
@@ -276,19 +276,19 @@
       "frase_en": "Oliver wants to pay: Il conto, ___ favore!",
       "opzioni": [
         {
-          "it": "per",
-          "en": "per"
-        },
-        {
           "it": "con",
           "en": "con"
         },
         {
           "it": "dal",
           "en": "dal"
+        },
+        {
+          "it": "per",
+          "en": "per"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "feedbackOk": {
         "it": "Bravissimo! «Il conto, per favore»! 🧾",
         "en": "Excellent! «Il conto, per favore»!"
@@ -313,14 +313,14 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!",
-          "emoji": "🙏"
-        },
-        {
           "it": "Prego!",
           "en": "You are welcome!",
           "emoji": "😊"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!",
+          "emoji": "🙏"
         },
         {
           "it": "Per favore!",
@@ -328,7 +328,7 @@
           "emoji": "🙏"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Bravissimo! Riceve qualcosa → Grazie! 🙏",
         "en": "Excellent! Receives something → Grazie!"
