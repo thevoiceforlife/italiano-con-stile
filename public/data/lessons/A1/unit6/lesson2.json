@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "Fifty",
-          "en": "Fifty"
-        },
-        {
           "it": "How many?",
           "en": "How many?"
+        },
+        {
+          "it": "Fifty",
+          "en": "Fifty"
         },
         {
           "it": "One hundred",
           "en": "One hundred"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Quanti? = how many?!",
         "en": "Correct! «Quanti?» = how many?!"
@@ -295,14 +295,14 @@
       },
       "opzioni": [
         {
-          "it": "Fifty",
-          "en": "Fifty",
-          "emoji": "5️⃣0️⃣"
-        },
-        {
           "it": "How many?",
           "en": "How many?",
           "emoji": "🔢"
+        },
+        {
+          "it": "Fifty",
+          "en": "Fifty",
+          "emoji": "5️⃣0️⃣"
         },
         {
           "it": "One hundred",
@@ -310,7 +310,7 @@
           "emoji": "💯"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanti?!",
         "en": "Yes! «Quanti?»!"

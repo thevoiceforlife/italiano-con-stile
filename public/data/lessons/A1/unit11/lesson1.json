@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "Red",
-          "en": "Red"
-        },
-        {
           "it": "Green",
           "en": "Green"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
         },
         {
           "it": "Blue",
           "en": "Blue"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Verde = green!",
         "en": "Correct! «Verde» = green!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "Red",
-          "en": "Red",
-          "emoji": "🔴"
-        },
-        {
           "it": "Green",
           "en": "Green",
           "emoji": "🟢"
+        },
+        {
+          "it": "Red",
+          "en": "Red",
+          "emoji": "🔴"
         },
         {
           "it": "Blue",
@@ -295,7 +295,7 @@
           "emoji": "🔵"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Verde!",
         "en": "Yes! «Verde»!"

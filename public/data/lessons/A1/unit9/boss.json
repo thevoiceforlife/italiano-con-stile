@@ -52,13 +52,13 @@
       },
       "opzioni": [
         {
-          "it": "Alto",
-          "en": "Tall",
+          "it": "Basso",
+          "en": "Short",
           "emoji": "📏"
         },
         {
-          "it": "Basso",
-          "en": "Short",
+          "it": "Alto",
+          "en": "Tall",
           "emoji": "📏"
         },
         {
@@ -67,7 +67,7 @@
           "emoji": "🌱"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -90,19 +90,19 @@
       },
       "opzioni": [
         {
+          "it": "Tall",
+          "en": "Tall"
+        },
+        {
           "it": "Short",
           "en": "Short"
         },
         {
           "it": "Young",
           "en": "Young"
-        },
-        {
-          "it": "Tall",
-          "en": "Tall"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -163,6 +163,11 @@
       },
       "opzioni": [
         {
+          "it": "Alto",
+          "en": "Tall",
+          "emoji": "📏"
+        },
+        {
           "it": "Simpatico",
           "en": "Nice",
           "emoji": "😊"
@@ -171,14 +176,9 @@
           "it": "Basso",
           "en": "Short",
           "emoji": "📏"
-        },
-        {
-          "it": "Alto",
-          "en": "Tall",
-          "emoji": "📏"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -201,19 +201,19 @@
       },
       "opzioni": [
         {
-          "it": "What are you like?",
-          "en": "What are you like?"
-        },
-        {
           "it": "Tall",
           "en": "Tall"
+        },
+        {
+          "it": "What are you like?",
+          "en": "What are you like?"
         },
         {
           "it": "Short",
           "en": "Short"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -274,6 +274,11 @@
       },
       "opzioni": [
         {
+          "it": "Basso",
+          "en": "Short",
+          "emoji": "📏"
+        },
+        {
           "it": "Alto",
           "en": "Tall",
           "emoji": "📏"
@@ -282,14 +287,9 @@
           "it": "Giovane",
           "en": "Young",
           "emoji": "🌱"
-        },
-        {
-          "it": "Basso",
-          "en": "Short",
-          "emoji": "📏"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa!",
         "en": "EXCELLENT! Nonna is proud!"

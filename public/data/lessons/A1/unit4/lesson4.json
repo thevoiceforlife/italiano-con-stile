@@ -61,19 +61,19 @@
       },
       "opzioni": [
         {
-          "it": "A sinistra",
-          "en": "To the left"
-        },
-        {
           "it": "A destra",
           "en": "To the right"
+        },
+        {
+          "it": "A sinistra",
+          "en": "To the left"
         },
         {
           "it": "Dritto",
           "en": "Straight ahead"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Hai sentito «a destra»!",
         "en": "Yes! You heard «a destra»!"
@@ -97,19 +97,19 @@
       },
       "opzioni": [
         {
-          "it": "Lontano",
-          "en": "Far"
-        },
-        {
           "it": "A sinistra",
           "en": "To the left"
+        },
+        {
+          "it": "Lontano",
+          "en": "Far"
         },
         {
           "it": "Dritto",
           "en": "Straight ahead"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! «A sinistra»!",
         "en": "Perfect! «A sinistra»!"
@@ -133,19 +133,19 @@
       },
       "opzioni": [
         {
-          "it": "A destra",
-          "en": "To the right"
-        },
-        {
           "it": "Dritto",
           "en": "Straight ahead"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
         },
         {
           "it": "Vicino",
           "en": "Near"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! «Dritto»!",
         "en": "Correct! «Dritto»!"
@@ -169,19 +169,19 @@
       },
       "opzioni": [
         {
+          "it": "Dove si trova il bar",
+          "en": "Where the bar is"
+        },
+        {
           "it": "Quanto costa il bar",
           "en": "How much the bar costs"
         },
         {
           "it": "Se il bar è aperto",
           "en": "Whether the bar is open"
-        },
-        {
-          "it": "Dove si trova il bar",
-          "en": "Where the bar is"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Dov'è»? chiede dove si trova!",
         "en": "Yes! «Dov'è»? asks where something is!"
@@ -205,19 +205,19 @@
       },
       "opzioni": [
         {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
           "it": "A sinistra",
           "en": "To the left"
         },
         {
           "it": "Lontano",
           "en": "Far"
-        },
-        {
-          "it": "Vicino",
-          "en": "Near"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! «Vicino» = near!",
         "en": "Correct! «Vicino» = near!"
@@ -241,19 +241,19 @@
       },
       "opzioni": [
         {
-          "it": "Vicino",
-          "en": "Near"
-        },
-        {
           "it": "Lontano",
           "en": "Far"
+        },
+        {
+          "it": "Vicino",
+          "en": "Near"
         },
         {
           "it": "A destra",
           "en": "To the right"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Lontano» = far!",
         "en": "Yes! «Lontano» = far!"
@@ -278,19 +278,19 @@
       },
       "opzioni": [
         {
-          "it": "A destra",
-          "en": "To the right"
-        },
-        {
           "it": "Dritto",
           "en": "Straight ahead"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
         },
         {
           "it": "A sinistra",
           "en": "To the left"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Prima dritto, poi a destra!",
         "en": "Correct! First straight, then right!"
@@ -314,19 +314,19 @@
       },
       "opzioni": [
         {
-          "it": "A destra",
-          "en": "To the right"
-        },
-        {
           "it": "A sinistra",
           "en": "To the left"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
         },
         {
           "it": "Dritto",
           "en": "Straight ahead"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissima! «Vai a sinistra» = go left!",
         "en": "Excellent! «Vai a sinistra» = go left!"

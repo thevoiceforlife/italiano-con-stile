@@ -84,19 +84,19 @@
       },
       "opzioni": [
         {
-          "it": "To the left",
-          "en": "To the left"
-        },
-        {
           "it": "To the right",
           "en": "To the right"
+        },
+        {
+          "it": "To the left",
+          "en": "To the left"
         },
         {
           "it": "Straight ahead",
           "en": "Straight ahead"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! A destra = to the right!",
         "en": "Correct! «A destra» = to the right!"
@@ -119,19 +119,19 @@
       },
       "opzioni": [
         {
-          "it": "To the right",
-          "en": "To the right"
-        },
-        {
           "it": "To the left",
           "en": "To the left"
+        },
+        {
+          "it": "To the right",
+          "en": "To the right"
         },
         {
           "it": "Straight ahead",
           "en": "Straight ahead"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! A sinistra = to the left!",
         "en": "Yes! «A sinistra» = to the left!"
@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
+        },
+        {
           "it": "To the left",
           "en": "To the left"
         },
         {
           "it": "To the right",
           "en": "To the right"
-        },
-        {
-          "it": "Straight ahead",
-          "en": "Straight ahead"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Dritto = straight ahead!",
         "en": "Perfect! «Dritto» = straight ahead!"
@@ -223,19 +223,19 @@
       },
       "opzioni": [
         {
-          "it": "A destra",
-          "en": "To the right"
-        },
-        {
           "it": "Dritto",
           "en": "Straight ahead"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
         },
         {
           "it": "A sinistra",
           "en": "To the left"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Vai avanti = dritto!",
         "en": "Correct! Go forward = «dritto»!"
@@ -258,19 +258,19 @@
       },
       "opzioni": [
         {
+          "it": "A destra!",
+          "en": "To the right!"
+        },
+        {
           "it": "A sinistra!",
           "en": "To the left!"
         },
         {
           "it": "Dritto!",
           "en": "Straight ahead!"
-        },
-        {
-          "it": "A destra!",
-          "en": "To the right!"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Indica a destra → dice a destra!",
         "en": "Yes! Points right → says «a destra»!"
@@ -295,6 +295,11 @@
       },
       "opzioni": [
         {
+          "it": "A sinistra!",
+          "en": "To the left!",
+          "emoji": "⬅️"
+        },
+        {
           "it": "A destra!",
           "en": "To the right!",
           "emoji": "➡️"
@@ -303,14 +308,9 @@
           "it": "Dritto!",
           "en": "Straight!",
           "emoji": "⬆️"
-        },
-        {
-          "it": "A sinistra!",
-          "en": "To the left!",
-          "emoji": "⬅️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Gira a sinistra → a sinistra!",
         "en": "Perfect! Turn left → «a sinistra»!"

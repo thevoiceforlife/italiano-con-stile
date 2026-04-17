@@ -42,14 +42,14 @@
       },
       "opzioni": [
         {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
-        },
-        {
           "it": "Dieci",
           "en": "Ten",
           "emoji": "🔟"
+        },
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
         },
         {
           "it": "Venti",
@@ -57,7 +57,7 @@
           "emoji": "2️⃣0️⃣"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "One",
+          "en": "One"
+        },
+        {
           "it": "Ten",
           "en": "Ten"
         },
         {
           "it": "Twenty",
           "en": "Twenty"
-        },
-        {
-          "it": "One",
-          "en": "One"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
           "it": "Cinquanta",
           "en": "Fifty",
           "emoji": "5️⃣0️⃣"
@@ -161,14 +166,9 @@
           "it": "Dieci",
           "en": "Ten",
           "emoji": "🔟"
-        },
-        {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "One hundred",
-          "en": "One hundred"
-        },
-        {
           "it": "One",
           "en": "One"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred"
         },
         {
           "it": "Ten",
           "en": "Ten"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -264,6 +264,11 @@
       },
       "opzioni": [
         {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
           "it": "Uno",
           "en": "One",
           "emoji": "1️⃣"
@@ -272,14 +277,9 @@
           "it": "Venti",
           "en": "Twenty",
           "emoji": "2️⃣0️⃣"
-        },
-        {
-          "it": "Dieci",
-          "en": "Ten",
-          "emoji": "🔟"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO!",
         "en": "EXCELLENT!"

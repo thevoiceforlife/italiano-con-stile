@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "Tall",
-          "en": "Tall"
-        },
-        {
           "it": "Young",
           "en": "Young"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall"
         },
         {
           "it": "Short",
           "en": "Short"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Giovane = young!",
         "en": "Correct! «Giovane» = young!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "Tall",
-          "en": "Tall",
-          "emoji": "📏"
-        },
-        {
           "it": "Young",
           "en": "Young",
           "emoji": "🌱"
+        },
+        {
+          "it": "Tall",
+          "en": "Tall",
+          "emoji": "📏"
         },
         {
           "it": "Short",
@@ -295,7 +295,7 @@
           "emoji": "📏"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Giovane!",
         "en": "Yes! «Giovane»!"

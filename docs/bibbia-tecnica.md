@@ -1572,3 +1572,41 @@ Prima di scrivere ogni unità con struttura grammaticale:
 - Nessuna emoji ripetuta nella stessa unità
 - Emoji coerente con il significato visivo
 - Emoji diversa per antonimi (vicino/lontano, alto/basso, oggi/domani)
+
+---
+
+## REGOLA STRUTTURALE — correct index nei JSON
+
+### La regola
+`"correct": 0` SEMPRE in tutti i JSON lezione — senza eccezioni.
+
+### Perché
+Il componente DomandaMultipla (e tutti gli altri) usa `stableShuffle()`
+che randomizza l'ordine delle opzioni a runtime con seed deterministico.
+Il JSON non deve MAI pre-ruotare le opzioni — lo fa già il browser.
+
+### Conseguenza pratica
+Quando si scrive un JSON, la risposta corretta va SEMPRE messa
+come prima opzione nell'array `opzioni[]`, e `correct` è sempre 0.
+
+```json
+"opzioni": [
+  { "it": "RISPOSTA CORRETTA", "en": "CORRECT ANSWER" },
+  { "it": "Distrattore 1",     "en": "Distractor 1" },
+  { "it": "Distrattore 2",     "en": "Distractor 2" }
+],
+"correct": 0
+```
+
+### Mai fare questo
+```python
+# ❌ VIETATO — rotate() nel generatore JSON
+def rotate(questions):
+    ...  # sposta correct index nel JSON
+```
+
+### Checklist generatore futuro
+[ ] correct = 0 sempre
+[ ] Risposta corretta = primo elemento di opzioni[]
+[ ] Nessuna funzione rotate() o shuffle() nel generatore
+[ ] Lo shuffle avviene SOLO nel componente React a runtime

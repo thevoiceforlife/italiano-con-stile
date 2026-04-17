@@ -86,14 +86,14 @@
       },
       "opzioni": [
         {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        },
-        {
           "it": "Piacere!",
           "en": "Nice to meet you!",
           "emoji": "🤝"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
         },
         {
           "it": "Buongiorno!",
@@ -101,7 +101,7 @@
           "emoji": "☀️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Prima volta → Piacere! 🤝",
         "en": "Perfect! First time → Piacere!"
@@ -186,14 +186,14 @@
       },
       "opzioni": [
         {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
           "it": "Buonasera!",
           "en": "Good evening!",
           "emoji": "🌆"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
         },
         {
           "it": "Arrivederci!",
@@ -201,7 +201,7 @@
           "emoji": "👋"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dopo le 18:00 → Buonasera! 🌆",
         "en": "Yes! After 6 PM → Buonasera!"
@@ -256,14 +256,14 @@
       },
       "opzioni": [
         {
-          "it": "Ciao!",
-          "en": "Hi!",
-          "emoji": "😊"
-        },
-        {
           "it": "Buongiorno!",
           "en": "Good morning!",
           "emoji": "👔"
+        },
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
         },
         {
           "it": "Piacere!",
@@ -271,7 +271,7 @@
           "emoji": "🤝"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Con il dottore → Buongiorno! Più rispettoso. 👔",
         "en": "Correct! With the doctor → Buongiorno! More respectful."

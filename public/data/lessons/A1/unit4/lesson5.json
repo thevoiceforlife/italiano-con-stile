@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "To the left",
-          "en": "To the left"
-        },
-        {
           "it": "To the right",
           "en": "To the right"
+        },
+        {
+          "it": "To the left",
+          "en": "To the left"
         },
         {
           "it": "Straight",
           "en": "Straight"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -117,14 +117,14 @@
       },
       "opzioni": [
         {
-          "it": "A sinistra!",
-          "en": "Left!",
-          "emoji": "⬅️"
-        },
-        {
           "it": "Dritto!",
           "en": "Straight!",
           "emoji": "⬆️"
+        },
+        {
+          "it": "A sinistra!",
+          "en": "Left!",
+          "emoji": "⬅️"
         },
         {
           "it": "A destra!",
@@ -132,7 +132,7 @@
           "emoji": "➡️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -156,19 +156,19 @@
       },
       "opzioni": [
         {
+          "it": "Dov'è?",
+          "en": "Where is it?"
+        },
+        {
           "it": "Vicino",
           "en": "Near"
         },
         {
           "it": "Lontano",
           "en": "Far"
-        },
-        {
-          "it": "Dov'è?",
-          "en": "Where is it?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -189,19 +189,19 @@
       "frase_en": "Turn ___ at the traffic light!",
       "opzioni": [
         {
-          "it": "dritto",
-          "en": "straight"
-        },
-        {
           "it": "destra",
           "en": "right"
+        },
+        {
+          "it": "dritto",
+          "en": "straight"
         },
         {
           "it": "vicino",
           "en": "near"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! A destra!",
         "en": "Yes! «A destra»!"
@@ -224,19 +224,19 @@
       },
       "opzioni": [
         {
+          "it": "Far",
+          "en": "Far"
+        },
+        {
           "it": "Near",
           "en": "Near"
         },
         {
           "it": "Straight",
           "en": "Straight"
-        },
-        {
-          "it": "Far",
-          "en": "Far"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -260,19 +260,19 @@
       },
       "opzioni": [
         {
-          "it": "Dritto",
-          "en": "Straight"
-        },
-        {
           "it": "A sinistra",
           "en": "To the left"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight"
         },
         {
           "it": "A destra",
           "en": "To the right"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -369,19 +369,19 @@
       },
       "opzioni": [
         {
-          "it": "A destra",
-          "en": "To the right"
-        },
-        {
           "it": "Lontano",
           "en": "Far"
+        },
+        {
+          "it": "A destra",
+          "en": "To the right"
         },
         {
           "it": "Vicino",
           "en": "Near"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo!",
         "en": "Excellent!"

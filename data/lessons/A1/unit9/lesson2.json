@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "Nice",
-          "en": "Nice"
-        },
-        {
           "it": "The hair",
           "en": "The hair"
+        },
+        {
+          "it": "Nice",
+          "en": "Nice"
         },
         {
           "it": "What are you like?",
           "en": "What are you like?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! I capelli = the hair!",
         "en": "Correct! «I capelli» = the hair!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "Nice",
-          "en": "Nice",
-          "emoji": "😊"
-        },
-        {
           "it": "The hair",
           "en": "The hair",
           "emoji": "💇"
+        },
+        {
+          "it": "Nice",
+          "en": "Nice",
+          "emoji": "😊"
         },
         {
           "it": "What are you like?",
@@ -300,7 +300,7 @@
           "emoji": "🪞"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! I capelli!",
         "en": "Yes! «I capelli»!"

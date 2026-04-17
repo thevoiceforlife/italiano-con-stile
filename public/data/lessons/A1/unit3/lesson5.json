@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "The coffee",
-          "en": "The coffee"
-        },
-        {
           "it": "The bill",
           "en": "The bill"
+        },
+        {
+          "it": "The coffee",
+          "en": "The coffee"
         },
         {
           "it": "Please",
           "en": "Please"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🧾",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "Thank you",
+          "en": "Thank you"
+        },
+        {
           "it": "You are welcome",
           "en": "You are welcome"
         },
         {
           "it": "Here you are",
           "en": "Here you are"
-        },
-        {
-          "it": "Thank you",
-          "en": "Thank you"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! 🙏",
         "en": "Correct!"
@@ -117,14 +117,14 @@
       },
       "opzioni": [
         {
-          "it": "Il conto!",
-          "en": "The bill!",
-          "emoji": "🧾"
-        },
-        {
           "it": "Grazie!",
           "en": "Thank you!",
           "emoji": "🙏"
+        },
+        {
+          "it": "Il conto!",
+          "en": "The bill!",
+          "emoji": "🧾"
         },
         {
           "it": "Quanto costa?",
@@ -132,7 +132,7 @@
           "emoji": "💶"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🙏",
         "en": "Yes!"
@@ -156,19 +156,19 @@
       },
       "opzioni": [
         {
+          "it": "Per favore",
+          "en": "Please"
+        },
+        {
           "it": "Prego",
           "en": "You are welcome"
         },
         {
           "it": "Grazie",
           "en": "Thank you"
-        },
-        {
-          "it": "Per favore",
-          "en": "Please"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 🙏",
         "en": "Yes!"
@@ -189,19 +189,19 @@
       "frase_en": "Il conto, ___ favore!",
       "opzioni": [
         {
-          "it": "con",
-          "en": "con"
-        },
-        {
           "it": "per",
           "en": "per"
+        },
+        {
+          "it": "con",
+          "en": "con"
         },
         {
           "it": "dal",
           "en": "dal"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! 🙏",
         "en": "Perfect!"
@@ -224,19 +224,19 @@
       },
       "opzioni": [
         {
-          "it": "Thank you",
-          "en": "Thank you"
-        },
-        {
           "it": "You are welcome",
           "en": "You are welcome"
+        },
+        {
+          "it": "Thank you",
+          "en": "Thank you"
         },
         {
           "it": "Please",
           "en": "Please"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 😊",
         "en": "Yes!"
@@ -261,6 +261,11 @@
       },
       "opzioni": [
         {
+          "it": "Ecco a lei!",
+          "en": "Here you are!",
+          "emoji": "🤲"
+        },
+        {
           "it": "Per favore!",
           "en": "Please!",
           "emoji": "🙏"
@@ -269,14 +274,9 @@
           "it": "Grazie!",
           "en": "Thank you!",
           "emoji": "🙏"
-        },
-        {
-          "it": "Ecco a lei!",
-          "en": "Here you are!",
-          "emoji": "🤲"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! 🤲",
         "en": "Correct!"
@@ -300,19 +300,19 @@
       },
       "opzioni": [
         {
-          "it": "Il conto",
-          "en": "The bill"
-        },
-        {
           "it": "Quanto costa?",
           "en": "How much is it?"
+        },
+        {
+          "it": "Il conto",
+          "en": "The bill"
         },
         {
           "it": "Per favore",
           "en": "Please"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 💶",
         "en": "Yes!"
@@ -333,19 +333,19 @@
       "frase_en": "___ costa il caffè?",
       "opzioni": [
         {
-          "it": "Come",
-          "en": "Come"
-        },
-        {
           "it": "Quanto",
           "en": "Quanto"
+        },
+        {
+          "it": "Come",
+          "en": "Come"
         },
         {
           "it": "Dove",
           "en": "Dove"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Quanto! 💶",
         "en": "Yes! Quanto!"
@@ -369,19 +369,19 @@
       },
       "opzioni": [
         {
+          "it": "Ecco a lei",
+          "en": "Here you are"
+        },
+        {
           "it": "Grazie",
           "en": "Thank you"
         },
         {
           "it": "Prego",
           "en": "You are welcome"
-        },
-        {
-          "it": "Ecco a lei",
-          "en": "Here you are"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! 🤲",
         "en": "Excellent!"

@@ -46,19 +46,19 @@
       },
       "opzioni": [
         {
-          "it": "La pizza",
-          "en": "The pizza"
-        },
-        {
           "it": "Il caffè",
           "en": "The coffee"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza"
         },
         {
           "it": "Il cornetto",
           "en": "The croissant"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «La pizza»!",
         "en": "Yes! «La pizza»!"
@@ -82,19 +82,19 @@
       },
       "opzioni": [
         {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
           "it": "Il caffè",
           "en": "The coffee"
         },
         {
           "it": "Il cornetto",
           "en": "The croissant"
-        },
-        {
-          "it": "La pizza",
-          "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Il caffè»!",
         "en": "Yes! «Il caffè»!"
@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
           "it": "Buono",
           "en": "Good"
         },
         {
           "it": "Il caffè",
           "en": "The coffee"
-        },
-        {
-          "it": "La pizza",
-          "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Buono»!",
         "en": "Yes! «Buono»!"
@@ -190,19 +190,19 @@
       },
       "opzioni": [
         {
-          "it": "Delizioso",
-          "en": "Delicious"
-        },
-        {
           "it": "La pizza",
           "en": "The pizza"
+        },
+        {
+          "it": "Delizioso",
+          "en": "Delicious"
         },
         {
           "it": "Il caffè",
           "en": "The coffee"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Delizioso»!",
         "en": "Yes! «Delizioso»!"
@@ -263,19 +263,19 @@
       },
       "opzioni": [
         {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
           "it": "La pizza",
           "en": "The pizza"
         },
         {
           "it": "Il cornetto",
           "en": "The croissant"
-        },
-        {
-          "it": "Il caffè",
-          "en": "The coffee"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «La pizza»!",
         "en": "Yes! «La pizza»!"
@@ -300,19 +300,19 @@
       },
       "opzioni": [
         {
-          "it": "Il caffè",
-          "en": "The coffee"
-        },
-        {
           "it": "La pizza",
           "en": "The pizza"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee"
         },
         {
           "it": "Il cornetto",
           "en": "The croissant"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Il caffè»!",
         "en": "Yes! «Il caffè»!"

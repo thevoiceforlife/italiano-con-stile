@@ -47,14 +47,14 @@
       },
       "opzioni": [
         {
-          "it": "La mamma",
-          "en": "The mum",
-          "emoji": "👩"
-        },
-        {
           "it": "Il papà",
           "en": "The dad",
           "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
         },
         {
           "it": "Il fratello",
@@ -62,7 +62,7 @@
           "emoji": "👦"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mamma!",
         "en": "Yes! «La mamma»!"
@@ -87,19 +87,19 @@
       },
       "opzioni": [
         {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
           "it": "Il papà",
           "en": "The dad"
         },
         {
           "it": "Il fratello",
           "en": "The brother"
-        },
-        {
-          "it": "La mamma",
-          "en": "The mum"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il papà!",
         "en": "Yes! «Il papà»!"
@@ -159,6 +159,11 @@
       },
       "opzioni": [
         {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
           "it": "La sorella",
           "en": "The sister",
           "emoji": "👧"
@@ -167,14 +172,9 @@
           "it": "Il papà",
           "en": "The dad",
           "emoji": "👨"
-        },
-        {
-          "it": "La mamma",
-          "en": "The mum",
-          "emoji": "👩"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La sorella!",
         "en": "Yes! «La sorella»!"
@@ -199,19 +199,19 @@
       },
       "opzioni": [
         {
-          "it": "I nonni",
-          "en": "The grandparents"
-        },
-        {
           "it": "La mamma",
           "en": "The mum"
+        },
+        {
+          "it": "I nonni",
+          "en": "The grandparents"
         },
         {
           "it": "Il papà",
           "en": "The dad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! I nonni!",
         "en": "Yes! «I nonni»!"
@@ -271,6 +271,11 @@
       },
       "opzioni": [
         {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
           "it": "La mamma",
           "en": "The mum",
           "emoji": "👩"
@@ -279,14 +284,9 @@
           "it": "Il fratello",
           "en": "The brother",
           "emoji": "👦"
-        },
-        {
-          "it": "Il papà",
-          "en": "The dad",
-          "emoji": "👨"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mamma!",
         "en": "Yes! «La mamma»!"
@@ -311,19 +311,19 @@
       },
       "opzioni": [
         {
-          "it": "Il papà",
-          "en": "The dad"
-        },
-        {
           "it": "La mamma",
           "en": "The mum"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad"
         },
         {
           "it": "Il fratello",
           "en": "The brother"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il papà!",
         "en": "Yes! «Il papà»!"

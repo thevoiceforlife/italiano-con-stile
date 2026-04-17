@@ -46,19 +46,19 @@
       },
       "opzioni": [
         {
-          "it": "Fa caldo",
-          "en": "It is hot"
-        },
-        {
           "it": "Fa freddo",
           "en": "It is cold"
+        },
+        {
+          "it": "Fa caldo",
+          "en": "It is hot"
         },
         {
           "it": "Piove",
           "en": "It is raining"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Fa caldo»!",
         "en": "Yes! «Fa caldo»!"
@@ -82,19 +82,19 @@
       },
       "opzioni": [
         {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
           "it": "Fa freddo",
           "en": "It is cold"
         },
         {
           "it": "Piove",
           "en": "It is raining"
-        },
-        {
-          "it": "Fa caldo",
-          "en": "It is hot"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Fa freddo»!",
         "en": "Yes! «Fa freddo»!"
@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
           "it": "C'è il sole",
           "en": "It is sunny"
         },
         {
           "it": "Fa freddo",
           "en": "It is cold"
-        },
-        {
-          "it": "Fa caldo",
-          "en": "It is hot"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «C'è il sole»!",
         "en": "Yes! «C'è il sole»!"
@@ -190,19 +190,19 @@
       },
       "opzioni": [
         {
-          "it": "Che tempo fa?",
-          "en": "What is the weather like?"
-        },
-        {
           "it": "Fa caldo",
           "en": "It is hot"
+        },
+        {
+          "it": "Che tempo fa?",
+          "en": "What is the weather like?"
         },
         {
           "it": "Fa freddo",
           "en": "It is cold"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Che tempo fa?»!",
         "en": "Yes! «Che tempo fa?»!"
@@ -263,19 +263,19 @@
       },
       "opzioni": [
         {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
           "it": "Fa caldo",
           "en": "It is hot"
         },
         {
           "it": "Piove",
           "en": "It is raining"
-        },
-        {
-          "it": "Fa freddo",
-          "en": "It is cold"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Fa caldo»!",
         "en": "Yes! «Fa caldo»!"
@@ -300,19 +300,19 @@
       },
       "opzioni": [
         {
-          "it": "Fa freddo",
-          "en": "It is cold"
-        },
-        {
           "it": "Fa caldo",
           "en": "It is hot"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold"
         },
         {
           "it": "Piove",
           "en": "It is raining"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Fa freddo»!",
         "en": "Yes! «Fa freddo»!"

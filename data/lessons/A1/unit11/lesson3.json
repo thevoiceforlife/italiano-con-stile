@@ -47,14 +47,14 @@
       },
       "opzioni": [
         {
-          "it": "Rosso",
-          "en": "Red",
-          "emoji": "🔴"
-        },
-        {
           "it": "Blu",
           "en": "Blue",
           "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
         },
         {
           "it": "Verde",
@@ -62,7 +62,7 @@
           "emoji": "🟢"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Rosso!",
         "en": "Yes! «Rosso»!"
@@ -87,19 +87,19 @@
       },
       "opzioni": [
         {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
           "it": "Blu",
           "en": "Blue"
         },
         {
           "it": "Verde",
           "en": "Green"
-        },
-        {
-          "it": "Rosso",
-          "en": "Red"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Blu!",
         "en": "Yes! «Blu»!"
@@ -159,6 +159,11 @@
       },
       "opzioni": [
         {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
           "it": "Bianco",
           "en": "White",
           "emoji": "⚪"
@@ -167,14 +172,9 @@
           "it": "Blu",
           "en": "Blue",
           "emoji": "🔵"
-        },
-        {
-          "it": "Rosso",
-          "en": "Red",
-          "emoji": "🔴"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Bianco!",
         "en": "Yes! «Bianco»!"
@@ -199,19 +199,19 @@
       },
       "opzioni": [
         {
-          "it": "Nero",
-          "en": "Black"
-        },
-        {
           "it": "Rosso",
           "en": "Red"
+        },
+        {
+          "it": "Nero",
+          "en": "Black"
         },
         {
           "it": "Blu",
           "en": "Blue"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Nero!",
         "en": "Yes! «Nero»!"
@@ -271,6 +271,11 @@
       },
       "opzioni": [
         {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
           "it": "Rosso",
           "en": "Red",
           "emoji": "🔴"
@@ -279,14 +284,9 @@
           "it": "Verde",
           "en": "Green",
           "emoji": "🟢"
-        },
-        {
-          "it": "Blu",
-          "en": "Blue",
-          "emoji": "🔵"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Rosso!",
         "en": "Yes! «Rosso»!"
@@ -311,19 +311,19 @@
       },
       "opzioni": [
         {
-          "it": "Blu",
-          "en": "Blue"
-        },
-        {
           "it": "Rosso",
           "en": "Red"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue"
         },
         {
           "it": "Verde",
           "en": "Green"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Blu!",
         "en": "Yes! «Blu»!"

@@ -57,14 +57,14 @@
       },
       "opzioni": [
         {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
-        },
-        {
           "it": "Dieci",
           "en": "Ten",
           "emoji": "🔟"
+        },
+        {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
         },
         {
           "it": "Venti",
@@ -72,7 +72,7 @@
           "emoji": "2️⃣0️⃣"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Uno!",
         "en": "Yes! «Uno»!"
@@ -97,19 +97,19 @@
       },
       "opzioni": [
         {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
           "it": "Dieci",
           "en": "Ten"
         },
         {
           "it": "Venti",
           "en": "Twenty"
-        },
-        {
-          "it": "Uno",
-          "en": "One"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dieci!",
         "en": "Yes! «Dieci»!"
@@ -169,6 +169,11 @@
       },
       "opzioni": [
         {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
           "it": "Cinquanta",
           "en": "Fifty",
           "emoji": "5️⃣0️⃣"
@@ -177,14 +182,9 @@
           "it": "Dieci",
           "en": "Ten",
           "emoji": "🔟"
-        },
-        {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Cinquanta!",
         "en": "Yes! «Cinquanta»!"
@@ -209,19 +209,19 @@
       },
       "opzioni": [
         {
-          "it": "Cento",
-          "en": "One hundred"
-        },
-        {
           "it": "Uno",
           "en": "One"
+        },
+        {
+          "it": "Cento",
+          "en": "One hundred"
         },
         {
           "it": "Dieci",
           "en": "Ten"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Cento!",
         "en": "Yes! «Cento»!"
@@ -281,6 +281,11 @@
       },
       "opzioni": [
         {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
+        },
+        {
           "it": "Uno",
           "en": "One",
           "emoji": "1️⃣"
@@ -289,14 +294,9 @@
           "it": "Venti",
           "en": "Twenty",
           "emoji": "2️⃣0️⃣"
-        },
-        {
-          "it": "Dieci",
-          "en": "Ten",
-          "emoji": "🔟"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Uno!",
         "en": "Yes! «Uno»!"
@@ -321,19 +321,19 @@
       },
       "opzioni": [
         {
-          "it": "Dieci",
-          "en": "Ten"
-        },
-        {
           "it": "Uno",
           "en": "One"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten"
         },
         {
           "it": "Venti",
           "en": "Twenty"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dieci!",
         "en": "Yes! «Dieci»!"

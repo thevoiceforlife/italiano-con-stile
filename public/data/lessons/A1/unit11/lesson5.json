@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "Red",
-          "en": "Red"
-        },
-        {
           "it": "Blue",
           "en": "Blue"
+        },
+        {
+          "it": "Red",
+          "en": "Red"
         },
         {
           "it": "Green",
           "en": "Green"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
           "it": "Blue",
           "en": "Blue"
         },
         {
           "it": "Green",
           "en": "Green"
-        },
-        {
-          "it": "Red",
-          "en": "Red"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
           "it": "Bianco",
           "en": "White",
           "emoji": "⚪"
@@ -161,14 +166,9 @@
           "it": "Blu",
           "en": "Blue",
           "emoji": "🔵"
-        },
-        {
-          "it": "Rosso",
-          "en": "Red",
-          "emoji": "🔴"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "Black",
-          "en": "Black"
-        },
-        {
           "it": "Red",
           "en": "Red"
+        },
+        {
+          "it": "Black",
+          "en": "Black"
         },
         {
           "it": "Blue",
           "en": "Blue"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Blu",
+          "en": "Blue"
+        },
+        {
           "it": "Rosso",
           "en": "Red"
         },
         {
           "it": "Verde",
           "en": "Green"
-        },
-        {
-          "it": "Blu",
-          "en": "Blue"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Blu",
-          "en": "Blue",
-          "emoji": "🔵"
-        },
-        {
           "it": "Rosso",
           "en": "Red",
           "emoji": "🔴"
+        },
+        {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
         },
         {
           "it": "Verde",
@@ -316,7 +316,7 @@
           "emoji": "🟢"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "Rosso",
+          "en": "Red"
+        },
+        {
           "it": "Bianco",
           "en": "White"
         },
         {
           "it": "Blu",
           "en": "Blue"
-        },
-        {
-          "it": "Rosso",
-          "en": "Red"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

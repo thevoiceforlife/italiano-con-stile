@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "The market",
-          "en": "The market"
-        },
-        {
           "it": "Fresh",
           "en": "Fresh"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
         },
         {
           "it": "A kilo",
           "en": "A kilo"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Fresco = fresh!",
         "en": "Correct! «Fresco» = fresh!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "The market",
-          "en": "The market",
-          "emoji": "🛒"
-        },
-        {
           "it": "Fresh",
           "en": "Fresh",
           "emoji": "🌿"
+        },
+        {
+          "it": "The market",
+          "en": "The market",
+          "emoji": "🛒"
         },
         {
           "it": "A kilo",
@@ -295,7 +295,7 @@
           "emoji": "⚖️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Fresco!",
         "en": "Yes! «Fresco»!"

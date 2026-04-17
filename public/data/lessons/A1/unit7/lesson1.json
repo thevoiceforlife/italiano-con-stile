@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "Today",
-          "en": "Today"
-        },
-        {
           "it": "What time is it?",
           "en": "What time is it?"
+        },
+        {
+          "it": "Today",
+          "en": "Today"
         },
         {
           "it": "Tomorrow",
           "en": "Tomorrow"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Che ore sono? = what time is it?!",
         "en": "Correct! «Che ore sono?» = what time is it?!"
@@ -295,14 +295,14 @@
       },
       "opzioni": [
         {
-          "it": "Today",
-          "en": "Today",
-          "emoji": "📅"
-        },
-        {
           "it": "What time is it?",
           "en": "What time is it?",
           "emoji": "🕐"
+        },
+        {
+          "it": "Today",
+          "en": "Today",
+          "emoji": "📅"
         },
         {
           "it": "Tomorrow",
@@ -310,7 +310,7 @@
           "emoji": "📅"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Che ore sono?!",
         "en": "Yes! «Che ore sono?»!"

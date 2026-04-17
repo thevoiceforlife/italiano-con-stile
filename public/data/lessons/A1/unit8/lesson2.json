@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "Good",
-          "en": "Good"
-        },
-        {
           "it": "I would like",
           "en": "I would like"
+        },
+        {
+          "it": "Good",
+          "en": "Good"
         },
         {
           "it": "Delicious",
           "en": "Delicious"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Vorrei = i would like!",
         "en": "Correct! «Vorrei» = i would like!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "Good",
-          "en": "Good",
-          "emoji": "👍"
-        },
-        {
           "it": "I would like",
           "en": "I would like",
           "emoji": "🙋"
+        },
+        {
+          "it": "Good",
+          "en": "Good",
+          "emoji": "👍"
         },
         {
           "it": "Delicious",
@@ -300,7 +300,7 @@
           "emoji": "😋"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Vorrei!",
         "en": "Yes! «Vorrei»!"

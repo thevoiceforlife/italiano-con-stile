@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "Happy",
-          "en": "Happy"
-        },
-        {
           "it": "Tired",
           "en": "Tired"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
         },
         {
           "it": "Sad",
           "en": "Sad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Stanco = tired!",
         "en": "Correct! «Stanco» = tired!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "Happy",
-          "en": "Happy",
-          "emoji": "😊"
-        },
-        {
           "it": "Tired",
           "en": "Tired",
           "emoji": "😴"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy",
+          "emoji": "😊"
         },
         {
           "it": "Sad",
@@ -295,7 +295,7 @@
           "emoji": "😢"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Stanco!",
         "en": "Yes! «Stanco»!"

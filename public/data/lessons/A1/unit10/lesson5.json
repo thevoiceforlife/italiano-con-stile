@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "The mum",
-          "en": "The mum"
-        },
-        {
           "it": "The dad",
           "en": "The dad"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
         },
         {
           "it": "The brother",
           "en": "The brother"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
           "it": "The dad",
           "en": "The dad"
         },
         {
           "it": "The brother",
           "en": "The brother"
-        },
-        {
-          "it": "The mum",
-          "en": "The mum"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
           "it": "La sorella",
           "en": "The sister",
           "emoji": "👧"
@@ -161,14 +166,9 @@
           "it": "Il papà",
           "en": "The dad",
           "emoji": "👨"
-        },
-        {
-          "it": "La mamma",
-          "en": "The mum",
-          "emoji": "👩"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "The grandparents",
-          "en": "The grandparents"
-        },
-        {
           "it": "The mum",
           "en": "The mum"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
         },
         {
           "it": "The dad",
           "en": "The dad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Il papà",
+          "en": "The dad"
+        },
+        {
           "it": "La mamma",
           "en": "The mum"
         },
         {
           "it": "Il fratello",
           "en": "The brother"
-        },
-        {
-          "it": "Il papà",
-          "en": "The dad"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Il papà",
-          "en": "The dad",
-          "emoji": "👨"
-        },
-        {
           "it": "La mamma",
           "en": "The mum",
           "emoji": "👩"
+        },
+        {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
         },
         {
           "it": "Il fratello",
@@ -316,7 +316,7 @@
           "emoji": "👦"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "La mamma",
+          "en": "The mum"
+        },
+        {
           "it": "La sorella",
           "en": "The sister"
         },
         {
           "it": "Il papà",
           "en": "The dad"
-        },
-        {
-          "it": "La mamma",
-          "en": "The mum"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

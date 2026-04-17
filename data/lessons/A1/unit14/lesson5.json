@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "It is hot",
-          "en": "It is hot"
-        },
-        {
           "it": "It is cold",
           "en": "It is cold"
+        },
+        {
+          "it": "It is hot",
+          "en": "It is hot"
         },
         {
           "it": "It is raining",
           "en": "It is raining"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "It is hot",
+          "en": "It is hot"
+        },
+        {
           "it": "It is cold",
           "en": "It is cold"
         },
         {
           "it": "It is raining",
           "en": "It is raining"
-        },
-        {
-          "it": "It is hot",
-          "en": "It is hot"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Fa caldo",
+          "en": "It is hot",
+          "emoji": "🌞"
+        },
+        {
           "it": "C'è il sole",
           "en": "It is sunny",
           "emoji": "☀️"
@@ -161,14 +166,9 @@
           "it": "Fa freddo",
           "en": "It is cold",
           "emoji": "🥶"
-        },
-        {
-          "it": "Fa caldo",
-          "en": "It is hot",
-          "emoji": "🌞"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "What is the weather like?",
-          "en": "What is the weather like?"
-        },
-        {
           "it": "It is hot",
           "en": "It is hot"
+        },
+        {
+          "it": "What is the weather like?",
+          "en": "What is the weather like?"
         },
         {
           "it": "It is cold",
           "en": "It is cold"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Fa freddo",
+          "en": "It is cold"
+        },
+        {
           "it": "Fa caldo",
           "en": "It is hot"
         },
         {
           "it": "Piove",
           "en": "It is raining"
-        },
-        {
-          "it": "Fa freddo",
-          "en": "It is cold"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Fa freddo",
-          "en": "It is cold",
-          "emoji": "🥶"
-        },
-        {
           "it": "Fa caldo",
           "en": "It is hot",
           "emoji": "🌞"
+        },
+        {
+          "it": "Fa freddo",
+          "en": "It is cold",
+          "emoji": "🥶"
         },
         {
           "it": "Piove",
@@ -316,7 +316,7 @@
           "emoji": "🌧️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "Fa caldo",
+          "en": "It is hot"
+        },
+        {
           "it": "C'è il sole",
           "en": "It is sunny"
         },
         {
           "it": "Fa freddo",
           "en": "It is cold"
-        },
-        {
-          "it": "Fa caldo",
-          "en": "It is hot"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "White",
-          "en": "White"
-        },
-        {
           "it": "Beautiful",
           "en": "Beautiful"
+        },
+        {
+          "it": "White",
+          "en": "White"
         },
         {
           "it": "Black",
           "en": "Black"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Bello = beautiful!",
         "en": "Correct! «Bello» = beautiful!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "White",
-          "en": "White",
-          "emoji": "⚪"
-        },
-        {
           "it": "Beautiful",
           "en": "Beautiful",
           "emoji": "✨"
+        },
+        {
+          "it": "White",
+          "en": "White",
+          "emoji": "⚪"
         },
         {
           "it": "Black",
@@ -300,7 +300,7 @@
           "emoji": "⚫"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Bello!",
         "en": "Yes! «Bello»!"

@@ -41,19 +41,19 @@
       },
       "opzioni": [
         {
-          "it": "One",
-          "en": "One"
-        },
-        {
           "it": "Ten",
           "en": "Ten"
+        },
+        {
+          "it": "One",
+          "en": "One"
         },
         {
           "it": "Twenty",
           "en": "Twenty"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -76,19 +76,19 @@
       },
       "opzioni": [
         {
+          "it": "One",
+          "en": "One"
+        },
+        {
           "it": "Ten",
           "en": "Ten"
         },
         {
           "it": "Twenty",
           "en": "Twenty"
-        },
-        {
-          "it": "One",
-          "en": "One"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -149,6 +149,11 @@
       },
       "opzioni": [
         {
+          "it": "Uno",
+          "en": "One",
+          "emoji": "1️⃣"
+        },
+        {
           "it": "Cinquanta",
           "en": "Fifty",
           "emoji": "5️⃣0️⃣"
@@ -157,14 +162,9 @@
           "it": "Dieci",
           "en": "Ten",
           "emoji": "🔟"
-        },
-        {
-          "it": "Uno",
-          "en": "One",
-          "emoji": "1️⃣"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -187,19 +187,19 @@
       },
       "opzioni": [
         {
-          "it": "One hundred",
-          "en": "One hundred"
-        },
-        {
           "it": "One",
           "en": "One"
+        },
+        {
+          "it": "One hundred",
+          "en": "One hundred"
         },
         {
           "it": "Ten",
           "en": "Ten"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -260,19 +260,19 @@
       },
       "opzioni": [
         {
+          "it": "Dieci",
+          "en": "Ten"
+        },
+        {
           "it": "Uno",
           "en": "One"
         },
         {
           "it": "Venti",
           "en": "Twenty"
-        },
-        {
-          "it": "Dieci",
-          "en": "Ten"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -297,14 +297,14 @@
       },
       "opzioni": [
         {
-          "it": "Dieci",
-          "en": "Ten",
-          "emoji": "🔟"
-        },
-        {
           "it": "Uno",
           "en": "One",
           "emoji": "1️⃣"
+        },
+        {
+          "it": "Dieci",
+          "en": "Ten",
+          "emoji": "🔟"
         },
         {
           "it": "Venti",
@@ -312,7 +312,7 @@
           "emoji": "2️⃣0️⃣"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -371,19 +371,19 @@
       },
       "opzioni": [
         {
+          "it": "Uno",
+          "en": "One"
+        },
+        {
           "it": "Cinquanta",
           "en": "Fifty"
         },
         {
           "it": "Dieci",
           "en": "Ten"
-        },
-        {
-          "it": "Uno",
-          "en": "One"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

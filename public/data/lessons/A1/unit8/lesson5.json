@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "The pizza",
-          "en": "The pizza"
-        },
-        {
           "it": "The coffee",
           "en": "The coffee"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
         },
         {
           "it": "The croissant",
           "en": "The croissant"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
           "it": "The coffee",
           "en": "The coffee"
         },
         {
           "it": "The croissant",
           "en": "The croissant"
-        },
-        {
-          "it": "The pizza",
-          "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
           "it": "Buono",
           "en": "Good",
           "emoji": "👍"
@@ -161,14 +166,9 @@
           "it": "Il caffè",
           "en": "The coffee",
           "emoji": "☕"
-        },
-        {
-          "it": "La pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "Delicious",
-          "en": "Delicious"
-        },
-        {
           "it": "The pizza",
           "en": "The pizza"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious"
         },
         {
           "it": "The coffee",
           "en": "The coffee"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Il caffè",
+          "en": "The coffee"
+        },
+        {
           "it": "La pizza",
           "en": "The pizza"
         },
         {
           "it": "Il cornetto",
           "en": "The croissant"
-        },
-        {
-          "it": "Il caffè",
-          "en": "The coffee"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Il caffè",
-          "en": "The coffee",
-          "emoji": "☕"
-        },
-        {
           "it": "La pizza",
           "en": "The pizza",
           "emoji": "🍕"
+        },
+        {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
         },
         {
           "it": "Il cornetto",
@@ -316,7 +316,7 @@
           "emoji": "🥐"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "La pizza",
+          "en": "The pizza"
+        },
+        {
           "it": "Buono",
           "en": "Good"
         },
         {
           "it": "Il caffè",
           "en": "The coffee"
-        },
-        {
-          "it": "La pizza",
-          "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

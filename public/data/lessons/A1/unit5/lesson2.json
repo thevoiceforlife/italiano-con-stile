@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "In front of",
-          "en": "In front of"
-        },
-        {
           "it": "Next to",
           "en": "Next to"
+        },
+        {
+          "it": "In front of",
+          "en": "In front of"
         },
         {
           "it": "Behind",
           "en": "Behind"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Accanto a = next to!",
         "en": "Correct! «Accanto a» = next to!"
@@ -295,14 +295,14 @@
       },
       "opzioni": [
         {
-          "it": "In front of",
-          "en": "In front of",
-          "emoji": "👁️"
-        },
-        {
           "it": "Next to",
           "en": "Next to",
           "emoji": "↔️"
+        },
+        {
+          "it": "In front of",
+          "en": "In front of",
+          "emoji": "👁️"
         },
         {
           "it": "Behind",
@@ -310,7 +310,7 @@
           "emoji": "👀"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Accanto a!",
         "en": "Yes! «Accanto a»!"

@@ -57,14 +57,14 @@
       },
       "opzioni": [
         {
-          "it": "La piazza",
-          "en": "The square",
-          "emoji": "🏛️"
-        },
-        {
           "it": "La chiesa",
           "en": "The church",
           "emoji": "⛪"
+        },
+        {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
         },
         {
           "it": "Il museo",
@@ -72,7 +72,7 @@
           "emoji": "🏛️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La piazza!",
         "en": "Yes! «La piazza»!"
@@ -97,19 +97,19 @@
       },
       "opzioni": [
         {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
           "it": "La chiesa",
           "en": "The church"
         },
         {
           "it": "Il museo",
           "en": "The museum"
-        },
-        {
-          "it": "La piazza",
-          "en": "The square"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La chiesa!",
         "en": "Yes! «La chiesa»!"
@@ -169,6 +169,11 @@
       },
       "opzioni": [
         {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
           "it": "Di fronte a",
           "en": "In front of",
           "emoji": "👁️"
@@ -177,14 +182,9 @@
           "it": "La chiesa",
           "en": "The church",
           "emoji": "⛪"
-        },
-        {
-          "it": "La piazza",
-          "en": "The square",
-          "emoji": "🏛️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di fronte a!",
         "en": "Yes! «Di fronte a»!"
@@ -209,19 +209,19 @@
       },
       "opzioni": [
         {
-          "it": "Dietro",
-          "en": "Behind"
-        },
-        {
           "it": "La piazza",
           "en": "The square"
+        },
+        {
+          "it": "Dietro",
+          "en": "Behind"
         },
         {
           "it": "La chiesa",
           "en": "The church"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dietro!",
         "en": "Yes! «Dietro»!"
@@ -281,6 +281,11 @@
       },
       "opzioni": [
         {
+          "it": "La chiesa",
+          "en": "The church",
+          "emoji": "⛪"
+        },
+        {
           "it": "La piazza",
           "en": "The square",
           "emoji": "🏛️"
@@ -289,14 +294,9 @@
           "it": "Il museo",
           "en": "The museum",
           "emoji": "🏛️"
-        },
-        {
-          "it": "La chiesa",
-          "en": "The church",
-          "emoji": "⛪"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La piazza!",
         "en": "Yes! «La piazza»!"
@@ -321,19 +321,19 @@
       },
       "opzioni": [
         {
-          "it": "La chiesa",
-          "en": "The church"
-        },
-        {
           "it": "La piazza",
           "en": "The square"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church"
         },
         {
           "it": "Il museo",
           "en": "The museum"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La chiesa!",
         "en": "Yes! «La chiesa»!"

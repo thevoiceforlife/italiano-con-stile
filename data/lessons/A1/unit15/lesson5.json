@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "Happy",
-          "en": "Happy"
-        },
-        {
           "it": "Sad",
           "en": "Sad"
+        },
+        {
+          "it": "Happy",
+          "en": "Happy"
         },
         {
           "it": "Tired",
           "en": "Tired"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "Happy",
+          "en": "Happy"
+        },
+        {
           "it": "Sad",
           "en": "Sad"
         },
         {
           "it": "Tired",
           "en": "Tired"
-        },
-        {
-          "it": "Happy",
-          "en": "Happy"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
           "it": "Arrabbiato",
           "en": "Angry",
           "emoji": "😠"
@@ -161,14 +166,9 @@
           "it": "Triste",
           "en": "Sad",
           "emoji": "😢"
-        },
-        {
-          "it": "Felice",
-          "en": "Happy",
-          "emoji": "😊"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "How are you?",
-          "en": "How are you?"
-        },
-        {
           "it": "Happy",
           "en": "Happy"
+        },
+        {
+          "it": "How are you?",
+          "en": "How are you?"
         },
         {
           "it": "Sad",
           "en": "Sad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Triste",
+          "en": "Sad"
+        },
+        {
           "it": "Felice",
           "en": "Happy"
         },
         {
           "it": "Stanco",
           "en": "Tired"
-        },
-        {
-          "it": "Triste",
-          "en": "Sad"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Triste",
-          "en": "Sad",
-          "emoji": "😢"
-        },
-        {
           "it": "Felice",
           "en": "Happy",
           "emoji": "😊"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
         },
         {
           "it": "Stanco",
@@ -316,7 +316,7 @@
           "emoji": "😴"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
           "it": "Arrabbiato",
           "en": "Angry"
         },
         {
           "it": "Triste",
           "en": "Sad"
-        },
-        {
-          "it": "Felice",
-          "en": "Happy"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

@@ -47,14 +47,14 @@
       },
       "opzioni": [
         {
-          "it": "Felice",
-          "en": "Happy",
-          "emoji": "😊"
-        },
-        {
           "it": "Triste",
           "en": "Sad",
           "emoji": "😢"
+        },
+        {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
         },
         {
           "it": "Stanco",
@@ -62,7 +62,7 @@
           "emoji": "😴"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Felice!",
         "en": "Yes! «Felice»!"
@@ -87,19 +87,19 @@
       },
       "opzioni": [
         {
+          "it": "Felice",
+          "en": "Happy"
+        },
+        {
           "it": "Triste",
           "en": "Sad"
         },
         {
           "it": "Stanco",
           "en": "Tired"
-        },
-        {
-          "it": "Felice",
-          "en": "Happy"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Triste!",
         "en": "Yes! «Triste»!"
@@ -159,6 +159,11 @@
       },
       "opzioni": [
         {
+          "it": "Felice",
+          "en": "Happy",
+          "emoji": "😊"
+        },
+        {
           "it": "Arrabbiato",
           "en": "Angry",
           "emoji": "😠"
@@ -167,14 +172,9 @@
           "it": "Triste",
           "en": "Sad",
           "emoji": "😢"
-        },
-        {
-          "it": "Felice",
-          "en": "Happy",
-          "emoji": "😊"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrabbiato!",
         "en": "Yes! «Arrabbiato»!"
@@ -199,19 +199,19 @@
       },
       "opzioni": [
         {
-          "it": "Come stai?",
-          "en": "How are you?"
-        },
-        {
           "it": "Felice",
           "en": "Happy"
+        },
+        {
+          "it": "Come stai?",
+          "en": "How are you?"
         },
         {
           "it": "Triste",
           "en": "Sad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Come stai?!",
         "en": "Yes! «Come stai?»!"
@@ -271,6 +271,11 @@
       },
       "opzioni": [
         {
+          "it": "Triste",
+          "en": "Sad",
+          "emoji": "😢"
+        },
+        {
           "it": "Felice",
           "en": "Happy",
           "emoji": "😊"
@@ -279,14 +284,9 @@
           "it": "Stanco",
           "en": "Tired",
           "emoji": "😴"
-        },
-        {
-          "it": "Triste",
-          "en": "Sad",
-          "emoji": "😢"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Felice!",
         "en": "Yes! «Felice»!"
@@ -311,19 +311,19 @@
       },
       "opzioni": [
         {
-          "it": "Triste",
-          "en": "Sad"
-        },
-        {
           "it": "Felice",
           "en": "Happy"
+        },
+        {
+          "it": "Triste",
+          "en": "Sad"
         },
         {
           "it": "Stanco",
           "en": "Tired"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Triste!",
         "en": "Yes! «Triste»!"

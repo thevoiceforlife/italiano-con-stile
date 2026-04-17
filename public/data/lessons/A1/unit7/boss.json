@@ -42,13 +42,13 @@
       },
       "opzioni": [
         {
-          "it": "Oggi",
-          "en": "Today",
+          "it": "Domani",
+          "en": "Tomorrow",
           "emoji": "📅"
         },
         {
-          "it": "Domani",
-          "en": "Tomorrow",
+          "it": "Oggi",
+          "en": "Today",
           "emoji": "📅"
         },
         {
@@ -57,7 +57,7 @@
           "emoji": "🕐"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "Today",
+          "en": "Today"
+        },
+        {
           "it": "Tomorrow",
           "en": "Tomorrow"
         },
         {
           "it": "What time is it?",
           "en": "What time is it?"
-        },
-        {
-          "it": "Today",
-          "en": "Today"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Oggi",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
           "it": "La mattina",
           "en": "The morning",
           "emoji": "🌅"
@@ -161,14 +166,9 @@
           "it": "Domani",
           "en": "Tomorrow",
           "emoji": "📅"
-        },
-        {
-          "it": "Oggi",
-          "en": "Today",
-          "emoji": "📅"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "The afternoon",
-          "en": "The afternoon"
-        },
-        {
           "it": "Today",
           "en": "Today"
+        },
+        {
+          "it": "The afternoon",
+          "en": "The afternoon"
         },
         {
           "it": "Tomorrow",
           "en": "Tomorrow"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo!",
         "en": "Well done!"
@@ -264,6 +264,11 @@
       },
       "opzioni": [
         {
+          "it": "Domani",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        },
+        {
           "it": "Oggi",
           "en": "Today",
           "emoji": "📅"
@@ -272,14 +277,9 @@
           "it": "Che ore sono?",
           "en": "What time is it?",
           "emoji": "🕐"
-        },
-        {
-          "it": "Domani",
-          "en": "Tomorrow",
-          "emoji": "📅"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO!",
         "en": "EXCELLENT!"

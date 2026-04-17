@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)"
-        },
-        {
           "it": "One moment",
           "en": "One moment"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
         },
         {
           "it": "Who is speaking?",
           "en": "Who is speaking?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Un momento = one moment!",
         "en": "Correct! «Un momento» = one moment!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)",
-          "emoji": "📞"
-        },
-        {
           "it": "One moment",
           "en": "One moment",
           "emoji": "⏱️"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)",
+          "emoji": "📞"
         },
         {
           "it": "Who is speaking?",
@@ -295,7 +295,7 @@
           "emoji": "🗣️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Un momento!",
         "en": "Yes! «Un momento»!"

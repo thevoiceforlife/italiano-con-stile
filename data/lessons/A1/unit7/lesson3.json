@@ -57,13 +57,13 @@
       },
       "opzioni": [
         {
-          "it": "Oggi",
-          "en": "Today",
+          "it": "Domani",
+          "en": "Tomorrow",
           "emoji": "📅"
         },
         {
-          "it": "Domani",
-          "en": "Tomorrow",
+          "it": "Oggi",
+          "en": "Today",
           "emoji": "📅"
         },
         {
@@ -72,7 +72,7 @@
           "emoji": "🕐"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Oggi!",
         "en": "Yes! «Oggi»!"
@@ -97,19 +97,19 @@
       },
       "opzioni": [
         {
+          "it": "Oggi",
+          "en": "Today"
+        },
+        {
           "it": "Domani",
           "en": "Tomorrow"
         },
         {
           "it": "Che ore sono?",
           "en": "What time is it?"
-        },
-        {
-          "it": "Oggi",
-          "en": "Today"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Domani!",
         "en": "Yes! «Domani»!"
@@ -169,6 +169,11 @@
       },
       "opzioni": [
         {
+          "it": "Oggi",
+          "en": "Today",
+          "emoji": "📅"
+        },
+        {
           "it": "La mattina",
           "en": "The morning",
           "emoji": "🌅"
@@ -177,14 +182,9 @@
           "it": "Domani",
           "en": "Tomorrow",
           "emoji": "📅"
-        },
-        {
-          "it": "Oggi",
-          "en": "Today",
-          "emoji": "📅"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mattina!",
         "en": "Yes! «La mattina»!"
@@ -209,19 +209,19 @@
       },
       "opzioni": [
         {
-          "it": "Il pomeriggio",
-          "en": "The afternoon"
-        },
-        {
           "it": "Oggi",
           "en": "Today"
+        },
+        {
+          "it": "Il pomeriggio",
+          "en": "The afternoon"
         },
         {
           "it": "Domani",
           "en": "Tomorrow"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il pomeriggio!",
         "en": "Yes! «Il pomeriggio»!"
@@ -281,6 +281,11 @@
       },
       "opzioni": [
         {
+          "it": "Domani",
+          "en": "Tomorrow",
+          "emoji": "📅"
+        },
+        {
           "it": "Oggi",
           "en": "Today",
           "emoji": "📅"
@@ -289,14 +294,9 @@
           "it": "Che ore sono?",
           "en": "What time is it?",
           "emoji": "🕐"
-        },
-        {
-          "it": "Domani",
-          "en": "Tomorrow",
-          "emoji": "📅"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Oggi!",
         "en": "Yes! «Oggi»!"
@@ -321,19 +321,19 @@
       },
       "opzioni": [
         {
-          "it": "Domani",
-          "en": "Tomorrow"
-        },
-        {
           "it": "Oggi",
           "en": "Today"
+        },
+        {
+          "it": "Domani",
+          "en": "Tomorrow"
         },
         {
           "it": "Che ore sono?",
           "en": "What time is it?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Domani!",
         "en": "Yes! «Domani»!"

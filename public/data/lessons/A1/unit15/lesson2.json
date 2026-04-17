@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "Angry",
-          "en": "Angry"
-        },
-        {
           "it": "I am fine",
           "en": "I am fine"
+        },
+        {
+          "it": "Angry",
+          "en": "Angry"
         },
         {
           "it": "How are you?",
           "en": "How are you?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Sto bene = i am fine!",
         "en": "Correct! «Sto bene» = i am fine!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "Angry",
-          "en": "Angry",
-          "emoji": "😠"
-        },
-        {
           "it": "I am fine",
           "en": "I am fine",
           "emoji": "👍"
+        },
+        {
+          "it": "Angry",
+          "en": "Angry",
+          "emoji": "😠"
         },
         {
           "it": "How are you?",
@@ -300,7 +300,7 @@
           "emoji": "🤔"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Sto bene!",
         "en": "Yes! «Sto bene»!"

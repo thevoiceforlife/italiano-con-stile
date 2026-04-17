@@ -79,19 +79,19 @@
       },
       "opzioni": [
         {
-          "it": "Arrivederci!",
-          "en": "Goodbye!"
-        },
-        {
           "it": "Di dove sei?",
           "en": "Where are you from?"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
         },
         {
           "it": "Buongiorno!",
           "en": "Good morning!"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di dove sei? = Where are you from? 🌍",
         "en": "Yes! Di dove sei? = Where are you from?"
@@ -114,19 +114,19 @@
       },
       "opzioni": [
         {
+          "it": "Di dove sei?",
+          "en": "Where are you from?"
+        },
+        {
           "it": "Mi chiamo...?",
           "en": "My name is...?"
         },
         {
           "it": "Piacere!",
           "en": "Nice to meet you!"
-        },
-        {
-          "it": "Di dove sei?",
-          "en": "Where are you from?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di dove sei? = Where are you from? 🌍",
         "en": "Yes! Di dove sei? = Where are you from?"
@@ -149,19 +149,19 @@
       },
       "opzioni": [
         {
-          "it": "Mi chiamo Londra.",
-          "en": "My name is London."
-        },
-        {
           "it": "Sono di Londra.",
           "en": "I am from London."
+        },
+        {
+          "it": "Mi chiamo Londra.",
+          "en": "My name is London."
         },
         {
           "it": "Piacere Londra.",
           "en": "Nice to meet you London."
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Sono di Londra. Di = from! 📍",
         "en": "Perfect! Sono di Londra. Di = from!"
@@ -242,14 +242,14 @@
       },
       "opzioni": [
         {
-          "it": "Mi chiamo...",
-          "en": "My name is...",
-          "emoji": "🙋"
-        },
-        {
           "it": "Sono di...",
           "en": "I am from...",
           "emoji": "📍"
+        },
+        {
+          "it": "Mi chiamo...",
+          "en": "My name is...",
+          "emoji": "🙋"
         },
         {
           "it": "Di dove sei?",
@@ -257,7 +257,7 @@
           "emoji": "🌍"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Sono di + città! 📍",
         "en": "Perfect! Sono di + city!"

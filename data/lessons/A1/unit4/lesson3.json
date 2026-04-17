@@ -62,14 +62,14 @@
       },
       "opzioni": [
         {
-          "it": "A destra!",
-          "en": "To the right!",
-          "emoji": "➡️"
-        },
-        {
           "it": "Dritto!",
           "en": "Straight ahead!",
           "emoji": "⬆️"
+        },
+        {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
         },
         {
           "it": "A sinistra!",
@@ -77,7 +77,7 @@
           "emoji": "⬅️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Vai avanti = dritto!",
         "en": "Correct! Go forward = «dritto»!"
@@ -98,19 +98,19 @@
       "frase_en": "Oliver does not know where to go: ___ the bar?",
       "opzioni": [
         {
+          "it": "Dov'è",
+          "en": "Where is"
+        },
+        {
           "it": "Quanto",
           "en": "How much"
         },
         {
           "it": "Quando",
           "en": "When is"
-        },
-        {
-          "it": "Dov'è",
-          "en": "Where is"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Dov'è» il bar? = Where is the bar?",
         "en": "Yes! «Dov'è» il bar? = Where is the bar?"
@@ -133,19 +133,19 @@
       },
       "opzioni": [
         {
+          "it": "È vicino",
+          "en": "It is near"
+        },
+        {
           "it": "È lontano",
           "en": "It is far"
         },
         {
           "it": "È dritto",
           "en": "It is straight"
-        },
-        {
-          "it": "È vicino",
-          "en": "It is near"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! 2 minuti = vicino!",
         "en": "Perfect! 2 minutes = «vicino»!"
@@ -166,19 +166,19 @@
       "frase_en": "Turn ___ at the traffic light!",
       "opzioni": [
         {
+          "it": "sinistra",
+          "en": "left"
+        },
+        {
           "it": "dritto",
           "en": "straight"
         },
         {
           "it": "vicino",
           "en": "near"
-        },
-        {
-          "it": "sinistra",
-          "en": "left"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Gira a sinistra = turn left!",
         "en": "Correct! Gira a «sinistra» = turn left!"
@@ -203,6 +203,11 @@
       },
       "opzioni": [
         {
+          "it": "A destra!",
+          "en": "To the right!",
+          "emoji": "➡️"
+        },
+        {
           "it": "A sinistra!",
           "en": "To the left!",
           "emoji": "⬅️"
@@ -211,14 +216,9 @@
           "it": "Lontano!",
           "en": "Far!",
           "emoji": "🗺️"
-        },
-        {
-          "it": "A destra!",
-          "en": "To the right!",
-          "emoji": "➡️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Gira a destra → a destra!",
         "en": "Yes! Turn right → «a destra»!"
@@ -241,19 +241,19 @@
       },
       "opzioni": [
         {
+          "it": "Lontano",
+          "en": "Far"
+        },
+        {
           "it": "Vicino",
           "en": "Near"
         },
         {
           "it": "A destra",
           "en": "To the right"
-        },
-        {
-          "it": "Lontano",
-          "en": "Far"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Non è vicino → è lontano!",
         "en": "Yes! Not near → it is «lontano»!"
@@ -274,19 +274,19 @@
       "frase_en": "Always go ___ for 200 metres!",
       "opzioni": [
         {
+          "it": "dritto",
+          "en": "straight"
+        },
+        {
           "it": "vicino",
           "en": "near"
         },
         {
           "it": "lontano",
           "en": "far"
-        },
-        {
-          "it": "dritto",
-          "en": "straight"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Vai dritto = go straight!",
         "en": "Perfect! Vai «dritto» = go straight!"

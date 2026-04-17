@@ -83,19 +83,19 @@
       },
       "opzioni": [
         {
+          "it": "Arrivederci",
+          "en": "Goodbye"
+        },
+        {
           "it": "Piacere",
           "en": "Nice to meet you"
         },
         {
           "it": "Buongiorno",
           "en": "Good morning"
-        },
-        {
-          "it": "Arrivederci",
-          "en": "Goodbye"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrivederci — a presto! 👋",
         "en": "Yes! Arrivederci — see you soon!"
@@ -194,19 +194,19 @@
       },
       "opzioni": [
         {
-          "it": "Dice il suo nome",
-          "en": "He says his name"
-        },
-        {
           "it": "Dice da dove viene",
           "en": "He says where he is from"
+        },
+        {
+          "it": "Dice il suo nome",
+          "en": "He says his name"
         },
         {
           "it": "Sta salutando",
           "en": "He is greeting"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Sono di Napoli — dice la sua origine! 📍",
         "en": "Yes! Sono di Napoli — he says his origin!"
@@ -231,19 +231,19 @@
       },
       "opzioni": [
         {
-          "it": "Il tuo nome",
-          "en": "Your name"
-        },
-        {
           "it": "Da dove vieni",
           "en": "Where you are from"
+        },
+        {
+          "it": "Il tuo nome",
+          "en": "Your name"
         },
         {
           "it": "Come stai",
           "en": "How you are"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Di dove sei = where are you from! 🌍",
         "en": "Correct! Di dove sei = where are you from!"
@@ -268,19 +268,19 @@
       },
       "opzioni": [
         {
-          "it": "Una sola",
-          "en": "Just one"
-        },
-        {
           "it": "Due — saluto e nome",
           "en": "Two — greeting and name"
+        },
+        {
+          "it": "Una sola",
+          "en": "Just one"
         },
         {
           "it": "Tre",
           "en": "Three"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Piacere + mi chiamo — due informazioni! 🙋",
         "en": "Perfect! Piacere + mi chiamo — two pieces of info!"
@@ -305,19 +305,19 @@
       },
       "opzioni": [
         {
+          "it": "Tre — saluto, presentazione e origine",
+          "en": "Three — greeting, introduction and origin"
+        },
+        {
           "it": "Una",
           "en": "One"
         },
         {
           "it": "Due",
           "en": "Two"
-        },
-        {
-          "it": "Tre — saluto, presentazione e origine",
-          "en": "Three — greeting, introduction and origin"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Buonasera + piacere + sono di Londra — tre! 🎉",
         "en": "Perfect! Buonasera + piacere + sono di Londra — three!"

@@ -139,14 +139,14 @@
       },
       "opzioni": [
         {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        },
-        {
           "it": "Piacere!",
           "en": "Nice to meet you!",
           "emoji": "🤝"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
         },
         {
           "it": "Buonanotte!",
@@ -154,7 +154,7 @@
           "emoji": "🌙"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Piacere! 🤝",
         "en": "Yes! Piacere!"
@@ -179,19 +179,19 @@
       },
       "opzioni": [
         {
-          "it": "Il suo nome",
-          "en": "His name"
-        },
-        {
           "it": "La sua origine",
           "en": "His origin"
+        },
+        {
+          "it": "Il suo nome",
+          "en": "His name"
         },
         {
           "it": "Un saluto",
           "en": "A greeting"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Sono di = I am from! 📍",
         "en": "Yes! Sono di = I am from!"
@@ -246,14 +246,14 @@
       },
       "opzioni": [
         {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
           "it": "Buonasera!",
           "en": "Good evening!",
           "emoji": "🌆"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
         },
         {
           "it": "Buonanotte!",
@@ -261,7 +261,7 @@
           "emoji": "🌙"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Le 19 → Buonasera! 🌆",
         "en": "Yes! 7 PM → Buonasera!"
@@ -353,14 +353,14 @@
       },
       "opzioni": [
         {
-          "it": "Ciao!",
-          "en": "Hi!",
-          "emoji": "😊"
-        },
-        {
           "it": "Buongiorno!",
           "en": "Good morning!",
           "emoji": "👔"
+        },
+        {
+          "it": "Ciao!",
+          "en": "Hi!",
+          "emoji": "😊"
         },
         {
           "it": "Buonanotte!",
@@ -368,7 +368,7 @@
           "emoji": "🌙"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Dal dottore → Buongiorno! 👔",
         "en": "Perfect! At the doctor → Buongiorno!"

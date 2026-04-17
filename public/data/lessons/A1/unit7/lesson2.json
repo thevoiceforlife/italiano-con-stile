@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "The morning",
-          "en": "The morning"
-        },
-        {
           "it": "The evening",
           "en": "The evening"
+        },
+        {
+          "it": "The morning",
+          "en": "The morning"
         },
         {
           "it": "The afternoon",
           "en": "The afternoon"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La sera = the evening!",
         "en": "Correct! «La sera» = the evening!"
@@ -295,14 +295,14 @@
       },
       "opzioni": [
         {
-          "it": "The morning",
-          "en": "The morning",
-          "emoji": "🌅"
-        },
-        {
           "it": "The evening",
           "en": "The evening",
           "emoji": "🌆"
+        },
+        {
+          "it": "The morning",
+          "en": "The morning",
+          "emoji": "🌅"
         },
         {
           "it": "The afternoon",
@@ -310,7 +310,7 @@
           "emoji": "☀️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La sera!",
         "en": "Yes! «La sera»!"

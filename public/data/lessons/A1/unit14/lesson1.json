@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "It is hot",
-          "en": "It is hot"
-        },
-        {
           "it": "It is raining",
           "en": "It is raining"
+        },
+        {
+          "it": "It is hot",
+          "en": "It is hot"
         },
         {
           "it": "It is cold",
           "en": "It is cold"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Piove = it is raining!",
         "en": "Correct! «Piove» = it is raining!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "It is hot",
-          "en": "It is hot",
-          "emoji": "🌞"
-        },
-        {
           "it": "It is raining",
           "en": "It is raining",
           "emoji": "🌧️"
+        },
+        {
+          "it": "It is hot",
+          "en": "It is hot",
+          "emoji": "🌞"
         },
         {
           "it": "It is cold",
@@ -295,7 +295,7 @@
           "emoji": "🥶"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Piove!",
         "en": "Yes! «Piove»!"

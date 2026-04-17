@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "It is sunny",
-          "en": "It is sunny"
-        },
-        {
           "it": "Cloudy",
           "en": "Cloudy"
+        },
+        {
+          "it": "It is sunny",
+          "en": "It is sunny"
         },
         {
           "it": "What is the weather like?",
           "en": "What is the weather like?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Nuvoloso = cloudy!",
         "en": "Correct! «Nuvoloso» = cloudy!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "It is sunny",
-          "en": "It is sunny",
-          "emoji": "☀️"
-        },
-        {
           "it": "Cloudy",
           "en": "Cloudy",
           "emoji": "☁️"
+        },
+        {
+          "it": "It is sunny",
+          "en": "It is sunny",
+          "emoji": "☀️"
         },
         {
           "it": "What is the weather like?",
@@ -300,7 +300,7 @@
           "emoji": "🌤️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Nuvoloso!",
         "en": "Yes! «Nuvoloso»!"

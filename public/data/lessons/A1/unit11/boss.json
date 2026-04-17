@@ -52,14 +52,14 @@
       },
       "opzioni": [
         {
-          "it": "Rosso",
-          "en": "Red",
-          "emoji": "🔴"
-        },
-        {
           "it": "Blu",
           "en": "Blue",
           "emoji": "🔵"
+        },
+        {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
         },
         {
           "it": "Verde",
@@ -67,7 +67,7 @@
           "emoji": "🟢"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -90,19 +90,19 @@
       },
       "opzioni": [
         {
+          "it": "Red",
+          "en": "Red"
+        },
+        {
           "it": "Blue",
           "en": "Blue"
         },
         {
           "it": "Green",
           "en": "Green"
-        },
-        {
-          "it": "Red",
-          "en": "Red"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -163,6 +163,11 @@
       },
       "opzioni": [
         {
+          "it": "Rosso",
+          "en": "Red",
+          "emoji": "🔴"
+        },
+        {
           "it": "Bianco",
           "en": "White",
           "emoji": "⚪"
@@ -171,14 +176,9 @@
           "it": "Blu",
           "en": "Blue",
           "emoji": "🔵"
-        },
-        {
-          "it": "Rosso",
-          "en": "Red",
-          "emoji": "🔴"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -201,19 +201,19 @@
       },
       "opzioni": [
         {
-          "it": "Black",
-          "en": "Black"
-        },
-        {
           "it": "Red",
           "en": "Red"
+        },
+        {
+          "it": "Black",
+          "en": "Black"
         },
         {
           "it": "Blue",
           "en": "Blue"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -274,6 +274,11 @@
       },
       "opzioni": [
         {
+          "it": "Blu",
+          "en": "Blue",
+          "emoji": "🔵"
+        },
+        {
           "it": "Rosso",
           "en": "Red",
           "emoji": "🔴"
@@ -282,14 +287,9 @@
           "it": "Verde",
           "en": "Green",
           "emoji": "🟢"
-        },
-        {
-          "it": "Blu",
-          "en": "Blue",
-          "emoji": "🔵"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa!",
         "en": "EXCELLENT! Nonna is proud!"

@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)"
-        },
-        {
           "it": "Who is speaking?",
           "en": "Who is speaking?"
+        },
+        {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
         },
         {
           "it": "One moment",
           "en": "One moment"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "Hello (phone)",
+          "en": "Hello (phone)"
+        },
+        {
           "it": "Who is speaking?",
           "en": "Who is speaking?"
         },
         {
           "it": "One moment",
           "en": "One moment"
-        },
-        {
-          "it": "Hello (phone)",
-          "en": "Hello (phone)"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
           "it": "Richiamare",
           "en": "To call back",
           "emoji": "📱"
@@ -161,14 +166,9 @@
           "it": "Chi parla?",
           "en": "Who is speaking?",
           "emoji": "🗣️"
-        },
-        {
-          "it": "Pronto",
-          "en": "Hello (phone)",
-          "emoji": "📞"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "The number",
-          "en": "The number"
-        },
-        {
           "it": "Hello (phone)",
           "en": "Hello (phone)"
+        },
+        {
+          "it": "The number",
+          "en": "The number"
         },
         {
           "it": "Who is speaking?",
           "en": "Who is speaking?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
+        },
+        {
           "it": "Pronto",
           "en": "Hello (phone)"
         },
         {
           "it": "Un momento",
           "en": "One moment"
-        },
-        {
-          "it": "Chi parla?",
-          "en": "Who is speaking?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Chi parla?",
-          "en": "Who is speaking?",
-          "emoji": "🗣️"
-        },
-        {
           "it": "Pronto",
           "en": "Hello (phone)",
           "emoji": "📞"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
         },
         {
           "it": "Un momento",
@@ -316,7 +316,7 @@
           "emoji": "⏱️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
           "it": "Richiamare",
           "en": "To call back"
         },
         {
           "it": "Chi parla?",
           "en": "Who is speaking?"
-        },
-        {
-          "it": "Pronto",
-          "en": "Hello (phone)"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "To call back",
-          "en": "To call back"
-        },
-        {
           "it": "The message",
           "en": "The message"
+        },
+        {
+          "it": "To call back",
+          "en": "To call back"
         },
         {
           "it": "The number",
           "en": "The number"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il messaggio = the message!",
         "en": "Correct! «Il messaggio» = the message!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "To call back",
-          "en": "To call back",
-          "emoji": "📱"
-        },
-        {
           "it": "The message",
           "en": "The message",
           "emoji": "💬"
+        },
+        {
+          "it": "To call back",
+          "en": "To call back",
+          "emoji": "📱"
         },
         {
           "it": "The number",
@@ -300,7 +300,7 @@
           "emoji": "🔢"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il messaggio!",
         "en": "Yes! «Il messaggio»!"

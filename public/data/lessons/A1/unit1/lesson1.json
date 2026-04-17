@@ -107,19 +107,19 @@
       },
       "opzioni": [
         {
-          "it": "Piacere!",
-          "en": "Nice to meet you!"
-        },
-        {
           "it": "Arrivederci!",
           "en": "Goodbye!"
+        },
+        {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
         },
         {
           "it": "Buongiorno!",
           "en": "Good morning!"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrivederci — a presto! 👋",
         "en": "Yes! Arrivederci — see you soon!"
@@ -142,19 +142,19 @@
       },
       "opzioni": [
         {
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
+        },
+        {
           "it": "Arrivederci!",
           "en": "Goodbye!"
         },
         {
           "it": "Buongiorno!",
           "en": "Good morning!"
-        },
-        {
-          "it": "Piacere!",
-          "en": "Nice to meet you!"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Piacere — al primo incontro! 🤝",
         "en": "Perfect! Piacere — when you first meet!"
@@ -252,19 +252,19 @@
       },
       "opzioni": [
         {
+          "it": "Arrivederci!",
+          "en": "Goodbye!"
+        },
+        {
           "it": "Buongiorno!",
           "en": "Good morning!"
         },
         {
           "it": "Piacere!",
           "en": "Nice to meet you!"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Se ne va → Arrivederci! 👋",
         "en": "Correct! Leaving → Arrivederci!"
@@ -289,14 +289,14 @@
       },
       "opzioni": [
         {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
           "it": "Piacere!",
           "en": "Nice to meet you!",
           "emoji": "🤝"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
         },
         {
           "it": "Arrivederci!",
@@ -304,7 +304,7 @@
           "emoji": "👋"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Primo incontro → Piacere! 🤝",
         "en": "Perfect! First meeting → Piacere!"
@@ -329,6 +329,11 @@
       },
       "opzioni": [
         {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
+        },
+        {
           "it": "Piacere!",
           "en": "Nice to meet you!",
           "emoji": "🤝"
@@ -337,14 +342,9 @@
           "it": "Buongiorno!",
           "en": "Good morning!",
           "emoji": "☀️"
-        },
-        {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Il bar chiude → Arrivederci! 👋",
         "en": "Excellent! Bar closes → Arrivederci!"

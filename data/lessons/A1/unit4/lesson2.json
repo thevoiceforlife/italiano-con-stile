@@ -89,19 +89,19 @@
       },
       "opzioni": [
         {
-          "it": "How much is the bar?",
-          "en": "How much is the bar?"
-        },
-        {
           "it": "Where is the bar?",
           "en": "Where is the bar?"
+        },
+        {
+          "it": "How much is the bar?",
+          "en": "How much is the bar?"
         },
         {
           "it": "Is the bar open?",
           "en": "Is the bar open?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! «Dov'è»? = where is it?",
         "en": "Correct! «Dov'è»? = where is it?"
@@ -124,19 +124,19 @@
       },
       "opzioni": [
         {
-          "it": "Straight ahead",
-          "en": "Straight ahead"
-        },
-        {
           "it": "Near",
           "en": "Near"
+        },
+        {
+          "it": "Straight ahead",
+          "en": "Straight ahead"
         },
         {
           "it": "Far",
           "en": "Far"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Vicino = near!",
         "en": "Yes! «Vicino» = near!"
@@ -159,19 +159,19 @@
       },
       "opzioni": [
         {
+          "it": "Far",
+          "en": "Far"
+        },
+        {
           "it": "Near",
           "en": "Near"
         },
         {
           "it": "To the right",
           "en": "To the right"
-        },
-        {
-          "it": "Far",
-          "en": "Far"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Perfetto! Lontano = far!",
         "en": "Perfect! «Lontano» = far!"
@@ -192,19 +192,19 @@
       "frase_en": "Hans asks: ___ is Mario's bar?",
       "opzioni": [
         {
+          "it": "Dov'è",
+          "en": "Where"
+        },
+        {
           "it": "Quanto",
           "en": "How much"
         },
         {
           "it": "Quando",
           "en": "When"
-        },
-        {
-          "it": "Dov'è",
-          "en": "Where"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! «Dov'è» il bar? = Where is the bar?",
         "en": "Correct! «Dov'è» il bar? = Where is the bar?"
@@ -227,19 +227,19 @@
       },
       "opzioni": [
         {
+          "it": "Vicino",
+          "en": "Near"
+        },
+        {
           "it": "A destra",
           "en": "To the right"
         },
         {
           "it": "Lontano",
           "en": "Far"
-        },
-        {
-          "it": "Vicino",
-          "en": "Near"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Due minuti = vicino!",
         "en": "Yes! Two minutes = «vicino»!"
@@ -262,19 +262,19 @@
       },
       "opzioni": [
         {
-          "it": "Grazie!",
-          "en": "Thank you!"
-        },
-        {
           "it": "Dov'è il bar?",
           "en": "Where is the bar?"
+        },
+        {
+          "it": "Grazie!",
+          "en": "Thank you!"
         },
         {
           "it": "Per favore!",
           "en": "Please!"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Non sa dove andare → chiede «dov'è»!",
         "en": "Correct! Does not know where → asks «dov'è»!"
@@ -297,19 +297,19 @@
       },
       "opzioni": [
         {
-          "it": "Dritto",
-          "en": "Straight"
-        },
-        {
           "it": "Lontano",
           "en": "Far"
+        },
+        {
+          "it": "Dritto",
+          "en": "Straight"
         },
         {
           "it": "Vicino",
           "en": "Near"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! 5 km = lontano!",
         "en": "Yes! 5 km = «lontano»!"
@@ -334,6 +334,11 @@
       },
       "opzioni": [
         {
+          "it": "Dov'è il bar?",
+          "en": "Where is the bar?",
+          "emoji": "📍"
+        },
+        {
           "it": "Prego!",
           "en": "You are welcome!",
           "emoji": "😊"
@@ -342,14 +347,9 @@
           "it": "Grazie!",
           "en": "Thank you!",
           "emoji": "🙏"
-        },
-        {
-          "it": "Dov'è il bar?",
-          "en": "Where is the bar?",
-          "emoji": "📍"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Non sa dove → chiede «dov'è»!",
         "en": "Excellent! Does not know where → asks «dov'è»!"

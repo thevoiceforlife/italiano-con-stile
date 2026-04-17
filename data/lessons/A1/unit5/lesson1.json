@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "The square",
-          "en": "The square"
-        },
-        {
           "it": "The museum",
           "en": "The museum"
+        },
+        {
+          "it": "The square",
+          "en": "The square"
         },
         {
           "it": "The church",
           "en": "The church"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il museo = the museum!",
         "en": "Correct! «Il museo» = the museum!"
@@ -295,13 +295,13 @@
       },
       "opzioni": [
         {
-          "it": "The square",
-          "en": "The square",
+          "it": "The museum",
+          "en": "The museum",
           "emoji": "🏛️"
         },
         {
-          "it": "The museum",
-          "en": "The museum",
+          "it": "The square",
+          "en": "The square",
           "emoji": "🏛️"
         },
         {
@@ -310,7 +310,7 @@
           "emoji": "⛪"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il museo!",
         "en": "Yes! «Il museo»!"

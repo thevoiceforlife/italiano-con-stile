@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "Can I have?",
-          "en": "Can I have?"
-        },
-        {
           "it": "It costs too much",
           "en": "It costs too much"
+        },
+        {
+          "it": "Can I have?",
+          "en": "Can I have?"
         },
         {
           "it": "The change",
           "en": "The change"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Costa troppo = it costs too much!",
         "en": "Correct! «Costa troppo» = it costs too much!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "Can I have?",
-          "en": "Can I have?",
-          "emoji": "🙋"
-        },
-        {
           "it": "It costs too much",
           "en": "It costs too much",
           "emoji": "💸"
+        },
+        {
+          "it": "Can I have?",
+          "en": "Can I have?",
+          "emoji": "🙋"
         },
         {
           "it": "The change",
@@ -300,7 +300,7 @@
           "emoji": "💰"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Costa troppo!",
         "en": "Yes! «Costa troppo»!"

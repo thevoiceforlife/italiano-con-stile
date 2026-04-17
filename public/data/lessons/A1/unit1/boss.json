@@ -95,14 +95,14 @@
       },
       "opzioni": [
         {
-          "it": "Arrivederci!",
-          "en": "Goodbye!",
-          "emoji": "👋"
-        },
-        {
           "it": "Piacere!",
           "en": "Nice to meet you!",
           "emoji": "🤝"
+        },
+        {
+          "it": "Arrivederci!",
+          "en": "Goodbye!",
+          "emoji": "👋"
         },
         {
           "it": "Buongiorno!",
@@ -110,7 +110,7 @@
           "emoji": "☀️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravissimo! Primo incontro → Piacere! 🤝",
         "en": "Excellent! First meeting → Piacere!"
@@ -195,19 +195,19 @@
       },
       "opzioni": [
         {
-          "it": "Il tuo nome",
-          "en": "Your name"
-        },
-        {
           "it": "La tua origine",
           "en": "Your origin"
+        },
+        {
+          "it": "Il tuo nome",
+          "en": "Your name"
         },
         {
           "it": "Come stai",
           "en": "How you are"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di dove sei = where are you from! 🌍",
         "en": "Yes! Di dove sei = where are you from!"
@@ -232,14 +232,14 @@
       },
       "opzioni": [
         {
-          "it": "Buongiorno!",
-          "en": "Good morning!",
-          "emoji": "☀️"
-        },
-        {
           "it": "Buonasera!",
           "en": "Good evening!",
           "emoji": "🌆"
+        },
+        {
+          "it": "Buongiorno!",
+          "en": "Good morning!",
+          "emoji": "☀️"
         },
         {
           "it": "Piacere!",
@@ -247,7 +247,7 @@
           "emoji": "🤝"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "La Nonna approva! Le 20 → Buonasera! 🌆",
         "en": "Nonna approves! 8 PM → Buonasera!"

@@ -52,14 +52,14 @@
       },
       "opzioni": [
         {
-          "it": "La mamma",
-          "en": "The mum",
-          "emoji": "👩"
-        },
-        {
           "it": "Il papà",
           "en": "The dad",
           "emoji": "👨"
+        },
+        {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
         },
         {
           "it": "Il fratello",
@@ -67,7 +67,7 @@
           "emoji": "👦"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -90,19 +90,19 @@
       },
       "opzioni": [
         {
+          "it": "The mum",
+          "en": "The mum"
+        },
+        {
           "it": "The dad",
           "en": "The dad"
         },
         {
           "it": "The brother",
           "en": "The brother"
-        },
-        {
-          "it": "The mum",
-          "en": "The mum"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -163,6 +163,11 @@
       },
       "opzioni": [
         {
+          "it": "La mamma",
+          "en": "The mum",
+          "emoji": "👩"
+        },
+        {
           "it": "La sorella",
           "en": "The sister",
           "emoji": "👧"
@@ -171,14 +176,9 @@
           "it": "Il papà",
           "en": "The dad",
           "emoji": "👨"
-        },
-        {
-          "it": "La mamma",
-          "en": "The mum",
-          "emoji": "👩"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -201,19 +201,19 @@
       },
       "opzioni": [
         {
-          "it": "The grandparents",
-          "en": "The grandparents"
-        },
-        {
           "it": "The mum",
           "en": "The mum"
+        },
+        {
+          "it": "The grandparents",
+          "en": "The grandparents"
         },
         {
           "it": "The dad",
           "en": "The dad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -274,6 +274,11 @@
       },
       "opzioni": [
         {
+          "it": "Il papà",
+          "en": "The dad",
+          "emoji": "👨"
+        },
+        {
           "it": "La mamma",
           "en": "The mum",
           "emoji": "👩"
@@ -282,14 +287,9 @@
           "it": "Il fratello",
           "en": "The brother",
           "emoji": "👦"
-        },
-        {
-          "it": "Il papà",
-          "en": "The dad",
-          "emoji": "👨"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa!",
         "en": "EXCELLENT! Nonna is proud!"

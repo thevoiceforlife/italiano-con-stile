@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "The pizza",
-          "en": "The pizza"
-        },
-        {
           "it": "The croissant",
           "en": "The croissant"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza"
         },
         {
           "it": "The coffee",
           "en": "The coffee"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il cornetto = the croissant!",
         "en": "Correct! «Il cornetto» = the croissant!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "The pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
-        },
-        {
           "it": "The croissant",
           "en": "The croissant",
           "emoji": "🥐"
+        },
+        {
+          "it": "The pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
         },
         {
           "it": "The coffee",
@@ -295,7 +295,7 @@
           "emoji": "☕"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il cornetto!",
         "en": "Yes! «Il cornetto»!"

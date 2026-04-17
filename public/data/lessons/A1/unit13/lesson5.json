@@ -45,19 +45,19 @@
       },
       "opzioni": [
         {
-          "it": "The market",
-          "en": "The market"
-        },
-        {
           "it": "A kilo",
           "en": "A kilo"
+        },
+        {
+          "it": "The market",
+          "en": "The market"
         },
         {
           "it": "Fresh",
           "en": "Fresh"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -80,19 +80,19 @@
       },
       "opzioni": [
         {
+          "it": "The market",
+          "en": "The market"
+        },
+        {
           "it": "A kilo",
           "en": "A kilo"
         },
         {
           "it": "Fresh",
           "en": "Fresh"
-        },
-        {
-          "it": "The market",
-          "en": "The market"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -153,6 +153,11 @@
       },
       "opzioni": [
         {
+          "it": "Il mercato",
+          "en": "The market",
+          "emoji": "🛒"
+        },
+        {
           "it": "Posso avere?",
           "en": "Can I have?",
           "emoji": "🙋"
@@ -161,14 +166,9 @@
           "it": "Un chilo",
           "en": "A kilo",
           "emoji": "⚖️"
-        },
-        {
-          "it": "Il mercato",
-          "en": "The market",
-          "emoji": "🛒"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -191,19 +191,19 @@
       },
       "opzioni": [
         {
-          "it": "The change",
-          "en": "The change"
-        },
-        {
           "it": "The market",
           "en": "The market"
+        },
+        {
+          "it": "The change",
+          "en": "The change"
         },
         {
           "it": "A kilo",
           "en": "A kilo"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -264,19 +264,19 @@
       },
       "opzioni": [
         {
+          "it": "Un chilo",
+          "en": "A kilo"
+        },
+        {
           "it": "Il mercato",
           "en": "The market"
         },
         {
           "it": "Fresco",
           "en": "Fresh"
-        },
-        {
-          "it": "Un chilo",
-          "en": "A kilo"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -301,14 +301,14 @@
       },
       "opzioni": [
         {
-          "it": "Un chilo",
-          "en": "A kilo",
-          "emoji": "⚖️"
-        },
-        {
           "it": "Il mercato",
           "en": "The market",
           "emoji": "🛒"
+        },
+        {
+          "it": "Un chilo",
+          "en": "A kilo",
+          "emoji": "⚖️"
         },
         {
           "it": "Fresco",
@@ -316,7 +316,7 @@
           "emoji": "🌿"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -375,19 +375,19 @@
       },
       "opzioni": [
         {
+          "it": "Il mercato",
+          "en": "The market"
+        },
+        {
           "it": "Posso avere?",
           "en": "Can I have?"
         },
         {
           "it": "Un chilo",
           "en": "A kilo"
-        },
-        {
-          "it": "Il mercato",
-          "en": "The market"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

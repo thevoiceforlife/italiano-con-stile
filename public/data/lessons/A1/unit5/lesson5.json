@@ -41,19 +41,19 @@
       },
       "opzioni": [
         {
-          "it": "The square",
-          "en": "The square"
-        },
-        {
           "it": "The church",
           "en": "The church"
+        },
+        {
+          "it": "The square",
+          "en": "The square"
         },
         {
           "it": "The museum",
           "en": "The museum"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -76,19 +76,19 @@
       },
       "opzioni": [
         {
+          "it": "The square",
+          "en": "The square"
+        },
+        {
           "it": "The church",
           "en": "The church"
         },
         {
           "it": "The museum",
           "en": "The museum"
-        },
-        {
-          "it": "The square",
-          "en": "The square"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -149,6 +149,11 @@
       },
       "opzioni": [
         {
+          "it": "La piazza",
+          "en": "The square",
+          "emoji": "🏛️"
+        },
+        {
           "it": "Di fronte a",
           "en": "In front of",
           "emoji": "👁️"
@@ -157,14 +162,9 @@
           "it": "La chiesa",
           "en": "The church",
           "emoji": "⛪"
-        },
-        {
-          "it": "La piazza",
-          "en": "The square",
-          "emoji": "🏛️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -187,19 +187,19 @@
       },
       "opzioni": [
         {
-          "it": "Behind",
-          "en": "Behind"
-        },
-        {
           "it": "The square",
           "en": "The square"
+        },
+        {
+          "it": "Behind",
+          "en": "Behind"
         },
         {
           "it": "The church",
           "en": "The church"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -260,19 +260,19 @@
       },
       "opzioni": [
         {
+          "it": "La chiesa",
+          "en": "The church"
+        },
+        {
           "it": "La piazza",
           "en": "The square"
         },
         {
           "it": "Il museo",
           "en": "The museum"
-        },
-        {
-          "it": "La chiesa",
-          "en": "The church"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -297,14 +297,14 @@
       },
       "opzioni": [
         {
-          "it": "La chiesa",
-          "en": "The church",
-          "emoji": "⛪"
-        },
-        {
           "it": "La piazza",
           "en": "The square",
           "emoji": "🏛️"
+        },
+        {
+          "it": "La chiesa",
+          "en": "The church",
+          "emoji": "⛪"
         },
         {
           "it": "Il museo",
@@ -312,7 +312,7 @@
           "emoji": "🏛️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"
@@ -371,19 +371,19 @@
       },
       "opzioni": [
         {
+          "it": "La piazza",
+          "en": "The square"
+        },
+        {
           "it": "Di fronte a",
           "en": "In front of"
         },
         {
           "it": "La chiesa",
           "en": "The church"
-        },
-        {
-          "it": "La piazza",
-          "en": "The square"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì!",
         "en": "Yes!"

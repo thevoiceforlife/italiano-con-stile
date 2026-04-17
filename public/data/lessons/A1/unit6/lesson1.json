@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
-          "it": "One",
-          "en": "One"
-        },
-        {
           "it": "Twenty",
           "en": "Twenty"
+        },
+        {
+          "it": "One",
+          "en": "One"
         },
         {
           "it": "Ten",
           "en": "Ten"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Venti = twenty!",
         "en": "Correct! «Venti» = twenty!"
@@ -295,14 +295,14 @@
       },
       "opzioni": [
         {
-          "it": "One",
-          "en": "One",
-          "emoji": "1️⃣"
-        },
-        {
           "it": "Twenty",
           "en": "Twenty",
           "emoji": "2️⃣0️⃣"
+        },
+        {
+          "it": "One",
+          "en": "One",
+          "emoji": "1️⃣"
         },
         {
           "it": "Ten",
@@ -310,7 +310,7 @@
           "emoji": "🔟"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Venti!",
         "en": "Yes! «Venti»!"

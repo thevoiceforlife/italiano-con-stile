@@ -46,19 +46,19 @@
       },
       "opzioni": [
         {
-          "it": "Alto",
-          "en": "Tall"
-        },
-        {
           "it": "Basso",
           "en": "Short"
+        },
+        {
+          "it": "Alto",
+          "en": "Tall"
         },
         {
           "it": "Giovane",
           "en": "Young"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Alto»!",
         "en": "Yes! «Alto»!"
@@ -82,19 +82,19 @@
       },
       "opzioni": [
         {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
           "it": "Basso",
           "en": "Short"
         },
         {
           "it": "Giovane",
           "en": "Young"
-        },
-        {
-          "it": "Alto",
-          "en": "Tall"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Basso»!",
         "en": "Yes! «Basso»!"
@@ -154,19 +154,19 @@
       },
       "opzioni": [
         {
+          "it": "Alto",
+          "en": "Tall"
+        },
+        {
           "it": "Simpatico",
           "en": "Nice"
         },
         {
           "it": "Basso",
           "en": "Short"
-        },
-        {
-          "it": "Alto",
-          "en": "Tall"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Simpatico»!",
         "en": "Yes! «Simpatico»!"
@@ -190,19 +190,19 @@
       },
       "opzioni": [
         {
-          "it": "Come sei?",
-          "en": "What are you like?"
-        },
-        {
           "it": "Alto",
           "en": "Tall"
+        },
+        {
+          "it": "Come sei?",
+          "en": "What are you like?"
         },
         {
           "it": "Basso",
           "en": "Short"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Come sei?»!",
         "en": "Yes! «Come sei?»!"
@@ -263,19 +263,19 @@
       },
       "opzioni": [
         {
+          "it": "Basso",
+          "en": "Short"
+        },
+        {
           "it": "Alto",
           "en": "Tall"
         },
         {
           "it": "Giovane",
           "en": "Young"
-        },
-        {
-          "it": "Basso",
-          "en": "Short"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Alto»!",
         "en": "Yes! «Alto»!"
@@ -300,19 +300,19 @@
       },
       "opzioni": [
         {
-          "it": "Basso",
-          "en": "Short"
-        },
-        {
           "it": "Alto",
           "en": "Tall"
+        },
+        {
+          "it": "Basso",
+          "en": "Short"
         },
         {
           "it": "Giovane",
           "en": "Young"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! «Basso»!",
         "en": "Yes! «Basso»!"

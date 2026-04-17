@@ -144,19 +144,19 @@
       },
       "opzioni": [
         {
-          "it": "The sister",
-          "en": "The sister"
-        },
-        {
           "it": "The family",
           "en": "The family"
+        },
+        {
+          "it": "The sister",
+          "en": "The sister"
         },
         {
           "it": "The grandparents",
           "en": "The grandparents"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La famiglia = the family!",
         "en": "Correct! «La famiglia» = the family!"
@@ -285,14 +285,14 @@
       },
       "opzioni": [
         {
-          "it": "The sister",
-          "en": "The sister",
-          "emoji": "👧"
-        },
-        {
           "it": "The family",
           "en": "The family",
           "emoji": "👨‍👩‍👧‍👦"
+        },
+        {
+          "it": "The sister",
+          "en": "The sister",
+          "emoji": "👧"
         },
         {
           "it": "The grandparents",
@@ -300,7 +300,7 @@
           "emoji": "👴👵"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La famiglia!",
         "en": "Yes! «La famiglia»!"

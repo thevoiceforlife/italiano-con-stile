@@ -52,14 +52,14 @@
       },
       "opzioni": [
         {
-          "it": "La pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
-        },
-        {
           "it": "Il caffè",
           "en": "The coffee",
           "emoji": "☕"
+        },
+        {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
         },
         {
           "it": "Il cornetto",
@@ -67,7 +67,7 @@
           "emoji": "🥐"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -90,19 +90,19 @@
       },
       "opzioni": [
         {
+          "it": "The pizza",
+          "en": "The pizza"
+        },
+        {
           "it": "The coffee",
           "en": "The coffee"
         },
         {
           "it": "The croissant",
           "en": "The croissant"
-        },
-        {
-          "it": "The pizza",
-          "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -163,6 +163,11 @@
       },
       "opzioni": [
         {
+          "it": "La pizza",
+          "en": "The pizza",
+          "emoji": "🍕"
+        },
+        {
           "it": "Buono",
           "en": "Good",
           "emoji": "👍"
@@ -171,14 +176,9 @@
           "it": "Il caffè",
           "en": "The coffee",
           "emoji": "☕"
-        },
-        {
-          "it": "La pizza",
-          "en": "The pizza",
-          "emoji": "🍕"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -201,19 +201,19 @@
       },
       "opzioni": [
         {
-          "it": "Delicious",
-          "en": "Delicious"
-        },
-        {
           "it": "The pizza",
           "en": "The pizza"
+        },
+        {
+          "it": "Delicious",
+          "en": "Delicious"
         },
         {
           "it": "The coffee",
           "en": "The coffee"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Bravo! La Nonna sorride!",
         "en": "Well done! Nonna smiles!"
@@ -274,6 +274,11 @@
       },
       "opzioni": [
         {
+          "it": "Il caffè",
+          "en": "The coffee",
+          "emoji": "☕"
+        },
+        {
           "it": "La pizza",
           "en": "The pizza",
           "emoji": "🍕"
@@ -282,14 +287,9 @@
           "it": "Il cornetto",
           "en": "The croissant",
           "emoji": "🥐"
-        },
-        {
-          "it": "Il caffè",
-          "en": "The coffee",
-          "emoji": "☕"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "BRAVISSIMO! La Nonna è orgogliosa!",
         "en": "EXCELLENT! Nonna is proud!"

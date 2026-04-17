@@ -139,19 +139,19 @@
       },
       "opzioni": [
         {
-          "it": "The mum",
-          "en": "The mum"
-        },
-        {
           "it": "The brother",
           "en": "The brother"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum"
         },
         {
           "it": "The dad",
           "en": "The dad"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il fratello = the brother!",
         "en": "Correct! «Il fratello» = the brother!"
@@ -280,14 +280,14 @@
       },
       "opzioni": [
         {
-          "it": "The mum",
-          "en": "The mum",
-          "emoji": "👩"
-        },
-        {
           "it": "The brother",
           "en": "The brother",
           "emoji": "👦"
+        },
+        {
+          "it": "The mum",
+          "en": "The mum",
+          "emoji": "👩"
         },
         {
           "it": "The dad",
@@ -295,7 +295,7 @@
           "emoji": "👨"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il fratello!",
         "en": "Yes! «Il fratello»!"

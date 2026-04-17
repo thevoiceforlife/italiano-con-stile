@@ -47,14 +47,14 @@
       },
       "opzioni": [
         {
-          "it": "Pronto",
-          "en": "Hello (phone)",
-          "emoji": "📞"
-        },
-        {
           "it": "Chi parla?",
           "en": "Who is speaking?",
           "emoji": "🗣️"
+        },
+        {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
         },
         {
           "it": "Un momento",
@@ -62,7 +62,7 @@
           "emoji": "⏱️"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Pronto!",
         "en": "Yes! «Pronto»!"
@@ -87,19 +87,19 @@
       },
       "opzioni": [
         {
+          "it": "Pronto",
+          "en": "Hello (phone)"
+        },
+        {
           "it": "Chi parla?",
           "en": "Who is speaking?"
         },
         {
           "it": "Un momento",
           "en": "One moment"
-        },
-        {
-          "it": "Pronto",
-          "en": "Hello (phone)"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Chi parla?!",
         "en": "Yes! «Chi parla?»!"
@@ -159,6 +159,11 @@
       },
       "opzioni": [
         {
+          "it": "Pronto",
+          "en": "Hello (phone)",
+          "emoji": "📞"
+        },
+        {
           "it": "Richiamare",
           "en": "To call back",
           "emoji": "📱"
@@ -167,14 +172,9 @@
           "it": "Chi parla?",
           "en": "Who is speaking?",
           "emoji": "🗣️"
-        },
-        {
-          "it": "Pronto",
-          "en": "Hello (phone)",
-          "emoji": "📞"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Richiamare!",
         "en": "Yes! «Richiamare»!"
@@ -199,19 +199,19 @@
       },
       "opzioni": [
         {
-          "it": "Il numero",
-          "en": "The number"
-        },
-        {
           "it": "Pronto",
           "en": "Hello (phone)"
+        },
+        {
+          "it": "Il numero",
+          "en": "The number"
         },
         {
           "it": "Chi parla?",
           "en": "Who is speaking?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il numero!",
         "en": "Yes! «Il numero»!"
@@ -271,6 +271,11 @@
       },
       "opzioni": [
         {
+          "it": "Chi parla?",
+          "en": "Who is speaking?",
+          "emoji": "🗣️"
+        },
+        {
           "it": "Pronto",
           "en": "Hello (phone)",
           "emoji": "📞"
@@ -279,14 +284,9 @@
           "it": "Un momento",
           "en": "One moment",
           "emoji": "⏱️"
-        },
-        {
-          "it": "Chi parla?",
-          "en": "Who is speaking?",
-          "emoji": "🗣️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Pronto!",
         "en": "Yes! «Pronto»!"
@@ -311,19 +311,19 @@
       },
       "opzioni": [
         {
-          "it": "Chi parla?",
-          "en": "Who is speaking?"
-        },
-        {
           "it": "Pronto",
           "en": "Hello (phone)"
+        },
+        {
+          "it": "Chi parla?",
+          "en": "Who is speaking?"
         },
         {
           "it": "Un momento",
           "en": "One moment"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Chi parla?!",
         "en": "Yes! «Chi parla?»!"
