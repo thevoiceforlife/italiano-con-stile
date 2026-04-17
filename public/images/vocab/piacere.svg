@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Piacere — Nice to meet you</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+
+  <path d="M20,75 L55,55 L55,45 L70,45 L70,55 L100,70" fill="none" stroke="#5BB8F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20,75 L55,55 L55,45 L70,45 L70,55 L100,70" fill="none" stroke="#3A94D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="62" cy="50" r="8" fill="#F5C842"/>
+  <circle cx="62" cy="50" r="5" fill="#F5EDD0"/>
+</svg>

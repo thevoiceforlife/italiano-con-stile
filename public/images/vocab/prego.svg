@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Prego — You are welcome</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+
+  <path d="M25,85 L65,85 L80,70 L80,45 Q80,35 73,35 Q67,35 65,42 L65,60 L55,60 L55,35 Q55,25 47,25 Q39,25 39,35 L39,60 L30,60 L30,45 Q30,35 22,35 Q15,35 15,45 L15,85 Z" fill="#F5A042"/>
+  <ellipse cx="47" cy="85" rx="35" ry="8" fill="#D47020" opacity="0.4"/>
+</svg>

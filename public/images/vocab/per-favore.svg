@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Per favore — Please</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+
+  <path d="M30,80 L30,45 Q30,35 40,35 L50,35 L50,80 Z" fill="#F5A042"/>
+  <path d="M70,80 L70,45 Q70,35 80,35 L90,35 L90,80 Z" fill="#F5A042"/>
+  <ellipse cx="60" cy="75" rx="30" ry="8" fill="#D47020" opacity="0.4"/>
+</svg>

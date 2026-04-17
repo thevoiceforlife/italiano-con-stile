@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
+  <title>Grazie — Thank you</title>
+  <rect width="120" height="120" rx="16" fill="#0F1923"/>
+
+  <circle cx="60" cy="62" r="38" fill="#F5C842"/>
+  <circle cx="60" cy="62" r="30" fill="#F5EDD0"/>
+  <circle cx="46" cy="54" r="6" fill="#D4A820"/>
+  <circle cx="74" cy="54" r="6" fill="#D4A820"/>
+  <circle cx="48" cy="53" r="2.5" fill="white"/>
+  <circle cx="76" cy="53" r="2.5" fill="white"/>
+  <path d="M36,70 Q60,86 84,70" fill="none" stroke="#D4A820" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="36" cy="66" r="8" fill="#F5A042" opacity="0.4"/>
+  <circle cx="84" cy="66" r="8" fill="#F5A042" opacity="0.4"/>
+</svg>
