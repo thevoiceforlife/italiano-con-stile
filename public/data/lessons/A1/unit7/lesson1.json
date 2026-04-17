@@ -96,7 +96,7 @@
           "en": "What time is it?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Oggi = today!",
         "en": "Correct! «Oggi» = today!"
@@ -131,7 +131,7 @@
           "en": "Today"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Domani = tomorrow!",
         "en": "Correct! «Domani» = tomorrow!"
@@ -166,7 +166,7 @@
           "en": "Tomorrow"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Che ore sono? = what time is it?!",
         "en": "Correct! «Che ore sono?» = what time is it?!"
@@ -235,7 +235,7 @@
           "en": "Tomorrow"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Oggi!",
         "en": "Yes! «Oggi»!"
@@ -270,7 +270,7 @@
           "en": "What time is it?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Domani!",
         "en": "Yes! «Domani»!"
@@ -310,7 +310,7 @@
           "emoji": "📅"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Che ore sono?!",
         "en": "Yes! «Che ore sono?»!"
@@ -350,7 +350,7 @@
           "emoji": "📅"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Oggi!",
         "en": "Yes! «Oggi»!"

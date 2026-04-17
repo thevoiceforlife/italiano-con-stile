@@ -96,7 +96,7 @@
           "en": "How many?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Cinquanta = fifty!",
         "en": "Correct! «Cinquanta» = fifty!"
@@ -131,7 +131,7 @@
           "en": "Fifty"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Cento = one hundred!",
         "en": "Correct! «Cento» = one hundred!"
@@ -166,7 +166,7 @@
           "en": "One hundred"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Quanti? = how many?!",
         "en": "Correct! «Quanti?» = how many?!"
@@ -235,7 +235,7 @@
           "en": "One hundred"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Cinquanta!",
         "en": "Yes! «Cinquanta»!"
@@ -270,7 +270,7 @@
           "en": "How many?"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Cento!",
         "en": "Yes! «Cento»!"
@@ -310,7 +310,7 @@
           "emoji": "💯"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Quanti?!",
         "en": "Yes! «Quanti?»!"
@@ -350,7 +350,7 @@
           "emoji": "💯"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Cinquanta!",
         "en": "Yes! «Cinquanta»!"

@@ -86,7 +86,7 @@
           "en": "The hair"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Simpatico = nice!",
         "en": "Correct! «Simpatico» = nice!"
@@ -121,7 +121,7 @@
           "en": "Nice"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Come sei? = what are you like?!",
         "en": "Correct! «Come sei?» = what are you like?!"
@@ -156,7 +156,7 @@
           "en": "What are you like?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! I capelli = the hair!",
         "en": "Correct! «I capelli» = the hair!"
@@ -225,7 +225,7 @@
           "en": "What are you like?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Simpatico!",
         "en": "Yes! «Simpatico»!"
@@ -260,7 +260,7 @@
           "en": "The hair"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Come sei?!",
         "en": "Yes! «Come sei?»!"
@@ -300,7 +300,7 @@
           "emoji": "🪞"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! I capelli!",
         "en": "Yes! «I capelli»!"
@@ -340,7 +340,7 @@
           "emoji": "🪞"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Simpatico!",
         "en": "Yes! «Simpatico»!"

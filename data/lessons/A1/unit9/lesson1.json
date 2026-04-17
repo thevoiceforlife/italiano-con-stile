@@ -81,7 +81,7 @@
           "en": "Young"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Alto = tall!",
         "en": "Correct! «Alto» = tall!"
@@ -116,7 +116,7 @@
           "en": "Tall"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Basso = short!",
         "en": "Correct! «Basso» = short!"
@@ -151,7 +151,7 @@
           "en": "Short"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Giovane = young!",
         "en": "Correct! «Giovane» = young!"
@@ -220,7 +220,7 @@
           "en": "Short"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Alto!",
         "en": "Yes! «Alto»!"
@@ -255,7 +255,7 @@
           "en": "Young"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Basso!",
         "en": "Yes! «Basso»!"
@@ -295,7 +295,7 @@
           "emoji": "📏"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Giovane!",
         "en": "Yes! «Giovane»!"
@@ -335,7 +335,7 @@
           "emoji": "📏"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Alto!",
         "en": "Yes! «Alto»!"

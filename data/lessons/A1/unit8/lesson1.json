@@ -81,7 +81,7 @@
           "en": "The croissant"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La pizza = the pizza!",
         "en": "Correct! «La pizza» = the pizza!"
@@ -116,7 +116,7 @@
           "en": "The pizza"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il caffè = the coffee!",
         "en": "Correct! «Il caffè» = the coffee!"
@@ -151,7 +151,7 @@
           "en": "The coffee"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Il cornetto = the croissant!",
         "en": "Correct! «Il cornetto» = the croissant!"
@@ -220,7 +220,7 @@
           "en": "The coffee"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La pizza!",
         "en": "Yes! «La pizza»!"
@@ -255,7 +255,7 @@
           "en": "The croissant"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il caffè!",
         "en": "Yes! «Il caffè»!"
@@ -295,7 +295,7 @@
           "emoji": "☕"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Il cornetto!",
         "en": "Yes! «Il cornetto»!"
@@ -335,7 +335,7 @@
           "emoji": "☕"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La pizza!",
         "en": "Yes! «La pizza»!"

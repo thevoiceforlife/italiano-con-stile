@@ -96,7 +96,7 @@
           "en": "The museum"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La piazza = the square!",
         "en": "Correct! «La piazza» = the square!"
@@ -131,7 +131,7 @@
           "en": "The square"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La chiesa = the church!",
         "en": "Correct! «La chiesa» = the church!"
@@ -166,7 +166,7 @@
           "en": "The church"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Il museo = the museum!",
         "en": "Correct! «Il museo» = the museum!"
@@ -235,7 +235,7 @@
           "en": "The church"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La piazza!",
         "en": "Yes! «La piazza»!"
@@ -270,7 +270,7 @@
           "en": "The museum"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La chiesa!",
         "en": "Yes! «La chiesa»!"
@@ -310,7 +310,7 @@
           "emoji": "⛪"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Il museo!",
         "en": "Yes! «Il museo»!"
@@ -350,7 +350,7 @@
           "emoji": "⛪"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La piazza!",
         "en": "Yes! «La piazza»!"

@@ -96,7 +96,7 @@
           "en": "The evening"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La mattina = the morning!",
         "en": "Correct! «La mattina» = the morning!"
@@ -131,7 +131,7 @@
           "en": "The morning"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il pomeriggio = the afternoon!",
         "en": "Correct! «Il pomeriggio» = the afternoon!"
@@ -166,7 +166,7 @@
           "en": "The afternoon"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! La sera = the evening!",
         "en": "Correct! «La sera» = the evening!"
@@ -235,7 +235,7 @@
           "en": "The afternoon"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mattina!",
         "en": "Yes! «La mattina»!"
@@ -270,7 +270,7 @@
           "en": "The evening"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il pomeriggio!",
         "en": "Yes! «Il pomeriggio»!"
@@ -310,7 +310,7 @@
           "emoji": "☀️"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! La sera!",
         "en": "Yes! «La sera»!"
@@ -350,7 +350,7 @@
           "emoji": "☀️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mattina!",
         "en": "Yes! «La mattina»!"

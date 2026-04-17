@@ -81,7 +81,7 @@
           "en": "The brother"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La mamma = the mum!",
         "en": "Correct! «La mamma» = the mum!"
@@ -116,7 +116,7 @@
           "en": "The mum"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il papà = the dad!",
         "en": "Correct! «Il papà» = the dad!"
@@ -151,7 +151,7 @@
           "en": "The dad"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Il fratello = the brother!",
         "en": "Correct! «Il fratello» = the brother!"
@@ -220,7 +220,7 @@
           "en": "The dad"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mamma!",
         "en": "Yes! «La mamma»!"
@@ -255,7 +255,7 @@
           "en": "The brother"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il papà!",
         "en": "Yes! «Il papà»!"
@@ -295,7 +295,7 @@
           "emoji": "👨"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Il fratello!",
         "en": "Yes! «Il fratello»!"
@@ -335,7 +335,7 @@
           "emoji": "👨"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La mamma!",
         "en": "Yes! «La mamma»!"

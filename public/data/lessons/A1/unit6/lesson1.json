@@ -96,7 +96,7 @@
           "en": "Twenty"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Uno = one!",
         "en": "Correct! «Uno» = one!"
@@ -131,7 +131,7 @@
           "en": "One"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Dieci = ten!",
         "en": "Correct! «Dieci» = ten!"
@@ -166,7 +166,7 @@
           "en": "Ten"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Venti = twenty!",
         "en": "Correct! «Venti» = twenty!"
@@ -235,7 +235,7 @@
           "en": "Ten"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Uno!",
         "en": "Yes! «Uno»!"
@@ -270,7 +270,7 @@
           "en": "Twenty"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dieci!",
         "en": "Yes! «Dieci»!"
@@ -310,7 +310,7 @@
           "emoji": "🔟"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Venti!",
         "en": "Yes! «Venti»!"
@@ -350,7 +350,7 @@
           "emoji": "🔟"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Uno!",
         "en": "Yes! «Uno»!"

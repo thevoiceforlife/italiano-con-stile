@@ -81,7 +81,7 @@
           "en": "It is raining"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Fa caldo = it is hot!",
         "en": "Correct! «Fa caldo» = it is hot!"
@@ -116,7 +116,7 @@
           "en": "It is hot"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Fa freddo = it is cold!",
         "en": "Correct! «Fa freddo» = it is cold!"
@@ -151,7 +151,7 @@
           "en": "It is cold"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Piove = it is raining!",
         "en": "Correct! «Piove» = it is raining!"
@@ -220,7 +220,7 @@
           "en": "It is cold"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Fa caldo!",
         "en": "Yes! «Fa caldo»!"
@@ -255,7 +255,7 @@
           "en": "It is raining"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Fa freddo!",
         "en": "Yes! «Fa freddo»!"
@@ -295,7 +295,7 @@
           "emoji": "🥶"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Piove!",
         "en": "Yes! «Piove»!"
@@ -335,7 +335,7 @@
           "emoji": "🥶"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Fa caldo!",
         "en": "Yes! «Fa caldo»!"

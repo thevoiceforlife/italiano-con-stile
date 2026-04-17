@@ -86,7 +86,7 @@
           "en": "Cloudy"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! C'è il sole = it is sunny!",
         "en": "Correct! «C'è il sole» = it is sunny!"
@@ -121,7 +121,7 @@
           "en": "It is sunny"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Che tempo fa? = what is the weather like?!",
         "en": "Correct! «Che tempo fa?» = what is the weather like?!"
@@ -156,7 +156,7 @@
           "en": "What is the weather like?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Nuvoloso = cloudy!",
         "en": "Correct! «Nuvoloso» = cloudy!"
@@ -225,7 +225,7 @@
           "en": "What is the weather like?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! C'è il sole!",
         "en": "Yes! «C'è il sole»!"
@@ -260,7 +260,7 @@
           "en": "Cloudy"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Che tempo fa?!",
         "en": "Yes! «Che tempo fa?»!"
@@ -300,7 +300,7 @@
           "emoji": "🌤️"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Nuvoloso!",
         "en": "Yes! «Nuvoloso»!"
@@ -340,7 +340,7 @@
           "emoji": "🌤️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! C'è il sole!",
         "en": "Yes! «C'è il sole»!"

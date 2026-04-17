@@ -81,7 +81,7 @@
           "en": "Fresh"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il mercato = the market!",
         "en": "Correct! «Il mercato» = the market!"
@@ -116,7 +116,7 @@
           "en": "The market"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Un chilo = a kilo!",
         "en": "Correct! «Un chilo» = a kilo!"
@@ -151,7 +151,7 @@
           "en": "A kilo"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Fresco = fresh!",
         "en": "Correct! «Fresco» = fresh!"
@@ -220,7 +220,7 @@
           "en": "A kilo"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il mercato!",
         "en": "Yes! «Il mercato»!"
@@ -255,7 +255,7 @@
           "en": "Fresh"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Un chilo!",
         "en": "Yes! «Un chilo»!"
@@ -295,7 +295,7 @@
           "emoji": "⚖️"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Fresco!",
         "en": "Yes! «Fresco»!"
@@ -335,7 +335,7 @@
           "emoji": "⚖️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il mercato!",
         "en": "Yes! «Il mercato»!"

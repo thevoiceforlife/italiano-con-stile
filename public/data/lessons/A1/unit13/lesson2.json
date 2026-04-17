@@ -86,7 +86,7 @@
           "en": "It costs too much"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Posso avere? = can i have?!",
         "en": "Correct! «Posso avere?» = can i have?!"
@@ -121,7 +121,7 @@
           "en": "Can I have?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Il resto = the change!",
         "en": "Correct! «Il resto» = the change!"
@@ -156,7 +156,7 @@
           "en": "The change"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Costa troppo = it costs too much!",
         "en": "Correct! «Costa troppo» = it costs too much!"
@@ -225,7 +225,7 @@
           "en": "The change"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Posso avere?!",
         "en": "Yes! «Posso avere?»!"
@@ -260,7 +260,7 @@
           "en": "It costs too much"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Il resto!",
         "en": "Yes! «Il resto»!"
@@ -300,7 +300,7 @@
           "emoji": "💰"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Costa troppo!",
         "en": "Yes! «Costa troppo»!"
@@ -340,7 +340,7 @@
           "emoji": "💰"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Posso avere?!",
         "en": "Yes! «Posso avere?»!"

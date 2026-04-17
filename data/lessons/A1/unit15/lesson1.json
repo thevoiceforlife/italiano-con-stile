@@ -81,7 +81,7 @@
           "en": "Tired"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Felice = happy!",
         "en": "Correct! «Felice» = happy!"
@@ -116,7 +116,7 @@
           "en": "Happy"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Triste = sad!",
         "en": "Correct! «Triste» = sad!"
@@ -151,7 +151,7 @@
           "en": "Sad"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Stanco = tired!",
         "en": "Correct! «Stanco» = tired!"
@@ -220,7 +220,7 @@
           "en": "Sad"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Felice!",
         "en": "Yes! «Felice»!"
@@ -255,7 +255,7 @@
           "en": "Tired"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Triste!",
         "en": "Yes! «Triste»!"
@@ -295,7 +295,7 @@
           "emoji": "😢"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Stanco!",
         "en": "Yes! «Stanco»!"
@@ -335,7 +335,7 @@
           "emoji": "😢"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Felice!",
         "en": "Yes! «Felice»!"

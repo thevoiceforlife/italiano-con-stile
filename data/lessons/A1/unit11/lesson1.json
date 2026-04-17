@@ -81,7 +81,7 @@
           "en": "Green"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Rosso = red!",
         "en": "Correct! «Rosso» = red!"
@@ -116,7 +116,7 @@
           "en": "Red"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Blu = blue!",
         "en": "Correct! «Blu» = blue!"
@@ -151,7 +151,7 @@
           "en": "Blue"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Verde = green!",
         "en": "Correct! «Verde» = green!"
@@ -220,7 +220,7 @@
           "en": "Blue"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Rosso!",
         "en": "Yes! «Rosso»!"
@@ -255,7 +255,7 @@
           "en": "Green"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Blu!",
         "en": "Yes! «Blu»!"
@@ -295,7 +295,7 @@
           "emoji": "🔵"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Verde!",
         "en": "Yes! «Verde»!"
@@ -335,7 +335,7 @@
           "emoji": "🔵"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Rosso!",
         "en": "Yes! «Rosso»!"

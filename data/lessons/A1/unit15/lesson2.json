@@ -86,7 +86,7 @@
           "en": "I am fine"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Arrabbiato = angry!",
         "en": "Correct! «Arrabbiato» = angry!"
@@ -121,7 +121,7 @@
           "en": "Angry"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Come stai? = how are you?!",
         "en": "Correct! «Come stai?» = how are you?!"
@@ -156,7 +156,7 @@
           "en": "How are you?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Sto bene = i am fine!",
         "en": "Correct! «Sto bene» = i am fine!"
@@ -225,7 +225,7 @@
           "en": "How are you?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrabbiato!",
         "en": "Yes! «Arrabbiato»!"
@@ -260,7 +260,7 @@
           "en": "I am fine"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Come stai?!",
         "en": "Yes! «Come stai?»!"
@@ -300,7 +300,7 @@
           "emoji": "🤔"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Sto bene!",
         "en": "Yes! «Sto bene»!"
@@ -340,7 +340,7 @@
           "emoji": "🤔"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Arrabbiato!",
         "en": "Yes! «Arrabbiato»!"

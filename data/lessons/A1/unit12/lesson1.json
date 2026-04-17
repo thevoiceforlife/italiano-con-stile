@@ -81,7 +81,7 @@
           "en": "One moment"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Pronto = hello (phone)!",
         "en": "Correct! «Pronto» = hello (phone)!"
@@ -116,7 +116,7 @@
           "en": "Hello (phone)"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Chi parla? = who is speaking?!",
         "en": "Correct! «Chi parla?» = who is speaking?!"
@@ -151,7 +151,7 @@
           "en": "Who is speaking?"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Un momento = one moment!",
         "en": "Correct! «Un momento» = one moment!"
@@ -220,7 +220,7 @@
           "en": "Who is speaking?"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Pronto!",
         "en": "Yes! «Pronto»!"
@@ -255,7 +255,7 @@
           "en": "One moment"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Chi parla?!",
         "en": "Yes! «Chi parla?»!"
@@ -295,7 +295,7 @@
           "emoji": "🗣️"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Un momento!",
         "en": "Yes! «Un momento»!"
@@ -335,7 +335,7 @@
           "emoji": "🗣️"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Pronto!",
         "en": "Yes! «Pronto»!"

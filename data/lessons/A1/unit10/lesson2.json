@@ -86,7 +86,7 @@
           "en": "The family"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! La sorella = the sister!",
         "en": "Correct! «La sorella» = the sister!"
@@ -121,7 +121,7 @@
           "en": "The sister"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! I nonni = the grandparents!",
         "en": "Correct! «I nonni» = the grandparents!"
@@ -156,7 +156,7 @@
           "en": "The grandparents"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! La famiglia = the family!",
         "en": "Correct! «La famiglia» = the family!"
@@ -225,7 +225,7 @@
           "en": "The grandparents"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La sorella!",
         "en": "Yes! «La sorella»!"
@@ -260,7 +260,7 @@
           "en": "The family"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! I nonni!",
         "en": "Yes! «I nonni»!"
@@ -300,7 +300,7 @@
           "emoji": "👴👵"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! La famiglia!",
         "en": "Yes! «La famiglia»!"
@@ -340,7 +340,7 @@
           "emoji": "👴👵"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! La sorella!",
         "en": "Yes! «La sorella»!"

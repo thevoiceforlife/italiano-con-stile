@@ -96,7 +96,7 @@
           "en": "Next to"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Di fronte a = in front of!",
         "en": "Correct! «Di fronte a» = in front of!"
@@ -131,7 +131,7 @@
           "en": "In front of"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Dietro = behind!",
         "en": "Correct! «Dietro» = behind!"
@@ -166,7 +166,7 @@
           "en": "Behind"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Esatto! Accanto a = next to!",
         "en": "Correct! «Accanto a» = next to!"
@@ -235,7 +235,7 @@
           "en": "Behind"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di fronte a!",
         "en": "Yes! «Di fronte a»!"
@@ -270,7 +270,7 @@
           "en": "Next to"
         }
       ],
-      "correct": 1,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Dietro!",
         "en": "Yes! «Dietro»!"
@@ -310,7 +310,7 @@
           "emoji": "👀"
         }
       ],
-      "correct": 0,
+      "correct": 1,
       "feedbackOk": {
         "it": "Sì! Accanto a!",
         "en": "Yes! «Accanto a»!"
@@ -350,7 +350,7 @@
           "emoji": "👀"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "feedbackOk": {
         "it": "Sì! Di fronte a!",
         "en": "Yes! «Di fronte a»!"
