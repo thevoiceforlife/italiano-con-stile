@@ -1320,3 +1320,51 @@ parte IT che EN della stessa domanda.
 - boss.json ✅ (Sfida la Nonna · Vittoria)
 - personaggi.json ✅ (Emma + Hans + Oliver aggiunti)
 - percorso/page.js ✅ (Unit3 visibile nel percorso)
+
+---
+
+## Piano integrazione implicita — Pronomi + ESSERE + AVERE (Temi 4-10)
+
+### Filosofia
+Pronomi, ESSERE e AVERE NON hanno un tema dedicato.
+Emergono in contesto nei temi dove sono naturali.
+Lo studente li impara usandoli, mai studiandoli come lista.
+
+### Mappa di integrazione
+
+| Tema | Contesto naturale | Strutture introdotte |
+|------|-------------------|----------------------|
+| 4 — In giro: indicazioni | Mario guida Emma per le strade | io vado · tu giri · lei prende |
+| 5 — In giro: luoghi | I personaggi descrivono dove sono | io sono in · lui è vicino a |
+| 6 — I numeri | Prezzi, età, quantità al bar | io ho 5 euro · lei ha 30 anni |
+| 7 — Orari e appuntamenti | Appuntamenti tra personaggi | noi abbiamo · voi avete · io sono libero |
+| 8 — Il cibo napoletano | Preferenze e ordini al tavolo | loro vogliono · noi prendiamo |
+| 9 — Descrivere persone | I personaggi si descrivono | lui è · lei è · loro sono |
+| 10 — La famiglia | Mario parla della sua famiglia | noi siamo · voi siete · loro hanno |
+
+### Regole di introduzione
+
+- MAX 1 pronome nuovo per lezione — mai presentare io/tu/lui insieme
+- La struttura appare PRIMA nel fumetto di Mario, poi nelle domande
+- Il feedback ERR spiega con analogia EN:
+  Es: "HO 30 anni — in italiano l'età si HA, non si È! (I HAVE 30, not I AM 30)"
+- ESSERE nei feedback da Tema 4: "Sono di Napoli = I am from Naples — di = from"
+- AVERE nei feedback da Tema 6: "Ho 5 euro = I have 5 euros — HO non AM!"
+
+### Progressione pronomi per tema
+
+| Tema 4 | io · tu |
+| Tema 5 | io · tu · lui · lei |
+| Tema 6 | io · tu + AVERE (ho/hai) |
+| Tema 7 | noi · voi + AVERE (abbiamo/avete) |
+| Tema 8 | loro + verbi comuni |
+| Tema 9 | lui/lei + ESSERE (è) rafforzato |
+| Tema 10 | tutti i pronomi + ESSERE/AVERE completi |
+
+### Difficoltà specifiche per anglofoni — da evidenziare nei feedback
+
+- AVERE per l'età: "I have 30 years" non esiste in EN → feedback sempre presente
+- ESSERE per origine: "I am from" = "Sono di" — di ≠ from ma funziona allo stesso modo
+- TU vs LEI formale: anglofoni non hanno il formale → pillola culturale in Tema 4
+- VOI plurale: "you all" non esiste in EN → pillola culturale in Tema 7
+- LORO per persone E cose: "they" funziona uguale → feedback rassicurante
