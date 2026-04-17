@@ -1390,3 +1390,157 @@ Lo studente li impara usandoli, mai studiandoli come lista.
 - Tema 4: io/tu introdotti implicitamente nel feedback
   "VAI = tu vai — come you go in inglese!"
 - Pillola L3: spiega perché tu è opzionale in italiano
+
+---
+
+## Sistema Grammatica Invisibile — Definizione Formale
+
+### Filosofia
+"Finally someone explains why" applicato alla grammatica.
+Lo studente non studia regole — le incontra DOPO averle usate.
+La regola arriva quando il cervello è pronto: ha già visto il pattern,
+ora capisce perché funziona così.
+
+### Regola fondamentale: UNA regola per unità
+Ogni unità dispari (esplorazione) introduce UNA sola struttura grammaticale.
+Le unità pari (consolidamento) la rinforzano senza introdurne di nuove.
+MAI due regole grammaticali nella stessa unità.
+
+### Dove appare la grammatica
+
+| Posto | Cosa | Quando |
+|-------|------|--------|
+| feedbackErr q6 o q7 | Spiegazione breve (2 righe max) | Solo sulla domanda dove la regola è più visibile |
+| feedbackOk q6 o q7 | Rinforzo positivo della regola | Stessa domanda |
+| Pillola L3 o L4 | "Finally someone explains why" completo | Sempre — è il cuore del sistema |
+| feedbackErr altre domande | Solo celebrazione — zero grammatica | Tutte le altre domande |
+
+### Struttura della pillola grammaticale
+
+```json
+{
+  "domanda_it": "Perché 'vado' e non 'io vado'?",
+  "domanda_en": "Why 'vado' and not 'io vado'?",
+  "corpo_it": "Il verbo italiano porta già il pronome dentro. Vado = I go — il soggetto è nascosto nella desinenza. Si aggiunge io solo per enfasi: IO vado, tu no!",
+  "corpo_en": "The Italian verb already carries the pronoun inside. Vado = I go — the subject is hidden in the ending. You add io only for emphasis: I go, not you!",
+  "esempio_it": "Vado a destra · Vai a sinistra — il verbo cambia, il pronome sparisce!",
+  "esempio_en": "Vado a destra · Vai a sinistra — the verb changes, the pronoun disappears!"
+}
+```
+
+### Regole per il feedback grammaticale
+
+1. MAI termini tecnici senza spiegazione immediata
+   ✗ "Il verbo è coniugato alla prima persona"
+   ✓ "VADO = I go — il verbo cambia con la persona!"
+
+2. SEMPRE analogia con l'inglese
+   ✗ "In italiano l'età si esprime con AVERE"
+   ✓ "HO 30 anni — in italiano l'età si HA, non si È! I HAVE 30, not I AM 30!"
+
+3. SEMPRE esempio pratico nella stessa riga
+   ✗ "Il genere grammaticale esiste in italiano"
+   ✓ "Il caffè · La pizza — ogni parola è maschio o femmina!"
+
+4. MAX 2 righe nel feedback — la pillola approfondisce
+
+### Mappa grammatica invisibile A1 — Napoli
+
+| Unità | Tema | Struttura introdotta | Domanda | Difficoltà anglofoni |
+|-------|------|---------------------|---------|---------------------|
+| U5 | In giro: luoghi | io · tu (pronomi singolari) | q7 | ★★ media |
+| U6 | Numeri 1-100 | AVERE per l'età (ho/hai/ha) | q6 | ★★★ alta — "I AM 30" vs "HO 30" |
+| U7 | Orari | ESSERE base (sono/sei/è) | q7 | ★★ media |
+| U8 | Cibo napoletano | Genere base il/la + -o/-a | q6 | ★★★ alta — non esiste in EN |
+| U9 | Descrivere persone | lui · lei + aggettivo concorde | q7 | ★★ media |
+| U10 | La famiglia | Plurale base i/le + -i/-e | q6 | ★★ media |
+| U11 | Colori | noi · voi (siamo/siete) | q7 | ★ bassa — simile a EN |
+| U12 | Al telefono | loro + "sono" come io | q6 | ★ bassa |
+| U13 | Fare la spesa | Articolo determinativo il/la/i/le | q7 | ★★★ alta — concetto nuovo |
+| U14 | Il tempo | Accordo aggettivo plurale | q6 | ★★ media |
+| U15 | Emozioni | Verbi riflessivi base (mi chiamo) | q7 | ★★★ alta — non esiste in EN |
+
+### Regola genere/numero — approccio vocabolario-first
+
+Il genere NON viene introdotto come regola esplicita prima di U8.
+Prima di U8 lo studente impara: "il bar", "la pizza", "il caffè",
+"la stazione" — senza mai vedere la regola.
+Dopo 40+ parole ha già un'intuizione inconscia.
+La pillola U8 arriva quando il pattern è già familiare:
+
+> "Hai già visto il/la 40 volte — ora capisci perché!"
+
+Trucco anglofoni nella pillola U8:
+- Parole in -o → quasi sempre maschili (il vino, il panino)
+- Parole in -a → quasi sempre femminili (la pizza, la pasta)
+- Parole in -e → si impara caso per caso (il bar è eccezione!)
+- Eccezioni famose: il problema, la mano — impararle come vocabulary
+
+### Pronomi — ordine di introduzione
+
+Non tutti i pronomi A1 sono ugualmente urgenti per un turista.
+
+Priorità 1 — U5: io · tu (conversazione diretta)
+Priorità 2 — U7: lui · lei (parlare di altri)
+Priorità 3 — U11: noi (gruppo, "noi andiamo")
+Priorità 4 — U14: voi · loro (contesti meno frequenti)
+
+Il turista usa io/tu/lui/lei il 90% delle volte.
+Noi/voi/loro emergono naturalmente — non servono spiegazioni urgenti.
+
+### Template feedback grammaticale (da usare nei JSON)
+
+**AVERE per l'età:**
+```json
+"feedbackErr": {
+  "it": "HO 30 anni — in italiano l'età si HA, non si È! Come avere un oggetto.",
+  "en": "HO 30 anni — in Italian age is HAD not IS! I HAVE 30, not I AM 30!"
+}
+```
+
+**Pronomi soggetto opzionali:**
+```json
+"feedbackOk": {
+  "it": "Esatto! VADO = I go — il pronome io è già nascosto nel verbo!",
+  "en": "Correct! VADO = I go — the pronoun io is already hidden inside the verb!"
+}
+```
+
+**Genere grammaticale:**
+```json
+"feedbackErr": {
+  "it": "LA pizza — pizza finisce in -a quindi è femminile! La regola: -a = femminile.",
+  "en": "LA pizza — pizza ends in -a so it is feminine! Rule: -a = feminine."
+}
+```
+
+**Accordo aggettivo:**
+```json
+"feedbackErr": {
+  "it": "Lui è stanCO · Lei è stanCA — l'aggettivo cambia con la persona!",
+  "en": "Lui è stanCO · Lei è stanCA — the adjective changes with the person! No rule like this in English!"
+}
+```
+
+**Verbi riflessivi:**
+```json
+"feedbackOk": {
+  "it": "MI chiamo = I call myself — bellissimo, no? Non I am, ma I call myself!",
+  "en": "MI chiamo = I call myself — not I am Mario, but I call myself Mario!"
+}
+```
+
+---
+
+### Checklist pre-scrittura JSON con grammatica invisibile
+
+Prima di scrivere ogni unità con struttura grammaticale:
+[ ] Qual è l'unica struttura di questa unità?
+[ ] In quale domanda (q6 o q7) appare il feedback grammaticale?
+[ ] La pillola di quale lezione spiega il "perché"?
+[ ] Il feedback è max 2 righe?
+[ ] C'è l'analogia con l'inglese?
+[ ] C'è l'esempio pratico?
+[ ] Le altre 7 domande hanno feedback celebrativi senza grammatica?
+[ ] Il termine tecnico è sempre accompagnato da spiegazione immediata?
+
