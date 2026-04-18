@@ -34,7 +34,8 @@
       "emoji": "📞",
       "audio_text": "Pronto",
       "mario_it": "Pronto — hello (phone)!",
-      "mario_en": "Pronto — hello (phone)!"
+      "mario_en": "Pronto — hello (phone)!",
+      "icon_svg": "/images/vocab/pronto.svg"
     },
     {
       "id": "v2",
@@ -43,7 +44,8 @@
       "emoji": "🗣️",
       "audio_text": "Chi parla?",
       "mario_it": "Chi parla? — who is speaking?!",
-      "mario_en": "Chi parla? — who is speaking?!"
+      "mario_en": "Chi parla? — who is speaking?!",
+      "icon_svg": "/images/vocab/chi-parla.svg"
     },
     {
       "id": "v3",
@@ -52,7 +54,8 @@
       "emoji": "⏱️",
       "audio_text": "Un momento",
       "mario_it": "Un momento — one moment!",
-      "mario_en": "Un momento — one moment!"
+      "mario_en": "Un momento — one moment!",
+      "icon_svg": "/images/vocab/un-momento.svg"
     }
   ],
   "questions": [

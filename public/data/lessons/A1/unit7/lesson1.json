@@ -34,7 +34,8 @@
       "emoji": "📆",
       "audio_text": "Oggi",
       "mario_it": "Oggi — today!",
-      "mario_en": "Oggi — today!"
+      "mario_en": "Oggi — today!",
+      "icon_svg": "/images/vocab/oggi.svg"
     },
     {
       "id": "v2",
@@ -43,7 +44,8 @@
       "emoji": "🗓️",
       "audio_text": "Domani",
       "mario_it": "Domani — tomorrow!",
-      "mario_en": "Domani — tomorrow!"
+      "mario_en": "Domani — tomorrow!",
+      "icon_svg": "/images/vocab/domani.svg"
     },
     {
       "id": "v3",
@@ -52,7 +54,8 @@
       "emoji": "🕐",
       "audio_text": "Che ore sono?",
       "mario_it": "Che ore sono? — what time is it?!",
-      "mario_en": "Che ore sono? — what time is it?!"
+      "mario_en": "Che ore sono? — what time is it?!",
+      "icon_svg": "/images/vocab/che-ore-sono.svg"
     }
   ],
   "pillole": [

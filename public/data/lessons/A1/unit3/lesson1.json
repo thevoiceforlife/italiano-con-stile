@@ -34,7 +34,8 @@
       "emoji": "🧾",
       "audio_text": "Il conto",
       "mario_it": "Il conto — alla fine si paga!",
-      "mario_en": "Il conto — at the end you pay!"
+      "mario_en": "Il conto — at the end you pay!",
+      "icon_svg": "/images/vocab/il-conto.svg"
     },
     {
       "id": "v2",
@@ -43,7 +44,8 @@
       "emoji": "💰",
       "audio_text": "Quanto costa?",
       "mario_it": "Quanto costa? — per chiedere il prezzo!",
-      "mario_en": "Quanto costa? — to ask the price!"
+      "mario_en": "Quanto costa? — to ask the price!",
+      "icon_svg": "/images/vocab/quanto-costa.svg"
     },
     {
       "id": "v3",
@@ -52,7 +54,8 @@
       "emoji": "🙏",
       "audio_text": "Per favore",
       "mario_it": "Per favore — sempre gentili al bar!",
-      "mario_en": "Per favore — always polite at the bar!"
+      "mario_en": "Per favore — always polite at the bar!",
+      "icon_svg": "/images/vocab/per-favore.svg"
     }
   ],
   "pillole": [

@@ -34,7 +34,8 @@
       "emoji": "👁️",
       "audio_text": "Di fronte a",
       "mario_it": "Di fronte a — in front of!",
-      "mario_en": "Di fronte a — in front of!"
+      "mario_en": "Di fronte a — in front of!",
+      "icon_svg": "/images/vocab/di-fronte-a.svg"
     },
     {
       "id": "v5",
@@ -43,7 +44,8 @@
       "emoji": "↩️",
       "audio_text": "Dietro",
       "mario_it": "Dietro — behind!",
-      "mario_en": "Dietro — behind!"
+      "mario_en": "Dietro — behind!",
+      "icon_svg": "/images/vocab/dietro.svg"
     },
     {
       "id": "v6",
@@ -52,7 +54,8 @@
       "emoji": "↔️",
       "audio_text": "Accanto a",
       "mario_it": "Accanto a — next to!",
-      "mario_en": "Accanto a — next to!"
+      "mario_en": "Accanto a — next to!",
+      "icon_svg": "/images/vocab/accanto-a.svg"
     }
   ],
   "pillole": [

@@ -39,7 +39,8 @@
       "emoji": "☀️",
       "audio_text": "C'è il sole",
       "mario_it": "C'è il sole — it is sunny!",
-      "mario_en": "C'è il sole — it is sunny!"
+      "mario_en": "C'è il sole — it is sunny!",
+      "icon_svg": "/images/vocab/ce-il-sole.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🌤️",
       "audio_text": "Che tempo fa?",
       "mario_it": "Che tempo fa? — what is the weather like?!",
-      "mario_en": "Che tempo fa? — what is the weather like?!"
+      "mario_en": "Che tempo fa? — what is the weather like?!",
+      "icon_svg": "/images/vocab/che-tempo-fa.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "☁️",
       "audio_text": "Nuvoloso",
       "mario_it": "Nuvoloso — cloudy!",
-      "mario_en": "Nuvoloso — cloudy!"
+      "mario_en": "Nuvoloso — cloudy!",
+      "icon_svg": "/images/vocab/nuvoloso.svg"
     }
   ],
   "questions": [

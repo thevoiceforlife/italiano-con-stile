@@ -34,7 +34,8 @@
       "emoji": "😊",
       "audio_text": "Felice",
       "mario_it": "Felice — happy!",
-      "mario_en": "Felice — happy!"
+      "mario_en": "Felice — happy!",
+      "icon_svg": "/images/vocab/felice.svg"
     },
     {
       "id": "v2",
@@ -43,7 +44,8 @@
       "emoji": "😢",
       "audio_text": "Triste",
       "mario_it": "Triste — sad!",
-      "mario_en": "Triste — sad!"
+      "mario_en": "Triste — sad!",
+      "icon_svg": "/images/vocab/triste.svg"
     },
     {
       "id": "v3",
@@ -52,7 +54,8 @@
       "emoji": "😴",
       "audio_text": "Stanco",
       "mario_it": "Stanco — tired!",
-      "mario_en": "Stanco — tired!"
+      "mario_en": "Stanco — tired!",
+      "icon_svg": "/images/vocab/stanco.svg"
     }
   ],
   "questions": [

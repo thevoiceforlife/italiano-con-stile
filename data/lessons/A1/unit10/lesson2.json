@@ -39,7 +39,8 @@
       "emoji": "👧",
       "audio_text": "La sorella",
       "mario_it": "La sorella — the sister!",
-      "mario_en": "La sorella — the sister!"
+      "mario_en": "La sorella — the sister!",
+      "icon_svg": "/images/vocab/la-sorella.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "👴",
       "audio_text": "I nonni",
       "mario_it": "I nonni — the grandparents!",
-      "mario_en": "I nonni — the grandparents!"
+      "mario_en": "I nonni — the grandparents!",
+      "icon_svg": "/images/vocab/i-nonni.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "👨‍👩‍👧‍👦",
       "audio_text": "La famiglia",
       "mario_it": "La famiglia — the family!",
-      "mario_en": "La famiglia — the family!"
+      "mario_en": "La famiglia — the family!",
+      "icon_svg": "/images/vocab/la-famiglia.svg"
     }
   ],
   "questions": [

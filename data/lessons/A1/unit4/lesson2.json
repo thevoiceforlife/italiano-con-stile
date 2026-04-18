@@ -39,7 +39,8 @@
       "emoji": "📍",
       "audio_text": "Dov'è?",
       "mario_it": "Dov'è? — per chiedere dove si trova qualcosa!",
-      "mario_en": "Dov'è? — to ask where something is!"
+      "mario_en": "Dov'è? — to ask where something is!",
+      "icon_svg": "/images/vocab/dove-e.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🔵",
       "audio_text": "Vicino",
       "mario_it": "Vicino — a pochi passi!",
-      "mario_en": "Vicino — just a few steps away!"
+      "mario_en": "Vicino — just a few steps away!",
+      "icon_svg": "/images/vocab/vicino.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "🔴",
       "audio_text": "Lontano",
       "mario_it": "Lontano — ci vuole tempo!",
-      "mario_en": "Lontano — it takes some time!"
+      "mario_en": "Lontano — it takes some time!",
+      "icon_svg": "/images/vocab/lontano.svg"
     }
   ],
   "pillole": [

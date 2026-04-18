@@ -39,7 +39,8 @@
       "emoji": "😊",
       "audio_text": "Grazie",
       "mario_it": "Grazie — sempre con il sorriso!",
-      "mario_en": "Grazie — always with a smile!"
+      "mario_en": "Grazie — always with a smile!",
+      "icon_svg": "/images/vocab/grazie.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🤲",
       "audio_text": "Prego",
       "mario_it": "Prego — la risposta gentile a grazie!",
-      "mario_en": "Prego — the polite reply to grazie!"
+      "mario_en": "Prego — the polite reply to grazie!",
+      "icon_svg": "/images/vocab/prego.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "🫴",
       "audio_text": "Ecco a lei",
       "mario_it": "Ecco a lei — quando porgo qualcosa!",
-      "mario_en": "Ecco a lei — when I hand something over!"
+      "mario_en": "Ecco a lei — when I hand something over!",
+      "icon_svg": "/images/vocab/ecco-a-lei.svg"
     }
   ],
   "pillole": [

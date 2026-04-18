@@ -39,7 +39,8 @@
       "emoji": "📲",
       "audio_text": "Richiamare",
       "mario_it": "Richiamare — to call back!",
-      "mario_en": "Richiamare — to call back!"
+      "mario_en": "Richiamare — to call back!",
+      "icon_svg": "/images/vocab/richiamare.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🔢",
       "audio_text": "Il numero",
       "mario_it": "Il numero — the number!",
-      "mario_en": "Il numero — the number!"
+      "mario_en": "Il numero — the number!",
+      "icon_svg": "/images/vocab/il-numero.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "💬",
       "audio_text": "Il messaggio",
       "mario_it": "Il messaggio — the message!",
-      "mario_en": "Il messaggio — the message!"
+      "mario_en": "Il messaggio — the message!",
+      "icon_svg": "/images/vocab/il-messaggio.svg"
     }
   ],
   "questions": [

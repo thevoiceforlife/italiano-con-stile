@@ -22,7 +22,8 @@
       "en": "Nice to meet you!",
       "audio_text": "Piacere",
       "mario_it": "Sempre sorridi quando dici piacere!",
-      "mario_en": "Always smile when you say piacere!"
+      "mario_en": "Always smile when you say piacere!",
+      "icon_svg": "/images/vocab/piacere.svg"
     },
     {
       "id": "v2",
@@ -31,7 +32,8 @@
       "en": "My name is...",
       "audio_text": "Mi chiamo",
       "mario_it": "Letteralmente: mi chiamo a me stesso!",
-      "mario_en": "Literally: I call myself!"
+      "mario_en": "Literally: I call myself!",
+      "icon_svg": "/images/vocab/mi-chiamo.svg"
     },
     {
       "id": "v3",
@@ -40,7 +42,8 @@
       "en": "Where are you from?",
       "audio_text": "Di dove sei",
       "mario_it": "La domanda più comune al bar!",
-      "mario_en": "The most common question at the bar!"
+      "mario_en": "The most common question at the bar!",
+      "icon_svg": "/images/vocab/di-dove-sei.svg"
     }
   ],
   "pillole": [

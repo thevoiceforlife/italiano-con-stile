@@ -39,7 +39,8 @@
       "emoji": "⬜",
       "audio_text": "Bianco",
       "mario_it": "Bianco — white!",
-      "mario_en": "Bianco — white!"
+      "mario_en": "Bianco — white!",
+      "icon_svg": "/images/vocab/bianco.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "⬛",
       "audio_text": "Nero",
       "mario_it": "Nero — black!",
-      "mario_en": "Nero — black!"
+      "mario_en": "Nero — black!",
+      "icon_svg": "/images/vocab/nero.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "✨",
       "audio_text": "Bello",
       "mario_it": "Bello — beautiful!",
-      "mario_en": "Bello — beautiful!"
+      "mario_en": "Bello — beautiful!",
+      "icon_svg": "/images/vocab/bello.svg"
     }
   ],
   "questions": [

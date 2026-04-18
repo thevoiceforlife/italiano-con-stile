@@ -39,7 +39,8 @@
       "emoji": "🙋",
       "audio_text": "Posso avere?",
       "mario_it": "Posso avere? — can i have?!",
-      "mario_en": "Posso avere? — can i have?!"
+      "mario_en": "Posso avere? — can i have?!",
+      "icon_svg": "/images/vocab/posso-avere.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🪙",
       "audio_text": "Il resto",
       "mario_it": "Il resto — the change!",
-      "mario_en": "Il resto — the change!"
+      "mario_en": "Il resto — the change!",
+      "icon_svg": "/images/vocab/il-resto.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "💸",
       "audio_text": "Costa troppo",
       "mario_it": "Costa troppo — it costs too much!",
-      "mario_en": "Costa troppo — it costs too much!"
+      "mario_en": "Costa troppo — it costs too much!",
+      "icon_svg": "/images/vocab/costa-troppo.svg"
     }
   ],
   "questions": [

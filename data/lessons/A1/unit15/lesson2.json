@@ -39,7 +39,8 @@
       "emoji": "😠",
       "audio_text": "Arrabbiato",
       "mario_it": "Arrabbiato — angry!",
-      "mario_en": "Arrabbiato — angry!"
+      "mario_en": "Arrabbiato — angry!",
+      "icon_svg": "/images/vocab/arrabbiato.svg"
     },
     {
       "id": "v5",
@@ -48,7 +49,8 @@
       "emoji": "🤔",
       "audio_text": "Come stai?",
       "mario_it": "Come stai? — how are you?!",
-      "mario_en": "Come stai? — how are you?!"
+      "mario_en": "Come stai? — how are you?!",
+      "icon_svg": "/images/vocab/come-stai.svg"
     },
     {
       "id": "v6",
@@ -57,7 +59,8 @@
       "emoji": "👍",
       "audio_text": "Sto bene",
       "mario_it": "Sto bene — i am fine!",
-      "mario_en": "Sto bene — i am fine!"
+      "mario_en": "Sto bene — i am fine!",
+      "icon_svg": "/images/vocab/sto-bene.svg"
     }
   ],
   "questions": [
