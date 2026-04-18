@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Vorrei</title>
-  <circle cx="40" cy="44" r="14" fill="none" stroke="#F5A042" stroke-width="2.5"/>
-  <rect x="32" y="58" width="16" height="20" rx="4" fill="none" stroke="#F5A042" stroke-width="2"/>
-  <line x1="40" y1="30" x2="68" y2="16" stroke="#F5A042" stroke-width="2"/>
-  <circle cx="72" cy="14" r="6" fill="none" stroke="#F5A042" stroke-width="2"/>
-</svg>

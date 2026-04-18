@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Sto bene</title>
-  <circle cx="60" cy="55" r="46" fill="none" stroke="#5BC875" stroke-width="2.5"/>
-  <circle cx="44" cy="44" r="5" fill="#5BC875"/>
-  <circle cx="76" cy="44" r="5" fill="#5BC875"/>
-  <path d="M32,64 Q60,86 88,64" fill="none" stroke="#5BC875" stroke-width="4" stroke-linecap="round"/>
-</svg>

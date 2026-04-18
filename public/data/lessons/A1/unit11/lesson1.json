@@ -34,8 +34,7 @@
       "emoji": "🔴",
       "audio_text": "Rosso",
       "mario_it": "Rosso — red!",
-      "mario_en": "Rosso — red!",
-      "icon_svg": "/images/vocab/rosso.svg"
+      "mario_en": "Rosso — red!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "🔵",
       "audio_text": "Blu",
       "mario_it": "Blu — blue!",
-      "mario_en": "Blu — blue!",
-      "icon_svg": "/images/vocab/blu.svg"
+      "mario_en": "Blu — blue!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "🟢",
       "audio_text": "Verde",
       "mario_it": "Verde — green!",
-      "mario_en": "Verde — green!",
-      "icon_svg": "/images/vocab/verde.svg"
+      "mario_en": "Verde — green!"
     }
   ],
   "questions": [

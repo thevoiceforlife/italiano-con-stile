@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>A sinistra</title>
-  <line x1="20" y1="60" x2="100" y2="60" stroke="#5BB8F5" stroke-width="3" stroke-linecap="round"/>
-  <path d="M35,45 L20,60 L35,75" fill="none" stroke="#5BB8F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="100" y1="45" x2="100" y2="75" stroke="#5BB8F5" stroke-width="2" stroke-linecap="round"/>
-</svg>

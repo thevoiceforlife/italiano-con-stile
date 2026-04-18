@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Cento</title>
-  <circle cx="60" cy="55" r="40" fill="none" stroke="#F57070" stroke-width="2.5"/>
-  <text x="60" y="65" text-anchor="middle" font-size="28" fill="#F57070" font-family="sans-serif" font-weight="bold">100</text>
-  <path d="M60,13 L63,6 L66,13 L73,13 L68,18 L70,25 L60,20 L50,25 L52,18 L47,13 L54,13 Z" fill="#F5C842"/>
-</svg>

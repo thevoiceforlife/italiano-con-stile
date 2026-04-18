@@ -34,8 +34,7 @@
       "emoji": "☝️",
       "audio_text": "Uno",
       "mario_it": "Uno — one!",
-      "mario_en": "Uno — one!",
-      "icon_svg": "/images/vocab/uno.svg"
+      "mario_en": "Uno — one!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "🖐️",
       "audio_text": "Dieci",
       "mario_it": "Dieci — ten!",
-      "mario_en": "Dieci — ten!",
-      "icon_svg": "/images/vocab/dieci.svg"
+      "mario_en": "Dieci — ten!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "💴",
       "audio_text": "Venti",
       "mario_it": "Venti — twenty!",
-      "mario_en": "Venti — twenty!",
-      "icon_svg": "/images/vocab/venti.svg"
+      "mario_en": "Venti — twenty!"
     }
   ],
   "pillole": [

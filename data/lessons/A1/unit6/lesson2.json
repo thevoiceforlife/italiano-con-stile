@@ -34,8 +34,7 @@
       "emoji": "💵",
       "audio_text": "Cinquanta",
       "mario_it": "Cinquanta — fifty!",
-      "mario_en": "Cinquanta — fifty!",
-      "icon_svg": "/images/vocab/cinquanta.svg"
+      "mario_en": "Cinquanta — fifty!"
     },
     {
       "id": "v5",
@@ -44,8 +43,7 @@
       "emoji": "💯",
       "audio_text": "Cento",
       "mario_it": "Cento — one hundred!",
-      "mario_en": "Cento — one hundred!",
-      "icon_svg": "/images/vocab/cento.svg"
+      "mario_en": "Cento — one hundred!"
     },
     {
       "id": "v6",
@@ -54,8 +52,7 @@
       "emoji": "❓",
       "audio_text": "Quanti?",
       "mario_it": "Quanti? — how many?!",
-      "mario_en": "Quanti? — how many?!",
-      "icon_svg": "/images/vocab/quanti.svg"
+      "mario_en": "Quanti? — how many?!"
     }
   ],
   "pillole": [

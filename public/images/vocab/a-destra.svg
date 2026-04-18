@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>A destra</title>
-  <line x1="20" y1="60" x2="100" y2="60" stroke="#F5C842" stroke-width="3" stroke-linecap="round"/>
-  <path d="M85,45 L100,60 L85,75" fill="none" stroke="#F5C842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="20" y1="45" x2="20" y2="75" stroke="#F5C842" stroke-width="2" stroke-linecap="round"/>
-</svg>

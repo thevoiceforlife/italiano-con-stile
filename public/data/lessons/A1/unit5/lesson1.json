@@ -34,8 +34,7 @@
       "emoji": "⛲",
       "audio_text": "La piazza",
       "mario_it": "La piazza — the square!",
-      "mario_en": "La piazza — the square!",
-      "icon_svg": "/images/vocab/la-piazza.svg"
+      "mario_en": "La piazza — the square!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "⛪",
       "audio_text": "La chiesa",
       "mario_it": "La chiesa — the church!",
-      "mario_en": "La chiesa — the church!",
-      "icon_svg": "/images/vocab/la-chiesa.svg"
+      "mario_en": "La chiesa — the church!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "🏛️",
       "audio_text": "Il museo",
       "mario_it": "Il museo — the museum!",
-      "mario_en": "Il museo — the museum!",
-      "icon_svg": "/images/vocab/il-museo.svg"
+      "mario_en": "Il museo — the museum!"
     }
   ],
   "pillole": [

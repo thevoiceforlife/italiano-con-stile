@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Ciao — Hello / Goodbye</title>
-  <path d="M12,22 L95,22 Q105,22 105,32 L105,70 Q105,80 95,80 L62,80 L52,96 L44,80 L12,80 Q2,80 2,70 L2,32 Q2,22 12,22 Z" fill="none" stroke="#5BC875" stroke-width="2.5"/>
-  <text x="54" y="58" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="bold" fill="#5BC875">Ciao</text>
-</svg>

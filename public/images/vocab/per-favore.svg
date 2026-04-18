@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Per favore</title>
-  <path d="M38,90 L38,52 Q38,40 48,40 Q58,40 58,52 L58,90" fill="none" stroke="#F5A042" stroke-width="7" stroke-linecap="round"/>
-  <path d="M58,90 L58,52 Q58,40 68,40 Q78,40 78,52 L78,90" fill="none" stroke="#F5A042" stroke-width="7" stroke-linecap="round"/>
-  <line x1="38" y1="90" x2="78" y2="90" stroke="#F5A042" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="58" cy="30" r="6" fill="none" stroke="#F5EDD0" stroke-width="2"/>
-</svg>

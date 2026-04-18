@@ -34,8 +34,7 @@
       "emoji": "🌅",
       "audio_text": "La mattina",
       "mario_it": "La mattina — the morning!",
-      "mario_en": "La mattina — the morning!",
-      "icon_svg": "/images/vocab/la-mattina.svg"
+      "mario_en": "La mattina — the morning!"
     },
     {
       "id": "v5",
@@ -44,8 +43,7 @@
       "emoji": "☀️",
       "audio_text": "Il pomeriggio",
       "mario_it": "Il pomeriggio — the afternoon!",
-      "mario_en": "Il pomeriggio — the afternoon!",
-      "icon_svg": "/images/vocab/il-pomeriggio.svg"
+      "mario_en": "Il pomeriggio — the afternoon!"
     },
     {
       "id": "v6",
@@ -54,8 +52,7 @@
       "emoji": "🌆",
       "audio_text": "La sera",
       "mario_it": "La sera — the evening!",
-      "mario_en": "La sera — the evening!",
-      "icon_svg": "/images/vocab/la-sera.svg"
+      "mario_en": "La sera — the evening!"
     }
   ],
   "pillole": [

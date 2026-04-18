@@ -34,8 +34,7 @@
       "emoji": "👩",
       "audio_text": "La mamma",
       "mario_it": "La mamma — the mum!",
-      "mario_en": "La mamma — the mum!",
-      "icon_svg": "/images/vocab/la-mamma.svg"
+      "mario_en": "La mamma — the mum!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "👨",
       "audio_text": "Il papà",
       "mario_it": "Il papà — the dad!",
-      "mario_en": "Il papà — the dad!",
-      "icon_svg": "/images/vocab/il-papa.svg"
+      "mario_en": "Il papà — the dad!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "👦",
       "audio_text": "Il fratello",
       "mario_it": "Il fratello — the brother!",
-      "mario_en": "Il fratello — the brother!",
-      "icon_svg": "/images/vocab/il-fratello.svg"
+      "mario_en": "Il fratello — the brother!"
     }
   ],
   "questions": [

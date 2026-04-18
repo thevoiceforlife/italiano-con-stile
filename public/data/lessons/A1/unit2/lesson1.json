@@ -22,8 +22,7 @@
       "en": "Hello / Goodbye",
       "audio_text": "Ciao",
       "mario_it": "La parola più italiana di tutte!",
-      "mario_en": "The most Italian word of all!",
-      "icon_svg": "/images/vocab/ciao.svg"
+      "mario_en": "The most Italian word of all!"
     },
     {
       "id": "v2",
@@ -41,8 +40,7 @@
       "en": "Thank you",
       "audio_text": "Grazie",
       "mario_it": "Mai dimenticarlo!",
-      "mario_en": "Never forget it!",
-      "icon_svg": "/images/vocab/grazie.svg"
+      "mario_en": "Never forget it!"
     }
   ],
   "pillole": [

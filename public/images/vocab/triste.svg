@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Triste</title>
-  <circle cx="60" cy="58" r="46" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
-  <circle cx="44" cy="48" r="5" fill="#5BB8F5"/>
-  <circle cx="76" cy="48" r="5" fill="#5BB8F5"/>
-  <path d="M34,74 Q60,58 86,74" fill="none" stroke="#5BB8F5" stroke-width="4" stroke-linecap="round"/>
-  <path d="M44,62 Q42,72 44,82" fill="none" stroke="#A0D8F5" stroke-width="2" stroke-linecap="round"/>
-</svg>

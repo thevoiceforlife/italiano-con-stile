@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Mi chiamo</title>
-  <rect x="15" y="28" width="90" height="64" rx="8" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
-  <line x1="15" y1="46" x2="105" y2="46" stroke="#5BB8F5" stroke-width="1.5" opacity="0.4"/>
-  <text x="60" y="72" text-anchor="middle" font-size="18" fill="#F5EDD0" font-family="sans-serif" font-weight="bold">Mario</text>
-</svg>

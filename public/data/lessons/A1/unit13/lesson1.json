@@ -34,8 +34,7 @@
       "emoji": "🛒",
       "audio_text": "Il mercato",
       "mario_it": "Il mercato — the market!",
-      "mario_en": "Il mercato — the market!",
-      "icon_svg": "/images/vocab/il-mercato.svg"
+      "mario_en": "Il mercato — the market!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "⚖️",
       "audio_text": "Un chilo",
       "mario_it": "Un chilo — a kilo!",
-      "mario_en": "Un chilo — a kilo!",
-      "icon_svg": "/images/vocab/un-chilo.svg"
+      "mario_en": "Un chilo — a kilo!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "🥬",
       "audio_text": "Fresco",
       "mario_it": "Fresco — fresh!",
-      "mario_en": "Fresco — fresh!",
-      "icon_svg": "/images/vocab/fresco.svg"
+      "mario_en": "Fresco — fresh!"
     }
   ],
   "questions": [

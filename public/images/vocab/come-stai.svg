@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Come stai</title>
-  <path d="M10,20 L96,20 Q106,20 106,30 L106,68 Q106,78 96,78 L65,78 L58,92 L51,78 L10,78 Q0,78 0,68 L0,30 Q0,20 10,20 Z" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
-  <line x1="18" y1="38" x2="88" y2="38" stroke="#F5EDD0" stroke-width="2" stroke-linecap="round"/>
-  <line x1="18" y1="50" x2="88" y2="50" stroke="#F5EDD0" stroke-width="2" stroke-linecap="round"/>
-  <text x="53" y="70" text-anchor="middle" font-size="18" fill="#F5C842" font-family="sans-serif" font-weight="bold">?</text>
-</svg>

@@ -34,8 +34,7 @@
       "emoji": "➡️",
       "audio_text": "A destra",
       "mario_it": "A destra — giri a destra!",
-      "mario_en": "A destra — you turn right!",
-      "icon_svg": "/images/vocab/a-destra.svg"
+      "mario_en": "A destra — you turn right!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "⬅️",
       "audio_text": "A sinistra",
       "mario_it": "A sinistra — giri a sinistra!",
-      "mario_en": "A sinistra — you turn left!",
-      "icon_svg": "/images/vocab/a-sinistra.svg"
+      "mario_en": "A sinistra — you turn left!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "⬆️",
       "audio_text": "Dritto",
       "mario_it": "Dritto — vai avanti!",
-      "mario_en": "Dritto — go straight ahead!",
-      "icon_svg": "/images/vocab/dritto.svg"
+      "mario_en": "Dritto — go straight ahead!"
     }
   ],
   "pillole": [

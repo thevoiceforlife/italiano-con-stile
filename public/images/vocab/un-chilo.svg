@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Un chilo</title>
-  <path d="M22,96 L22,86 L98,86 L98,96" fill="none" stroke="#6090B0" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M22,86 L60,76 L98,86" fill="none" stroke="#6090B0" stroke-width="2"/>
-  <line x1="60" y1="52" x2="60" y2="76" stroke="#A0B8D0" stroke-width="2.5" stroke-linecap="round"/>
-  <ellipse cx="30" cy="50" rx="16" ry="5" fill="none" stroke="#F5C842" stroke-width="2"/>
-  <text x="30" y="54" text-anchor="middle" font-size="9" fill="#F5C842" font-family="sans-serif" font-weight="bold">1 kg</text>
-</svg>

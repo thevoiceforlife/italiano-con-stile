@@ -34,8 +34,7 @@
       "emoji": "🌡️",
       "audio_text": "Fa caldo",
       "mario_it": "Fa caldo — it is hot!",
-      "mario_en": "Fa caldo — it is hot!",
-      "icon_svg": "/images/vocab/fa-caldo.svg"
+      "mario_en": "Fa caldo — it is hot!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "🥶",
       "audio_text": "Fa freddo",
       "mario_it": "Fa freddo — it is cold!",
-      "mario_en": "Fa freddo — it is cold!",
-      "icon_svg": "/images/vocab/fa-freddo.svg"
+      "mario_en": "Fa freddo — it is cold!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "🌧️",
       "audio_text": "Piove",
       "mario_it": "Piove — it is raining!",
-      "mario_en": "Piove — it is raining!",
-      "icon_svg": "/images/vocab/piove.svg"
+      "mario_en": "Piove — it is raining!"
     }
   ],
   "questions": [

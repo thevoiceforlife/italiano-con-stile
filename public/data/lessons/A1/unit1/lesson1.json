@@ -22,8 +22,7 @@
       "emoji": "☀️",
       "audio_text": "Buongiorno",
       "mario_it": "La mattina si inizia con Buongiorno!",
-      "mario_en": "In the morning we start with Buongiorno!",
-      "icon_svg": "/images/vocab/buongiorno.svg"
+      "mario_en": "In the morning we start with Buongiorno!"
     },
     {
       "id": "v2",
@@ -32,8 +31,7 @@
       "emoji": "👋",
       "audio_text": "Arrivederci",
       "mario_it": "Arrivederci — a presto!",
-      "mario_en": "Arrivederci — see you soon!",
-      "icon_svg": "/images/vocab/arrivederci.svg"
+      "mario_en": "Arrivederci — see you soon!"
     },
     {
       "id": "v3",
@@ -42,8 +40,7 @@
       "emoji": "🤝",
       "audio_text": "Piacere",
       "mario_it": "Piacere — al primo incontro!",
-      "mario_en": "Piacere — when you first meet!",
-      "icon_svg": "/images/vocab/piacere.svg"
+      "mario_en": "Piacere — when you first meet!"
     }
   ],
   "pillole": [

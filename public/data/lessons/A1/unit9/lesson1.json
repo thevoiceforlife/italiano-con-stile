@@ -34,8 +34,7 @@
       "emoji": "📏",
       "audio_text": "Alto",
       "mario_it": "Alto — tall!",
-      "mario_en": "Alto — tall!",
-      "icon_svg": "/images/vocab/alto.svg"
+      "mario_en": "Alto — tall!"
     },
     {
       "id": "v2",
@@ -44,8 +43,7 @@
       "emoji": "🐾",
       "audio_text": "Basso",
       "mario_it": "Basso — short!",
-      "mario_en": "Basso — short!",
-      "icon_svg": "/images/vocab/basso.svg"
+      "mario_en": "Basso — short!"
     },
     {
       "id": "v3",
@@ -54,8 +52,7 @@
       "emoji": "🌱",
       "audio_text": "Giovane",
       "mario_it": "Giovane — young!",
-      "mario_en": "Giovane — young!",
-      "icon_svg": "/images/vocab/giovane.svg"
+      "mario_en": "Giovane — young!"
     }
   ],
   "questions": [

@@ -39,8 +39,7 @@
       "emoji": "😄",
       "audio_text": "Simpatico",
       "mario_it": "Simpatico — nice!",
-      "mario_en": "Simpatico — nice!",
-      "icon_svg": "/images/vocab/simpatico.svg"
+      "mario_en": "Simpatico — nice!"
     },
     {
       "id": "v5",
@@ -49,8 +48,7 @@
       "emoji": "🪞",
       "audio_text": "Come sei?",
       "mario_it": "Come sei? — what are you like?!",
-      "mario_en": "Come sei? — what are you like?!",
-      "icon_svg": "/images/vocab/come-sei.svg"
+      "mario_en": "Come sei? — what are you like?!"
     },
     {
       "id": "v6",
@@ -59,8 +57,7 @@
       "emoji": "💇",
       "audio_text": "I capelli",
       "mario_it": "I capelli — the hair!",
-      "mario_en": "I capelli — the hair!",
-      "icon_svg": "/images/vocab/i-capelli.svg"
+      "mario_en": "I capelli — the hair!"
     }
   ],
   "questions": [
