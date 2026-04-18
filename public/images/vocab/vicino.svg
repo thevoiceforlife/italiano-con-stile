@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Vicino — Near</title>
-  <rect x="12" y="40" width="36" height="50" rx="4" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <title>Vicino</title>
+  <rect x="10" y="38" width="38" height="52" rx="4" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
   <rect x="14" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BB8F5" stroke-width="1.5"/>
-  <rect x="25" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BB8F5" stroke-width="1.5"/>
-  <rect x="72" y="40" width="36" height="50" rx="4" fill="none" stroke="#5BC875" stroke-width="2.5"/>
-  <rect x="74" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BC875" stroke-width="1.5"/>
-  <rect x="85" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BC875" stroke-width="1.5"/>
-  <line x1="48" y1="65" x2="72" y2="65" stroke="#F5C842" stroke-width="2" stroke-dasharray="3,2"/>
+  <rect x="26" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BB8F5" stroke-width="1.5"/>
+  <rect x="72" y="38" width="38" height="52" rx="4" fill="none" stroke="#5BC875" stroke-width="2.5"/>
+  <rect x="76" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BC875" stroke-width="1.5"/>
+  <rect x="88" y="52" width="8" height="10" rx="1" fill="none" stroke="#5BC875" stroke-width="1.5"/>
+  <line x1="48" y1="64" x2="72" y2="64" stroke="#F5C842" stroke-width="2" stroke-dasharray="3,2"/>
+  <path d="M50,61 L48,64 L50,67" fill="none" stroke="#F5C842" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M70,61 L72,64 L70,67" fill="none" stroke="#F5C842" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

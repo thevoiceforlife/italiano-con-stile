@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Prego — You are welcome</title>
-  <path d="M25,85 L55,85 L68,68 L68,45 Q68,35 60,35 Q52,35 50,45 L50,65 L40,65 L40,45 Q40,32 30,32 Q20,32 20,45 L20,85 Z" fill="none" stroke="#F5A042" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="M90,55 L105,55" stroke="#5BB8F5" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M100,49 L106,55 L100,61" fill="none" stroke="#5BB8F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <title>Prego</title>
+  <path d="M22,85 L52,85 L65,68 L65,44 Q65,34 56,34 Q48,34 46,44 L46,64 L36,64 L36,44 Q36,30 26,30 Q16,30 16,44 L16,85 Z" fill="none" stroke="#F5A042" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M88,55 L104,55" stroke="#5BB8F5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M98,48 L105,55 L98,62" fill="none" stroke="#5BB8F5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
