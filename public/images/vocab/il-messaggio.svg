@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Il messaggio</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#406080"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#6090B0"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#A0B8D0"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Il messaggio</text>
+  <path d="M12,25 L108,25 Q116,25 116,33 L116,75 Q116,83 108,83 L68,83 L60,96 L52,83 L12,83 Q4,83 4,75 L4,33 Q4,25 12,25 Z" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <line x1="20" y1="42" x2="100" y2="42" stroke="#F5EDD0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="55" x2="100" y2="55" stroke="#F5EDD0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="20" y1="68" x2="72" y2="68" stroke="#F5EDD0" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Cento — One hundred</title>
-  <circle cx="60" cy="55" r="38" fill="none" stroke="#F57070" stroke-width="2.5"/>
+  <title>Cento</title>
+  <circle cx="60" cy="55" r="40" fill="none" stroke="#F57070" stroke-width="2.5"/>
   <text x="60" y="65" text-anchor="middle" font-size="28" fill="#F57070" font-family="sans-serif" font-weight="bold">100</text>
-  <path d="M60,15 L63,8 L66,15 L73,15 L68,20 L70,27 L60,22 L50,27 L52,20 L47,15 L54,15 Z" fill="#F5C842"/>
+  <path d="M60,13 L63,6 L66,13 L73,13 L68,18 L70,25 L60,20 L50,25 L52,18 L47,13 L54,13 Z" fill="#F5C842"/>
 </svg>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>I nonni</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#1A6FA8"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#3A94D4"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#5BB8F5"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">I nonni</text>
+  <circle cx="32" cy="38" r="14" fill="none" stroke="#6090B0" stroke-width="2.5"/>
+  <rect x="20" y="52" width="24" height="30" rx="4" fill="none" stroke="#6090B0" stroke-width="2.5"/>
+  <line x1="16" y1="52" x2="16" y2="90" stroke="#B0985A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="88" cy="38" r="14" fill="none" stroke="#F5A0C0" stroke-width="2.5"/>
+  <rect x="76" y="52" width="24" height="30" rx="4" fill="none" stroke="#F5A0C0" stroke-width="2.5"/>
 </svg>

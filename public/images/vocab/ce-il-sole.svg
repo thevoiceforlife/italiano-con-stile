@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Ce il sole</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#1A7A35"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#3AAD55"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#5BC875"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Ce il sole</text>
+  <title>C'è il sole</title>
+  <circle cx="60" cy="60" r="28" fill="none" stroke="#F5C842" stroke-width="2.5"/>
+  <line x1="60" y1="28" x2="60" y2="18" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="92" x2="60" y2="102" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="28" y1="60" x2="18" y2="60" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="92" y1="60" x2="102" y2="60" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

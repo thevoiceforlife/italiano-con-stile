@@ -1,11 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Giovane</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M30,100 L30,78 L60,68 L60,90 Z" fill="#B0985A"/>
-  <path d="M30,78 L60,68 L90,78 L60,88 Z" fill="#F5EDD0"/>
-  <path d="M60,68 Q55,45 60,22" stroke="#3AAD55" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M60,45 Q48,35 40,40 Q50,28 60,38 Z" fill="#5BC875"/>
-  <path d="M60,35 Q72,25 80,30 Q70,18 60,28 Z" fill="#5BC875"/>
-  <circle cx="60" cy="20" r="8" fill="#F57070" opacity="0.9"/>
-  <circle cx="60" cy="20" r="5" fill="#F5C842"/>
+  <circle cx="60" cy="92" r="12" fill="none" stroke="#B0985A" stroke-width="2"/>
+  <path d="M60,80 Q54,55 60,22" stroke="#5BC875" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M60,50 Q48,40 38,44 Q50,28 60,42 Z" fill="none" stroke="#5BC875" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="60" cy="20" r="9" fill="none" stroke="#F57070" stroke-width="2.5"/>
 </svg>

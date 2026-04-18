@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Di dove sei</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#1A7A35"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#3AAD55"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#5BC875"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Di dove sei</text>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <path d="M30,52 Q40,42 52,46 Q58,38 66,46 Q74,44 80,52" fill="none" stroke="#5BC875" stroke-width="2"/>
+  <line x1="72" y1="42" x2="92" y2="22" stroke="#F5C842" stroke-width="2"/>
+  <circle cx="92" cy="20" r="8" fill="none" stroke="#F57070" stroke-width="2"/>
 </svg>

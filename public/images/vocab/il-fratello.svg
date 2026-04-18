@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Il fratello</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#406080"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#6090B0"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#A0B8D0"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Il fratello</text>
+  <circle cx="60" cy="36" r="15" fill="none" stroke="#5BC875" stroke-width="2.5"/>
+  <rect x="46" y="51" width="28" height="34" rx="4" fill="none" stroke="#5BC875" stroke-width="2.5"/>
+  <rect x="50" y="85" width="9" height="22" rx="3" fill="none" stroke="#1A7A35" stroke-width="2"/>
+  <rect x="62" y="85" width="9" height="22" rx="3" fill="none" stroke="#1A7A35" stroke-width="2"/>
 </svg>

@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Mi chiamo</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#1A7A35"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#3AAD55"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#5BC875"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Mi chiamo</text>
+  <rect x="15" y="28" width="90" height="64" rx="8" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <line x1="15" y1="46" x2="105" y2="46" stroke="#5BB8F5" stroke-width="1.5" opacity="0.4"/>
+  <text x="60" y="72" text-anchor="middle" font-size="18" fill="#F5EDD0" font-family="sans-serif" font-weight="bold">Mario</text>
 </svg>

@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Fresco</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#1A6FA8"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#3A94D4"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#5BB8F5"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Fresco</text>
+  <path d="M60,102 Q16,72 14,34 Q40,16 60,102 Z" fill="none" stroke="#5BC875" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M60,102 Q104,72 106,34 Q80,16 60,102 Z" fill="none" stroke="#5BC875" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="60" y1="102" x2="60" y2="28" stroke="#3AAD55" stroke-width="2" opacity="0.5"/>
 </svg>

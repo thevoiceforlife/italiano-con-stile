@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Basso</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M42,100 L42,55 L58,49 L58,94 Z" fill="#A82020"/>
-  <path d="M58,94 L58,49 L74,55 L74,100 Z" fill="#D44040"/>
-  <path d="M42,55 L58,49 L74,55 L58,61 Z" fill="#F57070"/>
-  <path d="M88,38 L88,68 L82,60 M88,68 L94,60" fill="none" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="60" y1="108" x2="60" y2="55" stroke="#F57070" stroke-width="3" stroke-linecap="round"/>
+  <line x1="46" y1="108" x2="74" y2="108" stroke="#F57070" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="46" y1="55" x2="74" y2="55" stroke="#F57070" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M82,68 L82,96 L76,88 M82,96 L88,88" fill="none" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

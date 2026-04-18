@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Cinquanta — Fifty</title>
+  <title>Cinquanta</title>
   <ellipse cx="60" cy="85" rx="32" ry="10" fill="none" stroke="#F5C842" stroke-width="2"/>
-  <ellipse cx="60" cy="78" rx="32" ry="10" fill="none" stroke="#F5C842" stroke-width="2"/>
-  <ellipse cx="60" cy="71" rx="32" ry="10" fill="none" stroke="#F5C842" stroke-width="2.5"/>
-  <text x="60" y="76" text-anchor="middle" font-size="12" fill="#F5C842" font-family="sans-serif" font-weight="bold">50</text>
+  <ellipse cx="60" cy="76" rx="32" ry="10" fill="none" stroke="#F5C842" stroke-width="2.5"/>
+  <text x="60" y="81" text-anchor="middle" font-size="12" fill="#F5C842" font-family="sans-serif" font-weight="bold">50</text>
 </svg>

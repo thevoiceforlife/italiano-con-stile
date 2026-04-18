@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Dieci — Ten</title>
-  <circle cx="60" cy="60" r="45" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
-  <text x="60" y="76" text-anchor="middle" font-size="40" fill="#5BB8F5" font-family="sans-serif" font-weight="bold">10</text>
+  <title>Dieci</title>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <text x="60" y="77" text-anchor="middle" font-size="40" fill="#5BB8F5" font-family="sans-serif" font-weight="bold">10</text>
 </svg>
