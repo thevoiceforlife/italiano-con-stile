@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>A destra — To the right</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M10,90 L60,105 L110,90 L110,70 L60,85 L10,70 Z" fill="#406080" opacity="0.8"/>
-  <path d="M10,70 L60,85 L110,70 L110,65 L60,80 L10,65 Z" fill="#6090B0"/>
-  <path d="M55,75 L55,35 L40,35 L60,15 L80,35 L65,35 L65,75 Z" fill="#F5C842" stroke="#B8960C" stroke-width="1"/>
-  <path d="M65,55 Q90,55 90,35 L80,35" fill="none" stroke="#F5C842" stroke-width="4" stroke-linecap="round"/>
-  <path d="M80,28 L90,35 L82,42" fill="none" stroke="#F5C842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <title>A destra</title>
+  <line x1="20" y1="60" x2="100" y2="60" stroke="#F5C842" stroke-width="3" stroke-linecap="round"/>
+  <path d="M85,45 L100,60 L85,75" fill="none" stroke="#F5C842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="20" y1="45" x2="20" y2="75" stroke="#F5C842" stroke-width="2" stroke-linecap="round"/>
 </svg>
