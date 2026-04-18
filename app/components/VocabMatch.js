@@ -187,7 +187,7 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
             display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8,
           }}>
             {currentWord.icon_svg
-              ? <img src={currentWord.icon_svg} alt={currentWord.it} style={{ width: 52, height: 52, objectFit: "contain", marginBottom: 8 }} />
+              ? <img src={currentWord.icon_svg} alt={currentWord.it} style={{ width: 64, height: 64, objectFit: "contain", marginBottom: 8 }} />
               : <span style={{ fontSize: 52, lineHeight: 1, marginBottom: 8 }}>{currentWord.emoji}</span>
             }
 
