@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
-  <title>Sono di</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,88 L20,42 L60,25 L60,71 Z" fill="#A82020"/>
-  <path d="M60,71 L60,25 L100,42 L100,88 Z" fill="#D44040"/>
-  <path d="M20,42 L60,25 L100,42 L60,59 Z" fill="#F57070"/>
-  <text x="60" y="70" text-anchor="middle" font-size="10" fill="white" font-family="sans-serif" font-weight="bold">Sono di</text>
+  <title>Sono di — I am from</title>
+  <circle cx="60" cy="60" r="42" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <ellipse cx="60" cy="60" rx="42" ry="18" fill="none" stroke="#5BB8F5" stroke-width="1" opacity="0.4"/>
+  <path d="M35,52 Q42,42 52,46 Q58,38 68,46 Q74,44 82,52" fill="none" stroke="#5BC875" stroke-width="2"/>
+  <circle cx="85" cy="25" r="6" fill="none" stroke="#F57070" stroke-width="2"/>
+  <line x1="78" y1="32" x2="85" y2="25" stroke="#F5C842" stroke-width="1.5"/>
 </svg>

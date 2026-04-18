@@ -1,13 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>La chiesa — The church</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,90 L20,45 L45,32 L45,77 Z" fill="#1A6FA8"/>
-  <path d="M45,77 L45,32 L70,45 L70,90 Z" fill="#3A94D4"/>
-  <path d="M20,45 L45,32 L70,45 L45,58 Z" fill="#5BB8F5"/>
-  <path d="M70,90 L70,28 L82,22 L82,84 Z" fill="#1A4FA8"/>
-  <path d="M82,84 L82,22 L94,28 L94,90 Z" fill="#2A6FC8"/>
-  <path d="M70,28 L82,14 L94,28 L82,22 Z" fill="#D44040"/>
-  <line x1="82" y1="14" x2="82" y2="8" stroke="white" stroke-width="2"/>
-  <line x1="79" y1="11" x2="85" y2="11" stroke="white" stroke-width="2"/>
-  <path d="M50,60 L50,72 Q50,78 57,78 Q64,78 64,72 L64,60 Q57,53 50,60 Z" fill="#F5C842" opacity="0.7"/>
+  <rect x="28" y="55" width="50" height="55" rx="3" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <path d="M25,58 L55,32 L85,58" fill="none" stroke="#5BB8F5" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="55" y1="32" x2="55" y2="22" stroke="white" stroke-width="2.5"/>
+  <line x1="50" y1="27" x2="60" y2="27" stroke="white" stroke-width="2.5"/>
+  <circle cx="55" cy="68" r="7" fill="none" stroke="#F5C842" stroke-width="2"/>
+  <rect x="44" y="82" width="14" height="28" rx="7" fill="none" stroke="#5BB8F5" stroke-width="2"/>
 </svg>

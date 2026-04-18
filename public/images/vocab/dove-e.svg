@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Dov'è — Where is it</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <ellipse cx="60" cy="98" rx="20" ry="6" fill="#000" opacity="0.2"/>
-  <path d="M52,70 Q52,98 60,98 Q68,98 68,70" fill="#A82020"/>
-  <circle cx="60" cy="42" r="26" fill="#F57070"/>
-  <circle cx="60" cy="42" r="20" fill="#F59090"/>
-  <circle cx="60" cy="42" r="8" fill="#A82020"/>
-  <circle cx="60" cy="42" r="5" fill="#F57070"/>
-  <circle cx="52" cy="34" r="5" fill="white" opacity="0.3"/>
+  <circle cx="60" cy="45" r="22" fill="none" stroke="#F57070" stroke-width="2.5"/>
+  <circle cx="60" cy="45" r="8" fill="none" stroke="#F57070" stroke-width="2"/>
+  <path d="M52,62 Q52,90 60,90 Q68,90 68,62" fill="none" stroke="#F57070" stroke-width="2.5"/>
+  <ellipse cx="60" cy="90" rx="14" ry="5" fill="none" stroke="#F57070" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="53" cy="38" r="4" fill="white" opacity="0.25"/>
 </svg>

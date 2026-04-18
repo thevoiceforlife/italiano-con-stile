@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Ecco a lei — Here you are</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-
-  <path d="M15,70 L60,85 L105,70 L60,55 Z" fill="#D4A820"/>
-  <path d="M15,70 L15,76 L60,91 L105,76 L105,70 L60,85 Z" fill="#B8960C"/>
-  <ellipse cx="60" cy="52" rx="14" ry="6" fill="#3A94D4"/>
-  <path d="M46,52 L46,64 Q46,70 60,70 Q74,70 74,64 L74,52" fill="#5BB8F5"/>
+  <path d="M15,75 L60,90 L105,75 L60,60 Z" fill="none" stroke="#F5C842" stroke-width="2"/>
+  <circle cx="60" cy="50" r="12" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <path d="M48,50 L48,60 Q48,66 60,66 Q72,66 72,60 L72,50" fill="none" stroke="#5BB8F5" stroke-width="2"/>
+  <path d="M56,40 Q58,34 56,28" fill="none" stroke="#5BB8F5" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M64,38 Q66,32 64,26" fill="none" stroke="#5BB8F5" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
 </svg>

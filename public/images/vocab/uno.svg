@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Uno — One</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M20,85 L20,40 L60,20 L60,65 Z" fill="#1A6FA8"/>
-  <path d="M60,65 L60,20 L100,40 L100,85 Z" fill="#3A94D4"/>
-  <path d="M20,40 L60,20 L100,40 L60,60 Z" fill="#5BB8F5"/>
-  <circle cx="60" cy="40" r="7" fill="white"/>
+  <circle cx="60" cy="60" r="45" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <text x="60" y="75" text-anchor="middle" font-size="52" fill="#5BB8F5" font-family="sans-serif" font-weight="bold">1</text>
 </svg>

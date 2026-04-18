@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Quanto costa — How much is it</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-
-  <ellipse cx="60" cy="75" rx="30" ry="12" fill="#B8960C"/>
-  <ellipse cx="60" cy="70" rx="30" ry="12" fill="#F5C842"/>
-  <text x="60" y="74" text-anchor="middle" font-size="14" fill="#F5EDD0" font-family="sans-serif" font-weight="bold">&#8364;</text>
-  <text x="38" y="48" text-anchor="middle" font-size="28" fill="#F5C842" font-family="sans-serif" font-weight="bold">?</text>
+  <circle cx="50" cy="65" r="24" fill="none" stroke="#F5C842" stroke-width="2.5"/>
+  <text x="50" y="71" text-anchor="middle" font-size="20" fill="#F5C842" font-family="sans-serif" font-weight="bold">&#8364;</text>
+  <circle cx="82" cy="48" r="14" fill="none" stroke="#F5C842" stroke-width="2" opacity="0.6"/>
+  <text x="82" y="54" text-anchor="middle" font-size="12" fill="#F5C842" font-family="sans-serif" font-weight="bold">&#8364;</text>
+  <text x="38" y="32" font-size="28" fill="#F5C842" font-family="sans-serif" font-weight="bold">?</text>
 </svg>

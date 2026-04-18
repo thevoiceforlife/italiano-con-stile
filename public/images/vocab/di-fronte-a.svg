@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Di fronte a — In front of</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M35,85 L35,48 L58,37 L58,74 Z" fill="#1A7A35"/>
-  <path d="M58,74 L58,37 L80,48 L80,85 Z" fill="#3AAD55"/>
-  <path d="M35,48 L58,37 L80,48 L58,59 Z" fill="#5BC875"/>
-  <path d="M62,85 L62,72 Q67,68 72,72 L72,85 Z" fill="#1A4A25"/>
-  <rect x="52" y="88" width="10" height="12" rx="3" fill="#F5C842"/>
-  <circle cx="57" cy="84" r="6" fill="#F5A042"/>
-  <path d="M57,78 L57,70 L53,74 M57,70 L61,74" fill="none" stroke="#F5EDD0" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="35" y="30" width="50" height="50" rx="4" fill="none" stroke="#5BC875" stroke-width="2.5"/>
+  <rect x="47" y="58" width="12" height="22" rx="2" fill="none" stroke="#5BC875" stroke-width="2"/>
+  <circle cx="35" cy="95" r="6" fill="none" stroke="#F5C842" stroke-width="2"/>
+  <rect x="30" y="101" width="10" height="12" rx="3" fill="none" stroke="#F5C842" stroke-width="2"/>
+  <path d="M35,93 L35,80 L33,84 M35,80 L37,84" fill="none" stroke="#F5C842" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

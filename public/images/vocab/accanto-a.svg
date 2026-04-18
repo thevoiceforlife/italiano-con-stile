@@ -1,13 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img">
   <title>Accanto a — Next to</title>
-  <rect width="120" height="120" rx="16" fill="#0F1923"/>
-  <path d="M8,88 L8,52 L30,42 L30,78 Z" fill="#1A6FA8"/>
-  <path d="M30,78 L30,42 L52,52 L52,88 Z" fill="#3A94D4"/>
-  <path d="M8,52 L30,42 L52,52 L30,62 Z" fill="#5BB8F5"/>
-  <path d="M55,88 L55,52 L77,42 L77,78 Z" fill="#1A7A35"/>
-  <path d="M77,78 L77,42 L99,52 L99,88 Z" fill="#3AAD55"/>
-  <path d="M55,52 L77,42 L99,52 L77,62 Z" fill="#5BC875"/>
-  <line x1="52" y1="68" x2="55" y2="68" stroke="#F5C842" stroke-width="2"/>
-  <path d="M50,65 L52,68 L50,71" fill="none" stroke="#F5C842" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M57,65 L55,68 L57,71" fill="none" stroke="#F5C842" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="10" y="35" width="42" height="55" rx="4" fill="none" stroke="#5BB8F5" stroke-width="2.5"/>
+  <rect x="68" y="35" width="42" height="55" rx="4" fill="none" stroke="#5BC875" stroke-width="2.5"/>
+  <line x1="52" y1="62" x2="68" y2="62" stroke="#F5C842" stroke-width="2" stroke-dasharray="3,2"/>
 </svg>
