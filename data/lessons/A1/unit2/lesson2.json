@@ -301,12 +301,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Dialogo formale completato!",
-        "en": "Perfect! Formal dialogue completed!"
+        "it": "Perfetto! \"Mi chiamo ..., piacere\" è la risposta formale corretta. 🎯\nFormale = Mi chiamo + piacere (come \"My name is\" + \"nice to meet you\")",
+        "en": "Perfect! \"Mi chiamo ..., piacere\" is the correct formal response.\nFormal = Mi chiamo + piacere (like \"My name is\" + \"nice to meet you\")"
       },
       "feedbackErr": {
-        "it": "Riprova!",
-        "en": "Try again!"
+        "it": "❌ Ciao, sono... / Buonanotte / Buonasera → ✅ Mi chiamo..., piacere\nCONTESTO FORMALE: \"Lei\" richiede \"Mi chiamo\" (non \"Sono\"), come \"What is your name?\" richiede \"My name is\" (non \"I'm\"). 🎓",
+        "en": "❌ Ciao, sono... / Buonanotte / Buonasera → ✅ Mi chiamo..., piacere\nFORMAL CONTEXT: \"Lei\" requires \"Mi chiamo\" (not \"Sono\"), like \"What is your name?\" requires \"My name is\" (not \"I'm\")."
       }
     },
     {

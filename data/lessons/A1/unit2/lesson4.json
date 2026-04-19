@@ -190,12 +190,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! HO gli anni — avere per l'età!",
-        "en": "Correct! HO years — avere for age!"
+        "it": "Esatto! Ho 30 anni. 🎂\nIn italiano l'età si HA, non si È!",
+        "en": "Correct! Ho 30 anni.\nIn Italian you HAVE age, just like in English!"
       },
       "feedbackErr": {
-        "it": "Ho 30 anni — in italiano l'età si HA!",
-        "en": "Ho 30 anni — in Italian you HAVE age!"
+        "it": "❌ Sono 30 anni → ✅ Ho 30 anni.\nL'ETÀ SI HA, non si è! Come in inglese: I HAVE 30 years. 🎂",
+        "en": "Wrong: Sono 30 anni → Correct: Ho 30 anni.\nYou HAVE age in Italian, like I HAVE 30 years (not I AM 30 years)."
       }
     },
     {
@@ -267,12 +267,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! HO 30 anni — avere per l'età!",
-        "en": "Correct! HO 30 anni — avere for age!"
+        "it": "Esatto! HO 30 anni. 🎂\nIn italiano l'età si HA, non si È!",
+        "en": "Perfect! HO 30 anni.\nIn Italian you HAVE age, you don't ARE it!"
       },
       "feedbackErr": {
-        "it": "In italiano l'età usa AVERE: ho 30 anni. Non essere come in inglese!",
-        "en": "In Italian age uses AVERE: ho 30 anni. Not essere like in English!"
+        "it": "❌ Sono 30 anni → ✅ Ho 30 anni\nL'ETÀ SI HA, NON SI È (età = HAVE in inglese, non BE).",
+        "en": "Sono 30 anni → Ho 30 anni\nAGE USES AVERE (TO HAVE), NOT ESSERE (like I AM 30 becomes I HAVE 30)."
       }
     },
     {

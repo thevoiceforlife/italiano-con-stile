@@ -196,12 +196,12 @@
         }
       ],
       "feedbackOk": {
-        "it": "Perfetto! Tutte e tre corrette! 🎉",
-        "en": "Perfect! All three correct!"
+        "it": "Esatto! Hai abbinato tutto perfettamente! 🎯\nOgni parola al posto giusto — ottimo colpo d'occhio!",
+        "en": "Perfect! You matched everything correctly!\nEvery word in the right place — great eye for detail!"
       },
       "feedbackErr": {
-        "it": "Quasi! Riprova — guarda la situazione.",
-        "en": "Almost! Try again — look at the situation."
+        "it": "❌ Abbinamento sbagliato → ✅ Rileggi bene ogni situazione.\nCONTESTO E REGISTRO: come \"formal/informal\" in inglese — ogni parola ha il suo momento giusto! 🔄",
+        "en": "Incorrect match → Read each situation carefully.\nCONTEXT AND REGISTER: just like formal/informal in English — every word has its right moment!"
       }
     },
     {

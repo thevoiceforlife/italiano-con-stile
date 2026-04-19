@@ -299,12 +299,12 @@
         }
       ],
       "feedbackOk": {
-        "it": "Bravissimo! Lezione 2 completata! 🎉",
-        "en": "Excellent! Lesson 2 complete!"
+        "it": "Perfetto! Hai abbinato tutto correttamente! 🎯\nOgni situazione ha la sua frase giusta!",
+        "en": "Perfect! You matched everything correctly!\nEvery situation has its right phrase!"
       },
       "feedbackErr": {
-        "it": "Quasi! Riprova — guarda bene le situazioni.",
-        "en": "Almost! Try again — look carefully at the situations."
+        "it": "❌ Abbinamento sbagliato → ✅ Rileggi ogni situazione con attenzione.\nABBINA CONTESTO E FRASE: come \"match the word to the picture\" in inglese. 🔄",
+        "en": "Incorrect match → Read each situation carefully.\nMATCH CONTEXT TO PHRASE: pair the right situation with the right expression, like matching words to definitions."
       }
     }
   ]

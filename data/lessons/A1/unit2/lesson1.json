@@ -201,12 +201,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Dialogo al bar completato!",
-        "en": "Perfect! Bar dialogue completed!"
+        "it": "Perfetto! \"Vorrei un caffè, per favore.\" ☕\nAl bar si usa il condizionale per essere cortesi!",
+        "en": "Perfect! \"I would like a coffee, please.\"\nAt the bar, use the conditional to be polite!"
       },
       "feedbackErr": {
-        "it": "Riprova!",
-        "en": "Try again!"
+        "it": "❌ Saluto/domanda → ✅ \"Vorrei un caffè, per favore.\"\nRISPONDI ALLA DOMANDA \"Cosa vuoi?\": usa VORREI + oggetto (come \"I would like\" in inglese). 🎯",
+        "en": "Greeting/question → \"Vorrei un caffe, per favore.\"\nANSWER THE QUESTION \"What do you want?\": use VORREI + object (like \"I would like\" in English)."
       }
     },
     {

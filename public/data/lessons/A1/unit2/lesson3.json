@@ -288,12 +288,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Eccellente! Presentazione completa!",
-        "en": "Excellent! Complete introduction!"
+        "it": "Perfetto! Mi chiamo ..., piacere! 🎯\nPresentarsi bene apre ogni porta! 👋",
+        "en": "Perfect! My name is ..., nice to meet you!\nA good introduction opens every door!"
       },
       "feedbackErr": {
-        "it": "Riprova!",
-        "en": "Try again!"
+        "it": "❌ Ho 30 anni / Vorrei un caffè / Buonanotte → ✅ Mi chiamo ..., piacere!\nCHIAMARSI (non essere/volere/salutare) per il NOME, come inglese \"my name IS\" (non \"I am\" per età). 🎭",
+        "en": "Incorrect: Ho 30 anni / Vorrei un caffe / Buonanotte → Correct: Mi chiamo ..., piacere!\nUse CHIAMARSI (not essere/volere/greeting) for NAME, like English uses \"my name IS\" (not \"I am\" for age)."
       }
     },
     {
@@ -309,12 +309,12 @@
       "frase_en": "I am 25 years.",
       "correct": false,
       "feedbackOk": {
-        "it": "Esatto! Si dice HO 25 anni, non sono!",
-        "en": "Correct! You say HO 25 anni, not sono!"
+        "it": "Esatto! Si dice HO 25 anni, non sono! 🎯\nIn italiano l'età si \"ha\", non si \"è\" – come in inglese si dice \"I am\" ma noi diciamo \"io ho\"!",
+        "en": "Correct! In Italian we say HO 25 anni (I have 25 years)!\nAge is something you HAVE in Italian, not something you ARE – unlike English \"I am 25\"."
       },
       "feedbackErr": {
-        "it": "Sbagliato! In italiano l'età usa AVERE: ho 25 anni!",
-        "en": "Wrong! In Italian age uses AVERE: ho 25 anni!"
+        "it": "❌ Sono 25 anni → ✅ HO 25 anni\nL'ETÀ SI HA, NON SI È! In italiano usiamo AVERE per l'età (come \"I have\" non \"I am\"). 💡",
+        "en": "Incorrect! In Italian use HO (I have), not sono (I am).\nAGE USES AVERE (to have) IN ITALIAN – you \"have\" years, not \"are\" years, unlike English."
       }
     },
     {

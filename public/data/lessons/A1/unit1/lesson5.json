@@ -86,12 +86,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Piacere! 🤝",
-        "en": "Yes! Piacere!"
+        "it": "Esatto! Hai sentito \"Piacere\"! 🤝\nSi dice quando ci si presenta per la prima volta!",
+        "en": "Correct! You heard \"Piacere\"!\nIt's said when meeting someone for the first time!"
       },
       "feedbackErr": {
-        "it": "Era Piacere!",
-        "en": "It was Piacere!"
+        "it": "❌ Per favore/Buongiorno → ✅ Piacere\nCONTESTO DI SALUTO: \"Piacere\" è per le presentazioni, come \"Nice to meet you\" (non \"Please\" o \"Good morning\"). 🤝",
+        "en": "❌ Per favore/Buongiorno → ✅ Piacere\nGREETING CONTEXT: \"Piacere\" is for introductions, like \"Nice to meet you\" (not \"Please\" or \"Good morning\")."
       }
     },
     {
@@ -116,12 +116,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Mi chiamo! 🙋",
-        "en": "Yes! Mi chiamo!"
+        "it": "Esatto! Mi chiamo! 🙋\nPer presentarti usa sempre CHIAMARSI, non essere o avere!",
+        "en": "Correct! Mi chiamo!\nTo introduce yourself, always use CHIAMARSI, not to be or to have!"
       },
       "feedbackErr": {
-        "it": "Mi CHIAMO Mario! My name is Mario.",
-        "en": "Mi CHIAMO Mario! My name is Mario."
+        "it": "❌ Mi sono/Mi ho → ✅ Mi chiamo\nPer dire il nome usa CHIAMARSI (riflessivo), come in inglese \"I call myself\" non \"I am/have\".",
+        "en": "Incorrect: Mi sono/Mi ho → Correct: Mi chiamo\nUse the reflexive verb CHIAMARSI (to call oneself) for names, like \"I call myself\" not \"I am/have\"."
       }
     },
     {
@@ -156,12 +156,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Piacere! 🤝",
-        "en": "Yes! Piacere!"
+        "it": "Esatto! Piacere! 🤝\nIl saluto perfetto quando conosci qualcuno per la prima volta.",
+        "en": "Perfect! Piacere!\nThe ideal greeting when meeting someone for the first time."
       },
       "feedbackErr": {
-        "it": "Primo incontro → Piacere!",
-        "en": "First meeting → Piacere!"
+        "it": "❌ Arrivederci!/Buonanotte! → ✅ Piacere!\nAL PRIMO INCONTRO SI DICE \"PIACERE\" (come \"Nice to meet you\" in inglese, non \"Goodbye\").",
+        "en": "Arrivederci!/Buonanotte! → Piacere!\nFIRST MEETING REQUIRES \"PIACERE\" (like \"Nice to meet you\" in English, not \"Goodbye\")."
       }
     },
     {
@@ -193,12 +193,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Sono di = I am from! 📍",
-        "en": "Yes! Sono di = I am from!"
+        "it": "Esatto! La sua origine = His origin 🎯\nPossessivo femminile: la SUA origine, come la sua casa!",
+        "en": "Correct! La sua origine = His origin\nFeminine possessive: la SUA origine, like la sua casa (his house)!"
       },
       "feedbackErr": {
-        "it": "Sono di → origine! I am from London.",
-        "en": "Sono di → origin! I am from London."
+        "it": "❌ Il suo nome / Un saluto → ✅ La sua origine\nORIGINE è FEMMINILE: la SUA origine (come \"his origin\" in inglese, non \"his name\").",
+        "en": "Incorrect: Il suo nome / Un saluto → Correct: La sua origine\nORIGINE IS FEMININE: la SUA origine (like \"his origin\" in English, not \"his name\")."
       }
     },
     {
@@ -223,12 +223,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Sono di Roma! 📍",
-        "en": "Yes! Sono di Roma!"
+        "it": "Esatto! Sono di Roma! 📍\nPer la provenienza usiamo sempre DI, come \"I'm from\" in inglese.",
+        "en": "Correct! Sono di Roma!\nFor origin we always use DI, just like \"I'm from\" in English."
       },
       "feedbackErr": {
-        "it": "Sono DI Roma! Di = from!",
-        "en": "Sono DI Roma! Di = from!"
+        "it": "❌ Sono mi/ho Roma → ✅ Sono di Roma\nPROVENIENZA = DI (come \"I'm FROM Rome\", non \"I'm me/have Rome\")! 📍",
+        "en": "Sono mi/ho Roma → Sono di Roma\nORIGIN = DI (like \"I'm FROM Rome\", not \"I'm me/have Rome\")!"
       }
     },
     {
@@ -263,12 +263,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Le 19 → Buonasera! 🌆",
-        "en": "Yes! 7 PM → Buonasera!"
+        "it": "Esatto! Buonasera! 🌆\nAlle 19:00 il sole tramonta: è sera!",
+        "en": "Perfect! Buonasera!\nAt 7 PM the sun sets: it's evening!"
       },
       "feedbackErr": {
-        "it": "Le 19 → Buonasera! È sera!",
-        "en": "7 PM → Buonasera! It is evening!"
+        "it": "❌ Buongiorno/Buonanotte → ✅ Buonasera!\nALLE 19:00 È SERA, non mattina o notte (come \"Good evening\" alle 7 PM, non \"Good morning/night\").",
+        "en": "❌ Buongiorno/Buonanotte → ✅ Buonasera!\nAT 7 PM IT'S EVENING, not morning or night (like \"Good evening\" at 7 PM, not \"Good morning/night\")."
       }
     },
     {
@@ -300,8 +300,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Arrivederci! 👋",
-        "en": "Yes! Arrivederci!"
+        "it": "Esatto! Arrivederci! 👋\nIl saluto per dire addio, come \"goodbye\" in inglese.",
+        "en": "Correct! Arrivederci!\nThe farewell greeting, like saying goodbye when leaving.",
+        "feedbackErr": {
+          "it": "❌ Buongiorno/Piacere → ✅ Arrivederci\nSALUTO DI COMMIATO, non di incontro — come \"goodbye\" vs \"hello\"! 👋",
+          "en": "Buongiorno/Piacere → Arrivederci\nFAREWELL GREETING, not a meeting greeting — like goodbye vs hello."
+        }
       },
       "feedbackErr": {
         "it": "Era Arrivederci!",
@@ -330,12 +334,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Sì! Mi chiamo Sofia! 🙋",
-        "en": "Yes! Mi chiamo Sofia!"
+        "it": "Esatto! Mi chiamo Sofia! 🎯\nPer dire il tuo nome usi sempre CHIAMARSI, mai essere o avere!",
+        "en": "Perfect! Mi chiamo Sofia!\nTo say your name, always use CHIAMARSI, never essere or avere!"
       },
       "feedbackErr": {
-        "it": "Mi CHIAMO Sofia! My name is Sofia.",
-        "en": "Mi CHIAMO Sofia! My name is Sofia."
+        "it": "❌ Mi sono/ho Sofia → ✅ Mi chiamo Sofia\nUSA CHIAMARSI PER IL NOME (come \"I call myself\" in inglese, non \"I am\").",
+        "en": "Wrong: Mi sono/ho Sofia. Correct: Mi chiamo Sofia.\nUSE CHIAMARSI FOR YOUR NAME (like 'I call myself', not 'I am')."
       }
     },
     {
