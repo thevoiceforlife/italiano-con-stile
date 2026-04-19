@@ -1644,3 +1644,26 @@ NON sono traduzioni. NON sono definizioni. Sono situazioni narrative.
 | Tempo | Fuori piove / c'e il sole | Cosa si indossa |
 | Emozioni | Come si sente un personaggio | Come rispondere a qualcuno triste |
 
+
+---
+
+## Regola coerenza boss vs vocabolario
+
+### Regola
+Il boss di ogni unità usa ESCLUSIVAMENTE parole e strutture insegnate nelle lezioni 1-5 di quella stessa unità.
+
+### Mai nel boss
+- Parole nuove non introdotte nelle lezioni (es. "mille" nel boss di unit2 dove non è mai insegnata)
+- Distrattori inventati non presenti nel vocabolario dell'unità (es. "Rifiuti", "Perché" in unità dove non sono state introdotte)
+- Strutture grammaticali non ancora presentate nella progressione
+
+### Checklist pre-scrittura boss
+[ ] Ogni parola nelle opzioni è nel vocab delle lezioni 1-5 dell'unità
+[ ] Ogni distrattore è una parola realmente insegnata (sbagliata nel contesto, non inventata)
+[ ] La risposta corretta usa strutture già viste
+
+### Verifica automatica
+```bash
+# Script di verifica coerenza boss vs vocab
+python3 scripts/check-boss-vocab.py
+```

@@ -136,34 +136,30 @@
       "fase": "comprensione",
       "introIT": "Completa!",
       "intro_en": "Complete!",
-      "frase_it": "Grazie _____, Nonna!",
-      "frase_en": "Thank you very much, Nonna!",
+      "frase_it": "Ciao! _____, sono di Londra.",
+      "frase_en": "= Hello! Nice to meet you, I am from London.",
       "opzioni": [
         {
-          "it": "mille",
-          "en": "very much"
+          "it": "Piacere"
         },
         {
-          "it": "tanto",
-          "en": "so much"
+          "it": "Grazie"
         },
         {
-          "it": "molto",
-          "en": "a lot"
+          "it": "Ciao"
         },
         {
-          "it": "assai",
-          "en": "greatly"
+          "it": "Arrivederci"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Perfetto! Grazie mille è la formula più comune!",
-        "en": "Perfect! Grazie mille is the most common formula!"
+        "it": "Esatto! Piacere — al primo incontro! 🤝\nPIACERE = nice to meet you. Si usa quando conosci qualcuno per la prima volta!",
+        "en": "Correct! Piacere — when you first meet!\nPIACERE = nice to meet you. Use it the first time you meet someone!"
       },
       "feedbackErr": {
-        "it": "Grazie MILLE — la formula più usata!",
-        "en": "Grazie MILLE — the most used formula!"
+        "it": "❌ Ciao/Grazie → ✅ Piacere!\nPIACERE (nice to meet you) — non Grazie (thank you). Momenti diversi, parole diverse! 🤝",
+        "en": "❌ Ciao/Grazie → ✅ Piacere!\nPIACERE (nice to meet you) — not Grazie (thank you). Different moments, different words!"
       }
     },
     {
@@ -294,19 +290,16 @@
       },
       "opzioni": [
         {
-          "it": "Accetti con Grazie!",
-          "en": "Accept with Thank you!",
-          "emoji": "🍰"
+          "it": "Piacere!",
+          "en": "Nice to meet you!"
         },
         {
-          "it": "Rifiuti",
-          "en": "Decline",
-          "emoji": "🚫"
+          "it": "Buongiorno!",
+          "en": "Good morning!"
         },
         {
-          "it": "Chiedi il conto",
-          "en": "Ask for the bill",
-          "emoji": "🧾"
+          "it": "Ciao!",
+          "en": "Hello!"
         }
       ],
       "correct": 0,
