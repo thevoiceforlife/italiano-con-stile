@@ -1,0 +1,103 @@
+# Semantic coherence taxonomy — livello A1
+# Consumato da scripts/validate-lessons.py per il check context↔answer
+# Vedi docs/bibbia-tecnica.md, sezione "Coerenza semantica"
+
+version: 1
+level: A1
+
+context_types:
+  saluto_contestuale:
+    description: "Orario o situazione sociale che richiede un saluto"
+    trigger_patterns:
+      - 'sono le \d'
+      - 'incontri'
+      - 'arrivi'
+      - 'saluta'
+      - 'al mattino'
+      - 'di sera'
+    allowed_answer_types: [saluto]
+
+  richiesta_nome:
+    description: "Qualcuno chiede il nome dell'utente"
+    trigger_patterns:
+      - 'come ti chiami'
+      - 'il tuo nome'
+      - 'ti chiami'
+    allowed_answer_types: [presentazione_nome]
+
+  richiesta_origine:
+    description: "Qualcuno chiede da dove viene l'utente"
+    trigger_patterns:
+      - 'di dove sei'
+      - 'da dove vieni'
+      - "di dov'è"
+    allowed_answer_types: [origine]
+
+  richiesta_stato:
+    description: "Qualcuno chiede come sta l'utente"
+    trigger_patterns:
+      - 'come stai'
+      - 'come va'
+      - 'tutto bene'
+    allowed_answer_types: [stato_emotivo]
+
+  offerta:
+    description: "Interlocutore propone qualcosa, richiede accettazione o rifiuto"
+    trigger_patterns:
+      - 'ti offre'
+      - 'ti dà'
+      - 'vuoi'
+      - 'prendi'
+      - 'accetti'
+      - 'rifiuti'
+      - 'un caffè'
+      - 'il dolce'
+    allowed_answer_types: [accettazione, rifiuto]
+
+  richiesta_azione:
+    description: "Domanda su cosa fa l'utente, senza oggetto offerto dall'interlocutore"
+    trigger_patterns:
+      - 'cosa fai'
+      - 'che fai'
+    disambiguation:
+      - "Se il context contiene anche un trigger di 'offerta', prevale offerta"
+    allowed_answer_types: [verbo_azione]
+
+  fill_blank:
+    description: "Slot da completare grammaticalmente"
+    trigger_patterns:
+      - '_{3,}'
+    allowed_answer_types: [match_grammaticale_slot]
+
+  traduzione:
+    description: "Chiede significato o traduzione di un termine"
+    trigger_patterns:
+      - 'significa'
+      - 'vuol dire'
+      - 'come si dice'
+    allowed_answer_types: [equivalente_semantico]
+
+answer_types:
+  saluto:
+    members: [Buongiorno, Buonasera, Buonanotte, Ciao, Arrivederci, Salve]
+  presentazione_nome:
+    member_patterns:
+      - '^Mi chiamo '
+      - '^Sono [A-Z]'
+  origine:
+    member_patterns:
+      - '^Sono di '
+      - '^Vengo da '
+  stato_emotivo:
+    members: [Bene, Male, "Così così", "Non c'è male", Benissimo]
+  accettazione:
+    members: [Grazie, "Sì grazie", Volentieri, "Sì", "Con piacere"]
+  rifiuto:
+    members: ["No grazie", "No", "Non posso", "Magari un'altra volta"]
+  verbo_azione:
+    member_patterns:
+      - '^(Mangio|Bevo|Prendo|Vado|Torno|Studio|Lavoro|Leggo|Scrivo)'
+  match_grammaticale_slot:
+    note: "Non validabile via members; check delegato alla logica del validator"
+  equivalente_semantico:
+    note: "Variabile per termine; check delegato alla logica del validator"

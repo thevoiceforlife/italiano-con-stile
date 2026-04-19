@@ -1667,3 +1667,104 @@ Il boss di ogni unità usa ESCLUSIVAMENTE parole e strutture insegnate nelle lez
 # Script di verifica coerenza boss vs vocab
 python3 scripts/check-boss-vocab.py
 ```
+
+---
+
+# Coerenza semantica: taxonomy context ↔ answer
+
+## 1. Principio
+
+Ogni domanda è una coppia `(context, options[])` dove il context appartiene a una **categoria semantica** e **tutte e 4** le opzioni devono appartenere alla stessa categoria.
+
+Una domanda con opzioni di categoria diversa dal context è un **errore bloccante** — anche se:
+- la posizione 0 è grammaticalmente corretta,
+- le 4 opzioni sono tutte in lessico insegnato,
+- il feedback è ben scritto.
+
+Il motivo è cognitivo: il learner A1 sta costruendo pattern "tipo di domanda → tipo di risposta". Un mismatch categoriale spezza il pattern e insegna associazioni sbagliate, indipendentemente dalla correttezza di superficie.
+
+## 2. Esempio di mismatch bloccante (caso reale)
+
+**unit1/boss — domanda offerta_dolce**
+
+| Campo | Valore |
+|---|---|
+| Context | *"La Nonna ti offre il dolce. Cosa fai?"* |
+| Tipo context | `offerta` |
+| Risposta attesa | `accettazione` o `rifiuto` |
+| Opzioni attuali | Piacere! / Buongiorno! / Ciao! |
+| Tipo opzioni | tutte `saluto` |
+| Esito | mismatch categoriale totale |
+
+Il feedback parlava di "accettare è un gesto di calore", ma `Piacere` non accetta nulla: è una formula di presentazione. Il bug non era risolvibile con un fix al feedback — richiedeva riscrittura del context o delle opzioni.
+
+## 3. Taxonomy A1
+
+| context_type | Segnali linguistici | Answer types ammessi | Esempi opzioni valide |
+|---|---|---|---|
+| saluto_contestuale | orario, incontro, situazione sociale | saluto | Buongiorno, Buonasera, Ciao, Arrivederci |
+| richiesta_nome | "come ti chiami?", "il tuo nome" | presentazione_nome | Mi chiamo X, Sono X |
+| richiesta_origine | "di dove sei?" | origine | Sono di X, Vengo da X |
+| richiesta_stato | "come stai?", "come va?" | stato_emotivo | Bene, Male, Così così |
+| offerta | "ti offre", "vuoi", "prendi", "ti dà" | accettazione ‖ rifiuto | Grazie, Volentieri, No grazie |
+| richiesta_azione | "cosa fai?" senza oggetto offerto | verbo_azione | Mangio, Bevo, Vado |
+| fill_blank | prompt con `____` | match_grammaticale_slot | dipende dallo slot |
+| traduzione | "significa", "vuol dire" | equivalente_semantico | dipende dal termine |
+
+**Ambiguità critica**: `richiesta_azione` vs `offerta`. Discriminante = presenza di oggetto proposto dall'interlocutore. *"Cosa fai al mattino?"* → richiesta_azione. *"Cosa fai se la Nonna ti offre il caffè?"* → offerta (il wrapper "cosa fai" non cambia il tipo).
+
+## 4. Schema JSON
+
+Ogni domanda deve avere:
+
+```json
+{
+  "context_type": "offerta",
+  "expected_answer_type": "accettazione|rifiuto",
+  "context": "La Nonna ti offre il dolce.",
+  "prompt": "Cosa fai?",
+  "options": [ ... ]
+}
+```
+
+- OR pipe-separato = "ogni opzione deve essere in uno di questi tipi"; in options[0] sta la più naturale.
+- A1 esistente (unit1-15): campi opzionali in transizione, popolati via workflow ibrido (CC infer + review low-confidence).
+- Contenuto nuovo (A2+, riscritture A1): **obbligatori**. Il validator blocca il commit se mancano.
+
+## 5. File taxonomy
+
+`data/taxonomy/semantic-coherence-A1.yaml` contiene context_types, trigger_patterns, answer_types. Il validator lo legge al boot. Aggiornamenti alla taxonomy **non richiedono** modifiche al codice Python.
+
+I livelli successivi ereditano dai precedenti (A2 include A1).
+
+## 6. Check nel validator (bloccanti salvo nota)
+
+1. **Presenza campi**: ogni domanda nuova ha `context_type` e `expected_answer_type`.
+2. **context_type valido**: valore presente nello yaml del livello.
+3. **Coerenza opzioni**: ogni opzione appartiene a uno degli `allowed_answer_types`. Una sola fuori categoria → errore bloccante.
+4. **Coerenza feedback** (inizialmente **warning**, non bloccante): il testo di `feedbackOk`/`feedbackErr` non contraddice la categoria attesa. Da promuovere a bloccante quando la copertura testuale si stabilizza.
+
+## 7. Estensione livelli successivi
+
+- A2: `condizionale_ipotetico`, `racconto_passato`, `progetti_futuri`
+- B1: `registro_formale_vs_informale`, `opinione_argomentata`
+- B2+: `discorso_indiretto`, `subordinate_complesse`, `sfumature_modali`
+
+File versionati per livello (`semantic-coherence-A2.yaml`…). Il validator carica quello della lezione corrente.
+
+## 8. Migrazione A1 esistente
+
+Workflow ibrido:
+1. Claude Code legge ogni domanda, inferisce `context_type` + `expected_answer_type`, scrive `migration-report-unitN.json` con `{session, question_index, inferred_type, confidence}`.
+2. Tag con `confidence < 0.85` vanno in review manuale.
+3. Batch commit per unit dopo approvazione.
+4. Validator con check nuovi in modalità warning su vecchio contenuto, bloccante su nuovo, finché migrazione al 100%.
+
+## 9. Checklist per nuovo contenuto
+
+- [ ] Qual è il `context_type` di questa domanda?
+- [ ] Quali `answer_types` sono ammessi?
+- [ ] Tutte e 4 le opzioni appartengono a uno di questi tipi?
+- [ ] `options[0]` è la risposta più naturale nel context, non solo grammaticalmente valida?
+- [ ] Il feedback parla della categoria corretta o rischia di menzionarne un'altra?
+- [ ] Il context usa solo lessico delle lesson 1-5 dell'unità?
