@@ -284,8 +284,9 @@ function MotivationalMessage({ corrette, totDomande }) {
 }
 
 // ─── Popup REWARD (post-lezione) ─────────────────────────────────────────────
-function PopupReward({ reward, onContinua, onHome, nextUrl }) {
+function PopupReward({ reward, vocab, onContinua, onHome, nextUrl }) {
   const lessonNum = typeof reward.lessonId === 'number' ? reward.lessonId : null;
+  const words = vocab || [];
 
   return (
     <div style={{ padding:'24px', position:'relative' }}>
@@ -293,41 +294,54 @@ function PopupReward({ reward, onContinua, onHome, nextUrl }) {
       <CelebrationEffect />
 
       {/* ELEMENTO 2: Reward food animato */}
-      <div style={{ textAlign:'center', marginBottom:20, position:'relative', zIndex:11 }}>
+      <div style={{ textAlign:'center', marginBottom:16, position:'relative', zIndex:11 }}>
         <div style={{
-          fontSize:64, lineHeight:1,
+          fontSize:56, lineHeight:1,
           animation:'rewardBounce 0.6s 0.3s ease-out both',
         }}>
           {reward.ciboEmoji}
         </div>
-        <div style={{ fontSize:18, fontWeight:900, color:'var(--text)', marginTop:10 }}>
+        <div style={{ fontSize:16, fontWeight:900, color:'var(--text)', marginTop:8 }}>
           {reward.ciboNome}!
         </div>
         {reward.ciboNomeEN && reward.ciboNomeEN !== reward.ciboNome && (
-          <div style={{ fontSize:14, color:'var(--text3)', fontStyle:'italic', marginTop:2 }}>
+          <div style={{ fontSize:12, color:'var(--text3)', fontStyle:'italic', marginTop:2 }}>
             {reward.ciboNomeEN}
           </div>
         )}
-        <div style={{ fontSize:13, color:'var(--text3)', marginTop:6 }}>
-          {reward.corrette}/{reward.totDomande} risposte corrette / correct answers
+        <div style={{ fontSize:12, color:'var(--text3)', marginTop:4 }}>
+          {reward.corrette}/{reward.totDomande} risposte corrette · correct answers
         </div>
       </div>
 
-      {/* Energia */}
-      <div style={{ background:'var(--bg)', borderRadius:12, border:'1px solid var(--border)', padding:'12px 14px', marginBottom:12 }}>
-        <div style={{ fontSize:14, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
-          ⚡ Energia / Energy
+      {/* Energia + Crediti — grid 2 col */}
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginBottom:12 }}>
+        <div style={{ background:'var(--bg)', borderRadius:10, border:'1px solid var(--border)', padding:'10px', textAlign:'center' }}>
+          <div style={{ fontSize:18, fontWeight:900, color:'var(--blue)' }}>⚡ +{reward.energia ?? 0}%</div>
+          <div style={{ fontSize:10, color:'var(--text3)' }}>Energia · Energy</div>
         </div>
-        <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
+        <div style={{ background:'var(--bg)', borderRadius:10, border:'1px solid var(--border)', padding:'10px', textAlign:'center' }}>
+          <div style={{ fontSize:18, fontWeight:900, color:'var(--green)' }}>🎫 +{reward.crediti}</div>
+          <div style={{ fontSize:10, color:'var(--text3)' }}>Crediti · Credits</div>
+        </div>
       </div>
 
-      {/* Crediti */}
-      <div style={{ background:'var(--bg)', borderRadius:12, border:'1px solid var(--border)', padding:'12px 14px', marginBottom:14 }}>
-        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-          <span style={{ fontSize:14, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em' }}>🎫 Crediti</span>
-          <span style={{ fontSize:16, fontWeight:900, color:'#58CC02' }}>+{reward.crediti} cr</span>
+      {/* Parole Corrette */}
+      {words.length > 0 && (
+        <div style={{ background:'var(--bg)', borderRadius:12, border:'1px solid var(--border)', padding:'10px 14px', marginBottom:12 }}>
+          <div style={{ fontSize:12, fontWeight:900, color:'var(--text2)', textTransform:'uppercase', letterSpacing:'0.05em', marginBottom:6 }}>
+            📝 Parole imparate · Words learned
+          </div>
+          <div style={{ display:'flex', flexDirection:'column', gap:4 }}>
+            {words.map((w, i) => (
+              <div key={i} style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+                <span style={{ fontSize:14, fontWeight:700, color:'var(--text)' }}>{w.emoji} {w.it}</span>
+                <span style={{ fontSize:12, color:'var(--text3)', fontStyle:'italic' }}>{w.en}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* ELEMENTO 3: Barra progressione unità */}
       {lessonNum && <UnitProgressBar currentLesson={lessonNum} />}
@@ -355,7 +369,7 @@ function PopupReward({ reward, onContinua, onHome, nextUrl }) {
 }
 
 // ─── Componente principale ────────────────────────────────────────────────────
-export default function LessonComplete({ reward, livello, unita, lezione, onHome }) {
+export default function LessonComplete({ reward, livello, unita, lezione, vocab, onHome }) {
   const router = useRouter();
   const [showConfetti, setShowConfetti] = useState(false);
 
@@ -439,7 +453,7 @@ export default function LessonComplete({ reward, livello, unita, lezione, onHome
             ? <PopupMenuCompleto reward={reward} onBoss={handleBoss} />
             : reward.tipo === 'boss'
               ? <PopupBossReward reward={reward} onHome={handleHome} nextUnit={nextUnit} />
-              : <PopupReward reward={reward} onContinua={handleContinua} onHome={handleHome} nextUrl={nextUrl} />
+              : <PopupReward reward={reward} vocab={vocab} onContinua={handleContinua} onHome={handleHome} nextUrl={nextUrl} />
         }
       </div>
 

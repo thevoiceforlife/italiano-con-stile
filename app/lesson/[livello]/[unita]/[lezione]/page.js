@@ -64,6 +64,12 @@ function cleanStr(x) {
   return s;
 }
 function getIntroBilingual(q) {
+  // Domanda traduzione: «parola» = ? → label specifica
+  const domIt = q.domanda?.it || "";
+  if (domIt.includes("= ?") || domIt.includes("significa")) {
+    return { it: "Traduzione!", en: "Translation!" };
+  }
+
   // I JSON usano sia "introIT" (camelCase) che "intro_it" (snake_case)
   const introIt = cleanStr(q.introIT) || cleanStr(q.intro_it);
   const introEn = cleanStr(q.intro_en);
@@ -214,25 +220,25 @@ function QBox({ q }) {
 }
 
 function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
-  const titoloCol = isCorrect ? "var(--green)" : "var(--red)";
-  const bg     = isCorrect ? "rgba(88,204,2,0.1)"  : "rgba(255,75,75,0.08)";
+  const bg     = isCorrect ? "rgba(88,204,2,0.08)"  : "rgba(255,75,75,0.06)";
   const border = isCorrect ? "rgba(88,204,2,0.3)"  : "var(--border-red)";
+  const col    = isCorrect ? "var(--green)" : "var(--red)";
   return (
     <div className="app-bottom app-bottom--feedback" style={{
       background: "var(--bg-deep)", borderTop: "1px solid var(--border-soft)",
     }}>
       <div style={{
         background: bg, border: `1.5px solid ${border}`,
-        borderRadius: "var(--r)", padding: "12px 14px", marginBottom: 12,
+        borderRadius: "var(--r)", padding: "8px 12px", marginBottom: 8,
         animation: "fadeIn 0.2s ease",
       }}>
-        <div style={{ fontSize: 13, fontWeight: 700, color: titoloCol }}>
-          {isCorrect ? "✅ Esatto! · Correct!" : "❌ Sbagliato! · Wrong!"}
+        <div style={{ fontSize: 13, fontWeight: 700, color: col, marginBottom: 2 }}>
+          {isCorrect ? "Esatto · Correct!" : "Sbagliato · Wrong!"}
         </div>
-        <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.5, marginTop: 3 }}>
+        <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.4 }}>
           {isCorrect ? feedbackOk?.it : feedbackErr?.it}
         </div>
-        <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>
+        <div style={{ fontSize: 10, color: "var(--text3)", fontStyle: "italic", marginTop: 1, lineHeight: 1.3 }}>
           {stripEmoji(isCorrect ? feedbackOk?.en : feedbackErr?.en)}
         </div>
       </div>
@@ -1817,7 +1823,7 @@ export default function LessonPage() {
     setReward(r); setFase("popup");
   }
 
-  if ((fase === "popup" || fase === "done") && reward) return <LessonComplete reward={reward} livello={livello} unita={unita} lezione={lezione} onHome={() => router.push("/")} />;
+  if ((fase === "popup" || fase === "done") && reward) return <LessonComplete reward={reward} livello={livello} unita={unita} lezione={lezione} vocab={lesson?.vocab || []} onHome={() => router.push("/")} />;
 
   if (showBossIntro) {
     return <BossIntroPopup unita={unita} onStart={() => setShowBossIntro(false)} />;
