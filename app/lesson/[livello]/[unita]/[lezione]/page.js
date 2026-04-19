@@ -788,6 +788,8 @@ function DomandaAbbina({ q, onAnswer }) {
     const pair = q.coppie.find(c => c.it === it);
     if (pair && pair.en === en) {
       setMatched(m => ({ ...m, [it]: en }));
+      // Audio immediato sulla parola italiana appena abbinata
+      pronounce(it, "it-IT");
       setSelIT(null);
       setSelEN(null);
       // Nessun TTS automatico — audio solo on demand tramite 🔊

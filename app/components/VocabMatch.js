@@ -115,7 +115,8 @@ export default function VocabMatch({ lesson, unitType, unita, lezione, onComplet
     const isOk = options[idx]?.correct;
     if (isOk) {
       setBubble({ it: "Bravo!", en: "Well done!", status: "ok" });
-      if (round === 2) pronounce(currentWord.audio_text || currentWord.it, "it-IT");
+      // Audio automatico sulla risposta corretta — entrambi i round
+      pronounce(currentWord.audio_text || currentWord.it, "it-IT");
       setEsito("ok");
     } else {
       setBubble({ it: "Riprova!", en: "Try again!", status: "err" });
