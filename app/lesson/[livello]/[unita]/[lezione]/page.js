@@ -770,16 +770,7 @@ function DomandaAbbina({ q, onAnswer }) {
     if (allMatched && !done) {
       setDone(true);
       playSound("correct");
-      // Pronuncia ogni parola IT della coppia in sequenza (1200ms di delay).
-      // coppia.en contiene la parola IT da imparare in modalità situazione;
-      // in modalità classica coppia.it è la parola IT e coppia.en è la traduzione EN.
-      const hasSituationMode = q.coppie.some(p => p.situazione_en);
-      q.coppie.forEach((coppia, i) => {
-        setTimeout(() => {
-          const parolaIT = hasSituationMode ? coppia.en : coppia.it;
-          pronounce(parolaIT, "it-IT");
-        }, i * 1200);
-      });
+      // Pronuncia rimossa — ogni coppia suona al momento dell'abbinamento in tryMatch
     }
   }, [matched]);
   function handleIT(it) { if (matched[it] || done) return; setSelIT(it); if (selEN !== null) tryMatch(it, selEN); }
@@ -788,8 +779,10 @@ function DomandaAbbina({ q, onAnswer }) {
     const pair = q.coppie.find(c => c.it === it);
     if (pair && pair.en === en) {
       setMatched(m => ({ ...m, [it]: en }));
-      // Audio immediato sulla parola italiana appena abbinata
-      pronounce(it, "it-IT");
+      // Audio immediato — pronuncia la parola IT da imparare (non la situazione)
+      const _hasSit = q.coppie.some(p => p.situazione_en);
+      const _parolaIT = _hasSit ? pair.en : it;
+      pronounce(_parolaIT, "it-IT");
       setSelIT(null);
       setSelEN(null);
       // Nessun TTS automatico — audio solo on demand tramite 🔊
