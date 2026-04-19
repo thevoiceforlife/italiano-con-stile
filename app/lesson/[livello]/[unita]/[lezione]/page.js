@@ -486,17 +486,16 @@ function DomandaAscolta({ q, onAnswer }) {
               <span style={{ fontSize: 9, color: "var(--text3)", fontWeight: 700 }}>LENTO</span>
             </button>
           </div>
-          {hasListened && (
-            <div style={{
+          <div style={{
               borderTop: "1px solid var(--border-soft)",
               padding: "10px 12px", textAlign: "center",
+              visibility: hasListened ? "visible" : "hidden",
             }}>
               <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>"{audioText}"</div>
               {q.audio_en && (
                 <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>"{q.audio_en}"</div>
               )}
             </div>
-          )}
         </div>
 
         {/* DOMANDA */}
