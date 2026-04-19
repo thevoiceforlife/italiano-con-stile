@@ -125,7 +125,7 @@ const CHAR_COLOR = {
 };
 
 
-// Converte «termine» → <u>termine</u> per evidenziare termini IT in testo bilingue
+// Converte «termine» → testo con guillemet «...» per evidenziare termini IT in testo bilingue
 
 // Pronuncia l'opzione solo se è testo italiano (it !== en)
 function pronounceOpt(opt) {
@@ -139,11 +139,24 @@ function renderText(text) {
   const parts = text.split(/(«[^»]+»)/g);
   return parts.map((part, i) =>
     part.startsWith('«')
-      ? <u key={i} style={{ fontWeight: 700, textDecorationColor: 'var(--special)', textDecorationThickness: 2 }}>{part.slice(1, -1)}</u>
+      ? <span key={i} style={{ fontWeight: 700, color: 'var(--special)' }}>{part}</span>
       : part
   );
 }
 
+
+// Istruzione attività per domande senza contesto
+function getActivityInstruction(tipo) {
+  switch (tipo) {
+    case 'multipla':     return { it: "Leggi e scegli la risposta corretta.", en: "Read and choose the correct answer." };
+    case 'tap_right':    return { it: "Tocca la risposta giusta.", en: "Tap the right answer." };
+    case 'ascolta_scegli': return { it: "Ascolta e scegli.", en: "Listen and choose." };
+    case 'fill_blank':   return { it: "Completa la frase.", en: "Complete the sentence." };
+    case 'vero_falso':   return { it: "Vero o falso?", en: "True or false?" };
+    case 'abbina_coppia': return { it: "Abbina le coppie.", en: "Match the pairs." };
+    default:             return null;
+  }
+}
 
 // Rimuove emoji iniziali dal testo EN se già presenti in IT (evita duplicati visivi)
 function stripLeadingEmoji(enText, itText) {
@@ -157,6 +170,7 @@ function QBox({ q }) {
   const c = CHAR_COLOR[q?.personaggio] || "#1CB0F6";
   const domandaIT = q.domanda?.it || "";
   const [speaking, setSpeaking] = useState(false);
+  const instr = !q.contesto_it ? getActivityInstruction(q.tipo) : null;
 
   function handleClick() {
     if (!domandaIT || typeof window === "undefined" || !window.speechSynthesis) return;
@@ -183,6 +197,11 @@ function QBox({ q }) {
         transition: "box-shadow 0.3s ease, border-color 0.3s ease",
       }}
     >
+      {instr && (
+        <div style={{ fontSize: 11, color: "var(--text4)", marginBottom: 6, fontStyle: "italic" }}>
+          {instr.it} · {instr.en}
+        </div>
+      )}
       <div className="q-card__it">
         <FraseAnnotata testo={domandaIT} annotazioni={q.annotazioni_domanda || []} />
       </div>
@@ -1798,35 +1817,10 @@ export default function LessonPage() {
     setReward(r); setFase("popup");
   }
 
-  if (fase === "popup" && reward) {
-    const totale = lesson.questions.length;
-    const corrette = reward.corrette ?? 0;
-    const msg = getMessaggioMario(corrette, totale);
-    const lessonIndex = lezione === "boss" ? 5 : Math.max(0, (parseInt(lezione) || 1) - 1);
-    return (
-      <LessonCompletePopup
-        reward={{
-          emoji: reward.ciboEmoji,
-          nome_it: reward.ciboNome,
-          nome_en: reward.ciboNomeEN,
-        }}
-        corrette={corrette}
-        totale={totale}
-        crediti={reward.crediti ?? 0}
-        energia={reward.energia ?? 0}
-        lessonIndex={lessonIndex}
-        messaggioIT={msg.it}
-        messaggioEN={msg.en}
-        onHome={() => router.push("/")}
-        onContinua={() => setFase("done")}
-      />
-    );
-  }
-
-  if (fase === "done" && reward) return <LessonComplete reward={reward} livello={livello} unita={unita} lezione={lezione} onHome={() => router.push("/")} />;
+  if ((fase === "popup" || fase === "done") && reward) return <LessonComplete reward={reward} livello={livello} unita={unita} lezione={lezione} onHome={() => router.push("/")} />;
 
   if (showBossIntro) {
-    return <BossIntroPopup onStart={() => setShowBossIntro(false)} />;
+    return <BossIntroPopup unita={unita} onStart={() => setShowBossIntro(false)} />;
   }
 
   if (fase === "intro") {

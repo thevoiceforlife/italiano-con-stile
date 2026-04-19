@@ -636,7 +636,7 @@ html, body { overflow-x: hidden; }
 
 /* Bottom sticky: sempre visibile in fondo */
 .app-bottom {
-  min-height: 72px;
+  min-height: 180px;
   flex-shrink: 0;
   position: sticky;
   bottom: 0;
@@ -644,7 +644,8 @@ html, body { overflow-x: hidden; }
   background: var(--bg);
   padding: 8px 16px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
   gap: 8px;
   box-sizing: border-box;
 }

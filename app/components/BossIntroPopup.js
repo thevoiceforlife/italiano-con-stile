@@ -1,6 +1,7 @@
 "use client";
 
-export default function BossIntroPopup({ onStart }) {
+export default function BossIntroPopup({ unita, onStart }) {
+  const nextUnit = parseInt(unita || 1) + 1;
   const sparkles = [
     { emoji: "✨", top: 8, left: 10, delay: "0s" },
     { emoji: "⭐", top: 5, right: 8, delay: "0.4s" },
@@ -74,7 +75,7 @@ export default function BossIntroPopup({ onStart }) {
           {[
             { emoji: "🎫", it: "Crediti viaggio", en: "Travel credits", val: "+30 cr", delay: "0.3s" },
             { emoji: "🍦", it: "Gelato — energia massima", en: "Gelato — full energy boost", val: "+20%", delay: "0.5s" },
-            { emoji: "🗺️", it: "Sblocchi Unità 2", en: "Unlocks Unit 2", val: "🔓", delay: "0.7s" },
+            { emoji: "🗺️", it: `Sblocchi Unità ${nextUnit}`, en: `Unlocks Unit ${nextUnit}`, val: "🔓", delay: "0.7s" },
           ].map((p, i) => (
             <div key={i} style={{
               background: "var(--bg-card)", borderRadius: 12, padding: "12px 14px",

@@ -135,7 +135,7 @@ function PopupMenuCompleto({ reward, onBoss }) {
 }
 
 // ─── Popup BOSS REWARD (gelato dinamico) ─────────────────────────────────────
-function PopupBossReward({ reward, onHome }) {
+function PopupBossReward({ reward, onHome, nextUnit }) {
   const crediti = reward.crediti ?? 0;
   const gusti = crediti <= 10 ? 1 : crediti <= 20 ? 2 : 3;
   const gelatoIcon = gusti === 1 ? "🍦" : gusti === 2 ? "🍨" : "🍧";
@@ -162,69 +162,54 @@ function PopupBossReward({ reward, onHome }) {
   ];
 
   return (
-    <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16 }}>
+    <div style={{ padding: '16px 20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
 
-      {/* Nonna con sparkle */}
-      <div style={{ position: 'relative', width: 80, height: 80 }}>
-        <div style={{
-          width: 80, height: 80, borderRadius: '50%', border: '3px solid #ffd700',
-          overflow: 'hidden', background: '#2c3e4a', animation: 'float 2s ease-in-out infinite',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-        }}>
-          <img src="/images/vittoria.png" alt="Nonna" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-            onError={e => { e.target.style.display = 'none'; e.target.parentNode.innerHTML += '<span style="font-size:36px">👵</span>'; }} />
+      {/* Nonna + gelato inline */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+        <div style={{ position: 'relative', width: 56, height: 56, flexShrink: 0 }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: '50%', border: '3px solid #ffd700',
+            overflow: 'hidden', background: '#2c3e4a',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+          }}>
+            <img src="/images/vittoria.png" alt="Nonna" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              onError={e => { e.target.style.display = 'none'; e.target.parentNode.innerHTML += '<span style="font-size:28px">👵</span>'; }} />
+          </div>
         </div>
-        {sparkles.map((s, i) => (
-          <span key={i} style={{ position: 'absolute', fontSize: 14, pointerEvents: 'none', top: s.top, left: s.left, right: s.right, bottom: s.bottom, animation: `sparkle 1.6s ${s.delay} ease-in-out infinite` }}>{s.emoji}</span>
-        ))}
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: 48, lineHeight: 1 }}>{gelatoIcon}</div>
+          <div style={{ fontSize: 16, fontWeight: 900, color: '#ffd700', marginTop: 2 }}>{gelatoLabel}</div>
+          <div style={{ fontSize: 11, fontStyle: 'italic', color: 'rgba(255,255,255,0.4)' }}>{gelatoLabelEn}</div>
+        </div>
       </div>
 
-      {/* Perfect badge */}
       {isPerfect && (
-        <div style={{ background: '#ffd700', color: '#1a1a1a', borderRadius: 20, padding: '3px 12px', fontSize: 11, fontWeight: 900, textTransform: 'uppercase', letterSpacing: '1px' }}>
-          ★ Punteggio perfetto · Perfect score ★
+        <div style={{ background: '#ffd700', color: '#1a1a1a', borderRadius: 20, padding: '2px 10px', fontSize: 10, fontWeight: 900, textTransform: 'uppercase', letterSpacing: '1px' }}>
+          ★ Perfetto · Perfect ★
         </div>
       )}
 
-      {/* Gelato */}
-      <div style={{ fontSize: 72, lineHeight: 1, animation: 'gelato 0.8s ease-out forwards' }}>
-        {gelatoIcon}
-      </div>
-      <div style={{ textAlign: 'center' }}>
-        <div style={{ fontSize: 20, fontWeight: 900, color: '#ffd700' }}>{gelatoLabel}</div>
-        <div style={{ fontSize: 14, fontStyle: 'italic', color: 'rgba(255,255,255,0.4)', marginTop: 2 }}>{gelatoLabelEn}</div>
-      </div>
-
       {/* Frase nonna */}
-      <div style={{ textAlign: 'center', lineHeight: 1.5 }}>
-        <div style={{ fontSize: 15, color: '#E5B700', fontStyle: 'italic' }}>"{nonnaIT}"</div>
-        <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)', fontStyle: 'italic', marginTop: 4 }}>"{nonnaEN}"</div>
+      <div style={{ textAlign: 'center', lineHeight: 1.4 }}>
+        <div style={{ fontSize: 13, color: '#E5B700', fontStyle: 'italic' }}>"{nonnaIT}"</div>
+        <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', fontStyle: 'italic', marginTop: 2 }}>"{nonnaEN}"</div>
       </div>
 
-      {/* Stats */}
-      <div style={{ display: 'flex', gap: 12, width: '100%' }}>
-        {[
-          { icon: '✅', val: `${reward.corrette}/${reward.totDomande}`, label: 'risposte' },
-          { icon: '🎫', val: `+${crediti}`, label: 'crediti' },
-          { icon: gelatoIcon, val: `${gusti}`, label: 'gusti' },
-        ].map((s, i) => (
-          <div key={i} style={{ flex: 1, background: 'var(--bg)', borderRadius: 10, padding: '10px 8px', textAlign: 'center', border: '1px solid var(--border)' }}>
-            <div style={{ fontSize: 13 }}>{s.icon}</div>
-            <div style={{ fontSize: 18, fontWeight: 900, color: 'var(--text)' }}>{s.val}</div>
-            <div style={{ fontSize: 11, color: 'var(--text3)' }}>{s.label}</div>
-          </div>
-        ))}
-      </div>
-
-      {/* Energia */}
-      <div style={{ width: '100%' }}>
-        <EnergyBar prima={reward.energiaPrima} dopo={reward.energiaDopo} />
+      {/* Stats — grid 2 col */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, width: '100%' }}>
+        <div style={{ background: 'var(--bg)', borderRadius: 10, padding: '8px', textAlign: 'center', border: '1px solid var(--border)' }}>
+          <div style={{ fontSize: 20, fontWeight: 900, color: 'var(--green)' }}>{reward.corrette}/{reward.totDomande}</div>
+          <div style={{ fontSize: 10, color: 'var(--text3)' }}>Corrette · Correct</div>
+        </div>
+        <div style={{ background: 'var(--bg)', borderRadius: 10, padding: '8px', textAlign: 'center', border: '1px solid var(--border)' }}>
+          <div style={{ fontSize: 20, fontWeight: 900, color: 'var(--accent)' }}>🎫 +{crediti}</div>
+          <div style={{ fontSize: 10, color: 'var(--text3)' }}>Crediti · Credits</div>
+        </div>
       </div>
 
       {/* Unlock */}
-      <div style={{ background: 'rgba(28,176,246,0.08)', border: '1px solid rgba(28,176,246,0.3)', borderRadius: 12, padding: '10px 14px', width: '100%', textAlign: 'center' }}>
-        <div style={{ fontSize: 14, fontWeight: 700, color: '#1CB0F6' }}>🔓 Unità 2 sbloccata!</div>
-        <div style={{ fontSize: 12, fontStyle: 'italic', color: 'rgba(28,176,246,0.5)', marginTop: 2 }}>Unit 2 unlocked!</div>
+      <div style={{ background: 'rgba(28,176,246,0.08)', border: '1px solid rgba(28,176,246,0.3)', borderRadius: 10, padding: '8px 12px', width: '100%', textAlign: 'center' }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: '#1CB0F6' }}>🔓 Unità {nextUnit} sbloccata! · Unit {nextUnit} unlocked!</div>
       </div>
 
       {/* Pulsante */}
@@ -233,8 +218,8 @@ function PopupBossReward({ reward, onHome }) {
         background: isPerfect ? '#ffd700' : 'var(--primary)',
         color: isPerfect ? '#1a1a1a' : '#fff',
       }}>
-        <span className="btn-it">🗺️ Vai all'Unità 2!</span>
-        <span className="btn-en">Go to Unit 2!</span>
+        <span className="btn-it">🗺️ Vai all'Unità {nextUnit}!</span>
+        <span className="btn-en">Go to Unit {nextUnit}!</span>
       </button>
     </div>
   );
@@ -387,6 +372,7 @@ export default function LessonComplete({ reward, livello, unita, lezione, onHome
   const lv = livello || 'A1';
   const un = unita || '1';
   const le = lezione || '1';
+  const nextUnit = parseInt(un) + 1;
   let nextUrl = null;
   if (le === 'boss') {
     nextUrl = null; // dopo il boss torna home
@@ -452,7 +438,7 @@ export default function LessonComplete({ reward, livello, unita, lezione, onHome
           : reward.menuCompleto
             ? <PopupMenuCompleto reward={reward} onBoss={handleBoss} />
             : reward.tipo === 'boss'
-              ? <PopupBossReward reward={reward} onHome={handleHome} />
+              ? <PopupBossReward reward={reward} onHome={handleHome} nextUnit={nextUnit} />
               : <PopupReward reward={reward} onContinua={handleContinua} onHome={handleHome} nextUrl={nextUrl} />
         }
       </div>
