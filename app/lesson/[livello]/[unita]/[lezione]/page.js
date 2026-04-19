@@ -105,9 +105,10 @@ function playSound(type) {
 
 function stableShuffle(arr, seed) {
   const a = [...arr.map((o, i) => ({ o, i }))];
-  const s = seed || 7;
+  let s = seed || 7;
   for (let i = a.length - 1; i > 0; i--) {
-    const j = (s * (i + 3) + i * 11) % (i + 1);
+    s = (s * 1664525 + 1013904223) & 0x7fffffff;
+    const j = s % (i + 1);
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
