@@ -296,8 +296,8 @@
       "contesto_it": "⚖️ Situazione.",
       "contesto_en": "Situation.",
       "domanda": {
-        "it": "Un chilo = ?",
-        "en": "«Un chilo» = ?"
+        "it": "Cosa si dice in questa situazione?",
+        "en": "What do you say in this situation?"
       },
       "opzioni": [
         {

@@ -64,7 +64,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Le 9 → Buongiorno! ☀️",
-        "en": "Yes! 9 AM → Buongiorno! ☀️"
+        "en": "Yes! 9 AM → Buongiorno!"
       },
       "feedbackErr": {
         "it": "Sono le 9 — mattina! La mattina → Buongiorno!",

@@ -87,7 +87,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Esatto! Buongiorno — la mattina! ☀️",
-        "en": "Correct! Buongiorno — in the morning! ☀️"
+        "en": "Correct! Buongiorno — in the morning!"
       },
       "feedbackErr": {
         "it": "La mattina si dice Buongiorno! Buono + giorno = buona giornata!",
@@ -232,7 +232,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Le 9 → Buongiorno! ☀️",
-        "en": "Yes! 9 AM → Buongiorno! ☀️"
+        "en": "Yes! 9 AM → Buongiorno!"
       },
       "feedbackErr": {
         "it": "Sono le 9 — è mattina! Mattina → Buongiorno!",

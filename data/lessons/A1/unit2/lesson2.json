@@ -306,7 +306,7 @@
       },
       "feedbackErr": {
         "it": "❌ Ciao, sono... / Buonanotte / Buonasera → ✅ Mi chiamo..., piacere\nCONTESTO FORMALE: \"Lei\" richiede \"Mi chiamo\" (non \"Sono\"), come \"What is your name?\" richiede \"My name is\" (non \"I'm\"). 🎓",
-        "en": "❌ Ciao, sono... / Buonanotte / Buonasera → ✅ Mi chiamo..., piacere\nFORMAL CONTEXT: \"Lei\" requires \"Mi chiamo\" (not \"Sono\"), like \"What is your name?\" requires \"My name is\" (not \"I'm\")."
+        "en": "Ciao, sono... / Buonanotte / Buonasera →  Mi chiamo..., piacere\nFORMAL CONTEXT: \"Lei\" requires \"Mi chiamo\" (not \"Sono\"), like \"What is your name?\" requires \"My name is\" (not \"I'm\")."
       }
     },
     {

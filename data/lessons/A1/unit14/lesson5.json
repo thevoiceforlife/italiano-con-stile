@@ -296,8 +296,8 @@
       "contesto_it": "🥶 Situazione.",
       "contesto_en": "Situation.",
       "domanda": {
-        "it": "Fa freddo = ?",
-        "en": "«Fa freddo» = ?"
+        "it": "Cosa si dice in questa situazione?",
+        "en": "What do you say in this situation?"
       },
       "opzioni": [
         {

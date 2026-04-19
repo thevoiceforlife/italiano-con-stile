@@ -292,8 +292,8 @@
       "contesto_it": "⛪ Situazione.",
       "contesto_en": "Situation.",
       "domanda": {
-        "it": "La chiesa = ?",
-        "en": "«La chiesa» = ?"
+        "it": "Cosa si dice in questa situazione?",
+        "en": "What do you say in this situation?"
       },
       "opzioni": [
         {

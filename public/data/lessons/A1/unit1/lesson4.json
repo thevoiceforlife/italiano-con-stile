@@ -61,7 +61,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Buongiorno — la mattina! ☀️",
-        "en": "Yes! Buongiorno — the morning! ☀️"
+        "en": "Yes! Buongiorno — the morning!"
       },
       "feedbackErr": {
         "it": "Era Buongiorno! Buono + giorno = good day!",

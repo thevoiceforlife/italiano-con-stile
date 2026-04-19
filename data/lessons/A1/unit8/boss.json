@@ -269,8 +269,8 @@
       "contesto_it": "🍕 La Nonna mostra la pizza.",
       "contesto_en": "Nonna shows the pizza.",
       "domanda": {
-        "it": "«La pizza» = ?",
-        "en": "«La pizza» = ?"
+        "it": "Cosa si dice in questa situazione?",
+        "en": "What do you say in this situation?"
       },
       "opzioni": [
         {

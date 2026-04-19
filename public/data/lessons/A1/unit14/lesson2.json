@@ -196,8 +196,8 @@
         "en": "Excellent!"
       },
       "feedbackErr": {
-        "it": "Quasi!",
-        "en": "Almost!"
+        "it": "❌  → ✅ \nGuarda il contesto — la situazione indica !",
+        "en": "→  \nLook at the context — the situation points to !"
       }
     },
     {

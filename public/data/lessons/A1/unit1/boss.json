@@ -73,7 +73,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "La Nonna sorride! Le 9 → Buongiorno! ☀️",
-        "en": "Nonna smiles! 9 AM → Buongiorno! ☀️"
+        "en": "Nonna smiles! 9 AM → Buongiorno!"
       },
       "feedbackErr": {
         "it": "Le 9 di mattina → Buongiorno! La mattina si apre così!",

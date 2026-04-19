@@ -50,7 +50,7 @@
       "correct": 0,
       "feedbackOk": {
         "it": "Sì! Le 8 → Buongiorno! ☀️",
-        "en": "Yes! 8 AM → Buongiorno! ☀️"
+        "en": "Yes! 8 AM → Buongiorno!"
       },
       "feedbackErr": {
         "it": "Le 8 → Buongiorno! Mattina!",
@@ -91,7 +91,7 @@
       },
       "feedbackErr": {
         "it": "❌ Per favore/Buongiorno → ✅ Piacere\nCONTESTO DI SALUTO: \"Piacere\" è per le presentazioni, come \"Nice to meet you\" (non \"Please\" o \"Good morning\"). 🤝",
-        "en": "❌ Per favore/Buongiorno → ✅ Piacere\nGREETING CONTEXT: \"Piacere\" is for introductions, like \"Nice to meet you\" (not \"Please\" or \"Good morning\")."
+        "en": "Per favore/Buongiorno →  Piacere\nGREETING CONTEXT: \"Piacere\" is for introductions, like \"Nice to meet you\" (not \"Please\" or \"Good morning\")."
       }
     },
     {
@@ -268,7 +268,7 @@
       },
       "feedbackErr": {
         "it": "❌ Buongiorno/Buonanotte → ✅ Buonasera!\nALLE 19:00 È SERA, non mattina o notte (come \"Good evening\" alle 7 PM, non \"Good morning/night\").",
-        "en": "❌ Buongiorno/Buonanotte → ✅ Buonasera!\nAT 7 PM IT'S EVENING, not morning or night (like \"Good evening\" at 7 PM, not \"Good morning/night\")."
+        "en": "Buongiorno/Buonanotte →  Buonasera!\nAT 7 PM IT'S EVENING, not morning or night (like \"Good evening\" at 7 PM, not \"Good morning/night\")."
       }
     },
     {
@@ -305,7 +305,7 @@
       },
       "feedbackErr": {
         "it": "❌ Buongiorno/Piacere → ✅ Arrivederci!\nARRIVEDERCI = until we see each other again — si usa quando si LASCIA qualcuno. Il bar chiude → si saluta! 👋",
-        "en": "❌ Buongiorno/Piacere → ✅ Arrivederci!\nARRIVEDERCI = until we see each other again — use it when LEAVING. The bar closes → time to say goodbye!"
+        "en": "Buongiorno/Piacere →  Arrivederci!\nARRIVEDERCI = until we see each other again — use it when LEAVING. The bar closes → time to say goodbye!"
       }
     },
     {
