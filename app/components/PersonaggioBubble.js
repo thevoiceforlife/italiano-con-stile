@@ -34,6 +34,9 @@ export default function PersonaggioBubble({
   const cleanIT = String(textIT || "").trim();
   let cleanEN = String(textEN || "").trim();
   if (cleanEN === "undefined" || cleanEN === "null") cleanEN = "";
+  // Nascondi EN se identico a IT (evita duplicazione visiva)
+  const normBi = s => s.trim().replace(/[!.?«»"""\u200b]+/g, '').replace(/\s+/g, ' ').toLowerCase();
+  if (cleanEN && cleanIT && normBi(cleanIT) === normBi(cleanEN)) cleanEN = "";
 
   // ── Stato TTS + typewriter ──────────────────────────────────────────────
   const [isSpeaking, setIsSpeaking] = useState(false);

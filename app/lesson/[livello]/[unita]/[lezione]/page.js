@@ -131,6 +131,13 @@ const CHAR_COLOR = {
 };
 
 
+// Nasconde EN se identico a IT (normalizzato): evita duplicazioni visive
+function shouldRenderEN(it, en) {
+  if (!en || !it) return false;
+  const normalize = s => s.trim().replace(/[!.?«»"""\u200b]+/g, '').replace(/\s+/g, ' ').toLowerCase();
+  return normalize(it) !== normalize(en);
+}
+
 // Converte «termine» → testo con guillemet «...» per evidenziare termini IT in testo bilingue
 
 // Pronuncia l'opzione solo se è testo italiano (it !== en)
@@ -211,7 +218,9 @@ function QBox({ q }) {
       <div className="q-card__it">
         <FraseAnnotata testo={domandaIT} annotazioni={q.annotazioni_domanda || []} />
       </div>
-      <div className="q-card__en">{renderText(q.domanda?.en || "")}</div>
+      {shouldRenderEN(domandaIT, q.domanda?.en) && (
+        <div className="q-card__en">{renderText(q.domanda?.en || "")}</div>
+      )}
       {domandaIT && (
         <span aria-hidden="true" style={{ position: "absolute", bottom: 6, right: 8, fontSize: 11, opacity: 0.55, pointerEvents: "none" }}>🔊</span>
       )}
@@ -238,9 +247,11 @@ function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
         <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.4 }}>
           {isCorrect ? feedbackOk?.it : feedbackErr?.it}
         </div>
-        <div style={{ fontSize: 10, color: "var(--text3)", fontStyle: "italic", marginTop: 1, lineHeight: 1.3 }}>
-          {stripEmoji(isCorrect ? feedbackOk?.en : feedbackErr?.en)}
-        </div>
+        {shouldRenderEN(isCorrect ? feedbackOk?.it : feedbackErr?.it, isCorrect ? feedbackOk?.en : feedbackErr?.en) && (
+          <div style={{ fontSize: 10, color: "var(--text3)", fontStyle: "italic", marginTop: 1, lineHeight: 1.3 }}>
+            {stripEmoji(isCorrect ? feedbackOk?.en : feedbackErr?.en)}
+          </div>
+        )}
       </div>
       <button onClick={onNext} className="btn-cta btn-primary" style={{
         background: isCorrect ? "var(--green)" : "var(--accent)",
@@ -298,7 +309,7 @@ function DomandaMultipla({ q, onAnswer }) {
               <div style={{ fontSize: 13, color: "#E5B700", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.05em", marginBottom: 6 }}>⚠️ Falso amico · False friend</div>
             )}
             <div className="q-card__it">{q.domanda.it}</div>
-            <div className="q-card__en">{stripLeadingEmoji(q.domanda?.en, q.domanda?.it)}</div>
+            {shouldRenderEN(q.domanda?.it, q.domanda?.en) && <div className="q-card__en">{stripLeadingEmoji(q.domanda?.en, q.domanda?.it)}</div>}
             <div style={{ background: "var(--bg)", borderRadius: 8, padding: "8px 11px", marginTop: 10 }}>
               <div style={{ fontSize: 16, fontStyle: "italic", color: "var(--text)" }}>{q.contesto_it}</div>
               {q.contesto_en && q.contesto_en !== q.contesto_it && (
@@ -817,7 +828,6 @@ function DomandaAbbina({ q, onAnswer }) {
     <>
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={allMatched ? "ok" : null} pulseUntilClick={!allMatched} />
-        <QBox q={q} />
         <div style={{ display: "flex", flexDirection: "column", gap: 10, width: "100%" }}>
           {shuffIT.current.map((cIT, i) => {
             const cEN = shuffEN.current[i];
