@@ -70,26 +70,26 @@
           "en": "My name is ..., nice to meet you!"
         },
         {
-          "it": "Ho ...",
-          "en": "I have ..."
+          "it": "Sono di ..., piacere!",
+          "en": "I am from ..., nice to meet you!"
         },
         {
-          "it": "Vorrei un caffè.",
-          "en": "I would like a coffee."
+          "it": "Ho ... anni.",
+          "en": "I am ... years old."
         },
         {
-          "it": "Il conto!",
-          "en": "The bill!"
+          "it": "Lavoro come ...",
+          "en": "I work as ..."
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "La Nonna sorride! Ottima presentazione!",
-        "en": "Nonna smiles! Excellent introduction!"
+        "it": "La Nonna sorride! MI CHIAMO + PIACERE — presentazione perfetta! 🙋",
+        "en": "Nonna smiles! MI CHIAMO + PIACERE — perfect introduction!"
       },
       "feedbackErr": {
-        "it": "Mi chiamo ..., piacere! — così ci si presenta!",
-        "en": "Mi chiamo ..., piacere! — that is how you introduce yourself!"
+        "it": "❌ Sono di.../Ho...anni → ✅ Mi chiamo ..., piacere!\nPER IL NOME usa MI CHIAMO, non Sono di (origine) o Ho (età)!",
+        "en": "Sono di.../Ho...anni → Mi chiamo ..., piacere!\nFor your NAME use MI CHIAMO, not Sono di (origin) or Ho (age)!"
       }
     },
     {
@@ -179,26 +179,26 @@
           "en": "Nice to meet you Marco! My name is ..."
         },
         {
-          "it": "Il conto!",
-          "en": "The bill!"
+          "it": "Ciao Marco! Grazie!",
+          "en": "Hi Marco! Thank you!"
         },
         {
-          "it": "Dov'è Marco?",
-          "en": "Where is Marco?"
+          "it": "Buongiorno Marco! Ho ... anni.",
+          "en": "Good morning Marco! I am ... years old."
         },
         {
-          "it": "Ho Marco.",
-          "en": "I have Marco."
+          "it": "Arrivederci Marco!",
+          "en": "Goodbye Marco!"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Piacere + mi chiamo — una formula molto comune per presentarsi!",
-        "en": "Piacere + mi chiamo — a very common formula for introductions!"
+        "it": "Piacere + mi chiamo — la presentazione completa! 🤝",
+        "en": "Piacere + mi chiamo — the complete introduction!"
       },
       "feedbackErr": {
-        "it": "Piacere + mi chiamo — una formula molto comune per presentarsi!",
-        "en": "Piacere + mi chiamo — a very common formula for introductions!"
+        "it": "❌ Ciao/Arrivederci → ✅ Piacere Marco! Mi chiamo ...\nPRIMO INCONTRO = PIACERE + MI CHIAMO, non un saluto generico!",
+        "en": "Ciao/Arrivederci → Piacere Marco! Mi chiamo ...\nFIRST MEETING = PIACERE + MI CHIAMO, not a generic greeting!"
       }
     },
     {
@@ -290,26 +290,26 @@
       },
       "opzioni": [
         {
+          "it": "Grazie!",
+          "en": "Thank you!"
+        },
+        {
           "it": "Piacere!",
           "en": "Nice to meet you!"
         },
         {
           "it": "Buongiorno!",
           "en": "Good morning!"
-        },
-        {
-          "it": "Ciao!",
-          "en": "Hello!"
         }
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "La Nonna è felicissima! Accettare è un gesto di calore in Italia.",
-        "en": "Nonna is so happy! Accepting is a warm gesture in Italy."
+        "it": "La Nonna è felicissima! Grazie accetta il dolce — un gesto di calore! 🍰",
+        "en": "Nonna is so happy! Grazie accepts the dessert — a warm gesture!"
       },
       "feedbackErr": {
-        "it": "Accettare il cibo offerto è un gesto di gentilezza molto apprezzato in Italia.",
-        "en": "Accepting offered food is a very appreciated gesture of kindness in Italy."
+        "it": "❌ Piacere/Buongiorno → ✅ Grazie!\nGRAZIE ACCETTA, PIACERE PRESENTA — sono momenti diversi!",
+        "en": "Piacere/Buongiorno → Grazie!\nGRAZIE accepts; PIACERE introduces — different moments!"
       }
     },
     {

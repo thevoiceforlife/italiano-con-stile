@@ -262,8 +262,8 @@
       "fase": "produzione",
       "introIT": "Ultima — la Nonna aspetta!",
       "intro_en": "Last one — Nonna is waiting!",
-      "contesto_it": "🧾 Hai finito il caffè. Vuoi pagare la Nonna.",
-      "contesto_en": "You finished your coffee. You want to pay Nonna.",
+      "contesto_it": "🧾 Sei al bar. Hai finito il caffè.",
+      "contesto_en": "You are at the cafe. You have finished your coffee.",
       "domanda": {
         "it": "Cosa dici?",
         "en": "What do you say?"

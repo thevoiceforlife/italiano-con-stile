@@ -70,7 +70,7 @@ context_types:
       - 'rifiuti'
       - 'un caffè'
       - 'il dolce'
-    allowed_answer_types: [accettazione, rifiuto]
+    allowed_answer_types: [accettazione, rifiuto, ordinazione]
 
   richiesta_azione:
     description: "Domanda su cosa fa l'utente, senza oggetto offerto dall'interlocutore"
