@@ -2,7 +2,7 @@
 # Consumato da scripts/validate-lessons.py per il check context↔answer
 # Vedi docs/bibbia-tecnica.md, sezione "Coerenza semantica"
 
-version: 1
+version: 2
 level: A1
 
 context_types:
@@ -15,7 +15,25 @@ context_types:
       - 'saluta'
       - 'al mattino'
       - 'di sera'
+      - 'la mattina'
+      - 'la sera'
+      - 'di notte'
+      - 'apre'
+      - 'chiude'
+      - 'lascia'
+      - 'se ne va'
     allowed_answer_types: [saluto]
+
+  primo_incontro:
+    description: "Presentazione tra persone che non si conoscono"
+    trigger_patterns:
+      - 'per la prima volta'
+      - 'primo incontro'
+      - 'ti presenta'
+      - 'presenti'
+      - 'conosci'
+      - 'non conosce'
+    allowed_answer_types: [formula_presentazione, presentazione_nome]
 
   richiesta_nome:
     description: "Qualcuno chiede il nome dell'utente"
@@ -69,6 +87,11 @@ context_types:
       - '_{3,}'
     allowed_answer_types: [match_grammaticale_slot]
 
+  abbina_coppia:
+    description: "Question type match-pairs, senza context semantico testuale"
+    is_structural: true
+    allowed_answer_types: [match_pair]
+
   traduzione:
     description: "Chiede significato o traduzione di un termine"
     trigger_patterns:
@@ -80,6 +103,10 @@ context_types:
 answer_types:
   saluto:
     members: [Buongiorno, Buonasera, Buonanotte, Ciao, Arrivederci, Salve]
+  formula_presentazione:
+    members: [Piacere, "Molto piacere", "Piacere mio"]
+    member_patterns:
+      - '^Piacere'
   presentazione_nome:
     member_patterns:
       - '^Mi chiamo '
@@ -99,5 +126,7 @@ answer_types:
       - '^(Mangio|Bevo|Prendo|Vado|Torno|Studio|Lavoro|Leggo|Scrivo)'
   match_grammaticale_slot:
     note: "Non validabile via members; check delegato alla logica del validator"
+  match_pair:
+    note: "Struttura a coppie; validazione delegata al validator"
   equivalente_semantico:
     note: "Variabile per termine; check delegato alla logica del validator"
