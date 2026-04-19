@@ -300,16 +300,12 @@
       ],
       "correct": 0,
       "feedbackOk": {
-        "it": "Esatto! Arrivederci! 👋\nIl saluto per dire addio, come \"goodbye\" in inglese.",
-        "en": "Correct! Arrivederci!\nThe farewell greeting, like saying goodbye when leaving.",
-        "feedbackErr": {
-          "it": "❌ Buongiorno/Piacere → ✅ Arrivederci\nSALUTO DI COMMIATO, non di incontro — come \"goodbye\" vs \"hello\"! 👋",
-          "en": "Buongiorno/Piacere → Arrivederci\nFAREWELL GREETING, not a meeting greeting — like goodbye vs hello."
-        }
+        "it": "Esatto! ✅ Hai sentito **Arrivederci** (Goodbye). Il barista saluta i clienti perché il bar sta chiudendo. 'Arrivederci' si usa per salutare quando ci si separa, proprio come 'goodbye' in inglese! 👋",
+        "en": "Correct! You heard **Arrivederci** (Goodbye). The bartender is saying goodbye to customers because the bar is closing. 'Arrivederci' is used when parting ways, just like 'goodbye' in English!"
       },
       "feedbackErr": {
-        "it": "Era Arrivederci!",
-        "en": "It was Arrivederci!"
+        "it": "❌ **{{user_answer}}** → ✅ **Arrivederci**\n\nHai sentito 'Arrivederci' (Goodbye). Il barista saluta i clienti alle 20 perché il bar chiude. Ricorda: 'Arrivederci' = 'goodbye' in inglese, si usa per congedarsi. La 'ci' finale si pronuncia come 'chi' in 'amici'. 👋",
+        "en": "Incorrect. **{{user_answer}}** → **Arrivederci** (Goodbye)\n\nYou heard 'Arrivederci'. The bartender is saying goodbye to customers at 8 PM because the bar is closing. Remember: 'Arrivederci' = 'goodbye', used when parting ways. The 'ci' at the end sounds like 'chee' in 'cheese'."
       }
     },
     {
