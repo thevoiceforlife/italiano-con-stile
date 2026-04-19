@@ -103,6 +103,11 @@ function playSound(type) {
   } catch (e) {}
 }
 
+function stripEmoji(str) {
+  if (!str) return str;
+  return str.replace(/[\u{1F000}-\u{1FFFF}\u{2600}-\u{27FF}\u{2300}-\u{23FF}\u{FE00}-\u{FE0F}]+/gu, '').trim();
+}
+
 function stableShuffle(arr, seed) {
   const a = [...arr.map((o, i) => ({ o, i }))];
   let s = seed || 7;
@@ -209,7 +214,7 @@ function FeedbackBar({ isCorrect, feedbackOk, feedbackErr, onNext }) {
           {isCorrect ? feedbackOk?.it : feedbackErr?.it}
         </div>
         <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>
-          {isCorrect ? feedbackOk?.en : feedbackErr?.en}
+          {stripEmoji(isCorrect ? feedbackOk?.en : feedbackErr?.en)}
         </div>
       </div>
       <button onClick={onNext} className="btn-cta btn-primary" style={{
@@ -927,7 +932,7 @@ function DomandaAbbina({ q, onAnswer }) {
             <div style={{ fontSize: 13, fontWeight: 700, color: "var(--green)" }}>✅ Esatto! · Correct!</div>
             <div style={{ fontSize: 12, color: "var(--text2)", lineHeight: 1.5, marginTop: 3 }}>{q.feedbackOk?.it}</div>
             {q.feedbackOk?.en && (
-              <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>{q.feedbackOk?.en}</div>
+              <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2, lineHeight: 1.5 }}>{stripEmoji(q.feedbackOk?.en)}</div>
             )}
           </div>
         )}
