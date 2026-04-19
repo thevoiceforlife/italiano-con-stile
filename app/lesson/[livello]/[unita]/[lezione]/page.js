@@ -446,64 +446,58 @@ function DomandaAscolta({ q, onAnswer }) {
       <div className="app-body">
         <PersonaggioBubble character={q.personaggio} textIT={intro.it} textEN={intro.en} feedback={confirmed ? (isCorrect ? "ok" : "err") : null} pulseUntilClick={!confirmed} />
 
-        {/* AUDIO BAR — pulsante principale + pulsante lento */}
-        <div style={{ display: "flex", gap: 8, marginBottom: 12 }}>
-          <button onClick={() => playAudio(false)} style={{
-            flex: 1,
-            background: "var(--bg-el)",
-            border: "1.5px solid var(--border-blue)",
-            borderRadius: "var(--r)",
-            padding: 14,
-            display: "flex", alignItems: "center", gap: 10,
-            cursor: "pointer",
-            fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
-          }}>
+        {/* AUDIO BAR — pulsanti + testo rivelato integrato */}
+        <div style={{
+          background: "var(--bg-card)", border: "1.5px solid var(--border-accent)",
+          borderRadius: "var(--r)", marginBottom: 12,
+          display: "flex", flexDirection: "column",
+        }}>
+          <div style={{ display: "flex", gap: 8, padding: "10px 12px" }}>
+            <button onClick={() => playAudio(false)} style={{
+              flex: 1,
+              background: "var(--bg-el)",
+              border: "1.5px solid var(--border-blue)",
+              borderRadius: "var(--r)",
+              padding: 14,
+              display: "flex", alignItems: "center", gap: 10,
+              cursor: "pointer",
+              fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+            }}>
+              <div style={{
+                width: 40, height: 40, borderRadius: "50%",
+                background: "rgba(28,176,246,0.15)", fontSize: 20,
+                display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+              }}>🔊</div>
+              <div style={{ textAlign: "left" }}>
+                <div style={{ fontSize: 13, fontWeight: 700, color: "var(--blue)" }}>Ascolta</div>
+                <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>Listen</div>
+              </div>
+            </button>
+            <button onClick={() => playAudio(true)} style={{
+              background: "var(--bg-el)",
+              border: "1.5px solid var(--border-soft)",
+              borderRadius: "var(--r)",
+              padding: "12px 10px",
+              display: "flex", flexDirection: "column", alignItems: "center", gap: 3,
+              minWidth: 60, cursor: "pointer",
+              fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
+            }}>
+              <span style={{ fontSize: 16 }}>🐢</span>
+              <span style={{ fontSize: 9, color: "var(--text3)", fontWeight: 700 }}>LENTO</span>
+            </button>
+          </div>
+          {hasListened && (
             <div style={{
-              width: 40, height: 40, borderRadius: "50%",
-              background: "rgba(28,176,246,0.15)", fontSize: 20,
-              display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
-            }}>🔊</div>
-            <div style={{ textAlign: "left" }}>
-              <div style={{ fontSize: 13, fontWeight: 700, color: "var(--blue)" }}>Ascolta</div>
-              <div style={{ fontSize: 11, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>Listen</div>
+              borderTop: "1px solid var(--border-soft)",
+              padding: "10px 12px", textAlign: "center",
+            }}>
+              <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>"{audioText}"</div>
+              {q.audio_en && (
+                <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>"{q.audio_en}"</div>
+              )}
             </div>
-          </button>
-          <button onClick={() => playAudio(true)} style={{
-            background: "var(--bg-el)",
-            border: "1.5px solid var(--border-soft)",
-            borderRadius: "var(--r)",
-            padding: "12px 10px",
-            display: "flex", flexDirection: "column", alignItems: "center", gap: 3,
-            minWidth: 60, cursor: "pointer",
-            fontFamily: "inherit", textTransform: "none", letterSpacing: "normal",
-          }}>
-            <span style={{ fontSize: 16 }}>🐢</span>
-            <span style={{ fontSize: 9, color: "var(--text3)", fontWeight: 700 }}>LENTO</span>
-          </button>
+          )}
         </div>
-
-        {/* RISULTATO AUDIO — mostra frase IT + EN dopo il primo click */}
-        {hasListened ? (
-          <div style={{
-            background: "var(--bg-deep)", borderRadius: 10,
-            padding: "10px 12px", marginBottom: 12, textAlign: "center",
-          }}>
-            <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>"{audioText}"</div>
-            {q.audio_en && (
-              <div style={{ fontSize: 12, color: "var(--text3)", fontStyle: "italic", marginTop: 2 }}>"{q.audio_en}"</div>
-            )}
-          </div>
-        ) : (
-          <div style={{
-            background: "var(--bg-deep)", borderRadius: 10,
-            padding: "10px 12px", marginBottom: 12, textAlign: "center",
-          }}>
-            <div style={{ fontSize: 13, color: "var(--text3)", fontStyle: "italic" }}>
-              Clicca 🔊 per ascoltare<br/>
-              <span style={{ fontSize: 11 }}>Click to listen</span>
-            </div>
-          </div>
-        )}
 
         {/* DOMANDA */}
         <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)", marginBottom: 4 }}>{q.domanda.it}</div>
