@@ -1,0 +1,1049 @@
+{
+  "unit": 1,
+  "generated_at": "2026-04-19T14:31:30.004495",
+  "taxonomy_version": 1,
+  "summary": {
+    "total_questions": 49,
+    "high_confidence": 18,
+    "needs_review": 31,
+    "mismatches": 0
+  },
+  "questions": [
+    {
+      "session": "boss",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "tap_right",
+      "context": "☀️ Sono le 9 di mattina",
+      "prompt": "La Nonna ti accoglie. Cosa dici? Vediamo cosa hai imparato!",
+      "options": [
+        "Buongiorno!",
+        "Arrivederci!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "boss",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "tap_right",
+      "context": "🤝 Incontri l'amica della Nonna",
+      "prompt": "Cosa dici alla nuova persona? La Nonna ti presenta a qualcuno!",
+      "options": [
+        "Piacere!",
+        "Arrivederci!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "boss",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "fill_blank",
+      "context": "Mi _____ Sofia.",
+      "prompt": " La Nonna vuole sapere il tuo nome!",
+      "options": [
+        "chiamo",
+        "sono",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "richiesta_nome",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.5,
+      "notes": "3 option(s) unclassified: ['chiamo', 'sono', 'ho']"
+    },
+    {
+      "session": "boss",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "fill_blank",
+      "context": "Sono _____ Londra.",
+      "prompt": " La Nonna è curiosa!",
+      "options": [
+        "di",
+        "mi",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "boss",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "ascolta_scegli",
+      "context": "Di dove sei",
+      "prompt": "Cosa ti ha chiesto la Nonna? La Nonna parla — ascolta!",
+      "options": [
+        "La tua origine",
+        "Il tuo nome",
+        "Come stai"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "richiesta_origine",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.5,
+      "notes": "3 option(s) unclassified: ['La tua origine', 'Il tuo nome', 'Come stai']"
+    },
+    {
+      "session": "boss",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "tap_right",
+      "context": "🌆 Sono le 20:00",
+      "prompt": "La Nonna ti saluta. Come rispondi? Quasi finito!",
+      "options": [
+        "Buonasera!",
+        "Buongiorno!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "boss",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "fill_blank",
+      "context": "Piacere! Mi chiamo Sofia. Sono _____ Londra.",
+      "prompt": " Ultima domanda della Nonna!",
+      "options": [
+        "di",
+        "mi",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson1",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Mario apre il bar la mattina. Cosa dice? Iniziamo!",
+      "options": [
+        "Buongiorno!",
+        "Arrivederci!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mario apre il bar la mattina. Cosa dice? Iniziamo!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Mario chiude il bar. Cosa dice ai clienti? Facile!",
+      "options": [
+        "Arrivederci!",
+        "Piacere!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "saluto",
+        "unknown",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mario chiude il bar. Cosa dice ai clienti? Facile!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Oliver incontra Mario per la prima volta. Cosa dice? Oliver entra al bar!",
+      "options": [
+        "Piacere!",
+        "Arrivederci!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Oliver incontra Mario per la prima volta. Cosa dice? Oliver entra al bar!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "abbina_coppia",
+      "context": null,
+      "prompt": "Abbina ogni parola italiana alla situazione giusta. Abbina le parole!",
+      "options": [],
+      "option_types": [],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Abbina ogni parola italiana alla situazione giusta. Abbina le parole!'"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Sono le 9 di mattina. Entri al bar. Cosa dici? Situazione!",
+      "options": [
+        "Buongiorno!",
+        "Arrivederci!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "lesson1",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Oliver lascia il bar. Cosa dice a Mario? Oliver se ne va!",
+      "options": [
+        "Arrivederci!",
+        "Buongiorno!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Oliver lascia il bar. Cosa dice a Mario? Oliver se ne va!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "tap_right",
+      "context": "🤝 Mario presenta Oliver al Prof. Gino",
+      "prompt": "Oliver incontra Gino per la prima volta. Tocca subito!",
+      "options": [
+        "Piacere!",
+        "Buongiorno!",
+        "Arrivederci!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: '🤝 Mario presenta Oliver al Prof. Gino Oliver incontra Gino per la prima volta. T'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson1",
+      "question_index": 7,
+      "question_id": "q8",
+      "type": "tap_right",
+      "context": "🌆 Sono le 20:00 — il bar chiude",
+      "prompt": "Mario saluta i clienti. Cosa dice? Ultima — ce la fai!",
+      "options": [
+        "Arrivederci!",
+        "Piacere!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "saluto",
+        "unknown",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "lesson2",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Mario vuole dire il suo nome. Cosa dice? Mario si presenta!",
+      "options": [
+        "Mi chiamo Mario.",
+        "Buongiorno Mario.",
+        "Piacere Mario."
+      ],
+      "option_types": [
+        "presentazione_nome",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "presentazione_nome",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mario vuole dire il suo nome. Cosa dice? Mario si presenta!'; 2 option(s) unclassified: ['Buongiorno Mario.', 'Piacere Mario.']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Mario vuole sapere da dove viene Oliver. Cosa chiede? Mario è curioso!",
+      "options": [
+        "Di dove sei?",
+        "Arrivederci!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mario vuole sapere da dove viene Oliver. Cosa chiede? Mario è curioso!'; 1 option(s) unclassified: ['Di dove sei?']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Mario chiede da dove viene Oliver. Quale frase usa Mario? Oliver risponde!",
+      "options": [
+        "Di dove sei?",
+        "Mi chiamo...?",
+        "Piacere!"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mario chiede da dove viene Oliver. Quale frase usa Mario? Oliver risponde!'; 3 option(s) unclassified: ['Di dove sei?', 'Mi chiamo...?', 'Piacere!']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Oliver è di Londra. Come risponde? Oliver risponde a Mario!",
+      "options": [
+        "Sono di Londra.",
+        "Mi chiamo Londra.",
+        "Piacere Londra."
+      ],
+      "option_types": [
+        "presentazione_nome",
+        "presentazione_nome",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "presentazione_nome",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Oliver è di Londra. Come risponde? Oliver risponde a Mario!'; 1 option(s) unclassified: ['Piacere Londra.']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "vero_falso",
+      "context": null,
+      "prompt": "Sono di Milano. — Questa frase dice da dove vengo. Vero o falso?",
+      "options": [],
+      "option_types": [],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Sono di Milano. — Questa frase dice da dove vengo. Vero o falso?'"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "multipla",
+      "context": null,
+      "prompt": "Oliver si presenta a Gino. Cosa dice Oliver? Presentazione completa!",
+      "options": [
+        "Piacere, sono di Londra.",
+        "Arrivederci, mi chiamo Oliver.",
+        "Buongiorno, di dove sei?"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Oliver si presenta a Gino. Cosa dice Oliver? Presentazione completa!'; 3 option(s) unclassified: ['Piacere, sono di Londra.', 'Arrivederci, mi chiamo Oliver.', 'Buongiorno, di dove sei?']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "tap_right",
+      "context": "🙋 Ti presenti al bar di Mario",
+      "prompt": "Vuoi dire da dove vieni. Quale frase usi? Completa la presentazione!",
+      "options": [
+        "Sono di...",
+        "Mi chiamo...",
+        "Di dove sei?"
+      ],
+      "option_types": [
+        "presentazione_nome",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "richiesta_origine",
+      "inferred_expected_answer_type": "presentazione_nome",
+      "confidence": 0.5,
+      "notes": "2 option(s) unclassified: ['Mi chiamo...', 'Di dove sei?']"
+    },
+    {
+      "session": "lesson2",
+      "question_index": 7,
+      "question_id": "q8",
+      "type": "abbina_coppia",
+      "context": null,
+      "prompt": "Abbina la situazione alla frase giusta. Abbina tutto!",
+      "options": [],
+      "option_types": [],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Abbina la situazione alla frase giusta. Abbina tutto!'"
+    },
+    {
+      "session": "lesson3",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "tap_right",
+      "context": "☀️ Sono le 9:00",
+      "prompt": "Entri al bar. Cosa dici a Mario? Situazione!",
+      "options": [
+        "Buongiorno!",
+        "Arrivederci!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "lesson3",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "tap_right",
+      "context": "🤝 Incontri Sofia per la prima volta",
+      "prompt": "Cosa dici a Sofia? Ancora!",
+      "options": [
+        "Piacere!",
+        "Arrivederci!",
+        "Buongiorno!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.9
+    },
+    {
+      "session": "lesson3",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "fill_blank",
+      "context": "_____, mi chiamo Mario!",
+      "prompt": " Inserisci la parola mancante!",
+      "options": [
+        "Piacere",
+        "Arrivederci",
+        "Buonanotte"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson3",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "fill_blank",
+      "context": "Sono _____ Napoli.",
+      "prompt": " Ancora un buco!",
+      "options": [
+        "di",
+        "mi",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson3",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "tap_right",
+      "context": "🌆 Sono le 20:00",
+      "prompt": "Entri al ristorante. Cosa dici? Situazione reale!",
+      "options": [
+        "Buonasera!",
+        "Buongiorno!",
+        "Arrivederci!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 1.0
+    },
+    {
+      "session": "lesson3",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "fill_blank",
+      "context": "Mi _____ Sofia.",
+      "prompt": " Come rispondi?",
+      "options": [
+        "chiamo",
+        "sono",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson3",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "tap_right",
+      "context": "🏥 Sei dal dottore",
+      "prompt": "Come saluti il dottore? Situazione formale!",
+      "options": [
+        "Buongiorno!",
+        "Ciao!",
+        "Piacere!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: '🏥 Sei dal dottore Come saluti il dottore? Situazione formale!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson3",
+      "question_index": 7,
+      "question_id": "q8",
+      "type": "fill_blank",
+      "context": "_____ di dove sei?",
+      "prompt": " Ultima sfida!",
+      "options": [
+        "E",
+        "Mi",
+        "Ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "richiesta_origine",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.5,
+      "notes": "3 option(s) unclassified: ['E', 'Mi', 'Ho']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "ascolta_scegli",
+      "context": "Buongiorno",
+      "prompt": "Cosa hai sentito? Ascolta e scegli!",
+      "options": [
+        "Buongiorno",
+        "Buonasera",
+        "Arrivederci"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Buongiorno Cosa hai sentito? Ascolta e scegli!'"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "ascolta_scegli",
+      "context": "Arrivederci",
+      "prompt": "Cosa ha detto Mario? Ancora — ascolta!",
+      "options": [
+        "Arrivederci",
+        "Piacere",
+        "Buongiorno"
+      ],
+      "option_types": [
+        "saluto",
+        "unknown",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Arrivederci Cosa ha detto Mario? Ancora — ascolta!'; 1 option(s) unclassified: ['Piacere']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "ascolta_scegli",
+      "context": "Piacere",
+      "prompt": "Quale parola hai sentito? Concentrati!",
+      "options": [
+        "Piacere",
+        "Per favore",
+        "Buongiorno"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Piacere Quale parola hai sentito? Concentrati!'; 2 option(s) unclassified: ['Piacere', 'Per favore']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "ascolta_scegli",
+      "context": "Mi chiamo Mario",
+      "prompt": "Cosa sta dicendo Mario? Frase intera!",
+      "options": [
+        "Si sta presentando",
+        "Sta salutando",
+        "Sta chiedendo il nome"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Mi chiamo Mario Cosa sta dicendo Mario? Frase intera!'; 3 option(s) unclassified: ['Si sta presentando', 'Sta salutando', 'Sta chiedendo il nome']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "ascolta_scegli",
+      "context": "Sono di Napoli",
+      "prompt": "Cosa sta dicendo Mario? Ascolta bene!",
+      "options": [
+        "Dice da dove viene",
+        "Dice il suo nome",
+        "Sta salutando"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Sono di Napoli Cosa sta dicendo Mario? Ascolta bene!'; 3 option(s) unclassified: ['Dice da dove viene', 'Dice il suo nome', 'Sta salutando']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "ascolta_scegli",
+      "context": "Di dove sei",
+      "prompt": "Mario ti ha chiesto...? Situazione!",
+      "options": [
+        "Da dove vieni",
+        "Il tuo nome",
+        "Come stai"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "richiesta_origine",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.5,
+      "notes": "3 option(s) unclassified: ['Da dove vieni', 'Il tuo nome', 'Come stai']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "ascolta_scegli",
+      "context": "Piacere mi chiamo Sofia",
+      "prompt": "Quante informazioni ha dato Sofia? Ascolta e rispondi!",
+      "options": [
+        "Due — saluto e nome",
+        "Una sola",
+        "Tre"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Piacere mi chiamo Sofia Quante informazioni ha dato Sofia? Ascolta e rispondi!'; 3 option(s) unclassified: ['Due — saluto e nome', 'Una sola', 'Tre']"
+    },
+    {
+      "session": "lesson4",
+      "question_index": 7,
+      "question_id": "q8",
+      "type": "ascolta_scegli",
+      "context": "Buonasera piacere sono di Londra",
+      "prompt": "Quante informazioni hai sentito? Ultima — ce la fai!",
+      "options": [
+        "Tre — saluto, presentazione e origine",
+        "Una",
+        "Due"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Buonasera piacere sono di Londra Quante informazioni hai sentito? Ultima — ce la'; 3 option(s) unclassified: ['Tre — saluto, presentazione e origine', 'Una', 'Due']"
+    },
+    {
+      "session": "lesson5",
+      "question_index": 0,
+      "question_id": "q1",
+      "type": "tap_right",
+      "context": "☀️ Sono le 8:00",
+      "prompt": "Cosa dici? Veloce!",
+      "options": [
+        "Buongiorno!",
+        "Buonasera!",
+        "Arrivederci!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 1.0
+    },
+    {
+      "session": "lesson5",
+      "question_index": 1,
+      "question_id": "q2",
+      "type": "ascolta_scegli",
+      "context": "Piacere",
+      "prompt": "Cosa hai sentito? Ascolta!",
+      "options": [
+        "Piacere",
+        "Per favore",
+        "Buongiorno"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Piacere Cosa hai sentito? Ascolta!'; 2 option(s) unclassified: ['Piacere', 'Per favore']"
+    },
+    {
+      "session": "lesson5",
+      "question_index": 2,
+      "question_id": "q3",
+      "type": "fill_blank",
+      "context": "Mi _____ Mario.",
+      "prompt": " Riempi!",
+      "options": [
+        "chiamo",
+        "sono",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson5",
+      "question_index": 3,
+      "question_id": "q4",
+      "type": "tap_right",
+      "context": "🤝 Primo incontro",
+      "prompt": "Cosa dici? Tocca!",
+      "options": [
+        "Piacere!",
+        "Arrivederci!",
+        "Buonanotte!"
+      ],
+      "option_types": [
+        "unknown",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: '🤝 Primo incontro Cosa dici? Tocca!'; 1 option(s) unclassified: ['Piacere!']"
+    },
+    {
+      "session": "lesson5",
+      "question_index": 4,
+      "question_id": "q5",
+      "type": "ascolta_scegli",
+      "context": "Sono di Londra",
+      "prompt": "Cosa dice? Ascolta!",
+      "options": [
+        "La sua origine",
+        "Il suo nome",
+        "Un saluto"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Sono di Londra Cosa dice? Ascolta!'; 3 option(s) unclassified: ['La sua origine', 'Il suo nome', 'Un saluto']"
+    },
+    {
+      "session": "lesson5",
+      "question_index": 5,
+      "question_id": "q6",
+      "type": "fill_blank",
+      "context": "Sono _____ Roma.",
+      "prompt": " Veloce!",
+      "options": [
+        "di",
+        "mi",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson5",
+      "question_index": 6,
+      "question_id": "q7",
+      "type": "tap_right",
+      "context": "🌆 Sono le 19:00",
+      "prompt": "Cosa dici? Situazione!",
+      "options": [
+        "Buonasera!",
+        "Buongiorno!",
+        "Buonanotte!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "saluto_contestuale",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 1.0
+    },
+    {
+      "session": "lesson5",
+      "question_index": 7,
+      "question_id": "q8",
+      "type": "ascolta_scegli",
+      "context": "Arrivederci",
+      "prompt": "Cosa hai sentito? Ascolta!",
+      "options": [
+        "Arrivederci",
+        "Buongiorno",
+        "Piacere"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "unknown"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: 'Arrivederci Cosa hai sentito? Ascolta!'; 1 option(s) unclassified: ['Piacere']"
+    },
+    {
+      "session": "lesson5",
+      "question_index": 8,
+      "question_id": "q9",
+      "type": "fill_blank",
+      "context": "Piacere! Mi _____ Sofia.",
+      "prompt": " Quasi finito!",
+      "options": [
+        "chiamo",
+        "sono",
+        "ho"
+      ],
+      "option_types": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "inferred_context_type": "fill_blank",
+      "inferred_expected_answer_type": "match_grammaticale_slot",
+      "confidence": 0.95
+    },
+    {
+      "session": "lesson5",
+      "question_index": 9,
+      "question_id": "q10",
+      "type": "tap_right",
+      "context": "🏥 Dal dottore",
+      "prompt": "Come saluti? Ultima!",
+      "options": [
+        "Buongiorno!",
+        "Ciao!",
+        "Buonanotte!"
+      ],
+      "option_types": [
+        "saluto",
+        "saluto",
+        "saluto"
+      ],
+      "inferred_context_type": "unknown",
+      "inferred_expected_answer_type": "saluto",
+      "confidence": 0.3,
+      "notes": "No trigger pattern matched for: '🏥 Dal dottore Come saluti? Ultima!'"
+    }
+  ]
+}

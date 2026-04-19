@@ -2,7 +2,7 @@
 # Consumato da scripts/validate-lessons.py per il check context↔answer
 # Vedi docs/bibbia-tecnica.md, sezione "Coerenza semantica"
 
-version: 2
+version: 3
 level: A1
 
 context_types:
@@ -92,6 +92,22 @@ context_types:
     is_structural: true
     allowed_answer_types: [match_pair]
 
+  richiesta_eta:
+    description: "Qualcuno chiede l'età dell'utente o di un personaggio"
+    trigger_patterns:
+      - 'quanti anni'
+      - 'la tua età'
+    allowed_answer_types: [eta]
+
+  al_bar:
+    description: "Situazione al bar, ordinazione o richiesta al cameriere"
+    trigger_patterns:
+      - 'al bar'
+      - 'cameriere'
+      - 'ordinare'
+      - 'bere'
+    allowed_answer_types: [ordinazione]
+
   traduzione:
     description: "Chiede significato o traduzione di un termine"
     trigger_patterns:
@@ -103,10 +119,12 @@ context_types:
 answer_types:
   saluto:
     members: [Buongiorno, Buonasera, Buonanotte, Ciao, Arrivederci, Salve]
+    pedagogical_adjacency: [formula_presentazione]
   formula_presentazione:
     members: [Piacere, "Molto piacere", "Piacere mio"]
     member_patterns:
       - '^Piacere'
+    pedagogical_adjacency: [saluto]
   presentazione_nome:
     member_patterns:
       - '^Mi chiamo '
@@ -121,6 +139,16 @@ answer_types:
     members: [Grazie, "Sì grazie", Volentieri, "Sì", "Con piacere"]
   rifiuto:
     members: ["No grazie", "No", "Non posso", "Magari un'altra volta"]
+  eta:
+    member_patterns:
+      - '^Ho \d+ ann'
+      - '^Ho (uno|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|undici|dodici|tredici|quattordici|quindici|sedici|diciassette|diciotto|diciannove|venti|trenta|quaranta|cinquanta|sessanta|settanta|ottanta|novanta|cento|venticinque|ventuno)\w* ann'
+  ordinazione:
+    members: ["Il conto!", "Il conto, per favore"]
+    member_patterns:
+      - '^Vorrei '
+      - '^Prendo '
+      - '^Posso avere '
   verbo_azione:
     member_patterns:
       - '^(Mangio|Bevo|Prendo|Vado|Torno|Studio|Lavoro|Leggo|Scrivo)'
