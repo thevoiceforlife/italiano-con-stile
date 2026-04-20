@@ -103,6 +103,236 @@ except Exception:
     _taxonomy = None
 
 
+# ── v2 shape validators ─────────────────────────────────────────────────
+# Emoji decorative in campi EN: stessa regex del check 6 legacy,
+# ma esclude ❌ (U+274C) e ✅ (U+2705) che sono strutturali.
+_EMOJI_FULL = re.compile(r'[\U0001F000-\U0001FFFF\U00002600-\U000027FF]')
+
+def _has_decorative_emoji_en(text):
+    """True if text contains emoji other than structural ❌/✅."""
+    if not text:
+        return False
+    for m in _EMOJI_FULL.finditer(text):
+        ch = m.group()
+        if ch not in ('\u274c', '\u2705'):  # ❌, ✅
+            return True
+    return False
+
+
+def _check_bilingual(obj, field_name, ref):
+    """Check that obj has non-empty .it and .en strings. Returns list of errors."""
+    errs = []
+    if not isinstance(obj, dict):
+        return [f"{ref}: {field_name} deve essere un oggetto con it/en"]
+    if not obj.get("it"):
+        errs.append(f"{ref}: {field_name}.it mancante o vuoto")
+    if not obj.get("en"):
+        errs.append(f"{ref}: {field_name}.en mancante o vuoto")
+    return errs
+
+
+def _check_en_no_decorative_emoji(text, field_name, ref):
+    """Check EN text has no decorative emoji (❌/✅ structural allowed)."""
+    if _has_decorative_emoji_en(text):
+        return [f"{ref}: {field_name} contiene emoji decorative in campo EN"]
+    return []
+
+
+def validate_v2_decision(data, ref):
+    """Validate the 'data' field of a v2 decision activity."""
+    errs = []
+    if not isinstance(data, dict):
+        return [f"{ref}: data deve essere un oggetto"]
+
+    # scenario + prompt bilingui
+    errs += _check_bilingual(data.get("scenario", {}), "scenario", ref)
+    errs += _check_bilingual(data.get("prompt", {}), "prompt", ref)
+
+    # branches
+    branches = data.get("branches", [])
+    if not isinstance(branches, list) or len(branches) not in (2, 3):
+        errs.append(f"{ref}: branches.length deve essere 2 o 3 (trovato {len(branches) if isinstance(branches, list) else 'non-array'})")
+    else:
+        for i, b in enumerate(branches):
+            bref = f"{ref} branch[{i}]"
+            action = b.get("action", {})
+            errs += _check_bilingual(action, f"action", bref)
+            # action.emoji opzionale (null ammesso) — no check
+            outcome = b.get("outcome", {})
+            errs += _check_bilingual(outcome, f"outcome", bref)
+            # outcome.en: no decorative emoji
+            errs += _check_en_no_decorative_emoji(
+                outcome.get("en", ""), "outcome.en", bref
+            )
+
+    # correct_branch_index
+    if data.get("correct_branch_index") != 0:
+        errs.append(f"{ref}: correct_branch_index deve essere 0 (trovato {data.get('correct_branch_index')})")
+
+    # context_type + expected_answer_type vs taxonomy
+    ctx_type = data.get("context_type")
+    eat = data.get("expected_answer_type")
+    if not ctx_type:
+        errs.append(f"{ref}: context_type mancante")
+    elif _taxonomy:
+        known_ctx = _taxonomy.get("context_types", {})
+        if ctx_type not in known_ctx:
+            errs.append(f"{ref}: context_type '{ctx_type}' non presente nella taxonomy")
+        else:
+            allowed = known_ctx[ctx_type].get("allowed_answer_types", [])
+            if eat and eat not in allowed:
+                errs.append(f"{ref}: expected_answer_type '{eat}' non in allowed_answer_types di '{ctx_type}' ({allowed})")
+    if not eat:
+        errs.append(f"{ref}: expected_answer_type mancante")
+
+    return errs
+
+
+def validate_v2_why(data, ref):
+    """Validate the 'data' field of a v2 why activity."""
+    errs = []
+    if not isinstance(data, dict):
+        return [f"{ref}: data deve essere un oggetto"]
+
+    # pattern_examples: esattamente 2 gruppi
+    pe = data.get("pattern_examples", [])
+    if not isinstance(pe, list) or len(pe) != 2:
+        errs.append(f"{ref}: pattern_examples.length deve essere 2 (trovato {len(pe) if isinstance(pe, list) else 'non-array'})")
+    else:
+        for gi, group in enumerate(pe):
+            gref = f"{ref} group[{gi}]"
+            # group_label: bilingue opzionale (null ammesso)
+            gl = group.get("group_label")
+            if gl is not None:
+                errs += _check_bilingual(gl, "group_label", gref)
+            # items: 2-4 con it/en
+            items = group.get("items", [])
+            if not isinstance(items, list) or len(items) < 2 or len(items) > 4:
+                errs.append(f"{gref}: items.length deve essere 2-4 (trovato {len(items) if isinstance(items, list) else 'non-array'})")
+            else:
+                for ii, item in enumerate(items):
+                    errs += _check_bilingual(item, f"items[{ii}]", gref)
+
+    # prompt bilingue
+    errs += _check_bilingual(data.get("prompt", {}), "prompt", ref)
+
+    # hypotheses: 2 o 3
+    hyps = data.get("hypotheses", [])
+    if not isinstance(hyps, list) or len(hyps) not in (2, 3):
+        errs.append(f"{ref}: hypotheses.length deve essere 2 o 3 (trovato {len(hyps) if isinstance(hyps, list) else 'non-array'})")
+    else:
+        for hi, h in enumerate(hyps):
+            href = f"{ref} hypothesis[{hi}]"
+            errs += _check_bilingual(h.get("text", {}), "text", href)
+            if hi == 0:
+                # correct hypothesis: nudge MUST be null
+                if h.get("nudge") is not None:
+                    errs.append(f"{href}: nudge deve essere null per l'ipotesi corretta (index 0)")
+            else:
+                # wrong hypothesis: nudge must be bilingue non vuoto
+                nudge = h.get("nudge")
+                if nudge is None:
+                    errs.append(f"{href}: nudge mancante per ipotesi sbagliata (index {hi})")
+                else:
+                    errs += _check_bilingual(nudge, "nudge", href)
+
+    # correct_hypothesis_index
+    if data.get("correct_hypothesis_index") != 0:
+        errs.append(f"{ref}: correct_hypothesis_index deve essere 0 (trovato {data.get('correct_hypothesis_index')})")
+
+    # rule_reveal + english_analogy bilingui
+    errs += _check_bilingual(data.get("rule_reveal", {}), "rule_reveal", ref)
+    errs += _check_bilingual(data.get("english_analogy", {}), "english_analogy", ref)
+
+    return errs
+
+
+def validate_v2_dialogue(data, ref):
+    """Validate the 'data' field of a v2 dialogue activity."""
+    errs = []
+    if not isinstance(data, dict):
+        return [f"{ref}: data deve essere un oggetto"]
+
+    # scenario_intro bilingue
+    errs += _check_bilingual(data.get("scenario_intro", {}), "scenario_intro", ref)
+
+    # turns
+    turns = data.get("turns", [])
+    if not isinstance(turns, list) or len(turns) < 2 or len(turns) > 7:
+        errs.append(f"{ref}: turns.length deve essere 2-7 (trovato {len(turns) if isinstance(turns, list) else 'non-array'})")
+        return errs  # can't validate further
+
+    user_count = 0
+    consec_char = 0
+    max_consec_char = 0
+
+    for ti, turn in enumerate(turns):
+        tref = f"{ref} turn[{ti}]"
+        speaker = turn.get("speaker")
+
+        if speaker == "character":
+            consec_char += 1
+            max_consec_char = max(max_consec_char, consec_char)
+            # character_id non vuoto
+            if not turn.get("character_id"):
+                errs.append(f"{tref}: character_id mancante o vuoto")
+            # text bilingue
+            errs += _check_bilingual(turn.get("text", {}), "text", tref)
+
+        elif speaker == "user":
+            consec_char = 0
+            user_count += 1
+            # prompt bilingue
+            errs += _check_bilingual(turn.get("prompt", {}), "prompt", tref)
+            # options: 2 o 3
+            opts = turn.get("options", [])
+            if not isinstance(opts, list) or len(opts) not in (2, 3):
+                errs.append(f"{tref}: options.length deve essere 2 o 3 (trovato {len(opts) if isinstance(opts, list) else 'non-array'})")
+            else:
+                for oi, opt in enumerate(opts):
+                    errs += _check_bilingual(opt, f"options[{oi}]", tref)
+            # correct_index
+            if turn.get("correct_index") != 0:
+                errs.append(f"{tref}: correct_index deve essere 0 (trovato {turn.get('correct_index')})")
+            # feedback_wrong bilingue
+            fw = turn.get("feedback_wrong", {})
+            errs += _check_bilingual(fw, "feedback_wrong", tref)
+            errs += _check_en_no_decorative_emoji(
+                fw.get("en", ""), "feedback_wrong.en", tref
+            )
+        else:
+            consec_char = 0
+            errs.append(f"{tref}: speaker deve essere 'character' o 'user' (trovato '{speaker}')")
+
+    # user turn count: 1-3
+    if user_count < 1:
+        errs.append(f"{ref}: almeno 1 turno user richiesto (trovato {user_count})")
+    if user_count > 3:
+        errs.append(f"{ref}: massimo 3 turni user (trovato {user_count})")
+    # max consecutive character turns: <=3
+    if max_consec_char > 3:
+        errs.append(f"{ref}: massimo 3 turni character consecutivi (trovato {max_consec_char})")
+
+    return errs
+
+
+def validate_v2_activity(activity, ref):
+    """Dispatch v2 activity validation by type."""
+    atype = activity.get("type", "")
+    data = activity.get("data", {})
+    aref = f"{ref} [{activity.get('activity_id', atype)}]"
+
+    if atype == "decision":
+        return validate_v2_decision(data, aref)
+    elif atype == "why":
+        return validate_v2_why(data, aref)
+    elif atype == "dialogue":
+        return validate_v2_dialogue(data, aref)
+    else:
+        # match/mcq/listen/build/fill — placeholder, future sessions
+        return []
+
+
 def main():
     global errors, warnings
     errors = []
@@ -213,6 +443,20 @@ def main():
                     err(f"{ref}: MISMATCH semantico — context={sc_result['context_type']}, "
                         f"options[0]={sc_result['option_0']} ({sc_result['answer_type_found']}), "
                         f"allowed={sc_result['allowed']}")
+
+    # ── 3. Valida contenuto v2 (data/lessons/*/theme*-*/unit*/lesson*.json) ──
+    v2_files = sorted(glob.glob('data/lessons/*/theme*-*/unit*/lesson*.json'))
+    for f in v2_files:
+        label = '/'.join(f.split('/')[-4:])
+        try:
+            data = json.load(open(f, encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            err(f"v2 {label}: JSON non valido — {e}")
+            continue
+        for act in data.get('activities', []):
+            act_errs = validate_v2_activity(act, f"v2 {label}")
+            for e in act_errs:
+                err(e)
 
     # ── Report ────────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
