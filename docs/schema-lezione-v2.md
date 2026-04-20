@@ -1,9 +1,10 @@
 # Schema Lezione v2 — Italiano con Stile
 
-**Status**: P1 deliverable — schema ufficiale della matrice v2
-**Data**: 20 Aprile 2026
+**Status**: P1 + P2 deliverable — schema ufficiale della matrice v2
+**Data P1**: 20 Aprile 2026
+**Data P2**: 21 Aprile 2026
 **Fonte di decisione**: `docs/decisioni-architettura-v2.md`
-**Commit base di riferimento**: `6027f42`
+**Commit base di riferimento**: `6027f42` (P1), commit corrente (P2)
 
 ---
 
@@ -21,9 +22,9 @@ Serve a:
 
 Questo documento **non copre**:
 
-- Il design UX delle 3 attività nuove (`decision`, `why`, `dialogue`) — responsabilità di P2
 - Il contenuto delle lezioni (copy, vocab specifici per tema) — responsabilità di S4 e successive
 - La migrazione del contenuto A1 esistente — decisione separata
+- L'implementazione dei componenti React per le attività nuove — il contratto dati è qui, il codice segue in fase separata
 
 ---
 
@@ -464,7 +465,7 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
 
 **Campi obbligatori**: tutti.
 
-**Eccezione feedback**: `match` e `dialogue` possono avere feedback a granularità più fine dentro `data`. In quel caso `feedback_ok`/`feedback_err` del guscio sono comunque obbligatori come fallback.
+**Eccezione feedback**: `match`, `decision`, `why` e `dialogue` possono avere feedback a granularità più fine dentro `data` (per branch, per ipotesi, per turno, per coppia). In quel caso `feedback_ok`/`feedback_err` del guscio sono comunque obbligatori come fallback. Per `mcq`, `listen`, `build`, `fill` il feedback vive solo nel guscio.
 
 **Regole enforced**:
 
@@ -603,63 +604,220 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
 - `answer` è testo esatto. Validator controlla che `answer` non compaia in `distractors`.
 - Nessun `correct: 0` — la risposta è testuale, non indicizzata.
 
-### 8.6 `decision` — placeholder P2
+### 8.6 `decision`
+
+Scelta narrativa one-shot: lo scenario inquadra la scena, l'utente sceglie fra 2 o 3 azioni, ogni scelta mostra il proprio outcome (reazione del personaggio + regola). La corretta è culturalmente/pragmaticamente appropriata; le sbagliate mostrano perché non funzionano. Dopo la scelta si avanza — non c'è retry loop.
 
 ```json
 {
   "type": "decision",
   "data": {
-    "__schema_status": "placeholder_p2",
-    "__min_fields": {
-      "scenario": "bilingual-text",
-      "branches": "array of {action, outcome}",
-      "correct_branch_index": 0
-    }
+    "scenario": {
+      "it": "Sono le 19. Entri al bar di Mario per la prima volta. Mario è al bancone.",
+      "en": "It's 7 PM. You walk into Mario's bar for the first time. Mario is at the counter."
+    },
+    "prompt": {
+      "it": "Cosa dici?",
+      "en": "What do you say?"
+    },
+    "branches": [
+      {
+        "action":  { "it": "Buonasera!", "en": "Good evening!", "emoji": "🌆" },
+        "outcome": {
+          "it": "✅ Perfetto. Dopo le 18 è buonasera, e formale con chi non conosci. Mario ti accoglie con un sorriso.",
+          "en": "✅ Perfect. After 6 PM it's buonasera, and formal with strangers. Mario welcomes you with a smile."
+        }
+      },
+      {
+        "action":  { "it": "Ciao!", "en": "Hi!", "emoji": "👋" },
+        "outcome": {
+          "it": "❌ \"Ciao\" è informale — non conosci Mario. ✅ Meglio \"Buonasera\". Come dire \"hey\" al capo al primo incontro.",
+          "en": "❌ \"Ciao\" is informal — you don't know Mario. ✅ Better: \"Buonasera\". Like saying \"hey\" to the boss on day one."
+        }
+      },
+      {
+        "action":  { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
+        "outcome": {
+          "it": "❌ \"Buongiorno\" è prima delle 18. ✅ Alle 19 si passa a \"Buonasera\".",
+          "en": "❌ \"Buongiorno\" is before 6 PM. ✅ At 7 PM you switch to \"Buonasera\"."
+        }
+      }
+    ],
+    "correct_branch_index": 0,
+    "context_type": "saluto_contestuale",
+    "expected_answer_type": "saluto"
   }
 }
 ```
 
-Concept: scelta narrativa con 2-3 strade che portano a esiti diversi. Design finale in P2.
+- `scenario` e `prompt`: bilingui, obbligatori.
+- `branches`: array di 2 o 3 elementi. `branches[0]` è sempre la corretta; la UI le mescola a runtime (stessa convenzione `correct: 0` di `mcq`).
+- `action`: bilingue obbligatoria, `emoji` opzionale e IT-only (appare sulla card).
+- `outcome`: reazione del personaggio + regola. Segue il template bibbia: per la corretta `✅ + regola + (opz.) dettaglio narrativo`; per le sbagliate `❌ motivo → ✅ alternativa + analogia inglese`. I simboli `❌`/`✅` sono strutturali (ammessi anche in `.en`), emoji decorative vietate in `.en`.
+- `correct_branch_index`: sempre `0`.
+- `context_type` + `expected_answer_type`: obbligatori, stessa taxonomy di `mcq` (bloccante sul contenuto v2).
+- Gli `outcome` sostituiscono il feedback del guscio a runtime (§7 eccezione); `feedback_ok`/`feedback_err` del guscio restano come fallback.
 
-### 8.7 `why` — placeholder P2
+### 8.7 `why`
+
+Attività "finally someone explains why". L'utente vede due gruppi di esempi che contrastano un pattern, sceglie fra 2-3 ipotesi sulla regola sottostante, e solo quando indovina riceve la rivelazione della regola + analogia inglese. Se sbaglia riceve un mini-suggerimento che rimanda agli esempi e riprova — la regola non si svela finché non ci arriva lui.
 
 ```json
 {
   "type": "why",
   "data": {
-    "__schema_status": "placeholder_p2",
-    "__min_fields": {
-      "pattern_observation": "bilingual-text",
-      "rule_reveal": "bilingual-text",
-      "interactive_step": "TBD in P2"
+    "pattern_examples": [
+      {
+        "group_label": { "it": "Gruppo 1", "en": "Group 1" },
+        "items": [
+          { "it": "Ciao Sofia!", "en": "Hi Sofia!" },
+          { "it": "Ciao Marco!", "en": "Hi Marco!" }
+        ]
+      },
+      {
+        "group_label": { "it": "Gruppo 2", "en": "Group 2" },
+        "items": [
+          { "it": "Buongiorno signor Rossi",     "en": "Good morning Mr. Rossi" },
+          { "it": "Buongiorno dottoressa Bianchi","en": "Good morning Dr. Bianchi" }
+        ]
+      }
+    ],
+    "prompt": {
+      "it": "Perché cambiamo parola?",
+      "en": "Why does the word change?"
+    },
+    "hypotheses": [
+      {
+        "text":  { "it": "Per quanto conosci la persona", "en": "Based on how well you know the person" },
+        "nudge": null
+      },
+      {
+        "text":  { "it": "Per l'ora del giorno", "en": "Based on the time of day" },
+        "nudge": {
+          "it": "Riguarda bene: nel gruppo 2 non si parla di orari, ma di persone. Riprova.",
+          "en": "Look again: group 2 isn't about time, it's about people. Try again."
+        }
+      },
+      {
+        "text":  { "it": "Per il genere della persona", "en": "Based on the person's gender" },
+        "nudge": {
+          "it": "Nel gruppo 2 un uomo e una donna ricevono la stessa parola. Non è il genere.",
+          "en": "In group 2 a man and a woman get the same word. It's not gender."
+        }
+      }
+    ],
+    "correct_hypothesis_index": 0,
+    "rule_reveal": {
+      "it": "Con amici e giovani → ciao. Con chi non conosci o ha un ruolo → buongiorno.",
+      "en": "With friends and young people → ciao. With strangers or people with a role → buongiorno."
+    },
+    "english_analogy": {
+      "it": "Come \"hey\" a un amico vs \"hello, sir/madam\" a chi ha autorità.",
+      "en": "Like \"hey\" to a friend vs \"hello, sir/madam\" to someone with authority."
     }
   }
 }
 ```
 
-Concept: "Finally someone explains why" come attività dedicata. L'utente scopre il pattern prima della rivelazione. Design finale in P2.
+- `pattern_examples`: **esattamente 2 gruppi**, per forzare una cornice di contrasto. Ogni gruppo ha 2-4 `items` bilingui. `group_label` bilingue opzionale (può essere `null` se i gruppi sono puramente visuali e non etichettati).
+- `prompt`: la domanda "perché?" bilingue.
+- `hypotheses`: 2 o 3 opzioni. `hypotheses[0]` è sempre la corretta (shuffle a runtime).
+- `hypotheses[i].text`: bilingue obbligatoria.
+- `hypotheses[i].nudge`: bilingue obbligatoria per le ipotesi sbagliate (`i > 0`), `null` per la corretta. È il mini-suggerimento mostrato quando l'utente la sceglie per errore, poi la UI gli permette di riprovare.
+- `correct_hypothesis_index`: sempre `0`.
+- `rule_reveal`: la regola in parole piane (non grammaticalese), mostrata **solo** dopo che l'utente ha scelto la corretta.
+- `english_analogy`: analogia in inglese che ancora la regola alla L1 dell'utente. Bilingue (la versione EN può essere l'analogia stessa, la versione IT può essere la sua spiegazione in italiano).
+- Il template bibbia del feedback (`❌ → ✅ + REGOLA + analogia EN`) si realizza così: `nudge` fa il ruolo del `❌ → suggerimento`, `rule_reveal` + `english_analogy` fanno il ruolo di `✅ + REGOLA + analogia`.
+- `vocab_focus` del guscio: può essere array vuoto se l'attività è puramente grammaticale e non verte su parole specifiche, ma di norma riferisce le parole chiave del pattern.
 
-### 8.8 `dialogue` — placeholder P2
+### 8.8 `dialogue`
+
+Conversazione a 2-7 turni, alternati fra personaggio e utente. Il personaggio parla a copione; ai suoi turni l'utente sceglie fra 2 o 3 risposte, solo una appropriata. Se sbaglia, riceve feedback bibbia e il dialogo prosegue come se avesse detto la corretta — nessuna interruzione del filo narrativo.
+
+Non c'è un enum `mode` esplicito: `complete_reply` emerge quando `turns[]` contiene 1 solo user-turn, `multi_turn` quando ne contiene 2 o 3.
 
 ```json
 {
   "type": "dialogue",
   "data": {
-    "__schema_status": "placeholder_p2",
-    "__min_fields": {
-      "scenario_intro": "bilingual-text",
-      "turns": "array of {speaker, text_it, text_en, user_choice?}",
-      "mode": "complete_reply | multi_turn"
-    }
+    "scenario_intro": {
+      "it": "Sei al bar di Mario la mattina. Ordini e vai via.",
+      "en": "You're at Mario's bar in the morning. You order and leave."
+    },
+    "turns": [
+      {
+        "speaker": "character",
+        "character_id": "mario",
+        "text": { "it": "Buongiorno! Cosa prende?", "en": "Good morning! What will you have?" }
+      },
+      {
+        "speaker": "user",
+        "prompt": { "it": "Cosa rispondi?", "en": "What do you say?" },
+        "options": [
+          { "it": "Un caffè, per favore", "en": "A coffee, please" },
+          { "it": "Dammi un caffè",       "en": "Give me a coffee" },
+          { "it": "Voglio un caffè",      "en": "I want a coffee" }
+        ],
+        "correct_index": 0,
+        "feedback_wrong": {
+          "it": "❌ \"Dammi\"/\"Voglio\" sono sgarbati con chi non conosci. ✅ \"Un caffè, per favore\" — aggiungi per favore per essere cortese.",
+          "en": "❌ \"Dammi\"/\"Voglio\" are rude with strangers. ✅ \"Un caffè, per favore\" — add per favore to be polite."
+        }
+      },
+      {
+        "speaker": "character",
+        "character_id": "mario",
+        "text": { "it": "Subito!", "en": "Right away!" }
+      },
+      {
+        "speaker": "character",
+        "character_id": "mario",
+        "text": { "it": "Ecco il suo caffè.", "en": "Here's your coffee." }
+      },
+      {
+        "speaker": "user",
+        "prompt": { "it": "Come saluti?", "en": "How do you say goodbye?" },
+        "options": [
+          { "it": "Grazie, arrivederci!", "en": "Thanks, goodbye!" },
+          { "it": "Ciao!",                "en": "Bye!" },
+          { "it": "Addio!",               "en": "Farewell!" }
+        ],
+        "correct_index": 0,
+        "feedback_wrong": {
+          "it": "❌ \"Ciao\" è troppo informale con un cameriere che non conosci; \"Addio\" è drammatico, da romanzo. ✅ \"Grazie, arrivederci!\" è formale e cortese.",
+          "en": "❌ \"Ciao\" is too informal with a waiter you don't know; \"Addio\" is dramatic, novelistic. ✅ \"Grazie, arrivederci!\" is formal and polite."
+        }
+      },
+      {
+        "speaker": "character",
+        "character_id": "mario",
+        "text": { "it": "Arrivederci, a presto!", "en": "Goodbye, see you soon!" }
+      }
+    ]
   }
 }
 ```
 
-Concept: conversazione 2-5 turni. `mode: "complete_reply"` = collasso di DomandaCompletaRisposta. `mode: "multi_turn"` = design potenziato. Finale in P2.
+- `scenario_intro`: bilingue obbligatoria, inquadra la scena prima del primo turno.
+- `turns`: array di **2-7 elementi**. Ogni turno ha `speaker ∈ {"character", "user"}`.
+- **Turno character**:
+  - `character_id`: id di un personaggio dichiarato in `theme-meta.json` (può essere il "guscio" o un altro personaggio del tema — utile per scene a più voci).
+  - `text`: bilingue obbligatoria.
+- **Turno user**:
+  - `prompt`: bilingue, breve cornice della scelta (es. "Cosa rispondi?", "Come saluti?").
+  - `options`: array di 2 o 3 alternative bilingui.
+  - `correct_index`: sempre `0` (shuffle a runtime).
+  - `feedback_wrong`: bilingue, mostrato solo se l'utente sbaglia. Template bibbia `❌ → ✅ + REGOLA + analogia inglese`. Dopo il feedback il dialogo prosegue come se avesse scelto la corretta.
+- Vincoli sulla sequenza:
+  - Almeno 1 turno con `speaker === "user"`.
+  - Al massimo 3 turni con `speaker === "user"`.
+  - Non più di 3 turni `"character"` consecutivi.
+  - Il primo turno è quasi sempre `"character"` (apre la scena); non è un vincolo hard ma è la convenzione pedagogica.
+- Il `character_id` del guscio è la "voce ospite" dell'attività — rispetta la regola personaggi (§7). I `character_id` all'interno dei turni possono includere altri personaggi del tema per arricchire la scena.
 
-### 8.9 Comportamento validator sui placeholder
+### 8.9 Tipi con feedback dentro `data`
 
-Il marker `__schema_status: "placeholder_p2"` disattiva i check strict su `data` per quella attività. Quando P2 congela la shape, il marker sparisce e il validator torna strict. Questo permette di committare contenuto L1-L2 (che non usa questi tipi) senza aspettare P2.
+Per `decision`, `why`, `dialogue` (e `match`, che aveva già feedback fine dentro `data`) il feedback visibile all'utente vive nei campi type-specifici (`outcome`, `nudge` + `rule_reveal`, `feedback_wrong`). I campi `feedback_ok`/`feedback_err` del guscio sono comunque obbligatori come fallback (§7) e il validator li richiede non vuoti anche per questi tipi.
 
 ---
 
@@ -1122,12 +1280,15 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 ### 13.6 attività
 
 - [ ] `correct: 0` sempre nei type che lo usano (mcq, listen). **[esistente]**
-- [ ] `feedback_err.en` senza emoji. **[esistente]**
+- [ ] `feedback_err.en` senza emoji (eccetto i simboli strutturali `❌`/`✅`). **[esistente]**
 - [ ] Campi IT/EN non vuoti. **[esistente]**
 - [ ] `mcq` standard: `context_type` + `expected_answer_type` presenti e validi nella taxonomy. **[esistente, warning → bloccante su v2]**
 - [ ] `build.word_bank` contiene tutte le parole di `build.target.it`.
 - [ ] `fill.answer` non è in `fill.distractors`.
 - [ ] `fill.sentence_en_complete` senza `___`.
+- [ ] `decision`: `branches.length ∈ {2, 3}`; `correct_branch_index === 0`; ogni branch ha `action.it/en` e `outcome.it/en` non vuoti; `action.emoji` opzionale (null ammesso) e solo IT; `context_type` + `expected_answer_type` validi nella taxonomy; `outcome.en` senza emoji decorativi (❌/✅ strutturali ammessi).
+- [ ] `why`: `pattern_examples.length === 2`; ogni gruppo ha `items.length ∈ [2, 4]` con `it/en` non vuoti; `hypotheses.length ∈ {2, 3}`; `correct_hypothesis_index === 0`; `hypotheses[0].nudge === null`; per ogni `i > 0` `hypotheses[i].nudge.it/en` non vuoti; `rule_reveal.it/en` e `english_analogy.it/en` non vuoti.
+- [ ] `dialogue`: `turns.length ∈ [2, 7]`; almeno 1 turno `"user"`, al massimo 3; non più di 3 turni `"character"` consecutivi; ogni turno `"character"` ha `character_id` valido in `theme-meta.json` e `text.it/en` non vuoti; ogni turno `"user"` ha `prompt.it/en`, `options.length ∈ {2, 3}` con `it/en` non vuoti, `correct_index === 0`, `feedback_wrong.it/en` non vuoti; `feedback_wrong.en` senza emoji decorativi.
 
 ### 13.7 challenge.json
 
@@ -1137,9 +1298,9 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `reward_challenge_complete` combacia con `unit-meta.json.reward_unit_complete`.
 - [ ] `teaser_character_id` combacia con co-protagonist di U`N+1` (o `mario` per U5).
 
-### 13.8 Placeholder P2
+### 13.8 Shape congelate P2
 
-- [ ] Attività con `type ∈ {decision, why, dialogue}` hanno `data.__schema_status === "placeholder_p2"` finché P2 non congela la shape.
+- [ ] Nessuna attività di tipo `decision`, `why`, `dialogue` contiene più il marker `data.__schema_status`. La shape strict di §8.6/§8.7/§8.8 è enforzata pienamente. Un `__schema_status` residuo in contenuto v2 è errore bloccante.
 
 ---
 
@@ -1183,8 +1344,13 @@ Script riutilizzabile che legge theme-meta + unit-meta e genera scheletri lesson
 
 ## Firma documento
 
-**Deliverable**: P1 — Schema JSON della matrice v2.
+**Deliverable**: P1 (schema strutturale) + P2 (shape `decision`, `why`, `dialogue` congelate).
 **Risposte a**: `docs/decisioni-architettura-v2.md` sezione 12, checklist pre-pilota.
-**Prossima sessione**: P2 — design di `decision`, `why`, `dialogue`.
-**Dopo P2**: S4 — scrittura pilota L1 U1 Tema 1 Saluti.
-**Commit suggerito**: `docs(schema): v2 schema lezione + challenge + rewards + esempio canonico`.
+**Decisioni P2 prese in questa sessione** (21 Apr 2026):
+1. `decision` = one-shot (scenario → 1 scelta fra 2-3 → outcome → avanti).
+2. `why` = osserva → indovina → rivela, con retry e mini-hint per ogni ipotesi sbagliata.
+3. `dialogue` = sequenza di turni character/user, sbaglio → feedback + dialogo prosegue (no retry).
+4. Modalità `complete_reply` vs `multi_turn` del dialogue non sono un enum: si discriminano dal numero di user-turn.
+
+**Prossima sessione**: S4 — scrittura pilota L1 U1 Tema 1 Saluti.
+**Commit suggerito**: `docs(schema): P2 congela shape decision/why/dialogue + validator rules`.
