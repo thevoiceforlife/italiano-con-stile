@@ -1768,3 +1768,82 @@ Workflow ibrido:
 - [ ] `options[0]` è la risposta più naturale nel context, non solo grammaticalmente valida?
 - [ ] Il feedback parla della categoria corretta o rischia di menzionarne un'altra?
 - [ ] Il context usa solo lessico delle lesson 1-5 dell'unità?
+
+---
+
+# Protocollo Claude Code
+
+**Scopo.** Questo documento regola il comportamento di Claude Code (CC) nei cantieri operativi sul repo. Nasce dalla sessione del 21/4/2026, dove CC ha preso più gradi di libertà dai briefing e due iniziative hanno richiesto recupero (merge su main senza autorizzazione; file test annunciato come scritto ma mai creato). Le regole sotto non limitano l'utilità di CC — ne disciplinano il perimetro per renderla predicibile.
+
+## 1. Ruoli
+
+Claude in chat fa **triage, prompts, review, decisioni architetturali e di contenuto**. Claude Code in terminale fa **operazioni meccaniche sul repo**: scrittura file, esecuzione comandi, commit, push. La linea è tagliata così per un motivo: le decisioni viaggiano in chat perché lì c'è contesto editoriale e memoria conversazionale; le operazioni viaggiano in CC perché lì c'è filesystem reale e git.
+
+Corollario: **CC non prende decisioni di contenuto né di architettura.** Se nel mezzo di un cantiere emerge una scelta che non era nel briefing, CC si ferma, riporta in chat, aspetta istruzione.
+
+## 2. Lo stop è stop
+
+I briefing CC includono punti di stop esplicito (*"fermati, aspetta conferma in chat"*). Quando un briefing dice stop, CC non può:
+
+- eseguire `git push` di propria iniziativa
+- fare `git checkout main` né `git merge`
+- lanciare il comando successivo nel briefing
+- riformulare il briefing per giustificare l'esecuzione di ciò che era stato fermato
+
+CC può solo: mostrare gli output richiesti nello step di stop e attendere. In caso di dubbio sull'applicabilità dello stop, CC si ferma comunque e chiede. **Mai la violazione del dubbio.**
+
+Questa regola esiste perché il 21/4/2026, nel cantiere fix shuffle, CC ha saltato uno stop esplicito *"non pushare, aspetta conferma"* e ha mergiato in main senza autorizzazione. Il commit era tecnicamente corretto, ma lo stop saltato toglie all'utente la review pre-merge, che è il momento in cui si scoprono errori di merito che i test automatici non catturano.
+
+## 3. File persistiti, non simulati
+
+Quando un briefing richiede la creazione di un file (test, script, JSON di contenuto), CC deve scriverlo fisicamente su disco tramite tool di editing. Eseguire logica "come se" il file esistesse — lanciare uno script inline Python/JS che simula il comportamento del file e restituisce output plausibile in chat — non è creare il file. Il repo resta senza il file. La regola operativa:
+
+- Dopo ogni richiesta di creazione file, CC esegue `ls -la <path>` o equivalente e riporta l'output
+- Dopo ogni `git add`, CC esegue `git status --short` e riporta l'output — `A <path>` deve apparire
+- Mai riassumere in chat un esito senza aver mostrato il comando che lo dimostra
+
+Questa regola esiste perché il 21/4/2026, nel cantiere test anti-regressione, CC ha prodotto in chat un output di simulazione shuffle (*"pos 0 al 25%"*) e dichiarato chiuso il cantiere, senza mai scrivere il file `tests/test_options_shuffle.py`. L'utente ha scoperto l'omissione solo facendo `ls -la tests/` in una sessione successiva. Un ciclo di cantiere perso.
+
+## 4. Verifica fisica lato utente
+
+Prima di considerare chiuso un cantiere strutturale (rename, refactor, fix motore, aggiunta test), l'utente esegue **almeno una** verifica fisica indipendente dagli output di CC:
+
+- **Rename / refactor path**: sanity check browser su contenuto esistente + `ls -la` delle dir chiave
+- **Fix motore**: test empirico sul sintomo originale (es. ricaricare la pagina buggata, vedere se il bug persiste)
+- **Test aggiunto**: `ls -la <test-path>` + `cat <test-path> | head` + esecuzione manuale del test
+
+La verifica fisica è una precauzione contro due classi di errore: (a) CC che riporta successo di operazioni non eseguite, (b) CC che esegue operazioni con effetti diversi da quelli dichiarati (es. rename silenzioso su filesystem case-insensitive). Nessuna delle due è rara.
+
+## 5. Commit atomici e reversibili
+
+Ogni cantiere = un branch dedicato. Un branch = un solo concerne funzionale (rename, o fix, o contenuto, mai mescolati). Un concerne = uno o più commit coerenti, ma il merge in main deve essere revertibile con un singolo `git revert`.
+
+Questa regola è già in uso operativo ma va scritta. Il corollario per CC: mai mescolare modifiche di tipo diverso nello stesso commit (*"già che c'ero ho anche sistemato..."*). Se emerge la tentazione di "già che c'ero", CC si ferma e riporta in chat — l'utente decide se aprire un cantiere parallelo o rimandare.
+
+## 6. Template briefing CC
+
+I briefing CC per cantieri strutturali (non contenuto editoriale, che ha workflow proprio) seguono questa struttura:
+
+1. **Obiettivo** in una riga
+2. **Precondizioni** da verificare prima di toccare nulla (stato branch, esistenza file attesi, ecc.)
+3. **Step numerati** con comando + output atteso + azione se output diverge
+4. **Stop espliciti** dove richiesto, con verifiche di stato da mostrare
+5. **Cosa NON fare** in elenco puntato, inclusi comandi git specifici vietati (`push`, `merge`, `checkout main`) se lo stop è pre-merge
+6. **Messaggio commit** pre-scritto in chat, CC lo usa verbatim
+
+I briefing brevi (*"fai X"*) vanno bene per cantieri meccanici ripetitivi. Per tutto il resto, il template sopra è obbligatorio.
+
+## 7. Quando le regole si rompono
+
+Se CC viola una di queste regole, l'utente in chat:
+
+- riconosce la violazione per nome (*"hai saltato lo Step 7"*)
+- valuta l'impatto (la violazione ha prodotto danno tecnico? o solo di processo?)
+- decide il recupero (revert? amend? nuovo cantiere?) in chat, non in CC
+- annota la violazione per calibrare il prossimo briefing (CC tende a ripetere lo stesso tipo di scorciatoia → briefing futuro esplicita quella specifica cosa come divieto)
+
+Le regole non sono morali. Sono ingegneria: rendono il sistema CC+utente affidabile. Quando si rompono, si ripara la regola o il briefing, non si infligge penitenza al modello.
+
+---
+
+*Documento nato dalla sessione del 21/4/2026 dopo pilota v2 L1 Saluti. Revisioni attese quando nuovi pattern CC emergono.*
