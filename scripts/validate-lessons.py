@@ -340,7 +340,7 @@ def main():
 
     # ── 1. Vocabolario per unità ──────────────────────────────────────────────
     all_vocab = {}
-    for f in sorted(glob.glob('public/data/lessons/A1/unit*/lesson[12345].json')):
+    for f in sorted(glob.glob('public/data/lessons/a1/unit*/lesson[12345].json')):
         unit = f.split('/')[-2]
         data = json.load(open(f, encoding='utf-8'))
         if unit not in all_vocab:
@@ -358,8 +358,8 @@ def main():
                  'al','alla','allo','ai','alle','nel','nella','nelle','nei'}
 
     # ── 2. Valida ogni file JSON ──────────────────────────────────────────────
-    for f in sorted(glob.glob('public/data/lessons/A1/unit*/lesson*.json') +
-                    glob.glob('public/data/lessons/A1/unit*/boss.json')):
+    for f in sorted(glob.glob('public/data/lessons/a1/unit*/lesson*.json') +
+                    glob.glob('public/data/lessons/a1/unit*/boss.json')):
         unit = f.split('/')[-2]
         label = '/'.join(f.split('/')[-2:])
 

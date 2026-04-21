@@ -15,7 +15,7 @@ import LessonCompletePopup, { getMessaggioMario } from "../../../../components/L
 
 async function loadLesson(livello, unita, lezione) {
   const file = lezione === "boss" ? "boss" : `lesson${lezione}`;
-  const res = await fetch(`/data/lessons/${livello}/unit${unita}/${file}.json`);
+  const res = await fetch(`/data/lessons/${livello.toLowerCase()}/unit${unita}/${file}.json`);
   if (!res.ok) throw new Error(`Lezione ${livello}/${unita}/${lezione} non trovata`);
   return res.json();
 }
