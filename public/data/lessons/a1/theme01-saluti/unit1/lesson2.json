@@ -1,0 +1,271 @@
+{
+  "$schema": "v2",
+  "lesson_id": "a1_t01_u1_l2",
+  "lesson_number": 2,
+  "unit_id": "a1_t01_u1",
+  "theme_id": "a1_t01_saluti",
+  "format": "memory_build",
+  "title": {
+    "it": "Cortesia al bar",
+    "en": "Politeness at the bar"
+  },
+  "activities": [
+    {
+      "activity_id": "a1_t01_u1_l2_a1",
+      "activity_number": 1,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_grazie", "a1_t01_u1_per_favore"],
+      "intro": {
+        "it": "Due parole nuove — al bar le userai mille volte.",
+        "en": "Two new words — you'll use them a thousand times at the bar."
+      },
+      "feedback_ok": {
+        "it": "Perfetto! Grazie e per favore ti aprono ogni porta in Italia.",
+        "en": "Perfect! Grazie and per favore open every door in Italy."
+      },
+      "feedback_err": {
+        "it": "❌ → ✅ Grazie = Thank you. Per favore = Please. Stesso ordine dell'inglese.",
+        "en": "Grazie = Thank you. Per favore = Please. Same mapping as in English."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_grazie",     "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_per_favore", "en_override": null }
+        ],
+        "rounds": 1
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a2",
+      "activity_number": 2,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_grazie", "a1_t01_u1_per_favore", "a1_t01_u1_arrivederci"],
+      "intro": {
+        "it": "Aggiungiamo arrivederci — per quando esci dal bar.",
+        "en": "Let's add arrivederci — for when you leave the bar."
+      },
+      "feedback_ok": {
+        "it": "Tre parole nuove, già tue.",
+        "en": "Three new words, already yours."
+      },
+      "feedback_err": {
+        "it": "Arrivederci = goodbye. Scomponilo: a-ri-vederci = 'to see each other again'.",
+        "en": "Arrivederci = goodbye. Break it down: a-ri-vederci = 'to see each other again'."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_grazie",       "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_per_favore",   "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_arrivederci",  "en_override": null }
+        ],
+        "rounds": 2
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a3",
+      "activity_number": 3,
+      "type": "mcq",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_per_favore"],
+      "intro": {
+        "it": "Ordini un caffè. Cosa aggiungi?",
+        "en": "You order a coffee. What do you add?"
+      },
+      "feedback_ok": {
+        "it": "Sì! 'Per favore' fa la differenza tra ordine e richiesta gentile.",
+        "en": "Yes! 'Per favore' turns an order into a polite request."
+      },
+      "feedback_err": {
+        "it": "❌ → ✅ Per chiedere qualcosa con gentilezza: per favore. Grazie si dice DOPO aver ricevuto.",
+        "en": "To ask for something politely: per favore. Grazie comes AFTER you receive it."
+      },
+      "data": {
+        "mode": "standard",
+        "context": {
+          "it": "Sei al bancone del bar. Vuoi un caffè.",
+          "en": "You're at the bar counter. You want a coffee."
+        },
+        "prompt": {
+          "it": "Cosa dici a Mario?",
+          "en": "What do you say to Mario?"
+        },
+        "options": [
+          { "it": "Un caffè, per favore!", "en": "A coffee, please!",       "emoji": "☕" },
+          { "it": "Un caffè, grazie!",     "en": "A coffee, thanks!",       "emoji": "🙏" },
+          { "it": "Un caffè, buongiorno!", "en": "A coffee, good morning!", "emoji": "☀️" }
+        ],
+        "correct": 0,
+        "context_type": "offerta",
+        "expected_answer_type": "ordinazione"
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a4",
+      "activity_number": 4,
+      "type": "mcq",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_arrivederci"],
+      "intro": {
+        "it": "Hai finito il caffè. È ora di andare.",
+        "en": "You finished your coffee. Time to go."
+      },
+      "feedback_ok": {
+        "it": "Bravo! Arrivederci al bar è standard — educato ma non freddo.",
+        "en": "Nice! Arrivederci at the bar is standard — polite but not cold."
+      },
+      "feedback_err": {
+        "it": "❌ → ✅ Al bar con Mario: arrivederci. Ciao va bene solo con amici stretti.",
+        "en": "At the bar with Mario: arrivederci. Ciao is only for close friends."
+      },
+      "data": {
+        "mode": "standard",
+        "context": {
+          "it": "Sono le 11. Lasci il bar di Mario.",
+          "en": "It's 11 AM. You leave Mario's bar."
+        },
+        "prompt": {
+          "it": "Cosa dici a Mario uscendo?",
+          "en": "What do you say to Mario on your way out?"
+        },
+        "options": [
+          { "it": "Arrivederci!", "en": "Goodbye!",       "emoji": "🚪" },
+          { "it": "Buongiorno!",  "en": "Good morning!",  "emoji": "☀️" },
+          { "it": "Per favore!",  "en": "Please!",        "emoji": "🤲" }
+        ],
+        "correct": 0,
+        "context_type": "saluto_contestuale",
+        "expected_answer_type": "saluto"
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a5",
+      "activity_number": 5,
+      "type": "listen",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_grazie"],
+      "intro": {
+        "it": "Mario ti dice qualcosa. Ascolta.",
+        "en": "Mario says something. Listen."
+      },
+      "feedback_ok": {
+        "it": "Sì! 'Grazie mille' = 'thanks a thousand' = 'thank you very much'.",
+        "en": "Yes! 'Grazie mille' = 'thanks a thousand' = 'thank you very much'."
+      },
+      "feedback_err": {
+        "it": "❌ → ✅ Mario ha detto Grazie mille. 'Mille' in italiano enfatizza — come 'a thousand thanks' letterale.",
+        "en": "Mario said Grazie mille. 'Mille' in Italian is emphasis — literally 'a thousand thanks'."
+      },
+      "data": {
+        "mode": "choose",
+        "audio": {
+          "source": "tts",
+          "text_it": "Grazie mille!",
+          "text_en_reference": "Thanks a lot!"
+        },
+        "prompt": {
+          "it": "Cosa hai sentito?",
+          "en": "What did you hear?"
+        },
+        "options": [
+          { "it": "Grazie mille!", "en": "Thanks a lot!" },
+          { "it": "Per favore!",   "en": "Please!" },
+          { "it": "Arrivederci!",  "en": "Goodbye!" }
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a6",
+      "activity_number": 6,
+      "type": "build",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_per_favore"],
+      "intro": {
+        "it": "Ordina un caffè — con le parole giuste.",
+        "en": "Order a coffee — with the right words."
+      },
+      "feedback_ok": {
+        "it": "Un caffè per favore — frase magica al bar italiano.",
+        "en": "Un caffè per favore — magic phrase at an Italian bar."
+      },
+      "feedback_err": {
+        "it": "Ordine italiano: cosa vuoi + per favore. 'Per favore' va in fondo, come 'please' in inglese.",
+        "en": "Italian order: what you want + per favore. 'Per favore' goes at the end, like 'please' in English."
+      },
+      "data": {
+        "target": {
+          "it": "Un caffè per favore",
+          "en": "A coffee please"
+        },
+        "word_bank": ["Un", "caffè", "per", "favore", "grazie", "il"],
+        "fixed_punctuation": "!",
+        "audio_on_complete": true
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a7",
+      "activity_number": 7,
+      "type": "build",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_grazie"],
+      "intro": {
+        "it": "Mario ti ha servito. Ringrazialo per nome.",
+        "en": "Mario served you. Thank him by name."
+      },
+      "feedback_ok": {
+        "it": "Perfetto — usare il nome rende tutto più caldo.",
+        "en": "Perfect — using the name makes it warmer."
+      },
+      "feedback_err": {
+        "it": "Prima la cortesia, poi il nome. 'Grazie Mario', non 'Mario grazie'.",
+        "en": "Courtesy first, name after. 'Grazie Mario', not 'Mario grazie'."
+      },
+      "data": {
+        "target": {
+          "it": "Grazie Mario",
+          "en": "Thank you Mario"
+        },
+        "word_bank": ["Grazie", "Mario", "Ciao", "arrivederci"],
+        "fixed_punctuation": "!",
+        "audio_on_complete": true
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l2_a8",
+      "activity_number": 8,
+      "type": "fill",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_arrivederci"],
+      "intro": {
+        "it": "Ultima attività! Completa la frase con la parola giusta.",
+        "en": "Last activity! Complete the sentence with the right word."
+      },
+      "feedback_ok": {
+        "it": "Arrivederci! Lezione completata.",
+        "en": "Arrivederci! Lesson complete."
+      },
+      "feedback_err": {
+        "it": "❌ → ✅ Quando esci da un posto formale dici Arrivederci. Le altre sono formule di cortesia, non congedi.",
+        "en": "When leaving a formal place you say Arrivederci. The others are courtesy words, not farewells."
+      },
+      "data": {
+        "sentence_it": "___ Mario, a domani!",
+        "sentence_en_complete": "Goodbye Mario, see you tomorrow!",
+        "answer": "Arrivederci",
+        "distractors": ["Grazie", "Per favore", "Buongiorno"]
+      }
+    }
+  ],
+  "reward_lesson_complete": {
+    "kind": "ingredient",
+    "slot": "fine_colazione",
+    "pool": [
+      { "id": "cornetto", "it": "Cornetto",      "en": "Italian croissant", "emoji": "🥐" },
+      { "id": "biscotto", "it": "Biscotti",      "en": "Biscotti",          "emoji": "🍪" },
+      { "id": "brioche",  "it": "Brioche vuota", "en": "Plain brioche",     "emoji": "🥯" }
+    ],
+    "credits": 5
+  }
+}
