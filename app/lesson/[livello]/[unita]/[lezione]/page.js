@@ -1045,6 +1045,8 @@ function VocabIntro({ lesson, unitType, unita, lezione, onComplete }) {
 
 // ─── TIPO: fill_blank ────────────────────────────────────────────────────────
 function DomandaFillBlank({ q, onAnswer }) {
+  const seed = (q.frase_it || "").split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+  const shuffledOpts = useRef(stableShuffle(q.opzioni, seed)).current;
   const [selectedOption, setSelectedOption] = useState(null);
   const [corretto, setCorretto] = useState(false);
   const [sbagliato, setSbagliato] = useState(false);
@@ -1170,7 +1172,7 @@ function DomandaFillBlank({ q, onAnswer }) {
         <div style={{
           display: "flex", flexWrap: "wrap", gap: 8, marginBottom: 16,
         }}>
-          {q.opzioni.map((opt, i) => {
+          {shuffledOpts.map(({ o: opt }, i) => {
             const isUsed = selectedOption?.it === opt.it;
             return (
               <div
@@ -1415,17 +1417,20 @@ function DomandaAscoltoGiudica({ q, onAnswer }) {
 
 // ─── TIPO: tap_right ────────────────────────────────────────────────────────
 function DomandaTapRight({ q, onAnswer }) {
+  const seed = (q.domanda?.it || q.contesto_it || "").split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+  const shuffled = useRef(stableShuffle(q.opzioni, seed)).current;
+  const newCorrect = shuffled.findIndex(x => x.i === q.correct);
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
-  const isCorrect = selected === q.correct;
+  const isCorrect = selected === newCorrect;
   const intro = getIntroBilingual(q);
 
   function handleTap(idx) {
     if (confirmed) return;
     setSelected(idx);
     setConfirmed(true);
-    playSound(idx === q.correct ? "correct" : "wrong");
-    if (idx === q.correct) pronounceOpt(q.opzioni[idx]);
+    playSound(idx === newCorrect ? "correct" : "wrong");
+    if (idx === newCorrect) pronounceOpt(shuffled[idx].o);
   }
 
   return (
@@ -1457,15 +1462,15 @@ function DomandaTapRight({ q, onAnswer }) {
         <div style={{ fontSize: 16, fontWeight: 700, color: "var(--text)" }}>{q.domanda.it}</div>
         <div style={{ fontSize: 13, fontStyle: "italic", color: "var(--text3)", marginTop: -8 }}>{q.domanda.en}</div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 8 }}>
-          {q.opzioni.map((opt, i) => {
-            const isSel = !confirmed && selected === i;
-            const ok   = confirmed && i === q.correct;
-            const err  = confirmed && selected === i && !isCorrect;
+          {shuffled.map(({ o: opt }, si) => {
+            const isSel = !confirmed && selected === si;
+            const ok   = confirmed && si === newCorrect;
+            const err  = confirmed && selected === si && !isCorrect;
             const bg     = ok ? "rgba(88,204,2,0.08)" : err ? "rgba(255,75,75,0.06)" : isSel ? "rgba(28,176,246,0.08)" : "var(--bg-el)";
             const border = ok ? "var(--green)"        : err ? "var(--red)"           : isSel ? "var(--blue)"           : "var(--border-soft)";
             const itCol  = ok ? "var(--green)"        : err ? "var(--red)"           : "var(--text)";
             return (
-              <button key={i} onClick={() => handleTap(i)} style={{
+              <button key={si} onClick={() => handleTap(si)} style={{
                 background: bg, border: `1.5px solid ${border}`, borderRadius: 14,
                 padding: "14px 8px", textAlign: "center",
                 display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
@@ -1563,9 +1568,12 @@ function DomandaGiustoONo({ q, onAnswer }) {
 
 // ─── TIPO: completa_risposta ─────────────────────────────────────────────────
 function DomandaCompletaRisposta({ q, onAnswer }) {
+  const seed = (q.risposta_it || q.domanda?.it || "").split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+  const shuffled = useRef(stableShuffle(q.opzioni, seed)).current;
+  const newCorrect = shuffled.findIndex(x => x.i === q.correct);
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
-  const isCorrect = selected === q.correct;
+  const isCorrect = selected === newCorrect;
   const intro = getIntroBilingual(q);
 
   function renderRisposta(frase, selectedOpt) {
@@ -1607,20 +1615,20 @@ function DomandaCompletaRisposta({ q, onAnswer }) {
         {/* Risposta con buco */}
         <div className="q-card" style={{ borderColor: CHAR_COLOR[q.personaggio] }}>
           <div style={{ fontSize: 17, fontWeight: 700, color: "var(--text)", lineHeight: 1.5 }}>
-            {renderRisposta(q.risposta_it, selected !== null ? q.opzioni[selected] : null)}
+            {renderRisposta(q.risposta_it, selected !== null ? shuffled[selected].o : null)}
           </div>
           <div style={{ fontSize: 14, fontStyle: "italic", color: "var(--text3)", marginTop: 4 }}>{q.risposta_en}</div>
         </div>
         {/* Opzioni */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-          {q.opzioni.map((opt, i) => {
-            const isSel = selected === i;
-            const ok = confirmed && i === q.correct;
+          {shuffled.map(({ o: opt }, si) => {
+            const isSel = selected === si;
+            const ok = confirmed && si === newCorrect;
             const err = confirmed && isSel && !isCorrect;
             const bg = ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : isSel ? "var(--opt-sel-bg)" : "var(--card)";
             const border = ok ? "var(--ok-text)" : err ? "var(--err-text)" : isSel ? "var(--opt-sel-b)" : "var(--border)";
             return (
-              <button key={i} onClick={() => !confirmed && setSelected(i)} style={{
+              <button key={si} onClick={() => !confirmed && setSelected(si)} style={{
                 flex: "1 1 45%", background: bg, border: `1.5px solid ${border}`,
                 borderBottom: `4px solid ${border}`, borderRadius: 10, padding: "8px 12px",
                 cursor: confirmed ? "default" : "pointer", fontFamily: "inherit",
@@ -1643,10 +1651,13 @@ function DomandaCompletaRisposta({ q, onAnswer }) {
 
 // ─── TIPO: ascolta_ripeti ───────────────────────────────────────────────────
 function DomandaAscoltaRipeti({ q, onAnswer }) {
+  const seed = (q.audio_it || q.domanda?.it || "").split("").reduce((a, c) => a + c.charCodeAt(0), 0);
+  const shuffled = useRef(stableShuffle(q.opzioni, seed)).current;
+  const newCorrect = shuffled.findIndex(x => x.i === q.correct);
   const [hasListened, setHasListened] = useState(false);
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
-  const isCorrect = selected === q.correct;
+  const isCorrect = selected === newCorrect;
   const intro = getIntroBilingual(q);
   const audioOn = typeof window !== "undefined" && localStorage.getItem("ics_audio") !== "false";
 
@@ -1659,8 +1670,8 @@ function DomandaAscoltaRipeti({ q, onAnswer }) {
     if (confirmed) return;
     setSelected(idx);
     setConfirmed(true);
-    playSound(idx === q.correct ? "correct" : "wrong");
-    if (idx === q.correct) pronounce(q.opzioni[idx].it, "it-IT");
+    playSound(idx === newCorrect ? "correct" : "wrong");
+    if (idx === newCorrect) pronounce(shuffled[idx].o.it, "it-IT");
   }
 
   return (
@@ -1690,12 +1701,12 @@ function DomandaAscoltaRipeti({ q, onAnswer }) {
         )}
 
         <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-          {q.opzioni.map((opt, i) => {
-            const isSel = selected === i;
-            const ok = confirmed && i === q.correct;
+          {shuffled.map(({ o: opt }, si) => {
+            const isSel = selected === si;
+            const ok = confirmed && si === newCorrect;
             const err = confirmed && isSel && !isCorrect;
             return (
-              <button key={i} onClick={() => (hasListened || !audioOn) && handleSelect(i)} style={{
+              <button key={si} onClick={() => (hasListened || !audioOn) && handleSelect(si)} style={{
                 background: ok ? "var(--ok-bar)" : err ? "var(--err-bar)" : "var(--card)",
                 border: `1.5px solid ${ok ? "var(--ok-text)" : err ? "var(--err-text)" : "var(--border)"}`,
                 borderRadius: "var(--r)", padding: "12px 16px", cursor: (hasListened || !audioOn) && !confirmed ? "pointer" : "default",
