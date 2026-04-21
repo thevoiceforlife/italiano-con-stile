@@ -1,0 +1,70 @@
+{
+  "$schema": "v2",
+  "theme_id": "a1_t01_saluti",
+  "theme_number": 1,
+  "level": "a1",
+  "slug": "saluti",
+  "title": {
+    "it": "Saluti e presentazioni",
+    "en": "Greetings and introductions"
+  },
+  "description": {
+    "it": "Impara a salutare, presentarti e riconoscere quando si usa il tu e quando il Lei.",
+    "en": "Learn to greet, introduce yourself, and recognize when to use 'tu' vs 'Lei'."
+  },
+  "distribution_version": "soft",
+  "characters": [
+    {
+      "id": "mario",
+      "role": "protagonist",
+      "unit_lead": [1, 2, 3, 4, 5],
+      "teaser_in_challenge": null,
+      "activity_restriction": null
+    },
+    {
+      "id": "sofia",
+      "role": "co_protagonist",
+      "unit_lead": [2],
+      "teaser_in_challenge": "u1",
+      "activity_restriction": ["listen", "build", "fill", "decision", "why", "dialogue"]
+    },
+    {
+      "id": "emma",
+      "role": "co_protagonist",
+      "unit_lead": [3],
+      "teaser_in_challenge": "u2",
+      "activity_restriction": ["listen", "build", "fill", "decision", "why", "dialogue"]
+    },
+    {
+      "id": "hans",
+      "role": "co_protagonist",
+      "unit_lead": [4],
+      "teaser_in_challenge": "u3",
+      "activity_restriction": ["listen", "build", "fill", "decision", "why", "dialogue"]
+    },
+    {
+      "id": "yuki",
+      "role": "co_protagonist",
+      "unit_lead": [5],
+      "teaser_in_challenge": "u4",
+      "activity_restriction": ["listen", "build", "fill", "decision", "why", "dialogue"]
+    },
+    {
+      "id": "mario",
+      "role": "final_boss",
+      "unit_lead": [],
+      "teaser_in_challenge": "u5",
+      "activity_restriction": null
+    }
+  ],
+  "reward_theme_complete": {
+    "kind": "experience",
+    "id": "esperienza_bar_mario",
+    "label": {
+      "it": "Esperienza: Caffè al bar di Mario",
+      "en": "Experience: Coffee at Mario's bar"
+    },
+    "emoji": "☕",
+    "credits": 50
+  }
+}

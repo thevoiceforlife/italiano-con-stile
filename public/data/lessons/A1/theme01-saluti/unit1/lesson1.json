@@ -1,0 +1,278 @@
+{
+  "$schema": "v2",
+  "lesson_id": "a1_t01_u1_l1",
+  "lesson_number": 1,
+  "unit_id": "a1_t01_u1",
+  "theme_id": "a1_t01_saluti",
+  "format": "onboarding",
+  "title": {
+    "it": "Mario apre il bar",
+    "en": "Mario opens the bar"
+  },
+  "intro_narrative": {
+    "character_id": "mario",
+    "first_appearance": true,
+    "text": {
+      "it": "Ciao! Io sono Mario. Mentre impariamo italiano insieme, ti preparo un caffè. Iniziamo dai saluti — la cosa più italiana del mondo.",
+      "en": "Hi! I'm Mario. While we learn Italian together, I'll make you a coffee. Let's start with greetings — the most Italian thing in the world."
+    }
+  },
+  "activities": [
+    {
+      "activity_id": "a1_t01_u1_l1_a1",
+      "activity_number": 1,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_ciao", "a1_t01_u1_buongiorno"],
+      "intro": {
+        "it": "Iniziamo con due parole che senti ogni giorno in Italia. Abbinale al significato inglese.",
+        "en": "Let's start with two words you hear every day in Italy. Match them to their English meaning."
+      },
+      "feedback_ok": {
+        "it": "Benissimo. Ciao per gli amici, Buongiorno per tutto il resto.",
+        "en": "Perfect. Ciao for friends, Buongiorno for everything else."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Ciao = Hi (informale, con amici). Buongiorno = Good morning (formale, o comunque prima delle 18). Pensa a Ciao come al tuo 'Hi' tra amici.",
+        "en": "❌ Try again. ✅ Ciao = Hi (informal, with friends). Buongiorno = Good morning (formal, or anytime before 6 PM). Think of Ciao as your 'Hi' with friends."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_ciao",       "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_buongiorno", "en_override": null }
+        ],
+        "rounds": 2
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a2",
+      "activity_number": 2,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_buongiorno", "a1_t01_u1_buonasera"],
+      "intro": {
+        "it": "Due saluti che cambiano con l'orologio. Abbinali.",
+        "en": "Two greetings that change with the clock. Match them."
+      },
+      "feedback_ok": {
+        "it": "Esatto. Buongiorno fino alle 18, poi Buonasera. L'Italia è puntuale solo con i saluti.",
+        "en": "Exactly. Buongiorno until 6 PM, then Buonasera. Italy is only punctual with greetings."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Buongiorno = Good morning (prima delle 18). Buonasera = Good evening (dopo le 18). In Italia non si dice 'good afternoon' separato — si tira dritti con Buongiorno fino a sera.",
+        "en": "❌ Try again. ✅ Buongiorno = Good morning (before 6 PM). Buonasera = Good evening (after 6 PM). Italian has no separate 'good afternoon' — you keep using Buongiorno until evening."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_buongiorno", "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_buonasera",  "en_override": null }
+        ],
+        "rounds": 2
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a3",
+      "activity_number": 3,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_buonasera", "a1_t01_u1_ciao"],
+      "intro": {
+        "it": "Sono le otto di sera. Entra un amico, poi una signora. Cosa dici a ciascuno?",
+        "en": "It's 8 PM. A friend walks in, then an older lady. What do you say to each?"
+      },
+      "feedback_ok": {
+        "it": "Giusto. Ciao all'amico, Buonasera alla signora. Al bar si impara così: guardi chi entra e scegli.",
+        "en": "Right. Ciao to your friend, Buonasera to the lady. At the bar you learn like this: you look at who walks in and choose."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Ciao = Hi (informale, con amici, a qualsiasi ora). Buonasera = Good evening (formale, dopo le 18). L'ora da sola non basta: conta anche CHI saluti.",
+        "en": "❌ Try again. ✅ Ciao = Hi (informal, with friends, any time). Buonasera = Good evening (formal, after 6 PM). Time alone isn't enough: WHO you greet matters too."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_buonasera", "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_ciao",      "en_override": null }
+        ],
+        "rounds": 2
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a4",
+      "activity_number": 4,
+      "type": "match",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_ciao", "a1_t01_u1_buongiorno", "a1_t01_u1_buonasera"],
+      "intro": {
+        "it": "Ultimo giro con tutti e tre. Abbinali.",
+        "en": "Last round with all three. Match them."
+      },
+      "feedback_ok": {
+        "it": "Bravissimo. Tre saluti in tasca — e il bar ha appena aperto.",
+        "en": "Great job. Three greetings in your pocket — and the bar just opened."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Ciao = Hi (amici, qualsiasi ora). Buongiorno = Good morning (formale, prima delle 18). Buonasera = Good evening (formale, dopo le 18).",
+        "en": "❌ Try again. ✅ Ciao = Hi (friends, any time). Buongiorno = Good morning (formal, before 6 PM). Buonasera = Good evening (formal, after 6 PM)."
+      },
+      "data": {
+        "pairs": [
+          { "it_vocab_ref": "a1_t01_u1_ciao",       "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_buongiorno", "en_override": null },
+          { "it_vocab_ref": "a1_t01_u1_buonasera",  "en_override": null }
+        ],
+        "rounds": 2
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a5",
+      "activity_number": 5,
+      "type": "mcq",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_buongiorno"],
+      "intro": {
+        "it": "Primo scenario: sei appena arrivato al bar.",
+        "en": "First scenario: you've just arrived at the bar."
+      },
+      "feedback_ok": {
+        "it": "Benissimo. Alle 9 del mattino è Buongiorno, sempre.",
+        "en": "Great. At 9 AM it's Buongiorno, always."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Sono le 9 del mattino → Buongiorno (Good morning). Buonasera parte alle 18, Ciao è per gli amici stretti. Al bar appena entrato, vai sul formale.",
+        "en": "❌ Try again. ✅ It's 9 AM → Buongiorno (Good morning). Buonasera starts at 6 PM, Ciao is for close friends. Walking into a bar, go formal."
+      },
+      "data": {
+        "mode": "standard",
+        "context": {
+          "it": "Sono le 9 del mattino. Arrivi al bar di Mario.",
+          "en": "It's 9 AM. You arrive at Mario's bar."
+        },
+        "prompt": {
+          "it": "Cosa dici a Mario?",
+          "en": "What do you say to Mario?"
+        },
+        "options": [
+          { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
+          { "it": "Buonasera!",  "en": "Good evening!", "emoji": "🌆" },
+          { "it": "Ciao!",       "en": "Hi!",           "emoji": "👋" }
+        ],
+        "correct": 0,
+        "context_type": "saluto_contestuale",
+        "expected_answer_type": "saluto"
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a6",
+      "activity_number": 6,
+      "type": "mcq",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_buonasera"],
+      "intro": {
+        "it": "Secondo scenario: è sera, non conosci la persona davanti a te.",
+        "en": "Second scenario: it's evening, you don't know the person in front of you."
+      },
+      "feedback_ok": {
+        "it": "Bravissimo. Sera + persona che non conosci = Buonasera, senza esitare.",
+        "en": "Perfect. Evening + someone you don't know = Buonasera, no hesitation."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Sono le 20 e stai salutando la mamma di un amico → Buonasera (Good evening). Ciao qui sarebbe troppo confidenziale, Buongiorno è solo fino alle 18.",
+        "en": "❌ Try again. ✅ It's 8 PM and you're greeting a friend's mom → Buonasera (Good evening). Ciao would be too familiar here, Buongiorno only works before 6 PM."
+      },
+      "data": {
+        "mode": "standard",
+        "context": {
+          "it": "Sono le 20. Incontri la mamma di un amico.",
+          "en": "It's 8 PM. You meet a friend's mom."
+        },
+        "prompt": {
+          "it": "Cosa le dici?",
+          "en": "What do you say to her?"
+        },
+        "options": [
+          { "it": "Buonasera!",  "en": "Good evening!", "emoji": "🌆" },
+          { "it": "Buongiorno!", "en": "Good morning!", "emoji": "☀️" },
+          { "it": "Ciao!",       "en": "Hi!",           "emoji": "👋" }
+        ],
+        "correct": 0,
+        "context_type": "saluto_contestuale",
+        "expected_answer_type": "saluto"
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a7",
+      "activity_number": 7,
+      "type": "listen",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_buonasera"],
+      "intro": {
+        "it": "Il bar si riempie la sera. Ascolta il saluto che sento più spesso.",
+        "en": "The bar fills up in the evening. Listen to the greeting I hear most often."
+      },
+      "feedback_ok": {
+        "it": "Esatto: Buonasera. Alla sera qui è tutto un Buonasera.",
+        "en": "Exactly: Buonasera. In the evening it's all Buonasera here."
+      },
+      "feedback_err": {
+        "it": "❌ Riprova. ✅ Era Buonasera. Trucco: ascolta la fine della parola — -sera = sera, -giorno = giorno.",
+        "en": "❌ Try again. ✅ It was Buonasera. Trick: listen to the word ending — -sera = evening, -giorno = day."
+      },
+      "data": {
+        "mode": "choose",
+        "audio": {
+          "source": "tts",
+          "text_it": "Buonasera!",
+          "text_en_reference": "Good evening!"
+        },
+        "prompt": {
+          "it": "Cosa hai sentito?",
+          "en": "What did you hear?"
+        },
+        "options": [
+          { "it": "Buonasera!",  "en": "Good evening!" },
+          { "it": "Buongiorno!", "en": "Good morning!" },
+          { "it": "Ciao!",       "en": "Hi!" }
+        ],
+        "correct": 0
+      }
+    },
+    {
+      "activity_id": "a1_t01_u1_l1_a8",
+      "activity_number": 8,
+      "type": "build",
+      "character_id": "mario",
+      "vocab_focus": ["a1_t01_u1_ciao"],
+      "intro": {
+        "it": "Ultimo passo. Ormai ci conosciamo — salutami come faresti con un amico.",
+        "en": "Last step. We know each other now — greet me like you'd greet a friend."
+      },
+      "feedback_ok": {
+        "it": "Ciao, anche a te! Prima lezione finita. Il caffè è pronto.",
+        "en": "Ciao to you too! First lesson done. The coffee is ready."
+      },
+      "feedback_err": {
+        "it": "Prima il saluto, poi il nome. Con un amico: Ciao Mario.",
+        "en": "Greeting first, then the name. With a friend: Ciao Mario."
+      },
+      "data": {
+        "target": {
+          "it": "Ciao Mario",
+          "en": "Hi Mario"
+        },
+        "word_bank": ["Ciao", "Mario", "Buongiorno", "Buonasera"],
+        "fixed_punctuation": "!",
+        "audio_on_complete": true
+      }
+    }
+  ],
+  "reward_lesson_complete": {
+    "kind": "ingredient",
+    "slot": "colazione",
+    "pool": [
+      { "id": "caffe",    "it": "Caffè espresso",     "en": "Espresso",     "emoji": "☕" },
+      { "id": "cornetto", "it": "Cornetto",           "en": "Italian croissant", "emoji": "🥐" },
+      { "id": "spremuta", "it": "Spremuta d'arancia", "en": "Orange juice", "emoji": "🍊" }
+    ],
+    "credits": 5
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "v2",
+  "unit_id": "a1_t01_u1",
+  "unit_number": 1,
+  "theme_id": "a1_t01_saluti",
+  "focus": "vocab_intro",
+  "title": {
+    "it": "Primi saluti al bar",
+    "en": "First greetings at the bar"
+  },
+  "vocabulary": [
+    {
+      "id": "a1_t01_u1_ciao",
+      "it": "Ciao",
+      "en": "Hi / Bye",
+      "audio_text": "Ciao",
+      "emoji": "👋",
+      "introduced_in_lesson": 1,
+      "register": "informal"
+    },
+    {
+      "id": "a1_t01_u1_buongiorno",
+      "it": "Buongiorno",
+      "en": "Good morning",
+      "audio_text": "Buongiorno",
+      "emoji": "☀️",
+      "introduced_in_lesson": 1,
+      "register": "formal"
+    },
+    {
+      "id": "a1_t01_u1_buonasera",
+      "it": "Buonasera",
+      "en": "Good evening",
+      "audio_text": "Buonasera",
+      "emoji": "🌆",
+      "introduced_in_lesson": 1,
+      "register": "formal"
+    },
+    {
+      "id": "a1_t01_u1_arrivederci",
+      "it": "Arrivederci",
+      "en": "Goodbye",
+      "audio_text": "Arrivederci",
+      "emoji": "🚪",
+      "introduced_in_lesson": 2,
+      "register": "neutral"
+    },
+    {
+      "id": "a1_t01_u1_grazie",
+      "it": "Grazie",
+      "en": "Thank you",
+      "audio_text": "Grazie",
+      "emoji": "🙏",
+      "introduced_in_lesson": 2,
+      "register": "neutral"
+    },
+    {
+      "id": "a1_t01_u1_per_favore",
+      "it": "Per favore",
+      "en": "Please",
+      "audio_text": "Per favore",
+      "emoji": "🤲",
+      "introduced_in_lesson": 2,
+      "register": "neutral"
+    }
+  ],
+  "inherited_vocab": [],
+  "reward_unit_complete": {
+    "kind": "dish",
+    "id": "pizza_margherita",
+    "label": {
+      "it": "Pizza Margherita",
+      "en": "Margherita pizza"
+    },
+    "emoji": "🍕",
+    "credits": 20
+  }
+}
