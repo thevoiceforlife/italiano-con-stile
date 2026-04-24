@@ -428,6 +428,7 @@ Una lezione = un guscio + 8 attività + reward.
     }
   },
   "activities": [ /* esattamente 8 */ ],
+  "cultural_insights": [],
   "reward_lesson_complete": {
     "kind": "ingredient",
     "slot": "colazione",
@@ -453,6 +454,7 @@ Una lezione = un guscio + 8 attività + reward.
 - `why` e `dialogue` **non possono** comparire in L1.
 - `why` non può comparire in L2.
 - `reward_lesson_complete.slot` segue progressione L1→L6: `colazione` / `fine_colazione` / `pranzo` / `aperitivo` / `cena` / `dolce`.
+- `cultural_insights` opzionale. Se presente, `length ≤ 1` (warning fino a P2.d). Payload identico agli insights di unit-meta.
 
 ### 6.1 Distribuzione attività per lezione
 
@@ -1343,6 +1345,7 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `why` assente in L1 e L2. `dialogue` assente in L1.
 - [ ] `reward_lesson_complete.slot` coerente con `lesson_number`.
 - [ ] Regola personaggi: U1 → tutti mario; U2-U5 → mario per match/mcq, co-protagonist per il resto.
+- [ ] `cultural_insights` a livello lesson: opzionale, `length ≤ 1` se presente. Payload identico a unit-meta. **[P2, warning fino a P2.d]**
 
 ### 13.6 attività
 
@@ -1424,6 +1427,7 @@ Questa sezione esiste solo finché P2 è in corso. Si elimina quando P2.d è chi
 | `context_override` | `unit-meta.json` | Opzionale | Warning fino a P2.d |
 | `cultural_insights` | `unit-meta.json` | Obbligatorio (min 1) | Warning fino a P2.d |
 | `character_layout_override` | activity | Opzionale | Warning fino a P2.d |
+| `cultural_insights` | `lesson.json` | Opzionale, max 1 | Warning fino a P2.d |
 
 ### 15.2 Perché warning e non bloccanti subito
 
