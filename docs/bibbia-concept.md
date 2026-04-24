@@ -74,6 +74,8 @@
 
 ## 3. I 6 PERSONAGGI — PROFILI DEFINITIVI
 
+> ⚠️ **Obsoleto dal 2026-04-24**: il roster è ora di 15 personaggi. Vedi `docs/decisioni-architettura-v2.md` sezione 10 (lista completa) e sezione 5 (regola casting 5-da-15 per tema). La lista qui sotto resta solo come riferimento storico Sprint 3.
+
 ### ☕ MARIO — Il Barista
 - **Età:** 40-45 anni
 - **Ruolo nell'app:** Personaggio PRINCIPALE — presente in OGNI lezione.
@@ -291,6 +293,8 @@ Ogni personaggio ha un mini-game diverso che rispecchia la sua personalità:
 
 ## 10. UNITÀ DIDATTICHE — STATO ATTUALE
 
+> ⚠️ **Obsoleto dal 2026-04-24**: stato congelato al 5 marzo 2026 (Sprint 3). Il contenuto A1 è oggi completo (15 unit × 6 sessioni = 90 JSON, vedi `docs/bibbia-tecnica.md` sezione STATO UNIT5-15). Il pilota v2 è su Tema 1 Saluti (L1+L2 live). Aggiornamento consolidato in F2.1.b.
+
 ### Unità 1 — Benvenuto al Bar di Mario (A1) ← SPRINT 3 COMPLETATO
 
 | Lezione | Titolo | Status |
@@ -356,6 +360,8 @@ Ogni destinazione = 2-5 lezioni tematiche + 1 ricetta in italiano + 1 dialetto l
 
 ## 13. APP ESISTENTE (dopo Sprint 3)
 
+> ⚠️ **Obsoleto dal 2026-04-24**: descrive l'app al 5 marzo 2026. Negli sprint successivi sono stati aggiunti: biblioteca completa (30 schede, 1800 esercizi), mini-game personaggi, dashboard, sistema reward multi-slot, taxonomy semantica, validator pre-commit, pilota v2. Per lo stato reale vedi `docs/bibbia-tecnica.md` sezione STATO ATTUALE.
+
 **URL produzione:** `https://italiano-con-stile.vercel.app`
 **Repository:** `https://github.com/thevoiceforlife/italiano-con-stile`
 
@@ -408,6 +414,8 @@ public/
 ---
 
 ## 14. ROADMAP SPRINT
+
+> ⚠️ **Obsoleto dal 2026-04-24**: roadmap Sprint numerata (1-16) superata dalla roadmap v2 (Fasi F1-F2-F3 post-audit 20/4). Gli Sprint 11-16 citati qui non sono più il piano attivo. Vedi `docs/decisioni-architettura-v2.md` sezione 11 per la roadmap v2.
 
 | Sprint | Contenuto | Status |
 |---|---|---|
