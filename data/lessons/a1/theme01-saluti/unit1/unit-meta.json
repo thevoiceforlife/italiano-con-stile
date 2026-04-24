@@ -65,6 +65,25 @@
     }
   ],
   "inherited_vocab": [],
+  "context_override": {
+    "time": { "it": "mattina presto", "en": "early morning" }
+  },
+  "cultural_insights": [
+    {
+      "id": "per_favore_al_bar",
+      "emoji": "☕",
+      "title": {
+        "it": "Al bar italiano, «per favore» crea cliente abituale.",
+        "en": "At the Italian bar, «per favore» creates a regular."
+      },
+      "body": {
+        "it": "Se entri e dici solo «Un caffè», il barista te lo fa. Se aggiungi «per favore», la seconda volta ti riconosce. In Italia la cortesia al bar non è formalità — è il modo in cui si diventa abituali.",
+        "en": "If you walk in and just say «Un caffè», the barista makes it. If you add «per favore», the second time he recognizes you. In Italy, politeness at the bar isn't formality — it's how you become a regular."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_per_favore"],
+      "trigger_contexts": []
+    }
+  ],
   "reward_unit_complete": {
     "kind": "dish",
     "id": "pizza_margherita",

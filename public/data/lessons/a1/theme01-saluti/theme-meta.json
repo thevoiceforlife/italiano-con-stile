@@ -13,6 +13,23 @@
     "en": "Learn to greet, introduce yourself, and recognize when to use 'tu' vs 'Lei'."
   },
   "distribution_version": "soft",
+  "context": {
+    "emoji": "☕",
+    "place": { "it": "Al Bar di Mario", "en": "Mario's Bar" },
+    "city":  { "it": "Napoli",          "en": "Naples" },
+    "time":  { "it": "mattina",         "en": "morning" }
+  },
+  "anglo_traps": [
+    {
+      "id": "good_morning_vs_buongiorno",
+      "trap": { "en": "Good morning works only until ~12:00-13:00 in Italy" },
+      "tip": {
+        "it": "Dopo pranzo è già Buon pomeriggio o Buonasera",
+        "en": "After lunch, it's already Buon pomeriggio or Buonasera"
+      },
+      "trigger_contexts": ["saluto_contestuale"]
+    }
+  ],
   "characters": [
     {
       "id": "mario",
