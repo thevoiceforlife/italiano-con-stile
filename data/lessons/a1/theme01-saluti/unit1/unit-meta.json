@@ -82,6 +82,17 @@
       },
       "trigger_vocab_refs": ["a1_t01_u1_per_favore"],
       "trigger_contexts": []
+    },
+    {
+      "id": "ciao_bidirezionale",
+      "emoji": "👋",
+      "title": { "it": "Ciao vale doppio", "en": "Ciao works both ways" },
+      "body": {
+        "it": "Ciao si usa sia per salutare sia per congedarsi. È l'unica parola italiana che copre «hi» e «bye» insieme. Ma solo tra persone che si danno del tu — con gli altri, Arrivederci.",
+        "en": "Ciao works both as hello and goodbye. It's the only Italian word that covers both «hi» and «bye». But only among people on tu terms — with everyone else, Arrivederci."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_ciao"],
+      "trigger_contexts": ["saluto_contestuale"]
     }
   ],
   "reward_unit_complete": {
