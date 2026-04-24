@@ -265,6 +265,19 @@
       }
     }
   ],
+  "cultural_insights": [
+    {
+      "id": "buongiorno_composto",
+      "emoji": "☀️",
+      "title": { "it": "Buongiorno si scompone", "en": "Buongiorno breaks apart" },
+      "body": {
+        "it": "Buon + giorno. Buona + sera. Buona + notte. Ogni saluto italiano ti dice il momento della giornata. Se sai che giorno = day, sera = evening, notte = night, sai già tre saluti.",
+        "en": "Buon + giorno (day). Buona + sera (evening). Buona + notte (night). Every Italian greeting tells you the time of day. If you know the second word, you already know three greetings."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_buongiorno", "a1_t01_u1_buonasera"],
+      "trigger_contexts": []
+    }
+  ],
   "reward_lesson_complete": {
     "kind": "ingredient",
     "slot": "colazione",

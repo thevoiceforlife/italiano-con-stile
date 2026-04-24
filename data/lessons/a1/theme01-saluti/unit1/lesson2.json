@@ -258,6 +258,19 @@
       }
     }
   ],
+  "cultural_insights": [
+    {
+      "id": "grazie_mille_non_mille_grazie",
+      "emoji": "🙏",
+      "title": { "it": "Grazie mille, non mille grazie", "en": "A thousand thanks, in the right order" },
+      "body": {
+        "it": "In italiano si dice «Grazie mille» — il numero viene dopo. «Mille grazie» esiste ma suona letterario, quasi ironico. Al bar, al negozio, ovunque: Grazie mille.",
+        "en": "In Italian you say «Grazie mille» — the number comes after. «Mille grazie» exists but sounds literary, almost ironic. At the bar, at the shop, everywhere: Grazie mille."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_grazie"],
+      "trigger_contexts": []
+    }
+  ],
   "reward_lesson_complete": {
     "kind": "ingredient",
     "slot": "fine_colazione",
