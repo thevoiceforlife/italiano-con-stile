@@ -28,6 +28,68 @@
         "en": "After lunch, it's already Buon pomeriggio or Buonasera"
       },
       "trigger_contexts": ["saluto_contestuale"]
+    },
+    {
+      "id": "come_stai_non_e_how_are_you",
+      "trap": { "en": "Come stai? is a real question in Italian, not a greeting formula like How are you?" },
+      "tip": {
+        "it": "In italiano «Come stai?» si dice solo a chi conosci, e si aspetta risposta vera",
+        "en": "In Italian you only ask «Come stai?» to people you know, and they actually answer"
+      },
+      "trigger_contexts": ["richiesta_stato"]
+    },
+    {
+      "id": "ciao_non_e_hello",
+      "trap": { "en": "Ciao is not Hello — it's informal only, like Hey or Hi among friends" },
+      "tip": {
+        "it": "Con sconosciuti o in contesti formali: Buongiorno o Buonasera, mai Ciao",
+        "en": "With strangers or in formal settings: Buongiorno or Buonasera, never Ciao"
+      },
+      "trigger_contexts": ["saluto_contestuale", "primo_incontro"]
+    },
+    {
+      "id": "prego_multiuso",
+      "trap": { "en": "Prego is not just «please» — it covers «you're welcome», «go ahead», «after you», and «how can I help you»" },
+      "tip": {
+        "it": "Prego è una parola-jolly: dopo «Grazie» vale «you're welcome», al bar vale «come posso aiutarla», cedendo il passo vale «prego, vai»",
+        "en": "Prego is a multi-use word: after «Grazie» it means «you're welcome», at the bar «how can I help you», holding a door «after you»"
+      },
+      "trigger_contexts": ["richiesta_stato"]
+    }
+  ],
+  "cultural_insights": [
+    {
+      "id": "buongiorno_buonasera_orologio",
+      "emoji": "🕕",
+      "title": { "it": "L'orologio dei saluti", "en": "The greeting clock" },
+      "body": {
+        "it": "In Italia il saluto cambia con la luce. Buongiorno finché c'è sole pieno, Buonasera quando cala. Due saluti per tutto l'arco della giornata.",
+        "en": "In Italy greetings follow the light. Buongiorno while the sun is full, Buonasera when it fades. Two greetings cover the whole day."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_buongiorno", "a1_t01_u1_buonasera"],
+      "trigger_contexts": ["saluto_contestuale"]
+    },
+    {
+      "id": "tu_lei_primo_contatto",
+      "emoji": "🤝",
+      "title": { "it": "Tu o Lei? Dipende da chi hai davanti", "en": "Tu or Lei? It depends on who you're facing" },
+      "body": {
+        "it": "Al bar con un amico: tu. Al bar con il professore: Lei. La scelta non è solo di rispetto — dice quanto conosci la persona. Nel dubbio, parti con Lei: se l'altro vuole il tu, te lo dice.",
+        "en": "At the bar with a friend: tu. At the bar with your professor: Lei. The choice isn't just about respect — it signals how well you know someone. When in doubt, start with Lei: if they want tu, they'll tell you."
+      },
+      "trigger_vocab_refs": [],
+      "trigger_contexts": ["primo_incontro"]
+    },
+    {
+      "id": "doppio_bacio_regole",
+      "emoji": "💋",
+      "title": { "it": "Due baci, ma non a tutti", "en": "Two kisses, but not for everyone" },
+      "body": {
+        "it": "Tra amici e parenti il saluto italiano prevede due baci sulle guance. Con sconosciuti o in contesti professionali: stretta di mano. Non improvvisare il bacio al primo incontro.",
+        "en": "Among friends and family the Italian greeting includes two cheek kisses. With strangers or in professional settings: handshake. Don't improvise the kiss at a first meeting."
+      },
+      "trigger_vocab_refs": [],
+      "trigger_contexts": ["primo_incontro"]
     }
   ],
   "characters": [
