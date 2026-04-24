@@ -263,7 +263,7 @@ Definisce il tema, i 5 personaggi coinvolti e la reward finale del tema.
 - `activity_restriction` di un `co_protagonist` è sempre il complemento di `["match", "mcq"]` (regola "Mario conduce match+mcq ovunque").
 - `distribution_version` deriva da `theme_number`: 1-10 soft, 11-30 standard, 31-50 advanced.
 
-**Regole enforced (P2 extension — warning fino a P2.d)**:
+**Regole enforced (P2 extension — warning fino a D2)**:
 
 - `context.emoji`, `context.place.it/en`, `context.time.it/en` presenti e non vuoti.
 - `context.city` nullable (es. T12 "Al telefono" non ha luogo fisico). Se presente, `city.it/en` entrambi non vuoti.
@@ -390,7 +390,7 @@ Definisce il vocabolario dell'unità (6 parole) e la reward di completamento.
 - Tutti i `vocab_id` seguono il pattern `{theme_id}_u{N}_{slug}`.
 - `inherited_vocab` è array di `unit_id`: U1=`[]`, U2=`["a1_t01_u1"]`, ..., U5=`["a1_t01_u1", ..., "a1_t01_u4"]`.
 
-**Regole enforced (P2 extension — warning fino a P2.d)**:
+**Regole enforced (P2 extension — warning fino a D2)**:
 
 - `context_override`, se presente, è subset di `{emoji, place, city, time}`. Nessun altro campo ammesso.
 - Ogni campo presente in `context_override` rispetta la stessa shape del corrispondente in `theme-meta.context` (bilingue `{it, en}` per `place`/`city`/`time`, stringa per `emoji`).
@@ -454,7 +454,7 @@ Una lezione = un guscio + 8 attività + reward.
 - `why` e `dialogue` **non possono** comparire in L1.
 - `why` non può comparire in L2.
 - `reward_lesson_complete.slot` segue progressione L1→L6: `colazione` / `fine_colazione` / `pranzo` / `aperitivo` / `cena` / `dolce`.
-- `cultural_insights` opzionale. Se presente, `length ≤ 1` (warning fino a P2.d). Payload identico agli insights di unit-meta.
+- `cultural_insights` opzionale. Se presente, `length ≤ 1` (warning fino a D2). Payload identico agli insights di unit-meta.
 
 ### 6.1 Distribuzione attività per lezione
 
@@ -538,7 +538,7 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
 - `feedback_err.en` non contiene emoji (regola bibbia, ereditata).
 - `activity_number` univoco all'interno della lezione, da 1 a 8.
 
-**Regole enforced (P2 extension — warning fino a P2.d)**:
+**Regole enforced (P2 extension — warning fino a D2)**:
 
 - `character_layout_override`, se presente, appartiene all'enum `{"compact_corner"}` (unico valore per ora, previsto per `build`). `null` esplicito ammesso.
 - Raccomandato (warning se violato): `character_layout_override: "compact_corner"` per tutte le attività con `type: "build"` per coerenza UX con la regola roadmap P2 §3.
@@ -1325,8 +1325,8 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `distribution_version` coerente con `theme_number`.
 - [ ] `teaser_in_challenge` di co-protagonist U`N` = `"u{N-1}"`.
 - [ ] `activity_restriction` co-protagonist = complemento di `["match", "mcq"]`.
-- [ ] `context` presente: `emoji`, `place.it/en`, `time.it/en` non vuoti; `city` nullable ma se presente bilingue non vuoto. **[P2, warning fino a P2.d]**
-- [ ] `anglo_traps.length >= 1`; ogni trap ha `id` unico, `trap.en` non vuoto, `tip.it/en` non vuoti, `trigger_contexts` tutti validi in taxonomy. **[P2, warning fino a P2.d]**
+- [ ] `context` presente: `emoji`, `place.it/en`, `time.it/en` non vuoti; `city` nullable ma se presente bilingue non vuoto. **[P2, warning fino a D2]**
+- [ ] `anglo_traps.length >= 1`; ogni trap ha `id` unico, `trap.en` non vuoto, `tip.it/en` non vuoti, `trigger_contexts` tutti validi in taxonomy. **[P2, warning fino a D2]**
 
 ### 13.4 unit-meta
 
@@ -1334,8 +1334,8 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] 3 parole con `introduced_in_lesson: 1`, 3 con `: 2`.
 - [ ] Emoji uniche entro l'unità.
 - [ ] `inherited_vocab` coerente con `unit_number`.
-- [ ] `context_override`, se presente, è subset di `{emoji, place, city, time}` con stessa shape di `theme-meta.context`. **[P2, warning fino a P2.d]**
-- [ ] `cultural_insights.length >= 1`; ogni insight ha `id` unico entro unità, `title.it/en` + `body.it/en` non vuoti, trigger refs validi. **[P2, warning fino a P2.d]**
+- [ ] `context_override`, se presente, è subset di `{emoji, place, city, time}` con stessa shape di `theme-meta.context`. **[P2, warning fino a D2]**
+- [ ] `cultural_insights.length >= 1`; ogni insight ha `id` unico entro unità, `title.it/en` + `body.it/en` non vuoti, trigger refs validi. **[P2, warning fino a D2]**
 
 ### 13.5 lesson.json
 
@@ -1345,7 +1345,7 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `why` assente in L1 e L2. `dialogue` assente in L1.
 - [ ] `reward_lesson_complete.slot` coerente con `lesson_number`.
 - [ ] Regola personaggi: U1 → tutti mario; U2-U5 → mario per match/mcq, co-protagonist per il resto.
-- [ ] `cultural_insights` a livello lesson: opzionale, `length ≤ 1` se presente. Payload identico a unit-meta. **[P2, warning fino a P2.d]**
+- [ ] `cultural_insights` a livello lesson: opzionale, `length ≤ 1` se presente. Payload identico a unit-meta. **[P2, warning fino a D2]**
 
 ### 13.6 attività
 
@@ -1359,7 +1359,7 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `decision`: `branches.length ∈ {2, 3}`; `correct_branch_index === 0`; ogni branch ha `action.it/en` e `outcome.it/en` non vuoti; `action.emoji` opzionale (null ammesso) e solo IT; `context_type` + `expected_answer_type` validi nella taxonomy; `outcome.en` senza emoji decorativi (❌/✅ strutturali ammessi).
 - [ ] `why`: `pattern_examples.length === 2`; ogni gruppo ha `items.length ∈ [2, 4]` con `it/en` non vuoti; `hypotheses.length ∈ {2, 3}`; `correct_hypothesis_index === 0`; `hypotheses[0].nudge === null`; per ogni `i > 0` `hypotheses[i].nudge.it/en` non vuoti; `rule_reveal.it/en` e `english_analogy.it/en` non vuoti.
 - [ ] `dialogue`: `turns.length ∈ [2, 7]`; almeno 1 turno `"user"`, al massimo 3; non più di 3 turni `"character"` consecutivi; ogni turno `"character"` ha `character_id` valido in `theme-meta.json` e `text.it/en` non vuoti; ogni turno `"user"` ha `prompt.it/en`, `options.length ∈ {2, 3}` con `it/en` non vuoti, `correct_index === 0`, `feedback_wrong.it/en` non vuoti; `feedback_wrong.en` senza emoji decorativi.
-- [ ] `character_layout_override`, se presente, ∈ `{"compact_corner"}` o `null`. **[P2, warning fino a P2.d]**
+- [ ] `character_layout_override`, se presente, ∈ `{"compact_corner"}` o `null`. **[P2, warning fino a D2]**
 - [ ] Attività `build` dovrebbero avere `character_layout_override: "compact_corner"` (raccomandazione). **[P2, warning]**
 
 ### 13.7 challenge.json
@@ -1416,26 +1416,26 @@ Script riutilizzabile che legge theme-meta + unit-meta e genera scheletri lesson
 
 ## 15. Estensione P2 — stato transitorio
 
-Questa sezione esiste solo finché P2 è in corso. Si elimina quando P2.d è chiuso e i warning diventano bloccanti.
+Questa sezione esiste solo finché P2 è in corso. Si elimina quando D2 è chiuso e i warning diventano bloccanti.
 
 ### 15.1 Cosa è stato esteso in P2.b
 
 | Campo | Dove | Obbligatorietà | Severity check |
 |---|---|---|---|
-| `context` | `theme-meta.json` | Obbligatorio | Warning fino a P2.d |
-| `anglo_traps` | `theme-meta.json` | Obbligatorio (min 1) | Warning fino a P2.d |
-| `context_override` | `unit-meta.json` | Opzionale | Warning fino a P2.d |
-| `cultural_insights` | `unit-meta.json` | Obbligatorio (min 1) | Warning fino a P2.d |
-| `character_layout_override` | activity | Opzionale | Warning fino a P2.d |
-| `cultural_insights` | `lesson.json` | Opzionale, max 1 | Warning fino a P2.d |
+| `context` | `theme-meta.json` | Obbligatorio | Warning fino a D2 |
+| `anglo_traps` | `theme-meta.json` | Obbligatorio (min 1) | Warning fino a D2 |
+| `context_override` | `unit-meta.json` | Opzionale | Warning fino a D2 |
+| `cultural_insights` | `unit-meta.json` | Obbligatorio (min 1) | Warning fino a D2 |
+| `character_layout_override` | activity | Opzionale | Warning fino a D2 |
+| `cultural_insights` | `lesson.json` | Opzionale, max 1 | Warning fino a D2 |
 
 ### 15.2 Perché warning e non bloccanti subito
 
-Le due lezioni v2 già live (L1 + L2 Saluti, commit `2d742a5` e precedenti) non hanno ancora questi campi. Se il validator partisse bloccante su v2 nuovo, qualsiasi commit su quei file verrebbe rifiutato finché P2.d non li aggiorna. Scelta: warning di default, bloccanti dopo che P2.d chiude e allinea i file del pilota.
+Le due lezioni v2 già live (L1 + L2 Saluti, commit `2d742a5` e precedenti) non hanno ancora questi campi. Se il validator partisse bloccante su v2 nuovo, qualsiasi commit su quei file verrebbe rifiutato finché D2 non li aggiorna. Scelta: warning di default, bloccanti dopo che D2 chiude e allinea i file del pilota.
 
 ### 15.3 Switch a bloccante
 
-Quando P2.d è chiuso e mergiato, aggiornare `scripts/validate-lessons.py` rimuovendo il flag warning e trasformando i check in errori. Commit suggerito: `validator: P2 checks become blocking after P2.d`. Contestualmente, questa sezione §15 può essere eliminata dal documento.
+Quando D2 è chiuso e mergiato, aggiornare `scripts/validate-lessons.py` rimuovendo il flag warning e trasformando i check in errori. Commit suggerito: `validator: P2 checks become blocking after D2`. Contestualmente, questa sezione §15 può essere eliminata dal documento.
 
 ### 15.4 Riferimenti
 
