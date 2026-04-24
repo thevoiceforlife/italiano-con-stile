@@ -1861,3 +1861,56 @@ Le regole non sono morali. Sono ingegneria: rendono il sistema CC+utente affidab
 ---
 
 *Documento nato dalla sessione del 21/4/2026 dopo pilota v2 L1 Saluti. Revisioni attese quando nuovi pattern CC emergono.*
+
+
+## [2026-04-22] Regole runtime v2 — shouldRenderEN, iconografia piazza, schema lowercase
+
+Tre regole documentate a posteriori. Erano attive in produzione ma mai scritte in bibbia — gap segnalato dall'audit del 19/4/2026 e chiuso qui.
+
+### 1. `shouldRenderEN` — dedup bilingue a runtime
+
+**Regola.** Prima di renderizzare una riga EN accanto alla sua gemella IT, chiamare `shouldRenderEN(it, en)`. La funzione confronta le due stringhe normalizzate; se coincidono, ritorna `false` e la riga EN non viene renderizzata.
+
+**Dove vive oggi.** Funzione inline in `app/lesson/[livello]/[unita]/[lezione]/page.js` (riga 135). Usata in tre punti dello stesso file: domanda EN, feedback EN, q-card EN.
+
+**Debito tecnico noto.** La funzione dovrebbe vivere in `lib/shouldRenderEN.js` per essere riutilizzabile. Altri 12 componenti domanda non la stanno usando e ripetono la logica di dedup ad hoc o non la fanno affatto. Estrazione pianificata fuori dallo scope F2; va fatta quando toccheremo code splitting di `page.js` (P6 audit, LOW priority).
+
+**Quando applicarla.** Ovunque ci sia un campo bilingue `{it, en}` renderizzato in due righe visibili: feedback_ok, feedback_err, opzioni, intro, domanda, prompt contesto. Se scrivi un nuovo componente domanda, non saltare `shouldRenderEN` pensando "tanto il mio JSON è ben scritto" — serve anche come protezione dai 391 feedbackErr IT==EN ereditati nelle unit5-15.
+
+**Perché esiste.** Audit del 19/4/2026: 391 feedbackErr generati con IT identico all'EN nelle unit5-15 (53% del totale). Rigenerazione dati = P1 HIGH dell'audit, non ancora eseguita. `shouldRenderEN` è il cerotto runtime che protegge l'esperienza utente finché i dati non saranno ri-tradotti. Non è un sostituto del bilingue — è una rete che cattura le eco.
+
+**Cosa NON è.** Non è un interruttore "monolingue di default". Se un domani si volesse rendere EN opzionale come feature utente, è un'altra decisione, non passa da qui.
+
+### 2. Iconografia piazza = ⛲
+
+**Regola.** L'icona canonica della "piazza" italiana è la fontana (⛲), non il frontone classico (🏛️). Vale in: vocabolario (`vocab.emoji`), opzioni di attività che citano "piazza", thumbnail percorso, ovunque la piazza appaia come entità iconica.
+
+**Perché ⛲ e non 🏛️.** 🏛️ rappresenta architettura pubblica classica (parlamenti, musei, tribunali) — nel vocabolario A1 italiano è la scelta naturale per "museo". La piazza italiana invece ha la fontana come elemento visivo di ancoraggio (Piazza Navona, Piazza della Signoria, Piazza del Plebiscito). Usare 🏛️ per entrambe crea confusione iconica: due parole diverse con lo stesso segnale visivo.
+
+**Stato attuale.** Fix applicato al vocabolario il 19/4 (commit `22e8e8d`). **Bug residuo**: 12 opzioni in unit5 (boss q1/q4/q7, lesson1 q7/q8, lesson3 q1, lesson5 q4/q8) hanno ancora 🏛️ per "La piazza". Documentato in `reports/audit-completo.md` PARTE 2. Fix rinviato alla migrazione A1 legacy, non bloccante per il pilota v2.
+
+**Per nuovi contenuti.** Sempre ⛲ dal primo byte scritto. Il validator v2 (quando esteso per coprire emoji-vocab coerenza) dovrebbe enforzarlo come BLOCKING.
+
+### 3. Schema path lowercase (v2)
+
+**Regola.** Tutti i path di contenuto v2 sono interamente lowercase:
+
+```
+data/lessons/{level}/theme{NN}-{slug}/unit{N}/lesson{N}.json
+```
+
+- `level` in lowercase: `a1`, non `A1`
+- `slug` in kebab-case: `theme01-saluti`, non `theme01-Saluti` né `tema01_saluti`
+- numeri con padding a 2 cifre per il tema: `theme01`, non `theme1`
+- numero unità e lezione senza padding: `unit1`, `lesson1` (non `unit01`)
+
+Esempio canonico: `data/lessons/a1/theme01-saluti/unit1/lesson2.json`.
+
+**Contenuto A1 legacy.** Resta in mixed case (`data/lessons/A1/unit1/lesson1.json`). Nessuna migrazione retroattiva prevista nel pilota v2 — convivenza pacifica dei due pattern.
+
+**Perché esiste.** Commit `9f72a8b`. Motivazioni:
+1. Vercel (Linux) è case-sensitive sui path. Un import che dice `A1` contro un file su disco `a1` funziona in locale macOS (case-insensitive) e 404 in produzione. Lowercase rigoroso chiude la classe.
+2. URL coerenti: se domani i path di contenuto diventano parte di URL pubbliche, lowercase è la convenzione web.
+3. Prevenzione drift: `a1` è l'unica forma accettata; nessun dubbio tra `A1`, `A-1`, `a1`, `level-a1`.
+
+**Vincolo per il loader.** Il router Next.js v2 (da implementare) deve accettare entrambi i pattern durante la transizione. Logica proposta: path lowercase esiste → carica v2; altrimenti fallback al pattern legacy mixed-case. Finché il loader v2 non esiste, i file v2 su disco sono dormienti (come L2 Saluti oggi).
