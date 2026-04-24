@@ -1,10 +1,9 @@
 # Schema Lezione v2 — Italiano con Stile
 
-**Status**: P1 + P2 deliverable — schema ufficiale della matrice v2
-**Data P1**: 20 Aprile 2026
-**Data P2**: 21 Aprile 2026
-**Fonte di decisione**: `docs/decisioni-architettura-v2.md`
-**Commit base di riferimento**: `6027f42` (P1), commit corrente (P2)
+**Status**: P1 deliverable + P2 extension (warning mode)
+**Data**: 20 Aprile 2026 · esteso 24 Aprile 2026 (P2.b)
+**Fonte di decisione**: `docs/decisioni-architettura-v2.md` · `docs/P2-roadmap.md`
+**Commit base di riferimento**: `6027f42`
 
 ---
 
@@ -22,9 +21,11 @@ Serve a:
 
 Questo documento **non copre**:
 
+- Il design UX delle 3 attività nuove (`decision`, `why`, `dialogue`) — responsabilità di P2.c/P2.e
 - Il contenuto delle lezioni (copy, vocab specifici per tema) — responsabilità di S4 e successive
 - La migrazione del contenuto A1 esistente — decisione separata
 - L'implementazione dei componenti React per le attività nuove — il contratto dati è qui, il codice segue in fase separata
+- Il contenuto testuale delle pillole culturali e delle trappole anglofono — responsabilità di P2.f
 
 ---
 
@@ -44,6 +45,7 @@ Questo documento **non copre**:
 12. [Esempio canonico compilato](#12-esempio-canonico-compilato)
 13. [Checklist validator](#13-checklist-validator)
 14. [Estensioni future possibili](#14-estensioni-future-possibili)
+15. [Estensione P2 — stato transitorio](#15-estensione-p2--stato-transitorio)
 
 ---
 
@@ -176,6 +178,23 @@ Definisce il tema, i 5 personaggi coinvolti e la reward finale del tema.
     "en": "Learn to greet, introduce yourself, and recognize formal vs informal register."
   },
   "distribution_version": "soft",
+  "context": {
+    "emoji": "☕",
+    "place": { "it": "Al Bar di Mario", "en": "Mario's Bar" },
+    "city":  { "it": "Napoli",          "en": "Naples" },
+    "time":  { "it": "mattina",         "en": "morning" }
+  },
+  "anglo_traps": [
+    {
+      "id": "good_morning_vs_buongiorno",
+      "trap": { "en": "Good morning works only until ~12:00-13:00 in Italy" },
+      "tip": {
+        "it": "Dopo pranzo è già Buon pomeriggio o Buonasera",
+        "en": "After lunch, it's already Buon pomeriggio or Buonasera"
+      },
+      "trigger_contexts": ["saluto_contestuale"]
+    }
+  ],
   "characters": [
     {
       "id": "mario",
@@ -243,6 +262,14 @@ Definisce il tema, i 5 personaggi coinvolti e la reward finale del tema.
 - Il `teaser_in_challenge` del co-protagonist di U`N` è sempre `"u{N-1}"`.
 - `activity_restriction` di un `co_protagonist` è sempre il complemento di `["match", "mcq"]` (regola "Mario conduce match+mcq ovunque").
 - `distribution_version` deriva da `theme_number`: 1-10 soft, 11-30 standard, 31-50 advanced.
+
+**Regole enforced (P2 extension — warning fino a P2.d)**:
+
+- `context.emoji`, `context.place.it/en`, `context.time.it/en` presenti e non vuoti.
+- `context.city` nullable (es. T12 "Al telefono" non ha luogo fisico). Se presente, `city.it/en` entrambi non vuoti.
+- `anglo_traps.length >= 1`.
+- Ogni trap ha `id` snake_case unico entro il tema, `trap.en` non vuoto, `tip.it`+`tip.en` non vuoti.
+- `trigger_contexts` di ogni trap è array non vuoto di `context_type` esistenti nella taxonomy (`data/taxonomy/semantic-coherence-A1.yaml`). Context non validi → warning.
 
 ---
 
@@ -318,6 +345,25 @@ Definisce il vocabolario dell'unità (6 parole) e la reward di completamento.
     }
   ],
   "inherited_vocab": [],
+  "context_override": {
+    "time": { "it": "mattina presto", "en": "early morning" }
+  },
+  "cultural_insights": [
+    {
+      "id": "per_favore_al_bar",
+      "emoji": "☕",
+      "title": {
+        "it": "Al bar italiano, «per favore» crea cliente abituale.",
+        "en": "At the Italian bar, «per favore» creates a regular."
+      },
+      "body": {
+        "it": "Se entri e dici solo «Un caffè», il barista te lo fa. Se aggiungi «per favore», la seconda volta ti riconosce. In Italia la cortesia al bar non è formalità — è il modo in cui si diventa abituali.",
+        "en": "If you walk in and just say «Un caffè», the barista makes it. If you add «per favore», the second time he recognizes you. In Italy, politeness at the bar isn't formality — it's how you become a regular."
+      },
+      "trigger_vocab_refs": ["a1_t01_u1_per_favore"],
+      "trigger_contexts": []
+    }
+  ],
   "reward_unit_complete": {
     "kind": "dish",
     "id": "pizza_margherita",
@@ -331,9 +377,9 @@ Definisce il vocabolario dell'unità (6 parole) e la reward di completamento.
 }
 ```
 
-**Campi obbligatori**: `unit_id`, `unit_number`, `theme_id`, `focus`, `title`, `vocabulary`, `inherited_vocab`, `reward_unit_complete`.
+**Campi obbligatori**: `unit_id`, `unit_number`, `theme_id`, `focus`, `title`, `vocabulary`, `inherited_vocab`, `reward_unit_complete`, `cultural_insights` (P2 extension).
 
-**Campo opzionale**: `register` nel singolo vocab. Presente quando narrativamente utile (Tema Saluti), omesso altrove.
+**Campi opzionali**: `register` nel singolo vocab, `context_override`.
 
 **Regole enforced**:
 
@@ -343,6 +389,17 @@ Definisce il vocabolario dell'unità (6 parole) e la reward di completamento.
 - Ogni `emoji` unica all'interno della stessa unità.
 - Tutti i `vocab_id` seguono il pattern `{theme_id}_u{N}_{slug}`.
 - `inherited_vocab` è array di `unit_id`: U1=`[]`, U2=`["a1_t01_u1"]`, ..., U5=`["a1_t01_u1", ..., "a1_t01_u4"]`.
+
+**Regole enforced (P2 extension — warning fino a P2.d)**:
+
+- `context_override`, se presente, è subset di `{emoji, place, city, time}`. Nessun altro campo ammesso.
+- Ogni campo presente in `context_override` rispetta la stessa shape del corrispondente in `theme-meta.context` (bilingue `{it, en}` per `place`/`city`/`time`, stringa per `emoji`).
+- `cultural_insights.length >= 1`.
+- Ogni insight ha `id` snake_case unico entro l'unità, `title.it`+`title.en` + `body.it`+`body.en` non vuoti.
+- `emoji` opzionale sulla singola insight.
+- Almeno uno tra `trigger_vocab_refs` e `trigger_contexts` non vuoto. Se entrambi vuoti → warning (insight senza trigger).
+- Tutti i `trigger_vocab_refs` esistono in `vocabulary` o in `inherited_vocab`.
+- Tutti i `trigger_contexts` esistono nella taxonomy.
 
 ---
 
@@ -446,6 +503,7 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
   "activity_number": 1,
   "type": "match",
   "character_id": "mario",
+  "character_layout_override": null,
   "vocab_focus": ["a1_t01_u1_ciao", "a1_t01_u1_buongiorno"],
   "intro": {
     "it": "Abbina le parole!",
@@ -463,7 +521,7 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
 }
 ```
 
-**Campi obbligatori**: tutti.
+**Campi obbligatori**: tutti tranne `character_layout_override` (opzionale).
 
 **Eccezione feedback**: `match`, `decision`, `why` e `dialogue` possono avere feedback a granularità più fine dentro `data` (per branch, per ipotesi, per turno, per coppia). In quel caso `feedback_ok`/`feedback_err` del guscio sono comunque obbligatori come fallback. Per `mcq`, `listen`, `build`, `fill` il feedback vive solo nel guscio.
 
@@ -477,6 +535,11 @@ Tutti gli 8 tipi di attività condividono questo guscio. La parte type-specifica
 - `intro.it` e `intro.en` non vuoti.
 - `feedback_err.en` non contiene emoji (regola bibbia, ereditata).
 - `activity_number` univoco all'interno della lezione, da 1 a 8.
+
+**Regole enforced (P2 extension — warning fino a P2.d)**:
+
+- `character_layout_override`, se presente, appartiene all'enum `{"compact_corner"}` (unico valore per ora, previsto per `build`). `null` esplicito ammesso.
+- Raccomandato (warning se violato): `character_layout_override: "compact_corner"` per tutte le attività con `type: "build"` per coerenza UX con la regola roadmap P2 §3.
 
 ---
 
@@ -1260,6 +1323,8 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `distribution_version` coerente con `theme_number`.
 - [ ] `teaser_in_challenge` di co-protagonist U`N` = `"u{N-1}"`.
 - [ ] `activity_restriction` co-protagonist = complemento di `["match", "mcq"]`.
+- [ ] `context` presente: `emoji`, `place.it/en`, `time.it/en` non vuoti; `city` nullable ma se presente bilingue non vuoto. **[P2, warning fino a P2.d]**
+- [ ] `anglo_traps.length >= 1`; ogni trap ha `id` unico, `trap.en` non vuoto, `tip.it/en` non vuoti, `trigger_contexts` tutti validi in taxonomy. **[P2, warning fino a P2.d]**
 
 ### 13.4 unit-meta
 
@@ -1267,6 +1332,8 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] 3 parole con `introduced_in_lesson: 1`, 3 con `: 2`.
 - [ ] Emoji uniche entro l'unità.
 - [ ] `inherited_vocab` coerente con `unit_number`.
+- [ ] `context_override`, se presente, è subset di `{emoji, place, city, time}` con stessa shape di `theme-meta.context`. **[P2, warning fino a P2.d]**
+- [ ] `cultural_insights.length >= 1`; ogni insight ha `id` unico entro unità, `title.it/en` + `body.it/en` non vuoti, trigger refs validi. **[P2, warning fino a P2.d]**
 
 ### 13.5 lesson.json
 
@@ -1289,6 +1356,8 @@ Check strutturali che il validator deve enforzare quando la v2 entra in produzio
 - [ ] `decision`: `branches.length ∈ {2, 3}`; `correct_branch_index === 0`; ogni branch ha `action.it/en` e `outcome.it/en` non vuoti; `action.emoji` opzionale (null ammesso) e solo IT; `context_type` + `expected_answer_type` validi nella taxonomy; `outcome.en` senza emoji decorativi (❌/✅ strutturali ammessi).
 - [ ] `why`: `pattern_examples.length === 2`; ogni gruppo ha `items.length ∈ [2, 4]` con `it/en` non vuoti; `hypotheses.length ∈ {2, 3}`; `correct_hypothesis_index === 0`; `hypotheses[0].nudge === null`; per ogni `i > 0` `hypotheses[i].nudge.it/en` non vuoti; `rule_reveal.it/en` e `english_analogy.it/en` non vuoti.
 - [ ] `dialogue`: `turns.length ∈ [2, 7]`; almeno 1 turno `"user"`, al massimo 3; non più di 3 turni `"character"` consecutivi; ogni turno `"character"` ha `character_id` valido in `theme-meta.json` e `text.it/en` non vuoti; ogni turno `"user"` ha `prompt.it/en`, `options.length ∈ {2, 3}` con `it/en` non vuoti, `correct_index === 0`, `feedback_wrong.it/en` non vuoti; `feedback_wrong.en` senza emoji decorativi.
+- [ ] `character_layout_override`, se presente, ∈ `{"compact_corner"}` o `null`. **[P2, warning fino a P2.d]**
+- [ ] Attività `build` dovrebbero avere `character_layout_override: "compact_corner"` (raccomandazione). **[P2, warning]**
 
 ### 13.7 challenge.json
 
@@ -1339,6 +1408,36 @@ Espandere `data/taxonomy/semantic-coherence-A1.yaml` per coprire i temi 3-15 (at
 ### 14.5 Template generator Python
 
 Script riutilizzabile che legge theme-meta + unit-meta e genera scheletri lesson.json conformi. Oggi assente — le unit5-15 legacy furono generate one-shot senza template persistito. Da recuperare per scalare alla v2.
+
+---
+
+## 15. Estensione P2 — stato transitorio
+
+Questa sezione esiste solo finché P2 è in corso. Si elimina quando P2.d è chiuso e i warning diventano bloccanti.
+
+### 15.1 Cosa è stato esteso in P2.b
+
+| Campo | Dove | Obbligatorietà | Severity check |
+|---|---|---|---|
+| `context` | `theme-meta.json` | Obbligatorio | Warning fino a P2.d |
+| `anglo_traps` | `theme-meta.json` | Obbligatorio (min 1) | Warning fino a P2.d |
+| `context_override` | `unit-meta.json` | Opzionale | Warning fino a P2.d |
+| `cultural_insights` | `unit-meta.json` | Obbligatorio (min 1) | Warning fino a P2.d |
+| `character_layout_override` | activity | Opzionale | Warning fino a P2.d |
+
+### 15.2 Perché warning e non bloccanti subito
+
+Le due lezioni v2 già live (L1 + L2 Saluti, commit `2d742a5` e precedenti) non hanno ancora questi campi. Se il validator partisse bloccante su v2 nuovo, qualsiasi commit su quei file verrebbe rifiutato finché P2.d non li aggiorna. Scelta: warning di default, bloccanti dopo che P2.d chiude e allinea i file del pilota.
+
+### 15.3 Switch a bloccante
+
+Quando P2.d è chiuso e mergiato, aggiornare `scripts/validate-lessons.py` rimuovendo il flag warning e trasformando i check in errori. Commit suggerito: `validator: P2 checks become blocking after P2.d`. Contestualmente, questa sezione §15 può essere eliminata dal documento.
+
+### 15.4 Riferimenti
+
+- Roadmap completa P2.a → P2.f: `docs/P2-roadmap.md`
+- Rationale posizionamento (cultura radicata, trappole anglofono): `docs/P2-roadmap.md` §1
+- Rationale UX personaggio persistente + pillole: `docs/P2-roadmap.md` §2-3
 
 ---
 

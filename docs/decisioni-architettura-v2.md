@@ -311,6 +311,22 @@ Le altre 24 parole distribuite nelle 5 unità saranno definite in fase di scritt
 - Max 2 righe
 - Pattern/WHY è una attività dedicata alla regola, NON una sezione del feedback generico
 
+### Contesto geotemporale (P2)
+
+Ogni tema dichiara un `context` in `theme-meta.json` con `emoji`, `place`, `city` (nullable), `time`. Ogni unità può sovrascrivere uno qualsiasi di questi campi via `context_override`. La lezione eredita senza dichiarare nulla. Questo crea l'ancoraggio scenografico richiesto dalla bandiera di prodotto "cultura radicata" (vedi `P2-roadmap.md` §1).
+
+Rendering header tipico: `{emoji} {place} — {city}, {time}`. Se `city: null` (es. T12 "Al telefono"): `{emoji} {place} — {time}`.
+
+### Trappole anglofono (P2)
+
+Ogni tema dichiara `anglo_traps` con 1-3 errori classici che gli anglofoni fanno in quel tema. Emergono nei `feedback_err` quando il `context_type` dell'esercizio corrente è tra i `trigger_contexts` della trappola. Densità runtime massima: 1 trap-feedback per lezione.
+
+Questa è la bandiera di supporto ("didattica predittiva per anglofoni") — Duolingo è generico, noi siamo targettati.
+
+### Pillole culturali (P2)
+
+Ogni unità dichiara `cultural_insights` (min 1) in `unit-meta.json`. Sono opzionali al runtime: l'utente tappa "Perché?" su un feedback per aprirle. La chiusura richiede tap esplicito su "Got it". Tono: asciutto, sorprendente, ancorato a un dettaglio specifico. Test di qualità — il "sorpresa test": un italiano adulto che legge deve dire "vero, non ci avevo pensato", non "ovvio" o "è retorica". Dettagli in `P2-roadmap.md` §2.
+
 ---
 
 ## 9. Motore — decisioni invariate dal progetto attuale
@@ -352,9 +368,20 @@ Lista personaggi aggiornata (15):
 | P3 | Distribuzione 8 attività × 6 lezioni (3 versioni) | ✅ DONE |
 | P4 | Regola personaggi | ✅ DONE |
 | P4bis | Casting Tema 1 Saluti | ✅ DONE |
-| P1 | Schema JSON nuova matrice | ⏭️ NEXT |
-| P2 | Design 3 attività nuove (Decision, WHY, Dialogue) | ⏭️ NEXT |
-| S4 | Scrittura pilota U1 Tema 1 | ⏭️ DOPO P1+P2 |
+| P1 | Schema JSON nuova matrice | ✅ DONE |
+| P2 | Design 3 attività nuove + cultura/trappole/personaggio | 🚧 IN CORSO |
+| S4 | Scrittura pilota U1 Tema 1 | ⏭️ DOPO P2 |
+
+### Stato al 24/4/2026 — Breakdown P2
+
+| Step | Descrizione | Stato |
+|---|---|---|
+| P2.a | Ritaglio 4 pose Mario + naming | 🚧 IN CORSO (parallelo) |
+| P2.b | Estensione schema v2 | 🚧 IN CORSO (in chat) |
+| P2.c | Design componenti React (doc) | ⏭️ NEXT |
+| P2.d | Aggiornamento L1+L2 Saluti con nuovi meta | ⏭️ DOPO P2.b |
+| P2.e | Implementazione React | ⏭️ DOPO P2.b + P2.c |
+| P2.f | Scrittura pillole + trappole (pilota Saluti) | ⏭️ PARALLELO A P2.e |
 
 ### Sessioni stimate per vedere pilota U1 live
 4-5 sessioni. Dopo:
@@ -382,10 +409,16 @@ Per evitare false certezze. Questi punti restano aperti:
 
 ### Checklist "cosa serve prima di partire col pilota"
 
-- [ ] P1: schema JSON definitivo della lezione v2 (campi format, activity_type, reward, challenge)
-- [ ] P2: design completo delle 3 attività nuove (Decision, Pattern/WHY, Dialogue)
+- [x] P1: schema JSON definitivo della lezione v2 (campi format, activity_type, reward, challenge) — DONE 20/4
+- [ ] P2.a: 4 pose Mario trasparenti in `public/images/characters/mario/` — IN CORSO
+- [x] P2.b: estensione schema v2 con context/anglo_traps/cultural_insights/character_layout_override — DONE 24/4 (warning mode)
+- [ ] P2.c: design componenti React (CharacterStage, LessonHeader, CulturalInsightModal) — NEXT
+- [ ] P2.d: theme-meta + unit-meta Saluti aggiornati coi nuovi campi — DOPO P2.b
+- [ ] P2.e: implementazione React componenti + page.js refactor — DOPO P2.b+P2.c
+- [ ] P2.f: prime 3 pillole + 1 trappola su theme-meta Saluti — PARALLELO A P2.e
+- [ ] Design 3 attività nuove Decision, Pattern/WHY, Dialogue (UX + shape data) — DOPO P2.a-f
 - [ ] Decisione su migrazione contenuto A1 esistente (separata)
-- [ ] Avatar Mario + Sofia + Emma + Hans + Yuki in 4 espressioni (asset pipeline)
+- [ ] Avatar Sofia + Emma + Hans + Yuki in 4 espressioni (asset pipeline) — DOPO pilota Saluti
 
 ---
 
