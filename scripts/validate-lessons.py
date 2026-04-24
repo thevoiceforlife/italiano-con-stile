@@ -444,19 +444,101 @@ def main():
                         f"options[0]={sc_result['option_0']} ({sc_result['answer_type_found']}), "
                         f"allowed={sc_result['allowed']}")
 
-    # ── 3. Valida contenuto v2 (data/lessons/*/theme*-*/unit*/lesson*.json) ──
-    v2_files = sorted(glob.glob('data/lessons/*/theme*-*/unit*/lesson*.json'))
-    for f in v2_files:
+    # ── 3. Valida contenuto v2 ──────────────────────────────────────────────
+    # 3a. Lesson files — activity shape checks (existing) + field checks (new)
+    v2_lessons = sorted(glob.glob('public/data/lessons/*/theme*-*/unit*/lesson*.json'))
+    for f in v2_lessons:
         label = '/'.join(f.split('/')[-4:])
         try:
             data = json.load(open(f, encoding='utf-8'))
         except json.JSONDecodeError as e:
             err(f"v2 {label}: JSON non valido — {e}")
             continue
+        if data.get('$schema') != 'v2':
+            continue
+        # Existing activity shape checks (decision/why/dialogue)
         for act in data.get('activities', []):
             act_errs = validate_v2_activity(act, f"v2 {label}")
             for e in act_errs:
                 err(e)
+            # C-V6: character_layout_override if present must be string in enum or null
+            clo = act.get('character_layout_override')
+            if clo is not None and clo != "compact_corner":
+                warn(f"v2 {label} [{act.get('activity_id','')}]: character_layout_override='{clo}' — deve essere 'compact_corner' o null")
+        # C-V5: cultural_insights at lesson level — optional, len ≤ 1
+        ci = data.get('cultural_insights')
+        if ci is not None:
+            if not isinstance(ci, list):
+                warn(f"v2 {label}: cultural_insights deve essere lista")
+            elif len(ci) > 1:
+                warn(f"v2 {label}: cultural_insights.length={len(ci)} > 1")
+            else:
+                for idx, item in enumerate(ci):
+                    if not isinstance(item, dict):
+                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
+                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
+
+    # 3b. Theme-meta files
+    v2_themes = sorted(glob.glob('public/data/lessons/*/theme*-*/theme-meta.json'))
+    for f in v2_themes:
+        label = '/'.join(f.split('/')[-3:])
+        try:
+            data = json.load(open(f, encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            err(f"v2 {label}: JSON non valido — {e}")
+            continue
+        if data.get('$schema') != 'v2':
+            continue
+        # C-V1: anglo_traps — list of dicts with id, trap, tip
+        at = data.get('anglo_traps')
+        if at is not None:
+            if not isinstance(at, list):
+                warn(f"v2 {label}: anglo_traps deve essere lista")
+            else:
+                for idx, item in enumerate(at):
+                    if not isinstance(item, dict):
+                        warn(f"v2 {label}: anglo_traps[{idx}] non è dict")
+                    elif not all(item.get(k) for k in ('id', 'trap', 'tip')):
+                        warn(f"v2 {label}: anglo_traps[{idx}] manca id/trap/tip")
+        # C-V2: cultural_insights — list of dicts with id, title, body
+        ci = data.get('cultural_insights')
+        if ci is not None:
+            if not isinstance(ci, list):
+                warn(f"v2 {label}: cultural_insights deve essere lista")
+            else:
+                for idx, item in enumerate(ci):
+                    if not isinstance(item, dict):
+                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
+                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
+
+    # 3c. Unit-meta files
+    v2_units = sorted(glob.glob('public/data/lessons/*/theme*-*/unit*/unit-meta.json'))
+    for f in v2_units:
+        label = '/'.join(f.split('/')[-4:])
+        try:
+            data = json.load(open(f, encoding='utf-8'))
+        except json.JSONDecodeError as e:
+            err(f"v2 {label}: JSON non valido — {e}")
+            continue
+        if data.get('$schema') != 'v2':
+            continue
+        # C-V3: cultural_insights — same as C-V2
+        ci = data.get('cultural_insights')
+        if ci is not None:
+            if not isinstance(ci, list):
+                warn(f"v2 {label}: cultural_insights deve essere lista")
+            else:
+                for idx, item in enumerate(ci):
+                    if not isinstance(item, dict):
+                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
+                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
+        # C-V4: context_override if present must be dict
+        co = data.get('context_override')
+        if co is not None and not isinstance(co, dict):
+            warn(f"v2 {label}: context_override deve essere dict")
 
     # ── Report ────────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
