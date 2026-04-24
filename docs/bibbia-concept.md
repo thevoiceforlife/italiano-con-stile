@@ -1,3 +1,17 @@
+# Bibbia Concept — Italiano con Stile
+
+> **Scope**: concept di prodotto, target utente, differenziatori, tagline, tono narrativo, personaggi come identità emotiva, posizionamento rispetto a Duolingo, roadmap di prodotto.
+>
+> **Fuori scope** (vedi `docs/bibbia-tecnica.md`): architettura tecnica, codice, JSON, validator, componenti, deployment.
+>
+> **Stato**: v5 ancorata a marzo 2026 (Sprint 3). Molte decisioni di prodotto successive (aprile 2026, v2 architettura) non sono ancora integrate qui — vedi F2.1.b in roadmap.
+>
+> **Ultimo allineamento con la realtà**: marzo 2026 (v5). Aggiornamento v6 in corso.
+>
+> **Come aggiornare**: aggiungi sezione con data in testa. Non riscrivere sezioni obsolete — marchiale con `> ⚠️ Obsoleto dal YYYY-MM-DD: vedi sezione X`.
+
+---
+
 # 📖 BIBBIA DEL PROGETTO — "Italiano con Stile"
 > Documento di riferimento per ogni nuova sessione di sviluppo.
 > Incolla questo documento all'inizio di ogni nuova conversazione con Claude.

@@ -1,3 +1,17 @@
+# Bibbia Tecnica — Italiano con Stile
+
+> **Scope**: architettura, codice, schema JSON, validator, taxonomy semantica, sistema XP/energia/crediti, componenti React, deployment.
+>
+> **Fuori scope** (vedi `docs/bibbia-concept.md`): concept di prodotto, target utente, differenziatori, tono narrativo, personaggi come identità, tagline e posizionamento.
+>
+> **Stato**: v1 con annotazioni v2 in corso. Il contenuto A1 esistente (unit1-15) segue la v1; il pilota Tema 1 Saluti segue la v2 (vedi `docs/decisioni-architettura-v2.md` e `docs/schema-lezione-v2.md` come fonti autoritative per la v2).
+>
+> **Ultimo allineamento con la realtà**: aprile 2026, commit `242e7f2`.
+>
+> **Come aggiornare**: aggiungi sezione con data in testa (`## [2026-04-XX] Titolo`). Non riscrivere sezioni obsolete — marchiale con `> ⚠️ Obsoleto dal YYYY-MM-DD: vedi sezione X`.
+
+---
+
 # ⚠️ REGOLE PEDAGOGICHE FONDAMENTALI
 
 ## Principio 1 — Il boss non introduce nulla di nuovo
