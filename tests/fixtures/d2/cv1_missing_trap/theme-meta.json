@@ -1,0 +1,12 @@
+{
+  "$schema": "v2",
+  "anglo_traps": [
+    {
+      "id": "x",
+      "tip": {
+        "it": "Y",
+        "en": "Z"
+      }
+    }
+  ]
+}

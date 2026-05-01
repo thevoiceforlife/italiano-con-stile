@@ -1,0 +1,9 @@
+{
+  "$schema": "v2",
+  "context_override": {
+    "time": {
+      "it": "mattina",
+      "en": "morning"
+    }
+  }
+}

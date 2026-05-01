@@ -1,0 +1,15 @@
+{
+  "$schema": "v2",
+  "cultural_insights": [
+    {
+      "title": {
+        "it": "T",
+        "en": "T"
+      },
+      "body": {
+        "it": "B",
+        "en": "B"
+      }
+    }
+  ]
+}

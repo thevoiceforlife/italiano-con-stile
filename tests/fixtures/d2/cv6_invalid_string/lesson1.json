@@ -1,0 +1,9 @@
+{
+  "$schema": "v2",
+  "activities": [
+    {
+      "activity_id": "a1",
+      "character_layout_override": "other_value"
+    }
+  ]
+}

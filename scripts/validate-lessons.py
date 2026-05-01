@@ -333,6 +333,69 @@ def validate_v2_activity(activity, ref):
         return []
 
 
+# ── v2 file-type check functions (shared by main glob + CLI single-file) ──
+
+def check_theme_meta_v2(data, label):
+    """C-V1: anglo_traps + C-V2: cultural_insights on theme-meta."""
+    at = data.get('anglo_traps')
+    if at is not None:
+        if not isinstance(at, list):
+            err(f"{label}: anglo_traps deve essere lista")
+        else:
+            for idx, item in enumerate(at):
+                if not isinstance(item, dict):
+                    err(f"{label}: anglo_traps[{idx}] non è dict")
+                elif not all(item.get(k) for k in ('id', 'trap', 'tip')):
+                    err(f"{label}: anglo_traps[{idx}] manca id/trap/tip")
+    ci = data.get('cultural_insights')
+    if ci is not None:
+        if not isinstance(ci, list):
+            err(f"{label}: cultural_insights deve essere lista")
+        else:
+            for idx, item in enumerate(ci):
+                if not isinstance(item, dict):
+                    err(f"{label}: cultural_insights[{idx}] non è dict")
+                elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                    err(f"{label}: cultural_insights[{idx}] manca id/title/body")
+
+
+def check_unit_meta_v2(data, label):
+    """C-V3: cultural_insights + C-V4: context_override on unit-meta."""
+    ci = data.get('cultural_insights')
+    if ci is not None:
+        if not isinstance(ci, list):
+            err(f"{label}: cultural_insights deve essere lista")
+        else:
+            for idx, item in enumerate(ci):
+                if not isinstance(item, dict):
+                    err(f"{label}: cultural_insights[{idx}] non è dict")
+                elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                    err(f"{label}: cultural_insights[{idx}] manca id/title/body")
+    co = data.get('context_override')
+    if co is not None and not isinstance(co, dict):
+        err(f"{label}: context_override deve essere dict")
+
+
+def check_lesson_v2(data, label):
+    """C-V5: cultural_insights (len<=1) + C-V6: character_layout_override on lesson."""
+    ci = data.get('cultural_insights')
+    if ci is not None:
+        if not isinstance(ci, list):
+            err(f"{label}: cultural_insights deve essere lista")
+        elif len(ci) > 1:
+            err(f"{label}: cultural_insights.length={len(ci)} > 1")
+        else:
+            for idx, item in enumerate(ci):
+                if not isinstance(item, dict):
+                    err(f"{label}: cultural_insights[{idx}] non è dict")
+                elif not all(item.get(k) for k in ('id', 'title', 'body')):
+                    err(f"{label}: cultural_insights[{idx}] manca id/title/body")
+    for act in data.get('activities', []):
+        clo = act.get('character_layout_override')
+        if clo is not None and clo != "compact_corner":
+            err(f"{label} [{act.get('activity_id','')}]: character_layout_override='{clo}' — deve essere 'compact_corner' o null")
+
+
 def main():
     global errors, warnings
     errors = []
@@ -461,23 +524,8 @@ def main():
             act_errs = validate_v2_activity(act, f"v2 {label}")
             for e in act_errs:
                 err(e)
-            # C-V6: character_layout_override if present must be string in enum or null
-            clo = act.get('character_layout_override')
-            if clo is not None and clo != "compact_corner":
-                warn(f"v2 {label} [{act.get('activity_id','')}]: character_layout_override='{clo}' — deve essere 'compact_corner' o null")
-        # C-V5: cultural_insights at lesson level — optional, len ≤ 1
-        ci = data.get('cultural_insights')
-        if ci is not None:
-            if not isinstance(ci, list):
-                warn(f"v2 {label}: cultural_insights deve essere lista")
-            elif len(ci) > 1:
-                warn(f"v2 {label}: cultural_insights.length={len(ci)} > 1")
-            else:
-                for idx, item in enumerate(ci):
-                    if not isinstance(item, dict):
-                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
-                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
-                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
+        # C-V5 + C-V6
+        check_lesson_v2(data, f"v2 {label}")
 
     # 3b. Theme-meta files
     v2_themes = sorted(glob.glob('public/data/lessons/*/theme*-*/theme-meta.json'))
@@ -490,28 +538,7 @@ def main():
             continue
         if data.get('$schema') != 'v2':
             continue
-        # C-V1: anglo_traps — list of dicts with id, trap, tip
-        at = data.get('anglo_traps')
-        if at is not None:
-            if not isinstance(at, list):
-                warn(f"v2 {label}: anglo_traps deve essere lista")
-            else:
-                for idx, item in enumerate(at):
-                    if not isinstance(item, dict):
-                        warn(f"v2 {label}: anglo_traps[{idx}] non è dict")
-                    elif not all(item.get(k) for k in ('id', 'trap', 'tip')):
-                        warn(f"v2 {label}: anglo_traps[{idx}] manca id/trap/tip")
-        # C-V2: cultural_insights — list of dicts with id, title, body
-        ci = data.get('cultural_insights')
-        if ci is not None:
-            if not isinstance(ci, list):
-                warn(f"v2 {label}: cultural_insights deve essere lista")
-            else:
-                for idx, item in enumerate(ci):
-                    if not isinstance(item, dict):
-                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
-                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
-                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
+        check_theme_meta_v2(data, f"v2 {label}")
 
     # 3c. Unit-meta files
     v2_units = sorted(glob.glob('public/data/lessons/*/theme*-*/unit*/unit-meta.json'))
@@ -524,21 +551,7 @@ def main():
             continue
         if data.get('$schema') != 'v2':
             continue
-        # C-V3: cultural_insights — same as C-V2
-        ci = data.get('cultural_insights')
-        if ci is not None:
-            if not isinstance(ci, list):
-                warn(f"v2 {label}: cultural_insights deve essere lista")
-            else:
-                for idx, item in enumerate(ci):
-                    if not isinstance(item, dict):
-                        warn(f"v2 {label}: cultural_insights[{idx}] non è dict")
-                    elif not all(item.get(k) for k in ('id', 'title', 'body')):
-                        warn(f"v2 {label}: cultural_insights[{idx}] manca id/title/body")
-        # C-V4: context_override if present must be dict
-        co = data.get('context_override')
-        if co is not None and not isinstance(co, dict):
-            warn(f"v2 {label}: context_override deve essere dict")
+        check_unit_meta_v2(data, f"v2 {label}")
 
     # ── Report ────────────────────────────────────────────────────────────────
     print(f"\n{'='*55}")
@@ -563,5 +576,41 @@ def main():
         sys.exit(0)
 
 
+def validate_single_v2(filepath):
+    """Validate a single v2 JSON file. Returns (errors, warnings)."""
+    global errors, warnings
+    errors = []
+    warnings = []
+
+    try:
+        data = json.load(open(filepath, encoding='utf-8'))
+    except json.JSONDecodeError as e:
+        err(f"{filepath}: JSON non valido — {e}")
+        return errors, warnings
+
+    if data.get('$schema') != 'v2':
+        return errors, warnings
+
+    label = f"v2 {filepath}"
+    basename = os.path.basename(filepath)
+
+    if basename == 'theme-meta.json':
+        check_theme_meta_v2(data, label)
+    elif basename == 'unit-meta.json':
+        check_unit_meta_v2(data, label)
+    elif basename.startswith('lesson'):
+        check_lesson_v2(data, label)
+
+    return errors, warnings
+
+
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        filepath = sys.argv[1]
+        errs, warns = validate_single_v2(filepath)
+        if errs:
+            for e in errs:
+                print(e)
+            sys.exit(1)
+        sys.exit(0)
     main()

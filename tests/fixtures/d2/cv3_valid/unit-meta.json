@@ -1,0 +1,18 @@
+{
+  "$schema": "v2",
+  "cultural_insights": [
+    {
+      "id": "test_insight",
+      "title": {
+        "it": "Titolo",
+        "en": "Title"
+      },
+      "body": {
+        "it": "Corpo",
+        "en": "Body"
+      },
+      "trigger_vocab_refs": [],
+      "trigger_contexts": []
+    }
+  ]
+}

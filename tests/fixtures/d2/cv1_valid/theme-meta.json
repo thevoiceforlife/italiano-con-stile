@@ -1,0 +1,16 @@
+{
+  "$schema": "v2",
+  "anglo_traps": [
+    {
+      "id": "test_trap",
+      "trap": {
+        "en": "Test trap"
+      },
+      "tip": {
+        "it": "Suggerimento",
+        "en": "Tip"
+      },
+      "trigger_contexts": []
+    }
+  ]
+}
